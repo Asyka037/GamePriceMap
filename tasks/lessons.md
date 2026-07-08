@@ -6,3 +6,4 @@
 - CheapShark 会拒绝通用 User-Agent；后续所有抓取脚本必须统一使用项目级 HTTP helper 注入真实描述性 UA，避免某个脚本绕过公共 helper。
 - 文档中的实时数量（如 Nintendo Europe 折扣条目数）只能作为核验样例，不应作为稳定验收标准。
 - 记录外部端点行为时必须带上**触发条件和测试日期**，否则复核会产生假冲突：Steam appdetails 组合 filters 单 appid 是 200、批量 appids 是 400——"组合 filters 会 400"和"组合 filters 能用"都对了一半。复核他人的端点结论时，先还原对方的请求条件（单/批量、参数、UA）再下结论。
+- CheapShark `cheapestPriceEver` 会把 Epic 限免等赠送记录当成 $0.00 史低返回；聚合器语义里"赠送"不等于"售价"，任何外部史低种子必须拒绝 ≤0 的值。发现方式：validate 闸门的 `atl>0` 断言在首日就拦住了两条脏数据——校验器先于直觉。

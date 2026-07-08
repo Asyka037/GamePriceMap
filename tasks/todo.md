@@ -4,16 +4,16 @@
 > 执行者：CodeX。每完成一项打勾并 commit；每个 Phase 结束向用户汇报。
 
 ## Phase 0：仓库与骨架
-- [ ] T0.1 目录结构 + package.json + editorconfig/gitignore
-- [ ] T0.2 复用 rates.mjs + 提炼公共 http.mjs（描述性 UA/重试/超时）
-- [ ] T0.3 GitHub 仓库创建与首推（需用户授权）
+- [x] T0.1 目录结构 + package.json + editorconfig/gitignore
+- [x] T0.2 复用 rates.mjs + 提炼公共 http.mjs（描述性 UA/重试/超时）
+- [x] T0.3 GitHub 仓库创建与首推（用户提供 https://github.com/Asyka037/GamePriceMap 并授权）
 
 ## Phase 1：Steam 区域价管线
-- [ ] T1.1 catalog.json 首批 ~40 条
-- [ ] T1.2 scrape-steam.mjs（fixtures 单测先行 → 真网验证）
-- [ ] T1.3 build-history.mjs（事件化历史 + CheapShark ATL 种子）
-- [ ] T1.4 validate.mjs 校验闸门
-- [ ] T1.5 daily.yml 跑通（rates→steam→history→validate→commit）
+- [x] T1.1 catalog.json 首批 42 条（msrpUsd 按 YAGNI 移除，US 快照价即基准）
+- [x] T1.2 scrape-steam.mjs（fixtures 单测先行 → 真网验证 42/42）
+- [x] T1.3 build-history.mjs（事件化历史 + CheapShark ATL 种子，幂等已验证）
+- [x] T1.4 validate.mjs 校验闸门（篡改拦截 exit 1 已验证）
+- [ ] T1.5 daily.yml 跑通（本地全链路已验证；**待远端 workflow_dispatch 实跑确认**）
 
 ## Phase 2：eShop 管线与 NSUID 发现
 - [ ] T2.1 discover-nsuid.mjs（EU/JP/US 三组发现，人工确认写回）
@@ -64,6 +64,13 @@
 - **Steam 组合 filters：双方各对一半，已按实测改写方案 §2.1。** 复测矩阵（单/批量 × filters 组合）结论：单 appid + 组合 filters 返回 200 且字段完整（审计正确）；**批量 appids + 任何组合 filters 仍然 400**（原方案约束真实存在，审计测试缺批量场景）。价格抓取走批量，约束保留；表述改为带单/批量条件 + 测试日期。
 - 采纳并已写入方案：EU 折扣数标注为样例（§2.2）、UA 占位符禁入 Phase 0 验收（T0.2）、validate.mjs 明确"从零实现禁止照搬"（§4.4，原方案断言清单不变）、区域页免责 note-box（T4.3）、Epic free-now/upcoming 区分（§2.4 + T3.1）、Actions 私有预算含 weekly/CI/重跑 + Pages 20min 构建超时（§3）。
 - 未采纳/无需改动：validate 断言集本身（原方案 §4.4 已含价格范围/折扣范围/区域覆盖率/汇率偏差/保旧数据，审计要求与其一致）。
+
+### 2026-07-08 Phase 0 + Phase 1 执行记录（Claude）
+- 提交序列：bootstrap → T0.1 → T0.2 → T1.1 → T1.2 → T1.3 → T1.4 → T1.5，已推送 origin/main。
+- 验证输出：单测 17/17 通过；实抓 42 游戏 × 18 区零失败；史低种子 29 外部 + 13 自观测；重跑幂等（0 新事件）；validate 干净数据放行、负价格篡改 exit 1 拦截。
+- 执行中发现并修复：CheapShark `cheapestPriceEver` 对 Epic 送过的游戏（DREDGE、Ghostwire: Tokyo）返回 $0.00，若直接入库会产生"$0 史低"的误导数据——解析器现在拒绝 ≤0 的种子，已补单测（教训已记 lessons.md）。
+- 与计划的偏差：catalog 移除 msrpUsd 字段（US 快照价是唯一基准，避免双源）；rates.mjs 移植时把 process.exit(1) 改为 throw（fail-soft 归调用方）。
+- 遗留：T1.5 需在 GitHub 网页上手动 workflow_dispatch 一次确认 Actions 环境可跑（本地已全链路验证）。
 
 ## 需要用户操作的事项
 - [ ] GitHub 仓库创建/授权首推（T0.3）；决定公开或私有（方案 §3：建议公开）
