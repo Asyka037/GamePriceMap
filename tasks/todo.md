@@ -13,7 +13,7 @@
 - [x] T1.2 scrape-steam.mjs（fixtures 单测先行 → 真网验证 42/42）
 - [x] T1.3 build-history.mjs（事件化历史 + CheapShark ATL 种子，幂等已验证）
 - [x] T1.4 validate.mjs 校验闸门（篡改拦截 exit 1 已验证）
-- [ ] T1.5 daily.yml 跑通（本地全链路已验证；**待远端 workflow_dispatch 实跑确认**）
+- [x] T1.5 daily.yml 跑通（远端 workflow_dispatch 实跑 47s 成功，机器人数据提交 a8f8401 已落 main）
 
 ## Phase 2：eShop 管线与 NSUID 发现
 - [ ] T2.1 discover-nsuid.mjs（EU/JP/US 三组发现，人工确认写回）
