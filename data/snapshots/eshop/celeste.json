@@ -1,0 +1,182 @@
+{
+  "slug": "celeste",
+  "updatedAt": "2026-07-08T16:58:09.543Z",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "ARS",
+      "amount": 5999,
+      "usd": 4.02,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2160,
+      "usd": 13.32,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 260,
+      "usd": 15.97,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 160,
+      "usd": 16.32,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 33,
+      "usd": 18.75,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 26.99,
+      "usd": 19,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 339,
+      "usd": 19.38,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 99.9,
+      "usd": 19.44,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 19.99,
+      "usd": 19.99,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 30,
+      "usd": 20.8,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 80,
+      "usd": 21.26,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 19.99,
+      "usd": 22.82,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 150,
+      "usd": 22.95,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 13
+    },
+    {
+      "cc": "CO",
+      "currency": "COP",
+      "amount": 78499,
+      "usd": 23.45,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 14
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 17.99,
+      "usd": 24.04,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 15
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 28,
+      "usd": 34.66,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 16
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "resident-evil-requiem",
+  "updatedAt": "2026-07-08T16:58:09.536Z",
+  "regions": [
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 119.95,
+      "usd": 68.17,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 107.95,
+      "usd": 74.85,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 64.99,
+      "usd": 86.85,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 339,
+      "usd": 90.09,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 594,
+      "usd": 90.9,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 79.99,
+      "usd": 91.33,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 899,
+      "usd": 91.68,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 1499,
+      "usd": 92.08,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 79.9,
+      "usd": 98.92,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    }
+  ]
+}

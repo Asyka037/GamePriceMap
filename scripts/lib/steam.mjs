@@ -40,42 +40,17 @@ export function parsePriceOverview(entry) {
   };
 }
 
-/** rates: USD -> currency multipliers (open.er-api shape). */
-export function toUsd(amount, currency, rates) {
-  if (currency === 'USD') return round2(amount);
-  const rate = rates[currency];
-  if (!rate || rate <= 0) return null;
-  return round2(amount / rate);
-}
-
 /**
  * Assemble one game's regional snapshot (§4.2 schema):
  * regionPrices: { cc -> parsePriceOverview() result }.
- * Regions without a price are dropped; rows sorted by usd asc and ranked.
+ * Delegates to the shared snapshot assembler; Steam has no sale-end times.
  */
 export function buildSnapshot(slug, regionPrices, rates, now = new Date()) {
-  const regions = [];
-  for (const [cc, p] of Object.entries(regionPrices)) {
-    if (!p) continue;
-    const usd = toUsd(p.amount, p.currency, rates);
-    if (usd === null) continue;
-    regions.push({
-      cc: cc.toUpperCase(),
-      currency: p.currency,
-      amount: p.amount,
-      usd,
-      list: p.list,
-      listUsd: p.list !== null ? toUsd(p.list, p.currency, rates) : null,
-      discountPct: p.discountPct,
-      saleEndsAt: null,
-      rank: 0,
-    });
-  }
-  regions.sort((a, b) => a.usd - b.usd);
-  regions.forEach((r, i) => { r.rank = i + 1; });
-  return { slug, updatedAt: now.toISOString(), regions };
+  const rows = Object.entries(regionPrices)
+    .filter(([, p]) => p)
+    .map(([cc, p]) => ({ cc, currency: p.currency, amount: p.amount, list: p.list, discountPct: p.discountPct, saleEndsAt: null }));
+  return assembleSnapshot(slug, rows, rates, now);
 }
 
-export function round2(n) {
-  return Math.round(n * 100) / 100;
-}
+export { toUsd, round2 } from './snapshot.mjs';
+import { assembleSnapshot, round2 } from './snapshot.mjs';

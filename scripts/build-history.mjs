@@ -17,6 +17,9 @@ import { applySnapshot, seedAtl, emptyHistory } from './lib/history.mjs';
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const HIST_DIR = path.join(ROOT, 'data', 'history');
 const STEAM_SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'steam');
+const ESHOP_SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'eshop');
+const EU_SEEDS_FILE = path.join(ROOT, 'data', 'seeds', 'eshop-eu-lows.json');
+const RATES_FILE = path.join(ROOT, 'data', 'rates', 'usd.json');
 const REQUEST_DELAY_MS = 1000;
 
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog.json'), 'utf8'));
@@ -34,19 +37,38 @@ function saveHistory(h) {
   fs.writeFileSync(path.join(HIST_DIR, `${h.slug}.json`), JSON.stringify(h, null, 2) + '\n');
 }
 
-// Pass 1: apply steam snapshots.
+// Pass 1: apply steam + eshop snapshots.
+const channels = [
+  { dir: STEAM_SNAP_DIR, channel: 'steam', atlKey: 'pc' },
+  { dir: ESHOP_SNAP_DIR, channel: 'eshop', atlKey: 'eshop-us' },
+];
 const histories = new Map();
 let events = 0;
 for (const g of games) {
-  const snapPath = path.join(STEAM_SNAP_DIR, `${g.slug}.json`);
   let h = loadHistory(g.slug) ?? emptyHistory(g.slug);
-  if (fs.existsSync(snapPath)) {
+  for (const { dir, channel, atlKey } of channels) {
+    const snapPath = path.join(dir, `${g.slug}.json`);
+    if (!fs.existsSync(snapPath)) continue;
     const snapshot = JSON.parse(fs.readFileSync(snapPath, 'utf8'));
-    const res = applySnapshot(h, snapshot, { channel: 'steam', atlKey: 'pc', today });
+    const res = applySnapshot(h, snapshot, { channel, atlKey, today });
     if (res.changed) events++;
     h = res.history;
   }
   histories.set(g.slug, h);
+}
+
+// Pass 1b: EU GBP historical-low seeds from discovery (price_lowest_f, GBP).
+if (fs.existsSync(EU_SEEDS_FILE)) {
+  const seeds = JSON.parse(fs.readFileSync(EU_SEEDS_FILE, 'utf8'));
+  const gbp = JSON.parse(fs.readFileSync(RATES_FILE, 'utf8')).rates?.GBP;
+  if (gbp > 0) {
+    for (const [slug, s] of Object.entries(seeds)) {
+      if (!histories.has(slug) || s.currency !== 'GBP' || !(s.amount > 0)) continue;
+      const usd = Math.round((s.amount / gbp) * 100) / 100;
+      const res = seedAtl(histories.get(slug), 'eshop-eu', { price: usd, date: null, seed: 'eshop-eu' });
+      histories.set(slug, res.history);
+    }
+  }
 }
 
 // Pass 2: resolve missing CheapShark gameIDs (once per game).

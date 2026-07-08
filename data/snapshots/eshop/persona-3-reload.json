@@ -1,0 +1,105 @@
+{
+  "slug": "persona-3-reload",
+  "updatedAt": "2026-07-08T16:58:09.537Z",
+  "regions": [
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 649,
+      "usd": 66.18,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 119.95,
+      "usd": 68.17,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 59.99,
+      "usd": 68.5,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 449,
+      "usd": 68.71,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 259,
+      "usd": 68.83,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 99.95,
+      "usd": 69.3,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 1149,
+      "usd": 70.58,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 54.99,
+      "usd": 73.49,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 59.9,
+      "usd": 74.16,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    }
+  ]
+}

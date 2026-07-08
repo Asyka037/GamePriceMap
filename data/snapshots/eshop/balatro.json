@@ -1,0 +1,116 @@
+{
+  "slug": "balatro",
+  "updatedAt": "2026-07-08T16:58:09.540Z",
+  "regions": [
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 145,
+      "usd": 8.91,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1700,
+      "usd": 10.49,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 21.99,
+      "usd": 12.5,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 21.95,
+      "usd": 15.22,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 13.99,
+      "usd": 15.97,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 105,
+      "usd": 16.07,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 165,
+      "usd": 16.83,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 12.79,
+      "usd": 17.09,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 64.99,
+      "usd": 17.27,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 16.79,
+      "usd": 20.79,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 10
+    }
+  ]
+}

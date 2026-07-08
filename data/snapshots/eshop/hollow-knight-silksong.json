@@ -1,0 +1,182 @@
+{
+  "slug": "hollow-knight-silksong",
+  "updatedAt": "2026-07-08T16:58:09.527Z",
+  "regions": [
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 185,
+      "usd": 11.36,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 59.99,
+      "usd": 11.67,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 227.99,
+      "usd": 13.03,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "CO",
+      "currency": "COP",
+      "amount": 47500,
+      "usd": 14.19,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2300,
+      "usd": 14.19,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 28.99,
+      "usd": 16.48,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "AR",
+      "currency": "ARS",
+      "amount": 25842,
+      "usd": 17.33,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 25.99,
+      "usd": 18.3,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 19.99,
+      "usd": 19.99,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 29.5,
+      "usd": 20.45,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 19.5,
+      "usd": 22.27,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 16.75,
+      "usd": 22.38,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 220,
+      "usd": 22.44,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 13
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 150,
+      "usd": 22.95,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 14
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 91.99,
+      "usd": 24.45,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 15
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 21.99,
+      "usd": 27.22,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 16
+    }
+  ]
+}

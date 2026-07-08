@@ -6,6 +6,11 @@
       "usd": 16.74,
       "date": "2026-05-07",
       "seed": "cheapshark"
+    },
+    "eshop-eu": {
+      "usd": 28.05,
+      "date": null,
+      "seed": "eshop-eu"
     }
   },
   "events": [

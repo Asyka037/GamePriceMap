@@ -1,0 +1,116 @@
+{
+  "slug": "dredge",
+  "updatedAt": "2026-07-08T16:58:09.539Z",
+  "regions": [
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1028,
+      "usd": 6.34,
+      "list": 2570,
+      "listUsd": 15.85,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-18T14:59:59Z",
+      "rank": 1
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 15.98,
+      "usd": 9.08,
+      "list": 39.95,
+      "listUsd": 22.7,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T11:59:59Z",
+      "rank": 2
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 13.98,
+      "usd": 9.69,
+      "list": 34.95,
+      "listUsd": 24.23,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T13:59:59Z",
+      "rank": 3
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 99,
+      "usd": 10.1,
+      "list": 249,
+      "listUsd": 25.39,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z",
+      "rank": 4
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 179.6,
+      "usd": 11.03,
+      "list": 449,
+      "listUsd": 27.58,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z",
+      "rank": 5
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 74.25,
+      "usd": 11.36,
+      "list": 186,
+      "listUsd": 28.46,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z",
+      "rank": 6
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 9.99,
+      "usd": 11.41,
+      "list": 24.99,
+      "listUsd": 28.53,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z",
+      "rank": 7
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 43.6,
+      "usd": 11.59,
+      "list": 109,
+      "listUsd": 28.97,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z",
+      "rank": 8
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 8.79,
+      "usd": 11.75,
+      "list": 21.99,
+      "listUsd": 29.39,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T22:59:59Z",
+      "rank": 9
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 10.36,
+      "usd": 12.83,
+      "list": 25.9,
+      "listUsd": 32.07,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z",
+      "rank": 10
+    }
+  ]
+}

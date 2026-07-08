@@ -26,6 +26,9 @@ jobs:
       - name: Scrape Steam regional prices (writes rates + snapshots)
         run: npm run scrape:steam
 
+      - name: Scrape eShop regional prices (reuses fresh rates)
+        run: npm run scrape:eshop
+
       - name: Evolve price history + ATL seeds
         run: npm run history
 

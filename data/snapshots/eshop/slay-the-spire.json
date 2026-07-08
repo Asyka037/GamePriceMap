@@ -1,0 +1,149 @@
+{
+  "slug": "slay-the-spire",
+  "updatedAt": "2026-07-08T16:58:09.545Z",
+  "regions": [
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2570,
+      "usd": 15.85,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 24.99,
+      "usd": 17.59,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 19.99,
+      "usd": 19.99,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 349.99,
+      "usd": 20.01,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 39.95,
+      "usd": 22.7,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 239,
+      "usd": 24.37,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 399,
+      "usd": 24.51,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 37.95,
+      "usd": 26.31,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 19.99,
+      "usd": 26.71,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 104,
+      "usd": 27.64,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 24.99,
+      "usd": 28.53,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 189,
+      "usd": 28.92,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 29.9,
+      "usd": 37.02,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 13
+    }
+  ]
+}

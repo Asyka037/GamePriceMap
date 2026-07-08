@@ -1,0 +1,105 @@
+{
+  "slug": "nine-sols",
+  "updatedAt": "2026-07-08T16:58:09.542Z",
+  "regions": [
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 47.95,
+      "usd": 27.25,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 45,
+      "usd": 31.2,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 120,
+      "usd": 31.89,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 540,
+      "usd": 33.17,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 24.99,
+      "usd": 33.4,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 329,
+      "usd": 33.55,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 29.99,
+      "usd": 34.24,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 225,
+      "usd": 34.43,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 33.5,
+      "usd": 41.47,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    }
+  ]
+}

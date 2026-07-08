@@ -6,6 +6,11 @@
       "usd": 17.49,
       "date": "2026-07-08",
       "seed": "self"
+    },
+    "eshop-eu": {
+      "usd": 39.42,
+      "date": null,
+      "seed": "eshop-eu"
     }
   },
   "events": [

@@ -1,0 +1,116 @@
+{
+  "slug": "animal-well",
+  "updatedAt": "2026-07-08T16:58:09.545Z",
+  "regions": [
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 249,
+      "usd": 15.3,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2950,
+      "usd": 18.2,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 69.99,
+      "usd": 18.6,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 36.99,
+      "usd": 21.02,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 235,
+      "usd": 23.97,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 36.99,
+      "usd": 25.65,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 22.49,
+      "usd": 27.84,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 24.49,
+      "usd": 27.96,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 20.99,
+      "usd": 28.05,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 183.75,
+      "usd": 28.12,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 10
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "sea-of-stars",
+  "updatedAt": "2026-07-08T16:58:09.538Z",
+  "regions": [
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 315,
+      "usd": 19.35,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 4400,
+      "usd": 27.14,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 49.99,
+      "usd": 28.41,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 50.95,
+      "usd": 35.33,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 33.99,
+      "usd": 38.81,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 255,
+      "usd": 39.02,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 29.5,
+      "usd": 39.42,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 390,
+      "usd": 39.77,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 161.99,
+      "usd": 43.05,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 38.99,
+      "usd": 48.27,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 10
+    }
+  ]
+}

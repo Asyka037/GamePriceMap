@@ -1,0 +1,182 @@
+{
+  "slug": "hades-ii",
+  "updatedAt": "2026-07-08T16:58:09.541Z",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "ARS",
+      "amount": 13824.3,
+      "usd": 9.27,
+      "list": 19749,
+      "listUsd": 13.24,
+      "discountPct": 30,
+      "saleEndsAt": "2026-07-10T06:59:59Z",
+      "rank": 1
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 76.93,
+      "usd": 14.97,
+      "list": 109.9,
+      "listUsd": 21.38,
+      "discountPct": 30,
+      "saleEndsAt": "2026-07-10T06:59:59Z",
+      "rank": 2
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 27.29,
+      "usd": 19.21,
+      "list": 38.99,
+      "listUsd": 27.45,
+      "discountPct": 30,
+      "saleEndsAt": "2026-07-10T06:59:59Z",
+      "rank": 3
+    },
+    {
+      "cc": "CO",
+      "currency": "COP",
+      "amount": 67200,
+      "usd": 20.08,
+      "list": 96000,
+      "listUsd": 28.68,
+      "discountPct": 30,
+      "saleEndsAt": "2026-07-10T06:59:59Z",
+      "rank": 4
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 20.99,
+      "usd": 20.99,
+      "list": 29.99,
+      "listUsd": 29.99,
+      "discountPct": 30,
+      "saleEndsAt": "2026-07-10T06:59:59Z",
+      "rank": 5
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 384.3,
+      "usd": 21.97,
+      "list": 549,
+      "listUsd": 31.38,
+      "discountPct": 30,
+      "saleEndsAt": "2026-07-10T06:59:59Z",
+      "rank": 6
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 3980,
+      "usd": 24.55,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 49.5,
+      "usd": 28.13,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 300,
+      "usd": 30.59,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 117,
+      "usd": 31.09,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 45,
+      "usd": 31.2,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 540,
+      "usd": 33.17,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 24.99,
+      "usd": 33.4,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 13
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 29.99,
+      "usd": 34.24,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 14
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 225,
+      "usd": 34.43,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 15
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 32.5,
+      "usd": 40.24,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 16
+    }
+  ]
+}

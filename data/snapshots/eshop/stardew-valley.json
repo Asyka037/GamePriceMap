@@ -1,0 +1,171 @@
+{
+  "slug": "stardew-valley",
+  "updatedAt": "2026-07-08T16:58:09.521Z",
+  "regions": [
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 24.99,
+      "usd": 4.86,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 149.99,
+      "usd": 8.57,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1480,
+      "usd": 9.13,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "CO",
+      "currency": "COP",
+      "amount": 32000,
+      "usd": 9.56,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 159,
+      "usd": 9.77,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 100,
+      "usd": 10.2,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 17.99,
+      "usd": 10.22,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 16.99,
+      "usd": 11.78,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 16.99,
+      "usd": 11.96,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 10.99,
+      "usd": 14.69,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 56,
+      "usd": 14.88,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 14.99,
+      "usd": 14.99,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 13.99,
+      "usd": 15.97,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 13
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 105,
+      "usd": 16.07,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 14
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 15,
+      "usd": 18.57,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 15
+    }
+  ]
+}

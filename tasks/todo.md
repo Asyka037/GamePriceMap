@@ -16,9 +16,9 @@
 - [x] T1.5 daily.yml 跑通（远端 workflow_dispatch 实跑 47s 成功，机器人数据提交 a8f8401 已落 main）
 
 ## Phase 2：eShop 管线与 NSUID 发现
-- [ ] T2.1 discover-nsuid.mjs（EU/JP/US 三组发现，人工确认写回）
-- [ ] T2.2 scrape-eshop.mjs（16 区 + saleEndsAt + EU 史低种子）
-- [ ] T2.3 首批 NS 游戏入库 + daily.yml 增加 eshop job
+- [x] T2.1 discover-nsuid.mjs（EU/JP/US 三组发现；精确标题匹配 + 跨游戏去重守卫；21 款应用）
+- [x] T2.2 scrape-eshop.mjs（16 区 21/21 零失败 + saleEndsAt + EU £史低种子 + 通胀遗留价离群过滤）
+- [x] T2.3 21 款 NS 游戏 nsuid 入库 + daily.yml 增加 eshop step（单 job 顺序执行，单次提交无冲突，偏离计划的"双 job 间隔 30min"——原因：单仓单提交无并发冲突场景）
 
 ## Phase 3：折扣/免费/多店/日历 feeds
 - [ ] T3.1 scrape-feeds.mjs（Steam specials / EU 折扣 / CheapShark / Epic）
@@ -71,6 +71,12 @@
 - 执行中发现并修复：CheapShark `cheapestPriceEver` 对 Epic 送过的游戏（DREDGE、Ghostwire: Tokyo）返回 $0.00，若直接入库会产生"$0 史低"的误导数据——解析器现在拒绝 ≤0 的种子，已补单测（教训已记 lessons.md）。
 - 与计划的偏差：catalog 移除 msrpUsd 字段（US 快照价是唯一基准，避免双源）；rates.mjs 移植时把 process.exit(1) 改为 throw（fail-soft 归调用方）。
 - 遗留：T1.5 需在 GitHub 网页上手动 workflow_dispatch 一次确认 Actions 环境可跑（本地已全链路验证）。
+
+### 2026-07-08 Phase 2 执行记录（Claude）
+- 单测 24/24；eShop 实抓 16 区 21/21 零失败；validate 通过；重跑幂等。
+- NSUID 发现踩坑并修复（详见 lessons.md）：① 首轮 startsWith 匹配把 "Hollow Knight"→Silksong、"Hades"→HADES II，收紧为精确标题匹配（franchise 名是续作前缀）；② US 商品页 URL 猜错时 200 重定向到通用商店页，正则抓到无关 nsuid——加 res.url 校验 + 页面标题验证 + 跨游戏重复 nsuid 守卫（5 个重复项自动丢弃转人工）。
+- 数据质量决策：Nintendo API 会返回通胀遗留价（Stardew AR = 2017 年的 ARS 179.99 ≈ $0.12），快照层按"低于中位数 10%"过滤离群区域（纯函数 + 单测；Silksong AR 正常价 $17.33 正确保留）。
+- 遗留（转人工/后续）：5 款游戏 US nsuid 待手工补（sea-of-stars/dredge/balatro/nine-sols/animal-well）；cyberpunk（Switch 2 仅 Ultimate 版）、palworld 等未入 eShop；JP 有 7 款未匹配到（英文标题搜索不中，后续用日文名重试）。
 
 ## 需要用户操作的事项
 - [ ] GitHub 仓库创建/授权首推（T0.3）；决定公开或私有（方案 §3：建议公开）
