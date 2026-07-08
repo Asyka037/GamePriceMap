@@ -1,0 +1,204 @@
+{
+  "slug": "silent-hill-2",
+  "updatedAt": "2026-07-08T08:45:01.688Z",
+  "regions": [
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 1400,
+      "usd": 14.73,
+      "list": 2800,
+      "listUsd": 29.46,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 657,
+      "usd": 14.75,
+      "list": 1315,
+      "listUsd": 29.52,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 15.99,
+      "usd": 15.99,
+      "list": 31.99,
+      "listUsd": 31.99,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 16.49,
+      "usd": 16.49,
+      "list": 32.99,
+      "listUsd": 32.99,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 16.49,
+      "usd": 16.49,
+      "list": 32.99,
+      "listUsd": 32.99,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 16.49,
+      "usd": 16.49,
+      "list": 32.99,
+      "listUsd": 32.99,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 8250,
+      "usd": 17.55,
+      "list": 16500,
+      "listUsd": 35.09,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 4290,
+      "usd": 26.46,
+      "list": 8580,
+      "listUsd": 52.93,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 196,
+      "usd": 28.82,
+      "list": 392,
+      "listUsd": 57.63,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 43850,
+      "usd": 28.91,
+      "list": 87700,
+      "listUsd": 57.82,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 46.74,
+      "usd": 32.91,
+      "list": 93.49,
+      "listUsd": 65.82,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 174.95,
+      "usd": 34.04,
+      "list": 349.9,
+      "listUsd": 68.08,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 597.5,
+      "usd": 34.15,
+      "list": 1195,
+      "listUsd": 68.31,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 13
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 34.99,
+      "usd": 34.99,
+      "list": 69.99,
+      "listUsd": 69.99,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 14
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 51.25,
+      "usd": 35.53,
+      "list": 102.5,
+      "listUsd": 71.07,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 15
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 34.99,
+      "usd": 39.95,
+      "list": 69.99,
+      "listUsd": 79.91,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 16
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 29.99,
+      "usd": 40.08,
+      "list": 59.99,
+      "listUsd": 80.17,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 17
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 34.95,
+      "usd": 43.27,
+      "list": 69.9,
+      "listUsd": 86.54,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 18
+    }
+  ]
+}

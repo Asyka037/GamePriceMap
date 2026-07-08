@@ -1,0 +1,204 @@
+{
+  "slug": "sea-of-stars",
+  "updatedAt": "2026-07-08T08:45:01.688Z",
+  "regions": [
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 5.99,
+      "usd": 5.99,
+      "list": 11.99,
+      "listUsd": 11.99,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 350,
+      "usd": 7.86,
+      "list": 700,
+      "listUsd": 15.71,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 750,
+      "usd": 7.89,
+      "list": 1500,
+      "listUsd": 15.78,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 8.24,
+      "usd": 8.24,
+      "list": 16.49,
+      "listUsd": 16.49,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 8.99,
+      "usd": 8.99,
+      "list": 17.99,
+      "listUsd": 17.99,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 8.99,
+      "usd": 8.99,
+      "list": 17.99,
+      "listUsd": 17.99,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 4400,
+      "usd": 9.36,
+      "list": 8800,
+      "listUsd": 18.72,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 49.99,
+      "usd": 9.73,
+      "list": 99.99,
+      "listUsd": 19.46,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 199.95,
+      "usd": 11.43,
+      "list": 399.9,
+      "listUsd": 22.86,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 82.5,
+      "usd": 12.13,
+      "list": 165,
+      "listUsd": 24.26,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2000,
+      "usd": 12.34,
+      "list": 4000,
+      "listUsd": 24.67,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 18750,
+      "usd": 12.36,
+      "list": 37500,
+      "listUsd": 24.72,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 22.49,
+      "usd": 15.83,
+      "list": 44.99,
+      "listUsd": 31.67,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 13
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 17.49,
+      "usd": 17.49,
+      "list": 34.99,
+      "listUsd": 34.99,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 14
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 25.47,
+      "usd": 17.66,
+      "list": 50.95,
+      "listUsd": 35.33,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 15
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 16.99,
+      "usd": 19.4,
+      "list": 33.99,
+      "listUsd": 38.81,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 16
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 14.75,
+      "usd": 19.71,
+      "list": 29.5,
+      "listUsd": 39.42,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 17
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 19.49,
+      "usd": 24.13,
+      "list": 38.99,
+      "listUsd": 48.27,
+      "discountPct": 50,
+      "saleEndsAt": null,
+      "rank": 18
+    }
+  ]
+}

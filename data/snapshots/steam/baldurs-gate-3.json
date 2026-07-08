@@ -1,0 +1,204 @@
+{
+  "slug": "baldurs-gate-3",
+  "updatedAt": "2026-07-08T08:45:01.674Z",
+  "regions": [
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 674,
+      "usd": 15.13,
+      "list": 899,
+      "listUsd": 20.18,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 10500,
+      "usd": 22.33,
+      "list": 14000,
+      "listUsd": 29.77,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 22.49,
+      "usd": 22.49,
+      "list": 29.99,
+      "listUsd": 29.99,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 22.49,
+      "usd": 22.49,
+      "list": 29.99,
+      "listUsd": 29.99,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 2249,
+      "usd": 23.66,
+      "list": 2999,
+      "listUsd": 31.55,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 26.24,
+      "usd": 26.24,
+      "list": 34.99,
+      "listUsd": 34.99,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 26.24,
+      "usd": 26.24,
+      "list": 34.99,
+      "listUsd": 34.99,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 149.99,
+      "usd": 29.19,
+      "list": 199.99,
+      "listUsd": 38.91,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 49500,
+      "usd": 32.63,
+      "list": 66000,
+      "listUsd": 43.51,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 223.5,
+      "usd": 32.86,
+      "list": 298,
+      "listUsd": 43.81,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 6374,
+      "usd": 39.32,
+      "list": 8499,
+      "listUsd": 52.43,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 59.99,
+      "usd": 42.23,
+      "list": 79.99,
+      "listUsd": 56.31,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 44.99,
+      "usd": 44.99,
+      "list": 59.99,
+      "listUsd": 59.99,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 13
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 67.46,
+      "usd": 46.77,
+      "list": 89.95,
+      "listUsd": 62.37,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 14
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 37.49,
+      "usd": 50.1,
+      "list": 49.99,
+      "listUsd": 66.81,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 15
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 44.99,
+      "usd": 51.37,
+      "list": 59.99,
+      "listUsd": 68.5,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 16
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 974.25,
+      "usd": 55.69,
+      "list": 1299,
+      "listUsd": 74.25,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 17
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 52.49,
+      "usd": 64.98,
+      "list": 69.99,
+      "listUsd": 86.65,
+      "discountPct": 25,
+      "saleEndsAt": null,
+      "rank": 18
+    }
+  ]
+}

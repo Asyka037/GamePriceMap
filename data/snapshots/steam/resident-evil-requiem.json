@@ -1,0 +1,204 @@
+{
+  "slug": "resident-evil-requiem",
+  "updatedAt": "2026-07-08T08:45:01.686Z",
+  "regions": [
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 1599,
+      "usd": 35.89,
+      "list": 1999,
+      "listUsd": 44.87,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 3519,
+      "usd": 37.02,
+      "list": 4399,
+      "listUsd": 46.28,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 278.4,
+      "usd": 40.93,
+      "list": 348,
+      "listUsd": 51.16,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 41.99,
+      "usd": 41.99,
+      "list": 52.49,
+      "listUsd": 52.49,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 41.99,
+      "usd": 41.99,
+      "list": 52.49,
+      "listUsd": 52.49,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 63840,
+      "usd": 42.09,
+      "list": 79800,
+      "listUsd": 52.61,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 42.4,
+      "usd": 42.4,
+      "list": 53,
+      "listUsd": 53,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 20372,
+      "usd": 43.33,
+      "list": 25465,
+      "listUsd": 54.16,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 7192,
+      "usd": 44.37,
+      "list": 8990,
+      "listUsd": 55.46,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 45.59,
+      "usd": 45.59,
+      "list": 56.99,
+      "listUsd": 56.99,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 799.2,
+      "usd": 45.68,
+      "list": 999,
+      "listUsd": 57.11,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 239.2,
+      "usd": 46.54,
+      "list": 299,
+      "listUsd": 58.18,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 75.99,
+      "usd": 53.5,
+      "list": 94.99,
+      "listUsd": 66.87,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 13
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 55.99,
+      "usd": 55.99,
+      "list": 69.99,
+      "listUsd": 69.99,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 14
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 86.36,
+      "usd": 59.88,
+      "list": 107.95,
+      "listUsd": 74.85,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 15
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 55.99,
+      "usd": 63.93,
+      "list": 69.99,
+      "listUsd": 79.91,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 16
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 47.99,
+      "usd": 64.13,
+      "list": 59.99,
+      "listUsd": 80.17,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 17
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 55.92,
+      "usd": 69.23,
+      "list": 69.9,
+      "listUsd": 86.54,
+      "discountPct": 20,
+      "saleEndsAt": null,
+      "rank": 18
+    }
+  ]
+}

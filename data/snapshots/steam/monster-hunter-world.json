@@ -1,0 +1,204 @@
+{
+  "slug": "monster-hunter-world",
+  "updatedAt": "2026-07-08T08:45:01.689Z",
+  "regions": [
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 777,
+      "usd": 4.79,
+      "list": 2990,
+      "listUsd": 18.44,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 519,
+      "usd": 5.46,
+      "list": 1997,
+      "listUsd": 21.01,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 246,
+      "usd": 5.52,
+      "list": 949,
+      "listUsd": 21.3,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 38.48,
+      "usd": 5.66,
+      "list": 148,
+      "listUsd": 21.76,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 5.84,
+      "usd": 5.84,
+      "list": 22.49,
+      "listUsd": 22.49,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 5.84,
+      "usd": 5.84,
+      "list": 22.49,
+      "listUsd": 22.49,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 5.98,
+      "usd": 5.98,
+      "list": 23,
+      "listUsd": 23,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 2836,
+      "usd": 6.03,
+      "list": 10911,
+      "listUsd": 23.21,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 6.23,
+      "usd": 6.23,
+      "list": 23.99,
+      "listUsd": 23.99,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 9570,
+      "usd": 6.31,
+      "list": 36800,
+      "listUsd": 24.26,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 33.54,
+      "usd": 6.53,
+      "list": 129,
+      "listUsd": 25.1,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 116.74,
+      "usd": 6.67,
+      "list": 449,
+      "listUsd": 25.67,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 7.79,
+      "usd": 7.79,
+      "list": 29.99,
+      "listUsd": 29.99,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 13
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 11.68,
+      "usd": 8.1,
+      "list": 44.94,
+      "listUsd": 31.16,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 14
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 6.49,
+      "usd": 8.67,
+      "list": 24.98,
+      "listUsd": 33.38,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 15
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 7.79,
+      "usd": 8.89,
+      "list": 29.99,
+      "listUsd": 34.24,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 16
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 12.99,
+      "usd": 9.15,
+      "list": 49.99,
+      "listUsd": 35.19,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 17
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 7.77,
+      "usd": 9.62,
+      "list": 29.9,
+      "listUsd": 37.02,
+      "discountPct": 74,
+      "saleEndsAt": null,
+      "rank": 18
+    }
+  ]
+}

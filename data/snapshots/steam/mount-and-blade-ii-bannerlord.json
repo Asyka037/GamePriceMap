@@ -1,0 +1,204 @@
+{
+  "slug": "mount-and-blade-ii-bannerlord",
+  "updatedAt": "2026-07-08T08:45:01.677Z",
+  "regions": [
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 339,
+      "usd": 7.61,
+      "list": 849,
+      "listUsd": 19.06,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 1
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 7.99,
+      "usd": 7.99,
+      "list": 19.99,
+      "listUsd": 19.99,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 2
+    },
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 9.99,
+      "usd": 9.99,
+      "list": 24.99,
+      "listUsd": 24.99,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 3
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 999,
+      "usd": 10.51,
+      "list": 2499,
+      "listUsd": 26.29,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 11.99,
+      "usd": 11.99,
+      "list": 29.99,
+      "listUsd": 29.99,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 5
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 6360,
+      "usd": 13.53,
+      "list": 15900,
+      "listUsd": 33.82,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 6
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 99.2,
+      "usd": 14.58,
+      "list": 248,
+      "listUsd": 36.46,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 7
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 79.99,
+      "usd": 15.56,
+      "list": 199.99,
+      "listUsd": 38.91,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 8
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 24000,
+      "usd": 15.82,
+      "list": 60000,
+      "listUsd": 39.55,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2600,
+      "usd": 16.04,
+      "list": 6500,
+      "listUsd": 40.1,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 10
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 17.99,
+      "usd": 17.99,
+      "list": 44.99,
+      "listUsd": 44.99,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 11
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 25.99,
+      "usd": 18.3,
+      "list": 64.99,
+      "listUsd": 45.75,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 12
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 19.99,
+      "usd": 19.99,
+      "list": 49.99,
+      "listUsd": 49.99,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 13
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 29,
+      "usd": 20.11,
+      "list": 72.5,
+      "listUsd": 50.27,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 14
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 359.99,
+      "usd": 20.58,
+      "list": 899.99,
+      "listUsd": 51.45,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 15
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 19.99,
+      "usd": 22.82,
+      "list": 49.99,
+      "listUsd": 57.08,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 16
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 17.19,
+      "usd": 22.97,
+      "list": 42.99,
+      "listUsd": 57.45,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 17
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 21.99,
+      "usd": 27.22,
+      "list": 54.99,
+      "listUsd": 68.08,
+      "discountPct": 60,
+      "saleEndsAt": null,
+      "rank": 18
+    }
+  ]
+}
