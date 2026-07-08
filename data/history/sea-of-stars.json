@@ -1,0 +1,20 @@
+{
+  "slug": "sea-of-stars",
+  "cheapsharkGameId": "324208",
+  "atl": {
+    "pc": {
+      "usd": 17.49,
+      "date": "2026-07-08",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 17.49,
+      "pct": 50
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "dave-the-diver",
+  "cheapsharkGameId": "252614",
+  "atl": {
+    "pc": {
+      "usd": 7.39,
+      "date": "2026-06-13",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 9.99,
+      "pct": 50
+    }
+  ]
+}

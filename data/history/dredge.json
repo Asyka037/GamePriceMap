@@ -1,0 +1,20 @@
+{
+  "slug": "dredge",
+  "cheapsharkGameId": "257287",
+  "atl": {
+    "pc": {
+      "usd": 0,
+      "date": "2024-12-24",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 9.99,
+      "pct": 60
+    }
+  ]
+}

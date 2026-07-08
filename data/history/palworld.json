@@ -1,0 +1,20 @@
+{
+  "slug": "palworld",
+  "cheapsharkGameId": "281411",
+  "atl": {
+    "pc": {
+      "usd": 20.99,
+      "date": "2026-07-08",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 20.99,
+      "pct": 30
+    }
+  ]
+}

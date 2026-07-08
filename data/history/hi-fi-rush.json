@@ -1,0 +1,20 @@
+{
+  "slug": "hi-fi-rush",
+  "cheapsharkGameId": "256511",
+  "atl": {
+    "pc": {
+      "usd": 14.99,
+      "date": "2026-07-08",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 14.99,
+      "pct": 50
+    }
+  ]
+}

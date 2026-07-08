@@ -1,0 +1,20 @@
+{
+  "slug": "ghostwire-tokyo",
+  "cheapsharkGameId": "240203",
+  "atl": {
+    "pc": {
+      "usd": 0,
+      "date": "2023-12-24",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 5.99,
+      "pct": 90
+    }
+  ]
+}

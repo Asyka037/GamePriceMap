@@ -1,0 +1,20 @@
+{
+  "slug": "sekiro-shadows-die-twice",
+  "cheapsharkGameId": "222286",
+  "atl": {
+    "pc": {
+      "usd": 29.99,
+      "date": "2026-07-08",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 29.99,
+      "pct": 50
+    }
+  ]
+}

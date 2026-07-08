@@ -1,0 +1,20 @@
+{
+  "slug": "hades",
+  "cheapsharkGameId": "196149",
+  "atl": {
+    "pc": {
+      "usd": 6.24,
+      "date": "2026-07-08",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 6.24,
+      "pct": 75
+    }
+  ]
+}

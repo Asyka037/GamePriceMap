@@ -1,0 +1,20 @@
+{
+  "slug": "elden-ring",
+  "cheapsharkGameId": "236717",
+  "atl": {
+    "pc": {
+      "usd": 29.95,
+      "date": "2025-07-01",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 59.99,
+      "pct": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "outer-wilds",
+  "cheapsharkGameId": "202038",
+  "atl": {
+    "pc": {
+      "usd": 10.75,
+      "date": "2022-10-07",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 14.99,
+      "pct": 40
+    }
+  ]
+}

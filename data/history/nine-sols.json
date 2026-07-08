@@ -1,0 +1,20 @@
+{
+  "slug": "nine-sols",
+  "cheapsharkGameId": "287352",
+  "atl": {
+    "pc": {
+      "usd": 11.99,
+      "date": "2026-05-11",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 14.99,
+      "pct": 50
+    }
+  ]
+}

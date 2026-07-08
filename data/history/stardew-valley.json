@@ -1,0 +1,20 @@
+{
+  "slug": "stardew-valley",
+  "cheapsharkGameId": "150036",
+  "atl": {
+    "pc": {
+      "usd": 5.99,
+      "date": "2019-12-26",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 8.99,
+      "pct": 40
+    }
+  ]
+}

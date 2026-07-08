@@ -1,0 +1,20 @@
+{
+  "slug": "metaphor-refantazio",
+  "cheapsharkGameId": "287841",
+  "atl": {
+    "pc": {
+      "usd": 24.95,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 27.99,
+      "pct": 60
+    }
+  ]
+}

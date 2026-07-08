@@ -1,0 +1,20 @@
+{
+  "slug": "cuphead",
+  "cheapsharkGameId": "172548",
+  "atl": {
+    "pc": {
+      "usd": 6.15,
+      "date": "2019-12-26",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 13.99,
+      "pct": 30
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "red-dead-redemption-2",
+  "cheapsharkGameId": "206516",
+  "atl": {
+    "pc": {
+      "usd": 12.9,
+      "date": "2025-09-05",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 14.99,
+      "pct": 75
+    }
+  ]
+}
