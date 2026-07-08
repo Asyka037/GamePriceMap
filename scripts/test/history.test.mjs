@@ -20,6 +20,11 @@ test('cheapestPriceEver parses price and unix date', () => {
   assert.equal(parseCheapestEver(batch, 'nope'), null);
 });
 
+test('zero-price giveaway history is not a purchasable ATL seed', () => {
+  const body = { g1: { cheapestPriceEver: { price: '0.00', date: 1751353695 } } };
+  assert.equal(parseCheapestEver(body, 'g1'), null);
+});
+
 function snap(usd, pct = null) {
   return { slug: 'g', regions: [{ cc: 'US', usd, discountPct: pct }] };
 }

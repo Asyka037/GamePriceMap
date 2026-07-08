@@ -24,12 +24,14 @@ export function parseGameLookup(body, steamAppId) {
 /**
  * games?ids= returns an object keyed by gameID.
  * cheapestPriceEver: { price: "29.95", date: <unix seconds> } → numeric/ISO.
+ * A price of 0 means a past giveaway (e.g. Epic freebies), which is not a
+ * purchasable price — treated as "no seed" so ATL stays meaningful.
  */
 export function parseCheapestEver(body, gameId) {
   const entry = body?.[String(gameId)];
   const cpe = entry?.cheapestPriceEver;
   const price = Number.parseFloat(cpe?.price);
-  if (!Number.isFinite(price) || price < 0) return null;
+  if (!Number.isFinite(price) || price <= 0) return null;
   const date = cpe.date > 0 ? new Date(cpe.date * 1000).toISOString().slice(0, 10) : null;
   return { price, date };
 }
