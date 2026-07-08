@@ -1,0 +1,450 @@
+{
+  "app": {
+    "slug": "zelda-tears-of-the-kingdom",
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "developer": "Nintendo",
+    "icon": "/icons/zelda-tears-of-the-kingdom.png",
+    "representativePlan": "base",
+    "usePricingV2": true,
+    "brandColor": "#2F6B4F",
+    "brandLogo": "/icons/zelda-tears-of-the-kingdom.png",
+    "eshopUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/",
+    "metadata": {
+      "metacritic": 96,
+      "releaseDate": "May 12, 2023",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "players": "1 player",
+      "ageRating": "ESRB E10+ / PEGI 12",
+      "publisher": "Nintendo",
+      "headerImage": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage_image500w.jpg"
+    },
+    "lastUpdated": "2026-07-03T12:59:58.868Z"
+  },
+  "plans": [
+    {
+      "id": "base",
+      "name": "Switch Edition",
+      "usBenchmark": "$69.99",
+      "nsuids": {
+        "americas": "70010000063714",
+        "europe": "70010000063715",
+        "japan": "70010000063713"
+      }
+    },
+    {
+      "id": "switch2-upgrade",
+      "name": "Switch 2 Upgrade Pack",
+      "usBenchmark": "$9.99",
+      "nsuids": {
+        "americas": "70050000056960",
+        "europe": "70050000056808",
+        "japan": "70050000056483"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "rank": 1,
+      "region": "Japan",
+      "countryCode": "JP",
+      "flag": "🇯🇵",
+      "regionGroup": "japan",
+      "continent": "Asia",
+      "ppp": 14.8,
+      "tax": "10% Consumption Tax included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "7,900円",
+          "usd": "$48.97"
+        },
+        "switch2-upgrade": {
+          "local": "1,000円",
+          "usd": "$6.20"
+        }
+      },
+      "currency": {
+        "base": "JPY",
+        "switch2-upgrade": "JPY"
+      }
+    },
+    {
+      "rank": 2,
+      "region": "New Zealand",
+      "countryCode": "NZ",
+      "flag": "🇳🇿",
+      "regionGroup": "europe",
+      "continent": "Oceania",
+      "ppp": 18,
+      "tax": "15% GST included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$99.95",
+          "usd": "$56.92"
+        },
+        "switch2-upgrade": {
+          "local": "$20.00",
+          "usd": "$11.39"
+        }
+      },
+      "currency": {
+        "base": "NZD",
+        "switch2-upgrade": "NZD"
+      }
+    },
+    {
+      "rank": 3,
+      "region": "Australia",
+      "countryCode": "AU",
+      "flag": "🇦🇺",
+      "regionGroup": "europe",
+      "continent": "Oceania",
+      "ppp": 18.9,
+      "tax": "10% GST included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$89.95",
+          "usd": "$62.16"
+        },
+        "switch2-upgrade": {
+          "local": "$20.00",
+          "usd": "$13.82"
+        }
+      },
+      "currency": {
+        "base": "AUD",
+        "switch2-upgrade": "AUD"
+      }
+    },
+    {
+      "rank": 4,
+      "region": "Argentina",
+      "countryCode": "AR",
+      "flag": "🇦🇷",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 14.3,
+      "tax": "Local taxes and card surcharges may apply at checkout",
+      "riskLevel": "medium",
+      "prices": {
+        "base": {
+          "local": "$99.199,00",
+          "usd": "$66.55"
+        },
+        "switch2-upgrade": {
+          "local": "$14.199,00",
+          "usd": "$9.53"
+        }
+      },
+      "currency": {
+        "base": "ARS",
+        "switch2-upgrade": "ARS"
+      }
+    },
+    {
+      "rank": 5,
+      "region": "United States",
+      "countryCode": "US",
+      "flag": "🇺🇸",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 20,
+      "tax": "Sales tax added at checkout in most states",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$69.99",
+          "usd": "$69.99"
+        },
+        "switch2-upgrade": {
+          "local": "$9.99",
+          "usd": "$9.99"
+        }
+      },
+      "currency": {
+        "base": "USD",
+        "switch2-upgrade": "USD"
+      }
+    },
+    {
+      "rank": 6,
+      "region": "Canada",
+      "countryCode": "CA",
+      "flag": "🇨🇦",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 17.2,
+      "tax": "GST/PST added at checkout",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$99.99",
+          "usd": "$70.47"
+        },
+        "switch2-upgrade": {
+          "local": "$14.99",
+          "usd": "$10.56"
+        }
+      },
+      "currency": {
+        "base": "CAD",
+        "switch2-upgrade": "CAD"
+      }
+    },
+    {
+      "rank": 7,
+      "region": "Brazil",
+      "countryCode": "BR",
+      "flag": "🇧🇷",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 11.2,
+      "tax": "Taxes included; local payment options vary",
+      "riskLevel": "medium",
+      "prices": {
+        "base": {
+          "local": "R$ 389,90",
+          "usd": "$74.94"
+        },
+        "switch2-upgrade": {
+          "local": "R$ 54,90",
+          "usd": "$10.55"
+        }
+      },
+      "currency": {
+        "base": "BRL",
+        "switch2-upgrade": "BRL"
+      }
+    },
+    {
+      "rank": 8,
+      "region": "Poland",
+      "countryCode": "PL",
+      "flag": "🇵🇱",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 14.5,
+      "tax": "23% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "289,80 zł",
+          "usd": "$77.21"
+        },
+        "switch2-upgrade": {
+          "local": "40,00 zł",
+          "usd": "$10.66"
+        }
+      },
+      "currency": {
+        "base": "PLN",
+        "switch2-upgrade": "PLN"
+      }
+    },
+    {
+      "rank": 9,
+      "region": "Norway",
+      "countryCode": "NO",
+      "flag": "🇳🇴",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 24,
+      "tax": "25% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "769,00 kr",
+          "usd": "$77.99"
+        },
+        "switch2-upgrade": {
+          "local": "109,00 kr",
+          "usd": "$11.05"
+        }
+      },
+      "currency": {
+        "base": "NOK",
+        "switch2-upgrade": "NOK"
+      }
+    },
+    {
+      "rank": 10,
+      "region": "Denmark",
+      "countryCode": "DK",
+      "flag": "🇩🇰",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 24,
+      "tax": "25% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "519,00 kr.",
+          "usd": "$79.40"
+        },
+        "switch2-upgrade": {
+          "local": "75,00 kr.",
+          "usd": "$11.47"
+        }
+      },
+      "currency": {
+        "base": "DKK",
+        "switch2-upgrade": "DKK"
+      }
+    },
+    {
+      "rank": 11,
+      "region": "Germany",
+      "countryCode": "DE",
+      "flag": "🇩🇪",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 21.2,
+      "tax": "19% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "69,99 €",
+          "usd": "$79.96"
+        },
+        "switch2-upgrade": {
+          "local": "9,99 €",
+          "usd": "$11.41"
+        }
+      },
+      "currency": {
+        "base": "EUR",
+        "switch2-upgrade": "EUR"
+      }
+    },
+    {
+      "rank": 12,
+      "region": "United Kingdom",
+      "countryCode": "GB",
+      "flag": "🇬🇧",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 23.1,
+      "tax": "20% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "£59.99",
+          "usd": "$80.01"
+        },
+        "switch2-upgrade": {
+          "local": "£7.99",
+          "usd": "$10.66"
+        }
+      },
+      "currency": {
+        "base": "GBP",
+        "switch2-upgrade": "GBP"
+      }
+    },
+    {
+      "rank": 13,
+      "region": "South Africa",
+      "countryCode": "ZA",
+      "flag": "🇿🇦",
+      "regionGroup": "europe",
+      "continent": "Africa",
+      "ppp": 7,
+      "tax": "15% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "R1,329.00",
+          "usd": "$81.66"
+        },
+        "switch2-upgrade": {
+          "local": "R180.00",
+          "usd": "$11.06"
+        }
+      },
+      "currency": {
+        "base": "ZAR",
+        "switch2-upgrade": "ZAR"
+      }
+    },
+    {
+      "rank": 14,
+      "region": "Mexico",
+      "countryCode": "MX",
+      "flag": "🇲🇽",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 13.4,
+      "tax": "16% IVA included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "MX$1,449.00",
+          "usd": "$82.87"
+        },
+        "switch2-upgrade": {
+          "local": "MX$209.00",
+          "usd": "$11.95"
+        }
+      },
+      "currency": {
+        "base": "MXN",
+        "switch2-upgrade": "MXN"
+      }
+    },
+    {
+      "rank": 15,
+      "region": "Switzerland",
+      "countryCode": "CH",
+      "flag": "🇨🇭",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 22.1,
+      "tax": "8.1% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "CHF 69.90",
+          "usd": "$86.89"
+        },
+        "switch2-upgrade": {
+          "local": "CHF 10.00",
+          "usd": "$12.43"
+        }
+      },
+      "currency": {
+        "base": "CHF",
+        "switch2-upgrade": "CHF"
+      }
+    },
+    {
+      "rank": 16,
+      "region": "Colombia",
+      "countryCode": "CO",
+      "flag": "🇨🇴",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 10.5,
+      "tax": "19% IVA may be added at checkout",
+      "riskLevel": "medium",
+      "prices": {
+        "base": {
+          "local": "$324.900,00",
+          "usd": "$95.87"
+        },
+        "switch2-upgrade": {
+          "local": "$45.900,00",
+          "usd": "$13.54"
+        }
+      },
+      "currency": {
+        "base": "COP",
+        "switch2-upgrade": "COP"
+      }
+    }
+  ]
+}

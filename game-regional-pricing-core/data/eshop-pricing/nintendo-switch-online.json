@@ -1,0 +1,629 @@
+{
+  "app": {
+    "slug": "nintendo-switch-online",
+    "name": "Nintendo Switch Online",
+    "developer": "Nintendo",
+    "icon": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/switch/online-service/posters/nso-logo",
+    "representativePlan": "individual-12-month",
+    "usePricingV2": true,
+    "brandColor": "#E60012",
+    "brandLogo": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/switch/online-service/posters/nso-logo",
+    "eshopUrl": "https://ec.nintendo.com/US/en/membership/",
+    "metadata": {
+      "releaseDate": "September 18, 2018",
+      "genres": [
+        "Subscription",
+        "Online Service"
+      ],
+      "players": "Individual and family memberships",
+      "ageRating": "Nintendo Account required",
+      "publisher": "Nintendo",
+      "headerImage": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/switch/online-service/posters/nso-logo"
+    },
+    "lastUpdated": "2026-07-04T07:33:56.463Z"
+  },
+  "plans": [
+    {
+      "id": "individual-12-month",
+      "name": "Individual 12 Months",
+      "usBenchmark": "$19.99",
+      "nsuids": {
+        "americas": "70080000000186",
+        "europe": "70080000000189",
+        "japan": "70080000000183"
+      }
+    },
+    {
+      "id": "family-12-month",
+      "name": "Family 12 Months",
+      "usBenchmark": "$34.99",
+      "nsuids": {
+        "americas": "70080000000194",
+        "europe": "70080000000195",
+        "japan": "70080000000193"
+      }
+    },
+    {
+      "id": "expansion-individual-12-month",
+      "name": "Expansion Pack Individual 12 Months",
+      "usBenchmark": "$49.99",
+      "nsuids": {
+        "americas": "70080000000945",
+        "europe": "70080000000961",
+        "japan": "70080000000921"
+      }
+    },
+    {
+      "id": "expansion-family-12-month",
+      "name": "Expansion Pack Family 12 Months",
+      "usBenchmark": "$79.99",
+      "nsuids": {
+        "americas": "70080000000943",
+        "europe": "70080000000964",
+        "japan": "70080000000941"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "rank": 1,
+      "region": "South Africa",
+      "countryCode": "ZA",
+      "flag": "🇿🇦",
+      "regionGroup": "europe",
+      "continent": "Africa",
+      "ppp": 7,
+      "tax": "15% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "R262.00",
+          "usd": "$16.15"
+        },
+        "family-12-month": {
+          "local": "R459.00",
+          "usd": "$28.29"
+        },
+        "expansion-individual-12-month": {
+          "local": "R629.00",
+          "usd": "$38.77"
+        },
+        "expansion-family-12-month": {
+          "local": "R1,129.00",
+          "usd": "$69.59"
+        }
+      },
+      "currency": {
+        "individual-12-month": "ZAR",
+        "family-12-month": "ZAR",
+        "expansion-individual-12-month": "ZAR",
+        "expansion-family-12-month": "ZAR"
+      }
+    },
+    {
+      "rank": 2,
+      "region": "Japan",
+      "countryCode": "JP",
+      "flag": "🇯🇵",
+      "regionGroup": "japan",
+      "continent": "Asia",
+      "ppp": 14.8,
+      "tax": "10% Consumption Tax included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "3,000円",
+          "usd": "$18.60"
+        },
+        "family-12-month": {
+          "local": "5,800円",
+          "usd": "$35.96"
+        },
+        "expansion-individual-12-month": {
+          "local": "5,900円",
+          "usd": "$36.58"
+        },
+        "expansion-family-12-month": {
+          "local": "9,900円",
+          "usd": "$61.38"
+        }
+      },
+      "currency": {
+        "individual-12-month": "JPY",
+        "family-12-month": "JPY",
+        "expansion-individual-12-month": "JPY",
+        "expansion-family-12-month": "JPY"
+      }
+    },
+    {
+      "rank": 3,
+      "region": "New Zealand",
+      "countryCode": "NZ",
+      "flag": "🇳🇿",
+      "regionGroup": "europe",
+      "continent": "Oceania",
+      "ppp": 18,
+      "tax": "15% GST included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "$32.95",
+          "usd": "$18.81"
+        },
+        "family-12-month": {
+          "local": "$60.45",
+          "usd": "$34.51"
+        },
+        "expansion-individual-12-month": {
+          "local": "$69.95",
+          "usd": "$39.94"
+        },
+        "expansion-family-12-month": {
+          "local": "$119.95",
+          "usd": "$68.49"
+        }
+      },
+      "currency": {
+        "individual-12-month": "NZD",
+        "family-12-month": "NZD",
+        "expansion-individual-12-month": "NZD",
+        "expansion-family-12-month": "NZD"
+      }
+    },
+    {
+      "rank": 4,
+      "region": "Argentina",
+      "countryCode": "AR",
+      "flag": "🇦🇷",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 14.3,
+      "tax": "Local taxes and card surcharges may apply at checkout",
+      "riskLevel": "medium",
+      "prices": {
+        "individual-12-month": {
+          "local": "$28.299,00",
+          "usd": "$19.01"
+        },
+        "family-12-month": {
+          "local": "$49.499,00",
+          "usd": "$33.25"
+        },
+        "expansion-individual-12-month": {
+          "local": "$70.899,00",
+          "usd": "$47.63"
+        },
+        "expansion-family-12-month": {
+          "local": "$113.399,00",
+          "usd": "$76.18"
+        }
+      },
+      "currency": {
+        "individual-12-month": "ARS",
+        "family-12-month": "ARS",
+        "expansion-individual-12-month": "ARS",
+        "expansion-family-12-month": "ARS"
+      }
+    },
+    {
+      "rank": 5,
+      "region": "Norway",
+      "countryCode": "NO",
+      "flag": "🇳🇴",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 24,
+      "tax": "25% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "190,00 kr",
+          "usd": "$19.32"
+        },
+        "family-12-month": {
+          "local": "333,00 kr",
+          "usd": "$33.86"
+        },
+        "expansion-individual-12-month": {
+          "local": "399,00 kr",
+          "usd": "$40.57"
+        },
+        "expansion-family-12-month": {
+          "local": "679,00 kr",
+          "usd": "$69.04"
+        }
+      },
+      "currency": {
+        "individual-12-month": "NOK",
+        "family-12-month": "NOK",
+        "expansion-individual-12-month": "NOK",
+        "expansion-family-12-month": "NOK"
+      }
+    },
+    {
+      "rank": 6,
+      "region": "United States",
+      "countryCode": "US",
+      "flag": "🇺🇸",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 20,
+      "tax": "Sales tax added at checkout in most states",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "$19.99",
+          "usd": "$19.99"
+        },
+        "family-12-month": {
+          "local": "$34.99",
+          "usd": "$34.99"
+        },
+        "expansion-individual-12-month": {
+          "local": "$49.99",
+          "usd": "$49.99"
+        },
+        "expansion-family-12-month": {
+          "local": "$79.99",
+          "usd": "$79.99"
+        }
+      },
+      "currency": {
+        "individual-12-month": "USD",
+        "family-12-month": "USD",
+        "expansion-individual-12-month": "USD",
+        "expansion-family-12-month": "USD"
+      }
+    },
+    {
+      "rank": 7,
+      "region": "Australia",
+      "countryCode": "AU",
+      "flag": "🇦🇺",
+      "regionGroup": "europe",
+      "continent": "Oceania",
+      "ppp": 18.9,
+      "tax": "10% GST included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "$29.95",
+          "usd": "$20.77"
+        },
+        "family-12-month": {
+          "local": "$54.95",
+          "usd": "$38.11"
+        },
+        "expansion-individual-12-month": {
+          "local": "$59.95",
+          "usd": "$41.58"
+        },
+        "expansion-family-12-month": {
+          "local": "$109.95",
+          "usd": "$76.25"
+        }
+      },
+      "currency": {
+        "individual-12-month": "AUD",
+        "family-12-month": "AUD",
+        "expansion-individual-12-month": "AUD",
+        "expansion-family-12-month": "AUD"
+      }
+    },
+    {
+      "rank": 8,
+      "region": "Canada",
+      "countryCode": "CA",
+      "flag": "🇨🇦",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 17.2,
+      "tax": "GST/PST added at checkout",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "$29.99",
+          "usd": "$21.12"
+        },
+        "family-12-month": {
+          "local": "$49.99",
+          "usd": "$35.21"
+        },
+        "expansion-individual-12-month": {
+          "local": "$69.99",
+          "usd": "$49.30"
+        },
+        "expansion-family-12-month": {
+          "local": "$109.99",
+          "usd": "$77.47"
+        }
+      },
+      "currency": {
+        "individual-12-month": "CAD",
+        "family-12-month": "CAD",
+        "expansion-individual-12-month": "CAD",
+        "expansion-family-12-month": "CAD"
+      }
+    },
+    {
+      "rank": 9,
+      "region": "Brazil",
+      "countryCode": "BR",
+      "flag": "🇧🇷",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 11.2,
+      "tax": "Taxes included; local payment options vary",
+      "riskLevel": "medium",
+      "prices": {
+        "individual-12-month": {
+          "local": "R$ 109,90",
+          "usd": "$21.13"
+        },
+        "family-12-month": {
+          "local": "R$ 194,90",
+          "usd": "$37.47"
+        },
+        "expansion-individual-12-month": {
+          "local": "R$ 279,90",
+          "usd": "$53.82"
+        },
+        "expansion-family-12-month": {
+          "local": "R$ 439,90",
+          "usd": "$84.58"
+        }
+      },
+      "currency": {
+        "individual-12-month": "BRL",
+        "family-12-month": "BRL",
+        "expansion-individual-12-month": "BRL",
+        "expansion-family-12-month": "BRL"
+      }
+    },
+    {
+      "rank": 10,
+      "region": "Poland",
+      "countryCode": "PL",
+      "flag": "🇵🇱",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 14.5,
+      "tax": "23% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "80,00 zł",
+          "usd": "$21.36"
+        },
+        "family-12-month": {
+          "local": "140,00 zł",
+          "usd": "$37.38"
+        },
+        "expansion-individual-12-month": {
+          "local": "170,00 zł",
+          "usd": "$45.38"
+        },
+        "expansion-family-12-month": {
+          "local": "290,00 zł",
+          "usd": "$77.42"
+        }
+      },
+      "currency": {
+        "individual-12-month": "PLN",
+        "family-12-month": "PLN",
+        "expansion-individual-12-month": "PLN",
+        "expansion-family-12-month": "PLN"
+      }
+    },
+    {
+      "rank": 11,
+      "region": "Germany",
+      "countryCode": "DE",
+      "flag": "🇩🇪",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 21.2,
+      "tax": "19% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "19,99 €",
+          "usd": "$22.87"
+        },
+        "family-12-month": {
+          "local": "34,99 €",
+          "usd": "$40.02"
+        },
+        "expansion-individual-12-month": {
+          "local": "39,99 €",
+          "usd": "$45.74"
+        },
+        "expansion-family-12-month": {
+          "local": "69,99 €",
+          "usd": "$80.06"
+        }
+      },
+      "currency": {
+        "individual-12-month": "EUR",
+        "family-12-month": "EUR",
+        "expansion-individual-12-month": "EUR",
+        "expansion-family-12-month": "EUR"
+      }
+    },
+    {
+      "rank": 12,
+      "region": "Denmark",
+      "countryCode": "DK",
+      "flag": "🇩🇰",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 24,
+      "tax": "25% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "150,00 kr.",
+          "usd": "$22.99"
+        },
+        "family-12-month": {
+          "local": "262,50 kr.",
+          "usd": "$40.24"
+        },
+        "expansion-individual-12-month": {
+          "local": "299,00 kr.",
+          "usd": "$45.83"
+        },
+        "expansion-family-12-month": {
+          "local": "519,00 kr.",
+          "usd": "$79.55"
+        }
+      },
+      "currency": {
+        "individual-12-month": "DKK",
+        "family-12-month": "DKK",
+        "expansion-individual-12-month": "DKK",
+        "expansion-family-12-month": "DKK"
+      }
+    },
+    {
+      "rank": 13,
+      "region": "Mexico",
+      "countryCode": "MX",
+      "flag": "🇲🇽",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 13.4,
+      "tax": "16% IVA included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "MX$409.00",
+          "usd": "$23.41"
+        },
+        "family-12-month": {
+          "local": "MX$719.00",
+          "usd": "$41.16"
+        },
+        "expansion-individual-12-month": {
+          "local": "MX$1,029.00",
+          "usd": "$58.91"
+        },
+        "expansion-family-12-month": {
+          "local": "MX$1,649.00",
+          "usd": "$94.40"
+        }
+      },
+      "currency": {
+        "individual-12-month": "MXN",
+        "family-12-month": "MXN",
+        "expansion-individual-12-month": "MXN",
+        "expansion-family-12-month": "MXN"
+      }
+    },
+    {
+      "rank": 14,
+      "region": "United Kingdom",
+      "countryCode": "GB",
+      "flag": "🇬🇧",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 23.1,
+      "tax": "20% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "£17.99",
+          "usd": "$24.02"
+        },
+        "family-12-month": {
+          "local": "£31.49",
+          "usd": "$42.04"
+        },
+        "expansion-individual-12-month": {
+          "local": "£34.99",
+          "usd": "$46.71"
+        },
+        "expansion-family-12-month": {
+          "local": "£59.99",
+          "usd": "$80.09"
+        }
+      },
+      "currency": {
+        "individual-12-month": "GBP",
+        "family-12-month": "GBP",
+        "expansion-individual-12-month": "GBP",
+        "expansion-family-12-month": "GBP"
+      }
+    },
+    {
+      "rank": 15,
+      "region": "Switzerland",
+      "countryCode": "CH",
+      "flag": "🇨🇭",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 22.1,
+      "tax": "8.1% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "individual-12-month": {
+          "local": "CHF 19.90",
+          "usd": "$24.77"
+        },
+        "family-12-month": {
+          "local": "CHF 34.90",
+          "usd": "$43.43"
+        },
+        "expansion-individual-12-month": {
+          "local": "CHF 39.90",
+          "usd": "$49.66"
+        },
+        "expansion-family-12-month": {
+          "local": "CHF 69.90",
+          "usd": "$86.99"
+        }
+      },
+      "currency": {
+        "individual-12-month": "CHF",
+        "family-12-month": "CHF",
+        "expansion-individual-12-month": "CHF",
+        "expansion-family-12-month": "CHF"
+      }
+    },
+    {
+      "rank": 16,
+      "region": "Colombia",
+      "countryCode": "CO",
+      "flag": "🇨🇴",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 10.5,
+      "tax": "19% IVA may be added at checkout",
+      "riskLevel": "medium",
+      "prices": {
+        "individual-12-month": {
+          "local": "$91.900,00",
+          "usd": "$27.12"
+        },
+        "family-12-month": {
+          "local": "$159.900,00",
+          "usd": "$47.18"
+        },
+        "expansion-individual-12-month": {
+          "local": "$229.900,00",
+          "usd": "$67.84"
+        },
+        "expansion-family-12-month": {
+          "local": "$369.900,00",
+          "usd": "$109.15"
+        }
+      },
+      "currency": {
+        "individual-12-month": "COP",
+        "family-12-month": "COP",
+        "expansion-individual-12-month": "COP",
+        "expansion-family-12-month": "COP"
+      }
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "app": {
+    "slug": "final-fantasy-vii-rebirth",
+    "name": "FINAL FANTASY VII REBIRTH",
+    "developer": "Square Enix",
+    "icon": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviirebirth/1x1_FinalFantasyVIIRebirth_image500w.jpg",
+    "representativePlan": "base",
+    "usePricingV2": true,
+    "brandColor": "#59718B",
+    "brandLogo": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviirebirth/1x1_FinalFantasyVIIRebirth_image500w.jpg",
+    "eshopUrl": "https://www.nintendo.com/us/store/products/final-fantasy-vii-rebirth-switch-2/",
+    "metadata": {
+      "releaseDate": "June 3, 2026",
+      "genres": [
+        "RPG"
+      ],
+      "players": "1 player",
+      "ageRating": "ESRB T / PEGI 16",
+      "publisher": "Square Enix",
+      "headerImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviirebirth/1x1_FinalFantasyVIIRebirth_image500w.jpg"
+    },
+    "lastUpdated": "2026-07-04T07:33:56.486Z"
+  },
+  "plans": [
+    {
+      "id": "base",
+      "name": "Switch 2 Edition",
+      "usBenchmark": "$29.99",
+      "nsuids": {
+        "americas": "70010000112477",
+        "europe": "70010000112478",
+        "japan": "70010000112479"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "rank": 1,
+      "region": "Mexico",
+      "countryCode": "MX",
+      "flag": "🇲🇽",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 13.4,
+      "tax": "16% IVA included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "MX$480.00",
+          "usd": "$27.48",
+          "listLocal": "MX$800.00",
+          "listUsd": "$45.80",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-17T06:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "MXN"
+      }
+    },
+    {
+      "rank": 2,
+      "region": "Canada",
+      "countryCode": "CA",
+      "flag": "🇨🇦",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 17.2,
+      "tax": "GST/PST added at checkout",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$40.19",
+          "usd": "$28.31",
+          "listLocal": "$66.99",
+          "listUsd": "$47.18",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-17T06:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "CAD"
+      }
+    },
+    {
+      "rank": 3,
+      "region": "Argentina",
+      "countryCode": "AR",
+      "flag": "🇦🇷",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 14.3,
+      "tax": "Local taxes and card surcharges may apply at checkout",
+      "riskLevel": "medium",
+      "prices": {
+        "base": {
+          "local": "$43.499,40",
+          "usd": "$29.22",
+          "listLocal": "$72.499,00",
+          "listUsd": "$48.70",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-17T06:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "ARS"
+      }
+    },
+    {
+      "rank": 4,
+      "region": "United States",
+      "countryCode": "US",
+      "flag": "🇺🇸",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 20,
+      "tax": "Sales tax added at checkout in most states",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$29.99",
+          "usd": "$29.99",
+          "listLocal": "$49.99",
+          "listUsd": "$49.99",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-17T06:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "USD"
+      }
+    },
+    {
+      "rank": 5,
+      "region": "Brazil",
+      "countryCode": "BR",
+      "flag": "🇧🇷",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 11.2,
+      "tax": "Taxes included; local payment options vary",
+      "riskLevel": "medium",
+      "prices": {
+        "base": {
+          "local": "R$ 170,94",
+          "usd": "$32.87",
+          "listLocal": "R$ 284,90",
+          "listUsd": "$54.78",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-17T06:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "BRL"
+      }
+    },
+    {
+      "rank": 6,
+      "region": "Colombia",
+      "countryCode": "CO",
+      "flag": "🇨🇴",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 10.5,
+      "tax": "19% IVA may be added at checkout",
+      "riskLevel": "medium",
+      "prices": {
+        "base": {
+          "local": "$114.600,00",
+          "usd": "$33.82",
+          "listLocal": "$191.000,00",
+          "listUsd": "$56.36",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-17T06:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "COP"
+      }
+    },
+    {
+      "rank": 7,
+      "region": "Australia",
+      "countryCode": "AU",
+      "flag": "🇦🇺",
+      "regionGroup": "europe",
+      "continent": "Oceania",
+      "ppp": 18.9,
+      "tax": "10% GST included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$50.97",
+          "usd": "$35.35",
+          "listLocal": "$84.95",
+          "listUsd": "$58.92",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-16T13:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "AUD"
+      }
+    },
+    {
+      "rank": 8,
+      "region": "New Zealand",
+      "countryCode": "NZ",
+      "flag": "🇳🇿",
+      "regionGroup": "europe",
+      "continent": "Oceania",
+      "ppp": 18,
+      "tax": "15% GST included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$62.97",
+          "usd": "$35.95",
+          "listLocal": "$104.95",
+          "listUsd": "$59.92",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-16T11:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "NZD"
+      }
+    },
+    {
+      "rank": 9,
+      "region": "Norway",
+      "countryCode": "NO",
+      "flag": "🇳🇴",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 24,
+      "tax": "25% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "389,00 kr",
+          "usd": "$39.55",
+          "listLocal": "649,00 kr",
+          "listUsd": "$65.99",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-16T21:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "NOK"
+      }
+    },
+    {
+      "rank": 10,
+      "region": "United Kingdom",
+      "countryCode": "GB",
+      "flag": "🇬🇧",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 23.1,
+      "tax": "20% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "£29.99",
+          "usd": "$40.04",
+          "listLocal": "£49.99",
+          "listUsd": "$66.74",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-16T22:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "GBP"
+      }
+    },
+    {
+      "rank": 11,
+      "region": "Japan",
+      "countryCode": "JP",
+      "flag": "🇯🇵",
+      "regionGroup": "japan",
+      "continent": "Asia",
+      "ppp": 14.8,
+      "tax": "10% Consumption Tax included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "6,578円",
+          "usd": "$40.78"
+        }
+      },
+      "currency": {
+        "base": "JPY"
+      }
+    },
+    {
+      "rank": 12,
+      "region": "Germany",
+      "countryCode": "DE",
+      "flag": "🇩🇪",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 21.2,
+      "tax": "19% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "35,99 €",
+          "usd": "$41.17",
+          "listLocal": "59,99 €",
+          "listUsd": "$68.62",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-16T21:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "EUR"
+      }
+    },
+    {
+      "rank": 13,
+      "region": "Denmark",
+      "countryCode": "DK",
+      "flag": "🇩🇰",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 24,
+      "tax": "25% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "269,25 kr.",
+          "usd": "$41.27",
+          "listLocal": "449,00 kr.",
+          "listUsd": "$68.82",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-16T21:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "DKK"
+      }
+    },
+    {
+      "rank": 14,
+      "region": "Poland",
+      "countryCode": "PL",
+      "flag": "🇵🇱",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 14.5,
+      "tax": "23% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "155,40 zł",
+          "usd": "$41.49",
+          "listLocal": "259,00 zł",
+          "listUsd": "$69.14",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-16T21:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "PLN"
+      }
+    },
+    {
+      "rank": 15,
+      "region": "South Africa",
+      "countryCode": "ZA",
+      "flag": "🇿🇦",
+      "regionGroup": "europe",
+      "continent": "Africa",
+      "ppp": 7,
+      "tax": "15% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "R689.40",
+          "usd": "$42.50",
+          "listLocal": "R1,149.00",
+          "listUsd": "$70.83",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-16T21:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "ZAR"
+      }
+    },
+    {
+      "rank": 16,
+      "region": "Switzerland",
+      "countryCode": "CH",
+      "flag": "🇨🇭",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 22.1,
+      "tax": "8.1% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "CHF 35.94",
+          "usd": "$44.73",
+          "listLocal": "CHF 59.90",
+          "listUsd": "$74.55",
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-16T21:59:59Z"
+        }
+      },
+      "currency": {
+        "base": "CHF"
+      }
+    }
+  ]
+}

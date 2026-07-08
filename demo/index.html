@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DealDex — Track game prices across Steam, Switch & more</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">
+      <span class="mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.83z"/><circle cx="7" cy="7" r="1.6" fill="#fff" stroke="none"/></svg>
+      </span>
+      Deal<em>Dex</em>
+    </a>
+
+    <div class="header-search dock" id="dockSearch">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" placeholder="Search 92,000 games…" aria-label="Search games">
+      <kbd>/</kbd>
+    </div>
+
+    <nav class="main-nav">
+      <div class="nav-item"><a class="nav-link active" href="index.html">Home</a></div>
+      <div class="nav-item">
+        <span class="nav-link" tabindex="0">Steam
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </span>
+        <div class="dropdown">
+          <a href="deals.html">Deals <span class="hint">/steam/deals</span></a>
+          <a href="#">Regional pricing <span class="hint">/steam/regional-pricing</span></a>
+          <a href="#">Historical lows <span class="hint">/steam/historical-lows</span></a>
+          <a href="#">New releases <span class="hint">/steam/new-releases</span></a>
+          <div class="sep"></div>
+          <a href="#">Sale calendar <span class="hint">/steam/sale-calendar</span></a>
+          <a href="#">Free games <span class="hint">/steam/free-games</span></a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <span class="nav-link" tabindex="0">Nintendo
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </span>
+        <div class="dropdown">
+          <a href="#">eShop deals <span class="hint">/switch/deals</span></a>
+          <a href="#">Region compare <span class="hint">/switch/regional-pricing</span></a>
+          <a href="#">Historical lows <span class="hint">/switch/historical-lows</span></a>
+          <a href="#">New releases <span class="hint">/switch/new-releases</span></a>
+          <div class="sep"></div>
+          <a href="#">Switch 2 hub <span class="hint">/switch-2</span></a>
+          <a href="#">Sale calendar <span class="hint">/switch/sale-calendar</span></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header-actions">
+      <button class="region-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        US · USD
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="sky-hero v2" id="hero-v2">
+  <span class="cloud" style="left: 31%; top: 18px;">
+    <svg width="84" height="38" viewBox="0 0 34 15" aria-hidden="true"><rect x="4" y="7" width="26" height="8" fill="#fff"/><rect x="8" y="3" width="9" height="4" fill="#fff"/><rect x="19" y="5" width="7" height="2" fill="#fff"/></svg>
+  </span>
+  <span class="cloud" style="left: 12%; bottom: 12px;">
+    <svg width="70" height="32" viewBox="0 0 34 15" aria-hidden="true"><rect x="4" y="7" width="26" height="8" fill="#fff"/><rect x="8" y="3" width="9" height="4" fill="#fff"/><rect x="30" y="9" width="4" height="6" fill="#fff"/></svg>
+  </span>
+
+  <div class="wrap hero-grid">
+    <div class="hero-left">
+      <h1 class="pixel-title">EVERY DEAL.<br>ONE TRACKER.</h1>
+      <p class="lede2">Type any game — see its cheapest store, cheapest region and current discount. Live, across Steam and Nintendo eShop.</p>
+
+      <div class="hero-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="heroSearch" aria-label="Search games" placeholder="">
+      </div>
+
+      <div class="live-card" id="liveCard">
+        <div class="live-head">
+          <div class="live-cover"><img id="lcCover" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/header.jpg" alt="Game cover"></div>
+          <div>
+            <div class="live-name" id="lcName">Hollow Knight: Silksong</div>
+            <span class="live-tag"><span class="live-dot"></span>LIVE PRICES</span>
+          </div>
+        </div>
+        <div class="live-rows">
+          <div class="live-row">
+            <span class="live-ic p"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><line x1="6" y1="12" x2="10" y2="12"/><line x1="8" y1="10" x2="8" y2="14"/><circle cx="16.5" cy="11" r="1" fill="currentColor" stroke="none"/><circle cx="18.5" cy="13" r="1" fill="currentColor" stroke="none"/></svg></span>
+            <div><span class="lr-label">CROSS-PLATFORM</span><b class="lr-value" id="lcPlat">Steam $17.99 · eShop $17.99 · PS5 $19.99</b></div>
+          </div>
+          <div class="live-row">
+            <span class="live-ic r"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+            <div><span class="lr-label">BEST REGION</span><b class="lr-value" id="lcRegion">eShop South Africa ≈ $11.05 (−39%)</b></div>
+          </div>
+          <div class="live-row">
+            <span class="live-ic d"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg></span>
+            <div><span class="lr-label">CURRENT DEAL</span><b class="lr-value" id="lcDeal">−10% · matches all-time low</b><span class="b-chip y" id="lcAtl">ATL</span></div>
+          </div>
+        </div>
+        <a class="live-cta" href="game.html">OPEN GAME PAGE <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <div class="board-stack">
+      <div class="board">
+        <div class="board-head bh-teal">
+          <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          REGION GAP TOP
+          <a class="bh-more" href="#">MORE →</a>
+        </div>
+        <a class="board-row" href="game.html"><span class="b-rank first">1</span><span class="b-name">Persona 3 Reload</span><span class="b-chip g">−44% BR</span></a>
+        <a class="board-row" href="game.html"><span class="b-rank">2</span><span class="b-name">Hollow Knight: Silksong</span><span class="b-chip g">−39% ZA</span></a>
+        <a class="board-row" href="game.html"><span class="b-rank">3</span><span class="b-name">Zelda: Tears of the Kingdom</span><span class="b-chip g">−35% ZA</span></a>
+      </div>
+
+      <div class="board">
+        <div class="board-head bh-gold">
+          <svg viewBox="0 0 24 24" fill="none" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          NEW ALL-TIME LOWS
+          <a class="bh-more" href="#">MORE →</a>
+        </div>
+        <a class="board-row" href="game.html"><span class="b-rank first">1</span><span class="b-name">Elden Ring</span><span class="b-val">$29.99</span></a>
+        <a class="board-row" href="game.html"><span class="b-rank">2</span><span class="b-name">Cyberpunk 2077</span><span class="b-val">$20.99</span></a>
+        <a class="board-row" href="game.html"><span class="b-rank">3</span><span class="b-name">Sea of Stars</span><span class="b-val">$17.49</span></a>
+      </div>
+
+      <div class="board">
+        <div class="board-head bh-red">
+          <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          HOTTEST DEALS
+          <a class="bh-more" href="deals.html">MORE →</a>
+        </div>
+        <a class="board-row" href="game.html"><span class="b-rank first">1</span><span class="b-name">Cyberpunk 2077</span><span class="b-chip g">−65%</span></a>
+        <a class="board-row" href="game.html"><span class="b-rank">2</span><span class="b-name">Persona 3 Reload</span><span class="b-chip g">−60%</span></a>
+        <a class="board-row" href="game.html"><span class="b-rank">3</span><span class="b-name">Hi-Fi Rush</span><span class="b-chip g">−60%</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="ground" aria-hidden="true"></div>
+
+<section class="section wrap">
+  <div class="section-head">
+    <span class="s-icon violet"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+    <h2>Regional pricing</h2>
+    <a class="view-all" href="#">All regions →</a>
+  </div>
+  <div class="region-entry">
+    <a class="re-card" href="#">
+      <span class="re-ic t"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+      <span class="re-txt">
+        <b>eShop region compare</b>
+        <span>The cheapest eShop region for any Switch game — 43 regions, converted and ranked daily.</span>
+        <span class="re-chips"><i>ZA −39%</i><i>NO −33%</i><i>MX −26%</i></span>
+      </span>
+      <span class="re-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="re-card" href="#">
+      <span class="re-ic b"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.83z"/><circle cx="7" cy="7" r="1.6"/></svg></span>
+      <span class="re-txt">
+        <b>Steam regional watch</b>
+        <span>Regional price gaps and USD-tier changes across Steam storefronts, updated hourly.</span>
+        <span class="re-chips"><i>TR −39%</i><i>UA −35%</i><i>BR −24%</i></span>
+      </span>
+      <span class="re-arrow" aria-hidden="true">→</span>
+    </a>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head">
+    <span class="s-icon gold"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"/><polyline points="16 17 22 17 22 11"/></svg></span>
+    <h2>Fresh historical lows</h2>
+    <a class="view-all" href="#">View all 1,208 →</a>
+  </div>
+  <div class="card-grid">
+
+    <a class="game-card" href="game.html">
+      <div class="cover">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg" alt="Elden Ring" loading="lazy">
+        <span class="atl-flag"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>ALL-TIME LOW</span>
+      </div>
+      <div class="card-body">
+        <div class="title">Elden Ring</div>
+        <div class="meta">Steam · <span class="review-pos">93% positive</span></div>
+        <div class="price-row"><span class="chip-off">−50%</span><span class="price-old">$59.99</span><span class="price-now">$29.99</span></div>
+      </div>
+    </a>
+
+    <a class="game-card" href="game.html">
+      <div class="cover">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg" alt="Cyberpunk 2077" loading="lazy">
+        <span class="atl-flag"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>ALL-TIME LOW</span>
+      </div>
+      <div class="card-body">
+        <div class="title">Cyberpunk 2077</div>
+        <div class="meta">GOG · <span class="review-pos">91% positive</span></div>
+        <div class="price-row"><span class="chip-off">−65%</span><span class="price-old">$59.99</span><span class="price-now">$20.99</span></div>
+      </div>
+    </a>
+
+    <a class="game-card" href="game.html">
+      <div class="cover">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2161700/header.jpg" alt="Persona 3 Reload" loading="lazy">
+        <span class="atl-flag"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>ALL-TIME LOW</span>
+      </div>
+      <div class="card-body">
+        <div class="title">Persona 3 Reload</div>
+        <div class="meta">Fanatical · <span class="review-pos">95% positive</span></div>
+        <div class="price-row"><span class="chip-off">−60%</span><span class="price-old">$69.99</span><span class="price-now">$27.99</span></div>
+      </div>
+    </a>
+
+    <a class="game-card" href="game.html">
+      <div class="cover">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1244090/header.jpg" alt="Sea of Stars" loading="lazy">
+        <span class="atl-flag"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>ALL-TIME LOW</span>
+      </div>
+      <div class="card-body">
+        <div class="title">Sea of Stars</div>
+        <div class="meta">eShop US · <span class="review-pos">94% positive</span></div>
+        <div class="price-row"><span class="chip-off">−50%</span><span class="price-old">$34.99</span><span class="price-now">$17.49</span></div>
+      </div>
+    </a>
+
+    <a class="game-card" href="game.html">
+      <div class="cover">
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg" alt="Black Myth: Wukong" loading="lazy">
+        <span class="atl-flag"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>ALL-TIME LOW</span>
+      </div>
+      <div class="card-body">
+        <div class="title">Black Myth: Wukong</div>
+        <div class="meta">Steam · <span class="review-pos">96% positive</span></div>
+        <div class="price-row"><span class="chip-off">−35%</span><span class="price-old">$59.99</span><span class="price-now">$38.99</span></div>
+      </div>
+    </a>
+
+    <a class="game-card" href="game.html">
+      <div class="cover">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1562430/header.jpg" alt="DREDGE" loading="lazy">
+        <span class="atl-flag"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>ALL-TIME LOW</span>
+      </div>
+      <div class="card-body">
+        <div class="title">DREDGE</div>
+        <div class="meta">GMG · <span class="review-pos">92% positive</span></div>
+        <div class="price-row"><span class="chip-off">−55%</span><span class="price-old">$24.99</span><span class="price-now">$11.24</span></div>
+      </div>
+    </a>
+
+    <a class="game-card" href="game.html">
+      <div class="cover">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2124490/header.jpg" alt="Silent Hill 2" loading="lazy">
+        <span class="atl-flag"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>ALL-TIME LOW</span>
+      </div>
+      <div class="card-body">
+        <div class="title">Silent Hill 2</div>
+        <div class="meta">Steam · <span class="review-pos">94% positive</span></div>
+        <div class="price-row"><span class="chip-off">−45%</span><span class="price-old">$69.99</span><span class="price-now">$38.49</span></div>
+      </div>
+    </a>
+
+    <a class="game-card" href="game.html">
+      <div class="cover">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg" alt="Metaphor: ReFantazio" loading="lazy">
+        <span class="atl-flag"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>ALL-TIME LOW</span>
+      </div>
+      <div class="card-body">
+        <div class="title">Metaphor: ReFantazio</div>
+        <div class="meta">Fanatical · <span class="review-pos">94% positive</span></div>
+        <div class="price-row"><span class="chip-off">−50%</span><span class="price-old">$69.99</span><span class="price-now">$34.99</span></div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head">
+    <span class="s-icon red"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+    <h2>Ending soon</h2>
+    <a class="view-all" href="deals.html">All deals →</a>
+  </div>
+  <div class="row-list">
+
+    <a class="deal-row" href="game.html">
+      <div class="thumb"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2246340/header.jpg" alt="Monster Hunter Wilds" loading="lazy"></div>
+      <div class="info">
+        <div class="title">Monster Hunter Wilds</div>
+        <div class="sub">Steam · <span class="review-pos">88% positive</span></div>
+      </div>
+      <span class="ends"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>1d 04h left</span>
+      <div class="pricing"><span class="chip-off">−30%</span><span class="price-old">$69.99</span><span class="price-now mono">$48.99</span></div>
+    </a>
+
+    <a class="deal-row" href="game.html">
+      <div class="thumb"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg" alt="Clair Obscur: Expedition 33" loading="lazy"></div>
+      <div class="info">
+        <div class="title">Clair Obscur: Expedition 33</div>
+        <div class="sub">Steam · <span class="review-pos">96% positive</span> <span class="badge-atl">ATL</span></div>
+      </div>
+      <span class="ends"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>1d 04h left</span>
+      <div class="pricing"><span class="chip-off">−30%</span><span class="price-old">$49.99</span><span class="price-now mono">$34.99</span></div>
+    </a>
+
+    <a class="deal-row" href="game.html">
+      <div class="thumb"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1868140/header.jpg" alt="Dave the Diver" loading="lazy"></div>
+      <div class="info">
+        <div class="title">Dave the Diver</div>
+        <div class="sub">eShop US · <span class="review-pos">97% positive</span></div>
+      </div>
+      <span class="ends"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>2d 11h left</span>
+      <div class="pricing"><span class="chip-off">−40%</span><span class="price-old">$19.99</span><span class="price-now mono">$11.99</span></div>
+    </a>
+
+    <a class="deal-row" href="game.html">
+      <div class="thumb"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg" alt="Balatro" loading="lazy"></div>
+      <div class="info">
+        <div class="title">Balatro</div>
+        <div class="sub">Steam · <span class="review-pos">98% positive</span> <span class="badge-atl">−$0.75 vs ATL</span></div>
+      </div>
+      <span class="ends"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>3d 02h left</span>
+      <div class="pricing"><span class="chip-off">−25%</span><span class="price-old">$14.99</span><span class="price-now mono">$11.24</span></div>
+    </a>
+
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head">
+    <span class="s-icon green"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5C9.5 3 11 4.5 12 8c1-3.5 2.5-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg></span>
+    <h2>Free to keep right now</h2>
+    <a class="view-all" href="#">All freebies →</a>
+  </div>
+  <div class="free-grid">
+    <a class="free-card" href="game.html">
+      <div class="thumb"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1475810/header.jpg" alt="Ghostwire: Tokyo" loading="lazy"></div>
+      <div>
+        <span class="tag">FREE · EPIC</span>
+        <div class="title">Ghostwire: Tokyo</div>
+        <div class="sub">Claim before Jul 9, 11:00 AM — normally $59.99</div>
+      </div>
+    </a>
+    <a class="free-card" href="game.html">
+      <div class="thumb"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/548430/header.jpg" alt="Deep Rock Galactic" loading="lazy"></div>
+      <div>
+        <span class="tag">FREE WEEKEND · STEAM</span>
+        <div class="title">Deep Rock Galactic</div>
+        <div class="sub">Play free until Jul 8 — and it's −70% if you keep digging</div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head">
+    <span class="s-icon violet"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+    <h2>Coming this month</h2>
+    <a class="view-all" href="#">Full calendar →</a>
+  </div>
+  <div class="release-strip">
+    <a class="release-card" href="#">
+      <div class="art" style="background: #63B8F6;">PR</div>
+      <div class="body">
+        <div class="date">JUL 24</div>
+        <div class="title">Pragmata</div>
+        <div class="plats">PC · PS5 · Xbox</div>
+      </div>
+    </a>
+    <a class="release-card" href="#">
+      <div class="art" style="background: #FF8FC0;">CD</div>
+      <div class="body">
+        <div class="date">AUG 7</div>
+        <div class="title">Crimson Desert</div>
+        <div class="plats">PC · PS5 · Xbox</div>
+      </div>
+    </a>
+    <a class="release-card" href="#">
+      <div class="art" style="background: #52DCCB;">M43</div>
+      <div class="body">
+        <div class="date">AUG 21</div>
+        <div class="title">Marvel 1943: Rise of Hydra</div>
+        <div class="plats">PC · PS5</div>
+      </div>
+    </a>
+    <a class="release-card" href="#">
+      <div class="art" style="background: #FFD84D;">PBZ</div>
+      <div class="body">
+        <div class="date">SEP 4</div>
+        <div class="title">Phantom Blade Zero</div>
+        <div class="plats">PC · PS5</div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <div class="logo" style="margin-bottom: 12px;">
+        <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.83z"/><circle cx="7" cy="7" r="1.6" fill="#fff" stroke="none"/></svg></span>
+        Deal<em>Dex</em>
+      </div>
+      <p class="footer-note">We only list verified, authorized stores — no gray-market keys. Some links are affiliate links; ranking is always by price, never by commission. Prices refresh continuously.</p>
+    </div>
+    <div>
+      <h4>Steam</h4>
+      <a href="deals.html">Deals</a>
+      <a href="#">Regional pricing</a>
+      <a href="#">New releases</a>
+      <a href="#">Sale calendar</a>
+      <a href="#">Free games</a>
+    </div>
+    <div>
+      <h4>Nintendo</h4>
+      <a href="#">eShop deals</a>
+      <a href="#">Region compare</a>
+      <a href="#">New releases</a>
+      <a href="#">Switch 2 hub</a>
+    </div>
+    <div>
+      <h4>Topics</h4>
+      <a href="#">Handheld hub</a>
+      <a href="#">Leaving soon</a>
+      <a href="#">Subscriptions</a>
+      <a href="#">Family picks</a>
+      <a href="#">Genre hubs</a>
+    </div>
+    <div>
+      <h4>DealDex</h4>
+      <a href="#">About & listing policy</a>
+      <a href="#">Price alerts</a>
+      <a href="#">API (soon)</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 DealDex — demo mockup, all prices are sample data</span>
+    <span>Not affiliated with Valve or Nintendo</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var games = [
+    {
+      name: 'Hollow Knight: Silksong',
+      cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/header.jpg',
+      plat: 'Steam $17.99 · eShop $17.99 · PS5 $19.99',
+      region: 'eShop South Africa ≈ $11.05 (−39%)',
+      deal: '−10% · matches all-time low',
+      atl: true
+    },
+    {
+      name: 'Elden Ring',
+      cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg',
+      plat: 'Steam $29.99 · PS5 $39.99 · Xbox $39.99',
+      region: 'Steam Türkiye ≈ $18.40 (−39%)',
+      deal: '−50% · new all-time low',
+      atl: true
+    },
+    {
+      name: 'Hades II',
+      cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1145350/header.jpg',
+      plat: 'Steam $23.99 · eShop $29.99 — Steam wins by $6',
+      region: 'eShop Mexico ≈ $17.20 (−28%)',
+      deal: '−20% · first discount since 1.0',
+      atl: false
+    },
+    {
+      name: 'Stardew Valley',
+      cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg',
+      plat: 'Steam $14.99 · eShop $14.99 · Mobile $7.99',
+      region: 'eShop Brazil ≈ $7.60 (−49%)',
+      deal: '−40% · classic sale price',
+      atl: false
+    }
+  ];
+
+  var input = document.getElementById('heroSearch');
+  var card = document.getElementById('liveCard');
+  var els = {
+    cover: document.getElementById('lcCover'),
+    name: document.getElementById('lcName'),
+    plat: document.getElementById('lcPlat'),
+    region: document.getElementById('lcRegion'),
+    deal: document.getElementById('lcDeal'),
+    atl: document.getElementById('lcAtl')
+  };
+  if (!input || !card) return;
+
+  var CURSOR = '█';
+  var idx = 0, timer = null, paused = false;
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function updateCard(g) {
+    els.cover.src = g.cover;
+    els.cover.alt = g.name + ' cover';
+    els.name.textContent = g.name;
+    els.plat.textContent = g.plat;
+    els.region.textContent = g.region;
+    els.deal.textContent = g.deal;
+    els.atl.style.display = g.atl ? '' : 'none';
+    card.classList.remove('pop');
+    void card.offsetWidth;
+    card.classList.add('pop');
+  }
+
+  function schedule(fn, ms) { timer = setTimeout(fn, ms); }
+
+  function typeGame() {
+    if (paused) return;
+    var g = games[idx];
+    var c = 0;
+    (function typeChar() {
+      if (paused) return;
+      if (c <= g.name.length) {
+        input.placeholder = g.name.slice(0, c) + CURSOR;
+        c++;
+        schedule(typeChar, 62);
+      } else {
+        updateCard(g);
+        blinkHold(g, 0);
+      }
+    })();
+  }
+
+  function blinkHold(g, n) {
+    if (paused) return;
+    if (n >= 5) { deleteGame(g); return; }
+    input.placeholder = g.name + (n % 2 ? CURSOR : ' ');
+    schedule(function () { blinkHold(g, n + 1); }, 460);
+  }
+
+  function deleteGame(g) {
+    if (paused) return;
+    var c = g.name.length;
+    (function delChar() {
+      if (paused) return;
+      if (c >= 0) {
+        input.placeholder = g.name.slice(0, c) + CURSOR;
+        c--;
+        schedule(delChar, 26);
+      } else {
+        idx = (idx + 1) % games.length;
+        schedule(typeGame, 260);
+      }
+    })();
+  }
+
+  function rotateReduced() {
+    if (paused) return;
+    var g = games[idx];
+    input.placeholder = g.name;
+    updateCard(g);
+    idx = (idx + 1) % games.length;
+    schedule(rotateReduced, 4200);
+  }
+
+  input.addEventListener('focus', function () {
+    paused = true;
+    clearTimeout(timer);
+    input.placeholder = 'Search 92,000 games…';
+  });
+  input.addEventListener('blur', function () {
+    if (input.value.trim() !== '') return;
+    paused = false;
+    reduced ? rotateReduced() : typeGame();
+  });
+
+  reduced ? rotateReduced() : typeGame();
+})();
+
+(function () {
+  var dock = document.getElementById('dockSearch');
+  var heroSearch = document.querySelector('.hero-search');
+  if (!dock || !heroSearch) return;
+  function check() {
+    var passed = heroSearch.getBoundingClientRect().bottom < 70;
+    dock.classList.toggle('show', passed);
+  }
+  window.addEventListener('scroll', check, { passive: true });
+  document.addEventListener('scroll', check, { passive: true });
+  setInterval(check, 300);
+  check();
+})();
+</script>
+
+</body>
+</html>

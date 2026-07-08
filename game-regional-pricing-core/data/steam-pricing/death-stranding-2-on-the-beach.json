@@ -1,0 +1,436 @@
+{
+  "app": {
+    "slug": "death-stranding-2-on-the-beach",
+    "name": "DEATH STRANDING 2: ON THE BEACH",
+    "developer": "KOJIMA PRODUCTIONS",
+    "icon": "https://cdn.cloudflare.steamstatic.com/steam/apps/3280350/library_600x900.jpg",
+    "representativePlan": "base",
+    "usePricingV2": true,
+    "brandColor": "#2E5F7F",
+    "brandLogo": "https://cdn.cloudflare.steamstatic.com/steam/apps/3280350/library_600x900.jpg",
+    "steamAppId": 3280350,
+    "steamUrl": "https://store.steampowered.com/app/3280350/",
+    "lastUpdated": "2026-07-03T04:14:21.655Z",
+    "metadata": {
+      "libraryImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/3280350/library_600x900.jpg",
+      "reviewSummary": "Overwhelmingly Positive",
+      "reviewPercent": 95.4,
+      "reviewCount": 24299,
+      "playerCount": 2542,
+      "metacritic": null,
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/6270c77b0729e2df0a17d660286eeddfd9169386/header.jpg?t=1774022345",
+      "recommendations": 13704,
+      "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/6e07f61e2585bae97d2406d45666a7ee70543792/capsule_231x87.jpg?t=1774022345",
+      "capsuleImageV5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/6e07f61e2585bae97d2406d45666a7ee70543792/capsule_184x69.jpg?t=1774022345",
+      "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/6270c77b0729e2df0a17d660286eeddfd9169386/header.jpg?t=1774022345"
+    }
+  },
+  "plans": [
+    {
+      "id": "base",
+      "name": "Base Game",
+      "steamAppId": 3280350,
+      "usBenchmark": "$55.99"
+    }
+  ],
+  "regions": [
+    {
+      "rank": 1,
+      "region": "China",
+      "countryCode": "CN",
+      "flag": "🇨🇳",
+      "prices": {
+        "base": {
+          "local": "¥ 238.40",
+          "usd": "$35.08",
+          "listLocal": "¥ 298.00",
+          "listUsd": "$43.85",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "CNY"
+      },
+      "tax": "VAT included",
+      "riskLevel": "high",
+      "ppp": 8.8,
+      "continent": "Asia"
+    },
+    {
+      "rank": 2,
+      "region": "Ukraine",
+      "countryCode": "UA",
+      "flag": "🇺🇦",
+      "prices": {
+        "base": {
+          "local": "1 839₴",
+          "usd": "$41.00",
+          "listLocal": "2 299₴",
+          "listUsd": "$51.25",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "UAH"
+      },
+      "tax": "20% VAT included",
+      "riskLevel": "high",
+      "ppp": 4.8,
+      "continent": "Europe"
+    },
+    {
+      "rank": 3,
+      "region": "South Korea",
+      "countryCode": "KR",
+      "flag": "🇰🇷",
+      "prices": {
+        "base": {
+          "local": "₩ 63,840",
+          "usd": "$41.35",
+          "listLocal": "₩ 79,800",
+          "listUsd": "$51.69",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "KRW"
+      },
+      "tax": "10% VAT included",
+      "riskLevel": "low",
+      "ppp": 16.1,
+      "continent": "Asia"
+    },
+    {
+      "rank": 4,
+      "region": "India",
+      "countryCode": "IN",
+      "flag": "🇮🇳",
+      "prices": {
+        "base": {
+          "local": "₹ 3,999",
+          "usd": "$41.92",
+          "listLocal": "₹ 4,999",
+          "listUsd": "$52.41",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "INR"
+      },
+      "tax": "18% GST included",
+      "riskLevel": "medium",
+      "ppp": 4.3,
+      "continent": "Asia"
+    },
+    {
+      "rank": 5,
+      "region": "Japan",
+      "countryCode": "JP",
+      "flag": "🇯🇵",
+      "prices": {
+        "base": {
+          "local": "¥ 7,184",
+          "usd": "$44.53",
+          "listLocal": "¥ 8,980",
+          "listUsd": "$55.66",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "JPY"
+      },
+      "tax": "10% Consumption Tax included",
+      "riskLevel": "low",
+      "ppp": 14.8,
+      "continent": "Asia"
+    },
+    {
+      "rank": 6,
+      "region": "Canada",
+      "countryCode": "CA",
+      "flag": "🇨🇦",
+      "prices": {
+        "base": {
+          "local": "CDN$ 71.99",
+          "usd": "$50.74",
+          "listLocal": "CDN$ 89.99",
+          "listUsd": "$63.43",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "CAD"
+      },
+      "tax": "5-15% GST/HST varies by province",
+      "riskLevel": "low",
+      "ppp": 17.2,
+      "continent": "Americas"
+    },
+    {
+      "rank": 7,
+      "region": "Mexico",
+      "countryCode": "MX",
+      "flag": "🇲🇽",
+      "prices": {
+        "base": {
+          "local": "Mex$ 959.20",
+          "usd": "$54.86",
+          "listLocal": "Mex$ 1,199.00",
+          "listUsd": "$68.57",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "MXN"
+      },
+      "tax": "16% IVA included",
+      "riskLevel": "low",
+      "ppp": 13.4,
+      "continent": "Americas"
+    },
+    {
+      "rank": 8,
+      "region": "Pakistan",
+      "countryCode": "PK",
+      "flag": "🇵🇰",
+      "prices": {
+        "base": {
+          "local": "$55.99",
+          "usd": "$55.99",
+          "listLocal": "$69.99",
+          "listUsd": "$69.99",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "USD"
+      },
+      "tax": "Sales tax on digital services varies by province 15-16%",
+      "riskLevel": "medium",
+      "ppp": 4,
+      "continent": "Asia"
+    },
+    {
+      "rank": 9,
+      "region": "Turkey",
+      "countryCode": "TR",
+      "flag": "🇹🇷",
+      "prices": {
+        "base": {
+          "local": "$55.99",
+          "usd": "$55.99",
+          "listLocal": "$69.99",
+          "listUsd": "$69.99",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "USD"
+      },
+      "tax": "20% VAT included",
+      "riskLevel": "medium",
+      "ppp": 8.2,
+      "continent": "Europe"
+    },
+    {
+      "rank": 10,
+      "region": "Argentina",
+      "countryCode": "AR",
+      "flag": "🇦🇷",
+      "prices": {
+        "base": {
+          "local": "$55.99",
+          "usd": "$55.99",
+          "listLocal": "$69.99",
+          "listUsd": "$69.99",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "USD"
+      },
+      "tax": "Priced in USD (Steam USD-LATAM region); local card surcharges may apply",
+      "riskLevel": "medium",
+      "ppp": 14.3,
+      "continent": "Americas"
+    },
+    {
+      "rank": 11,
+      "region": "United States",
+      "countryCode": "US",
+      "flag": "🇺🇸",
+      "prices": {
+        "base": {
+          "local": "$55.99",
+          "usd": "$55.99",
+          "listLocal": "$69.99",
+          "listUsd": "$69.99",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "USD"
+      },
+      "tax": "Tax varies by state 0-10%",
+      "riskLevel": "low",
+      "ppp": 20,
+      "continent": "Americas"
+    },
+    {
+      "rank": 12,
+      "region": "Brazil",
+      "countryCode": "BR",
+      "flag": "🇧🇷",
+      "prices": {
+        "base": {
+          "local": "R$ 319,92",
+          "usd": "$61.49",
+          "listLocal": "R$ 399,90",
+          "listUsd": "$76.86",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "BRL"
+      },
+      "tax": "State tax (ICMS) varies 7-25%",
+      "riskLevel": "medium",
+      "ppp": 11.2,
+      "continent": "Americas"
+    },
+    {
+      "rank": 13,
+      "region": "Kazakhstan",
+      "countryCode": "KZ",
+      "flag": "🇰🇿",
+      "prices": {
+        "base": {
+          "local": "29 279₸",
+          "usd": "$61.74",
+          "listLocal": "36 599₸",
+          "listUsd": "$77.18",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "KZT"
+      },
+      "tax": "12% VAT included",
+      "riskLevel": "high",
+      "ppp": 7.6,
+      "continent": "Asia"
+    },
+    {
+      "rank": 14,
+      "region": "Australia",
+      "countryCode": "AU",
+      "flag": "🇦🇺",
+      "prices": {
+        "base": {
+          "local": "A$ 99.96",
+          "usd": "$69.08",
+          "listLocal": "A$ 124.95",
+          "listUsd": "$86.35",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "AUD"
+      },
+      "tax": "10% GST included",
+      "riskLevel": "low",
+      "ppp": 18.9,
+      "continent": "Oceania"
+    },
+    {
+      "rank": 15,
+      "region": "Germany",
+      "countryCode": "DE",
+      "flag": "🇩🇪",
+      "prices": {
+        "base": {
+          "local": "63,99€",
+          "usd": "$73.10",
+          "listLocal": "79,99€",
+          "listUsd": "$91.38",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "EUR"
+      },
+      "tax": "19% VAT included",
+      "riskLevel": "low",
+      "ppp": 21.2,
+      "continent": "Europe"
+    },
+    {
+      "rank": 16,
+      "region": "United Kingdom",
+      "countryCode": "GB",
+      "flag": "🇬🇧",
+      "prices": {
+        "base": {
+          "local": "£55.99",
+          "usd": "$74.68",
+          "listLocal": "£69.99",
+          "listUsd": "$93.35",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "GBP"
+      },
+      "tax": "20% VAT included",
+      "riskLevel": "low",
+      "ppp": 23.1,
+      "continent": "Europe"
+    },
+    {
+      "rank": 17,
+      "region": "Switzerland",
+      "countryCode": "CH",
+      "flag": "🇨🇭",
+      "prices": {
+        "base": {
+          "local": "CHF 63.92",
+          "usd": "$79.46",
+          "listLocal": "CHF 79.90",
+          "listUsd": "$99.32",
+          "discountPct": 20
+        }
+      },
+      "currency": {
+        "base": "CHF"
+      },
+      "tax": "8.1% VAT included",
+      "riskLevel": "low",
+      "ppp": 22.1,
+      "continent": "Europe"
+    },
+    {
+      "rank": 18,
+      "region": "Russia",
+      "countryCode": "RU",
+      "flag": "🇷🇺",
+      "prices": {},
+      "currency": {},
+      "tax": "VAT included; local payment methods only",
+      "riskLevel": "high",
+      "ppp": 9,
+      "continent": "Europe"
+    },
+    {
+      "rank": 19,
+      "region": "Georgia",
+      "countryCode": "GE",
+      "flag": "🇬🇪",
+      "prices": {},
+      "currency": {},
+      "tax": "18% VAT included",
+      "riskLevel": "medium",
+      "ppp": 5.9,
+      "continent": "Europe"
+    }
+  ]
+}

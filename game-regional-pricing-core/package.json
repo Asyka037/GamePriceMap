@@ -1,0 +1,14 @@
+{
+  "name": "game-regional-pricing-core",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "scrape:steam": "node src/scrapers/scrape-steam-prices.mjs",
+    "scrape:eshop": "node src/scrapers/scrape-eshop-prices.mjs",
+    "validate:data": "node src/validate-data.mjs"
+  }
+}

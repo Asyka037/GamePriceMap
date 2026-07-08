@@ -1,0 +1,359 @@
+{
+  "app": {
+    "slug": "super-smash-bros-ultimate",
+    "name": "Super Smash Bros. Ultimate",
+    "developer": "Nintendo",
+    "icon": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_SuperSmashBrosUltimate_02_image500w.jpg",
+    "representativePlan": "base",
+    "usePricingV2": true,
+    "brandColor": "#D85A4A",
+    "brandLogo": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_SuperSmashBrosUltimate_02_image500w.jpg",
+    "eshopUrl": "https://www.nintendo.com/us/store/products/super-smash-bros-ultimate-switch/",
+    "metadata": {
+      "releaseDate": "December 7, 2018",
+      "genres": [
+        "Action",
+        "Fighting"
+      ],
+      "players": "1-8 players",
+      "ageRating": "ESRB E10+ / PEGI 12",
+      "publisher": "Nintendo",
+      "headerImage": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperSmashBrosUltimate_02_image500w.jpg"
+    },
+    "lastUpdated": "2026-07-04T07:33:56.478Z"
+  },
+  "plans": [
+    {
+      "id": "base",
+      "name": "Switch Edition",
+      "usBenchmark": "$59.99",
+      "nsuids": {
+        "americas": "70010000012332",
+        "europe": "70010000012331",
+        "japan": "70010000012085"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "rank": 1,
+      "region": "Japan",
+      "countryCode": "JP",
+      "flag": "🇯🇵",
+      "regionGroup": "japan",
+      "continent": "Asia",
+      "ppp": 14.8,
+      "tax": "10% Consumption Tax included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "7,920円",
+          "usd": "$49.10"
+        }
+      },
+      "currency": {
+        "base": "JPY"
+      }
+    },
+    {
+      "rank": 2,
+      "region": "New Zealand",
+      "countryCode": "NZ",
+      "flag": "🇳🇿",
+      "regionGroup": "europe",
+      "continent": "Oceania",
+      "ppp": 18,
+      "tax": "15% GST included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$99.95",
+          "usd": "$57.07"
+        }
+      },
+      "currency": {
+        "base": "NZD"
+      }
+    },
+    {
+      "rank": 3,
+      "region": "Argentina",
+      "countryCode": "AR",
+      "flag": "🇦🇷",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 14.3,
+      "tax": "Local taxes and card surcharges may apply at checkout",
+      "riskLevel": "medium",
+      "prices": {
+        "base": {
+          "local": "$84.999,00",
+          "usd": "$57.10"
+        }
+      },
+      "currency": {
+        "base": "ARS"
+      }
+    },
+    {
+      "rank": 4,
+      "region": "Canada",
+      "countryCode": "CA",
+      "flag": "🇨🇦",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 17.2,
+      "tax": "GST/PST added at checkout",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$84.99",
+          "usd": "$59.86"
+        }
+      },
+      "currency": {
+        "base": "CAD"
+      }
+    },
+    {
+      "rank": 5,
+      "region": "United States",
+      "countryCode": "US",
+      "flag": "🇺🇸",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 20,
+      "tax": "Sales tax added at checkout in most states",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$59.99",
+          "usd": "$59.99"
+        }
+      },
+      "currency": {
+        "base": "USD"
+      }
+    },
+    {
+      "rank": 6,
+      "region": "Australia",
+      "countryCode": "AU",
+      "flag": "🇦🇺",
+      "regionGroup": "europe",
+      "continent": "Oceania",
+      "ppp": 18.9,
+      "tax": "10% GST included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "$89.95",
+          "usd": "$62.38"
+        }
+      },
+      "currency": {
+        "base": "AUD"
+      }
+    },
+    {
+      "rank": 7,
+      "region": "Brazil",
+      "countryCode": "BR",
+      "flag": "🇧🇷",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 11.2,
+      "tax": "Taxes included; local payment options vary",
+      "riskLevel": "medium",
+      "prices": {
+        "base": {
+          "local": "R$ 329,90",
+          "usd": "$63.43"
+        }
+      },
+      "currency": {
+        "base": "BRL"
+      }
+    },
+    {
+      "rank": 8,
+      "region": "Mexico",
+      "countryCode": "MX",
+      "flag": "🇲🇽",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 13.4,
+      "tax": "16% IVA included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "MX$1,229.00",
+          "usd": "$70.36"
+        }
+      },
+      "currency": {
+        "base": "MXN"
+      }
+    },
+    {
+      "rank": 9,
+      "region": "Poland",
+      "countryCode": "PL",
+      "flag": "🇵🇱",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 14.5,
+      "tax": "23% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "289,80 zł",
+          "usd": "$77.37"
+        }
+      },
+      "currency": {
+        "base": "PLN"
+      }
+    },
+    {
+      "rank": 10,
+      "region": "Norway",
+      "countryCode": "NO",
+      "flag": "🇳🇴",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 24,
+      "tax": "25% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "769,00 kr",
+          "usd": "$78.19"
+        }
+      },
+      "currency": {
+        "base": "NOK"
+      }
+    },
+    {
+      "rank": 11,
+      "region": "Denmark",
+      "countryCode": "DK",
+      "flag": "🇩🇰",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 24,
+      "tax": "25% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "519,00 kr.",
+          "usd": "$79.55"
+        }
+      },
+      "currency": {
+        "base": "DKK"
+      }
+    },
+    {
+      "rank": 12,
+      "region": "Germany",
+      "countryCode": "DE",
+      "flag": "🇩🇪",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 21.2,
+      "tax": "19% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "69,99 €",
+          "usd": "$80.06"
+        }
+      },
+      "currency": {
+        "base": "EUR"
+      }
+    },
+    {
+      "rank": 13,
+      "region": "United Kingdom",
+      "countryCode": "GB",
+      "flag": "🇬🇧",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 23.1,
+      "tax": "20% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "£59.99",
+          "usd": "$80.09"
+        }
+      },
+      "currency": {
+        "base": "GBP"
+      }
+    },
+    {
+      "rank": 14,
+      "region": "South Africa",
+      "countryCode": "ZA",
+      "flag": "🇿🇦",
+      "regionGroup": "europe",
+      "continent": "Africa",
+      "ppp": 7,
+      "tax": "15% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "R1,329.00",
+          "usd": "$81.92"
+        }
+      },
+      "currency": {
+        "base": "ZAR"
+      }
+    },
+    {
+      "rank": 15,
+      "region": "Colombia",
+      "countryCode": "CO",
+      "flag": "🇨🇴",
+      "regionGroup": "americas",
+      "continent": "Americas",
+      "ppp": 10.5,
+      "tax": "19% IVA may be added at checkout",
+      "riskLevel": "medium",
+      "prices": {
+        "base": {
+          "local": "$279.900,00",
+          "usd": "$82.59"
+        }
+      },
+      "currency": {
+        "base": "COP"
+      }
+    },
+    {
+      "rank": 16,
+      "region": "Switzerland",
+      "countryCode": "CH",
+      "flag": "🇨🇭",
+      "regionGroup": "europe",
+      "continent": "Europe",
+      "ppp": 22.1,
+      "tax": "8.1% VAT included",
+      "riskLevel": "low",
+      "prices": {
+        "base": {
+          "local": "CHF 69.90",
+          "usd": "$86.99"
+        }
+      },
+      "currency": {
+        "base": "CHF"
+      }
+    }
+  ]
+}
