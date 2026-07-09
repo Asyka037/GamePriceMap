@@ -29,6 +29,9 @@ jobs:
       - name: Scrape eShop regional prices (reuses fresh rates)
         run: npm run scrape:eshop
 
+      - name: Refresh deal + free-game feeds
+        run: node scripts/scrape-feeds.mjs
+
       - name: Evolve price history + ATL seeds
         run: npm run history
 

@@ -109,6 +109,48 @@ if (fs.existsSync(histDir)) {
   }
 }
 
+// --- feeds ---
+const FEED_DEALS = ['deals-steam.json', 'deals-eshop.json', 'deals-stores.json'];
+for (const name of FEED_DEALS) {
+  const p = path.join(ROOT, 'data/feeds', name);
+  if (!fs.existsSync(p)) continue;
+  const feed = readJson(`data/feeds/${name}`);
+  if (!Array.isArray(feed.items) || feed.items.length === 0) { fail(`${name}: empty deals feed`); continue; }
+  for (const it of feed.items) {
+    if (!(it.price > 0) || !(it.list > 0)) fail(`${name} "${it.title}": non-positive price`);
+    if (!(it.pct > 0 && it.pct <= 100)) fail(`${name} "${it.title}": pct ${it.pct} out of range`);
+    if (!/^https:\/\//.test(it.url ?? '')) fail(`${name} "${it.title}": bad url`);
+  }
+}
+const freePath = path.join(ROOT, 'data/feeds/free-games.json');
+if (fs.existsSync(freePath)) {
+  for (const it of readJson('data/feeds/free-games.json').items) {
+    if (!['free-now', 'upcoming'].includes(it.status)) fail(`free-games "${it.title}": bad status ${it.status}`);
+    if (it.price !== 0) fail(`free-games "${it.title}": price must be 0`);
+  }
+}
+const calPath = path.join(ROOT, 'data/feeds/calendar.json');
+if (fs.existsSync(calPath)) {
+  const cal = readJson('data/feeds/calendar.json');
+  for (const [month, list] of Object.entries(cal.months ?? {})) {
+    if (!/^\d{4}-\d{2}$/.test(month)) fail(`calendar: bad month key ${month}`);
+    if (!Array.isArray(list) || list.length === 0) fail(`calendar ${month}: empty month`);
+    for (const e of list) {
+      if (e.date && !e.date.startsWith(month)) fail(`calendar ${month} "${e.title}": date ${e.date} outside month`);
+    }
+  }
+}
+
+// --- meta ---
+const metaDir = path.join(ROOT, 'data/meta');
+if (fs.existsSync(metaDir)) {
+  for (const file of fs.readdirSync(metaDir).filter((f) => f.endsWith('.json'))) {
+    const m = readJson(`data/meta/${file}`);
+    if (!slugs.has(m.slug)) fail(`meta/${file}: slug not in catalog`);
+    if (m.reviewPercent !== null && !(m.reviewPercent >= 0 && m.reviewPercent <= 100)) fail(`meta/${file}: reviewPercent out of range`);
+  }
+}
+
 if (errors.length) {
   console.error(`✗ Validation failed with ${errors.length} error(s):`);
   for (const e of errors) console.error('  - ' + e);

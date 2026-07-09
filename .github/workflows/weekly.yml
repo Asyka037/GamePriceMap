@@ -1,0 +1,52 @@
+name: Weekly metadata & calendar
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'   # Mondays 09:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh     # shares the daily group: never overlaps commits
+  cancel-in-progress: false
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Refresh metadata + reviews
+        run: node scripts/scrape-meta.mjs
+
+      - name: Refresh release calendar
+        run: node scripts/scrape-calendar.mjs
+
+      - name: Build catalog candidates (human-reviewed)
+        run: node scripts/suggest-catalog.mjs
+
+      - name: Validate data gate
+        run: npm run validate
+
+      - name: Commit and push data
+        run: |
+          git config user.name "gamepricemap-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "chore(data): weekly refresh $(date -u +%F)"
+          git pull --rebase origin main
+          git push origin main
