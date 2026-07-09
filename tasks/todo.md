@@ -38,7 +38,7 @@
 
 ## Phase 6：部署与监控
 - [ ] T6.1 Cloudflare Pages 接入 + Deploy Hook（需用户授权）
-- [ ] T6.2 health.json + /status 页 + 页脚数据时间戳
+- [x] T6.2 health.json（validate 通过时产出）+ /status 页（9 源 FRESH/STALE/DOWN）+ 页脚时间戳（Phase 4 已有）
 
 ## 评审记录
 （每个 Phase 完成后在此追加：改动摘要、验证输出、遗留问题）
@@ -94,6 +94,11 @@
 - 单测 44/44（新增 mapgrid 5 项：34 追踪区域瓦片全覆盖、无重叠、网格边界、分档边界、pct 计算）。
 - 构建 137 页正常；Silksong 区域页断言：34 交互瓦片 + 12 大陆底纹 + aria-label 含本币/USD/差价 + 行锚点生效。
 - 地图为坐标表方案（V2 升级到 Natural Earth choropleth 的路径已写入方案 §8，组件 API 不变）。
+
+### 2026-07-09 Phase 5 补充 + T6.2 执行记录（Claude）
+- 定时 cron 已自主完成 2026-07-09 日更（无人触发），管线连续两天正常。
+- T6.2：validate 闸门通过时产出 data/health.json；/status 页按各源节奏预算渲染 FRESH/STALE/DOWN，当前 9/9 FRESH；构建 138 页。
+- 剩余：仅 T6.1（Cloudflare Pages 绑定，用户操作）。绑定用 git 集成即可（数据日更 push 自动触发构建，约 35 次/月 << 500 限额），daily.yml 里的 Deploy Hook 注释段可以永久不启用。
 
 ## 需要用户操作的事项
 - [ ] GitHub 仓库创建/授权首推（T0.3）；决定公开或私有（方案 §3：建议公开）
