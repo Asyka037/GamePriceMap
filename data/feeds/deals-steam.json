@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T02:42:19.533Z",
+  "updatedAt": "2026-07-09T10:38:44.447Z",
   "items": [
     {
       "title": "Cyberpunk 2077",
@@ -38,18 +38,6 @@
       "slugIfTracked": "baldurs-gate-3"
     },
     {
-      "title": "Moonlight Peaks",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2209900/",
-      "currency": "USD",
-      "price": 29.74,
-      "list": 34.99,
-      "pct": 15,
-      "endsAt": "2026-07-13T17:00:23.000Z",
-      "steamAppId": 2209900,
-      "slugIfTracked": null
-    },
-    {
       "title": "Red Dead Redemption 2",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/1174180/",
@@ -60,18 +48,6 @@
       "endsAt": "2026-07-09T17:00:00.000Z",
       "steamAppId": 1174180,
       "slugIfTracked": "red-dead-redemption-2"
-    },
-    {
-      "title": "RuneScape: Dragonwilds",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1374490/",
-      "currency": "USD",
-      "price": 20.99,
-      "list": 29.99,
-      "pct": 30,
-      "endsAt": "2026-07-09T17:00:00.000Z",
-      "steamAppId": 1374490,
-      "slugIfTracked": null
     },
     {
       "title": "Cyberpunk 2077: Phantom Liberty",
@@ -98,6 +74,18 @@
       "slugIfTracked": null
     },
     {
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/814380/",
+      "currency": "USD",
+      "price": 29.99,
+      "list": 59.99,
+      "pct": 50,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 814380,
+      "slugIfTracked": "sekiro-shadows-die-twice"
+    },
+    {
       "title": "DOOM: The Dark Ages",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/3017860/",
@@ -110,15 +98,27 @@
       "slugIfTracked": null
     },
     {
-      "title": "Grand Theft Auto V Enhanced",
+      "title": "RuneScape: Dragonwilds",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
+      "url": "https://store.steampowered.com/app/1374490/",
       "currency": "USD",
-      "price": 14.99,
+      "price": 20.99,
       "list": 29.99,
-      "pct": 50,
+      "pct": 30,
       "endsAt": "2026-07-09T17:00:00.000Z",
-      "steamAppId": 3240220,
+      "steamAppId": 1374490,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Marvel's Spider-Man 2",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2651280/",
+      "currency": "USD",
+      "price": 40.19,
+      "list": 59.99,
+      "pct": 33,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 2651280,
       "slugIfTracked": null
     }
   ]

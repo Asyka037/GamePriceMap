@@ -1,14 +1,14 @@
 {
   "slug": "god-of-war-ragnarok",
-  "updatedAt": "2026-07-08T08:56:33.109Z",
+  "updatedAt": "2026-07-09T10:38:21.306Z",
   "regions": [
     {
       "cc": "UA",
       "currency": "UAH",
       "amount": 1138,
-      "usd": 25.55,
+      "usd": 25.56,
       "list": 1699,
-      "listUsd": 38.14,
+      "listUsd": 38.17,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 1
@@ -17,9 +17,9 @@
       "cc": "KR",
       "currency": "KRW",
       "amount": 42080,
-      "usd": 27.74,
+      "usd": 27.94,
       "list": 62800,
-      "listUsd": 41.4,
+      "listUsd": 41.7,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 2
@@ -28,9 +28,9 @@
       "cc": "IN",
       "currency": "INR",
       "amount": 2679,
-      "usd": 28.19,
+      "usd": 28.02,
       "list": 3999,
-      "listUsd": 42.07,
+      "listUsd": 41.83,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 3
@@ -39,9 +39,9 @@
       "cc": "JP",
       "currency": "JPY",
       "amount": 5085,
-      "usd": 31.37,
+      "usd": 31.29,
       "list": 7590,
-      "listUsd": 46.82,
+      "listUsd": 46.7,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 4
@@ -50,23 +50,12 @@
       "cc": "BR",
       "currency": "BRL",
       "amount": 167.43,
-      "usd": 32.58,
+      "usd": 32.47,
       "list": 249.9,
-      "listUsd": 48.63,
+      "listUsd": 48.47,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 5
-    },
-    {
-      "cc": "KZ",
-      "currency": "KZT",
-      "amount": 15744,
-      "usd": 33.48,
-      "list": 23499,
-      "listUsd": 49.98,
-      "discountPct": 33,
-      "saleEndsAt": null,
-      "rank": 6
     },
     {
       "cc": "PK",
@@ -77,7 +66,7 @@
       "listUsd": 49.99,
       "discountPct": 33,
       "saleEndsAt": null,
-      "rank": 7
+      "rank": 6
     },
     {
       "cc": "TR",
@@ -88,7 +77,7 @@
       "listUsd": 49.99,
       "discountPct": 33,
       "saleEndsAt": null,
-      "rank": 8
+      "rank": 7
     },
     {
       "cc": "GE",
@@ -99,7 +88,7 @@
       "listUsd": 49.99,
       "discountPct": 33,
       "saleEndsAt": null,
-      "rank": 9
+      "rank": 8
     },
     {
       "cc": "AR",
@@ -110,15 +99,26 @@
       "listUsd": 49.99,
       "discountPct": 33,
       "saleEndsAt": null,
+      "rank": 9
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 15744,
+      "usd": 33.58,
+      "list": 23499,
+      "listUsd": 50.12,
+      "discountPct": 33,
+      "saleEndsAt": null,
       "rank": 10
     },
     {
       "cc": "CA",
       "currency": "CAD",
       "amount": 53.59,
-      "usd": 37.73,
+      "usd": 37.81,
       "list": 79.99,
-      "listUsd": 56.31,
+      "listUsd": 56.44,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 11
@@ -127,9 +127,9 @@
       "cc": "MX",
       "currency": "MXN",
       "amount": 669.33,
-      "usd": 38.26,
+      "usd": 38.08,
       "list": 999,
-      "listUsd": 57.11,
+      "listUsd": 56.83,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 12
@@ -138,9 +138,9 @@
       "cc": "CN",
       "currency": "CNY",
       "amount": 266.66,
-      "usd": 39.2,
+      "usd": 39.16,
       "list": 398,
-      "listUsd": 58.51,
+      "listUsd": 58.44,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 13
@@ -160,9 +160,9 @@
       "cc": "AU",
       "currency": "AUD",
       "amount": 63.61,
-      "usd": 44.1,
+      "usd": 44.09,
       "list": 94.95,
-      "listUsd": 65.83,
+      "listUsd": 65.81,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 15
@@ -171,9 +171,9 @@
       "cc": "GB",
       "currency": "GBP",
       "amount": 33.49,
-      "usd": 44.76,
+      "usd": 44.79,
       "list": 49.99,
-      "listUsd": 66.81,
+      "listUsd": 66.85,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 16
@@ -182,9 +182,9 @@
       "cc": "DE",
       "currency": "EUR",
       "amount": 40.19,
-      "usd": 45.89,
+      "usd": 45.87,
       "list": 59.99,
-      "listUsd": 68.5,
+      "listUsd": 68.47,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 17
@@ -193,9 +193,9 @@
       "cc": "CH",
       "currency": "CHF",
       "amount": 40.13,
-      "usd": 49.68,
+      "usd": 49.63,
       "list": 59.9,
-      "listUsd": 74.16,
+      "listUsd": 74.08,
       "discountPct": 33,
       "saleEndsAt": null,
       "rank": 18

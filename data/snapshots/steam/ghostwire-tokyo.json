@@ -1,6 +1,6 @@
 {
   "slug": "ghostwire-tokyo",
-  "updatedAt": "2026-07-08T08:56:33.113Z",
+  "updatedAt": "2026-07-09T10:38:21.310Z",
   "regions": [
     {
       "cc": "UA",
@@ -8,7 +8,7 @@
       "amount": 96,
       "usd": 2.16,
       "list": 969,
-      "listUsd": 21.75,
+      "listUsd": 21.77,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 1
@@ -17,9 +17,9 @@
       "cc": "IN",
       "currency": "INR",
       "amount": 249,
-      "usd": 2.62,
+      "usd": 2.6,
       "list": 2499,
-      "listUsd": 26.29,
+      "listUsd": 26.14,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 2
@@ -28,9 +28,9 @@
       "cc": "KZ",
       "currency": "KZT",
       "amount": 1499,
-      "usd": 3.19,
+      "usd": 3.2,
       "list": 14999,
-      "listUsd": 31.9,
+      "listUsd": 31.99,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 3
@@ -63,7 +63,7 @@
       "amount": 24.9,
       "usd": 3.66,
       "list": 249,
-      "listUsd": 36.61,
+      "listUsd": 36.56,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 6
@@ -94,9 +94,9 @@
       "cc": "BR",
       "currency": "BRL",
       "amount": 20.9,
-      "usd": 4.07,
+      "usd": 4.05,
       "list": 209,
-      "listUsd": 40.67,
+      "listUsd": 40.53,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 9
@@ -105,9 +105,9 @@
       "cc": "KR",
       "currency": "KRW",
       "amount": 6700,
-      "usd": 4.42,
+      "usd": 4.45,
       "list": 67000,
-      "listUsd": 44.17,
+      "listUsd": 44.49,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 10
@@ -116,9 +116,9 @@
       "cc": "JP",
       "currency": "JPY",
       "amount": 877,
-      "usd": 5.41,
+      "usd": 5.4,
       "list": 8778,
-      "listUsd": 54.15,
+      "listUsd": 54.01,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 11
@@ -127,9 +127,9 @@
       "cc": "CA",
       "currency": "CAD",
       "amount": 7.99,
-      "usd": 5.63,
+      "usd": 5.64,
       "list": 79.99,
-      "listUsd": 56.31,
+      "listUsd": 56.44,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 12
@@ -149,9 +149,9 @@
       "cc": "MX",
       "currency": "MXN",
       "amount": 107.9,
-      "usd": 6.17,
+      "usd": 6.14,
       "list": 1079,
-      "listUsd": 61.68,
+      "listUsd": 61.38,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 14
@@ -162,7 +162,7 @@
       "amount": 4.99,
       "usd": 6.67,
       "list": 49.99,
-      "listUsd": 66.81,
+      "listUsd": 66.85,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 15
@@ -173,7 +173,7 @@
       "amount": 5.99,
       "usd": 6.84,
       "list": 59.99,
-      "listUsd": 68.5,
+      "listUsd": 68.47,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 16
@@ -182,9 +182,9 @@
       "cc": "AU",
       "currency": "AUD",
       "amount": 9.99,
-      "usd": 6.93,
+      "usd": 6.92,
       "list": 99.95,
-      "listUsd": 69.3,
+      "listUsd": 69.28,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 17
@@ -193,9 +193,9 @@
       "cc": "CH",
       "currency": "CHF",
       "amount": 6.29,
-      "usd": 7.79,
+      "usd": 7.78,
       "list": 62.9,
-      "listUsd": 77.87,
+      "listUsd": 77.79,
       "discountPct": 90,
       "saleEndsAt": null,
       "rank": 18

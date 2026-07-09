@@ -1,28 +1,17 @@
 {
   "slug": "tunic",
-  "updatedAt": "2026-07-08T16:58:09.542Z",
+  "updatedAt": "2026-07-09T10:38:42.952Z",
   "regions": [
-    {
-      "cc": "MX",
-      "currency": "MXN",
-      "amount": 49.99,
-      "usd": 2.86,
-      "list": 249.99,
-      "listUsd": 14.29,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-19T06:59:59Z",
-      "rank": 1
-    },
     {
       "cc": "CA",
       "currency": "CAD",
       "amount": 5.03,
-      "usd": 3.54,
+      "usd": 3.55,
       "list": 25.19,
-      "listUsd": 17.73,
+      "listUsd": 17.77,
       "discountPct": 80,
       "saleEndsAt": "2026-07-19T06:59:59Z",
-      "rank": 2
+      "rank": 1
     },
     {
       "cc": "US",
@@ -33,24 +22,35 @@
       "listUsd": 19.99,
       "discountPct": 80,
       "saleEndsAt": "2026-07-19T06:59:59Z",
-      "rank": 3
+      "rank": 2
     },
     {
       "cc": "BR",
       "currency": "BRL",
       "amount": 20.98,
-      "usd": 4.08,
+      "usd": 4.07,
       "list": 104.9,
-      "listUsd": 20.41,
+      "listUsd": 20.34,
       "discountPct": 80,
       "saleEndsAt": "2026-07-19T06:59:59Z",
-      "rank": 4
+      "rank": 3
     },
     {
       "cc": "CO",
       "currency": "COP",
       "amount": 49900,
-      "usd": 14.91,
+      "usd": 14.94,
+      "list": null,
+      "listUsd": null,
+      "discountPct": null,
+      "saleEndsAt": null,
+      "rank": 4
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 4085,
+      "usd": 25.14,
       "list": null,
       "listUsd": null,
       "discountPct": null,
@@ -58,10 +58,10 @@
       "rank": 5
     },
     {
-      "cc": "JP",
-      "currency": "JPY",
-      "amount": 4085,
-      "usd": 25.2,
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 46.2,
+      "usd": 26.36,
       "list": null,
       "listUsd": null,
       "discountPct": null,
@@ -69,10 +69,10 @@
       "rank": 6
     },
     {
-      "cc": "NZ",
-      "currency": "NZD",
-      "amount": 46.2,
-      "usd": 26.26,
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 280,
+      "usd": 28.66,
       "list": null,
       "listUsd": null,
       "discountPct": null,
@@ -80,10 +80,10 @@
       "rank": 7
     },
     {
-      "cc": "NO",
-      "currency": "NOK",
-      "amount": 280,
-      "usd": 28.55,
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 42,
+      "usd": 29.11,
       "list": null,
       "listUsd": null,
       "discountPct": null,
@@ -91,10 +91,10 @@
       "rank": 8
     },
     {
-      "cc": "AU",
-      "currency": "AUD",
-      "amount": 42,
-      "usd": 29.12,
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 112,
+      "usd": 29.67,
       "list": null,
       "listUsd": null,
       "discountPct": null,
@@ -102,10 +102,10 @@
       "rank": 9
     },
     {
-      "cc": "PL",
-      "currency": "PLN",
-      "amount": 112,
-      "usd": 29.76,
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 504,
+      "usd": 30.72,
       "list": null,
       "listUsd": null,
       "discountPct": null,
@@ -113,10 +113,10 @@
       "rank": 10
     },
     {
-      "cc": "ZA",
-      "currency": "ZAR",
-      "amount": 504,
-      "usd": 30.96,
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 27.99,
+      "usd": 31.95,
       "list": null,
       "listUsd": null,
       "discountPct": null,
@@ -124,10 +124,10 @@
       "rank": 11
     },
     {
-      "cc": "DE",
-      "currency": "EUR",
-      "amount": 27.99,
-      "usd": 31.96,
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 210,
+      "usd": 32.11,
       "list": null,
       "listUsd": null,
       "discountPct": null,
@@ -135,10 +135,10 @@
       "rank": 12
     },
     {
-      "cc": "DK",
-      "currency": "DKK",
-      "amount": 210,
-      "usd": 32.14,
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 25.19,
+      "usd": 33.69,
       "list": null,
       "listUsd": null,
       "discountPct": null,
@@ -146,26 +146,15 @@
       "rank": 13
     },
     {
-      "cc": "GB",
-      "currency": "GBP",
-      "amount": 25.19,
-      "usd": 33.66,
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 39.2,
+      "usd": 48.48,
       "list": null,
       "listUsd": null,
       "discountPct": null,
       "saleEndsAt": null,
       "rank": 14
-    },
-    {
-      "cc": "CH",
-      "currency": "CHF",
-      "amount": 39.2,
-      "usd": 48.53,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 15
     }
   ]
 }
