@@ -22,7 +22,7 @@
 
 ## Phase 3：折扣/免费/多店/日历 feeds
 - [x] T3.1 scrape-feeds.mjs（四源 fail-soft；实跑 5/5：10 steam + 293 eshop-eu + 119 多店 + 5 免费含 upcoming）
-- [x] T3.2 日历（降级源版：EU upcoming 120 条 + Steam coming_soon 精确日期 4 条 → 4 个月 116 条；IGDB 接口位保留，等 Twitch 凭据）
+- [x] T3.2 日历（降级源版：EU upcoming 120 条 + Steam coming_soon 精确日期 4 条 → 4 个月 116 条；用户决策不引入 IGDB，此即正式方案）
 - [x] T3.3 weekly.yml（meta 42/42 + 日历 + 候选建议；SteamSpy 403 fail-soft 转 top_sellers + 噪音过滤）
 
 ## Phase 4：Astro 前端
@@ -81,10 +81,9 @@
 ### 2026-07-08 Phase 3 执行记录（Claude）
 - 单测 32/32；validate 扩展覆盖 feeds/calendar/meta 后全绿；四个 feed 实跑 5/5 源成功。
 - 设计偏差（已论证）：feed schema 增加 currency 字段（Steam 是 USD、eShop-EU 是 GBP，混同会错价）；免费流条目带 status: free-now|upcoming。
-- 已知局限：Steam coming_soon 多数条目日期模糊（"Q4 2026"类被拒绝不猜测），日历 Steam 侧仅 4 条精确——IGDB 凭据到位后作为主源可解；SteamSpy 返回 403（UA 或防爬调整），候选建议暂靠 top_sellers 单源。
+- 已知局限：Steam coming_soon 多数条目日期模糊（"Q4 2026"类被拒绝不猜测），日历 Steam 侧仅 4 条精确（用户决策：不引入 IGDB，接受此局限）；SteamSpy 返回 403（UA 或防爬调整），候选建议暂靠 top_sellers 单源。
 
 ## 需要用户操作的事项
 - [ ] GitHub 仓库创建/授权首推（T0.3）；决定公开或私有（方案 §3：建议公开）
-- [ ] Twitch/IGDB 免费凭据申请（T3.2，约 5 分钟；不申请则用降级日历源）
 - [ ] Cloudflare Pages 绑定仓库（T6.1）
 - [ ] 每周审核 suggestions/catalog-candidates.json 决定新游戏入库

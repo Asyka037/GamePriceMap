@@ -89,8 +89,7 @@
 |---|---|---|---|
 | 免费游戏（Epic） | Epic 促销接口 | `store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US`。**实测响应含局部 GraphQL errors 但 `data.Catalog.searchStore.elements` 完整**，解析必须容忍 errors 字段；`promotions.promotionalOffers` 非空 = 当前免费（`status:"free-now"`），`upcomingPromotionalOffers` 非空 = 即将免费（`status:"upcoming"`），feed 两者都收 | 每日 |
 | 免费游戏（Steam） | featuredcategories | `specials` 中 `discount_percent==100` + 每周免费周末项 | 每日 |
-| 新游日历（主源） | IGDB | `api.igdb.com/v4/release_dates`（免费 Twitch 凭据，4 req/s；跨 PC/NS/PS/Xbox 一个源全覆盖） | 每周 |
-| 新游日历（辅源） | eShop EU `dates_released_dts` + Steam `coming_soon` | 与主源交叉补全 NS/Steam 商店链接 | 每周 |
+| 新游日历 | eShop EU `dates_released_dts` + Steam `coming_soon`（appdetails 补日期，模糊日期拒绝不猜测） | **用户决策（2026-07-08）：不引入 IGDB/Twitch 凭据**，本组合即正式方案；代价是 PS/Xbox 独占日期缺失、Steam 侧精确日期偏少 | 每周 |
 | 汇率 | open.er-api.com | `open.er-api.com/v6/latest/USD`，备源 `api.exchangerate-api.com/v4/latest/USD`（参考项目 `fetch-rates.mjs` 直接复用，唯一可整体照搬的模块）；需页脚归因 | 每日 |
 | 目录种子 | SteamSpy + featuredcategories.top_sellers + eShop EU 热销排序 | 仅用于"建议新游戏入库"，不直接进目录（见 §4 catalog 治理） | 每周 |
 
@@ -209,7 +208,7 @@ data/
 ### Phase 3：折扣/免费/多店/日历 feeds（2 天）
 
 - **T3.1** `scripts/scrape-feeds.mjs`：featuredcategories → `deals-steam.json` + `free-games.json`（100% 折扣项）；EU Solr 折扣查询 → `deals-eshop.json`；CheapShark deals（sortBy=Savings，各激活商店）→ `deals-stores.json`；Epic 促销 → 并入 `free-games.json`（**解析必须容忍顶层 errors**；`free-games` 条目带 `status: "free-now" | "upcoming"`，见 §2.4）。feed 条目统一 schema：`{title, storeId, url, price, list, pct, endsAt?, steamAppId?, slugIfTracked?}`——`slugIfTracked` 把 feed 与目录游戏挂接（有详情页的折扣可内链）。
-- **T3.2** IGDB 日历：一次性申请 Twitch 凭据（用户操作，免费）；`scripts/scrape-calendar.mjs` 拉未来 6 个月 PC/NS/PS/Xbox 发售 → `calendar.json`（月分组）。备选：若用户不想申请凭据，降级为 EU dates + Steam coming_soon（过滤 Demo），文档已备注差异（缺 PS/Xbox 独占）。
+- **T3.2** 日历：`scripts/scrape-calendar.mjs`（EU dates + Steam coming_soon，过滤 Demo/模糊日期）→ `calendar.json`（月分组）。IGDB 路线经用户决策废弃，不得引入 Twitch 依赖。
 - **T3.3** `weekly.yml`：元数据/评价刷新 + 目录候选建议（SteamSpy top + top_sellers + EU 热销，排除已入库，写 `suggestions/catalog-candidates.json`）+ 日历刷新。
 
 ### Phase 4：Astro 前端（4–5 天）
