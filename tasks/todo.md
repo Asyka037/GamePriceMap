@@ -26,11 +26,11 @@
 - [x] T3.3 weekly.yml（meta 42/42 + 日历 + 候选建议；SteamSpy 403 fail-soft 转 top_sellers + 噪音过滤）
 
 ## Phase 4：Astro 前端
-- [ ] T4.1 站点骨架 + tokens.css 迁移 + Header/Footer 组件化
-- [ ] T4.2 data.ts 数据接入层 + 派生逻辑单测
-- [ ] T4.3 全部页面（首页/折扣/区域枢纽/详情三子页/日历/免费）
-- [ ] T4.4 MiniSearch 客户端搜索
-- [ ] T4.5 SEO 基建（JSON-LD/sitemap/OG）
+- [x] T4.1 站点骨架 + 设计系统 CSS 整体迁移 + Layout/Header/Footer 组件化（header 单点维护，杜绝 demo 的三份复制）
+- [x] T4.2 data.mjs 读取层 + derive.mjs 纯派生（买/等规则、三榜单、追踪折扣）+ 7 项单测（39/39 全绿）
+- [x] T4.3 全部页面：137 静态页 825ms 构建；详情 Tab 是真实子路由；区域页带免责 note-box；判定文案区分外部种子/自观测史低
+- [x] T4.4 MiniSearch（/search-index.json 42 条；/ 快捷键；首屏打字机搜索桥接头部搜索）
+- [x] T4.5 canonical/OG/VideoGame+Offer+AggregateRating JSON-LD/sitemap/robots
 
 ## Phase 5：区域定价地图
 - [ ] T5.1 PixelWorldMap.astro（方案 §8 规格）
@@ -82,6 +82,13 @@
 - 单测 32/32；validate 扩展覆盖 feeds/calendar/meta 后全绿；四个 feed 实跑 5/5 源成功。
 - 设计偏差（已论证）：feed schema 增加 currency 字段（Steam 是 USD、eShop-EU 是 GBP，混同会错价）；免费流条目带 status: free-now|upcoming。
 - 已知局限：Steam coming_soon 多数条目日期模糊（"Q4 2026"类被拒绝不猜测），日历 Steam 侧仅 4 条精确（用户决策：不引入 IGDB，接受此局限）；SteamSpy 返回 403（UA 或防爬调整），候选建议暂靠 top_sellers 单源。
+
+### 2026-07-09 Phase 4 执行记录（Claude）
+- astro build 137 页 / 825ms；产物内容断言全绿（首页三榜单真实数据、Silksong 详情 BUY@$14.99、区域页 16+18 区、搜索索引 42 条、JSON-LD/sitemap/robots 就位）。
+- 单测 39/39（新增 derive 层 7 项：判定分档、榜单派生、货币格式化、史低诚实措辞）。
+- 品牌名沿用仓库名 GamePriceMap（demo 的 DealDex 是占位符）；site URL 暂用 gamepricemap.pages.dev，正式域名定了改 astro.config.mjs 一处即可。
+- 与计划偏差：数据层用 .mjs+JSDoc 而非 .ts（让根目录 node --test 直接测同一份代码，避免双构建链）；home 打字机数据由构建期真实快照生成而非硬编码。
+- 遗留到 Phase 5/6：区域页预留 #region-map-slot 挂点；/status 页与 health.json 在 T6.2。
 
 ## 需要用户操作的事项
 - [ ] GitHub 仓库创建/授权首推（T0.3）；决定公开或私有（方案 §3：建议公开）
