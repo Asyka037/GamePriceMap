@@ -33,8 +33,8 @@
 - [x] T4.5 canonical/OG/VideoGame+Offer+AggregateRating JSON-LD/sitemap/robots
 
 ## Phase 5：区域定价地图
-- [ ] T5.1 PixelWorldMap.astro（方案 §8 规格）
-- [ ] T5.2 接入详情页 regional-prices + compact 模式
+- [x] T5.1 PixelWorldMap.astro（24×12 网格、糖果分档、tooltip、点击滚动至表格行、aria 完整；瓦片覆盖/重叠/越界由单测保障）
+- [x] T5.2 已接入 regional-prices（每通道一张图，行锚点+高亮）；compact 模式已实现待用
 
 ## Phase 6：部署与监控
 - [ ] T6.1 Cloudflare Pages 接入 + Deploy Hook（需用户授权）
@@ -89,6 +89,11 @@
 - 品牌名沿用仓库名 GamePriceMap（demo 的 DealDex 是占位符）；site URL 暂用 gamepricemap.pages.dev，正式域名定了改 astro.config.mjs 一处即可。
 - 与计划偏差：数据层用 .mjs+JSDoc 而非 .ts（让根目录 node --test 直接测同一份代码，避免双构建链）；home 打字机数据由构建期真实快照生成而非硬编码。
 - 遗留到 Phase 5/6：区域页预留 #region-map-slot 挂点；/status 页与 health.json 在 T6.2。
+
+### 2026-07-09 Phase 5 执行记录（Claude）
+- 单测 44/44（新增 mapgrid 5 项：34 追踪区域瓦片全覆盖、无重叠、网格边界、分档边界、pct 计算）。
+- 构建 137 页正常；Silksong 区域页断言：34 交互瓦片 + 12 大陆底纹 + aria-label 含本币/USD/差价 + 行锚点生效。
+- 地图为坐标表方案（V2 升级到 Natural Earth choropleth 的路径已写入方案 §8，组件 API 不变）。
 
 ## 需要用户操作的事项
 - [ ] GitHub 仓库创建/授权首推（T0.3）；决定公开或私有（方案 §3：建议公开）
