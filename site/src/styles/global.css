@@ -793,3 +793,47 @@ img { display: block; max-width: 100%; }
 }
 .search-results a:hover { background: var(--surface-2); color: var(--ink); }
 .region-btn { cursor: default; }
+
+/* ---------------- pixel world map (plan §8) ---------------- */
+.pixel-map-wrap { margin: 4px 0 22px; }
+.pixel-map {
+  display: grid; gap: 3px;
+  background: var(--sky);
+  border: 3px solid var(--ink); border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  padding: 10px; aspect-ratio: 24 / 12.5; max-width: 720px;
+}
+.map-blob { background: var(--surface-2); opacity: .55; border-radius: 3px; }
+.map-tile {
+  position: relative; z-index: 1;
+  display: grid; place-items: center;
+  border: 2px solid var(--ink); border-radius: 3px;
+  font-family: var(--font-pixel); font-size: 8px; color: var(--ink);
+  padding: 0; cursor: pointer; overflow: hidden;
+  transition: transform .12s;
+}
+.map-tile:hover, .map-tile:focus-visible { transform: scale(1.12); z-index: 2; }
+.pixel-map-wrap.compact .map-tile { cursor: default; font-size: 6px; border-width: 1.5px; }
+.tile-cheapest { background: var(--green-bg); }
+.tile-cheaper { background: var(--teal-bg); }
+.tile-par { background: var(--surface); }
+.tile-pricier { background: var(--gold-bg); }
+.tile-priciest { background: var(--red-bg); }
+.tile-none { background: var(--surface-2); }
+.map-legend {
+  display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px;
+  font-size: 12.5px; font-weight: 700; color: var(--text-2);
+}
+.map-key {
+  display: inline-block; width: 14px; height: 14px; margin-right: 6px;
+  border: 2px solid var(--ink); border-radius: 3px; vertical-align: -2px;
+}
+.map-tooltip {
+  position: absolute; z-index: 90; pointer-events: none;
+  background: var(--ink); color: #FFD84D;
+  font-family: var(--font-mono); font-size: 12px; font-weight: 700;
+  border-radius: 5px; padding: 5px 10px; white-space: nowrap;
+}
+.row-flash { animation: rowflash 1.6s ease-out; }
+@keyframes rowflash { 0%, 40% { background: var(--gold-bg); } 100% { background: transparent; } }
+@media (max-width: 560px) { .map-tile { font-size: 6px; } }

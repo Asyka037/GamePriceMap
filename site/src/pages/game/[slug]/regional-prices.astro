@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import GameHero from '../../../components/GameHero.astro';
 import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
+import PixelWorldMap from '../../../components/PixelWorldMap.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
 import { fmtUsd, fmtMoney, usRow } from '../../../lib/derive.mjs';
 
@@ -28,17 +29,17 @@ const channels = [
     <GameTabs slug={slug!} current="regional" />
 
     <section style="padding: 24px 0 8px;">
-      <div id="region-map-slot"></div>
-      {channels.map(({ label, snap }) => {
+      {channels.map(({ key, label, snap }) => {
         const us = usRow(snap);
         return (
           <div style="margin-bottom: 28px;">
             <h2 style="font-family: var(--font-pixel); font-size: 14px; text-transform: uppercase; margin: 18px 0 12px;">{label} · {snap.regions.length} regions</h2>
+            <PixelWorldMap snapshot={snap} channel={key as 'steam' | 'eshop'} />
             <table class="region-full">
               <thead><tr><th>#</th><th>Region</th><th>Local price</th><th>≈ USD</th><th>vs US</th><th>Sale ends</th></tr></thead>
               <tbody>
                 {snap.regions.map((r: any) => (
-                  <tr>
+                  <tr id={`region-${key}-${r.cc}`}>
                     <td class={r.rank === 1 ? 'rank-1' : 'mono'} style={r.rank === 1 ? '' : 'color:var(--text-3);'}>{r.rank}</td>
                     <td>{r.cc}{r.discountPct ? <span class="chip-off" style="margin-left:8px;">−{r.discountPct}%</span> : null}</td>
                     <td class="mono">{fmtMoney(r.amount, r.currency)}</td>

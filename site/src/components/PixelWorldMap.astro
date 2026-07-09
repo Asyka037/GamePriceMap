@@ -1,0 +1,91 @@
+---
+import { CONTINENT_BLOBS, GRID, mapRegions } from '../lib/mapgrid.mjs';
+import { usRow, fmtUsd, fmtMoney } from '../lib/derive.mjs';
+
+interface Props {
+  snapshot: any;             // §4.2 snapshot
+  channel: 'steam' | 'eshop';
+  compact?: boolean;         // decorative, non-interactive variant
+}
+const { snapshot, channel, compact = false } = Astro.props;
+const us = usRow(snapshot);
+const regions = mapRegions(snapshot?.regions, us?.usd ?? 0);
+const cheapest = [...regions].sort((a, b) => a.usd - b.usd)[0];
+const summary = cheapest
+  ? `Regional price map: cheapest tracked region is ${cheapest.name} at ${fmtUsd(cheapest.usd)}${us ? `, ${Math.abs(cheapest.pctVsUs ?? 0)}% below the US price` : ''}. Full data in the table below.`
+  : 'Regional price map.';
+const legend = [
+  { cls: 'tile-cheapest', label: '30%+ cheaper' },
+  { cls: 'tile-cheaper', label: '10–30% cheaper' },
+  { cls: 'tile-par', label: 'around US' },
+  { cls: 'tile-pricier', label: '10–30% pricier' },
+  { cls: 'tile-priciest', label: '30%+ pricier' },
+];
+---
+<div class:list={['pixel-map-wrap', { compact }]}>
+  <div
+    class="pixel-map"
+    role="group"
+    aria-label={summary}
+    style={`grid-template-columns: repeat(${GRID.cols}, 1fr); grid-template-rows: repeat(${GRID.rows}, 1fr);`}
+  >
+    {CONTINENT_BLOBS.map((b) => (
+      <span class="map-blob" aria-hidden="true" style={`grid-column: ${b.col} / span ${b.w}; grid-row: ${b.row} / span ${b.h};`}></span>
+    ))}
+    {regions.map((r) => compact ? (
+      <span
+        class:list={['map-tile', r.tier.cls]}
+        aria-hidden="true"
+        style={`grid-column: ${r.tile.col} / span ${r.tile.w}; grid-row: ${r.tile.row} / span ${r.tile.h};`}
+      >{r.tile.w > 1 ? r.cc : ''}</span>
+    ) : (
+      <button
+        class:list={['map-tile', r.tier.cls]}
+        style={`grid-column: ${r.tile.col} / span ${r.tile.w}; grid-row: ${r.tile.row} / span ${r.tile.h};`}
+        aria-label={`${r.name}: ${fmtMoney(r.local, r.currency)} ≈ ${fmtUsd(r.usd)}${r.pctVsUs != null && r.cc !== 'US' ? `, ${r.pctVsUs <= 0 ? Math.abs(r.pctVsUs) + '% below' : r.pctVsUs + '% above'} US` : ''}`}
+        data-target={`region-${channel}-${r.cc}`}
+        data-tip={`${r.name} · ${fmtMoney(r.local, r.currency)} ≈ ${fmtUsd(r.usd)}${r.pctVsUs != null && r.cc !== 'US' ? ` (${r.pctVsUs > 0 ? '+' : ''}${r.pctVsUs}% vs US)` : ''}`}
+      >{r.cc}</button>
+    ))}
+  </div>
+  {!compact && (
+    <div class="map-legend">
+      {legend.map((l) => <span><i class:list={['map-key', l.cls]}></i>{l.label}</span>)}
+    </div>
+  )}
+</div>
+
+<script>
+  // Tooltip + click-to-scroll (one listener set per page).
+  if (!(window as any).__pixelMapInit) {
+    (window as any).__pixelMapInit = true;
+    const tip = document.createElement('div');
+    tip.className = 'map-tooltip';
+    tip.hidden = true;
+    document.body.appendChild(tip);
+
+    const show = (el: HTMLElement) => {
+      tip.textContent = el.dataset.tip ?? '';
+      tip.hidden = false;
+      const r = el.getBoundingClientRect();
+      tip.style.left = `${Math.max(8, r.left + r.width / 2 + window.scrollX - tip.offsetWidth / 2)}px`;
+      tip.style.top = `${r.top + window.scrollY - tip.offsetHeight - 10}px`;
+    };
+    const hide = () => { tip.hidden = true; };
+
+    for (const el of document.querySelectorAll<HTMLElement>('.map-tile[data-tip]')) {
+      el.addEventListener('mouseenter', () => show(el));
+      el.addEventListener('focus', () => show(el));
+      el.addEventListener('mouseleave', hide);
+      el.addEventListener('blur', hide);
+      el.addEventListener('click', () => {
+        const row = document.getElementById(el.dataset.target ?? '');
+        if (!row) return;
+        row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        row.classList.remove('row-flash');
+        void row.offsetWidth;
+        row.classList.add('row-flash');
+      });
+    }
+  }
+</script>
