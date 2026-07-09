@@ -1,0 +1,68 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import GameHero from '../../../components/GameHero.astro';
+import GameTabs from '../../../components/GameTabs.astro';
+import NoteBox from '../../../components/NoteBox.astro';
+import { catalog, gameBundle } from '../../../lib/data.mjs';
+import { fmtUsd, fmtMoney, usRow } from '../../../lib/derive.mjs';
+
+export function getStaticPaths() {
+  return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
+}
+
+const { slug } = Astro.params;
+const bundle = gameBundle(slug!);
+const { game } = bundle;
+
+const channels = [
+  { key: 'eshop', label: 'Nintendo eShop', snap: bundle.eshop },
+  { key: 'steam', label: 'Steam', snap: bundle.steam },
+].filter((c) => c.snap?.regions?.length);
+---
+<Layout
+  title={`${game.title} regional prices — cheapest regions ranked | GamePriceMap`}
+  description={`Full regional price table for ${game.title}: every tracked Steam and eShop region converted to USD and ranked, updated daily.`}
+>
+  <GameHero bundle={bundle} />
+  <div class="wrap">
+    <GameTabs slug={slug!} current="regional" />
+
+    <section style="padding: 24px 0 8px;">
+      <div id="region-map-slot"></div>
+      {channels.map(({ label, snap }) => {
+        const us = usRow(snap);
+        return (
+          <div style="margin-bottom: 28px;">
+            <h2 style="font-family: var(--font-pixel); font-size: 14px; text-transform: uppercase; margin: 18px 0 12px;">{label} · {snap.regions.length} regions</h2>
+            <table class="region-full">
+              <thead><tr><th>#</th><th>Region</th><th>Local price</th><th>≈ USD</th><th>vs US</th><th>Sale ends</th></tr></thead>
+              <tbody>
+                {snap.regions.map((r: any) => (
+                  <tr>
+                    <td class={r.rank === 1 ? 'rank-1' : 'mono'} style={r.rank === 1 ? '' : 'color:var(--text-3);'}>{r.rank}</td>
+                    <td>{r.cc}{r.discountPct ? <span class="chip-off" style="margin-left:8px;">−{r.discountPct}%</span> : null}</td>
+                    <td class="mono">{fmtMoney(r.amount, r.currency)}</td>
+                    <td class="mono" style="font-weight:700;">{fmtUsd(r.usd)}</td>
+                    <td class="mono" style={us && r.usd < us.usd ? 'color:var(--green);font-weight:700;' : 'color:var(--text-3);'}>
+                      {us ? (r.cc === 'US' ? 'baseline' : `${r.usd <= us.usd ? '−' : '+'}${Math.abs(Math.round((1 - r.usd / us.usd) * 100))}%`) : '—'}
+                    </td>
+                    <td style="color:var(--text-3); font-size:12.5px;">{r.saleEndsAt ? r.saleEndsAt.slice(0, 10) : '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        );
+      })}
+      {channels.length === 0 && <p style="color:var(--text-2); font-weight:600;">No regional data tracked for this game yet.</p>}
+
+      <NoteBox>
+        These are store list prices with exchange-rate estimates — not checkout
+        totals. Cross-region purchases depend on your account, payment method
+        and platform rules, and may not be possible; taxes and card fees can
+        change the final amount. Anomalously outdated regional prices are
+        filtered out automatically.
+      </NoteBox>
+    </section>
+  </div>
+</Layout>

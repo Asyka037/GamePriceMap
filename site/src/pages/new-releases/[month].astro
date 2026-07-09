@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { calendar } from '../../lib/data.mjs';
+
+export function getStaticPaths() {
+  return Object.keys(calendar().months).map((month) => ({ params: { month } }));
+}
+
+const { month } = Astro.params;
+const cal = calendar();
+const items = cal.months[month!] ?? [];
+const allMonths = Object.keys(cal.months);
+const monthName = new Date(`${month}-01T00:00:00Z`).toLocaleString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+const platLabel: Record<string, string> = { pc: 'PC', switch: 'Switch' };
+---
+<Layout
+  title={`New game releases ${monthName} — PC & Switch calendar | GamePriceMap`}
+  description={`${items.length} PC and Nintendo Switch games releasing in ${monthName}, with store links and dates.`}
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>New releases<span>/</span>{monthName}</div>
+    <h1>{monthName}</h1>
+    <p>{items.length} upcoming releases. Dates come from the stores and can shift.</p>
+    <div class="chips" style="margin-top: 14px;">
+      {allMonths.map((m) => (
+        <a class:list={['chip', { on: m === month }]} href={`/new-releases/${m}`}>{m}</a>
+      ))}
+    </div>
+  </div>
+
+  <div class="wrap" style="padding-bottom: 24px;">
+    <div class="row-list">
+      {items.map((e: any) => (
+        <a class="deal-row" href={e.slugIfTracked ? `/game/${e.slugIfTracked}` : e.url} rel={e.slugIfTracked ? undefined : 'nofollow noopener'} target={e.slugIfTracked ? undefined : '_blank'}>
+          <div class="info">
+            <div class="title">{e.title}</div>
+            <div class="sub">{e.platforms.map((p: string) => platLabel[p] ?? p).join(' · ')}</div>
+          </div>
+          <span class="date" style="font-family: var(--font-pixel); font-size: 9px; color: var(--red); flex-shrink: 0;">{e.date ?? `${e.month} TBC`}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

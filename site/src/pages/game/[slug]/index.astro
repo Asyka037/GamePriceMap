@@ -1,0 +1,115 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import GameHero from '../../../components/GameHero.astro';
+import GameTabs from '../../../components/GameTabs.astro';
+import NoteBox from '../../../components/NoteBox.astro';
+import { catalog, gameBundle } from '../../../lib/data.mjs';
+import { usRow, overallAtl, fmtUsd, fmtMoney } from '../../../lib/derive.mjs';
+
+export function getStaticPaths() {
+  return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
+}
+
+const { slug } = Astro.params;
+const bundle = gameBundle(slug!);
+const { game, meta } = bundle;
+
+const storeRows = [
+  { store: 'Steam', dot: '#66c0f4', platform: 'PC', row: usRow(bundle.steam), url: game.steamAppId ? `https://store.steampowered.com/app/${game.steamAppId}/` : null },
+  { store: 'Nintendo eShop (US)', dot: '#e60012', platform: 'Switch', row: usRow(bundle.eshop), url: 'https://www.nintendo.com/us/store/' },
+].filter((r) => r.row);
+const cheapest = storeRows.length ? Math.min(...storeRows.map((r) => r.row!.usd)) : null;
+const atl = overallAtl(bundle.history);
+const topRegions = (bundle.eshop ?? bundle.steam)?.regions.slice(0, 5) ?? [];
+const regionChannel = bundle.eshop ? 'eShop' : 'Steam';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'VideoGame',
+  name: game.title,
+  image: meta?.headerImage ?? undefined,
+  gamePlatform: game.platforms,
+  ...(meta?.reviewPercent != null && meta.reviewCount > 0 && {
+    aggregateRating: { '@type': 'AggregateRating', ratingValue: meta.reviewPercent, bestRating: 100, ratingCount: meta.reviewCount },
+  }),
+  ...(cheapest != null && {
+    offers: { '@type': 'Offer', price: cheapest, priceCurrency: 'USD', availability: 'https://schema.org/InStock' },
+  }),
+};
+---
+<Layout
+  title={`${game.title} — price tracker, deals & regional prices | GamePriceMap`}
+  description={`Current best price${cheapest != null ? ` ${fmtUsd(cheapest)}` : ''}, all-time low${atl ? ` ${fmtUsd(atl.usd)}` : ''}, regional pricing and price history for ${game.title}.`}
+  ogImage={meta?.headerImage}
+  jsonLd={jsonLd}
+>
+  <GameHero bundle={bundle} />
+  <div class="wrap">
+    <GameTabs slug={slug!} current="overview" />
+
+    <section style="padding: 24px 0 8px;">
+      <table class="price-table">
+        <thead>
+          <tr><th>Store</th><th>Platform</th><th>Current price</th><th>Discount</th><th>All-time low</th><th></th></tr>
+        </thead>
+        <tbody>
+          {storeRows.map(({ store, dot, platform, row, url }) => (
+            <tr class:list={[{ 'best-row': row!.usd === cheapest && storeRows.length > 1 }]}>
+              <td><span class="store-cell"><span class="store-dot" style={`background:${dot};`}></span>{store}{row!.usd === cheapest && storeRows.length > 1 && <span class="best-tag">BEST</span>}</span></td>
+              <td>{platform}</td>
+              <td>
+                <span class="mono" style="font-weight:700;">{fmtUsd(row!.usd)}</span>
+                {row!.listUsd != null && <span class="price-old" style="margin-left:6px;">{fmtUsd(row!.listUsd)}</span>}
+              </td>
+              <td>{row!.discountPct ? <span class="chip-off">−{row!.discountPct}%</span> : <span style="color:var(--text-3);">—</span>}</td>
+              <td>{atl ? <span class="mono" style="color:var(--gold);">{fmtUsd(atl.usd)}</span> : '—'}</td>
+              <td>{url && <a class="to-store" href={url} rel="nofollow noopener" target="_blank">To store
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      {topRegions.length > 0 && (
+        <div class="detail-cols">
+          <div class="panel">
+            <h3>
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              Cheapest {regionChannel} regions
+              <a class="more" href={`/game/${slug}/regional-prices`}>All regions →</a>
+            </h3>
+            <table class="region-mini">
+              {topRegions.map((r: any, i: number) => (
+                <tr>
+                  <td class={i === 0 ? 'rank-1' : 'mono'} style={i === 0 ? '' : 'color:var(--text-3);'}>{r.rank}</td>
+                  <td>{r.cc}</td>
+                  <td class="r-price">{fmtMoney(r.amount, r.currency)}</td>
+                  <td class="r-price">{fmtUsd(r.usd)}</td>
+                </tr>
+              ))}
+            </table>
+          </div>
+          <div class="side-stack">
+            <div class="panel">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"/><polyline points="16 17 22 17 22 11"/></svg>
+                Price history
+                <a class="more" href={`/game/${slug}/price-history`}>Full log →</a>
+              </h3>
+              {(bundle.history?.events ?? []).slice(-4).reverse().map((e: any) => (
+                <div class="kv"><span class="k">{e.d} · {e.ch}</span><span class="v mono">{fmtUsd(e.usd)}{e.pct ? ` (−${e.pct}%)` : ''}</span></div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
+      <NoteBox>
+        Prices are store list prices converted at daily exchange rates. Buying in
+        another region may not be possible on your account and final checkout
+        totals (tax, payment fees) can differ.
+      </NoteBox>
+    </section>
+  </div>
+</Layout>

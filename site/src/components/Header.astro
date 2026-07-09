@@ -1,0 +1,110 @@
+---
+interface Props {
+  active?: 'home' | 'steam' | 'nintendo' | null;
+  /** Home: search hidden until the hero search scrolls away. */
+  dock?: boolean;
+}
+const { active = null, dock = false } = Astro.props;
+---
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/">
+      <span class="mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.83z"/><circle cx="7" cy="7" r="1.6" fill="#fff" stroke="none"/></svg>
+      </span>
+      Game<em>PriceMap</em>
+    </a>
+
+    <div class:list={['header-search', { dock }]} id="dockSearch">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="siteSearch" placeholder="Search games…" aria-label="Search games" autocomplete="off" />
+      <kbd>/</kbd>
+      <div class="search-results" id="searchResults" hidden></div>
+    </div>
+
+    <nav class="main-nav">
+      <div class="nav-item"><a class:list={['nav-link', { active: active === 'home' }]} href="/">Home</a></div>
+      <div class="nav-item">
+        <span class:list={['nav-link', { active: active === 'steam' }]} tabindex="0">Steam
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </span>
+        <div class="dropdown">
+          <a href="/steam/deals">Deals <span class="hint">/steam/deals</span></a>
+          <a href="/steam/regional-pricing">Regional pricing <span class="hint">/steam/regional-pricing</span></a>
+          <div class="sep"></div>
+          <a href="/free-games">Free games <span class="hint">/free-games</span></a>
+          <a href="/new-releases">New releases <span class="hint">/new-releases</span></a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <span class:list={['nav-link', { active: active === 'nintendo' }]} tabindex="0">Nintendo
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </span>
+        <div class="dropdown">
+          <a href="/switch/deals">eShop deals <span class="hint">/switch/deals</span></a>
+          <a href="/switch/regional-pricing">Region compare <span class="hint">/switch/regional-pricing</span></a>
+          <div class="sep"></div>
+          <a href="/new-releases">New releases <span class="hint">/new-releases</span></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header-actions">
+      <span class="region-btn" title="More currencies later — all conversions shown in USD today">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        USD
+      </span>
+    </div>
+  </div>
+</header>
+
+<script>
+  import MiniSearch from 'minisearch';
+
+  const input = document.getElementById('siteSearch') as HTMLInputElement | null;
+  const resultsEl = document.getElementById('searchResults');
+  let mini: MiniSearch | null = null;
+
+  async function ensureIndex() {
+    if (mini || !input) return;
+    const res = await fetch('/search-index.json');
+    const docs = await res.json();
+    mini = new MiniSearch({ fields: ['title'], storeFields: ['title', 'slug'], searchOptions: { prefix: true, fuzzy: 0.2 } });
+    mini.addAll(docs);
+  }
+
+  function render(hits: Array<{ slug: string; title: string }>) {
+    if (!resultsEl) return;
+    if (hits.length === 0) { resultsEl.hidden = true; resultsEl.innerHTML = ''; return; }
+    resultsEl.innerHTML = hits.slice(0, 8)
+      .map((h) => `<a href="/game/${h.slug}">${h.title}</a>`)
+      .join('');
+    resultsEl.hidden = false;
+  }
+
+  input?.addEventListener('focus', ensureIndex, { once: true });
+  input?.addEventListener('input', () => {
+    const q = input.value.trim();
+    if (!q || !mini) { render([]); return; }
+    render(mini.search(q) as never[]);
+  });
+  document.addEventListener('click', (e) => {
+    if (resultsEl && !resultsEl.contains(e.target as Node) && e.target !== input) render([]);
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== input && !(document.activeElement instanceof HTMLInputElement)) {
+      e.preventDefault();
+      input?.focus();
+    }
+  });
+
+  // Home-only: dock the header search once the hero search scrolls away.
+  const dockEl = document.getElementById('dockSearch');
+  const heroSearch = document.querySelector('.hero-search');
+  if (dockEl?.classList.contains('dock') && heroSearch) {
+    const check = () => dockEl.classList.toggle('show', heroSearch.getBoundingClientRect().bottom < 70);
+    window.addEventListener('scroll', check, { passive: true });
+    setInterval(check, 300);
+    check();
+  }
+</script>

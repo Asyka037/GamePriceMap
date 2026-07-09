@@ -1,0 +1,21 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RegionalHub from '../../components/RegionalHub.astro';
+import { catalog, gameBundle } from '../../lib/data.mjs';
+
+const bundles = catalog().map((g: any) => gameBundle(g.slug));
+---
+<Layout
+  title="Steam regional pricing — cheapest regions for every tracked game | GamePriceMap"
+  description="Compare Steam prices across 18 regions for every tracked game, converted to USD and ranked by savings versus the US store."
+  active="steam"
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Steam<span>/</span>Regional pricing</div>
+    <h1>Steam regional pricing</h1>
+    <p>Every tracked game across 18 Steam regions, ranked by how much the cheapest region saves versus the US store. Click a game for its full table.</p>
+  </div>
+  <div class="wrap" style="padding-bottom: 24px;">
+    <RegionalHub bundles={bundles} channel="steam" />
+  </div>
+</Layout>

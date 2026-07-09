@@ -1,0 +1,46 @@
+---
+interface Props { updatedAt?: string | null }
+const { updatedAt = null } = Astro.props;
+const stamp = updatedAt ? new Date(updatedAt).toUTCString().replace(':00 GMT', ' UTC') : null;
+---
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <div class="logo" style="margin-bottom: 12px;">
+        <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.83z"/><circle cx="7" cy="7" r="1.6" fill="#fff" stroke="none"/></svg></span>
+        Game<em>PriceMap</em>
+      </div>
+      <p class="footer-note">
+        We only list verified, authorized stores — no gray-market keys.
+        Prices are store list prices with exchange-rate estimates; final checkout
+        totals can differ. Multi-store deal data by
+        <a href="https://www.cheapshark.com" style="display:inline; padding:0;">CheapShark</a>;
+        rates by <a href="https://www.exchangerate-api.com" style="display:inline; padding:0;">ExchangeRate-API</a>.
+      </p>
+    </div>
+    <div>
+      <h4>Steam</h4>
+      <a href="/steam/deals">Deals</a>
+      <a href="/steam/regional-pricing">Regional pricing</a>
+      <a href="/free-games">Free games</a>
+    </div>
+    <div>
+      <h4>Nintendo</h4>
+      <a href="/switch/deals">eShop deals</a>
+      <a href="/switch/regional-pricing">Region compare</a>
+    </div>
+    <div>
+      <h4>Topics</h4>
+      <a href="/new-releases">Release calendar</a>
+      <a href="/free-games">Free games</a>
+    </div>
+    <div>
+      <h4>GamePriceMap</h4>
+      <a href="https://github.com/Asyka037/GamePriceMap">Data &amp; source</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 GamePriceMap — not affiliated with Valve or Nintendo</span>
+    {stamp && <span>Data updated {stamp}</span>}
+  </div>
+</footer>

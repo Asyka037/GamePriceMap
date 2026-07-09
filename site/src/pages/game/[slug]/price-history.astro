@@ -1,0 +1,81 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import GameHero from '../../../components/GameHero.astro';
+import GameTabs from '../../../components/GameTabs.astro';
+import NoteBox from '../../../components/NoteBox.astro';
+import { catalog, gameBundle } from '../../../lib/data.mjs';
+import { fmtUsd } from '../../../lib/derive.mjs';
+
+export function getStaticPaths() {
+  return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
+}
+
+const { slug } = Astro.params;
+const bundle = gameBundle(slug!);
+const { game } = bundle;
+const atlLabels: Record<string, string> = { pc: 'PC (Steam US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)' };
+const seedLabels: Record<string, string> = {
+  self: 'observed by our tracker',
+  cheapshark: 'all-time record via CheapShark',
+  'eshop-eu': 'UK-shop lowest via Nintendo index',
+};
+const events = [...(bundle.history?.events ?? [])].reverse();
+---
+<Layout
+  title={`${game.title} price history & all-time low | GamePriceMap`}
+  description={`Every tracked price change and the all-time low for ${game.title}, per store channel.`}
+>
+  <GameHero bundle={bundle} />
+  <div class="wrap">
+    <GameTabs slug={slug!} current="history" />
+
+    <section style="padding: 24px 0 8px;">
+      <div class="detail-cols" style="grid-template-columns: 340px 1fr;">
+        <div class="panel">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            All-time lows
+          </h3>
+          {Object.entries(bundle.history?.atl ?? {}).map(([key, atl]: [string, any]) => (
+            <div class="kv">
+              <span class="k">{atlLabels[key] ?? key}</span>
+              <span class="v mono" style="color:var(--gold);">{fmtUsd(atl.usd)}</span>
+            </div>
+          ))}
+          <p style="font-size:12.5px; color:var(--text-3); font-weight:600; margin-top:10px;">
+            {Object.entries(bundle.history?.atl ?? {}).map(([key, atl]: [string, any]) => (
+              <span style="display:block;">{atlLabels[key] ?? key}: {seedLabels[atl.seed] ?? atl.seed}{atl.date ? ` (${atl.date})` : ''}</span>
+            ))}
+          </p>
+        </div>
+
+        <div class="panel">
+          <h3>Price change log</h3>
+          {events.length > 0 ? (
+            <table class="region-full" style="border:none; box-shadow:none;">
+              <thead><tr><th>Date</th><th>Channel</th><th>US price</th><th>Discount</th></tr></thead>
+              <tbody>
+                {events.map((e: any) => (
+                  <tr>
+                    <td class="mono">{e.d}</td>
+                    <td>{e.ch}</td>
+                    <td class="mono" style="font-weight:700;">{fmtUsd(e.usd)}</td>
+                    <td>{e.pct ? <span class="chip-off">−{e.pct}%</span> : <span style="color:var(--text-3);">—</span>}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          ) : (
+            <p style="color:var(--text-2); font-weight:600;">No price changes recorded yet — tracking started recently.</p>
+          )}
+        </div>
+      </div>
+
+      <NoteBox>
+        The log records changes, not daily snapshots: a quiet stretch means the
+        price simply did not move. Tracking began 2026-07-08; earlier lows come
+        from external records where noted.
+      </NoteBox>
+    </section>
+  </div>
+</Layout>

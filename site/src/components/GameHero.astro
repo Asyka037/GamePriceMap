@@ -1,0 +1,46 @@
+---
+import { bestPriceNow, overallAtl, buyWaitVerdict, fmtUsd } from '../lib/derive.mjs';
+
+interface Props { bundle: any }
+const { bundle } = Astro.props;
+const { game, meta } = bundle;
+const best = bestPriceNow(bundle);
+const atl = overallAtl(bundle.history);
+const verdict = buyWaitVerdict(bundle);
+const platLabels: Record<string, string> = {
+  pc: 'PC', switch: 'Switch', 'switch-2': 'Switch 2', ps4: 'PS4', ps5: 'PS5', xbox: 'Xbox', mobile: 'Mobile',
+};
+---
+<div class="wrap">
+  <div class="breadcrumb" style="padding-top: 20px;">
+    <a href="/">Home</a><span>/</span><a href="/steam/deals">Games</a><span>/</span>{game.title}
+  </div>
+
+  <div class="game-hero">
+    <div class="cover-lg">
+      {meta?.headerImage && <img src={meta.headerImage} alt={`${game.title} key art`} />}
+    </div>
+    <div>
+      <h1>{game.title}</h1>
+      <div class="tag-row">
+        {game.platforms.map((p: string) => <span class="plat-pill">{platLabels[p] ?? p}</span>)}
+        {(meta?.genres ?? []).slice(0, 3).map((g: string) => <span class="tag">{g}</span>)}
+      </div>
+      <div class="hero-meta">
+        {best && <span>Best price now <b style="color: var(--green);">{fmtUsd(best.usd)}</b></span>}
+        {atl && <span>All-time low <b style="color: var(--gold);">{fmtUsd(atl.usd)}</b></span>}
+        {meta?.reviewPercent != null && (
+          <span><span class="review-pos">{meta.reviewPercent}% positive</span> · {meta.reviewCount.toLocaleString()} reviews</span>
+        )}
+        {meta?.metacritic && <span>Metacritic <b>{meta.metacritic}</b></span>}
+      </div>
+
+      {verdict && (
+        <div class="verdict">
+          <span class="v-badge">{verdict.verdict}</span>
+          <p><b>{verdict.text}</b> Based on tracked price history, not a prediction.<span class="beta">RULE</span></p>
+        </div>
+      )}
+    </div>
+  </div>
+</div>

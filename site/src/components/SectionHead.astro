@@ -1,0 +1,22 @@
+---
+interface Props {
+  tone: 'gold' | 'red' | 'green' | 'violet';
+  title: string;
+  moreHref?: string | null;
+  moreText?: string;
+}
+const { tone, title, moreHref = null, moreText = 'View all →' } = Astro.props;
+const icons: Record<string, string> = {
+  gold: '<polyline points="22 17 13.5 8.5 8.5 13.5 2 7"/><polyline points="16 17 22 17 22 11"/>',
+  red: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+  green: '<rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5C9.5 3 11 4.5 12 8c1-3.5 2.5-5 4.5-5a2.5 2.5 0 0 1 0 5"/>',
+  violet: '<circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>',
+};
+---
+<div class="section-head">
+  <span class:list={['s-icon', tone]}>
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={icons[tone]} />
+  </span>
+  <h2>{title}</h2>
+  {moreHref && <a class="view-all" href={moreHref}>{moreText}</a>}
+</div>

@@ -1,0 +1,353 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SectionHead from '../components/SectionHead.astro';
+import { catalog, gameBundle, feed, calendar } from '../lib/data.mjs';
+import { regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, bestPriceNow, usRow, overallAtl, fmtUsd } from '../lib/derive.mjs';
+
+const bundles = catalog().map((g: any) => gameBundle(g.slug));
+
+// Typewriter showcase: games with the richest cross-platform story first.
+const showcase = ['hollow-knight-silksong', 'elden-ring', 'stardew-valley', 'cyberpunk-2077']
+  .map((slug) => bundles.find((b: any) => b.slug === slug))
+  .filter(Boolean)
+  .map((b: any) => {
+    const st = usRow(b.steam);
+    const es = usRow(b.eshop);
+    const cheapestRegion = (b.eshop ?? b.steam)?.regions?.[0];
+    const atl = overallAtl(b.history);
+    const best = bestPriceNow(b);
+    const deal = [st, es].filter((r) => r?.discountPct).sort((a, b2) => b2!.discountPct - a!.discountPct)[0];
+    return {
+      slug: b.slug,
+      name: b.game.title,
+      cover: b.meta?.headerImage ?? '',
+      plat: [st && `Steam ${fmtUsd(st.usd)}`, es && `eShop ${fmtUsd(es.usd)}`].filter(Boolean).join(' · ') || 'PC',
+      region: cheapestRegion ? `${b.eshop ? 'eShop' : 'Steam'} ${cheapestRegion.cc} ≈ ${fmtUsd(cheapestRegion.usd)}` : '—',
+      deal: deal ? `−${deal.discountPct}% right now` : 'No discount right now',
+      atl: !!(best && atl && best.usd <= atl.usd + 0.001),
+    };
+  });
+
+const regionRows = regionGapBoard(bundles, 3);
+const atlRows = atlBoard(bundles, 3);
+const hotRows = hotDealsBoard(bundles, 3);
+const gameCount = bundles.length;
+
+const atlGrid = trackedDeals(bundles, 'steam').filter((d) => d.isAtl).slice(0, 8);
+const endingSoon = [...trackedDeals(bundles, 'steam'), ...trackedDeals(bundles, 'eshop')]
+  .filter((d) => d.saleEndsAt)
+  .sort((a, b) => a.saleEndsAt!.localeCompare(b.saleEndsAt!))
+  .slice(0, 4);
+const freeNow = feed('free-games').items.filter((i: any) => i.status === 'free-now').slice(0, 2);
+const cal = calendar();
+const currentMonth = Object.keys(cal.months)[0];
+const upcoming = (cal.months[currentMonth] ?? []).filter((e: any) => e.date).slice(0, 4);
+---
+<Layout
+  title="GamePriceMap — every deal, one tracker. Steam & eShop prices, regions, all-time lows"
+  description="Track game prices across Steam and Nintendo eShop: regional pricing in 18+ regions, all-time lows, current deals and free games. Updated daily."
+  active="home"
+  dockSearch={true}
+>
+  <section class="sky-hero v2">
+    <span class="cloud" style="left: 31%; top: 18px;">
+      <svg width="84" height="38" viewBox="0 0 34 15" aria-hidden="true"><rect x="4" y="7" width="26" height="8" fill="#fff"/><rect x="8" y="3" width="9" height="4" fill="#fff"/><rect x="19" y="5" width="7" height="2" fill="#fff"/></svg>
+    </span>
+    <span class="cloud" style="left: 12%; bottom: 12px;">
+      <svg width="70" height="32" viewBox="0 0 34 15" aria-hidden="true"><rect x="4" y="7" width="26" height="8" fill="#fff"/><rect x="8" y="3" width="9" height="4" fill="#fff"/><rect x="30" y="9" width="4" height="6" fill="#fff"/></svg>
+    </span>
+
+    <div class="wrap hero-grid">
+      <div class="hero-left">
+        <h1 class="pixel-title">EVERY DEAL.<br>ONE TRACKER.</h1>
+        <p class="lede2">Type any game — see its cheapest store, cheapest region and current discount. Live, across Steam and Nintendo eShop.</p>
+
+        <div class="hero-search">
+          <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="heroSearch" aria-label="Search games" placeholder="" />
+        </div>
+
+        {showcase.length > 0 && (
+          <div class="live-card" id="liveCard">
+            <div class="live-head">
+              <div class="live-cover"><img id="lcCover" src={showcase[0].cover} alt="Game cover" /></div>
+              <div>
+                <div class="live-name" id="lcName">{showcase[0].name}</div>
+                <span class="live-tag"><span class="live-dot"></span>LIVE PRICES</span>
+              </div>
+            </div>
+            <div class="live-rows">
+              <div class="live-row">
+                <span class="live-ic p"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><line x1="6" y1="12" x2="10" y2="12"/><line x1="8" y1="10" x2="8" y2="14"/><circle cx="16.5" cy="11" r="1" fill="currentColor" stroke="none"/><circle cx="18.5" cy="13" r="1" fill="currentColor" stroke="none"/></svg></span>
+                <div><span class="lr-label">CROSS-PLATFORM</span><b class="lr-value" id="lcPlat">{showcase[0].plat}</b></div>
+              </div>
+              <div class="live-row">
+                <span class="live-ic r"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+                <div><span class="lr-label">BEST REGION</span><b class="lr-value" id="lcRegion">{showcase[0].region}</b></div>
+              </div>
+              <div class="live-row">
+                <span class="live-ic d"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg></span>
+                <div><span class="lr-label">CURRENT DEAL</span><b class="lr-value" id="lcDeal">{showcase[0].deal}</b><span class="b-chip y" id="lcAtl" style={showcase[0].atl ? '' : 'display:none;'}>ATL</span></div>
+              </div>
+            </div>
+            <a class="live-cta" id="lcLink" href={`/game/${showcase[0].slug}`}>OPEN GAME PAGE <span aria-hidden="true">→</span></a>
+          </div>
+        )}
+      </div>
+
+      <div class="board-stack">
+        <div class="board">
+          <div class="board-head bh-teal">
+            <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            REGION GAP TOP
+            <a class="bh-more" href="/switch/regional-pricing">MORE →</a>
+          </div>
+          {regionRows.map((r, i) => (
+            <a class="board-row" href={`/game/${r.slug}/regional-prices`}>
+              <span class:list={['b-rank', { first: i === 0 }]}>{i + 1}</span>
+              <span class="b-name">{r.title}</span>
+              <span class="b-chip g">−{r.savePct}% {r.cc}</span>
+            </a>
+          ))}
+        </div>
+
+        <div class="board">
+          <div class="board-head bh-gold">
+            <svg viewBox="0 0 24 24" fill="none" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            AT ALL-TIME LOW
+            <a class="bh-more" href="/steam/deals">MORE →</a>
+          </div>
+          {atlRows.map((r, i) => (
+            <a class="board-row" href={`/game/${r.slug}`}>
+              <span class:list={['b-rank', { first: i === 0 }]}>{i + 1}</span>
+              <span class="b-name">{r.title}</span>
+              <span class="b-val">{fmtUsd(r.usd)}</span>
+            </a>
+          ))}
+        </div>
+
+        <div class="board">
+          <div class="board-head bh-red">
+            <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+            HOTTEST DEALS
+            <a class="bh-more" href="/steam/deals">MORE →</a>
+          </div>
+          {hotRows.map((r, i) => (
+            <a class="board-row" href={`/game/${r.slug}`}>
+              <span class:list={['b-rank', { first: i === 0 }]}>{i + 1}</span>
+              <span class="b-name">{r.title}</span>
+              <span class="b-chip g">−{r.pct}%</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="ground" aria-hidden="true"></div>
+
+  <section class="section wrap">
+    <SectionHead tone="violet" title="Regional pricing" moreHref="/switch/regional-pricing" moreText="All regions →" />
+    <div class="region-entry">
+      <a class="re-card" href="/switch/regional-pricing">
+        <span class="re-ic t"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+        <span class="re-txt">
+          <b>eShop region compare</b>
+          <span>The cheapest eShop region for every tracked Switch game — 16 regions, converted and ranked daily.</span>
+        </span>
+        <span class="re-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="re-card" href="/steam/regional-pricing">
+        <span class="re-ic b"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.83z"/><circle cx="7" cy="7" r="1.6"/></svg></span>
+        <span class="re-txt">
+          <b>Steam regional watch</b>
+          <span>Regional price gaps across 18 Steam storefronts for all {gameCount} tracked games, updated daily.</span>
+        </span>
+        <span class="re-arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </section>
+
+  {atlGrid.length > 0 && (
+    <section class="section wrap">
+      <SectionHead tone="gold" title="At all-time low right now" moreHref="/steam/deals" />
+      <div class="card-grid">
+        {atlGrid.map((d) => (
+          <a class="game-card" href={`/game/${d.slug}`}>
+            <div class="cover">
+              {d.headerImage && <img src={d.headerImage} alt={d.title} loading="lazy" />}
+              <span class="atl-flag"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>ALL-TIME LOW</span>
+            </div>
+            <div class="card-body">
+              <div class="title">{d.title}</div>
+              <div class="meta">Steam{d.reviewPercent != null && <span class="review-pos">{d.reviewPercent}% positive</span>}</div>
+              <div class="price-row">
+                <span class="chip-off">−{d.pct}%</span>
+                {d.listUsd != null && <span class="price-old">{fmtUsd(d.listUsd)}</span>}
+                <span class="price-now">{fmtUsd(d.usd)}</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {endingSoon.length > 0 && (
+    <section class="section wrap">
+      <SectionHead tone="red" title="Ending soon" moreHref="/switch/deals" moreText="All deals →" />
+      <div class="row-list">
+        {endingSoon.map((d) => (
+          <a class="deal-row" href={`/game/${d.slug}`}>
+            <div class="thumb">{d.headerImage && <img src={d.headerImage} alt={d.title} loading="lazy" />}</div>
+            <div class="info">
+              <div class="title">{d.title}</div>
+              <div class="sub">{d.reviewPercent != null && <span class="review-pos">{d.reviewPercent}% positive</span>}{d.isAtl && <span class="badge-atl">ATL</span>}</div>
+            </div>
+            <span class="ends">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              {d.saleEndsAt!.slice(0, 10)}
+            </span>
+            <div class="pricing">
+              <span class="chip-off">−{d.pct}%</span>
+              {d.listUsd != null && <span class="price-old">{fmtUsd(d.listUsd)}</span>}
+              <span class="price-now mono">{fmtUsd(d.usd)}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {freeNow.length > 0 && (
+    <section class="section wrap">
+      <SectionHead tone="green" title="Free to keep right now" moreHref="/free-games" moreText="All freebies →" />
+      <div class="free-grid">
+        {freeNow.map((i: any) => (
+          <a class="free-card" href={i.url} rel="nofollow noopener" target="_blank">
+            <div>
+              <span class="tag">FREE · {i.storeId.toUpperCase()}</span>
+              <div class="title">{i.title}</div>
+              <div class="sub">{i.list != null && `Normally ${fmtUsd(i.list)} · `}{i.endsAt ? `until ${new Date(i.endsAt).toUTCString().slice(0, 16)}` : 'limited time'}</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {upcoming.length > 0 && (
+    <section class="section wrap">
+      <SectionHead tone="violet" title="Coming this month" moreHref="/new-releases" moreText="Full calendar →" />
+      <div class="release-strip">
+        {upcoming.map((e: any) => (
+          <a class="release-card" href={e.slugIfTracked ? `/game/${e.slugIfTracked}` : e.url} rel={e.slugIfTracked ? undefined : 'nofollow noopener'}>
+            <div class="art" style="background: #63B8F6;">{e.title.split(/\s+/).slice(0, 2).map((w: string) => w[0]).join('').toUpperCase()}</div>
+            <div class="body">
+              <div class="date">{e.date}</div>
+              <div class="title">{e.title}</div>
+              <div class="plats">{e.platforms.join(' · ')}</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <script define:vars={{ games: showcase }}>
+    const input = document.getElementById('heroSearch');
+    const card = document.getElementById('liveCard');
+    const els = {
+      cover: document.getElementById('lcCover'),
+      name: document.getElementById('lcName'),
+      plat: document.getElementById('lcPlat'),
+      region: document.getElementById('lcRegion'),
+      deal: document.getElementById('lcDeal'),
+      atl: document.getElementById('lcAtl'),
+      link: document.getElementById('lcLink'),
+    };
+    if (input && card && games.length > 0) {
+      const CURSOR = '█';
+      let idx = 0, timer = null, paused = false;
+      const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      const updateCard = (g) => {
+        els.cover.src = g.cover;
+        els.cover.alt = g.name + ' cover';
+        els.name.textContent = g.name;
+        els.plat.textContent = g.plat;
+        els.region.textContent = g.region;
+        els.deal.textContent = g.deal;
+        els.atl.style.display = g.atl ? '' : 'none';
+        els.link.href = '/game/' + g.slug;
+        card.classList.remove('pop');
+        void card.offsetWidth;
+        card.classList.add('pop');
+      };
+      const schedule = (fn, ms) => { timer = setTimeout(fn, ms); };
+
+      const typeGame = () => {
+        if (paused) return;
+        const g = games[idx];
+        let c = 0;
+        (function typeChar() {
+          if (paused) return;
+          if (c <= g.name.length) {
+            input.placeholder = g.name.slice(0, c) + CURSOR;
+            c++;
+            schedule(typeChar, 62);
+          } else {
+            updateCard(g);
+            blinkHold(g, 0);
+          }
+        })();
+      };
+      const blinkHold = (g, n) => {
+        if (paused) return;
+        if (n >= 5) { deleteGame(g); return; }
+        input.placeholder = g.name + (n % 2 ? CURSOR : ' ');
+        schedule(() => blinkHold(g, n + 1), 460);
+      };
+      const deleteGame = (g) => {
+        if (paused) return;
+        let c = g.name.length;
+        (function delChar() {
+          if (paused) return;
+          if (c >= 0) {
+            input.placeholder = g.name.slice(0, c) + CURSOR;
+            c--;
+            schedule(delChar, 26);
+          } else {
+            idx = (idx + 1) % games.length;
+            schedule(typeGame, 260);
+          }
+        })();
+      };
+      const rotateReduced = () => {
+        if (paused) return;
+        const g = games[idx];
+        input.placeholder = g.name;
+        updateCard(g);
+        idx = (idx + 1) % games.length;
+        schedule(rotateReduced, 4200);
+      };
+
+      input.addEventListener('focus', () => {
+        paused = true;
+        clearTimeout(timer);
+        input.placeholder = 'Search games…';
+        // route hero search into the header MiniSearch box
+        document.getElementById('siteSearch')?.dispatchEvent(new Event('focus'));
+      });
+      input.addEventListener('input', () => {
+        const site = document.getElementById('siteSearch');
+        if (site) { site.value = input.value; site.dispatchEvent(new Event('input')); }
+      });
+      input.addEventListener('blur', () => {
+        if (input.value.trim() !== '') return;
+        paused = false;
+        reduced ? rotateReduced() : typeGame();
+      });
+      reduced ? rotateReduced() : typeGame();
+    }
+  </script>
+</Layout>

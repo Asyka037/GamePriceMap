@@ -1,0 +1,14 @@
+---
+interface Props { slug: string; current: 'overview' | 'regional' | 'history' }
+const { slug, current } = Astro.props;
+const tabs = [
+  { id: 'overview', label: 'Overview', href: `/game/${slug}` },
+  { id: 'regional', label: 'Regional prices', href: `/game/${slug}/regional-prices` },
+  { id: 'history', label: 'Price history', href: `/game/${slug}/price-history` },
+];
+---
+<nav class="tab-nav">
+  {tabs.map((t) => (
+    <a class:list={[{ on: t.id === current }]} href={t.href}>{t.label}</a>
+  ))}
+</nav>

@@ -1,0 +1,66 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import DealRows from '../../components/DealRows.astro';
+import SectionHead from '../../components/SectionHead.astro';
+import { catalog, gameBundle, feed } from '../../lib/data.mjs';
+import { trackedDeals, fmtUsd } from '../../lib/derive.mjs';
+
+const bundles = catalog().map((g: any) => gameBundle(g.slug));
+const deals = trackedDeals(bundles, 'steam');
+const feedExtras = feed('deals-steam').items.filter((i: any) => !i.slugIfTracked);
+---
+<Layout
+  title={`Steam deals — ${deals.length} tracked discounts, checked against all-time lows | GamePriceMap`}
+  description="Steam discounts on tracked games, every one checked against its all-time low so you know whether a deal is actually good."
+  active="steam"
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Steam<span>/</span>Deals</div>
+    <h1>Steam deals</h1>
+    <p>{deals.length} tracked games discounted right now. Every deal is checked against its all-time low.</p>
+  </div>
+
+  <div class="wrap" style="padding-bottom: 24px;">
+    <div class="toolbar">
+      <label class="atl-toggle"><input type="checkbox" id="atlOnly" /> All-time lows only</label>
+      <span class="result-n" id="resultCount">{deals.length} deals</span>
+    </div>
+
+    <DealRows deals={deals} storeLabel="Steam ·" />
+
+    {feedExtras.length > 0 && (
+      <section class="section">
+        <SectionHead tone="red" title="More featured on Steam" moreHref={null} />
+        <div class="row-list">
+          {feedExtras.map((i: any) => (
+            <a class="deal-row" href={i.url} rel="nofollow noopener" target="_blank">
+              <div class="info">
+                <div class="title">{i.title}</div>
+                <div class="sub">Steam featured · not tracked yet</div>
+              </div>
+              <div class="pricing">
+                <span class="chip-off">−{i.pct}%</span>
+                <span class="price-old">{fmtUsd(i.list)}</span>
+                <span class="price-now mono">{fmtUsd(i.price)}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+
+  <script>
+    const toggle = document.getElementById('atlOnly') as HTMLInputElement | null;
+    const count = document.getElementById('resultCount');
+    toggle?.addEventListener('change', () => {
+      let shown = 0;
+      for (const row of document.querySelectorAll<HTMLElement>('.deal-row[data-pct]')) {
+        const show = !toggle.checked || row.dataset.atl === '1';
+        row.style.display = show ? '' : 'none';
+        if (show) shown++;
+      }
+      if (count) count.textContent = `${shown} deals`;
+    });
+  </script>
+</Layout>

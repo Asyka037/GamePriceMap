@@ -1,0 +1,7 @@
+---
+import { calendar } from '../../lib/data.mjs';
+
+const months = Object.keys(calendar().months);
+const target = months[0] ?? null;
+return Astro.redirect(target ? `/new-releases/${target}` : '/');
+---

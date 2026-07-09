@@ -1,0 +1,56 @@
+---
+import { fmtUsd } from '../lib/derive.mjs';
+
+interface Deal {
+  slug: string; title: string; usd: number; listUsd: number | null; pct: number;
+  saleEndsAt?: string | null; headerImage?: string | null; reviewPercent?: number | null;
+  isAtl?: boolean;
+}
+interface Props { deals: Deal[]; storeLabel: string }
+const { deals, storeLabel } = Astro.props;
+---
+<div class="row-list">
+  {deals.map((d) => (
+    <a class="deal-row" href={`/game/${d.slug}`} data-pct={d.pct} data-atl={d.isAtl ? '1' : '0'}>
+      <div class="thumb">
+        {d.headerImage && <img src={d.headerImage} alt={d.title} loading="lazy" />}
+      </div>
+      <div class="info">
+        <div class="title">{d.title}</div>
+        <div class="sub">
+          {storeLabel}
+          {d.reviewPercent != null && <span class="review-pos">{d.reviewPercent}% positive</span>}
+          {d.isAtl && <span class="badge-atl">ATL</span>}
+        </div>
+      </div>
+      {d.saleEndsAt && (
+        <span class="ends" data-ends={d.saleEndsAt}>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          ends soon
+        </span>
+      )}
+      <div class="pricing">
+        <span class="chip-off">−{d.pct}%</span>
+        {d.listUsd != null && <span class="price-old">{fmtUsd(d.listUsd)}</span>}
+        <span class="price-now mono">{fmtUsd(d.usd)}</span>
+      </div>
+    </a>
+  ))}
+</div>
+
+<script>
+  // Render sale-end countdowns client-side (static pages stay "live").
+  for (const el of document.querySelectorAll<HTMLElement>('.ends[data-ends]')) {
+    const ends = Date.parse(el.dataset.ends ?? '');
+    if (!Number.isFinite(ends)) continue;
+    const tick = () => {
+      const s = Math.floor((ends - Date.now()) / 1000);
+      if (s <= 0) { el.textContent = 'ended'; return; }
+      const d = Math.floor(s / 86400);
+      const h = Math.floor((s % 86400) / 3600);
+      el.lastChild!.textContent = d > 0 ? ` ${d}d ${String(h).padStart(2, '0')}h left` : ` ${h}h ${String(Math.floor((s % 3600) / 60)).padStart(2, '0')}m left`;
+    };
+    tick();
+    setInterval(tick, 60_000);
+  }
+</script>

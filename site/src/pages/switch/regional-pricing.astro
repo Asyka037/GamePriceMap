@@ -1,0 +1,21 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RegionalHub from '../../components/RegionalHub.astro';
+import { catalog, gameBundle } from '../../lib/data.mjs';
+
+const bundles = catalog().map((g: any) => gameBundle(g.slug)).filter((b: any) => b.eshop);
+---
+<Layout
+  title="eShop region compare — cheapest Nintendo regions ranked | GamePriceMap"
+  description="Compare Nintendo eShop prices across 16 regions for every tracked Switch game, converted to USD and ranked by savings versus the US eShop."
+  active="nintendo"
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Nintendo<span>/</span>Region compare</div>
+    <h1>eShop region compare</h1>
+    <p>Every tracked Switch game across 16 eShop regions, ranked by savings versus the US eShop. Click a game for its full table.</p>
+  </div>
+  <div class="wrap" style="padding-bottom: 24px;">
+    <RegionalHub bundles={bundles} channel="eshop" />
+  </div>
+</Layout>

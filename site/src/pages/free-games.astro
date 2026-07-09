@@ -1,0 +1,59 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SectionHead from '../components/SectionHead.astro';
+import { feed } from '../lib/data.mjs';
+import { fmtUsd } from '../lib/derive.mjs';
+
+const items = feed('free-games').items;
+const now = items.filter((i: any) => i.status === 'free-now');
+const upcoming = items.filter((i: any) => i.status === 'upcoming');
+const storeLabel: Record<string, string> = { epic: 'Epic Games Store', steam: 'Steam' };
+---
+<Layout
+  title="Free games right now — Epic & Steam giveaways | GamePriceMap"
+  description="Games free to keep right now on the Epic Games Store and Steam, plus what goes free next — updated daily."
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Free games</div>
+    <h1>Free games</h1>
+    <p>Free to keep — claim before the timer runs out. Updated daily.</p>
+  </div>
+
+  <div class="wrap" style="padding-bottom: 24px;">
+    <section class="section" style="padding-top: 8px;">
+      <SectionHead tone="green" title="Free to keep right now" />
+      <div class="free-grid">
+        {now.map((i: any) => (
+          <a class="free-card" href={i.url} rel="nofollow noopener" target="_blank">
+            <div>
+              <span class="tag">FREE · {(storeLabel[i.storeId] ?? i.storeId).toUpperCase()}</span>
+              <div class="title">{i.title}</div>
+              <div class="sub">
+                {i.list != null && `Normally ${fmtUsd(i.list)} · `}
+                {i.endsAt ? `claim before ${new Date(i.endsAt).toUTCString().slice(0, 16)}` : 'limited time'}
+              </div>
+            </div>
+          </a>
+        ))}
+        {now.length === 0 && <p style="color:var(--text-2); font-weight:700;">Nothing free at this exact moment — check the upcoming list.</p>}
+      </div>
+    </section>
+
+    {upcoming.length > 0 && (
+      <section class="section">
+        <SectionHead tone="violet" title="Coming up free" />
+        <div class="free-grid">
+          {upcoming.map((i: any) => (
+            <a class="free-card" href={i.url} rel="nofollow noopener" target="_blank">
+              <div>
+                <span class="tag" style="background: var(--gold-bg);">UPCOMING · {(storeLabel[i.storeId] ?? i.storeId).toUpperCase()}</span>
+                <div class="title">{i.title}</div>
+                <div class="sub">{i.list != null && `Normally ${fmtUsd(i.list)} · `}free {i.endsAt ? `until ${new Date(i.endsAt).toUTCString().slice(0, 16)}` : 'soon'}</div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>

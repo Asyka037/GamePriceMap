@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import DealRows from '../../components/DealRows.astro';
+import SectionHead from '../../components/SectionHead.astro';
+import { catalog, gameBundle, feed } from '../../lib/data.mjs';
+import { trackedDeals, fmtMoney } from '../../lib/derive.mjs';
+
+const bundles = catalog().map((g: any) => gameBundle(g.slug));
+const deals = trackedDeals(bundles, 'eshop');
+const feedExtras = feed('deals-eshop').items.filter((i: any) => !i.slugIfTracked).slice(0, 40);
+---
+<Layout
+  title={`Nintendo eShop deals — tracked discounts vs all-time lows | GamePriceMap`}
+  description="Nintendo Switch eShop discounts on tracked games checked against all-time lows, plus the biggest sales across the European eShop."
+  active="nintendo"
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Nintendo<span>/</span>eShop deals</div>
+    <h1>eShop deals</h1>
+    <p>{deals.length} tracked games discounted in the US eShop right now, checked against all-time lows.</p>
+  </div>
+
+  <div class="wrap" style="padding-bottom: 24px;">
+    {deals.length > 0
+      ? <DealRows deals={deals} storeLabel="eShop US ·" />
+      : <p style="color:var(--text-2); font-weight:700;">No tracked eShop discounts today — check the European sale list below.</p>}
+
+    {feedExtras.length > 0 && (
+      <section class="section">
+        <SectionHead tone="red" title="Big sales on the European eShop" />
+        <div class="row-list">
+          {feedExtras.map((i: any) => (
+            <a class="deal-row" href={i.url} rel="nofollow noopener" target="_blank">
+              <div class="info">
+                <div class="title">{i.title}</div>
+                <div class="sub">eShop UK · prices in GBP</div>
+              </div>
+              <div class="pricing">
+                <span class="chip-off">−{i.pct}%</span>
+                <span class="price-old">{fmtMoney(i.list, 'GBP')}</span>
+                <span class="price-now mono">{fmtMoney(i.price, 'GBP')}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>
