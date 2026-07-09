@@ -1,0 +1,73 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NoteBox from '../components/NoteBox.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', '..');
+const health = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'health.json'), 'utf8'));
+
+const labels: Record<string, string> = {
+  rates: 'Exchange rates',
+  'steam-regional': 'Steam regional prices',
+  'eshop-regional': 'eShop regional prices',
+  'deals-steam': 'Steam deals feed',
+  'deals-eshop': 'eShop deals feed',
+  'deals-stores': 'Multi-store deals feed',
+  'free-games': 'Free games feed',
+  calendar: 'Release calendar',
+  meta: 'Game metadata',
+};
+const cadence: Record<string, number> = {
+  rates: 26, 'steam-regional': 26, 'eshop-regional': 26,
+  'deals-steam': 26, 'deals-eshop': 26, 'deals-stores': 26, 'free-games': 26,
+  calendar: 8 * 24, meta: 8 * 24,
+};
+const now = Date.now();
+const rows = Object.entries(health.sources).map(([key, stamp]) => {
+  const ageH = stamp ? (now - Date.parse(stamp as string)) / 3600e3 : Infinity;
+  const budget = cadence[key] ?? 26;
+  return {
+    label: labels[key] ?? key,
+    stamp: stamp ? new Date(stamp as string).toUTCString().slice(0, 22) : 'never',
+    state: ageH <= budget ? 'fresh' : ageH <= budget * 2 ? 'stale' : 'down',
+  };
+});
+---
+<Layout
+  title="Data status — GamePriceMap"
+  description="Freshness of every GamePriceMap data source: regional prices, deal feeds, calendar and metadata."
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Status</div>
+    <h1>Data status</h1>
+    <p>Tracking {health.games} games. Snapshot generated at build time; freshness states are relative to each source's update cadence (daily or weekly).</p>
+  </div>
+
+  <div class="wrap" style="padding-bottom: 24px;">
+    <table class="region-full" style="max-width: 720px;">
+      <thead><tr><th>Source</th><th>Last success</th><th>State</th></tr></thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr>
+            <td style="font-weight:800;">{r.label}</td>
+            <td class="mono">{r.stamp}</td>
+            <td>
+              {r.state === 'fresh' && <span class="b-chip g">FRESH</span>}
+              {r.state === 'stale' && <span class="b-chip y">STALE</span>}
+              {r.state === 'down' && <span class="b-chip" style="background: var(--red-bg);">DOWN</span>}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    <NoteBox>
+      Every scrape passes a validation gate before landing: prices must be
+      positive, discounts in range, currency conversions within 2% and region
+      coverage stable. A failed gate keeps the previous good data, so a stale
+      source here means its upstream is unreachable — not that numbers are wrong.
+    </NoteBox>
+  </div>
+</Layout>

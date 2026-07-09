@@ -156,4 +156,32 @@ if (errors.length) {
   for (const e of errors) console.error('  - ' + e);
   process.exit(1);
 }
-console.log('✓ Validation passed');
+
+// Passing gate emits the health snapshot consumed by the /status page.
+function newestStamp(dir) {
+  const abs = path.join(ROOT, dir);
+  if (!fs.existsSync(abs)) return null;
+  let max = null;
+  for (const f of fs.readdirSync(abs).filter((x) => x.endsWith('.json'))) {
+    const t = JSON.parse(fs.readFileSync(path.join(abs, f), 'utf8')).updatedAt ?? null;
+    if (t && (!max || t > max)) max = t;
+  }
+  return max;
+}
+const health = {
+  updatedAt: new Date().toISOString(),
+  games: catalog.games.length,
+  sources: {
+    rates: ratesDoc.updatedAt ?? null,
+    'steam-regional': newestStamp('data/snapshots/steam'),
+    'eshop-regional': newestStamp('data/snapshots/eshop'),
+    'deals-steam': fs.existsSync(path.join(ROOT, 'data/feeds/deals-steam.json')) ? readJson('data/feeds/deals-steam.json').updatedAt : null,
+    'deals-eshop': fs.existsSync(path.join(ROOT, 'data/feeds/deals-eshop.json')) ? readJson('data/feeds/deals-eshop.json').updatedAt : null,
+    'deals-stores': fs.existsSync(path.join(ROOT, 'data/feeds/deals-stores.json')) ? readJson('data/feeds/deals-stores.json').updatedAt : null,
+    'free-games': fs.existsSync(freePath) ? readJson('data/feeds/free-games.json').updatedAt : null,
+    calendar: fs.existsSync(calPath) ? readJson('data/feeds/calendar.json').updatedAt : null,
+    meta: newestStamp('data/meta'),
+  },
+};
+fs.writeFileSync(path.join(ROOT, 'data/health.json'), JSON.stringify(health, null, 2) + '\n');
+console.log('✓ Validation passed (health.json refreshed)');
