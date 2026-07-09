@@ -1,0 +1,70 @@
+{
+  "updatedAt": "2026-07-09T02:42:58.477Z",
+  "items": [
+    {
+      "title": "Nova Lands",
+      "storeId": "epic",
+      "url": "https://store.epicgames.com/en-US/p/nova-lands-4d1788",
+      "currency": "USD",
+      "price": 0,
+      "list": 19.99,
+      "pct": 100,
+      "steamAppId": null,
+      "slugIfTracked": null,
+      "status": "upcoming",
+      "endsAt": "2026-07-16T15:00:00.000Z"
+    },
+    {
+      "title": "River City Girls 2",
+      "storeId": "epic",
+      "url": "https://store.epicgames.com/en-US/p/river-city-girls-2-77af3a",
+      "currency": "USD",
+      "price": 0,
+      "list": 39.99,
+      "pct": 100,
+      "steamAppId": null,
+      "slugIfTracked": null,
+      "status": "free-now",
+      "endsAt": "2026-07-09T15:00:00.000Z"
+    },
+    {
+      "title": "Tattoo Tycoon",
+      "storeId": "epic",
+      "url": "https://store.epicgames.com/en-US/p/tattoo-tycoon-b4352c",
+      "currency": "USD",
+      "price": 0,
+      "list": 29.99,
+      "pct": 100,
+      "steamAppId": null,
+      "slugIfTracked": null,
+      "status": "upcoming",
+      "endsAt": "2026-07-16T15:00:00.000Z"
+    },
+    {
+      "title": "I Have No Mouth, and I Must Scream",
+      "storeId": "epic",
+      "url": "https://store.epicgames.com/en-US/p/i-have-no-mouth-and-i-must-scream-95c5c2",
+      "currency": "USD",
+      "price": 0,
+      "list": 9.99,
+      "pct": 100,
+      "steamAppId": null,
+      "slugIfTracked": null,
+      "status": "free-now",
+      "endsAt": "2026-07-09T15:00:00.000Z"
+    },
+    {
+      "title": "Echo Generation: Midnight Edition",
+      "storeId": "epic",
+      "url": "https://store.epicgames.com/en-US/p/echo-generation-midnight-edition-069026",
+      "currency": "USD",
+      "price": 0,
+      "list": 24.99,
+      "pct": 100,
+      "steamAppId": null,
+      "slugIfTracked": null,
+      "status": "upcoming",
+      "endsAt": "2026-07-23T15:00:00.000Z"
+    }
+  ]
+}

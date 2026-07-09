@@ -1,0 +1,125 @@
+{
+  "updatedAt": "2026-07-09T02:42:19.533Z",
+  "items": [
+    {
+      "title": "Cyberpunk 2077",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1091500/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 59.99,
+      "pct": 70,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 1091500,
+      "slugIfTracked": "cyberpunk-2077"
+    },
+    {
+      "title": "Palworld",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1623730/",
+      "currency": "USD",
+      "price": 20.99,
+      "list": 29.99,
+      "pct": 30,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 1623730,
+      "slugIfTracked": "palworld"
+    },
+    {
+      "title": "Baldur's Gate 3",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1086940/",
+      "currency": "USD",
+      "price": 44.99,
+      "list": 59.99,
+      "pct": 25,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 1086940,
+      "slugIfTracked": "baldurs-gate-3"
+    },
+    {
+      "title": "Moonlight Peaks",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2209900/",
+      "currency": "USD",
+      "price": 29.74,
+      "list": 34.99,
+      "pct": 15,
+      "endsAt": "2026-07-13T17:00:23.000Z",
+      "steamAppId": 2209900,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1174180/",
+      "currency": "USD",
+      "price": 14.99,
+      "list": 59.99,
+      "pct": 75,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 1174180,
+      "slugIfTracked": "red-dead-redemption-2"
+    },
+    {
+      "title": "RuneScape: Dragonwilds",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1374490/",
+      "currency": "USD",
+      "price": 20.99,
+      "list": 29.99,
+      "pct": 30,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 1374490,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Cyberpunk 2077: Phantom Liberty",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2138330/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 29.99,
+      "pct": 40,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 2138330,
+      "slugIfTracked": null
+    },
+    {
+      "title": "DELTARUNE",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1671210/",
+      "currency": "USD",
+      "price": 19.99,
+      "list": 24.99,
+      "pct": 20,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 1671210,
+      "slugIfTracked": null
+    },
+    {
+      "title": "DOOM: The Dark Ages",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3017860/",
+      "currency": "USD",
+      "price": 23.09,
+      "list": 69.99,
+      "pct": 67,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 3017860,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Grand Theft Auto V Enhanced",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "currency": "USD",
+      "price": 14.99,
+      "list": 29.99,
+      "pct": 50,
+      "endsAt": "2026-07-09T17:00:00.000Z",
+      "steamAppId": 3240220,
+      "slugIfTracked": null
+    }
+  ]
+}
