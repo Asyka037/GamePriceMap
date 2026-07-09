@@ -18,9 +18,11 @@ fs.mkdirSync(OUT_DIR, { recursive: true });
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog.json'), 'utf8'));
 const known = new Set(catalog.games.map((g) => g.steamAppId).filter(Boolean));
 
+const NOISE = /\b(steam deck|steam machine|steam frame|upgrade kit|upgrade pack|season pass|soundtrack|dlc|demo|playtest)\b/i;
+
 const candidates = new Map(); // appId -> {name, steamAppId, sources[]}
 function add(appId, name, source) {
-  if (!appId || known.has(appId)) return;
+  if (!appId || known.has(appId) || NOISE.test(name ?? '')) return;
   const c = candidates.get(appId) ?? { name, steamAppId: appId, sources: [] };
   if (!c.sources.includes(source)) c.sources.push(source);
   c.name ??= name;

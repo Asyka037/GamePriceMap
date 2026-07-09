@@ -21,9 +21,9 @@
 - [x] T2.3 21 款 NS 游戏 nsuid 入库 + daily.yml 增加 eshop step（单 job 顺序执行，单次提交无冲突，偏离计划的"双 job 间隔 30min"——原因：单仓单提交无并发冲突场景）
 
 ## Phase 3：折扣/免费/多店/日历 feeds
-- [ ] T3.1 scrape-feeds.mjs（Steam specials / EU 折扣 / CheapShark / Epic）
-- [ ] T3.2 日历（IGDB 主源，需用户申请 Twitch 凭据；降级方案见方案 §T3.2）
-- [ ] T3.3 weekly.yml（元数据/评价刷新 + 目录候选建议）
+- [x] T3.1 scrape-feeds.mjs（四源 fail-soft；实跑 5/5：10 steam + 293 eshop-eu + 119 多店 + 5 免费含 upcoming）
+- [x] T3.2 日历（降级源版：EU upcoming 120 条 + Steam coming_soon 精确日期 4 条 → 4 个月 116 条；IGDB 接口位保留，等 Twitch 凭据）
+- [x] T3.3 weekly.yml（meta 42/42 + 日历 + 候选建议；SteamSpy 403 fail-soft 转 top_sellers + 噪音过滤）
 
 ## Phase 4：Astro 前端
 - [ ] T4.1 站点骨架 + tokens.css 迁移 + Header/Footer 组件化
@@ -77,6 +77,11 @@
 - NSUID 发现踩坑并修复（详见 lessons.md）：① 首轮 startsWith 匹配把 "Hollow Knight"→Silksong、"Hades"→HADES II，收紧为精确标题匹配（franchise 名是续作前缀）；② US 商品页 URL 猜错时 200 重定向到通用商店页，正则抓到无关 nsuid——加 res.url 校验 + 页面标题验证 + 跨游戏重复 nsuid 守卫（5 个重复项自动丢弃转人工）。
 - 数据质量决策：Nintendo API 会返回通胀遗留价（Stardew AR = 2017 年的 ARS 179.99 ≈ $0.12），快照层按"低于中位数 10%"过滤离群区域（纯函数 + 单测；Silksong AR 正常价 $17.33 正确保留）。
 - 遗留（转人工/后续）：5 款游戏 US nsuid 待手工补（sea-of-stars/dredge/balatro/nine-sols/animal-well）；cyberpunk（Switch 2 仅 Ultimate 版）、palworld 等未入 eShop；JP 有 7 款未匹配到（英文标题搜索不中，后续用日文名重试）。
+
+### 2026-07-08 Phase 3 执行记录（Claude）
+- 单测 32/32；validate 扩展覆盖 feeds/calendar/meta 后全绿；四个 feed 实跑 5/5 源成功。
+- 设计偏差（已论证）：feed schema 增加 currency 字段（Steam 是 USD、eShop-EU 是 GBP，混同会错价）；免费流条目带 status: free-now|upcoming。
+- 已知局限：Steam coming_soon 多数条目日期模糊（"Q4 2026"类被拒绝不猜测），日历 Steam 侧仅 4 条精确——IGDB 凭据到位后作为主源可解；SteamSpy 返回 403（UA 或防爬调整），候选建议暂靠 top_sellers 单源。
 
 ## 需要用户操作的事项
 - [ ] GitHub 仓库创建/授权首推（T0.3）；决定公开或私有（方案 §3：建议公开）

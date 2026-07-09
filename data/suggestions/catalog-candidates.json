@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T03:09:00.325Z",
+  "updatedAt": "2026-07-09T03:12:01.887Z",
   "note": "Human review required — merge into catalog.json manually.",
   "candidates": [
     {
@@ -10,29 +10,8 @@
       ]
     },
     {
-      "name": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
-      "steamAppId": 3839790,
-      "sources": [
-        "steam-top-sellers"
-      ]
-    },
-    {
       "name": "MECCHA CHAMELEON",
       "steamAppId": 4704690,
-      "sources": [
-        "steam-top-sellers"
-      ]
-    },
-    {
-      "name": "Steam Deck",
-      "steamAppId": 1675200,
-      "sources": [
-        "steam-top-sellers"
-      ]
-    },
-    {
-      "name": "Steam Machine",
-      "steamAppId": 4165910,
       "sources": [
         "steam-top-sellers"
       ]
