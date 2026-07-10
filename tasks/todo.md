@@ -37,7 +37,7 @@
 - [x] T5.2 已接入 regional-prices（每通道一张图，行锚点+高亮）；compact 模式已实现待用
 
 ## Phase 6：部署与监控
-- [ ] T6.1 Cloudflare Pages 接入 + Deploy Hook（需用户授权）
+- [x] T6.1 Cloudflare Pages git 集成上线（gamepricemap.pages.dev，自动部署已启用；Deploy Hook 方案弃用——git 集成已覆盖）
 - [x] T6.2 health.json（validate 通过时产出）+ /status 页（9 源 FRESH/STALE/DOWN）+ 页脚时间戳（Phase 4 已有）
 
 ## 评审记录
@@ -100,7 +100,10 @@
 - T6.2：validate 闸门通过时产出 data/health.json；/status 页按各源节奏预算渲染 FRESH/STALE/DOWN，当前 9/9 FRESH；构建 138 页。
 - 剩余：仅 T6.1（Cloudflare Pages 绑定，用户操作）。绑定用 git 集成即可（数据日更 push 自动触发构建，约 35 次/月 << 500 限额），daily.yml 里的 Deploy Hook 注释段可以永久不启用。
 
+### 2026-07-10 V1 上线验证（Claude）
+- https://gamepricemap.pages.dev 全站 11 条关键路由 200；线上断言：首页三榜单+实时卡、Silksong BUY 判定、区域地图 34 瓦片、/status 9/9 FRESH、搜索索引 42 条、sitemap 138 URL、canonical 与域名一致。
+- 注意：Pages 对无尾斜杠路径返回 308 重定向（正常行为，SEO 用 canonical 收敛）。
+- V1 全部 Phase（0-6）完成。后续任一数据日更 push 都会自动触发 Pages 重建。
+
 ## 需要用户操作的事项
-- [ ] GitHub 仓库创建/授权首推（T0.3）；决定公开或私有（方案 §3：建议公开）
-- [ ] Cloudflare Pages 绑定仓库（T6.1）
 - [ ] 每周审核 suggestions/catalog-candidates.json 决定新游戏入库
