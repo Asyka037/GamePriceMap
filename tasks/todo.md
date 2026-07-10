@@ -1,5 +1,23 @@
 # DealDex V1 任务清单
 
+## 2026-07-10 全面 Code Review（CodeX）
+
+- [x] 核对工作区、交接文档与架构/数据流的实际一致性
+- [x] 审查抓取、校验闸门、数据质量与供应链风险
+- [x] 审查 Astro 前端、SEO、可访问性与交互实现
+- [x] 审查测试、GitHub Actions、部署配置与可运维性
+- [x] 运行与评审范围相称的本地验证，并记录可复现结果
+- [x] 汇总按严重度排序的发现、未发现项和建议修复顺序
+
+### 评审记录
+
+#### 2026-07-10 Code Review 结果
+
+- 范围：抓取/校验/历史、Astro 页面与交互、地图、GitHub Actions 配置、依赖与线上静态产物；三条独立审查线交叉核对。
+- 验证：`npm test` 45/45 通过；`site/npm run build` 成功生成 139 页；`git diff --check` 通过。另在隔离 HEAD 副本复现了“删除一个 Steam 快照仍被 validate 放行”。
+- 结论：发现多项 P1，包括过期优惠仍称当前、按渠道混淆史低、快照缺失/部分数据可通过提交闸门、NSUID 日文匹配和 catalog 人审约定失效、首页搜索不可用、地图持平区错色，以及构建期数据进入受影响 Astro `define:vars` / 原始 JSON-LD 的 XSS 风险。
+- 交接文档不是完全可信的运行规范：其“所有请求走 HTTP helper”“catalog 只可人审”“失败保旧数据”三项均有代码反例。未修改产品代码；本文件仅记录评审过程与结果。
+
 > 执行依据：`docs/plans/2026-07-07-dealdex-v1-plan.md`（完整方案，含每个 Task 的文件路径、命令与验收标准）。
 > 执行者：CodeX。每完成一项打勾并 commit；每个 Phase 结束向用户汇报。
 
@@ -115,5 +133,11 @@
 - 修复一个 CSS 特异性 bug：.wm-label.wm-cheaper-2 i 压过 .wm-label-best i，最便宜标签绿字绿底隐形。
 - 验证：45/45 单测（新增标签偏移越界断言）；构建 138 页；预览截图 + hover 冒烟 + 几何断言全绿。
 
+### 2026-07-10 数据方案 V2 研究（历史趋势 + 五平台 + 千级规模）
+- 产出 docs/plans/2026-07-10-data-v2-research.md，五平台端点当日实测：Xbox displaycatalog 免 key 全链路通（US/BR 区域价验证）；PSN 商店页 __NEXT_DATA__ 内嵌 JSON 可用（避开 GraphQL 哈希轮换）；Epic 直连被 Cloudflare 盾（403 challenge 实测）→ 价格走 ITAD；ITAD 在线、需免费 key（用户操作）。
+- 关键发现：趋势图不依赖新数据源（事件化历史天然是阶梯图数据）；千级规模最大隐患是快照 updatedAt 导致每日全量 git diff——"内容不变不写盘"修复列为最高优先。
+- 实施切分 Phase A–E 已写入研究文档，待用户决策后交 CodeX。
+
 ## 需要用户操作的事项
+- [ ] 注册 ITAD 免费 API key（isthereanydeal.com/apps/）→ 存入仓库 Secrets 为 ITAD_KEY（数据方案 V2 的 Phase B 依赖）
 - [ ] 每周审核 suggestions/catalog-candidates.json 决定新游戏入库

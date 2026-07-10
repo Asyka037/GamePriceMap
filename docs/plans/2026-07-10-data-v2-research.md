@@ -1,0 +1,89 @@
+# 数据方案 V2 研究：历史价格趋势 + 五平台比价 + 千级规模
+
+> 研究日期 2026-07-10，所有端点均为当日亲手实测（证据附各节）。本文是研究结论与落地建议，供用户决策后交 CodeX 实施。
+
+## 0. 结论摘要
+
+1. **趋势图不需要等任何新数据源**——现有事件化历史（只记变化点）天然就是阶梯折线图的数据结构，先把图画出来（Phase A），ITAD 回填让曲线"变长"是增强而非前提。
+2. **五平台免费数据全部可行**：Steam/NS 已在运行；**Xbox 当日实测免 key 全链路通**；**PSN 商店页内嵌 JSON 可用**（避开哈希轮换的 GraphQL）；**Epic 直连已被 Cloudflare 盾墙（实测 403 challenge），价格改走 ITAD**——一把免费 key 同时给 Epic/GOG 等 PC 店现价 + 全部 PC 历史回填。
+3. **千级规模的最大隐患不在抓取而在 git 体积**：当前每个快照都带 `updatedAt`，导致**价格没变的日子也全量产生 diff**。修掉这一个问题（内容不变不写盘），git 增长就从"∝ 天数×游戏数"降为"∝ 真实价格变化数"，git-as-DB 可以撑到 3000 游戏不迁移。
+
+## 1. 历史价格与趋势图
+
+### 1.1 数据结构：现状已经是对的
+
+`data/history/{slug}.json` 的 events 只记价格**变化点**（`{d, ch, cc, usd, pct}`）——趋势图用阶梯线（step chart）渲染：每个事件是一个台阶，末尾补一个"今天"点。**不需要每日快照序列**，存储零增长，这是比逐日采样更优的图表数据源。
+
+### 1.2 回填（让曲线覆盖发售至今）
+
+| 渠道 | 回填源 | 说明 |
+|---|---|---|
+| PC（Steam/Epic/GOG…） | **ITAD API `games/history`**（免费 key） | 按店、按国家返回完整价格变化序列，正好映射进我们的 events 结构（标 `seed:'itad'`）；同一 key 还提供 `games/prices` 现价（Epic 价格的唯一稳定来源）与 `games/storelow` 各店史低。当日实测：服务在线（无 key 返回 403 "Missing api key"），**注册免费 key 是用户操作项**（isthereanydeal.com/apps/，约 2 分钟）。条款要求署名（About 页加一行）+ 非爬库式使用（我们只按目录游戏拉，合规） |
+| NS eShop | 无免费回填源（DekuDeals/eshop-prices 均无 API） | 自积累（已开始于 2026-07-08）+ EU 索引 `price_lowest_f` 作"历史最低"地板标注；图表加"tracking since {date}"诚实标签 |
+| Xbox / PSN | 无免费回填源 | 同上，自积累；接入当日即开始积累 |
+
+### 1.3 图表实现建议（Phase A，零依赖）
+
+详情页 price-history 子页：inline SVG 阶梯折线（延续设计系统，无图表库），X 轴时间、Y 轴 USD，每渠道一条线（steam / eshop-us 起步），ATL 画金色虚线地板，promo 点标折扣徽章。数据直接内嵌页面（事件数很小）。悬浮读数复用地图 wm-card 样式。
+
+## 2. 五平台数据源注册表（当日实测证据）
+
+| 平台 | 路线 | 实测证据（2026-07-10） | 坑/约束 |
+|---|---|---|---|
+| Steam | 现行（storefront 批量） | 运行中 | 见方案 §2.1（批量只接受 price_overview 等） |
+| NS eShop | 现行（api.ec + EU Solr） | 运行中 | 见方案 §2.2（NSUID 三区、通胀遗留价过滤） |
+| **Xbox** | `displaycatalog.mp.microsoft.com/v7.0`：`productFamilies/autosuggest?query=` 发现 → `products?bigIds={批量}&market={CC}` 价格 | autosuggest 命中 ELDEN RING → bigId `9P3J32CTXLRZ`；价格 US $59.99 USD、BR R$299.90 BRL（**market 参数即区域价**） | 免 key；社区共识批量 ≤20 bigIds/请求；发现阶段沿用 NSUID 的教训（精确标题匹配 + 跨游戏去重守卫）；Game Pass 标记在 Properties 里可顺带取 |
+| **PSN** | 商店页 `store.playstation.com/{locale}/concept/{id}` 的 `__NEXT_DATA__` 内嵌 JSON | 页面 200（浏览器 UA），含 `basePrice/discountedPrice/discountText` 字段（$59.99、$8.99…） | **选内嵌 JSON 而非 GraphQL persisted query**（后者哈希会轮换，是同类工具的常见断点）；单页 ~1MB → 带宽/时长是主要成本，见 §4 预算；区域价 = 切 locale（en-us/en-gb/ja-jp…），每区一请求；concept id 发现走搜索页同款内嵌 JSON |
+| **Epic** | ~~直连~~ → **价格走 ITAD**；免费游戏继续用现行 promotions 端点 | GraphQL 与商品页均 403 + `cf_challenge`（Cloudflare 盾，CI 不可达）；promotions CDN 端点仍 200（已在用） | 不要投入绕盾（违反合规红线且脆弱）；ITAD 的 Epic 价格覆盖美区起步，区域价缺失是接受的代价 |
+
+### 2.1 catalog 扩展（配套）
+
+```json
+{ "xboxBigId": "9P3J32CTXLRZ", "psnConceptId": "232581", "itadId": "018d937f-…" }
+```
+发现管线复制 discover-nsuid 的骨架与守卫（精确标题匹配、置信度、跨游戏重复丢弃、--apply 人审）；ITAD id 用 `games/lookup?appid=` 由 steamAppId 直接反查（零歧义）。
+
+## 3. 千级规模：存储与稳定性
+
+### 3.1 必须先修的一个 bug（比任何新功能优先）
+
+**现状**：scraper 每天重写全部快照文件（`updatedAt` 必变）→ 42 游戏时每日 commit diff 就是全量文件；1000 游戏 × 5 渠道时 git 会以每天数 MB 膨胀，一年 1GB+，git-as-DB 被拖垮。
+**修复**：写盘前对比新旧内容（忽略 updatedAt）；不变则不写。新鲜度已由 `health.json` 承担，快照的 updatedAt 改为"价格数据实际变化时间"。修复后 git 增长 ∝ 真实变价事件，估算 1000 游戏 × 5 渠道 ≈ **15–40MB/年**，git 十年无忧。附带收益：Pages 不再每天全量重建缓存失效。
+
+### 3.2 请求与时长预算（GH Actions 私有仓 2000 分钟/月）
+
+按 1000 游戏、请求间隔 1.5s 估算：
+
+| 渠道 | 请求数/天 | 时长 | 备注 |
+|---|---|---|---|
+| Steam 18 区 | 20 批 × 18 = 360 | ~9 min | 现行模式线性放大 |
+| eShop 16 区 | 20 批 × 16 = 320 | ~8 min | 同上 |
+| Xbox（10 市场起步） | ceil(1000/20) × 10 = 500 | ~13 min | 批量 20 bigIds |
+| ITAD 现价（Epic 等） | 1000/100 批 = 10 | <1 min | POST 批量 |
+| PSN | 1000 页 × ~1MB | **~30 min** | **建议：core 100 款每日 + 其余每周轮转**，或整体降为每周 |
+| feeds/汇率/历史 | ~20 | ~1 min | 现行 |
+
+合计（PSN 分层后）：**~35 min/天 ≈ 1050 min/月**，私有额度内但已过半；3000 游戏时必须启用 catalog `tier` 分级（方案 §6 既有开关）或把 PSN/Xbox 降为每周。**历史回填是一次性任务**（1000 游戏 × ITAD 批量 ≈ 1-2 小时，跑一次入库）。
+
+### 3.3 稳定性设计（延续既有原则，逐条落到新渠道）
+
+- **每渠道独立 fail-soft**：Xbox/PSN 任一源挂掉只影响自己的快照（保旧数据 + /status 标 STALE），绝不阻塞 Steam/NS 主线。
+- **validate 扩展**：新增跨渠道 sanity（同游戏各平台 USD 价差 >3 倍 → 告警不阻断，多半是版本/合集错配）；PSN 解析加 `__NEXT_DATA__` 结构指纹断言（页面改版第一时间在 CI 报警而非静默出脏数据）。
+- **非契约端点分级**：Xbox displaycatalog 稳定性社区口碑最好（多年未破坏性变更）；PSN 内嵌 JSON 次之（改版风险，靠指纹断言兜底）；两者均按 Steam 待遇（低频、退避、可独立下线）。
+- **存储阈值**（沿用方案 §6）：repo >300MB 或部署临近 2 万文件 → 快照/历史迁 R2，git 只留 catalog+代码。修完 §3.1 后预计 3000 游戏内不会触发。
+
+## 4. 建议的实施切分（交 CodeX）
+
+| Phase | 内容 | 依赖 | 量级 |
+|---|---|---|---|
+| **A** | ①快照"内容不变不写盘"修复；②详情页 SVG 阶梯趋势图（用现有 events） | 无 | 小，先做 |
+| **B** | ITAD 接入：lookup 反查 id 入 catalog → 一次性历史回填（seed:'itad'）→ 每日现价（Epic 列上详情页价格表） | **用户注册 ITAD key** → GH secret `ITAD_KEY` | 中 |
+| **C** | Xbox：discover-xbox（autosuggest+守卫）→ scrape-xbox（10 市场）→ 价格表/地图/历史接入 | 无 | 中 |
+| **D** | PSN：discover-psn（搜索页内嵌 JSON）→ scrape-psn（core 日更/其余周更）→ 同上接入 | 无 | 中偏大（解析+指纹断言） |
+| **E** | validate 跨渠道 sanity + /status 新源行 + About 页数据表更新 | A–D 各自附带 | 小 |
+
+**用户操作项（唯一）**：注册 ITAD 免费 API key（isthereanydeal.com/apps/ → New app → 复制 key），存入 GitHub 仓库 Settings → Secrets → `ITAD_KEY`。
+
+## 5. 明确不做
+
+绕 Epic 的 Cloudflare 盾（合规红线+脆弱）；PSN GraphQL persisted query（哈希轮换断点）；主机历史价的第三方爬取（SteamDB/DekuDeals 禁止抓取）；逐日快照存储（事件化已是更优结构）。
