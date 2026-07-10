@@ -11,6 +11,20 @@ export const WORLD = WORLD_DATA;
 
 export const DEEP_GAP_PCT = 30;
 
+/**
+ * Label placement: offsets from each country's centroid in grid cells,
+ * hand-tuned so persistent pills fan out into ocean/empty space instead of
+ * stacking (Europe cluster fans NW/N/NE/S; big countries label in place).
+ * A leader line is drawn when the offset magnitude exceeds ~2 cells.
+ */
+export const LABEL_OFFSETS = {
+  US: [-7.5, 2.5], CA: [-7, -2.5], MX: [-7, 2], CO: [-7.5, 1.5], BR: [6, 1.5], AR: [6.5, 2],
+  GB: [-8, -4.5], NO: [0.5, -4.5], DK: [-11, 0.5], DE: [-0.5, 6.5], PL: [4.5, -3.5],
+  CH: [-6, 3], UA: [8, -1], TR: [3, 4.5], GE: [7, 0.5], ZA: [6, 2.5],
+  KZ: [3, -3.5], PK: [-1.5, 5.5], IN: [5.5, 5], CN: [5, -2.5], KR: [4.5, 3.5], JP: [4, -2.5],
+  AU: [-10.5, 2], NZ: [-5.5, -0.5],
+};
+
 /** pctVsBaseline: negative = cheaper. */
 export function directionFor(pctVsBaseline, isBaseline = false) {
   if (isBaseline) return { dir: 'baseline', cls: 'wm-baseline' };

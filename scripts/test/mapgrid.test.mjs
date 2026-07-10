@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { WORLD, directionFor, mapRegions, DEEP_GAP_PCT } from '../../site/src/lib/mapgrid.mjs';
+import { WORLD, directionFor, mapRegions, DEEP_GAP_PCT, LABEL_OFFSETS } from '../../site/src/lib/mapgrid.mjs';
 import { STEAM_REGIONS } from '../lib/steam.mjs';
 import { ESHOP_REGIONS } from '../lib/eshop.mjs';
 
@@ -44,6 +44,16 @@ test('mapRegions computes pct vs US baseline and attaches geometry', () => {
   assert.ok(za.runs.length > 0 && za.centroid);
   assert.equal(regions.find((r) => r.cc === 'CH').dir, 'pricier');
   assert.equal(regions.find((r) => r.cc === 'US').dir, 'baseline');
+});
+
+test('every tracked region has a hand-tuned label offset inside the frame', () => {
+  for (const cc of Object.keys(WORLD.countries)) {
+    assert.ok(Array.isArray(LABEL_OFFSETS[cc]) && LABEL_OFFSETS[cc].length === 2, `missing label offset for ${cc}`);
+    const { x, y } = WORLD.centroids[cc];
+    const lx = x + LABEL_OFFSETS[cc][0];
+    const ly = y + LABEL_OFFSETS[cc][1];
+    assert.ok(lx > 2 && lx < WORLD.cols - 2 && ly > 1 && ly < WORLD.rows - 1, `label for ${cc} out of frame (${lx},${ly})`);
+  }
 });
 
 test('without a US row the cheapest region becomes baseline', () => {

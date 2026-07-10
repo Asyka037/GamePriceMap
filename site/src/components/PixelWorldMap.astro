@@ -1,127 +1,210 @@
 ---
-import { WORLD, mapRegions } from '../lib/mapgrid.mjs';
+import { WORLD, mapRegions, LABEL_OFFSETS } from '../lib/mapgrid.mjs';
 import { fmtUsd, fmtMoney } from '../lib/derive.mjs';
 
 interface Props {
   snapshot: any;             // §4.2 snapshot
   channel: 'steam' | 'eshop';
-  compact?: boolean;         // decorative, non-interactive variant
+  compact?: boolean;
 }
 const { snapshot, channel, compact = false } = Astro.props;
 const { baseline, regions } = mapRegions(snapshot?.regions);
 const base = regions.find((r) => r.cc === baseline);
-const cheapest = [...regions].sort((a, b) => a.usd - b.usd)[0];
+const nonBase = regions.filter((r) => r.cc !== baseline);
+const cheapest = [...nonBase].sort((a, b) => a.usd - b.usd)[0] ?? base;
 const summary = cheapest && base
-  ? `Pixel world map of regional prices. Baseline ${base.cc} at ${fmtUsd(base.usd)}; cheapest is ${cheapest.cc} at ${fmtUsd(cheapest.usd)} (${Math.abs(cheapest.pctVsBaseline)}% below). Full data in the table below.`
+  ? `Pixel world map of regional prices. Baseline ${base.cc} ${fmtUsd(base.usd)}; cheapest ${cheapest.cc} ${fmtUsd(cheapest.usd)} (${Math.abs(cheapest.pctVsBaseline)}% below). Full data in the table below.`
   : 'Pixel world map of regional prices.';
 
-const S = 10; // svg units per cell
+// viewBox: 10 units per cell; discrete 1:1 pixel blocks.
+const S = 10;
 const W = WORLD.cols * S;
 const H = WORLD.rows * S;
-const rect = (r: number, c: number, len: number) =>
-  ({ x: c * S + 0.6, y: r * S + 0.6, width: len * S - 1.2, height: S - 1.2 });
-const tip = (r: any) =>
-  r.cc === baseline
-    ? `${r.cc} · ${fmtMoney(r.local, r.currency)} — baseline`
-    : `${r.cc} · ${fmtMoney(r.local, r.currency)} ≈ ${fmtUsd(r.usd)} (${r.pctVsBaseline > 0 ? '+' : '−'}${Math.abs(r.pctVsBaseline)}% vs ${baseline})`;
+
+/** Expand RLE runs into a single path of discrete square blocks. */
+function blocksPath(runs: number[][], size: number) {
+  const inset = (S - size) / 2;
+  let d = '';
+  for (const [r, c, len] of runs) {
+    for (let i = 0; i < len; i++) {
+      d += `M${(c + i) * S + inset} ${r * S + inset}h${size}v${size}h${-size}z`;
+    }
+  }
+  return d;
+}
+
+const landPath = blocksPath(WORLD.land, 5);       // untracked land: sparse dotted feel
+const countryPath = (rg: any) => blocksPath(rg.runs, 8.6); // tracked: solid pixel blocks
+
+const pos = (rg: any) => ({ x: rg.centroid.x * S, y: rg.centroid.y * S });
+const labelPos = (rg: any) => {
+  const [dx, dy] = LABEL_OFFSETS[rg.cc] ?? [0, -2];
+  return { x: (rg.centroid.x + dx) * S, y: (rg.centroid.y + dy) * S, far: Math.hypot(dx, dy) > 2.2 };
+};
+const arc = (from: any, to: any) => {
+  const a = pos(from);
+  const b = pos(to);
+  const mx = (a.x + b.x) / 2;
+  const my = Math.min(a.y, b.y) - Math.max(24, Math.abs(a.x - b.x) * 0.18);
+  return `M${a.x} ${a.y} Q${mx} ${my} ${b.x} ${b.y}`;
+};
+const cardData = (rg: any) => JSON.stringify({
+  cc: rg.cc, local: fmtMoney(rg.local, rg.currency), usd: fmtUsd(rg.usd),
+  pct: rg.pctVsBaseline, base: baseline, dir: rg.dir,
+});
 ---
-<div class:list={['pixel-map-wrap', { compact }]}>
-  <svg
-    class="pixel-map-svg"
-    viewBox={`0 0 ${W} ${H}`}
-    role="group"
-    aria-label={summary}
-    data-baseline-x={base ? base.centroid.x * S : null}
-    data-baseline-y={base ? base.centroid.y * S : null}
-  >
-    {WORLD.land.map(([r, c, len]: number[]) => (
-      <rect class="wm-land" {...rect(r, c, len)} rx="1.4" />
-    ))}
+<div class:list={['pixel-map-wrap', { compact }]} data-channel={channel}>
+  <svg class="pixel-map-svg" viewBox={`0 0 ${W} ${H}`} role="group" aria-label={summary} preserveAspectRatio="xMidYMid meet">
+    <path class="wm-land" d={landPath} />
+
     {regions.map((rg) => (
       <g
         class:list={['wm-cc', rg.cls]}
         tabindex={compact ? undefined : 0}
         role={compact ? undefined : 'button'}
-        aria-label={compact ? undefined : tip(rg)}
-        data-tip={compact ? undefined : tip(rg)}
+        aria-label={compact ? undefined : `${rg.cc}: ${fmtMoney(rg.local, rg.currency)} ≈ ${fmtUsd(rg.usd)}${rg.cc !== baseline ? `, ${rg.pctVsBaseline > 0 ? rg.pctVsBaseline + '% above' : Math.abs(rg.pctVsBaseline) + '% below'} ${baseline}` : ' (baseline)'}`}
+        data-card={compact ? undefined : cardData(rg)}
         data-target={compact ? undefined : `region-${channel}-${rg.cc}`}
-        data-cx={rg.centroid.x * S}
-        data-cy={rg.centroid.y * S}
+        data-cx={pos(rg).x}
+        data-cy={pos(rg).y}
         data-dir={rg.dir}
       >
-        {rg.runs.map(([r, c, len]: number[]) => <rect {...rect(r, c, len)} rx="1.4" />)}
+        <path d={countryPath(rg)} />
       </g>
     ))}
-    {base && (
-      <text class="wm-base-label" x={base.centroid.x * S} y={base.centroid.y * S - 8} text-anchor="middle">{base.cc}</text>
+
+    {/* leader lines from dots to far labels */}
+    {!compact && regions.map((rg) => {
+      const lp = labelPos(rg);
+      return lp.far ? <line class="wm-leader" x1={pos(rg).x} y1={pos(rg).y} x2={lp.x} y2={lp.y} /> : null;
+    })}
+
+    {/* persistent arc: baseline -> cheapest, with pulse on the cheapest dot */}
+    {base && cheapest && cheapest.cc !== base.cc && (
+      <>
+        <path class="wm-best-arc" d={arc(base, cheapest)} />
+        <circle class="wm-pulse" cx={pos(cheapest).x} cy={pos(cheapest).y} r="9" />
+      </>
     )}
-    <line class="wm-compare-line" x1="0" y1="0" x2="0" y2="0" visibility="hidden" />
-    <circle class="wm-compare-dot" r="4" visibility="hidden" />
+
+    {/* hover arc (filled by script) */}
+    <path class="wm-hover-arc" d="" visibility="hidden" />
+
+    {/* country dots on top */}
+    {regions.map((rg) => (
+      <circle
+        class:list={['wm-dot', { 'wm-dot-base': rg.cc === baseline, 'wm-dot-best': rg.cc === cheapest?.cc }]}
+        cx={pos(rg).x} cy={pos(rg).y} r={rg.cc === baseline ? 5.5 : 4.5}
+      />
+    ))}
   </svg>
+
   {!compact && (
-    <div class="map-legend">
-      <span><i class="map-key wm-cheaper-2"></i>cheaper than {baseline}</span>
-      <span><i class="map-key wm-baseline"></i>{baseline} baseline</span>
-      <span><i class="map-key wm-pricier-2"></i>pricier than {baseline}</span>
-      <span style="color: var(--text-3);">deep shade = 30%+ gap · hover a country to compare</span>
-    </div>
+    <>
+      <div class="wm-labels" aria-hidden="true">
+        {regions.map((rg) => {
+          const lp = labelPos(rg);
+          return (
+            <span
+              class:list={['wm-label', rg.cls, { 'wm-label-base': rg.cc === baseline, 'wm-label-best': rg.cc === cheapest?.cc }]}
+              style={`left:${(lp.x / W) * 100}%; top:${(lp.y / H) * 100}%;`}
+              data-cc={rg.cc}
+            >
+              <b>{rg.cc}</b>
+              <i>{fmtUsd(rg.usd)}{rg.cc === baseline ? ' · base' : ` · ${rg.pctVsBaseline > 0 ? '+' : '−'}${Math.abs(rg.pctVsBaseline)}%`}</i>
+            </span>
+          );
+        })}
+      </div>
+
+      {base && cheapest && cheapest.cc !== base.cc && (
+        <div class="wm-summary">
+          <span class="wm-sum-chip best">CHEAPEST · {cheapest.cc} {fmtUsd(cheapest.usd)} ({Math.abs(cheapest.pctVsBaseline)}% off)</span>
+          <span class="wm-sum-chip">BASELINE · {base.cc} {fmtUsd(base.usd)}</span>
+        </div>
+      )}
+
+      <div class="map-legend">
+        <span><i class="map-key wm-cheaper-2"></i>cheaper than {baseline}</span>
+        <span><i class="map-key wm-baseline"></i>{baseline} baseline</span>
+        <span><i class="map-key wm-pricier-2"></i>pricier than {baseline}</span>
+        <span style="color: var(--text-3);">deep shade = 30%+ gap · hover for details · click to jump to the table</span>
+      </div>
+    </>
   )}
 </div>
 
 <script>
   if (!(window as any).__pixelMapInit) {
     (window as any).__pixelMapInit = true;
-    const tipEl = document.createElement('div');
-    tipEl.className = 'map-tooltip';
-    tipEl.hidden = true;
-    document.body.appendChild(tipEl);
+    const card = document.createElement('div');
+    card.className = 'wm-card';
+    card.hidden = true;
+    document.body.appendChild(card);
 
-    for (const svg of document.querySelectorAll<SVGSVGElement>('.pixel-map-svg')) {
-      const line = svg.querySelector<SVGLineElement>('.wm-compare-line');
-      const dot = svg.querySelector<SVGCircleElement>('.wm-compare-dot');
-      const bx = Number(svg.dataset.baselineX);
-      const by = Number(svg.dataset.baselineY);
+    for (const wrap of document.querySelectorAll<HTMLElement>('.pixel-map-wrap:not(.compact)')) {
+      const svg = wrap.querySelector<SVGSVGElement>('.pixel-map-svg')!;
+      const hoverArc = svg.querySelector<SVGPathElement>('.wm-hover-arc');
+      const groups = new Map<string, SVGGElement>();
+      for (const g of svg.querySelectorAll<SVGGElement>('.wm-cc[data-card]')) {
+        groups.set(JSON.parse(g.dataset.card!).cc, g);
+      }
+      const baseG = [...groups.values()].find((g) => g.dataset.dir === 'baseline');
 
-      const show = (g: SVGGElement) => {
-        tipEl.textContent = g.dataset.tip ?? '';
-        tipEl.hidden = false;
-        const r = g.getBoundingClientRect();
-        tipEl.style.left = `${Math.max(8, r.left + r.width / 2 + window.scrollX - tipEl.offsetWidth / 2)}px`;
-        tipEl.style.top = `${r.top + window.scrollY - tipEl.offsetHeight - 10}px`;
-        if (line && dot && Number.isFinite(bx) && g.dataset.dir !== 'baseline') {
-          line.setAttribute('x1', g.dataset.cx!);
-          line.setAttribute('y1', g.dataset.cy!);
-          line.setAttribute('x2', String(bx));
-          line.setAttribute('y2', String(by));
-          line.dataset.dir = g.dataset.dir;
-          line.removeAttribute('visibility');
-          dot.setAttribute('cx', String(bx));
-          dot.setAttribute('cy', String(by));
-          dot.removeAttribute('visibility');
+      const show = (g: SVGGElement, anchor: Element) => {
+        const d = JSON.parse(g.dataset.card!);
+        const sign = d.pct > 0 ? '+' : '−';
+        card.innerHTML =
+          `<b>${d.cc}</b><span>${d.local}</span>` +
+          `<em>USD equivalent</em><strong>${d.usd}</strong>` +
+          (d.dir === 'baseline'
+            ? `<u class="wm-card-base">baseline region</u>`
+            : `<u class="wm-card-${d.dir}">${sign}${Math.abs(d.pct)}% vs ${d.base}</u>`);
+        card.hidden = false;
+        const r = anchor.getBoundingClientRect();
+        card.style.left = `${Math.min(window.innerWidth - card.offsetWidth - 8, Math.max(8, r.left + r.width / 2 + window.scrollX - card.offsetWidth / 2))}px`;
+        card.style.top = `${r.top + window.scrollY - card.offsetHeight - 12}px`;
+        g.classList.add('wm-hot');
+        if (hoverArc && baseG && g !== baseG) {
+          const a = { x: +g.dataset.cx!, y: +g.dataset.cy! };
+          const b = { x: +baseG.dataset.cx!, y: +baseG.dataset.cy! };
+          const my = Math.min(a.y, b.y) - Math.max(24, Math.abs(a.x - b.x) * 0.18);
+          hoverArc.setAttribute('d', `M${a.x} ${a.y} Q${(a.x + b.x) / 2} ${my} ${b.x} ${b.y}`);
+          hoverArc.dataset.dir = g.dataset.dir;
+          hoverArc.removeAttribute('visibility');
         }
       };
       const hide = () => {
-        tipEl.hidden = true;
-        line?.setAttribute('visibility', 'hidden');
-        dot?.setAttribute('visibility', 'hidden');
+        card.hidden = true;
+        hoverArc?.setAttribute('visibility', 'hidden');
+        for (const g of groups.values()) g.classList.remove('wm-hot');
+      };
+      const jump = (g: SVGGElement) => {
+        const row = document.getElementById(g.dataset.target ?? '');
+        if (!row) return;
+        row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        row.classList.remove('row-flash');
+        void row.offsetWidth;
+        row.classList.add('row-flash');
       };
 
-      for (const g of svg.querySelectorAll<SVGGElement>('.wm-cc[data-tip]')) {
-        g.addEventListener('mouseenter', () => show(g));
-        g.addEventListener('focus', () => show(g));
+      for (const g of groups.values()) {
+        g.addEventListener('mouseenter', () => show(g, g));
+        g.addEventListener('focus', () => show(g, g));
         g.addEventListener('mouseleave', hide);
         g.addEventListener('blur', hide);
-        g.addEventListener('click', () => {
-          const row = document.getElementById(g.dataset.target ?? '');
-          if (!row) return;
-          row.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          row.classList.remove('row-flash');
-          void row.offsetWidth;
-          row.classList.add('row-flash');
-        });
+        g.addEventListener('click', () => jump(g));
         g.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); (g as any).click(); }
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); jump(g); }
         });
+      }
+      // persistent labels double as hover/click targets
+      for (const label of wrap.querySelectorAll<HTMLElement>('.wm-label')) {
+        const g = groups.get(label.dataset.cc!);
+        if (!g) continue;
+        label.addEventListener('mouseenter', () => show(g, label));
+        label.addEventListener('mouseleave', hide);
+        label.addEventListener('click', () => jump(g));
       }
     }
   }

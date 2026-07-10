@@ -256,7 +256,7 @@ data/
 
 ## 8. 区域定价可视化地图方案
 
-**已实施（2026-07-10 v2，响应用户反馈）：真实地理像素栅格图。** `scripts/build-worldgrid.mjs` 将 Natural Earth 派生 GeoJSON 栅格化为 80×40 网格（run-length 编码 ~252 个 SVG rect，含可辨认的大陆海岸线），产出 `site/src/lib/worldgrid.data.mjs`（一次性生成入库）。配色三向：基线（US）中性白、比基线便宜绿系、比基线贵红系，深浅两档表 30% 分界；hover/聚焦画基线对比虚线（方向色）+ 提示条；质心取最大连通块（避免阿拉斯加拉偏 US 锚点）。原坐标表方案已废弃。
+**已实施（2026-07-10 v2，响应用户反馈）：真实地理像素栅格图。** `scripts/build-worldgrid.mjs` 将 Natural Earth 派生 GeoJSON 栅格化为 80×40 网格（run-length 编码 ~252 个 SVG rect，含可辨认的大陆海岸线），产出 `site/src/lib/worldgrid.data.mjs`（一次性生成入库）。配色三向：基线（US）中性白、比基线便宜绿系、比基线贵红系，深浅两档表 30% 分界；hover/聚焦画基线对比弧线（方向色）+ 深色悬浮卡；**v3（2026-07-10）**：常驻价格标签层（HTML，手工偏移表 LABEL_OFFSETS 防重叠，几何断言验证零重叠）、最便宜区常驻绿色弧线 + 脉冲动画、图内摘要条（CHEAPEST/BASELINE）、全宽 1:1 离散像素块（RLE 仅作存储，渲染逐格展开）。质心取最大连通块（避免阿拉斯加拉偏 US 锚点）。原坐标表方案已废弃。
 
 规格（`site/src/components/PixelWorldMap.astro`）：
 - **输入**：`regions: {cc, name, usd, pctVsUs}[]`、`mode: 'full' | 'compact'`。组件不感知平台（Steam/eShop 通用）。
