@@ -12,3 +12,5 @@
 
 ## 2026-07-09
 - Twitch 官方 OAuth 文档仍用 `http://localhost:3000` 举例，但当前开发者控制台注册表单会提示“重定向 URL 必须使用 HTTPS”；操作指引应以实时控制台校验为准，并说明文档滞后。DealDex 访问 IGDB 使用 Client Credentials，不发送 `redirect_uri`，因此可在注册表单填 `https://localhost` 作为未使用的占位地址；只有未来真正做用户 OAuth 登录时，才需要换成可访问且精确匹配的 HTTPS 回调。
+- 构建期读文件不要用 fs + import.meta.url 相对路径：Astro/Vite 打包后模块位置改变，运行时才 ENOENT。构建期静态数据的通用形态是 ESM 数据模块（export default {...}），Node 测试与打包器都天然支持。
+- 地理质心要取最大连通块而非全体格子：阿拉斯加把 US 全格质心拉到加拿大边界，视觉锚点类特征永远考虑离岛/飞地。

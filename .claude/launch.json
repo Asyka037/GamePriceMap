@@ -4,7 +4,17 @@
     {
       "name": "demo",
       "runtimeExecutable": "node",
-      "runtimeArgs": [".claude/serve.mjs"],
+      "runtimeArgs": [
+        ".claude/serve.mjs"
+      ],
+      "port": 4173
+    },
+    {
+      "name": "site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        ".claude/serve-site.mjs"
+      ],
       "port": 4173
     }
   ]

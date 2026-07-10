@@ -1,6 +1,6 @@
 ---
-import { CONTINENT_BLOBS, GRID, mapRegions } from '../lib/mapgrid.mjs';
-import { usRow, fmtUsd, fmtMoney } from '../lib/derive.mjs';
+import { WORLD, mapRegions } from '../lib/mapgrid.mjs';
+import { fmtUsd, fmtMoney } from '../lib/derive.mjs';
 
 interface Props {
   snapshot: any;             // §4.2 snapshot
@@ -8,84 +8,121 @@ interface Props {
   compact?: boolean;         // decorative, non-interactive variant
 }
 const { snapshot, channel, compact = false } = Astro.props;
-const us = usRow(snapshot);
-const regions = mapRegions(snapshot?.regions, us?.usd ?? 0);
+const { baseline, regions } = mapRegions(snapshot?.regions);
+const base = regions.find((r) => r.cc === baseline);
 const cheapest = [...regions].sort((a, b) => a.usd - b.usd)[0];
-const summary = cheapest
-  ? `Regional price map: cheapest tracked region is ${cheapest.name} at ${fmtUsd(cheapest.usd)}${us ? `, ${Math.abs(cheapest.pctVsUs ?? 0)}% below the US price` : ''}. Full data in the table below.`
-  : 'Regional price map.';
-const legend = [
-  { cls: 'tile-cheapest', label: '30%+ cheaper' },
-  { cls: 'tile-cheaper', label: '10–30% cheaper' },
-  { cls: 'tile-par', label: 'around US' },
-  { cls: 'tile-pricier', label: '10–30% pricier' },
-  { cls: 'tile-priciest', label: '30%+ pricier' },
-];
+const summary = cheapest && base
+  ? `Pixel world map of regional prices. Baseline ${base.cc} at ${fmtUsd(base.usd)}; cheapest is ${cheapest.cc} at ${fmtUsd(cheapest.usd)} (${Math.abs(cheapest.pctVsBaseline)}% below). Full data in the table below.`
+  : 'Pixel world map of regional prices.';
+
+const S = 10; // svg units per cell
+const W = WORLD.cols * S;
+const H = WORLD.rows * S;
+const rect = (r: number, c: number, len: number) =>
+  ({ x: c * S + 0.6, y: r * S + 0.6, width: len * S - 1.2, height: S - 1.2 });
+const tip = (r: any) =>
+  r.cc === baseline
+    ? `${r.cc} · ${fmtMoney(r.local, r.currency)} — baseline`
+    : `${r.cc} · ${fmtMoney(r.local, r.currency)} ≈ ${fmtUsd(r.usd)} (${r.pctVsBaseline > 0 ? '+' : '−'}${Math.abs(r.pctVsBaseline)}% vs ${baseline})`;
 ---
 <div class:list={['pixel-map-wrap', { compact }]}>
-  <div
-    class="pixel-map"
+  <svg
+    class="pixel-map-svg"
+    viewBox={`0 0 ${W} ${H}`}
     role="group"
     aria-label={summary}
-    style={`grid-template-columns: repeat(${GRID.cols}, 1fr); grid-template-rows: repeat(${GRID.rows}, 1fr);`}
+    data-baseline-x={base ? base.centroid.x * S : null}
+    data-baseline-y={base ? base.centroid.y * S : null}
   >
-    {CONTINENT_BLOBS.map((b) => (
-      <span class="map-blob" aria-hidden="true" style={`grid-column: ${b.col} / span ${b.w}; grid-row: ${b.row} / span ${b.h};`}></span>
+    {WORLD.land.map(([r, c, len]: number[]) => (
+      <rect class="wm-land" {...rect(r, c, len)} rx="1.4" />
     ))}
-    {regions.map((r) => compact ? (
-      <span
-        class:list={['map-tile', r.tier.cls]}
-        aria-hidden="true"
-        style={`grid-column: ${r.tile.col} / span ${r.tile.w}; grid-row: ${r.tile.row} / span ${r.tile.h};`}
-      >{r.tile.w > 1 ? r.cc : ''}</span>
-    ) : (
-      <button
-        class:list={['map-tile', r.tier.cls]}
-        style={`grid-column: ${r.tile.col} / span ${r.tile.w}; grid-row: ${r.tile.row} / span ${r.tile.h};`}
-        aria-label={`${r.name}: ${fmtMoney(r.local, r.currency)} ≈ ${fmtUsd(r.usd)}${r.pctVsUs != null && r.cc !== 'US' ? `, ${r.pctVsUs <= 0 ? Math.abs(r.pctVsUs) + '% below' : r.pctVsUs + '% above'} US` : ''}`}
-        data-target={`region-${channel}-${r.cc}`}
-        data-tip={`${r.name} · ${fmtMoney(r.local, r.currency)} ≈ ${fmtUsd(r.usd)}${r.pctVsUs != null && r.cc !== 'US' ? ` (${r.pctVsUs > 0 ? '+' : ''}${r.pctVsUs}% vs US)` : ''}`}
-      >{r.cc}</button>
+    {regions.map((rg) => (
+      <g
+        class:list={['wm-cc', rg.cls]}
+        tabindex={compact ? undefined : 0}
+        role={compact ? undefined : 'button'}
+        aria-label={compact ? undefined : tip(rg)}
+        data-tip={compact ? undefined : tip(rg)}
+        data-target={compact ? undefined : `region-${channel}-${rg.cc}`}
+        data-cx={rg.centroid.x * S}
+        data-cy={rg.centroid.y * S}
+        data-dir={rg.dir}
+      >
+        {rg.runs.map(([r, c, len]: number[]) => <rect {...rect(r, c, len)} rx="1.4" />)}
+      </g>
     ))}
-  </div>
+    {base && (
+      <text class="wm-base-label" x={base.centroid.x * S} y={base.centroid.y * S - 8} text-anchor="middle">{base.cc}</text>
+    )}
+    <line class="wm-compare-line" x1="0" y1="0" x2="0" y2="0" visibility="hidden" />
+    <circle class="wm-compare-dot" r="4" visibility="hidden" />
+  </svg>
   {!compact && (
     <div class="map-legend">
-      {legend.map((l) => <span><i class:list={['map-key', l.cls]}></i>{l.label}</span>)}
+      <span><i class="map-key wm-cheaper-2"></i>cheaper than {baseline}</span>
+      <span><i class="map-key wm-baseline"></i>{baseline} baseline</span>
+      <span><i class="map-key wm-pricier-2"></i>pricier than {baseline}</span>
+      <span style="color: var(--text-3);">deep shade = 30%+ gap · hover a country to compare</span>
     </div>
   )}
 </div>
 
 <script>
-  // Tooltip + click-to-scroll (one listener set per page).
   if (!(window as any).__pixelMapInit) {
     (window as any).__pixelMapInit = true;
-    const tip = document.createElement('div');
-    tip.className = 'map-tooltip';
-    tip.hidden = true;
-    document.body.appendChild(tip);
+    const tipEl = document.createElement('div');
+    tipEl.className = 'map-tooltip';
+    tipEl.hidden = true;
+    document.body.appendChild(tipEl);
 
-    const show = (el: HTMLElement) => {
-      tip.textContent = el.dataset.tip ?? '';
-      tip.hidden = false;
-      const r = el.getBoundingClientRect();
-      tip.style.left = `${Math.max(8, r.left + r.width / 2 + window.scrollX - tip.offsetWidth / 2)}px`;
-      tip.style.top = `${r.top + window.scrollY - tip.offsetHeight - 10}px`;
-    };
-    const hide = () => { tip.hidden = true; };
+    for (const svg of document.querySelectorAll<SVGSVGElement>('.pixel-map-svg')) {
+      const line = svg.querySelector<SVGLineElement>('.wm-compare-line');
+      const dot = svg.querySelector<SVGCircleElement>('.wm-compare-dot');
+      const bx = Number(svg.dataset.baselineX);
+      const by = Number(svg.dataset.baselineY);
 
-    for (const el of document.querySelectorAll<HTMLElement>('.map-tile[data-tip]')) {
-      el.addEventListener('mouseenter', () => show(el));
-      el.addEventListener('focus', () => show(el));
-      el.addEventListener('mouseleave', hide);
-      el.addEventListener('blur', hide);
-      el.addEventListener('click', () => {
-        const row = document.getElementById(el.dataset.target ?? '');
-        if (!row) return;
-        row.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        row.classList.remove('row-flash');
-        void row.offsetWidth;
-        row.classList.add('row-flash');
-      });
+      const show = (g: SVGGElement) => {
+        tipEl.textContent = g.dataset.tip ?? '';
+        tipEl.hidden = false;
+        const r = g.getBoundingClientRect();
+        tipEl.style.left = `${Math.max(8, r.left + r.width / 2 + window.scrollX - tipEl.offsetWidth / 2)}px`;
+        tipEl.style.top = `${r.top + window.scrollY - tipEl.offsetHeight - 10}px`;
+        if (line && dot && Number.isFinite(bx) && g.dataset.dir !== 'baseline') {
+          line.setAttribute('x1', g.dataset.cx!);
+          line.setAttribute('y1', g.dataset.cy!);
+          line.setAttribute('x2', String(bx));
+          line.setAttribute('y2', String(by));
+          line.dataset.dir = g.dataset.dir;
+          line.removeAttribute('visibility');
+          dot.setAttribute('cx', String(bx));
+          dot.setAttribute('cy', String(by));
+          dot.removeAttribute('visibility');
+        }
+      };
+      const hide = () => {
+        tipEl.hidden = true;
+        line?.setAttribute('visibility', 'hidden');
+        dot?.setAttribute('visibility', 'hidden');
+      };
+
+      for (const g of svg.querySelectorAll<SVGGElement>('.wm-cc[data-tip]')) {
+        g.addEventListener('mouseenter', () => show(g));
+        g.addEventListener('focus', () => show(g));
+        g.addEventListener('mouseleave', hide);
+        g.addEventListener('blur', hide);
+        g.addEventListener('click', () => {
+          const row = document.getElementById(g.dataset.target ?? '');
+          if (!row) return;
+          row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          row.classList.remove('row-flash');
+          void row.offsetWidth;
+          row.classList.add('row-flash');
+        });
+        g.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); (g as any).click(); }
+        });
+      }
     }
   }
 </script>

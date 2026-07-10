@@ -256,7 +256,7 @@ data/
 
 ## 8. 区域定价可视化地图方案
 
-**V1 选型：像素方块世界地图（Pixel Tile Map）**，理由：与设计规范同语言（像素美学）、零地理数据依赖、只需维护 ~20–40 个被追踪区域的坐标表（参考项目 ClaudeHeatmap 已验证此路线可行）、体积 ≈ 3 KB 内联 SVG、SSG 友好无运行时库。
+**已实施（2026-07-10 v2，响应用户反馈）：真实地理像素栅格图。** `scripts/build-worldgrid.mjs` 将 Natural Earth 派生 GeoJSON 栅格化为 80×40 网格（run-length 编码 ~252 个 SVG rect，含可辨认的大陆海岸线），产出 `site/src/lib/worldgrid.data.mjs`（一次性生成入库）。配色三向：基线（US）中性白、比基线便宜绿系、比基线贵红系，深浅两档表 30% 分界；hover/聚焦画基线对比虚线（方向色）+ 提示条；质心取最大连通块（避免阿拉斯加拉偏 US 锚点）。原坐标表方案已废弃。
 
 规格（`site/src/components/PixelWorldMap.astro`）：
 - **输入**：`regions: {cc, name, usd, pctVsUs}[]`、`mode: 'full' | 'compact'`。组件不感知平台（Steam/eShop 通用）。
