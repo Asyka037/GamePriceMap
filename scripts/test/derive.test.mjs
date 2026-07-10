@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  bestPriceNow, overallAtl, buyWaitVerdict, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney,
+  bestPriceNow, overallAtl, atlFor, isLive, buyWaitVerdict, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney,
 } from '../../site/src/lib/derive.mjs';
 
 const bundle = (over = {}) => ({
@@ -61,4 +61,34 @@ test('fmtMoney uses symbols and falls back to code suffix', () => {
   assert.equal(fmtMoney(16.75, 'GBP'), '£16.75');
   assert.equal(fmtMoney(2300, 'JPY'), '¥2300');
   assert.equal(fmtMoney(179.99, 'ARS'), '179.99 ARS');
+});
+
+test('isLive: missing endsAt is live, past is dead, future is live', () => {
+  assert.equal(isLive(null), true);
+  assert.equal(isLive(undefined), true);
+  assert.equal(isLive('2020-01-01T00:00:00Z'), false);
+  assert.equal(isLive('2099-01-01T00:00:00Z'), true);
+  assert.equal(isLive('garbage'), true, 'unparseable dates fail open');
+});
+
+test('atlFor never crosses channels (Celeste case)', () => {
+  const history = { atl: { pc: { usd: 1.99, seed: 'cheapshark' }, 'eshop-us': { usd: 19.99, seed: 'self' } } };
+  assert.equal(atlFor(history, 'steam').usd, 1.99);
+  assert.equal(atlFor(history, 'eshop').usd, 19.99);
+  assert.equal(atlFor(null, 'steam'), null);
+});
+
+test('trackedDeals drops expired sales and uses channel ATL for the badge', () => {
+  const b = bundle({
+    eshop: { regions: [{ cc: 'US', usd: 9.99, discountPct: 50, listUsd: 19.99, saleEndsAt: '2020-01-01T00:00:00Z' }] },
+    history: { atl: { pc: { usd: 1.99, seed: 'cheapshark' }, 'eshop-us': { usd: 9.99, seed: 'self' } }, events: [] },
+  });
+  assert.equal(trackedDeals([b], 'eshop').length, 0, 'expired eshop sale excluded');
+  const live = bundle({
+    eshop: { regions: [{ cc: 'US', usd: 9.99, discountPct: 50, listUsd: 19.99, saleEndsAt: '2099-01-01T00:00:00Z' }] },
+    history: { atl: { pc: { usd: 1.99, seed: 'cheapshark' }, 'eshop-us': { usd: 9.99, seed: 'self' } }, events: [] },
+  });
+  const rows = trackedDeals([live], 'eshop');
+  assert.equal(rows.length, 1);
+  assert.equal(rows[0].isAtl, true, 'ATL badge judged against eshop-us, not the $1.99 PC record');
 });

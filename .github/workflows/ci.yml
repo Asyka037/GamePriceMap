@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['data/**']   # 数据机器人提交由 daily/weekly 内部校验，不重复跑
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Unit tests
+        run: npm test
+      - name: Data gate
+        run: npm run validate
+      - name: Site build
+        run: cd site && npm ci --no-audit --no-fund && npm run build

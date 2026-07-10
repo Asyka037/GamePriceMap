@@ -87,7 +87,9 @@ if (entries.length === 0) {
   process.exit(1);
 }
 
-const months = mergeCalendarEntries(entries);
+const nowMonth = new Date().toISOString().slice(0, 7);
+const futureEntries = entries.filter((e) => e.month == null || e.month >= nowMonth);
+const months = mergeCalendarEntries(futureEntries);
 fs.writeFileSync(OUT, JSON.stringify({ updatedAt: new Date().toISOString(), months }, null, 2) + '\n');
 const total = Object.values(months).reduce((n, l) => n + l.length, 0);
 console.log(`calendar.json: ${Object.keys(months).length} months, ${total} entries`);

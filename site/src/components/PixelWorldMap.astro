@@ -111,7 +111,7 @@ const cardData = (rg: any) => JSON.stringify({
               data-cc={rg.cc}
             >
               <b>{rg.cc}</b>
-              <i>{fmtUsd(rg.usd)}{rg.cc === baseline ? ' · base' : ` · ${rg.pctVsBaseline > 0 ? '+' : '−'}${Math.abs(rg.pctVsBaseline)}%`}</i>
+              <i>{fmtUsd(rg.usd)}{rg.cc === baseline ? ' · base' : ` · ${rg.pctVsBaseline === 0 ? '±' : rg.pctVsBaseline > 0 ? '+' : '−'}${Math.abs(rg.pctVsBaseline)}%`}</i>
             </span>
           );
         })}
@@ -153,7 +153,7 @@ const cardData = (rg: any) => JSON.stringify({
 
       const show = (g: SVGGElement, anchor: Element) => {
         const d = JSON.parse(g.dataset.card!);
-        const sign = d.pct > 0 ? '+' : '−';
+        const sign = d.pct === 0 ? '±' : d.pct > 0 ? '+' : '−';
         card.innerHTML =
           `<b>${d.cc}</b><span>${d.local}</span>` +
           `<em>USD equivalent</em><strong>${d.usd}</strong>` +

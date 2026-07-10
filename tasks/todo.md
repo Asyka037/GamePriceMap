@@ -138,6 +138,12 @@
 - 关键发现：趋势图不依赖新数据源（事件化历史天然是阶梯图数据）；千级规模最大隐患是快照 updatedAt 导致每日全量 git diff——"内容不变不写盘"修复列为最高优先。
 - 实施切分 Phase A–E 已写入研究文档，待用户决策后交 CodeX。
 
+### 2026-07-11 CodeX Review 裁定与修复（Claude，逐条验证后）
+**全部 6 项 P1 成立**（验证证据）：free-games 结构性无过期过滤（当日数据恰巧干净但日历首月=过去的 2026-06 实锤）；validate 删除 celeste 快照后照样通过（复现 exit=0）；Celeste eShop 行显示 PC $1.99 史低（数据+代码证实）；日文标题归一化后为空串且互相相等（node 实测）；hero 搜索结果渲染进 display:none 容器；npm audit 报 astro HIGH（GHSA-j687-52p2-xcff define:vars XSS）。次级项中 wm-par 产物 58 处而 CSS 零规则（黑块实锤）、$schema 指向不存在文件、无 PR CI 均成立。
+**修复清单**：① isLive 集中过期过滤（trackedDeals/free 页/首页/日历月地板 + scrape-calendar 源头丢过去月）；② validate 新增 catalog 推导必需快照存在性 + NSUID 格式/全局唯一断言，scrape-feeds free 流失败源条目从旧文件继承；③ ATL 全面渠道化（atlFor：价格表每行/deals 徽章/history 页标签 'PC (any store, US)'）；④ match.mjs Unicode 归一化（\p{L}\p{N}）+ 空串不匹配 + discover --apply 只写 suggestions/nsuid-candidates.json（catalog 人审治理恢复）；⑤ 搜索重构为可复用 attach（hero 自有结果框、异步竞态修复、Esc 关闭）；⑥ XSS 攻击面消除（define:vars 移除改转义 JSON 数据脚本、JSON-LD 转义 <、innerHTML 改 textContent 构建）——astro 5→7 大版本升级风险高，列为独立后续任务；⑦ wm-par 配色（--surface）+ ±0% 文案 + par 方向 hover 弧线；⑧ ci.yml（push/PR：test+validate+build）；⑨ skip-link + <main>；⑩ $schema 移除、README 首行指 HANDOFF、HANDOFF 三条约定表述修正。
+**验证**：51/51 单测（新增 isLive/atlFor/match/par 共 6 项）；validate 删快照现在正确 fail；139 页构建；产物断言全绿（JSON-LD 无裸 <、Celeste eShop ATL $19.99、日历默认 2026-07）。
+**后续任务（未在本批）**：astro 7.x 大版本升级（需回归测试）；/status 每游戏粒度陈旧检测；移动端汉堡菜单（既有遗留 #3）。
+
 ## 需要用户操作的事项
 - [ ] 注册 ITAD 免费 API key（isthereanydeal.com/apps/）→ 存入仓库 Secrets 为 ITAD_KEY（数据方案 V2 的 Phase B 依赖）
 - [ ] 每周审核 suggestions/catalog-candidates.json 决定新游戏入库

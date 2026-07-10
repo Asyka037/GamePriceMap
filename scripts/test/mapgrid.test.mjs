@@ -29,6 +29,7 @@ test('three directions only: baseline neutral, cheaper green, pricier red', () =
   assert.equal(directionFor(12).cls, 'wm-pricier-1');
   assert.equal(directionFor(DEEP_GAP_PCT).cls, 'wm-pricier-2');
   assert.equal(directionFor(null).dir, 'nodata');
+  assert.deepEqual(directionFor(0), { dir: 'par', cls: 'wm-par' }, 'non-baseline at parity is its own direction, never black');
 });
 
 test('mapRegions computes pct vs US baseline and attaches geometry', () => {

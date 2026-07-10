@@ -61,40 +61,57 @@ const { active = null, dock = false } = Astro.props;
 <script>
   import MiniSearch from 'minisearch';
 
-  const input = document.getElementById('siteSearch') as HTMLInputElement | null;
-  const resultsEl = document.getElementById('searchResults');
   let mini: MiniSearch | null = null;
+  let loading: Promise<MiniSearch> | null = null;
 
-  async function ensureIndex() {
-    if (mini || !input) return;
-    const res = await fetch('/search-index.json');
-    const docs = await res.json();
-    mini = new MiniSearch({ fields: ['title'], storeFields: ['title', 'slug'], searchOptions: { prefix: true, fuzzy: 0.2 } });
-    mini.addAll(docs);
+  function ensureIndex(): Promise<MiniSearch> {
+    if (mini) return Promise.resolve(mini);
+    loading ??= fetch('/search-index.json')
+      .then((res) => res.json())
+      .then((docs) => {
+        mini = new MiniSearch({ fields: ['title'], storeFields: ['title', 'slug'], searchOptions: { prefix: true, fuzzy: 0.2 } });
+        mini.addAll(docs);
+        return mini;
+      });
+    return loading;
   }
 
-  function render(hits: Array<{ slug: string; title: string }>) {
-    if (!resultsEl) return;
-    if (hits.length === 0) { resultsEl.hidden = true; resultsEl.innerHTML = ''; return; }
-    resultsEl.innerHTML = hits.slice(0, 8)
-      .map((h) => `<a href="/game/${h.slug}">${h.title}</a>`)
-      .join('');
-    resultsEl.hidden = false;
+  /** Reusable search wiring: input + its own visible results dropdown. */
+  function attach(input: HTMLInputElement | null, resultsEl: HTMLElement | null) {
+    if (!input || !resultsEl) return;
+    const render = (hits: Array<{ slug: string; title: string }>) => {
+      if (hits.length === 0) { resultsEl.hidden = true; resultsEl.innerHTML = ''; return; }
+      resultsEl.innerHTML = hits.slice(0, 8).map((h) => {
+        const a = document.createElement('a');
+        a.href = `/game/${h.slug}`;
+        a.textContent = h.title;
+        return a.outerHTML;
+      }).join('');
+      resultsEl.hidden = false;
+    };
+    input.addEventListener('focus', () => { ensureIndex(); }, { once: true });
+    input.addEventListener('input', async () => {
+      const q = input.value.trim();
+      if (!q) { render([]); return; }
+      const m = await ensureIndex();
+      if (input.value.trim() !== q) return; // 输入已变化，丢弃过期结果
+      render(m.search(q) as never[]);
+    });
+    document.addEventListener('click', (e) => {
+      if (!resultsEl.contains(e.target as Node) && e.target !== input) render([]);
+    });
+    input.addEventListener('keydown', (e) => { if (e.key === 'Escape') render([]); });
   }
 
-  input?.addEventListener('focus', ensureIndex, { once: true });
-  input?.addEventListener('input', () => {
-    const q = input.value.trim();
-    if (!q || !mini) { render([]); return; }
-    render(mini.search(q) as never[]);
-  });
-  document.addEventListener('click', (e) => {
-    if (resultsEl && !resultsEl.contains(e.target as Node) && e.target !== input) render([]);
-  });
+  attach(document.getElementById('siteSearch') as HTMLInputElement, document.getElementById('searchResults'));
+  attach(document.getElementById('heroSearch') as HTMLInputElement, document.getElementById('heroSearchResults'));
+
   document.addEventListener('keydown', (e) => {
-    if (e.key === '/' && document.activeElement !== input && !(document.activeElement instanceof HTMLInputElement)) {
+    if (e.key === '/' && !(document.activeElement instanceof HTMLInputElement)) {
       e.preventDefault();
-      input?.focus();
+      const hero = document.getElementById('heroSearch') as HTMLInputElement | null;
+      const site = document.getElementById('siteSearch') as HTMLInputElement | null;
+      (hero && hero.offsetParent !== null ? hero : site)?.focus();
     }
   });
 

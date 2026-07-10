@@ -13,7 +13,7 @@ export function getStaticPaths() {
 const { slug } = Astro.params;
 const bundle = gameBundle(slug!);
 const { game } = bundle;
-const atlLabels: Record<string, string> = { pc: 'PC (Steam US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)' };
+const atlLabels: Record<string, string> = { pc: 'PC (any store, US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)' };
 const seedLabels: Record<string, string> = {
   self: 'observed by our tracker',
   cheapshark: 'all-time record via CheapShark',

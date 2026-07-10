@@ -55,6 +55,25 @@ for (const g of catalog.games) {
   appIds.add(g.steamAppId);
 }
 
+// --- required artifacts derived from catalog (a deleted snapshot must FAIL) ---
+const seenNsuids = new Map();
+for (const g of catalog.games) {
+  if (Number.isInteger(g.steamAppId) && !fs.existsSync(path.join(ROOT, `data/snapshots/steam/${g.slug}.json`))) {
+    fail(`missing required snapshot data/snapshots/steam/${g.slug}.json (game has steamAppId)`);
+  }
+  const hasNsuid = g.nsuids && (g.nsuids.americas || g.nsuids.europe || g.nsuids.japan);
+  if (hasNsuid && !fs.existsSync(path.join(ROOT, `data/snapshots/eshop/${g.slug}.json`))) {
+    fail(`missing required snapshot data/snapshots/eshop/${g.slug}.json (game has nsuids)`);
+  }
+  for (const [group, nsuid] of Object.entries(g.nsuids ?? {})) {
+    if (nsuid === null) continue;
+    if (!/^70\d{12}$/.test(String(nsuid))) fail(`catalog ${g.slug}: malformed ${group} nsuid ${nsuid}`);
+    const key = `${group}:${nsuid}`;
+    if (seenNsuids.has(key)) fail(`catalog: nsuid ${nsuid} (${group}) shared by ${seenNsuids.get(key)} and ${g.slug}`);
+    seenNsuids.set(key, g.slug);
+  }
+}
+
 // --- snapshots ---
 function validateSnapshotDir(dir) {
   const abs = path.join(ROOT, dir);

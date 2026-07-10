@@ -13,15 +13,17 @@
  * Usage:
  *   node scripts/discover-nsuid.mjs                  # all switch games missing nsuids (dry run)
  *   node scripts/discover-nsuid.mjs slug ...         # only these slugs (dry run)
- *   node scripts/discover-nsuid.mjs --apply [slug..] # write high-confidence results
+ *   node scripts/discover-nsuid.mjs --apply [slug..] # write candidates to data/suggestions/ (never touches catalog)
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchJson, sleep } from './lib/http.mjs';
+import { normTitle as norm, titleMatches } from './lib/match.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CATALOG_PATH = path.join(ROOT, 'data', 'catalog.json');
+const SUGGEST_PATH = path.join(ROOT, 'data', 'suggestions', 'nsuid-candidates.json');
 const SEEDS_PATH = path.join(ROOT, 'data', 'seeds', 'eshop-eu-lows.json');
 const BROWSER_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
 
@@ -34,23 +36,7 @@ const targets = catalog.games.filter((g) =>
   (onlySlugs.length ? onlySlugs.includes(g.slug)
     : (g.platforms.some((p) => p.startsWith('switch')) && !g.nsuids)));
 
-const norm = (s) => s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '');
 const isBaseGame = (nsuid, title) => String(nsuid).startsWith('7001') && !/switch\s*2\s*edition/i.test(title ?? '');
-
-/**
- * Matching policy (tightened after the first dry run mis-matched
- * "Hollow Knight" -> Silksong and "Hades" -> HADES II):
- * exact normalized title equality — optionally after stripping a trailing
- * edition/trademark suffix — is required. "Contains"/"startsWith" are
- * NOT matches: franchise names are prefixes of their sequels.
- */
-function titleMatches(candidate, wanted) {
-  const c = norm(candidate);
-  const w = norm(wanted);
-  if (c === w) return true;
-  // tolerate suffixes like "... for Nintendo Switch" on an otherwise exact title
-  return c.startsWith(w) && /^(fornintendoswitch|nintendoswitchedition)$/.test(c.slice(w.length));
-}
 
 async function discoverEurope(title) {
   const url = `https://searching.nintendo-europe.com/en/select?q=${encodeURIComponent(title)}&fq=type%3AGAME&rows=8&wt=json`;
@@ -119,7 +105,7 @@ for (const g of targets) {
 }
 
 if (!apply) {
-  console.log('\nDry run. Re-run with --apply to write high-confidence results to catalog.');
+  console.log('\nDry run. Re-run with --apply to write candidates to data/suggestions/ (catalog stays human-reviewed).');
   process.exit(0);
 }
 
@@ -138,23 +124,31 @@ for (const group of ['eu', 'jp', 'us']) {
   }
 }
 
+// Governance (plan §4.1): this script NEVER writes catalog.json. --apply emits
+// a candidates file for human review; seeds are written only for slugs whose
+// europe nsuid the human later merges (kept alongside for convenience).
 const seeds = fs.existsSync(SEEDS_PATH) ? JSON.parse(fs.readFileSync(SEEDS_PATH, 'utf8')) : {};
-let applied = 0;
+const candidates = [];
 for (const r of results) {
-  const game = catalog.games.find((g) => g.slug === r.slug);
-  // EU/JP: exact-title 'high' only. US: 'medium' allowed — it is title-verified
-  // and only ambiguous between base and Switch 2 Edition (older NSUID wins).
   const nsuids = {
     americas: r.us && ['high', 'medium'].includes(r.us.confidence) ? r.us.nsuid : null,
     europe: r.eu?.confidence === 'high' ? r.eu.nsuid : null,
     japan: r.jp?.confidence === 'high' ? r.jp.nsuid : null,
   };
   if (!nsuids.americas && !nsuids.europe && !nsuids.japan) continue;
-  game.nsuids = nsuids;
-  applied++;
+  candidates.push({
+    slug: r.slug,
+    nsuids,
+    evidence: {
+      eu: r.eu && { matched: r.eu.matchedTitle, confidence: r.eu.confidence },
+      jp: r.jp && { matched: r.jp.matchedTitle, confidence: r.jp.confidence },
+      us: r.us && { matched: r.us.matchedTitle, confidence: r.us.confidence },
+    },
+  });
   if (r.eu?.lowestGbp > 0 && nsuids.europe) seeds[r.slug] = { amount: r.eu.lowestGbp, currency: 'GBP' };
 }
-fs.writeFileSync(CATALOG_PATH, JSON.stringify(catalog, null, 2).replace(/^(\s*)"games": \[/m, '$1"games": [') + '\n');
+fs.mkdirSync(path.dirname(SUGGEST_PATH), { recursive: true });
+fs.writeFileSync(SUGGEST_PATH, JSON.stringify({ updatedAt: new Date().toISOString(), note: 'Human review required — merge nsuids into catalog.json manually.', candidates }, null, 2) + '\n');
 fs.mkdirSync(path.dirname(SEEDS_PATH), { recursive: true });
 fs.writeFileSync(SEEDS_PATH, JSON.stringify(seeds, null, 2) + '\n');
-console.log(`\nApplied nsuids for ${applied} game(s); EU GBP lows seeded for ${Object.keys(seeds).length}.`);
+console.log(`\n${candidates.length} candidate(s) written to data/suggestions/nsuid-candidates.json — merge into catalog manually.`);

@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import SectionHead from '../components/SectionHead.astro';
 import { catalog, gameBundle, feed, calendar } from '../lib/data.mjs';
-import { regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, bestPriceNow, usRow, overallAtl, fmtUsd } from '../lib/derive.mjs';
+import { regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, bestPriceNow, usRow, overallAtl, isLive, fmtUsd } from '../lib/derive.mjs';
 
 const bundles = catalog().map((g: any) => gameBundle(g.slug));
 
@@ -38,10 +38,12 @@ const endingSoon = [...trackedDeals(bundles, 'steam'), ...trackedDeals(bundles, 
   .filter((d) => d.saleEndsAt)
   .sort((a, b) => a.saleEndsAt!.localeCompare(b.saleEndsAt!))
   .slice(0, 4);
-const freeNow = feed('free-games').items.filter((i: any) => i.status === 'free-now').slice(0, 2);
+const freeNow = feed('free-games').items.filter((i: any) => i.status === 'free-now' && isLive(i.endsAt)).slice(0, 2);
 const cal = calendar();
-const currentMonth = Object.keys(cal.months)[0];
-const upcoming = (cal.months[currentMonth] ?? []).filter((e: any) => e.date).slice(0, 4);
+const nowMonth = new Date().toISOString().slice(0, 7);
+const currentMonth = Object.keys(cal.months).find((m) => m >= nowMonth) ?? null;
+const today = new Date().toISOString().slice(0, 10);
+const upcoming = (currentMonth ? cal.months[currentMonth] : []).filter((e: any) => e.date && e.date >= today).slice(0, 4);
 ---
 <Layout
   title="GamePriceMap — every deal, one tracker. Steam & eShop prices, regions, all-time lows"
@@ -64,7 +66,8 @@ const upcoming = (cal.months[currentMonth] ?? []).filter((e: any) => e.date).sli
 
         <div class="hero-search">
           <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          <input type="text" id="heroSearch" aria-label="Search games" placeholder="" />
+          <input type="text" id="heroSearch" aria-label="Search games" placeholder="" autocomplete="off" />
+          <div class="search-results" id="heroSearchResults" hidden></div>
         </div>
 
         {showcase.length > 0 && (
@@ -253,8 +256,10 @@ const upcoming = (cal.months[currentMonth] ?? []).filter((e: any) => e.date).sli
     </section>
   )}
 
-  <script define:vars={{ games: showcase }}>
-    const input = document.getElementById('heroSearch');
+  <script type="application/json" id="showcaseData" set:html={JSON.stringify(showcase).replace(/</g, '\\u003c')} />
+  <script>
+    const games = JSON.parse(document.getElementById('showcaseData')!.textContent!);
+    const input = document.getElementById('heroSearch') as HTMLInputElement;
     const card = document.getElementById('liveCard');
     const els = {
       cover: document.getElementById('lcCover'),
@@ -335,12 +340,6 @@ const upcoming = (cal.months[currentMonth] ?? []).filter((e: any) => e.date).sli
         paused = true;
         clearTimeout(timer);
         input.placeholder = 'Search games…';
-        // route hero search into the header MiniSearch box
-        document.getElementById('siteSearch')?.dispatchEvent(new Event('focus'));
-      });
-      input.addEventListener('input', () => {
-        const site = document.getElementById('siteSearch');
-        if (site) { site.value = input.value; site.dispatchEvent(new Event('input')); }
       });
       input.addEventListener('blur', () => {
         if (input.value.trim() !== '') return;

@@ -31,11 +31,14 @@ const updatedAt = dataUpdatedAt();
     {ogImage && <meta property="og:image" content={ogImage} />}
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%23FFD84D' stroke='%23292344' stroke-width='8'/><text x='50' y='68' font-size='52' text-anchor='middle'>🏷️</text></svg>" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />}
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <Header active={active} dock={dockSearch} />
-    <slot />
+    <main id="main">
+      <slot />
+    </main>
     <Footer updatedAt={updatedAt} />
   </body>
 </html>

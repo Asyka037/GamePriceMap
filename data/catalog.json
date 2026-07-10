@@ -1,5 +1,4 @@
 {
-  "$schema": "./catalog.schema.md",
   "games": [
     {
       "slug": "elden-ring",
@@ -235,7 +234,7 @@
     },
     {
       "slug": "god-of-war-ragnarok",
-      "title": "God of War Ragnarök",
+      "title": "God of War Ragnar\u00f6k",
       "steamAppId": 2322010,
       "nsuids": null,
       "platforms": [

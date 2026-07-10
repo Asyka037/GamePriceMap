@@ -53,6 +53,7 @@ await source('stores', async () => {
 });
 
 const freeItems = [];
+const freeSourceOk = { steam: false, epic: false };
 
 await source('steam specials', async () => {
   const body = await fetchJson('https://store.steampowered.com/api/featuredcategories?cc=us&l=english', { label: 'featuredcategories' });
@@ -60,6 +61,7 @@ await source('steam specials', async () => {
   if (deals.length === 0) throw new Error('empty specials — refusing to overwrite');
   writeFeed('deals-steam.json', deals);
   freeItems.push(...free);
+  freeSourceOk.steam = true;
 });
 
 await source('eshop-eu discounts', async () => {
@@ -100,12 +102,18 @@ await source('cheapshark deals', async () => {
 await source('epic free games', async () => {
   const body = await fetchJson('https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US', { label: 'epic promotions' });
   freeItems.push(...parseEpicFree(body));
+  freeSourceOk.epic = true;
 });
 
-// Free feed merges Epic + Steam 100%-off; written even when small, but only
-// when at least one contributing source succeeded this run.
-if (freeItems.length > 0 || okCount >= 3) {
-  writeFeed('free-games.json', freeItems);
+// Free feed merges Epic + Steam 100%-off. A failed source must not erase the
+// other source's items: carry over the failed source's entries from the
+// previous feed instead of silently dropping them (review finding).
+if (freeSourceOk.steam || freeSourceOk.epic) {
+  let prev = [];
+  try { prev = JSON.parse(fs.readFileSync(path.join(FEEDS_DIR, 'free-games.json'), 'utf8')).items ?? []; } catch { /* first run */ }
+  const carried = prev.filter((i) => (i.storeId === 'epic' && !freeSourceOk.epic) || (i.storeId !== 'epic' && !freeSourceOk.steam));
+  if (carried.length) console.warn(`  free-games: carried ${carried.length} item(s) from previous feed (source failed this run)`);
+  writeFeed('free-games.json', [...freeItems, ...carried]);
 }
 
 if (okCount === 0) {

@@ -2,9 +2,9 @@
 import Layout from '../layouts/Layout.astro';
 import SectionHead from '../components/SectionHead.astro';
 import { feed } from '../lib/data.mjs';
-import { fmtUsd } from '../lib/derive.mjs';
+import { fmtUsd, isLive } from '../lib/derive.mjs';
 
-const items = feed('free-games').items;
+const items = feed('free-games').items.filter((i: any) => isLive(i.endsAt));
 const now = items.filter((i: any) => i.status === 'free-now');
 const upcoming = items.filter((i: any) => i.status === 'upcoming');
 const storeLabel: Record<string, string> = { epic: 'Epic Games Store', steam: 'Steam' };

@@ -902,3 +902,14 @@ img { display: block; max-width: 100%; }
   .wm-label { padding: 2px 5px; }
   .wm-summary { display: none; }
 }
+
+/* ---------------- review fixes ---------------- */
+.skip-link {
+  position: absolute; left: -9999px; top: 0; z-index: 200;
+  background: var(--gold-bg); color: var(--ink); font-weight: 800;
+  border: 3px solid var(--ink); border-radius: 0 0 8px 0; padding: 10px 16px;
+}
+.skip-link:focus { left: 0; }
+.wm-par path { fill: var(--surface); }
+.wm-hover-arc[data-dir="par"] { stroke: var(--ink); }
+.wm-card-par { color: #C9C3DD; }

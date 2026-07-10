@@ -33,7 +33,7 @@ export function directionFor(pctVsBaseline, isBaseline = false) {
   if (pctVsBaseline < 0) return { dir: 'cheaper', cls: 'wm-cheaper-1' };
   if (pctVsBaseline >= DEEP_GAP_PCT) return { dir: 'pricier', cls: 'wm-pricier-2' };
   if (pctVsBaseline > 0) return { dir: 'pricier', cls: 'wm-pricier-1' };
-  return { dir: 'baseline', cls: 'wm-par' };
+  return { dir: 'par', cls: 'wm-par' };
 }
 
 /**

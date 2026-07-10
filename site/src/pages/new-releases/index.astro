@@ -1,7 +1,8 @@
 ---
 import { calendar } from '../../lib/data.mjs';
 
-const months = Object.keys(calendar().months);
-const target = months[0] ?? null;
+const current = new Date().toISOString().slice(0, 7);
+const months = Object.keys(calendar().months).filter((m) => m >= current);
+const target = months[0] ?? Object.keys(calendar().months).at(-1) ?? null;
 return Astro.redirect(target ? `/new-releases/${target}` : '/');
 ---

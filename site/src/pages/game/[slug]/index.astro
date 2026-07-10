@@ -4,7 +4,7 @@ import GameHero from '../../../components/GameHero.astro';
 import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
-import { usRow, overallAtl, fmtUsd, fmtMoney } from '../../../lib/derive.mjs';
+import { usRow, overallAtl, atlFor, fmtUsd, fmtMoney } from '../../../lib/derive.mjs';
 
 export function getStaticPaths() {
   return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
@@ -15,8 +15,8 @@ const bundle = gameBundle(slug!);
 const { game, meta } = bundle;
 
 const storeRows = [
-  { store: 'Steam', dot: '#66c0f4', platform: 'PC', row: usRow(bundle.steam), url: game.steamAppId ? `https://store.steampowered.com/app/${game.steamAppId}/` : null },
-  { store: 'Nintendo eShop (US)', dot: '#e60012', platform: 'Switch', row: usRow(bundle.eshop), url: 'https://www.nintendo.com/us/store/' },
+  { store: 'Steam', dot: '#66c0f4', platform: 'PC', row: usRow(bundle.steam), atl: atlFor(bundle.history, 'steam'), url: game.steamAppId ? `https://store.steampowered.com/app/${game.steamAppId}/` : null },
+  { store: 'Nintendo eShop (US)', dot: '#e60012', platform: 'Switch', row: usRow(bundle.eshop), atl: atlFor(bundle.history, 'eshop'), url: 'https://www.nintendo.com/us/store/' },
 ].filter((r) => r.row);
 const cheapest = storeRows.length ? Math.min(...storeRows.map((r) => r.row!.usd)) : null;
 const atl = overallAtl(bundle.history);
@@ -53,7 +53,7 @@ const jsonLd = {
           <tr><th>Store</th><th>Platform</th><th>Current price</th><th>Discount</th><th>All-time low</th><th></th></tr>
         </thead>
         <tbody>
-          {storeRows.map(({ store, dot, platform, row, url }) => (
+          {storeRows.map(({ store, dot, platform, row, atl: rowAtl, url }) => (
             <tr class:list={[{ 'best-row': row!.usd === cheapest && storeRows.length > 1 }]}>
               <td><span class="store-cell"><span class="store-dot" style={`background:${dot};`}></span>{store}{row!.usd === cheapest && storeRows.length > 1 && <span class="best-tag">BEST</span>}</span></td>
               <td>{platform}</td>
@@ -62,7 +62,7 @@ const jsonLd = {
                 {row!.listUsd != null && <span class="price-old" style="margin-left:6px;">{fmtUsd(row!.listUsd)}</span>}
               </td>
               <td>{row!.discountPct ? <span class="chip-off">−{row!.discountPct}%</span> : <span style="color:var(--text-3);">—</span>}</td>
-              <td>{atl ? <span class="mono" style="color:var(--gold);">{fmtUsd(atl.usd)}</span> : '—'}</td>
+              <td>{rowAtl ? <span class="mono" style="color:var(--gold);">{fmtUsd(rowAtl.usd)}</span> : <span style="color:var(--text-3);">—</span>}</td>
               <td>{url && <a class="to-store" href={url} rel="nofollow noopener" target="_blank">To store
                 <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>}
               </td>

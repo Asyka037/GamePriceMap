@@ -5,6 +5,19 @@
 
 export const fmtUsd = (n) => (n == null ? null : `$${n.toFixed(2)}`);
 
+/** endsAt 缺失视为长期有效；已过期返回 false（UTC 比较）。 */
+export function isLive(endsAt, now = Date.now()) {
+  if (!endsAt) return true;
+  const t = Date.parse(endsAt);
+  return !Number.isFinite(t) || t > now;
+}
+
+/** 渠道对应的 ATL（steam -> pc, eshop -> eshop-us），绝不跨渠道混用。 */
+export function atlFor(history, channel) {
+  const key = channel === 'steam' ? 'pc' : 'eshop-us';
+  return history?.atl?.[key] ?? null;
+}
+
 const SYMBOLS = { USD: '$', GBP: '£', EUR: '€', JPY: '¥' };
 export function fmtMoney(amount, currency) {
   if (amount == null) return null;
@@ -104,6 +117,7 @@ export function trackedDeals(bundles, channel) {
     const snap = channel === 'steam' ? b.steam : b.eshop;
     const us = usRow(snap);
     if (!us || !(us.discountPct > 0)) continue;
+    if (!isLive(us.saleEndsAt)) continue; // 快照滞后窗口：已过期的折扣不再当作当前
     rows.push({
       slug: b.slug,
       title: b.game?.title ?? b.slug,
@@ -113,8 +127,8 @@ export function trackedDeals(bundles, channel) {
       saleEndsAt: us.saleEndsAt ?? null,
       headerImage: b.meta?.headerImage ?? null,
       reviewPercent: b.meta?.reviewPercent ?? null,
-      atl: overallAtl(b.history),
-      isAtl: (() => { const a = overallAtl(b.history); return a ? us.usd <= a.usd + 0.001 : false; })(),
+      atl: atlFor(b.history, channel),
+      isAtl: (() => { const a = atlFor(b.history, channel); return a ? us.usd <= a.usd + 0.001 : false; })(),
     });
   }
   return rows.sort((a, b) => b.pct - a.pct);

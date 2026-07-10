@@ -1,5 +1,7 @@
 # GamePriceMap
 
+> **接手维护先读 [docs/HANDOFF.md](docs/HANDOFF.md)**（状态快照 / 代码地图 / 不可破坏约定）。
+
 多平台游戏折扣聚合站：Steam + Nintendo eShop 区域定价、史低、促销、免费游戏与新游日历。
 
 - **线上**：https://gamepricemap.pages.dev

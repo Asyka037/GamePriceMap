@@ -64,9 +64,9 @@ npx astro dev            # 本地开发 http://localhost:4321
 
 ## 5. 不可破坏的约定
 
-1. **所有对外请求走 `scripts/lib/http.mjs`**（CheapShark 会 400 拒绝通用 UA；UA 指向 /about 页 + 真实邮箱）
+1. **所有对外请求走 `scripts/lib/http.mjs`**（CheapShark 会 400 拒绝通用 UA；UA 指向 /about 页 + 真实邮箱）。**唯一例外**：discover-nsuid 的美区商品页需要浏览器 UA（bot UA 会被拒），该处 raw fetch 属有意为之
 2. **validate.mjs 是唯一提交闸门**：断言只能加强不能移除；失败=保旧数据
-3. **catalog.json 只能人审修改**；脚本最多写 `data/suggestions/`
+3. **catalog.json 只能人审修改**；所有脚本（含 discover-nsuid --apply）只写 `data/suggestions/`，由人合并
 4. **地图三向配色**是用户明确决策：基线中性 / 便宜绿 / 贵红，禁止加第四种语义色
 5. **worldgrid.data.mjs 是生成物**（`node scripts/build-worldgrid.mjs` 重新生成），勿手改
 6. **史低诚实性**：外部种子与自观测在 UI 措辞上必须区分；赠送价（$0）不是史低
