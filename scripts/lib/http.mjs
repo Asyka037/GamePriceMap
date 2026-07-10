@@ -6,7 +6,7 @@
  */
 
 export const USER_AGENT =
-  'GamePriceMapBot/0.1 (+https://github.com/Asyka037/GamePriceMap; contact: yiyi22331999@gmail.com)';
+  'GamePriceMapBot/0.1 (+https://gamepricemap.pages.dev/about; contact: yiyi22331999@gmail.com)';
 
 export const HEADERS = {
   'User-Agent': USER_AGENT,

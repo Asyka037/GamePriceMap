@@ -1,0 +1,70 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NoteBox from '../components/NoteBox.astro';
+import { catalog } from '../lib/data.mjs';
+
+const gameCount = catalog().length;
+---
+<Layout
+  title="About GamePriceMap — data sources, update cadence & policies"
+  description="How GamePriceMap works: where the price data comes from, how often it updates, how it is validated, and what we will never list."
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>About</div>
+    <h1>About</h1>
+    <p>GamePriceMap tracks game prices across Steam and the Nintendo eShop — regional pricing, current deals, historical lows and free games — for {gameCount} games and growing.</p>
+  </div>
+
+  <div class="wrap" style="padding-bottom: 32px; max-width: 860px;">
+    <section class="section" style="padding-top: 8px;">
+      <h2 style="font-family: var(--font-pixel); font-size: 13px; text-transform: uppercase; margin-bottom: 12px;">Where the data comes from</h2>
+      <table class="region-full">
+        <thead><tr><th>Data</th><th>Source</th><th>Updates</th></tr></thead>
+        <tbody>
+          <tr><td style="font-weight:800;">Steam regional prices</td><td>Steam storefront (18 regions)</td><td class="mono">daily</td></tr>
+          <tr><td style="font-weight:800;">eShop regional prices</td><td>Nintendo storefront price service (16 regions)</td><td class="mono">daily</td></tr>
+          <tr><td style="font-weight:800;">Multi-store PC deals</td><td>CheapShark (Steam, GOG, Fanatical, GMG, Humble …)</td><td class="mono">daily</td></tr>
+          <tr><td style="font-weight:800;">Historical lows</td><td>CheapShark records + Nintendo eShop index + our own tracking since Jul 2026</td><td class="mono">daily</td></tr>
+          <tr><td style="font-weight:800;">Free games</td><td>Epic Games Store promotions + Steam 100% discounts</td><td class="mono">daily</td></tr>
+          <tr><td style="font-weight:800;">Release calendar</td><td>Nintendo eShop listings + Steam coming-soon</td><td class="mono">weekly</td></tr>
+          <tr><td style="font-weight:800;">Exchange rates</td><td>ExchangeRate-API (USD base)</td><td class="mono">daily</td></tr>
+        </tbody>
+      </table>
+      <p style="color: var(--text-2); font-weight: 600; margin-top: 12px;">
+        Every refresh passes a validation gate before it is published: prices must be positive,
+        discounts in range, currency conversions within tolerance and region coverage stable.
+        When a source is unreachable we keep the last good data and say so on the
+        <a href="/status" style="font-weight:800; color: var(--red);">status page</a> —
+        a stale number is never silently replaced with a wrong one.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 style="font-family: var(--font-pixel); font-size: 13px; text-transform: uppercase; margin-bottom: 12px;">What we will and won't do</h2>
+      <p style="color: var(--text-2); font-weight: 600;">
+        We only list verified, authorized storefronts — no gray-market key resellers.
+        Rankings are always ordered by price, never by commission.
+        All-time lows are labeled with their provenance: externally recorded lows say so,
+        and prices we observed ourselves say "lowest since we started tracking".
+        Giveaway records are not treated as purchase prices.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 style="font-family: var(--font-pixel); font-size: 13px; text-transform: uppercase; margin-bottom: 12px;">Fair warnings</h2>
+      <NoteBox>
+        Regional prices are store list prices converted at daily exchange rates —
+        not checkout totals. Taxes, payment fees and rounding differ by country,
+        and whether you can buy from another region depends on your account,
+        payment method and platform rules. Prices refresh daily, so a flash sale
+        can briefly show its previous state.
+      </NoteBox>
+      <p style="color: var(--text-3); font-weight: 600; font-size: 13px; margin-top: 12px;">
+        GamePriceMap is an independent project, not affiliated with Valve, Nintendo,
+        Epic Games or any listed store. Game artwork and names belong to their publishers.
+        Multi-store deal data by CheapShark; exchange rates by ExchangeRate-API.
+        Contact: <span class="mono">yiyi22331999@gmail.com</span>
+      </p>
+    </section>
+  </div>
+</Layout>

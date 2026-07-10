@@ -180,6 +180,7 @@ const cardData = (rg: any) => JSON.stringify({
         for (const g of groups.values()) g.classList.remove('wm-hot');
       };
       const jump = (g: SVGGElement) => {
+        hide();
         const row = document.getElementById(g.dataset.target ?? '');
         if (!row) return;
         row.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -187,6 +188,10 @@ const cardData = (rg: any) => JSON.stringify({
         void row.offsetWidth;
         row.classList.add('row-flash');
       };
+
+      window.addEventListener('scroll', hide, { passive: true });
+      wrap.addEventListener('mouseleave', hide);
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hide(); });
 
       for (const g of groups.values()) {
         g.addEventListener('mouseenter', () => show(g, g));
