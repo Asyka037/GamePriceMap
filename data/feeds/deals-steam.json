@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T10:35:51.579Z",
+  "updatedAt": "2026-07-11T09:08:51.260Z",
   "items": [
     {
       "title": "Palworld",
@@ -14,6 +14,18 @@
       "slugIfTracked": "palworld"
     },
     {
+      "title": "Grand Theft Auto V Enhanced",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "currency": "USD",
+      "price": 19.79,
+      "list": 44.99,
+      "pct": 56,
+      "endsAt": "2026-07-23T17:00:00.000Z",
+      "steamAppId": 3240220,
+      "slugIfTracked": null
+    },
+    {
       "title": "Cat Mail Co.",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/4380490/",
@@ -23,6 +35,18 @@
       "pct": 15,
       "endsAt": "2026-07-23T17:00:48.000Z",
       "steamAppId": 4380490,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Moonlight Peaks",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2209900/",
+      "currency": "USD",
+      "price": 29.74,
+      "list": 34.99,
+      "pct": 15,
+      "endsAt": "2026-07-13T17:00:23.000Z",
+      "steamAppId": 2209900,
       "slugIfTracked": null
     },
     {
@@ -38,27 +62,15 @@
       "slugIfTracked": "red-dead-redemption-2"
     },
     {
-      "title": "Moonlight Peaks",
+      "title": "GERONIMO",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2209900/",
+      "url": "https://store.steampowered.com/app/2019620/",
       "currency": "USD",
-      "price": 29.74,
-      "list": 34.99,
-      "pct": 15,
-      "endsAt": "2026-07-13T17:00:23.000Z",
-      "steamAppId": 2209900,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Grand Theft Auto V Enhanced",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
-      "currency": "USD",
-      "price": 19.79,
-      "list": 44.99,
-      "pct": 56,
-      "endsAt": "2026-07-23T17:00:00.000Z",
-      "steamAppId": 3240220,
+      "price": 17.99,
+      "list": 19.99,
+      "pct": 10,
+      "endsAt": "2026-07-17T17:00:21.000Z",
+      "steamAppId": 2019620,
       "slugIfTracked": null
     },
     {
@@ -86,18 +98,6 @@
       "slugIfTracked": null
     },
     {
-      "title": "Digimon Story Time Stranger",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1984270/",
-      "currency": "USD",
-      "price": 39.89,
-      "list": 69.99,
-      "pct": 43,
-      "endsAt": "2026-07-16T17:00:00.000Z",
-      "steamAppId": 1984270,
-      "slugIfTracked": null
-    },
-    {
       "title": "Planet Zoo",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/703080/",
@@ -110,15 +110,15 @@
       "slugIfTracked": null
     },
     {
-      "title": "Stray",
+      "title": "Digimon Story Time Stranger",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1332010/",
+      "url": "https://store.steampowered.com/app/1984270/",
       "currency": "USD",
-      "price": 14.99,
-      "list": 29.99,
-      "pct": 50,
-      "endsAt": "2026-07-23T17:00:00.000Z",
-      "steamAppId": 1332010,
+      "price": 39.89,
+      "list": 69.99,
+      "pct": 43,
+      "endsAt": "2026-07-16T17:00:00.000Z",
+      "steamAppId": 1984270,
       "slugIfTracked": null
     }
   ]
