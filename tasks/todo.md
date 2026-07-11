@@ -144,6 +144,11 @@
 **验证**：51/51 单测（新增 isLive/atlFor/match/par 共 6 项）；validate 删快照现在正确 fail；139 页构建；产物断言全绿（JSON-LD 无裸 <、Celeste eShop ATL $19.99、日历默认 2026-07）。
 **后续任务（未在本批）**：astro 7.x 大版本升级（需回归测试）；/status 每游戏粒度陈旧检测；移动端汉堡菜单（既有遗留 #3）。
 
+### 2026-07-11 数据方案 v2.1 修订（CodeX 评审裁定）
+- 核心批评实证成立：汇率抖动使 42/42 快照每日全脏（532 行 usd 变化而本币零变化，git 历史取证）——原"忽略 updatedAt"方案作废，采纳三层拆分（本币事实源 + 构建期派生 + source-health 新鲜度账本）。
+- 反驳一条：事件历史不受汇率污染（US 区原生 USD 实证 0 例外），history 层无需迁移。
+- 用户决策：ITAD 出局 → Epic 比价放弃、PC 历史回填放弃、全线自观测；PSN 暂缓（预算数量级修正：全区域 ≈250min/日超时限）。
+- 修订版切分：A'（数据底座+趋势图，无外部依赖）→ B'（Xbox 小样本 POC，人工映射+单市场+weekly）；tier 调度列为扩容硬前置。
+
 ## 需要用户操作的事项
-- [ ] 注册 ITAD 免费 API key（isthereanydeal.com/apps/）→ 存入仓库 Secrets 为 ITAD_KEY（数据方案 V2 的 Phase B 依赖）
 - [ ] 每周审核 suggestions/catalog-candidates.json 决定新游戏入库

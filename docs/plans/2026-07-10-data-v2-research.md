@@ -87,3 +87,49 @@
 ## 5. 明确不做
 
 绕 Epic 的 Cloudflare 盾（合规红线+脆弱）；PSN GraphQL persisted query（哈希轮换断点）；主机历史价的第三方爬取（SteamDB/DekuDeals 禁止抓取）；逐日快照存储（事件化已是更优结构）。
+
+---
+
+# v2.1 修订（2026-07-11，经 CodeX 评审 + 逐条实证后取代 §4 实施切分）
+
+## 0. 评审裁定（先验证后采纳）
+
+| 论点 | 裁定 | 证据 |
+|---|---|---|
+| "忽略 updatedAt 不够：usd/listUsd/rank 随汇率每日变" | **成立（决定性）** | git 实证：07-08 vs 07-09（同在夏促、本币零变化），532 个区域行仅因汇率抖动改变 usd/listUsd，42/42 快照全脏（示例 animal-well UA 349 UAH：$7.83→$7.84） |
+| 停止更新时间会把"抓到但未变价"误报过期 | 成立 | /status 新鲜度由快照 updatedAt 推导（validate.mjs newestStamp） |
+| 三层拆分（人审目录 → 原始观测 → 构建期派生） | **采纳为底座核心** | 唯一使 git diff ∝ 真实变价的结构 |
+| 事件历史被汇率污染 | **不成立（好消息）** | 实证：全部快照 US 区原生 USD（0 个例外），events 只记 US 区，天然 FX 免疫 |
+| ITAD 条款风险/仅三月历史 | 无关（用户决策出局） | → Epic 价格需求放弃（免费游戏 feed 保留）；PC 历史回填放弃，全线自观测 |
+| Xbox 仅作 POC | 采纳 | 与原"非契约源"分级一致，细化为小样本人工映射验收制 |
+| offers[] 映射拒绝版本混淆 | 原则采纳，随首个新平台落地 | 现有 Steam appid/NS nsuid 即标准版无歧义；Xbox POC 起每条映射人工标注 edition |
+| 趋势图末端应到 lastSuccessAt 而非"今天" | 采纳 | 诚实性：抓取失败期间不虚构known状态 |
+| PSN 预算数量级 | 承认表述歧义 | 原 30min 按单市场估算未标明；全区域（×10 市场）≈9GB/日、250min，超 45min 上限 → **PSN 暂缓** |
+| tier 未被调度使用 | 成立（scrape 脚本零引用） | 列为扩容硬前置 |
+| 少写快照 ≠ Pages 停止日构建 | 成立，收回原表述 | rates/feeds/health 每日仍变，仍触发构建；收益仅 git 体积 |
+
+## 1. 修订后的分层（A' 数据底座）
+
+```
+catalog（人审） → 原始观测层（git 事实源）        → 构建期派生层（不入库）
+                   本币 amount/list、currency、      usd、listUsd、rank、
+                   discountPct、saleEndsAt、market、  地图分档、榜单
+                   lastPriceChangeAt
+                 + source-health.json（每源×市场：lastAttemptAt/lastSuccessAt/
+                   coverage/consecutiveFailures —— 新鲜度唯一来源）
+```
+
+- 快照文件**移除 usd/listUsd/rank/updatedAt**；USD 与排名由 site 构建期用当日 rates 派生（toUsd/assembleSnapshot 逻辑移至 site/lib）。
+- 写盘守卫：语义比较（本币字段），不变不写；scraper 失败区域**保留旧快照该区行**并计入 source-health。
+- validate 相应调整：换算偏差断言改到构建期派生检查；快照断言针对本币；新增 source-health schema 断言。
+- 一次性迁移：现存 42×2 快照剥离派生字段（events/history 不动）。
+
+## 2. 修订后的实施切分
+
+| Phase | 内容 | 状态 |
+|---|---|---|
+| **A'** | 数据底座分层（上节）+ 趋势图（美区自观测阶梯线；末端=该源 lastSuccessAt；<2 事件显示 "tracking since"） | 待开工，无外部依赖 |
+| **B'** | Xbox POC：10–20 款人工映射（bigId+edition 核对入 suggestions 人审）、US 单市场、每周频率、连续两周稳定后再评估扩容与多市场 | 待 A' 后 |
+| 弃 | ITAD 全部用途（用户决策）；Epic 比价（无合规源）；PC 历史回填 | — |
+| 缓 | PSN（预算数量级 + 无回填价值；重启条件：目录分层调度就绪 + 单市场起步） | — |
+| 前置 | tier 调度真正实现（scraper 按 tier 过滤 + weekly 长尾轮转）——任何目录扩容之前 | — |
