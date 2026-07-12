@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T09:08:51.260Z",
+  "updatedAt": "2026-07-12T09:28:05.531Z",
   "items": [
     {
       "title": "Palworld",
@@ -23,6 +23,18 @@
       "pct": 56,
       "endsAt": "2026-07-23T17:00:00.000Z",
       "steamAppId": 3240220,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Angels Fall First",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/367270/",
+      "currency": "USD",
+      "price": 16.19,
+      "list": 17.99,
+      "pct": 10,
+      "endsAt": "2026-07-21T17:00:43.000Z",
+      "steamAppId": 367270,
       "slugIfTracked": null
     },
     {
@@ -62,15 +74,27 @@
       "slugIfTracked": "red-dead-redemption-2"
     },
     {
-      "title": "GERONIMO",
+      "title": "Planet Zoo",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2019620/",
+      "url": "https://store.steampowered.com/app/703080/",
       "currency": "USD",
-      "price": 17.99,
-      "list": 19.99,
-      "pct": 10,
-      "endsAt": "2026-07-17T17:00:21.000Z",
-      "steamAppId": 2019620,
+      "price": 2.24,
+      "list": 44.99,
+      "pct": 95,
+      "endsAt": "2026-07-16T17:00:00.000Z",
+      "steamAppId": 703080,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Digimon Story Time Stranger",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1984270/",
+      "currency": "USD",
+      "price": 39.89,
+      "list": 69.99,
+      "pct": 43,
+      "endsAt": "2026-07-16T17:00:00.000Z",
+      "steamAppId": 1984270,
       "slugIfTracked": null
     },
     {
@@ -95,30 +119,6 @@
       "pct": 67,
       "endsAt": "2026-07-23T17:00:00.000Z",
       "steamAppId": 817628,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Planet Zoo",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/703080/",
-      "currency": "USD",
-      "price": 2.24,
-      "list": 44.99,
-      "pct": 95,
-      "endsAt": "2026-07-16T17:00:00.000Z",
-      "steamAppId": 703080,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Digimon Story Time Stranger",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1984270/",
-      "currency": "USD",
-      "price": 39.89,
-      "list": 69.99,
-      "pct": 43,
-      "endsAt": "2026-07-16T17:00:00.000Z",
-      "steamAppId": 1984270,
       "slugIfTracked": null
     }
   ]
