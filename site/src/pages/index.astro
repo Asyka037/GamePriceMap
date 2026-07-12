@@ -43,7 +43,14 @@ const cal = calendar();
 const nowMonth = new Date().toISOString().slice(0, 7);
 const currentMonth = Object.keys(cal.months).find((m) => m >= nowMonth) ?? null;
 const today = new Date().toISOString().slice(0, 10);
-const upcoming = (currentMonth ? cal.months[currentMonth] : []).filter((e: any) => e.date && e.date >= today).slice(0, 4);
+const bundleBySlug = new Map(bundles.map((bundle: any) => [bundle.slug, bundle]));
+const upcoming = (currentMonth ? cal.months[currentMonth] : [])
+  .filter((entry: any) => entry.date && entry.date >= today)
+  .slice(0, 4)
+  .map((entry: any) => ({
+    ...entry,
+    image: entry.image ?? (entry.slugIfTracked ? bundleBySlug.get(entry.slugIfTracked)?.meta?.headerImage : null),
+  }));
 ---
 <Layout
   title="GamePriceMap — every deal, one tracker. Steam & eShop prices, regions, all-time lows"
@@ -243,8 +250,17 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : []).filter((e: any) 
       <SectionHead tone="violet" title="Coming this month" moreHref="/new-releases" moreText="Full calendar →" />
       <div class="release-strip">
         {upcoming.map((e: any) => (
-          <a class="release-card" href={e.slugIfTracked ? `/game/${e.slugIfTracked}` : e.url} rel={e.slugIfTracked ? undefined : 'nofollow noopener'}>
-            <div class="art" style="background: #63B8F6;">{e.title.split(/\s+/).slice(0, 2).map((w: string) => w[0]).join('').toUpperCase()}</div>
+          <a
+            class="release-card"
+            href={e.slugIfTracked ? `/game/${e.slugIfTracked}` : e.url}
+            rel={e.slugIfTracked ? undefined : 'nofollow noopener'}
+            target={e.slugIfTracked ? undefined : '_blank'}
+          >
+            <div class="art">
+              {e.image
+                ? <img src={e.image} alt="" loading="lazy" />
+                : <span>{e.title.trim().split(/\s+/).slice(0, 2).map((w: string) => w[0]).join('').toUpperCase()}</span>}
+            </div>
             <div class="body">
               <div class="date">{e.date}</div>
               <div class="title">{e.title}</div>

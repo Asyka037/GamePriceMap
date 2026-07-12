@@ -30,6 +30,13 @@ const platLabels: Record<string, string> = {
         {game.platforms.map((p: string) => <span class="plat-pill">{platLabels[p] ?? p}</span>)}
         {(meta?.genres ?? []).slice(0, 3).map((g: string) => <span class="tag">{g}</span>)}
       </div>
+      <div class="hero-meta">
+        {atl && <span>All-time low <b style="color: var(--gold);">{fmtUsd(atl.usd)}</b></span>}
+        {meta?.reviewPercent != null && (
+          <span><span class="review-pos">{meta.reviewPercent}% positive</span> · {meta.reviewCount.toLocaleString()} reviews</span>
+        )}
+        {meta?.metacritic && <span>Metacritic <b>{meta.metacritic}</b></span>}
+      </div>
       {best && (
         <div class="hero-price">
           <span class="hero-price-label">Best price now · {storeLabels[best.channel]}</span>
@@ -41,14 +48,6 @@ const platLabels: Record<string, string> = {
           </div>
         </div>
       )}
-      <div class="hero-meta">
-        {atl && <span>All-time low <b style="color: var(--gold);">{fmtUsd(atl.usd)}</b></span>}
-        {meta?.reviewPercent != null && (
-          <span><span class="review-pos">{meta.reviewPercent}% positive</span> · {meta.reviewCount.toLocaleString()} reviews</span>
-        )}
-        {meta?.metacritic && <span>Metacritic <b>{meta.metacritic}</b></span>}
-      </div>
-
     </div>
   </div>
 </div>

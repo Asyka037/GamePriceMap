@@ -36,9 +36,13 @@ const channels = [
     endDate: health[c.source]?.lastSuccessAt ?? null,
   });
   const first = (bundle.history?.events ?? []).find((e) => e.ch === c.ch);
-  return { ...c, model, since: first?.d ?? c.fallbackSince ?? TRACKING_SINCE };
+  return {
+    ...c,
+    model,
+    since: first?.d ?? c.fallbackSince ?? TRACKING_SINCE,
+    checkedAt: health[c.source]?.lastSuccessAt?.slice(0, 10) ?? null,
+  };
 });
-const hasAnyChart = channels.some((c) => c.model);
 ---
 <Layout
   title={`${game.title} price history & all-time low | GamePriceMap`}
@@ -58,7 +62,7 @@ const hasAnyChart = channels.some((c) => c.model);
           {channels.map((c) => (
             <figure class="trend-fig">
               <figcaption>
-                <span class="trend-ch" style={`color:${c.color};`}>{c.label}</span>
+                <span><span class="trend-ch" style={`color:${c.color};`}>{c.label}</span>{c.checkedAt && <small>checked {c.checkedAt}</small>}</span>
                 {c.model && <span class="trend-now mono">{fmtUsd(c.model.lastUsd)}</span>}
               </figcaption>
               {c.model ? (
@@ -85,14 +89,18 @@ const hasAnyChart = channels.some((c) => c.model);
                   ))}
                 </svg>
               ) : (
-                <p class="trend-empty">Tracking since <span class="mono">{c.since}</span> — not enough price changes to chart yet.</p>
+                <p class="trend-empty">Checked automatically since <span class="mono">{c.since}</span> — no additional price change yet.</p>
               )}
             </figure>
           ))}
         </div>
-        {hasAnyChart && (
-          <p class="trend-note">Lines extend to the last day each source was successfully checked, not to today.</p>
-        )}
+        <p class="trend-note">Steam and eShop are checked daily; Xbox is checked weekly. Lines stop at each source’s last successful check.</p>
+      </div>
+
+      <div class="history-checks" aria-label="Automatic price check status">
+        {channels.map((channel) => (
+          <span><b>{channel.label}</b>{channel.checkedAt ? <> last checked <time datetime={channel.checkedAt}>{channel.checkedAt}</time></> : ' awaiting first successful check'}</span>
+        ))}
       </div>
 
       <div class="detail-cols history-detail-cols">
@@ -137,9 +145,10 @@ const hasAnyChart = channels.some((c) => c.model);
       </div>
 
       <NoteBox>
-        The log records changes, not daily snapshots: a quiet stretch means the
-        price simply did not move. Tracking began 2026-07-08; earlier lows come
-        from external records where noted.
+        Automatic checks do not add duplicate rows. The log records a new event
+        only when the US price or discount changes, so a quiet stretch means the
+        checked price stayed the same. Tracking began 2026-07-08; earlier lows
+        come from external records where noted.
       </NoteBox>
     </section>
   </div>
@@ -174,6 +183,8 @@ const hasAnyChart = channels.some((c) => c.model);
     gap: 10px;
     margin-bottom: 6px;
   }
+  .trend-fig figcaption > span:first-child { display: grid; gap: 2px; }
+  .trend-fig figcaption small { font-family: var(--font-mono); font-size: 10px; color: var(--text-3); }
   .trend-ch { font-weight: 800; font-size: 13.5px; }
   .trend-now { font-weight: 700; color: var(--ink); }
   .trend-svg {
@@ -202,4 +213,12 @@ const hasAnyChart = channels.some((c) => c.model);
     font-weight: 600;
     color: var(--text-3);
   }
+  .history-checks {
+    display: flex; flex-wrap: wrap; gap: 8px 18px;
+    margin-top: 14px; padding: 10px 13px;
+    background: var(--surface-2); border: 2px solid #D8CEB1; border-radius: var(--radius);
+    font-size: 12.5px; font-weight: 600; color: var(--text-2);
+  }
+  .history-checks b { color: var(--ink); }
+  .history-checks time { font-family: var(--font-mono); color: var(--teal); font-weight: 700; }
 </style>

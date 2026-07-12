@@ -140,7 +140,14 @@ const cardData = (rg: any) => JSON.stringify({
     const card = document.createElement('div');
     card.className = 'wm-card';
     card.hidden = true;
+    card.setAttribute('aria-hidden', 'true');
     document.body.appendChild(card);
+    let activeHide: (() => void) | null = null;
+    const clearActive = () => {
+      const hide = activeHide;
+      activeHide = null;
+      hide?.();
+    };
 
     for (const wrap of document.querySelectorAll<HTMLElement>('.pixel-map-wrap:not(.compact)')) {
       const svg = wrap.querySelector<SVGSVGElement>('.pixel-map-svg')!;
@@ -152,6 +159,8 @@ const cardData = (rg: any) => JSON.stringify({
       const baseG = [...groups.values()].find((g) => g.dataset.dir === 'baseline');
 
       const show = (g: SVGGElement, anchor: Element) => {
+        if (activeHide && activeHide !== hide) clearActive();
+        activeHide = hide;
         const d = JSON.parse(g.dataset.card!);
         const sign = d.pct === 0 ? '±' : d.pct > 0 ? '+' : '−';
         card.innerHTML =
@@ -161,6 +170,7 @@ const cardData = (rg: any) => JSON.stringify({
             ? `<u class="wm-card-base">baseline region</u>`
             : `<u class="wm-card-${d.dir}">${sign}${Math.abs(d.pct)}% vs ${d.base}</u>`);
         card.hidden = false;
+        card.setAttribute('aria-hidden', 'false');
         const r = anchor.getBoundingClientRect();
         card.style.left = `${Math.min(window.innerWidth - card.offsetWidth - 8, Math.max(8, r.left + r.width / 2 + window.scrollX - card.offsetWidth / 2))}px`;
         card.style.top = `${r.top + window.scrollY - card.offsetHeight - 12}px`;
@@ -175,7 +185,9 @@ const cardData = (rg: any) => JSON.stringify({
         }
       };
       const hide = () => {
+        if (activeHide === hide) activeHide = null;
         card.hidden = true;
+        card.setAttribute('aria-hidden', 'true');
         hoverArc?.setAttribute('visibility', 'hidden');
         for (const g of groups.values()) g.classList.remove('wm-hot');
       };
@@ -189,9 +201,7 @@ const cardData = (rg: any) => JSON.stringify({
         row.classList.add('row-flash');
       };
 
-      window.addEventListener('scroll', hide, { passive: true });
-      wrap.addEventListener('mouseleave', hide);
-      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hide(); });
+      wrap.addEventListener('pointerleave', hide);
 
       for (const g of groups.values()) {
         g.addEventListener('mouseenter', () => show(g, g));
@@ -212,5 +222,15 @@ const cardData = (rg: any) => JSON.stringify({
         label.addEventListener('click', () => jump(g));
       }
     }
+
+    window.addEventListener('scroll', clearActive, { passive: true });
+    window.addEventListener('blur', clearActive);
+    document.documentElement.addEventListener('mouseleave', clearActive);
+    document.addEventListener('pointerover', (event) => {
+      const target = event.target;
+      if (target instanceof Element && !target.closest('.pixel-map-wrap:not(.compact)')) clearActive();
+    });
+    document.addEventListener('keydown', (event) => { if (event.key === 'Escape') clearActive(); });
+    document.addEventListener('pixelmap:hide', clearActive);
   }
 </script>

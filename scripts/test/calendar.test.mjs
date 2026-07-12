@@ -22,14 +22,15 @@ test('junk coming-soon names are filtered', () => {
 
 test('merge dedupes by title, unions platforms, prefers concrete dates', () => {
   const months = mergeCalendarEntries([
-    { title: 'Pragmata', date: null, month: '2026-07', platform: 'switch', url: 'n' },
-    { title: 'PRAGMATA', date: '2026-07-24', month: '2026-07', platform: 'pc', url: 's', slugIfTracked: null },
+    { title: 'Pragmata', date: null, month: '2026-07', platform: 'switch', url: 'n', image: null },
+    { title: 'PRAGMATA', date: '2026-07-24', month: '2026-07', platform: 'pc', url: 's', image: 'https://cdn.example/pragmata.jpg', slugIfTracked: null },
     { title: 'Undated Thing', date: null, month: null, platform: 'pc', url: 'x' },
     { title: 'August Game', date: '2026-08-02', month: '2026-08', platform: 'pc', url: 'y' },
   ]);
   assert.deepEqual(Object.keys(months), ['2026-07', '2026-08']);
   const prag = months['2026-07'][0];
   assert.equal(prag.date, '2026-07-24');
+  assert.equal(prag.image, 'https://cdn.example/pragmata.jpg', 'image enrichment survives a cross-source merge');
   assert.deepEqual(prag.platforms.sort(), ['pc', 'switch']);
   assert.equal(months['2026-07'].length, 1, 'undated entry dropped');
 });

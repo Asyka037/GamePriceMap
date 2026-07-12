@@ -40,5 +40,16 @@ const updatedAt = dataUpdatedAt();
       <slot />
     </main>
     <Footer updatedAt={updatedAt} />
+    <script>
+      // External destinations always preserve the current GamePriceMap page.
+      for (const anchor of document.querySelectorAll<HTMLAnchorElement>('a[href]')) {
+        const destination = new URL(anchor.href, window.location.href);
+        if (!/^https?:$/.test(destination.protocol) || destination.origin === window.location.origin) continue;
+        anchor.target = '_blank';
+        const rel = new Set(anchor.rel.split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        anchor.rel = [...rel].join(' ');
+      }
+    </script>
   </body>
 </html>

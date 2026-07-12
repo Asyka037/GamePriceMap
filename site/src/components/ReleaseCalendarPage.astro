@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { calendar, gameBundle } from '../lib/data.mjs';
+
+interface Props { month: string }
+const { month } = Astro.props;
+const cal = calendar();
+const items = cal.months[month] ?? [];
+const allMonths = Object.keys(cal.months);
+const monthName = new Date(`${month}-01T00:00:00Z`).toLocaleString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+const platLabel: Record<string, string> = { pc: 'PC', switch: 'Switch' };
+const initials = (title: string) => title.trim().split(/\s+/).slice(0, 2).map((word) => word[0]).join('').toUpperCase();
+const imageFor = (entry: any) => entry.image ?? (entry.slugIfTracked ? gameBundle(entry.slugIfTracked).meta?.headerImage : null);
+---
+<Layout
+  title={`PC & Nintendo Switch new game releases — ${monthName} | GamePriceMap`}
+  description={`${items.length} PC and Nintendo Switch games releasing in ${monthName}, with store links, artwork and dates.`}
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>PC &amp; Nintendo Switch new releases<span>/</span>{monthName}</div>
+    <h1>PC &amp; Nintendo Switch releases — {monthName}</h1>
+    <p>{items.length} upcoming releases. Dates come from the stores and can shift.</p>
+    <div class="chips" style="margin-top: 14px;">
+      {allMonths.map((candidate) => (
+        <a class:list={['chip', { on: candidate === month }]} href={`/new-releases/${candidate}`}>{candidate}</a>
+      ))}
+    </div>
+  </div>
+
+  <div class="wrap" style="padding-bottom: 24px;">
+    <div class="row-list">
+      {items.map((entry: any) => {
+        const external = !entry.slugIfTracked;
+        const image = imageFor(entry);
+        return (
+          <a
+            class="deal-row"
+            href={entry.slugIfTracked ? `/game/${entry.slugIfTracked}` : entry.url}
+            rel={external ? 'nofollow noopener' : undefined}
+            target={external ? '_blank' : undefined}
+          >
+            <div class="thumb release-row-art">
+              {image ? <img src={image} alt="" loading="lazy" /> : <span>{initials(entry.title)}</span>}
+            </div>
+            <div class="info">
+              <div class="title">{entry.title}</div>
+              <div class="sub">{entry.platforms.map((platform: string) => platLabel[platform] ?? platform).join(' · ')}</div>
+            </div>
+            <span class="date release-row-date">{entry.date ?? `${entry.month} TBC`}</span>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</Layout>

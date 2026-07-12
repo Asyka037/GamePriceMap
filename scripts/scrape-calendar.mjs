@@ -42,6 +42,7 @@ try {
       month: date.slice(0, 7),
       platform: 'switch',
       url: doc.url ? `https://www.nintendo.co.uk${doc.url}` : null,
+      image: doc.image_url_h16x9_s ?? doc.wishlist_email_banner640w_image_url_s ?? null,
       slugIfTracked: nsuid ? (euNsuidToSlug.get(nsuid) ?? null) : null,
     });
   }
@@ -72,6 +73,7 @@ try {
         month,
         platform: 'pc',
         url: `https://store.steampowered.com/app/${id}/`,
+        image: data.header_image ?? null,
         slugIfTracked: appIdToSlug.get(id) ?? null,
       });
       added++;

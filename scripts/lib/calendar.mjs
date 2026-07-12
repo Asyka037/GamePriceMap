@@ -44,7 +44,7 @@ const norm = (s) => s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '')
 
 /**
  * Merge calendar entries from multiple sources.
- * entries: [{ title, date|null, month|null, platform, url, slugIfTracked }]
+ * entries: [{ title, date|null, month|null, platform, url, image, slugIfTracked }]
  * Same normalized title merges platforms; concrete dates beat month-only.
  * Entries without at least a month are dropped (unusable on month pages).
  */
@@ -55,11 +55,15 @@ export function mergeCalendarEntries(entries) {
     const key = norm(e.title);
     const prev = byTitle.get(key);
     if (!prev) {
-      byTitle.set(key, { title: e.title, date: e.date, month: e.month, platforms: [e.platform], url: e.url, slugIfTracked: e.slugIfTracked ?? null });
+      byTitle.set(key, {
+        title: e.title, date: e.date, month: e.month, platforms: [e.platform],
+        url: e.url, image: e.image ?? null, slugIfTracked: e.slugIfTracked ?? null,
+      });
       continue;
     }
     if (!prev.platforms.includes(e.platform)) prev.platforms.push(e.platform);
     if (!prev.date && e.date) { prev.date = e.date; prev.month = e.month; }
+    prev.image ??= e.image ?? null;
     prev.slugIfTracked ??= e.slugIfTracked ?? null;
   }
   const months = {};

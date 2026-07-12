@@ -180,12 +180,19 @@ if (fs.existsSync(freePath)) {
 const calPath = path.join(ROOT, 'data/feeds/calendar.json');
 if (fs.existsSync(calPath)) {
   const cal = readJson('data/feeds/calendar.json');
+  let calendarEntries = 0;
+  let calendarImages = 0;
   for (const [month, list] of Object.entries(cal.months ?? {})) {
     if (!/^\d{4}-\d{2}$/.test(month)) fail(`calendar: bad month key ${month}`);
     if (!Array.isArray(list) || list.length === 0) fail(`calendar ${month}: empty month`);
     for (const e of list) {
+      calendarEntries++;
       if (e.date && !e.date.startsWith(month)) fail(`calendar ${month} "${e.title}": date ${e.date} outside month`);
+      if (typeof e.image === 'string' && /^https:\/\//.test(e.image)) calendarImages++;
     }
+  }
+  if (calendarEntries > 0 && calendarImages / calendarEntries < 0.8) {
+    fail(`calendar: artwork coverage ${calendarImages}/${calendarEntries} below 80%`);
   }
 }
 

@@ -35,9 +35,6 @@ jobs:
       - name: Evolve price history (includes Xbox US)
         run: npm run history:observations
 
-      - name: Refresh release calendar
-        run: node scripts/scrape-calendar.mjs
-
       - name: Build catalog candidates (human-reviewed)
         run: node scripts/suggest-catalog.mjs
 

@@ -32,6 +32,9 @@ jobs:
       - name: Refresh deal + free-game feeds
         run: node scripts/scrape-feeds.mjs
 
+      - name: Refresh release calendar + artwork
+        run: node scripts/scrape-calendar.mjs
+
       - name: Evolve price history + ATL seeds
         run: npm run history
 
