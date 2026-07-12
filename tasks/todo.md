@@ -162,6 +162,17 @@
 - 人审前评审：**69/69 单测**、validate 通过、139 页构建成功；真实 Microsoft Catalog 发现 20 款中 14 款通过三重指纹；dist 断言 42 个趋势面板且未批准 Xbox 渠道零泄漏；人工注入 `listUsd` 已实证被 validate 以 exit 1 拦截。该阶段的人审阻塞已于用户批准 14 个映射后解除。
 - 最终评审：用户批准 14 个映射后，正式首抓 **14 changed / 0 failed**，立即二抓 **0 changed / 14 unchanged**；14 个 native-USD 原始快照、14 个 `xbox-us` self ATL 与事件全部通过产物计数。`history:observations` 二跑 0 新事件且 0 外部请求；69/69 单测、validate、139 页构建全绿。浏览器验收桌面双渠道/三渠道渲染正确；390px 趋势与详情纵向堆叠、`scrollWidth=viewport=390`、零 console error。稳定性记为 **Week 1/2（2026-07-12）**；Week 2 必须等待 2026-07-19 后自然周更完整成功，不得用同日重复抓取替代。
 
+### 2026-07-12 游戏详情、导航与品牌细节修正（CodeX）
+- [x] 详情页主价格强化：显示 US 国旗/来源商店与折扣，移除价格判断横幅
+- [x] 多平台价格表显示 US 来源；仅在最低价未全员相等时标记全部并列 BEST
+- [x] 顶部导航移除路径提示，统一 Deals / Regional pricing，并为跨平台专题明确平台名
+- [x] Free games / New releases 的 title、description、H1 与面包屑前置平台名
+- [x] 收紧 Header/Footer 品牌字标中 `Game` 与 `PriceMap` 的间距并保持一致
+- [x] 更新回归测试，运行单测、validate、构建与产物断言
+- [x] 本地浏览器完成桌面、移动端视觉/交互验收
+- [ ] 提交并推送 `main`，确认生产部署生效
+- 评审：70/70 单测、validate、139 页 Astro 构建与产物断言通过。浏览器实证：Elden Ring 两渠道同价时 BEST=0；Dead by Daylight 三渠道中 Steam/eShop 同为 $19.99 时 BEST=2；TUNIC 主价格显示 Nintendo eShop、US 国旗、−80% 与原价。桌面无横向溢出；390px 下宽表收敛为局部可访问滚动区，`scrollWidth=viewport=390`；控制台零 error/warning。
+
 ## 需要用户操作的事项
 - [ ] 每周审核 suggestions/catalog-candidates.json 决定新游戏入库
 - [x] 已审核并批准 `suggestions/xbox-candidates.json` 的 14 个标准版映射（2026-07-12），已合并 catalog 并完成首次生产观测

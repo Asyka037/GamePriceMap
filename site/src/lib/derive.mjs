@@ -46,6 +46,18 @@ export function bestPriceNow(bundle) {
   return candidates.sort((a, b) => a.usd - b.usd)[0];
 }
 
+/**
+ * Flags every tied lowest price, except when every compared price is equal.
+ * The half-cent tolerance absorbs harmless exchange/rounding noise.
+ */
+export function bestPriceFlags(prices, tolerance = 0.005) {
+  if (prices.length < 2) return prices.map(() => false);
+  const lowest = Math.min(...prices);
+  const highest = Math.max(...prices);
+  if (highest - lowest <= tolerance) return prices.map(() => false);
+  return prices.map((price) => Math.abs(price - lowest) <= tolerance);
+}
+
 /** Lowest known ATL across keys, or null. */
 export function overallAtl(history) {
   const entries = Object.values(history?.atl ?? {});

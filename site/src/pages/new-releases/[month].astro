@@ -14,12 +14,12 @@ const monthName = new Date(`${month}-01T00:00:00Z`).toLocaleString('en-US', { mo
 const platLabel: Record<string, string> = { pc: 'PC', switch: 'Switch' };
 ---
 <Layout
-  title={`New game releases ${monthName} — PC & Switch calendar | GamePriceMap`}
+  title={`PC & Nintendo Switch new game releases — ${monthName} | GamePriceMap`}
   description={`${items.length} PC and Nintendo Switch games releasing in ${monthName}, with store links and dates.`}
 >
   <div class="page-head wrap">
-    <div class="breadcrumb"><a href="/">Home</a><span>/</span>New releases<span>/</span>{monthName}</div>
-    <h1>{monthName}</h1>
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>PC &amp; Nintendo Switch new releases<span>/</span>{monthName}</div>
+    <h1>PC &amp; Nintendo Switch releases — {monthName}</h1>
     <p>{items.length} upcoming releases. Dates come from the stores and can shift.</p>
     <div class="chips" style="margin-top: 14px;">
       {allMonths.map((m) => (

@@ -12,7 +12,7 @@ const { active = null, dock = false } = Astro.props;
       <span class="mark">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.83z"/><circle cx="7" cy="7" r="1.6" fill="#fff" stroke="none"/></svg>
       </span>
-      Game<em>PriceMap</em>
+      <span class="logo-word">Game<em>PriceMap</em></span>
     </a>
 
     <div class:list={['header-search', { dock }]} id="dockSearch">
@@ -29,11 +29,11 @@ const { active = null, dock = false } = Astro.props;
           <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </span>
         <div class="dropdown">
-          <a href="/steam/deals">Deals <span class="hint">/steam/deals</span></a>
-          <a href="/steam/regional-pricing">Regional pricing <span class="hint">/steam/regional-pricing</span></a>
+          <a href="/steam/deals">Deals</a>
+          <a href="/steam/regional-pricing">Regional pricing</a>
           <div class="sep"></div>
-          <a href="/free-games">Free games <span class="hint">/free-games</span></a>
-          <a href="/new-releases">New releases <span class="hint">/new-releases</span></a>
+          <a href="/free-games">PC free games</a>
+          <a href="/new-releases">PC new releases</a>
         </div>
       </div>
       <div class="nav-item">
@@ -41,10 +41,10 @@ const { active = null, dock = false } = Astro.props;
           <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </span>
         <div class="dropdown">
-          <a href="/switch/deals">eShop deals <span class="hint">/switch/deals</span></a>
-          <a href="/switch/regional-pricing">Region compare <span class="hint">/switch/regional-pricing</span></a>
+          <a href="/switch/deals">Deals</a>
+          <a href="/switch/regional-pricing">Regional pricing</a>
           <div class="sep"></div>
-          <a href="/new-releases">New releases <span class="hint">/new-releases</span></a>
+          <a href="/new-releases">Nintendo Switch new releases</a>
         </div>
       </div>
     </nav>

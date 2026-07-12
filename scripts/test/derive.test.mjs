@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  bestPriceNow, overallAtl, atlFor, isLive, buyWaitVerdict, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney,
+  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney,
 } from '../../site/src/lib/derive.mjs';
 
 const bundle = (over = {}) => ({
@@ -17,6 +17,14 @@ const bundle = (over = {}) => ({
 
 test('bestPriceNow picks the cheaper US channel', () => {
   assert.deepEqual(bestPriceNow(bundle()), { usd: 30, channel: 'steam' });
+});
+
+test('BEST flags hide an all-store tie and include every partial low-price tie', () => {
+  assert.deepEqual(bestPriceFlags([19.99, 19.99, 19.99]), [false, false, false]);
+  assert.deepEqual(bestPriceFlags([19.99, 19.99, 29.99]), [true, true, false]);
+  assert.deepEqual(bestPriceFlags([19.99, 29.99]), [true, false]);
+  assert.deepEqual(bestPriceFlags([19.99]), [false]);
+  assert.deepEqual(bestPriceFlags([19.99, 19.994, 29.99]), [true, true, false], 'half-cent rounding noise stays tied');
 });
 
 test('Xbox joins current-price and channel-specific ATL derivations', () => {

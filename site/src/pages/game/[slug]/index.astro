@@ -3,8 +3,9 @@ import Layout from '../../../layouts/Layout.astro';
 import GameHero from '../../../components/GameHero.astro';
 import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
+import RegionFlag from '../../../components/RegionFlag.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
-import { usRow, overallAtl, atlFor, fmtUsd, fmtMoney } from '../../../lib/derive.mjs';
+import { usRow, overallAtl, atlFor, bestPriceFlags, fmtUsd, fmtMoney } from '../../../lib/derive.mjs';
 
 export function getStaticPaths() {
   return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
@@ -16,10 +17,11 @@ const { game, meta } = bundle;
 
 const storeRows = [
   { store: 'Steam', dot: '#66c0f4', platform: 'PC', row: usRow(bundle.steam), atl: atlFor(bundle.history, 'steam'), url: game.steamAppId ? `https://store.steampowered.com/app/${game.steamAppId}/` : null },
-  { store: 'Nintendo eShop (US)', dot: '#e60012', platform: 'Switch', row: usRow(bundle.eshop), atl: atlFor(bundle.history, 'eshop'), url: 'https://www.nintendo.com/us/store/' },
-  { store: 'Xbox Store (US)', dot: 'var(--teal)', platform: 'Xbox', row: usRow(bundle.xbox), atl: atlFor(bundle.history, 'xbox'), url: game.xboxBigId ? `https://www.microsoft.com/store/productId/${game.xboxBigId}` : null },
+  { store: 'Nintendo eShop', dot: '#e60012', platform: 'Switch', row: usRow(bundle.eshop), atl: atlFor(bundle.history, 'eshop'), url: 'https://www.nintendo.com/us/store/' },
+  { store: 'Xbox Store', dot: 'var(--teal)', platform: 'Xbox', row: usRow(bundle.xbox), atl: atlFor(bundle.history, 'xbox'), url: game.xboxBigId ? `https://www.microsoft.com/store/productId/${game.xboxBigId}` : null },
 ].filter((r) => r.row);
 const cheapest = storeRows.length ? Math.min(...storeRows.map((r) => r.row!.usd)) : null;
+const bestFlags = bestPriceFlags(storeRows.map((r) => r.row!.usd));
 const atl = overallAtl(bundle.history);
 const topRegions = (bundle.eshop ?? bundle.steam)?.regions.slice(0, 5) ?? [];
 const regionChannel = bundle.eshop ? 'eShop' : 'Steam';
@@ -49,18 +51,22 @@ const jsonLd = {
     <GameTabs slug={slug!} current="overview" />
 
     <section style="padding: 24px 0 8px;">
-      <table class="price-table">
+      <div class="price-table-wrap" role="region" aria-label="Store price comparison" tabindex="0">
+        <table class="price-table">
         <thead>
           <tr><th>Store</th><th>Platform</th><th>Current price</th><th>Discount</th><th>All-time low</th><th></th></tr>
         </thead>
         <tbody>
-          {storeRows.map(({ store, dot, platform, row, atl: rowAtl, url }) => (
-            <tr class:list={[{ 'best-row': row!.usd === cheapest && storeRows.length > 1 }]}>
-              <td><span class="store-cell"><span class="store-dot" style={`background:${dot};`}></span>{store}{row!.usd === cheapest && storeRows.length > 1 && <span class="best-tag">BEST</span>}</span></td>
+          {storeRows.map(({ store, dot, platform, row, atl: rowAtl, url }, index) => (
+            <tr class:list={[{ 'best-row': bestFlags[index] }]}>
+              <td><span class="store-cell"><span class="store-dot" style={`background:${dot};`}></span>{store}{bestFlags[index] && <span class="best-tag">BEST</span>}</span></td>
               <td>{platform}</td>
               <td>
-                <span class="mono" style="font-weight:700;">{fmtUsd(row!.usd)}</span>
-                {row!.listUsd != null && <span class="price-old" style="margin-left:6px;">{fmtUsd(row!.listUsd)}</span>}
+                <span class="current-price-cell">
+                  <RegionFlag />
+                  <span class="mono" style="font-weight:700;">{fmtUsd(row!.usd)}</span>
+                  {row!.listUsd != null && <span class="price-old">{fmtUsd(row!.listUsd)}</span>}
+                </span>
               </td>
               <td>{row!.discountPct ? <span class="chip-off">−{row!.discountPct}%</span> : <span style="color:var(--text-3);">—</span>}</td>
               <td>{rowAtl ? <span class="mono" style="color:var(--gold);">{fmtUsd(rowAtl.usd)}</span> : <span style="color:var(--text-3);">—</span>}</td>
@@ -70,7 +76,8 @@ const jsonLd = {
             </tr>
           ))}
         </tbody>
-      </table>
+        </table>
+      </div>
 
       {topRegions.length > 0 && (
         <div class="detail-cols">

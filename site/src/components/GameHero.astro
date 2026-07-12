@@ -1,12 +1,16 @@
 ---
-import { bestPriceNow, overallAtl, buyWaitVerdict, fmtUsd } from '../lib/derive.mjs';
+import RegionFlag from './RegionFlag.astro';
+import { bestPriceNow, overallAtl, usRow, fmtUsd } from '../lib/derive.mjs';
 
 interface Props { bundle: any }
 const { bundle } = Astro.props;
 const { game, meta } = bundle;
 const best = bestPriceNow(bundle);
 const atl = overallAtl(bundle.history);
-const verdict = buyWaitVerdict(bundle);
+const bestRow = best ? usRow(bundle[best.channel]) : null;
+const storeLabels: Record<string, string> = {
+  steam: 'Steam', eshop: 'Nintendo eShop', xbox: 'Xbox Store',
+};
 const platLabels: Record<string, string> = {
   pc: 'PC', switch: 'Switch', 'switch-2': 'Switch 2', ps4: 'PS4', ps5: 'PS5', xbox: 'Xbox', mobile: 'Mobile',
 };
@@ -26,8 +30,18 @@ const platLabels: Record<string, string> = {
         {game.platforms.map((p: string) => <span class="plat-pill">{platLabels[p] ?? p}</span>)}
         {(meta?.genres ?? []).slice(0, 3).map((g: string) => <span class="tag">{g}</span>)}
       </div>
+      {best && (
+        <div class="hero-price">
+          <span class="hero-price-label">Best price now · {storeLabels[best.channel]}</span>
+          <div class="hero-price-line">
+            <b>{fmtUsd(best.usd)}</b>
+            <RegionFlag />
+            {bestRow?.discountPct ? <span class="chip-off">−{bestRow.discountPct}%</span> : null}
+            {bestRow?.listUsd != null ? <span class="price-old">{fmtUsd(bestRow.listUsd)}</span> : null}
+          </div>
+        </div>
+      )}
       <div class="hero-meta">
-        {best && <span>Best price now <b style="color: var(--green);">{fmtUsd(best.usd)}</b></span>}
         {atl && <span>All-time low <b style="color: var(--gold);">{fmtUsd(atl.usd)}</b></span>}
         {meta?.reviewPercent != null && (
           <span><span class="review-pos">{meta.reviewPercent}% positive</span> · {meta.reviewCount.toLocaleString()} reviews</span>
@@ -35,12 +49,6 @@ const platLabels: Record<string, string> = {
         {meta?.metacritic && <span>Metacritic <b>{meta.metacritic}</b></span>}
       </div>
 
-      {verdict && (
-        <div class="verdict">
-          <span class="v-badge">{verdict.verdict}</span>
-          <p><b>{verdict.text}</b> Based on tracked price history, not a prediction.<span class="beta">RULE</span></p>
-        </div>
-      )}
     </div>
   </div>
 </div>

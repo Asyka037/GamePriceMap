@@ -1,0 +1,18 @@
+---
+interface Props {
+  cc?: 'US';
+  compact?: boolean;
+}
+
+const { cc = 'US', compact = false } = Astro.props;
+const names = { US: 'United States' };
+---
+<span class:list={['region-origin', { compact }]} title={`${names[cc]} store price`}>
+  <svg class="region-flag" viewBox="0 0 28 18" role="img" aria-label={`${names[cc]} flag`}>
+    <rect width="28" height="18" rx="1" fill="#fff" />
+    <path d="M0 0h28v2H0zm0 4h28v2H0zm0 4h28v2H0zm0 4h28v2H0zm0 4h28v2H0z" fill="#B22234" />
+    <rect width="12" height="10" rx=".5" fill="#3C3B6E" />
+    <path d="M2 2h1v1H2zm3 0h1v1H5zm3 0h1v1H8zm2 0h1v1h-1zM3.5 4h1v1h-1zm3 0h1v1h-1zm2.5 0h1v1H9zM2 6h1v1H2zm3 0h1v1H5zm3 0h1v1H8zm2 0h1v1h-1zM3.5 8h1v1h-1zm3 0h1v1h-1zm2.5 0h1v1H9z" fill="#fff" />
+  </svg>
+  {!compact && <span>{cc}</span>}
+</span>
