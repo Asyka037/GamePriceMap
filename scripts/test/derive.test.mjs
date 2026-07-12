@@ -9,6 +9,7 @@ const bundle = (over = {}) => ({
   game: { title: 'G' },
   steam: { regions: [{ cc: 'UA', usd: 20, rank: 1 }, { cc: 'US', usd: 30, discountPct: 50, listUsd: 60, rank: 2 }] },
   eshop: { regions: [{ cc: 'ZA', usd: 11, rank: 1 }, { cc: 'US', usd: 35, discountPct: null, rank: 2 }] },
+  xbox: null,
   history: { atl: { pc: { usd: 25, date: '2025-11-28', seed: 'cheapshark' } }, events: [] },
   meta: null,
   ...over,
@@ -16,6 +17,16 @@ const bundle = (over = {}) => ({
 
 test('bestPriceNow picks the cheaper US channel', () => {
   assert.deepEqual(bestPriceNow(bundle()), { usd: 30, channel: 'steam' });
+});
+
+test('Xbox joins current-price and channel-specific ATL derivations', () => {
+  const b = bundle({
+    xbox: { regions: [{ cc: 'US', usd: 20, discountPct: 60, rank: 1 }] },
+    history: { atl: { 'xbox-us': { usd: 20, seed: 'self' } }, events: [] },
+  });
+  assert.deepEqual(bestPriceNow(b), { usd: 20, channel: 'xbox' });
+  assert.equal(atlFor(b.history, 'xbox').usd, 20);
+  assert.equal(hotDealsBoard([b])[0].channel, 'xbox');
 });
 
 test('verdict tiers: BUY at ATL, FAIR within 15%, WAIT beyond', () => {

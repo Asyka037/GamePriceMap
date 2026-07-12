@@ -5,7 +5,11 @@
  * - Seeds PC all-time lows from CheapShark cheapestPriceEver (one-time per
  *   game; resolved gameID is cached in the history file).
  *
- * Usage: node scripts/build-history.mjs [slug ...]
+ * Usage:
+ *   node scripts/build-history.mjs [slug ...]
+ *   node scripts/build-history.mjs --observations-only [slug ...]
+ * The observations-only mode skips all external CheapShark work and is used
+ * by the weekly Xbox POC job; daily keeps the full seed refresh behavior.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -19,12 +23,15 @@ const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const HIST_DIR = path.join(ROOT, 'data', 'history');
 const STEAM_SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'steam');
 const ESHOP_SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'eshop');
+const XBOX_SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'xbox');
 const EU_SEEDS_FILE = path.join(ROOT, 'data', 'seeds', 'eshop-eu-lows.json');
 const RATES_FILE = path.join(ROOT, 'data', 'rates', 'usd.json');
 const REQUEST_DELAY_MS = 1000;
 
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog.json'), 'utf8'));
-const onlySlugs = process.argv.slice(2);
+const args = process.argv.slice(2);
+const observationsOnly = args.includes('--observations-only');
+const onlySlugs = args.filter((a) => a !== '--observations-only');
 const games = catalog.games.filter((g) => onlySlugs.length === 0 || onlySlugs.includes(g.slug));
 const today = new Date().toISOString().slice(0, 10);
 
@@ -42,6 +49,7 @@ function saveHistory(h) {
 const channels = [
   { dir: STEAM_SNAP_DIR, channel: 'steam', atlKey: 'pc' },
   { dir: ESHOP_SNAP_DIR, channel: 'eshop', atlKey: 'eshop-us' },
+  { dir: XBOX_SNAP_DIR, channel: 'xbox', atlKey: 'xbox-us' },
 ];
 const histories = new Map();
 let events = 0;
@@ -76,34 +84,38 @@ if (fs.existsSync(EU_SEEDS_FILE)) {
 }
 
 // Pass 2: resolve missing CheapShark gameIDs (once per game).
-const needLookup = games.filter((g) => Number.isInteger(g.steamAppId) && !histories.get(g.slug).cheapsharkGameId);
-for (const g of needLookup) {
-  try {
-    const body = await fetchJson(lookupUrl(g.steamAppId), { label: `cheapshark lookup ${g.slug}` });
-    const id = parseGameLookup(body, g.steamAppId);
-    if (id) histories.get(g.slug).cheapsharkGameId = id;
-    else console.warn(`  ${g.slug}: not on CheapShark (unreleased?), skipping seed`);
-  } catch { /* fail-soft: retry on a future run */ }
-  await sleep(REQUEST_DELAY_MS);
+const needLookup = observationsOnly ? [] : games.filter((g) => Number.isInteger(g.steamAppId) && !histories.get(g.slug).cheapsharkGameId);
+if (!observationsOnly) {
+  for (const g of needLookup) {
+    try {
+      const body = await fetchJson(lookupUrl(g.steamAppId), { label: `cheapshark lookup ${g.slug}` });
+      const id = parseGameLookup(body, g.steamAppId);
+      if (id) histories.get(g.slug).cheapsharkGameId = id;
+      else console.warn(`  ${g.slug}: not on CheapShark (unreleased?), skipping seed`);
+    } catch { /* fail-soft: retry on a future run */ }
+    await sleep(REQUEST_DELAY_MS);
+  }
 }
 
 // Pass 3: batch-fetch cheapestPriceEver for games without an external seed.
-const needSeed = games.filter((g) => {
+const needSeed = observationsOnly ? [] : games.filter((g) => {
   const h = histories.get(g.slug);
   return h.cheapsharkGameId && h.atl.pc?.seed !== 'cheapshark';
 });
-for (const group of chunk(needSeed, GAMES_BATCH_SIZE)) {
-  try {
-    const ids = group.map((g) => histories.get(g.slug).cheapsharkGameId);
-    const body = await fetchJson(batchUrl(ids), { label: 'cheapshark batch' });
-    for (const g of group) {
-      const cpe = parseCheapestEver(body, histories.get(g.slug).cheapsharkGameId);
-      if (!cpe) continue;
-      const res = seedAtl(histories.get(g.slug), 'pc', { price: cpe.price, date: cpe.date, seed: 'cheapshark' });
-      histories.set(g.slug, res.history);
-    }
-  } catch { /* fail-soft */ }
-  await sleep(REQUEST_DELAY_MS);
+if (!observationsOnly) {
+  for (const group of chunk(needSeed, GAMES_BATCH_SIZE)) {
+    try {
+      const ids = group.map((g) => histories.get(g.slug).cheapsharkGameId);
+      const body = await fetchJson(batchUrl(ids), { label: 'cheapshark batch' });
+      for (const g of group) {
+        const cpe = parseCheapestEver(body, histories.get(g.slug).cheapsharkGameId);
+        if (!cpe) continue;
+        const res = seedAtl(histories.get(g.slug), 'pc', { price: cpe.price, date: cpe.date, seed: 'cheapshark' });
+        histories.set(g.slug, res.history);
+      }
+    } catch { /* fail-soft */ }
+    await sleep(REQUEST_DELAY_MS);
+  }
 }
 
 for (const h of histories.values()) saveHistory(h);

@@ -20,10 +20,19 @@ export function readSourceHealth() {
   }
 }
 
+/** A source-wide success means every expected item was verified this run. */
+export function completeSourceRun({ expected, changed, unchanged, skipped = 0, failedRequests = 0, failedItems = 0 }) {
+  return expected > 0
+    && changed + unchanged === expected
+    && skipped === 0
+    && failedRequests === 0
+    && failedItems === 0;
+}
+
 /**
- * Record one scraper run. `ok` means the run produced usable data (even if
- * every observation was unchanged); a failed run increments the streak and
- * keeps lastSuccessAt untouched.
+ * Record one scraper run. `ok` means every expected observation was verified
+ * (even if all were unchanged); partial/failed runs increment the streak and
+ * keep lastSuccessAt untouched while callers retain old observations.
  */
 export function recordSourceRun(name, { ok, note = '' }) {
   const doc = readSourceHealth();

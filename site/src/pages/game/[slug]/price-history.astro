@@ -14,7 +14,7 @@ export function getStaticPaths() {
 const { slug } = Astro.params;
 const bundle = gameBundle(slug!);
 const { game } = bundle;
-const atlLabels: Record<string, string> = { pc: 'PC (any store, US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)' };
+const atlLabels: Record<string, string> = { pc: 'PC (any store, US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)', 'xbox-us': 'Xbox Store US' };
 const seedLabels: Record<string, string> = {
   self: 'observed by our tracker',
   cheapshark: 'all-time record via CheapShark',
@@ -29,13 +29,14 @@ const TRACKING_SINCE = '2026-07-08';
 const channels = [
   { ch: 'steam', label: 'Steam · US', color: 'var(--teal)', source: 'steam-regional', tracked: !!bundle.steam },
   { ch: 'eshop', label: 'eShop · US', color: 'var(--red)', source: 'eshop-regional', tracked: !!bundle.eshop },
+  { ch: 'xbox', label: 'Xbox · US', color: 'var(--text-2)', source: 'xbox-us', tracked: !!bundle.xbox, fallbackSince: '2026-07-12' },
 ].filter((c) => c.tracked).map((c) => {
   const model = stepChartModel(bundle.history?.events ?? [], {
     channel: c.ch,
     endDate: health[c.source]?.lastSuccessAt ?? null,
   });
   const first = (bundle.history?.events ?? []).find((e) => e.ch === c.ch);
-  return { ...c, model, since: first?.d ?? TRACKING_SINCE };
+  return { ...c, model, since: first?.d ?? c.fallbackSince ?? TRACKING_SINCE };
 });
 const hasAnyChart = channels.some((c) => c.model);
 ---
@@ -53,7 +54,7 @@ const hasAnyChart = channels.some((c) => c.model);
           <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><polyline points="3 17 8 17 8 11 13 11 13 6 21 6"/></svg>
           US price trend
         </h3>
-        <div class="trend-grid" style={channels.length === 1 ? 'grid-template-columns: 1fr;' : undefined}>
+        <div class:list={['trend-grid', `trend-cols-${Math.min(channels.length, 3)}`]}>
           {channels.map((c) => (
             <figure class="trend-fig">
               <figcaption>
@@ -94,7 +95,7 @@ const hasAnyChart = channels.some((c) => c.model);
         )}
       </div>
 
-      <div class="detail-cols" style="grid-template-columns: 340px 1fr; margin-top: 18px;">
+      <div class="detail-cols history-detail-cols">
         <div class="panel">
           <h3>
             <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
@@ -151,8 +152,19 @@ const hasAnyChart = channels.some((c) => c.model);
     gap: 18px;
     margin-top: 12px;
   }
+  .trend-cols-1 { grid-template-columns: 1fr; }
+  .trend-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .history-detail-cols {
+    grid-template-columns: 340px minmax(0, 1fr);
+    margin-top: 18px;
+  }
+  .history-detail-cols > .panel { min-width: 0; }
+  @media (max-width: 1024px) {
+    .history-detail-cols { grid-template-columns: minmax(0, 1fr); }
+    .history-detail-cols .region-full { table-layout: fixed; }
+  }
   @media (max-width: 760px) {
-    .trend-grid { grid-template-columns: 1fr; }
+    .trend-grid, .trend-cols-3 { grid-template-columns: 1fr; }
   }
   .trend-fig { margin: 0; min-width: 0; }
   .trend-fig figcaption {

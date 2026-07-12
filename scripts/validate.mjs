@@ -7,9 +7,9 @@
  *
  * Checks:
  *   catalog    — schema, unique slugs/appids
- *   snapshots  — schema, price > 0, 0 < discountPct <= 100, USD conversion
- *                within 2% of rates file, region coverage >= 80% of the
- *                previous committed snapshot (via `git show HEAD:...`)
+ *   snapshots  — raw-only schema, price > 0, 0 < discountPct <= 100,
+ *                currency-rate coverage, US-native-USD invariant, and region
+ *                coverage >= 80% of the previous committed snapshot
  *   history    — schema, ATL <= all observed event prices for same channel
  *   rates      — fresh (< 48h) and plausible
  */
@@ -17,6 +17,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { DERIVED_REGION_FIELDS } from './lib/snapshot.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
@@ -45,14 +46,19 @@ if (!(ratesAgeH < 48)) fail(`rates: stale (${ratesAgeH.toFixed(1)}h old)`);
 const catalog = readJson('data/catalog.json');
 const slugs = new Set();
 const appIds = new Set();
+const xboxIds = new Set();
 for (const g of catalog.games) {
   if (!/^[a-z0-9-]+$/.test(g.slug)) fail(`catalog: bad slug "${g.slug}"`);
   if (slugs.has(g.slug)) fail(`catalog: duplicate slug ${g.slug}`);
   if (g.steamAppId !== null && !Number.isInteger(g.steamAppId)) fail(`catalog ${g.slug}: bad steamAppId`);
   if (g.steamAppId && appIds.has(g.steamAppId)) fail(`catalog: duplicate appid ${g.steamAppId}`);
+  if (g.xboxBigId != null && !/^[A-Z0-9]{12}$/.test(g.xboxBigId)) fail(`catalog ${g.slug}: malformed xboxBigId ${g.xboxBigId}`);
+  if (g.xboxBigId != null && g.xboxEdition !== 'standard') fail(`catalog ${g.slug}: Xbox POC requires xboxEdition "standard"`);
+  if (g.xboxBigId && xboxIds.has(g.xboxBigId)) fail(`catalog: duplicate xboxBigId ${g.xboxBigId}`);
   if (!['core', 'extended'].includes(g.tier)) fail(`catalog ${g.slug}: bad tier`);
   slugs.add(g.slug);
   appIds.add(g.steamAppId);
+  if (g.xboxBigId) xboxIds.add(g.xboxBigId);
 }
 
 // --- required artifacts derived from catalog (a deleted snapshot must FAIL) ---
@@ -64,6 +70,9 @@ for (const g of catalog.games) {
   const hasNsuid = g.nsuids && (g.nsuids.americas || g.nsuids.europe || g.nsuids.japan);
   if (hasNsuid && !fs.existsSync(path.join(ROOT, `data/snapshots/eshop/${g.slug}.json`))) {
     fail(`missing required snapshot data/snapshots/eshop/${g.slug}.json (game has nsuids)`);
+  }
+  if (g.xboxBigId && !fs.existsSync(path.join(ROOT, `data/snapshots/xbox/${g.slug}.json`))) {
+    fail(`missing required snapshot data/snapshots/xbox/${g.slug}.json (game has xboxBigId)`);
   }
   for (const [group, nsuid] of Object.entries(g.nsuids ?? {})) {
     if (nsuid === null) continue;
@@ -89,7 +98,8 @@ function validateSnapshotDir(dir) {
       if (!(r.amount > 0)) fail(`${rel} ${r.cc}: non-positive price`);
       if (r.discountPct !== null && !(r.discountPct > 0 && r.discountPct <= 100)) fail(`${rel} ${r.cc}: discountPct ${r.discountPct} out of range`);
       if (r.discountPct !== null && !(r.list > 0)) fail(`${rel} ${r.cc}: discount without list price`);
-      if ('usd' in r || 'rank' in r) fail(`${rel} ${r.cc}: derived field persisted (usd/rank belong to build time)`);
+      const leaked = DERIVED_REGION_FIELDS.filter((field) => field in r);
+      if (leaked.length) fail(`${rel} ${r.cc}: derived field(s) persisted (${leaked.join('/')} belong to build time)`);
       // 缺失汇率 = 构建期该区域会消失，硬失败
       if (r.currency !== 'USD' && !(rates[r.currency] > 0)) fail(`${rel} ${r.cc}: no exchange rate for ${r.currency}`);
     }
@@ -108,6 +118,24 @@ function validateSnapshotDir(dir) {
 }
 validateSnapshotDir('data/snapshots/steam');
 validateSnapshotDir('data/snapshots/eshop');
+validateSnapshotDir('data/snapshots/xbox');
+
+// Cross-channel edition sanity: warn, do not block (platform pricing can truly differ).
+for (const g of catalog.games) {
+  const prices = ['steam', 'eshop', 'xbox'].flatMap((channel) => {
+    const p = path.join(ROOT, `data/snapshots/${channel}/${g.slug}.json`);
+    if (!fs.existsSync(p)) return [];
+    const us = JSON.parse(fs.readFileSync(p, 'utf8')).regions?.find((r) => r.cc === 'US' && r.currency === 'USD');
+    const comparable = us?.list > us?.amount ? us.list : us?.amount;
+    return comparable > 0 ? [{ channel, amount: comparable }] : [];
+  });
+  if (prices.length >= 2) {
+    const sorted = prices.toSorted((a, b) => a.amount - b.amount);
+    if (sorted.at(-1).amount / sorted[0].amount > 3) {
+      console.warn(`! ${g.slug}: cross-channel US price ratio >3x (${sorted.map((p) => `${p.channel} $${p.amount}`).join(', ')}); review edition mapping`);
+    }
+  }
+}
 
 // --- history ---
 const histDir = path.join(ROOT, 'data/history');
@@ -120,7 +148,7 @@ if (fs.existsSync(histDir)) {
       if (!(atl.usd > 0)) fail(`${rel}: atl.${key} non-positive`);
       if (!['self', 'cheapshark', 'eshop-eu'].includes(atl.seed)) fail(`${rel}: atl.${key} unknown seed ${atl.seed}`);
     }
-    const chKey = { steam: 'pc', eshop: 'eshop-us' };
+    const chKey = { steam: 'pc', eshop: 'eshop-us', xbox: 'xbox-us' };
     for (const e of h.events ?? []) {
       if (!(e.usd > 0)) fail(`${rel}: event with non-positive usd`);
       const atl = h.atl?.[chKey[e.ch]];
@@ -174,9 +202,17 @@ if (fs.existsSync(metaDir)) {
 // --- source-health（新鲜度账本，v2.1）：在闸门判定之前校验 ---
 const sourceHealthPath = path.join(ROOT, 'data/source-health.json');
 const sourceHealth = fs.existsSync(sourceHealthPath) ? readJson('data/source-health.json') : { sources: {} };
+if (!sourceHealth.updatedAt || Number.isNaN(Date.parse(sourceHealth.updatedAt))) fail('source-health: bad updatedAt');
 for (const [name, e] of Object.entries(sourceHealth.sources ?? {})) {
-  if (e.lastAttemptAt && Number.isNaN(Date.parse(e.lastAttemptAt))) fail(`source-health ${name}: bad lastAttemptAt`);
+  if (!e || typeof e !== 'object') { fail(`source-health ${name}: entry must be an object`); continue; }
+  if (!e.lastAttemptAt || Number.isNaN(Date.parse(e.lastAttemptAt))) fail(`source-health ${name}: bad lastAttemptAt`);
+  if (e.lastSuccessAt != null && Number.isNaN(Date.parse(e.lastSuccessAt))) fail(`source-health ${name}: bad lastSuccessAt`);
+  if (e.lastSuccessAt && e.lastAttemptAt && Date.parse(e.lastSuccessAt) > Date.parse(e.lastAttemptAt)) fail(`source-health ${name}: success is after attempt`);
   if (!(Number.isInteger(e.consecutiveFailures) && e.consecutiveFailures >= 0)) fail(`source-health ${name}: bad consecutiveFailures`);
+  if (typeof e.note !== 'string') fail(`source-health ${name}: note must be a string`);
+}
+for (const required of ['steam-regional', 'eshop-regional', ...(xboxIds.size ? ['xbox-us'] : [])]) {
+  if (!sourceHealth.sources?.[required]) fail(`source-health: missing required source ${required}`);
 }
 
 if (errors.length) {
@@ -203,6 +239,7 @@ const health = {
     rates: ratesDoc.updatedAt ?? null,
     'steam-regional': sourceHealth.sources?.['steam-regional']?.lastSuccessAt ?? null,
     'eshop-regional': sourceHealth.sources?.['eshop-regional']?.lastSuccessAt ?? null,
+    ...(xboxIds.size && { 'xbox-us': sourceHealth.sources?.['xbox-us']?.lastSuccessAt ?? null }),
     'deals-steam': fs.existsSync(path.join(ROOT, 'data/feeds/deals-steam.json')) ? readJson('data/feeds/deals-steam.json').updatedAt : null,
     'deals-eshop': fs.existsSync(path.join(ROOT, 'data/feeds/deals-eshop.json')) ? readJson('data/feeds/deals-eshop.json').updatedAt : null,
     'deals-stores': fs.existsSync(path.join(ROOT, 'data/feeds/deals-stores.json')) ? readJson('data/feeds/deals-stores.json').updatedAt : null,

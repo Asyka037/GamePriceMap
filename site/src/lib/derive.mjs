@@ -12,9 +12,10 @@ export function isLive(endsAt, now = Date.now()) {
   return !Number.isFinite(t) || t > now;
 }
 
-/** 渠道对应的 ATL（steam -> pc, eshop -> eshop-us），绝不跨渠道混用。 */
+/** 渠道对应的 ATL，绝不跨渠道混用。 */
 export function atlFor(history, channel) {
-  const key = channel === 'steam' ? 'pc' : 'eshop-us';
+  const key = { steam: 'pc', eshop: 'eshop-us', xbox: 'xbox-us' }[channel];
+  if (!key) return null;
   return history?.atl?.[key] ?? null;
 }
 
@@ -39,6 +40,7 @@ export function bestPriceNow(bundle) {
   const candidates = [
     { usd: usRow(bundle.steam)?.usd, channel: 'steam' },
     { usd: usRow(bundle.eshop)?.usd, channel: 'eshop' },
+    { usd: usRow(bundle.xbox)?.usd, channel: 'xbox' },
   ].filter((c) => c.usd != null);
   if (candidates.length === 0) return null;
   return candidates.sort((a, b) => a.usd - b.usd)[0];
@@ -102,6 +104,7 @@ export function hotDealsBoard(bundles, limit = 5) {
     const pcts = [
       { pct: usRow(b.steam)?.discountPct, usd: usRow(b.steam)?.usd, channel: 'steam' },
       { pct: usRow(b.eshop)?.discountPct, usd: usRow(b.eshop)?.usd, channel: 'eshop' },
+      { pct: usRow(b.xbox)?.discountPct, usd: usRow(b.xbox)?.usd, channel: 'xbox' },
     ].filter((x) => x.pct > 0);
     if (pcts.length === 0) continue;
     const top = pcts.sort((a, b2) => b2.pct - a.pct)[0];
@@ -114,7 +117,7 @@ export function hotDealsBoard(bundles, limit = 5) {
 export function trackedDeals(bundles, channel) {
   const rows = [];
   for (const b of bundles) {
-    const snap = channel === 'steam' ? b.steam : b.eshop;
+    const snap = { steam: b.steam, eshop: b.eshop, xbox: b.xbox }[channel];
     const us = usRow(snap);
     if (!us || !(us.discountPct > 0)) continue;
     if (!isLive(us.saleEndsAt)) continue; // 快照滞后窗口：已过期的折扣不再当作当前

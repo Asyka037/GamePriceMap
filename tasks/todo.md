@@ -151,5 +151,17 @@
 - [x] 预览验证：Hades II 双渠道阶梯图（$20.99→$29.99，末端延伸至 07/11）、Elden Ring 单渠道空态、移动端叠列，截图确认
 - 评审：派生与观测彻底分离后，git diff 恢复"有变化才有 diff"的语义；趋势图诚实性三原则落地（自观测、末端=最后确认日、数据不足不硬画）。
 
+### 2026-07-12 数据 v2.1 交接审查 + Phase B' Xbox POC（CodeX）
+- [x] 复核 `efca541` 的 A' 分层、失败保旧、历史与趋势图实现；修复 `listUsd` 漏检、部分失败误推进 lastSuccessAt、全失败台账无法提交、source-health 弱 schema，并补回归测试
+- [x] 实测并固化 Xbox display catalog 解析纯函数、fixtures 与精确标题/edition/重复 ID 守卫；明确排除 `$0 License/Redeem`、trial、bundle、过期 offer
+- [x] 实现 `discover-xbox`：20 款候选只写 `data/suggestions/`，绝不直接修改 catalog；真实运行 14/20 通过 autosuggest 唯一精确标题 + 标准 SKU + 正价 Purchase 三重指纹
+- [x] 实现 Xbox US 单市场 POC 抓取：批量上限 20、原始观测快照、语义写入守卫、失败保旧、source-health 独立台账；无已批准映射时安全 no-op
+- [x] 接入周更工作流、validate/health/status、构建期派生、历史事件与详情页渠道展示
+- [x] 完成离线单测、validate、真实 POC 抓取、历史幂等、Astro build 与产物断言
+- [x] 更新方案/交接/lessons，并在本节追加评审结果与两周稳定性验收边界
+- 人审前评审：**69/69 单测**、validate 通过、139 页构建成功；真实 Microsoft Catalog 发现 20 款中 14 款通过三重指纹；dist 断言 42 个趋势面板且未批准 Xbox 渠道零泄漏；人工注入 `listUsd` 已实证被 validate 以 exit 1 拦截。该阶段的人审阻塞已于用户批准 14 个映射后解除。
+- 最终评审：用户批准 14 个映射后，正式首抓 **14 changed / 0 failed**，立即二抓 **0 changed / 14 unchanged**；14 个 native-USD 原始快照、14 个 `xbox-us` self ATL 与事件全部通过产物计数。`history:observations` 二跑 0 新事件且 0 外部请求；69/69 单测、validate、139 页构建全绿。浏览器验收桌面双渠道/三渠道渲染正确；390px 趋势与详情纵向堆叠、`scrollWidth=viewport=390`、零 console error。稳定性记为 **Week 1/2（2026-07-12）**；Week 2 必须等待 2026-07-19 后自然周更完整成功，不得用同日重复抓取替代。
+
 ## 需要用户操作的事项
 - [ ] 每周审核 suggestions/catalog-candidates.json 决定新游戏入库
+- [x] 已审核并批准 `suggestions/xbox-candidates.json` 的 14 个标准版映射（2026-07-12），已合并 catalog 并完成首次生产观测

@@ -6,12 +6,24 @@
       "usd": 29.95,
       "date": "2025-07-01",
       "seed": "cheapshark"
+    },
+    "xbox-us": {
+      "usd": 59.99,
+      "date": "2026-07-12",
+      "seed": "self"
     }
   },
   "events": [
     {
       "d": "2026-07-08",
       "ch": "steam",
+      "cc": "US",
+      "usd": 59.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-12",
+      "ch": "xbox",
       "cc": "US",
       "usd": 59.99,
       "pct": null

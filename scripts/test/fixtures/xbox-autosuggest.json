@@ -1,0 +1,18 @@
+{
+  "Results": [
+    {
+      "ProductFamilyName": "Games",
+      "Products": [
+        { "ProductId": "9P3J32CTXLRZ", "Type": "Game", "Title": "ELDEN RING" }
+      ]
+    },
+    {
+      "ProductFamilyName": "Games",
+      "Products": [
+        { "ProductId": "9P1C6N09NFZP", "Type": "Game", "Title": "ELDEN RING Shadow of the Erdtree Edition" },
+        { "ProductId": "9PMPZZLKQM43", "Type": "Durable", "Title": "ELDEN RING Shadow of the Erdtree" }
+      ]
+    }
+  ],
+  "TotalResultCount": 3
+}

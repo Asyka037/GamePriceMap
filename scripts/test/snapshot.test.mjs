@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { assembleRawSnapshot, sameObservations, enrichSnapshot, usObservation } from '../lib/snapshot.mjs';
+import { assembleRawSnapshot, sameObservations, enrichSnapshot, usObservation, DERIVED_REGION_FIELDS } from '../lib/snapshot.mjs';
 
 const rows = [
   { cc: 'ua', currency: 'UAH', amount: 899, list: 1799, discountPct: 50, saleEndsAt: null },
@@ -31,4 +31,8 @@ test('usObservation returns native-USD amount and rejects non-USD US rows', () =
 test('enrichment drops regions with missing rates (validate makes that a hard failure upstream)', () => {
   const rich = enrichSnapshot(assembleRawSnapshot('g', rows), {});
   assert.deepEqual(rich.regions.map((r) => r.cc), ['US'], 'UAH has no rate → dropped at build');
+});
+
+test('persisted-snapshot denylist covers every v2.1 derived field', () => {
+  assert.deepEqual(DERIVED_REGION_FIELDS, ['usd', 'listUsd', 'rank']);
 });

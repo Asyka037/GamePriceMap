@@ -17,6 +17,7 @@ const { game, meta } = bundle;
 const storeRows = [
   { store: 'Steam', dot: '#66c0f4', platform: 'PC', row: usRow(bundle.steam), atl: atlFor(bundle.history, 'steam'), url: game.steamAppId ? `https://store.steampowered.com/app/${game.steamAppId}/` : null },
   { store: 'Nintendo eShop (US)', dot: '#e60012', platform: 'Switch', row: usRow(bundle.eshop), atl: atlFor(bundle.history, 'eshop'), url: 'https://www.nintendo.com/us/store/' },
+  { store: 'Xbox Store (US)', dot: 'var(--teal)', platform: 'Xbox', row: usRow(bundle.xbox), atl: atlFor(bundle.history, 'xbox'), url: game.xboxBigId ? `https://www.microsoft.com/store/productId/${game.xboxBigId}` : null },
 ].filter((r) => r.row);
 const cheapest = storeRows.length ? Math.min(...storeRows.map((r) => r.row!.usd)) : null;
 const atl = overallAtl(bundle.history);

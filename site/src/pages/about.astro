@@ -4,6 +4,7 @@ import NoteBox from '../components/NoteBox.astro';
 import { catalog } from '../lib/data.mjs';
 
 const gameCount = catalog().length;
+const hasXboxPilot = catalog().some((g: any) => g.xboxBigId);
 ---
 <Layout
   title="About GamePriceMap — data sources, update cadence & policies"
@@ -12,7 +13,7 @@ const gameCount = catalog().length;
   <div class="page-head wrap">
     <div class="breadcrumb"><a href="/">Home</a><span>/</span>About</div>
     <h1>About</h1>
-    <p>GamePriceMap tracks game prices across Steam and the Nintendo eShop — regional pricing, current deals, historical lows and free games — for {gameCount} games and growing.</p>
+    <p>GamePriceMap tracks game prices across Steam and the Nintendo eShop{hasXboxPilot ? ', plus a small Xbox US pilot' : ''} — regional pricing, current deals, historical lows and free games — for {gameCount} games and growing.</p>
   </div>
 
   <div class="wrap" style="padding-bottom: 32px; max-width: 860px;">
@@ -23,6 +24,7 @@ const gameCount = catalog().length;
         <tbody>
           <tr><td style="font-weight:800;">Steam regional prices</td><td>Steam storefront (18 regions)</td><td class="mono">daily</td></tr>
           <tr><td style="font-weight:800;">eShop regional prices</td><td>Nintendo storefront price service (16 regions)</td><td class="mono">daily</td></tr>
+          {hasXboxPilot && <tr><td style="font-weight:800;">Xbox Store prices</td><td>Microsoft Store display catalog (US pilot, approved mappings only)</td><td class="mono">weekly</td></tr>}
           <tr><td style="font-weight:800;">Multi-store PC deals</td><td>CheapShark (Steam, GOG, Fanatical, GMG, Humble …)</td><td class="mono">daily</td></tr>
           <tr><td style="font-weight:800;">Historical lows</td><td>CheapShark records + Nintendo eShop index + our own tracking since Jul 2026</td><td class="mono">daily</td></tr>
           <tr><td style="font-weight:800;">Free games</td><td>Epic Games Store promotions + Steam 100% discounts</td><td class="mono">daily</td></tr>
@@ -32,7 +34,7 @@ const gameCount = catalog().length;
       </table>
       <p style="color: var(--text-2); font-weight: 600; margin-top: 12px;">
         Every refresh passes a validation gate before it is published: prices must be positive,
-        discounts in range, currency conversions within tolerance and region coverage stable.
+        discounts in range, currencies covered by current exchange rates and region coverage stable.
         When a source is unreachable we keep the last good data and say so on the
         <a href="/status" style="font-weight:800; color: var(--red);">status page</a> —
         a stale number is never silently replaced with a wrong one.
@@ -60,7 +62,7 @@ const gameCount = catalog().length;
         can briefly show its previous state.
       </NoteBox>
       <p style="color: var(--text-3); font-weight: 600; font-size: 13px; margin-top: 12px;">
-        GamePriceMap is an independent project, not affiliated with Valve, Nintendo,
+        GamePriceMap is an independent project, not affiliated with Valve, Nintendo, Microsoft,
         Epic Games or any listed store. Game artwork and names belong to their publishers.
         Multi-store deal data by CheapShark; exchange rates by ExchangeRate-API.
         Contact: <span class="mono">yiyi22331999@gmail.com</span>

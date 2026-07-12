@@ -16,6 +16,9 @@ export function round2(n) {
   return Math.round(n * 100) / 100;
 }
 
+/** Fields derived at build time and forbidden in persisted raw observations. */
+export const DERIVED_REGION_FIELDS = Object.freeze(['usd', 'listUsd', 'rank']);
+
 /** rates: USD -> currency multipliers (open.er-api shape). */
 export function toUsd(amount, currency, rates) {
   if (currency === 'USD') return round2(amount);

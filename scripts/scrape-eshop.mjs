@@ -15,7 +15,7 @@ import { fetchJson, sleep, chunk } from './lib/http.mjs';
 import { fetchRates } from './lib/rates.mjs';
 import { ESHOP_REGIONS, PRICE_BATCH_SIZE, priceUrl, parsePriceEntry, indexPricesById, filterOutlierRegions } from './lib/eshop.mjs';
 import { assembleRawSnapshot, sameObservations } from './lib/snapshot.mjs';
-import { recordSourceRun } from './lib/sourcehealth.mjs';
+import { recordSourceRun, completeSourceRun } from './lib/sourcehealth.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'eshop');
@@ -41,9 +41,15 @@ try {
   if (Date.now() - Date.parse(doc.updatedAt) < 24 * 3600e3) rates = doc.rates;
 } catch { /* fall through */ }
 if (!rates) {
-  rates = await fetchRates();
-  fs.mkdirSync(path.dirname(RATES_FILE), { recursive: true });
-  fs.writeFileSync(RATES_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), rates }, null, 2) + '\n');
+  try {
+    rates = await fetchRates();
+    fs.mkdirSync(path.dirname(RATES_FILE), { recursive: true });
+    fs.writeFileSync(RATES_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), rates }, null, 2) + '\n');
+  } catch (err) {
+    recordSourceRun('eshop-regional', { ok: false, note: `rates unavailable before scrape: ${err.message}` });
+    console.warn('eShop run skipped; old observations retained and failure recorded.');
+    process.exit(0);
+  }
 }
 
 // rows: slug -> [{cc, ...price fields}]
@@ -103,10 +109,9 @@ for (const g of games) {
   written++;
 }
 
-const ok = written + unchanged > 0;
-recordSourceRun('eshop-regional', { ok, note: `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, failed region requests ${failedRegionRequests}` });
+const complete = completeSourceRun({ expected: games.length, changed: written, unchanged, skipped, failedRequests: failedRegionRequests });
+recordSourceRun('eshop-regional', { ok: complete, note: `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, failed region requests ${failedRegionRequests}, expected ${games.length}` });
 console.log(`eShop snapshots changed: ${written}, unchanged: ${unchanged}, skipped: ${skipped}, failed region requests: ${failedRegionRequests}`);
-if (!ok) {
-  console.error('Nothing usable — treating as run failure.');
-  process.exit(1);
+if (!complete) {
+  console.warn('eShop run was incomplete; old observations were retained and lastSuccessAt was not advanced.');
 }

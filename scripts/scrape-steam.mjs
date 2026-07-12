@@ -16,7 +16,7 @@ import { fetchJson, sleep, chunk } from './lib/http.mjs';
 import { fetchRates } from './lib/rates.mjs';
 import { STEAM_REGIONS, APPDETAILS_BATCH_SIZE, buildPriceUrl, parsePriceOverview, buildSnapshot } from './lib/steam.mjs';
 import { sameObservations } from './lib/snapshot.mjs';
-import { recordSourceRun } from './lib/sourcehealth.mjs';
+import { recordSourceRun, completeSourceRun } from './lib/sourcehealth.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'steam');
@@ -34,9 +34,15 @@ if (games.length === 0) {
   process.exit(1);
 }
 
-const rates = await fetchRates();
-fs.mkdirSync(path.dirname(RATES_FILE), { recursive: true });
-fs.writeFileSync(RATES_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), rates }, null, 2) + '\n');
+try {
+  const rates = await fetchRates();
+  fs.mkdirSync(path.dirname(RATES_FILE), { recursive: true });
+  fs.writeFileSync(RATES_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), rates }, null, 2) + '\n');
+} catch (err) {
+  // Raw Steam observations do not need FX. Continue with price collection;
+  // validate independently enforces that the last good rates file is fresh.
+  console.warn(`  rates refresh failed: ${err.message}; continuing with Steam raw observations`);
+}
 
 const appIdToSlug = new Map(games.map((g) => [g.steamAppId, g.slug]));
 const batches = chunk(games.map((g) => g.steamAppId), APPDETAILS_BATCH_SIZE);
@@ -94,10 +100,9 @@ for (const g of games) {
   written++;
 }
 
-const ok = written + unchanged > 0;
-recordSourceRun('steam-regional', { ok, note: `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, failed region requests ${failedRegionRequests}` });
+const complete = completeSourceRun({ expected: games.length, changed: written, unchanged, skipped, failedRequests: failedRegionRequests });
+recordSourceRun('steam-regional', { ok: complete, note: `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, failed region requests ${failedRegionRequests}, expected ${games.length}` });
 console.log(`Snapshots changed: ${written}, unchanged: ${unchanged}, skipped: ${skipped}, failed region requests: ${failedRegionRequests}`);
-if (!ok) {
-  console.error('Nothing usable — treating as run failure.');
-  process.exit(1);
+if (!complete) {
+  console.warn('Steam run was incomplete; old observations were retained and lastSuccessAt was not advanced.');
 }

@@ -25,6 +25,7 @@ let ratesCache = null;
 const currentRates = () => (ratesCache ??= readJson('rates/usd.json', { rates: {} }).rates ?? {});
 export const steamSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/steam/${slug}.json`), currentRates());
 export const eshopSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/eshop/${slug}.json`), currentRates());
+export const xboxSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/xbox/${slug}.json`), currentRates());
 export const sourceHealth = () => readJson('source-health.json', { updatedAt: null, sources: {} });
 export const history = (slug) => readJson(`history/${slug}.json`);
 export const meta = (slug) => readJson(`meta/${slug}.json`);
@@ -39,6 +40,7 @@ export function gameBundle(slug) {
     game: catalog().find((g) => g.slug === slug) ?? null,
     steam: steamSnapshot(slug),
     eshop: eshopSnapshot(slug),
+    xbox: xboxSnapshot(slug),
     history: history(slug),
     meta: meta(slug),
   };

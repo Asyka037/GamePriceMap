@@ -1,0 +1,204 @@
+{
+  "updatedAt": "2026-07-12T02:54:57.755Z",
+  "reviewStatus": "approved-and-merged",
+  "reviewedAt": "2026-07-12",
+  "note": "Approved by the user on 2026-07-12 and merged into catalog.json. Retained as mapping evidence.",
+  "candidates": [
+    {
+      "slug": "elden-ring",
+      "xboxBigId": "9P3J32CTXLRZ",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Elden Ring",
+        "productTitle": "ELDEN RING",
+        "skuTitle": "ELDEN RING",
+        "skuId": "0010",
+        "usPrice": 59.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.752Z"
+      }
+    },
+    {
+      "slug": "baldurs-gate-3",
+      "xboxBigId": "9ND58LQTG09T",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Baldur's Gate 3",
+        "productTitle": "Baldur's Gate 3",
+        "skuTitle": "Baldur's Gate 3",
+        "skuId": "0010",
+        "usPrice": 69.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "cyberpunk-2077",
+      "xboxBigId": "BX3M8L83BBRW",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Cyberpunk 2077",
+        "productTitle": "Cyberpunk 2077",
+        "skuTitle": "Cyberpunk 2077",
+        "skuId": "0001",
+        "usPrice": 59.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "palworld",
+      "xboxBigId": "9NKV34XDW014",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Palworld",
+        "productTitle": "Palworld",
+        "skuTitle": "Palworld",
+        "skuId": "0010",
+        "usPrice": 29.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "mount-and-blade-ii-bannerlord",
+      "xboxBigId": "9PDHWZ7X3P03",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Mount & Blade II: Bannerlord",
+        "productTitle": "Mount & Blade II: Bannerlord",
+        "skuTitle": "Mount & Blade II: Bannerlord",
+        "skuId": "0010",
+        "usPrice": 49.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "dead-by-daylight",
+      "xboxBigId": "C0N22P73QZ60",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Dead by Daylight",
+        "productTitle": "Dead by Daylight",
+        "skuTitle": "Dead by Daylight",
+        "skuId": "0001",
+        "usPrice": 29.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "persona-3-reload",
+      "xboxBigId": "9NKK6Z0K3RH2",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Persona 3 Reload",
+        "productTitle": "Persona 3 Reload",
+        "skuTitle": "Persona 3 Reload",
+        "skuId": "0010",
+        "usPrice": 59.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "dredge",
+      "xboxBigId": "9MSVVM5NS9L6",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "DREDGE",
+        "productTitle": "DREDGE",
+        "skuTitle": "DREDGE",
+        "skuId": "0010",
+        "usPrice": 24.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "metaphor-refantazio",
+      "xboxBigId": "9N5DV8310XP7",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Metaphor: ReFantazio",
+        "productTitle": "Metaphor: ReFantazio",
+        "skuTitle": "Metaphor: ReFantazio",
+        "skuId": "0010",
+        "usPrice": 69.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "monster-hunter-wilds",
+      "xboxBigId": "9NMT6XFN0LVD",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Monster Hunter Wilds",
+        "productTitle": "Monster Hunter Wilds",
+        "skuTitle": "Monster Hunter Wilds",
+        "skuId": "0010",
+        "usPrice": 69.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "clair-obscur-expedition-33",
+      "xboxBigId": "9PPT8K6GQHRZ",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Clair Obscur: Expedition 33",
+        "productTitle": "Clair Obscur: Expedition 33",
+        "skuTitle": "Clair Obscur: Expedition 33",
+        "skuId": "0010",
+        "usPrice": 49.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "balatro",
+      "xboxBigId": "9PK087LNGJC5",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Balatro",
+        "productTitle": "Balatro",
+        "skuTitle": "Balatro",
+        "skuId": "0010",
+        "usPrice": 14.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "hi-fi-rush",
+      "xboxBigId": "9NFTC552K3GJ",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Hi-Fi Rush",
+        "productTitle": "Hi-Fi RUSH",
+        "skuTitle": "Hi-Fi RUSH",
+        "skuId": "0010",
+        "usPrice": 29.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    },
+    {
+      "slug": "ori-and-the-will-of-the-wisps",
+      "xboxBigId": "9N8CD0XZKLP4",
+      "xboxEdition": "standard",
+      "evidence": {
+        "queryTitle": "Ori and the Will of the Wisps",
+        "productTitle": "Ori and the Will of the Wisps",
+        "skuTitle": "Ori and the Will of the Wisps",
+        "skuId": "0010",
+        "usPrice": 29.99,
+        "currency": "USD",
+        "checkedAt": "2026-07-12T02:54:57.754Z"
+      }
+    }
+  ]
+}

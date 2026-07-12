@@ -1,0 +1,46 @@
+{
+  "Products": [
+    {
+      "ProductId": "9P3J32CTXLRZ",
+      "ProductKind": "Game",
+      "LocalizedProperties": [{ "ProductTitle": "ELDEN RING" }],
+      "DisplaySkuAvailabilities": [
+        {
+          "Sku": {
+            "SkuId": "0010",
+            "SkuType": "full",
+            "LocalizedProperties": [{ "SkuTitle": "ELDEN RING" }],
+            "Properties": { "IsTrial": false, "IsBundle": false }
+          },
+          "Availabilities": [
+            {
+              "Actions": ["Purchase", "Details"],
+              "Conditions": { "StartDate": "2026-01-01T00:00:00Z", "EndDate": "2026-07-20T00:00:00Z" },
+              "OrderManagementData": { "Price": { "CurrencyCode": "USD", "ListPrice": 41.99, "MSRP": 59.99 } }
+            },
+            {
+              "Actions": ["License", "Details"],
+              "Conditions": { "StartDate": "2026-01-01T00:00:00Z", "EndDate": "9998-12-30T00:00:00Z" },
+              "OrderManagementData": { "Price": { "CurrencyCode": "USD", "ListPrice": 0, "MSRP": 0 } }
+            }
+          ]
+        },
+        {
+          "Sku": {
+            "SkuId": "0011",
+            "SkuType": "trial",
+            "LocalizedProperties": [{ "SkuTitle": "ELDEN RING" }],
+            "Properties": { "IsTrial": true, "IsBundle": false }
+          },
+          "Availabilities": [
+            {
+              "Actions": ["Purchase"],
+              "Conditions": { "EndDate": "9998-12-30T00:00:00Z" },
+              "OrderManagementData": { "Price": { "CurrencyCode": "USD", "ListPrice": 1, "MSRP": 1 } }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

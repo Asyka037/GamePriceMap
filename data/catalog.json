@@ -4,6 +4,8 @@
       "slug": "elden-ring",
       "title": "Elden Ring",
       "steamAppId": 1245620,
+      "xboxBigId": "9P3J32CTXLRZ",
+      "xboxEdition": "standard",
       "nsuids": null,
       "platforms": [
         "pc",
@@ -17,6 +19,8 @@
       "slug": "baldurs-gate-3",
       "title": "Baldur's Gate 3",
       "steamAppId": 1086940,
+      "xboxBigId": "9ND58LQTG09T",
+      "xboxEdition": "standard",
       "nsuids": null,
       "platforms": [
         "pc",
@@ -30,6 +34,8 @@
       "slug": "cyberpunk-2077",
       "title": "Cyberpunk 2077",
       "steamAppId": 1091500,
+      "xboxBigId": "BX3M8L83BBRW",
+      "xboxEdition": "standard",
       "nsuids": null,
       "platforms": [
         "pc",
@@ -95,6 +101,8 @@
       "slug": "palworld",
       "title": "Palworld",
       "steamAppId": 1623730,
+      "xboxBigId": "9NKV34XDW014",
+      "xboxEdition": "standard",
       "nsuids": null,
       "platforms": [
         "pc",
@@ -108,6 +116,8 @@
       "slug": "mount-and-blade-ii-bannerlord",
       "title": "Mount & Blade II: Bannerlord",
       "steamAppId": 261550,
+      "xboxBigId": "9PDHWZ7X3P03",
+      "xboxEdition": "standard",
       "nsuids": null,
       "platforms": [
         "pc",
@@ -146,6 +156,8 @@
       "slug": "dead-by-daylight",
       "title": "Dead by Daylight",
       "steamAppId": 381210,
+      "xboxBigId": "C0N22P73QZ60",
+      "xboxEdition": "standard",
       "nsuids": {
         "americas": "70010000003642",
         "europe": "70010000016122",
@@ -248,6 +260,8 @@
       "slug": "persona-3-reload",
       "title": "Persona 3 Reload",
       "steamAppId": 2161700,
+      "xboxBigId": "9NKK6Z0K3RH2",
+      "xboxEdition": "standard",
       "nsuids": {
         "americas": null,
         "europe": "70010000100150",
@@ -297,6 +311,8 @@
       "slug": "dredge",
       "title": "DREDGE",
       "steamAppId": 1562430,
+      "xboxBigId": "9MSVVM5NS9L6",
+      "xboxEdition": "standard",
       "nsuids": {
         "americas": null,
         "europe": "70010000049268",
@@ -327,6 +343,8 @@
       "slug": "metaphor-refantazio",
       "title": "Metaphor: ReFantazio",
       "steamAppId": 2679460,
+      "xboxBigId": "9N5DV8310XP7",
+      "xboxEdition": "standard",
       "nsuids": null,
       "platforms": [
         "pc",
@@ -340,6 +358,8 @@
       "slug": "monster-hunter-wilds",
       "title": "Monster Hunter Wilds",
       "steamAppId": 2246340,
+      "xboxBigId": "9NMT6XFN0LVD",
+      "xboxEdition": "standard",
       "nsuids": null,
       "platforms": [
         "pc",
@@ -366,6 +386,8 @@
       "slug": "clair-obscur-expedition-33",
       "title": "Clair Obscur: Expedition 33",
       "steamAppId": 1903340,
+      "xboxBigId": "9PPT8K6GQHRZ",
+      "xboxEdition": "standard",
       "nsuids": null,
       "platforms": [
         "pc",
@@ -396,6 +418,8 @@
       "slug": "balatro",
       "title": "Balatro",
       "steamAppId": 2379780,
+      "xboxBigId": "9PK087LNGJC5",
+      "xboxEdition": "standard",
       "nsuids": {
         "americas": null,
         "europe": "70010000072052",
@@ -450,6 +474,8 @@
       "slug": "hi-fi-rush",
       "title": "Hi-Fi Rush",
       "steamAppId": 1817230,
+      "xboxBigId": "9NFTC552K3GJ",
+      "xboxEdition": "standard",
       "nsuids": null,
       "platforms": [
         "pc",
@@ -561,6 +587,8 @@
       "slug": "ori-and-the-will-of-the-wisps",
       "title": "Ori and the Will of the Wisps",
       "steamAppId": 1057090,
+      "xboxBigId": "9N8CD0XZKLP4",
+      "xboxEdition": "standard",
       "nsuids": {
         "americas": "70010000014130",
         "europe": "70010000034726",

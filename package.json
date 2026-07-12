@@ -9,9 +9,12 @@
   "scripts": {
     "scrape:steam": "node scripts/scrape-steam.mjs",
     "history": "node scripts/build-history.mjs",
+    "history:observations": "node scripts/build-history.mjs --observations-only",
     "validate": "node scripts/validate.mjs",
     "test": "node --test scripts/test/*.test.mjs",
     "scrape:eshop": "node scripts/scrape-eshop.mjs",
-    "discover": "node scripts/discover-nsuid.mjs"
+    "scrape:xbox": "node scripts/scrape-xbox.mjs",
+    "discover": "node scripts/discover-nsuid.mjs",
+    "discover:xbox": "node scripts/discover-xbox.mjs"
   }
 }

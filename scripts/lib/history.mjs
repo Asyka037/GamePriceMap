@@ -5,7 +5,7 @@
  * the canonical region (US) per channel. Daily reruns with an unchanged
  * price append nothing, so git growth stays proportional to real changes.
  *
- * ATL keys: 'pc' (Steam US), 'eshop-us' (Phase 2). Seeds record provenance
+ * ATL keys: 'pc' (Steam US), 'eshop-us', 'xbox-us'. Seeds record provenance
  * so the UI can phrase honesty ("lowest since we started tracking" vs
  * externally seeded all-time low).
  */
@@ -18,8 +18,8 @@ export function emptyHistory(slug) {
  * Apply one channel snapshot to a history object (pure — returns new object).
  * @param history existing history (or null)
  * @param snapshot §4.2 snapshot with regions[]
- * @param channel 'steam' | 'eshop'
- * @param atlKey  'pc' | 'eshop-us'
+ * @param channel 'steam' | 'eshop' | 'xbox'
+ * @param atlKey  'pc' | 'eshop-us' | 'xbox-us'
  * @param today   'YYYY-MM-DD'
  */
 export function applySnapshot(history, snapshot, { channel, atlKey, today }) {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T11:36:07.476Z",
+  "updatedAt": "2026-07-12T03:05:22.573Z",
   "sources": {
     "steam-regional": {
       "lastAttemptAt": "2026-07-11T11:36:07.476Z",
@@ -12,6 +12,12 @@
       "lastSuccessAt": "2026-07-11T11:35:30.260Z",
       "consecutiveFailures": 0,
       "note": "changed 1, unchanged 20, skipped 0, failed region requests 0"
+    },
+    "xbox-us": {
+      "lastAttemptAt": "2026-07-12T03:05:22.573Z",
+      "lastSuccessAt": "2026-07-12T03:05:22.573Z",
+      "consecutiveFailures": 0,
+      "note": "changed 0, unchanged 14, failed products 0, failed requests 0, expected 14"
     }
   }
 }
