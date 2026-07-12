@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { parsePriceEntry, indexPricesById, ESHOP_REGIONS, filterOutlierRegions } from '../lib/eshop.mjs';
-import { assembleSnapshot } from '../lib/snapshot.mjs';
+import { assembleRawSnapshot, enrichSnapshot } from '../lib/snapshot.mjs';
 
 const usBody = JSON.parse(readFileSync(new URL('./fixtures/eshop-price-us.json', import.meta.url)));
 const gbBody = JSON.parse(readFileSync(new URL('./fixtures/eshop-price-gb-discount.json', import.meta.url)));
@@ -45,23 +45,25 @@ test('non-purchasable sales_status yields null', () => {
 });
 
 test('hyperinflation-stale legacy price is dropped, sane cheap regions survive', () => {
-  const mk = (cc, usd) => ({ cc, usd, rank: 0 });
-  const snap = { slug: 'g', updatedAt: 'x', regions: [mk('AR', 0.12), mk('ZA', 11.36), mk('BR', 13), mk('US', 19.99), mk('GB', 21)] };
-  const out = filterOutlierRegions(snap);
-  assert.deepEqual(out.regions.map((r) => r.cc), ['ZA', 'BR', 'US', 'GB']);
-  assert.equal(out.regions[0].rank, 1);
-  const few = { slug: 'g', updatedAt: 'x', regions: [mk('AR', 0.12), mk('US', 19.99)] };
-  assert.equal(filterOutlierRegions(few).regions.length, 2, 'too few points: no filtering');
+  const mk = (cc, amount) => ({ cc, currency: 'USD', amount, list: null, discountPct: null, saleEndsAt: null });
+  const snap = { slug: 'g', regions: [mk('AR', 0.12), mk('BR', 13), mk('GB', 21), mk('US', 19.99), mk('ZA', 11.36)] };
+  const out = filterOutlierRegions(snap, {});
+  assert.deepEqual(out.regions.map((r) => r.cc), ['BR', 'GB', 'US', 'ZA']);
+  const few = { slug: 'g', regions: [mk('AR', 0.12), mk('US', 19.99)] };
+  assert.equal(filterOutlierRegions(few, {}).regions.length, 2, 'too few points: no filtering');
 });
 
-test('eshop rows flow through shared snapshot assembler with saleEndsAt', () => {
+test('raw assembly keeps saleEndsAt; enrichment derives usd order and ranks', () => {
   const rows = [
     { cc: 'gb', currency: 'GBP', amount: 50.39, list: 125.99, discountPct: 60, saleEndsAt: '2026-07-08T22:59:59Z' },
     { cc: 'us', currency: 'USD', amount: 59.99, list: null, discountPct: null, saleEndsAt: null },
   ];
-  const snap = assembleSnapshot('demo', rows, { GBP: 0.8 }, new Date('2026-07-08T00:00:00Z'));
-  assert.equal(snap.regions[0].cc, 'US');
-  assert.equal(snap.regions[1].cc, 'GB');
-  assert.equal(snap.regions[1].usd, 62.99);
-  assert.equal(snap.regions[1].saleEndsAt, '2026-07-08T22:59:59Z');
+  const raw = assembleRawSnapshot('demo', rows);
+  assert.deepEqual(raw.regions.map((r) => r.cc), ['GB', 'US'], 'raw is cc-sorted');
+  assert.equal(raw.regions[0].saleEndsAt, '2026-07-08T22:59:59Z');
+  const rich = enrichSnapshot(raw, { GBP: 0.8 });
+  assert.equal(rich.regions[0].cc, 'US');
+  assert.equal(rich.regions[0].rank, 1);
+  assert.equal(rich.regions[1].usd, 62.99);
+  assert.equal(rich.regions[1].listUsd, 157.49);
 });

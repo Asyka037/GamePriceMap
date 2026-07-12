@@ -63,7 +63,7 @@ export function buyWaitVerdict(bundle) {
   const atlNote = atl.seed === 'self' ? 'lowest we have tracked' : 'all-time low on record';
   if (ratio <= 1.001) return { verdict: 'BUY', text: `Current price matches the ${atlNote} (${fmtUsd(atl.usd)}). Historically this is as good as it gets.` };
   if (ratio <= 1.15) return { verdict: 'FAIR', text: `Within 15% of the ${atlNote} (${fmtUsd(atl.usd)}). A fine entry point if you want it now.` };
-  return { verdict: 'WAIT', text: `The ${atlNote} is ${fmtUsd(atl.usd)} — ${Math.round((ratio - 1) * 100)}% below today. Patience has paid before.` };
+  return { verdict: 'WAIT', text: `The ${atlNote} is ${fmtUsd(atl.usd)} — ${Math.round((1 - atl.usd / best.usd) * 100)}% below today. Patience has paid before.` };
 }
 
 /** Region-gap leaderboard rows across all games: biggest cheapest-vs-US savings. */

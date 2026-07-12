@@ -5,6 +5,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { enrichSnapshot } from '../../../scripts/lib/snapshot.mjs';
 
 const DATA = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', '..', 'data');
 
@@ -17,8 +18,14 @@ function readJson(rel, fallback = null) {
 }
 
 export const catalog = () => readJson('catalog.json', { games: [] }).games;
-export const steamSnapshot = (slug) => readJson(`snapshots/steam/${slug}.json`);
-export const eshopSnapshot = (slug) => readJson(`snapshots/eshop/${slug}.json`);
+
+// 快照在 git 中只存本币原始观测（data-v2.1）；USD/排名在此处用当日汇率派生，
+// 下游（derive/pages/map）拿到的形状与旧 schema 完全一致。
+let ratesCache = null;
+const currentRates = () => (ratesCache ??= readJson('rates/usd.json', { rates: {} }).rates ?? {});
+export const steamSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/steam/${slug}.json`), currentRates());
+export const eshopSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/eshop/${slug}.json`), currentRates());
+export const sourceHealth = () => readJson('source-health.json', { updatedAt: null, sources: {} });
 export const history = (slug) => readJson(`history/${slug}.json`);
 export const meta = (slug) => readJson(`meta/${slug}.json`);
 export const feed = (name) => readJson(`feeds/${name}.json`, { updatedAt: null, items: [] });
@@ -37,12 +44,13 @@ export function gameBundle(slug) {
   };
 }
 
-/** Newest updatedAt across the data tree (footer freshness stamp). */
+/** Newest freshness stamp (footer) — snapshots carry no timestamps now. */
 export function dataUpdatedAt() {
+  const sh = sourceHealth();
   const stamps = [
     rates().updatedAt,
     feed('deals-steam').updatedAt,
-    ...catalog().slice(0, 5).map((g) => steamSnapshot(g.slug)?.updatedAt),
+    ...Object.values(sh.sources ?? {}).map((s) => s.lastSuccessAt),
   ].filter(Boolean);
   return stamps.sort().at(-1) ?? null;
 }

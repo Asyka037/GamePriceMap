@@ -43,21 +43,14 @@ test('missing price_overview (unreleased/region-locked) yields null', () => {
   assert.equal(parsePriceOverview(undefined), null);
 });
 
-test('snapshot sorts regions by usd asc and assigns ranks', () => {
-  const rates = { UAH: 44.5 };
+test('raw snapshot keeps local currency only, sorted by cc, no derived fields', () => {
   const snap = buildSnapshot('demo', {
     us: { currency: 'USD', amount: 59.99, list: null, discountPct: null },
     ua: { currency: 'UAH', amount: 899, list: 1799, discountPct: 50 },
-  }, rates, new Date('2026-07-08T00:00:00Z'));
-
-  assert.equal(snap.regions.length, 2);
-  assert.equal(snap.regions[0].cc, 'UA');
-  assert.equal(snap.regions[0].rank, 1);
-  assert.equal(snap.regions[0].usd, 20.2);
-  assert.equal(snap.regions[0].listUsd, 40.43);
-  assert.equal(snap.regions[1].cc, 'US');
-  assert.equal(snap.regions[1].rank, 2);
-  assert.equal(snap.updatedAt, '2026-07-08T00:00:00.000Z');
+  });
+  assert.deepEqual(snap.regions.map((r) => r.cc), ['UA', 'US']);
+  assert.ok(!('usd' in snap.regions[0]) && !('rank' in snap.regions[0]) && !('updatedAt' in snap));
+  assert.equal(snap.regions[0].amount, 899);
 });
 
 test('regions without price are dropped from snapshot', () => {

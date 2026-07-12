@@ -1,204 +1,150 @@
 {
   "slug": "monster-hunter-wilds",
-  "updatedAt": "2026-07-11T09:08:28.149Z",
+  "lastPriceChangeAt": "2026-07-10",
   "regions": [
-    {
-      "cc": "UA",
-      "currency": "UAH",
-      "amount": 1999,
-      "usd": 44.91,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 1
-    },
-    {
-      "cc": "IN",
-      "currency": "INR",
-      "amount": 4499,
-      "usd": 47.14,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 2
-    },
-    {
-      "cc": "CN",
-      "currency": "CNY",
-      "amount": 348,
-      "usd": 51.29,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 3
-    },
-    {
-      "cc": "TR",
-      "currency": "USD",
-      "amount": 52.49,
-      "usd": 52.49,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 4
-    },
     {
       "cc": "AR",
       "currency": "USD",
       "amount": 52.49,
-      "usd": 52.49,
       "list": null,
-      "listUsd": null,
       "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 5
-    },
-    {
-      "cc": "BR",
-      "currency": "BRL",
-      "amount": 279,
-      "usd": 54.55,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 6
-    },
-    {
-      "cc": "KZ",
-      "currency": "KZT",
-      "amount": 25799,
-      "usd": 54.99,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 7
-    },
-    {
-      "cc": "GE",
-      "currency": "USD",
-      "amount": 54.99,
-      "usd": 54.99,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 8
-    },
-    {
-      "cc": "JP",
-      "currency": "JPY",
-      "amount": 8990,
-      "usd": 55.57,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 9
-    },
-    {
-      "cc": "KR",
-      "currency": "KRW",
-      "amount": 84800,
-      "usd": 56.42,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 10
-    },
-    {
-      "cc": "CA",
-      "currency": "CAD",
-      "amount": 89.99,
-      "usd": 63.58,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 11
-    },
-    {
-      "cc": "MX",
-      "currency": "MXN",
-      "amount": 1199,
-      "usd": 68.53,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 12
-    },
-    {
-      "cc": "PK",
-      "currency": "USD",
-      "amount": 69.99,
-      "usd": 69.99,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 13
-    },
-    {
-      "cc": "US",
-      "currency": "USD",
-      "amount": 69.99,
-      "usd": 69.99,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 14
+      "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
       "amount": 104.95,
-      "usd": 72.95,
       "list": null,
-      "listUsd": null,
       "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 15
+      "saleEndsAt": null
     },
     {
-      "cc": "DE",
-      "currency": "EUR",
-      "amount": 69.99,
-      "usd": 79.94,
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 279,
       "list": null,
-      "listUsd": null,
       "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 16
+      "saleEndsAt": null
     },
     {
-      "cc": "GB",
-      "currency": "GBP",
-      "amount": 59.99,
-      "usd": 80.42,
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 89.99,
       "list": null,
-      "listUsd": null,
       "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 17
+      "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
       "amount": 69.9,
-      "usd": 86.52,
       "list": null,
-      "listUsd": null,
       "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 18
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 348,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 59.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 54.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 4499,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 8990,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 84800,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 25799,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 1199,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 52.49,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 1999,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     }
   ]
 }

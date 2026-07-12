@@ -41,16 +41,16 @@ export function parsePriceOverview(entry) {
 }
 
 /**
- * Assemble one game's regional snapshot (§4.2 schema):
+ * Assemble one game's RAW regional snapshot (data-v2.1: local currency only):
  * regionPrices: { cc -> parsePriceOverview() result }.
- * Delegates to the shared snapshot assembler; Steam has no sale-end times.
+ * Steam has no sale-end times.
  */
-export function buildSnapshot(slug, regionPrices, rates, now = new Date()) {
+export function buildSnapshot(slug, regionPrices) {
   const rows = Object.entries(regionPrices)
     .filter(([, p]) => p)
     .map(([cc, p]) => ({ cc, currency: p.currency, amount: p.amount, list: p.list, discountPct: p.discountPct, saleEndsAt: null }));
-  return assembleSnapshot(slug, rows, rates, now);
+  return assembleRawSnapshot(slug, rows);
 }
 
 export { toUsd, round2 } from './snapshot.mjs';
-import { assembleSnapshot, round2 } from './snapshot.mjs';
+import { assembleRawSnapshot, round2 } from './snapshot.mjs';

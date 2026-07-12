@@ -139,5 +139,17 @@
 **验证**：51/51 单测（新增 isLive/atlFor/match/par 共 6 项）；validate 删快照现在正确 fail；139 页构建；产物断言全绿（JSON-LD 无裸 <、Celeste eShop ATL $19.99、日历默认 2026-07）。
 **后续任务（未在本批）**：astro 7.x 大版本升级（需回归测试）；/status 每游戏粒度陈旧检测；移动端汉堡菜单（既有遗留 #3）。
 
+### 2026-07-11 数据 v2.1 Phase A' 实施（Claude）
+- [x] 快照层重写：`assembleRawSnapshot`（本币观测，cc 排序）/ `sameObservations`（语义写入守卫，排除 lastPriceChangeAt）/ `enrichSnapshot`（构建期派生 usd/listUsd/rank）/ `usObservation`（美区原生 USD 断言）
+- [x] 双 scraper 改造：失败区域行进位（steam 用 `cc in prices` 区分抓取失败与无售；eshop 用 failedCcs 集合）、语义不变不写盘、仅变化日更新 `lastPriceChangeAt`、每源写 `recordSourceRun`
+- [x] `data/source-health.json` 台账（lastAttemptAt/lastSuccessAt/consecutiveFailures）；footer 新鲜度与 validate 均改从台账取数
+- [x] validate 强化：快照禁含派生字段、US 行必须原生 USD、cc 排序、币种缺汇率即失败、source-health schema 断言置于错误闸门之前
+- [x] 一次性迁移 63 快照（幂等，二跑 0）；实抓验证写入守卫：steam 二次运行 **0 changed / 42 unchanged**（旧架构下汇率抖动曾致 42/42 天天全脏）
+- [x] 趋势图：`site/src/lib/chart.mjs` 纯几何 `stepChartModel`（阶梯线；末端=该源 lastSuccessAt 并对过期值钳制；<2 事件返回 null）+ price-history 页每渠道 SVG 图（单渠道游戏不显示无关渠道列，降级"tracking since"虚线空态）
+- [x] 测试：steam/eshop 测试改断言 raw schema，新增 snapshot/chart 测试组，共 **62/62 绿**（原 45）
+- [x] 顺手修复既有文案 bug：WAIT 卡百分比公式与措辞不符（(ratio−1) 可超 100%，Elden Ring 显示 "100% below today"），改为 1−atl/best（现 50%），补回归测试
+- [x] 预览验证：Hades II 双渠道阶梯图（$20.99→$29.99，末端延伸至 07/11）、Elden Ring 单渠道空态、移动端叠列，截图确认
+- 评审：派生与观测彻底分离后，git diff 恢复"有变化才有 diff"的语义；趋势图诚实性三原则落地（自观测、末端=最后确认日、数据不足不硬画）。
+
 ## 需要用户操作的事项
 - [ ] 每周审核 suggestions/catalog-candidates.json 决定新游戏入库

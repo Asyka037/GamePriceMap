@@ -86,18 +86,19 @@ function validateSnapshotDir(dir) {
     if (!Array.isArray(snap.regions) || snap.regions.length === 0) { fail(`${rel}: no regions`); continue; }
 
     for (const r of snap.regions) {
-      if (!(r.amount > 0) || !(r.usd > 0)) fail(`${rel} ${r.cc}: non-positive price`);
+      if (!(r.amount > 0)) fail(`${rel} ${r.cc}: non-positive price`);
       if (r.discountPct !== null && !(r.discountPct > 0 && r.discountPct <= 100)) fail(`${rel} ${r.cc}: discountPct ${r.discountPct} out of range`);
       if (r.discountPct !== null && !(r.list > 0)) fail(`${rel} ${r.cc}: discount without list price`);
-      // conversion re-check against committed rates
-      const rate = r.currency === 'USD' ? 1 : rates[r.currency];
-      if (rate) {
-        const expect = r.amount / rate;
-        if (Math.abs(expect - r.usd) / expect > 0.02) fail(`${rel} ${r.cc}: usd ${r.usd} deviates >2% from ${expect.toFixed(2)}`);
-      }
+      if ('usd' in r || 'rank' in r) fail(`${rel} ${r.cc}: derived field persisted (usd/rank belong to build time)`);
+      // 缺失汇率 = 构建期该区域会消失，硬失败
+      if (r.currency !== 'USD' && !(rates[r.currency] > 0)) fail(`${rel} ${r.cc}: no exchange rate for ${r.currency}`);
     }
-    const ranks = snap.regions.map((r) => r.rank).sort((a, b) => a - b);
-    if (ranks[0] !== 1 || ranks[ranks.length - 1] !== ranks.length) fail(`${rel}: broken rank sequence`);
+    // US 行必须原生 USD（history 事件 FX 免疫的前提）
+    const usRow = snap.regions.find((r) => r.cc === 'US');
+    if (usRow && usRow.currency !== 'USD') fail(`${rel}: US row currency ${usRow.currency} breaks the native-USD invariant`);
+    // 稳定字典序（写盘守卫的语义比较依赖它）
+    const ccs = snap.regions.map((r) => r.cc);
+    if (ccs.join() !== [...ccs].sort().join()) fail(`${rel}: regions not sorted by cc`);
 
     const prev = gitHeadJson(rel);
     if (prev?.regions?.length && snap.regions.length < prev.regions.length * 0.8) {
@@ -170,6 +171,14 @@ if (fs.existsSync(metaDir)) {
   }
 }
 
+// --- source-health（新鲜度账本，v2.1）：在闸门判定之前校验 ---
+const sourceHealthPath = path.join(ROOT, 'data/source-health.json');
+const sourceHealth = fs.existsSync(sourceHealthPath) ? readJson('data/source-health.json') : { sources: {} };
+for (const [name, e] of Object.entries(sourceHealth.sources ?? {})) {
+  if (e.lastAttemptAt && Number.isNaN(Date.parse(e.lastAttemptAt))) fail(`source-health ${name}: bad lastAttemptAt`);
+  if (!(Number.isInteger(e.consecutiveFailures) && e.consecutiveFailures >= 0)) fail(`source-health ${name}: bad consecutiveFailures`);
+}
+
 if (errors.length) {
   console.error(`✗ Validation failed with ${errors.length} error(s):`);
   for (const e of errors) console.error('  - ' + e);
@@ -192,8 +201,8 @@ const health = {
   games: catalog.games.length,
   sources: {
     rates: ratesDoc.updatedAt ?? null,
-    'steam-regional': newestStamp('data/snapshots/steam'),
-    'eshop-regional': newestStamp('data/snapshots/eshop'),
+    'steam-regional': sourceHealth.sources?.['steam-regional']?.lastSuccessAt ?? null,
+    'eshop-regional': sourceHealth.sources?.['eshop-regional']?.lastSuccessAt ?? null,
     'deals-steam': fs.existsSync(path.join(ROOT, 'data/feeds/deals-steam.json')) ? readJson('data/feeds/deals-steam.json').updatedAt : null,
     'deals-eshop': fs.existsSync(path.join(ROOT, 'data/feeds/deals-eshop.json')) ? readJson('data/feeds/deals-eshop.json').updatedAt : null,
     'deals-stores': fs.existsSync(path.join(ROOT, 'data/feeds/deals-stores.json')) ? readJson('data/feeds/deals-stores.json').updatedAt : null,

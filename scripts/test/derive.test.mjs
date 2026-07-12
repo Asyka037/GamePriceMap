@@ -27,6 +27,12 @@ test('verdict tiers: BUY at ATL, FAIR within 15%, WAIT beyond', () => {
   assert.equal(buyWaitVerdict(bundle({ history: null })), null);
 });
 
+test('WAIT percentage means "ATL below today", never exceeds 100', () => {
+  // best $30 vs ATL $15: below-today = 1 - 15/30 = 50% (not (30/15 - 1) = 100%)
+  const b = bundle({ history: { atl: { pc: { usd: 15, seed: 'self' } }, events: [] } });
+  assert.match(buyWaitVerdict(b).text, /50% below today/);
+});
+
 test('verdict wording distinguishes self-tracked vs seeded ATL (honesty)', () => {
   const self = bundle({ history: { atl: { pc: { usd: 30, seed: 'self' } }, events: [] } });
   assert.match(buyWaitVerdict(self).text, /lowest we have tracked/);

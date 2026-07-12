@@ -13,6 +13,7 @@ import { fileURLToPath } from 'node:url';
 import { fetchJson, sleep, chunk } from './lib/http.mjs';
 import { lookupUrl, batchUrl, parseGameLookup, parseCheapestEver, GAMES_BATCH_SIZE } from './lib/cheapshark.mjs';
 import { applySnapshot, seedAtl, emptyHistory } from './lib/history.mjs';
+import { usObservation } from './lib/snapshot.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const HIST_DIR = path.join(ROOT, 'data', 'history');
@@ -49,7 +50,10 @@ for (const g of games) {
   for (const { dir, channel, atlKey } of channels) {
     const snapPath = path.join(dir, `${g.slug}.json`);
     if (!fs.existsSync(snapPath)) continue;
-    const snapshot = JSON.parse(fs.readFileSync(snapPath, 'utf8'));
+    const raw = JSON.parse(fs.readFileSync(snapPath, 'utf8'));
+    const us = usObservation(raw); // US 行原生 USD（validate 强制），FX 免疫
+    if (!us) continue;
+    const snapshot = { slug: raw.slug, regions: [{ cc: 'US', usd: us.usd, discountPct: us.discountPct ?? null }] };
     const res = applySnapshot(h, snapshot, { channel, atlKey, today });
     if (res.changed) events++;
     h = res.history;

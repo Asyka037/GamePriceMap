@@ -11,6 +11,8 @@
  * verified against TotK £59.99.
  */
 
+import { toUsd } from './snapshot.mjs';
+
 export const ESHOP_REGIONS = [
   { cc: 'US', group: 'americas' },
   { cc: 'CA', group: 'americas' },
@@ -77,13 +79,14 @@ export function indexPricesById(body) {
  * whose USD price is below `minRatio` of the game's median is removed and
  * ranks are recomputed.
  */
-export function filterOutlierRegions(snapshot, minRatio = 0.1) {
-  const usds = snapshot.regions.map((r) => r.usd).sort((a, b) => a - b);
-  if (usds.length < 4) return snapshot; // too few points for a robust median
+export function filterOutlierRegions(rawSnapshot, rates, minRatio = 0.1) {
+  const withUsd = rawSnapshot.regions
+    .map((r) => ({ r, usd: toUsd(r.amount, r.currency, rates) }))
+    .filter((x) => x.usd !== null);
+  if (withUsd.length < 4) return rawSnapshot; // too few points for a robust median
+  const usds = withUsd.map((x) => x.usd).sort((a, b) => a - b);
   const median = usds[Math.floor(usds.length / 2)];
-  const kept = snapshot.regions.filter((r) => r.usd >= median * minRatio);
-  if (kept.length === snapshot.regions.length) return snapshot;
-  kept.sort((a, b) => a.usd - b.usd);
-  kept.forEach((r, i) => { r.rank = i + 1; });
-  return { ...snapshot, regions: kept };
+  const keep = new Set(withUsd.filter((x) => x.usd >= median * minRatio).map((x) => x.r.cc));
+  if (keep.size === rawSnapshot.regions.length) return rawSnapshot;
+  return { ...rawSnapshot, regions: rawSnapshot.regions.filter((r) => keep.has(r.cc)) };
 }

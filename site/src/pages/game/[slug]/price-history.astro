@@ -3,8 +3,9 @@ import Layout from '../../../layouts/Layout.astro';
 import GameHero from '../../../components/GameHero.astro';
 import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
-import { catalog, gameBundle } from '../../../lib/data.mjs';
+import { catalog, gameBundle, sourceHealth } from '../../../lib/data.mjs';
 import { fmtUsd } from '../../../lib/derive.mjs';
+import { stepChartModel } from '../../../lib/chart.mjs';
 
 export function getStaticPaths() {
   return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
@@ -20,6 +21,23 @@ const seedLabels: Record<string, string> = {
   'eshop-eu': 'UK-shop lowest via Nintendo index',
 };
 const events = [...(bundle.history?.events ?? [])].reverse();
+
+// 趋势图：美区自观测阶梯线；末端 = 该源 lastSuccessAt（最后一次确认价格的时刻），
+// 不是"今天"——抓取停摆时线就停在那里，不假装数据仍新鲜。
+const health = sourceHealth().sources ?? {};
+const TRACKING_SINCE = '2026-07-08';
+const channels = [
+  { ch: 'steam', label: 'Steam · US', color: 'var(--teal)', source: 'steam-regional', tracked: !!bundle.steam },
+  { ch: 'eshop', label: 'eShop · US', color: 'var(--red)', source: 'eshop-regional', tracked: !!bundle.eshop },
+].filter((c) => c.tracked).map((c) => {
+  const model = stepChartModel(bundle.history?.events ?? [], {
+    channel: c.ch,
+    endDate: health[c.source]?.lastSuccessAt ?? null,
+  });
+  const first = (bundle.history?.events ?? []).find((e) => e.ch === c.ch);
+  return { ...c, model, since: first?.d ?? TRACKING_SINCE };
+});
+const hasAnyChart = channels.some((c) => c.model);
 ---
 <Layout
   title={`${game.title} price history & all-time low | GamePriceMap`}
@@ -30,7 +48,53 @@ const events = [...(bundle.history?.events ?? [])].reverse();
     <GameTabs slug={slug!} current="history" />
 
     <section style="padding: 24px 0 8px;">
-      <div class="detail-cols" style="grid-template-columns: 340px 1fr;">
+      <div class="panel trend-panel">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><polyline points="3 17 8 17 8 11 13 11 13 6 21 6"/></svg>
+          US price trend
+        </h3>
+        <div class="trend-grid" style={channels.length === 1 ? 'grid-template-columns: 1fr;' : undefined}>
+          {channels.map((c) => (
+            <figure class="trend-fig">
+              <figcaption>
+                <span class="trend-ch" style={`color:${c.color};`}>{c.label}</span>
+                {c.model && <span class="trend-now mono">{fmtUsd(c.model.lastUsd)}</span>}
+              </figcaption>
+              {c.model ? (
+                <svg
+                  class="trend-svg"
+                  viewBox={`0 0 ${c.model.w} ${c.model.h}`}
+                  role="img"
+                  aria-label={`${c.label} price steps from ${c.model.dots[0].d} to ${c.model.endDate}`}
+                >
+                  {c.model.yTicks.map((t) => (
+                    <>
+                      <line x1={c.model.plot.x} y1={t.y} x2={c.model.plot.x + c.model.plot.w} y2={t.y} class="trend-grid-line" />
+                      <text x={c.model.plot.x - 6} y={t.y + 4} class="trend-tick" text-anchor="end">{t.label}</text>
+                    </>
+                  ))}
+                  {c.model.xTicks.map((t) => (
+                    <text x={t.x} y={c.model.h - 6} class="trend-tick" text-anchor={t.anchor}>{t.label}</text>
+                  ))}
+                  <path d={c.model.path} class="trend-line" style={`stroke:${c.color};`} />
+                  {c.model.dots.map((p) => (
+                    <rect x={p.x - 4} y={p.y - 4} width="8" height="8" class="trend-dot" style={`fill:${c.color};`}>
+                      <title>{p.d} — {fmtUsd(p.usd)}{p.pct ? ` (−${p.pct}%)` : ''}</title>
+                    </rect>
+                  ))}
+                </svg>
+              ) : (
+                <p class="trend-empty">Tracking since <span class="mono">{c.since}</span> — not enough price changes to chart yet.</p>
+              )}
+            </figure>
+          ))}
+        </div>
+        {hasAnyChart && (
+          <p class="trend-note">Lines extend to the last day each source was successfully checked, not to today.</p>
+        )}
+      </div>
+
+      <div class="detail-cols" style="grid-template-columns: 340px 1fr; margin-top: 18px;">
         <div class="panel">
           <h3>
             <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
@@ -79,3 +143,51 @@ const events = [...(bundle.history?.events ?? [])].reverse();
     </section>
   </div>
 </Layout>
+
+<style>
+  .trend-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 12px;
+  }
+  @media (max-width: 760px) {
+    .trend-grid { grid-template-columns: 1fr; }
+  }
+  .trend-fig { margin: 0; min-width: 0; }
+  .trend-fig figcaption {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .trend-ch { font-weight: 800; font-size: 13.5px; }
+  .trend-now { font-weight: 700; color: var(--ink); }
+  .trend-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: #fff;
+    border: 2.5px solid var(--ink);
+    box-shadow: var(--shadow-sm);
+  }
+  .trend-grid-line { stroke: var(--ink); stroke-opacity: 0.14; stroke-width: 1; stroke-dasharray: 3 4; }
+  .trend-tick { font-family: var(--font-mono); font-size: 10.5px; font-weight: 600; fill: var(--text-2); }
+  .trend-line { fill: none; stroke-width: 3; shape-rendering: crispEdges; }
+  .trend-dot { stroke: var(--ink); stroke-width: 2; shape-rendering: crispEdges; }
+  .trend-empty {
+    border: 2.5px dashed var(--ink);
+    padding: 22px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-2);
+    text-align: center;
+  }
+  .trend-note {
+    margin-top: 10px;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--text-3);
+  }
+</style>

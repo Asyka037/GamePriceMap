@@ -1,22 +1,26 @@
-# GamePriceMap 交接文档（2026-07-10）
+# GamePriceMap 交接文档（2026-07-11）
 
 > 读者：CodeX / 任何接手的维护者。本文是当前状态的快照与代码地图；**执行任何开发前，先读 `design.md`（UI 约束）与 `tasks/lessons.md`（踩坑记录），两者具有约束力。**
 
 ## 1. 项目状态一览
 
 - **线上**：https://gamepricemap.pages.dev （Cloudflare Pages git 集成，push main 自动部署）
-- **进度**：V1 方案（`docs/plans/2026-07-07-dealdex-v1-plan.md`）Phase 0–6 **全部完成**；区域定价像素地图经两轮用户反馈迭代至 v3
+- **进度**：V1 方案（`docs/plans/2026-07-07-dealdex-v1-plan.md`）Phase 0–6 **全部完成**；区域定价像素地图迭代至 v3；数据 v2.1 **Phase A'（分层数据地基 + 自观测趋势图）已完成**（`docs/plans/2026-07-10-data-v2-research.md`）
 - **自动化**：GitHub Actions 每日 07:30 UTC 数据管线（Steam 18 区 + eShop 16 区 + 4 路 feeds + 历史/史低 + 校验闸门 + 机器人提交）、每周一 09:00 UTC（元数据/日历/目录候选）；已连续无人值守运行
-- **规模**：42 款游戏（21 款含 eShop NSUID）、139 静态页、45 项单测全绿
+- **规模**：42 款游戏（21 款含 eShop NSUID）、139 静态页、62 项单测全绿
 - **验收记录**：每个 Phase 的验证输出都在 `tasks/todo.md` 评审区，含真实运行数字
 
 ## 2. 数据流（一句话版）
 
 ```
-catalog.json(人审目录) → scripts/scrape-*.mjs(每日抓取) → data/snapshots+feeds(JSON)
-→ build-history.mjs(事件化历史+史低) → validate.mjs(闸门,失败不提交,产出health.json)
-→ git commit → Cloudflare Pages 重建 Astro 静态站(site/)
+catalog.json(人审目录) → scripts/scrape-*.mjs(每日抓取) → data/snapshots(本币原始观测,仅语义变化才写)
+→ build-history.mjs(事件化历史+史低,美区原生USD免疫汇率) → validate.mjs(闸门,失败不提交)
+→ git commit(附 data/source-health.json 新鲜度台账) → Cloudflare Pages 重建 Astro 静态站
+   （site/lib/data.mjs 构建期用当日汇率派生 usd/rank，下游页面拿到的形状不变）
 ```
+
+快照分层是 v2.1 的核心决策：git 里只存本币观测（cc/currency/amount/list/discountPct/saleEndsAt），
+USD 与排名在站点构建期派生。动机有实证：汇率抖动曾让 42/42 快照每天全部"变脏"（532 行 usd 变动而本币价格零变化）。
 
 ## 3. 代码地图
 
@@ -30,29 +34,33 @@ scripts/
   lib/calendar.mjs      日历解析（模糊日期拒绝不猜测）
   lib/history.mjs       事件溯源 + 史低种子合并（≤0 价拒绝）
   lib/cheapshark.mjs    CheapShark 解析（赠送价≠史低）
-  lib/snapshot.mjs      快照组装（Steam/eShop 共用）
+  lib/snapshot.mjs      快照层核心：assembleRawSnapshot(本币组装,cc排序)/sameObservations(写入守卫)/
+                        enrichSnapshot(构建期派生usd+rank)/usObservation(美区原生USD断言)
+  lib/sourcehealth.mjs  data/source-health.json 台账（lastAttemptAt/lastSuccessAt/consecutiveFailures）
   scrape-steam.mjs / scrape-eshop.mjs / scrape-feeds.mjs / scrape-calendar.mjs / scrape-meta.mjs
   build-history.mjs     历史演进 + CheapShark/EU 种子
   discover-nsuid.mjs    半自动 NSUID 三区发现（精确标题匹配 + 去重守卫；--apply 写回）
   suggest-catalog.mjs   目录候选（只写 suggestions/，绝不碰 catalog）
   validate.mjs          生产闸门（价格/折扣/换算/覆盖率断言 + health.json）
   build-worldgrid.mjs   一次性：Natural Earth → 80×40 像素栅格（产出 site/src/lib/worldgrid.data.mjs，勿手改）
-  test/                 45 项单测 + 真实响应 fixtures（node --test）
+  test/                 62 项单测 + 真实响应 fixtures（node --test）
 site/
   src/lib/data.mjs      构建期读 /data（唯一 IO 层）
   src/lib/derive.mjs    派生纯函数（买/等规则、榜单、格式化）——根目录单测直接测它
   src/lib/mapgrid.mjs   地图数据层（三向配色 directionFor、LABEL_OFFSETS 手工标签偏移表）
+  src/lib/chart.mjs     趋势图纯几何（阶梯线模型；末端=该源 lastSuccessAt 而非"今天"；<2 事件返回 null）
   src/components/       Header(搜索停靠)/Footer/GameHero/GameTabs/DealRows/PixelWorldMap(v3) 等
   src/pages/            首页/折扣×2/区域枢纽×2/game/[slug]×3 子页/日历/免费/about/status
   src/styles/global.css 设计系统唯一实现（token 区在顶部，改视觉先看 design.md）
-data/                   git 即数据库：catalog(人审)/snapshots/history/feeds/meta/health.json
+data/                   git 即数据库：catalog(人审)/snapshots(本币原始观测)/history/feeds/meta/
+                        health.json + source-health.json(各源新鲜度台账)
 .github/workflows/      daily.yml + weekly.yml（共享并发组，validate 不过不提交）
 ```
 
 ## 4. 本地运行手册
 
 ```bash
-npm test                 # 45 项单测（零网络，fixtures 驱动）
+npm test                 # 62 项单测（零网络，fixtures 驱动）
 npm run scrape:steam     # 实抓（约 1 分钟，写 data/snapshots/steam + rates）
 npm run scrape:eshop
 node scripts/scrape-feeds.mjs
@@ -71,7 +79,8 @@ npx astro dev            # 本地开发 http://localhost:4321
 5. **worldgrid.data.mjs 是生成物**（`node scripts/build-worldgrid.mjs` 重新生成），勿手改
 6. **史低诚实性**：外部种子与自观测在 UI 措辞上必须区分；赠送价（$0）不是史低
 7. **推送 main 需用户授权**（CLAUDE.md/AGENTS.md）；数据机器人提交是既定授权的例外
-8. **仓库即将转私有**：GitHub Actions 从"公开无限"变为 **2000 分钟/月** 预算——当前日更约 4 min/天 + 周任务，约 150 min/月，充裕；但扩容目录时先算账（方案 §3 有公式）
+8. **仓库转公开**（用户 2026-07-11 决定）：GitHub Actions 公开仓库免费无限，配额不再是扩容约束；但 tier 分级调度仍是目录扩容的硬前置（礼貌抓取与管线时长，见数据方案 v2.1）
+9. **快照只存本币原始观测**：usd/listUsd/rank 是站点构建期派生物，绝不能写回 `data/snapshots/`（validate 会直接失败）；改动快照 schema 前先跑 `scripts/migrate-snapshots-raw.mjs` 式的幂等迁移并留档
 
 ## 6. 已知遗留（按建议优先级）
 
@@ -91,11 +100,12 @@ npx astro dev            # 本地开发 http://localhost:4321
 - **首页/枢纽页挂 compact 地图**、移动端汉堡菜单、区域枢纽页排序筛选
 - **多语言脚手架**（方案定的优先级：ja → de/fr → zh；hreflang 结构 Layout 已预留 canonical 单域）
 - **联盟变现层**（方案 §11 曾列为 V2；CheapShark redirect 已天然带归因）
-- 价格历史图表化（详情页 price-history 目前是表格，可加 SVG 折线）
+- **数据 v2.1 Phase B'**：Xbox POC（10–20 款人工映射 bigId，美区单市场周更，2 周稳定性验收后再谈扩展）
 
 ## 8. 文档索引
 
 - `docs/plans/2026-07-07-dealdex-v1-plan.md` — 架构与决策（含所有端点坑的实测记录）
+- `docs/plans/2026-07-10-data-v2-research.md` — 数据 v2.1：分层观测存储/趋势图/多平台路线（A' 已实现，B' 待指派）
 - `design.md` — UI 设计规范（约束性）
 - `tasks/todo.md` — 全部执行与验收记录（按 Phase）
 - `tasks/lessons.md` — 踩坑教训（新错误必须追加）

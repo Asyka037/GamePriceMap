@@ -14,7 +14,8 @@ import { fileURLToPath } from 'node:url';
 import { fetchJson, sleep, chunk } from './lib/http.mjs';
 import { fetchRates } from './lib/rates.mjs';
 import { ESHOP_REGIONS, PRICE_BATCH_SIZE, priceUrl, parsePriceEntry, indexPricesById, filterOutlierRegions } from './lib/eshop.mjs';
-import { assembleSnapshot } from './lib/snapshot.mjs';
+import { assembleRawSnapshot, sameObservations } from './lib/snapshot.mjs';
+import { recordSourceRun } from './lib/sourcehealth.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'eshop');
@@ -48,6 +49,7 @@ if (!rates) {
 // rows: slug -> [{cc, ...price fields}]
 const rows = new Map(games.map((g) => [g.slug, []]));
 let failedRegionRequests = 0;
+const failedCcs = new Set();
 
 for (const { cc, group } of ESHOP_REGIONS) {
   const inRegion = games.filter((g) => g.nsuids[group]);
@@ -62,6 +64,7 @@ for (const { cc, group } of ESHOP_REGIONS) {
       }
     } catch {
       failedRegionRequests++;
+      failedCcs.add(cc);
     }
     await sleep(REQUEST_DELAY_MS);
   }
@@ -71,20 +74,39 @@ console.log('');
 
 fs.mkdirSync(SNAP_DIR, { recursive: true });
 let written = 0;
+let unchanged = 0;
 let skipped = 0;
+const today = new Date().toISOString().slice(0, 10);
 for (const g of games) {
-  const snap = filterOutlierRegions(assembleSnapshot(g.slug, rows.get(g.slug), rates));
+  const snapPath = path.join(SNAP_DIR, `${g.slug}.json`);
+  const old = fs.existsSync(snapPath) ? JSON.parse(fs.readFileSync(snapPath, 'utf8')) : null;
+  const gameRows = rows.get(g.slug);
+
+  // 请求失败的区域保留旧观测行（该区确实无售则本来就不在旧快照里）
+  for (const cc of failedCcs) {
+    const oldRow = old?.regions?.find((r) => r.cc === cc);
+    if (oldRow && !gameRows.some((r) => r.cc.toUpperCase() === cc)) gameRows.push({ ...oldRow });
+  }
+
+  const snap = filterOutlierRegions(assembleRawSnapshot(g.slug, gameRows), rates);
   if (snap.regions.length === 0) {
     console.warn(`  ${g.slug}: zero priced regions, keeping previous snapshot`);
     skipped++;
     continue;
   }
-  fs.writeFileSync(path.join(SNAP_DIR, `${g.slug}.json`), JSON.stringify(snap, null, 2) + '\n');
+  if (old && sameObservations(old, snap)) {
+    unchanged++;
+    continue;
+  }
+  snap.lastPriceChangeAt = today;
+  fs.writeFileSync(snapPath, JSON.stringify(snap, null, 2) + '\n');
   written++;
 }
 
-console.log(`eShop snapshots written: ${written}, skipped: ${skipped}, failed region requests: ${failedRegionRequests}`);
-if (written === 0) {
-  console.error('Nothing written — treating as run failure.');
+const ok = written + unchanged > 0;
+recordSourceRun('eshop-regional', { ok, note: `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, failed region requests ${failedRegionRequests}` });
+console.log(`eShop snapshots changed: ${written}, unchanged: ${unchanged}, skipped: ${skipped}, failed region requests: ${failedRegionRequests}`);
+if (!ok) {
+  console.error('Nothing usable — treating as run failure.');
   process.exit(1);
 }

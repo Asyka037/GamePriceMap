@@ -1,0 +1,17 @@
+{
+  "updatedAt": "2026-07-11T11:36:07.476Z",
+  "sources": {
+    "steam-regional": {
+      "lastAttemptAt": "2026-07-11T11:36:07.476Z",
+      "lastSuccessAt": "2026-07-11T11:36:07.476Z",
+      "consecutiveFailures": 0,
+      "note": "changed 0, unchanged 42, skipped 0, failed region requests 0"
+    },
+    "eshop-regional": {
+      "lastAttemptAt": "2026-07-11T11:35:30.260Z",
+      "lastSuccessAt": "2026-07-11T11:35:30.260Z",
+      "consecutiveFailures": 0,
+      "note": "changed 1, unchanged 20, skipped 0, failed region requests 0"
+    }
+  }
+}

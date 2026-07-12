@@ -1,116 +1,86 @@
 {
   "slug": "dredge",
-  "updatedAt": "2026-07-11T09:08:49.885Z",
+  "lastPriceChangeAt": "2026-07-10",
   "regions": [
-    {
-      "cc": "JP",
-      "currency": "JPY",
-      "amount": 1028,
-      "usd": 6.35,
-      "list": 2570,
-      "listUsd": 15.89,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-18T14:59:59Z",
-      "rank": 1
-    },
-    {
-      "cc": "NZ",
-      "currency": "NZD",
-      "amount": 15.98,
-      "usd": 9.21,
-      "list": 39.95,
-      "listUsd": 23.03,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T11:59:59Z",
-      "rank": 2
-    },
     {
       "cc": "AU",
       "currency": "AUD",
       "amount": 13.98,
-      "usd": 9.72,
       "list": 34.95,
-      "listUsd": 24.29,
       "discountPct": 60,
-      "saleEndsAt": "2026-07-30T13:59:59Z",
-      "rank": 3
-    },
-    {
-      "cc": "NO",
-      "currency": "NOK",
-      "amount": 99,
-      "usd": 10.13,
-      "list": 249,
-      "listUsd": 25.48,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T21:59:59Z",
-      "rank": 4
-    },
-    {
-      "cc": "ZA",
-      "currency": "ZAR",
-      "amount": 179.6,
-      "usd": 11.01,
-      "list": 449,
-      "listUsd": 27.52,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T21:59:59Z",
-      "rank": 5
-    },
-    {
-      "cc": "DK",
-      "currency": "DKK",
-      "amount": 74.25,
-      "usd": 11.36,
-      "list": 186,
-      "listUsd": 28.47,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T21:59:59Z",
-      "rank": 6
-    },
-    {
-      "cc": "DE",
-      "currency": "EUR",
-      "amount": 9.99,
-      "usd": 11.41,
-      "list": 24.99,
-      "listUsd": 28.54,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T21:59:59Z",
-      "rank": 7
-    },
-    {
-      "cc": "PL",
-      "currency": "PLN",
-      "amount": 43.6,
-      "usd": 11.5,
-      "list": 109,
-      "listUsd": 28.76,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T21:59:59Z",
-      "rank": 8
-    },
-    {
-      "cc": "GB",
-      "currency": "GBP",
-      "amount": 8.79,
-      "usd": 11.78,
-      "list": 21.99,
-      "listUsd": 29.48,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T22:59:59Z",
-      "rank": 9
+      "saleEndsAt": "2026-07-30T13:59:59Z"
     },
     {
       "cc": "CH",
       "currency": "CHF",
       "amount": 10.36,
-      "usd": 12.82,
       "list": 25.9,
-      "listUsd": 32.06,
       "discountPct": 60,
-      "saleEndsAt": "2026-07-30T21:59:59Z",
-      "rank": 10
+      "saleEndsAt": "2026-07-30T21:59:59Z"
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 9.99,
+      "list": 24.99,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z"
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 74.25,
+      "list": 186,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z"
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 8.79,
+      "list": 21.99,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T22:59:59Z"
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1028,
+      "list": 2570,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-18T14:59:59Z"
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 99,
+      "list": 249,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z"
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 15.98,
+      "list": 39.95,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T11:59:59Z"
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 43.6,
+      "list": 109,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z"
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 179.6,
+      "list": 449,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-30T21:59:59Z"
     }
   ]
 }

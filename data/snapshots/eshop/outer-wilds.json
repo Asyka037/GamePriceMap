@@ -1,149 +1,110 @@
 {
   "slug": "outer-wilds",
-  "updatedAt": "2026-07-11T09:08:49.886Z",
+  "lastPriceChangeAt": "2026-07-11",
   "regions": [
     {
-      "cc": "JP",
-      "currency": "JPY",
-      "amount": 1890,
-      "usd": 11.68,
-      "list": 3150,
-      "listUsd": 19.47,
-      "discountPct": 40,
-      "saleEndsAt": "2026-08-06T14:59:59Z",
-      "rank": 1
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 36.95,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
       "amount": 25.19,
-      "usd": 17.8,
       "list": null,
-      "listUsd": null,
       "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 2
-    },
-    {
-      "cc": "US",
-      "currency": "USD",
-      "amount": 19.99,
-      "usd": 19.99,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 3
-    },
-    {
-      "cc": "NZ",
-      "currency": "NZD",
-      "amount": 37.49,
-      "usd": 21.61,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 4
-    },
-    {
-      "cc": "MX",
-      "currency": "MXN",
-      "amount": 387.81,
-      "usd": 22.17,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 5
-    },
-    {
-      "cc": "ZA",
-      "currency": "ZAR",
-      "amount": 380,
-      "usd": 23.29,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 6
-    },
-    {
-      "cc": "NO",
-      "currency": "NOK",
-      "amount": 250,
-      "usd": 25.58,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 7
-    },
-    {
-      "cc": "AU",
-      "currency": "AUD",
-      "amount": 36.95,
-      "usd": 25.68,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 8
-    },
-    {
-      "cc": "DK",
-      "currency": "DKK",
-      "amount": 170,
-      "usd": 26.02,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 9
-    },
-    {
-      "cc": "DE",
-      "currency": "EUR",
-      "amount": 22.99,
-      "usd": 26.26,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 10
-    },
-    {
-      "cc": "PL",
-      "currency": "PLN",
-      "amount": 105.99,
-      "usd": 27.96,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 11
-    },
-    {
-      "cc": "GB",
-      "currency": "GBP",
-      "amount": 20.99,
-      "usd": 28.14,
-      "list": null,
-      "listUsd": null,
-      "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 12
+      "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
       "amount": 25,
-      "usd": 30.94,
       "list": null,
-      "listUsd": null,
       "discountPct": null,
-      "saleEndsAt": null,
-      "rank": 13
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 22.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 170,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 20.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1890,
+      "list": 3150,
+      "discountPct": 40,
+      "saleEndsAt": "2026-08-06T14:59:59Z"
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 387.81,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 250,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 37.49,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 105.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 19.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 380,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     }
   ]
 }
