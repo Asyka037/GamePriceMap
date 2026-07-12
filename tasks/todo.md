@@ -170,8 +170,8 @@
 - [x] 收紧 Header/Footer 品牌字标中 `Game` 与 `PriceMap` 的间距并保持一致
 - [x] 更新回归测试，运行单测、validate、构建与产物断言
 - [x] 本地浏览器完成桌面、移动端视觉/交互验收
-- [ ] 提交并推送 `main`，确认生产部署生效
-- 评审：70/70 单测、validate、139 页 Astro 构建与产物断言通过。浏览器实证：Elden Ring 两渠道同价时 BEST=0；Dead by Daylight 三渠道中 Steam/eShop 同为 $19.99 时 BEST=2；TUNIC 主价格显示 Nintendo eShop、US 国旗、−80% 与原价。桌面无横向溢出；390px 下宽表收敛为局部可访问滚动区，`scrollWidth=viewport=390`；控制台零 error/warning。
+- [x] 提交并推送 `main`，确认生产部署生效
+- 评审：70/70 单测、validate、139 页 Astro 构建与产物断言通过。浏览器实证：Elden Ring 两渠道同价时 BEST=0；Dead by Daylight 三渠道中 Steam/eShop 同为 $19.99 时 BEST=2；TUNIC 主价格显示 Nintendo eShop、US 国旗、−80% 与原价。桌面无横向溢出；390px 下宽表收敛为局部可访问滚动区，`scrollWidth=viewport=390`；控制台零 error/warning。功能提交 `82320ba` 已推送 `main`，生产域名逐页确认新 DOM、SEO title 与 BEST 规则生效。
 
 ## 需要用户操作的事项
 - [ ] 每周审核 suggestions/catalog-candidates.json 决定新游戏入库
