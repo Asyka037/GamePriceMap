@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T09:28:05.531Z",
+  "updatedAt": "2026-07-13T10:39:57.730Z",
   "items": [
     {
       "title": "Palworld",
@@ -14,18 +14,6 @@
       "slugIfTracked": "palworld"
     },
     {
-      "title": "Grand Theft Auto V Enhanced",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
-      "currency": "USD",
-      "price": 19.79,
-      "list": 44.99,
-      "pct": 56,
-      "endsAt": "2026-07-23T17:00:00.000Z",
-      "steamAppId": 3240220,
-      "slugIfTracked": null
-    },
-    {
       "title": "Angels Fall First",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/367270/",
@@ -38,15 +26,15 @@
       "slugIfTracked": null
     },
     {
-      "title": "Cat Mail Co.",
+      "title": "Grand Theft Auto V Enhanced",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/4380490/",
+      "url": "https://store.steampowered.com/app/3240220/",
       "currency": "USD",
-      "price": 12.74,
-      "list": 14.99,
-      "pct": 15,
-      "endsAt": "2026-07-23T17:00:48.000Z",
-      "steamAppId": 4380490,
+      "price": 19.79,
+      "list": 44.99,
+      "pct": 56,
+      "endsAt": "2026-07-23T17:00:00.000Z",
+      "steamAppId": 3240220,
       "slugIfTracked": null
     },
     {
@@ -62,6 +50,18 @@
       "slugIfTracked": null
     },
     {
+      "title": "Cat Mail Co.",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/4380490/",
+      "currency": "USD",
+      "price": 12.74,
+      "list": 14.99,
+      "pct": 15,
+      "endsAt": "2026-07-23T17:00:48.000Z",
+      "steamAppId": 4380490,
+      "slugIfTracked": null
+    },
+    {
       "title": "Red Dead Redemption 2",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/1174180/",
@@ -72,6 +72,18 @@
       "endsAt": "2026-07-23T17:00:00.000Z",
       "steamAppId": 1174180,
       "slugIfTracked": "red-dead-redemption-2"
+    },
+    {
+      "title": "Satisfactory",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/526870/",
+      "currency": "USD",
+      "price": 27.99,
+      "list": 39.99,
+      "pct": 30,
+      "endsAt": "2026-07-26T17:00:00.000Z",
+      "steamAppId": 526870,
+      "slugIfTracked": null
     },
     {
       "title": "Planet Zoo",
@@ -86,6 +98,18 @@
       "slugIfTracked": null
     },
     {
+      "title": "Valheim",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/892970/",
+      "currency": "USD",
+      "price": 9.99,
+      "list": 19.99,
+      "pct": 50,
+      "endsAt": "2026-07-26T17:00:00.000Z",
+      "steamAppId": 892970,
+      "slugIfTracked": null
+    },
+    {
       "title": "Digimon Story Time Stranger",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/1984270/",
@@ -95,30 +119,6 @@
       "pct": 43,
       "endsAt": "2026-07-16T17:00:00.000Z",
       "steamAppId": 1984270,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Kingdom Come: Deliverance II",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1771300/",
-      "currency": "USD",
-      "price": 23.99,
-      "list": 59.99,
-      "pct": 60,
-      "endsAt": "2026-07-16T17:00:00.000Z",
-      "steamAppId": 1771300,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/817628/",
-      "currency": "USD",
-      "price": 19.79,
-      "list": 59.99,
-      "pct": 67,
-      "endsAt": "2026-07-23T17:00:00.000Z",
-      "steamAppId": 817628,
       "slugIfTracked": null
     }
   ]
