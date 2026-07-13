@@ -199,3 +199,11 @@
 ## 需要用户操作的事项
 - [ ] 每周审核 suggestions/catalog-candidates.json 决定新游戏入库
 - [x] 已审核并批准 `suggestions/xbox-candidates.json` 的 14 个标准版映射（2026-07-12），已合并 catalog 并完成首次生产观测
+
+### 2026-07-13 自定义域名 gamepricemap.com 上线（CodeX）
+- [x] 在 Cloudflare Pages 为生产项目添加 `gamepricemap.com`，确认 DNS 与证书状态生效
+- [x] 将 Astro site、robots sitemap、爬虫标识及项目文档切换到正式主域
+- [ ] 增加/确认 `www.gamepricemap.com` 到裸域的规范化策略，避免重复收录
+- [x] 更新 lessons，运行 test、validate、build 与域名相关产物断言
+- [ ] 提交并推送 `main`，等待 Pages 部署并验收 HTTPS、canonical、sitemap 与关键路由
+- 评审：Cloudflare Pages API 已确认裸域 active，www 的 DNS 验证通过并等待证书；70/70 单测、validate、137 页构建通过，产物 canonical/OG/sitemap/robots 均仅使用 `https://gamepricemap.com`，零旧主域泄漏。待推送和生产 HTTP 验收后补完。

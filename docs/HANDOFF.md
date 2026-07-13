@@ -4,7 +4,7 @@
 
 ## 1. 项目状态一览
 
-- **线上**：https://gamepricemap.pages.dev （Cloudflare Pages git 集成，push main 自动部署）
+- **线上**：https://gamepricemap.com （Cloudflare Pages git 集成，push main 自动部署；`gamepricemap.pages.dev` 仅为平台部署域名）
 - **进度**：V1 Phase 0–6 **全部完成**；数据 v2.1 **Phase A' 已完成并经 CodeX 复审加固**；Phase B' Xbox POC 工程已完成，用户已批准 14 个标准版映射，首次正式观测成功，当前处于不可压缩的稳定性 **Week 1/2**
 - **自动化**：GitHub Actions 每日 07:30 UTC 数据管线（Steam 18 区 + eShop 16 区 + 4 路 feeds + 历史/史低 + 校验闸门 + 机器人提交）、每周一 09:00 UTC（元数据/Xbox US POC/自观测历史/日历/目录候选）；周更历史使用 `observations-only`，不重复触发 CheapShark 外部种子请求
 - **规模**：42 款游戏（21 款含 eShop NSUID、14 款含 Xbox 标准版映射）、14 个 Xbox US 原始快照、139 静态页、69 项单测全绿

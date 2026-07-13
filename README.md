@@ -4,7 +4,7 @@
 
 多平台游戏折扣聚合站：Steam + Nintendo eShop 区域定价、史低、促销、免费游戏与新游日历。
 
-- **线上**：https://gamepricemap.pages.dev
+- **线上**：https://gamepricemap.com
 - **架构**：GitHub 仓库承载代码+数据（git 即数据库）→ Actions 定时抓取（每日/每周）→ 校验闸门 → Cloudflare Pages 静态站自动重建。运行时零服务器。
 
 ## 快速开始
