@@ -1,7 +1,42 @@
 {
-  "updatedAt": "2026-07-09T03:12:01.887Z",
+  "updatedAt": "2026-07-13T12:07:57.312Z",
   "note": "Human review required — merge into catalog.json manually.",
   "candidates": [
+    {
+      "name": "7 Days to Die",
+      "steamAppId": 251570,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Among Us",
+      "steamAppId": 945360,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Apex Legends",
+      "steamAppId": 1172470,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "ARK: Survival Evolved",
+      "steamAppId": 346110,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Arma 3",
+      "steamAppId": 107410,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
     {
       "name": "Assassin's Creed Black Flag Resynced",
       "steamAppId": 3751950,
@@ -10,10 +45,584 @@
       ]
     },
     {
+      "name": "Battlefield 2042",
+      "steamAppId": 1517290,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Battlefield V",
+      "steamAppId": 1238810,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Black Squad",
+      "steamAppId": 550650,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Borderlands 2",
+      "steamAppId": 49520,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Brawlhalla",
+      "steamAppId": 291550,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Call of Duty: Modern Warfare II",
+      "steamAppId": 1938090,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Cities: Skylines",
+      "steamAppId": 255710,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Counter-Strike",
+      "steamAppId": 10,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Counter-Strike: Condition Zero",
+      "steamAppId": 100,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Counter-Strike: Global Offensive",
+      "steamAppId": 730,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Counter-Strike: Source",
+      "steamAppId": 240,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "CyberCorp",
+      "steamAppId": 1116170,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "DayZ",
+      "steamAppId": 221100,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Destiny 2",
+      "steamAppId": 1085660,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Don't Starve Together",
+      "steamAppId": 322330,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Dying Light",
+      "steamAppId": 239140,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "EA SPORTS FIFA 23",
+      "steamAppId": 1811260,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "EA SPORTS™ College Football 27",
+      "steamAppId": 4032350,
+      "sources": [
+        "steam-top-sellers"
+      ]
+    },
+    {
+      "name": "eFootball",
+      "steamAppId": 1665460,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Euro Truck Simulator 2",
+      "steamAppId": 227300,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Fall Guys: Ultimate Knockout",
+      "steamAppId": 1097150,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Fallout 4",
+      "steamAppId": 377160,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Garry's Mod",
+      "steamAppId": 4000,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Grand Theft Auto IV: Complete Edition",
+      "steamAppId": 901583,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Grand Theft Auto V Legacy",
+      "steamAppId": 271590,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Grim Dawn",
+      "steamAppId": 219990,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Half-Life",
+      "steamAppId": 70,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Half-Life 2",
+      "steamAppId": 220,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Half-Life 2: Deathmatch",
+      "steamAppId": 320,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Half-Life 2: Lost Coast",
+      "steamAppId": 340,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Halo Infinite",
+      "steamAppId": 1240440,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "HELLDIVERS 2",
+      "steamAppId": 553850,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Heroes & Generals",
+      "steamAppId": 227940,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Hogwarts Legacy",
+      "steamAppId": 990080,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Human Fall Flat",
+      "steamAppId": 477160,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Hunt: Showdown 1896",
+      "steamAppId": 594650,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Last Epoch",
+      "steamAppId": 899770,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Left 4 Dead 2",
+      "steamAppId": 550,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Lethal Company",
+      "steamAppId": 1966720,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Life is Strange 2",
+      "steamAppId": 532210,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Lost Ark",
+      "steamAppId": 1599340,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
       "name": "MECCHA CHAMELEON",
       "steamAppId": 4704690,
       "sources": [
         "steam-top-sellers"
+      ]
+    },
+    {
+      "name": "NARAKA: BLADEPOINT",
+      "steamAppId": 1203220,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "NBA 2K20",
+      "steamAppId": 1089350,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "New World: Aeternum",
+      "steamAppId": 1063730,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Paladins",
+      "steamAppId": 444090,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Path of Exile",
+      "steamAppId": 238960,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Path of Exile 2",
+      "steamAppId": 2694490,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "PAYDAY 2",
+      "steamAppId": 218620,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Phasmophobia",
+      "steamAppId": 739630,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Portal",
+      "steamAppId": 400,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Project Zomboid",
+      "steamAppId": 108600,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "PUBG: BATTLEGROUNDS",
+      "steamAppId": 578080,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "R.E.P.O.",
+      "steamAppId": 3241660,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Raft",
+      "steamAppId": 648800,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Ring of Elysium",
+      "steamAppId": 755790,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Risk of Rain 2",
+      "steamAppId": 632360,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Rocket League",
+      "steamAppId": 252950,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Satisfactory",
+      "steamAppId": 526870,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Schedule I",
+      "steamAppId": 3164500,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Sid Meier's Civilization V",
+      "steamAppId": 8930,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Sid Meier’s Civilization VI",
+      "steamAppId": 289070,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "SMITE",
+      "steamAppId": 386360,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Sons Of The Forest",
+      "steamAppId": 1326470,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Street Warriors Online",
+      "steamAppId": 417910,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Team Fortress 2",
+      "steamAppId": 440,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "The Forest",
+      "steamAppId": 242760,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "The Sims 4",
+      "steamAppId": 1222670,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "steamAppId": 292030,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "steamAppId": 359550,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Trove",
+      "steamAppId": 304050,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Unturned",
+      "steamAppId": 304930,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Valheim",
+      "steamAppId": 892970,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "VRChat",
+      "steamAppId": 438100,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Wallpaper Engine",
+      "steamAppId": 431960,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "War Robots: Frontiers",
+      "steamAppId": 1491000,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "War Thunder",
+      "steamAppId": 236390,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Warface: Clutch",
+      "steamAppId": 291480,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Warframe",
+      "steamAppId": 230410,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Warhammer 40,000: Rogue Trader",
+      "steamAppId": 2186680,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "World of Tanks Blitz",
+      "steamAppId": 444200,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "World of Warships",
+      "steamAppId": 552990,
+      "sources": [
+        "steamspy-top100-2w"
+      ]
+    },
+    {
+      "name": "Z1 Battle Royale",
+      "steamAppId": 433850,
+      "sources": [
+        "steamspy-top100-2w"
       ]
     }
   ]
