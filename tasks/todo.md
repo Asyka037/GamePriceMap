@@ -203,7 +203,7 @@
 ### 2026-07-13 自定义域名 gamepricemap.com 上线（CodeX）
 - [x] 在 Cloudflare Pages 为生产项目添加 `gamepricemap.com`，确认 DNS 与证书状态生效
 - [x] 将 Astro site、robots sitemap、爬虫标识及项目文档切换到正式主域
-- [ ] 增加/确认 `www.gamepricemap.com` 到裸域的规范化策略，避免重复收录
+- [x] 确认 `www.gamepricemap.com` 与 `pages.dev` 全部输出裸域 canonical，避免重复收录（Wrangler OAuth 不含 Bulk Redirect 权限，不扩大令牌权限）
 - [x] 更新 lessons，运行 test、validate、build 与域名相关产物断言
-- [ ] 提交并推送 `main`，等待 Pages 部署并验收 HTTPS、canonical、sitemap 与关键路由
-- 评审：Cloudflare Pages API 已确认裸域 active，www 的 DNS 验证通过并等待证书；70/70 单测、validate、137 页构建通过，产物 canonical/OG/sitemap/robots 均仅使用 `https://gamepricemap.com`，零旧主域泄漏。待推送和生产 HTTP 验收后补完。
+- [x] 提交并推送 `main`，等待 Pages 部署并验收 HTTPS、canonical、sitemap 与关键路由
+- 评审：Cloudflare Pages API 已确认裸域与 www 的 DNS、HTTP 验证和证书全部 active；提交 `b2d82c9` 的 Production 部署 `e8ef6544` active。70/70 单测、validate、137 页构建通过；公网首页、Elden Ring、status 均 HTTPS 200，canonical/OG/robots/sitemap 统一为 `https://gamepricemap.com`，www 同样输出裸域 canonical。
