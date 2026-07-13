@@ -206,8 +206,8 @@
 - [x] Steam/eShop 区域列表与折扣列表更新指定 title/description
 - [x] 增加 SEO 派生纯函数与动态国家回归测试，更新 lessons
 - [x] 运行 test、validate、build 与全量产物 SEO 断言
-- [ ] 提交并推送 `main`，确认 Cloudflare Pages 生产部署与线上 SEO 生效
-- 评审：72/72 单测、validate、137 页构建通过；产物审计覆盖 42 个详情总览 + 42 个区域页 + 42 个历史页。Cyberpunk 2077（Steam-only）动态输出 Georgia/Pakistan/India，Stardew Valley 等双渠道页面按首屏 eShop 数据动态输出各自最低三国；首页及四个列表页 title/description 与指定文案一致。待生产验收后补完。
+- [x] 提交并推送 `main`，确认 Cloudflare Pages 生产部署与线上 SEO 生效
+- 评审：功能提交 `cca53fe` 已 rebase 到 2026-07-13 日更/周更数据后推送；Cloudflare Production 部署 `48bd4966` success。72/72 单测、validate、137 页构建通过；产物审计覆盖 42 个详情总览 + 42 个区域页 + 42 个历史页。线上抽查首页、Cyberpunk 2077 三类详情页、Stardew Valley eShop 动态国家页及四个列表页全部返回指定 SEO；Cyberpunk 2077（Steam-only）动态输出 Georgia/Pakistan/India，Stardew Valley 按首屏 eShop 数据动态输出 Brazil/Mexico/Japan。
 
 ### 2026-07-13 自定义域名 gamepricemap.com 上线（CodeX）
 - [x] 在 Cloudflare Pages 为生产项目添加 `gamepricemap.com`，确认 DNS 与证书状态生效
