@@ -6,6 +6,7 @@ import NoteBox from '../../../components/NoteBox.astro';
 import PixelWorldMap from '../../../components/PixelWorldMap.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
 import { fmtUsd, fmtMoney, usRow } from '../../../lib/derive.mjs';
+import { regionalGameSeo } from '../../../lib/seo.mjs';
 
 export function getStaticPaths() {
   return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
@@ -19,10 +20,17 @@ const channels = [
   { key: 'eshop', label: 'Nintendo eShop', snap: bundle.eshop },
   { key: 'steam', label: 'Steam', snap: bundle.steam },
 ].filter((c) => c.snap?.regions?.length);
+const primaryChannel = channels[0] ?? null;
+const seo = primaryChannel
+  ? regionalGameSeo(game.title, primaryChannel.key, primaryChannel.snap)
+  : {
+      title: `${game.title} Region Prices | GamePriceMap`,
+      description: `Compare regional game prices and store discounts for ${game.title}.`,
+    };
 ---
 <Layout
-  title={`${game.title} regional prices — cheapest regions ranked | GamePriceMap`}
-  description={`Full regional price table for ${game.title}: every tracked Steam and eShop region converted to USD and ranked, updated daily.`}
+  title={seo.title}
+  description={seo.description}
 >
   <GameHero bundle={bundle} />
   <div class="wrap">

@@ -5,7 +5,7 @@ import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
 import RegionFlag from '../../../components/RegionFlag.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
-import { usRow, overallAtl, atlFor, bestPriceFlags, fmtUsd, fmtMoney } from '../../../lib/derive.mjs';
+import { usRow, atlFor, bestPriceFlags, fmtUsd, fmtMoney } from '../../../lib/derive.mjs';
 
 export function getStaticPaths() {
   return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
@@ -22,7 +22,6 @@ const storeRows = [
 ].filter((r) => r.row);
 const cheapest = storeRows.length ? Math.min(...storeRows.map((r) => r.row!.usd)) : null;
 const bestFlags = bestPriceFlags(storeRows.map((r) => r.row!.usd));
-const atl = overallAtl(bundle.history);
 const topRegions = (bundle.eshop ?? bundle.steam)?.regions.slice(0, 5) ?? [];
 const regionChannel = bundle.eshop ? 'eShop' : 'Steam';
 
@@ -41,8 +40,8 @@ const jsonLd = {
 };
 ---
 <Layout
-  title={`${game.title} — price tracker, deals & regional prices | GamePriceMap`}
-  description={`Current best price${cheapest != null ? ` ${fmtUsd(cheapest)}` : ''}, all-time low${atl ? ` ${fmtUsd(atl.usd)}` : ''}, regional pricing and price history for ${game.title}.`}
+  title={`${game.title} Price Tracker, Deals & Region Prices | GamePriceMap`}
+  description={`Compare multi-platform deals and regional pricing, track all-time lows and best discounts. Find the cheapest way to buy ${game.title}.`}
   ogImage={meta?.headerImage}
   jsonLd={jsonLd}
 >
