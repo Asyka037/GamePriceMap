@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T10:39:57.730Z",
+  "updatedAt": "2026-07-14T09:27:52.416Z",
   "items": [
     {
       "title": "Palworld",
@@ -14,18 +14,6 @@
       "slugIfTracked": "palworld"
     },
     {
-      "title": "Angels Fall First",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/367270/",
-      "currency": "USD",
-      "price": 16.19,
-      "list": 17.99,
-      "pct": 10,
-      "endsAt": "2026-07-21T17:00:43.000Z",
-      "steamAppId": 367270,
-      "slugIfTracked": null
-    },
-    {
       "title": "Grand Theft Auto V Enhanced",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/3240220/",
@@ -38,15 +26,27 @@
       "slugIfTracked": null
     },
     {
-      "title": "Moonlight Peaks",
+      "title": "DELTARUNE",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2209900/",
+      "url": "https://store.steampowered.com/app/1671210/",
       "currency": "USD",
-      "price": 29.74,
-      "list": 34.99,
-      "pct": 15,
-      "endsAt": "2026-07-13T17:00:23.000Z",
-      "steamAppId": 2209900,
+      "price": 19.99,
+      "list": 24.99,
+      "pct": 20,
+      "endsAt": "2026-07-20T17:00:00.000Z",
+      "steamAppId": 1671210,
+      "slugIfTracked": "deltarune"
+    },
+    {
+      "title": "Angels Fall First",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/367270/",
+      "currency": "USD",
+      "price": 16.19,
+      "list": 17.99,
+      "pct": 10,
+      "endsAt": "2026-07-21T17:00:43.000Z",
+      "steamAppId": 367270,
       "slugIfTracked": null
     },
     {
@@ -74,6 +74,42 @@
       "slugIfTracked": "red-dead-redemption-2"
     },
     {
+      "title": "No Man's Sky",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/275850/",
+      "currency": "USD",
+      "price": 23.99,
+      "list": 59.99,
+      "pct": 60,
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 275850,
+      "slugIfTracked": "no-mans-sky"
+    },
+    {
+      "title": "Moonlight Peaks",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2209900/",
+      "currency": "USD",
+      "price": 29.74,
+      "list": 34.99,
+      "pct": 15,
+      "endsAt": "2026-07-14T20:00:00.000Z",
+      "steamAppId": 2209900,
+      "slugIfTracked": "moonlight-peaks"
+    },
+    {
+      "title": "Solarpunk™",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1805110/",
+      "currency": "USD",
+      "price": 18.39,
+      "list": 22.99,
+      "pct": 20,
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 1805110,
+      "slugIfTracked": null
+    },
+    {
       "title": "Satisfactory",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/526870/",
@@ -83,43 +119,7 @@
       "pct": 30,
       "endsAt": "2026-07-26T17:00:00.000Z",
       "steamAppId": 526870,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Planet Zoo",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/703080/",
-      "currency": "USD",
-      "price": 2.24,
-      "list": 44.99,
-      "pct": 95,
-      "endsAt": "2026-07-16T17:00:00.000Z",
-      "steamAppId": 703080,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Valheim",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/892970/",
-      "currency": "USD",
-      "price": 9.99,
-      "list": 19.99,
-      "pct": 50,
-      "endsAt": "2026-07-26T17:00:00.000Z",
-      "steamAppId": 892970,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Digimon Story Time Stranger",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1984270/",
-      "currency": "USD",
-      "price": 39.89,
-      "list": 69.99,
-      "pct": 43,
-      "endsAt": "2026-07-16T17:00:00.000Z",
-      "steamAppId": 1984270,
-      "slugIfTracked": null
+      "slugIfTracked": "satisfactory"
     }
   ]
 }
