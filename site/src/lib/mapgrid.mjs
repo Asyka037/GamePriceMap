@@ -6,6 +6,7 @@
  * Two intensity steps per direction (light <30% gap, deep ≥30%).
  */
 import WORLD_DATA from './worldgrid.data.mjs';
+import { regionDeltaPct } from './regions.mjs';
 
 export const WORLD = WORLD_DATA;
 
@@ -49,7 +50,7 @@ export function mapRegions(regions, baselineCc = 'US') {
     baseline: baseline.cc,
     regions: rows.map((r) => {
       const isBaseline = r.cc === baseline.cc;
-      const pctVsBaseline = isBaseline || !(baseline.usd > 0) ? 0 : Math.round((r.usd / baseline.usd - 1) * 100);
+      const pctVsBaseline = regionDeltaPct(r, baseline) ?? 0;
       return {
         cc: r.cc,
         usd: r.usd,

@@ -4,8 +4,11 @@ import GameHero from '../../../components/GameHero.astro';
 import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
 import RegionFlag from '../../../components/RegionFlag.astro';
+import RegionLabel from '../../../components/RegionLabel.astro';
+import RegionalPrice from '../../../components/RegionalPrice.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
-import { usRow, atlFor, bestPriceFlags, primaryRegionalSource, fmtUsd, fmtMoney } from '../../../lib/derive.mjs';
+import { usRow, atlFor, bestPriceFlags, primaryRegionalSource, fmtUsd } from '../../../lib/derive.mjs';
+import { regionalPriceModel } from '../../../lib/regions.mjs';
 
 export function getStaticPaths() {
   return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
@@ -23,7 +26,8 @@ const storeRows = [
 const cheapest = storeRows.length ? Math.min(...storeRows.map((r) => r.row!.usd)) : null;
 const bestFlags = bestPriceFlags(storeRows.map((r) => r.row!.usd));
 const regionalSource = primaryRegionalSource(bundle);
-const topRegions = regionalSource?.snapshot.regions.slice(0, 5) ?? [];
+const regionalModel = regionalPriceModel(regionalSource?.snapshot);
+const topRegions = regionalModel.rows.slice(0, 5);
 const regionChannel = regionalSource?.label ?? 'regional';
 
 const jsonLd = {
@@ -87,16 +91,20 @@ const jsonLd = {
               Cheapest {regionChannel} regions
               <a class="more" href={`/game/${slug}/regional-prices`}>All regions →</a>
             </h3>
-            <table class="region-mini">
-              {topRegions.map((r: any, i: number) => (
-                <tr>
-                  <td class={i === 0 ? 'rank-1' : 'mono'} style={i === 0 ? '' : 'color:var(--text-3);'}>{r.rank}</td>
-                  <td>{r.cc}</td>
-                  <td class="r-price">{fmtMoney(r.amount, r.currency)}</td>
-                  <td class="r-price">{fmtUsd(r.usd)}</td>
-                </tr>
-              ))}
-            </table>
+            <div class="region-mini-wrap" role="region" aria-label={`Cheapest ${regionChannel} regions`} tabindex="0">
+              <table class="region-mini">
+                <tbody>
+                  {topRegions.map((r: any, i: number) => (
+                    <tr>
+                      <td class={i === 0 ? 'rank-1' : 'mono'} style={i === 0 ? '' : 'color:var(--text-3);'}>{r.rank}</td>
+                      <td><RegionLabel cc={r.cc} /></td>
+                      <td><RegionalPrice row={r} /></td>
+                      <td><span class:list={['region-delta', `is-${r.direction}`]}>{r.deltaLabel}</span></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
           <div class="side-stack">
             <div class="panel">

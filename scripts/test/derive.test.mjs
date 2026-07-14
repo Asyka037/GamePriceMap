@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, primaryRegionalSource, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney,
+  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, primaryRegionalSource, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney, regionalPriceSummary,
 } from '../../site/src/lib/derive.mjs';
 
 const bundle = (over = {}) => ({
@@ -88,11 +88,28 @@ test('hotDealsBoard ranks by pct and trackedDeals flags ATL rows', () => {
   assert.equal(deals[0].isAtl, true);
 });
 
-test('fmtMoney uses symbols and falls back to code suffix', () => {
+test('fmtMoney uses unambiguous currency symbols and grouped local amounts', () => {
   assert.equal(fmtMoney(19.99, 'USD'), '$19.99');
   assert.equal(fmtMoney(16.75, 'GBP'), '£16.75');
-  assert.equal(fmtMoney(2300, 'JPY'), '¥2300');
-  assert.equal(fmtMoney(179.99, 'ARS'), '179.99 ARS');
+  assert.equal(fmtMoney(2300, 'JPY'), '¥2,300');
+  assert.equal(fmtMoney(66000, 'KRW'), '₩66,000');
+  assert.equal(fmtMoney(79.99, 'CAD'), 'CA$79.99');
+});
+
+test('regional summary separates honest savings from the min-to-max price spread', () => {
+  const summary = regionalPriceSummary('Baldur\'s Gate 3', 'Steam', {
+    regions: [
+      { cc: 'UA', usd: 20.13, amount: 899, currency: 'UAH', rank: 1 },
+      { cc: 'US', usd: 59.99, amount: 59.99, currency: 'USD', rank: 2 },
+      { cc: 'CH', usd: 86.04, amount: 69.99, currency: 'CHF', rank: 3 },
+    ],
+  });
+  assert.equal(summary.savingsPct, 77, 'saving uses 1 − cheapest / most expensive and stays below 100%');
+  assert.equal(summary.priceSpreadPct, 327, 'spread states how much higher the maximum is than the minimum');
+  assert.equal(
+    summary.text,
+    "Compare Baldur's Gate 3 Steam prices globally. Cheapest: Ukraine ($20.13). Most expensive: Switzerland ($86.04). Save up to 77% via regional pricing; the highest-priced region is 327% above the cheapest.",
+  );
 });
 
 test('isLive: missing endsAt is live, past is dead, future is live', () => {

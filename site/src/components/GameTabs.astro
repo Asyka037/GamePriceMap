@@ -7,8 +7,10 @@ const tabs = [
   { id: 'history', label: 'Price history', href: `/game/${slug}/price-history` },
 ];
 ---
-<nav class="tab-nav">
-  {tabs.map((t) => (
-    <a class:list={[{ on: t.id === current }]} href={t.href}>{t.label}</a>
-  ))}
-</nav>
+<div class="tab-nav-scroll">
+  <nav class="tab-nav" aria-label="Game sections">
+    {tabs.map((t) => (
+      <a class:list={[{ on: t.id === current }]} href={t.href} aria-current={t.id === current ? 'page' : undefined}>{t.label}</a>
+    ))}
+  </nav>
+</div>

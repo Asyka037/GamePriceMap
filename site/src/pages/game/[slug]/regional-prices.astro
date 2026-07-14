@@ -4,8 +4,10 @@ import GameHero from '../../../components/GameHero.astro';
 import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
 import PixelWorldMap from '../../../components/PixelWorldMap.astro';
+import RegionLabel from '../../../components/RegionLabel.astro';
+import RegionalPrice from '../../../components/RegionalPrice.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
-import { fmtUsd, fmtMoney, primaryRegionalSource, usRow } from '../../../lib/derive.mjs';
+import { primaryRegionalSource, regionalPriceSummary } from '../../../lib/derive.mjs';
 import { regionalGameSeo } from '../../../lib/seo.mjs';
 
 export function getStaticPaths() {
@@ -35,32 +37,38 @@ const seo = source
     <section style="padding: 24px 0 8px;">
       {source ? (() => {
         const { key, label, snapshot } = source;
-        const us = usRow(snapshot);
+        const summary = regionalPriceSummary(game.title, label, snapshot);
+        const rows = summary?.rows ?? [];
         return (
           <div
             id={`region-panel-${key}`}
             class="region-channel-panel"
             aria-label={`${label} regional prices`}
           >
-            <h2 style="font-family: var(--font-pixel); font-size: 14px; text-transform: uppercase; margin: 18px 0 12px;">{label} · {snapshot.regions.length} regions</h2>
+            <h2 class="regional-table-title">{game.title} Cheapest Regions</h2>
             <PixelWorldMap snapshot={snapshot} channel={key as 'steam' | 'eshop'} />
-            <table class="region-full">
-              <thead><tr><th>#</th><th>Region</th><th>Local price</th><th>≈ USD</th><th>vs US</th><th>Sale ends</th></tr></thead>
-              <tbody>
-                {snapshot.regions.map((r: any) => (
-                  <tr id={`region-${key}-${r.cc}`}>
-                    <td class={r.rank === 1 ? 'rank-1' : 'mono'} style={r.rank === 1 ? '' : 'color:var(--text-3);'}>{r.rank}</td>
-                    <td>{r.cc}{r.discountPct ? <span class="chip-off" style="margin-left:8px;">−{r.discountPct}%</span> : null}</td>
-                    <td class="mono">{fmtMoney(r.amount, r.currency)}</td>
-                    <td class="mono" style="font-weight:700;">{fmtUsd(r.usd)}</td>
-                    <td class="mono" style={us && r.usd < us.usd ? 'color:var(--green);font-weight:700;' : 'color:var(--text-3);'}>
-                      {us ? (r.cc === 'US' ? 'baseline' : `${r.usd <= us.usd ? '−' : '+'}${Math.abs(Math.round((1 - r.usd / us.usd) * 100))}%`) : '—'}
-                    </td>
-                    <td style="color:var(--text-3); font-size:12.5px;">{r.saleEndsAt ? r.saleEndsAt.slice(0, 10) : '—'}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+            {summary && <p class="regional-summary">{summary.text}</p>}
+            <div class="region-table-wrap" role="region" aria-label={`${game.title} ${label} regional price table`} tabindex="0">
+              <table class="region-full">
+                <thead><tr><th>#</th><th>Region</th><th>Price</th><th>vs US</th><th>Sale ends</th></tr></thead>
+                <tbody>
+                  {rows.map((r: any) => (
+                    <tr id={`region-${key}-${r.cc}`}>
+                      <td class={r.rank === 1 ? 'rank-1' : 'mono'} style={r.rank === 1 ? '' : 'color:var(--text-3);'}>{r.rank}</td>
+                      <td>
+                        <span class="region-cell">
+                          <RegionLabel cc={r.cc} />
+                          {r.discountPct ? <span class="chip-off">−{r.discountPct}%</span> : null}
+                        </span>
+                      </td>
+                      <td><RegionalPrice row={r} /></td>
+                      <td><span class:list={['region-delta', `is-${r.direction}`]}>{r.deltaLabel}</span></td>
+                      <td class="sale-end">{r.saleEndsAt ? r.saleEndsAt.slice(0, 10) : '—'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         );
       })() : <p style="color:var(--text-2); font-weight:600;">No regional data tracked for this game yet.</p>}

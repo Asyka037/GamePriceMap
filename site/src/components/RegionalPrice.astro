@@ -1,0 +1,17 @@
+---
+import { fmtMoney, fmtUsd } from '../lib/derive.mjs';
+
+interface Props {
+  row: {
+    usd: number;
+    amount: number;
+    currency: string;
+    direction?: 'cheaper' | 'pricier' | 'baseline' | 'par' | 'unknown';
+  };
+}
+const { row } = Astro.props;
+---
+<span class:list={['regional-price', `is-${row.direction ?? 'unknown'}`]}>
+  <strong>{fmtUsd(row.usd)}</strong>
+  <span>≈ {fmtMoney(row.amount, row.currency)}</span>
+</span>

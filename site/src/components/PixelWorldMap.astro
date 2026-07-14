@@ -225,6 +225,7 @@ const cardData = (rg: any) => JSON.stringify({
 
     window.addEventListener('scroll', clearActive, { passive: true });
     window.addEventListener('blur', clearActive);
+    window.addEventListener('resize', clearActive);
     document.documentElement.addEventListener('mouseleave', clearActive);
     document.addEventListener('pointerover', (event) => {
       const target = event.target;

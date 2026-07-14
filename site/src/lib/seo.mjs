@@ -1,10 +1,6 @@
-const regionNames = new Intl.DisplayNames(['en'], { type: 'region' });
-const SEO_NAME_OVERRIDES = { TR: 'Turkey' };
+import { countryName } from './regions.mjs';
 
-export function countryName(cc) {
-  if (typeof cc !== 'string' || !/^[A-Z]{2}$/.test(cc)) return cc ?? '';
-  return SEO_NAME_OVERRIDES[cc] ?? regionNames.of(cc) ?? cc;
-}
+export { countryName } from './regions.mjs';
 
 export function lowestCountryNames(snapshot, limit = 3) {
   return [...(snapshot?.regions ?? [])]

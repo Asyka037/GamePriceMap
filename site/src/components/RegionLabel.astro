@@ -1,0 +1,10 @@
+---
+import { countryFlag, countryName } from '../lib/regions.mjs';
+
+interface Props { cc: string }
+const { cc } = Astro.props;
+---
+<span class="region-name">
+  <span class="region-flag-symbol" aria-hidden="true">{countryFlag(cc)}</span>
+  <span>{countryName(cc)}</span>
+</span>

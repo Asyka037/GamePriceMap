@@ -3,7 +3,10 @@
  * Unit tests: scripts/test/derive.test.mjs (repo root runner).
  */
 
+import { regionalPriceModel } from './regions.mjs';
+
 export const fmtUsd = (n) => (n == null ? null : `$${n.toFixed(2)}`);
+const AMBIGUOUS_DOLLAR_CURRENCIES = new Set(['ARS', 'AUD', 'CAD', 'MXN', 'NZD']);
 
 /** endsAt 缺失视为长期有效；已过期返回 false（UTC 比较）。 */
 export function isLive(endsAt, now = Date.now()) {
@@ -19,12 +22,32 @@ export function atlFor(history, channel) {
   return history?.atl?.[key] ?? null;
 }
 
-const SYMBOLS = { USD: '$', GBP: '£', EUR: '€', JPY: '¥' };
 export function fmtMoney(amount, currency) {
   if (amount == null) return null;
-  const sym = SYMBOLS[currency];
-  const val = Number.isInteger(amount) ? String(amount) : amount.toFixed(2);
-  return sym ? `${sym}${val}` : `${val} ${currency}`;
+  try {
+    return new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency,
+      currencyDisplay: AMBIGUOUS_DOLLAR_CURRENCIES.has(currency) ? 'symbol' : 'narrowSymbol',
+      minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
+      maximumFractionDigits: 2,
+    }).format(amount);
+  } catch {
+    const value = Number.isInteger(amount) ? amount.toLocaleString('en-US') : amount.toFixed(2);
+    return `${value} ${currency}`;
+  }
+}
+
+/** Dynamic, mathematically honest copy for a game's canonical regional table. */
+export function regionalPriceSummary(gameTitle, storeLabel, snapshot) {
+  const model = regionalPriceModel(snapshot);
+  const { cheapest, mostExpensive, savingsPct, priceSpreadPct } = model;
+  if (!cheapest || !mostExpensive) return null;
+  const lead = `Compare ${gameTitle} ${storeLabel} prices globally. Cheapest: ${cheapest.countryName} (${fmtUsd(cheapest.usd)}). Most expensive: ${mostExpensive.countryName} (${fmtUsd(mostExpensive.usd)}).`;
+  const text = priceSpreadPct > 0
+    ? `${lead} Save up to ${savingsPct}% via regional pricing; the highest-priced region is ${priceSpreadPct}% above the cheapest.`
+    : `${lead} Tracked regional prices are currently equal.`;
+  return { ...model, text };
 }
 
 /** US-region row of a snapshot (canonical price), or null. */
