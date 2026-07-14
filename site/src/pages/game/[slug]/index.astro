@@ -5,7 +5,7 @@ import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
 import RegionFlag from '../../../components/RegionFlag.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
-import { usRow, atlFor, bestPriceFlags, fmtUsd, fmtMoney } from '../../../lib/derive.mjs';
+import { usRow, atlFor, bestPriceFlags, primaryRegionalSource, fmtUsd, fmtMoney } from '../../../lib/derive.mjs';
 
 export function getStaticPaths() {
   return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
@@ -22,8 +22,9 @@ const storeRows = [
 ].filter((r) => r.row);
 const cheapest = storeRows.length ? Math.min(...storeRows.map((r) => r.row!.usd)) : null;
 const bestFlags = bestPriceFlags(storeRows.map((r) => r.row!.usd));
-const topRegions = (bundle.eshop ?? bundle.steam)?.regions.slice(0, 5) ?? [];
-const regionChannel = bundle.eshop ? 'eShop' : 'Steam';
+const regionalSource = primaryRegionalSource(bundle);
+const topRegions = regionalSource?.snapshot.regions.slice(0, 5) ?? [];
+const regionChannel = regionalSource?.label ?? 'regional';
 
 const jsonLd = {
   '@context': 'https://schema.org',

@@ -1,0 +1,32 @@
+{
+  "slug": "deltarune",
+  "cheapsharkGameId": "304135",
+  "atl": {
+    "pc": {
+      "usd": 19.99,
+      "date": "2026-07-14",
+      "seed": "self"
+    },
+    "eshop-us": {
+      "usd": 24.99,
+      "date": "2026-07-14",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 19.99,
+      "pct": 20
+    },
+    {
+      "d": "2026-07-14",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 24.99,
+      "pct": null
+    }
+  ]
+}

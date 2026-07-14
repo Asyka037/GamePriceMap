@@ -1,0 +1,150 @@
+{
+  "slug": "assassins-creed-shadows",
+  "lastPriceChangeAt": "2026-07-14",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 25.19,
+      "list": 55.99,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 44.97,
+      "list": 99.95,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 157.49,
+      "list": 349.99,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 40.49,
+      "list": 89.99,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 31.45,
+      "list": 69.9,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 134.1,
+      "list": 298,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 31.49,
+      "list": 69.99,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 26.99,
+      "list": 59.99,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 31.49,
+      "list": 69.99,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 2204,
+      "list": 4899,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 4405,
+      "list": 9790,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 35550,
+      "list": 79000,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 11699,
+      "list": 25999,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 629.55,
+      "list": 1399,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 22.94,
+      "list": 50.99,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 25.19,
+      "list": 55.99,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 899,
+      "list": 1999,
+      "discountPct": 55,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 31.49,
+      "list": 69.99,
+      "discountPct": 55,
+      "saleEndsAt": null
+    }
+  ]
+}

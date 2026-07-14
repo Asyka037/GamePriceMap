@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-13T12:07:55.170Z",
+  "updatedAt": "2026-07-14T04:23:26.742Z",
   "sources": {
     "steam-regional": {
-      "lastAttemptAt": "2026-07-13T10:39:34.968Z",
-      "lastSuccessAt": "2026-07-13T10:39:34.968Z",
+      "lastAttemptAt": "2026-07-14T04:22:42.600Z",
+      "lastSuccessAt": "2026-07-14T04:22:42.600Z",
       "consecutiveFailures": 0,
-      "note": "changed 0, unchanged 42, skipped 0, failed region requests 0, expected 42"
+      "note": "changed 0, unchanged 76, skipped 0, failed region requests 0, expected 76"
     },
     "eshop-regional": {
-      "lastAttemptAt": "2026-07-13T10:39:56.235Z",
-      "lastSuccessAt": "2026-07-13T10:39:56.235Z",
+      "lastAttemptAt": "2026-07-14T04:23:26.742Z",
+      "lastSuccessAt": "2026-07-14T04:23:26.742Z",
       "consecutiveFailures": 0,
-      "note": "changed 0, unchanged 21, skipped 0, failed region requests 0, expected 21"
+      "note": "changed 1, unchanged 31, skipped 0, failed region requests 0, expected 32"
     },
     "xbox-us": {
       "lastAttemptAt": "2026-07-13T12:07:55.170Z",

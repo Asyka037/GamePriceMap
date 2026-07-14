@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney,
+  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, primaryRegionalSource, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney,
 } from '../../site/src/lib/derive.mjs';
 
 const bundle = (over = {}) => ({
@@ -59,12 +59,19 @@ test('verdict wording distinguishes self-tracked vs seeded ATL (honesty)', () =>
   assert.match(buyWaitVerdict(seeded).text, /all-time low on record/);
 });
 
-test('regionGapBoard prefers eshop row, computes savings vs US', () => {
+test('primary regional source defaults to Steam and allows a valid catalog override', () => {
+  assert.equal(primaryRegionalSource(bundle()).key, 'steam');
+  assert.equal(primaryRegionalSource(bundle({ game: { title: 'G', primaryRegionalChannel: 'eshop' } })).key, 'eshop');
+  assert.equal(primaryRegionalSource(bundle({ steam: null })).key, 'eshop');
+  assert.equal(primaryRegionalSource(bundle({ steam: null, eshop: null })), null);
+});
+
+test('regionGapBoard uses the same primary source and computes savings vs US', () => {
   const rows = regionGapBoard([bundle()]);
   assert.equal(rows.length, 1);
-  assert.equal(rows[0].cc, 'ZA');
-  assert.equal(rows[0].savePct, 69); // 1 - 11/35
-  assert.equal(rows[0].channel, 'eshop');
+  assert.equal(rows[0].cc, 'UA');
+  assert.equal(rows[0].savePct, 33); // 1 - 20/30
+  assert.equal(rows[0].channel, 'steam');
 });
 
 test('atlBoard only includes games at their ATL', () => {

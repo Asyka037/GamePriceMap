@@ -1,0 +1,20 @@
+{
+  "slug": "disney-dreamlight-valley",
+  "cheapsharkGameId": "250702",
+  "atl": {
+    "pc": {
+      "usd": 20.99,
+      "date": "2023-07-20",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    }
+  ]
+}

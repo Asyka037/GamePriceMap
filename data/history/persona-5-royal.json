@@ -1,0 +1,32 @@
+{
+  "slug": "persona-5-royal",
+  "cheapsharkGameId": "252306",
+  "atl": {
+    "pc": {
+      "usd": 10.76,
+      "date": "2026-04-23",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 59.99,
+      "date": "2026-07-14",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 59.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-14",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 59.99,
+      "pct": null
+    }
+  ]
+}

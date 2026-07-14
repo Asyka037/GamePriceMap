@@ -1,0 +1,32 @@
+{
+  "slug": "digimon-story-time-stranger",
+  "cheapsharkGameId": "304770",
+  "atl": {
+    "pc": {
+      "usd": 33.92,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 59.99,
+      "date": "2026-07-14",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.89,
+      "pct": 43
+    },
+    {
+      "d": "2026-07-14",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 59.99,
+      "pct": null
+    }
+  ]
+}

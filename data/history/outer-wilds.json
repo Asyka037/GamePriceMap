@@ -8,8 +8,8 @@
       "seed": "cheapshark"
     },
     "eshop-us": {
-      "usd": 19.99,
-      "date": "2026-07-08",
+      "usd": 5.99,
+      "date": "2026-07-14",
       "seed": "self"
     },
     "eshop-eu": {
@@ -32,6 +32,13 @@
       "cc": "US",
       "usd": 19.99,
       "pct": null
+    },
+    {
+      "d": "2026-07-14",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 5.99,
+      "pct": 70
     }
   ]
 }

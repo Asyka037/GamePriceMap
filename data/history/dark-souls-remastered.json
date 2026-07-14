@@ -1,0 +1,32 @@
+{
+  "slug": "dark-souls-remastered",
+  "cheapsharkGameId": "186657",
+  "atl": {
+    "pc": {
+      "usd": 13.99,
+      "date": "2020-04-16",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 39.99,
+      "date": "2026-07-14",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-14",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    }
+  ]
+}

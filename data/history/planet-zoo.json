@@ -1,0 +1,20 @@
+{
+  "slug": "planet-zoo",
+  "cheapsharkGameId": "202375",
+  "atl": {
+    "pc": {
+      "usd": 2.24,
+      "date": "2026-07-14",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 2.24,
+      "pct": 95
+    }
+  ]
+}

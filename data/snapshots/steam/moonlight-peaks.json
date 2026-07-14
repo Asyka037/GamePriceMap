@@ -1,0 +1,150 @@
+{
+  "slug": "moonlight-peaks",
+  "lastPriceChangeAt": "2026-07-14",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 20.82,
+      "list": 24.49,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 46.71,
+      "list": 54.95,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 118.99,
+      "list": 139.99,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 42.49,
+      "list": 49.99,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 29.74,
+      "list": 34.99,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 160.65,
+      "list": 189,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 29.74,
+      "list": 34.99,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 25.49,
+      "list": 29.99,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 20.82,
+      "list": 24.49,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 2295,
+      "list": 2700,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 4165,
+      "list": 4900,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 41560,
+      "list": 48900,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 11347,
+      "list": 13350,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 441.99,
+      "list": 519.99,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 17.84,
+      "list": 20.99,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 20.82,
+      "list": 24.49,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 1071,
+      "list": 1260,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 29.74,
+      "list": 34.99,
+      "discountPct": 15,
+      "saleEndsAt": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "undertale",
+  "cheapsharkGameId": "145915",
+  "atl": {
+    "pc": {
+      "usd": 0.99,
+      "date": "2025-03-13",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 9.89,
+      "date": "2026-07-14",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 9.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-14",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 9.89,
+      "pct": 34
+    }
+  ]
+}

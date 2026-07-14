@@ -673,6 +673,356 @@
       ],
       "tier": "core",
       "addedAt": "2026-07-08"
+    },
+    {
+      "slug": "planet-zoo",
+      "title": "Planet Zoo",
+      "steamAppId": 703080,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "warhammer-40000-darktide",
+      "title": "Warhammer 40,000: Darktide",
+      "steamAppId": 1361210,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "kingdom-come-deliverance-2",
+      "title": "Kingdom Come: Deliverance II",
+      "steamAppId": 1771300,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "the-alters",
+      "title": "The Alters",
+      "steamAppId": 1601570,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "assassins-creed-shadows",
+      "title": "Assassin's Creed Shadows",
+      "steamAppId": 3159330,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "diablo-4",
+      "title": "Diablo IV",
+      "steamAppId": 2344520,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "satisfactory",
+      "title": "Satisfactory",
+      "steamAppId": 526870,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "digimon-story-time-stranger",
+      "title": "Digimon Story Time Stranger",
+      "steamAppId": 1984270,
+      "nsuids": {
+        "americas": "70010000110953",
+        "europe": "70010000110954",
+        "japan": "70010000084201"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "valheim",
+      "title": "Valheim",
+      "steamAppId": 892970,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "total-war-warhammer-3",
+      "title": "Total War: WARHAMMER III",
+      "steamAppId": 1142710,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "against-the-storm",
+      "title": "Against the Storm",
+      "steamAppId": 1336490,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "rimworld",
+      "title": "RimWorld",
+      "steamAppId": 294100,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "no-mans-sky",
+      "title": "No Man's Sky",
+      "steamAppId": 275850,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "disney-dreamlight-valley",
+      "title": "Disney Dreamlight Valley",
+      "steamAppId": 1401590,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "phasmophobia",
+      "title": "Phasmophobia",
+      "steamAppId": 739630,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "warhammer-40000-space-marine-2",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "steamAppId": 2183900,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "v-rising",
+      "title": "V Rising",
+      "steamAppId": 1604030,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "stalker-2-heart-of-chornobyl",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "steamAppId": 1643320,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "manor-lords",
+      "title": "Manor Lords",
+      "steamAppId": 1363080,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "elden-ring-nightreign",
+      "title": "ELDEN RING NIGHTREIGN",
+      "steamAppId": 2622380,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "split-fiction",
+      "title": "Split Fiction",
+      "steamAppId": 2001120,
+      "nsuids": {
+        "americas": "70010000097434",
+        "europe": "70010000097435",
+        "japan": "70010000096944"
+      },
+      "platforms": ["pc", "switch-2"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "enshrouded",
+      "title": "Enshrouded",
+      "steamAppId": 1203620,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "risk-of-rain-2",
+      "title": "Risk of Rain 2",
+      "steamAppId": 632360,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "dont-starve-together",
+      "title": "Don't Starve Together",
+      "steamAppId": 322330,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "core-keeper",
+      "title": "Core Keeper",
+      "steamAppId": 1621690,
+      "nsuids": null,
+      "platforms": ["pc"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "persona-5-royal",
+      "title": "Persona 5 Royal",
+      "steamAppId": 1687950,
+      "nsuids": {
+        "americas": "70010000043147",
+        "europe": "70010000043148",
+        "japan": "70010000042356"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "moonlight-peaks",
+      "title": "Moonlight Peaks",
+      "steamAppId": 2209900,
+      "nsuids": {
+        "americas": "70010000109827",
+        "europe": "70010000110995",
+        "japan": "70010000123376"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "deltarune",
+      "title": "DELTARUNE",
+      "steamAppId": 1671210,
+      "nsuids": {
+        "americas": "70010000094450",
+        "europe": "70010000094451",
+        "japan": "70010000094452"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "escape-the-backrooms",
+      "title": "Escape the Backrooms",
+      "steamAppId": 1943950,
+      "nsuids": {
+        "americas": "70010000116714",
+        "europe": "70010000116715",
+        "japan": "70010000116716"
+      },
+      "platforms": ["pc", "switch-2"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "among-us",
+      "title": "Among Us",
+      "steamAppId": 945360,
+      "nsuids": {
+        "americas": "70010000036098",
+        "europe": "70010000036099",
+        "japan": "70010000036097"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "ea-sports-fc-26",
+      "title": "EA SPORTS FC 26",
+      "steamAppId": 3405690,
+      "nsuids": {
+        "americas": "70010000091347",
+        "europe": "70010000091348",
+        "japan": "70010000091349"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "undertale",
+      "title": "Undertale",
+      "steamAppId": 391540,
+      "nsuids": {
+        "americas": "70010000009921",
+        "europe": "70010000009919",
+        "japan": "70010000009922"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "nba-2k26",
+      "title": "NBA 2K26",
+      "steamAppId": 3472040,
+      "nsuids": {
+        "americas": "70010000095396",
+        "europe": "70010000095397",
+        "japan": "70010000095398"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "dark-souls-remastered",
+      "title": "DARK SOULS: REMASTERED",
+      "steamAppId": 570940,
+      "nsuids": {
+        "americas": "70010000008122",
+        "europe": "70010000008121",
+        "japan": "70010000003637"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-14"
     }
   ]
 }

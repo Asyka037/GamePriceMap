@@ -1,0 +1,20 @@
+{
+  "slug": "satisfactory",
+  "cheapsharkGameId": "199566",
+  "atl": {
+    "pc": {
+      "usd": 14.99,
+      "date": "2024-03-28",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 27.99,
+      "pct": 30
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "moonlight-peaks",
+  "cheapsharkGameId": "326214",
+  "atl": {
+    "pc": {
+      "usd": 25.83,
+      "date": "2026-07-07",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 34.99,
+      "date": "2026-07-14",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 29.74,
+      "pct": 15
+    },
+    {
+      "d": "2026-07-14",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 34.99,
+      "pct": null
+    }
+  ]
+}

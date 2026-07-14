@@ -1,0 +1,20 @@
+{
+  "slug": "against-the-storm",
+  "cheapsharkGameId": "220484",
+  "atl": {
+    "pc": {
+      "usd": 8.99,
+      "date": "2026-07-14",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 8.99,
+      "pct": 70
+    }
+  ]
+}

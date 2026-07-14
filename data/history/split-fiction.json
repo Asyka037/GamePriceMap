@@ -1,0 +1,32 @@
+{
+  "slug": "split-fiction",
+  "cheapsharkGameId": "295865",
+  "atl": {
+    "pc": {
+      "usd": 32.49,
+      "date": "2026-06-15",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 49.99,
+      "date": "2026-07-14",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 49.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-14",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 49.99,
+      "pct": null
+    }
+  ]
+}

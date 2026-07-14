@@ -5,7 +5,7 @@ import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
 import PixelWorldMap from '../../../components/PixelWorldMap.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
-import { fmtUsd, fmtMoney, usRow } from '../../../lib/derive.mjs';
+import { fmtUsd, fmtMoney, primaryRegionalSource, usRow } from '../../../lib/derive.mjs';
 import { regionalGameSeo } from '../../../lib/seo.mjs';
 
 export function getStaticPaths() {
@@ -16,13 +16,9 @@ const { slug } = Astro.params;
 const bundle = gameBundle(slug!);
 const { game } = bundle;
 
-const channels = [
-  { key: 'eshop', label: 'Nintendo eShop', snap: bundle.eshop },
-  { key: 'steam', label: 'Steam', snap: bundle.steam },
-].filter((c) => c.snap?.regions?.length);
-const primaryChannel = channels[0] ?? null;
-const seo = primaryChannel
-  ? regionalGameSeo(game.title, primaryChannel.key, primaryChannel.snap)
+const source = primaryRegionalSource(bundle);
+const seo = source
+  ? regionalGameSeo(game.title, source.key, source.snapshot)
   : {
       title: `${game.title} Region Prices | GamePriceMap`,
       description: `Compare regional game prices and store discounts for ${game.title}.`,
@@ -37,40 +33,21 @@ const seo = primaryChannel
     <GameTabs slug={slug!} current="regional" />
 
     <section style="padding: 24px 0 8px;">
-      {channels.length > 1 && (
-        <div class="region-channel-tabs" role="tablist" aria-label="Price source">
-          {channels.map(({ key, label }, index) => (
-            <button
-              id={`region-tab-${key}`}
-              type="button"
-              role="tab"
-              aria-selected={index === 0 ? 'true' : 'false'}
-              aria-controls={`region-panel-${key}`}
-              tabindex={index === 0 ? 0 : -1}
-              data-region-tab={key}
-              class:list={[{ active: index === 0 }]}
-            >{label}</button>
-          ))}
-        </div>
-      )}
-      {channels.map(({ key, label, snap }, index) => {
-        const us = usRow(snap);
+      {source ? (() => {
+        const { key, label, snapshot } = source;
+        const us = usRow(snapshot);
         return (
           <div
             id={`region-panel-${key}`}
             class="region-channel-panel"
-            role="tabpanel"
-            aria-labelledby={channels.length > 1 ? `region-tab-${key}` : undefined}
-            aria-label={channels.length === 1 ? label : undefined}
-            data-region-panel={key}
-            hidden={index !== 0}
+            aria-label={`${label} regional prices`}
           >
-            <h2 style="font-family: var(--font-pixel); font-size: 14px; text-transform: uppercase; margin: 18px 0 12px;">{label} · {snap.regions.length} regions</h2>
-            <PixelWorldMap snapshot={snap} channel={key as 'steam' | 'eshop'} />
+            <h2 style="font-family: var(--font-pixel); font-size: 14px; text-transform: uppercase; margin: 18px 0 12px;">{label} · {snapshot.regions.length} regions</h2>
+            <PixelWorldMap snapshot={snapshot} channel={key as 'steam' | 'eshop'} />
             <table class="region-full">
               <thead><tr><th>#</th><th>Region</th><th>Local price</th><th>≈ USD</th><th>vs US</th><th>Sale ends</th></tr></thead>
               <tbody>
-                {snap.regions.map((r: any) => (
+                {snapshot.regions.map((r: any) => (
                   <tr id={`region-${key}-${r.cc}`}>
                     <td class={r.rank === 1 ? 'rank-1' : 'mono'} style={r.rank === 1 ? '' : 'color:var(--text-3);'}>{r.rank}</td>
                     <td>{r.cc}{r.discountPct ? <span class="chip-off" style="margin-left:8px;">−{r.discountPct}%</span> : null}</td>
@@ -86,8 +63,7 @@ const seo = primaryChannel
             </table>
           </div>
         );
-      })}
-      {channels.length === 0 && <p style="color:var(--text-2); font-weight:600;">No regional data tracked for this game yet.</p>}
+      })() : <p style="color:var(--text-2); font-weight:600;">No regional data tracked for this game yet.</p>}
 
       <NoteBox>
         These are store list prices with exchange-rate estimates — not checkout
@@ -99,31 +75,3 @@ const seo = primaryChannel
     </section>
   </div>
 </Layout>
-
-<script>
-  const tabs = [...document.querySelectorAll<HTMLButtonElement>('[data-region-tab]')];
-  const panels = [...document.querySelectorAll<HTMLElement>('[data-region-panel]')];
-
-  for (const tab of tabs) {
-    tab.addEventListener('click', () => {
-      const key = tab.dataset.regionTab;
-      document.dispatchEvent(new Event('pixelmap:hide'));
-      for (const candidate of tabs) {
-        const active = candidate === tab;
-        candidate.classList.toggle('active', active);
-        candidate.setAttribute('aria-selected', String(active));
-        candidate.tabIndex = active ? 0 : -1;
-      }
-      for (const panel of panels) panel.hidden = panel.dataset.regionPanel !== key;
-    });
-    tab.addEventListener('keydown', (event) => {
-      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
-      event.preventDefault();
-      const current = tabs.indexOf(tab);
-      const step = event.key === 'ArrowRight' ? 1 : -1;
-      const next = tabs[(current + step + tabs.length) % tabs.length];
-      next?.focus();
-      next?.click();
-    });
-  }
-</script>

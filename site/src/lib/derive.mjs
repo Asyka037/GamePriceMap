@@ -33,6 +33,27 @@ export function usRow(snapshot) {
 }
 
 /**
+ * One logical game can have several store IDs, but its regional page has one
+ * canonical source.  A catalog override wins when that source has data;
+ * otherwise Steam is the default mainstream source and eShop is the fallback.
+ * Keeping this decision in one pure function prevents SEO, overview and home
+ * boards from silently choosing different platforms.
+ */
+export function primaryRegionalSource(bundle) {
+  const configured = bundle?.game?.primaryRegionalChannel;
+  const order = configured
+    ? [configured, ...['steam', 'eshop'].filter((key) => key !== configured)]
+    : ['steam', 'eshop'];
+  for (const key of order) {
+    const snapshot = bundle?.[key];
+    if (snapshot?.regions?.length) {
+      return { key, label: key === 'steam' ? 'Steam' : 'Nintendo eShop', snapshot };
+    }
+  }
+  return null;
+}
+
+/**
  * Best current price across channels for the hero/table headline.
  * Returns { usd, channel } or null.
  */
@@ -84,15 +105,14 @@ export function buyWaitVerdict(bundle) {
 export function regionGapBoard(bundles, limit = 5) {
   const rows = [];
   for (const b of bundles) {
-    for (const snap of [b.eshop, b.steam].filter(Boolean)) {
-      const us = usRow(snap);
-      const cheapest = snap.regions[0];
-      if (!us || !cheapest || cheapest.cc === 'US' || !(us.usd > 0)) continue;
-      const savePct = Math.round((1 - cheapest.usd / us.usd) * 100);
-      if (savePct < 5) continue;
-      rows.push({ slug: b.slug, title: b.game?.title ?? b.slug, cc: cheapest.cc, savePct, channel: snap === b.eshop ? 'eshop' : 'steam' });
-      break; // one row per game, prefer eshop (listed first)
-    }
+    const source = primaryRegionalSource(b);
+    if (!source) continue;
+    const us = usRow(source.snapshot);
+    const cheapest = source.snapshot.regions[0];
+    if (!us || !cheapest || cheapest.cc === 'US' || !(us.usd > 0)) continue;
+    const savePct = Math.round((1 - cheapest.usd / us.usd) * 100);
+    if (savePct < 5) continue;
+    rows.push({ slug: b.slug, title: b.game?.title ?? b.slug, cc: cheapest.cc, savePct, channel: source.key });
   }
   return rows.sort((a, b) => b.savePct - a.savePct).slice(0, limit);
 }

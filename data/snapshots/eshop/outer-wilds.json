@@ -1,6 +1,6 @@
 {
   "slug": "outer-wilds",
-  "lastPriceChangeAt": "2026-07-11",
+  "lastPriceChangeAt": "2026-07-14",
   "regions": [
     {
       "cc": "AU",
@@ -13,10 +13,10 @@
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 25.19,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 7.55,
+      "list": 25.19,
+      "discountPct": 70,
+      "saleEndsAt": "2026-08-01T06:59:59Z"
     },
     {
       "cc": "CH",
@@ -61,10 +61,10 @@
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 387.81,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 116.34,
+      "list": 387.81,
+      "discountPct": 70,
+      "saleEndsAt": "2026-08-01T06:59:59Z"
     },
     {
       "cc": "NO",
@@ -93,10 +93,10 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 19.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 5.99,
+      "list": 19.99,
+      "discountPct": 70,
+      "saleEndsAt": "2026-08-01T06:59:59Z"
     },
     {
       "cc": "ZA",

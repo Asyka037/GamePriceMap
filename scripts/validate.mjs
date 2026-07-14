@@ -56,6 +56,9 @@ for (const g of catalog.games) {
   if (g.xboxBigId != null && g.xboxEdition !== 'standard') fail(`catalog ${g.slug}: Xbox POC requires xboxEdition "standard"`);
   if (g.xboxBigId && xboxIds.has(g.xboxBigId)) fail(`catalog: duplicate xboxBigId ${g.xboxBigId}`);
   if (!['core', 'extended'].includes(g.tier)) fail(`catalog ${g.slug}: bad tier`);
+  if (g.primaryRegionalChannel != null && !['steam', 'eshop'].includes(g.primaryRegionalChannel)) fail(`catalog ${g.slug}: bad primaryRegionalChannel ${g.primaryRegionalChannel}`);
+  if (g.primaryRegionalChannel === 'steam' && !Number.isInteger(g.steamAppId)) fail(`catalog ${g.slug}: primaryRegionalChannel steam requires steamAppId`);
+  if (g.primaryRegionalChannel === 'eshop' && !(g.nsuids && Object.values(g.nsuids).some(Boolean))) fail(`catalog ${g.slug}: primaryRegionalChannel eshop requires an NSUID`);
   slugs.add(g.slug);
   appIds.add(g.steamAppId);
   if (g.xboxBigId) xboxIds.add(g.xboxBigId);
@@ -77,9 +80,9 @@ for (const g of catalog.games) {
   for (const [group, nsuid] of Object.entries(g.nsuids ?? {})) {
     if (nsuid === null) continue;
     if (!/^70\d{12}$/.test(String(nsuid))) fail(`catalog ${g.slug}: malformed ${group} nsuid ${nsuid}`);
-    const key = `${group}:${nsuid}`;
-    if (seenNsuids.has(key)) fail(`catalog: nsuid ${nsuid} (${group}) shared by ${seenNsuids.get(key)} and ${g.slug}`);
-    seenNsuids.set(key, g.slug);
+    const owner = seenNsuids.get(String(nsuid));
+    if (owner && owner !== g.slug) fail(`catalog: nsuid ${nsuid} shared by ${owner} and ${g.slug}`);
+    seenNsuids.set(String(nsuid), g.slug);
   }
 }
 

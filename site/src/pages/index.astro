@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import SectionHead from '../components/SectionHead.astro';
 import { catalog, gameBundle, feed, calendar } from '../lib/data.mjs';
-import { regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, bestPriceNow, usRow, overallAtl, isLive, fmtUsd } from '../lib/derive.mjs';
+import { regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, bestPriceNow, primaryRegionalSource, usRow, overallAtl, isLive, fmtUsd } from '../lib/derive.mjs';
 
 const bundles = catalog().map((g: any) => gameBundle(g.slug));
 
@@ -13,7 +13,8 @@ const showcase = ['hollow-knight-silksong', 'elden-ring', 'stardew-valley', 'cyb
   .map((b: any) => {
     const st = usRow(b.steam);
     const es = usRow(b.eshop);
-    const cheapestRegion = (b.eshop ?? b.steam)?.regions?.[0];
+    const regionalSource = primaryRegionalSource(b);
+    const cheapestRegion = regionalSource?.snapshot.regions?.[0];
     const atl = overallAtl(b.history);
     const best = bestPriceNow(b);
     const deal = [st, es].filter((r) => r?.discountPct).sort((a, b2) => b2!.discountPct - a!.discountPct)[0];
@@ -22,7 +23,7 @@ const showcase = ['hollow-knight-silksong', 'elden-ring', 'stardew-valley', 'cyb
       name: b.game.title,
       cover: b.meta?.headerImage ?? '',
       plat: [st && `Steam ${fmtUsd(st.usd)}`, es && `eShop ${fmtUsd(es.usd)}`].filter(Boolean).join(' · ') || 'PC',
-      region: cheapestRegion ? `${b.eshop ? 'eShop' : 'Steam'} ${cheapestRegion.cc} ≈ ${fmtUsd(cheapestRegion.usd)}` : '—',
+      region: cheapestRegion ? `${regionalSource.label} ${cheapestRegion.cc} ≈ ${fmtUsd(cheapestRegion.usd)}` : '—',
       deal: deal ? `−${deal.discountPct}% right now` : 'No discount right now',
       atl: !!(best && atl && best.usd <= atl.usd + 0.001),
     };

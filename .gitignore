@@ -5,3 +5,16 @@ dist/
 *.log
 .env
 .env.*
+
+# Local/private project operations — never publish
+/AGENTS.md
+/CLAUDE.md
+/design.md
+/tasks/
+/docs/HANDOFF.md
+/docs/plans/
+/docs/internal/
+/private/
+
+# Office temporary lock files
+~$*.xlsx

@@ -1,7 +1,5 @@
 # GamePriceMap
 
-> **接手维护先读 [docs/HANDOFF.md](docs/HANDOFF.md)**（状态快照 / 代码地图 / 不可破坏约定）。
-
 多平台游戏折扣聚合站：Steam + Nintendo eShop 区域定价、史低、促销、免费游戏与新游日历。
 
 - **线上**：https://gamepricemap.com
@@ -22,12 +20,9 @@ cd site && npm install && npm run dev     # 本地站点 http://localhost:4321
 |---|---|
 | `scripts/` | 抓取/校验/发现脚本（Node 22，零 npm 运行时依赖） |
 | `data/` | 数据层：目录（人审）、快照、事件化历史、feeds、健康度 |
-| `site/` | Astro 5 静态站（139 页） |
+| `site/` | Astro 静态站 |
 | `.github/workflows/` | daily.yml / weekly.yml 数据管线 |
 
-## 必读文档
+## 数据治理
 
-1. **[docs/HANDOFF.md](docs/HANDOFF.md)** — 当前状态快照、代码地图、不可破坏约定、遗留清单（接手先读这个）
-2. [docs/plans/2026-07-07-dealdex-v1-plan.md](docs/plans/2026-07-07-dealdex-v1-plan.md) — 架构方案与端点实测记录
-3. [design.md](design.md) — UI 设计规范（约束性）
-4. [tasks/todo.md](tasks/todo.md) / [tasks/lessons.md](tasks/lessons.md) — 执行记录与踩坑教训
+`data/catalog.json` 是人工审核的游戏目录。发现脚本只会生成 `data/suggestions/` 候选，不会自动把游戏加入生产目录；价格快照只保存商店返回的本币原始观测，USD 换算和排名在构建期派生。

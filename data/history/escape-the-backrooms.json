@@ -1,0 +1,32 @@
+{
+  "slug": "escape-the-backrooms",
+  "cheapsharkGameId": "249845",
+  "atl": {
+    "pc": {
+      "usd": 6.49,
+      "date": "2026-01-12",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 12.99,
+      "date": "2026-07-14",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-14",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 9.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-14",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 12.99,
+      "pct": null
+    }
+  ]
+}
