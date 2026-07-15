@@ -19,7 +19,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchJson, sleep } from './lib/http.mjs';
-import { normTitle as norm, titleMatches } from './lib/match.mjs';
+import { extractUsProductNsuid } from './lib/eshop.mjs';
+import {
+  selectEuropeDiscoveryCandidate,
+  selectJapanDiscoveryCandidate,
+} from './lib/nsuid-discovery.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CATALOG_PATH = path.join(ROOT, 'data', 'catalog.json');
@@ -36,33 +40,18 @@ const targets = catalog.games.filter((g) =>
   (onlySlugs.length ? onlySlugs.includes(g.slug)
     : (g.platforms.some((p) => p.startsWith('switch')) && !g.nsuids)));
 
-const isBaseGame = (nsuid, title) => String(nsuid).startsWith('7001') && !/switch\s*2\s*edition/i.test(title ?? '');
-
-async function discoverEurope(title) {
+async function discoverEurope({ title, platforms }) {
   const url = `https://searching.nintendo-europe.com/en/select?q=${encodeURIComponent(title)}&fq=type%3AGAME&rows=8&wt=json`;
   const body = await fetchJson(url, { label: 'eu search' });
-  for (const doc of body.response?.docs ?? []) {
-    const nsuid = (doc.nsuid_txt ?? []).find((n) => isBaseGame(n, doc.title));
-    if (!nsuid) continue;
-    if (titleMatches(doc.title, title)) {
-      return { nsuid, matchedTitle: doc.title, confidence: 'high', lowestGbp: doc.price_lowest_f ?? null };
-    }
-  }
-  return null;
+  const candidate = selectEuropeDiscoveryCandidate(body.response?.docs, { title, platforms });
+  return candidate ? { ...candidate, confidence: 'high' } : null;
 }
 
-async function discoverJapan(title) {
+async function discoverJapan({ title, platforms }) {
   const url = `https://search.nintendo.jp/nintendo_soft/search.json?q=${encodeURIComponent(title)}&limit=8`;
   const body = await fetchJson(url, { label: 'jp search' });
-  for (const item of body.result?.items ?? []) {
-    if (!isBaseGame(item.nsuid, item.title)) continue;
-    // JP titles are often "English Title（日本語タイトル）" — compare the segment before the fullwidth paren
-    const jpMain = String(item.title).split('（')[0];
-    if (titleMatches(jpMain, title) || titleMatches(item.title, title)) {
-      return { nsuid: String(item.nsuid), matchedTitle: item.title, confidence: 'high' };
-    }
-  }
-  return null;
+  const candidate = selectJapanDiscoveryCandidate(body.result?.items, { title, platforms });
+  return candidate ? { ...candidate, confidence: 'high' } : null;
 }
 
 async function discoverAmericas(slug, title) {
@@ -73,19 +62,13 @@ async function discoverAmericas(slug, title) {
         signal: AbortSignal.timeout(30000),
       });
       if (!res.ok) continue;
-      // Guessed URLs can 200-redirect to a generic store page whose HTML
-      // still contains *other* games' NSUIDs — require the product URL to
-      // survive redirects AND the page to actually name this game.
-      if (!res.url.includes('/store/products/')) continue;
+      // Guessed URLs can 200-redirect to a generic or different product page.
+      // Require the requested product path itself to survive the redirect.
+      const finalPath = new URL(res.url).pathname.replace(/\/+$/, '');
+      if (finalPath !== `/us/store/products/${candidate}`) continue;
       const html = await res.text();
-      if (!norm(html).includes(norm(title))) continue;
-      const bases = [...new Set(html.match(/70\d{12}/g) ?? [])].filter((n) => n.startsWith('7001'));
-      if (bases.length === 1) return { nsuid: bases[0], matchedTitle: candidate, confidence: 'high' };
-      if (bases.length > 1) {
-        // base + Switch 2 Edition on one page; the base NSUID is the older (smaller) one
-        const sorted = [...bases].sort();
-        return { nsuid: sorted[0], matchedTitle: `${candidate} (multi: ${bases.join('/')})`, confidence: 'medium' };
-      }
+      const product = extractUsProductNsuid(html, { title, urlKey: candidate });
+      if (product) return { ...product, matchedTitle: candidate, confidence: 'high' };
     } catch { /* try next candidate */ }
   }
   return null;
@@ -94,8 +77,8 @@ async function discoverAmericas(slug, title) {
 const results = [];
 for (const g of targets) {
   const [eu, jp, us] = [
-    await discoverEurope(g.title).catch(() => null),
-    await discoverJapan(g.title).catch(() => null),
+    await discoverEurope(g).catch(() => null),
+    await discoverJapan(g).catch(() => null),
     await discoverAmericas(g.slug, g.title).catch(() => null),
   ];
   results.push({ slug: g.slug, eu, jp, us });
@@ -131,7 +114,7 @@ const seeds = fs.existsSync(SEEDS_PATH) ? JSON.parse(fs.readFileSync(SEEDS_PATH,
 const candidates = [];
 for (const r of results) {
   const nsuids = {
-    americas: r.us && ['high', 'medium'].includes(r.us.confidence) ? r.us.nsuid : null,
+    americas: r.us?.confidence === 'high' ? r.us.nsuid : null,
     europe: r.eu?.confidence === 'high' ? r.eu.nsuid : null,
     japan: r.jp?.confidence === 'high' ? r.jp.nsuid : null,
   };

@@ -1,0 +1,32 @@
+{
+  "slug": "final-fantasy-viii-remastered",
+  "cheapsharkGameId": "204268",
+  "atl": {
+    "pc": {
+      "usd": 7.99,
+      "date": "2023-12-14",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 7.99,
+      "date": "2026-07-15",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-15",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 19.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-15",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 7.99,
+      "pct": 60
+    }
+  ]
+}

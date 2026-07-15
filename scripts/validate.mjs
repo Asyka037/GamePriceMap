@@ -18,6 +18,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { DERIVED_REGION_FIELDS } from './lib/snapshot.mjs';
+import { hasNativeUsObservation, isNintendoBaseGameNsuid } from './lib/validation.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
@@ -71,15 +72,20 @@ for (const g of catalog.games) {
     fail(`missing required snapshot data/snapshots/steam/${g.slug}.json (game has steamAppId)`);
   }
   const hasNsuid = g.nsuids && (g.nsuids.americas || g.nsuids.europe || g.nsuids.japan);
-  if (hasNsuid && !fs.existsSync(path.join(ROOT, `data/snapshots/eshop/${g.slug}.json`))) {
-    fail(`missing required snapshot data/snapshots/eshop/${g.slug}.json (game has nsuids)`);
+  const eshopRel = `data/snapshots/eshop/${g.slug}.json`;
+  const eshopExists = fs.existsSync(path.join(ROOT, eshopRel));
+  if (hasNsuid && !eshopExists) {
+    fail(`missing required snapshot ${eshopRel} (game has nsuids)`);
+  }
+  if (g.nsuids?.americas && eshopExists && !hasNativeUsObservation(readJson(eshopRel))) {
+    fail(`${eshopRel}: catalog has Americas nsuid but snapshot lacks a native US/USD observation`);
   }
   if (g.xboxBigId && !fs.existsSync(path.join(ROOT, `data/snapshots/xbox/${g.slug}.json`))) {
     fail(`missing required snapshot data/snapshots/xbox/${g.slug}.json (game has xboxBigId)`);
   }
   for (const [group, nsuid] of Object.entries(g.nsuids ?? {})) {
     if (nsuid === null) continue;
-    if (!/^70\d{12}$/.test(String(nsuid))) fail(`catalog ${g.slug}: malformed ${group} nsuid ${nsuid}`);
+    if (!isNintendoBaseGameNsuid(nsuid)) fail(`catalog ${g.slug}: ${group} nsuid ${nsuid} is not a 7001 base-game ID`);
     const owner = seenNsuids.get(String(nsuid));
     if (owner && owner !== g.slug) fail(`catalog: nsuid ${nsuid} shared by ${owner} and ${g.slug}`);
     seenNsuids.set(String(nsuid), g.slug);

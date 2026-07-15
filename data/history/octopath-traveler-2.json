@@ -1,0 +1,32 @@
+{
+  "slug": "octopath-traveler-2",
+  "cheapsharkGameId": "250841",
+  "atl": {
+    "pc": {
+      "usd": 23.99,
+      "date": "2025-07-24",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 23.99,
+      "date": "2026-07-15",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-15",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 59.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-15",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 23.99,
+      "pct": 60
+    }
+  ]
+}

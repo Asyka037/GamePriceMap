@@ -790,8 +790,12 @@
       "slug": "no-mans-sky",
       "title": "No Man's Sky",
       "steamAppId": 275850,
-      "nsuids": null,
-      "platforms": ["pc"],
+      "nsuids": {
+        "americas": "70010000044642",
+        "europe": "70010000044643",
+        "japan": "70010000044641"
+      },
+      "platforms": ["pc", "switch"],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -799,8 +803,12 @@
       "slug": "disney-dreamlight-valley",
       "title": "Disney Dreamlight Valley",
       "steamAppId": 1401590,
-      "nsuids": null,
-      "platforms": ["pc"],
+      "nsuids": {
+        "americas": "70010000033556",
+        "europe": "70010000033557",
+        "japan": "70010000033555"
+      },
+      "platforms": ["pc", "switch"],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -884,8 +892,12 @@
       "slug": "risk-of-rain-2",
       "title": "Risk of Rain 2",
       "steamAppId": 632360,
-      "nsuids": null,
-      "platforms": ["pc"],
+      "nsuids": {
+        "americas": "70010000020030",
+        "europe": "70010000020029",
+        "japan": "70010000021848"
+      },
+      "platforms": ["pc", "switch"],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -893,8 +905,12 @@
       "slug": "dont-starve-together",
       "title": "Don't Starve Together",
       "steamAppId": 322330,
-      "nsuids": null,
-      "platforms": ["pc"],
+      "nsuids": {
+        "americas": "70010000019795",
+        "europe": "70010000019794",
+        "japan": "70010000049882"
+      },
+      "platforms": ["pc", "switch"],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -902,8 +918,12 @@
       "slug": "core-keeper",
       "title": "Core Keeper",
       "steamAppId": 1621690,
-      "nsuids": null,
-      "platforms": ["pc"],
+      "nsuids": {
+        "americas": "70010000073033",
+        "europe": "70010000073034",
+        "japan": "70010000079456"
+      },
+      "platforms": ["pc", "switch"],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -1023,6 +1043,201 @@
       "platforms": ["pc", "switch"],
       "tier": "core",
       "addedAt": "2026-07-14"
+    },
+    {
+      "slug": "hogwarts-legacy",
+      "title": "Hogwarts Legacy",
+      "steamAppId": 990080,
+      "nsuids": {
+        "americas": "70010000014724",
+        "europe": "70010000062277",
+        "japan": "70010000062278"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "monster-hunter-rise",
+      "title": "MONSTER HUNTER RISE",
+      "steamAppId": 1446780,
+      "nsuids": {
+        "americas": "70010000029016",
+        "europe": "70010000029015",
+        "japan": "70010000029014"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "final-fantasy-vii-rebirth",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "steamAppId": 2909400,
+      "nsuids": {
+        "americas": "70010000112477",
+        "europe": "70010000112478",
+        "japan": "70010000112479"
+      },
+      "platforms": ["pc", "switch-2"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "final-fantasy-vii-remake-intergrade",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "steamAppId": 1462040,
+      "nsuids": {
+        "americas": "70010000101698",
+        "europe": "70010000101699",
+        "japan": "70010000096733"
+      },
+      "platforms": ["pc", "switch-2"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "final-fantasy-ix",
+      "title": "FINAL FANTASY IX",
+      "steamAppId": 377840,
+      "nsuids": {
+        "americas": "70010000010582",
+        "europe": "70010000010581",
+        "japan": null
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "mortal-kombat-11",
+      "title": "Mortal Kombat 11",
+      "steamAppId": 976310,
+      "nsuids": {
+        "americas": "70010000015154",
+        "europe": "70010000018076",
+        "japan": null
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "inside",
+      "title": "INSIDE",
+      "steamAppId": 304430,
+      "nsuids": {
+        "americas": "70010000005804",
+        "europe": "70010000005803",
+        "japan": "70010000011738"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "a-little-to-the-left",
+      "title": "A Little to the Left",
+      "steamAppId": 1629520,
+      "nsuids": {
+        "americas": "70010000051361",
+        "europe": "70010000051362",
+        "japan": "70010000058832"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "lego-dc-super-villains",
+      "title": "LEGO DC Super-Villains",
+      "steamAppId": 829110,
+      "nsuids": {
+        "americas": "70010000007661",
+        "europe": "70010000013221",
+        "japan": null
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "final-fantasy-vii",
+      "title": "FINAL FANTASY VII",
+      "steamAppId": 3837340,
+      "nsuids": {
+        "americas": "70010000013197",
+        "europe": "70010000013195",
+        "japan": null
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "final-fantasy-viii-remastered",
+      "title": "FINAL FANTASY VIII - REMASTERED",
+      "steamAppId": 1026680,
+      "nsuids": {
+        "americas": "70010000019037",
+        "europe": "70010000019035",
+        "japan": "70010000019038"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "limbo",
+      "title": "LIMBO",
+      "steamAppId": 48000,
+      "nsuids": {
+        "americas": "70010000005802",
+        "europe": "70010000005801",
+        "japan": "70010000011737"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "octopath-traveler-2",
+      "title": "OCTOPATH TRAVELER II",
+      "steamAppId": 1971650,
+      "nsuids": {
+        "americas": "70010000058128",
+        "europe": "70010000058129",
+        "japan": "70010000058127"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "unravel-two",
+      "title": "Unravel Two",
+      "steamAppId": 1225570,
+      "nsuids": {
+        "americas": "70010000015568",
+        "europe": "70010000015566",
+        "japan": "70010000015569"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "final-fantasy-xii-the-zodiac-age",
+      "title": "FINAL FANTASY XII THE ZODIAC AGE",
+      "steamAppId": 595520,
+      "nsuids": {
+        "americas": "70010000009746",
+        "europe": "70010000009745",
+        "japan": "70010000009747"
+      },
+      "platforms": ["pc", "switch"],
+      "tier": "core",
+      "addedAt": "2026-07-15"
     }
   ]
 }

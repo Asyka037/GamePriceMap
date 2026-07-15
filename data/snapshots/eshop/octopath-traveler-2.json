@@ -1,0 +1,134 @@
+{
+  "slug": "octopath-traveler-2",
+  "lastPriceChangeAt": "2026-07-15",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "ARS",
+      "amount": 19199.6,
+      "list": 47999,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 33.98,
+      "list": 84.95,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-16T13:59:59Z"
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 119.96,
+      "list": 299.9,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 31.99,
+      "list": 79.99,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 25.16,
+      "list": 62.9,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    },
+    {
+      "cc": "CO",
+      "currency": "COP",
+      "amount": 95200,
+      "list": 238000,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 23.99,
+      "list": 59.99,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 179.5,
+      "list": 449,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 19.99,
+      "list": 49.99,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-16T22:59:59Z"
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 5478,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 480,
+      "list": 1200,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 239,
+      "list": 599,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 41.98,
+      "list": 104.95,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-16T11:59:59Z"
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 103.6,
+      "list": 259,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 23.99,
+      "list": 59.99,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 427.6,
+      "list": 1069,
+      "discountPct": 60,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    }
+  ]
+}

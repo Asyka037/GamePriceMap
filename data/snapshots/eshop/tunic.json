@@ -1,6 +1,6 @@
 {
   "slug": "tunic",
-  "lastPriceChangeAt": "2026-07-10",
+  "lastPriceChangeAt": "2026-07-15",
   "regions": [
     {
       "cc": "AU",
@@ -73,6 +73,14 @@
       "list": null,
       "discountPct": null,
       "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 49.99,
+      "list": 249.99,
+      "discountPct": 80,
+      "saleEndsAt": "2026-07-19T06:59:59Z"
     },
     {
       "cc": "NO",

@@ -1,0 +1,32 @@
+{
+  "slug": "monster-hunter-rise",
+  "cheapsharkGameId": "235239",
+  "atl": {
+    "pc": {
+      "usd": 3.56,
+      "date": "2026-06-26",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 39.99,
+      "date": "2026-07-15",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-15",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-15",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    }
+  ]
+}

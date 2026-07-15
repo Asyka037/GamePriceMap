@@ -1,0 +1,32 @@
+{
+  "slug": "mortal-kombat-11",
+  "cheapsharkGameId": "196050",
+  "atl": {
+    "pc": {
+      "usd": 2.49,
+      "date": "2025-09-29",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 9.99,
+      "date": "2026-07-15",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-15",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 49.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-15",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 9.99,
+      "pct": 80
+    }
+  ]
+}

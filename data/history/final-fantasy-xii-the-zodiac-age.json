@@ -1,0 +1,32 @@
+{
+  "slug": "final-fantasy-xii-the-zodiac-age",
+  "cheapsharkGameId": "177144",
+  "atl": {
+    "pc": {
+      "usd": 14.99,
+      "date": "2026-04-23",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 14.99,
+      "date": "2026-07-15",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-15",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 49.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-15",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 14.99,
+      "pct": 70
+    }
+  ]
+}

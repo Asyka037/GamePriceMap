@@ -1,0 +1,32 @@
+{
+  "slug": "final-fantasy-vii",
+  "cheapsharkGameId": null,
+  "atl": {
+    "pc": {
+      "usd": 11.99,
+      "date": "2026-07-15",
+      "seed": "self"
+    },
+    "eshop-us": {
+      "usd": 6.39,
+      "date": "2026-07-15",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-15",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 11.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-15",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 6.39,
+      "pct": 60
+    }
+  ]
+}

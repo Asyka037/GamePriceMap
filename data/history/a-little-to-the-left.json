@@ -1,0 +1,32 @@
+{
+  "slug": "a-little-to-the-left",
+  "cheapsharkGameId": "253095",
+  "atl": {
+    "pc": {
+      "usd": 4.45,
+      "date": "2026-03-12",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 5.99,
+      "date": "2026-07-15",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-15",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 14.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-15",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 5.99,
+      "pct": 60
+    }
+  ]
+}

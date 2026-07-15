@@ -1,0 +1,134 @@
+{
+  "slug": "final-fantasy-vii-remake-intergrade",
+  "lastPriceChangeAt": "2026-07-15",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "ARS",
+      "amount": 16099.65,
+      "list": 45999,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 24.48,
+      "list": 69.95,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-16T13:59:59Z"
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 80.46,
+      "list": 229.9,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 18.72,
+      "list": 53.49,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 17.46,
+      "list": 49.9,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    },
+    {
+      "cc": "CO",
+      "currency": "COP",
+      "amount": 57050,
+      "list": 163000,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 17.49,
+      "list": 49.99,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 129,
+      "list": 369,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 13.99,
+      "list": 39.99,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-16T22:59:59Z"
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 5478,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 280,
+      "list": 800,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 192,
+      "list": 549,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 31.48,
+      "list": 89.95,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-16T11:59:59Z"
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 76.65,
+      "list": 219,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 13.99,
+      "list": 39.99,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-17T06:59:59Z"
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 332.15,
+      "list": 949,
+      "discountPct": 65,
+      "saleEndsAt": "2026-07-16T21:59:59Z"
+    }
+  ]
+}

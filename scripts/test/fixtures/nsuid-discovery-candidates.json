@@ -1,0 +1,97 @@
+{
+  "europe": {
+    "dqXiSwitch2": {
+      "type": "GAME",
+      "title": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition",
+      "nsuid_txt": ["70010000097771"],
+      "playable_on_txt": ["BEE"],
+      "system_names_txt": ["Nintendo Switch 2"],
+      "digital_version_b": true,
+      "eshop_removed_b": false,
+      "date_from": "2026-09-24T00:00:00Z",
+      "price_regular_f": 34.99,
+      "price_lowest_f": 34.99
+    },
+    "validHac": {
+      "type": "GAME",
+      "title": "Example Game",
+      "nsuid_txt": ["70010000000001"],
+      "playable_on_txt": ["HAC"],
+      "system_names_txt": ["Nintendo Switch"],
+      "digital_version_b": true,
+      "eshop_removed_b": false,
+      "date_from": "2020-01-01T00:00:00Z",
+      "price_regular_f": 19.99,
+      "price_lowest_f": 9.99
+    },
+    "zeroPrice": {
+      "type": "GAME",
+      "title": "Example Game",
+      "nsuid_txt": ["70010000000002"],
+      "playable_on_txt": ["HAC"],
+      "system_names_txt": ["Nintendo Switch"],
+      "digital_version_b": true,
+      "eshop_removed_b": false,
+      "date_from": "2020-01-01T00:00:00Z",
+      "price_regular_f": 19.99,
+      "price_lowest_f": 0
+    }
+  },
+  "japan": {
+    "hogwartsBee": {
+      "title": "Hogwarts Legacy",
+      "nsuid": "70010000095416",
+      "hard": "05_BEE",
+      "sform": "BEE_DOWNLOADABLE",
+      "ssitu": "onsale",
+      "upgrade": 0,
+      "current_price": 8778
+    },
+    "hogwartsHac": {
+      "title": "Hogwarts Legacy",
+      "nsuid": "70010000062278",
+      "hard": "1_HAC",
+      "sform": "HAC_DL",
+      "ssitu": "onsale",
+      "upgrade": 0,
+      "current_price": 8778
+    },
+    "upgrade": {
+      "title": "Example Game",
+      "nsuid": "70050000000001",
+      "hard": "1_HAC",
+      "sform": "DLC",
+      "ssitu": "onsale",
+      "upgrade": 1,
+      "current_price": 100
+    },
+    "bundle": {
+      "title": "Example Game",
+      "nsuid": "70070000000001",
+      "hard": "1_HAC",
+      "sform": "HAC_DL",
+      "ssitu": "onsale",
+      "upgrade": 0,
+      "current_price": 1000
+    },
+    "terminated": {
+      "title": "Example Game",
+      "nsuid": "70010000000003",
+      "hard": "1_HAC",
+      "sform": "HAC_DL",
+      "ssitu": "sales_termination",
+      "upgrade": 0,
+      "current_price": 1000
+    },
+    "zeroPrice": {
+      "title": "Example Game",
+      "nsuid": "70010000000004",
+      "hard": "1_HAC",
+      "sform": "HAC_DL",
+      "ssitu": "onsale",
+      "upgrade": 0,
+      "current_price": 0,
+      "pprice": 1000
+    }
+  }
+}

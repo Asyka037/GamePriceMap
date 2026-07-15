@@ -1,0 +1,32 @@
+{
+  "slug": "lego-dc-super-villains",
+  "cheapsharkGameId": "187756",
+  "atl": {
+    "pc": {
+      "usd": 2.96,
+      "date": "2022-11-18",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 5.99,
+      "date": "2026-07-15",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-15",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-15",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 5.99,
+      "pct": 90
+    }
+  ]
+}

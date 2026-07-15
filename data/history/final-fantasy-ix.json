@@ -1,0 +1,32 @@
+{
+  "slug": "final-fantasy-ix",
+  "cheapsharkGameId": "151699",
+  "atl": {
+    "pc": {
+      "usd": 6.29,
+      "date": "2025-06-26",
+      "seed": "cheapshark"
+    },
+    "eshop-us": {
+      "usd": 6.29,
+      "date": "2026-07-15",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-15",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 20.99,
+      "pct": null
+    },
+    {
+      "d": "2026-07-15",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 6.29,
+      "pct": 70
+    }
+  ]
+}
