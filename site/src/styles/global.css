@@ -575,7 +575,7 @@ img { display: block; max-width: 100%; }
 .region-mini { width: 100%; min-width: 430px; border-collapse: collapse; }
 .region-mini td { padding: 7.5px 4px; font-size: 13.5px; font-weight: 700; border-bottom: 2px dashed #E5DDC8; }
 .region-mini tr:last-child td { border-bottom: none; }
-.region-mini td:nth-child(3), .region-mini td:nth-child(4) { text-align: right; }
+.region-mini td:nth-child(4) { text-align: right; }
 
 .region-name { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); font-weight: 800; white-space: nowrap; }
 .region-flag-symbol { width: 22px; flex: 0 0 22px; font-size: 18px; line-height: 1; text-align: center; }
@@ -618,7 +618,7 @@ img { display: block; max-width: 100%; }
   margin: 18px 0 12px; color: var(--ink); font-family: var(--font-pixel);
   font-size: 14px; font-weight: 400; line-height: 1.6; text-transform: uppercase;
 }
-.regional-summary { max-width: 940px; margin: 0 0 14px; color: var(--text-2); font-size: 14.5px; font-weight: 700; line-height: 1.65; }
+.regional-summary { width: 100%; margin: -4px 0 14px; color: var(--text-2); font-size: 14.5px; font-weight: 700; line-height: 1.65; }
 .region-table-wrap { width: 100%; max-width: 100%; padding: 0 6px 8px 0; overflow-x: auto; }
 .region-table-wrap .region-full { min-width: 650px; }
 .region-full {

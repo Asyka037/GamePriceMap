@@ -108,8 +108,9 @@ test('regional summary separates honest savings from the min-to-max price spread
   assert.equal(summary.priceSpreadPct, 327, 'spread states how much higher the maximum is than the minimum');
   assert.equal(
     summary.text,
-    "Compare Baldur's Gate 3 Steam prices globally. Cheapest: Ukraine ($20.13). Most expensive: Switzerland ($86.04). Save up to 77% via regional pricing; the highest-priced region is 327% above the cheapest.",
+    "Compare Baldur's Gate 3 Steam prices globally. Cheapest: Ukraine ($20.13). Most expensive: Switzerland ($86.04). Save up to 77% via regional pricing.",
   );
+  assert.doesNotMatch(summary.text, /highest-priced region/);
 });
 
 test('isLive: missing endsAt is live, past is dead, future is live', () => {

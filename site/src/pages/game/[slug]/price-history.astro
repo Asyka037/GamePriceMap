@@ -5,7 +5,7 @@ import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
 import { catalog, gameBundle, sourceHealth } from '../../../lib/data.mjs';
 import { fmtUsd } from '../../../lib/derive.mjs';
-import { stepChartModel } from '../../../lib/chart.mjs';
+import { multiStepChartModel } from '../../../lib/chart.mjs';
 
 export function getStaticPaths() {
   return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
@@ -20,29 +20,47 @@ const seedLabels: Record<string, string> = {
   cheapshark: 'all-time record via CheapShark',
   'eshop-eu': 'UK-shop lowest via Nintendo index',
 };
-const events = [...(bundle.history?.events ?? [])].reverse();
+const historyEvents = bundle.history?.events ?? [];
+const events = [...historyEvents].reverse();
 
 // 趋势图：美区自观测阶梯线；末端 = 该源 lastSuccessAt（最后一次确认价格的时刻），
 // 不是"今天"——抓取停摆时线就停在那里，不假装数据仍新鲜。
 const health = sourceHealth().sources ?? {};
 const TRACKING_SINCE = '2026-07-08';
-const channels = [
-  { ch: 'steam', label: 'Steam · US', color: 'var(--teal)', source: 'steam-regional', tracked: !!bundle.steam },
-  { ch: 'eshop', label: 'eShop · US', color: 'var(--red)', source: 'eshop-regional', tracked: !!bundle.eshop },
-  { ch: 'xbox', label: 'Xbox · US', color: 'var(--text-2)', source: 'xbox-us', tracked: !!bundle.xbox, fallbackSince: '2026-07-12' },
-].filter((c) => c.tracked).map((c) => {
-  const model = stepChartModel(bundle.history?.events ?? [], {
-    channel: c.ch,
-    endDate: health[c.source]?.lastSuccessAt ?? null,
-  });
-  const first = (bundle.history?.events ?? []).find((e) => e.ch === c.ch);
+const channelDefs = [
+  { id: 'steam', label: 'Steam · US', color: 'var(--teal)', lineStyle: 'solid', dash: '', marker: 'square', source: 'steam-regional', tracked: !!bundle.steam },
+  { id: 'eshop', label: 'eShop · US', color: 'var(--red)', lineStyle: 'dash', dash: '10 6', marker: 'circle', source: 'eshop-regional', tracked: !!bundle.eshop },
+  { id: 'xbox', label: 'Xbox · US', color: 'var(--text-2)', lineStyle: 'dot', dash: '3 6', marker: 'diamond', source: 'xbox-us', tracked: !!bundle.xbox, fallbackSince: '2026-07-12' },
+].filter((channel) => channel.tracked);
+
+const chart = multiStepChartModel(historyEvents, {
+  channels: channelDefs.map((channel) => ({
+    id: channel.id,
+    endDate: health[channel.source]?.lastSuccessAt ?? null,
+  })),
+});
+const seriesById = new Map(chart.series.map((series) => [series.id, series]));
+const channels = channelDefs.map((channel) => {
+  const series = seriesById.get(channel.id)!;
   return {
-    ...c,
-    model,
-    since: first?.d ?? c.fallbackSince ?? TRACKING_SINCE,
-    checkedAt: health[c.source]?.lastSuccessAt?.slice(0, 10) ?? null,
+    ...channel,
+    series,
+    since: series.firstDate ?? channel.fallbackSince ?? TRACKING_SINCE,
+    checkedAt: health[channel.source]?.lastSuccessAt?.slice(0, 10) ?? null,
   };
 });
+
+function seriesStatus(channel: typeof channels[number]) {
+  if (channel.series.state === 'changes') return `${channel.series.dots.length} recorded price points`;
+  if (channel.series.state === 'confirmed-flat') return `unchanged since ${channel.series.firstDate}`;
+  if (channel.series.state === 'point') return `tracking since ${channel.since}`;
+  return 'awaiting first observation';
+}
+
+const chartDescription = channels.map((channel) => {
+  if (channel.series.lastUsd == null) return `${channel.label}: awaiting first observation`;
+  return `${channel.label}: ${fmtUsd(channel.series.lastUsd)}, observed from ${channel.series.firstDate} through ${channel.series.endDate}`;
+}).join('; ');
 ---
 <Layout
   title={`${game.title} Price History & All-Time Low Tracker | GamePriceMap`}
@@ -54,53 +72,99 @@ const channels = [
 
     <section style="padding: 24px 0 8px;">
       <div class="panel trend-panel">
-        <h3>
+        <h3 id="trend-title">
           <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><polyline points="3 17 8 17 8 11 13 11 13 6 21 6"/></svg>
           US price trend
         </h3>
-        <div class:list={['trend-grid', `trend-cols-${Math.min(channels.length, 3)}`]}>
-          {channels.map((c) => (
-            <figure class="trend-fig">
-              <figcaption>
-                <span><span class="trend-ch" style={`color:${c.color};`}>{c.label}</span>{c.checkedAt && <small>checked {c.checkedAt}</small>}</span>
-                {c.model && <span class="trend-now mono">{fmtUsd(c.model.lastUsd)}</span>}
-              </figcaption>
-              {c.model ? (
+        <figure class="trend-figure">
+          <figcaption class="trend-legend" id="trend-legend">
+            {channels.map((channel) => (
+              <div class="trend-key" data-channel={channel.id} data-state={channel.series.state}>
+                <span class="trend-key-main">
+                  <i
+                    class:list={['trend-swatch', `is-${channel.lineStyle}`, `marker-${channel.marker}`]}
+                    style={`color:${channel.color};`}
+                    aria-hidden="true"
+                  ></i>
+                  <strong>{channel.label}</strong>
+                  {channel.series.lastUsd != null && <span class="trend-now mono">{fmtUsd(channel.series.lastUsd)}</span>}
+                </span>
+                <small>
+                  {channel.checkedAt ? <>checked <time datetime={channel.checkedAt}>{channel.checkedAt}</time></> : 'not checked yet'}
+                  <span aria-hidden="true"> · </span>{seriesStatus(channel)}
+                </small>
+              </div>
+            ))}
+          </figcaption>
+          {chart.hasObservations ? (
+            <div class="trend-chart-scroll" role="region" aria-label={`${game.title} multi-store US price chart`} tabindex="0">
                 <svg
                   class="trend-svg"
-                  viewBox={`0 0 ${c.model.w} ${c.model.h}`}
+                  data-history-chart
+                  viewBox={`0 0 ${chart.w} ${chart.h}`}
                   role="img"
-                  aria-label={`${c.label} price steps from ${c.model.dots[0].d} to ${c.model.endDate}`}
+                  aria-labelledby="trend-title"
+                  aria-describedby="trend-chart-desc trend-legend"
                 >
-                  {c.model.yTicks.map((t) => (
+                  <desc id="trend-chart-desc">{chartDescription}</desc>
+                  {chart.yTicks.map((tick) => (
                     <>
-                      <line x1={c.model.plot.x} y1={t.y} x2={c.model.plot.x + c.model.plot.w} y2={t.y} class="trend-grid-line" />
-                      <text x={c.model.plot.x - 6} y={t.y + 4} class="trend-tick" text-anchor="end">{t.label}</text>
+                      <line x1={chart.plot!.x} y1={tick.y} x2={chart.plot!.x + chart.plot!.w} y2={tick.y} class="trend-grid-line" />
+                      <text x={chart.plot!.x - 8} y={tick.y + 5} class="trend-tick" text-anchor="end">{tick.label}</text>
                     </>
                   ))}
-                  {c.model.xTicks.map((t) => (
-                    <text x={t.x} y={c.model.h - 6} class="trend-tick" text-anchor={t.anchor}>{t.label}</text>
+                  {chart.xTicks.map((tick) => (
+                    <text x={tick.x} y={chart.h - 7} class="trend-tick" text-anchor={tick.anchor}>{tick.label}</text>
                   ))}
-                  <path d={c.model.path} class="trend-line" style={`stroke:${c.color};`} />
-                  {c.model.dots.map((p) => (
-                    <rect x={p.x - 4} y={p.y - 4} width="8" height="8" class="trend-dot" style={`fill:${c.color};`}>
-                      <title>{p.d} — {fmtUsd(p.usd)}{p.pct ? ` (−${p.pct}%)` : ''}</title>
-                    </rect>
+                  {channels.map((channel) => channel.series.path && (
+                    <g data-channel={channel.id}>
+                      <path
+                        data-series-line
+                        d={channel.series.path}
+                        class="trend-line"
+                        style={`stroke:${channel.color};stroke-dasharray:${channel.dash || 'none'};`}
+                        vector-effect="non-scaling-stroke"
+                      />
+                      {channel.series.endPoint && (
+                        <g>
+                          <title>{channel.label} confirmed through {channel.series.endPoint.d} at {fmtUsd(channel.series.endPoint.usd)}</title>
+                          <line
+                            x1={channel.series.endPoint.x}
+                            y1={channel.series.endPoint.y - 6}
+                            x2={channel.series.endPoint.x}
+                            y2={channel.series.endPoint.y + 6}
+                            class="trend-end-cap"
+                            style={`stroke:${channel.color};`}
+                            vector-effect="non-scaling-stroke"
+                          />
+                        </g>
+                      )}
+                    </g>
                   ))}
+                  {channels.map((channel) => channel.series.dots.map((point) => (
+                    <g data-channel={channel.id}>
+                      {channel.marker === 'circle' ? (
+                        <circle cx={point.x} cy={point.y} r="5" class="trend-dot" style={`fill:${channel.color};`} vector-effect="non-scaling-stroke">
+                          <title>{channel.label}: {point.d} — {fmtUsd(point.usd)}{point.pct ? ` (−${point.pct}%)` : ''}</title>
+                        </circle>
+                      ) : channel.marker === 'diamond' ? (
+                        <polygon points={`${point.x},${point.y - 6} ${point.x + 6},${point.y} ${point.x},${point.y + 6} ${point.x - 6},${point.y}`} class="trend-dot" style={`fill:${channel.color};`} vector-effect="non-scaling-stroke">
+                          <title>{channel.label}: {point.d} — {fmtUsd(point.usd)}{point.pct ? ` (−${point.pct}%)` : ''}</title>
+                        </polygon>
+                      ) : (
+                        <rect x={point.x - 5} y={point.y - 5} width="10" height="10" class="trend-dot" style={`fill:${channel.color};`} vector-effect="non-scaling-stroke">
+                          <title>{channel.label}: {point.d} — {fmtUsd(point.usd)}{point.pct ? ` (−${point.pct}%)` : ''}</title>
+                        </rect>
+                      )}
+                    </g>
+                  )))}
                 </svg>
-              ) : (
-                <p class="trend-empty">Checked automatically since <span class="mono">{c.since}</span> — no additional price change yet.</p>
-              )}
-            </figure>
-          ))}
-        </div>
-        <p class="trend-note">Steam and eShop are checked daily; Xbox is checked weekly. Lines stop at each source’s last successful check.</p>
-      </div>
-
-      <div class="history-checks" aria-label="Automatic price check status">
-        {channels.map((channel) => (
-          <span><b>{channel.label}</b>{channel.checkedAt ? <> last checked <time datetime={channel.checkedAt}>{channel.checkedAt}</time></> : ' awaiting first successful check'}</span>
-        ))}
+            </div>
+          ) : (
+            <p class="trend-empty">Automatic tracking is active; the first US price observation has not been recorded yet.</p>
+          )}
+        </figure>
+        <p class="trend-note">Steam and eShop are checked daily; Xbox is checked weekly. Flat segments mean later checks found no price change, and each line stops at that store’s last successful check.</p>
       </div>
 
       <div class="detail-cols history-detail-cols">
@@ -155,14 +219,39 @@ const channels = [
 </Layout>
 
 <style>
-  .trend-grid {
+  .trend-figure { margin: 12px 0 0; min-width: 0; }
+  .trend-legend {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-    margin-top: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    margin-bottom: 12px;
   }
-  .trend-cols-1 { grid-template-columns: 1fr; }
-  .trend-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .trend-key {
+    min-width: 0;
+    padding: 9px 11px;
+    background: var(--surface-2);
+    border: 2px solid #D8CEB1;
+    border-radius: var(--radius);
+  }
+  .trend-key-main { display: flex; align-items: center; gap: 8px; min-width: 0; }
+  .trend-key-main strong { color: var(--ink); font-size: 13.5px; white-space: nowrap; }
+  .trend-key small { display: block; margin: 3px 0 0 34px; color: var(--text-2); font-size: 10.5px; font-weight: 700; }
+  .trend-key time { font-family: var(--font-mono); }
+  .trend-now { margin-left: auto; color: var(--ink); font-weight: 700; }
+  .trend-swatch { position: relative; display: inline-block; width: 26px; height: 3px; flex: 0 0 26px; background: currentColor; }
+  .trend-swatch.is-dash { background: repeating-linear-gradient(90deg, currentColor 0 8px, transparent 8px 12px); }
+  .trend-swatch.is-dot { background: repeating-linear-gradient(90deg, currentColor 0 3px, transparent 3px 7px); }
+  .trend-swatch::after {
+    content: ''; position: absolute; left: 10px; top: -3px; width: 7px; height: 7px;
+    background: currentColor; border: 1.5px solid var(--ink);
+  }
+  .trend-swatch.marker-circle::after { border-radius: 50%; }
+  .trend-swatch.marker-diamond::after { transform: rotate(45deg); }
+  .trend-chart-scroll {
+    width: 100%; max-width: 100%; min-width: 0; overflow-x: auto;
+    padding: 0 4px 4px 0;
+  }
+  .trend-chart-scroll:focus-visible { outline-offset: 2px; }
   .history-detail-cols {
     grid-template-columns: 340px minmax(0, 1fr);
     margin-top: 18px;
@@ -172,23 +261,9 @@ const channels = [
     .history-detail-cols { grid-template-columns: minmax(0, 1fr); }
     .history-detail-cols .region-full { table-layout: fixed; }
   }
-  @media (max-width: 760px) {
-    .trend-grid, .trend-cols-3 { grid-template-columns: 1fr; }
-  }
-  .trend-fig { margin: 0; min-width: 0; }
-  .trend-fig figcaption {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 6px;
-  }
-  .trend-fig figcaption > span:first-child { display: grid; gap: 2px; }
-  .trend-fig figcaption small { font-family: var(--font-mono); font-size: 10px; color: var(--text-3); }
-  .trend-ch { font-weight: 800; font-size: 13.5px; }
-  .trend-now { font-weight: 700; color: var(--ink); }
   .trend-svg {
     width: 100%;
+    min-width: 680px;
     height: auto;
     display: block;
     background: #fff;
@@ -196,8 +271,9 @@ const channels = [
     box-shadow: var(--shadow-sm);
   }
   .trend-grid-line { stroke: var(--ink); stroke-opacity: 0.14; stroke-width: 1; stroke-dasharray: 3 4; }
-  .trend-tick { font-family: var(--font-mono); font-size: 10.5px; font-weight: 600; fill: var(--text-2); }
-  .trend-line { fill: none; stroke-width: 3; shape-rendering: crispEdges; }
+  .trend-tick { font-family: var(--font-mono); font-size: 12px; font-weight: 600; fill: var(--text-2); }
+  .trend-line { fill: none; stroke-width: 3; stroke-linejoin: round; }
+  .trend-end-cap { stroke-width: 3; }
   .trend-dot { stroke: var(--ink); stroke-width: 2; shape-rendering: crispEdges; }
   .trend-empty {
     border: 2.5px dashed var(--ink);
@@ -213,12 +289,9 @@ const channels = [
     font-weight: 600;
     color: var(--text-3);
   }
-  .history-checks {
-    display: flex; flex-wrap: wrap; gap: 8px 18px;
-    margin-top: 14px; padding: 10px 13px;
-    background: var(--surface-2); border: 2px solid #D8CEB1; border-radius: var(--radius);
-    font-size: 12.5px; font-weight: 600; color: var(--text-2);
+  @media (max-width: 560px) {
+    .trend-legend { grid-template-columns: 1fr; }
+    .trend-key small { margin-left: 0; }
+    .trend-svg { min-width: 620px; }
   }
-  .history-checks b { color: var(--ink); }
-  .history-checks time { font-family: var(--font-mono); color: var(--teal); font-weight: 700; }
 </style>

@@ -45,7 +45,7 @@ export function regionalPriceSummary(gameTitle, storeLabel, snapshot) {
   if (!cheapest || !mostExpensive) return null;
   const lead = `Compare ${gameTitle} ${storeLabel} prices globally. Cheapest: ${cheapest.countryName} (${fmtUsd(cheapest.usd)}). Most expensive: ${mostExpensive.countryName} (${fmtUsd(mostExpensive.usd)}).`;
   const text = priceSpreadPct > 0
-    ? `${lead} Save up to ${savingsPct}% via regional pricing; the highest-priced region is ${priceSpreadPct}% above the cheapest.`
+    ? `${lead} Save up to ${savingsPct}% via regional pricing.`
     : `${lead} Tracked regional prices are currently equal.`;
   return { ...model, text };
 }
