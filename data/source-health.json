@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T02:59:27.805Z",
+  "updatedAt": "2026-07-15T06:02:09.176Z",
   "sources": {
     "steam-regional": {
       "lastAttemptAt": "2026-07-15T02:58:14.914Z",
@@ -18,6 +18,12 @@
       "lastSuccessAt": "2026-07-13T12:07:55.170Z",
       "consecutiveFailures": 0,
       "note": "changed 0, unchanged 14, failed products 0, failed requests 0, expected 14"
+    },
+    "steam-offers": {
+      "lastAttemptAt": "2026-07-15T06:02:09.176Z",
+      "lastSuccessAt": "2026-07-15T06:02:09.176Z",
+      "consecutiveFailures": 0,
+      "note": "changed 0, unchanged 9, files written 0, failed requests 0, expected 9"
     }
   }
 }

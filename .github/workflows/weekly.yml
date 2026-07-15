@@ -32,6 +32,9 @@ jobs:
       - name: Scrape Xbox US POC (approved mappings only)
         run: npm run scrape:xbox
 
+      - name: Scrape curated Steam editions and add-ons
+        run: npm run scrape:steam-offers
+
       - name: Evolve price history (includes Xbox US)
         run: npm run history:observations
 

@@ -1,0 +1,112 @@
+---
+import RegionLabel from './RegionLabel.astro';
+import RegionalPrice from './RegionalPrice.astro';
+import { fmtUsd } from '../lib/derive.mjs';
+
+interface OfferRegion {
+  cc: string;
+  currency: string;
+  amount: number;
+  list?: number | null;
+  discountPct?: number | null;
+  usd: number;
+  listUsd?: number | null;
+}
+
+interface SteamOffer {
+  packageId: number;
+  name: string;
+  kind: 'edition' | 'add-on';
+  includesBaseGame: boolean;
+  regions: OfferRegion[];
+}
+
+interface Props {
+  gameTitle: string;
+  offers?: SteamOffer[] | null;
+}
+
+const { gameTitle, offers = [] } = Astro.props;
+const availableOffers = (offers ?? []).filter((offer) => offer.regions?.length);
+---
+
+{availableOffers.length > 0 && (
+  <section class="steam-offers" aria-labelledby="steam-offers-title">
+    <div class="steam-offers-heading">
+      <div>
+        <h3 id="steam-offers-title">Editions &amp; extras</h3>
+        <p>
+          Optional Steam packages are kept separate from the base game. They do not affect
+          the rank or <span class="mono">vs US</span> comparison above.
+        </p>
+      </div>
+      <span class="steam-offers-count">{availableOffers.length} tracked</span>
+    </div>
+
+    <div class="steam-offer-list">
+      {availableOffers.map((offer, index) => {
+        const isEdition = offer.kind === 'edition' && offer.includesBaseGame;
+        const kindLabel = isEdition ? 'Edition' : 'Add-on';
+        const requirementLabel = isEdition ? 'includes base game' : 'base game required';
+        const usPrice = offer.regions.find((row) => row.cc === 'US')?.usd;
+        return (
+          <details class="steam-offer" open={index === 0}>
+            <summary>
+              <span class:list={['steam-offer-kind', isEdition ? 'is-edition' : 'is-addon']}>
+                {kindLabel}
+              </span>
+              <span class="steam-offer-name">{offer.name}</span>
+              <span class="steam-offer-meta">
+                {requirementLabel} · {offer.regions.length} regions
+                {usPrice != null ? <> · US {fmtUsd(usPrice)}</> : null}
+              </span>
+              <span class="steam-offer-chevron" aria-hidden="true">⌄</span>
+            </summary>
+
+            <div class="steam-offer-body">
+              <div class="steam-offer-table-wrap" role="region" aria-label={`${gameTitle} ${offer.name} regional prices`} tabindex="0">
+                <table class="steam-offer-table">
+                  <colgroup>
+                    <col class="steam-offer-region-col" />
+                    <col class="steam-offer-price-col" />
+                    <col class="steam-offer-discount-col" />
+                  </colgroup>
+                  <thead>
+                    <tr><th>Region</th><th>Price</th><th>Discount</th></tr>
+                  </thead>
+                  <tbody>
+                    {offer.regions.map((row) => (
+                      <tr>
+                        <td><RegionLabel cc={row.cc} /></td>
+                        <td><RegionalPrice row={row} /></td>
+                        <td>
+                          {row.discountPct && row.discountPct > 0 ? (
+                            <span
+                              class="steam-offer-discount"
+                              title={row.listUsd != null ? `List price ${fmtUsd(row.listUsd)}` : undefined}
+                            >
+                              −{row.discountPct}%
+                            </span>
+                          ) : <span class="steam-offer-no-discount" aria-label="No active discount">—</span>}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              <a
+                class="steam-offer-store-link"
+                href={`https://store.steampowered.com/sub/${offer.packageId}/`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View package on Steam <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </details>
+        );
+      })}
+    </div>
+  </section>
+)}

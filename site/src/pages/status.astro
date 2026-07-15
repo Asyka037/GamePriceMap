@@ -11,6 +11,7 @@ const health = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'health.json')
 const labels: Record<string, string> = {
   rates: 'Exchange rates',
   'steam-regional': 'Steam regional prices',
+  'steam-offers': 'Steam editions and add-ons',
   'eshop-regional': 'eShop regional prices',
   'xbox-us': 'Xbox Store prices (US POC)',
   'deals-steam': 'Steam deals feed',
@@ -22,6 +23,7 @@ const labels: Record<string, string> = {
 };
 const cadence: Record<string, number> = {
   rates: 26, 'steam-regional': 26, 'eshop-regional': 26,
+  'steam-offers': 8 * 24,
   'xbox-us': 8 * 24,
   'deals-steam': 26, 'deals-eshop': 26, 'deals-stores': 26, 'free-games': 26,
   calendar: 8 * 24, meta: 8 * 24,

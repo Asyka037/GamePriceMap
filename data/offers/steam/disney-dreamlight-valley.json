@@ -1,0 +1,294 @@
+{
+  "slug": "disney-dreamlight-valley",
+  "lastPriceChangeAt": "2026-07-15",
+  "offers": [
+    {
+      "packageId": 1389233,
+      "name": "Disney Dreamlight Valley - Ultimate Edition",
+      "kind": "edition",
+      "includesBaseGame": true,
+      "regions": [
+        {
+          "cc": "AR",
+          "currency": "USD",
+          "amount": 42.49,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "AU",
+          "currency": "AUD",
+          "amount": 119.95,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "BR",
+          "currency": "BRL",
+          "amount": 390.95,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CA",
+          "currency": "CAD",
+          "amount": 102.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CH",
+          "currency": "CHF",
+          "amount": 82,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "DE",
+          "currency": "EUR",
+          "amount": 79.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GB",
+          "currency": "GBP",
+          "amount": 66.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GE",
+          "currency": "USD",
+          "amount": 42.49,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "IN",
+          "currency": "INR",
+          "amount": 5989,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "JP",
+          "currency": "JPY",
+          "amount": 9350,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KR",
+          "currency": "KRW",
+          "amount": 100400,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KZ",
+          "currency": "KZT",
+          "amount": 43000,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "MX",
+          "currency": "MXN",
+          "amount": 1409,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "PK",
+          "currency": "USD",
+          "amount": 42.49,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "TR",
+          "currency": "USD",
+          "amount": 58,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "UA",
+          "currency": "UAH",
+          "amount": 2810,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 79.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        }
+      ]
+    },
+    {
+      "packageId": 1389237,
+      "name": "Disney Dreamlight Valley - Wishblossom Ranch Edition",
+      "kind": "edition",
+      "includesBaseGame": true,
+      "regions": [
+        {
+          "cc": "AR",
+          "currency": "USD",
+          "amount": 31.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "AU",
+          "currency": "AUD",
+          "amount": 89.95,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "BR",
+          "currency": "BRL",
+          "amount": 292.95,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CA",
+          "currency": "CAD",
+          "amount": 76.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CH",
+          "currency": "CHF",
+          "amount": 61.5,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "DE",
+          "currency": "EUR",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GB",
+          "currency": "GBP",
+          "amount": 49.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GE",
+          "currency": "USD",
+          "amount": 31.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "IN",
+          "currency": "INR",
+          "amount": 4499,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "JP",
+          "currency": "JPY",
+          "amount": 7000,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KR",
+          "currency": "KRW",
+          "amount": 75400,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KZ",
+          "currency": "KZT",
+          "amount": 32300,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "MX",
+          "currency": "MXN",
+          "amount": 1059,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "PK",
+          "currency": "USD",
+          "amount": 31.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "TR",
+          "currency": "USD",
+          "amount": 44,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "UA",
+          "currency": "UAH",
+          "amount": 2105,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        }
+      ]
+    }
+  ]
+}

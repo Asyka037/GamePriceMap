@@ -1,0 +1,614 @@
+{
+  "slug": "monster-hunter-rise",
+  "lastPriceChangeAt": "2026-07-15",
+  "offers": [
+    {
+      "packageId": 692569,
+      "name": "Monster Hunter Rise + Sunbreak",
+      "kind": "edition",
+      "includesBaseGame": true,
+      "regions": [
+        {
+          "cc": "AR",
+          "currency": "USD",
+          "amount": 45,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "AU",
+          "currency": "AUD",
+          "amount": 90.95,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "BR",
+          "currency": "BRL",
+          "amount": 259,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CA",
+          "currency": "CAD",
+          "amount": 79.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CH",
+          "currency": "CHF",
+          "amount": 58.9,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CN",
+          "currency": "CNY",
+          "amount": 298,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "DE",
+          "currency": "EUR",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GB",
+          "currency": "GBP",
+          "amount": 49.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GE",
+          "currency": "USD",
+          "amount": 44.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "IN",
+          "currency": "INR",
+          "amount": 3746,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "JP",
+          "currency": "JPY",
+          "amount": 5990,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KR",
+          "currency": "KRW",
+          "amount": 74800,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KZ",
+          "currency": "KZT",
+          "amount": 21825,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "MX",
+          "currency": "MXN",
+          "amount": 869,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "PK",
+          "currency": "USD",
+          "amount": 48.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "TR",
+          "currency": "USD",
+          "amount": 44.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "UA",
+          "currency": "UAH",
+          "amount": 1999,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        }
+      ]
+    },
+    {
+      "packageId": 692570,
+      "name": "Monster Hunter Rise + Sunbreak Deluxe",
+      "kind": "edition",
+      "includesBaseGame": true,
+      "regions": [
+        {
+          "cc": "AR",
+          "currency": "USD",
+          "amount": 53,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "AU",
+          "currency": "AUD",
+          "amount": 105.95,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "BR",
+          "currency": "BRL",
+          "amount": 299,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CA",
+          "currency": "CAD",
+          "amount": 89.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CH",
+          "currency": "CHF",
+          "amount": 68.91,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CN",
+          "currency": "CNY",
+          "amount": 348,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "DE",
+          "currency": "EUR",
+          "amount": 69.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GB",
+          "currency": "GBP",
+          "amount": 57.98,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GE",
+          "currency": "USD",
+          "amount": 52.49,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "IN",
+          "currency": "INR",
+          "amount": 4162,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "JP",
+          "currency": "JPY",
+          "amount": 6990,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KR",
+          "currency": "KRW",
+          "amount": 86800,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KZ",
+          "currency": "KZT",
+          "amount": 25464,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "MX",
+          "currency": "MXN",
+          "amount": 999,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "PK",
+          "currency": "USD",
+          "amount": 56.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "TR",
+          "currency": "USD",
+          "amount": 52.49,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "UA",
+          "currency": "UAH",
+          "amount": 2299,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 69.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        }
+      ]
+    },
+    {
+      "packageId": 1194319,
+      "name": "Monster Hunter Rise - DLC Collection",
+      "kind": "add-on",
+      "includesBaseGame": false,
+      "regions": [
+        {
+          "cc": "AR",
+          "currency": "USD",
+          "amount": 23,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "AU",
+          "currency": "AUD",
+          "amount": 44.94,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "BR",
+          "currency": "BRL",
+          "amount": 129,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CA",
+          "currency": "CAD",
+          "amount": 49.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CH",
+          "currency": "CHF",
+          "amount": 29.9,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CN",
+          "currency": "CNY",
+          "amount": 148,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "DE",
+          "currency": "EUR",
+          "amount": 29.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GB",
+          "currency": "GBP",
+          "amount": 24.98,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GE",
+          "currency": "USD",
+          "amount": 22.49,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "IN",
+          "currency": "INR",
+          "amount": 1997,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "JP",
+          "currency": "JPY",
+          "amount": 3000,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KR",
+          "currency": "KRW",
+          "amount": 36800,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KZ",
+          "currency": "KZT",
+          "amount": 10911,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "MX",
+          "currency": "MXN",
+          "amount": 449,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "PK",
+          "currency": "USD",
+          "amount": 23.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "TR",
+          "currency": "USD",
+          "amount": 22.49,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "UA",
+          "currency": "UAH",
+          "amount": 999,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 29.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        }
+      ]
+    },
+    {
+      "packageId": 1194320,
+      "name": "Monster Hunter Rise: Sunbreak - DLC Collection",
+      "kind": "add-on",
+      "includesBaseGame": false,
+      "regions": [
+        {
+          "cc": "AR",
+          "currency": "USD",
+          "amount": 29,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "AU",
+          "currency": "AUD",
+          "amount": 59.95,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "BR",
+          "currency": "BRL",
+          "amount": 169,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CA",
+          "currency": "CAD",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CH",
+          "currency": "CHF",
+          "amount": 39.9,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CN",
+          "currency": "CNY",
+          "amount": 198,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "DE",
+          "currency": "EUR",
+          "amount": 39.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GB",
+          "currency": "GBP",
+          "amount": 32.98,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GE",
+          "currency": "USD",
+          "amount": 29.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "IN",
+          "currency": "INR",
+          "amount": 2497,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "JP",
+          "currency": "JPY",
+          "amount": 4000,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KR",
+          "currency": "KRW",
+          "amount": 49800,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KZ",
+          "currency": "KZT",
+          "amount": 14549,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "MX",
+          "currency": "MXN",
+          "amount": 559,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "PK",
+          "currency": "USD",
+          "amount": 32.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "TR",
+          "currency": "USD",
+          "amount": 29.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "UA",
+          "currency": "UAH",
+          "amount": 1399,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 39.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        }
+      ]
+    }
+  ]
+}

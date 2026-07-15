@@ -1,0 +1,116 @@
+{
+  "offers": [
+    {
+      "slug": "hogwarts-legacy",
+      "channel": "steam",
+      "packageId": 822364,
+      "name": "Hogwarts Legacy: Digital Deluxe Edition",
+      "kind": "edition",
+      "baseAppId": 990080,
+      "includesBaseGame": true,
+      "expectedAppIds": [990080, 1880832, 1880837],
+      "reviewedAt": "2026-07-15",
+      "note": "Base game plus Dark Arts digital content; no other game included."
+    },
+    {
+      "slug": "final-fantasy-vii-rebirth",
+      "channel": "steam",
+      "packageId": 1186108,
+      "name": "FINAL FANTASY VII REBIRTH Digital Deluxe Edition",
+      "kind": "edition",
+      "baseAppId": 2909400,
+      "includesBaseGame": true,
+      "expectedAppIds": [2909400, 3361450],
+      "reviewedAt": "2026-07-15",
+      "note": "Rebirth plus its Digital Deluxe upgrade; Twin Packs are intentionally excluded."
+    },
+    {
+      "slug": "monster-hunter-rise",
+      "channel": "steam",
+      "packageId": 692569,
+      "name": "Monster Hunter Rise + Sunbreak",
+      "kind": "edition",
+      "baseAppId": 1446780,
+      "includesBaseGame": true,
+      "expectedAppIds": [1446780, 1880360],
+      "reviewedAt": "2026-07-15",
+      "note": "Base game plus its Sunbreak expansion."
+    },
+    {
+      "slug": "monster-hunter-rise",
+      "channel": "steam",
+      "packageId": 692570,
+      "name": "Monster Hunter Rise + Sunbreak Deluxe",
+      "kind": "edition",
+      "baseAppId": 1446780,
+      "includesBaseGame": true,
+      "expectedAppIds": [1446780, 1748411, 1880360, 1913711],
+      "reviewedAt": "2026-07-15",
+      "note": "Base game, Sunbreak expansion, and both Deluxe kits."
+    },
+    {
+      "slug": "monster-hunter-rise",
+      "channel": "steam",
+      "packageId": 1194319,
+      "name": "Monster Hunter Rise - DLC Collection",
+      "kind": "add-on",
+      "baseAppId": 1446780,
+      "includesBaseGame": false,
+      "expectedAppIds": [],
+      "expectedStoreName": "Monster Hunter Rise - DLC Collection",
+      "requiredPageText": "requires the base game",
+      "reviewedAt": "2026-07-15",
+      "note": "Cosmetic DLC collection; requires the base game."
+    },
+    {
+      "slug": "monster-hunter-rise",
+      "channel": "steam",
+      "packageId": 1194320,
+      "name": "Monster Hunter Rise: Sunbreak - DLC Collection",
+      "kind": "add-on",
+      "baseAppId": 1446780,
+      "includesBaseGame": false,
+      "expectedAppIds": [],
+      "expectedStoreName": "MHR:SB - DLC Collection",
+      "requiredPageText": "requires the base game and its expansion",
+      "reviewedAt": "2026-07-15",
+      "note": "Cosmetic DLC collection; requires the base game and Sunbreak."
+    },
+    {
+      "slug": "mortal-kombat-11",
+      "channel": "steam",
+      "packageId": 518699,
+      "name": "Mortal Kombat 11 Ultimate",
+      "kind": "edition",
+      "baseAppId": 976310,
+      "includesBaseGame": true,
+      "expectedAppIds": [976310, 1054480, 1273971, 1449880],
+      "reviewedAt": "2026-07-15",
+      "note": "Base game plus its Aftermath expansion and Kombat Packs; the Injustice bundle is excluded."
+    },
+    {
+      "slug": "disney-dreamlight-valley",
+      "channel": "steam",
+      "packageId": 1389237,
+      "name": "Disney Dreamlight Valley - Wishblossom Ranch Edition",
+      "kind": "edition",
+      "baseAppId": 1401590,
+      "includesBaseGame": true,
+      "expectedAppIds": [1401590, 3979520],
+      "reviewedAt": "2026-07-15",
+      "note": "Base game plus its Wishblossom Ranch expansion."
+    },
+    {
+      "slug": "disney-dreamlight-valley",
+      "channel": "steam",
+      "packageId": 1389233,
+      "name": "Disney Dreamlight Valley - Ultimate Edition",
+      "kind": "edition",
+      "baseAppId": 1401590,
+      "includesBaseGame": true,
+      "expectedAppIds": [1401590, 3259120, 3979520],
+      "reviewedAt": "2026-07-15",
+      "note": "Base game plus its Storybook Vale and Wishblossom Ranch expansions."
+    }
+  ]
+}

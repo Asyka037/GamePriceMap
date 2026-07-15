@@ -1,0 +1,126 @@
+{
+  "slug": "mortal-kombat-11",
+  "lastPriceChangeAt": "2026-07-15",
+  "offers": [
+    {
+      "packageId": 518699,
+      "name": "Mortal Kombat 11 Ultimate",
+      "kind": "edition",
+      "includesBaseGame": true,
+      "regions": [
+        {
+          "cc": "AR",
+          "currency": "USD",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "AU",
+          "currency": "AUD",
+          "amount": 89.95,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "BR",
+          "currency": "BRL",
+          "amount": 279.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CA",
+          "currency": "CAD",
+          "amount": 79.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CH",
+          "currency": "CHF",
+          "amount": 64.9,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "CN",
+          "currency": "CNY",
+          "amount": 163,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "DE",
+          "currency": "EUR",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "GB",
+          "currency": "GBP",
+          "amount": 49.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "IN",
+          "currency": "INR",
+          "amount": 3249,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "KZ",
+          "currency": "KZT",
+          "amount": 20000,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "MX",
+          "currency": "MXN",
+          "amount": 999,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "PK",
+          "currency": "USD",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "TR",
+          "currency": "USD",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        }
+      ]
+    }
+  ]
+}

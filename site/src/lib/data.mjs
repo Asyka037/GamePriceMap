@@ -6,6 +6,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { enrichSnapshot } from '../../../scripts/lib/snapshot.mjs';
+import { enrichSteamOffers } from '../../../scripts/lib/steam-offers.mjs';
 
 const DATA = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', '..', 'data');
 
@@ -26,6 +27,7 @@ const currentRates = () => (ratesCache ??= readJson('rates/usd.json', { rates: {
 export const steamSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/steam/${slug}.json`), currentRates());
 export const eshopSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/eshop/${slug}.json`), currentRates());
 export const xboxSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/xbox/${slug}.json`), currentRates());
+export const steamOffers = (slug) => enrichSteamOffers(readJson(`offers/steam/${slug}.json`), currentRates());
 export const sourceHealth = () => readJson('source-health.json', { updatedAt: null, sources: {} });
 export const history = (slug) => readJson(`history/${slug}.json`);
 export const meta = (slug) => readJson(`meta/${slug}.json`);
@@ -41,6 +43,7 @@ export function gameBundle(slug) {
     steam: steamSnapshot(slug),
     eshop: eshopSnapshot(slug),
     xbox: xboxSnapshot(slug),
+    steamOffers: steamOffers(slug),
     history: history(slug),
     meta: meta(slug),
   };

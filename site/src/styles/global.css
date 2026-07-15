@@ -618,9 +618,22 @@ img { display: block; max-width: 100%; }
   margin: 18px 0 12px; color: var(--ink); font-family: var(--font-pixel);
   font-size: 14px; font-weight: 400; line-height: 1.6; text-transform: uppercase;
 }
-.regional-summary { width: 100%; margin: -4px 0 14px; color: var(--text-2); font-size: 14.5px; font-weight: 700; line-height: 1.65; }
+.regional-summary { width: 100%; margin: -4px 0 14px; color: var(--text-2); font-size: 14.5px; font-weight: 700; line-height: 1.75; }
+.regional-summary-fact {
+  display: inline; padding: 1px 5px; border-radius: 4px;
+  font-weight: 800; white-space: nowrap;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+.regional-summary-value { font-family: var(--font-mono); }
+.regional-summary-fact.is-cheapest,
+.regional-summary-fact.is-saving {
+  background: color-mix(in srgb, var(--green-bg) 32%, white); color: var(--green);
+}
+.regional-summary-fact.is-priciest {
+  background: color-mix(in srgb, var(--red-bg) 24%, white); color: var(--red);
+}
 .region-table-wrap { width: 100%; max-width: 100%; padding: 0 6px 8px 0; overflow-x: auto; }
-.region-table-wrap .region-full { min-width: 650px; }
+.region-table-wrap .region-full { min-width: 560px; }
 .region-full {
   width: 100%; border-collapse: separate; border-spacing: 0;
   background: var(--surface); border: 3px solid var(--ink);
@@ -635,8 +648,82 @@ img { display: block; max-width: 100%; }
 .region-full tr:last-child td { border-bottom: none; }
 .region-full tr:hover td { background: #FFFBEE; }
 .region-cell { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
-.sale-end { color: var(--text-3); font-size: 12.5px !important; white-space: nowrap; }
 .rank-1 { color: var(--gold); font-family: var(--font-mono); font-weight: 700; }
+
+/* Supplemental Steam packages stay physically separate from base-game ranking. */
+.steam-offers {
+  margin-top: 24px; padding: 18px;
+  background: var(--surface); border: 3px solid var(--ink);
+  border-radius: var(--radius-lg); box-shadow: var(--shadow);
+}
+.steam-offers-heading {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 18px;
+  margin-bottom: 14px;
+}
+.steam-offers-heading h3 { color: var(--ink); font-size: 18px; font-weight: 800; }
+.steam-offers-heading p {
+  max-width: 720px; margin-top: 3px; color: var(--text-2);
+  font-size: 13.5px; font-weight: 650; line-height: 1.6;
+}
+.steam-offers-count {
+  flex: 0 0 auto; padding: 3px 8px; border: 2px solid var(--ink); border-radius: 999px;
+  background: var(--surface-2); color: var(--ink); font-family: var(--font-mono);
+  font-size: 11px; font-weight: 700; white-space: nowrap;
+}
+.steam-offer-list { display: grid; gap: 9px; }
+.steam-offer {
+  overflow: hidden; border: 2px solid #E5DDC8; border-radius: 8px;
+  background: var(--bg-raised);
+}
+.steam-offer[open] { border-color: var(--ink); }
+.steam-offer > summary {
+  display: grid; grid-template-columns: auto minmax(150px, 1fr) auto auto;
+  align-items: center; gap: 9px; padding: 11px 12px;
+  color: var(--ink); cursor: pointer; list-style: none;
+}
+.steam-offer > summary::-webkit-details-marker { display: none; }
+.steam-offer > summary:hover { background: #FFFBEE; }
+.steam-offer-kind {
+  padding: 2px 6px; border: 2px solid var(--ink); border-radius: 4px;
+  color: var(--ink); font-size: 10.5px; font-weight: 800; white-space: nowrap;
+}
+.steam-offer-kind.is-edition { background: color-mix(in srgb, var(--sky) 28%, white); }
+.steam-offer-kind.is-addon { background: color-mix(in srgb, var(--gold-bg) 38%, white); }
+.steam-offer-name { min-width: 0; font-size: 14px; font-weight: 800; }
+.steam-offer-meta { color: var(--text-2); font-size: 12px; font-weight: 700; white-space: nowrap; }
+.steam-offer-chevron {
+  color: var(--text-2); font-family: var(--font-mono); font-size: 18px; line-height: 1;
+  transform: rotate(0); transition: transform .12s;
+}
+.steam-offer[open] .steam-offer-chevron { transform: rotate(180deg); }
+.steam-offer-body { padding: 0 12px 13px; }
+.steam-offer-table-wrap { width: 100%; max-width: 100%; overflow-x: auto; }
+.steam-offer-table-wrap:focus-visible { outline-offset: 2px; }
+.steam-offer-table { width: 100%; min-width: 280px; table-layout: fixed; border-collapse: collapse; }
+.steam-offer-region-col { width: 40%; }
+.steam-offer-price-col { width: 40%; }
+.steam-offer-discount-col { width: 20%; }
+.steam-offer-table th {
+  padding: 7px 9px; border-bottom: 2px solid var(--ink); text-align: left;
+  color: var(--text-2); font-size: 10px; font-weight: 800;
+  letter-spacing: .06em; text-transform: uppercase;
+}
+.steam-offer-table td {
+  padding: 8px 9px; border-bottom: 2px dashed #E5DDC8;
+  font-size: 13px; font-weight: 650; vertical-align: middle;
+}
+.steam-offer-table tr:last-child td { border-bottom: none; }
+.steam-offer-discount {
+  display: inline-flex; padding: 2px 6px; border-radius: 4px;
+  background: color-mix(in srgb, var(--green-bg) 32%, white);
+  color: var(--green); font-family: var(--font-mono); font-size: 11px; font-weight: 800;
+}
+.steam-offer-no-discount { color: var(--text-3); }
+.steam-offer-store-link {
+  display: inline-flex; align-items: center; gap: 5px; margin-top: 10px;
+  color: var(--red); font-size: 12.5px; font-weight: 800;
+}
+.steam-offer-store-link:hover { text-decoration: underline; text-decoration-thickness: 2px; }
 
 .note-box {
   display: flex; gap: 12px; background: var(--surface);
@@ -815,6 +902,90 @@ img { display: block; max-width: 100%; }
   .hero-toggle { position: static; justify-content: flex-end; margin-bottom: 14px; }
   .price-table { min-width: 660px; }
   .pixel-map-wrap:not(.compact) { display: none; }
+
+  /* Keep every decision field visible on mobile; long region names wrap instead of hiding prices. */
+  .region-table-wrap {
+    padding-right: 2px; overscroll-behavior-inline: contain; scrollbar-width: thin;
+  }
+  .region-table-wrap .region-full {
+    width: 100%; min-width: 0; table-layout: fixed;
+  }
+  .region-table-wrap .region-rank-col { width: 8%; }
+  .region-table-wrap .region-name-col { width: 38%; }
+  .region-table-wrap .region-price-col { width: 33%; }
+  .region-table-wrap .region-delta-col { width: 21%; }
+  .region-table-wrap .region-full th {
+    padding: 8px 4px; font-size: 9.5px; letter-spacing: .04em;
+  }
+  .region-table-wrap .region-full td {
+    min-width: 0; padding: 8px 4px; font-size: 12.5px; vertical-align: middle;
+  }
+  .region-table-wrap .region-full th:first-child,
+  .region-table-wrap .region-full td:first-child { padding-left: 6px; padding-right: 2px; }
+  .region-table-wrap .region-cell {
+    display: grid; gap: 3px; min-width: 0;
+  }
+  .region-table-wrap .region-name {
+    width: 100%; min-width: 0; max-width: 100%; gap: 4px; white-space: normal;
+  }
+  .region-table-wrap .region-name > span:last-child {
+    min-width: 0; line-height: 1.15;
+  }
+  .region-table-wrap .region-flag-symbol {
+    width: 18px; flex-basis: 18px; font-size: 15px;
+  }
+  .region-table-wrap .region-cell .chip-off {
+    justify-self: start; padding: 1px 4px; font-size: 9px;
+  }
+  .region-table-wrap .regional-price { max-width: 100%; }
+  .region-table-wrap .regional-price > strong {
+    max-width: 100%; padding: 2px 5px; font-size: 12.5px;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  .region-table-wrap .regional-price > span {
+    max-width: 100%; overflow: hidden; text-overflow: ellipsis; font-size: 9.5px;
+  }
+  .region-table-wrap .region-delta { font-size: 11px; }
+  .regional-summary { font-size: 14px; line-height: 1.85; }
+
+  .steam-offers { margin-top: 18px; padding: 12px; }
+  .steam-offers-heading { gap: 8px; }
+  .steam-offers-heading h3 { font-size: 16px; }
+  .steam-offers-heading p { font-size: 12.5px; }
+  .steam-offers-count { display: none; }
+  .steam-offer > summary {
+    grid-template-columns: auto minmax(0, 1fr) auto; gap: 6px; padding: 10px 8px;
+  }
+  .steam-offer-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .steam-offer-meta {
+    grid-column: 1 / -1; padding-left: 0; font-size: 10.5px; white-space: normal;
+  }
+  .steam-offer-body { padding: 0 7px 10px; }
+  .steam-offer-region-col { width: 39%; }
+  .steam-offer-price-col { width: 41%; }
+  .steam-offer-discount-col { width: 20%; }
+  .steam-offer-table th { padding: 6px 4px; font-size: 9px; letter-spacing: .03em; }
+  .steam-offer-table td { min-width: 0; padding: 7px 4px; font-size: 12px; }
+  .steam-offer-table .region-name { width: 100%; min-width: 0; gap: 4px; white-space: normal; }
+  .steam-offer-table .region-name > span:last-child {
+    min-width: 0; line-height: 1.15;
+  }
+  .steam-offer-table .region-flag-symbol { width: 18px; flex-basis: 18px; font-size: 15px; }
+  .steam-offer-table .regional-price { max-width: 100%; }
+  .steam-offer-table .regional-price > strong {
+    max-width: 100%; padding: 2px 5px; font-size: 12px;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  .steam-offer-table .regional-price > span {
+    max-width: 100%; overflow: hidden; text-overflow: ellipsis; font-size: 9px;
+  }
+  .steam-offer-discount { padding: 2px 4px; font-size: 9.5px; }
+}
+@media (max-width: 360px) {
+  .header-inner { justify-content: space-between; gap: 12px; }
+  .logo { gap: 7px; font-size: 9px; }
+  .logo .mark { width: 32px; height: 32px; }
+  .region-btn { padding: 0 8px; box-shadow: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }

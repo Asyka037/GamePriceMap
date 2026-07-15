@@ -8,6 +8,7 @@
   },
   "scripts": {
     "scrape:steam": "node scripts/scrape-steam.mjs",
+    "scrape:steam-offers": "node scripts/scrape-steam-offers.mjs",
     "history": "node scripts/build-history.mjs",
     "history:observations": "node scripts/build-history.mjs --observations-only",
     "validate": "node scripts/validate.mjs",

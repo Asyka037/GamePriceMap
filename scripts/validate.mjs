@@ -18,6 +18,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { DERIVED_REGION_FIELDS } from './lib/snapshot.mjs';
+import { DERIVED_STEAM_OFFER_FIELDS } from './lib/steam-offers.mjs';
 import { hasNativeUsObservation, isNintendoBaseGameNsuid } from './lib/validation.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -45,6 +46,10 @@ if (!(ratesAgeH < 48)) fail(`rates: stale (${ratesAgeH.toFixed(1)}h old)`);
 
 // --- catalog ---
 const catalog = readJson('data/catalog.json');
+const catalogBySlug = new Map(catalog.games.map((game) => [game.slug, game]));
+const steamAppOwners = new Map(catalog.games
+  .filter((game) => Number.isInteger(game.steamAppId))
+  .map((game) => [game.steamAppId, game.slug]));
 const slugs = new Set();
 const appIds = new Set();
 const xboxIds = new Set();
@@ -63,6 +68,99 @@ for (const g of catalog.games) {
   slugs.add(g.slug);
   appIds.add(g.steamAppId);
   if (g.xboxBigId) xboxIds.add(g.xboxBigId);
+}
+
+// --- supplemental offer catalog (physically separate from base snapshots) ---
+const offerCatalog = fs.existsSync(path.join(ROOT, 'data/offer-catalog.json'))
+  ? readJson('data/offer-catalog.json')
+  : { offers: [] };
+if (!Array.isArray(offerCatalog.offers)) fail('offer-catalog: offers must be an array');
+const offerPackageIds = new Set();
+const offerByPackageId = new Map();
+const offersBySlug = new Map();
+for (const offer of offerCatalog.offers ?? []) {
+  const game = catalogBySlug.get(offer.slug);
+  if (!game) fail(`offer-catalog package ${offer.packageId}: unknown slug ${offer.slug}`);
+  if (offer.channel !== 'steam') fail(`offer-catalog package ${offer.packageId}: unsupported channel ${offer.channel}`);
+  if (!(Number.isInteger(offer.packageId) && offer.packageId > 0)) fail(`offer-catalog ${offer.slug}: bad packageId ${offer.packageId}`);
+  if (offerPackageIds.has(offer.packageId)) fail(`offer-catalog: duplicate packageId ${offer.packageId}`);
+  if (!(typeof offer.name === 'string' && offer.name.trim())) fail(`offer-catalog package ${offer.packageId}: missing name`);
+  if (!['edition', 'add-on'].includes(offer.kind)) fail(`offer-catalog package ${offer.packageId}: bad kind ${offer.kind}`);
+  if (typeof offer.includesBaseGame !== 'boolean') fail(`offer-catalog package ${offer.packageId}: includesBaseGame must be boolean`);
+  if (offer.includesBaseGame !== (offer.kind === 'edition')) fail(`offer-catalog package ${offer.packageId}: edition/base-game semantics disagree`);
+  if (offer.kind === 'add-on' && (!(typeof offer.expectedStoreName === 'string' && offer.expectedStoreName.trim()) || !(typeof offer.requiredPageText === 'string' && offer.requiredPageText.trim()))) {
+    fail(`offer-catalog package ${offer.packageId}: add-on requires fail-closed store-name and content guards`);
+  }
+  if (!Number.isInteger(offer.baseAppId) || offer.baseAppId !== game?.steamAppId) fail(`offer-catalog package ${offer.packageId}: baseAppId does not match ${offer.slug}`);
+  if (!Array.isArray(offer.expectedAppIds) || offer.expectedAppIds.some((id) => !(Number.isInteger(id) && id > 0))) {
+    fail(`offer-catalog package ${offer.packageId}: bad expectedAppIds`);
+  } else {
+    if (new Set(offer.expectedAppIds).size !== offer.expectedAppIds.length) fail(`offer-catalog package ${offer.packageId}: duplicate expectedAppIds`);
+    if (offer.includesBaseGame && !offer.expectedAppIds.includes(offer.baseAppId)) fail(`offer-catalog package ${offer.packageId}: expectedAppIds omits base app`);
+    if (!offer.includesBaseGame && offer.expectedAppIds.includes(offer.baseAppId)) fail(`offer-catalog package ${offer.packageId}: add-on expectedAppIds contains base app`);
+    for (const appId of offer.expectedAppIds) {
+      const otherOwner = steamAppOwners.get(appId);
+      if (otherOwner && otherOwner !== offer.slug) fail(`offer-catalog package ${offer.packageId}: includes another catalog game (${otherOwner})`);
+    }
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(offer.reviewedAt ?? '') || Number.isNaN(Date.parse(offer.reviewedAt))) fail(`offer-catalog package ${offer.packageId}: bad reviewedAt`);
+  if (!(typeof offer.note === 'string' && offer.note.trim())) fail(`offer-catalog package ${offer.packageId}: missing human-review note`);
+  offerPackageIds.add(offer.packageId);
+  offerByPackageId.set(offer.packageId, offer);
+  if (!offersBySlug.has(offer.slug)) offersBySlug.set(offer.slug, []);
+  offersBySlug.get(offer.slug).push(offer);
+}
+
+const offerDirRel = 'data/offers/steam';
+const offerDir = path.join(ROOT, offerDirRel);
+for (const slug of offersBySlug.keys()) {
+  if (!fs.existsSync(path.join(offerDir, `${slug}.json`))) fail(`missing required supplemental offer snapshot ${offerDirRel}/${slug}.json`);
+}
+if (fs.existsSync(offerDir)) {
+  for (const file of fs.readdirSync(offerDir).filter((name) => name.endsWith('.json'))) {
+    const rel = `${offerDirRel}/${file}`;
+    const raw = readJson(rel);
+    const expectedOffers = offersBySlug.get(raw.slug) ?? [];
+    if (!slugs.has(raw.slug)) fail(`${rel}: slug not in catalog`);
+    if (file !== `${raw.slug}.json`) fail(`${rel}: filename does not match slug ${raw.slug}`);
+    if (!offersBySlug.has(raw.slug)) fail(`${rel}: slug has no approved supplemental offers`);
+    if (!Array.isArray(raw.offers)) { fail(`${rel}: offers must be an array`); continue; }
+    const actualIds = raw.offers.map((offer) => offer.packageId);
+    const expectedIds = expectedOffers.map((offer) => offer.packageId).sort((a, b) => a - b);
+    if (actualIds.join() !== [...actualIds].sort((a, b) => a - b).join()) fail(`${rel}: offers not sorted by packageId`);
+    if (actualIds.join() !== expectedIds.join()) fail(`${rel}: package IDs differ from reviewed offer catalog`);
+    if (raw.lastPriceChangeAt != null && Number.isNaN(Date.parse(raw.lastPriceChangeAt))) fail(`${rel}: bad lastPriceChangeAt`);
+
+    const previous = gitHeadJson(rel);
+    for (const item of raw.offers) {
+      const approved = offerByPackageId.get(item.packageId);
+      if (!approved || approved.slug !== raw.slug) { fail(`${rel}: unapproved package ${item.packageId}`); continue; }
+      for (const field of ['name', 'kind', 'includesBaseGame']) {
+        if (item[field] !== approved[field]) fail(`${rel} package ${item.packageId}: ${field} differs from reviewed catalog`);
+      }
+      if (!Array.isArray(item.regions) || item.regions.length === 0) { fail(`${rel} package ${item.packageId}: no priced regions`); continue; }
+      const ccs = item.regions.map((region) => region.cc);
+      if (new Set(ccs).size !== ccs.length) fail(`${rel} package ${item.packageId}: duplicate regions`);
+      if (ccs.join() !== [...ccs].sort().join()) fail(`${rel} package ${item.packageId}: regions not sorted by cc`);
+      for (const region of item.regions) {
+        if (!/^[A-Z]{2}$/.test(region.cc ?? '')) fail(`${rel} package ${item.packageId}: bad cc ${region.cc}`);
+        if (!(region.amount > 0)) fail(`${rel} package ${item.packageId} ${region.cc}: non-positive price`);
+        if (region.discountPct !== null && !(region.discountPct > 0 && region.discountPct <= 100)) fail(`${rel} package ${item.packageId} ${region.cc}: bad discountPct ${region.discountPct}`);
+        if (region.discountPct !== null && !(region.list > region.amount)) fail(`${rel} package ${item.packageId} ${region.cc}: discount requires a higher list price`);
+        if (region.discountPct === null && region.list !== null) fail(`${rel} package ${item.packageId} ${region.cc}: list price without a discount`);
+        if (region.saleEndsAt !== null) fail(`${rel} package ${item.packageId} ${region.cc}: Steam package saleEndsAt must be null`);
+        const leaked = DERIVED_STEAM_OFFER_FIELDS.filter((field) => field in region);
+        if (leaked.length) fail(`${rel} package ${item.packageId} ${region.cc}: comparison/derived fields persisted (${leaked.join('/')})`);
+        if (region.currency !== 'USD' && !(rates[region.currency] > 0)) fail(`${rel} package ${item.packageId} ${region.cc}: no exchange rate for ${region.currency}`);
+      }
+      const us = item.regions.find((region) => region.cc === 'US');
+      if (!us || us.currency !== 'USD') fail(`${rel} package ${item.packageId}: missing native US/USD observation`);
+      const previousItem = previous?.offers?.find((candidate) => candidate.packageId === item.packageId);
+      if (previousItem?.regions?.length && item.regions.length < previousItem.regions.length * 0.8) {
+        fail(`${rel} package ${item.packageId}: region coverage dropped ${previousItem.regions.length} -> ${item.regions.length} (>20%)`);
+      }
+    }
+  }
 }
 
 // --- required artifacts derived from catalog (a deleted snapshot must FAIL) ---
@@ -227,8 +325,11 @@ for (const [name, e] of Object.entries(sourceHealth.sources ?? {})) {
   if (!(Number.isInteger(e.consecutiveFailures) && e.consecutiveFailures >= 0)) fail(`source-health ${name}: bad consecutiveFailures`);
   if (typeof e.note !== 'string') fail(`source-health ${name}: note must be a string`);
 }
-for (const required of ['steam-regional', 'eshop-regional', ...(xboxIds.size ? ['xbox-us'] : [])]) {
+for (const required of ['steam-regional', 'eshop-regional', ...(offerCatalog.offers?.length ? ['steam-offers'] : []), ...(xboxIds.size ? ['xbox-us'] : [])]) {
   if (!sourceHealth.sources?.[required]) fail(`source-health: missing required source ${required}`);
+}
+if (offerCatalog.offers?.length && !sourceHealth.sources?.['steam-offers']?.lastSuccessAt) {
+  fail('source-health: steam-offers has no complete successful run');
 }
 
 if (errors.length) {
@@ -254,6 +355,7 @@ const health = {
   sources: {
     rates: ratesDoc.updatedAt ?? null,
     'steam-regional': sourceHealth.sources?.['steam-regional']?.lastSuccessAt ?? null,
+    ...(offerCatalog.offers?.length && { 'steam-offers': sourceHealth.sources?.['steam-offers']?.lastSuccessAt ?? null }),
     'eshop-regional': sourceHealth.sources?.['eshop-regional']?.lastSuccessAt ?? null,
     ...(xboxIds.size && { 'xbox-us': sourceHealth.sources?.['xbox-us']?.lastSuccessAt ?? null }),
     'deals-steam': fs.existsSync(path.join(ROOT, 'data/feeds/deals-steam.json')) ? readJson('data/feeds/deals-steam.json').updatedAt : null,
