@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, primaryRegionalSource, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney, regionalPriceSummary,
+  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, primaryRegionalSource, regionalPriceSources, multiRegionalPriceSummary, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney, regionalPriceSummary,
 } from '../../site/src/lib/derive.mjs';
 
 const bundle = (over = {}) => ({
@@ -64,6 +64,48 @@ test('primary regional source defaults to Steam and allows a valid catalog overr
   assert.equal(primaryRegionalSource(bundle({ game: { title: 'G', primaryRegionalChannel: 'eshop' } })).key, 'eshop');
   assert.equal(primaryRegionalSource(bundle({ steam: null })).key, 'eshop');
   assert.equal(primaryRegionalSource(bundle({ steam: null, eshop: null })), null);
+});
+
+test('regionalPriceSources returns multi-region Steam then eShop and excludes Xbox', () => {
+  const sources = regionalPriceSources(bundle({
+    xbox: { regions: [{ cc: 'US', usd: 20 }, { cc: 'JP', usd: 18 }] },
+  }));
+  assert.deepEqual(sources.map(({ key, label }) => ({ key, label })), [
+    { key: 'steam', label: 'Steam' },
+    { key: 'eshop', label: 'Nintendo eShop' },
+  ]);
+  const steamOnly = regionalPriceSources(bundle({
+    eshop: { regions: [{ cc: 'US', usd: 35 }] },
+    xbox: { regions: [{ cc: 'US', usd: 20 }, { cc: 'JP', usd: 18 }] },
+  }));
+  assert.deepEqual(steamOnly.map((source) => source.key), ['steam']);
+});
+
+test('multi-regional summary attributes global extremes to their platforms', () => {
+  const sources = regionalPriceSources(bundle({
+    steam: { regions: [{ cc: 'UA', usd: 20.13 }, { cc: 'CH', usd: 86.04 }] },
+    eshop: { regions: [{ cc: 'ZA', usd: 11 }, { cc: 'US', usd: 35 }] },
+  }));
+  const summary = multiRegionalPriceSummary('Example Game', sources);
+  assert.equal(summary.gameTitle, 'Example Game');
+  assert.equal(summary.platformListLabel, 'Steam and Nintendo eShop');
+  assert.equal(summary.cheapest.countryName, 'South Africa');
+  assert.equal(summary.cheapest.sourceKey, 'eshop');
+  assert.equal(summary.cheapest.sourceLabel, 'Nintendo eShop');
+  assert.equal(summary.mostExpensive.countryName, 'Switzerland');
+  assert.equal(summary.mostExpensive.sourceKey, 'steam');
+  assert.equal(summary.savingsPct, 87);
+  assert.equal(summary.priceSpreadPct, 682);
+  assert.equal('sourceIndex' in summary.cheapest, false);
+  assert.equal(
+    summary.text,
+    'Compare Example Game Steam and Nintendo eShop prices globally. Cheapest: South Africa ($11.00). Most expensive: Switzerland ($86.04). Save up to 87% across tracked stores and regions.',
+  );
+  assert.doesNotMatch(summary.text, / on (?:Steam|Nintendo eShop)/);
+  const singleStore = multiRegionalPriceSummary('Example Game', sources.slice(0, 1));
+  assert.match(singleStore.text, /Save up to \d+% via regional pricing\./);
+  assert.doesNotMatch(singleStore.text, /across tracked stores/);
+  assert.equal(multiRegionalPriceSummary('Empty', []), null);
 });
 
 test('regionGapBoard uses the same primary source and computes savings vs US', () => {

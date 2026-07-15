@@ -50,6 +50,50 @@ export function regionalPriceSummary(gameTitle, storeLabel, snapshot) {
   return { ...model, text };
 }
 
+const platformListFormatter = new Intl.ListFormat('en', { style: 'long', type: 'conjunction' });
+
+/**
+ * Summary facts across every regional storefront shown in the unified table.
+ * Extremes retain source metadata for downstream logic, while the reader-facing
+ * sentence stays concise: the opening names every platform and each extreme is
+ * expressed as a country and price only.
+ */
+export function multiRegionalPriceSummary(gameTitle, sources) {
+  const usableSources = (sources ?? []).flatMap((source) => {
+    const model = regionalPriceModel(source?.snapshot);
+    return model.rows.length > 0 ? [{ ...source, model }] : [];
+  });
+  const ranked = usableSources.flatMap((source, sourceIndex) => source.model.rows.map((row) => ({
+    ...row,
+    sourceKey: source.key,
+    sourceLabel: source.label,
+    sourceIndex,
+  }))).sort((a, b) => a.usd - b.usd || a.sourceIndex - b.sourceIndex || a.cc.localeCompare(b.cc));
+  if (ranked.length === 0) return null;
+
+  const withoutInternalIndex = ({ sourceIndex: _sourceIndex, ...row }) => row;
+  const cheapest = withoutInternalIndex(ranked[0]);
+  const mostExpensive = withoutInternalIndex(ranked.at(-1));
+  const hasRange = mostExpensive.usd > cheapest.usd;
+  const priceSpreadPct = hasRange ? Math.round((mostExpensive.usd / cheapest.usd - 1) * 100) : 0;
+  const savingsPct = hasRange ? Math.round((1 - cheapest.usd / mostExpensive.usd) * 100) : 0;
+  const platformListLabel = platformListFormatter.format(usableSources.map((source) => source.label));
+  const showSource = usableSources.length > 1;
+  const lead = `Compare ${gameTitle} ${platformListLabel} prices globally. Cheapest: ${cheapest.countryName} (${fmtUsd(cheapest.usd)}). Most expensive: ${mostExpensive.countryName} (${fmtUsd(mostExpensive.usd)}).`;
+  const text = hasRange
+    ? `${lead} Save up to ${savingsPct}% ${showSource ? 'across tracked stores and regions' : 'via regional pricing'}.`
+    : `${lead} Tracked regional prices are currently equal.`;
+  return {
+    gameTitle,
+    platformListLabel,
+    cheapest,
+    mostExpensive,
+    savingsPct,
+    priceSpreadPct,
+    text,
+  };
+}
+
 /** US-region row of a snapshot (canonical price), or null. */
 export function usRow(snapshot) {
   return snapshot?.regions?.find((r) => r.cc === 'US') ?? null;
@@ -74,6 +118,17 @@ export function primaryRegionalSource(bundle) {
     }
   }
   return null;
+}
+
+/**
+ * Regional sources eligible for the unified comparison table. Xbox remains a
+ * US-only POC and is deliberately excluded until it has multi-region data.
+ */
+export function regionalPriceSources(bundle) {
+  return [
+    { key: 'steam', label: 'Steam', snapshot: bundle?.steam },
+    { key: 'eshop', label: 'Nintendo eShop', snapshot: bundle?.eshop },
+  ].filter((source) => (source.snapshot?.regions ?? []).filter((row) => row?.cc && row?.usd > 0).length > 1);
 }
 
 /**

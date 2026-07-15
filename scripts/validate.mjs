@@ -138,6 +138,9 @@ if (fs.existsSync(offerDir)) {
       for (const field of ['name', 'kind', 'includesBaseGame']) {
         if (item[field] !== approved[field]) fail(`${rel} package ${item.packageId}: ${field} differs from reviewed catalog`);
       }
+      const leakedCatalogFields = ['columnLabel', 'note', 'reviewedAt', 'channel', 'baseAppId', 'expectedAppIds', 'expectedStoreName', 'requiredPageText']
+        .filter((field) => field in item);
+      if (leakedCatalogFields.length) fail(`${rel} package ${item.packageId}: catalog display/review fields persisted (${leakedCatalogFields.join('/')})`);
       if (!Array.isArray(item.regions) || item.regions.length === 0) { fail(`${rel} package ${item.packageId}: no priced regions`); continue; }
       const ccs = item.regions.map((region) => region.cc);
       if (new Set(ccs).size !== ccs.length) fail(`${rel} package ${item.packageId}: duplicate regions`);

@@ -4,11 +4,9 @@ import GameHero from '../../../components/GameHero.astro';
 import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
 import PixelWorldMap from '../../../components/PixelWorldMap.astro';
-import RegionLabel from '../../../components/RegionLabel.astro';
-import RegionalPrice from '../../../components/RegionalPrice.astro';
-import SteamOffers from '../../../components/SteamOffers.astro';
+import RegionalComparisonTable from '../../../components/RegionalComparisonTable.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
-import { fmtUsd, primaryRegionalSource, regionalPriceSummary } from '../../../lib/derive.mjs';
+import { fmtUsd, multiRegionalPriceSummary, regionalPriceSources } from '../../../lib/derive.mjs';
 import { regionalGameSeo } from '../../../lib/seo.mjs';
 
 export function getStaticPaths() {
@@ -19,9 +17,15 @@ const { slug } = Astro.params;
 const bundle = gameBundle(slug!);
 const { game } = bundle;
 
-const source = primaryRegionalSource(bundle);
-const seo = source
-  ? regionalGameSeo(game.title, source.key, source.snapshot)
+const sources = regionalPriceSources(bundle).map((source: any) => ({
+  ...source,
+  offers: source.key === 'steam' ? (bundle.steamOffers?.offers ?? []) : (source.offers ?? []),
+}));
+const summary = multiRegionalPriceSummary(game.title, sources);
+const configuredMapSource = sources.find((source: any) => source.key === game.primaryRegionalChannel);
+const mapSource = configuredMapSource ?? sources[0] ?? null;
+const seo = mapSource
+  ? regionalGameSeo(game.title, mapSource.key, mapSource.snapshot)
   : {
       title: `${game.title} Region Prices | GamePriceMap`,
       description: `Compare regional game prices and store discounts for ${game.title}.`,
@@ -35,76 +39,48 @@ const seo = source
   <div class="wrap">
     <GameTabs slug={slug!} current="regional" />
 
-    <section style="padding: 24px 0 8px;">
-      {source ? (() => {
-        const { key, label, snapshot } = source;
-        const summary = regionalPriceSummary(game.title, label, snapshot);
-        const rows = summary?.rows ?? [];
-        return (
-          <div
-            id={`region-panel-${key}`}
-            class="region-channel-panel"
-            aria-label={`${label} regional prices`}
-          >
-            <h2 class="regional-table-title">{game.title} Cheapest Regions</h2>
-            {summary && (
-              <p class="regional-summary">
-                Compare {game.title} {label} prices globally. Cheapest:{' '}
-                <strong class="regional-summary-fact is-cheapest">
-                  {summary.cheapest.countryName}{' '}
-                  <span class="regional-summary-value">({fmtUsd(summary.cheapest.usd)})</span>
-                </strong>.
-                {' '}Most expensive:{' '}
-                <strong class="regional-summary-fact is-priciest">
-                  {summary.mostExpensive.countryName}{' '}
-                  <span class="regional-summary-value">({fmtUsd(summary.mostExpensive.usd)})</span>
-                </strong>.
-                {' '}{summary.priceSpreadPct > 0 ? (
-                  <>
-                    Save up to{' '}
-                    <strong class="regional-summary-fact is-saving">
-                      <span class="regional-summary-value">{summary.savingsPct}%</span>
-                    </strong>
-                    {' '}via regional pricing.
-                  </>
-                ) : (
-                  <>Tracked regional prices are currently equal.</>
-                )}
-              </p>
-            )}
-            <PixelWorldMap snapshot={snapshot} channel={key as 'steam' | 'eshop'} />
-            <div class="region-table-wrap" role="region" aria-label={`${game.title} ${label} regional price table`} tabindex="0">
-              <table class="region-full">
-                <colgroup>
-                  <col class="region-rank-col" />
-                  <col class="region-name-col" />
-                  <col class="region-price-col" />
-                  <col class="region-delta-col" />
-                </colgroup>
-                <thead><tr><th>#</th><th>Region</th><th>Price</th><th>vs US</th></tr></thead>
-                <tbody>
-                  {rows.map((r: any) => (
-                    <tr id={`region-${key}-${r.cc}`}>
-                      <td class={r.rank === 1 ? 'rank-1' : 'mono'} style={r.rank === 1 ? '' : 'color:var(--text-3);'}>{r.rank}</td>
-                      <td>
-                        <span class="region-cell">
-                          <RegionLabel cc={r.cc} />
-                          {r.discountPct ? <span class="chip-off">−{r.discountPct}%</span> : null}
-                        </span>
-                      </td>
-                      <td><RegionalPrice row={r} /></td>
-                      <td><span class:list={['region-delta', `is-${r.direction}`]}>{r.deltaLabel}</span></td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            {key === 'steam' && (
-              <SteamOffers gameTitle={game.title} offers={bundle.steamOffers?.offers} />
-            )}
+    <section class="regional-page-section">
+      {summary ? (
+        <>
+          <h2 class="regional-page-title">{game.title} Cheapest Regions</h2>
+          <p class="regional-summary" aria-label={summary.text}>
+            <span>Compare {game.title} {summary.platformListLabel} prices globally. Cheapest:</span>{' '}
+            <strong class="regional-summary-fact is-cheapest">
+              {summary.cheapest.countryName}
+              <span class="regional-summary-value"> ({fmtUsd(summary.cheapest.usd)}).</span>
+            </strong>{' '}
+            <span>Most expensive:</span>{' '}
+            <strong class="regional-summary-fact is-priciest">
+              {summary.mostExpensive.countryName}
+              <span class="regional-summary-value"> ({fmtUsd(summary.mostExpensive.usd)}).</span>
+            </strong>{' '}
+            {summary.priceSpreadPct > 0 ? (
+              <>
+                <span>Save up to</span>{' '}
+                <strong class="regional-summary-fact is-saving">
+                  <span class="regional-summary-value">{summary.savingsPct}%</span>
+                </strong>{' '}
+                <span>{sources.length > 1 ? 'across tracked stores and regions.' : 'via regional pricing.'}</span>
+              </>
+            ) : <span>Tracked regional prices are currently equal.</span>}
+          </p>
+
+          {mapSource && (
+            <section class="regional-primary-map" aria-labelledby="regional-primary-map-title">
+              <h3 id="regional-primary-map-title" class="regional-primary-map-label">
+                {mapSource.label} Region Savings Map
+              </h3>
+              <PixelWorldMap snapshot={mapSource.snapshot} channel={mapSource.key as 'steam' | 'eshop'} />
+            </section>
+          )}
+
+          <div class="regional-platform-stack">
+            {sources.map((source: any) => (
+              <RegionalComparisonTable gameTitle={game.title} source={source} />
+            ))}
           </div>
-        );
-      })() : <p style="color:var(--text-2); font-weight:600;">No regional data tracked for this game yet.</p>}
+        </>
+      ) : <p style="color:var(--text-2); font-weight:600;">No regional data tracked for this game yet.</p>}
 
       <NoteBox>
         These are store list prices with exchange-rate estimates — not checkout

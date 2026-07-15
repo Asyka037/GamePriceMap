@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  countryFlag, countryName, formatRegionDelta, regionDeltaPct, regionalPriceModel,
+  countryFlag, countryName, formatRegionDelta, regionDeltaPct, regionalComparisonModel, regionalPriceModel,
 } from '../../site/src/lib/regions.mjs';
 
 test('country labels expose full English names with accessible flag companions', () => {
@@ -36,4 +36,31 @@ test('regional model keeps parity neutral and refuses to invent a missing US bas
   assert.equal(noUs.rows[0].deltaPct, null);
   assert.equal(noUs.rows[0].deltaLabel, '—');
   assert.equal(noUs.rows[0].direction, 'unknown');
+});
+
+test('supplemental prices join by region without changing base rank or vs-US semantics', () => {
+  const model = regionalComparisonModel({ regions: [
+    { cc: 'IN', usd: 7, rank: 1 },
+    { cc: 'US', usd: 30, rank: 2 },
+    { cc: 'CH', usd: 45, rank: 3 },
+  ] }, [{
+    packageId: 123,
+    regions: [
+      { cc: 'CH', usd: 60 },
+      { cc: 'IN', usd: 12 },
+      { cc: 'US', usd: 40 },
+    ],
+  }]);
+
+  assert.deepEqual(model.rows.map(({ cc, rank, deltaLabel }) => ({ cc, rank, deltaLabel })), [
+    { cc: 'IN', rank: 1, deltaLabel: '−77%' },
+    { cc: 'US', rank: 2, deltaLabel: '0%' },
+    { cc: 'CH', rank: 3, deltaLabel: '+50%' },
+  ]);
+  assert.deepEqual(model.rows.map((row) => row.offerPrices[0]?.usd ?? null), [12, 40, 60]);
+  assert.deepEqual(model.rows.map((row) => row.offerPrices[0]?.direction ?? null), [
+    'cheaper', 'baseline', 'pricier',
+  ]);
+  assert.equal(model.offerColumns[0].baseline.usd, 40);
+  assert.equal(model.rows.every((row) => !row.offerPrices[0] || !('rank' in row.offerPrices[0])), true);
 });

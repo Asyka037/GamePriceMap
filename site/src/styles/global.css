@@ -445,7 +445,9 @@ img { display: block; max-width: 100%; }
 /* ============================================================
    game detail page
    ============================================================ */
+.game-detail-breadcrumb { padding-top: 20px; }
 .game-hero { display: grid; grid-template-columns: 320px 1fr; gap: 28px; padding: 26px 0 0; }
+.game-hero-info { min-width: 0; }
 .game-hero .cover-lg {
   border-radius: var(--radius-lg); overflow: hidden;
   border: 3px solid var(--ink); box-shadow: var(--shadow);
@@ -493,12 +495,16 @@ img { display: block; max-width: 100%; }
 .btn-ghost svg { width: 15px; height: 15px; stroke: currentColor; stroke-width: 2.5; }
 
 /* structural tabs */
-.tab-nav-scroll { max-width: 100%; overflow-x: auto; overscroll-behavior-inline: contain; -webkit-overflow-scrolling: touch; }
-.tab-nav { display: flex; flex-wrap: nowrap; width: max-content; min-width: 100%; gap: 4px; margin-top: 32px; border-bottom: 3px solid var(--ink); }
+.tab-nav-scroll {
+  max-width: 100%; overflow-x: auto; overscroll-behavior-inline: contain;
+  -webkit-overflow-scrolling: touch; scrollbar-width: none;
+}
+.tab-nav-scroll::-webkit-scrollbar { display: none; }
+.tab-nav { display: flex; flex-wrap: nowrap; width: max-content; min-width: 100%; gap: 4px; margin-top: 32px; border-bottom: 4px solid var(--ink); }
 .tab-nav a {
   flex: 0 0 auto; white-space: nowrap;
   padding: 11px 16px; font-size: 15px; font-weight: 800; color: var(--text-2);
-  border-bottom: 4px solid transparent; margin-bottom: -3px;
+  border-bottom: 4px solid transparent; margin-bottom: -4px;
   transition: color .12s; cursor: pointer; position: relative;
 }
 .tab-nav a:hover { color: var(--ink); }
@@ -604,36 +610,67 @@ img { display: block; max-width: 100%; }
 .chart-legend { display: flex; gap: 18px; font-size: 12.5px; font-weight: 700; color: var(--text-2); margin-top: 10px; }
 .chart-legend i { display: inline-block; width: 14px; height: 4px; border-radius: 0; margin-right: 6px; vertical-align: 3px; }
 
-/* full region table (tab) */
-.region-channel-tabs { display: inline-flex; gap: 6px; padding: 5px; background: var(--surface-2); border: 3px solid var(--ink); border-radius: var(--radius-lg); }
-.region-channel-tabs button {
-  border: 2px solid transparent; border-radius: 5px; background: transparent;
-  padding: 7px 12px; color: var(--text-2); font-size: 13.5px; font-weight: 800;
+/* unified multi-platform regional comparison */
+.regional-page-section { min-width: 0; padding: 24px 0 8px; }
+.regional-page-title {
+  margin: 0 0 10px; color: var(--ink); font-family: var(--font-pixel);
+  font-size: 14px; font-weight: 400; line-height: 1.65; text-transform: uppercase;
 }
-.region-channel-tabs button:hover { color: var(--ink); }
-.region-channel-tabs button.active { background: var(--gold-bg); border-color: var(--ink); color: var(--ink); box-shadow: var(--shadow-sm); }
-.region-channel-panel { margin-bottom: 28px; }
-.region-channel-panel[hidden] { display: none; }
-.regional-table-title {
-  margin: 18px 0 12px; color: var(--ink); font-family: var(--font-pixel);
-  font-size: 14px; font-weight: 400; line-height: 1.6; text-transform: uppercase;
+.regional-summary {
+  width: 100%; margin: 0 0 18px; color: var(--text-2);
+  font-size: 14.5px; font-weight: 700; line-height: 1.58;
 }
-.regional-summary { width: 100%; margin: -4px 0 14px; color: var(--text-2); font-size: 14.5px; font-weight: 700; line-height: 1.75; }
 .regional-summary-fact {
-  display: inline; padding: 1px 5px; border-radius: 4px;
-  font-weight: 800; white-space: nowrap;
-  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  display: inline; color: var(--ink); font-size: 1.04em; font-weight: 850;
+  white-space: normal;
 }
-.regional-summary-value { font-family: var(--font-mono); }
+.regional-summary-value { font: inherit; }
 .regional-summary-fact.is-cheapest,
 .regional-summary-fact.is-saving {
-  background: color-mix(in srgb, var(--green-bg) 32%, white); color: var(--green);
+  color: var(--green);
 }
 .regional-summary-fact.is-priciest {
-  background: color-mix(in srgb, var(--red-bg) 24%, white); color: var(--red);
+  color: var(--red);
 }
-.region-table-wrap { width: 100%; max-width: 100%; padding: 0 6px 8px 0; overflow-x: auto; }
-.region-table-wrap .region-full { min-width: 560px; }
+
+.regional-primary-map {
+  min-width: 0; margin: 0 0 30px; padding: 14px 14px 0;
+  background: color-mix(in srgb, var(--sky) 10%, var(--surface));
+  border: 3px solid var(--ink); border-radius: var(--radius-lg); box-shadow: var(--shadow);
+}
+.regional-primary-map-label {
+  margin: 0 0 10px; color: var(--ink); font-size: 16px; font-weight: 850; line-height: 1.35;
+}
+.regional-primary-map .pixel-map-wrap { margin: 0 0 14px; }
+
+.regional-platform-stack { display: grid; min-width: 0; gap: 34px; }
+.regional-comparison { position: relative; min-width: 0; max-width: 100%; scroll-margin-top: 84px; }
+.regional-comparison-heading {
+  margin: 0 0 10px; color: var(--ink);
+  font-size: 18px; font-weight: 850; line-height: 1.35;
+}
+
+.regional-comparison-frame {
+  width: 100%; max-width: 100%; min-width: 0; overflow: hidden;
+  background: var(--surface); border: 3px solid var(--ink);
+  border-radius: var(--radius-lg); box-shadow: var(--shadow);
+}
+.regional-comparison-scroll {
+  width: 100%; max-width: 100%;
+  overflow-x: auto; overflow-y: hidden; overscroll-behavior-inline: contain;
+  -webkit-overflow-scrolling: touch; scrollbar-width: thin;
+}
+.regional-comparison.is-enhanced .regional-comparison-scroll {
+  transition: max-height .26s cubic-bezier(.22, .8, .22, 1);
+}
+.regional-comparison.is-collapsed .regional-comparison-scroll {
+  overflow-x: auto; overflow-y: hidden;
+}
+.regional-comparison-scroll:focus-visible { outline-offset: -3px; }
+.regional-comparison-clip {
+  position: relative; width: max(100%, var(--regional-table-min));
+}
+
 .region-full {
   width: 100%; border-collapse: separate; border-spacing: 0;
   background: var(--surface); border: 3px solid var(--ink);
@@ -650,80 +687,66 @@ img { display: block; max-width: 100%; }
 .region-cell { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
 .rank-1 { color: var(--gold); font-family: var(--font-mono); font-weight: 700; }
 
-/* Supplemental Steam packages stay physically separate from base-game ranking. */
-.steam-offers {
-  margin-top: 24px; padding: 18px;
-  background: var(--surface); border: 3px solid var(--ink);
-  border-radius: var(--radius-lg); box-shadow: var(--shadow);
+.regional-comparison-table {
+  width: 100%; min-width: 100%; table-layout: fixed;
+  border-collapse: separate; border-spacing: 0;
+  background: var(--surface); border: 0;
 }
-.steam-offers-heading {
-  display: flex; align-items: flex-start; justify-content: space-between; gap: 18px;
-  margin-bottom: 14px;
+.regional-comparison-table th {
+  padding: 10px 16px; border-bottom: 2px solid var(--ink); background: var(--surface-2);
+  color: var(--text-2); text-align: left; vertical-align: bottom;
+  font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap;
 }
-.steam-offers-heading h3 { color: var(--ink); font-size: 18px; font-weight: 800; }
-.steam-offers-heading p {
-  max-width: 720px; margin-top: 3px; color: var(--text-2);
-  font-size: 13.5px; font-weight: 650; line-height: 1.6;
+.regional-comparison-table td {
+  padding: 10px 16px; border-bottom: 2px solid #F0E9D6;
+  font-size: 14.5px; font-weight: 600; vertical-align: middle;
 }
-.steam-offers-count {
-  flex: 0 0 auto; padding: 3px 8px; border: 2px solid var(--ink); border-radius: 999px;
-  background: var(--surface-2); color: var(--ink); font-family: var(--font-mono);
-  font-size: 11px; font-weight: 700; white-space: nowrap;
+.regional-comparison-table tr:last-child td { border-bottom: none; }
+.regional-comparison-table tbody tr:hover td { background: #FFFBEE; }
+.regional-comparison-table .regional-col-rank { width: 52px; }
+.regional-comparison-table .regional-col-region { width: 190px; }
+.regional-comparison-table .regional-col-game { width: 180px; }
+.regional-comparison-table .regional-col-offer { width: 190px; }
+.regional-comparison-table .regional-col-delta { width: 100px; }
+.regional-comparison-table thead[data-regional-toggle-head] { cursor: pointer; }
+.regional-head-toggle-cell { padding-inline: 10px !important; }
+.regional-head-toggle {
+  width: 100%; border: 0; padding: 0; background: transparent; color: inherit;
+  display: inline-flex; align-items: center; justify-content: flex-start;
+  font-size: inherit; font-weight: inherit; letter-spacing: inherit; line-height: inherit;
 }
-.steam-offer-list { display: grid; gap: 9px; }
-.steam-offer {
-  overflow: hidden; border: 2px solid #E5DDC8; border-radius: 8px;
-  background: var(--bg-raised);
+.regional-head-toggle[hidden] { display: none; }
+.regional-comparison.is-enhanced .regional-rank-fallback { display: none; }
+.regional-offer-heading { color: var(--text-2); text-transform: none !important; letter-spacing: 0 !important; }
+.regional-offer-heading .regional-offer-label {
+  display: block; min-width: 0; overflow: hidden;
+  color: inherit; text-overflow: ellipsis; white-space: nowrap;
+  text-transform: none; letter-spacing: 0;
 }
-.steam-offer[open] { border-color: var(--ink); }
-.steam-offer > summary {
-  display: grid; grid-template-columns: auto minmax(150px, 1fr) auto auto;
-  align-items: center; gap: 9px; padding: 11px 12px;
-  color: var(--ink); cursor: pointer; list-style: none;
+.regional-offer-price { display: inline-flex; align-items: flex-start; }
+.regional-offer-price .regional-price > strong {
+  padding: 0; background: transparent; color: var(--text-2);
+  font-size: 13px; font-weight: 650;
 }
-.steam-offer > summary::-webkit-details-marker { display: none; }
-.steam-offer > summary:hover { background: #FFFBEE; }
-.steam-offer-kind {
-  padding: 2px 6px; border: 2px solid var(--ink); border-radius: 4px;
-  color: var(--ink); font-size: 10.5px; font-weight: 800; white-space: nowrap;
+.regional-offer-price .regional-price > span { color: var(--text-3); font-weight: 500; }
+.regional-offer-price .regional-price.is-cheaper > strong { background: transparent; color: var(--green); }
+.regional-offer-price .regional-price.is-pricier > strong { background: transparent; color: var(--red); }
+.regional-offer-price .regional-price.is-baseline > strong,
+.regional-offer-price .regional-price.is-par > strong { background: transparent; color: var(--text-2); }
+.regional-price-missing { color: var(--text-3); font-family: var(--font-mono); }
+
+.regional-sticky-head {
+  position: fixed; z-index: 45; display: none; overflow: hidden;
+  background: var(--surface-2); border: 1px solid rgba(41, 35, 68, .12);
+  border-radius: 0 0 var(--radius) var(--radius);
+  box-shadow: 0 5px 10px rgba(41, 35, 68, .12); pointer-events: auto;
 }
-.steam-offer-kind.is-edition { background: color-mix(in srgb, var(--sky) 28%, white); }
-.steam-offer-kind.is-addon { background: color-mix(in srgb, var(--gold-bg) 38%, white); }
-.steam-offer-name { min-width: 0; font-size: 14px; font-weight: 800; }
-.steam-offer-meta { color: var(--text-2); font-size: 12px; font-weight: 700; white-space: nowrap; }
-.steam-offer-chevron {
-  color: var(--text-2); font-family: var(--font-mono); font-size: 18px; line-height: 1;
-  transform: rotate(0); transition: transform .12s;
+.regional-sticky-head.is-visible { display: block; }
+.regional-sticky-track { will-change: transform; }
+.regional-comparison-table.is-sticky-copy {
+  width: 100%; min-width: 100%;
 }
-.steam-offer[open] .steam-offer-chevron { transform: rotate(180deg); }
-.steam-offer-body { padding: 0 12px 13px; }
-.steam-offer-table-wrap { width: 100%; max-width: 100%; overflow-x: auto; }
-.steam-offer-table-wrap:focus-visible { outline-offset: 2px; }
-.steam-offer-table { width: 100%; min-width: 280px; table-layout: fixed; border-collapse: collapse; }
-.steam-offer-region-col { width: 40%; }
-.steam-offer-price-col { width: 40%; }
-.steam-offer-discount-col { width: 20%; }
-.steam-offer-table th {
-  padding: 7px 9px; border-bottom: 2px solid var(--ink); text-align: left;
-  color: var(--text-2); font-size: 10px; font-weight: 800;
-  letter-spacing: .06em; text-transform: uppercase;
-}
-.steam-offer-table td {
-  padding: 8px 9px; border-bottom: 2px dashed #E5DDC8;
-  font-size: 13px; font-weight: 650; vertical-align: middle;
-}
-.steam-offer-table tr:last-child td { border-bottom: none; }
-.steam-offer-discount {
-  display: inline-flex; padding: 2px 6px; border-radius: 4px;
-  background: color-mix(in srgb, var(--green-bg) 32%, white);
-  color: var(--green); font-family: var(--font-mono); font-size: 11px; font-weight: 800;
-}
-.steam-offer-no-discount { color: var(--text-3); }
-.steam-offer-store-link {
-  display: inline-flex; align-items: center; gap: 5px; margin-top: 10px;
-  color: var(--red); font-size: 12.5px; font-weight: 800;
-}
-.steam-offer-store-link:hover { text-decoration: underline; text-decoration-thickness: 2px; }
+.regional-comparison-table.is-sticky-copy th { border-bottom: 1px solid #D8D0BC; }
 
 .note-box {
   display: flex; gap: 12px; background: var(--surface);
@@ -900,86 +923,60 @@ img { display: block; max-width: 100%; }
   .stat-badges { gap: 10px; }
   .board-stack { grid-template-columns: 1fr; }
   .hero-toggle { position: static; justify-content: flex-end; margin-bottom: 14px; }
+  .game-detail-breadcrumb {
+    padding-top: 12px; margin-bottom: 0; line-height: 1.4;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .game-hero { gap: 16px; padding-top: 14px; }
+  .game-hero h1 {
+    font-size: 17px; line-height: 1.5; overflow-wrap: anywhere;
+  }
+  .tag-row { gap: 6px; margin: 9px 0 9px; }
+  .tag, .plat-pill { padding: 2px 8px; font-size: 11.5px; }
+  .hero-meta {
+    column-gap: 12px; row-gap: 4px; margin-top: 0;
+    font-size: 13px; line-height: 1.42;
+  }
+  .hero-price { gap: 3px; padding: 8px 11px; margin-top: 9px; }
+  .hero-price-label { font-size: 10px; }
+  .hero-price-line { gap: 7px; }
+  .hero-price-line > b { font-size: 22px; }
+  .tab-nav { gap: 0; margin-top: 21px; }
+  .tab-nav a {
+    min-height: 44px; padding: 8px 12px; display: inline-flex; align-items: center;
+    font-size: 14px;
+  }
   .price-table { min-width: 660px; }
   .pixel-map-wrap:not(.compact) { display: none; }
-
-  /* Keep every decision field visible on mobile; long region names wrap instead of hiding prices. */
-  .region-table-wrap {
-    padding-right: 2px; overscroll-behavior-inline: contain; scrollbar-width: thin;
-  }
-  .region-table-wrap .region-full {
-    width: 100%; min-width: 0; table-layout: fixed;
-  }
-  .region-table-wrap .region-rank-col { width: 8%; }
-  .region-table-wrap .region-name-col { width: 38%; }
-  .region-table-wrap .region-price-col { width: 33%; }
-  .region-table-wrap .region-delta-col { width: 21%; }
-  .region-table-wrap .region-full th {
-    padding: 8px 4px; font-size: 9.5px; letter-spacing: .04em;
-  }
-  .region-table-wrap .region-full td {
-    min-width: 0; padding: 8px 4px; font-size: 12.5px; vertical-align: middle;
-  }
-  .region-table-wrap .region-full th:first-child,
-  .region-table-wrap .region-full td:first-child { padding-left: 6px; padding-right: 2px; }
-  .region-table-wrap .region-cell {
-    display: grid; gap: 3px; min-width: 0;
-  }
-  .region-table-wrap .region-name {
-    width: 100%; min-width: 0; max-width: 100%; gap: 4px; white-space: normal;
-  }
-  .region-table-wrap .region-name > span:last-child {
-    min-width: 0; line-height: 1.15;
-  }
-  .region-table-wrap .region-flag-symbol {
-    width: 18px; flex-basis: 18px; font-size: 15px;
-  }
-  .region-table-wrap .region-cell .chip-off {
-    justify-self: start; padding: 1px 4px; font-size: 9px;
-  }
-  .region-table-wrap .regional-price { max-width: 100%; }
-  .region-table-wrap .regional-price > strong {
-    max-width: 100%; padding: 2px 5px; font-size: 12.5px;
-    overflow: hidden; text-overflow: ellipsis;
-  }
-  .region-table-wrap .regional-price > span {
-    max-width: 100%; overflow: hidden; text-overflow: ellipsis; font-size: 9.5px;
-  }
-  .region-table-wrap .region-delta { font-size: 11px; }
-  .regional-summary { font-size: 14px; line-height: 1.85; }
-
-  .steam-offers { margin-top: 18px; padding: 12px; }
-  .steam-offers-heading { gap: 8px; }
-  .steam-offers-heading h3 { font-size: 16px; }
-  .steam-offers-heading p { font-size: 12.5px; }
-  .steam-offers-count { display: none; }
-  .steam-offer > summary {
-    grid-template-columns: auto minmax(0, 1fr) auto; gap: 6px; padding: 10px 8px;
-  }
-  .steam-offer-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .steam-offer-meta {
-    grid-column: 1 / -1; padding-left: 0; font-size: 10.5px; white-space: normal;
-  }
-  .steam-offer-body { padding: 0 7px 10px; }
-  .steam-offer-region-col { width: 39%; }
-  .steam-offer-price-col { width: 41%; }
-  .steam-offer-discount-col { width: 20%; }
-  .steam-offer-table th { padding: 6px 4px; font-size: 9px; letter-spacing: .03em; }
-  .steam-offer-table td { min-width: 0; padding: 7px 4px; font-size: 12px; }
-  .steam-offer-table .region-name { width: 100%; min-width: 0; gap: 4px; white-space: normal; }
-  .steam-offer-table .region-name > span:last-child {
-    min-width: 0; line-height: 1.15;
-  }
-  .steam-offer-table .region-flag-symbol { width: 18px; flex-basis: 18px; font-size: 15px; }
-  .steam-offer-table .regional-price { max-width: 100%; }
-  .steam-offer-table .regional-price > strong {
-    max-width: 100%; padding: 2px 5px; font-size: 12px;
-    overflow: hidden; text-overflow: ellipsis;
-  }
-  .steam-offer-table .regional-price > span {
-    max-width: 100%; overflow: hidden; text-overflow: ellipsis; font-size: 9px;
-  }
-  .steam-offer-discount { padding: 2px 4px; font-size: 9.5px; }
+  .regional-primary-map { display: none; }
+  .regional-page-title { font-size: 11px; }
+  .regional-summary { font-size: 13.5px; line-height: 1.55; }
+  .regional-summary-fact { white-space: normal; }
+  .regional-platform-stack { gap: 28px; }
+  .regional-comparison-heading { font-size: 15.5px; }
+  .regional-comparison:not(.has-offers) .regional-comparison-clip { width: 100%; }
+  .regional-comparison:not(.has-offers) .regional-comparison-table .regional-col-rank { width: 8%; }
+  .regional-comparison:not(.has-offers) .regional-comparison-table .regional-col-region { width: 38%; }
+  .regional-comparison:not(.has-offers) .regional-comparison-table .regional-col-game { width: 33%; }
+  .regional-comparison:not(.has-offers) .regional-comparison-table .regional-col-delta { width: 21%; }
+  .regional-comparison.has-offers .regional-comparison-clip { width: max(100%, var(--regional-table-min-mobile)); }
+  .regional-comparison.has-offers .regional-comparison-table .regional-col-rank { width: 42px; }
+  .regional-comparison.has-offers .regional-comparison-table .regional-col-region { width: 140px; }
+  .regional-comparison.has-offers .regional-comparison-table .regional-col-game { width: 132px; }
+  .regional-comparison.has-offers .regional-comparison-table .regional-col-offer { width: 142px; }
+  .regional-comparison.has-offers .regional-comparison-table .regional-col-delta { width: 72px; }
+  .regional-comparison-table th { padding: 8px 6px; font-size: 9px; letter-spacing: .04em; }
+  .regional-comparison-table td { padding: 8px 6px; font-size: 12px; }
+  .regional-comparison-table .region-cell { display: grid; gap: 3px; min-width: 0; }
+  .regional-comparison-table .region-name { max-width: 100%; gap: 4px; white-space: normal; }
+  .regional-comparison-table .region-name > span:last-child { min-width: 0; line-height: 1.15; }
+  .regional-comparison-table .region-flag-symbol { width: 18px; flex-basis: 18px; font-size: 15px; }
+  .regional-comparison-table .chip-off { justify-self: start; padding: 1px 4px; font-size: 9px; }
+  .regional-comparison-table .regional-price > strong { padding: 2px 5px; font-size: 12px; }
+  .regional-comparison-table .regional-price > span { font-size: 9.5px; }
+  .regional-comparison-table .region-delta { font-size: 10.5px; }
+  .regional-offer-price .regional-price > strong { padding: 0; font-size: 11.5px; }
+  .regional-sticky-head { box-shadow: 0 4px 9px rgba(41, 35, 68, .12); }
 }
 @media (max-width: 360px) {
   .header-inner { justify-content: space-between; gap: 12px; }

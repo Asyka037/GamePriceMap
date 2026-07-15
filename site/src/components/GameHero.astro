@@ -15,8 +15,8 @@ const platLabels: Record<string, string> = {
   pc: 'PC', switch: 'Switch', 'switch-2': 'Switch 2', ps4: 'PS4', ps5: 'PS5', xbox: 'Xbox', mobile: 'Mobile',
 };
 ---
-<div class="wrap">
-  <div class="breadcrumb" style="padding-top: 20px;">
+<div class="wrap game-detail-hero-wrap">
+  <div class="breadcrumb game-detail-breadcrumb">
     <a href="/">Home</a><span>/</span><a href="/steam/deals">Games</a><span>/</span>{game.title}
   </div>
 
@@ -24,7 +24,7 @@ const platLabels: Record<string, string> = {
     <div class="cover-lg">
       {meta?.headerImage && <img src={meta.headerImage} alt={`${game.title} key art`} />}
     </div>
-    <div>
+    <div class="game-hero-info">
       <h1>{game.title}</h1>
       <div class="tag-row">
         {game.platforms.map((p: string) => <span class="plat-pill">{platLabels[p] ?? p}</span>)}

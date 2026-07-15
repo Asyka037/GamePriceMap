@@ -23,11 +23,33 @@ export const catalog = () => readJson('catalog.json', { games: [] }).games;
 // 快照在 git 中只存本币原始观测（data-v2.1）；USD/排名在此处用当日汇率派生，
 // 下游（derive/pages/map）拿到的形状与旧 schema 完全一致。
 let ratesCache = null;
+let offerCatalogCache = null;
 const currentRates = () => (ratesCache ??= readJson('rates/usd.json', { rates: {} }).rates ?? {});
+const offerCatalog = () => (offerCatalogCache ??= readJson('offer-catalog.json', { offers: [] }).offers ?? []);
 export const steamSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/steam/${slug}.json`), currentRates());
 export const eshopSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/eshop/${slug}.json`), currentRates());
 export const xboxSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/xbox/${slug}.json`), currentRates());
-export const steamOffers = (slug) => enrichSteamOffers(readJson(`offers/steam/${slug}.json`), currentRates());
+export const steamOffers = (slug) => {
+  const enriched = enrichSteamOffers(readJson(`offers/steam/${slug}.json`), currentRates());
+  if (!enriched) return null;
+  const approved = new Map(offerCatalog()
+    .filter((offer) => offer.channel === 'steam' && offer.slug === slug)
+    .map((offer) => [offer.packageId, offer]));
+  return {
+    ...enriched,
+    offers: enriched.offers.map((offer) => {
+      const display = approved.get(offer.packageId);
+      if (!display) return offer; // validate rejects this in production.
+      return {
+        ...offer,
+        name: display.name,
+        kind: display.kind,
+        includesBaseGame: display.includesBaseGame,
+        note: display.note,
+      };
+    }),
+  };
+};
 export const sourceHealth = () => readJson('source-health.json', { updatedAt: null, sources: {} });
 export const history = (slug) => readJson(`history/${slug}.json`);
 export const meta = (slug) => readJson(`meta/${slug}.json`);

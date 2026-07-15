@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import {
   buildSteamOfferSnapshot,
   buildSteamPackageUrl,
@@ -9,6 +10,7 @@ import {
   sameSteamOfferObservations,
   sameSteamOfferPrices,
 } from '../lib/steam-offers.mjs';
+import { steamOffers } from '../../site/src/lib/data.mjs';
 
 const edition = {
   packageId: 123,
@@ -132,4 +134,17 @@ test('failed regions preserve old rows while explicit unavailability removes the
   const safe = preserveFailedSteamOfferRows([edition], current, previous, ['jp', 'us']);
   assert.equal(safe.get(123).jp.amount, 7000);
   assert.equal(safe.get(123).us, null);
+});
+
+test('offer display metadata joins at build time and never leaks into raw observations', () => {
+  const raw = JSON.parse(readFileSync(new URL('../../data/offers/steam/monster-hunter-rise.json', import.meta.url)));
+  assert.equal(raw.offers.some((offer) => 'columnLabel' in offer || 'note' in offer), false);
+  const built = steamOffers('monster-hunter-rise');
+  assert.deepEqual(built.offers.map((offer) => offer.name), [
+    'Monster Hunter Rise + Sunbreak',
+    'Monster Hunter Rise + Sunbreak Deluxe',
+    'Monster Hunter Rise - DLC Collection',
+    'Monster Hunter Rise: Sunbreak - DLC Collection',
+  ]);
+  assert.equal(built.offers.every((offer) => typeof offer.note === 'string' && offer.note.length > 0), true);
 });

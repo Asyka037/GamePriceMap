@@ -69,3 +69,34 @@ export function regionalPriceModel(snapshot, baselineCc = 'US') {
     savingsPct: hasRange ? Math.round((1 - cheapest.usd / mostExpensive.usd) * 100) : 0,
   };
 }
+
+/**
+ * Join reviewed supplemental products onto the base game's ranked region rows.
+ * The base snapshot remains the only source of row order, rank and vs-US
+ * semantics; supplemental products contribute price cells only.
+ */
+export function regionalComparisonModel(snapshot, offers = []) {
+  const baseModel = regionalPriceModel(snapshot);
+  const offerColumns = (offers ?? []).flatMap((offer) => {
+    const regions = (offer?.regions ?? []).filter((row) => row?.cc && row?.usd > 0);
+    if (regions.length === 0) return [];
+
+    // Supplemental products are independent price sets. In particular, their
+    // colour must be derived from that product's own US observation rather
+    // than from the base game's US price.
+    const model = regionalPriceModel({ regions });
+    return [{ ...offer, regions: model.rows, baseline: model.baseline }];
+  });
+  const pricesByRegion = offerColumns.map((offer) => new Map(
+    offer.regions.map((row) => [row.cc, row]),
+  ));
+
+  return {
+    ...baseModel,
+    offerColumns,
+    rows: baseModel.rows.map((row) => ({
+      ...row,
+      offerPrices: pricesByRegion.map((prices) => prices.get(row.cc) ?? null),
+    })),
+  };
+}

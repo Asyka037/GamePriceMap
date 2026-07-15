@@ -148,6 +148,14 @@ const cardData = (rg: any) => JSON.stringify({
       activeHide = null;
       hide?.();
     };
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    const revealRowFallback = (row: HTMLElement) => {
+      row.scrollIntoView({ behavior: reducedMotion.matches ? 'auto' : 'smooth', block: 'center' });
+      row.classList.remove('row-flash');
+      void row.offsetWidth;
+      row.classList.add('row-flash');
+    };
 
     for (const wrap of document.querySelectorAll<HTMLElement>('.pixel-map-wrap:not(.compact)')) {
       const svg = wrap.querySelector<SVGSVGElement>('.pixel-map-svg')!;
@@ -195,10 +203,18 @@ const cardData = (rg: any) => JSON.stringify({
         hide();
         const row = document.getElementById(g.dataset.target ?? '');
         if (!row) return;
-        row.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        row.classList.remove('row-flash');
-        void row.offsetWidth;
-        row.classList.add('row-flash');
+        // RegionalComparisonTable owns expansion-aware reveals. The request is
+        // cancelable so this map can retain a graceful fallback on pages where
+        // the enhanced table script is unavailable.
+        const comparison = row.closest('[data-regional-comparison]');
+        const handled = comparison
+          ? !comparison.dispatchEvent(new CustomEvent('regional:reveal-row', {
+              bubbles: true,
+              cancelable: true,
+              detail: { targetId: row.id, source: 'pixel-map' },
+            }))
+          : false;
+        if (!handled) revealRowFallback(row);
       };
 
       wrap.addEventListener('pointerleave', hide);

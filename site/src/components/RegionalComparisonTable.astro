@@ -1,0 +1,474 @@
+---
+import RegionLabel from './RegionLabel.astro';
+import RegionalPrice from './RegionalPrice.astro';
+import { regionalComparisonModel } from '../lib/regions.mjs';
+
+interface RegionRow {
+  cc: string;
+  currency: string;
+  amount: number;
+  list?: number | null;
+  discountPct?: number | null;
+  usd: number;
+}
+
+interface SupplementalOffer {
+  packageId?: number;
+  name: string;
+  note?: string;
+  kind?: 'edition' | 'add-on';
+  includesBaseGame?: boolean;
+  regions?: RegionRow[];
+}
+
+interface RegionalSource {
+  key: 'steam' | 'eshop';
+  label: 'Steam' | 'Nintendo eShop';
+  snapshot: { regions?: RegionRow[] };
+  offers?: SupplementalOffer[];
+}
+
+interface Props {
+  gameTitle: string;
+  source: RegionalSource;
+}
+
+const { gameTitle, source } = Astro.props;
+const comparison = regionalComparisonModel(source.snapshot, source.offers ?? []);
+const rows = comparison.rows;
+const offers = comparison.offerColumns;
+const heading = source.key === 'steam'
+  ? 'Steam Region Price Comparison'
+  : 'Nintendo eShop Region Price Comparison';
+const tableId = `regional-table-${source.key}`;
+const viewportId = `${tableId}-viewport`;
+const bodyId = `${tableId}-body`;
+const desktopMinWidth = 522 + offers.length * 190;
+const mobileMinWidth = 386 + offers.length * 142;
+const tableStyle = `--regional-table-min:${desktopMinWidth}px;--regional-table-min-mobile:${mobileMinWidth}px;`;
+---
+
+<section
+  class:list={['regional-comparison', offers.length > 0 && 'has-offers']}
+  data-regional-comparison
+  aria-labelledby={`${tableId}-title`}
+  style={tableStyle}
+>
+  <h3 class="regional-comparison-heading" id={`${tableId}-title`}>{heading}</h3>
+
+  <div class="regional-comparison-frame" data-regional-frame>
+    <div id={viewportId} class="regional-comparison-scroll" data-regional-scroll role="region" aria-label={`${gameTitle} ${source.label} regional price table`} tabindex="0">
+      <div class="regional-comparison-clip" data-regional-clip>
+        <table class="regional-comparison-table" id={tableId} data-regional-table>
+        <colgroup>
+          <col class="regional-col-rank" />
+          <col class="regional-col-region" />
+          <col class="regional-col-game" />
+          <col class="regional-col-delta" />
+          {offers.map(() => <col class="regional-col-offer" />)}
+        </colgroup>
+        <thead data-regional-original-head data-regional-toggle-head>
+          <tr>
+            <th class="regional-head-toggle-cell" scope="col">
+              <span class="regional-rank-fallback" aria-hidden="true">#</span>
+              <button
+                class="regional-head-toggle"
+                type="button"
+                data-regional-head-control
+                aria-controls={bodyId}
+                aria-expanded="true"
+                aria-label={`Show only the cheapest ${source.label} region`}
+                hidden
+              >
+                <span aria-hidden="true">#</span>
+              </button>
+            </th>
+            <th scope="col">Region</th>
+            <th scope="col">Game Price</th>
+            <th scope="col">vs US</th>
+            {offers.map((offer) => (
+              <th class="regional-offer-heading" scope="col" title={offer.name}>
+                <span class="regional-offer-label">{offer.name}</span>
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody id={bodyId} data-regional-body>
+          {rows.map((row: any) => (
+            <tr
+              id={`region-${source.key}-${row.cc}`}
+              data-regional-cheapest-row={row.rank === 1 ? 'true' : undefined}
+            >
+              <td class={row.rank === 1 ? 'rank-1' : 'mono'} style={row.rank === 1 ? '' : 'color:var(--text-3);'}>{row.rank}</td>
+              <td>
+                <span class="region-cell">
+                  <RegionLabel cc={row.cc} />
+                  {row.discountPct ? <span class="chip-off">−{row.discountPct}%</span> : null}
+                </span>
+              </td>
+              <td><RegionalPrice row={row} /></td>
+              <td><span class:list={['region-delta', `is-${row.direction}`]}>{row.deltaLabel}</span></td>
+              {offers.map((_offer, offerIndex) => {
+                const offerRow = row.offerPrices[offerIndex];
+                return (
+                  <td class="regional-offer-price-cell">
+                    {offerRow ? (
+                      <span class="regional-offer-price">
+                        <RegionalPrice row={offerRow} />
+                      </span>
+                    ) : <span class="regional-price-missing" aria-label="Not available in this region">—</span>}
+                  </td>
+                );
+              })}
+            </tr>
+          ))}
+        </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="regional-sticky-head" data-regional-sticky-head aria-hidden="true" hidden>
+    <div class="regional-sticky-track" data-regional-sticky-track>
+      <table class="regional-comparison-table is-sticky-copy" data-regional-sticky-table>
+        <colgroup>
+          <col class="regional-col-rank" />
+          <col class="regional-col-region" />
+          <col class="regional-col-game" />
+          <col class="regional-col-delta" />
+          {offers.map(() => <col class="regional-col-offer" />)}
+        </colgroup>
+        <thead data-regional-toggle-head>
+          <tr>
+            <th class="regional-head-toggle-cell" scope="col">
+              <button
+                class="regional-head-toggle"
+                type="button"
+                data-regional-head-control
+                aria-controls={bodyId}
+                aria-expanded="true"
+                aria-label={`Show only the cheapest ${source.label} region`}
+                tabindex="-1"
+                hidden
+              >
+                <span aria-hidden="true">#</span>
+              </button>
+            </th>
+            <th scope="col">Region</th>
+            <th scope="col">Game Price</th>
+            <th scope="col">vs US</th>
+            {offers.map((offer) => (
+              <th class="regional-offer-heading" scope="col" title={offer.name}>
+                <span class="regional-offer-label">{offer.name}</span>
+              </th>
+            ))}
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </div>
+</section>
+
+<script>
+  const comparisonSections = Array.from(document.querySelectorAll('[data-regional-comparison]'));
+  const comparisonStates = comparisonSections.map((section) => {
+    const frame = section.querySelector('[data-regional-frame]');
+    const table = section.querySelector('[data-regional-table]');
+    const clip = section.querySelector('[data-regional-clip]');
+    const scroll = section.querySelector('[data-regional-scroll]');
+    const originalHead = section.querySelector('[data-regional-original-head]');
+    const body = section.querySelector('[data-regional-body]');
+    const sticky = section.querySelector('[data-regional-sticky-head]');
+    const stickyTrack = section.querySelector('[data-regional-sticky-track]');
+    const stickyTable = section.querySelector('[data-regional-sticky-table]');
+    const toggleHeads = Array.from(section.querySelectorAll('[data-regional-toggle-head]'));
+    const controls = Array.from(section.querySelectorAll('[data-regional-head-control]'));
+    const rows = Array.from(table?.tBodies?.[0]?.rows ?? []);
+    const cheapestRow = rows.find((row) => row.matches('[data-regional-cheapest-row]')) ?? rows[0] ?? null;
+    const toggleable = rows.length > 0;
+    const state = {
+      section, frame, table, clip, scroll, originalHead, body, sticky, stickyTrack, stickyTable,
+      toggleHeads, controls, rows, cheapestRow, toggleable, expanded: true,
+      headHeight: 0, cheapestRowHeight: 0, fullHeight: 0, scrollChrome: 0,
+      expansionPending: false, pendingReveal: null,
+    };
+
+    section.classList.add('is-enhanced', 'is-expanded');
+    if (toggleable) controls.forEach((control) => { control.hidden = false; });
+    return state;
+  }).filter((state) => (
+    state.frame && state.table && state.clip && state.scroll && state.originalHead && state.body
+    && state.sticky && state.stickyTrack && state.stickyTable
+  ));
+
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const siteHeader = document.querySelector('.site-header');
+  let framePending = false;
+  let resizeFramePending = false;
+
+  function headerOffset() {
+    return Math.max(0, Math.ceil(siteHeader?.getBoundingClientRect().bottom ?? 0));
+  }
+
+  function recalculate(state) {
+    const visibleChrome = Math.max(0, state.scroll.offsetHeight - state.scroll.clientHeight);
+    state.scrollChrome = visibleChrome;
+    // Keep exact fractional heights: rounding up can reveal a thin strip of
+    // the second data row in the cheapest-region summary on HiDPI displays.
+    state.headHeight = state.originalHead.getBoundingClientRect().height;
+    state.cheapestRowHeight = state.cheapestRow?.getBoundingClientRect().height ?? 0;
+    state.fullHeight = Math.ceil(Math.max(
+      state.table.getBoundingClientRect().height,
+      state.scroll.scrollHeight,
+    ) + state.scrollChrome);
+    if (state.toggleable) {
+      const collapsedHeight = state.headHeight + state.cheapestRowHeight + state.scrollChrome;
+      state.scroll.style.maxHeight = `${state.expanded ? state.fullHeight : collapsedHeight}px`;
+    }
+    syncStickyColumns(state);
+    syncStickyOffset(state);
+  }
+
+  function syncStickyColumns(state) {
+    const tableWidth = state.table.getBoundingClientRect().width;
+    state.stickyTrack.style.width = `${tableWidth}px`;
+    state.stickyTable.style.width = `${tableWidth}px`;
+
+    const sourceCells = Array.from(state.originalHead.rows?.[0]?.cells ?? []);
+    const cloneCells = Array.from(state.stickyTable.tHead?.rows?.[0]?.cells ?? []);
+    const cloneCols = Array.from(state.stickyTable.querySelectorAll('col'));
+    sourceCells.forEach((cell, index) => {
+      const width = cell.getBoundingClientRect().width;
+      if (cloneCols[index]) cloneCols[index].style.width = `${width}px`;
+      if (cloneCells[index]) {
+        cloneCells[index].style.width = `${width}px`;
+        cloneCells[index].style.minWidth = `${width}px`;
+        cloneCells[index].style.maxWidth = `${width}px`;
+      }
+    });
+  }
+
+  function syncStickyOffset(state) {
+    state.stickyTrack.style.transform = `translate3d(${-state.scroll.scrollLeft}px,0,0)`;
+  }
+
+  function updateToggleState(state) {
+    state.section.classList.toggle('is-expanded', state.expanded);
+    state.section.classList.toggle('is-collapsed', !state.expanded);
+    state.rows.forEach((row) => {
+      const hiddenInSummary = !state.expanded && row !== state.cheapestRow;
+      row.toggleAttribute('inert', hiddenInSummary);
+      if (hiddenInSummary) row.setAttribute('aria-hidden', 'true');
+      else row.removeAttribute('aria-hidden');
+    });
+
+    const platform = state.section.querySelector('.regional-comparison-heading')?.textContent
+      ?.replace(/\s+Region Price Comparison$/, '') ?? 'regional price';
+    state.controls.forEach((control) => {
+      control.setAttribute('aria-expanded', String(state.expanded));
+      control.setAttribute(
+        'aria-label',
+        state.expanded
+          ? `Show only the cheapest ${platform} region`
+          : `Show all ${platform} regional price rows`,
+      );
+    });
+  }
+
+  function revealRow(state, row, source = 'unknown') {
+    row.scrollIntoView({ behavior: reducedMotion.matches ? 'auto' : 'smooth', block: 'center' });
+    row.classList.remove('row-flash');
+    void row.offsetWidth;
+    row.classList.add('row-flash');
+    state.section.dispatchEvent(new CustomEvent('regional:row-revealed', {
+      bubbles: true,
+      detail: { rowId: row.id, source },
+    }));
+  }
+
+  function afterStableLayout(callback) {
+    requestAnimationFrame(() => requestAnimationFrame(callback));
+  }
+
+  function finishPendingReveal(state) {
+    const pending = state.pendingReveal;
+    state.pendingReveal = null;
+    if (!pending || !state.expanded) return;
+    revealRow(state, pending.row, pending.source);
+  }
+
+  function waitForExpansion(state) {
+    if (state.expansionPending) return;
+    state.expansionPending = true;
+
+    let settled = false;
+    let fallbackTimer;
+    const settle = () => {
+      if (settled) return;
+      settled = true;
+      state.scroll.removeEventListener('transitionend', onTransitionEnd);
+      if (fallbackTimer) clearTimeout(fallbackTimer);
+      afterStableLayout(() => {
+        state.expansionPending = false;
+        finishPendingReveal(state);
+      });
+    };
+    const onTransitionEnd = (event) => {
+      if (event.target === state.scroll && event.propertyName === 'max-height') settle();
+    };
+
+    if (reducedMotion.matches) {
+      afterStableLayout(settle);
+      return;
+    }
+    state.scroll.addEventListener('transitionend', onTransitionEnd);
+    // CSS currently uses a 260ms height transition. Keep a defensive fallback
+    // for background tabs and environments that omit transitionend.
+    fallbackTimer = setTimeout(settle, 420);
+  }
+
+  function requestRowReveal(state, row, source) {
+    if (!state.rows.includes(row)) return;
+    if (!state.expanded && row === state.cheapestRow) {
+      revealRow(state, row, source);
+      return;
+    }
+    if (state.expanded && !state.expansionPending) {
+      revealRow(state, row, source);
+      return;
+    }
+
+    // Keep only the latest request while the table grows. Crucially, do not
+    // scroll a row while it is still clipped inside the collapsed viewport.
+    state.pendingReveal = { row, source };
+    if (!state.expanded) setExpanded(state, true);
+    waitForExpansion(state);
+  }
+
+  function setExpanded(state, expanded, returnToHeader = false) {
+    if (!state.toggleable || state.expanded === expanded) return;
+    state.scroll.style.maxHeight = `${state.scroll.getBoundingClientRect().height}px`;
+    state.expanded = expanded;
+    updateToggleState(state);
+    // Freeze the current height before assigning the destination. This keeps
+    // both directions smooth without hiding the server-rendered table rows.
+    void state.scroll.offsetHeight;
+    if (!expanded) {
+      state.pendingReveal = null;
+      state.sticky.hidden = true;
+      state.sticky.classList.remove('is-visible');
+    }
+    recalculate(state);
+    scheduleViewportUpdate();
+    if (returnToHeader) {
+      const top = window.scrollY + state.frame.getBoundingClientRect().top - headerOffset() - 12;
+      window.scrollTo({ top, behavior: reducedMotion.matches ? 'auto' : 'smooth' });
+    }
+  }
+
+  function updateStickyHeads() {
+    framePending = false;
+    const offset = headerOffset();
+    let active = null;
+    for (const state of comparisonStates) {
+      if (!state.expanded) continue;
+      const headRect = state.originalHead.getBoundingClientRect();
+      const frameRect = state.frame.getBoundingClientRect();
+      const rowHeight = state.rows[0]?.getBoundingClientRect().height ?? 44;
+      const hasRoom = frameRect.bottom > offset + headRect.height + rowHeight;
+      if (headRect.bottom <= offset && hasRoom) active = state;
+    }
+
+    for (const state of comparisonStates) {
+      const show = state === active;
+      state.sticky.hidden = !show;
+      state.sticky.classList.toggle('is-visible', show);
+      if (!show) continue;
+      const scrollRect = state.scroll.getBoundingClientRect();
+      state.sticky.style.top = `${offset}px`;
+      state.sticky.style.left = `${scrollRect.left}px`;
+      state.sticky.style.width = `${scrollRect.width}px`;
+      syncStickyOffset(state);
+    }
+  }
+
+  function scheduleViewportUpdate() {
+    if (framePending) return;
+    framePending = true;
+    requestAnimationFrame(() => {
+      if (framePending) updateStickyHeads();
+    });
+    // Background tabs can heavily throttle animation frames; the timeout keeps
+    // visibility correct when the tab becomes active mid-scroll.
+    setTimeout(() => {
+      if (framePending) updateStickyHeads();
+    }, 60);
+  }
+
+  function scheduleRecalculation() {
+    if (resizeFramePending) return;
+    resizeFramePending = true;
+    const run = () => {
+      if (!resizeFramePending) return;
+      resizeFramePending = false;
+      comparisonStates.forEach(recalculate);
+      scheduleViewportUpdate();
+    };
+    requestAnimationFrame(run);
+    setTimeout(run, 80);
+  }
+
+  for (const state of comparisonStates) {
+    recalculate(state);
+    updateToggleState(state);
+    state.toggleHeads.forEach((head) => {
+      let pointerOrigin = null;
+      head.addEventListener('pointerdown', (event) => {
+        pointerOrigin = {
+          x: event.clientX,
+          y: event.clientY,
+          scrollLeft: state.scroll.scrollLeft,
+        };
+      }, { passive: true });
+      head.addEventListener('click', (event) => {
+        const dragged = event.detail > 0 && pointerOrigin && (
+          Math.hypot(event.clientX - pointerOrigin.x, event.clientY - pointerOrigin.y) > 6
+          || Math.abs(state.scroll.scrollLeft - pointerOrigin.scrollLeft) > 4
+        );
+        pointerOrigin = null;
+        if (dragged) return;
+        const isStickyHead = !head.hasAttribute('data-regional-original-head');
+        setExpanded(state, !state.expanded, isStickyHead);
+      });
+    });
+    state.scroll.addEventListener('scroll', () => {
+      syncStickyOffset(state);
+      scheduleViewportUpdate();
+    }, { passive: true });
+    state.scroll.addEventListener('transitionend', scheduleViewportUpdate);
+    // Event contract: requesters dispatch a bubbling, cancelable
+    // `regional:reveal-row` on this section with detail.targetId. Preventing the
+    // default means this table accepted ownership; after expansion, layout
+    // settlement, scrolling and flashing, it emits `regional:row-revealed`.
+    state.section.addEventListener('regional:reveal-row', (event) => {
+      const row = document.getElementById(event.detail?.targetId ?? '');
+      if (!row || !state.rows.includes(row)) return;
+      event.preventDefault();
+      requestRowReveal(state, row, event.detail?.source ?? 'unknown');
+    });
+  }
+
+  document.fonts?.ready?.then(scheduleRecalculation);
+  window.addEventListener('scroll', scheduleViewportUpdate, { passive: true });
+  window.addEventListener('resize', scheduleRecalculation, { passive: true });
+  window.addEventListener('orientationchange', scheduleRecalculation, { passive: true });
+  if ('ResizeObserver' in window) {
+    const resizeObserver = new ResizeObserver(scheduleRecalculation);
+    comparisonStates.forEach((state) => {
+      resizeObserver.observe(state.table);
+      resizeObserver.observe(state.frame);
+    });
+    if (siteHeader) resizeObserver.observe(siteHeader);
+  }
+  scheduleViewportUpdate();
+</script>
