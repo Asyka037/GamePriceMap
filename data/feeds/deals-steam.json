@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T09:27:52.416Z",
+  "updatedAt": "2026-07-15T09:30:53.759Z",
   "items": [
     {
       "title": "Palworld",
@@ -14,18 +14,6 @@
       "slugIfTracked": "palworld"
     },
     {
-      "title": "Grand Theft Auto V Enhanced",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
-      "currency": "USD",
-      "price": 19.79,
-      "list": 44.99,
-      "pct": 56,
-      "endsAt": "2026-07-23T17:00:00.000Z",
-      "steamAppId": 3240220,
-      "slugIfTracked": null
-    },
-    {
       "title": "DELTARUNE",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/1671210/",
@@ -38,6 +26,30 @@
       "slugIfTracked": "deltarune"
     },
     {
+      "title": "Grand Theft Auto V Enhanced",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "currency": "USD",
+      "price": 14.99,
+      "list": 29.99,
+      "pct": 50,
+      "endsAt": "2026-07-28T17:00:00.000Z",
+      "steamAppId": 3240220,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Grand Theft Auto V Enhanced",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "currency": "USD",
+      "price": 14.99,
+      "list": 29.99,
+      "pct": 50,
+      "endsAt": "2026-07-28T17:00:00.000Z",
+      "steamAppId": 3240220,
+      "slugIfTracked": null
+    },
+    {
       "title": "Angels Fall First",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/367270/",
@@ -47,6 +59,18 @@
       "pct": 10,
       "endsAt": "2026-07-21T17:00:43.000Z",
       "steamAppId": 367270,
+      "slugIfTracked": null
+    },
+    {
+      "title": "The Outlast Trials",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1304930/",
+      "currency": "USD",
+      "price": 11.99,
+      "list": 39.99,
+      "pct": 70,
+      "endsAt": "2026-07-21T17:00:00.000Z",
+      "steamAppId": 1304930,
       "slugIfTracked": null
     },
     {
@@ -86,40 +110,16 @@
       "slugIfTracked": "no-mans-sky"
     },
     {
-      "title": "Moonlight Peaks",
+      "title": "The Incident at Galley House",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2209900/",
+      "url": "https://store.steampowered.com/app/3641000/",
       "currency": "USD",
-      "price": 29.74,
-      "list": 34.99,
-      "pct": 15,
-      "endsAt": "2026-07-14T20:00:00.000Z",
-      "steamAppId": 2209900,
-      "slugIfTracked": "moonlight-peaks"
-    },
-    {
-      "title": "Solarpunk™",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1805110/",
-      "currency": "USD",
-      "price": 18.39,
-      "list": 22.99,
-      "pct": 20,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 1805110,
+      "price": 17.99,
+      "list": 19.99,
+      "pct": 10,
+      "endsAt": "2026-07-21T17:00:02.000Z",
+      "steamAppId": 3641000,
       "slugIfTracked": null
-    },
-    {
-      "title": "Satisfactory",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/526870/",
-      "currency": "USD",
-      "price": 27.99,
-      "list": 39.99,
-      "pct": 30,
-      "endsAt": "2026-07-26T17:00:00.000Z",
-      "steamAppId": 526870,
-      "slugIfTracked": "satisfactory"
     }
   ]
 }
