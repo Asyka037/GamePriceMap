@@ -20,7 +20,7 @@ const { game, meta } = bundle;
 
 const storeRows = [
   { store: 'Steam', dot: '#66c0f4', platform: 'PC', row: usRow(bundle.steam), atl: atlFor(bundle.history, 'steam'), url: game.steamAppId ? `https://store.steampowered.com/app/${game.steamAppId}/` : null },
-  { store: 'Nintendo eShop', dot: '#e60012', platform: 'Switch', row: usRow(bundle.eshop), atl: atlFor(bundle.history, 'eshop'), url: 'https://www.nintendo.com/us/store/' },
+  { store: 'Nintendo eShop', dot: '#e60012', platform: 'Switch', row: usRow(bundle.eshop), atl: atlFor(bundle.history, 'eshop'), url: meta?.storeUrl ?? (game.nintendoUsSlug ? `https://www.nintendo.com/us/store/products/${game.nintendoUsSlug}/` : 'https://www.nintendo.com/us/store/') },
   { store: 'Xbox Store', dot: 'var(--teal)', platform: 'Xbox', row: usRow(bundle.xbox), atl: atlFor(bundle.history, 'xbox'), url: game.xboxBigId ? `https://www.microsoft.com/store/productId/${game.xboxBigId}` : null },
 ].filter((r) => r.row);
 const cheapest = storeRows.length ? Math.min(...storeRows.map((r) => r.row!.usd)) : null;
@@ -54,7 +54,7 @@ const jsonLd = {
   <div class="wrap">
     <GameTabs slug={slug!} current="overview" />
 
-    <section style="padding: 24px 0 8px;">
+    <section class="game-overview-content" style="padding: 24px 0 8px;">
       <div class="price-table-wrap" role="region" aria-label="Store price comparison" tabindex="0">
         <table class="price-table">
         <thead>

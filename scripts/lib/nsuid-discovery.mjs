@@ -84,7 +84,10 @@ function positiveEuropePrice(doc) {
 function europeIsPurchasable(doc, now) {
   if (doc.type != null && String(doc.type).toUpperCase() !== 'GAME') return false;
   if (booleanValue(doc.eshop_removed_b) === true) return false;
-  if (booleanValue(doc.digital_version_b) === false) return false;
+  // Nintendo first-party base games can be marked digital_version_b=false in
+  // Solr even while the official price API sells the exact 7001 title. The
+  // discovery command therefore verifies the selected ID against that API;
+  // this index flag alone is not authoritative evidence of physical-only.
   return releasedBy(doc, now) && positiveEuropePrice(doc);
 }
 
@@ -103,7 +106,7 @@ function japanIsPurchasable(item) {
 }
 
 function japanTitleMatches(candidate, wanted) {
-  const main = String(candidate ?? '').split('（')[0];
+  const main = String(candidate ?? '').split(/[（(]/)[0];
   return titleMatches(main, wanted) || titleMatches(candidate, wanted);
 }
 

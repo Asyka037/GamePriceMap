@@ -8,6 +8,10 @@
 export function normTitle(s) {
   return String(s ?? '')
     .toLowerCase()
+    // NFKC expands symbols such as ™ into the letters "TM". Remove legal
+    // marks first so official Nintendo titles still match catalog display
+    // titles that intentionally omit trademark boilerplate.
+    .replace(/[™®©℠]/gu, '')
     .normalize('NFKC')
     .replace(/[^\p{Letter}\p{Number}]+/gu, '');
 }

@@ -15,6 +15,7 @@ dist/
 /docs/plans/
 /docs/internal/
 /private/
+/outputs/
 
 # Office temporary lock files
 ~$*.xlsx

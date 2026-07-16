@@ -1,6 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { multiStepChartModel, stepChartModel } from '../../site/src/lib/chart.mjs';
+import { firstObservedDate, multiStepChartModel, stepChartModel } from '../../site/src/lib/chart.mjs';
+
+test('tracking start derives from each game\'s earliest valid observed event', () => {
+  assert.equal(firstObservedDate([
+    { d: '2026-07-16', ch: 'steam' },
+    { d: 'not-a-date', ch: 'eshop' },
+    { d: '2026-07-15', ch: 'eshop' },
+  ]), '2026-07-15');
+  assert.equal(firstObservedDate([]), null);
+  assert.equal(firstObservedDate(undefined), null);
+});
 
 const events = [
   { d: '2026-07-08', ch: 'steam', cc: 'US', usd: 20.99, pct: 30 },

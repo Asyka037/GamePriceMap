@@ -4,6 +4,7 @@ import NoteBox from '../components/NoteBox.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { formatUtcStamp, freshnessState } from '../lib/freshness.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', '..');
 const health = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'health.json'), 'utf8'));
@@ -30,12 +31,14 @@ const cadence: Record<string, number> = {
 };
 const now = Date.now();
 const rows = Object.entries(health.sources).map(([key, stamp]) => {
-  const ageH = stamp ? (now - Date.parse(stamp as string)) / 3600e3 : Infinity;
   const budget = cadence[key] ?? 26;
+  const rawStamp = typeof stamp === 'string' ? stamp : null;
   return {
     label: labels[key] ?? key,
-    stamp: stamp ? new Date(stamp as string).toUTCString().slice(0, 22) : 'never',
-    state: ageH <= budget ? 'fresh' : ageH <= budget * 2 ? 'stale' : 'down',
+    rawStamp,
+    stamp: formatUtcStamp(rawStamp),
+    budget,
+    state: freshnessState(rawStamp, budget, now),
   };
 });
 ---
@@ -46,21 +49,21 @@ const rows = Object.entries(health.sources).map(([key, stamp]) => {
   <div class="page-head wrap">
     <div class="breadcrumb"><a href="/">Home</a><span>/</span>Status</div>
     <h1>Data status</h1>
-    <p>Tracking {health.games} games. Snapshot generated at build time; freshness states are relative to each source's update cadence (daily or weekly).</p>
+    <p>Tracking {health.games} games. Last-success timestamps use UTC; freshness is recalculated in your browser against each source's daily or weekly cadence.</p>
   </div>
 
   <div class="wrap" style="padding-bottom: 24px;">
     <table class="region-full" style="max-width: 720px;">
-      <thead><tr><th>Source</th><th>Last success</th><th>State</th></tr></thead>
+      <thead><tr><th>Source</th><th>Last success (UTC)</th><th>State</th></tr></thead>
       <tbody>
         {rows.map((r) => (
-          <tr>
+          <tr data-status-row data-last-success={r.rawStamp ?? ''} data-budget-hours={r.budget}>
             <td style="font-weight:800;">{r.label}</td>
-            <td class="mono">{r.stamp}</td>
+            <td class="mono">
+              {r.rawStamp ? <time datetime={r.rawStamp}>{r.stamp}</time> : r.stamp}
+            </td>
             <td>
-              {r.state === 'fresh' && <span class="b-chip g">FRESH</span>}
-              {r.state === 'stale' && <span class="b-chip y">STALE</span>}
-              {r.state === 'down' && <span class="b-chip" style="background: var(--red-bg);">DOWN</span>}
+              <span class="b-chip status-state" data-status-state={r.state}>{r.state.toUpperCase()}</span>
             </td>
           </tr>
         ))}
@@ -74,4 +77,36 @@ const rows = Object.entries(health.sources).map(([key, stamp]) => {
       source here means its upstream is unreachable — not that numbers are wrong.
     </NoteBox>
   </div>
+
+  <script>
+    import { freshnessState } from '../lib/freshness.mjs';
+
+    const refreshStatusStates = () => {
+      const now = Date.now();
+      for (const row of document.querySelectorAll<HTMLElement>('[data-status-row]')) {
+        const state = freshnessState(
+          row.dataset.lastSuccess || null,
+          Number(row.dataset.budgetHours),
+          now,
+        );
+        const badge = row.querySelector<HTMLElement>('[data-status-state]');
+        if (!badge) continue;
+        badge.dataset.statusState = state;
+        badge.textContent = state.toUpperCase();
+      }
+    };
+
+    refreshStatusStates();
+    window.setInterval(refreshStatusStates, 60_000);
+    window.addEventListener('pageshow', refreshStatusStates);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') refreshStatusStates();
+    });
+  </script>
 </Layout>
+
+<style>
+  .status-state[data-status-state='fresh'] { background: var(--green-bg); }
+  .status-state[data-status-state='stale'] { background: var(--gold-bg); }
+  .status-state[data-status-state='down'] { background: var(--red-bg); }
+</style>

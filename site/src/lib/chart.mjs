@@ -28,6 +28,21 @@ function parseDay(value) {
   return { label, time };
 }
 
+/**
+ * Return the first valid self-observed event date for a game.
+ *
+ * History files are event streams rather than daily samples and are not
+ * required to be stored oldest-first, so callers must not infer the tracking
+ * start from array position or from a site-wide launch date.
+ */
+export function firstObservedDate(events) {
+  const days = (events ?? [])
+    .map((event) => parseDay(event?.d))
+    .filter(Boolean)
+    .sort((a, b) => a.time - b.time);
+  return days[0]?.label ?? null;
+}
+
 function fmtShort(day) {
   return day.slice(5).replace('-', '/'); // '2026-07-08' -> '07/08'
 }

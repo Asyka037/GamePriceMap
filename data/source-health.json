@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T09:30:52.418Z",
+  "updatedAt": "2026-07-16T07:51:38.418Z",
   "sources": {
     "steam-regional": {
       "lastAttemptAt": "2026-07-15T09:30:17.675Z",
@@ -8,10 +8,10 @@
       "note": "changed 0, unchanged 91, skipped 0, failed region requests 0, expected 91"
     },
     "eshop-regional": {
-      "lastAttemptAt": "2026-07-15T09:30:52.418Z",
-      "lastSuccessAt": "2026-07-15T09:30:52.418Z",
+      "lastAttemptAt": "2026-07-16T07:51:38.418Z",
+      "lastSuccessAt": "2026-07-16T07:51:38.418Z",
       "consecutiveFailures": 0,
-      "note": "changed 0, unchanged 52, skipped 0, failed region requests 0, expected 52"
+      "note": "changed 6, unchanged 86, skipped 0, failed region requests 0, expected 92"
     },
     "xbox-us": {
       "lastAttemptAt": "2026-07-13T12:07:55.170Z",
@@ -24,6 +24,12 @@
       "lastSuccessAt": "2026-07-15T06:02:09.176Z",
       "consecutiveFailures": 0,
       "note": "changed 0, unchanged 9, files written 0, failed requests 0, expected 9"
+    },
+    "meta": {
+      "lastAttemptAt": "2026-07-16T07:47:50.066Z",
+      "lastSuccessAt": "2026-07-16T07:47:50.066Z",
+      "consecutiveFailures": 0,
+      "note": "changed 91, unchanged 40, failed games 0, expected 131"
     }
   }
 }

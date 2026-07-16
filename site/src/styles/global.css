@@ -1,5 +1,5 @@
 /* ============================================================
-   DealDex demo — design tokens
+   GamePriceMap — design tokens
    Style: candy pixel arcade ("World 1-1")
    Pixel font for display only; body stays readable sans.
    ============================================================ */
@@ -583,7 +583,8 @@ img { display: block; max-width: 100%; }
 .tab-panel.on { display: block; }
 
 /* price table */
-.price-table-wrap { width: 100%; padding: 0 6px 8px 0; overflow-x: auto; }
+.game-overview-content { min-width: 0; }
+.price-table-wrap { width: 100%; max-width: 100%; min-width: 0; padding: 0 6px 8px 0; overflow-x: auto; }
 .price-table-wrap:focus-visible { outline-offset: 3px; }
 .price-table {
   width: 100%; border-collapse: separate; border-spacing: 0;
@@ -621,8 +622,9 @@ img { display: block; max-width: 100%; }
 .to-store svg { width: 13px; height: 13px; stroke: currentColor; stroke-width: 2.5; }
 
 /* two-col detail widgets */
-.detail-cols { display: grid; grid-template-columns: 1fr 340px; gap: 22px; margin-top: 24px; }
+.detail-cols { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 22px; min-width: 0; margin-top: 24px; }
 .panel {
+  min-width: 0;
   background: var(--surface); border: 3px solid var(--ink);
   border-radius: var(--radius-lg); padding: 18px;
   box-shadow: var(--shadow);
@@ -631,14 +633,14 @@ img { display: block; max-width: 100%; }
 .panel h3 svg { width: 17px; height: 17px; stroke: var(--red); stroke-width: 2.5; }
 .panel h3 .more { margin-left: auto; font-size: 13px; color: var(--red); font-weight: 800; }
 .panel h3 .more:hover { text-decoration: underline; text-decoration-thickness: 2px; }
-.side-stack { display: flex; flex-direction: column; gap: 18px; }
+.side-stack { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
 .kv { display: flex; justify-content: space-between; padding: 7px 0; font-size: 13.5px; font-weight: 600; border-bottom: 2px dashed #E5DDC8; }
 .kv:last-child { border-bottom: none; }
 .kv .k { color: var(--text-2); }
 .kv .v { font-weight: 800; color: var(--ink); }
 .kv .v.mono { font-family: var(--font-mono); font-weight: 700; }
 
-.region-mini-wrap { width: 100%; max-width: 100%; overflow-x: auto; }
+.region-mini-wrap { width: 100%; max-width: 100%; min-width: 0; overflow-x: auto; }
 .region-mini-wrap:focus-visible, .region-table-wrap:focus-visible { outline-offset: 2px; }
 .region-mini { width: 100%; min-width: 430px; border-collapse: collapse; }
 .region-mini td { padding: 7.5px 4px; font-size: 13.5px; font-weight: 700; border-bottom: 2px dashed #E5DDC8; }
@@ -986,7 +988,7 @@ img { display: block; max-width: 100%; }
   .filters { position: static; flex-direction: row; flex-wrap: wrap; }
   .game-hero { grid-template-columns: 1fr; }
   .game-hero .cover-lg { aspect-ratio: 460/215; }
-  .detail-cols { grid-template-columns: 1fr; }
+  .detail-cols { grid-template-columns: minmax(0, 1fr); }
   .main-nav { display: none; }
 }
 @media (max-width: 1000px) {

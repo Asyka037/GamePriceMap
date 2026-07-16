@@ -127,6 +127,52 @@ test('regional listing membership stays platform-specific but display facts stay
   );
 });
 
+test('Nintendo regional listing puts Switch exclusives first and preserves savings order within each group', () => {
+  const listingBundle = ({ slug, title, platforms, savingsMax }) => bundle({
+    slug,
+    game: {
+      title,
+      platforms,
+      steamAppId: platforms.includes('pc') ? 123 : null,
+      xboxBigId: platforms.includes('xbox') ? 'xbox-id' : null,
+    },
+    steam: platforms.includes('pc')
+      ? { regions: [{ cc: 'US', usd: 20 }, { cc: 'CH', usd: 40 }] }
+      : null,
+    eshop: { regions: [{ cc: 'US', usd: 100 - savingsMax }, { cc: 'CH', usd: 100 }] },
+  });
+
+  const exclusiveLowerSaving = listingBundle({
+    slug: 'exclusive-lower', title: 'Exclusive Lower', platforms: ['switch'], savingsMax: 20,
+  });
+  const exclusiveHigherSaving = listingBundle({
+    slug: 'exclusive-higher', title: 'Exclusive Higher', platforms: ['switch'], savingsMax: 30,
+  });
+  const switchTwoExclusive = listingBundle({
+    slug: 'switch-two-exclusive', title: 'Switch 2 Exclusive', platforms: ['switch-2'], savingsMax: 10,
+  });
+  const nintendoCrossGenerationExclusive = listingBundle({
+    slug: 'nintendo-cross-generation', title: 'Nintendo Cross Generation', platforms: ['switch', 'switch-2'], savingsMax: 5,
+  });
+  const multiHigherSaving = listingBundle({
+    slug: 'multi-higher', title: 'Multi Higher', platforms: ['pc', 'switch'], savingsMax: 90,
+  });
+  const multiLowerSaving = listingBundle({
+    slug: 'multi-lower', title: 'Multi Lower', platforms: ['switch', 'xbox'], savingsMax: 70,
+  });
+
+  assert.deepEqual(
+    regionalListingCards([
+      multiLowerSaving, exclusiveLowerSaving, multiHigherSaving, exclusiveHigherSaving,
+      switchTwoExclusive, nintendoCrossGenerationExclusive,
+    ], 'eshop').map((card) => card.slug),
+    [
+      'exclusive-higher', 'exclusive-lower', 'switch-two-exclusive',
+      'nintendo-cross-generation', 'multi-higher', 'multi-lower',
+    ],
+  );
+});
+
 test('homepage popular rows keep platform membership but use the shared display source', () => {
   const lower = bundle({ slug: 'lower', game: { title: 'Lower' }, meta: { headerImage: '/lower.jpg', reviewCount: 10 } });
   const higher = bundle({ slug: 'higher', game: { title: 'Higher' }, meta: { headerImage: '/higher.jpg', reviewCount: 20 } });

@@ -1,6 +1,6 @@
 {
   "slug": "moonlight-peaks",
-  "lastPriceChangeAt": "2026-07-14",
+  "lastPriceChangeAt": "2026-07-16",
   "regions": [
     {
       "cc": "AR",
@@ -77,10 +77,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 4581,
-      "list": 5390,
-      "discountPct": 15,
-      "saleEndsAt": "2026-07-15T14:59:59Z"
+      "amount": 5390,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "MX",

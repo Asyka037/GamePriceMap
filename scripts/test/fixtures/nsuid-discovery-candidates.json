@@ -24,6 +24,18 @@
       "price_regular_f": 19.99,
       "price_lowest_f": 9.99
     },
+    "firstPartyIndexFalse": {
+      "type": "GAME",
+      "title": "Super Mario Bros. Wonder",
+      "nsuid_txt": ["70010000068689"],
+      "playable_on_txt": ["HAC"],
+      "system_names_txt": ["Nintendo Switch"],
+      "digital_version_b": false,
+      "eshop_removed_b": false,
+      "date_from": "2023-10-20T00:00:00Z",
+      "price_regular_f": 49.99,
+      "price_lowest_f": 49.99
+    },
     "zeroPrice": {
       "type": "GAME",
       "title": "Example Game",

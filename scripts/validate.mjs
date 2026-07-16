@@ -53,6 +53,7 @@ const steamAppOwners = new Map(catalog.games
 const slugs = new Set();
 const appIds = new Set();
 const xboxIds = new Set();
+const nintendoProductSlugs = new Set();
 for (const g of catalog.games) {
   if (!/^[a-z0-9-]+$/.test(g.slug)) fail(`catalog: bad slug "${g.slug}"`);
   if (slugs.has(g.slug)) fail(`catalog: duplicate slug ${g.slug}`);
@@ -65,9 +66,14 @@ for (const g of catalog.games) {
   if (g.primaryRegionalChannel != null && !['steam', 'eshop'].includes(g.primaryRegionalChannel)) fail(`catalog ${g.slug}: bad primaryRegionalChannel ${g.primaryRegionalChannel}`);
   if (g.primaryRegionalChannel === 'steam' && !Number.isInteger(g.steamAppId)) fail(`catalog ${g.slug}: primaryRegionalChannel steam requires steamAppId`);
   if (g.primaryRegionalChannel === 'eshop' && !(g.nsuids && Object.values(g.nsuids).some(Boolean))) fail(`catalog ${g.slug}: primaryRegionalChannel eshop requires an NSUID`);
+  if (g.nintendoUsSlug != null && !/^[a-z0-9-]+$/.test(g.nintendoUsSlug)) fail(`catalog ${g.slug}: bad nintendoUsSlug`);
+  if (g.nintendoUsSlug && !g.nsuids?.americas) fail(`catalog ${g.slug}: nintendoUsSlug requires an Americas NSUID`);
+  if (!Number.isInteger(g.steamAppId) && g.nsuids?.americas && !g.nintendoUsSlug) fail(`catalog ${g.slug}: Nintendo-only game requires nintendoUsSlug`);
+  if (g.nintendoUsSlug && nintendoProductSlugs.has(g.nintendoUsSlug)) fail(`catalog: duplicate nintendoUsSlug ${g.nintendoUsSlug}`);
   slugs.add(g.slug);
   appIds.add(g.steamAppId);
   if (g.xboxBigId) xboxIds.add(g.xboxBigId);
+  if (g.nintendoUsSlug) nintendoProductSlugs.add(g.nintendoUsSlug);
 }
 
 // --- supplemental offer catalog (physically separate from base snapshots) ---
@@ -183,6 +189,9 @@ for (const g of catalog.games) {
   }
   if (g.xboxBigId && !fs.existsSync(path.join(ROOT, `data/snapshots/xbox/${g.slug}.json`))) {
     fail(`missing required snapshot data/snapshots/xbox/${g.slug}.json (game has xboxBigId)`);
+  }
+  if (!fs.existsSync(path.join(ROOT, `data/meta/${g.slug}.json`))) {
+    fail(`missing required meta data/meta/${g.slug}.json`);
   }
   for (const [group, nsuid] of Object.entries(g.nsuids ?? {})) {
     if (nsuid === null) continue;
@@ -313,6 +322,12 @@ if (fs.existsSync(metaDir)) {
     const m = readJson(`data/meta/${file}`);
     if (!slugs.has(m.slug)) fail(`meta/${file}: slug not in catalog`);
     if (m.reviewPercent !== null && !(m.reviewPercent >= 0 && m.reviewPercent <= 100)) fail(`meta/${file}: reviewPercent out of range`);
+    if (!(typeof m.headerImage === 'string' && /^https:\/\//.test(m.headerImage))) fail(`meta/${file}: missing absolute headerImage`);
+    const game = catalogBySlug.get(m.slug);
+    if (!Number.isInteger(game?.steamAppId)) {
+      if (m.metaSource !== 'nintendo-us') fail(`meta/${file}: Nintendo-only game requires nintendo-us metaSource`);
+      if (m.storeUrl !== `https://www.nintendo.com/us/store/products/${game?.nintendoUsSlug}/`) fail(`meta/${file}: Nintendo storeUrl does not match reviewed catalog URL`);
+    }
   }
 }
 
@@ -328,7 +343,7 @@ for (const [name, e] of Object.entries(sourceHealth.sources ?? {})) {
   if (!(Number.isInteger(e.consecutiveFailures) && e.consecutiveFailures >= 0)) fail(`source-health ${name}: bad consecutiveFailures`);
   if (typeof e.note !== 'string') fail(`source-health ${name}: note must be a string`);
 }
-for (const required of ['steam-regional', 'eshop-regional', ...(offerCatalog.offers?.length ? ['steam-offers'] : []), ...(xboxIds.size ? ['xbox-us'] : [])]) {
+for (const required of ['steam-regional', 'eshop-regional', 'meta', ...(offerCatalog.offers?.length ? ['steam-offers'] : []), ...(xboxIds.size ? ['xbox-us'] : [])]) {
   if (!sourceHealth.sources?.[required]) fail(`source-health: missing required source ${required}`);
 }
 if (offerCatalog.offers?.length && !sourceHealth.sources?.['steam-offers']?.lastSuccessAt) {
@@ -366,7 +381,7 @@ const health = {
     'deals-stores': fs.existsSync(path.join(ROOT, 'data/feeds/deals-stores.json')) ? readJson('data/feeds/deals-stores.json').updatedAt : null,
     'free-games': fs.existsSync(freePath) ? readJson('data/feeds/free-games.json').updatedAt : null,
     calendar: fs.existsSync(calPath) ? readJson('data/feeds/calendar.json').updatedAt : null,
-    meta: newestStamp('data/meta'),
+    meta: sourceHealth.sources?.meta?.lastSuccessAt ?? newestStamp('data/meta'),
   },
 };
 fs.writeFileSync(path.join(ROOT, 'data/health.json'), JSON.stringify(health, null, 2) + '\n');

@@ -1,6 +1,6 @@
 {
   "slug": "final-fantasy-viii-remastered",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-07-16",
   "regions": [
     {
       "cc": "AR",
@@ -77,10 +77,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 1018,
-      "list": 2547,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-15T14:59:59Z"
+      "amount": 2547,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "MX",

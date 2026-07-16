@@ -5,7 +5,7 @@ import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
 import { catalog, gameBundle, sourceHealth } from '../../../lib/data.mjs';
 import { fmtUsd } from '../../../lib/derive.mjs';
-import { multiStepChartModel } from '../../../lib/chart.mjs';
+import { firstObservedDate, multiStepChartModel } from '../../../lib/chart.mjs';
 
 export function getStaticPaths() {
   return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
@@ -22,11 +22,11 @@ const seedLabels: Record<string, string> = {
 };
 const historyEvents = bundle.history?.events ?? [];
 const events = [...historyEvents].reverse();
+const trackingSince = firstObservedDate(historyEvents);
 
 // 趋势图：美区自观测阶梯线；末端 = 该源 lastSuccessAt（最后一次确认价格的时刻），
 // 不是"今天"——抓取停摆时线就停在那里，不假装数据仍新鲜。
 const health = sourceHealth().sources ?? {};
-const TRACKING_SINCE = '2026-07-08';
 const channelDefs = [
   { id: 'steam', label: 'Steam · US', color: 'var(--teal)', lineStyle: 'solid', dash: '', marker: 'square', source: 'steam-regional', tracked: !!bundle.steam },
   { id: 'eshop', label: 'eShop · US', color: 'var(--red)', lineStyle: 'dash', dash: '10 6', marker: 'circle', source: 'eshop-regional', tracked: !!bundle.eshop },
@@ -45,7 +45,7 @@ const channels = channelDefs.map((channel) => {
   return {
     ...channel,
     series,
-    since: series.firstDate ?? channel.fallbackSince ?? TRACKING_SINCE,
+    since: series.firstDate ?? channel.fallbackSince ?? trackingSince,
     checkedAt: health[channel.source]?.lastSuccessAt?.slice(0, 10) ?? null,
   };
 });
@@ -211,8 +211,11 @@ const chartDescription = channels.map((channel) => {
       <NoteBox>
         Automatic checks do not add duplicate rows. The log records a new event
         only when the US price or discount changes, so a quiet stretch means the
-        checked price stayed the same. Tracking began 2026-07-08; earlier lows
-        come from external records where noted.
+        checked price stayed the same. {trackingSince ? (
+          <>Tracking began <time datetime={trackingSince}>{trackingSince}</time>; earlier lows come from external records where noted.</>
+        ) : (
+          <>Tracking begins with the first successful US price observation; any earlier lows come from external records where noted.</>
+        )}
       </NoteBox>
     </section>
   </div>

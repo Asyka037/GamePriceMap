@@ -19,7 +19,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchJson, sleep } from './lib/http.mjs';
-import { extractUsProductNsuid } from './lib/eshop.mjs';
+import { extractUsProductNsuid, indexPricesById, parsePriceEntry, priceUrl } from './lib/eshop.mjs';
 import {
   selectEuropeDiscoveryCandidate,
   selectJapanDiscoveryCandidate,
@@ -44,7 +44,13 @@ async function discoverEurope({ title, platforms }) {
   const url = `https://searching.nintendo-europe.com/en/select?q=${encodeURIComponent(title)}&fq=type%3AGAME&rows=8&wt=json`;
   const body = await fetchJson(url, { label: 'eu search' });
   const candidate = selectEuropeDiscoveryCandidate(body.response?.docs, { title, platforms });
-  return candidate ? { ...candidate, confidence: 'high' } : null;
+  if (!candidate) return null;
+  // Solr's digital_version_b is unreliable for first-party titles. A live,
+  // positive official GB price is the final digital-purchasability proof.
+  const prices = await fetchJson(priceUrl('GB', [candidate.nsuid]), { label: 'eu price verify' });
+  const entry = indexPricesById(prices).get(candidate.nsuid);
+  if (!parsePriceEntry(entry)) return null;
+  return { ...candidate, confidence: 'high' };
 }
 
 async function discoverJapan({ title, platforms }) {
@@ -54,8 +60,8 @@ async function discoverJapan({ title, platforms }) {
   return candidate ? { ...candidate, confidence: 'high' } : null;
 }
 
-async function discoverAmericas(slug, title) {
-  for (const candidate of [`${slug}-switch`, slug]) {
+async function discoverAmericas({ slug, title, nintendoUsSlug }) {
+  for (const candidate of [...new Set([nintendoUsSlug, `${slug}-switch`, slug].filter(Boolean))]) {
     try {
       const res = await fetch(`https://www.nintendo.com/us/store/products/${candidate}/`, {
         headers: { 'User-Agent': BROWSER_UA, 'Accept': 'text/html' },
@@ -79,7 +85,7 @@ for (const g of targets) {
   const [eu, jp, us] = [
     await discoverEurope(g).catch(() => null),
     await discoverJapan(g).catch(() => null),
-    await discoverAmericas(g.slug, g.title).catch(() => null),
+    await discoverAmericas(g).catch(() => null),
   ];
   results.push({ slug: g.slug, eu, jp, us });
   const fmt = (r) => (r ? `${r.nsuid} [${r.confidence}]` : '—');

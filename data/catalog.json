@@ -246,7 +246,7 @@
     },
     {
       "slug": "god-of-war-ragnarok",
-      "title": "God of War Ragnar\u00f6k",
+      "title": "God of War Ragnarök",
       "steamAppId": 2322010,
       "nsuids": null,
       "platforms": [
@@ -679,7 +679,9 @@
       "title": "Planet Zoo",
       "steamAppId": 703080,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -688,7 +690,9 @@
       "title": "Warhammer 40,000: Darktide",
       "steamAppId": 1361210,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -697,7 +701,9 @@
       "title": "Kingdom Come: Deliverance II",
       "steamAppId": 1771300,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -706,7 +712,9 @@
       "title": "The Alters",
       "steamAppId": 1601570,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -715,7 +723,9 @@
       "title": "Assassin's Creed Shadows",
       "steamAppId": 3159330,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -724,7 +734,9 @@
       "title": "Diablo IV",
       "steamAppId": 2344520,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -733,7 +745,9 @@
       "title": "Satisfactory",
       "steamAppId": 526870,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -746,7 +760,10 @@
         "europe": "70010000110954",
         "japan": "70010000084201"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -755,7 +772,9 @@
       "title": "Valheim",
       "steamAppId": 892970,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -764,7 +783,9 @@
       "title": "Total War: WARHAMMER III",
       "steamAppId": 1142710,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -773,7 +794,9 @@
       "title": "Against the Storm",
       "steamAppId": 1336490,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -782,7 +805,9 @@
       "title": "RimWorld",
       "steamAppId": 294100,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -795,7 +820,10 @@
         "europe": "70010000044643",
         "japan": "70010000044641"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -808,7 +836,10 @@
         "europe": "70010000033557",
         "japan": "70010000033555"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -817,7 +848,9 @@
       "title": "Phasmophobia",
       "steamAppId": 739630,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -826,7 +859,9 @@
       "title": "Warhammer 40,000: Space Marine 2",
       "steamAppId": 2183900,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -835,7 +870,9 @@
       "title": "V Rising",
       "steamAppId": 1604030,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -844,7 +881,9 @@
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "steamAppId": 1643320,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -853,7 +892,9 @@
       "title": "Manor Lords",
       "steamAppId": 1363080,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -862,7 +903,9 @@
       "title": "ELDEN RING NIGHTREIGN",
       "steamAppId": 2622380,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -875,7 +918,10 @@
         "europe": "70010000097435",
         "japan": "70010000096944"
       },
-      "platforms": ["pc", "switch-2"],
+      "platforms": [
+        "pc",
+        "switch-2"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -884,7 +930,9 @@
       "title": "Enshrouded",
       "steamAppId": 1203620,
       "nsuids": null,
-      "platforms": ["pc"],
+      "platforms": [
+        "pc"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -897,7 +945,10 @@
         "europe": "70010000020029",
         "japan": "70010000021848"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -910,7 +961,10 @@
         "europe": "70010000019794",
         "japan": "70010000049882"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -923,7 +977,10 @@
         "europe": "70010000073034",
         "japan": "70010000079456"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -936,7 +993,10 @@
         "europe": "70010000043148",
         "japan": "70010000042356"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -949,7 +1009,10 @@
         "europe": "70010000110995",
         "japan": "70010000123376"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -962,7 +1025,10 @@
         "europe": "70010000094451",
         "japan": "70010000094452"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -975,7 +1041,10 @@
         "europe": "70010000116715",
         "japan": "70010000116716"
       },
-      "platforms": ["pc", "switch-2"],
+      "platforms": [
+        "pc",
+        "switch-2"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -988,7 +1057,10 @@
         "europe": "70010000036099",
         "japan": "70010000036097"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -1001,7 +1073,10 @@
         "europe": "70010000091348",
         "japan": "70010000091349"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -1014,7 +1089,10 @@
         "europe": "70010000009919",
         "japan": "70010000009922"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -1027,7 +1105,10 @@
         "europe": "70010000095397",
         "japan": "70010000095398"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -1040,7 +1121,10 @@
         "europe": "70010000008121",
         "japan": "70010000003637"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-14"
     },
@@ -1053,7 +1137,10 @@
         "europe": "70010000062277",
         "japan": "70010000062278"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1066,7 +1153,10 @@
         "europe": "70010000029015",
         "japan": "70010000029014"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1079,7 +1169,10 @@
         "europe": "70010000112478",
         "japan": "70010000112479"
       },
-      "platforms": ["pc", "switch-2"],
+      "platforms": [
+        "pc",
+        "switch-2"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1092,7 +1185,10 @@
         "europe": "70010000101699",
         "japan": "70010000096733"
       },
-      "platforms": ["pc", "switch-2"],
+      "platforms": [
+        "pc",
+        "switch-2"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1105,7 +1201,10 @@
         "europe": "70010000010581",
         "japan": null
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1118,7 +1217,10 @@
         "europe": "70010000018076",
         "japan": null
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1131,7 +1233,10 @@
         "europe": "70010000005803",
         "japan": "70010000011738"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1144,7 +1249,10 @@
         "europe": "70010000051362",
         "japan": "70010000058832"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1157,7 +1265,10 @@
         "europe": "70010000013221",
         "japan": null
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1170,7 +1281,10 @@
         "europe": "70010000013195",
         "japan": null
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1183,7 +1297,10 @@
         "europe": "70010000019035",
         "japan": "70010000019038"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1196,7 +1313,10 @@
         "europe": "70010000005801",
         "japan": "70010000011737"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1209,7 +1329,10 @@
         "europe": "70010000058129",
         "japan": "70010000058127"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1222,7 +1345,10 @@
         "europe": "70010000015566",
         "japan": "70010000015569"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
     },
@@ -1235,9 +1361,652 @@
         "europe": "70010000009745",
         "japan": "70010000009747"
       },
-      "platforms": ["pc", "switch"],
+      "platforms": [
+        "pc",
+        "switch"
+      ],
       "tier": "core",
       "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "super-mario-odyssey",
+      "title": "Super Mario Odyssey",
+      "nintendoUsSlug": "super-mario-odyssey-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000001130",
+        "europe": "70010000000127",
+        "japan": "70010000000828"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "super-mario-bros-wonder",
+      "title": "Super Mario Bros. Wonder",
+      "nintendoUsSlug": "super-mario-bros-wonder-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000068688",
+        "europe": "70010000068689",
+        "japan": "70010000068687"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "mario-kart-8-deluxe",
+      "title": "Mario Kart 8 Deluxe",
+      "nintendoUsSlug": "mario-kart-8-deluxe-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000000153",
+        "europe": "70010000000126",
+        "japan": "70010000000186"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "super-mario-3d-world-plus-bowsers-fury",
+      "title": "Super Mario 3D World + Bowser’s Fury",
+      "nintendoUsSlug": "super-mario-3d-world-plus-bowsers-fury-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000034439",
+        "europe": "70010000034440",
+        "japan": "70010000034438"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "new-super-mario-bros-u-deluxe",
+      "title": "New Super Mario Bros. U Deluxe",
+      "nintendoUsSlug": "new-super-mario-bros-u-deluxe-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000006411",
+        "europe": "70010000006412",
+        "japan": "70010000006410"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "super-mario-rpg",
+      "title": "Super Mario RPG",
+      "nintendoUsSlug": "super-mario-rpg-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000068683",
+        "europe": "70010000068684",
+        "japan": "70010000068682"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "paper-mario-the-thousand-year-door",
+      "title": "Paper Mario: The Thousand-Year Door",
+      "nintendoUsSlug": "paper-mario-the-thousand-year-door-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000072957",
+        "europe": "70010000073127",
+        "japan": "70010000072956"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "mario-vs-donkey-kong",
+      "title": "Mario vs. Donkey Kong",
+      "nintendoUsSlug": "mario-vs-donkey-kong-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000072191",
+        "europe": "70010000072192",
+        "japan": "70010000072190"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "mario-party-superstars",
+      "title": "Mario Party Superstars",
+      "nintendoUsSlug": "mario-party-superstars-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000042934",
+        "europe": "70010000042935",
+        "japan": "70010000042933"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "super-mario-party-jamboree",
+      "title": "Super Mario Party Jamboree",
+      "nintendoUsSlug": "super-mario-party-jamboree-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000084608",
+        "europe": "70010000084609",
+        "japan": "70010000084607"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "luigis-mansion-3",
+      "title": "Luigi’s Mansion 3",
+      "nintendoUsSlug": "luigis-mansion-3-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000001620",
+        "europe": "70010000001619",
+        "japan": "70010000001621"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "princess-peach-showtime",
+      "title": "Princess Peach: Showtime!",
+      "nintendoUsSlug": "princess-peach-showtime-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000005022",
+        "europe": "70010000005021",
+        "japan": "70010000005023"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "zelda-breath-of-the-wild",
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "nintendoUsSlug": "the-legend-of-zelda-breath-of-the-wild-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000000025",
+        "europe": "70010000000023",
+        "japan": "70010000000026"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "zelda-tears-of-the-kingdom",
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "nintendoUsSlug": "the-legend-of-zelda-tears-of-the-kingdom-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000063714",
+        "europe": "70010000063715",
+        "japan": "70010000063713"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "zelda-links-awakening",
+      "title": "The Legend of Zelda: Link’s Awakening",
+      "nintendoUsSlug": "the-legend-of-zelda-links-awakening-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000020033",
+        "europe": "70010000020034",
+        "japan": "70010000019976"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "zelda-echoes-of-wisdom",
+      "title": "The Legend of Zelda: Echoes of Wisdom",
+      "nintendoUsSlug": "the-legend-of-zelda-echoes-of-wisdom-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000084618",
+        "europe": "70010000084619",
+        "japan": "70010000084617"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "zelda-skyward-sword-hd",
+      "title": "The Legend of Zelda: Skyward Sword HD",
+      "nintendoUsSlug": "the-legend-of-zelda-skyward-sword-hd-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000038612",
+        "europe": "70010000038613",
+        "japan": "70010000038611"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pokemon-legends-arceus",
+      "title": "Pokémon Legends: Arceus",
+      "nintendoUsSlug": "pokemon-legends-arceus-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000039945",
+        "europe": "70010000039946",
+        "japan": "70010000039944"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pokemon-legends-z-a",
+      "title": "Pokémon Legends: Z-A",
+      "nintendoUsSlug": "pokemon-legends-z-a-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000094234",
+        "europe": "70010000094235",
+        "japan": "70010000094233"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pokemon-scarlet",
+      "title": "Pokémon Scarlet",
+      "nintendoUsSlug": "pokemon-scarlet-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000053966",
+        "europe": "70010000053967",
+        "japan": "70010000053965"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pokemon-violet",
+      "title": "Pokémon Violet",
+      "nintendoUsSlug": "pokemon-violet-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000053971",
+        "europe": "70010000053972",
+        "japan": "70010000053970"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pokemon-brilliant-diamond",
+      "title": "Pokémon Brilliant Diamond",
+      "nintendoUsSlug": "pokemon-brilliant-diamond-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000039950",
+        "europe": "70010000039951",
+        "japan": "70010000039949"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pokemon-shining-pearl",
+      "title": "Pokémon Shining Pearl",
+      "nintendoUsSlug": "pokemon-shining-pearl-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000039955",
+        "europe": "70010000039956",
+        "japan": "70010000039954"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pokemon-lets-go-pikachu",
+      "title": "Pokémon: Let’s Go, Pikachu!",
+      "nintendoUsSlug": "pokemon-lets-go-pikachu-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000000447",
+        "europe": "70010000000446",
+        "japan": "70010000000448"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pokemon-lets-go-eevee",
+      "title": "Pokémon: Let’s Go, Eevee!",
+      "nintendoUsSlug": "pokemon-lets-go-eevee-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000000450",
+        "europe": "70010000000449",
+        "japan": "70010000000451"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pokemon-sword",
+      "title": "Pokémon Sword",
+      "nintendoUsSlug": "pokemon-sword-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000004496",
+        "europe": "70010000004488",
+        "japan": "70010000004497"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pokemon-shield",
+      "title": "Pokémon Shield",
+      "nintendoUsSlug": "pokemon-shield-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000004492",
+        "europe": "70010000004485",
+        "japan": "70010000004493"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "super-smash-bros-ultimate",
+      "title": "Super Smash Bros. Ultimate",
+      "nintendoUsSlug": "super-smash-bros-ultimate-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000012332",
+        "europe": "70010000012331",
+        "japan": "70010000012085"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "animal-crossing-new-horizons",
+      "title": "Animal Crossing: New Horizons",
+      "nintendoUsSlug": "animal-crossing-new-horizons-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000027619",
+        "europe": "70010000027620",
+        "japan": "70010000027618"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "splatoon-2",
+      "title": "Splatoon 2",
+      "nintendoUsSlug": "splatoon-2-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000000529",
+        "europe": "70010000000151",
+        "japan": "70010000000309"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "splatoon-3",
+      "title": "Splatoon 3",
+      "nintendoUsSlug": "splatoon-3-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000046395",
+        "europe": "70010000046396",
+        "japan": "70010000046394"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "kirby-and-the-forgotten-land",
+      "title": "Kirby and the Forgotten Land",
+      "nintendoUsSlug": "kirby-and-the-forgotten-land-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000046405",
+        "europe": "70010000046406",
+        "japan": "70010000046404"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "kirbys-return-to-dream-land-deluxe",
+      "title": "Kirby’s Return to Dream Land Deluxe",
+      "nintendoUsSlug": "kirbys-return-to-dream-land-deluxe-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000058797",
+        "europe": "70010000058798",
+        "japan": "70010000058796"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "fire-emblem-engage",
+      "title": "Fire Emblem Engage",
+      "nintendoUsSlug": "fire-emblem-engage-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000058802",
+        "europe": "70010000058803",
+        "japan": "70010000058801"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "fire-emblem-three-houses",
+      "title": "Fire Emblem: Three Houses",
+      "nintendoUsSlug": "fire-emblem-three-houses-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000007606",
+        "europe": "70010000007605",
+        "japan": "70010000007607"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "xenoblade-chronicles-definitive-edition",
+      "title": "Xenoblade Chronicles Definitive Edition",
+      "nintendoUsSlug": "xenoblade-chronicles-definitive-edition-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000029711",
+        "europe": "70010000029712",
+        "japan": "70010000029710"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "xenoblade-chronicles-2",
+      "title": "Xenoblade Chronicles 2",
+      "nintendoUsSlug": "xenoblade-chronicles-2-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000000707",
+        "europe": "70010000000706",
+        "japan": "70010000000847"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "xenoblade-chronicles-3",
+      "title": "Xenoblade Chronicles 3",
+      "nintendoUsSlug": "xenoblade-chronicles-3-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000053336",
+        "europe": "70010000053337",
+        "japan": "70010000053335"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "metroid-dread",
+      "title": "Metroid Dread",
+      "nintendoUsSlug": "metroid-dread-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000042924",
+        "europe": "70010000042925",
+        "japan": "70010000042923"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "pikmin-4",
+      "title": "Pikmin 4",
+      "nintendoUsSlug": "pikmin-4-switch",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": "70010000005308",
+        "europe": "70010000005306",
+        "japan": "70010000005309"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "core",
+      "addedAt": "2026-07-16"
     }
   ]
 }

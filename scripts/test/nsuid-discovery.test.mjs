@@ -60,6 +60,18 @@ test('EU discovery excludes unreleased and zero-price products', () => {
   );
 });
 
+test('EU discovery keeps an exact first-party candidate for price-API verification', () => {
+  assert.equal(
+    selectEuropeDiscoveryCandidate([fixture.europe.firstPartyIndexFalse], {
+      title: 'Super Mario Bros. Wonder',
+      platforms: ['switch'],
+      now: Date.parse('2026-07-16T00:00:00Z'),
+    })?.nsuid,
+    '70010000068689',
+    'Solr digital_version_b=false must not override a live official price API',
+  );
+});
+
 test('JP discovery selects HAC or BEE according to catalog platforms', () => {
   const items = [fixture.japan.hogwartsBee, fixture.japan.hogwartsHac];
   assert.equal(
@@ -82,6 +94,23 @@ test('JP discovery excludes upgrades, bundles, terminated, and zero-price produc
     assert.equal(
       selectJapanDiscoveryCandidate([item], { title: 'Example Game', platforms: ['switch'] }),
       null,
+    );
+  }
+});
+
+test('JP discovery matches bilingual titles before either parenthesis style', () => {
+  const common = {
+    nsuid: '70010000005309',
+    hard: '1_HAC',
+    sform: 'HAC_DOWNLOADABLE',
+    ssitu: 'onsale',
+    upgrade: 0,
+    current_price: 6500,
+  };
+  for (const title of ['Pikmin 4 (ピクミン４)', 'Pikmin 4（ピクミン４）']) {
+    assert.equal(
+      selectJapanDiscoveryCandidate([{ ...common, title }], { title: 'Pikmin 4', platforms: ['switch'] })?.nsuid,
+      '70010000005309',
     );
   }
 });

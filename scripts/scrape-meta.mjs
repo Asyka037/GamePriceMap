@@ -8,7 +8,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchJson, sleep } from './lib/http.mjs';
+import { fetchJson, fetchText, sleep } from './lib/http.mjs';
+import { parseNintendoMeta } from './lib/nintendo-meta.mjs';
+import { completeSourceRun, recordSourceRun } from './lib/sourcehealth.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const META_DIR = path.join(ROOT, 'data', 'meta');
@@ -17,45 +19,97 @@ fs.mkdirSync(META_DIR, { recursive: true });
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog.json'), 'utf8'));
 const onlySlugs = process.argv.slice(2);
 const games = catalog.games
-  .filter((g) => Number.isInteger(g.steamAppId))
+  .filter((g) => Number.isInteger(g.steamAppId)
+    || (g.nsuids?.americas && g.nintendoUsSlug))
   .filter((g) => onlySlugs.length === 0 || onlySlugs.includes(g.slug));
 
+function sameMeta(previous, next) {
+  if (!previous) return false;
+  const withoutCheckStamp = ({ updatedAt: _updatedAt, ...meta }) => meta;
+  return JSON.stringify(withoutCheckStamp(previous)) === JSON.stringify(withoutCheckStamp(next));
+}
+
+async function steamMeta(g) {
+  const details = await fetchJson(
+    `https://store.steampowered.com/api/appdetails?appids=${g.steamAppId}&cc=us&l=english`,
+    { label: `appdetails ${g.slug}` },
+  );
+  await sleep(1500);
+  const reviews = await fetchJson(
+    `https://store.steampowered.com/appreviews/${g.steamAppId}?json=1&language=all&purchase_type=all&num_per_page=0`,
+    { label: `appreviews ${g.slug}` },
+  );
+  await sleep(1500);
+
+  const d = details?.[String(g.steamAppId)]?.data ?? {};
+  const q = reviews?.query_summary ?? {};
+  const total = q.total_reviews ?? 0;
+  return {
+    slug: g.slug,
+    updatedAt: new Date().toISOString(),
+    name: d.name ?? g.title,
+    headerImage: d.header_image ?? null,
+    genres: (d.genres ?? []).map((x) => x.description),
+    releaseDate: d.release_date?.date ?? null,
+    comingSoon: d.release_date?.coming_soon ?? false,
+    metacritic: d.metacritic?.score ?? null,
+    recommendations: d.recommendations?.total ?? null,
+    reviewDesc: q.review_score_desc ?? null,
+    reviewCount: total,
+    reviewPercent: total > 0 ? Math.round((q.total_positive / total) * 100) : null,
+  };
+}
+
+async function nintendoMeta(g) {
+  const url = `https://www.nintendo.com/us/store/products/${g.nintendoUsSlug}/`;
+  const { text, finalUrl } = await fetchText(url, {
+    label: `Nintendo metadata ${g.slug}`,
+    headers: {
+      // Nintendo's product frontend serves structured data only to a browser
+      // user agent; all transport/retry behavior still goes through http.mjs.
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126 Safari/537.36',
+    },
+  });
+  if (new URL(finalUrl).pathname !== `/us/store/products/${g.nintendoUsSlug}/`) {
+    throw new Error(`unexpected Nintendo redirect to ${finalUrl}`);
+  }
+  const parsed = parseNintendoMeta(text, {
+    slug: g.slug,
+    title: g.title,
+    nsuid: g.nsuids.americas,
+    platforms: g.platforms,
+    productSlug: g.nintendoUsSlug,
+  });
+  if (!parsed) throw new Error('official page identity or metadata guard failed');
+  await sleep(1200);
+  return parsed;
+}
+
 let written = 0;
+let unchanged = 0;
+let failed = 0;
 for (const g of games) {
   try {
-    const details = await fetchJson(
-      `https://store.steampowered.com/api/appdetails?appids=${g.steamAppId}&cc=us&l=english`,
-      { label: `appdetails ${g.slug}` },
-    );
-    await sleep(1500);
-    const reviews = await fetchJson(
-      `https://store.steampowered.com/appreviews/${g.steamAppId}?json=1&language=all&purchase_type=all&num_per_page=0`,
-      { label: `appreviews ${g.slug}` },
-    );
-    await sleep(1500);
-
-    const d = details?.[String(g.steamAppId)]?.data ?? {};
-    const q = reviews?.query_summary ?? {};
-    const total = q.total_reviews ?? 0;
-    const meta = {
-      slug: g.slug,
-      updatedAt: new Date().toISOString(),
-      name: d.name ?? g.title,
-      headerImage: d.header_image ?? null,
-      genres: (d.genres ?? []).map((x) => x.description),
-      releaseDate: d.release_date?.date ?? null,
-      comingSoon: d.release_date?.coming_soon ?? false,
-      metacritic: d.metacritic?.score ?? null,
-      recommendations: d.recommendations?.total ?? null,
-      reviewDesc: q.review_score_desc ?? null,
-      reviewCount: total,
-      reviewPercent: total > 0 ? Math.round((q.total_positive / total) * 100) : null,
-    };
-    fs.writeFileSync(path.join(META_DIR, `${g.slug}.json`), JSON.stringify(meta, null, 2) + '\n');
+    const meta = Number.isInteger(g.steamAppId) ? await steamMeta(g) : await nintendoMeta(g);
+    const metaPath = path.join(META_DIR, `${g.slug}.json`);
+    const previous = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf8')) : null;
+    if (sameMeta(previous, meta)) {
+      unchanged++;
+      continue;
+    }
+    fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n');
     written++;
   } catch (err) {
     console.warn(`  ${g.slug}: ${err.message} — keeping previous meta`);
+    failed++;
   }
 }
-console.log(`Meta written: ${written}/${games.length}`);
-if (written === 0) process.exit(1);
+const complete = completeSourceRun({ expected: games.length, changed: written, unchanged, failedItems: failed });
+if (onlySlugs.length === 0) {
+  recordSourceRun('meta', {
+    ok: complete,
+    note: `changed ${written}, unchanged ${unchanged}, failed games ${failed}, expected ${games.length}`,
+  });
+}
+console.log(`Meta changed: ${written}, unchanged: ${unchanged}, failed: ${failed}, expected: ${games.length}`);
+if (onlySlugs.length > 0 && !complete) process.exit(1);

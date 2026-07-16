@@ -1,0 +1,20 @@
+{
+  "slug": "super-smash-bros-ultimate",
+  "cheapsharkGameId": null,
+  "atl": {
+    "eshop-us": {
+      "usd": 59.99,
+      "date": "2026-07-16",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-16",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 59.99,
+      "pct": null
+    }
+  ]
+}

@@ -45,3 +45,22 @@ export async function fetchJson(url, { label = url, timeoutMs = 30000, attempts 
     }
   }
 }
+
+/** Same retry policy for official HTML pages used by metadata scrapers. */
+export async function fetchText(url, { label = url, timeoutMs = 30000, attempts = 3, headers = {} } = {}) {
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers: { ...HEADERS, Accept: 'text/html,application/xhtml+xml', ...headers },
+        signal: AbortSignal.timeout(timeoutMs),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return { text: await res.text(), finalUrl: res.url };
+    } catch (err) {
+      const finalAttempt = attempt === attempts;
+      console.warn(`  ${label}: ${err.message}${finalAttempt ? '' : ', retrying...'}`);
+      if (finalAttempt) throw err;
+      await sleep(2000 * attempt);
+    }
+  }
+}

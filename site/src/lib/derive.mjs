@@ -187,11 +187,22 @@ export function regionalCardModel(bundle, { channels = ['steam', 'eshop'] } = {}
  * game uses the shared cross-store display source above.
  */
 export function regionalListingCards(bundles, requiredChannel) {
+  const nintendoPlatforms = new Set(['switch', 'switch-2']);
   return (bundles ?? [])
     .filter((bundle) => regionalPriceSources(bundle).some((source) => source.key === requiredChannel))
-    .map((bundle) => regionalCardModel(bundle))
-    .filter(Boolean)
-    .sort((a, b) => b.savingsPct - a.savingsPct || a.title.localeCompare(b.title));
+    .map((bundle) => ({
+      card: regionalCardModel(bundle),
+      switchExclusive: requiredChannel === 'eshop'
+        && bundle?.game?.platforms?.length > 0
+        && bundle.game.platforms.every((platform) => nintendoPlatforms.has(platform))
+        && !bundle.game.steamAppId
+        && !bundle.game.xboxBigId,
+    }))
+    .filter(({ card }) => card)
+    .sort((a, b) => Number(b.switchExclusive) - Number(a.switchExclusive)
+      || b.card.savingsPct - a.card.savingsPct
+      || a.card.title.localeCompare(b.card.title))
+    .map(({ card }) => card);
 }
 
 /** Popularity proxy for homepage platform rows: current Steam review volume. */

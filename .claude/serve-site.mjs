@@ -25,4 +25,4 @@ createServer(async (req, res) => {
     res.writeHead(404, { 'content-type': 'text/plain' });
     res.end('not found');
   }
-}).listen(4173, () => console.log('demo server on http://localhost:4173'));
+}).listen(4173, () => console.log('site preview server on http://localhost:4173'));
