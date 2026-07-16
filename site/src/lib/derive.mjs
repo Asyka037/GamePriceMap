@@ -53,30 +53,24 @@ export function regionalPriceSummary(gameTitle, storeLabel, snapshot) {
 const platformListFormatter = new Intl.ListFormat('en', { style: 'long', type: 'conjunction' });
 
 /**
- * Summary facts across every regional storefront shown in the unified table.
- * Extremes retain source metadata for downstream logic, while the reader-facing
- * sentence stays concise: the opening names every platform and each extreme is
- * expressed as a country and price only.
+ * Summary facts for every regional storefront shown in the unified table. The
+ * opening names all available platforms, while cheapest / most expensive / save
+ * facts come from the same max-savings storefront selected for cards.
  */
 export function multiRegionalPriceSummary(gameTitle, sources) {
-  const usableSources = (sources ?? []).flatMap((source) => {
-    const model = regionalPriceModel(source?.snapshot);
-    return model.rows.length > 0 ? [{ ...source, model }] : [];
-  });
-  const ranked = usableSources.flatMap((source, sourceIndex) => source.model.rows.map((row) => ({
-    ...row,
-    sourceKey: source.key,
-    sourceLabel: source.label,
-    sourceIndex,
-  }))).sort((a, b) => a.usd - b.usd || a.sourceIndex - b.sourceIndex || a.cc.localeCompare(b.cc));
-  if (ranked.length === 0) return null;
+  const usableSources = modeledRegionalSources(sources);
+  const selected = [...usableSources].sort(compareRegionalSavingsSources)[0];
+  if (!selected) return null;
 
-  const withoutInternalIndex = ({ sourceIndex: _sourceIndex, ...row }) => row;
-  const cheapest = withoutInternalIndex(ranked[0]);
-  const mostExpensive = withoutInternalIndex(ranked.at(-1));
+  const withSource = (row) => ({
+    ...row,
+    sourceKey: selected.key,
+    sourceLabel: selected.label,
+  });
+  const cheapest = withSource(selected.model.cheapest);
+  const mostExpensive = withSource(selected.model.mostExpensive);
+  const { priceSpreadPct, savingsPct } = selected.model;
   const hasRange = mostExpensive.usd > cheapest.usd;
-  const priceSpreadPct = hasRange ? Math.round((mostExpensive.usd / cheapest.usd - 1) * 100) : 0;
-  const savingsPct = hasRange ? Math.round((1 - cheapest.usd / mostExpensive.usd) * 100) : 0;
   const platformListLabel = platformListFormatter.format(usableSources.map((source) => source.label));
   const showSource = usableSources.length > 1;
   const lead = `Compare ${gameTitle} ${platformListLabel} prices globally. Cheapest: ${cheapest.countryName} (${fmtUsd(cheapest.usd)}). Most expensive: ${mostExpensive.countryName} (${fmtUsd(mostExpensive.usd)}).`;
@@ -86,6 +80,8 @@ export function multiRegionalPriceSummary(gameTitle, sources) {
   return {
     gameTitle,
     platformListLabel,
+    sourceKey: selected.key,
+    sourceLabel: selected.label,
     cheapest,
     mostExpensive,
     savingsPct,
@@ -129,6 +125,85 @@ export function regionalPriceSources(bundle) {
     { key: 'steam', label: 'Steam', snapshot: bundle?.steam },
     { key: 'eshop', label: 'Nintendo eShop', snapshot: bundle?.eshop },
   ].filter((source) => (source.snapshot?.regions ?? []).filter((row) => row?.cc && row?.usd > 0).length > 1);
+}
+
+function modeledRegionalSources(sources) {
+  return (sources ?? []).flatMap((source, sourceIndex) => {
+    const model = regionalPriceModel(source?.snapshot);
+    return model.cheapest && model.mostExpensive
+      ? [{ ...source, sourceIndex, model }]
+      : [];
+  });
+}
+
+/**
+ * Selects one complete storefront price set for all reader-facing regional
+ * facts. The visible "Save up to" percentage is the primary score; equal
+ * percentages favour the larger USD spread, then the lower entry price and
+ * finally the stable source order. This prevents cross-store min/max mixing.
+ */
+function compareRegionalSavingsSources(a, b) {
+  const spreadA = a.model.mostExpensive.usd - a.model.cheapest.usd;
+  const spreadB = b.model.mostExpensive.usd - b.model.cheapest.usd;
+  return b.model.savingsPct - a.model.savingsPct
+    || spreadB - spreadA
+    || a.model.cheapest.usd - b.model.cheapest.usd
+    || a.sourceIndex - b.sourceIndex
+    || a.key.localeCompare(b.key);
+}
+
+export function regionalDisplaySource(sources) {
+  const selected = modeledRegionalSources(sources).sort(compareRegionalSavingsSources)[0];
+  if (!selected) return null;
+  const { sourceIndex: _sourceIndex, ...source } = selected;
+  return source;
+}
+
+/**
+ * Card facts for one logical game. When several stores have regional data, the
+ * store with the largest visible savings owns the whole comparison. Cheapest,
+ * most expensive and savings therefore always belong to one price set.
+ */
+export function regionalCardModel(bundle, { channels = ['steam', 'eshop'] } = {}) {
+  const allowed = new Set(channels);
+  const source = regionalDisplaySource(regionalPriceSources(bundle).filter((candidate) => allowed.has(candidate.key)));
+  if (!source) return null;
+
+  return {
+    slug: bundle.slug,
+    title: bundle.game?.title ?? bundle.slug,
+    headerImage: bundle.meta?.headerImage ?? null,
+    reviewCount: Number.isFinite(bundle.meta?.reviewCount) ? bundle.meta.reviewCount : 0,
+    sourceKey: source.key,
+    sourceLabel: source.label,
+    cheapest: source.model.cheapest,
+    mostExpensive: source.model.mostExpensive,
+    savingsPct: source.model.savingsPct,
+  };
+}
+
+/**
+ * Hub membership stays platform-specific, while every appearance of the same
+ * game uses the shared cross-store display source above.
+ */
+export function regionalListingCards(bundles, requiredChannel) {
+  return (bundles ?? [])
+    .filter((bundle) => regionalPriceSources(bundle).some((source) => source.key === requiredChannel))
+    .map((bundle) => regionalCardModel(bundle))
+    .filter(Boolean)
+    .sort((a, b) => b.savingsPct - a.savingsPct || a.title.localeCompare(b.title));
+}
+
+/** Popularity proxy for homepage platform rows: current Steam review volume. */
+export function popularRegionalCards(bundles, channel, limit = 4, excludeSlugs = []) {
+  const excluded = new Set(excludeSlugs);
+  return (bundles ?? [])
+    .filter((bundle) => !excluded.has(bundle.slug)
+      && regionalPriceSources(bundle).some((source) => source.key === channel))
+    .map((bundle) => regionalCardModel(bundle))
+    .filter((card) => card?.headerImage)
+    .sort((a, b) => b.reviewCount - a.reviewCount || a.title.localeCompare(b.title))
+    .slice(0, limit);
 }
 
 /**

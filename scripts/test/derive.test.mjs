@@ -1,8 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, primaryRegionalSource, regionalPriceSources, multiRegionalPriceSummary, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney, regionalPriceSummary,
+  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, primaryRegionalSource, regionalPriceSources, regionalCardModel, regionalListingCards, popularRegionalCards, multiRegionalPriceSummary, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney, regionalPriceSummary,
 } from '../../site/src/lib/derive.mjs';
+import { gameBundle } from '../../site/src/lib/data.mjs';
+import { regionalPriceModel } from '../../site/src/lib/regions.mjs';
 
 const bundle = (over = {}) => ({
   slug: 'g',
@@ -81,31 +83,108 @@ test('regionalPriceSources returns multi-region Steam then eShop and excludes Xb
   assert.deepEqual(steamOnly.map((source) => source.key), ['steam']);
 });
 
-test('multi-regional summary attributes global extremes to their platforms', () => {
-  const sources = regionalPriceSources(bundle({
+test('regional card selects one whole store by its largest visible savings', () => {
+  const card = regionalCardModel(bundle({
+    steam: { regions: [{ cc: 'UA', usd: 20 }, { cc: 'CH', usd: 100 }] },
+    eshop: { regions: [{ cc: 'ZA', usd: 10 }, { cc: 'JP', usd: 40 }] },
+  }));
+  assert.equal(card.sourceKey, 'steam', '80% Steam savings beats the lower-starting 75% eShop set');
+  assert.equal(card.cheapest.cc, 'UA');
+  assert.equal(card.mostExpensive.cc, 'CH', 'maximum must stay on the selected Steam price set');
+  assert.equal(card.savingsPct, 80, 'Save up to uses 1 − cheapest / most expensive');
+});
+
+test('regional listing membership stays platform-specific but display facts stay identical', () => {
+  const tied = bundle({
+    slug: 'tied',
+    game: { title: 'Tied' },
+    steam: { regions: [{ cc: 'US', usd: 10 }, { cc: 'CH', usd: 20 }] },
+    eshop: { regions: [{ cc: 'US', usd: 10 }, { cc: 'JP', usd: 20 }] },
+  });
+  assert.equal(regionalListingCards([tied], 'steam')[0].sourceKey, 'steam');
+  assert.equal(regionalListingCards([tied], 'eshop')[0].sourceKey, 'steam');
+  assert.deepEqual(
+    regionalListingCards([tied], 'steam')[0],
+    regionalListingCards([tied], 'eshop')[0],
+    'the current hub must never change a shared game card fact',
+  );
+
+  const steamOnly = bundle({ slug: 'steam-only', game: { title: 'Steam only' }, eshop: null });
+  assert.equal(regionalListingCards([steamOnly], 'steam').length, 1);
+  assert.equal(regionalListingCards([steamOnly], 'eshop').length, 0);
+
+  const alpha = { ...tied, slug: 'alpha', game: { title: 'Alpha' } };
+  const wider = bundle({
+    slug: 'wider',
+    game: { title: 'Wider' },
+    steam: { regions: [{ cc: 'UA', usd: 5 }, { cc: 'CH', usd: 20 }] },
+    eshop: null,
+  });
+  assert.deepEqual(
+    regionalListingCards([tied, alpha, wider], 'steam').map((card) => card.slug),
+    ['wider', 'alpha', 'tied'],
+    'cards sort by savings descending, then title',
+  );
+});
+
+test('homepage popular rows keep platform membership but use the shared display source', () => {
+  const lower = bundle({ slug: 'lower', game: { title: 'Lower' }, meta: { headerImage: '/lower.jpg', reviewCount: 10 } });
+  const higher = bundle({ slug: 'higher', game: { title: 'Higher' }, meta: { headerImage: '/higher.jpg', reviewCount: 20 } });
+  const rows = popularRegionalCards([lower, higher], 'steam', 1);
+  assert.deepEqual(rows.map((row) => row.slug), ['higher']);
+  assert.equal(rows[0].sourceKey, 'eshop', 'the higher-saving eShop set owns facts even in the Steam member row');
+  assert.deepEqual(popularRegionalCards([lower, higher], 'steam', 1, ['higher']).map((row) => row.slug), ['lower']);
+});
+
+test('multi-regional summary and card use the same max-savings storefront', () => {
+  const sample = bundle({
     steam: { regions: [{ cc: 'UA', usd: 20.13 }, { cc: 'CH', usd: 86.04 }] },
     eshop: { regions: [{ cc: 'ZA', usd: 11 }, { cc: 'US', usd: 35 }] },
-  }));
+  });
+  const sources = regionalPriceSources(sample);
   const summary = multiRegionalPriceSummary('Example Game', sources);
+  const card = regionalCardModel(sample);
   assert.equal(summary.gameTitle, 'Example Game');
   assert.equal(summary.platformListLabel, 'Steam and Nintendo eShop');
-  assert.equal(summary.cheapest.countryName, 'South Africa');
-  assert.equal(summary.cheapest.sourceKey, 'eshop');
-  assert.equal(summary.cheapest.sourceLabel, 'Nintendo eShop');
+  assert.equal(summary.sourceKey, 'steam');
+  assert.equal(summary.cheapest.countryName, 'Ukraine');
+  assert.equal(summary.cheapest.sourceKey, 'steam');
+  assert.equal(summary.cheapest.sourceLabel, 'Steam');
   assert.equal(summary.mostExpensive.countryName, 'Switzerland');
   assert.equal(summary.mostExpensive.sourceKey, 'steam');
-  assert.equal(summary.savingsPct, 87);
-  assert.equal(summary.priceSpreadPct, 682);
+  assert.equal(summary.savingsPct, 77);
+  assert.equal(summary.priceSpreadPct, 327);
+  assert.equal(card.sourceKey, summary.sourceKey);
+  assert.equal(card.cheapest.cc, summary.cheapest.cc);
+  assert.equal(card.cheapest.usd, summary.cheapest.usd);
+  assert.equal(card.mostExpensive.cc, summary.mostExpensive.cc);
+  assert.equal(card.mostExpensive.usd, summary.mostExpensive.usd);
+  assert.equal(card.savingsPct, summary.savingsPct);
   assert.equal('sourceIndex' in summary.cheapest, false);
   assert.equal(
     summary.text,
-    'Compare Example Game Steam and Nintendo eShop prices globally. Cheapest: South Africa ($11.00). Most expensive: Switzerland ($86.04). Save up to 87% across tracked stores and regions.',
+    'Compare Example Game Steam and Nintendo eShop prices globally. Cheapest: Ukraine ($20.13). Most expensive: Switzerland ($86.04). Save up to 77% across tracked stores and regions.',
   );
   assert.doesNotMatch(summary.text, / on (?:Steam|Nintendo eShop)/);
   const singleStore = multiRegionalPriceSummary('Example Game', sources.slice(0, 1));
   assert.match(singleStore.text, /Save up to \d+% via regional pricing\./);
   assert.doesNotMatch(singleStore.text, /across tracked stores/);
   assert.equal(multiRegionalPriceSummary('Empty', []), null);
+});
+
+test('Terraria card and detail summary stay on the same real max-savings source', () => {
+  const terraria = gameBundle('terraria');
+  const sources = regionalPriceSources(terraria);
+  const card = regionalCardModel(terraria);
+  const summary = multiRegionalPriceSummary(terraria.game.title, sources);
+  const maxStoreSavings = Math.max(...sources.map((source) => regionalPriceModel(source.snapshot).savingsPct));
+
+  assert.equal(card.savingsPct, maxStoreSavings);
+  assert.equal(card.sourceKey, summary.sourceKey);
+  assert.deepEqual(
+    [card.cheapest.cc, card.cheapest.usd, card.mostExpensive.cc, card.mostExpensive.usd, card.savingsPct],
+    [summary.cheapest.cc, summary.cheapest.usd, summary.mostExpensive.cc, summary.mostExpensive.usd, summary.savingsPct],
+  );
 });
 
 test('regionGapBoard uses the same primary source and computes savings vs US', () => {

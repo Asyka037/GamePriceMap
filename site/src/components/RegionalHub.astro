@@ -1,49 +1,18 @@
 ---
 import NoteBox from './NoteBox.astro';
-import { fmtUsd } from '../lib/derive.mjs';
-import { usRow } from '../lib/derive.mjs';
+import RegionalGameCard from './RegionalGameCard.astro';
+import { regionalListingCards } from '../lib/derive.mjs';
 
 interface Props {
   bundles: any[];
   channel: 'steam' | 'eshop';
 }
 const { bundles, channel } = Astro.props;
-
-const rows = bundles
-  .map((b) => {
-    const snap = channel === 'steam' ? b.steam : b.eshop;
-    if (!snap?.regions?.length) return null;
-    const us = usRow(snap);
-    const cheapest = snap.regions[0];
-    if (!us || !cheapest) return null;
-    return {
-      slug: b.slug,
-      title: b.game?.title ?? b.slug,
-      usUsd: us.usd,
-      cheapestCc: cheapest.cc,
-      cheapestUsd: cheapest.usd,
-      savePct: us.usd > 0 ? Math.round((1 - cheapest.usd / us.usd) * 100) : 0,
-      regions: snap.regions.length,
-    };
-  })
-  .filter((r): r is NonNullable<typeof r> => r !== null)
-  .sort((a, b) => b.savePct - a.savePct);
+const cards = regionalListingCards(bundles, channel);
 ---
-<table class="region-full">
-  <thead><tr><th>Game</th><th>US price</th><th>Cheapest region</th><th>≈ USD</th><th>You save</th><th>Regions</th></tr></thead>
-  <tbody>
-    {rows.map((r) => (
-      <tr>
-        <td><a href={`/game/${r.slug}/regional-prices`} style="font-weight:800; color:var(--ink);">{r.title}</a></td>
-        <td class="mono">{fmtUsd(r.usUsd)}</td>
-        <td><span class="b-chip g">{r.cheapestCc}</span></td>
-        <td class="mono" style="font-weight:700;">{fmtUsd(r.cheapestUsd)}</td>
-        <td class="mono" style={r.savePct > 0 ? 'color:var(--green);font-weight:700;' : 'color:var(--text-3);'}>{r.savePct > 0 ? `−${r.savePct}%` : '—'}</td>
-        <td class="mono" style="color:var(--text-3);">{r.regions}</td>
-      </tr>
-    ))}
-  </tbody>
-</table>
+<div class="regional-card-grid" data-regional-hub={channel}>
+  {cards.map((card) => <RegionalGameCard card={card} />)}
+</div>
 
 <NoteBox>
   Store list prices converted at daily exchange rates — not checkout totals.

@@ -1,8 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import SectionHead from '../components/SectionHead.astro';
+import RegionalGameCard from '../components/RegionalGameCard.astro';
+import StoreMark from '../components/StoreMark.astro';
 import { catalog, gameBundle, feed, calendar } from '../lib/data.mjs';
-import { regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, bestPriceNow, primaryRegionalSource, usRow, overallAtl, isLive, fmtUsd } from '../lib/derive.mjs';
+import { regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, bestPriceNow, primaryRegionalSource, popularRegionalCards, usRow, overallAtl, isLive, fmtUsd } from '../lib/derive.mjs';
 
 const bundles = catalog().map((g: any) => gameBundle(g.slug));
 
@@ -32,7 +34,8 @@ const showcase = ['hollow-knight-silksong', 'elden-ring', 'stardew-valley', 'cyb
 const regionRows = regionGapBoard(bundles, 3);
 const atlRows = atlBoard(bundles, 3);
 const hotRows = hotDealsBoard(bundles, 3);
-const gameCount = bundles.length;
+const steamRegionalPopular = popularRegionalCards(bundles, 'steam', 4);
+const eshopRegionalPopular = popularRegionalCards(bundles, 'eshop', 4, steamRegionalPopular.map((card) => card.slug));
 
 const atlGrid = trackedDeals(bundles, 'steam').filter((d) => d.isAtl).slice(0, 8);
 const endingSoon = [...trackedDeals(bundles, 'steam'), ...trackedDeals(bundles, 'eshop')]
@@ -157,21 +160,37 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : [])
   <div class="ground" aria-hidden="true"></div>
 
   <section class="section wrap">
-    <SectionHead tone="violet" title="Regional pricing" moreHref="/switch/regional-pricing" moreText="All regions →" />
+    <SectionHead tone="violet" title="Regional pricing" moreHref="/steam/regional-pricing" moreText="All regions →" />
+    <div class="regional-popular">
+      <section class="regional-popular-row" data-regional-popular-row="steam" aria-label="Steam popular regional games">
+        <div class="regional-popular-grid" role="region" aria-label="Steam popular regional games" tabindex="0">
+          {steamRegionalPopular.map((card) => (
+            <RegionalGameCard card={card} compact={true} heading="h3" />
+          ))}
+        </div>
+      </section>
+      <section class="regional-popular-row" data-regional-popular-row="eshop" aria-label="Nintendo eShop popular regional games">
+        <div class="regional-popular-grid" role="region" aria-label="Nintendo eShop popular regional games" tabindex="0">
+          {eshopRegionalPopular.map((card) => (
+            <RegionalGameCard card={card} compact={true} heading="h3" />
+          ))}
+        </div>
+      </section>
+    </div>
     <div class="region-entry">
-      <a class="re-card" href="/switch/regional-pricing">
-        <span class="re-ic t"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+      <a class="re-card" href="/steam/regional-pricing" data-regional-entry="steam">
+        <span class="re-ic steam"><StoreMark channel="steam" /></span>
         <span class="re-txt">
-          <b>eShop region compare</b>
-          <span>The cheapest eShop region for every tracked Switch game — 16 regions, converted and ranked daily.</span>
+          <b>Steam regional pricing</b>
+          <span>Compare Steam prices across global regions.</span>
         </span>
         <span class="re-arrow" aria-hidden="true">→</span>
       </a>
-      <a class="re-card" href="/steam/regional-pricing">
-        <span class="re-ic b"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.83z"/><circle cx="7" cy="7" r="1.6"/></svg></span>
+      <a class="re-card" href="/switch/regional-pricing" data-regional-entry="eshop">
+        <span class="re-ic eshop"><StoreMark channel="eshop" /></span>
         <span class="re-txt">
-          <b>Steam regional watch</b>
-          <span>Regional price gaps across 18 Steam storefronts for all {gameCount} tracked games, updated daily.</span>
+          <b>Nintendo eShop regional pricing</b>
+          <span>Compare Nintendo eShop prices across global regions.</span>
         </span>
         <span class="re-arrow" aria-hidden="true">→</span>
       </a>

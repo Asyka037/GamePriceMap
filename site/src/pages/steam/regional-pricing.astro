@@ -13,7 +13,7 @@ const bundles = catalog().map((g: any) => gameBundle(g.slug));
   <div class="page-head wrap">
     <div class="breadcrumb"><a href="/">Home</a><span>/</span>Steam<span>/</span>Regional pricing</div>
     <h1>Steam regional pricing</h1>
-    <p>Every tracked game across 18 Steam regions, ranked by how much the cheapest region saves versus the US store. Click a game for its full table.</p>
+    <p class="regional-hub-intro">Browse Steam-supported games by the biggest savings between their cheapest and most expensive regions.</p>
   </div>
   <div class="wrap" style="padding-bottom: 24px;">
     <RegionalHub bundles={bundles} channel="steam" />

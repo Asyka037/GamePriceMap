@@ -13,7 +13,7 @@ const bundles = catalog().map((g: any) => gameBundle(g.slug)).filter((b: any) =>
   <div class="page-head wrap">
     <div class="breadcrumb"><a href="/">Home</a><span>/</span>Nintendo<span>/</span>Region compare</div>
     <h1>eShop region compare</h1>
-    <p>Every tracked Switch game across 16 eShop regions, ranked by savings versus the US eShop. Click a game for its full table.</p>
+    <p class="regional-hub-intro">Browse Nintendo eShop games by the biggest savings between their cheapest and most expensive regions.</p>
   </div>
   <div class="wrap" style="padding-bottom: 24px;">
     <RegionalHub bundles={bundles} channel="eshop" />

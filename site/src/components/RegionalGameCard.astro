@@ -1,0 +1,61 @@
+---
+import { fmtUsd } from '../lib/derive.mjs';
+
+interface Props {
+  card: any;
+  compact?: boolean;
+  heading?: 'h2' | 'h3';
+}
+
+const {
+  card,
+  compact = false,
+  heading = compact ? 'h3' : 'h2',
+} = Astro.props;
+const Heading = heading;
+const accessibleSummary = `${card.title}: Save up to ${card.savingsPct}% on ${card.sourceLabel}. Cheapest ${card.cheapest.countryName} ${fmtUsd(card.cheapest.usd)}; most expensive ${card.mostExpensive.countryName} ${fmtUsd(card.mostExpensive.usd)}.`;
+---
+<a
+  class:list={['regional-game-card', { compact }]}
+  href={`/game/${card.slug}/regional-prices`}
+  aria-label={accessibleSummary}
+  data-regional-game-card
+  data-source={card.sourceKey}
+  data-cheapest-cc={card.cheapest.cc}
+  data-priciest-cc={card.mostExpensive.cc}
+  data-save-pct={card.savingsPct}
+>
+  <div class="regional-card-cover">
+    {card.headerImage && (
+      <img src={card.headerImage} alt={`${card.title} cover`} loading="lazy" decoding="async" />
+    )}
+    <span class="regional-save-badge">Save up to <strong data-regional-save-value>{card.savingsPct}%</strong></span>
+  </div>
+  <div class="regional-card-body">
+    <div class="regional-card-title-row">
+      <Heading class="regional-card-title" title={card.title}>{card.title}</Heading>
+    </div>
+    <div class="regional-card-facts">
+      <div class="regional-card-fact is-cheapest" data-regional-card-cheapest>
+        <span class="regional-card-place">
+          <span class="regional-card-flag" aria-hidden="true">{card.cheapest.flag}</span>
+          <span class="regional-card-place-copy">
+            <span class="regional-card-label">Cheapest</span>
+            <span class="regional-card-country" title={card.cheapest.countryName}>{card.cheapest.countryName}</span>
+          </span>
+        </span>
+        <strong>{fmtUsd(card.cheapest.usd)}</strong>
+      </div>
+      <div class="regional-card-fact is-priciest" data-regional-card-priciest>
+        <span class="regional-card-place">
+          <span class="regional-card-flag" aria-hidden="true">{card.mostExpensive.flag}</span>
+          <span class="regional-card-place-copy">
+            <span class="regional-card-label">Highest</span>
+            <span class="regional-card-country" title={card.mostExpensive.countryName}>{card.mostExpensive.countryName}</span>
+          </span>
+        </span>
+        <strong>{fmtUsd(card.mostExpensive.usd)}</strong>
+      </div>
+    </div>
+  </div>
+</a>
