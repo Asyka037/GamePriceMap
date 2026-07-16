@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T09:30:53.759Z",
+  "updatedAt": "2026-07-16T09:37:11.138Z",
   "items": [
     {
       "title": "Palworld",
@@ -14,6 +14,42 @@
       "slugIfTracked": "palworld"
     },
     {
+      "title": "Denshattack!",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2524850/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 19.99,
+      "pct": 10,
+      "endsAt": "2026-07-29T17:00:23.000Z",
+      "steamAppId": 2524850,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Grand Theft Auto V Enhanced",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "currency": "USD",
+      "price": 14.99,
+      "list": 29.99,
+      "pct": 50,
+      "endsAt": "2026-07-28T17:00:00.000Z",
+      "steamAppId": 3240220,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Grand Theft Auto V Enhanced",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "currency": "USD",
+      "price": 14.99,
+      "list": 29.99,
+      "pct": 50,
+      "endsAt": "2026-07-28T17:00:00.000Z",
+      "steamAppId": 3240220,
+      "slugIfTracked": null
+    },
+    {
       "title": "DELTARUNE",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/1671210/",
@@ -26,39 +62,15 @@
       "slugIfTracked": "deltarune"
     },
     {
-      "title": "Grand Theft Auto V Enhanced",
+      "title": "Gamble With Your Friends",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
+      "url": "https://store.steampowered.com/app/3892270/",
       "currency": "USD",
-      "price": 14.99,
-      "list": 29.99,
-      "pct": 50,
-      "endsAt": "2026-07-28T17:00:00.000Z",
-      "steamAppId": 3240220,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Grand Theft Auto V Enhanced",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
-      "currency": "USD",
-      "price": 14.99,
-      "list": 29.99,
-      "pct": 50,
-      "endsAt": "2026-07-28T17:00:00.000Z",
-      "steamAppId": 3240220,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Angels Fall First",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/367270/",
-      "currency": "USD",
-      "price": 16.19,
-      "list": 17.99,
-      "pct": 10,
-      "endsAt": "2026-07-21T17:00:43.000Z",
-      "steamAppId": 367270,
+      "price": 4.95,
+      "list": 7.99,
+      "pct": 38,
+      "endsAt": "2026-07-29T18:00:00.000Z",
+      "steamAppId": 3892270,
       "slugIfTracked": null
     },
     {
@@ -74,18 +86,6 @@
       "slugIfTracked": null
     },
     {
-      "title": "Cat Mail Co.",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/4380490/",
-      "currency": "USD",
-      "price": 12.74,
-      "list": 14.99,
-      "pct": 15,
-      "endsAt": "2026-07-23T17:00:48.000Z",
-      "steamAppId": 4380490,
-      "slugIfTracked": null
-    },
-    {
       "title": "Red Dead Redemption 2",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/1174180/",
@@ -98,27 +98,27 @@
       "slugIfTracked": "red-dead-redemption-2"
     },
     {
-      "title": "No Man's Sky",
+      "title": "Cat Mail Co.",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/275850/",
+      "url": "https://store.steampowered.com/app/4380490/",
       "currency": "USD",
-      "price": 23.99,
-      "list": 59.99,
-      "pct": 60,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 275850,
-      "slugIfTracked": "no-mans-sky"
+      "price": 12.74,
+      "list": 14.99,
+      "pct": 15,
+      "endsAt": "2026-07-23T17:00:48.000Z",
+      "steamAppId": 4380490,
+      "slugIfTracked": null
     },
     {
-      "title": "The Incident at Galley House",
+      "title": "Crow Country",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3641000/",
+      "url": "https://store.steampowered.com/app/1996010/",
       "currency": "USD",
-      "price": 17.99,
+      "price": 5.99,
       "list": 19.99,
-      "pct": 10,
-      "endsAt": "2026-07-21T17:00:02.000Z",
-      "steamAppId": 3641000,
+      "pct": 70,
+      "endsAt": "2026-07-22T17:00:00.000Z",
+      "steamAppId": 1996010,
       "slugIfTracked": null
     }
   ]

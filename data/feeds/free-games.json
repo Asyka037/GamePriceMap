@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-15T09:31:12.637Z",
+  "updatedAt": "2026-07-16T09:37:25.301Z",
   "items": [
+    {
+      "title": "Foretales",
+      "storeId": "epic",
+      "url": "https://store.epicgames.com/en-US/p/foretales-d6c5bd",
+      "currency": "USD",
+      "price": 0,
+      "list": 19.99,
+      "pct": 100,
+      "steamAppId": null,
+      "slugIfTracked": null,
+      "status": "upcoming",
+      "endsAt": "2026-07-30T15:00:00.000Z"
+    },
     {
       "title": "Nova Lands",
       "storeId": "epic",
