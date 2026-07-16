@@ -67,6 +67,7 @@ for (const game of games) {
 
 const complete = completeSourceRun({ expected: games.length, changed: written, unchanged, failedItems: failedProducts, failedRequests });
 recordSourceRun('xbox-us', {
+  targeted: onlySlugs.length > 0,
   ok: complete,
   note: `changed ${written}, unchanged ${unchanged}, failed products ${failedProducts}, failed requests ${failedRequests}, expected ${games.length}`,
 });

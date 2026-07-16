@@ -11,7 +11,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchJson, sleep, chunk } from './lib/http.mjs';
+import { fetchJson, sleep, chunk, setRequestBudget } from './lib/http.mjs';
 import { fetchRates } from './lib/rates.mjs';
 import { ESHOP_REGIONS, PRICE_BATCH_SIZE, priceUrl, parsePriceEntry, indexPricesById, filterOutlierRegions } from './lib/eshop.mjs';
 import { assembleRawSnapshot, sameObservations } from './lib/snapshot.mjs';
@@ -46,7 +46,7 @@ if (!rates) {
     fs.mkdirSync(path.dirname(RATES_FILE), { recursive: true });
     fs.writeFileSync(RATES_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), rates }, null, 2) + '\n');
   } catch (err) {
-    recordSourceRun('eshop-regional', { ok: false, note: `rates unavailable before scrape: ${err.message}` });
+    recordSourceRun('eshop-regional', { ok: false, targeted: onlySlugs.length > 0, note: `rates unavailable before scrape: ${err.message}` });
     console.warn('eShop run skipped; old observations retained and failure recorded.');
     process.exit(0);
   }
@@ -56,21 +56,35 @@ if (!rates) {
 const rows = new Map(games.map((g) => [g.slug, []]));
 let failedRegionRequests = 0;
 const failedCcs = new Set();
+const plannedRequests = ESHOP_REGIONS.reduce((sum, { group }) => {
+  const inRegion = games.filter((g) => g.nsuids[group]).length;
+  return sum + Math.ceil(inRegion / PRICE_BATCH_SIZE);
+}, 0);
+setRequestBudget(plannedRequests * 3 + 10);
+let attemptedRequests = 0;
 
+outer:
 for (const { cc, group } of ESHOP_REGIONS) {
   const inRegion = games.filter((g) => g.nsuids[group]);
   for (const batch of chunk(inRegion, PRICE_BATCH_SIZE)) {
     const nsuidToSlug = new Map(batch.map((g) => [String(g.nsuids[group]), g.slug]));
     try {
+      attemptedRequests++;
       const body = await fetchJson(priceUrl(cc, [...nsuidToSlug.keys()]), { label: `eshop ${cc}` });
       const byId = indexPricesById(body);
       for (const [nsuid, slug] of nsuidToSlug) {
         const parsed = parsePriceEntry(byId.get(nsuid));
         if (parsed) rows.get(slug).push({ cc, ...parsed });
       }
-    } catch {
+    } catch (err) {
       failedRegionRequests++;
       failedCcs.add(cc);
+      if (err.budget || (attemptedRequests >= 10 && failedRegionRequests > attemptedRequests * 0.2)) {
+        console.error(`\ncircuit breaker: ${failedRegionRequests}/${attemptedRequests} requests failed — aborting run, old observations retained`);
+        // Regions never attempted must carry old rows forward too.
+        for (const region of ESHOP_REGIONS) failedCcs.add(region.cc);
+        break outer;
+      }
     }
     await sleep(REQUEST_DELAY_MS);
   }
@@ -110,7 +124,7 @@ for (const g of games) {
 }
 
 const complete = completeSourceRun({ expected: games.length, changed: written, unchanged, skipped, failedRequests: failedRegionRequests });
-recordSourceRun('eshop-regional', { ok: complete, note: `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, failed region requests ${failedRegionRequests}, expected ${games.length}` });
+recordSourceRun('eshop-regional', { ok: complete, targeted: onlySlugs.length > 0, note: `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, failed region requests ${failedRegionRequests}, expected ${games.length}` });
 console.log(`eShop snapshots changed: ${written}, unchanged: ${unchanged}, skipped: ${skipped}, failed region requests: ${failedRegionRequests}`);
 if (!complete) {
   console.warn('eShop run was incomplete; old observations were retained and lastSuccessAt was not advanced.');

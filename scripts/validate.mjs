@@ -346,6 +346,15 @@ for (const [name, e] of Object.entries(sourceHealth.sources ?? {})) {
 for (const required of ['steam-regional', 'eshop-regional', 'meta', ...(offerCatalog.offers?.length ? ['steam-offers'] : []), ...(xboxIds.size ? ['xbox-us'] : [])]) {
   if (!sourceHealth.sources?.[required]) fail(`source-health: missing required source ${required}`);
 }
+// Tier/shard keys are the only namespaced forms allowed (typo guard):
+// price channels use :extended-<0..6>, metadata uses :shard-<0..13>.
+for (const name of Object.keys(sourceHealth.sources ?? {})) {
+  if (name.includes(':')
+    && !/^(steam-regional|eshop-regional):extended-[0-6]$/.test(name)
+    && !/^meta:shard-(\d|1[0-3])$/.test(name)) {
+    fail(`source-health: malformed shard key ${name}`);
+  }
+}
 if (offerCatalog.offers?.length && !sourceHealth.sources?.['steam-offers']?.lastSuccessAt) {
   fail('source-health: steam-offers has no complete successful run');
 }
@@ -376,12 +385,25 @@ const health = {
     ...(offerCatalog.offers?.length && { 'steam-offers': sourceHealth.sources?.['steam-offers']?.lastSuccessAt ?? null }),
     'eshop-regional': sourceHealth.sources?.['eshop-regional']?.lastSuccessAt ?? null,
     ...(xboxIds.size && { 'xbox-us': sourceHealth.sources?.['xbox-us']?.lastSuccessAt ?? null }),
+    // Extended-tier shard stamps (present only once extended games exist).
+    ...Object.fromEntries(Object.entries(sourceHealth.sources ?? {})
+      .filter(([key]) => /:extended-\d+$/.test(key))
+      .map(([key, entry]) => [key, entry.lastSuccessAt ?? null])),
     'deals-steam': fs.existsSync(path.join(ROOT, 'data/feeds/deals-steam.json')) ? readJson('data/feeds/deals-steam.json').updatedAt : null,
     'deals-eshop': fs.existsSync(path.join(ROOT, 'data/feeds/deals-eshop.json')) ? readJson('data/feeds/deals-eshop.json').updatedAt : null,
     'deals-stores': fs.existsSync(path.join(ROOT, 'data/feeds/deals-stores.json')) ? readJson('data/feeds/deals-stores.json').updatedAt : null,
     'free-games': fs.existsSync(freePath) ? readJson('data/feeds/free-games.json').updatedAt : null,
     calendar: fs.existsSync(calPath) ? readJson('data/feeds/calendar.json').updatedAt : null,
-    meta: sourceHealth.sources?.meta?.lastSuccessAt ?? newestStamp('data/meta'),
+    // Meta fleet freshness = the weakest shard once shards exist (a fleet is
+    // only as fresh as its most overdue slice); legacy full-run stamp before.
+    meta: (() => {
+      const shardStamps = Object.entries(sourceHealth.sources ?? {})
+        .filter(([key]) => /^meta:shard-\d+$/.test(key))
+        .map(([, entry]) => entry.lastSuccessAt)
+        .filter(Boolean);
+      if (shardStamps.length > 0) return shardStamps.sort()[0];
+      return sourceHealth.sources?.meta?.lastSuccessAt ?? newestStamp('data/meta');
+    })(),
   },
 };
 fs.writeFileSync(path.join(ROOT, 'data/health.json'), JSON.stringify(health, null, 2) + '\n');

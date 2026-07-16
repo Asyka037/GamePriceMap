@@ -26,8 +26,8 @@ jobs:
       - name: Unit tests
         run: npm test
 
-      - name: Refresh metadata + reviews
-        run: node scripts/scrape-meta.mjs
+# Metadata refresh moved to daily.yml as a 1/14 catch-up shard (Phase S2);
+# a manual full sweep remains available: node scripts/scrape-meta.mjs
 
       - name: Scrape Xbox US POC (approved mappings only)
         run: npm run scrape:xbox

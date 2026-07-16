@@ -1,14 +1,12 @@
 ---
 import NoteBox from './NoteBox.astro';
 import RegionalGameCard from './RegionalGameCard.astro';
-import { regionalListingCards } from '../lib/derive.mjs';
 
 interface Props {
-  bundles: any[];
+  cards: any[];
   channel: 'steam' | 'eshop';
 }
-const { bundles, channel } = Astro.props;
-const cards = regionalListingCards(bundles, channel);
+const { cards, channel } = Astro.props;
 ---
 <div class="regional-card-grid" data-regional-hub={channel}>
   {cards.map((card) => <RegionalGameCard card={card} />)}

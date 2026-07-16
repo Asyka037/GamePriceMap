@@ -1,0 +1,34 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import RegionalHub from '../../../components/RegionalHub.astro';
+import Pager from '../../../components/Pager.astro';
+import { catalog, gameBundle } from '../../../lib/data.mjs';
+import { regionalListingCards } from '../../../lib/derive.mjs';
+import { pageSlice, pagerModel, extraPageNumbers } from '../../../lib/paginate.mjs';
+
+export function getStaticPaths() {
+  const bundles = catalog().map((g: any) => gameBundle(g.slug)).filter((b: any) => b.eshop);
+  const cards = regionalListingCards(bundles, 'eshop');
+  return extraPageNumbers(cards.length).map((n) => ({ params: { page: String(n) } }));
+}
+
+const page = Number(Astro.params.page);
+const bundles = catalog().map((g: any) => gameBundle(g.slug)).filter((b: any) => b.eshop);
+const cards = regionalListingCards(bundles, 'eshop');
+const pager = pagerModel('/switch/regional-pricing', page, cards.length);
+---
+<Layout
+  title={`Nintendo eShop Regional Prices — page ${page} | GamePriceMap`}
+  description="Compare Nintendo eShop game prices across global regions. Track regional discounts and rank the best Switch savings instantly."
+  active="nintendo"
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Nintendo<span>/</span><a href="/switch/regional-pricing">Region compare</a><span>/</span>Page {page}</div>
+    <h1>eShop region compare</h1>
+    <p class="regional-hub-intro">Browse Nintendo eShop games by the biggest savings between their cheapest and most expensive regions.</p>
+  </div>
+  <div class="wrap" style="padding-bottom: 24px;">
+    <RegionalHub cards={pageSlice(cards, page)} channel="eshop" />
+    <Pager pager={pager} />
+  </div>
+</Layout>

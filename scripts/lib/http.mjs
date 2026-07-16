@@ -1,8 +1,18 @@
 /**
  * Shared HTTP helpers for all scrapers.
- * Every outbound request in this repo MUST go through fetchJson —
+ * Every outbound request in this repo MUST go through fetchJson/fetchText —
  * CheapShark rejects generic User-Agents with HTTP 400, and a single
  * descriptive UA keeps us identifiable and throttleable by upstreams.
+ *
+ * Retry policy (Phase S3):
+ *   - 4xx except 408/429 is permanent: no retry, fail fast with err.status.
+ *   - 429 / 408 / 5xx / network / timeout retry with exponential backoff and
+ *     jitter; a Retry-After header (seconds or HTTP-date, capped at 120s)
+ *     overrides the computed backoff.
+ *   - A 429 also puts its host on a penalty interval (3s, doubling to 30s)
+ *     for the rest of the process, on top of the callers' own sleeps.
+ *   - An optional per-run request budget aborts runaway retry storms; the
+ *     thrown error has .budget = true so callers can distinguish it.
  */
 
 export const USER_AGENT =
@@ -24,43 +34,105 @@ export function chunk(items, size) {
   return out;
 }
 
-/**
- * GET a JSON document with timeout, exponential backoff and 3 attempts.
- * Throws after the final failed attempt; callers decide fail-soft policy.
- */
-export async function fetchJson(url, { label = url, timeoutMs = 30000, attempts = 3, headers = {} } = {}) {
+// --- per-run request budget -------------------------------------------------
+let requestBudget = Infinity;
+let requestCount = 0;
+
+/** Cap total outbound attempts for this process; call once at scraper start. */
+export function setRequestBudget(limit) {
+  requestBudget = limit;
+  requestCount = 0;
+}
+
+export function requestsMade() {
+  return requestCount;
+}
+
+// --- per-host 429 penalty pacing ---------------------------------------------
+const hostState = new Map(); // host -> { minIntervalMs, notBeforeEpochMs }
+
+function penalizeHost(host) {
+  const state = hostState.get(host) ?? { minIntervalMs: 0, notBeforeEpochMs: 0 };
+  state.minIntervalMs = Math.min(Math.max(state.minIntervalMs * 2, 3000), 30000);
+  hostState.set(host, state);
+  console.warn(`  ${host}: rate limited — host penalty interval now ${state.minIntervalMs}ms`);
+}
+
+async function paceHost(host) {
+  const state = hostState.get(host);
+  if (!state) return;
+  const wait = state.notBeforeEpochMs - Date.now();
+  if (wait > 0) await sleep(wait);
+}
+
+function markHostRequest(host) {
+  const state = hostState.get(host);
+  if (state?.minIntervalMs) state.notBeforeEpochMs = Date.now() + state.minIntervalMs;
+}
+
+/** Test hook: clear penalty/pacing state between test cases. */
+export function resetHostState() {
+  hostState.clear();
+}
+
+// --- retry core ---------------------------------------------------------------
+function parseRetryAfter(res) {
+  const header = res.headers?.get?.('retry-after');
+  if (!header) return null;
+  const seconds = Number(header);
+  if (Number.isFinite(seconds)) return Math.min(Math.max(seconds, 0) * 1000, 120000);
+  const at = Date.parse(header);
+  return Number.isFinite(at) ? Math.min(Math.max(at - Date.now(), 0), 120000) : null;
+}
+
+async function request(url, { label, timeoutMs, attempts, headers }, consume) {
+  const host = new URL(url).host;
   for (let attempt = 1; attempt <= attempts; attempt++) {
+    if (requestCount >= requestBudget) {
+      const err = new Error(`request budget exhausted (${requestBudget}) at ${label}`);
+      err.budget = true;
+      throw err;
+    }
+    await paceHost(host);
+    requestCount++;
     try {
-      const res = await fetch(url, {
-        headers: { ...HEADERS, ...headers },
-        signal: AbortSignal.timeout(timeoutMs),
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return await res.json();
+      const res = await fetch(url, { headers, signal: AbortSignal.timeout(timeoutMs) });
+      markHostRequest(host);
+      if (!res.ok) {
+        if (res.status === 429) penalizeHost(host);
+        const retryable = res.status === 429 || res.status === 408 || res.status >= 500;
+        const err = new Error(`HTTP ${res.status}${retryable ? '' : ' (permanent, not retried)'}`);
+        err.status = res.status;
+        if (!retryable) err.permanent = true;
+        else err.retryAfterMs = parseRetryAfter(res);
+        throw err;
+      }
+      return await consume(res);
     } catch (err) {
+      if (err.permanent || err.budget) {
+        console.warn(`  ${label}: ${err.message}`);
+        throw err;
+      }
       const finalAttempt = attempt === attempts;
       console.warn(`  ${label}: ${err.message}${finalAttempt ? '' : ', retrying...'}`);
       if (finalAttempt) throw err;
-      await sleep(2000 * attempt);
+      const backoff = Math.min(2000 * 2 ** (attempt - 1), 60000);
+      const jittered = backoff * (0.7 + Math.random() * 0.6);
+      await sleep(err.retryAfterMs ?? jittered);
     }
   }
 }
 
+/** GET a JSON document. Throws after the final failed attempt; callers own fail-soft policy. */
+export function fetchJson(url, { label = url, timeoutMs = 30000, attempts = 3, headers = {} } = {}) {
+  return request(url, { label, timeoutMs, attempts, headers: { ...HEADERS, ...headers } }, (res) => res.json());
+}
+
 /** Same retry policy for official HTML pages used by metadata scrapers. */
-export async function fetchText(url, { label = url, timeoutMs = 30000, attempts = 3, headers = {} } = {}) {
-  for (let attempt = 1; attempt <= attempts; attempt++) {
-    try {
-      const res = await fetch(url, {
-        headers: { ...HEADERS, Accept: 'text/html,application/xhtml+xml', ...headers },
-        signal: AbortSignal.timeout(timeoutMs),
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return { text: await res.text(), finalUrl: res.url };
-    } catch (err) {
-      const finalAttempt = attempt === attempts;
-      console.warn(`  ${label}: ${err.message}${finalAttempt ? '' : ', retrying...'}`);
-      if (finalAttempt) throw err;
-      await sleep(2000 * attempt);
-    }
-  }
+export function fetchText(url, { label = url, timeoutMs = 30000, attempts = 3, headers = {} } = {}) {
+  return request(
+    url,
+    { label, timeoutMs, attempts, headers: { ...HEADERS, Accept: 'text/html,application/xhtml+xml', ...headers } },
+    async (res) => ({ text: await res.text(), finalUrl: res.url }),
+  );
 }

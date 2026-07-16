@@ -1,9 +1,14 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import RegionalHub from '../../components/RegionalHub.astro';
+import Pager from '../../components/Pager.astro';
 import { catalog, gameBundle } from '../../lib/data.mjs';
+import { regionalListingCards } from '../../lib/derive.mjs';
+import { pageSlice, pagerModel } from '../../lib/paginate.mjs';
 
 const bundles = catalog().map((g: any) => gameBundle(g.slug)).filter((b: any) => b.eshop);
+const cards = regionalListingCards(bundles, 'eshop');
+const pager = pagerModel('/switch/regional-pricing', 1, cards.length);
 ---
 <Layout
   title="Nintendo eShop Regional Prices: Cheapest Regions & Deals | GamePriceMap"
@@ -16,6 +21,7 @@ const bundles = catalog().map((g: any) => gameBundle(g.slug)).filter((b: any) =>
     <p class="regional-hub-intro">Browse Nintendo eShop games by the biggest savings between their cheapest and most expensive regions.</p>
   </div>
   <div class="wrap" style="padding-bottom: 24px;">
-    <RegionalHub bundles={bundles} channel="eshop" />
+    <RegionalHub cards={pageSlice(cards, 1)} channel="eshop" />
+    <Pager pager={pager} />
   </div>
 </Layout>

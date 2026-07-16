@@ -33,8 +33,16 @@ export function completeSourceRun({ expected, changed, unchanged, skipped = 0, f
  * Record one scraper run. `ok` means every expected observation was verified
  * (even if all were unchanged); partial/failed runs increment the streak and
  * keep lastSuccessAt untouched while callers retain old observations.
+ *
+ * `targeted: true` (slug-filtered invocations) records NOTHING: a one-slug
+ * prefetch says nothing about source-wide freshness, and advancing
+ * lastSuccessAt from it would silently corrupt every trend-chart end date.
  */
-export function recordSourceRun(name, { ok, note = '' }) {
+export function recordSourceRun(name, { ok, note = '', targeted = false }) {
+  if (targeted) {
+    console.log(`  (targeted run: ${name} source-health untouched)`);
+    return null;
+  }
   const doc = readSourceHealth();
   const now = new Date().toISOString();
   const prev = doc.sources[name] ?? { lastSuccessAt: null, consecutiveFailures: 0 };

@@ -1,0 +1,34 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import DealRows from '../../../components/DealRows.astro';
+import Pager from '../../../components/Pager.astro';
+import { catalog, gameBundle } from '../../../lib/data.mjs';
+import { trackedDeals } from '../../../lib/derive.mjs';
+import { pageSlice, pagerModel, extraPageNumbers } from '../../../lib/paginate.mjs';
+
+export function getStaticPaths() {
+  const bundles = catalog().map((g: any) => gameBundle(g.slug));
+  const deals = trackedDeals(bundles, 'eshop');
+  return extraPageNumbers(deals.length).map((n) => ({ params: { page: String(n) } }));
+}
+
+const page = Number(Astro.params.page);
+const bundles = catalog().map((g: any) => gameBundle(g.slug));
+const deals = trackedDeals(bundles, 'eshop');
+const pager = pagerModel('/switch/deals', page, deals.length);
+---
+<Layout
+  title={`Nintendo eShop Deals & Active Discounts — page ${page} | GamePriceMap`}
+  description="Find the best Nintendo eShop deals and active discounts. Compare historical lows, track global price cuts, and grab the cheapest Switch games today."
+  active="nintendo"
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Nintendo<span>/</span><a href="/switch/deals">eShop deals</a><span>/</span>Page {page}</div>
+    <h1>eShop deals</h1>
+    <p>{deals.length} tracked games discounted in the US eShop right now, checked against all-time lows.</p>
+  </div>
+  <div class="wrap" style="padding-bottom: 24px;">
+    <DealRows deals={pageSlice(deals, page)} storeLabel="eShop US ·" />
+    <Pager pager={pager} />
+  </div>
+</Layout>

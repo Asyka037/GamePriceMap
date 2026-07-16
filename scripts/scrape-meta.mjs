@@ -1,6 +1,11 @@
 /**
- * Weekly metadata + review refresh for catalog games (single-appid requests;
+ * Metadata + review refresh for catalog games (single-appid requests;
  * combined data is allowed there, plan §2.1).
+ *
+ * Usage:
+ *   node scripts/scrape-meta.mjs                 # full sweep (manual / migration)
+ *   node scripts/scrape-meta.mjs slug ...        # targeted (no source-health)
+ *   node scripts/scrape-meta.mjs --shard=auto|N  # daily 1/14 catch-up shard
  *
  * Writes: data/meta/{slug}.json
  * Fail-soft per game: a failed fetch keeps the previous meta file.
@@ -10,18 +15,37 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchJson, fetchText, sleep } from './lib/http.mjs';
 import { parseNintendoMeta } from './lib/nintendo-meta.mjs';
-import { completeSourceRun, recordSourceRun } from './lib/sourcehealth.mjs';
+import { looksDegraded } from './lib/meta-guard.mjs';
+import { completeSourceRun, recordSourceRun, readSourceHealth } from './lib/sourcehealth.mjs';
+import { shardOf, pickOverdueShard, coveredMetaKeys, META_SHARDS } from './lib/schedule.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const META_DIR = path.join(ROOT, 'data', 'meta');
 fs.mkdirSync(META_DIR, { recursive: true });
 
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog.json'), 'utf8'));
-const onlySlugs = process.argv.slice(2);
+const args = process.argv.slice(2);
+const shardArg = args.find((a) => a.startsWith('--shard='))?.split('=')[1] ?? null;
+const onlySlugs = args.filter((a) => !a.startsWith('--'));
+if (shardArg && onlySlugs.length > 0) {
+  console.error('--shard and slug arguments are mutually exclusive.');
+  process.exit(1);
+}
+let shard = null;
+if (shardArg !== null) {
+  shard = shardArg === 'auto' ? pickOverdueShard(readSourceHealth(), 'meta', META_SHARDS, 'shard') : Number(shardArg);
+  if (!(Number.isInteger(shard) && shard >= 0 && shard < META_SHARDS)) {
+    console.error(`Bad shard "${shardArg}" (0..${META_SHARDS - 1} or auto).`);
+    process.exit(1);
+  }
+  console.log(`meta shard ${shard} selected${shardArg === 'auto' ? ' (most overdue)' : ''}`);
+}
 const games = catalog.games
   .filter((g) => Number.isInteger(g.steamAppId)
     || (g.nsuids?.americas && g.nintendoUsSlug))
+  .filter((g) => shard === null || shardOf(g.slug, META_SHARDS) === shard)
   .filter((g) => onlySlugs.length === 0 || onlySlugs.includes(g.slug));
+
 
 function sameMeta(previous, next) {
   if (!previous) return false;
@@ -93,6 +117,11 @@ for (const g of games) {
     const meta = Number.isInteger(g.steamAppId) ? await steamMeta(g) : await nintendoMeta(g);
     const metaPath = path.join(META_DIR, `${g.slug}.json`);
     const previous = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf8')) : null;
+    if (looksDegraded(previous, meta)) {
+      console.warn(`  ${g.slug}: response hollowed out (image/genres/reviews vanished) — keeping previous meta`);
+      failed++;
+      continue;
+    }
     if (sameMeta(previous, meta)) {
       unchanged++;
       continue;
@@ -106,10 +135,10 @@ for (const g of games) {
 }
 const complete = completeSourceRun({ expected: games.length, changed: written, unchanged, failedItems: failed });
 if (onlySlugs.length === 0) {
-  recordSourceRun('meta', {
-    ok: complete,
-    note: `changed ${written}, unchanged ${unchanged}, failed games ${failed}, expected ${games.length}`,
-  });
+  const note = `changed ${written}, unchanged ${unchanged}, failed games ${failed}, expected ${games.length}`;
+  for (const key of coveredMetaKeys({ shard })) {
+    recordSourceRun(key, { ok: complete, note });
+  }
 }
 console.log(`Meta changed: ${written}, unchanged: ${unchanged}, failed: ${failed}, expected: ${games.length}`);
 if (onlySlugs.length > 0 && !complete) process.exit(1);

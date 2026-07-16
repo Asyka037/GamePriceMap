@@ -15,7 +15,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchJson, sleep, chunk } from './lib/http.mjs';
-import { lookupUrl, batchUrl, parseGameLookup, parseCheapestEver, GAMES_BATCH_SIZE } from './lib/cheapshark.mjs';
+import { lookupUrl, batchUrl, parseGameLookup, parseCheapestEver, lookupIsDue, seedCheckIsDue, plusDays, RECHECK_DAYS, GAMES_BATCH_SIZE } from './lib/cheapshark.mjs';
 import { applySnapshot, seedAtl, emptyHistory } from './lib/history.mjs';
 import { usObservation } from './lib/snapshot.mjs';
 
@@ -83,24 +83,46 @@ if (fs.existsSync(EU_SEEDS_FILE)) {
   }
 }
 
-// Pass 2: resolve missing CheapShark gameIDs (once per game).
-const needLookup = observationsOnly ? [] : games.filter((g) => Number.isInteger(g.steamAppId) && !histories.get(g.slug).cheapsharkGameId);
+// CheapShark seed-status ledger: lookup misses and cheapest-ever checks are
+// persisted separately from history (which stores observations, not attempts).
+const STATUS_FILE = path.join(ROOT, 'data', 'seeds', 'cheapshark-status.json');
+const status = fs.existsSync(STATUS_FILE)
+  ? JSON.parse(fs.readFileSync(STATUS_FILE, 'utf8'))
+  : { updatedAt: null, games: {} };
+const statusOf = (slug) => (status.games[slug] ??= {});
+const maxLookupsArg = args.find((a) => a.startsWith('--max-lookups='));
+const maxLookups = maxLookupsArg ? Number(maxLookupsArg.split('=')[1]) : 150;
+
+// Pass 2: resolve missing CheapShark gameIDs (misses retry after 30 days,
+// network failures record nothing and retry next run; capped per run so
+// import waves spread their one-time lookups across daily runs).
+const needLookup = observationsOnly ? [] : games
+  .filter((g) => Number.isInteger(g.steamAppId) && !histories.get(g.slug).cheapsharkGameId)
+  .filter((g) => lookupIsDue(status.games[g.slug], today))
+  .slice(0, maxLookups);
 if (!observationsOnly) {
   for (const g of needLookup) {
     try {
       const body = await fetchJson(lookupUrl(g.steamAppId), { label: `cheapshark lookup ${g.slug}` });
       const id = parseGameLookup(body, g.steamAppId);
-      if (id) histories.get(g.slug).cheapsharkGameId = id;
-      else console.warn(`  ${g.slug}: not on CheapShark (unreleased?), skipping seed`);
+      if (id) {
+        histories.get(g.slug).cheapsharkGameId = id;
+        delete statusOf(g.slug).lookupMissUntil;
+      } else {
+        statusOf(g.slug).lookupMissUntil = plusDays(today, RECHECK_DAYS);
+        console.warn(`  ${g.slug}: not on CheapShark, next lookup after ${statusOf(g.slug).lookupMissUntil}`);
+      }
     } catch { /* fail-soft: retry on a future run */ }
     await sleep(REQUEST_DELAY_MS);
   }
 }
 
-// Pass 3: batch-fetch cheapestPriceEver for games without an external seed.
+// Pass 3: batch-fetch cheapestPriceEver. Due when never checked or older than
+// the recheck window — NOT "until CheapShark wins the ATL", which re-queried
+// self-observed-ATL games forever.
 const needSeed = observationsOnly ? [] : games.filter((g) => {
   const h = histories.get(g.slug);
-  return h.cheapsharkGameId && h.atl.pc?.seed !== 'cheapshark';
+  return h.cheapsharkGameId && seedCheckIsDue(status.games[g.slug], today);
 });
 if (!observationsOnly) {
   for (const group of chunk(needSeed, GAMES_BATCH_SIZE)) {
@@ -108,6 +130,9 @@ if (!observationsOnly) {
       const ids = group.map((g) => histories.get(g.slug).cheapsharkGameId);
       const body = await fetchJson(batchUrl(ids), { label: 'cheapshark batch' });
       for (const g of group) {
+        // The batch answered: the check happened even when this game carries
+        // no usable cheapestPriceEver (giveaway-only or absent entry).
+        statusOf(g.slug).seedCheckedAt = today;
         const cpe = parseCheapestEver(body, histories.get(g.slug).cheapsharkGameId);
         if (!cpe) continue;
         const res = seedAtl(histories.get(g.slug), 'pc', { price: cpe.price, date: cpe.date, seed: 'cheapshark' });
@@ -119,4 +144,9 @@ if (!observationsOnly) {
 }
 
 for (const h of histories.values()) saveHistory(h);
+if (!observationsOnly) {
+  status.updatedAt = new Date().toISOString();
+  fs.mkdirSync(path.dirname(STATUS_FILE), { recursive: true });
+  fs.writeFileSync(STATUS_FILE, JSON.stringify(status, null, 2) + '\n');
+}
 console.log(`Histories written: ${histories.size}, games with new events: ${events}, cheapshark lookups: ${needLookup.length}, seeded: ${needSeed.length}`);

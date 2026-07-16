@@ -2,8 +2,10 @@
  * Scrape Steam regional prices for every catalog game with a steamAppId.
  *
  * Usage:
- *   node scripts/scrape-steam.mjs           # all games
- *   node scripts/scrape-steam.mjs slug ...  # only listed slugs
+ *   node scripts/scrape-steam.mjs                        # all games (manual full sweep)
+ *   node scripts/scrape-steam.mjs slug ...               # targeted (never touches source-health)
+ *   node scripts/scrape-steam.mjs --tier=core            # daily sweep of core tier
+ *   node scripts/scrape-steam.mjs --tier=extended --shard=auto|N   # one catch-up shard
  *
  * Writes: data/rates/usd.json, data/snapshots/steam/{slug}.json
  * Fail-soft: a region that errors is skipped (old snapshot survives unless
@@ -12,11 +14,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchJson, sleep, chunk } from './lib/http.mjs';
+import { fetchJson, sleep, chunk, setRequestBudget } from './lib/http.mjs';
 import { fetchRates } from './lib/rates.mjs';
 import { STEAM_REGIONS, APPDETAILS_BATCH_SIZE, buildPriceUrl, parsePriceOverview, buildSnapshot } from './lib/steam.mjs';
 import { sameObservations } from './lib/snapshot.mjs';
-import { recordSourceRun, completeSourceRun } from './lib/sourcehealth.mjs';
+import { recordSourceRun, completeSourceRun, readSourceHealth } from './lib/sourcehealth.mjs';
+import { gamesForRun, pickOverdueShard, coveredHealthKeys, EXTENDED_SHARDS } from './lib/schedule.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'steam');
@@ -24,12 +27,41 @@ const RATES_FILE = path.join(ROOT, 'data', 'rates', 'usd.json');
 const REQUEST_DELAY_MS = 1500;
 
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog.json'), 'utf8'));
-const onlySlugs = process.argv.slice(2);
-const games = catalog.games
+const args = process.argv.slice(2);
+const tierArg = args.find((a) => a.startsWith('--tier='))?.split('=')[1] ?? null;
+const shardArg = args.find((a) => a.startsWith('--shard='))?.split('=')[1] ?? null;
+const onlySlugs = args.filter((a) => !a.startsWith('--'));
+if (tierArg && onlySlugs.length > 0) {
+  console.error('--tier and slug arguments are mutually exclusive.');
+  process.exit(1);
+}
+if (tierArg && !['core', 'extended'].includes(tierArg)) {
+  console.error(`Unknown tier "${tierArg}".`);
+  process.exit(1);
+}
+let shard = null;
+if (tierArg === 'extended') {
+  shard = shardArg === 'auto' || shardArg === null
+    ? pickOverdueShard(readSourceHealth(), 'steam-regional')
+    : Number(shardArg);
+  if (!(Number.isInteger(shard) && shard >= 0 && shard < EXTENDED_SHARDS)) {
+    console.error(`Bad shard "${shardArg}" (0..${EXTENDED_SHARDS - 1} or auto).`);
+    process.exit(1);
+  }
+  console.log(`extended shard ${shard} selected${shardArg === 'auto' || shardArg === null ? ' (most overdue)' : ''}`);
+}
+
+const games = gamesForRun(catalog.games, { tier: tierArg, shard })
   .filter((g) => Number.isInteger(g.steamAppId))
   .filter((g) => onlySlugs.length === 0 || onlySlugs.includes(g.slug));
 
 if (games.length === 0) {
+  // An empty tier/shard is a normal state before extended games exist —
+  // succeed without touching snapshots or source-health.
+  if (tierArg) {
+    console.log(`No games in tier=${tierArg}${shard !== null ? ` shard=${shard}` : ''}; nothing to do.`);
+    process.exit(0);
+  }
   console.error('No catalog games matched.');
   process.exit(1);
 }
@@ -47,20 +79,36 @@ try {
 const appIdToSlug = new Map(games.map((g) => [g.steamAppId, g.slug]));
 const batches = chunk(games.map((g) => g.steamAppId), APPDETAILS_BATCH_SIZE);
 
+// Budget: every price request may retry internally; 3× the nominal count is
+// generous headroom, while a runaway retry storm still terminates the run.
+const plannedRequests = STEAM_REGIONS.length * batches.length;
+setRequestBudget(plannedRequests * 3 + 10);
+
 // regionPrices: slug -> { cc -> parsed price | null }
 const regionPrices = new Map(games.map((g) => [g.slug, {}]));
 let failedRegionRequests = 0;
+let attemptedRequests = 0;
+let tripped = false;
 
+outer:
 for (const cc of STEAM_REGIONS) {
   for (const ids of batches) {
     try {
+      attemptedRequests++;
       const body = await fetchJson(buildPriceUrl(ids, cc), { label: `steam ${cc} batch` });
       for (const id of ids) {
         const slug = appIdToSlug.get(id);
         regionPrices.get(slug)[cc] = parsePriceOverview(body[String(id)]);
       }
-    } catch {
+    } catch (err) {
       failedRegionRequests++;
+      // Circuit breaker: >20% failures (after a minimum sample) means the
+      // upstream is unhealthy — stop asking, keep old data, record failure.
+      if (err.budget || (attemptedRequests >= 10 && failedRegionRequests > attemptedRequests * 0.2)) {
+        tripped = true;
+        console.error(`\ncircuit breaker: ${failedRegionRequests}/${attemptedRequests} requests failed — aborting run, old observations retained`);
+        break outer;
+      }
     }
     await sleep(REQUEST_DELAY_MS);
   }
@@ -101,7 +149,10 @@ for (const g of games) {
 }
 
 const complete = completeSourceRun({ expected: games.length, changed: written, unchanged, skipped, failedRequests: failedRegionRequests });
-recordSourceRun('steam-regional', { ok: complete, note: `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, failed region requests ${failedRegionRequests}, expected ${games.length}` });
+const note = `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, failed region requests ${failedRegionRequests}, expected ${games.length}`;
+for (const key of coveredHealthKeys(games, 'steam-regional', { tier: tierArg, shard })) {
+  recordSourceRun(key, { ok: complete, targeted: onlySlugs.length > 0, note });
+}
 console.log(`Snapshots changed: ${written}, unchanged: ${unchanged}, skipped: ${skipped}, failed region requests: ${failedRegionRequests}`);
 if (!complete) {
   console.warn('Steam run was incomplete; old observations were retained and lastSuccessAt was not advanced.');

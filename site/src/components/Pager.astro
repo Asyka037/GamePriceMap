@@ -1,0 +1,74 @@
+---
+interface Props {
+  pager: {
+    page: number;
+    count: number;
+    prevHref: string | null;
+    nextHref: string | null;
+    pages: { n: number; href: string; current: boolean }[];
+  } | null;
+}
+const { pager } = Astro.props;
+---
+{pager && (
+  <nav class="pager" aria-label="Pagination">
+    {pager.prevHref ? <a class="pager-btn" href={pager.prevHref} rel="prev">← Prev</a> : <span class="pager-btn is-disabled" aria-hidden="true">← Prev</span>}
+    <ol class="pager-list">
+      {pager.pages.map((p) => (
+        <li>
+          {p.current
+            ? <span class="pager-num is-current" aria-current="page">{p.n}</span>
+            : <a class="pager-num" href={p.href}>{p.n}</a>}
+        </li>
+      ))}
+    </ol>
+    {pager.nextHref ? <a class="pager-btn" href={pager.nextHref} rel="next">Next →</a> : <span class="pager-btn is-disabled" aria-hidden="true">Next →</span>}
+  </nav>
+)}
+
+<style>
+  .pager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin: 26px 0 8px;
+    flex-wrap: wrap;
+  }
+  .pager-list {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .pager-btn,
+  .pager-num {
+    display: inline-block;
+    min-width: 38px;
+    padding: 7px 12px;
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ink);
+    background: #fff;
+    border: 2.5px solid var(--ink);
+    box-shadow: var(--shadow-sm);
+    text-decoration: none;
+  }
+  .pager-btn:hover,
+  .pager-num:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 0 var(--ink);
+  }
+  .pager-num.is-current {
+    background: var(--gold-bg);
+  }
+  .pager-btn.is-disabled {
+    opacity: 0.4;
+    box-shadow: none;
+    pointer-events: none;
+  }
+</style>

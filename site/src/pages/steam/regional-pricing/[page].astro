@@ -1,0 +1,36 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import RegionalHub from '../../../components/RegionalHub.astro';
+import Pager from '../../../components/Pager.astro';
+import { catalog, gameBundle } from '../../../lib/data.mjs';
+import { regionalListingCards } from '../../../lib/derive.mjs';
+import { pageSlice, pagerModel, extraPageNumbers } from '../../../lib/paginate.mjs';
+
+// Page 1 is the canonical /steam/regional-pricing route; this route only
+// materialises once the catalog outgrows a single page.
+export function getStaticPaths() {
+  const bundles = catalog().map((g: any) => gameBundle(g.slug));
+  const cards = regionalListingCards(bundles, 'steam');
+  return extraPageNumbers(cards.length).map((n) => ({ params: { page: String(n) } }));
+}
+
+const page = Number(Astro.params.page);
+const bundles = catalog().map((g: any) => gameBundle(g.slug));
+const cards = regionalListingCards(bundles, 'steam');
+const pager = pagerModel('/steam/regional-pricing', page, cards.length);
+---
+<Layout
+  title={`Steam Regional Prices — page ${page} | GamePriceMap`}
+  description="Compare Steam game prices across global regions. Track regional discounts and rank the best store savings instantly."
+  active="steam"
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Steam<span>/</span><a href="/steam/regional-pricing">Regional pricing</a><span>/</span>Page {page}</div>
+    <h1>Steam regional pricing</h1>
+    <p class="regional-hub-intro">Browse Steam-supported games by the biggest savings between their cheapest and most expensive regions.</p>
+  </div>
+  <div class="wrap" style="padding-bottom: 24px;">
+    <RegionalHub cards={pageSlice(cards, page)} channel="steam" />
+    <Pager pager={pager} />
+  </div>
+</Layout>

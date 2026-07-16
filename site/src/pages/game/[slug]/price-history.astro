@@ -6,6 +6,7 @@ import NoteBox from '../../../components/NoteBox.astro';
 import { catalog, gameBundle, sourceHealth } from '../../../lib/data.mjs';
 import { fmtUsd } from '../../../lib/derive.mjs';
 import { firstObservedDate, multiStepChartModel } from '../../../lib/chart.mjs';
+import { sourceKeyFor } from '../../../../../scripts/lib/schedule.mjs';
 
 export function getStaticPaths() {
   return catalog().map((g: { slug: string }) => ({ params: { slug: g.slug } }));
@@ -28,9 +29,9 @@ const trackingSince = firstObservedDate(historyEvents);
 // 不是"今天"——抓取停摆时线就停在那里，不假装数据仍新鲜。
 const health = sourceHealth().sources ?? {};
 const channelDefs = [
-  { id: 'steam', label: 'Steam · US', color: 'var(--teal)', lineStyle: 'solid', dash: '', marker: 'square', source: 'steam-regional', tracked: !!bundle.steam },
-  { id: 'eshop', label: 'eShop · US', color: 'var(--red)', lineStyle: 'dash', dash: '10 6', marker: 'circle', source: 'eshop-regional', tracked: !!bundle.eshop },
-  { id: 'xbox', label: 'Xbox · US', color: 'var(--text-2)', lineStyle: 'dot', dash: '3 6', marker: 'diamond', source: 'xbox-us', tracked: !!bundle.xbox, fallbackSince: '2026-07-12' },
+  { id: 'steam', label: 'Steam · US', color: 'var(--teal)', lineStyle: 'solid', dash: '', marker: 'square', source: sourceKeyFor('steam', game), tracked: !!bundle.steam },
+  { id: 'eshop', label: 'eShop · US', color: 'var(--red)', lineStyle: 'dash', dash: '10 6', marker: 'circle', source: sourceKeyFor('eshop', game), tracked: !!bundle.eshop },
+  { id: 'xbox', label: 'Xbox · US', color: 'var(--text-2)', lineStyle: 'dot', dash: '3 6', marker: 'diamond', source: sourceKeyFor('xbox', game), tracked: !!bundle.xbox, fallbackSince: '2026-07-12' },
 ].filter((channel) => channel.tracked);
 
 const chart = multiStepChartModel(historyEvents, {

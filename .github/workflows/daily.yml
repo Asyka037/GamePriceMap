@@ -23,8 +23,11 @@ jobs:
         with:
           node-version: 22
 
-      - name: Scrape Steam regional prices (writes rates + snapshots)
-        run: npm run scrape:steam
+      - name: Scrape Steam regional prices — core tier (writes rates + snapshots)
+        run: npm run scrape:steam -- --tier=core
+
+      - name: Scrape Steam regional prices — most overdue extended shard
+        run: npm run scrape:steam -- --tier=extended --shard=auto
 
       - name: Scrape eShop regional prices (reuses fresh rates)
         run: npm run scrape:eshop
@@ -34,6 +37,9 @@ jobs:
 
       - name: Refresh release calendar + artwork
         run: node scripts/scrape-calendar.mjs
+
+      - name: Refresh metadata — most overdue shard (1/14 daily)
+        run: node scripts/scrape-meta.mjs --shard=auto
 
       - name: Evolve price history + ATL seeds
         run: npm run history

@@ -18,7 +18,19 @@ function readJson(rel, fallback = null) {
   }
 }
 
-export const catalog = () => readJson('catalog.json', { games: [] }).games;
+// Shared files are read once per build, not once per page: at 1,200+ games
+// every page re-reading catalog.json plus a linear find() turns the static
+// build into O(N²) file IO for no benefit (build-time data never changes
+// mid-build). Per-slug files (snapshots/history/meta) stay uncached — each
+// is read a bounded number of times.
+let catalogCache = null;
+let bySlugCache = null;
+let sourceHealthCache = null;
+export const catalog = () => (catalogCache ??= readJson('catalog.json', { games: [] }).games);
+export const gameBySlug = (slug) => {
+  bySlugCache ??= new Map(catalog().map((g) => [g.slug, g]));
+  return bySlugCache.get(slug) ?? null;
+};
 
 // 快照在 git 中只存本币原始观测（data-v2.1）；USD/排名在此处用当日汇率派生，
 // 下游（derive/pages/map）拿到的形状与旧 schema 完全一致。
@@ -50,7 +62,7 @@ export const steamOffers = (slug) => {
     }),
   };
 };
-export const sourceHealth = () => readJson('source-health.json', { updatedAt: null, sources: {} });
+export const sourceHealth = () => (sourceHealthCache ??= readJson('source-health.json', { updatedAt: null, sources: {} }));
 export const history = (slug) => readJson(`history/${slug}.json`);
 export const meta = (slug) => readJson(`meta/${slug}.json`);
 export const feed = (name) => readJson(`feeds/${name}.json`, { updatedAt: null, items: [] });
@@ -61,7 +73,7 @@ export const rates = () => readJson('rates/usd.json', { updatedAt: null, rates: 
 export function gameBundle(slug) {
   return {
     slug,
-    game: catalog().find((g) => g.slug === slug) ?? null,
+    game: gameBySlug(slug),
     steam: steamSnapshot(slug),
     eshop: eshopSnapshot(slug),
     xbox: xboxSnapshot(slug),

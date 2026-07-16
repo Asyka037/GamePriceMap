@@ -95,6 +95,7 @@ const complete = completeSourceRun({
 });
 if (!partialRun) {
   recordSourceRun('steam-offers', {
+    targeted: onlySlugs.length > 0,
     ok: complete,
     note: `changed ${changed}, unchanged ${unchanged}, files written ${filesWritten}, failed requests ${failedRequests}, expected ${offers.length}`,
   });

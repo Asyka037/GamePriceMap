@@ -1,9 +1,14 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import RegionalHub from '../../components/RegionalHub.astro';
+import Pager from '../../components/Pager.astro';
 import { catalog, gameBundle } from '../../lib/data.mjs';
+import { regionalListingCards } from '../../lib/derive.mjs';
+import { pageSlice, pagerModel } from '../../lib/paginate.mjs';
 
 const bundles = catalog().map((g: any) => gameBundle(g.slug));
+const cards = regionalListingCards(bundles, 'steam');
+const pager = pagerModel('/steam/regional-pricing', 1, cards.length);
 ---
 <Layout
   title="Steam Regional Prices: Cheapest Regions & Deals | GamePriceMap"
@@ -16,6 +21,7 @@ const bundles = catalog().map((g: any) => gameBundle(g.slug));
     <p class="regional-hub-intro">Browse Steam-supported games by the biggest savings between their cheapest and most expensive regions.</p>
   </div>
   <div class="wrap" style="padding-bottom: 24px;">
-    <RegionalHub bundles={bundles} channel="steam" />
+    <RegionalHub cards={pageSlice(cards, 1)} channel="steam" />
+    <Pager pager={pager} />
   </div>
 </Layout>

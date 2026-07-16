@@ -1,0 +1,36 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import DealRows from '../../../components/DealRows.astro';
+import Pager from '../../../components/Pager.astro';
+import { catalog, gameBundle } from '../../../lib/data.mjs';
+import { trackedDeals } from '../../../lib/derive.mjs';
+import { pageSlice, pagerModel, extraPageNumbers } from '../../../lib/paginate.mjs';
+
+// Page 1 is the canonical /steam/deals route (with the featured-feed extras);
+// these overflow pages appear only when tracked deals outgrow one page.
+export function getStaticPaths() {
+  const bundles = catalog().map((g: any) => gameBundle(g.slug));
+  const deals = trackedDeals(bundles, 'steam');
+  return extraPageNumbers(deals.length).map((n) => ({ params: { page: String(n) } }));
+}
+
+const page = Number(Astro.params.page);
+const bundles = catalog().map((g: any) => gameBundle(g.slug));
+const deals = trackedDeals(bundles, 'steam');
+const pager = pagerModel('/steam/deals', page, deals.length);
+---
+<Layout
+  title={`Steam Deals & Active Discounts — page ${page} | GamePriceMap`}
+  description="Find the best Steam deals and active discounts. Compare historical lows, track global price cuts, and grab the cheapest digital games today."
+  active="steam"
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Steam<span>/</span><a href="/steam/deals">Deals</a><span>/</span>Page {page}</div>
+    <h1>Steam deals</h1>
+    <p>{deals.length} tracked games discounted right now. Every deal is checked against its all-time low.</p>
+  </div>
+  <div class="wrap" style="padding-bottom: 24px;">
+    <DealRows deals={pageSlice(deals, page)} storeLabel="Steam ·" />
+    <Pager pager={pager} />
+  </div>
+</Layout>

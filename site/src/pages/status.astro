@@ -29,12 +29,22 @@ const cadence: Record<string, number> = {
   'deals-steam': 26, 'deals-eshop': 26, 'deals-stores': 26, 'free-games': 26,
   calendar: 8 * 24, meta: 8 * 24,
 };
+// Tier-scheduled shard keys: price channels rotate 7 extended shards daily
+// (budget 8 days); metadata rotates 14 shards daily (budget 15 days).
+function shardMeta(key: string) {
+  const match = key.match(/^([a-z-]+):(extended|shard)-(\d+)$/);
+  if (!match) return null;
+  const base = labels[match[1]] ?? match[1];
+  const budget = match[2] === 'extended' ? 8 * 24 : 15 * 24;
+  return { label: `${base} (${match[2]} ${match[3]})`, budget };
+}
 const now = Date.now();
 const rows = Object.entries(health.sources).map(([key, stamp]) => {
-  const budget = cadence[key] ?? 26;
+  const shard = shardMeta(key);
+  const budget = shard?.budget ?? cadence[key] ?? 26;
   const rawStamp = typeof stamp === 'string' ? stamp : null;
   return {
-    label: labels[key] ?? key,
+    label: shard?.label ?? labels[key] ?? key,
     rawStamp,
     stamp: formatUtcStamp(rawStamp),
     budget,
