@@ -13,8 +13,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchJson, fetchText, requestBudgetFor, setRequestBudget, shouldTripCircuit, sleep } from './lib/http.mjs';
-import { parseNintendoMeta } from './lib/nintendo-meta.mjs';
+import { fetchJson, requestBudgetFor, setRequestBudget, shouldTripCircuit, sleep } from './lib/http.mjs';
+import { euSolrMetaUrl, parseEuSolrMeta } from './lib/nintendo-meta.mjs';
 import { looksDegraded } from './lib/meta-guard.mjs';
 import { completeSourceRun, recordSourceRun, readSourceHealth, sourceRunExitCode } from './lib/sourcehealth.mjs';
 import { shardOf, memberShards, pickOverdueShard, coveredMetaKeys, META_SHARDS } from './lib/schedule.mjs';
@@ -24,8 +24,7 @@ const META_DIR = path.join(ROOT, 'data', 'meta');
 fs.mkdirSync(META_DIR, { recursive: true });
 
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog.json'), 'utf8'));
-const eligibleGames = catalog.games.filter((g) => Number.isInteger(g.steamAppId)
-  || (g.nsuids?.americas && g.nintendoUsSlug));
+const eligibleGames = catalog.games.filter((g) => Number.isInteger(g.steamAppId) || g.nsuids?.europe);
 const args = process.argv.slice(2);
 const shardArg = args.find((a) => a.startsWith('--shard='))?.split('=')[1] ?? null;
 const onlySlugs = args.filter((a) => !a.startsWith('--'));
@@ -99,27 +98,15 @@ async function steamMeta(g) {
   };
 }
 
-async function nintendoMeta(g) {
-  const url = `https://www.nintendo.com/us/store/products/${g.nintendoUsSlug}/`;
-  const { text, finalUrl } = await fetchText(url, {
-    label: `Nintendo metadata ${g.slug}`,
-    headers: {
-      // Nintendo's product frontend serves structured data only to a browser
-      // user agent; all transport/retry behavior still goes through http.mjs.
-      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126 Safari/537.36',
-    },
-  });
-  if (new URL(finalUrl).pathname !== `/us/store/products/${g.nintendoUsSlug}/`) {
-    throw new Error(`unexpected Nintendo redirect to ${finalUrl}`);
-  }
-  const parsed = parseNintendoMeta(text, {
-    slug: g.slug,
-    title: g.title,
-    nsuid: g.nsuids.americas,
-    platforms: g.platforms,
-    productSlug: g.nintendoUsSlug,
-  });
-  if (!parsed) throw new Error('official page identity or metadata guard failed');
+/**
+ * NS-only metadata now comes from the public Nintendo-Europe Solr index —
+ * Nintendo US Terms of Use prohibit automated access to US store pages, so
+ * the scheduled pipeline never touches them (one-time human review only).
+ */
+async function euMeta(g) {
+  const body = await fetchJson(euSolrMetaUrl(g.nsuids.europe), { label: `eu solr meta ${g.slug}` });
+  const parsed = parseEuSolrMeta(body, { slug: g.slug, title: g.title, euNsuid: g.nsuids.europe });
+  if (!parsed) throw new Error('EU Solr identity or metadata guard failed');
   await sleep(1200);
   return parsed;
 }
@@ -131,7 +118,7 @@ let attempted = 0;
 for (const g of games) {
   attempted++;
   try {
-    const meta = Number.isInteger(g.steamAppId) ? await steamMeta(g) : await nintendoMeta(g);
+    const meta = Number.isInteger(g.steamAppId) ? await steamMeta(g) : await euMeta(g);
     const metaPath = path.join(META_DIR, `${g.slug}.json`);
     const previous = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf8')) : null;
     if (looksDegraded(previous, meta)) {

@@ -353,8 +353,18 @@ if (fs.existsSync(metaDir)) {
     if (!(typeof m.headerImage === 'string' && /^https:\/\//.test(m.headerImage))) fail(`meta/${file}: missing absolute headerImage`);
     const game = catalogBySlug.get(m.slug);
     if (!Number.isInteger(game?.steamAppId)) {
-      if (m.metaSource !== 'nintendo-us') fail(`meta/${file}: Nintendo-only game requires nintendo-us metaSource`);
-      if (m.storeUrl !== `https://www.nintendo.com/us/store/products/${game?.nintendoUsSlug}/`) fail(`meta/${file}: Nintendo storeUrl does not match reviewed catalog URL`);
+      // Two reviewed Nintendo meta sources exist: legacy human-reviewed US
+      // pages (nintendo-us, requires a reviewed nintendoUsSlug URL) and the
+      // scheduled EU Solr feed (nintendo-eu-solr, EU store URL; adopted
+      // 2026-07-17 because Nintendo US ToU forbids automated US page access).
+      if (m.metaSource === 'nintendo-us') {
+        if (m.storeUrl !== `https://www.nintendo.com/us/store/products/${game?.nintendoUsSlug}/`) fail(`meta/${file}: Nintendo storeUrl does not match reviewed catalog URL`);
+      } else if (m.metaSource === 'nintendo-eu-solr') {
+        if (!game?.nsuids?.europe) fail(`meta/${file}: EU-sourced meta requires a europe NSUID in catalog`);
+        if (m.storeUrl !== null && !/^https:\/\/www\.nintendo\.com\//.test(m.storeUrl)) fail(`meta/${file}: EU meta storeUrl must be an official nintendo.com URL`);
+      } else {
+        fail(`meta/${file}: Nintendo-only game requires nintendo-us or nintendo-eu-solr metaSource`);
+      }
     }
   }
 }

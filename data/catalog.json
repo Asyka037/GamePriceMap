@@ -2007,6 +2007,33 @@
       ],
       "tier": "core",
       "addedAt": "2026-07-16"
+    },
+    {
+      "slug": "helldivers-2",
+      "title": "HELLDIVERS 2",
+      "steamAppId": 553850,
+      "nsuids": null,
+      "platforms": [
+        "pc",
+        "ps5"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-17"
+    },
+    {
+      "slug": "super-mario-party",
+      "title": "Super Mario Party",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": null,
+        "europe": "70010000014063",
+        "japan": "70010000013977"
+      },
+      "platforms": [
+        "switch"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-17"
     }
   ]
 }

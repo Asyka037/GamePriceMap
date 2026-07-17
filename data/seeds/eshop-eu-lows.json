@@ -82,5 +82,9 @@
   "cuphead": {
     "amount": 16.99,
     "currency": "GBP"
+  },
+  "super-mario-party": {
+    "currency": "GBP",
+    "amount": 49.99
   }
 }

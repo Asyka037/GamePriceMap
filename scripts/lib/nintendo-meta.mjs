@@ -88,3 +88,60 @@ export function parseNintendoMeta(html, {
     metaSource: 'nintendo-us',
   };
 }
+
+// --- EU Solr metadata (scheduled path since 2026-07-17) -----------------------
+//
+// Nintendo US Terms of Use prohibit automated access to US store pages, so the
+// scheduled NS-only metadata refresh reads the public Nintendo-Europe Solr
+// index instead (already the discovery/EU-seed source in this repo). US pages
+// are only ever opened by a human during one-time candidate review.
+
+export function euSolrMetaUrl(euNsuid) {
+  const q = new URLSearchParams({
+    q: '*',
+    fq: `type:GAME AND nsuid_txt:${euNsuid}`,
+    rows: '1',
+    wt: 'json',
+    fl: 'title,nsuid_txt,type,image_url,image_url_h2x1_s,pretty_game_categories_txt,dates_released_dts,publisher,excerpt,url,playable_on_txt',
+  });
+  return `https://searching.nintendo-europe.com/en/select?${q}`;
+}
+
+/**
+ * Fail closed unless the single returned document carries our exact EU
+ * base-game NSUID and the catalog title. Same output shape as parseNintendoMeta
+ * so every downstream consumer is source-agnostic.
+ */
+export function parseEuSolrMeta(body, { slug, title, euNsuid, now = new Date() } = {}) {
+  const doc = body?.response?.docs?.[0];
+  if (!doc || doc.type !== 'GAME') return null;
+  if (!(doc.nsuid_txt ?? []).map(String).includes(String(euNsuid))) return null;
+  if (!isNintendoBaseGameNsuid(String(euNsuid ?? ''))) return null;
+  if (!titleMatches(doc.title, title)) return null;
+
+  const headerImage = doc.image_url_h2x1_s ?? doc.image_url ?? null;
+  if (!/^https:\/\/(www\.)?nintendo\./.test(headerImage ?? '')) return null;
+  const releaseDate = (doc.dates_released_dts ?? [])[0] ?? null;
+  const releaseMs = Date.parse(releaseDate);
+  const nowMs = now instanceof Date ? now.getTime() : Number(now);
+
+  return {
+    slug,
+    updatedAt: new Date(nowMs).toISOString(),
+    name: doc.title,
+    headerImage,
+    genres: (doc.pretty_game_categories_txt ?? []).map((g) => String(g).trim()).filter(Boolean),
+    releaseDate,
+    comingSoon: Number.isFinite(releaseMs) ? releaseMs > nowMs : false,
+    metacritic: null,
+    recommendations: null,
+    reviewDesc: null,
+    reviewCount: 0,
+    reviewPercent: null,
+    description: doc.excerpt ?? null,
+    publisher: doc.publisher ?? null,
+    developer: null,
+    storeUrl: doc.url ? `https://www.nintendo.com${doc.url}` : null,
+    metaSource: 'nintendo-eu-solr',
+  };
+}

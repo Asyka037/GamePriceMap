@@ -35,8 +35,12 @@ export function validateCatalogGame(game) {
     throw new Error(`${label}: Nintendo mapping requires a Switch platform`);
   }
   if (!Number.isInteger(game.steamAppId) && !hasNsuid(game.nsuids)) throw new Error(`${label}: no supported store mapping`);
-  if (!Number.isInteger(game.steamAppId) && !(game.nsuids?.americas && game.nintendoUsSlug)) {
-    throw new Error(`${label}: Nintendo-only metadata requires Americas NSUID and reviewed US product slug`);
+  // Nintendo-only metadata comes from the EU Solr feed since 2026-07-17
+  // (Nintendo US ToU forbids automated US page access), so the hard
+  // requirement is a europe NSUID; americas + nintendoUsSlug stay optional
+  // human-reviewed extras that unlock the US price line.
+  if (!Number.isInteger(game.steamAppId) && !game.nsuids?.europe) {
+    throw new Error(`${label}: Nintendo-only game requires a europe NSUID for metadata and EU prices`);
   }
   if (game.nintendoUsSlug != null && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(game.nintendoUsSlug)) {
     throw new Error(`${label}: bad nintendoUsSlug`);

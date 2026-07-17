@@ -55,6 +55,10 @@ const jsonLd = {
     <GameTabs slug={slug!} current="overview" />
 
     <section class="game-overview-content" style="padding: 24px 0 8px;">
+      {storeRows.length === 0 && (
+        <p class="us-price-pending">No US store price is tracked for this game yet — regional prices below are live. A reviewed US listing will add the US price line and its history.</p>
+      )}
+      {storeRows.length > 0 && (
       <div class="price-table-wrap" role="region" aria-label="Store price comparison" tabindex="0">
         <table class="price-table">
         <thead>
@@ -82,6 +86,7 @@ const jsonLd = {
         </tbody>
         </table>
       </div>
+      )}
 
       {topRegions.length > 0 && (
         <div class="detail-cols">
@@ -129,3 +134,14 @@ const jsonLd = {
     </section>
   </div>
 </Layout>
+
+<style>
+  .us-price-pending {
+    border: 2.5px dashed var(--ink);
+    padding: 14px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-2);
+    margin-bottom: 18px;
+  }
+</style>

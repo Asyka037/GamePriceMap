@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T15:26:05.006Z",
+  "updatedAt": "2026-07-17T06:52:46.529Z",
   "games": {
     "final-fantasy-vii": {
       "lookupMissUntil": "2026-08-15"
@@ -273,6 +273,9 @@
     },
     "final-fantasy-xii-the-zodiac-age": {
       "seedCheckedAt": "2026-07-16"
+    },
+    "helldivers-2": {
+      "seedCheckedAt": "2026-07-17"
     }
   }
 }
