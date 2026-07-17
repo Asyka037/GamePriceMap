@@ -2,8 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import { calendar, gameBundle } from '../lib/data.mjs';
 
-interface Props { month: string }
-const { month } = Astro.props;
+interface Props { month: string; canonicalPath?: string | null }
+const { month, canonicalPath = null } = Astro.props;
 const cal = calendar();
 const items = cal.months[month] ?? [];
 const allMonths = Object.keys(cal.months);
@@ -15,6 +15,7 @@ const imageFor = (entry: any) => entry.image ?? (entry.slugIfTracked ? gameBundl
 <Layout
   title={`PC & Nintendo Switch new game releases — ${monthName} | GamePriceMap`}
   description={`${items.length} PC and Nintendo Switch games releasing in ${monthName}, with store links, artwork and dates.`}
+  canonicalPath={canonicalPath}
 >
   <div class="page-head wrap">
     <div class="breadcrumb"><a href="/">Home</a><span>/</span>PC &amp; Nintendo Switch new releases<span>/</span>{monthName}</div>

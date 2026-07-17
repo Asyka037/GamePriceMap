@@ -6,4 +6,4 @@ const current = new Date().toISOString().slice(0, 7);
 const months = Object.keys(calendar().months).filter((m) => m >= current);
 const target = months[0] ?? Object.keys(calendar().months).at(-1) ?? null;
 ---
-{target ? <ReleaseCalendarPage month={target} /> : <p>No upcoming releases are available yet.</p>}
+{target ? <ReleaseCalendarPage month={target} canonicalPath={`/new-releases/${target}/`} /> : <p>No upcoming releases are available yet.</p>}

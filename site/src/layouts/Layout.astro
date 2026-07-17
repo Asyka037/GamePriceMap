@@ -11,9 +11,10 @@ interface Props {
   dockSearch?: boolean;
   ogImage?: string | null;
   jsonLd?: object | null;
+  canonicalPath?: string | null;
 }
-const { title, description, active = null, dockSearch = false, ogImage = null, jsonLd = null } = Astro.props;
-const canonical = new URL(Astro.url.pathname, Astro.site);
+const { title, description, active = null, dockSearch = false, ogImage = null, jsonLd = null, canonicalPath = null } = Astro.props;
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site);
 const updatedAt = dataUpdatedAt();
 ---
 <!DOCTYPE html>
@@ -23,14 +24,22 @@ const updatedAt = dataUpdatedAt();
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#FFD84D" />
     <link rel="canonical" href={canonical} />
+    <meta property="og:site_name" content="GamePriceMap" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     {ogImage && <meta property="og:image" content={ogImage} />}
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%23FFD84D' stroke='%23292344' stroke-width='8'/><text x='50' y='68' font-size='52' text-anchor='middle'>🏷️</text></svg>" />
-    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap-index.xml" />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />}
   </head>
   <body>
