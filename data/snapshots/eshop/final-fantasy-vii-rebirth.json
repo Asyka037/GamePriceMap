@@ -1,78 +1,78 @@
 {
   "slug": "final-fantasy-vii-rebirth",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-07-17",
   "regions": [
     {
       "cc": "AR",
       "currency": "ARS",
-      "amount": 43499.4,
-      "list": 72499,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-17T06:59:59Z"
+      "amount": 72499,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 50.97,
-      "list": 84.95,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-16T13:59:59Z"
+      "amount": 84.95,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 170.94,
-      "list": 284.9,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-17T06:59:59Z"
+      "amount": 284.9,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 40.19,
-      "list": 66.99,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-17T06:59:59Z"
+      "amount": 66.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 35.94,
-      "list": 59.9,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-16T21:59:59Z"
+      "amount": 59.9,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CO",
       "currency": "COP",
-      "amount": 114600,
-      "list": 191000,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-17T06:59:59Z"
+      "amount": 191000,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 35.99,
-      "list": 59.99,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-16T21:59:59Z"
+      "amount": 59.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "DK",
       "currency": "DKK",
-      "amount": 269.25,
-      "list": 449,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-16T21:59:59Z"
+      "amount": 449,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 29.99,
-      "list": 49.99,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-16T22:59:59Z"
+      "amount": 49.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "JP",
@@ -85,50 +85,50 @@
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 480,
-      "list": 800,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-17T06:59:59Z"
+      "amount": 800,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NO",
       "currency": "NOK",
-      "amount": 389,
-      "list": 649,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-16T21:59:59Z"
+      "amount": 649,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NZ",
       "currency": "NZD",
-      "amount": 62.97,
-      "list": 104.95,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-16T11:59:59Z"
+      "amount": 104.95,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "PL",
       "currency": "PLN",
-      "amount": 155.4,
-      "list": 259,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-16T21:59:59Z"
+      "amount": 259,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 29.99,
-      "list": 49.99,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-17T06:59:59Z"
+      "amount": 49.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "ZA",
       "currency": "ZAR",
-      "amount": 689.4,
-      "list": 1149,
-      "discountPct": 40,
-      "saleEndsAt": "2026-07-16T21:59:59Z"
+      "amount": 1149,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     }
   ]
 }

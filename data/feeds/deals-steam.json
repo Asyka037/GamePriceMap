@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T09:37:11.138Z",
+  "updatedAt": "2026-07-17T09:29:48.731Z",
   "items": [
     {
       "title": "Palworld",
@@ -14,16 +14,28 @@
       "slugIfTracked": "palworld"
     },
     {
-      "title": "Denshattack!",
+      "title": "Funnel Runners",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2524850/",
+      "url": "https://store.steampowered.com/app/3712080/",
+      "currency": "USD",
+      "price": 13.49,
+      "list": 14.99,
+      "pct": 10,
+      "endsAt": "2026-07-23T17:00:34.000Z",
+      "steamAppId": 3712080,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Warhammer 40,000: Space Marine 2",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2183900/",
       "currency": "USD",
       "price": 17.99,
-      "list": 19.99,
-      "pct": 10,
-      "endsAt": "2026-07-29T17:00:23.000Z",
-      "steamAppId": 2524850,
-      "slugIfTracked": null
+      "list": 59.99,
+      "pct": 70,
+      "endsAt": "2026-07-30T17:00:00.000Z",
+      "steamAppId": 2183900,
+      "slugIfTracked": "warhammer-40000-space-marine-2"
     },
     {
       "title": "Grand Theft Auto V Enhanced",
@@ -62,6 +74,30 @@
       "slugIfTracked": "deltarune"
     },
     {
+      "title": "PowerWash Simulator 2",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2968420/",
+      "currency": "USD",
+      "price": 18.74,
+      "list": 24.99,
+      "pct": 25,
+      "endsAt": "2026-07-23T17:00:00.000Z",
+      "steamAppId": 2968420,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Denshattack!",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2524850/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 19.99,
+      "pct": 10,
+      "endsAt": "2026-07-29T17:00:23.000Z",
+      "steamAppId": 2524850,
+      "slugIfTracked": null
+    },
+    {
       "title": "Gamble With Your Friends",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/3892270/",
@@ -74,51 +110,15 @@
       "slugIfTracked": null
     },
     {
-      "title": "The Outlast Trials",
+      "title": "Pathogenic",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1304930/",
+      "url": "https://store.steampowered.com/app/3808690/",
       "currency": "USD",
-      "price": 11.99,
-      "list": 39.99,
-      "pct": 70,
-      "endsAt": "2026-07-21T17:00:00.000Z",
-      "steamAppId": 1304930,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Red Dead Redemption 2",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1174180/",
-      "currency": "USD",
-      "price": 14.99,
-      "list": 59.99,
-      "pct": 75,
-      "endsAt": "2026-07-23T17:00:00.000Z",
-      "steamAppId": 1174180,
-      "slugIfTracked": "red-dead-redemption-2"
-    },
-    {
-      "title": "Cat Mail Co.",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/4380490/",
-      "currency": "USD",
-      "price": 12.74,
-      "list": 14.99,
-      "pct": 15,
-      "endsAt": "2026-07-23T17:00:48.000Z",
-      "steamAppId": 4380490,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Crow Country",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1996010/",
-      "currency": "USD",
-      "price": 5.99,
-      "list": 19.99,
-      "pct": 70,
-      "endsAt": "2026-07-22T17:00:00.000Z",
-      "steamAppId": 1996010,
+      "price": 7.99,
+      "list": 9.99,
+      "pct": 20,
+      "endsAt": "2026-07-30T17:00:00.000Z",
+      "steamAppId": 3808690,
       "slugIfTracked": null
     }
   ]

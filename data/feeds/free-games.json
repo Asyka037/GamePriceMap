@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T09:37:25.301Z",
+  "updatedAt": "2026-07-17T09:30:02.320Z",
   "items": [
     {
       "title": "Foretales",
@@ -15,19 +15,6 @@
       "endsAt": "2026-07-30T15:00:00.000Z"
     },
     {
-      "title": "Nova Lands",
-      "storeId": "epic",
-      "url": "https://store.epicgames.com/en-US/p/nova-lands-4d1788",
-      "currency": "USD",
-      "price": 0,
-      "list": 19.99,
-      "pct": 100,
-      "steamAppId": null,
-      "slugIfTracked": null,
-      "status": "free-now",
-      "endsAt": "2026-07-16T15:00:00.000Z"
-    },
-    {
       "title": "Luto",
       "storeId": "epic",
       "url": "https://store.epicgames.com/en-US/p/luto-0a4ab3",
@@ -37,21 +24,8 @@
       "pct": 100,
       "steamAppId": null,
       "slugIfTracked": null,
-      "status": "upcoming",
-      "endsAt": "2026-07-23T15:00:00.000Z"
-    },
-    {
-      "title": "Tattoo Tycoon",
-      "storeId": "epic",
-      "url": "https://store.epicgames.com/en-US/p/tattoo-tycoon-b4352c",
-      "currency": "USD",
-      "price": 0,
-      "list": 29.99,
-      "pct": 100,
-      "steamAppId": null,
-      "slugIfTracked": null,
       "status": "free-now",
-      "endsAt": "2026-07-16T15:00:00.000Z"
+      "endsAt": "2026-07-23T15:00:00.000Z"
     },
     {
       "title": "Echo Generation: Midnight Edition",
@@ -63,7 +37,7 @@
       "pct": 100,
       "steamAppId": null,
       "slugIfTracked": null,
-      "status": "upcoming",
+      "status": "free-now",
       "endsAt": "2026-07-23T15:00:00.000Z"
     }
   ]

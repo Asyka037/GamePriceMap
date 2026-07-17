@@ -1,141 +1,141 @@
 {
   "slug": "digimon-story-time-stranger",
-  "lastPriceChangeAt": "2026-07-14",
+  "lastPriceChangeAt": "2026-07-17",
   "regions": [
     {
       "cc": "AR",
       "currency": "USD",
-      "amount": 31.91,
-      "list": 55.99,
-      "discountPct": 43,
+      "amount": 55.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 56.97,
-      "list": 99.95,
-      "discountPct": 43,
+      "amount": 99.95,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 182.34,
-      "list": 319.9,
-      "discountPct": 43,
+      "amount": 319.9,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 53.28,
-      "list": 93.49,
-      "discountPct": 43,
+      "amount": 93.49,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 39.84,
-      "list": 69.9,
-      "discountPct": 43,
+      "amount": 69.9,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "CN",
       "currency": "CNY",
-      "amount": 169.86,
-      "list": 298,
-      "discountPct": 43,
+      "amount": 298,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 39.89,
-      "list": 69.99,
-      "discountPct": 43,
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 31.34,
-      "list": 54.99,
-      "discountPct": 43,
+      "amount": 54.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "GE",
       "currency": "USD",
-      "amount": 26.21,
-      "list": 45.99,
-      "discountPct": 43,
+      "amount": 45.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "IN",
       "currency": "INR",
-      "amount": 2279,
-      "list": 3999,
-      "discountPct": 43,
+      "amount": 3999,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 5078,
-      "list": 8910,
-      "discountPct": 43,
+      "amount": 8910,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "KR",
       "currency": "KRW",
-      "amount": 39790,
-      "list": 69800,
-      "discountPct": 43,
+      "amount": 69800,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "KZ",
       "currency": "KZT",
-      "amount": 19755,
-      "list": 34659,
-      "discountPct": 43,
+      "amount": 34659,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 654.93,
-      "list": 1149,
-      "discountPct": 43,
+      "amount": 1149,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "TR",
       "currency": "USD",
-      "amount": 26.21,
-      "list": 45.99,
-      "discountPct": 43,
+      "amount": 45.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "UA",
       "currency": "UAH",
-      "amount": 1139,
-      "list": 1999,
-      "discountPct": 43,
+      "amount": 1999,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 39.89,
-      "list": 69.99,
-      "discountPct": 43,
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     }
   ]
