@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3321460,
+  "fetchedAt": "2026-07-17T04:45:06.575Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3321460&cc=us&l=english",
+  "responseDigest": "sha256:6b457cea76059f539977ad22478f4d150f1b87ab5957703bffc44e40225ac458",
+  "payload": {
+    "3321460": {
+      "success": true,
+      "data": {
+        "steam_appid": 3321460,
+        "name": "Crimson Desert",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 19, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 109284
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a1dde02dd8e3d3a8c685e24bb5aa94351dab54b03254c0bed53ec7f5bd632018"
+}

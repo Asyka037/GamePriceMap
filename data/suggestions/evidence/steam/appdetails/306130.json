@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 306130,
+  "fetchedAt": "2026-07-17T04:44:21.224Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=306130&cc=us&l=english",
+  "responseDigest": "sha256:e012008833c59c4ce38ca9e0525ec8df5d5bdd7bb3a145095549ede3b9136468",
+  "payload": {
+    "306130": {
+      "success": true,
+      "data": {
+        "steam_appid": 306130,
+        "name": "The Elder Scrolls® Online",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 22, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 133787
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:64af1e7d1686e7a01e88689b523551251c1ce51ddf5e000460ba4d772c5bd71f"
+}

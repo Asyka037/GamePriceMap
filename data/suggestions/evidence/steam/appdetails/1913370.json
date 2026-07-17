@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1913370,
+  "fetchedAt": "2026-07-17T04:46:01.897Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1913370&cc=us&l=english",
+  "responseDigest": "sha256:90b9e4d30d6ad34d3251d4dffcfebf9ae0b029b57da23cf0cce4dd70740bc370",
+  "payload": {
+    "1913370": {
+      "success": true,
+      "data": {
+        "steam_appid": 1913370,
+        "name": "OPERATOR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7067
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:66b0102baead294f651276ff0ef7e8de90e62df2fa9f55287263b1ba183b6a7d"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2074920,
+  "fetchedAt": "2026-07-17T04:45:33.532Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2074920&cc=us&l=english",
+  "responseDigest": "sha256:2da9d6fff8e811a95722c23266b2b09eaa738f68cabcd1b10ac8dbe88a2ba629",
+  "payload": {
+    "2074920": {
+      "success": true,
+      "data": {
+        "steam_appid": 2074920,
+        "name": "The First Descendant",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 30, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8479af7ee72e84016f4dc1fd817603eb51828fe1fdd0e8e05521b27215de7d0e"
+}

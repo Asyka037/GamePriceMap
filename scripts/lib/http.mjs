@@ -28,6 +28,21 @@ export function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+let nowFn = () => Date.now();
+let waitFn = sleep;
+let randomFn = () => Math.random();
+
+/** Test-only dependency injection so retry pacing can be asserted without wall-clock sleeps. */
+export function setHttpTestHooks({ now = () => Date.now(), wait = sleep, random = () => Math.random() } = {}) {
+  nowFn = now;
+  waitFn = wait;
+  randomFn = random;
+}
+
+export function resetHttpTestHooks() {
+  setHttpTestHooks();
+}
+
 export function chunk(items, size) {
   const out = [];
   for (let i = 0; i < items.length; i += size) out.push(items.slice(i, i + size));
@@ -48,12 +63,26 @@ export function requestsMade() {
   return requestCount;
 }
 
+/** Normal calls plus bounded retry headroom; unlike attempts*planned, this can actually trip. */
+export function requestBudgetFor(plannedRequests, retryHeadroom = 0.5) {
+  if (!(Number.isInteger(plannedRequests) && plannedRequests >= 0)) {
+    throw new TypeError('plannedRequests must be a non-negative integer');
+  }
+  return plannedRequests + Math.max(10, Math.ceil(plannedRequests * retryHeadroom));
+}
+
+/** Shared >20% source circuit policy after enough logical samples. */
+export function shouldTripCircuit(attempted, failed, { minSamples = 10, threshold = 0.2 } = {}) {
+  return attempted >= minSamples && failed > attempted * threshold;
+}
+
 // --- per-host 429 penalty pacing ---------------------------------------------
 const hostState = new Map(); // host -> { minIntervalMs, notBeforeEpochMs }
 
 function penalizeHost(host) {
   const state = hostState.get(host) ?? { minIntervalMs: 0, notBeforeEpochMs: 0 };
   state.minIntervalMs = Math.min(Math.max(state.minIntervalMs * 2, 3000), 30000);
+  state.notBeforeEpochMs = Math.max(state.notBeforeEpochMs, nowFn() + state.minIntervalMs);
   hostState.set(host, state);
   console.warn(`  ${host}: rate limited — host penalty interval now ${state.minIntervalMs}ms`);
 }
@@ -61,13 +90,13 @@ function penalizeHost(host) {
 async function paceHost(host) {
   const state = hostState.get(host);
   if (!state) return;
-  const wait = state.notBeforeEpochMs - Date.now();
-  if (wait > 0) await sleep(wait);
+  const wait = state.notBeforeEpochMs - nowFn();
+  if (wait > 0) await waitFn(wait);
 }
 
 function markHostRequest(host) {
   const state = hostState.get(host);
-  if (state?.minIntervalMs) state.notBeforeEpochMs = Date.now() + state.minIntervalMs;
+  if (state?.minIntervalMs) state.notBeforeEpochMs = nowFn() + state.minIntervalMs;
 }
 
 /** Test hook: clear penalty/pacing state between test cases. */
@@ -82,7 +111,7 @@ function parseRetryAfter(res) {
   const seconds = Number(header);
   if (Number.isFinite(seconds)) return Math.min(Math.max(seconds, 0) * 1000, 120000);
   const at = Date.parse(header);
-  return Number.isFinite(at) ? Math.min(Math.max(at - Date.now(), 0), 120000) : null;
+  return Number.isFinite(at) ? Math.min(Math.max(at - nowFn(), 0), 120000) : null;
 }
 
 async function request(url, { label, timeoutMs, attempts, headers }, consume) {
@@ -117,8 +146,8 @@ async function request(url, { label, timeoutMs, attempts, headers }, consume) {
       console.warn(`  ${label}: ${err.message}${finalAttempt ? '' : ', retrying...'}`);
       if (finalAttempt) throw err;
       const backoff = Math.min(2000 * 2 ** (attempt - 1), 60000);
-      const jittered = backoff * (0.7 + Math.random() * 0.6);
-      await sleep(err.retryAfterMs ?? jittered);
+      const jittered = backoff * (0.7 + randomFn() * 0.6);
+      await waitFn(err.retryAfterMs ?? jittered);
     }
   }
 }

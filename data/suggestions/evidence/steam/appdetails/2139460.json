@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2139460,
+  "fetchedAt": "2026-07-17T04:44:31.480Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2139460&cc=us&l=english",
+  "responseDigest": "sha256:70818174906dbb73afbdffff4b54218174cd2485298b38e3efb80a3586a5735c",
+  "payload": {
+    "2139460": {
+      "success": true,
+      "data": {
+        "steam_appid": 2139460,
+        "name": "Once Human",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b007394c2402a749a32470905cfa63411411ec6a9f88889ed0cfb9e0c7f6091e"
+}

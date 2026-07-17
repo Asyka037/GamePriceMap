@@ -23,6 +23,9 @@ jobs:
         with:
           node-version: 22
 
+      - name: Install root tooling dependencies
+        run: npm ci --no-audit --no-fund
+
       - name: Scrape Steam regional prices — core tier (writes rates + snapshots)
         run: npm run scrape:steam -- --tier=core
 

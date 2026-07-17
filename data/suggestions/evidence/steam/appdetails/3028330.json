@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3028330,
+  "fetchedAt": "2026-07-17T04:46:06.241Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3028330&cc=us&l=english",
+  "responseDigest": "sha256:3cdf5bbf2fe53011a2baa16f6045b3cce1c5f132e9936599e0397a3eed78b7f6",
+  "payload": {
+    "3028330": {
+      "success": true,
+      "data": {
+        "steam_appid": 3028330,
+        "name": "Battlefield™ REDSEC",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 28, 2025"
+        },
+        "recommendations": {
+          "total": 9341
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4207a826eba437c2a4f0ff92ce70313e1c4b34ceee632e37a1d3e92f1cd9e956"
+}

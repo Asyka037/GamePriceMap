@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 216150,
+  "fetchedAt": "2026-07-17T04:44:02.022Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=216150&cc=us&l=english",
+  "responseDigest": "sha256:7eb3579e104caed8e86b6e33ed3d018569eaddaad6c38587f47219941d889b87",
+  "payload": {
+    "216150": {
+      "success": true,
+      "data": {
+        "steam_appid": 216150,
+        "name": "MapleStory",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 9, 2012"
+        },
+        "recommendations": {
+          "total": 101
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:093ad56e3b26511a12a44c7b6a6bb790b3f95755477114b6e5b79c8a0c7580f9"
+}

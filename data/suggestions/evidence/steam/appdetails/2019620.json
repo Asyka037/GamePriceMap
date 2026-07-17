@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2019620,
+  "fetchedAt": "2026-07-17T04:46:49.732Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2019620&cc=us&l=english",
+  "responseDigest": "sha256:5faec6e1e9f93bac7414c18fb3dea8ee9db3e9f3fd5ed13a207b712ec3d1065d",
+  "payload": {
+    "2019620": {
+      "success": true,
+      "data": {
+        "steam_appid": 2019620,
+        "name": "GERONIMO",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1799,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 751
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1f925214227bfbb0e8cb768e53bc0712fe557612dec4e7fd9657fb9e4d1fbdc0"
+}

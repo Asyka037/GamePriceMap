@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1675200,
+  "fetchedAt": "2026-07-17T04:43:13.171Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1675200&cc=us&l=english",
+  "responseDigest": "sha256:482383e5746f181ddfaf1aba2d5a7f758323bdfb487bf196b52b8055845b7c30",
+  "payload": {
+    "1675200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1675200,
+        "name": "Steam Deck",
+        "type": "hardware",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 39900,
+          "final": 39900,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:05670eb02dad332960b5b63c8ed0e47074b33389a34e364766ae2907c13a7f73"
+}

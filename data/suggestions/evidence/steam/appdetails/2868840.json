@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2868840,
+  "fetchedAt": "2026-07-17T04:44:22.746Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2868840&cc=us&l=english",
+  "responseDigest": "sha256:fc45d7aaa8fa8d91adb69716bef18e2f1252f8afb867b4fb71ca4fe3379ba43f",
+  "payload": {
+    "2868840": {
+      "success": true,
+      "data": {
+        "steam_appid": 2868840,
+        "name": "Slay the Spire 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 200169
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6281536701d18f0ced45753701dab0cf74611f0407da2dea85987dee8cd8397f"
+}

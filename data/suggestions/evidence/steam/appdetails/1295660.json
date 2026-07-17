@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1295660,
+  "fetchedAt": "2026-07-17T04:46:25.751Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1295660&cc=us&l=english",
+  "responseDigest": "sha256:677e382807b19630f779583b33e3e4a2340210917bec69b8cd4e1d34120ed316",
+  "payload": {
+    "1295660": {
+      "success": true,
+      "data": {
+        "steam_appid": 1295660,
+        "name": "Sid Meier's Civilization VII",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 9999,
+          "final": 4999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 43314
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3bd0c27f5133b57f5afbe775b1bef08fa7bdc61e2a9fa04a95763dba6e37d4d3"
+}

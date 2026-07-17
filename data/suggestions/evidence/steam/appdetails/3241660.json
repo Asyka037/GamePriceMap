@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3241660,
+  "fetchedAt": "2026-07-17T04:45:17.133Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3241660&cc=us&l=english",
+  "responseDigest": "sha256:1704a31586d8514be21d10c309c4bdbb55e253ad63dd79098e800af3e6718902",
+  "payload": {
+    "3241660": {
+      "success": true,
+      "data": {
+        "steam_appid": 3241660,
+        "name": "R.E.P.O.",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 26, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 330079
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3220daecb478e13977644366f0d6f264c7b8ecf53972be276e2e238d7f0b6ddf"
+}

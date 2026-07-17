@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2993780,
+  "fetchedAt": "2026-07-17T04:45:26.123Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2993780&cc=us&l=english",
+  "responseDigest": "sha256:87148150736f92359f2ce126cdd768a66e45441d1ab855e5e9d431960a3ad990",
+  "payload": {
+    "2993780": {
+      "success": true,
+      "data": {
+        "steam_appid": 2993780,
+        "name": "FANTASY LIFE i: The Girl Who Steals Time",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 4199,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 11591
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fcd0e682f20f9d82da2b7acd025e47109b76ee37b8f7f6d0c9053949bd89df52"
+}

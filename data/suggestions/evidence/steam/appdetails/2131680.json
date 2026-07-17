@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2131680,
+  "fetchedAt": "2026-07-17T04:46:09.186Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2131680&cc=us&l=english",
+  "responseDigest": "sha256:d9c73cf4c949a43a64253c212c83d1cb1fe0da531b2d2ab08b54dcb5e62fec07",
+  "payload": {
+    "2131680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2131680,
+        "name": "METAL GEAR & METAL GEAR 2: Solid Snake",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 673
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:987388c951d6f076bf9d60d2ac245e36de07d2eb5f10cc73afa0fe778fec0de3"
+}

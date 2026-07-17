@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4165910,
+  "fetchedAt": "2026-07-17T04:43:08.717Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4165910&cc=us&l=english",
+  "responseDigest": "sha256:b18377b872b038c565a4352772b902b6105beef220029c8ebdc45c43cc4cdd5d",
+  "payload": {
+    "4165910": {
+      "success": true,
+      "data": {
+        "steam_appid": 4165910,
+        "name": "Steam Machine",
+        "type": "hardware",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 104900,
+          "final": 104900,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:76b8d771d31ab89ae3de78b7df302f60d9a0fa07f86d88ceff21eb3c5da9a54a"
+}

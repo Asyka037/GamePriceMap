@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2429640,
+  "fetchedAt": "2026-07-17T04:44:16.752Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2429640&cc=us&l=english",
+  "responseDigest": "sha256:5e63fd6f523f347e81663e9dc64b9ca05a8ebc7de170685fdb06f821b19d9071",
+  "payload": {
+    "2429640": {
+      "success": true,
+      "data": {
+        "steam_appid": 2429640,
+        "name": "Throne and Liberty",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 1, 2024"
+        },
+        "recommendations": {
+          "total": 10870
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fae70b2ae30a2c54012e66333794678862ab2d91340f8152bee3dce387f98741"
+}

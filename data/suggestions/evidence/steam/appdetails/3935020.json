@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3935020,
+  "fetchedAt": "2026-07-17T04:43:58.983Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3935020&cc=us&l=english",
+  "responseDigest": "sha256:2f07d6c7f613bc313db4ea4559b707ee07da8c060d9f3b5315b74ba640ffdda7",
+  "payload": {
+    "3935020": {
+      "success": true,
+      "data": {
+        "steam_appid": 3935020,
+        "name": "Backyard Baseball",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 722
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:01051ac587de43e7876f38999960b3f7ff128ba5ed734538e92ad6992784e2a3"
+}

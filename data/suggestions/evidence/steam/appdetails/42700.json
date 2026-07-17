@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 42700,
+  "fetchedAt": "2026-07-17T04:49:14.190Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=42700&cc=us&l=english",
+  "responseDigest": "sha256:4e1f6522b11b0b2d036d91101c5fb13f7acfca9599bf95518aea389fc9432553",
+  "payload": {
+    "42700": {
+      "success": true,
+      "data": {
+        "steam_appid": 42700,
+        "name": "Call of Duty®: Black Ops",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 9, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 21989
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fdaa13cee8db00533005b000b9fe7e604da964ef1f28ca9771d4504c2c079039"
+}

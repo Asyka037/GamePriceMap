@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3808690,
+  "fetchedAt": "2026-07-17T04:44:10.862Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3808690&cc=us&l=english",
+  "responseDigest": "sha256:1cd8eb491363fa9dff0545888c36fee87383799d9b62cafc571d218b1563a9ac",
+  "payload": {
+    "3808690": {
+      "success": true,
+      "data": {
+        "steam_appid": 3808690,
+        "name": "Pathogenic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 226
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a56d50f10bbcc33187c656407014d16ad913bbe6714726bdcefa9fadd47deee2"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1190970,
+  "fetchedAt": "2026-07-17T04:49:02.367Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1190970&cc=us&l=english",
+  "responseDigest": "sha256:4aaf1523dda2d8a0a3bdd23a955129c99f95eb356d6e6c0e2a438f7fe70e8f06",
+  "payload": {
+    "1190970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1190970,
+        "name": "House Flipper 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 14, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16021
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cc6eb339d157665061b7c32cd85abea2b4698db422c2dacb696a5ba015b3073f"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2948190,
+  "fetchedAt": "2026-07-17T04:49:12.707Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2948190&cc=us&l=english",
+  "responseDigest": "sha256:9fb9cb23f6bf0e8859e14c0ae7cf06bc905f06422e3e2b9ff259a5d1ad931c5a",
+  "payload": {
+    "2948190": {
+      "success": true,
+      "data": {
+        "steam_appid": 2948190,
+        "name": "World of Sea Battle",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d19dde05e020970515544db9da09807220585052732beecd6e16885a6ff1303c"
+}

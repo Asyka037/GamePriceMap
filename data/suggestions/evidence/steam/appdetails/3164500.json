@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3164500,
+  "fetchedAt": "2026-07-17T04:44:46.258Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3164500&cc=us&l=english",
+  "responseDigest": "sha256:5496e5f212935ff4cb24da28418efcbda2bfd097d1da9265979f0e476b3f5677",
+  "payload": {
+    "3164500": {
+      "success": true,
+      "data": {
+        "steam_appid": 3164500,
+        "name": "Schedule I",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 281392
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:69de29d758c5fe24f07a3366197cf940dc911facbd6fb64c900f96d3f7d881ef"
+}

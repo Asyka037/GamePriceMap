@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2881650,
+  "fetchedAt": "2026-07-17T04:45:57.528Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2881650&cc=us&l=english",
+  "responseDigest": "sha256:7175e3d5bd5b81b8589e730e2d98d612042bfc77efecc23bef5ca437297e2f87",
+  "payload": {
+    "2881650": {
+      "success": true,
+      "data": {
+        "steam_appid": 2881650,
+        "name": "Content Warning",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 1, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 399,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 70543
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:51f8774d7393a260efc5ed6cb45f021b05bf09b3056687fbe8fa922498246172"
+}

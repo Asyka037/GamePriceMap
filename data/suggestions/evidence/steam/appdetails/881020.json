@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 881020,
+  "fetchedAt": "2026-07-17T04:43:49.938Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=881020&cc=us&l=english",
+  "responseDigest": "sha256:d402e40af101bab725f672cbdd022a7c1a2b19ad2fdad76044f0c9eab28fbb7c",
+  "payload": {
+    "881020": {
+      "success": true,
+      "data": {
+        "steam_appid": 881020,
+        "name": "Granblue Fantasy: Relink",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 31, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 39580
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0117821edcbf74ba6e1596428f21626a90811f06fe5e475b3137015c9391f182"
+}

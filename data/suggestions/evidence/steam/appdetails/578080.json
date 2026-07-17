@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 578080,
+  "fetchedAt": "2026-07-17T04:43:52.927Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=578080&cc=us&l=english",
+  "responseDigest": "sha256:76fac5f8081478d655c0c91b278c26ece7d5cea032b48df4a100172189457d46",
+  "payload": {
+    "578080": {
+      "success": true,
+      "data": {
+        "steam_appid": 578080,
+        "name": "PUBG: BATTLEGROUNDS",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 21, 2017"
+        },
+        "recommendations": {
+          "total": 1761809
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ddc0b16c39bbd6b73210359efd1e71d0b993a33b077f70beda3ba2d06e46c346"
+}

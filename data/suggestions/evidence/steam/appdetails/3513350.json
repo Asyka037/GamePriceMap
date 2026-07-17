@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3513350,
+  "fetchedAt": "2026-07-17T04:43:39.500Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3513350&cc=us&l=english",
+  "responseDigest": "sha256:60a59698e204f8e5a470f11f03dab7bc8c6b905ff9f7f90ccea102464759fef6",
+  "payload": {
+    "3513350": {
+      "success": true,
+      "data": {
+        "steam_appid": 3513350,
+        "name": "Wuthering Waves",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:01b16b1c0759e56a3ce82648caebdf9c7e2d26d60a62f1b0c6e58fca582651f3"
+}

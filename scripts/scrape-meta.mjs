@@ -13,17 +13,19 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchJson, fetchText, sleep } from './lib/http.mjs';
+import { fetchJson, fetchText, requestBudgetFor, setRequestBudget, shouldTripCircuit, sleep } from './lib/http.mjs';
 import { parseNintendoMeta } from './lib/nintendo-meta.mjs';
 import { looksDegraded } from './lib/meta-guard.mjs';
-import { completeSourceRun, recordSourceRun, readSourceHealth } from './lib/sourcehealth.mjs';
-import { shardOf, pickOverdueShard, coveredMetaKeys, META_SHARDS } from './lib/schedule.mjs';
+import { completeSourceRun, recordSourceRun, readSourceHealth, sourceRunExitCode } from './lib/sourcehealth.mjs';
+import { shardOf, memberShards, pickOverdueShard, coveredMetaKeys, META_SHARDS } from './lib/schedule.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const META_DIR = path.join(ROOT, 'data', 'meta');
 fs.mkdirSync(META_DIR, { recursive: true });
 
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog.json'), 'utf8'));
+const eligibleGames = catalog.games.filter((g) => Number.isInteger(g.steamAppId)
+  || (g.nsuids?.americas && g.nintendoUsSlug));
 const args = process.argv.slice(2);
 const shardArg = args.find((a) => a.startsWith('--shard='))?.split('=')[1] ?? null;
 const onlySlugs = args.filter((a) => !a.startsWith('--'));
@@ -33,19 +35,32 @@ if (shardArg && onlySlugs.length > 0) {
 }
 let shard = null;
 if (shardArg !== null) {
-  shard = shardArg === 'auto' ? pickOverdueShard(readSourceHealth(), 'meta', META_SHARDS, 'shard') : Number(shardArg);
+  const auto = shardArg === 'auto';
+  const populated = memberShards(eligibleGames, META_SHARDS);
+  shard = auto
+    ? pickOverdueShard(readSourceHealth(), 'meta', META_SHARDS, 'shard', populated)
+    : Number(shardArg);
+  if (auto && shard === null) {
+    console.log('No metadata-eligible games; nothing to do.');
+    process.exit(0);
+  }
   if (!(Number.isInteger(shard) && shard >= 0 && shard < META_SHARDS)) {
     console.error(`Bad shard "${shardArg}" (0..${META_SHARDS - 1} or auto).`);
     process.exit(1);
   }
   console.log(`meta shard ${shard} selected${shardArg === 'auto' ? ' (most overdue)' : ''}`);
 }
-const games = catalog.games
-  .filter((g) => Number.isInteger(g.steamAppId)
-    || (g.nsuids?.americas && g.nintendoUsSlug))
+const games = eligibleGames
   .filter((g) => shard === null || shardOf(g.slug, META_SHARDS) === shard)
   .filter((g) => onlySlugs.length === 0 || onlySlugs.includes(g.slug));
 
+if (shard !== null && games.length === 0) {
+  console.log(`No metadata-eligible games in shard=${shard}; nothing to do.`);
+  process.exit(0);
+}
+
+const plannedRequests = games.reduce((sum, game) => sum + (Number.isInteger(game.steamAppId) ? 2 : 1), 0);
+setRequestBudget(requestBudgetFor(plannedRequests));
 
 function sameMeta(previous, next) {
   if (!previous) return false;
@@ -112,15 +127,15 @@ async function nintendoMeta(g) {
 let written = 0;
 let unchanged = 0;
 let failed = 0;
+let attempted = 0;
 for (const g of games) {
+  attempted++;
   try {
     const meta = Number.isInteger(g.steamAppId) ? await steamMeta(g) : await nintendoMeta(g);
     const metaPath = path.join(META_DIR, `${g.slug}.json`);
     const previous = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf8')) : null;
     if (looksDegraded(previous, meta)) {
-      console.warn(`  ${g.slug}: response hollowed out (image/genres/reviews vanished) — keeping previous meta`);
-      failed++;
-      continue;
+      throw new Error('response hollowed out (image/genres/reviews vanished)');
     }
     if (sameMeta(previous, meta)) {
       unchanged++;
@@ -131,6 +146,10 @@ for (const g of games) {
   } catch (err) {
     console.warn(`  ${g.slug}: ${err.message} — keeping previous meta`);
     failed++;
+    if (err.budget || shouldTripCircuit(attempted, failed)) {
+      console.error(`\ncircuit breaker: ${failed}/${attempted} metadata games failed — aborting shard, old metadata retained`);
+      break;
+    }
   }
 }
 const complete = completeSourceRun({ expected: games.length, changed: written, unchanged, failedItems: failed });
@@ -141,4 +160,4 @@ if (onlySlugs.length === 0) {
   }
 }
 console.log(`Meta changed: ${written}, unchanged: ${unchanged}, failed: ${failed}, expected: ${games.length}`);
-if (onlySlugs.length > 0 && !complete) process.exit(1);
+process.exitCode = sourceRunExitCode({ targeted: onlySlugs.length > 0, complete });

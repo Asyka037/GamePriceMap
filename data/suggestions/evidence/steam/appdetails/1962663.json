@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1962663,
+  "fetchedAt": "2026-07-17T04:45:42.550Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1962663&cc=us&l=english",
+  "responseDigest": "sha256:8e5c2d6284bd943af87e6b423b613a9ba6e9014bd62c3f53a880afc2b4dffab4",
+  "payload": {
+    "1962663": {
+      "success": true,
+      "data": {
+        "steam_appid": 1962663,
+        "name": "Call of Duty®: Warzone™",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2022"
+        },
+        "recommendations": {
+          "total": 10008
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f7b6baae2cd137ccaef41c48c432007f48e8118befdb3c416f2f26a3296fd13a"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2399830,
+  "fetchedAt": "2026-07-17T04:44:06.379Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2399830&cc=us&l=english",
+  "responseDigest": "sha256:e2ffb3f2435fa6cf9f5f0b268649a009da84d08de4466ee6787b46d8b0433f2b",
+  "payload": {
+    "2399830": {
+      "success": true,
+      "data": {
+        "steam_appid": 2399830,
+        "name": "ARK: Survival Ascended",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 25, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 1124,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 102017
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:88a7cc921023824215922d1ca28a569c783cd216daf588b3359979882ffc4b73"
+}

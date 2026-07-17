@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3869850,
+  "fetchedAt": "2026-07-17T04:44:36.017Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3869850&cc=us&l=english",
+  "responseDigest": "sha256:e73765b16a6dbbfe2cbb5c01edbf874255baceab4cc6667f2ea4c38d44a5cd66",
+  "payload": {
+    "3869850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3869850,
+        "name": "Welcome to the Game III",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1799,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2b7948d63a860484327c1e58d692fb42f973bed1fd108f2fd67a46b1d08bd22c"
+}

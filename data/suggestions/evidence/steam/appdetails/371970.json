@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 371970,
+  "fetchedAt": "2026-07-17T04:45:56.053Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=371970&cc=us&l=english",
+  "responseDigest": "sha256:05ec5cbecc2067d6b49d796be120f7d418ec404fc9af53a8cad379ac983155c0",
+  "payload": {
+    "371970": {
+      "success": true,
+      "data": {
+        "steam_appid": 371970,
+        "name": "Barony",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11954
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ba3d3e32a36c74371c9a831ea334a51985333ce7394ac40ea95cda0f54519a4d"
+}

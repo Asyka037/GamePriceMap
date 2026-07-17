@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { formatUtcStamp, freshnessState } from '../../site/src/lib/freshness.mjs';
+import { formatUtcStamp, freshnessState, sourceBudgetHours } from '../../site/src/lib/freshness.mjs';
 
 const stamp = '2026-07-15T09:30:00.000Z';
 const atHoursAfter = (hours) => Date.parse(stamp) + hours * 3600e3;
@@ -18,4 +18,12 @@ test('status timestamps are formatted with an explicit UTC label', () => {
   assert.equal(formatUtcStamp('2026-07-15T09:30:52.418Z'), '2026-07-15 09:30 UTC');
   assert.equal(formatUtcStamp(null), 'never');
   assert.equal(formatUtcStamp('invalid'), 'never');
+});
+
+test('status budgets match daily, seven-shard, and fourteen-shard cadences', () => {
+  assert.equal(sourceBudgetHours('steam-regional'), 26);
+  assert.equal(sourceBudgetHours('steam-regional:extended-3'), 8 * 24);
+  assert.equal(sourceBudgetHours('meta'), 15 * 24);
+  assert.equal(sourceBudgetHours('meta:shard-12'), 15 * 24);
+  assert.equal(freshnessState(stamp, sourceBudgetHours('meta'), atHoursAfter(14 * 24)), 'fresh');
 });

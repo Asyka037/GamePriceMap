@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3164330,
+  "fetchedAt": "2026-07-17T04:44:19.694Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3164330&cc=us&l=english",
+  "responseDigest": "sha256:5749be4ebb2585937775ca2de3a61a610936e8b6146c49facdd7f97a9b394781",
+  "payload": {
+    "3164330": {
+      "success": true,
+      "data": {
+        "steam_appid": 3164330,
+        "name": "Infinity Nikki",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e32d3947e9cdaee3eb412d1ea72f81d92f4b81d142bc8fa829dfce37ec5c123e"
+}

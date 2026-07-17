@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4380490,
+  "fetchedAt": "2026-07-17T04:43:57.436Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4380490&cc=us&l=english",
+  "responseDigest": "sha256:8f2968a5ee21a30d46e6103917e8d5d9f2bf01ba66b90711865ea2fcb81895d0",
+  "payload": {
+    "4380490": {
+      "success": true,
+      "data": {
+        "steam_appid": 4380490,
+        "name": "Cat Mail Co.",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1274,
+          "discount_percent": 15
+        },
+        "recommendations": {
+          "total": 2257
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8eca6fbc48c8e8d98681029ade5a310a65b2881c4742d0ffbebf17fe6ff9f562"
+}

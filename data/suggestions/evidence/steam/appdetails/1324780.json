@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1324780,
+  "fetchedAt": "2026-07-17T04:44:47.700Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1324780&cc=us&l=english",
+  "responseDigest": "sha256:03bd3b5de2c5e618d2a28105c76fe64321e4912707ace8370e9d362aba9a1ba0",
+  "payload": {
+    "1324780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1324780,
+        "name": "Easy Red 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 6, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 449,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 12819
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:21d26afdc09bacf72d9d369d08977b564613191cd506ec315953a1025b3b003d"
+}

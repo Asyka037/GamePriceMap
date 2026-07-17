@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1599340,
+  "fetchedAt": "2026-07-17T04:44:38.946Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1599340&cc=us&l=english",
+  "responseDigest": "sha256:e689c494751c8f543888a885dd6171e80f33cb25bf45eaf1417e0c49351728ed",
+  "payload": {
+    "1599340": {
+      "success": true,
+      "data": {
+        "steam_appid": 1599340,
+        "name": "Lost Ark",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 11, 2022"
+        },
+        "recommendations": {
+          "total": 65199
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0baac7f71dac6a0cd517cd72d598535fcce0b7038ed6dd09b6b8f04edaab996e"
+}

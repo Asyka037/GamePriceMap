@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2767030,
+  "fetchedAt": "2026-07-17T04:43:16.083Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2767030&cc=us&l=english",
+  "responseDigest": "sha256:709d0d05fbb1c36f65c7fd442f77d185832660928fa72076c846b1fe8c482f76",
+  "payload": {
+    "2767030": {
+      "success": true,
+      "data": {
+        "steam_appid": 2767030,
+        "name": "Marvel Rivals",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0794241a5575d703cff6b149cfb714b1f14a15810caf65340aecef3ae64675ac"
+}

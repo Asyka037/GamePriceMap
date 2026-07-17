@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4025700,
+  "fetchedAt": "2026-07-17T04:44:59.401Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4025700&cc=us&l=english",
+  "responseDigest": "sha256:15aa960ca4db712fec265b30a4e7b5b3018f3cdc763a7b5fbcd3322c0dbfaf89",
+  "payload": {
+    "4025700": {
+      "success": true,
+      "data": {
+        "steam_appid": 4025700,
+        "name": "Heartopia",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 16, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d09f1a7c36449bcf73c97ad18503f8aac908ef27011960720c3e98e10b5b5741"
+}

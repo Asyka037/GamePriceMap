@@ -2,6 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import {
+  evaluateEuropeDiscoveryCandidates,
+  evaluateJapanDiscoveryCandidates,
+  europeIsPurchasable,
+  japanIsPurchasable,
   selectEuropeDiscoveryCandidate,
   selectJapanDiscoveryCandidate,
 } from '../lib/nsuid-discovery.mjs';
@@ -113,4 +117,36 @@ test('JP discovery matches bilingual titles before either parenthesis style', ()
       '70010000005309',
     );
   }
+});
+
+test('paid/released guards fail closed on missing dates, non-positive prices and non-sale JP rows', () => {
+  assert.equal(europeIsPurchasable({
+    type: 'GAME',
+    title: 'Example Game',
+    price_regular_f: 19.99,
+  }, Date.parse('2026-07-17T00:00:00Z')), false);
+  assert.equal(europeIsPurchasable(fixture.europe.validHac, Date.parse('2026-07-17T00:00:00Z')), true);
+  assert.equal(japanIsPurchasable(fixture.japan.hogwartsHac), true);
+  assert.equal(japanIsPurchasable({ ...fixture.japan.hogwartsHac, ssitu: 'coming_soon' }), false);
+});
+
+test('multiple exact paid matches are an exception, never first-result wins', () => {
+  const secondEu = {
+    ...fixture.europe.validHac,
+    nsuid_txt: ['70010000000009'],
+  };
+  const eu = evaluateEuropeDiscoveryCandidates([fixture.europe.validHac, secondEu], {
+    title: 'Example Game',
+    platforms: ['switch'],
+    now: Date.parse('2026-07-17T00:00:00Z'),
+  });
+  assert.equal(eu.status, 'exception');
+  assert.equal(eu.reason, 'ambiguous_exact_matches');
+
+  const jp = evaluateJapanDiscoveryCandidates([
+    fixture.japan.hogwartsHac,
+    { ...fixture.japan.hogwartsHac, nsuid: '70010000062279' },
+  ], { title: 'Hogwarts Legacy', platforms: ['switch'] });
+  assert.equal(jp.status, 'exception');
+  assert.equal(jp.reason, 'ambiguous_exact_matches');
 });

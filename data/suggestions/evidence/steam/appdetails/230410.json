@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 230410,
+  "fetchedAt": "2026-07-17T04:43:20.403Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=230410&cc=us&l=english",
+  "responseDigest": "sha256:0235ee53490ea590735e8fc8099559681dc82668f135cb0aec66a8ac6dbe389b",
+  "payload": {
+    "230410": {
+      "success": true,
+      "data": {
+        "steam_appid": 230410,
+        "name": "Warframe",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2013"
+        },
+        "recommendations": {
+          "total": 2882
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e33a4205641898c02c6ee557bb0ef3afb91df088a8d32932b842efbea83ac875"
+}

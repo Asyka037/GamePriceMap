@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1172470,
+  "fetchedAt": "2026-07-17T04:43:18.968Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1172470&cc=us&l=english",
+  "responseDigest": "sha256:278c76cf73c563bfa8709fc8e28907adc3e0e9f399f1e30ccb8af67ff5ffdf8e",
+  "payload": {
+    "1172470": {
+      "success": true,
+      "data": {
+        "steam_appid": 1172470,
+        "name": "Apex Legends™",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 4, 2020"
+        },
+        "recommendations": {
+          "total": 1581
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8ef912207a377d32d0c8530a30207cefc139dce98a6b7a01a8728b20b5b85666"
+}

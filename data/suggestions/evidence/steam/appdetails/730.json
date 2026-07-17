@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 730,
+  "fetchedAt": "2026-07-17T04:43:17.511Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=730&cc=us&l=english",
+  "responseDigest": "sha256:c1ec56de54e5757196f1342ffe2c81f1b734d4bdc12898ff72f585d918a3f37a",
+  "payload": {
+    "730": {
+      "success": true,
+      "data": {
+        "steam_appid": 730,
+        "name": "Counter-Strike 2",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 21, 2012"
+        },
+        "recommendations": {
+          "total": 5175517
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:440bc3a4f83c912d6f42ecf99cbcf182e896db5052d07e7eb16a4c9af3092a56"
+}

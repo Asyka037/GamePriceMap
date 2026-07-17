@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3606480,
+  "fetchedAt": "2026-07-17T04:49:03.857Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3606480&cc=us&l=english",
+  "responseDigest": "sha256:8822f2bc43bd3c5132763eb6424e074245c0433eab211660753dfccf65821ac1",
+  "payload": {
+    "3606480": {
+      "success": true,
+      "data": {
+        "steam_appid": 3606480,
+        "name": "Call of Duty®: Black Ops 7",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 13, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4071
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:85987e9681e66e31f782f8f0d7e5a1f97dae956bb9322a6730606cf056dfc697"
+}

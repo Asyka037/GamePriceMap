@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 236390,
+  "fetchedAt": "2026-07-17T04:43:55.899Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=236390&cc=us&l=english",
+  "responseDigest": "sha256:8bbe2baaf2606821b21f82df224228adea8333dbe24ea3ee5cc1a390e075e3a1",
+  "payload": {
+    "236390": {
+      "success": true,
+      "data": {
+        "steam_appid": 236390,
+        "name": "War Thunder",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 15, 2013"
+        },
+        "recommendations": {
+          "total": 1988
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:77bf7c33bb671b12e7ec3a7cb093631803975ef31855089a748aa361bb930b7b"
+}

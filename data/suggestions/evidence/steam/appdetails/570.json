@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 570,
+  "fetchedAt": "2026-07-17T04:44:09.374Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=570&cc=us&l=english",
+  "responseDigest": "sha256:8331cf5b115a728b292993abd5050f96cd547743a13301851edb1ef0481deea4",
+  "payload": {
+    "570": {
+      "success": true,
+      "data": {
+        "steam_appid": 570,
+        "name": "Dota 2",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2013"
+        },
+        "recommendations": {
+          "total": 14371
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:383e1a9e3a23b037f1947e1bd94ad22b4b17f459d457d602f26146757629fc45"
+}

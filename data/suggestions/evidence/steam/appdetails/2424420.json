@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2424420,
+  "fetchedAt": "2026-07-17T04:45:44.029Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2424420&cc=us&l=english",
+  "responseDigest": "sha256:24f37bbc4204522cda89b8ff827d8dbcbcb4aa7732da0999f99ceefe98f81bf0",
+  "payload": {
+    "2424420": {
+      "success": true,
+      "data": {
+        "steam_appid": 2424420,
+        "name": "Avatar Legends: The Fighting Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:38254c0bbb7fd355af2c4092848dc63c15f18c8d70a77635d6bf89d84457d4f0"
+}

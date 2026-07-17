@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 454650,
+  "fetchedAt": "2026-07-17T04:45:21.518Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=454650&cc=us&l=english",
+  "responseDigest": "sha256:ae36b4dc63d8a7a9daea3fe66e4cac0c2d5af6a42003534260178858c2d4fe0f",
+  "payload": {
+    "454650": {
+      "success": true,
+      "data": {
+        "steam_appid": 454650,
+        "name": "DRAGON BALL XENOVERSE 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 44177
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bc9079880046d5f6e232138a56e7b5eface44bfae5f92b7ae407a5ce6b495361"
+}

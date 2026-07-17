@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2073850,
+  "fetchedAt": "2026-07-17T04:44:00.483Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2073850&cc=us&l=english",
+  "responseDigest": "sha256:65ab9ecb57aa77d162d6aec0df2be8144ae5fc30771489c3d252d4274283ba5a",
+  "payload": {
+    "2073850": {
+      "success": true,
+      "data": {
+        "steam_appid": 2073850,
+        "name": "THE FINALS",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:658438ced0c399de138cca1672f111a13f918811795ecb317ac93637403489d5"
+}

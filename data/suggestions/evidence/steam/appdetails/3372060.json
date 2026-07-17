@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3372060,
+  "fetchedAt": "2026-07-17T04:44:28.601Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3372060&cc=us&l=english",
+  "responseDigest": "sha256:ea1963c53af8dadbc2cbbdfe95ccbdd6399283b2823fea8d946b8b4718f42096",
+  "payload": {
+    "3372060": {
+      "success": true,
+      "data": {
+        "steam_appid": 3372060,
+        "name": "Hell Maiden",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 281
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7c539663716ca6bf586822197999d1a6badfb6e916908e5e27ad6ff7f39869ba"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1974050,
+  "fetchedAt": "2026-07-17T04:43:24.762Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1974050&cc=us&l=english",
+  "responseDigest": "sha256:23d2f1bbc85cdc76682f2c927fd5b85574777644dff38d6298c2906558990114",
+  "payload": {
+    "1974050": {
+      "success": true,
+      "data": {
+        "steam_appid": 1974050,
+        "name": "Torchlight: Infinite",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 9, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e269aa27a79e077962253bf0b891f50af02ed52b4d9dfb2f21715d75afbd6d9a"
+}

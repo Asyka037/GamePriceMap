@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 976730,
+  "fetchedAt": "2026-07-17T04:49:05.280Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=976730&cc=us&l=english",
+  "responseDigest": "sha256:00ba60c152f36bb8c935b38278597800d5fcdf5f9710202e5a3dceadfc1b70e6",
+  "payload": {
+    "976730": {
+      "success": true,
+      "data": {
+        "steam_appid": 976730,
+        "name": "Halo: The Master Chief Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 237390
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fc380ac2d5c2fac4142d4f0c2cf007cc17ca526be2a98fca132bb6b6d8858819"
+}

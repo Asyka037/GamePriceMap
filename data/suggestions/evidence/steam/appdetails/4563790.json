@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4563790,
+  "fetchedAt": "2026-07-17T04:48:48.893Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4563790&cc=us&l=english",
+  "responseDigest": "sha256:66c2739f8a40d5c4ee86481c507d87f993c53ce50652ba6767cee10e7478b3af",
+  "payload": {
+    "4563790": {
+      "success": true,
+      "data": {
+        "steam_appid": 4563790,
+        "name": "Easy Red 2: Blood on the Danube",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 599,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 157
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8808988de0029a5cf3e0cacb3a20a4582914623367d40e3517bb65c02663258f"
+}

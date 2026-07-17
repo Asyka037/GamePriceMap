@@ -1,0 +1,39 @@
+{
+  "$comment": "One-time reviewed input for npm run candidates:ns:seal. This draft has no evidenceDigest fields. Fill only from retained official/manual evidence; the sealing command validates and writes a separate immutable seed document.",
+  "schemaVersion": 1,
+  "kind": "nintendo-candidate-seed-draft",
+  "generatedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+  "candidates": [
+    {
+      "candidateId": "ns:REPLACE_WITH_REVIEWED_BASE_GAME_NSUID",
+      "catalogAction": "new_game",
+      "slug": "replace-with-reviewed-slug",
+      "title": "REPLACE WITH REVIEWED TITLE",
+      "platforms": ["switch"],
+      "publisher": "REPLACE WITH REVIEWED PUBLISHER",
+      "developer": "REPLACE WITH REVIEWED DEVELOPER",
+      "manualUsEvidence": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/replace-with-reviewed-product-slug/",
+        "productSlug": "replace-with-reviewed-product-slug",
+        "nsuid": "REPLACE_WITH_REVIEWED_BASE_GAME_NSUID",
+        "title": "REPLACE WITH REVIEWED TITLE",
+        "reviewedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+        "releasedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+        "paid": true,
+        "generation": "HAC"
+      },
+      "seedEvidence": [],
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "popularityEvidence": [
+        {
+          "kind": "nintendo_official_rank",
+          "sourceUrl": "REPLACE_WITH_REVIEWED_OFFICIAL_RANK_URL",
+          "observedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+          "sourceDigest": "sha256:REPLACE_WITH_64_HEX_SOURCE_DOCUMENT_DIGEST",
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

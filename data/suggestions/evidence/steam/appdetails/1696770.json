@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1696770,
+  "fetchedAt": "2026-07-17T04:43:48.433Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1696770&cc=us&l=english",
+  "responseDigest": "sha256:9f9aec582f0586c2520737fe73c292a66f9904c3eb600486b3f1282cadb0f49e",
+  "payload": {
+    "1696770": {
+      "success": true,
+      "data": {
+        "steam_appid": 1696770,
+        "name": "The Mermaid Mask",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1799,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7d79c99f8f031e6627af6b326a9f19fce597ac4ca3f0417f792e5ca99eb04294"
+}

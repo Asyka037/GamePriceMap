@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4229450,
+  "fetchedAt": "2026-07-17T04:43:29.351Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4229450&cc=us&l=english",
+  "responseDigest": "sha256:8d50c31a18219d3868c01a006636db8f1e5a48e8a75e1e03e36c0177601a0a77",
+  "payload": {
+    "4229450": {
+      "success": true,
+      "data": {
+        "steam_appid": 4229450,
+        "name": "PowerWash Simulator 2 - STAR WARS Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ffad2eaeeac18617aa17769e284d48b43e609771940ef01d0e2e322cf02e8f8e"
+}

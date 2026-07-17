@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3641000,
+  "fetchedAt": "2026-07-17T04:44:57.977Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3641000&cc=us&l=english",
+  "responseDigest": "sha256:55b180cdedc2e78e970b039f7f47b5e667af912005f7924c4143b181de9549e5",
+  "payload": {
+    "3641000": {
+      "success": true,
+      "data": {
+        "steam_appid": 3641000,
+        "name": "The Incident at Galley House",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1799,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 680
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91955010691a317c4d513a823c31cf3e57a388b0e95fda084dd49565e5028d78"
+}

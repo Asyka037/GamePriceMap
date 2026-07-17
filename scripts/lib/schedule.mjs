@@ -13,6 +13,7 @@
  */
 
 export const EXTENDED_SHARDS = 7;
+export const CORE_GAME_LIMIT = 300;
 // Metadata refresh rotates over ALL games (not a tier): 1/14 per day, so
 // every game's meta is at most two weeks old — reviews and art move slowly.
 export const META_SHARDS = 14;
@@ -46,19 +47,31 @@ export function gamesForRun(games, { tier = null, shard = null } = {}) {
   return picked;
 }
 
+/** Sorted shard ids that actually contain at least one selectable game. */
+export function memberShards(games, count = EXTENDED_SHARDS) {
+  return [...new Set((games ?? []).map((game) => shardOf(game.slug, count)))].sort((a, b) => a - b);
+}
+
 /**
  * Catch-up selection: the extended shard whose lastSuccessAt is oldest.
  * Shards without any recorded success sort first (never-observed wins).
  * Deterministic tie-break by shard index.
  */
-export function pickOverdueShard(sourceHealth, baseKey, count = EXTENDED_SHARDS, suffix = 'extended') {
+export function pickOverdueShard(
+  sourceHealth,
+  baseKey,
+  count = EXTENDED_SHARDS,
+  suffix = 'extended',
+  eligibleShards = Array.from({ length: count }, (_, i) => i),
+) {
   const stamps = [];
-  for (let i = 0; i < count; i++) {
+  for (const i of [...new Set(eligibleShards)].sort((a, b) => a - b)) {
+    if (!(Number.isInteger(i) && i >= 0 && i < count)) continue;
     const entry = sourceHealth?.sources?.[`${baseKey}:${suffix}-${i}`];
     stamps.push({ shard: i, at: entry?.lastSuccessAt ?? '' });
   }
   stamps.sort((a, b) => (a.at < b.at ? -1 : a.at > b.at ? 1 : a.shard - b.shard));
-  return stamps[0].shard;
+  return stamps[0]?.shard ?? null;
 }
 
 /**

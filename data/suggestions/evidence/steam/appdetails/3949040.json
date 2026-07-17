@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3949040,
+  "fetchedAt": "2026-07-17T04:46:00.457Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3949040&cc=us&l=english",
+  "responseDigest": "sha256:0cb33f5c76b84cf6d7f73533151825ced2a65d8c38863618030939fe50cc4c13",
+  "payload": {
+    "3949040": {
+      "success": true,
+      "data": {
+        "steam_appid": 3949040,
+        "name": "RV There Yet?",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 69368
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a27998e32845dce76500533cfeccb9ae9fe9005aa3c444ec1d27cd746d5e8ab5"
+}

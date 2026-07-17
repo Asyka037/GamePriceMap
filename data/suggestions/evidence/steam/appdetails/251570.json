@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 251570,
+  "fetchedAt": "2026-07-17T04:48:44.533Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=251570&cc=us&l=english",
+  "responseDigest": "sha256:eb1ed3f877d5d0c622b6283d88d3f6cb7a62ed7eb3996eb687e6583975db39e3",
+  "payload": {
+    "251570": {
+      "success": true,
+      "data": {
+        "steam_appid": 251570,
+        "name": "7 Days to Die",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 275316
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b3efbb8c3a9d77ac7bd802b145ba4c96698ec7b67f71561241a9f72981041dc9"
+}

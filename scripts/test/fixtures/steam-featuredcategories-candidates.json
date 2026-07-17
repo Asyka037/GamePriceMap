@@ -1,0 +1,9 @@
+{
+  "top_sellers": {
+    "items": [
+      { "id": 1001, "name": "Paid & Hit" },
+      { "id": 1006, "name": "Tie A" },
+      { "id": 1001, "name": "Paid & Hit" }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2141730,
+  "fetchedAt": "2026-07-17T04:49:09.805Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2141730&cc=us&l=english",
+  "responseDigest": "sha256:685961d5207b3c6f33fbd57a2cdcea6da25999e3e8ef8f9753777e046c5121d5",
+  "payload": {
+    "2141730": {
+      "success": true,
+      "data": {
+        "steam_appid": 2141730,
+        "name": "Backrooms: Escape Together",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 18, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 39459
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:32bcb73c2d3cd336195daf271ee970fa17369dcce8057bb61e5ed69d1f521ee2"
+}

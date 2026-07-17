@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1920430,
+  "fetchedAt": "2026-07-17T04:44:37.486Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1920430&cc=us&l=english",
+  "responseDigest": "sha256:a4c468aa488e5d14fd6c90ffc1459901706e53736217736f5e3f6123dbd57201",
+  "payload": {
+    "1920430": {
+      "success": true,
+      "data": {
+        "steam_appid": 1920430,
+        "name": "FUMES",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 899,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 2308
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:791e66e1c3edc5926e33d82406430db63eb4ca4aa467dc7cc84c06ad640ff7cd"
+}

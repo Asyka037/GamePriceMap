@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2507950,
+  "fetchedAt": "2026-07-17T04:44:34.566Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2507950&cc=us&l=english",
+  "responseDigest": "sha256:74cf346b3a177548028ffc2ca2d07c07a2fc4869271a16db7036f5e5029da24d",
+  "payload": {
+    "2507950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2507950,
+        "name": "Delta Force",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1f9124a446b581621ad85c72b79f338d3fd198a638de735e466cd064bd98ec52"
+}

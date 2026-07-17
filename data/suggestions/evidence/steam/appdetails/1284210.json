@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1284210,
+  "fetchedAt": "2026-07-17T04:45:32.067Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1284210&cc=us&l=english",
+  "responseDigest": "sha256:6dba9a3e4b1b816c7f74a24f54172180d701acda0cf75e576690994da95de804",
+  "payload": {
+    "1284210": {
+      "success": true,
+      "data": {
+        "steam_appid": 1284210,
+        "name": "Guild Wars 2®",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 23, 2022"
+        },
+        "recommendations": {
+          "total": 494
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d997c8012c6e346b970f6190f143853ccf71e69a21324c6a33268b3a249a86da"
+}

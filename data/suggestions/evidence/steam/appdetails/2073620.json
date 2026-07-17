@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2073620,
+  "fetchedAt": "2026-07-17T04:45:03.722Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2073620&cc=us&l=english",
+  "responseDigest": "sha256:71f8ac38ced40c852b072853885cc26b9a9d1727ebc25fe1ee81feb0f87707ce",
+  "payload": {
+    "2073620": {
+      "success": true,
+      "data": {
+        "steam_appid": 2073620,
+        "name": "Arena Breakout: Infinite",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 15, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b617aed92c7df32abd3542da114364ff29509d1be786bc5ded95d96d5f1f5f6c"
+}

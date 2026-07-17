@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2141910,
+  "fetchedAt": "2026-07-17T04:44:04.950Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2141910&cc=us&l=english",
+  "responseDigest": "sha256:87d74cf1813af6b586a1f2fbde18e79da4f1268c4e9798054ad081471ce39569",
+  "payload": {
+    "2141910": {
+      "success": true,
+      "data": {
+        "steam_appid": 2141910,
+        "name": "Magic: The Gathering Arena",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 23, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:95e131e9e6b81b7a39581a4d1510e2b37819b54d4a70a97d1856c4cc9b16d925"
+}

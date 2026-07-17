@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3010850,
+  "fetchedAt": "2026-07-17T04:46:22.684Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3010850&cc=us&l=english",
+  "responseDigest": "sha256:272faec7f9a1653802ac33f7dea804a2527a15f832414261d05d6c1bd7c616fa",
+  "payload": {
+    "3010850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3010850,
+        "name": "Gears of War: E-Day",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Oct 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:77e198bcf28a4e6254a9a6412206311023bca44be36a0951876e10e8bf2363d5"
+}

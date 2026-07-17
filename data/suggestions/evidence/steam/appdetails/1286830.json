@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1286830,
+  "fetchedAt": "2026-07-17T04:45:35.035Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1286830&cc=us&l=english",
+  "responseDigest": "sha256:9cd5fb5d7f3d9f74b30632babf8a068264acb483e2770bfcaac70620ab1193de",
+  "payload": {
+    "1286830": {
+      "success": true,
+      "data": {
+        "steam_appid": 1286830,
+        "name": "STAR WARS™: The Old Republic™",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2020"
+        },
+        "recommendations": {
+          "total": 462
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d21003027ad671bb9213f97ef730d625a8b71ce38ead3f1fe042f4c9e9c6d96c"
+}

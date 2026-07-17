@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2138330,
+  "fetchedAt": "2026-07-17T04:46:27.181Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2138330&cc=us&l=english",
+  "responseDigest": "sha256:5f665011a0a77e56f084a74076f089cd70622b73f975dda7fd6702a4e98d8ffb",
+  "payload": {
+    "2138330": {
+      "success": true,
+      "data": {
+        "steam_appid": 2138330,
+        "name": "Cyberpunk 2077: Phantom Liberty",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 21855
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6d20c7a80705d74c921e95f4f61f04f5fe110e439e12057ea69a9226f7b91b28"
+}

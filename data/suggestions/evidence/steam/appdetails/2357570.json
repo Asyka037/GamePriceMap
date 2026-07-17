@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2357570,
+  "fetchedAt": "2026-07-17T04:43:32.322Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2357570&cc=us&l=english",
+  "responseDigest": "sha256:fd95e12445882075528d5fa40a5bd77583f53abf130c8d4e6e197692ca7954f5",
+  "payload": {
+    "2357570": {
+      "success": true,
+      "data": {
+        "steam_appid": 2357570,
+        "name": "Overwatch®",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 10, 2023"
+        },
+        "recommendations": {
+          "total": 274
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d0df0a84cc85fa7efef6a19cdbbdb644fc4887f64d2c03f3025d1f33962300f0"
+}

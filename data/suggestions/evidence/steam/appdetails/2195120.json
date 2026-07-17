@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2195120,
+  "fetchedAt": "2026-07-17T04:46:21.222Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2195120&cc=us&l=english",
+  "responseDigest": "sha256:cb66e24814c972c2c379f36fb32c044dd286d0eb2ba26f07bff13c6b153aec28",
+  "payload": {
+    "2195120": {
+      "success": true,
+      "data": {
+        "steam_appid": 2195120,
+        "name": "Go-Go Town!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2799,
+          "final": 2099,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 1988
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4d685077a49531fb3ed979c5246a91214d3ea2caa9cd068c943c831f764cc754"
+}

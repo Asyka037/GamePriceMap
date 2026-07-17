@@ -1,0 +1,32 @@
+{
+  "candidateId": "ns:70010000000011",
+  "catalogAction": "new_game",
+  "slug": "example-game",
+  "title": "Example Game",
+  "platforms": ["switch"],
+  "publisher": "Example Studio",
+  "developer": "Example Studio",
+  "manualUsEvidence": {
+    "sourceUrl": "https://www.nintendo.com/us/store/products/example-game-switch/",
+    "productSlug": "example-game-switch",
+    "nsuid": "70010000000011",
+    "title": "Example Game",
+    "reviewedAt": "2026-07-17T00:00:00.000Z",
+    "releasedAt": "2025-01-01T00:00:00.000Z",
+    "paid": true,
+    "generation": "HAC",
+    "publisher": "Example Studio",
+    "developer": "Example Studio"
+  },
+  "seedEvidence": [],
+  "popularityEvidence": [
+    {
+      "kind": "nintendo_official_rank",
+      "sourceUrl": "https://www.nintendo.com/us/store/games/best-sellers/",
+      "observedAt": "2026-07-17T00:00:00.000Z",
+      "sourceDigest": "sha256:9510c81760b768a7669cddf856a902fefc86700dda2c7d4b23495572e232d65d",
+      "rank": 1,
+      "evidenceDigest": "sha256:f0c3f2f718e669a8a2a14dc393ccccb39c94748ec2b1b2b134e3f1ca7e309760"
+    }
+  ]
+}

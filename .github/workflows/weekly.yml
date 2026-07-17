@@ -23,6 +23,9 @@ jobs:
         with:
           node-version: 22
 
+      - name: Install root tooling dependencies
+        run: npm ci --no-audit --no-fund
+
       - name: Unit tests
         run: npm test
 
@@ -37,9 +40,6 @@ jobs:
 
       - name: Evolve price history (includes Xbox US)
         run: npm run history:observations
-
-      - name: Build catalog candidates (human-reviewed)
-        run: node scripts/suggest-catalog.mjs
 
       - name: Validate data gate
         run: npm run validate

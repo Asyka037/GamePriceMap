@@ -490,6 +490,7 @@ img { display: block; max-width: 100%; }
   border: 3px solid var(--ink); background: var(--gold-bg);
   padding: 9px 13px; border-radius: var(--radius); cursor: pointer;
   box-shadow: var(--shadow-sm);
+  text-decoration: none;
 }
 .atl-toggle input { accent-color: var(--red); width: 16px; height: 16px; cursor: pointer; }
 

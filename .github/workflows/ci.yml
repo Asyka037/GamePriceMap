@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
+      - name: Install root tooling dependencies
+        run: npm ci --no-audit --no-fund
       - name: Unit tests
         run: npm test
       - name: Data gate

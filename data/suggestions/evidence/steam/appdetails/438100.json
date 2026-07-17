@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 438100,
+  "fetchedAt": "2026-07-17T04:44:25.692Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=438100&cc=us&l=english",
+  "responseDigest": "sha256:e56ccb3bc1743b7ec35ce4e379814a652e2daf29a2393944dfc9701902c3d886",
+  "payload": {
+    "438100": {
+      "success": true,
+      "data": {
+        "steam_appid": 438100,
+        "name": "VRChat",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 1, 2017"
+        },
+        "recommendations": {
+          "total": 147
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2a020d2b07a36ed66d4c1bef32dc1e7004feb53f9fb33fcb52226972696ebf38"
+}

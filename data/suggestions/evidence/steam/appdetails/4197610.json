@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4197610,
+  "fetchedAt": "2026-07-17T04:46:45.185Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4197610&cc=us&l=english",
+  "responseDigest": "sha256:bffad103ef55f330604d6ee851c1adcc266b3bbc50f67420379c9ea979823387",
+  "payload": {
+    "4197610": {
+      "success": true,
+      "data": {
+        "steam_appid": 4197610,
+        "name": "Librarian: Tidy Up the Arcane Library!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20012
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1e89862ef41b2bf9429c44c5e866939ea5919ad33127c9710537fb7c74330831"
+}

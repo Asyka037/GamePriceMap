@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2651280,
+  "fetchedAt": "2026-07-17T04:46:40.604Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2651280&cc=us&l=english",
+  "responseDigest": "sha256:bb13b93926686ec66ca577c809366753cee602cead2e45609265e4931ceffdab",
+  "payload": {
+    "2651280": {
+      "success": true,
+      "data": {
+        "steam_appid": 2651280,
+        "name": "Marvel's Spider-Man 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 28763
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2c5d8dffc74c4ae964794c001caf988748d6408775329c626e9a6444c9c0be1f"
+}

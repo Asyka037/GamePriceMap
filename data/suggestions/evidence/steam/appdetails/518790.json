@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 518790,
+  "fetchedAt": "2026-07-17T04:49:11.250Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=518790&cc=us&l=english",
+  "responseDigest": "sha256:5dab49b84fe51071e7156087ded6ed8a2e762dea448ff53bba148beca1627373",
+  "payload": {
+    "518790": {
+      "success": true,
+      "data": {
+        "steam_appid": 518790,
+        "name": "theHunter: Call of the Wild™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 16, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 168395
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5547f5727d459b95a959a043f6795a3a8dbf03e05b5126fa712275deab1c75e4"
+}

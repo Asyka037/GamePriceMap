@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2215200,
+  "fetchedAt": "2026-07-17T04:46:33.058Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2215200&cc=us&l=english",
+  "responseDigest": "sha256:a53dc452b084289001fb4e07b65366033dfcafc19b92b03dec7ea4411834f936",
+  "payload": {
+    "2215200": {
+      "success": true,
+      "data": {
+        "steam_appid": 2215200,
+        "name": "LEGO® Batman™: Legacy of the Dark Knight",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8024
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4d4eed7499785368571f4de2488ac7acafc4322a03b32a42158e99831eafd918"
+}

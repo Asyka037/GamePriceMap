@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 367270,
+  "fetchedAt": "2026-07-17T04:44:13.808Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=367270&cc=us&l=english",
+  "responseDigest": "sha256:5955014ff91ecaf17ae0b680f189d469d33c9a50529327a4d42d3a3621ddb21e",
+  "payload": {
+    "367270": {
+      "success": true,
+      "data": {
+        "steam_appid": 367270,
+        "name": "Angels Fall First",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1619,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 3301
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:80a7a88255c0d550f9caa33c367579509b216ca3c50ad6e6e4f6675b811da960"
+}

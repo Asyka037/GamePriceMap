@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 238960,
+  "fetchedAt": "2026-07-17T04:45:45.514Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=238960&cc=us&l=english",
+  "responseDigest": "sha256:a0f10a37915324c1caf36c5cb44609c9f34eb0af6b9bf2f6e5958705dad03b0b",
+  "payload": {
+    "238960": {
+      "success": true,
+      "data": {
+        "steam_appid": 238960,
+        "name": "Path of Exile",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2013"
+        },
+        "recommendations": {
+          "total": 1027
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bb514b2891dbb389a4f24efc15ef04f3c0a1403321cfa4d130c76170a568ef3a"
+}

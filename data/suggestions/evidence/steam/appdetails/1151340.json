@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1151340,
+  "fetchedAt": "2026-07-17T04:44:43.377Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1151340&cc=us&l=english",
+  "responseDigest": "sha256:a39ea847b760d2cdc1ca24f83b026719af6da8d3d286b36db334adc463b83d8d",
+  "payload": {
+    "1151340": {
+      "success": true,
+      "data": {
+        "steam_appid": 1151340,
+        "name": "Fallout 76",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 77564
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b9697be2933d9e16d82512246847282cb71b7c86bc34902de73ac04e4408d4d0"
+}

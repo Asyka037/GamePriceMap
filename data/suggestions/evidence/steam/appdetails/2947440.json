@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2947440,
+  "fetchedAt": "2026-07-17T04:46:18.222Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2947440&cc=us&l=english",
+  "responseDigest": "sha256:bdab7264b3d5ae985c3d23fd34c155de164e98b0ac05d5c78ea7d8da575cda62",
+  "payload": {
+    "2947440": {
+      "success": true,
+      "data": {
+        "steam_appid": 2947440,
+        "name": "SILENT HILL f",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 3499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 18194
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:57624bc4d6deb82370c663d50be06f2577bfc2f968938521ba17222f5d1d186e"
+}

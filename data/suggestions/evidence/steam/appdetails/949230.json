@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 949230,
+  "fetchedAt": "2026-07-17T04:46:37.521Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=949230&cc=us&l=english",
+  "responseDigest": "sha256:8200b7b4cc314ae1e3d9319b2e552e437f1a49f0d73136e93d882c6427c15e4c",
+  "payload": {
+    "949230": {
+      "success": true,
+      "data": {
+        "steam_appid": 949230,
+        "name": "Cities: Skylines II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 62712
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d0c45b627f0f7c9a1cc4284b205dfc9fe05c98129ce416a3db3c9070ceac29ce"
+}

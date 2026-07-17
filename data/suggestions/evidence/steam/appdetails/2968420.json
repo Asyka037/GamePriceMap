@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2968420,
+  "fetchedAt": "2026-07-17T04:43:23.317Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2968420&cc=us&l=english",
+  "responseDigest": "sha256:33c74fafe4cbda351257d33a5d1a35fb66d626c1e2ad35f18394e46fb6ff24d4",
+  "payload": {
+    "2968420": {
+      "success": true,
+      "data": {
+        "steam_appid": 2968420,
+        "name": "PowerWash Simulator 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1874,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 10368
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c649365139bc7967284e051a2f0df75750c06fa3d98f1cd589560522e6d61428"
+}

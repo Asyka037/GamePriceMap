@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3981100,
+  "fetchedAt": "2026-07-17T04:49:08.258Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3981100&cc=us&l=english",
+  "responseDigest": "sha256:523760ef91ad35301f710806fe22360d42083be5cd248617c222e588707348e8",
+  "payload": {
+    "3981100": {
+      "success": true,
+      "data": {
+        "steam_appid": 3981100,
+        "name": "Leaf it Alone",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4431
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ebf439592c4bf39e13af3817e614bf6f4fa6ee4fe66764c04d80097f5daf8c4"
+}

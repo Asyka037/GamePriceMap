@@ -3,7 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import DealRows from '../../../components/DealRows.astro';
 import Pager from '../../../components/Pager.astro';
 import { catalog, gameBundle } from '../../../lib/data.mjs';
-import { trackedDeals } from '../../../lib/derive.mjs';
+import { trackedAtlDeals, trackedDeals } from '../../../lib/derive.mjs';
 import { pageSlice, pagerModel, extraPageNumbers } from '../../../lib/paginate.mjs';
 
 // Page 1 is the canonical /steam/deals route (with the featured-feed extras);
@@ -17,6 +17,7 @@ export function getStaticPaths() {
 const page = Number(Astro.params.page);
 const bundles = catalog().map((g: any) => gameBundle(g.slug));
 const deals = trackedDeals(bundles, 'steam');
+const atlDeals = trackedAtlDeals(bundles, 'steam');
 const pager = pagerModel('/steam/deals', page, deals.length);
 ---
 <Layout
@@ -30,6 +31,10 @@ const pager = pagerModel('/steam/deals', page, deals.length);
     <p>{deals.length} tracked games discounted right now. Every deal is checked against its all-time low.</p>
   </div>
   <div class="wrap" style="padding-bottom: 24px;">
+    <div class="toolbar">
+      <a class="atl-toggle" href="/steam/deals/all-time-lows">All-time lows only ({atlDeals.length})</a>
+      <span class="result-n">Page {page} of {pager?.count}</span>
+    </div>
     <DealRows deals={pageSlice(deals, page)} storeLabel="Steam ·" />
     <Pager pager={pager} />
   </div>

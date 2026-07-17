@@ -1,0 +1,70 @@
+name: Daily Steam candidate evidence
+
+on:
+  schedule:
+    - cron: '15 11 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Install root tooling dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Restore resumable Steam candidate caches
+        id: candidate-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: private/game-library/candidate-cache/steam/raw
+          key: ${{ runner.os }}-steam-candidates-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-steam-candidates-
+
+      - name: Collect one immutable UTC-day ranking sample
+        run: npm run candidates:steam:collect
+
+      - name: Enrich a bounded candidate slice through official appdetails
+        run: >-
+          npm run candidates:steam:build --
+          --mode=pilot
+          --limit=1000
+          --max-requests=50
+          --cache-dir=data/suggestions/evidence/steam/appdetails
+
+      - name: Candidate pipeline tests
+        run: node --test scripts/test/steam-candidates.test.mjs
+
+      - name: Commit sealed evidence and provisional review candidates
+        run: |
+          git config user.name "gamepricemap-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/suggestions/evidence/steam/ data/suggestions/steam-candidates.json
+          if git diff --cached --quiet; then
+            echo "No candidate evidence changes."
+            exit 0
+          fi
+          git commit -m "chore(data): Steam candidate evidence $(date -u +%F)"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Save resumable Steam candidate caches
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: private/game-library/candidate-cache/steam/raw
+          key: ${{ runner.os }}-steam-candidates-${{ github.run_id }}

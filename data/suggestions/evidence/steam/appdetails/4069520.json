@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4069520,
+  "fetchedAt": "2026-07-17T04:45:49.906Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4069520&cc=us&l=english",
+  "responseDigest": "sha256:a0d5a93de444261059456669c554f97ff61c61ead00d4d523e7d0c511ed32ba0",
+  "payload": {
+    "4069520": {
+      "success": true,
+      "data": {
+        "steam_appid": 4069520,
+        "name": "Super Battle Golf",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 19, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 559,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 8212
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0181d0085f17b658b9eacead90e5969eb0a49c569bd625a82147e2871f7d156f"
+}

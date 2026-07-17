@@ -20,7 +20,7 @@ function finiteNumber(value) {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
-function switchGenerations(platforms) {
+export function switchGenerations(platforms) {
   const allowed = new Set();
   for (const platform of platforms ?? []) {
     if (platform === 'switch') allowed.add('HAC');
@@ -67,12 +67,12 @@ function booleanValue(value) {
   return null;
 }
 
-function releasedBy(doc, now) {
+export function releasedBy(doc, now) {
   const release = doc.date_from ?? values(doc.dates_released_dts)[0];
-  if (!release) return true;
+  if (!release) return false;
   const releaseMs = Date.parse(release);
   const nowMs = now instanceof Date ? now.getTime() : Number(now);
-  return !Number.isFinite(releaseMs) || !Number.isFinite(nowMs) || releaseMs <= nowMs;
+  return Number.isFinite(releaseMs) && Number.isFinite(nowMs) && releaseMs <= nowMs;
 }
 
 function positiveEuropePrice(doc) {
@@ -81,7 +81,7 @@ function positiveEuropePrice(doc) {
   return (finiteNumber(doc.price_regular_f) ?? -1) > 0;
 }
 
-function europeIsPurchasable(doc, now) {
+export function europeIsPurchasable(doc, now) {
   if (doc.type != null && String(doc.type).toUpperCase() !== 'GAME') return false;
   if (booleanValue(doc.eshop_removed_b) === true) return false;
   // Nintendo first-party base games can be marked digital_version_b=false in
@@ -91,7 +91,7 @@ function europeIsPurchasable(doc, now) {
   return releasedBy(doc, now) && positiveEuropePrice(doc);
 }
 
-function japanIsPurchasable(item) {
+export function japanIsPurchasable(item) {
   if (String(item.ssitu ?? '').toLowerCase() !== 'onsale') return false;
   if (booleanValue(item.upgrade) === true) return false;
   const form = [item.sform, item.sform_n, item.sctg].filter(Boolean).join(' ');
@@ -110,11 +110,16 @@ function japanTitleMatches(candidate, wanted) {
   return titleMatches(main, wanted) || titleMatches(candidate, wanted);
 }
 
-/** Select an exact, released, paid EU base game for the catalog platform. */
-export function selectEuropeDiscoveryCandidate(docs, { title, platforms, now = Date.now() } = {}) {
-  const allowed = switchGenerations(platforms);
-  if (allowed.size === 0) return null;
+function publisherOf(value) {
+  return values(value).map((item) => String(item).trim()).filter(Boolean);
+}
 
+/** Explain whether the EU results contain one unambiguous paid/released generation match. */
+export function evaluateEuropeDiscoveryCandidates(docs, { title, platforms, now = Date.now() } = {}) {
+  const allowed = switchGenerations(platforms);
+  if (allowed.size === 0) return { status: 'exception', reason: 'missing_switch_generation', candidate: null };
+
+  const matches = new Map();
   for (const doc of docs ?? []) {
     if (!titleMatches(doc.title, title)) continue;
     const nsuid = oneBaseNsuid(doc.nsuid_txt);
@@ -126,20 +131,35 @@ export function selectEuropeDiscoveryCandidate(docs, { title, platforms, now = D
     );
     if (!generation || !allowed.has(generation)) continue;
 
-    return {
+    matches.set(nsuid, {
       nsuid,
       matchedTitle: doc.title,
       lowestGbp: finiteNumber(doc.price_lowest_f),
-    };
+      generation,
+      releasedAt: doc.date_from ?? values(doc.dates_released_dts)[0] ?? null,
+      publishers: publisherOf(doc.publisher_txt ?? doc.publisher),
+      developers: publisherOf(doc.developer_txt ?? doc.developer),
+    });
   }
-  return null;
+  if (matches.size === 0) return { status: 'none', reason: 'no_exact_paid_released_generation_match', candidate: null };
+  if (matches.size > 1) {
+    return { status: 'exception', reason: 'ambiguous_exact_matches', candidate: null, nsuids: [...matches.keys()].sort() };
+  }
+  return { status: 'matched', reason: null, candidate: [...matches.values()][0] };
 }
 
-/** Select an exact, on-sale, paid JP base game for the catalog platform. */
-export function selectJapanDiscoveryCandidate(items, { title, platforms } = {}) {
-  const allowed = switchGenerations(platforms);
-  if (allowed.size === 0) return null;
+/** Select an exact, released, paid EU base game for the catalog platform. */
+export function selectEuropeDiscoveryCandidate(docs, options = {}) {
+  const evaluated = evaluateEuropeDiscoveryCandidates(docs, options);
+  return evaluated.status === 'matched' ? evaluated.candidate : null;
+}
 
+/** Explain whether the JP results contain one unambiguous on-sale generation match. */
+export function evaluateJapanDiscoveryCandidates(items, { title, platforms } = {}) {
+  const allowed = switchGenerations(platforms);
+  if (allowed.size === 0) return { status: 'exception', reason: 'missing_switch_generation', candidate: null };
+
+  const matches = new Map();
   for (const item of items ?? []) {
     if (!japanTitleMatches(item.title, title)) continue;
     const nsuid = oneBaseNsuid(item.nsuid ?? item.id);
@@ -151,7 +171,23 @@ export function selectJapanDiscoveryCandidate(items, { title, platforms } = {}) 
     );
     if (!generation || !allowed.has(generation)) continue;
 
-    return { nsuid, matchedTitle: item.title };
+    matches.set(nsuid, {
+      nsuid,
+      matchedTitle: item.title,
+      generation,
+      publishers: publisherOf(item.publisher ?? item.maker),
+      developers: publisherOf(item.developer),
+    });
   }
-  return null;
+  if (matches.size === 0) return { status: 'none', reason: 'no_exact_paid_released_generation_match', candidate: null };
+  if (matches.size > 1) {
+    return { status: 'exception', reason: 'ambiguous_exact_matches', candidate: null, nsuids: [...matches.keys()].sort() };
+  }
+  return { status: 'matched', reason: null, candidate: [...matches.values()][0] };
+}
+
+/** Select an exact, on-sale, paid JP base game for the catalog platform. */
+export function selectJapanDiscoveryCandidate(items, options = {}) {
+  const evaluated = evaluateJapanDiscoveryCandidates(items, options);
+  return evaluated.status === 'matched' ? evaluated.candidate : null;
 }

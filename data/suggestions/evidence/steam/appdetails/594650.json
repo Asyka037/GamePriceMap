@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 594650,
+  "fetchedAt": "2026-07-17T04:45:59.030Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=594650&cc=us&l=english",
+  "responseDigest": "sha256:08f625871260ff5837916bfe4463a552781c7e650375b8579d3ca3309c02f39f",
+  "payload": {
+    "594650": {
+      "success": true,
+      "data": {
+        "steam_appid": 594650,
+        "name": "Hunt: Showdown 1896",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 210983
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b8f735e67643456a2748f295f331e90d354770b41f6f420a52db0ca1b67b2b7d"
+}

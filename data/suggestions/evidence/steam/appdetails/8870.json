@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 8870,
+  "fetchedAt": "2026-07-17T04:48:47.434Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=8870&cc=us&l=english",
+  "responseDigest": "sha256:f744c52d11e35e8983c868081dd15974b204dad99ec5213a9ea0e1b90f5d1459",
+  "payload": {
+    "8870": {
+      "success": true,
+      "data": {
+        "steam_appid": 8870,
+        "name": "BioShock Infinite",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 749,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 109135
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f5ade4eaeeda84004413a125d8b02fa99bff3dd01d3d53fb90b9098a12290d22"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 218620,
+  "fetchedAt": "2026-07-17T04:48:41.663Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=218620&cc=us&l=english",
+  "responseDigest": "sha256:ae7800e5412958bfe02c725a712597230d29465ea7795924bcff6be5f89ac7d4",
+  "payload": {
+    "218620": {
+      "success": true,
+      "data": {
+        "steam_appid": 218620,
+        "name": "PAYDAY 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 13, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 444489
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:107ad8d6fdee4fa7bbdd35bf9bf8dd7f4c83e0b98e079a04ba12c25e9ee82af7"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3240220,
+  "fetchedAt": "2026-07-17T04:43:35.203Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3240220&cc=us&l=english",
+  "responseDigest": "sha256:3fff6824d72d10ebf1778e11dc2925bd14ea4b5b5eef9560810e41a38b6058ee",
+  "payload": {
+    "3240220": {
+      "success": true,
+      "data": {
+        "steam_appid": 3240220,
+        "name": "Grand Theft Auto V Enhanced",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 191077
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d2710b3cb296dcdabe90bdf7bbea092054bb78b97665be49dc9973ffac044c58"
+}

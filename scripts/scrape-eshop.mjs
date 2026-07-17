@@ -11,11 +11,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchJson, sleep, chunk, setRequestBudget } from './lib/http.mjs';
+import { fetchJson, sleep, chunk, requestBudgetFor, setRequestBudget, shouldTripCircuit } from './lib/http.mjs';
 import { fetchRates } from './lib/rates.mjs';
 import { ESHOP_REGIONS, PRICE_BATCH_SIZE, priceUrl, parsePriceEntry, indexPricesById, filterOutlierRegions } from './lib/eshop.mjs';
 import { assembleRawSnapshot, sameObservations } from './lib/snapshot.mjs';
-import { recordSourceRun, completeSourceRun } from './lib/sourcehealth.mjs';
+import { recordSourceRun, completeSourceRun, sourceRunExitCode } from './lib/sourcehealth.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'eshop');
@@ -48,7 +48,7 @@ if (!rates) {
   } catch (err) {
     recordSourceRun('eshop-regional', { ok: false, targeted: onlySlugs.length > 0, note: `rates unavailable before scrape: ${err.message}` });
     console.warn('eShop run skipped; old observations retained and failure recorded.');
-    process.exit(0);
+    process.exit(sourceRunExitCode({ targeted: onlySlugs.length > 0, complete: false }));
   }
 }
 
@@ -60,7 +60,7 @@ const plannedRequests = ESHOP_REGIONS.reduce((sum, { group }) => {
   const inRegion = games.filter((g) => g.nsuids[group]).length;
   return sum + Math.ceil(inRegion / PRICE_BATCH_SIZE);
 }, 0);
-setRequestBudget(plannedRequests * 3 + 10);
+setRequestBudget(requestBudgetFor(plannedRequests));
 let attemptedRequests = 0;
 
 outer:
@@ -79,7 +79,7 @@ for (const { cc, group } of ESHOP_REGIONS) {
     } catch (err) {
       failedRegionRequests++;
       failedCcs.add(cc);
-      if (err.budget || (attemptedRequests >= 10 && failedRegionRequests > attemptedRequests * 0.2)) {
+      if (err.budget || shouldTripCircuit(attemptedRequests, failedRegionRequests)) {
         console.error(`\ncircuit breaker: ${failedRegionRequests}/${attemptedRequests} requests failed — aborting run, old observations retained`);
         // Regions never attempted must carry old rows forward too.
         for (const region of ESHOP_REGIONS) failedCcs.add(region.cc);
@@ -129,3 +129,4 @@ console.log(`eShop snapshots changed: ${written}, unchanged: ${unchanged}, skipp
 if (!complete) {
   console.warn('eShop run was incomplete; old observations were retained and lastSuccessAt was not advanced.');
 }
+process.exitCode = sourceRunExitCode({ targeted: onlySlugs.length > 0, complete });

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1431300,
+  "fetchedAt": "2026-07-17T04:45:15.652Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1431300&cc=us&l=english",
+  "responseDigest": "sha256:5dab0062d4138ee1856dce512c4c12ea671c2fb0641c8a63855417d332bd80b2",
+  "payload": {
+    "1431300": {
+      "success": true,
+      "data": {
+        "steam_appid": 1431300,
+        "name": "SAND: Raiders of Sophie",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9958
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d7e4bd8d1b7101dda555e2f60127d289d1996864f4d5a0c53ab850a18729a90e"
+}

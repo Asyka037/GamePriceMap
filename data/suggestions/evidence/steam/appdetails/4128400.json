@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4128400,
+  "fetchedAt": "2026-07-17T04:45:12.778Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4128400&cc=us&l=english",
+  "responseDigest": "sha256:92e9ad8486da164ca3f0a0856ed3bbbe8c911fdfcbf08ff9b77f99e98df7f919",
+  "payload": {
+    "4128400": {
+      "success": true,
+      "data": {
+        "steam_appid": 4128400,
+        "name": "eBaseball™: PRO SPIRIT",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 4, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:20978768595f7d7260ffe945e7402e98cda099e910f191b8b4980eca2ab18489"
+}

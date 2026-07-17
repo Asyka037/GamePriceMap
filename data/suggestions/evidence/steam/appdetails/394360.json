@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 394360,
+  "fetchedAt": "2026-07-17T04:46:16.783Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=394360&cc=us&l=english",
+  "responseDigest": "sha256:1f4ba364d8c04a40912d40f2c1868592ceb1ea6d37f2ea605a0acf1ccf624383",
+  "payload": {
+    "394360": {
+      "success": true,
+      "data": {
+        "steam_appid": 394360,
+        "name": "Hearts of Iron IV",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 6, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 279735
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fdc102b5ef8924186ae97228485da1f28a1aa0d1ecb948b1239b8760b063be3e"
+}

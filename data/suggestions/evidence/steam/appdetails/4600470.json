@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4600470,
+  "fetchedAt": "2026-07-17T04:45:54.425Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4600470&cc=us&l=english",
+  "responseDigest": "sha256:f7f69123ed5310c6626be689833779ec203826ae78d38eb95831955d2b39d3ed",
+  "payload": {
+    "4600470": {
+      "success": true,
+      "data": {
+        "steam_appid": 4600470,
+        "name": "Season 4 Battlefield Pro - Battlefield™ 6 and REDSEC Pre-Purchase",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7d020bf4ccbec7df15a2c51044c16f282d7aa2bf7a25a7a32697c92f05e07d1b"
+}

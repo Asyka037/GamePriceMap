@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1289670,
+  "fetchedAt": "2026-07-17T04:46:19.768Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1289670&cc=us&l=english",
+  "responseDigest": "sha256:0e5c5a93ec8128c82f0d1766677634254ee8639976d0ad940412cfb58b02cad2",
+  "payload": {
+    "1289670": {
+      "success": true,
+      "data": {
+        "steam_appid": 1289670,
+        "name": "EA Play",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 31, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d4b597fe6ee12590930ec075fc7985809e1e2419238ddac868baf99d1f27d5a5"
+}

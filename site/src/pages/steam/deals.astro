@@ -4,11 +4,12 @@ import DealRows from '../../components/DealRows.astro';
 import SectionHead from '../../components/SectionHead.astro';
 import Pager from '../../components/Pager.astro';
 import { catalog, gameBundle, feed } from '../../lib/data.mjs';
-import { trackedDeals, fmtUsd } from '../../lib/derive.mjs';
+import { trackedAtlDeals, trackedDeals, fmtUsd } from '../../lib/derive.mjs';
 import { pageSlice, pagerModel } from '../../lib/paginate.mjs';
 
 const bundles = catalog().map((g: any) => gameBundle(g.slug));
 const deals = trackedDeals(bundles, 'steam');
+const atlDeals = trackedAtlDeals(bundles, 'steam');
 const pageDeals = pageSlice(deals, 1);
 const pager = pagerModel('/steam/deals', 1, deals.length);
 const feedExtras = feed('deals-steam').items.filter((i: any) => !i.slugIfTracked);
@@ -26,8 +27,8 @@ const feedExtras = feed('deals-steam').items.filter((i: any) => !i.slugIfTracked
 
   <div class="wrap" style="padding-bottom: 24px;">
     <div class="toolbar">
-      <label class="atl-toggle"><input type="checkbox" id="atlOnly" /> All-time lows only</label>
-      <span class="result-n" id="resultCount">{pageDeals.length} deals</span>
+      <a class="atl-toggle" href="/steam/deals/all-time-lows">All-time lows only ({atlDeals.length})</a>
+      <span class="result-n">Showing {pageDeals.length} of {deals.length} deals</span>
     </div>
 
     <DealRows deals={pageDeals} storeLabel="Steam ·" />
@@ -55,17 +56,4 @@ const feedExtras = feed('deals-steam').items.filter((i: any) => !i.slugIfTracked
     )}
   </div>
 
-  <script>
-    const toggle = document.getElementById('atlOnly') as HTMLInputElement | null;
-    const count = document.getElementById('resultCount');
-    toggle?.addEventListener('change', () => {
-      let shown = 0;
-      for (const row of document.querySelectorAll<HTMLElement>('.deal-row[data-pct]')) {
-        const show = !toggle.checked || row.dataset.atl === '1';
-        row.style.display = show ? '' : 'none';
-        if (show) shown++;
-      }
-      if (count) count.textContent = `${shown} deals`;
-    });
-  </script>
 </Layout>

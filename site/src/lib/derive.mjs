@@ -333,6 +333,11 @@ export function trackedDeals(bundles, channel) {
   return rows.sort((a, b) => b.pct - a.pct);
 }
 
+/** Complete ATL-only listing; callers paginate only after applying this filter. */
+export function trackedAtlDeals(bundles, channel) {
+  return trackedDeals(bundles, channel).filter((deal) => deal.isAtl);
+}
+
 /** Sparkline path data for price history events (US, one channel). */
 export function historySeries(history, channel) {
   return (history?.events ?? [])

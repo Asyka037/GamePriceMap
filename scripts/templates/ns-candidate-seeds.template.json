@@ -1,0 +1,42 @@
+{
+  "$comment": "Template only. Do not paste an unreviewed title list. Every real row needs a frozen ns:<NSUID> candidateId, dated paid identity evidence, and dated popularity evidence. Use createNintendoSeedDocument/sealManualUsEvidence/sealDatedEvidence to generate digests. For a mapping onto an existing catalog game, set catalogAction to add_platform_mapping and use that existing game slug.",
+  "schemaVersion": 1,
+  "kind": "nintendo-candidate-seeds",
+  "generatedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+  "candidates": [
+    {
+      "candidateId": "ns:REPLACE_WITH_REVIEWED_BASE_GAME_NSUID",
+      "catalogAction": "new_game",
+      "slug": "replace-with-reviewed-slug",
+      "title": "REPLACE WITH REVIEWED TITLE",
+      "platforms": ["switch"],
+      "publisher": "REPLACE WITH REVIEWED PUBLISHER",
+      "developer": "REPLACE WITH REVIEWED DEVELOPER",
+      "manualUsEvidence": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/replace-with-reviewed-product-slug/",
+        "productSlug": "replace-with-reviewed-product-slug",
+        "nsuid": "REPLACE_WITH_REVIEWED_BASE_GAME_NSUID",
+        "title": "REPLACE WITH REVIEWED TITLE",
+        "reviewedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+        "releasedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+        "paid": true,
+        "generation": "HAC",
+        "evidenceDigest": "GENERATE_WITH_sealManualUsEvidence"
+      },
+      "seedEvidence": [],
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "popularityEvidence": [
+        {
+          "kind": "nintendo_official_rank OR steam_heat",
+          "sourceUrl": "REPLACE_WITH_REVIEWED_OFFICIAL_SOURCE_URL",
+          "observedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+          "sourceDigest": "REPLACE_WITH_BOUND_SOURCE_DOCUMENT_DIGEST",
+          "rank": "REPLACE_WITH_POSITIVE_OFFICIAL_RANK_OR_USE_NUMERIC_score_FOR_STEAM_HEAT",
+          "evidenceDigest": "GENERATE_WITH_sealDatedEvidence"
+        }
+      ]
+    }
+  ],
+  "documentDigest": "GENERATE_WITH_createNintendoSeedDocument"
+}

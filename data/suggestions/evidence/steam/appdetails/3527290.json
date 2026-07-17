@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3527290,
+  "fetchedAt": "2026-07-17T04:45:14.199Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3527290&cc=us&l=english",
+  "responseDigest": "sha256:60e944c2c952af2094123ef7e19ca2406fe5ee757b591a75d045b3cd74bba838",
+  "payload": {
+    "3527290": {
+      "success": true,
+      "data": {
+        "steam_appid": 3527290,
+        "name": "PEAK",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 274469
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2342cc877a2004ef8e2dd36f4fbfdabca0a4f6052dcbda1b83f4aee14bf28015"
+}

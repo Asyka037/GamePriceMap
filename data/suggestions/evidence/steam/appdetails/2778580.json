@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2778580,
+  "fetchedAt": "2026-07-17T04:49:00.903Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2778580&cc=us&l=english",
+  "responseDigest": "sha256:507565130736a6cc877fa5f749fa78e882c5c3ab1391ec6a64e2f6f21bc4d972",
+  "payload": {
+    "2778580": {
+      "success": true,
+      "data": {
+        "steam_appid": 2778580,
+        "name": "ELDEN RING Shadow of the Erdtree",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 81865
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:98cfdb48f6a08cb1413d0d78643a760cbaebcca1dda970d68b1856fb3e724af0"
+}

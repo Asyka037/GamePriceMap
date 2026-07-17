@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3065800,
+  "fetchedAt": "2026-07-17T04:48:56.514Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3065800&cc=us&l=english",
+  "responseDigest": "sha256:9abe2fb3b16d775a59f20c682493d50e70276a8aab932567d96da83596d04c86",
+  "payload": {
+    "3065800": {
+      "success": true,
+      "data": {
+        "steam_appid": 3065800,
+        "name": "Marathon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 43686
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dae0ffe9002ebaf798106b8dbe25f64ec93b97fc53e8ba991335a566f1b91455"
+}

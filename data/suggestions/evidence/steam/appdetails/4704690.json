@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4704690,
+  "fetchedAt": "2026-07-17T04:43:14.607Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4704690&cc=us&l=english",
+  "responseDigest": "sha256:5946d7c6a00b7fe9ac37eef70e90b8fac5555c72d217de578f4158d393f769b8",
+  "payload": {
+    "4704690": {
+      "success": true,
+      "data": {
+        "steam_appid": 4704690,
+        "name": "MECCHA CHAMELEON",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 60039
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5203f0b4ce8123af38ed3b78a614510c89cf33711b3f7361924bca540aa47353"
+}

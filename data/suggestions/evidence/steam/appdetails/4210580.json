@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4210580,
+  "fetchedAt": "2026-07-17T04:44:27.144Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4210580&cc=us&l=english",
+  "responseDigest": "sha256:73aaad6a23ffabe55a5fbc01fa34add95abf00369bc8bbefb094cbdc008b32eb",
+  "payload": {
+    "4210580": {
+      "success": true,
+      "data": {
+        "steam_appid": 4210580,
+        "name": "Ore Factory Squad ⛏️",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 974,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 105
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:98903ec30687c3a72b371a718c4f09fcd0769258c7cc2f9023c2a54502604bc9"
+}

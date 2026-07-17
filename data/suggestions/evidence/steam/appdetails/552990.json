@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 552990,
+  "fetchedAt": "2026-07-17T04:44:24.251Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=552990&cc=us&l=english",
+  "responseDigest": "sha256:c08b4e37125de47b2f81f6858d3b0daf39b8025025e75d89650855036d934ab5",
+  "payload": {
+    "552990": {
+      "success": true,
+      "data": {
+        "steam_appid": 552990,
+        "name": "World of Warships",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 15, 2017"
+        },
+        "recommendations": {
+          "total": 2024
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8ee26dc1a5b60619e03b1299b23deef49d4725a318ce30110fed42620de8e32b"
+}

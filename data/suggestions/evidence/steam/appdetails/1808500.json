@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1808500,
+  "fetchedAt": "2026-07-17T04:45:41.007Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1808500&cc=us&l=english",
+  "responseDigest": "sha256:1a04ccf12019a28ff4d0038bd418eeb7413d3eb4b7932bd32d7ebe280f99375c",
+  "payload": {
+    "1808500": {
+      "success": true,
+      "data": {
+        "steam_appid": 1808500,
+        "name": "ARC Raiders",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 294377
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:11368396af580c32715507175cdc1f2802fb23ed625b3236b5b0eaf42b4b3ba0"
+}

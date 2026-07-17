@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3453910,
+  "fetchedAt": "2026-07-17T04:44:53.506Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3453910&cc=us&l=english",
+  "responseDigest": "sha256:9737a925c5d599245798ed48f1aad618847e2b680e39dd0e910e159d7c381e29",
+  "payload": {
+    "3453910": {
+      "success": true,
+      "data": {
+        "steam_appid": 3453910,
+        "name": "Happy's Humble Burger Cult",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2ad0eef0e6ec5316d46b3b7b163049cffbc242df82ceeca6e385f5899fb864a4"
+}

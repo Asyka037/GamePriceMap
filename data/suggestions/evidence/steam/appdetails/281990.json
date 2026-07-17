@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 281990,
+  "fetchedAt": "2026-07-17T04:45:23.032Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=281990&cc=us&l=english",
+  "responseDigest": "sha256:4fbc0edd0857d58de405718ace01d8df61ed2e59430e574a100e9766b1b190e5",
+  "payload": {
+    "281990": {
+      "success": true,
+      "data": {
+        "steam_appid": 281990,
+        "name": "Stellaris",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 9, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 142040
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ce5eee396df83eb73b6342687b87b6e30471ce1a927160a0045d8a261564f0d8"
+}

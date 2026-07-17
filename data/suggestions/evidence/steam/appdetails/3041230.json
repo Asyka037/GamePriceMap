@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3041230,
+  "fetchedAt": "2026-07-17T04:45:05.144Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3041230&cc=us&l=english",
+  "responseDigest": "sha256:a1ac2b0650c94d3e150cc139f53b83ebf9a60ee96541f124b8759c1aecab94e0",
+  "payload": {
+    "3041230": {
+      "success": true,
+      "data": {
+        "steam_appid": 3041230,
+        "name": "Windrose",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 45633
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b5b2060cabeccaee80a8669f17d11a2d6212577dff1d4274411b182fe2902929"
+}

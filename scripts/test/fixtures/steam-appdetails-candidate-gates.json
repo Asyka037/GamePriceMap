@@ -1,0 +1,80 @@
+{
+  "1001": {
+    "success": true,
+    "data": {
+      "type": "game",
+      "name": "Paid & Hit",
+      "steam_appid": 1001,
+      "is_free": false,
+      "release_date": { "coming_soon": false, "date": "Jul 1, 2020" },
+      "price_overview": { "currency": "USD", "initial": 2999, "final": 0, "discount_percent": 100 },
+      "recommendations": { "total": 50000 }
+    }
+  },
+  "1002": {
+    "success": true,
+    "data": {
+      "type": "game",
+      "name": "Free Game",
+      "steam_appid": 1002,
+      "is_free": true,
+      "release_date": { "coming_soon": false, "date": "Jul 1, 2020" }
+    }
+  },
+  "1003": {
+    "success": true,
+    "data": {
+      "type": "dlc",
+      "name": "Expansion DLC",
+      "steam_appid": 1003,
+      "is_free": false,
+      "release_date": { "coming_soon": false, "date": "Jul 1, 2020" },
+      "price_overview": { "currency": "USD", "initial": 999, "final": 999, "discount_percent": 0 }
+    }
+  },
+  "1004": {
+    "success": true,
+    "data": {
+      "type": "game",
+      "name": "Future Game",
+      "steam_appid": 1004,
+      "is_free": false,
+      "release_date": { "coming_soon": true, "date": "Coming soon" },
+      "price_overview": { "currency": "USD", "initial": 5999, "final": 5999, "discount_percent": 0 }
+    }
+  },
+  "1005": {
+    "success": true,
+    "data": {
+      "type": "game",
+      "name": "No Price",
+      "steam_appid": 1005,
+      "is_free": false,
+      "release_date": { "coming_soon": false, "date": "Jul 1, 2020" }
+    }
+  },
+  "1006": {
+    "success": true,
+    "data": {
+      "type": "game",
+      "name": "Tie A",
+      "steam_appid": 1006,
+      "is_free": false,
+      "release_date": { "coming_soon": false, "date": "Jul 1, 2020" },
+      "price_overview": { "currency": "USD", "initial": 1999, "final": 1999, "discount_percent": 0 },
+      "recommendations": { "total": 100 }
+    }
+  },
+  "1007": {
+    "success": true,
+    "data": {
+      "type": "game",
+      "name": "Tie B",
+      "steam_appid": 1007,
+      "is_free": false,
+      "release_date": { "coming_soon": false, "date": "Jul 1, 2020" },
+      "price_overview": { "currency": "USD", "initial": 1999, "final": 1999, "discount_percent": 0 },
+      "recommendations": { "total": 100 }
+    }
+  }
+}

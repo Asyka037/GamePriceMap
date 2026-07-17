@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2385530,
+  "fetchedAt": "2026-07-17T04:48:50.425Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2385530&cc=us&l=english",
+  "responseDigest": "sha256:e26fef39849e69065576f478f1ac157268490546cb1c73ed6099369e5d4ecf34",
+  "payload": {
+    "2385530": {
+      "success": true,
+      "data": {
+        "steam_appid": 2385530,
+        "name": "PGA TOUR 2K25",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 3959,
+          "discount_percent": 34
+        },
+        "recommendations": {
+          "total": 3573
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63e190cf3e5ed0c699e28c467426b083345255551424f74515e44b92c41ee4ea"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 223750,
+  "fetchedAt": "2026-07-17T04:45:11.102Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=223750&cc=us&l=english",
+  "responseDigest": "sha256:bb7bd2351e8606c3e2f0a4d54e184208211339df7d6ba7cd5af7783d72cb4b12",
+  "payload": {
+    "223750": {
+      "success": true,
+      "data": {
+        "steam_appid": 223750,
+        "name": "DCS World Steam Edition",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 2, 2013"
+        },
+        "recommendations": {
+          "total": 705
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:11a0e96f2afd7ab2b3f9ebd963c8647e9a0cfbf4a90cf6deed41af62ac0db0c0"
+}

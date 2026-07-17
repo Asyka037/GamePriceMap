@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4165870,
+  "fetchedAt": "2026-07-17T04:43:30.807Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4165870&cc=us&l=english",
+  "responseDigest": "sha256:0fe160060b81b234f6934b290e0ea056e89d51184ee616d3af721c8d78c0f246",
+  "payload": {
+    "4165870": {
+      "success": true,
+      "data": {
+        "steam_appid": 4165870,
+        "name": "Steam Controller",
+        "type": "hardware",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 4, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 9900,
+          "final": 9900,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5023f9618c6d8d031eb219bc25afeefaabf819fcf7f948b3fa3f631fecd57aaa"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4907940,
+  "fetchedAt": "2026-07-17T04:45:38.028Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4907940&cc=us&l=english",
+  "responseDigest": "sha256:5647dce43f2322d1cfd5102af25595bdc80de303f451e65d40eac620c9d17774",
+  "payload": {
+    "4907940": {
+      "success": true,
+      "data": {
+        "steam_appid": 4907940,
+        "name": "DCS: F-14B(U) by Heatblur Simulations",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Coming soon"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5699,
+          "final": 4958,
+          "discount_percent": 13
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4d488a2983f8b96e499bfa9bd0b2b9b1a1cd5c9a5cea1c390e27c4b2bca5788e"
+}

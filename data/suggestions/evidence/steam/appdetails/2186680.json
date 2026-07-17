@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2186680,
+  "fetchedAt": "2026-07-17T04:48:51.924Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2186680&cc=us&l=english",
+  "responseDigest": "sha256:8c7fcba8a200758ac46b4ac6a89163a924e7bc78e46fc97f0f2bb36a8b582ede",
+  "payload": {
+    "2186680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2186680,
+        "name": "Warhammer 40,000: Rogue Trader",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 32404
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d062a520fe495e45ea39708909d10ba63b28f1ed01470e442280d111f7a90788"
+}

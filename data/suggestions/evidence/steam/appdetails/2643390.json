@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2643390,
+  "fetchedAt": "2026-07-17T04:44:50.634Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2643390&cc=us&l=english",
+  "responseDigest": "sha256:48383674dafcf0bda1563020876bffcbe6b51e6e6f74d629fde33f1e287afa32",
+  "payload": {
+    "2643390": {
+      "success": true,
+      "data": {
+        "steam_appid": 2643390,
+        "name": "Star Trek: Voyager - Across the Unknown",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2449,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 3902
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c3af87a7b36cfd6018d7cc8fe75509fb0cef52cb693dae274f38864481d025da"
+}

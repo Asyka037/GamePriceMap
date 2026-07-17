@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2807960,
+  "fetchedAt": "2026-07-17T04:44:15.253Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2807960&cc=us&l=english",
+  "responseDigest": "sha256:73c01899c84c8393569cfce31aeec80826c7ae387b27a464b83e31a678cdaefa",
+  "payload": {
+    "2807960": {
+      "success": true,
+      "data": {
+        "steam_appid": 2807960,
+        "name": "Battlefield™ 6",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 282881
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0dbbb7fcd4c07e9846024a22a24afb579ccc1bf268b0b5203d1cb8e964e86275"
+}

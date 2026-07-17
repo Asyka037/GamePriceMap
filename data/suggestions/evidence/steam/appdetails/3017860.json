@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3017860,
+  "fetchedAt": "2026-07-17T04:46:10.643Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3017860&cc=us&l=english",
+  "responseDigest": "sha256:e5a652b0064aff281e492b83ee269dfc2741079b95b1300cd88e46c10b8f4f5d",
+  "payload": {
+    "3017860": {
+      "success": true,
+      "data": {
+        "steam_appid": 3017860,
+        "name": "DOOM: The Dark Ages",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 14, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29768
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:db77ae637046f6d2abf6276ed182157125f5d8f7f9ac65f4dd36f4d9422a7cd4"
+}

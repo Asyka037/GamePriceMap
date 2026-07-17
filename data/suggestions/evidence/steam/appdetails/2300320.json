@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2300320,
+  "fetchedAt": "2026-07-17T04:46:04.764Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2300320&cc=us&l=english",
+  "responseDigest": "sha256:6db38222934f372c5ddf880dfe1a4cdfde9aa377666c2219c2e62a6b5ad4a4df",
+  "payload": {
+    "2300320": {
+      "success": true,
+      "data": {
+        "steam_appid": 2300320,
+        "name": "Farming Simulator 25",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 37239
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c19e6b7b2cbdcb27e0854766640b04a6a8ee8d442314ba85a025cc3583ac342d"
+}

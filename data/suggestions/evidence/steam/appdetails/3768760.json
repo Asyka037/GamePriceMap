@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3768760,
+  "fetchedAt": "2026-07-17T04:44:54.994Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3768760&cc=us&l=english",
+  "responseDigest": "sha256:b512701dc5b0bc2fc91d9255e31948e20fe017f6a5a705c0733e5e3bd34fe4db",
+  "payload": {
+    "3768760": {
+      "success": true,
+      "data": {
+        "steam_appid": 3768760,
+        "name": "007 First Light",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29229
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b5835805806c6d3913b9ac09b169e566155414534586bc05894f371f7f61adb7"
+}

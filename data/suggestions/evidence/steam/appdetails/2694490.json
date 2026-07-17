@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2694490,
+  "fetchedAt": "2026-07-17T04:43:38.072Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2694490&cc=us&l=english",
+  "responseDigest": "sha256:a665cdbea14ee432e74a998534472f6d5975b9ce0ad677ab1493454728b39ea6",
+  "payload": {
+    "2694490": {
+      "success": true,
+      "data": {
+        "steam_appid": 2694490,
+        "name": "Path of Exile 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 6, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 164878
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:19cf4bc29beb9c3c6b83a5c93834eaedf3d2d80c78c61e5621f5227ab20dd0a3"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1172620,
+  "fetchedAt": "2026-07-17T04:48:57.935Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1172620&cc=us&l=english",
+  "responseDigest": "sha256:eb957e96c42c2762d145f7672c0a2dde7b1292708d40381b064688c47b772ece",
+  "payload": {
+    "1172620": {
+      "success": true,
+      "data": {
+        "steam_appid": 1172620,
+        "name": "Sea of Thieves: 2026 Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 3, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 320786
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:47499b9bf5bd440f959e0134953eb09562d5bca9a2e82ab27a33544ee7f50ccb"
+}

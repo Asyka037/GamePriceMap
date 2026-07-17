@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1547000,
+  "fetchedAt": "2026-07-17T04:45:48.478Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1547000&cc=us&l=english",
+  "responseDigest": "sha256:47c640aefe93e223aa9fdbf3b57a9896afd7775b6d05d87cd176f85884de3c78",
+  "payload": {
+    "1547000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1547000,
+        "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 19, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1979,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 14598
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:23f80d56a6746598bad8155c210fd858279119a4fbb5e395f1b983f0d13d99be"
+}

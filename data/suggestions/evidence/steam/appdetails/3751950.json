@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3751950,
+  "fetchedAt": "2026-07-17T04:43:11.695Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3751950&cc=us&l=english",
+  "responseDigest": "sha256:6fef2640042d9eeab497a09bd03c9d3e02866c55b8c73b74a67bfe9cf3d1104e",
+  "payload": {
+    "3751950": {
+      "success": true,
+      "data": {
+        "steam_appid": 3751950,
+        "name": "Assassin's Creed Black Flag Resynced",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15610
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f85516a22024a317cd03b7ceee5def321d4ee8fb648482828e62f834f054e8d7"
+}

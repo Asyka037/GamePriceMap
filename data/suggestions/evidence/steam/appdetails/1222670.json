@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1222670,
+  "fetchedAt": "2026-07-17T04:45:08.045Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1222670&cc=us&l=english",
+  "responseDigest": "sha256:970a20b34d7cae1e5d78eef9c4b8f1643cdef742a36d21d70ca1bd63c56ba4f6",
+  "payload": {
+    "1222670": {
+      "success": true,
+      "data": {
+        "steam_appid": 1222670,
+        "name": "The Sims™ 4",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "recommendations": {
+          "total": 83167
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b425272322fc50140e0f26c58954811f8292c51104006203211db1ffc2003883"
+}

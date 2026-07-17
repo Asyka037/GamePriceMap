@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1285190,
+  "fetchedAt": "2026-07-17T04:44:18.241Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1285190&cc=us&l=english",
+  "responseDigest": "sha256:da3be732c9815e625a50be9b500b9ddc4f0671b89c5ee7170cbb1b62d0489c48",
+  "payload": {
+    "1285190": {
+      "success": true,
+      "data": {
+        "steam_appid": 1285190,
+        "name": "Borderlands 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 3499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 56023
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:89404a771321509a8677ca88f51bfa70865ea14d3d6e1cbc60a0e9cad370ad8d"
+}

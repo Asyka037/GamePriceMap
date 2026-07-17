@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2397300,
+  "fetchedAt": "2026-07-17T04:46:42.239Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2397300&cc=us&l=english",
+  "responseDigest": "sha256:26c8cae1ac3dab5ca2dcbd99131f7f8afe673d6f26e04de405ef7fafead8e1c9",
+  "payload": {
+    "2397300": {
+      "success": true,
+      "data": {
+        "steam_appid": 2397300,
+        "name": "Half Sword",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 26283
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:56570972427886574a1a7f72c08e668307b25568e82ef1a3dd32d3a267fec662"
+}

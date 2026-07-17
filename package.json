@@ -7,6 +7,12 @@
     "node": ">=22.12.0"
   },
   "scripts": {
+    "candidates:steam:collect": "node scripts/collect-steam-ranking.mjs",
+    "candidates:steam:build": "node scripts/build-steam-candidates.mjs",
+    "candidates:review": "node scripts/export-candidate-review.mjs",
+    "candidates:steam:promote-cache": "node scripts/promote-steam-appdetails-evidence.mjs",
+    "candidates:ns:seal": "node scripts/seal-ns-candidate-seeds.mjs",
+    "import": "node scripts/import-library.mjs",
     "scrape:steam": "node scripts/scrape-steam.mjs",
     "scrape:steam-offers": "node scripts/scrape-steam-offers.mjs",
     "history": "node scripts/build-history.mjs",
@@ -17,5 +23,8 @@
     "scrape:xbox": "node scripts/scrape-xbox.mjs",
     "discover": "node scripts/discover-nsuid.mjs",
     "discover:xbox": "node scripts/discover-xbox.mjs"
+  },
+  "devDependencies": {
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 427520,
+  "fetchedAt": "2026-07-17T04:45:46.949Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=427520&cc=us&l=english",
+  "responseDigest": "sha256:af401d5648fb4963febd7ce7b8d546a3dc80a7dcfef0271007f83bb4a1d6c2c6",
+  "payload": {
+    "427520": {
+      "success": true,
+      "data": {
+        "steam_appid": 427520,
+        "name": "Factorio",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 14, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3500,
+          "final": 3500,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 193367
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:596b402b535152ab68b4b449c4a7faa04c427b606f069a47ecf6adcea2658c1e"
+}

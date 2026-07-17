@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4512570,
+  "fetchedAt": "2026-07-17T04:46:07.719Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4512570&cc=us&l=english",
+  "responseDigest": "sha256:7dfb4561dc4d358cdefdffd59e531653c66d95494cf28bfa9d3abd50ed296e00",
+  "payload": {
+    "4512570": {
+      "success": true,
+      "data": {
+        "steam_appid": 4512570,
+        "name": "A Game About Chopping Trees",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 719,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 203
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:da6fefa24c59872a31aa96ecd0022409c83431f345e82c5a0586fed444f00f45"
+}

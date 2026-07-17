@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3061570,
+  "fetchedAt": "2026-07-17T04:45:20.098Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3061570&cc=us&l=english",
+  "responseDigest": "sha256:9ae9d812375d0b071f2b0d6bd53ac5dccc8575a17d5270dfa2d73fe3582ba27d",
+  "payload": {
+    "3061570": {
+      "success": true,
+      "data": {
+        "steam_appid": 3061570,
+        "name": "Persona5: The Phantom X",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a02f22adf99093d74774a1f43ad12da465900e408b8483c69b597b81665d902e"
+}

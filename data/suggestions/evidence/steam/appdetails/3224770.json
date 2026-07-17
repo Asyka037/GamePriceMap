@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3224770,
+  "fetchedAt": "2026-07-17T04:45:00.863Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3224770&cc=us&l=english",
+  "responseDigest": "sha256:9a6f29ebad6d3348ca98b566b4fc4406500284b8afd1e854177937b8365993f7",
+  "payload": {
+    "3224770": {
+      "success": true,
+      "data": {
+        "steam_appid": 3224770,
+        "name": "Umamusume: Pretty Derby",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 24, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1683b4934bf1f435d5b470a282c3f375d01dd76aec07b4c6a139f7d134423dcd"
+}

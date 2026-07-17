@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3767850,
+  "fetchedAt": "2026-07-17T04:46:30.190Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3767850&cc=us&l=english",
+  "responseDigest": "sha256:7bcfb92df207bf7bc778a5c15e8fa2bc1e98417db8de2392ddb87da527c2af73",
+  "payload": {
+    "3767850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3767850,
+        "name": "SpiritVale",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1260
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1997c0f1378a356b1189c5b43bd023a9fb8421d1350f34c9cca0cd46fa6a6873"
+}

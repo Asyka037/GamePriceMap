@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 270880,
+  "fetchedAt": "2026-07-17T04:44:33.035Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=270880&cc=us&l=english",
+  "responseDigest": "sha256:b225d38307189b9ec2bf5e9e1d809832f261caaf84f45080007e4bf7c14698ee",
+  "payload": {
+    "270880": {
+      "success": true,
+      "data": {
+        "steam_appid": 270880,
+        "name": "American Truck Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 2, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 165501
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fefa1c018611ab712c6fe24eed62fc98c44bf722a2d925eedc766d12d6702e3e"
+}

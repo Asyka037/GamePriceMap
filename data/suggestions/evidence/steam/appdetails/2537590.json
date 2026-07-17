@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2537590,
+  "fetchedAt": "2026-07-17T04:46:31.632Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2537590&cc=us&l=english",
+  "responseDigest": "sha256:8e7dab6b72b165699e1a947530f95441410f08052f986bc1e6bbec5ebf9aeb7c",
+  "payload": {
+    "2537590": {
+      "success": true,
+      "data": {
+        "steam_appid": 2537590,
+        "name": "Microsoft Flight Simulator 2024",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 19, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20368
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d20f7c64d8dd33b00a65452c9a0033489bead2c526c66cd58d8421aee4291d99"
+}

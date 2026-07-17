@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2524850,
+  "fetchedAt": "2026-07-17T04:43:36.633Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2524850&cc=us&l=english",
+  "responseDigest": "sha256:ee44ffbed7dce5f15a6dd9d16929119394ca356e71b42d5618a19684a4b6cf62",
+  "payload": {
+    "2524850": {
+      "success": true,
+      "data": {
+        "steam_appid": 2524850,
+        "name": "Denshattack!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1799,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 382
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:12e8279eef3183bab2ab89ee5ba244623b39920bb8e4160854b1413f7274d241"
+}

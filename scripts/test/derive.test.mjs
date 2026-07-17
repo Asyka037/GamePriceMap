@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, primaryRegionalSource, regionalPriceSources, regionalCardModel, regionalListingCards, popularRegionalCards, multiRegionalPriceSummary, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, fmtMoney, regionalPriceSummary,
+  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, primaryRegionalSource, regionalPriceSources, regionalCardModel, regionalListingCards, popularRegionalCards, multiRegionalPriceSummary, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, trackedAtlDeals, fmtMoney, regionalPriceSummary,
 } from '../../site/src/lib/derive.mjs';
 import { gameBundle } from '../../site/src/lib/data.mjs';
 import { regionalPriceModel } from '../../site/src/lib/regions.mjs';
@@ -253,6 +253,11 @@ test('hotDealsBoard ranks by pct and trackedDeals flags ATL rows', () => {
   const deals = trackedDeals([bundle({ history: { atl: { pc: { usd: 30, seed: 'self' } }, events: [] } })], 'steam');
   assert.equal(deals.length, 1);
   assert.equal(deals[0].isAtl, true);
+  const aboveAtl = bundle({ slug: 'above-atl', history: { atl: { pc: { usd: 20, seed: 'self' } }, events: [] } });
+  assert.deepEqual(trackedAtlDeals([aboveAtl, ...Array.from({ length: 101 }, (_, i) => bundle({
+    slug: `atl-${i}`,
+    history: { atl: { pc: { usd: 30, seed: 'self' } }, events: [] },
+  }))], 'steam').map((deal) => deal.slug), Array.from({ length: 101 }, (_, i) => `atl-${i}`));
 });
 
 test('fmtMoney uses unambiguous currency symbols and grouped local amounts', () => {

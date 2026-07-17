@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2646720,
+  "fetchedAt": "2026-07-17T04:46:43.674Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2646720&cc=us&l=english",
+  "responseDigest": "sha256:92b1cdb176eb791578fd31182ec391a8e64e20642891c09eb1505dfe42384688",
+  "payload": {
+    "2646720": {
+      "success": true,
+      "data": {
+        "steam_appid": 2646720,
+        "name": "Dead Weight",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 974,
+          "discount_percent": 25
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:29bc879402698ae3590b12e16fb218255cebbd42e64e2b3d5152672aea1cfdfe"
+}

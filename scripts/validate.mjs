@@ -19,7 +19,11 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { DERIVED_REGION_FIELDS } from './lib/snapshot.mjs';
 import { DERIVED_STEAM_OFFER_FIELDS } from './lib/steam-offers.mjs';
-import { hasNativeUsObservation, isNintendoBaseGameNsuid } from './lib/validation.mjs';
+import { catalogIndexes } from './lib/catalog.mjs';
+import { ESHOP_REGIONS } from './lib/eshop.mjs';
+import { CORE_GAME_LIMIT, memberShards, META_SHARDS } from './lib/schedule.mjs';
+import { STEAM_REGIONS } from './lib/steam.mjs';
+import { hasNativeUsObservation, isNintendoBaseGameNsuid, minimumApplicableRegionCount } from './lib/validation.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
@@ -46,6 +50,13 @@ if (!(ratesAgeH < 48)) fail(`rates: stale (${ratesAgeH.toFixed(1)}h old)`);
 
 // --- catalog ---
 const catalog = readJson('data/catalog.json');
+try {
+  // Keep the importer and the production gate on one catalog contract. The
+  // detailed legacy checks below add Xbox/offer-specific diagnostics.
+  catalogIndexes(catalog);
+} catch (error) {
+  fail(`catalog schema: ${error.message}`);
+}
 const catalogBySlug = new Map(catalog.games.map((game) => [game.slug, game]));
 const steamAppOwners = new Map(catalog.games
   .filter((game) => Number.isInteger(game.steamAppId))
@@ -75,6 +86,8 @@ for (const g of catalog.games) {
   if (g.xboxBigId) xboxIds.add(g.xboxBigId);
   if (g.nintendoUsSlug) nintendoProductSlugs.add(g.nintendoUsSlug);
 }
+const coreGames = catalog.games.filter((game) => game.tier === 'core').length;
+if (coreGames > CORE_GAME_LIMIT) fail(`catalog: core tier has ${coreGames} games (limit ${CORE_GAME_LIMIT})`);
 
 // --- supplemental offer catalog (physically separate from base snapshots) ---
 const offerCatalog = fs.existsSync(path.join(ROOT, 'data/offer-catalog.json'))
@@ -193,6 +206,9 @@ for (const g of catalog.games) {
   if (!fs.existsSync(path.join(ROOT, `data/meta/${g.slug}.json`))) {
     fail(`missing required meta data/meta/${g.slug}.json`);
   }
+  if (!fs.existsSync(path.join(ROOT, `data/history/${g.slug}.json`))) {
+    fail(`missing required history data/history/${g.slug}.json`);
+  }
   for (const [group, nsuid] of Object.entries(g.nsuids ?? {})) {
     if (nsuid === null) continue;
     if (!isNintendoBaseGameNsuid(nsuid)) fail(`catalog ${g.slug}: ${group} nsuid ${nsuid} is not a 7001 base-game ID`);
@@ -203,13 +219,14 @@ for (const g of catalog.games) {
 }
 
 // --- snapshots ---
-function validateSnapshotDir(dir) {
+function validateSnapshotDir(dir, channel) {
   const abs = path.join(ROOT, dir);
   if (!fs.existsSync(abs)) return;
   for (const file of fs.readdirSync(abs).filter((f) => f.endsWith('.json'))) {
     const rel = `${dir}/${file}`;
     const snap = readJson(rel);
     const id = snap.slug;
+    const game = catalogBySlug.get(id);
     if (!slugs.has(id)) fail(`${rel}: slug not in catalog`);
     if (!Array.isArray(snap.regions) || snap.regions.length === 0) { fail(`${rel}: no regions`); continue; }
 
@@ -222,22 +239,33 @@ function validateSnapshotDir(dir) {
       // 缺失汇率 = 构建期该区域会消失，硬失败
       if (r.currency !== 'USD' && !(rates[r.currency] > 0)) fail(`${rel} ${r.cc}: no exchange rate for ${r.currency}`);
     }
-    // US 行必须原生 USD（history 事件 FX 免疫的前提）
+    // US rows must be native USD (history events stay FX-immune). Steam always
+    // requires US; eShop Americas is checked from catalog mappings above.
     const usRow = snap.regions.find((r) => r.cc === 'US');
-    if (usRow && usRow.currency !== 'USD') fail(`${rel}: US row currency ${usRow.currency} breaks the native-USD invariant`);
+    if (channel === 'steam' && (!usRow || usRow.currency !== 'USD')) fail(`${rel}: Steam snapshot requires a native US/USD observation`);
+    else if (usRow && usRow.currency !== 'USD') fail(`${rel}: US row currency ${usRow.currency} breaks the native-USD invariant`);
     // 稳定字典序（写盘守卫的语义比较依赖它）
     const ccs = snap.regions.map((r) => r.cc);
     if (ccs.join() !== [...ccs].sort().join()) fail(`${rel}: regions not sorted by cc`);
 
     const prev = gitHeadJson(rel);
+    if (!prev) {
+      const minimum = minimumApplicableRegionCount(channel, game, {
+        steamRegions: STEAM_REGIONS,
+        eshopRegions: ESHOP_REGIONS,
+      });
+      if (minimum > 0 && snap.regions.length < minimum) {
+        fail(`${rel}: first snapshot covers ${snap.regions.length}/${channel === 'steam' ? STEAM_REGIONS.length : ESHOP_REGIONS.filter(({ group }) => game?.nsuids?.[group]).length} applicable regions (minimum ${minimum})`);
+      }
+    }
     if (prev?.regions?.length && snap.regions.length < prev.regions.length * 0.8) {
       fail(`${rel}: region coverage dropped ${prev.regions.length} -> ${snap.regions.length} (>20%)`);
     }
   }
 }
-validateSnapshotDir('data/snapshots/steam');
-validateSnapshotDir('data/snapshots/eshop');
-validateSnapshotDir('data/snapshots/xbox');
+validateSnapshotDir('data/snapshots/steam', 'steam');
+validateSnapshotDir('data/snapshots/eshop', 'eshop');
+validateSnapshotDir('data/snapshots/xbox', 'xbox');
 
 // Cross-channel edition sanity: warn, do not block (platform pricing can truly differ).
 for (const g of catalog.games) {
@@ -346,6 +374,16 @@ for (const [name, e] of Object.entries(sourceHealth.sources ?? {})) {
 for (const required of ['steam-regional', 'eshop-regional', 'meta', ...(offerCatalog.offers?.length ? ['steam-offers'] : []), ...(xboxIds.size ? ['xbox-us'] : [])]) {
   if (!sourceHealth.sources?.[required]) fail(`source-health: missing required source ${required}`);
 }
+const metadataEligibleGames = catalog.games.filter((game) => Number.isInteger(game.steamAppId)
+  || (game.nsuids?.americas && game.nintendoUsSlug));
+const requiredMetaShards = memberShards(metadataEligibleGames, META_SHARDS);
+const metaFleetStamps = [];
+for (const shard of requiredMetaShards) {
+  const key = `meta:shard-${shard}`;
+  const stamp = sourceHealth.sources?.[key]?.lastSuccessAt;
+  if (!stamp) fail(`source-health: metadata fleet missing successful member shard ${key}`);
+  else metaFleetStamps.push(stamp);
+}
 // Tier/shard keys are the only namespaced forms allowed (typo guard):
 // price channels use :extended-<0..6>, metadata uses :shard-<0..13>.
 for (const name of Object.keys(sourceHealth.sources ?? {})) {
@@ -397,11 +435,7 @@ const health = {
     // Meta fleet freshness = the weakest shard once shards exist (a fleet is
     // only as fresh as its most overdue slice); legacy full-run stamp before.
     meta: (() => {
-      const shardStamps = Object.entries(sourceHealth.sources ?? {})
-        .filter(([key]) => /^meta:shard-\d+$/.test(key))
-        .map(([, entry]) => entry.lastSuccessAt)
-        .filter(Boolean);
-      if (shardStamps.length > 0) return shardStamps.sort()[0];
+      if (metaFleetStamps.length > 0) return [...metaFleetStamps].sort()[0];
       return sourceHealth.sources?.meta?.lastSuccessAt ?? newestStamp('data/meta');
     })(),
   },

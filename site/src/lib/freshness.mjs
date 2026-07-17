@@ -15,6 +15,27 @@ export function freshnessState(stamp, budgetHours, nowMs = Date.now()) {
   return 'down';
 }
 
+const SOURCE_BUDGET_HOURS = {
+  rates: 26,
+  'steam-regional': 26,
+  'eshop-regional': 26,
+  'steam-offers': 8 * 24,
+  'xbox-us': 8 * 24,
+  'deals-steam': 26,
+  'deals-eshop': 26,
+  'deals-stores': 26,
+  'free-games': 26,
+  calendar: 8 * 24,
+  // Fleet freshness is the oldest of 14 daily shards, so its healthy age is 15 days.
+  meta: 15 * 24,
+};
+
+export function sourceBudgetHours(key) {
+  if (/^[a-z-]+:extended-\d+$/.test(key)) return 8 * 24;
+  if (/^meta:shard-\d+$/.test(key)) return 15 * 24;
+  return SOURCE_BUDGET_HOURS[key] ?? 26;
+}
+
 export function formatUtcStamp(stamp) {
   const date = typeof stamp === 'string' ? new Date(stamp) : null;
   if (!date || !Number.isFinite(date.getTime())) return 'never';

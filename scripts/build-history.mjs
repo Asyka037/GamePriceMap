@@ -8,6 +8,7 @@
  * Usage:
  *   node scripts/build-history.mjs [slug ...]
  *   node scripts/build-history.mjs --observations-only [slug ...]
+ *   node scripts/build-history.mjs --max-lookups=N [slug ...]
  * The observations-only mode skips all external CheapShark work and is used
  * by the weekly Xbox POC job; daily keeps the full seed refresh behavior.
  */
@@ -17,6 +18,7 @@ import { fileURLToPath } from 'node:url';
 import { fetchJson, sleep, chunk } from './lib/http.mjs';
 import { lookupUrl, batchUrl, parseGameLookup, parseCheapestEver, lookupIsDue, seedCheckIsDue, plusDays, RECHECK_DAYS, GAMES_BATCH_SIZE } from './lib/cheapshark.mjs';
 import { applySnapshot, seedAtl, emptyHistory } from './lib/history.mjs';
+import { parseHistoryArgs } from './lib/history-cli.mjs';
 import { usObservation } from './lib/snapshot.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -29,9 +31,14 @@ const RATES_FILE = path.join(ROOT, 'data', 'rates', 'usd.json');
 const REQUEST_DELAY_MS = 1000;
 
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog.json'), 'utf8'));
-const args = process.argv.slice(2);
-const observationsOnly = args.includes('--observations-only');
-const onlySlugs = args.filter((a) => a !== '--observations-only');
+let cli;
+try {
+  cli = parseHistoryArgs(process.argv.slice(2));
+} catch (err) {
+  console.error(err.message);
+  process.exit(1);
+}
+const { observationsOnly, maxLookups, onlySlugs } = cli;
 const games = catalog.games.filter((g) => onlySlugs.length === 0 || onlySlugs.includes(g.slug));
 const today = new Date().toISOString().slice(0, 10);
 
@@ -90,9 +97,6 @@ const status = fs.existsSync(STATUS_FILE)
   ? JSON.parse(fs.readFileSync(STATUS_FILE, 'utf8'))
   : { updatedAt: null, games: {} };
 const statusOf = (slug) => (status.games[slug] ??= {});
-const maxLookupsArg = args.find((a) => a.startsWith('--max-lookups='));
-const maxLookups = maxLookupsArg ? Number(maxLookupsArg.split('=')[1]) : 150;
-
 // Pass 2: resolve missing CheapShark gameIDs (misses retry after 30 days,
 // network failures record nothing and retry next run; capped per run so
 // import waves spread their one-time lookups across daily runs).

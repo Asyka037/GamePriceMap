@@ -29,6 +29,11 @@ export function completeSourceRun({ expected, changed, unchanged, skipped = 0, f
     && failedItems === 0;
 }
 
+/** Scheduled runs fail soft; targeted/staging runs must surface incomplete coverage. */
+export function sourceRunExitCode({ targeted, complete }) {
+  return targeted && !complete ? 1 : 0;
+}
+
 /**
  * Record one scraper run. `ok` means every expected observation was verified
  * (even if all were unchanged); partial/failed runs increment the streak and

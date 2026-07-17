@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 202970,
+  "fetchedAt": "2026-07-17T04:43:43.903Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=202970&cc=us&l=english",
+  "responseDigest": "sha256:14bf96ffd5348b2442b778619c832f5ec4d4e52234eee2ca7be845d2fc8a540a",
+  "payload": {
+    "202970": {
+      "success": true,
+      "data": {
+        "steam_appid": 202970,
+        "name": "Call of Duty®: Black Ops II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 22998
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7c59bed209a7bd99e17f6bb53122747d2005f03e2612a122d00373e9ae3ee36d"
+}

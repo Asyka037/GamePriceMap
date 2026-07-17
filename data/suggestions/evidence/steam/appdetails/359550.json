@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 359550,
+  "fetchedAt": "2026-07-17T04:43:42.448Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=359550&cc=us&l=english",
+  "responseDigest": "sha256:9139725d8b71ffdb958afd55f5e924844423a85dc4fb6ec61c527e84a8ece645",
+  "payload": {
+    "359550": {
+      "success": true,
+      "data": {
+        "steam_appid": 359550,
+        "name": "Tom Clancy's Rainbow Six Siege",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2015"
+        },
+        "recommendations": {
+          "total": 1247115
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6304ed3319cf30d9087fc7a780baa3547bc25bc214a7032217abcedfefc75f65"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 286160,
+  "fetchedAt": "2026-07-17T04:48:59.449Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=286160&cc=us&l=english",
+  "responseDigest": "sha256:34d7884447177a1285ec0084abe0103a41f7e9add9fecb8f3099ce770049d42f",
+  "payload": {
+    "286160": {
+      "success": true,
+      "data": {
+        "steam_appid": 286160,
+        "name": "Tabletop Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 5, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 48256
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2fa28c05d8120ea548451eb8075b0810ace66cf4f28316ac2e880a19fb1352ee"
+}

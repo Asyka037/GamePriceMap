@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 582660,
+  "fetchedAt": "2026-07-17T04:44:30.027Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=582660&cc=us&l=english",
+  "responseDigest": "sha256:d6a17d8e78cc1364781c60a03a0b0561b9916abb28c75957459ade8d6388a42f",
+  "payload": {
+    "582660": {
+      "success": true,
+      "data": {
+        "steam_appid": 582660,
+        "name": "Black Desert",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 24, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 62507
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5a8975b9ff1703fb2142a97be9bc0f70aeada1ac59d8bfdee6c0900d0efa10f6"
+}

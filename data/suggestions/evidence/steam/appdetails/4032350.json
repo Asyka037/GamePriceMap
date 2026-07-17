@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4032350,
+  "fetchedAt": "2026-07-17T04:43:26.274Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4032350&cc=us&l=english",
+  "responseDigest": "sha256:6b00b9231734e5ccb42dff77ec8517b323b47d60bda827c256af129e9eafe044",
+  "payload": {
+    "4032350": {
+      "success": true,
+      "data": {
+        "steam_appid": 4032350,
+        "name": "EA SPORTS™ College Football 27",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1396
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9ca355d3bee5a50d551766fa79420399f440a025fd7f05a6197e4fd3b7df236f"
+}

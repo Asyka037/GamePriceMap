@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1118520,
+  "fetchedAt": "2026-07-17T04:44:56.527Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1118520&cc=us&l=english",
+  "responseDigest": "sha256:53b30a232d55f16f5a4b1aee369a2df2ba4b26570b8641841c68d5f5abcaab44",
+  "payload": {
+    "1118520": {
+      "success": true,
+      "data": {
+        "steam_appid": 1118520,
+        "name": "Paralives",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 18373
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:32af8c9000344bc8de9ec16e7726a85c383ae86f1bccc6252db5a62961b6453e"
+}

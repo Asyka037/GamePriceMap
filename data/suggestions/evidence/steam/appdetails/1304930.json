@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1304930,
+  "fetchedAt": "2026-07-17T04:43:46.910Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1304930&cc=us&l=english",
+  "responseDigest": "sha256:3e5c1d06b9f1e31e443905f18c7de99c7399bdb5fd388b4afd60ad2517758929",
+  "payload": {
+    "1304930": {
+      "success": true,
+      "data": {
+        "steam_appid": 1304930,
+        "name": "The Outlast Trials",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1199,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 87580
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:706b2a2d7da6ca9a97f9236622f3c1ff693e3fecddc53d991d1b08264b8c3894"
+}

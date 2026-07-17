@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3712080,
+  "fetchedAt": "2026-07-17T04:43:10.226Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3712080&cc=us&l=english",
+  "responseDigest": "sha256:c5e441b05f4aa3868ddfc855141a00c4b28c0bc9780cc94bcf2052bc18ee8199",
+  "payload": {
+    "3712080": {
+      "success": true,
+      "data": {
+        "steam_appid": 3712080,
+        "name": "Funnel Runners",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1349,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 281
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0e4c7e50819ac3ad7a4d5b5b17e54a26e7e90cd60fb57a49c4d8823cb969ede8"
+}

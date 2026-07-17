@@ -1,0 +1,38 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import DealRows from '../../../../components/DealRows.astro';
+import Pager from '../../../../components/Pager.astro';
+import { catalog, gameBundle } from '../../../../lib/data.mjs';
+import { trackedAtlDeals } from '../../../../lib/derive.mjs';
+import { extraPageNumbers, pageSlice, pagerModel } from '../../../../lib/paginate.mjs';
+
+export function getStaticPaths() {
+  const bundles = catalog().map((game: any) => gameBundle(game.slug));
+  const deals = trackedAtlDeals(bundles, 'steam');
+  return extraPageNumbers(deals.length).map((n) => ({ params: { page: String(n) } }));
+}
+
+const page = Number(Astro.params.page);
+const bundles = catalog().map((game: any) => gameBundle(game.slug));
+const deals = trackedAtlDeals(bundles, 'steam');
+const pager = pagerModel('/steam/deals/all-time-lows', page, deals.length);
+---
+<Layout
+  title={`Steam All-Time-Low Deals — page ${page} | GamePriceMap`}
+  description="Browse every tracked Steam deal currently at or below its verified all-time low."
+  active="steam"
+>
+  <div class="page-head wrap">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>Steam<span>/</span><a href="/steam/deals">Deals</a><span>/</span><a href="/steam/deals/all-time-lows">All-time lows</a><span>/</span>Page {page}</div>
+    <h1>Steam all-time-low deals</h1>
+    <p>{deals.length} tracked Steam deals are currently at their verified all-time low.</p>
+  </div>
+  <div class="wrap" style="padding-bottom: 24px;">
+    <div class="toolbar">
+      <a class="atl-toggle" href="/steam/deals">Show all deals</a>
+      <span class="result-n">Page {page} of {pager?.count}</span>
+    </div>
+    <DealRows deals={pageSlice(deals, page)} storeLabel="Steam ·" />
+    <Pager pager={pager} />
+  </div>
+</Layout>

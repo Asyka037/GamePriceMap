@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2138720,
+  "fetchedAt": "2026-07-17T04:48:43.083Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2138720&cc=us&l=english",
+  "responseDigest": "sha256:3ed3a155a5fff319819049d00dbbe782ad84d76ade11a469ddf081aac4b26de9",
+  "payload": {
+    "2138720": {
+      "success": true,
+      "data": {
+        "steam_appid": 2138720,
+        "name": "REMATCH",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 38017
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:86f944869ff5a23b3b85627b995b8f657b791c1e5c6588e7c136f0ed35ff26b9"
+}

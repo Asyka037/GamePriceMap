@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3839790,
+  "fetchedAt": "2026-07-17T04:45:30.503Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3839790&cc=us&l=english",
+  "responseDigest": "sha256:e8c44ddee271e31c803a560b7df3c8c74102a9240ad68aa17ffd75ddc007cd01",
+  "payload": {
+    "3839790": {
+      "success": true,
+      "data": {
+        "steam_appid": 3839790,
+        "name": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 794
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:957308b3f777bd9ae782d0bb2580bcedf24279c882fa8d133ae0a4e5e1727c12"
+}

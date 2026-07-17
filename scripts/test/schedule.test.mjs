@@ -1,15 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { shardOf, sourceKeyFor, gamesForRun, pickOverdueShard, coveredHealthKeys, coveredMetaKeys, EXTENDED_SHARDS, META_SHARDS } from '../lib/schedule.mjs';
+import { shardOf, sourceKeyFor, gamesForRun, memberShards, pickOverdueShard, coveredHealthKeys, coveredMetaKeys, CORE_GAME_LIMIT, EXTENDED_SHARDS, META_SHARDS } from '../lib/schedule.mjs';
 
 test('shard assignment is stable across runs and processes (pinned values)', () => {
   // These pins must never change: a game moving shards would silently break
   // its freshness lookup. If the hash changes, that is a data migration.
-  assert.equal(shardOf('hades-ii'), shardOf('hades-ii'));
   const pinned = ['hades-ii', 'elden-ring', 'stardew-valley', 'baldurs-gate-3'].map((s) => shardOf(s));
-  assert.deepEqual(pinned, pinned.map((v) => v), 'self-consistent');
-  for (const v of pinned) assert.ok(Number.isInteger(v) && v >= 0 && v < EXTENDED_SHARDS);
+  assert.deepEqual(pinned, [2, 4, 6, 1], 'changing these values requires a health-ledger migration');
+  assert.equal(CORE_GAME_LIMIT, 300);
 });
 
 test('shards spread the real catalog roughly evenly', () => {
@@ -58,6 +57,14 @@ test('pickOverdueShard prefers never-run shards, then the oldest success', () =>
   assert.equal(pickOverdueShard({ sources }, 'steam-regional'), 1, 'catch-up follows the new oldest');
   delete sources['steam-regional:extended-4'].lastSuccessAt;
   assert.equal(pickOverdueShard({ sources }, 'steam-regional'), 4, 'a failed shard (no success) jumps the queue');
+});
+
+test('auto selection ignores empty shards instead of starving populated shards', () => {
+  const onlyGame = { slug: 'hades-ii', tier: 'extended' };
+  const members = memberShards([onlyGame]);
+  assert.deepEqual(members, [2]);
+  assert.equal(pickOverdueShard({ sources: {} }, 'steam-regional', EXTENDED_SHARDS, 'extended', members), 2);
+  assert.equal(pickOverdueShard({ sources: {} }, 'steam-regional', EXTENDED_SHARDS, 'extended', []), null);
 });
 
 test('coveredHealthKeys: full sweep stamps core plus every populated shard', () => {

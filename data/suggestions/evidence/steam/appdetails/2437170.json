@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2437170,
+  "fetchedAt": "2026-07-17T04:46:48.272Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2437170&cc=us&l=english",
+  "responseDigest": "sha256:4fc83bdde0ae5eebe74706ee7ad19e3ba9d71697fee628b7c8d9794625b51272",
+  "payload": {
+    "2437170": {
+      "success": true,
+      "data": {
+        "steam_appid": 2437170,
+        "name": "SMITE 2",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2024"
+        },
+        "recommendations": {
+          "total": 8322
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:be0c0e15bd16c04bedc7e86ee20ec8a4efc310b3e377a9311cd3f960c9475b7f"
+}

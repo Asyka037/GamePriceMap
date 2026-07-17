@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1874880,
+  "fetchedAt": "2026-07-17T04:46:15.331Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1874880&cc=us&l=english",
+  "responseDigest": "sha256:10cc71ba47961bd22e472aaf0491dfbc38716b01a3b366ae60f01a9f3681dc73",
+  "payload": {
+    "1874880": {
+      "success": true,
+      "data": {
+        "steam_appid": 1874880,
+        "name": "Arma Reforger",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 48521
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c60070dbdf94acdd3b2012f6dbca5281f33012d7eefdeff7df49a41aa6ac70d"
+}

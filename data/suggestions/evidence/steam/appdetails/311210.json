@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 311210,
+  "fetchedAt": "2026-07-17T04:44:49.195Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=311210&cc=us&l=english",
+  "responseDigest": "sha256:2bbe49557618c6d9a39e4b112cc942ad3e02b28515ab7c39d42273184ca695f5",
+  "payload": {
+    "311210": {
+      "success": true,
+      "data": {
+        "steam_appid": 311210,
+        "name": "Call of Duty®: Black Ops III",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 5, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 155293
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:49eb6c1e945f57520bfbce9c3f35ac4605595f8412d790deae6fa00c674fe0bb"
+}

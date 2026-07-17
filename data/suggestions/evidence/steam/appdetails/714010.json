@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 714010,
+  "fetchedAt": "2026-07-17T04:48:54.952Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=714010&cc=us&l=english",
+  "responseDigest": "sha256:5749152113c0826c41f1c023078dfa958e7ec7cf3f8b7768587576b974cd27f5",
+  "payload": {
+    "714010": {
+      "success": true,
+      "data": {
+        "steam_appid": 714010,
+        "name": "Aimlabs",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2023"
+        },
+        "recommendations": {
+          "total": 263
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e63052196d961ed2c20bedff2472eea2d14dee79f980d27e316f2d21d9c82d03"
+}

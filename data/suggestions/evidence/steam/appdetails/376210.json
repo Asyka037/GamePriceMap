@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 376210,
+  "fetchedAt": "2026-07-17T04:45:29.022Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=376210&cc=us&l=english",
+  "responseDigest": "sha256:e2776c3b658bd3c2c0de1ce4ed401a31728bff6926969973d5384152080c0aad",
+  "payload": {
+    "376210": {
+      "success": true,
+      "data": {
+        "steam_appid": 376210,
+        "name": "The Isle",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 107229
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:45a6adf5ab62af0f8e91786687bd837ab9ea5e69ddcc1592c0737f316d8fbbf1"
+}

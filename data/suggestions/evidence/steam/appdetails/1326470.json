@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1326470,
+  "fetchedAt": "2026-07-17T04:48:40.107Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1326470&cc=us&l=english",
+  "responseDigest": "sha256:a6375ebab03dd956c64e029f53f4c86830ff6c87da2de2e41d91f00a35780949",
+  "payload": {
+    "1326470": {
+      "success": true,
+      "data": {
+        "steam_appid": 1326470,
+        "name": "Sons Of The Forest",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 22, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 279448
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3d018fde74c3acd5cc5c42759c46900eba40bb956e52c200e7eb1fa08874adaf"
+}

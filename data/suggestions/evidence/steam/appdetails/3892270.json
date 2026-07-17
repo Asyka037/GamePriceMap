@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3892270,
+  "fetchedAt": "2026-07-17T04:44:03.493Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3892270&cc=us&l=english",
+  "responseDigest": "sha256:c7e2f41884808cd290bb205e87d0fee7f88608533511068bac3f2a92f595fd24",
+  "payload": {
+    "3892270": {
+      "success": true,
+      "data": {
+        "steam_appid": 3892270,
+        "name": "Gamble With Your Friends",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 1, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 495,
+          "discount_percent": 38
+        },
+        "recommendations": {
+          "total": 13848
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cee8ba5abc1cb71266571c0757c93bdcd2d5ca18248d3bb558b78a507db58d01"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 266410,
+  "fetchedAt": "2026-07-17T04:44:52.074Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=266410&cc=us&l=english",
+  "responseDigest": "sha256:7e5d151432b28c473625fcd86bb376f7c807044ee317f0ec295b56e17b4ebb81",
+  "payload": {
+    "266410": {
+      "success": true,
+      "data": {
+        "steam_appid": 266410,
+        "name": "iRacing",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 12, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5665
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a1ecfab02e4da2062dc87566cb99c31a1b54c3a5b898c40d2bfa0e8c24c8492e"
+}

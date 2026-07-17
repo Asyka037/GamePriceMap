@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1805110,
+  "fetchedAt": "2026-07-17T04:45:36.491Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1805110&cc=us&l=english",
+  "responseDigest": "sha256:ee934b2e499bc3f57da4a9d576c0918f4fb61669877550bf9ee69b34d9663c75",
+  "payload": {
+    "1805110": {
+      "success": true,
+      "data": {
+        "steam_appid": 1805110,
+        "name": "Solarpunk™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 1839,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 2641
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:640562ad1e86cf88b55553206ae33a6734d2e8ede5c376369fd8cfd9a0199b68"
+}

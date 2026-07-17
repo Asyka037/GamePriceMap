@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 284160,
+  "fetchedAt": "2026-07-17T04:46:03.324Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=284160&cc=us&l=english",
+  "responseDigest": "sha256:c41d8b7edffe5337bec44b5dfc39a538a4aaec7c85f0d1a8d20f70877e85be8e",
+  "payload": {
+    "284160": {
+      "success": true,
+      "data": {
+        "steam_appid": 284160,
+        "name": "BeamNG.drive",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 29, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 375045
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:678499c82dfdaf2bbfaefe9164400ec2e6f24c7d8de28ced661eccded1f855d0"
+}

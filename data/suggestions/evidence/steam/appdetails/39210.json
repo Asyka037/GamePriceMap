@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 39210,
+  "fetchedAt": "2026-07-17T04:44:44.805Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=39210&cc=us&l=english",
+  "responseDigest": "sha256:0748d9fca3cecc1bf8e931aaa449ebdb5d4c667acce1b793ec8a3e4bcb5e0721",
+  "payload": {
+    "39210": {
+      "success": true,
+      "data": {
+        "steam_appid": 39210,
+        "name": "FINAL FANTASY XIV Online",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 18, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 78066
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a1bcbe639fddc6c1c6ec0a0b3653c1ebfc5006c3057a0ee5064a1fbfb441fbe2"
+}

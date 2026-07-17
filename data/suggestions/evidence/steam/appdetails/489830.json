@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 489830,
+  "fetchedAt": "2026-07-17T04:46:13.659Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=489830&cc=us&l=english",
+  "responseDigest": "sha256:9e00e4b6ea760d598a4fa30aa9e1a039e06edc60fdda4d5beb265c72bab4d326",
+  "payload": {
+    "489830": {
+      "success": true,
+      "data": {
+        "steam_appid": 489830,
+        "name": "The Elder Scrolls V: Skyrim Special Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 214594
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df0e0ae3878d9039b637d22213cd44a4a4543e4509d792ee16b49d02e9e0fcd3"
+}

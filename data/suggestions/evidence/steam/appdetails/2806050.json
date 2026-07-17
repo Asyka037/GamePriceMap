@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2806050,
+  "fetchedAt": "2026-07-17T04:43:27.886Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2806050&cc=us&l=english",
+  "responseDigest": "sha256:de466d52b7c29690a06b4dfa72ac60484a9bad35f94e425a7474a56cfdc9abe4",
+  "payload": {
+    "2806050": {
+      "success": true,
+      "data": {
+        "steam_appid": 2806050,
+        "name": "Halo: Campaign Evolved",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bb9a9fe0e34c8233f132b8ad02cb1f95265fe7097d558e3a01c1a6696bdb0a8c"
+}

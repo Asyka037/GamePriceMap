@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2569760,
+  "fetchedAt": "2026-07-17T04:43:21.891Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2569760&cc=us&l=english",
+  "responseDigest": "sha256:2b0a190cf72df80d2c556f34f0639a1bb3eed7d8c5ef487870a121bc5be3c714",
+  "payload": {
+    "2569760": {
+      "success": true,
+      "data": {
+        "steam_appid": 2569760,
+        "name": "The Mound: Omen of Cthulhu",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 956
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d34f3d300ae5fd7a1b617b3c3d1b7e6a0cac7b78323115e7365ff83ee972d483"
+}

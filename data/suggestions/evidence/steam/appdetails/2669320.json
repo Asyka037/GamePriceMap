@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2669320,
+  "fetchedAt": "2026-07-17T04:46:28.671Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2669320&cc=us&l=english",
+  "responseDigest": "sha256:37dbf1dcd6b7cb1136c2e9f13243a25717487ab9037f491630554773781592e7",
+  "payload": {
+    "2669320": {
+      "success": true,
+      "data": {
+        "steam_appid": 2669320,
+        "name": "EA SPORTS FC™ 25",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 97575
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:24ad1a796873485f65222dd33217c470fdf7ee191512381ff6c4ec3499ec3950"
+}

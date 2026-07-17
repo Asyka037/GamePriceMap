@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3787240,
+  "fetchedAt": "2026-07-17T04:45:09.490Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3787240&cc=us&l=english",
+  "responseDigest": "sha256:72a474d68800ded5a9436751842851c2d288c4e933315f52d34305ca03b0d305",
+  "payload": {
+    "3787240": {
+      "success": true,
+      "data": {
+        "steam_appid": 3787240,
+        "name": "MARVEL Tōkon: Fighting Souls",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Aug 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7a9be8fbc4d5323447428a19c5570ed61513982d86977d99d6aa3126b0638025"
+}
