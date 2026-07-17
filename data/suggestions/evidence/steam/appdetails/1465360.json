@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1465360,
+  "fetchedAt": "2026-07-17T12:37:08.020Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1465360&cc=us&l=english",
+  "responseDigest": "sha256:e4bd25c9ecf20030bb0b73984e4a5fa931315caf9ae4ddead9ffdec894f253a7",
+  "payload": {
+    "1465360": {
+      "success": true,
+      "data": {
+        "steam_appid": 1465360,
+        "name": "SnowRunner",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 17, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1199,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 45170
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:55b059783509d18126403dccfbd8d937e0d1bcbc40346f31bfed1f2a250b9005"
+}

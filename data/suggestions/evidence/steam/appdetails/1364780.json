@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1364780,
+  "fetchedAt": "2026-07-17T12:36:55.501Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1364780&cc=us&l=english",
+  "responseDigest": "sha256:5167d73e68ecbf5439fa3136b95eb18ca2508407fd3e7d7755a1875030b45e00",
+  "payload": {
+    "1364780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1364780,
+        "name": "Street Fighter™ 6",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 48347
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9de7b3913b93d17bdf718e76dd38c112a131655fbb74716a73fdad94ddb278e0"
+}

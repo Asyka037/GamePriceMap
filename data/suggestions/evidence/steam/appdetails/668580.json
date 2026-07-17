@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 668580,
+  "fetchedAt": "2026-07-17T12:37:30.543Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=668580&cc=us&l=english",
+  "responseDigest": "sha256:f44dbcc6ae6b57895427c75c34abce6c1fdde99d0c9dc93a1b1366ad85e785b9",
+  "payload": {
+    "668580": {
+      "success": true,
+      "data": {
+        "steam_appid": 668580,
+        "name": "Atomic Heart",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 37396
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a3803e03252eae8494e4e36b618c79c36bd3d741a825b1b6621765b85f4cc8b"
+}

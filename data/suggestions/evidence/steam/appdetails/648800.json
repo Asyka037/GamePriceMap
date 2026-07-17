@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 648800,
+  "fetchedAt": "2026-07-17T12:37:10.487Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=648800&cc=us&l=english",
+  "responseDigest": "sha256:b6bf8736f013610e3b36d73922353e5f60312a3835ceb75486758ed108b43909",
+  "payload": {
+    "648800": {
+      "success": true,
+      "data": {
+        "steam_appid": 648800,
+        "name": "Raft",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 320800
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c6825ea5db3981b9f8e5fbb1aa6a564015a4a7a156edab0a3211ae251d0feb20"
+}

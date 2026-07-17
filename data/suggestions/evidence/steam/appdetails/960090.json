@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 960090,
+  "fetchedAt": "2026-07-17T12:37:28.014Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=960090&cc=us&l=english",
+  "responseDigest": "sha256:d2d3951c1874ada597c6c027e9882c05df6164068f7144e00fde14b3326c183c",
+  "payload": {
+    "960090": {
+      "success": true,
+      "data": {
+        "steam_appid": 960090,
+        "name": "Bloons TD 6",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 17, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 346048
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:49851eb56d1d2ad0c8a2a7d19698274797f1bc34d26fe68acb0b4d481746fde2"
+}

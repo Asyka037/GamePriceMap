@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3357650,
+  "fetchedAt": "2026-07-17T12:37:21.773Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3357650&cc=us&l=english",
+  "responseDigest": "sha256:4e272233e4f8afc8660d02cc7680573689ba7cf36d98ba1d2dd711652588b1f1",
+  "payload": {
+    "3357650": {
+      "success": true,
+      "data": {
+        "steam_appid": 3357650,
+        "name": "PRAGMATA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 31362
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:464190f809abdc2ddbeb80089c98e3e476cc81fe374e67112fb33107897731b5"
+}

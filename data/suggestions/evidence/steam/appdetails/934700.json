@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 934700,
+  "fetchedAt": "2026-07-17T12:36:53.033Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=934700&cc=us&l=english",
+  "responseDigest": "sha256:0d12d6f4edc2cf1c232904db71b9a020878228042c4c983fb7aafc28fc670a02",
+  "payload": {
+    "934700": {
+      "success": true,
+      "data": {
+        "steam_appid": 934700,
+        "name": "Dead Island 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 22, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 499,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 21813
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:05fb8c835696d5ae195f273613d2330c414045f5e98fbeacd6c0e4dcf2f79346"
+}

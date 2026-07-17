@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2075800,
+  "fetchedAt": "2026-07-17T12:37:29.309Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2075800&cc=us&l=english",
+  "responseDigest": "sha256:8d69199ed4b5e7d26b636b1e9ef619f36884119930f39787c0f2e7e9e3458aa9",
+  "payload": {
+    "2075800": {
+      "success": true,
+      "data": {
+        "steam_appid": 2075800,
+        "name": "STAR WARS Zero Company™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Aug 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c435b336e089cdfec14014d915b1dd713e65ab28d8c67b9d1dc51217f2daad0"
+}

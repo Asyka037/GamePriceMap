@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4297840,
+  "fetchedAt": "2026-07-17T12:36:54.267Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4297840&cc=us&l=english",
+  "responseDigest": "sha256:a8a55ec0e34743a84068384ca8b405c2e96776a6bdbbfeff0e8b7ee2a810e822",
+  "payload": {
+    "4297840": {
+      "success": true,
+      "data": {
+        "steam_appid": 4297840,
+        "name": "Rock Bottom",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 719,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 419
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:10bcb49eee698598e625ba41c863789d94dbccc4b02b6c39e9dbd97d9b6026e0"
+}

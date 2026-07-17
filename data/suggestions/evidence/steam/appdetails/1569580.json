@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1569580,
+  "fetchedAt": "2026-07-17T12:37:19.255Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1569580&cc=us&l=english",
+  "responseDigest": "sha256:8c763f35ac17dd5d1451bc897db14b2a517a4726eb0ab0282a0dae2283725b87",
+  "payload": {
+    "1569580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1569580,
+        "name": "Blue Prince",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1799,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 16702
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e38bb13b0e931032ac82425ff408618242177146956082b51556bb761dfdd58"
+}

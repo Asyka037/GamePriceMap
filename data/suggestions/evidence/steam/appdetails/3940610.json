@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3940610,
+  "fetchedAt": "2026-07-17T12:37:16.734Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3940610&cc=us&l=english",
+  "responseDigest": "sha256:b56da2be5ec865c3012da221327d436fc48a643a71a6782524acc4bd6a8f6659",
+  "payload": {
+    "3940610": {
+      "success": true,
+      "data": {
+        "steam_appid": 3940610,
+        "name": "EA SPORTS™ Madden NFL 27",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Aug 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5c28c6451dae5caa484c04dd886c2106e330267aae461cbb16ad48d59ef06bfd"
+}

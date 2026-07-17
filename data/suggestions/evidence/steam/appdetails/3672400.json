@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3672400,
+  "fetchedAt": "2026-07-17T12:37:01.834Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3672400&cc=us&l=english",
+  "responseDigest": "sha256:8c8cfb2c8389c65ba60d02a7fef4e95aed8b87361f70ea7c020c885cedad447e",
+  "payload": {
+    "3672400": {
+      "success": true,
+      "data": {
+        "steam_appid": 3672400,
+        "name": "Farever",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 8158
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b8c40f39e7dbbaaf62ca6a0ef0fcb85399540baca58a039f1587540de2b0aada"
+}

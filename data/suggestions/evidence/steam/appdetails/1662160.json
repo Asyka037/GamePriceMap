@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1662160,
+  "fetchedAt": "2026-07-17T12:37:25.504Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1662160&cc=us&l=english",
+  "responseDigest": "sha256:240972da2f44839d0da506ee01d8864ba79da8f433b8cc03e929470130dc5730",
+  "payload": {
+    "1662160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1662160,
+        "name": "K-pop Idol Stories: Road to Debut",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:19930ed46bb2a2255b606f6d94d8fe63a9e2019061ca788aa9a51e92bf22a5c7"
+}

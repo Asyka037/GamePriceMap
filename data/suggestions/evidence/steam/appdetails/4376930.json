@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4376930,
+  "fetchedAt": "2026-07-17T12:37:34.312Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4376930&cc=us&l=english",
+  "responseDigest": "sha256:2f353d392a35f37733107ba737142945ab135a67276e857a1bf51ff50661c067",
+  "payload": {
+    "4376930": {
+      "success": true,
+      "data": {
+        "steam_appid": 4376930,
+        "name": "Disney Dreamlight Valley: Honeyglow Woods",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1699,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fefda7b6514f8b8b4604b52526aecaa4661cd12bc452fc6ae71e4a8575dddf7c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1384160,
+  "fetchedAt": "2026-07-17T12:37:33.044Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1384160&cc=us&l=english",
+  "responseDigest": "sha256:18ee63efb5b0cf6712342efa1ed828eef8ef0c8a676896bcf0c824a7fd248e58",
+  "payload": {
+    "1384160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1384160,
+        "name": "GUILTY GEAR -STRIVE-",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 47252
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5047141a2ae9ec4a3492267d81135a1f58179cd3ba9d64ad4b17e5c4fcefdfe5"
+}

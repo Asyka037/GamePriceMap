@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1297900,
+  "fetchedAt": "2026-07-17T12:37:24.255Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1297900&cc=us&l=english",
+  "responseDigest": "sha256:6e543c81e5ca14fad5b9d903100338a7cba43ffd110e36a63df0836f53322e2e",
+  "payload": {
+    "1297900": {
+      "success": true,
+      "data": {
+        "steam_appid": 1297900,
+        "name": "Gothic 1 Remake",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23329
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e0961cbe5161f5b00264a1cf343f0ef69c32a9eaf8d145b5c98178e15e9a8a25"
+}

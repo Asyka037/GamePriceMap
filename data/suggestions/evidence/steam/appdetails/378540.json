@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 378540,
+  "fetchedAt": "2026-07-17T12:37:09.254Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=378540&cc=us&l=english",
+  "responseDigest": "sha256:fb6c193434928384cd9851ee2b39ab90f14e5560253fdbc2172af8fe976ac405",
+  "payload": {
+    "378540": {
+      "success": true,
+      "data": {
+        "steam_appid": 378540,
+        "name": "The Surge",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 15, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 194,
+          "discount_percent": 87
+        },
+        "recommendations": {
+          "total": 8960
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6cff738d1e7ec15363cebc1546ff21648c846a4bc9da02beabda0aa1e8366e3f"
+}

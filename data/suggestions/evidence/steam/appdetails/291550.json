@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 291550,
+  "fetchedAt": "2026-07-17T12:36:59.320Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=291550&cc=us&l=english",
+  "responseDigest": "sha256:c166b7ca9eda09f70681ae2355da849427598e348abda471a19bc292bad8cbc2",
+  "payload": {
+    "291550": {
+      "success": true,
+      "data": {
+        "steam_appid": 291550,
+        "name": "Brawlhalla",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2017"
+        },
+        "recommendations": {
+          "total": 2896
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:76e1652df26170a932e475bd0d854e49246a9bda8964911b9351217a01e81b44"
+}

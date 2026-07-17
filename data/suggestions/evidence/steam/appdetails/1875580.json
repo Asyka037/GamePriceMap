@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1875580,
+  "fetchedAt": "2026-07-17T12:37:35.575Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1875580&cc=us&l=english",
+  "responseDigest": "sha256:72b846f36a31b1c8555b1d4fc5563b7a0586d58d0c621ac9b99d203e7ebd3e0f",
+  "payload": {
+    "1875580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1875580,
+        "name": "Mina the Hollower",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6821
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8efa2d882f17e1f4d70f0eb775d397938e07068cbe883351f855ef6c07187887"
+}

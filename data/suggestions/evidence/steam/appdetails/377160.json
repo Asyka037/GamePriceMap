@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 377160,
+  "fetchedAt": "2026-07-17T12:37:39.368Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=377160&cc=us&l=english",
+  "responseDigest": "sha256:d23807b130939e37ffbb08ff66e74edc6b160f99d97ffdf8963a5bc13de726c7",
+  "payload": {
+    "377160": {
+      "success": true,
+      "data": {
+        "steam_appid": 377160,
+        "name": "Fallout 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 9, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 288509
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0f0ad124968e9d8453f0786fd53394aa8fb009ae5814881d227e9b6d82bae651"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1721110,
+  "fetchedAt": "2026-07-17T12:37:43.169Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1721110&cc=us&l=english",
+  "responseDigest": "sha256:c6683590c0579d9c9bece10cb44bbc1b88e6a2e6e012c27026097898dbd834cc",
+  "payload": {
+    "1721110": {
+      "success": true,
+      "data": {
+        "steam_appid": 1721110,
+        "name": "Abyssus",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4597
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a2f7237c15f6ade12188465b36bab79883114464b493cbada529f2b8ad5b5b38"
+}

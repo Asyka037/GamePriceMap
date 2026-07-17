@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4163030,
+  "fetchedAt": "2026-07-17T12:37:23.015Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4163030&cc=us&l=english",
+  "responseDigest": "sha256:67e40d85d4c66a6f17382336122d89818864b1d7d59ad5c31e011dc9a3c89a19",
+  "payload": {
+    "4163030": {
+      "success": true,
+      "data": {
+        "steam_appid": 4163030,
+        "name": "Cat Chess",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 594,
+          "discount_percent": 15
+        },
+        "recommendations": {
+          "total": 228
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:03da6e0a5e19bff239b584998287cee7728bcffa64bf842009cb7ca9d58a720d"
+}

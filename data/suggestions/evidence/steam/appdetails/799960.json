@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 799960,
+  "fetchedAt": "2026-07-17T12:37:12.989Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=799960&cc=us&l=english",
+  "responseDigest": "sha256:dca7a9a5b4a8145ec31ec31d53d0fd3925d7510bfed4ed436db66c0a493db21f",
+  "payload": {
+    "799960": {
+      "success": true,
+      "data": {
+        "steam_appid": 799960,
+        "name": "Wizard101",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 6, 2018"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c0d44d1a5e402484d64fdb7fa3103c65b1ad25804920be00b0f3dffdb7f96e14"
+}

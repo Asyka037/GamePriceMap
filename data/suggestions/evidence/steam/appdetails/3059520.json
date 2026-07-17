@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3059520,
+  "fetchedAt": "2026-07-17T12:36:44.120Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3059520&cc=us&l=english",
+  "responseDigest": "sha256:89d378d71412c2833cb242f9c00e1eb599daf9a789b5eacc701bdaae14f48c8b",
+  "payload": {
+    "3059520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3059520,
+        "name": "F1® 25",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 3999,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 23721
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:385c90bb660702c2a7c7456aa66d952cd7026ec6009c82a3898e01e237c20a24"
+}

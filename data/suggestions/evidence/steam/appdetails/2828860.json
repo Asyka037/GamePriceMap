@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2828860,
+  "fetchedAt": "2026-07-17T12:36:58.002Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2828860&cc=us&l=english",
+  "responseDigest": "sha256:acf00bf7c7731ed605d40586b8c2fdfa87386f2b4f7fca71459e20e6b13a2a26",
+  "payload": {
+    "2828860": {
+      "success": true,
+      "data": {
+        "steam_appid": 2828860,
+        "name": "The Forever Winter",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 20788
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f3cc34d76080057ae8fb85eee419ba06c693a0a86e8bb9f6d23fcf2841eb2d88"
+}

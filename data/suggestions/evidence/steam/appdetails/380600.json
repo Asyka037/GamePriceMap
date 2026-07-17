@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 380600,
+  "fetchedAt": "2026-07-17T12:37:18.022Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=380600&cc=us&l=english",
+  "responseDigest": "sha256:8126ed363ed764e3daf40a05d0ad56ba13fcc84060db3144ebbad135a5d970a1",
+  "payload": {
+    "380600": {
+      "success": true,
+      "data": {
+        "steam_appid": 380600,
+        "name": "Fishing Planet",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 28, 2017"
+        },
+        "recommendations": {
+          "total": 553
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8fb5bdd5f512aa0178ea4205f536bc291a14d7f655cf8c8d947e23ab3c352002"
+}

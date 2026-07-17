@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3124540,
+  "fetchedAt": "2026-07-17T12:36:42.846Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3124540&cc=us&l=english",
+  "responseDigest": "sha256:91deeaf370dd61b0bdb23b47b703e7e8db628d3b098a83e0ce1dfb65c8faec50",
+  "payload": {
+    "3124540": {
+      "success": true,
+      "data": {
+        "steam_appid": 3124540,
+        "name": "Far Far West",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29255
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:441362fbec3891dadc38771040fb45398e8b314925d53a1129dc3f5c973bfbc5"
+}

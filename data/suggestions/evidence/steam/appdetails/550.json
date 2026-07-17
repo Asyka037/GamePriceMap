@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 550,
+  "fetchedAt": "2026-07-17T12:37:41.888Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=550&cc=us&l=english",
+  "responseDigest": "sha256:08d3b3d39d46220005758a84b86f7303996c9f7256dbf423f6267097c66551c4",
+  "payload": {
+    "550": {
+      "success": true,
+      "data": {
+        "steam_appid": 550,
+        "name": "Left 4 Dead 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 806220
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:463225e45a1660cd189ea82099dabd3311f99b53f5e7bc76257cd0683987a95b"
+}

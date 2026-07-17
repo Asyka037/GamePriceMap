@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2707930,
+  "fetchedAt": "2026-07-17T12:36:41.608Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2707930&cc=us&l=english",
+  "responseDigest": "sha256:96b7569fed16339ea3c32fe4f1c25b0df621ceafcc820c967e250291df8fe0f7",
+  "payload": {
+    "2707930": {
+      "success": true,
+      "data": {
+        "steam_appid": 2707930,
+        "name": "Palia",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:599d2740f644f717e1287884a19428644c3cbd204d7d1118341013085ef79ede"
+}

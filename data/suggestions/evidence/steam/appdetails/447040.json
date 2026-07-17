@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 447040,
+  "fetchedAt": "2026-07-17T12:37:04.320Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=447040&cc=us&l=english",
+  "responseDigest": "sha256:14a5d5bd540fede68833e168672465a69303fcfcf766dc6aab25f96424d12387",
+  "payload": {
+    "447040": {
+      "success": true,
+      "data": {
+        "steam_appid": 447040,
+        "name": "Watch_Dogs® 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 28, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 249,
+          "discount_percent": 95
+        },
+        "recommendations": {
+          "total": 91279
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7c59f7620798d78c38b669f85d03cf9db0bbcdd279f12604cf9a4f6ed4660e17"
+}

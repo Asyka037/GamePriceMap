@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 221100,
+  "fetchedAt": "2026-07-17T12:36:49.217Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=221100&cc=us&l=english",
+  "responseDigest": "sha256:ffb442e3b27f0c6bd57eac9737518e3c29ba84085df29233a60bc623de097125",
+  "payload": {
+    "221100": {
+      "success": true,
+      "data": {
+        "steam_appid": 221100,
+        "name": "DayZ",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 13, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 384738
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6a1f7c8e670ce9ef6c98be3183581392a74c3de5a0105a64adacf344d3a9ebd0"
+}

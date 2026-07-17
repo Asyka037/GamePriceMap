@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 12210,
+  "fetchedAt": "2026-07-17T12:36:47.952Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=12210&cc=us&l=english",
+  "responseDigest": "sha256:a340590303fba76bd0ad488d9be6941419de592c161ba8acd132918105be8bcf",
+  "payload": {
+    "12210": {
+      "success": true,
+      "data": {
+        "steam_appid": 12210,
+        "name": "Grand Theft Auto IV: The Complete Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 24, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 599,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 176626
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:025704d3993831b516736c47d5ac2e86c9decabf44a1dd8a146cefdfa8e7506d"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2272360,
+  "fetchedAt": "2026-07-17T12:37:15.460Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2272360&cc=us&l=english",
+  "responseDigest": "sha256:131479692ee42fbd0a8e2e27e3c27db484438fe0ec32bb28e72c96a5e07b005e",
+  "payload": {
+    "2272360": {
+      "success": true,
+      "data": {
+        "steam_appid": 2272360,
+        "name": "Warhammer 40,000: Dawn of War IV",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5399,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0a2df5be81673f89761adc4d91cbb0dae64953fda799b802bf2f388a998b707b"
+}

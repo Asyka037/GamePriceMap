@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3469450,
+  "fetchedAt": "2026-07-17T12:36:56.768Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3469450&cc=us&l=english",
+  "responseDigest": "sha256:8ef840c9a02cf8b36184bd8ed7e7ac88b3a71b6e5647d160a9810e1e6586b924",
+  "payload": {
+    "3469450": {
+      "success": true,
+      "data": {
+        "steam_appid": 3469450,
+        "name": "DOOM: The Dark Ages | Revelations",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1704
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ea4d32f96daa7c009be6d336f45b8cb20cb8efae2543eed380d595afa0500b8a"
+}

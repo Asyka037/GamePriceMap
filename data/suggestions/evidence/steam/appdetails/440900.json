@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 440900,
+  "fetchedAt": "2026-07-17T12:36:51.756Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=440900&cc=us&l=english",
+  "responseDigest": "sha256:735a6566ecb5bffd35e43c33bde992421adbecc066c05e369640fd282274ff3b",
+  "payload": {
+    "440900": {
+      "success": true,
+      "data": {
+        "steam_appid": 440900,
+        "name": "Conan Exiles Enhanced",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 79082
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:27124493b92e3f6765d514c0c8a53f569594cd25cc46dd88aa0ca96087ee9ab1"
+}

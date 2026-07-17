@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3679080,
+  "fetchedAt": "2026-07-17T12:37:20.511Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3679080&cc=us&l=english",
+  "responseDigest": "sha256:a01421e40f1aaa686cc38e12962b70c0c3f9fa022690b2e5424ee25fd0d53b3b",
+  "payload": {
+    "3679080": {
+      "success": true,
+      "data": {
+        "steam_appid": 3679080,
+        "name": "The Seven Deadly Sins: Origin",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 16, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:528198ac52df81261a35f841ee32df5430fb529bb93a51855042d1d72144a02f"
+}

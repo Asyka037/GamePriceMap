@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2479810,
+  "fetchedAt": "2026-07-17T12:37:14.223Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2479810&cc=us&l=english",
+  "responseDigest": "sha256:621fbc8cea5658b8bea3dbd005c6e37b709af12a7e008bc45295a01ca6381ff5",
+  "payload": {
+    "2479810": {
+      "success": true,
+      "data": {
+        "steam_appid": 2479810,
+        "name": "Gray Zone Warfare",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 68145
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2af23222d0d915d5be25ecf39129b33e700cb5d8395cad2c5582ee2ac8b06808"
+}

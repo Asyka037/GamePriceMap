@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 427410,
+  "fetchedAt": "2026-07-17T12:36:46.673Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=427410&cc=us&l=english",
+  "responseDigest": "sha256:1573aa062f793f1b1d7f88daf40d5d28d5f4afb0dceab7ea0c5f7bbff9af1a2b",
+  "payload": {
+    "427410": {
+      "success": true,
+      "data": {
+        "steam_appid": 427410,
+        "name": "Abiotic Factor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 40741
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ddd83d6f2c26885a299e3ab6507fc9dc8c61367d4540f2ec04181bfe20498d3a"
+}

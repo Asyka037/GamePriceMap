@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kind": "steam-candidates",
-  "generatedAt": "2026-07-17T04:58:01.962Z",
+  "generatedAt": "2026-07-17T12:36:41.216Z",
   "mode": "pilot",
   "provisional": true,
   "minimumDistinctDatesForFinal": 14,
@@ -23,11 +23,11 @@
   },
   "pool": {
     "discovered": 1997,
-    "appDetailsEvidence": 175,
-    "acceptedBeforeLimit": 114,
-    "emitted": 100,
-    "rejected": 140,
-    "pending": 1743,
+    "appDetailsEvidence": 225,
+    "acceptedBeforeLimit": 150,
+    "emitted": 150,
+    "rejected": 154,
+    "pending": 1693,
     "incomplete": true
   },
   "sourceRejections": [
@@ -40,33 +40,33 @@
   ],
   "candidates": [
     {
-      "candidateId": "steam:553850",
+      "candidateId": "steam:4000",
       "catalogAction": "new_game",
-      "steamAppId": 553850,
-      "slugHint": "helldiverstm-2",
-      "title": "HELLDIVERS™ 2",
+      "steamAppId": 4000,
+      "slugHint": "garry-s-mod",
+      "title": "Garry's Mod",
       "platforms": [
         "pc"
       ],
-      "sourceUrl": "https://store.steampowered.com/app/553850/",
+      "sourceUrl": "https://store.steampowered.com/app/4000/",
       "humanDecision": "待定",
       "provisional": true,
-      "popularityScore": 107867,
-      "recommendationCount": 831376,
+      "popularityScore": 107823,
+      "recommendationCount": 1079659,
       "signals": {
         "topSellersAppearanceCount": 1,
-        "topSellersRankPoints": 1947,
+        "topSellersRankPoints": 1790,
         "bestFeaturedTopSellerRank": null,
         "bestMostPlayedRank": null,
-        "recommendationProxyPoints": 5920,
+        "recommendationProxyPoints": 6033,
         "auxiliaryPoints": 0
       },
       "paidGate": {
         "productType": "game",
         "isFree": false,
-        "releaseDate": "Feb 8, 2024",
-        "usListPrice": 39.99,
-        "usCurrentPrice": 39.99,
+        "releaseDate": "Nov 29, 2006",
+        "usListPrice": 9.99,
+        "usCurrentPrice": 9.99,
         "usDiscountPercent": 0,
         "currency": "USD",
         "titleEvidence": "ranking_exact_match"
@@ -74,12 +74,12 @@
       "evidence": {
         "schemaVersion": 1,
         "expectedTitles": [
-          "HELLDIVERS™ 2"
+          "Garry's Mod"
         ],
         "topSellerRanks": [
           {
             "date": "2026-07-17",
-            "rank": 54
+            "rank": 211
           }
         ],
         "featuredTopSellerObservations": [],
@@ -87,10 +87,116 @@
         "rankingSampleDigests": [
           "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
         ],
-        "appDetailsEvidenceDigest": "sha256:d92ee8d184c2d21030b9690fbd8c2ef1460bdd02861b410184936b53ca6eb0e3"
+        "appDetailsEvidenceDigest": "sha256:87fd05403e4353db05606bac357ecd17909f8040f9ea7438675982212c2f0b61"
       },
       "sourceRank": 1,
-      "evidenceDigest": "sha256:8dcff017c9420201e24ddf5a9fb28ff2344c840571a03bc832e4430fb98307a8"
+      "evidenceDigest": "sha256:93fa3beb522fb0c65dd3f717f391df965eb19f272354a63191c54d41430147c0"
+    },
+    {
+      "candidateId": "steam:431960",
+      "catalogAction": "new_game",
+      "steamAppId": 431960,
+      "slugHint": "wallpaper-engine",
+      "title": "Wallpaper Engine",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/431960/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 107731,
+      "recommendationCount": 931393,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1762,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 5969,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Nov 16, 2018",
+        "usListPrice": 4.99,
+        "usCurrentPrice": 4.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Wallpaper Engine"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 239
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:69d544314e8f7e0a7bb89ef695b4d7c7fd4a508aaad88d4efb4cd3db8e78faa9"
+      },
+      "sourceRank": 2,
+      "evidenceDigest": "sha256:fb721628ef503afd534459e4664a69c592cf7618c37f16241289c234703fe289"
+    },
+    {
+      "candidateId": "steam:550",
+      "catalogAction": "new_game",
+      "steamAppId": 550,
+      "slugHint": "left-4-dead-2",
+      "title": "Left 4 Dead 2",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/550/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 107642,
+      "recommendationCount": 806220,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1736,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 5906,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Nov 16, 2009",
+        "usListPrice": 9.99,
+        "usCurrentPrice": 9.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Left 4 Dead 2"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 265
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:463225e45a1660cd189ea82099dabd3311f99b53f5e7bc76257cd0683987a95b"
+      },
+      "sourceRank": 3,
+      "evidenceDigest": "sha256:2462d2cf251b83ccb3a375c4866c20211516ee2568bd428834d2a93fb6a3571b"
     },
     {
       "candidateId": "steam:218620",
@@ -142,8 +248,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:107ad8d6fdee4fa7bbdd35bf9bf8dd7f4c83e0b98e079a04ba12c25e9ee82af7"
       },
-      "sourceRank": 2,
-      "evidenceDigest": "sha256:7f454753a8eac4306f2505da9f34d5d4cd5aeb46f7497b6d921fb5a03cf5e5c9"
+      "sourceRank": 4,
+      "evidenceDigest": "sha256:43924f72fd284e27792b5366fd6dda9e5d58ac0bf40229b9a8adbca309263c61"
     },
     {
       "candidateId": "steam:250900",
@@ -195,8 +301,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:95732b2d8a0a03a0c4c9bc6e7456b642ef17e1bdfadd937a07a757c7d12dccb6"
       },
-      "sourceRank": 3,
-      "evidenceDigest": "sha256:25300a660f808fd8ba2c244db1f36e43fc10a5f81a6e9ad78cac205871bf559f"
+      "sourceRank": 5,
+      "evidenceDigest": "sha256:74663dab904b8e253aa9fc656bbdc31d3e48ea1331712f652c5f6ce76f518e2b"
     },
     {
       "candidateId": "steam:284160",
@@ -248,8 +354,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:678499c82dfdaf2bbfaefe9164400ec2e6f24c7d8de28ced661eccded1f855d0"
       },
-      "sourceRank": 4,
-      "evidenceDigest": "sha256:ed769d2ec6f28aadbb31822211cfe490806dc8340f25fb8ae2f8a6120c565232"
+      "sourceRank": 6,
+      "evidenceDigest": "sha256:55573ffeae235cf8c2dee142d59d6a6ddb0e8f4504effb575458ee43f84c6d83"
     },
     {
       "candidateId": "steam:3241660",
@@ -301,8 +407,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:3220daecb478e13977644366f0d6f264c7b8ecf53972be276e2e238d7f0b6ddf"
       },
-      "sourceRank": 5,
-      "evidenceDigest": "sha256:ebec71f5aea7debb87089e83d5ce95d0fbf5db8ac542d62ff23df2910b3952fb"
+      "sourceRank": 7,
+      "evidenceDigest": "sha256:8353719ca5e42a355cc9eedcefada2289360b6b5243bf1493cc5a39ce9403684"
     },
     {
       "candidateId": "steam:2807960",
@@ -354,8 +460,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:0dbbb7fcd4c07e9846024a22a24afb579ccc1bf268b0b5203d1cb8e964e86275"
       },
-      "sourceRank": 6,
-      "evidenceDigest": "sha256:7b9826056b040f668362f9b51b9515de46508db80adb66ad4ad0958262733da4"
+      "sourceRank": 8,
+      "evidenceDigest": "sha256:4e0b6603a1699e3f51a31aae2595ce65bfd8f292a2fd7156da2327d0a52831b7"
+    },
+    {
+      "candidateId": "steam:221100",
+      "catalogAction": "new_game",
+      "steamAppId": 221100,
+      "slugHint": "dayz",
+      "title": "DayZ",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/221100/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 107371,
+      "recommendationCount": 384738,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1786,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 5585,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Dec 13, 2018",
+        "usListPrice": 49.99,
+        "usCurrentPrice": 49.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "DayZ"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 215
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:6a1f7c8e670ce9ef6c98be3183581392a74c3de5a0105a64adacf344d3a9ebd0"
+      },
+      "sourceRank": 9,
+      "evidenceDigest": "sha256:22d39ffcdcad36a2e3fe8a23daef0b556442bb9b4596cac2dd7a93df0587f123"
     },
     {
       "candidateId": "steam:3164500",
@@ -407,8 +566,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:69de29d758c5fe24f07a3366197cf940dc911facbd6fb64c900f96d3f7d881ef"
       },
-      "sourceRank": 7,
-      "evidenceDigest": "sha256:978bf64686e3856d28f32d0ceaf93300b126ca6d64334f929966da38b2d094e8"
+      "sourceRank": 10,
+      "evidenceDigest": "sha256:60bf7f0baac007e4127de862eeb867cf59eeac783c988a4b0ea07ee2962adbb8"
     },
     {
       "candidateId": "steam:1808500",
@@ -460,8 +619,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:11368396af580c32715507175cdc1f2802fb23ed625b3236b5b0eaf42b4b3ba0"
       },
-      "sourceRank": 8,
-      "evidenceDigest": "sha256:3ddb42b926901adddeb6581c2fa3cf932097da7d50b2e9f4868da16f0567aacc"
+      "sourceRank": 11,
+      "evidenceDigest": "sha256:8a97afa225b9f1f7266852f1e3b71374ce0e599f8251e8a2e964d6cfec067614"
     },
     {
       "candidateId": "steam:3527290",
@@ -513,8 +672,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:2342cc877a2004ef8e2dd36f4fbfdabca0a4f6052dcbda1b83f4aee14bf28015"
       },
-      "sourceRank": 9,
-      "evidenceDigest": "sha256:1b38d4eef4d9b7d434edf1b511ae4e191036137f7aa8f425775c30a3ab5e85ec"
+      "sourceRank": 12,
+      "evidenceDigest": "sha256:e9c6ac4c391ded57af32603b15ba521e48594289787ed237b8d86dc5ffb72999"
     },
     {
       "candidateId": "steam:1144200",
@@ -566,8 +725,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:fba27fc2495f17d8cba8bc9b9209404ad3cbbee2b925f916e70ff254dfc70d3c"
       },
-      "sourceRank": 10,
-      "evidenceDigest": "sha256:1aea3c1d5747ab1b1ee0fa5e538468914c1118cb2bd4936fa273333497058720"
+      "sourceRank": 13,
+      "evidenceDigest": "sha256:4427a8bdb9923b245f150f22cecbaaa45dcf14c7d29170e83261c7b33b55edd2"
     },
     {
       "candidateId": "steam:1172620",
@@ -619,8 +778,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:47499b9bf5bd440f959e0134953eb09562d5bca9a2e82ab27a33544ee7f50ccb"
       },
-      "sourceRank": 11,
-      "evidenceDigest": "sha256:106ccead467ae34faeeba8ab6582d6a9ad65f46888b905dc14d57a12b9cfb48c"
+      "sourceRank": 14,
+      "evidenceDigest": "sha256:460edc771ba8c60845c8bc73a7165bd506b6ef2cf0dab6332078bd9c9789cc2b"
     },
     {
       "candidateId": "steam:394360",
@@ -672,8 +831,114 @@
         ],
         "appDetailsEvidenceDigest": "sha256:fdc102b5ef8924186ae97228485da1f28a1aa0d1ecb948b1239b8760b063be3e"
       },
-      "sourceRank": 12,
-      "evidenceDigest": "sha256:5d45958334d3d959bbe6a144b02d4f3b9ee434d5a2d7afc9f669ce8e0a3ac718"
+      "sourceRank": 15,
+      "evidenceDigest": "sha256:8d082e8c6474f8449a192f4e6bbe0995ba0979ed0f41e9f8635cd6f7c86b5ae7"
+    },
+    {
+      "candidateId": "steam:960090",
+      "catalogAction": "new_game",
+      "steamAppId": 960090,
+      "slugHint": "bloons-td-6",
+      "title": "Bloons TD 6",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/960090/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 107286,
+      "recommendationCount": 346048,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1747,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 5539,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Dec 17, 2018",
+        "usListPrice": 13.99,
+        "usCurrentPrice": 13.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Bloons TD 6"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 254
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:49851eb56d1d2ad0c8a2a7d19698274797f1bc34d26fe68acb0b4d481746fde2"
+      },
+      "sourceRank": 16,
+      "evidenceDigest": "sha256:a0f8033d07b37aa45ba475bba31b504fbaac8694ef76eea9f8acdbbc70bb9a4b"
+    },
+    {
+      "candidateId": "steam:648800",
+      "catalogAction": "new_game",
+      "steamAppId": 648800,
+      "slugHint": "raft",
+      "title": "Raft",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/648800/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 107271,
+      "recommendationCount": 320800,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1765,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 5506,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jun 20, 2022",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 19.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Raft"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 236
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:c6825ea5db3981b9f8e5fbb1aa6a564015a4a7a156edab0a3211ae251d0feb20"
+      },
+      "sourceRank": 17,
+      "evidenceDigest": "sha256:8b2d3f9b318e619feff1c079126222b08f708dfda03346ed80125f630bf54fc7"
     },
     {
       "candidateId": "steam:1326470",
@@ -725,8 +990,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:3d018fde74c3acd5cc5c42759c46900eba40bb956e52c200e7eb1fa08874adaf"
       },
-      "sourceRank": 13,
-      "evidenceDigest": "sha256:be77dfb1419b2852e2cc254a694fb3d4ed27ba680274bf09db6031e79ca3bb07"
+      "sourceRank": 18,
+      "evidenceDigest": "sha256:ade74b2a6b001e18de7f0b7a40f431b743f613bb1851f3c866c7c54557cb4192"
     },
     {
       "candidateId": "steam:3240220",
@@ -778,8 +1043,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:d2710b3cb296dcdabe90bdf7bbea092054bb78b97665be49dc9973ffac044c58"
       },
-      "sourceRank": 14,
-      "evidenceDigest": "sha256:30379d2128e3e88bde421f2453ead2a1906c592d90d8e03bfa4ea907c2f70571"
+      "sourceRank": 19,
+      "evidenceDigest": "sha256:72154eda78a69ab0223e3a504f9cff7e98bf422b9abcf12514c9fe60ed39ba9f"
     },
     {
       "candidateId": "steam:251570",
@@ -831,8 +1096,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:b3efbb8c3a9d77ac7bd802b145ba4c96698ec7b67f71561241a9f72981041dc9"
       },
-      "sourceRank": 15,
-      "evidenceDigest": "sha256:601e6a2f576cf5add422ebe3a1db650be20274cc88ca1471d7f29771d2ead243"
+      "sourceRank": 20,
+      "evidenceDigest": "sha256:69132f60c86fcbecf262fb9059fdf0ff43e4515fe7fd23ac5e82c57ea74745f7"
     },
     {
       "candidateId": "steam:2868840",
@@ -884,8 +1149,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:6281536701d18f0ced45753701dab0cf74611f0407da2dea85987dee8cd8397f"
       },
-      "sourceRank": 16,
-      "evidenceDigest": "sha256:9862f4d7059189223720c57a658456e2db08ae2d50d536d8a107bc73a5b67c5f"
+      "sourceRank": 21,
+      "evidenceDigest": "sha256:49aa86605d20492b1633682d61ad150022ce5733536447f6f925498f36c9b595"
+    },
+    {
+      "candidateId": "steam:377160",
+      "catalogAction": "new_game",
+      "steamAppId": 377160,
+      "slugHint": "fallout-4",
+      "title": "Fallout 4",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/377160/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 107198,
+      "recommendationCount": 288509,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1738,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 5460,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Nov 9, 2015",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 19.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Fallout 4"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 263
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:0f0ad124968e9d8453f0786fd53394aa8fb009ae5814881d227e9b6d82bae651"
+      },
+      "sourceRank": 22,
+      "evidenceDigest": "sha256:2ab9f0ed4ca176c0cdbc3fe427dfdf262af93b43beea1a4bb2f6968dc7e021ea"
     },
     {
       "candidateId": "steam:2694490",
@@ -937,8 +1255,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:19cf4bc29beb9c3c6b83a5c93834eaedf3d2d80c78c61e5621f5227ab20dd0a3"
       },
-      "sourceRank": 17,
-      "evidenceDigest": "sha256:4122d336309a195a2d5e351196b18e6cef9978836b31ee61e4beff4850d4d77d"
+      "sourceRank": 23,
+      "evidenceDigest": "sha256:1bde6f7c5072eec5149216038ebc5e1226de6b162aed4fa3f0f0d61b5b0a5620"
     },
     {
       "candidateId": "steam:594650",
@@ -990,8 +1308,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:b8f735e67643456a2748f295f331e90d354770b41f6f420a52db0ca1b67b2b7d"
       },
-      "sourceRank": 18,
-      "evidenceDigest": "sha256:04bd1cc0b81b3e9cbe804f794d38fdbd4df9238b1b7483a9aa4ac1076f9c855c"
+      "sourceRank": 24,
+      "evidenceDigest": "sha256:db9e13a74c9b98c6a8121b030fabbdc03e5cee200cbd860780892cd86d899a74"
     },
     {
       "candidateId": "steam:489830",
@@ -1043,8 +1361,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:df0e0ae3878d9039b637d22213cd44a4a4543e4509d792ee16b49d02e9e0fcd3"
       },
-      "sourceRank": 19,
-      "evidenceDigest": "sha256:deb3ea3a0a73f4a7c2d2bb5b50fab6c7d66791ae003f13d27724d38b05833f8c"
+      "sourceRank": 25,
+      "evidenceDigest": "sha256:4df2c5e6a33cfaa9d360c9c53e867291b214998f170ba86edf5fb4e591b5acae"
     },
     {
       "candidateId": "steam:976730",
@@ -1096,8 +1414,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:fc380ac2d5c2fac4142d4f0c2cf007cc17ca526be2a98fca132bb6b6d8858819"
       },
-      "sourceRank": 20,
-      "evidenceDigest": "sha256:79e2f067e723ae19afec424690889436b4719ca2c67b5f7e4b7482a8e45ad6d8"
+      "sourceRank": 26,
+      "evidenceDigest": "sha256:c5d1f3114f2a08720d1b33956e85cf36007d22f998c1eb2137b8ece1ad742d69"
     },
     {
       "candidateId": "steam:427520",
@@ -1149,8 +1467,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:596b402b535152ab68b4b449c4a7faa04c427b606f069a47ecf6adcea2658c1e"
       },
-      "sourceRank": 21,
-      "evidenceDigest": "sha256:3b4f4727fb0be874e6036b2ff7a712dfce65a89d0aba668a9e385e385be593de"
+      "sourceRank": 27,
+      "evidenceDigest": "sha256:18c864ba0d6406018d851a3dffcef7e313e53714b22153a06b64f1d0a4b29c65"
     },
     {
       "candidateId": "steam:270880",
@@ -1202,8 +1520,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:fefa1c018611ab712c6fe24eed62fc98c44bf722a2d925eedc766d12d6702e3e"
       },
-      "sourceRank": 22,
-      "evidenceDigest": "sha256:c5d5b1bf3de71b952628a0e0bc32e90657e99d86855b50c0d2e22886959af04c"
+      "sourceRank": 28,
+      "evidenceDigest": "sha256:86b20899d5403269fe41fbf2865b01f01ff4c585b6474ffb2305244ad3f550a5"
     },
     {
       "candidateId": "steam:311210",
@@ -1255,8 +1573,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:49eb6c1e945f57520bfbce9c3f35ac4605595f8412d790deae6fa00c674fe0bb"
       },
-      "sourceRank": 23,
-      "evidenceDigest": "sha256:66ba14374fdb98ab6f702ef3ffbc5e6eb5e06e6448f6efa3e1a604f469670240"
+      "sourceRank": 29,
+      "evidenceDigest": "sha256:d8014f3ceb009c26191a557b2f57ea0e06c795f8df3b56239700df57fd9f0785"
     },
     {
       "candidateId": "steam:306130",
@@ -1308,8 +1626,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:64af1e7d1686e7a01e88689b523551251c1ce51ddf5e000460ba4d772c5bd71f"
       },
-      "sourceRank": 24,
-      "evidenceDigest": "sha256:fc6e8c41e5dc65c7136a2fa513fa96188852c0f2c0143063b860b1167acef194"
+      "sourceRank": 30,
+      "evidenceDigest": "sha256:3c60e18530496c64fe321e9ca3a6af34397faa8e94e09f58b815abbd3eae1c3d"
     },
     {
       "candidateId": "steam:281990",
@@ -1361,8 +1679,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:ce5eee396df83eb73b6342687b87b6e30471ce1a927160a0045d8a261564f0d8"
       },
-      "sourceRank": 25,
-      "evidenceDigest": "sha256:07e680e95b60bb2ded486725bae0221e2ac90b5259271ec18039eb6de60f63de"
+      "sourceRank": 31,
+      "evidenceDigest": "sha256:b92e8fc7c8ac8b96f978436dfb75a5104c2fd083a9cc392f236363d797209506"
+    },
+    {
+      "candidateId": "steam:12210",
+      "catalogAction": "new_game",
+      "steamAppId": 12210,
+      "slugHint": "grand-theft-auto-iv-the-complete-edition",
+      "title": "Grand Theft Auto IV: The Complete Edition",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/12210/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 107035,
+      "recommendationCount": 176626,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1788,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 5247,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Mar 24, 2020",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 5.99,
+        "usDiscountPercent": 70,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Grand Theft Auto IV: The Complete Edition"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 213
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:025704d3993831b516736c47d5ac2e86c9decabf44a1dd8a146cefdfa8e7506d"
+      },
+      "sourceRank": 32,
+      "evidenceDigest": "sha256:4c37fa3714af5ea549405bc7fce4cba28c90b8e4b99a5bf08db295480b15d7fe"
     },
     {
       "candidateId": "steam:518790",
@@ -1414,8 +1785,114 @@
         ],
         "appDetailsEvidenceDigest": "sha256:5547f5727d459b95a959a043f6795a3a8dbf03e05b5126fa712275deab1c75e4"
       },
-      "sourceRank": 26,
-      "evidenceDigest": "sha256:c58297d577f91795f2370ea6906465cf56a136bae94031561d82315488f8a129"
+      "sourceRank": 33,
+      "evidenceDigest": "sha256:79d580581484e6687a8806d5519df42c5a6f7ee616bf7648f253b8bc46286275"
+    },
+    {
+      "candidateId": "steam:2592160",
+      "catalogAction": "new_game",
+      "steamAppId": 2592160,
+      "slugHint": "dispatch",
+      "title": "Dispatch",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2592160/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106977,
+      "recommendationCount": 170848,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1744,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 5233,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Oct 22, 2025",
+        "usListPrice": 29.99,
+        "usCurrentPrice": 29.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Dispatch"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 257
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:fe419c2f8bf0b33a7077acc1225d5a5ff0cc5ed00a94e106e13ec4647d6c043a"
+      },
+      "sourceRank": 34,
+      "evidenceDigest": "sha256:a6c64016c89a9249ce1191b3c3abce9b5a7236e3d75e539afac774b04c4eb25b"
+    },
+    {
+      "candidateId": "steam:1332010",
+      "catalogAction": "new_game",
+      "steamAppId": 1332010,
+      "slugHint": "stray",
+      "title": "Stray",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1332010/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106966,
+      "recommendationCount": 155220,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1775,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 5191,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 19, 2022",
+        "usListPrice": 29.99,
+        "usCurrentPrice": 14.99,
+        "usDiscountPercent": 50,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Stray"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 226
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:f83dfbb32505ff4a714e946b08467d86e2d2b847375bc27a94bc589e4b530119"
+      },
+      "sourceRank": 35,
+      "evidenceDigest": "sha256:93b384f02e166c0499e102537daad549da88135a751af0ede268c81608f3e70c"
     },
     {
       "candidateId": "steam:2399830",
@@ -1467,8 +1944,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:88a7cc921023824215922d1ca28a569c783cd216daf588b3359979882ffc4b73"
       },
-      "sourceRank": 27,
-      "evidenceDigest": "sha256:3f5de6af955c38c8e5c41989ab60560c533046f7074d86968beb83a34b607b80"
+      "sourceRank": 36,
+      "evidenceDigest": "sha256:9324395c2d8a97af62bcf73a198b5a776e564ea77665fd18fa9d8a0a6cf2b227"
     },
     {
       "candidateId": "steam:3321460",
@@ -1520,8 +1997,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:a1dde02dd8e3d3a8c685e24bb5aa94351dab54b03254c0bed53ec7f5bd632018"
       },
-      "sourceRank": 28,
-      "evidenceDigest": "sha256:2244c3cb76bddf24654ea8fecbcd4a0d70f7d056427e23781472a80a65b68c9c"
+      "sourceRank": 37,
+      "evidenceDigest": "sha256:00ff33ff8b328ff32dc25614f91ea7e15f0dd680f2ce9f866c2383703b872a69"
     },
     {
       "candidateId": "steam:376210",
@@ -1573,8 +2050,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:45a6adf5ab62af0f8e91786687bd837ab9ea5e69ddcc1592c0737f316d8fbbf1"
       },
-      "sourceRank": 29,
-      "evidenceDigest": "sha256:d1cde96be9b79708fe1b50c5da678a5956ffc1abb10918249c1895e0cb1a003f"
+      "sourceRank": 38,
+      "evidenceDigest": "sha256:7817fb31c2a92db4d43d045621fd715bdae4bb7afb30c68175cff2bd1dd044d1"
     },
     {
       "candidateId": "steam:1304930",
@@ -1626,8 +2103,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:706b2a2d7da6ca9a97f9236622f3c1ff693e3fecddc53d991d1b08264b8c3894"
       },
-      "sourceRank": 30,
-      "evidenceDigest": "sha256:a5bf66ccb1609ded8c2c9fbb33ad31fb5a610f12e28a4bcc43b87bb727780925"
+      "sourceRank": 39,
+      "evidenceDigest": "sha256:eb99417b8b367e22c89bb63c47de52d6ec96111f5a206d906fb66db14552e491"
     },
     {
       "candidateId": "steam:4704690",
@@ -1684,8 +2161,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:5203f0b4ce8123af38ed3b78a614510c89cf33711b3f7361924bca540aa47353"
       },
-      "sourceRank": 31,
-      "evidenceDigest": "sha256:3064e9f714dfd4d5c99313ae40353ce94f069e537bbc68e1a5b2fb4124521713"
+      "sourceRank": 40,
+      "evidenceDigest": "sha256:2bef4c1197c42286b098e6f46e630aca52b55d2e394f5610c299ee7c7e647889"
     },
     {
       "candidateId": "steam:304390",
@@ -1737,8 +2214,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:57096c8425dd0b2014732e6a91bf601b8e77097e1399cec6c27a2246a1a17df6"
       },
-      "sourceRank": 32,
-      "evidenceDigest": "sha256:e714fbd2f391de366c4bfc2e23aa9cafdb83d202d87c664015fe0ca57c9887ee"
+      "sourceRank": 41,
+      "evidenceDigest": "sha256:19979d779da17ba40375148b6b7b10a1c84f280934562e0039a5faa1301f7824"
     },
     {
       "candidateId": "steam:8870",
@@ -1790,8 +2267,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:f5ade4eaeeda84004413a125d8b02fa99bff3dd01d3d53fb90b9098a12290d22"
       },
-      "sourceRank": 33,
-      "evidenceDigest": "sha256:13e971b53a0f85222a07d73386a515408d3e6a87552928af67274ecffaf14570"
+      "sourceRank": 42,
+      "evidenceDigest": "sha256:e373e67cdaa1a92a0c1a0e7a8cc241131d145976a709c06ffa3f3d64be327538"
     },
     {
       "candidateId": "steam:1158310",
@@ -1843,8 +2320,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:497d76b8b579cf15057e47bb048c5dc3c7b64c5c03470cfde5a67c11e7579429"
       },
-      "sourceRank": 34,
-      "evidenceDigest": "sha256:796525a308ba1d6c585a957c1d8f58151da2631150ba39344af1877007e5d76d"
+      "sourceRank": 43,
+      "evidenceDigest": "sha256:f30f81f199c969f8371b614f2869c8d554c3bac7c294517113873f8b77fc629f"
     },
     {
       "candidateId": "steam:2669320",
@@ -1896,8 +2373,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:24ad1a796873485f65222dd33217c470fdf7ee191512381ff6c4ec3499ec3950"
       },
-      "sourceRank": 35,
-      "evidenceDigest": "sha256:696ffcc7ee0d55f76c6ca9fda9ac4ff5fe3694a1a26cf22d5c355c7164e65f89"
+      "sourceRank": 44,
+      "evidenceDigest": "sha256:ee57b655ae5ae5c2193f9b46af4b9eae2c48cc62bd0d550d069e744519348c0c"
     },
     {
       "candidateId": "steam:39210",
@@ -1949,8 +2426,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:a1bcbe639fddc6c1c6ec0a0b3653c1ebfc5006c3057a0ee5064a1fbfb441fbe2"
       },
-      "sourceRank": 36,
-      "evidenceDigest": "sha256:108aa640a34cbce3fe37f6e78528ca25e90c1627c9c2514fed804dc3b30a4651"
+      "sourceRank": 45,
+      "evidenceDigest": "sha256:e86e98dc09977c57197682ca4a5fc32e36b6382d2ef46f7e9f901111fc7ad53b"
     },
     {
       "candidateId": "steam:1151340",
@@ -2002,8 +2479,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:b9697be2933d9e16d82512246847282cb71b7c86bc34902de73ac04e4408d4d0"
       },
-      "sourceRank": 37,
-      "evidenceDigest": "sha256:7e4179c7ccb911eb49e76395ccb22f3c80d3948153ef445b91c997650bbdba46"
+      "sourceRank": 46,
+      "evidenceDigest": "sha256:9208757a5ddae79cec15a086a21c2f2a810a5a7d7b6841d7d6719ed1e11a8b0b"
+    },
+    {
+      "candidateId": "steam:447040",
+      "catalogAction": "new_game",
+      "steamAppId": 447040,
+      "slugHint": "watch-dogs-2",
+      "title": "Watch_Dogs® 2",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/447040/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106732,
+      "recommendationCount": 91279,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1772,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4960,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Nov 28, 2016",
+        "usListPrice": 49.99,
+        "usCurrentPrice": 2.49,
+        "usDiscountPercent": 95,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Watch_Dogs® 2"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 229
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:7c59f7620798d78c38b669f85d03cf9db0bbcdd279f12604cf9a4f6ed4660e17"
+      },
+      "sourceRank": 47,
+      "evidenceDigest": "sha256:1ebcdefb7ed98bb6236607af04b7e848f7eebc98b8a0f970532f6708f7a2d0b0"
     },
     {
       "candidateId": "steam:582660",
@@ -2055,8 +2585,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:5a8975b9ff1703fb2142a97be9bc0f70aeada1ac59d8bfdee6c0900d0efa10f6"
       },
-      "sourceRank": 38,
-      "evidenceDigest": "sha256:175b59d8f5ec66c8fc5d2e5e45eacbcf95a51d8632f660eea016c09fc4c9efed"
+      "sourceRank": 48,
+      "evidenceDigest": "sha256:150e5fd4eca491ac1451317b98d8fd99bbaf2490116952a9022b89d88cf85eed"
     },
     {
       "candidateId": "steam:2881650",
@@ -2108,8 +2638,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:51f8774d7393a260efc5ed6cb45f021b05bf09b3056687fbe8fa922498246172"
       },
-      "sourceRank": 39,
-      "evidenceDigest": "sha256:bd42ffdb4563ab90e05db69d6eb6723af7f0b829492f71502f83c50d5057e2d5"
+      "sourceRank": 49,
+      "evidenceDigest": "sha256:9338b4fcbb8784e4d786ad5443590fe2efdc97bcb7b723b2b3b039b5125acb44"
     },
     {
       "candidateId": "steam:3949040",
@@ -2161,8 +2691,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:a27998e32845dce76500533cfeccb9ae9fe9005aa3c444ec1d27cd746d5e8ab5"
       },
-      "sourceRank": 40,
-      "evidenceDigest": "sha256:e7a3ffa17d0b086d3bf4aeb615e78b9711a6339783d674a17be811df053c25ee"
+      "sourceRank": 50,
+      "evidenceDigest": "sha256:b16515f2ef7804edb8de4f76fe61a9d105b51c9184833bd7df158afd6aa97b62"
     },
     {
       "candidateId": "steam:1285190",
@@ -2214,8 +2744,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:89404a771321509a8677ca88f51bfa70865ea14d3d6e1cbc60a0e9cad370ad8d"
       },
-      "sourceRank": 41,
-      "evidenceDigest": "sha256:2f019f147772f2c4f1b61f2bb3fdd8ee544bdcc38e79f87cbc55aac3c2f96ec4"
+      "sourceRank": 51,
+      "evidenceDigest": "sha256:c7b32eed01408f7c93e44a82f3121bbef28e60c02ad2346cf82c615609661fbc"
+    },
+    {
+      "candidateId": "steam:440900",
+      "catalogAction": "new_game",
+      "steamAppId": 440900,
+      "slugHint": "conan-exiles-enhanced",
+      "title": "Conan Exiles Enhanced",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/440900/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106682,
+      "recommendationCount": 79082,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1784,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4898,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "May 8, 2018",
+        "usListPrice": 39.99,
+        "usCurrentPrice": 39.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Conan Exiles Enhanced"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 217
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:27124493b92e3f6765d514c0c8a53f569594cd25cc46dd88aa0ca96087ee9ab1"
+      },
+      "sourceRank": 52,
+      "evidenceDigest": "sha256:b5f4250f5ada808e7ce001764fd35e2a305059b39062b75691795be8ef21c90d"
     },
     {
       "candidateId": "steam:3932890",
@@ -2267,8 +2850,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:1d64567aba96d66922f79910548831148cc68eb46ee67f9f63f950ff5fea0308"
       },
-      "sourceRank": 42,
-      "evidenceDigest": "sha256:ab25c3a851ef0498fff4fd76463670dabddde24e69650d7f33537165f7cda8a5"
+      "sourceRank": 53,
+      "evidenceDigest": "sha256:c545fe7a5e9b976f32627eaccfd83a996322034a946df39338bde1b59a69b280"
     },
     {
       "candidateId": "steam:949230",
@@ -2320,8 +2903,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:d0c45b627f0f7c9a1cc4284b205dfc9fe05c98129ce416a3db3c9070ceac29ce"
       },
-      "sourceRank": 43,
-      "evidenceDigest": "sha256:5df201af121d3bef7c27dbafa8ea19cc52fa114afc7479591c7b327d3b5e34a3"
+      "sourceRank": 54,
+      "evidenceDigest": "sha256:39b03d3a16a4bdfd8d378a79692ac46ddb889c974fbb658c7fb6c5216f2263a9"
+    },
+    {
+      "candidateId": "steam:2479810",
+      "catalogAction": "new_game",
+      "steamAppId": 2479810,
+      "slugHint": "gray-zone-warfare",
+      "title": "Gray Zone Warfare",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2479810/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106593,
+      "recommendationCount": 68145,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1760,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4833,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Apr 30, 2024",
+        "usListPrice": 39.99,
+        "usCurrentPrice": 39.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Gray Zone Warfare"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 241
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:2af23222d0d915d5be25ecf39129b33e700cb5d8395cad2c5582ee2ac8b06808"
+      },
+      "sourceRank": 55,
+      "evidenceDigest": "sha256:20984b3e03bfc67dc4051ef270dad25e438a1c39546ba99fa2b14690d2789b0d"
     },
     {
       "candidateId": "steam:1659040",
@@ -2373,8 +3009,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:9673255f1a5a632412c29c1f2c62e3d19f1ba82ac705267be6c5afb186a13c14"
       },
-      "sourceRank": 44,
-      "evidenceDigest": "sha256:7b18f8afc51e62b24be640a6e732ff1abee8df56e36f2e758f3eb95b6076baf2"
+      "sourceRank": 56,
+      "evidenceDigest": "sha256:b995489d5abdba5e6ef2e69796fac1e8046dd9021d1851a029af2899ca52cbce"
     },
     {
       "candidateId": "steam:881020",
@@ -2426,8 +3062,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:0117821edcbf74ba6e1596428f21626a90811f06fe5e475b3137015c9391f182"
       },
-      "sourceRank": 45,
-      "evidenceDigest": "sha256:76fb42aaebb7515387072fe945ac8de44a9c8599125d24d85fdfb9397b2af70e"
+      "sourceRank": 57,
+      "evidenceDigest": "sha256:eca110eb56803e0f5f532f54c3f03581509d869ce7f41d2c8edfcba6d653ccc1"
     },
     {
       "candidateId": "steam:3041230",
@@ -2479,8 +3115,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:b5b2060cabeccaee80a8669f17d11a2d6212577dff1d4274411b182fe2902929"
       },
-      "sourceRank": 46,
-      "evidenceDigest": "sha256:9e0aa4934442ce30df367ebc96491608edc0badbb0bb41d4c3303ce9b80edfcf"
+      "sourceRank": 58,
+      "evidenceDigest": "sha256:4fcc256a4a82dc327342715a71d26dfcd4d5e5a1908acd21dbc2c7c441e41fe7"
     },
     {
       "candidateId": "steam:1874880",
@@ -2532,8 +3168,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:9c60070dbdf94acdd3b2012f6dbca5281f33012d7eefdeff7df49a41aa6ac70d"
       },
-      "sourceRank": 47,
-      "evidenceDigest": "sha256:fef34afeab87ae99411176c76002095fac7389c8f45db16a62288e756d2ae630"
+      "sourceRank": 59,
+      "evidenceDigest": "sha256:c9450c693e1cb046f6b21ad2198e6563260415230c61558c5dd032cb149d29d7"
     },
     {
       "candidateId": "steam:454650",
@@ -2585,8 +3221,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:bc9079880046d5f6e232138a56e7b5eface44bfae5f92b7ae407a5ce6b495361"
       },
-      "sourceRank": 48,
-      "evidenceDigest": "sha256:5cb190b1b16861c5bc44b065ef6d3cfb5c7629359d10fbcd688ea548e1753058"
+      "sourceRank": 60,
+      "evidenceDigest": "sha256:c9158b53ef8011862a0aeb4c1426e756dddfdeba36739457df0ca5f5ad3be350"
     },
     {
       "candidateId": "steam:286160",
@@ -2638,8 +3274,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:2fa28c05d8120ea548451eb8075b0810ace66cf4f28316ac2e880a19fb1352ee"
       },
-      "sourceRank": 49,
-      "evidenceDigest": "sha256:e06f6621497f1bab9d0c49a1a5259cc9fa033c84489be152b5e983b011fad9ca"
+      "sourceRank": 61,
+      "evidenceDigest": "sha256:d024ff35339c0a9483d63c064fecc06f3ed49f1edb4b4673c65fc903274e3453"
     },
     {
       "candidateId": "steam:1295660",
@@ -2691,8 +3327,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:3bd0c27f5133b57f5afbe775b1bef08fa7bdc61e2a9fa04a95763dba6e37d4d3"
       },
-      "sourceRank": 50,
-      "evidenceDigest": "sha256:8c7d179a4cd4080a594723da3fdf1d549d4610279391d8bd6fbdbaf9a8d8c749"
+      "sourceRank": 62,
+      "evidenceDigest": "sha256:facf66edfe8327e543a009ff809189448816c91264e3a8f17916ef9cffb7a7b5"
+    },
+    {
+      "candidateId": "steam:1364780",
+      "catalogAction": "new_game",
+      "steamAppId": 1364780,
+      "slugHint": "street-fightertm-6",
+      "title": "Street Fighter™ 6",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1364780/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106463,
+      "recommendationCount": 48347,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1779,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4684,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jun 1, 2023",
+        "usListPrice": 39.99,
+        "usCurrentPrice": 39.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Street Fighter™ 6"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 222
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:9de7b3913b93d17bdf718e76dd38c112a131655fbb74716a73fdad94ddb278e0"
+      },
+      "sourceRank": 63,
+      "evidenceDigest": "sha256:89851b84b42235b0939d185c08827ab9e0ea7b27f03bfa0adfb26b893bb24edb"
     },
     {
       "candidateId": "steam:3065800",
@@ -2744,8 +3433,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:dae0ffe9002ebaf798106b8dbe25f64ec93b97fc53e8ba991335a566f1b91455"
       },
-      "sourceRank": 51,
-      "evidenceDigest": "sha256:52258e367f419eb097a46e1966985ac37abb2f6db8824168e5744fa2ea1c21df"
+      "sourceRank": 64,
+      "evidenceDigest": "sha256:c54be3679cb91daffbb24a5850b3c3a137efe6a146fcdb8f648911a912572104"
     },
     {
       "candidateId": "steam:2300320",
@@ -2797,8 +3486,114 @@
         ],
         "appDetailsEvidenceDigest": "sha256:c19e6b7b2cbdcb27e0854766640b04a6a8ee8d442314ba85a025cc3583ac342d"
       },
-      "sourceRank": 52,
-      "evidenceDigest": "sha256:60abd04ed807dea4a88facb83f081fe23c9fc5229e6919698528164250c6b672"
+      "sourceRank": 65,
+      "evidenceDigest": "sha256:615e9538f745d1eb2fc66b36047be1d83e80f461004ce7ebbf8f0ab4cc416737"
+    },
+    {
+      "candidateId": "steam:1465360",
+      "catalogAction": "new_game",
+      "steamAppId": 1465360,
+      "slugHint": "snowrunner",
+      "title": "SnowRunner",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1465360/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106424,
+      "recommendationCount": 45170,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1769,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4655,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "May 17, 2021",
+        "usListPrice": 29.99,
+        "usCurrentPrice": 11.99,
+        "usDiscountPercent": 60,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "SnowRunner"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 232
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:55b059783509d18126403dccfbd8d937e0d1bcbc40346f31bfed1f2a250b9005"
+      },
+      "sourceRank": 66,
+      "evidenceDigest": "sha256:63fa79fcaba2b14ac756d6457863688696060ff975780e786208dc279ad0b614"
+    },
+    {
+      "candidateId": "steam:1384160",
+      "catalogAction": "new_game",
+      "steamAppId": 1384160,
+      "slugHint": "guilty-gear-strive",
+      "title": "GUILTY GEAR -STRIVE-",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1384160/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106417,
+      "recommendationCount": 47252,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1743,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4674,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jun 11, 2021",
+        "usListPrice": 39.99,
+        "usCurrentPrice": 39.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "GUILTY GEAR -STRIVE-"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 258
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:5047141a2ae9ec4a3492267d81135a1f58179cd3ba9d64ad4b17e5c4fcefdfe5"
+      },
+      "sourceRank": 67,
+      "evidenceDigest": "sha256:a11fb0305f6226d5f11b8e0d075fdc87bb00c05232995a7f6d8d9fe371735bec"
     },
     {
       "candidateId": "steam:2138720",
@@ -2850,8 +3645,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:86f944869ff5a23b3b85627b995b8f657b791c1e5c6588e7c136f0ed35ff26b9"
       },
-      "sourceRank": 53,
-      "evidenceDigest": "sha256:1293f9e1aa72e736dfa4bcdabff80798a149ed4d855b2fd9157d53e4c7246caa"
+      "sourceRank": 68,
+      "evidenceDigest": "sha256:415cf5bb8c54340cca855e8b33a85dad7d0cdd329b2063e927a4576b9f20761e"
+    },
+    {
+      "candidateId": "steam:427410",
+      "catalogAction": "new_game",
+      "steamAppId": 427410,
+      "slugHint": "abiotic-factor",
+      "title": "Abiotic Factor",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/427410/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106399,
+      "recommendationCount": 40741,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1789,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4610,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 22, 2025",
+        "usListPrice": 34.99,
+        "usCurrentPrice": 34.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Abiotic Factor"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 212
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:ddd83d6f2c26885a299e3ab6507fc9dc8c61367d4540f2ec04181bfe20498d3a"
+      },
+      "sourceRank": 69,
+      "evidenceDigest": "sha256:e7054f7f5854cc8511546d95dbf4ada97281d65b40db58437c0fada6c5ecf8ee"
     },
     {
       "candidateId": "steam:2141730",
@@ -2903,8 +3751,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:32bcb73c2d3cd336195daf271ee970fa17369dcce8057bb61e5ed69d1f521ee2"
       },
-      "sourceRank": 54,
-      "evidenceDigest": "sha256:80eabc0d83bf411ef1db4676230924f7ad074f626edc160f973621332f9ac3a2"
+      "sourceRank": 70,
+      "evidenceDigest": "sha256:d8b1586246fb15ef389db6c7dacead5034e3c921c541c595a92ce74565e2637d"
     },
     {
       "candidateId": "steam:3768760",
@@ -2956,8 +3804,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:b5835805806c6d3913b9ac09b169e566155414534586bc05894f371f7f61adb7"
       },
-      "sourceRank": 55,
-      "evidenceDigest": "sha256:b09fe59efb3bf380d595283376a5e47699b0e84ece04c9043cd61340df41015a"
+      "sourceRank": 71,
+      "evidenceDigest": "sha256:fdfb710980943164a8fb9e53cc3abbe4c36c9e5c4b43d33835963b7fdcd70bd4"
     },
     {
       "candidateId": "steam:202970",
@@ -3009,8 +3857,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:7c59bed209a7bd99e17f6bb53122747d2005f03e2612a122d00373e9ae3ee36d"
       },
-      "sourceRank": 56,
-      "evidenceDigest": "sha256:aacd6d664d2aaa9687f52b6605b6f23b80f102c224b3cbadcfeff1b2b248f905"
+      "sourceRank": 72,
+      "evidenceDigest": "sha256:57027e344f85bece6f6e831613e8869ed103f03baa0bc854840715091cfa01ce"
     },
     {
       "candidateId": "steam:3017860",
@@ -3062,8 +3910,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:db77ae637046f6d2abf6276ed182157125f5d8f7f9ac65f4dd36f4d9422a7cd4"
       },
-      "sourceRank": 57,
-      "evidenceDigest": "sha256:41f12aaa6e78e1cb7778f3ef994228ba4a38990f7ac01aacf75fa69cc958f18f"
+      "sourceRank": 73,
+      "evidenceDigest": "sha256:a7261c012386740e0ecdd61e93beb9a2de34b4762fbda58604501a321e01f688"
     },
     {
       "candidateId": "steam:2186680",
@@ -3115,8 +3963,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:d062a520fe495e45ea39708909d10ba63b28f1ed01470e442280d111f7a90788"
       },
-      "sourceRank": 58,
-      "evidenceDigest": "sha256:63dc27f788cfed188590bc5bebbc8db368d00c99c63a1c8feaa7e052b87cb334"
+      "sourceRank": 74,
+      "evidenceDigest": "sha256:9fb5395d0b1fe0e3f10ab3ac4873432c6a83bebdd01bf955402ac26bcfb0e6fc"
+    },
+    {
+      "candidateId": "steam:668580",
+      "catalogAction": "new_game",
+      "steamAppId": 668580,
+      "slugHint": "atomic-heart",
+      "title": "Atomic Heart",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/668580/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106318,
+      "recommendationCount": 37396,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1745,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4573,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Feb 20, 2023",
+        "usListPrice": 59.99,
+        "usCurrentPrice": 14.99,
+        "usDiscountPercent": 75,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Atomic Heart"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 256
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:4a3803e03252eae8494e4e36b618c79c36bd3d741a825b1b6621765b85f4cc8b"
+      },
+      "sourceRank": 75,
+      "evidenceDigest": "sha256:d185b41690fd5fefc4b6917dab2cf6ac9740d1b639a6cd050ee4498784ea1904"
     },
     {
       "candidateId": "steam:1374490",
@@ -3168,8 +4069,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:ce918b4b495da4f227e9af7c451ec72391cd7afc2e94a6c01fe3b04866f8f531"
       },
-      "sourceRank": 59,
-      "evidenceDigest": "sha256:6d6cfa35fc71dc4c2cf99031673b2aae4a90122e2a348bc296aabe272e492053"
+      "sourceRank": 76,
+      "evidenceDigest": "sha256:2f83cca9f74a66d04509e06b0bb5cc2e906127a5e8e827ecfa9afe69674de611"
     },
     {
       "candidateId": "steam:2651280",
@@ -3221,8 +4122,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:2c5d8dffc74c4ae964794c001caf988748d6408775329c626e9a6444c9c0be1f"
       },
-      "sourceRank": 60,
-      "evidenceDigest": "sha256:d4ef0182cfba677396d59356d48f0058eed91852740238f1980f7198e0560246"
+      "sourceRank": 77,
+      "evidenceDigest": "sha256:494de7315b461d5afceb14a7167cf17423590117ae36c99cfdcf41955ba91917"
     },
     {
       "candidateId": "steam:3751950",
@@ -3279,8 +4180,114 @@
         ],
         "appDetailsEvidenceDigest": "sha256:f85516a22024a317cd03b7ceee5def321d4ee8fb648482828e62f834f054e8d7"
       },
-      "sourceRank": 61,
-      "evidenceDigest": "sha256:b77303e02be58b9c49fa758a5a9845c9440e41b9e2c274c6e922541d7feea3ca"
+      "sourceRank": 78,
+      "evidenceDigest": "sha256:21f5d8e5ea66b02414eaddd600dc400771997ea88e8bbd147d18524c4852b2d9"
+    },
+    {
+      "candidateId": "steam:3124540",
+      "catalogAction": "new_game",
+      "steamAppId": 3124540,
+      "slugHint": "far-far-west",
+      "title": "Far Far West",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3124540/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106259,
+      "recommendationCount": 29255,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1793,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4466,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Apr 28, 2026",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 19.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Far Far West"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 208
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:441362fbec3891dadc38771040fb45398e8b314925d53a1129dc3f5c973bfbc5"
+      },
+      "sourceRank": 79,
+      "evidenceDigest": "sha256:faf93261d79745d2c0602f99c7972ecca0ce157a5197c07d4e55641e93ff7fcc"
+    },
+    {
+      "candidateId": "steam:3357650",
+      "catalogAction": "new_game",
+      "steamAppId": 3357650,
+      "slugHint": "pragmata",
+      "title": "PRAGMATA",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3357650/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106249,
+      "recommendationCount": 31362,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1753,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4496,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Apr 16, 2026",
+        "usListPrice": 59.99,
+        "usCurrentPrice": 59.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "PRAGMATA"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 248
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:464190f809abdc2ddbeb80089c98e3e476cc81fe374e67112fb33107897731b5"
+      },
+      "sourceRank": 80,
+      "evidenceDigest": "sha256:e1a75ba4eef51b48a308028c11ce7ef8c7ef70b8ba9e8324845470785e7524fb"
     },
     {
       "candidateId": "steam:2397300",
@@ -3332,8 +4339,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:56570972427886574a1a7f72c08e668307b25568e82ef1a3dd32d3a267fec662"
       },
-      "sourceRank": 62,
-      "evidenceDigest": "sha256:4227f78036e0c4042a9a89f95f984e4968f4e34475175a2d031fb55985370f9c"
+      "sourceRank": 81,
+      "evidenceDigest": "sha256:91fac7b7b224b01d5dc79a0e489b1a1ff0e8f322e09c437bfb03adcbec9e732b"
     },
     {
       "candidateId": "steam:16900",
@@ -3385,8 +4392,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:981f3fadfd005366f1d81c2e70885e68945772f515e1a05ba46e419452abee8f"
       },
-      "sourceRank": 63,
-      "evidenceDigest": "sha256:da09e287c706f053a4c1ad0ad6c04fb17b08c628ab5f0cf6752e53d0ce67b4b4"
+      "sourceRank": 82,
+      "evidenceDigest": "sha256:0ef9eb6cf368ec3789ac1bf59ac35c1fe0a838cc170e53d597c76fb98d4c2d04"
     },
     {
       "candidateId": "steam:1118520",
@@ -3438,8 +4445,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:32af8c9000344bc8de9ec16e7726a85c383ae86f1bccc6252db5a62961b6453e"
       },
-      "sourceRank": 64,
-      "evidenceDigest": "sha256:e3fa0e3dc9f2021f6e63f0b2e5aaa16100d5e4496edde0b2fd3f1cd6c20f9bca"
+      "sourceRank": 83,
+      "evidenceDigest": "sha256:8247972cc6e677753e5052b2150dfd61dae2cdfc9cfe0b6b44923aadcbd4b225"
+    },
+    {
+      "candidateId": "steam:3059520",
+      "catalogAction": "new_game",
+      "steamAppId": 3059520,
+      "slugHint": "f1-25",
+      "title": "F1® 25",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3059520/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106166,
+      "recommendationCount": 23721,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1791,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4375,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "May 30, 2025",
+        "usListPrice": 49.99,
+        "usCurrentPrice": 39.99,
+        "usDiscountPercent": 20,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "F1® 25"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 210
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:385c90bb660702c2a7c7456aa66d952cd7026ec6009c82a3898e01e237c20a24"
+      },
+      "sourceRank": 84,
+      "evidenceDigest": "sha256:879d25e12e31d62c3fed3b83de2fd728f5ee2325f047c906d9f3f60aa91e5a15"
     },
     {
       "candidateId": "steam:2537590",
@@ -3491,8 +4551,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:d20f7c64d8dd33b00a65452c9a0033489bead2c526c66cd58d8421aee4291d99"
       },
-      "sourceRank": 65,
-      "evidenceDigest": "sha256:111511f055024d70fa74cac01502175f8e460a41ed4c68cb68dffa99ab93eefd"
+      "sourceRank": 85,
+      "evidenceDigest": "sha256:f7f42bbff5062eb03e5e513cdf966a4ddddd5020b08f4ed494c990ab898dc285"
     },
     {
       "candidateId": "steam:42700",
@@ -3544,8 +4604,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:fdaa13cee8db00533005b000b9fe7e604da964ef1f28ca9771d4504c2c079039"
       },
-      "sourceRank": 66,
-      "evidenceDigest": "sha256:a37078b132e2ab723549a786e39c297715431541f2b31ec526f3c43d5295c406"
+      "sourceRank": 86,
+      "evidenceDigest": "sha256:277eb47ef6de14005e3e5ad4ade8668c42c7733e33ac8eabec8c358039c567f1"
     },
     {
       "candidateId": "steam:4197610",
@@ -3597,8 +4657,114 @@
         ],
         "appDetailsEvidenceDigest": "sha256:1e89862ef41b2bf9429c44c5e866939ea5919ad33127c9710537fb7c74330831"
       },
-      "sourceRank": 67,
-      "evidenceDigest": "sha256:92f818c3594062125faaf464072583ac5b4b766740711f597043dfae17fb8554"
+      "sourceRank": 87,
+      "evidenceDigest": "sha256:bf93307c24d15b76bcf3ec2876a925172f5dfbcac93f94b9cf45109bbd0e573b"
+    },
+    {
+      "candidateId": "steam:934700",
+      "catalogAction": "new_game",
+      "steamAppId": 934700,
+      "slugHint": "dead-island-2",
+      "title": "Dead Island 2",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/934700/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106121,
+      "recommendationCount": 21813,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1782,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4339,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Apr 22, 2024",
+        "usListPrice": 49.99,
+        "usCurrentPrice": 4.99,
+        "usDiscountPercent": 90,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Dead Island 2"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 219
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:05fb8c835696d5ae195f273613d2330c414045f5e98fbeacd6c0e4dcf2f79346"
+      },
+      "sourceRank": 88,
+      "evidenceDigest": "sha256:8e1c1ad9cc33e1a3105316f596b270090b2afd32a3bfa683a1407dc41f9a118f"
+    },
+    {
+      "candidateId": "steam:1297900",
+      "catalogAction": "new_game",
+      "steamAppId": 1297900,
+      "slugHint": "gothic-1-remake",
+      "title": "Gothic 1 Remake",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1297900/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106118,
+      "recommendationCount": 23329,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1750,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4368,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jun 5, 2026",
+        "usListPrice": 49.99,
+        "usCurrentPrice": 49.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Gothic 1 Remake"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 251
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:e0961cbe5161f5b00264a1cf343f0ef69c32a9eaf8d145b5c98178e15e9a8a25"
+      },
+      "sourceRank": 89,
+      "evidenceDigest": "sha256:abba20e4bbcbffbc5037974821350fd4ec7effb1a618ce77878a3da2505b368e"
     },
     {
       "candidateId": "steam:2947440",
@@ -3650,8 +4816,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:57624bc4d6deb82370c663d50be06f2577bfc2f968938521ba17222f5d1d186e"
       },
-      "sourceRank": 68,
-      "evidenceDigest": "sha256:f29a055f5583d52f49dc180ffc730b0736bf063d64b1ba7869bb054c89a4fd5f"
+      "sourceRank": 90,
+      "evidenceDigest": "sha256:b56d6bcae2d66cb7527ac4a225d7cb9a9217539910ab7f4398aea5dcea4965c4"
     },
     {
       "candidateId": "steam:3892270",
@@ -3703,8 +4869,114 @@
         ],
         "appDetailsEvidenceDigest": "sha256:cee8ba5abc1cb71266571c0757c93bdcd2d5ca18248d3bb558b78a507db58d01"
       },
-      "sourceRank": 69,
-      "evidenceDigest": "sha256:2fd0dcc17f053907b3a1221670f45957d49deb7a4e67fc22018b9d33c0b0a97a"
+      "sourceRank": 91,
+      "evidenceDigest": "sha256:11413a3968b66608891a7634813482fbbad0a0ebb283d789d26eeb3380db0d2d"
+    },
+    {
+      "candidateId": "steam:2828860",
+      "catalogAction": "new_game",
+      "steamAppId": 2828860,
+      "slugHint": "the-forever-winter",
+      "title": "The Forever Winter",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2828860/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106095,
+      "recommendationCount": 20788,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1777,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4318,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Sep 24, 2024",
+        "usListPrice": 29.99,
+        "usCurrentPrice": 14.99,
+        "usDiscountPercent": 50,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "The Forever Winter"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 224
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:f3cc34d76080057ae8fb85eee419ba06c693a0a86e8bb9f6d23fcf2841eb2d88"
+      },
+      "sourceRank": 92,
+      "evidenceDigest": "sha256:dc2ce91dbfaea1f385d275bf9c40dd5ee2accdc8c47dff7c7c18ece2aaf24a2f"
+    },
+    {
+      "candidateId": "steam:2661300",
+      "catalogAction": "new_game",
+      "steamAppId": 2661300,
+      "slugHint": "grounded-2",
+      "title": "Grounded 2",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2661300/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 106038,
+      "recommendationCount": 19499,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1748,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4290,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 29, 2025",
+        "usListPrice": 29.99,
+        "usCurrentPrice": 29.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Grounded 2"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 253
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:80bafdd2356ec45e56205fba1c30333c19ffea510d61c0326ae3364669b36802"
+      },
+      "sourceRank": 93,
+      "evidenceDigest": "sha256:a1d389772f2f0a647782587374943d927ac3948e5ad874bab511104e42185c99"
     },
     {
       "candidateId": "steam:1547000",
@@ -3756,8 +5028,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:23f80d56a6746598bad8155c210fd858279119a4fbb5e395f1b983f0d13d99be"
       },
-      "sourceRank": 70,
-      "evidenceDigest": "sha256:e694d6c08cd83087ca402002cd22c3cbb6cbb7cdca8640f1c4c1a086d4516d93"
+      "sourceRank": 94,
+      "evidenceDigest": "sha256:a7e0b11edc550349c5773b7429844935fb876a0356e8d2d03db8b5592072eb3c"
     },
     {
       "candidateId": "steam:1324780",
@@ -3809,8 +5081,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:21d26afdc09bacf72d9d369d08977b564613191cd506ec315953a1025b3b003d"
       },
-      "sourceRank": 71,
-      "evidenceDigest": "sha256:cd6b8da4417dd251d6ad8d359f0b6d384f262ed79204ac219589ea04a38c45de"
+      "sourceRank": 95,
+      "evidenceDigest": "sha256:fb6e4dacf0cb7efb83b8226f1117d4356905b17df8eebf04f99851f4d2f64b46"
     },
     {
       "candidateId": "steam:1190970",
@@ -3862,8 +5134,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:cc6eb339d157665061b7c32cd85abea2b4698db422c2dacb696a5ba015b3073f"
       },
-      "sourceRank": 72,
-      "evidenceDigest": "sha256:c4eec4331a1f5fd3777719c59c48f809552f4678a7ffa0184738fff740c406a8"
+      "sourceRank": 96,
+      "evidenceDigest": "sha256:41786fe2f1c24aab4af98a29ca254e47259f50c696633be238227503e6e3d5eb"
     },
     {
       "candidateId": "steam:2968420",
@@ -3915,8 +5187,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:c649365139bc7967284e051a2f0df75750c06fa3d98f1cd589560522e6d61428"
       },
-      "sourceRank": 73,
-      "evidenceDigest": "sha256:3d0b318c018b6c8bd57d9f2fd19d14d60f87a2878d14b4f7142d5878a4ebedaf"
+      "sourceRank": 97,
+      "evidenceDigest": "sha256:c8ff1efc6583a8770338ebbba2e9f0d89155a44834d581e51893d10a06e55a07"
+    },
+    {
+      "candidateId": "steam:1569580",
+      "catalogAction": "new_game",
+      "steamAppId": 1569580,
+      "slugHint": "blue-prince",
+      "title": "Blue Prince",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1569580/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 105978,
+      "recommendationCount": 16702,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1755,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4223,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Apr 10, 2025",
+        "usListPrice": 29.99,
+        "usCurrentPrice": 17.99,
+        "usDiscountPercent": 40,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Blue Prince"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 246
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:9e38bb13b0e931032ac82425ff408618242177146956082b51556bb761dfdd58"
+      },
+      "sourceRank": 98,
+      "evidenceDigest": "sha256:4b84f51c0e42b89b2c6b7c8be31aa25bc2ff132a772b32cd9eb4f1aa141bf06b"
     },
     {
       "candidateId": "steam:2993780",
@@ -3968,8 +5293,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:fcd0e682f20f9d82da2b7acd025e47109b76ee37b8f7f6d0c9053949bd89df52"
       },
-      "sourceRank": 74,
-      "evidenceDigest": "sha256:39f8b9a34e78ff85d88598c11b79509e3f54099eac0ed28c1edc6efb3f88a177"
+      "sourceRank": 99,
+      "evidenceDigest": "sha256:21ba27fee08be711b79f46e56aae8fc00436bd623f25bec3765f75de9fb8c890"
     },
     {
       "candidateId": "steam:371970",
@@ -4021,8 +5346,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:ba3d3e32a36c74371c9a831ea334a51985333ce7394ac40ea95cda0f54519a4d"
       },
-      "sourceRank": 75,
-      "evidenceDigest": "sha256:9dc56a3adfedea94fa9916669df36f210d41f6367d8a2a862c45cdf08ec9e61f"
+      "sourceRank": 100,
+      "evidenceDigest": "sha256:d21f4586429e39a3dfe5ea25b12ca8a1be01b8299ecfaa0672f47e33cc7d13db"
     },
     {
       "candidateId": "steam:1431300",
@@ -4074,8 +5399,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:d7e4bd8d1b7101dda555e2f60127d289d1996864f4d5a0c53ab850a18729a90e"
       },
-      "sourceRank": 76,
-      "evidenceDigest": "sha256:eb71c6ab3ddaad555b412f6b6506f1b69267ac9800884f2d3915eac102074327"
+      "sourceRank": 101,
+      "evidenceDigest": "sha256:4e3cf74e58182db1caf1d472c23fbf47d756932966e495c9a03b6fe2920ca261"
     },
     {
       "candidateId": "steam:2958130",
@@ -4127,8 +5452,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:750e04d4746f27a0816ddb1147db32e09b505c355a4cccd686fe03a251821087"
       },
-      "sourceRank": 77,
-      "evidenceDigest": "sha256:6c410ce0ffb54c5b728ed0460b47642cf214db24ed50d1a1afa1729df0cbd80e"
+      "sourceRank": 102,
+      "evidenceDigest": "sha256:25b93ad3a2abdd8a15f358184937cc5eb2bbaf6e7a52ed77ba6c73c352227dfc"
+    },
+    {
+      "candidateId": "steam:3404260",
+      "catalogAction": "new_game",
+      "steamAppId": 3404260,
+      "slugHint": "dead-as-disco",
+      "title": "Dead as Disco",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3404260/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 105810,
+      "recommendationCount": 10594,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1785,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4025,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "May 5, 2026",
+        "usListPrice": 24.99,
+        "usCurrentPrice": 24.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Dead as Disco"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 216
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:56f93012340fc0d4767a10eaef3eb342adf6b5f1a8efacc81b545a09fe5a0576"
+      },
+      "sourceRank": 103,
+      "evidenceDigest": "sha256:3a70a23e5028ebbb301697ddfb2b625611eada7e18e091dfe94d4c8a9379db93"
     },
     {
       "candidateId": "steam:4069520",
@@ -4180,8 +5558,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:0181d0085f17b658b9eacead90e5969eb0a49c569bd625a82147e2871f7d156f"
       },
-      "sourceRank": 78,
-      "evidenceDigest": "sha256:a53ab05828a9232581403e8c274c0e000235194223582c115caaa440df61dfc9"
+      "sourceRank": 104,
+      "evidenceDigest": "sha256:8371928844da56d21def7ff23fd73d575debc54b29e7c7326713e6c8d7bcfa81"
+    },
+    {
+      "candidateId": "steam:1757300",
+      "catalogAction": "new_game",
+      "steamAppId": 1757300,
+      "slugHint": "jump-space",
+      "title": "Jump Space",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1757300/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 105782,
+      "recommendationCount": 10266,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1771,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 4011,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Sep 19, 2025",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 15.99,
+        "usDiscountPercent": 20,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Jump Space"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 230
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:dfee0695f31102dab45254d82d9e44258cbd937a192283684b75c5aeaff7d8c1"
+      },
+      "sourceRank": 105,
+      "evidenceDigest": "sha256:363ed7029a06bf3562625c5a43c83d44e2f75ee57e1b7208996e40e2a92eb713"
     },
     {
       "candidateId": "steam:2215200",
@@ -4233,8 +5664,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:4d4eed7499785368571f4de2488ac7acafc4322a03b32a42158e99831eafd918"
       },
-      "sourceRank": 79,
-      "evidenceDigest": "sha256:e569039eea1497791addd627904161d2751d5a83ce0f5f18b9454db3878199f8"
+      "sourceRank": 106,
+      "evidenceDigest": "sha256:ed7225c78c9d2a6022891ab713d02710038d0877a951e5e696868ac8ec4c00d2"
     },
     {
       "candidateId": "steam:2124120",
@@ -4286,8 +5717,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:3c1e05005a4a9a8a18a27ddad1b4802d8dc4ed18063cceeb19ee8e5f24400e0d"
       },
-      "sourceRank": 80,
-      "evidenceDigest": "sha256:0820503ce4d67382fdd5f29f1970ad42ea015c2b1ce7ceed72558abd5db5a1ef"
+      "sourceRank": 107,
+      "evidenceDigest": "sha256:844130135390bc3e7918791a6a7aa1470c3ba7782842631ee1e87203cbe44512"
+    },
+    {
+      "candidateId": "steam:378540",
+      "catalogAction": "new_game",
+      "steamAppId": 378540,
+      "slugHint": "the-surge",
+      "title": "The Surge",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/378540/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 105718,
+      "recommendationCount": 8960,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1766,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 3952,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "May 15, 2017",
+        "usListPrice": 14.99,
+        "usCurrentPrice": 1.94,
+        "usDiscountPercent": 87,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "The Surge"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 235
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:6cff738d1e7ec15363cebc1546ff21648c846a4bc9da02beabda0aa1e8366e3f"
+      },
+      "sourceRank": 108,
+      "evidenceDigest": "sha256:c0dda49593a45689425043b2c70f3682c8ea6e8b21371c02cf8afd37c2de70eb"
     },
     {
       "candidateId": "steam:1913370",
@@ -4339,8 +5823,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:66b0102baead294f651276ff0ef7e8de90e62df2fa9f55287263b1ba183b6a7d"
       },
-      "sourceRank": 81,
-      "evidenceDigest": "sha256:20a00267188422dd5b0666552a7fd5bb0bac986e1614447ddd7a2de1f296c2df"
+      "sourceRank": 109,
+      "evidenceDigest": "sha256:629d1a34afe9824ba079ce019b6142e3f4a94ded021e6851cacf033e0013e957"
+    },
+    {
+      "candidateId": "steam:3672400",
+      "catalogAction": "new_game",
+      "steamAppId": 3672400,
+      "slugHint": "farever",
+      "title": "Farever",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3672400/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 105686,
+      "recommendationCount": 8158,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1774,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 3912,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "May 6, 2026",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 15.99,
+        "usDiscountPercent": 20,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Farever"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 227
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:b8c40f39e7dbbaaf62ca6a0ef0fcb85399540baca58a039f1587540de2b0aada"
+      },
+      "sourceRank": 110,
+      "evidenceDigest": "sha256:2c803a9394736edabc1196c70777a9d03596be00006d865ff524d2caff97b17e"
     },
     {
       "candidateId": "steam:266410",
@@ -4392,8 +5929,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:a1ecfab02e4da2062dc87566cb99c31a1b54c3a5b898c40d2bfa0e8c24c8492e"
       },
-      "sourceRank": 82,
-      "evidenceDigest": "sha256:a533b8e3a2e83ddcf06bf3aab182064a9dd2c4aced14deb2f0cb1145d6c16047"
+      "sourceRank": 111,
+      "evidenceDigest": "sha256:e65f1c663b5c7f9ff93576b8a69379d548c026e86c8a0901db6f67676a65f374"
     },
     {
       "candidateId": "steam:1996010",
@@ -4445,8 +5982,114 @@
         ],
         "appDetailsEvidenceDigest": "sha256:1d236cbbebcbf69c9db0bc33331f2cd2c0a3fe7c4cdf325dff5c42406a49202d"
       },
-      "sourceRank": 83,
-      "evidenceDigest": "sha256:e9483997945a317f255ec83d747d852d9e2e14c0d4481b3eb44f97fb4f972066"
+      "sourceRank": 112,
+      "evidenceDigest": "sha256:af041a401c6056bd5ceaebad308ef1223ac125eed9a9ecbdc7e88f4afd22d2ca"
+    },
+    {
+      "candidateId": "steam:3834090",
+      "catalogAction": "new_game",
+      "steamAppId": 3834090,
+      "slugHint": "yapyap",
+      "title": "YAPYAP",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3834090/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 105655,
+      "recommendationCount": 7680,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1770,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 3885,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Feb 3, 2026",
+        "usListPrice": 9.99,
+        "usCurrentPrice": 7.49,
+        "usDiscountPercent": 25,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "YAPYAP"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 231
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:6d8028093fcc6c14baad2d4cd85305fbc91430f6840d629a3c76142f9dbe0c01"
+      },
+      "sourceRank": 113,
+      "evidenceDigest": "sha256:3b1aed1214c3d9b5e8a4eaebf51edcefa864bfc2d0243752af723a324f229b8d"
+    },
+    {
+      "candidateId": "steam:1875580",
+      "catalogAction": "new_game",
+      "steamAppId": 1875580,
+      "slugHint": "mina-the-hollower",
+      "title": "Mina the Hollower",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1875580/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 105575,
+      "recommendationCount": 6821,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1741,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 3834,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "May 28, 2026",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 19.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Mina the Hollower"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 260
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:8efa2d882f17e1f4d70f0eb775d397938e07068cbe883351f855ef6c07187887"
+      },
+      "sourceRank": 114,
+      "evidenceDigest": "sha256:77b6500fc8eef048c27327e6747eff404ca4b832011dd0e307bbcd2bd049ec04"
     },
     {
       "candidateId": "steam:2643390",
@@ -4498,8 +6141,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:c3af87a7b36cfd6018d7cc8fe75509fb0cef52cb693dae274f38864481d025da"
       },
-      "sourceRank": 84,
-      "evidenceDigest": "sha256:f13e2451f6f32b6e5054c13ca18528d99c8e18985df808faa6d1cf1d0ecaefcd"
+      "sourceRank": 115,
+      "evidenceDigest": "sha256:29dd6d39f64f84dc759c95fae38cdf773af3211369b9b01974e00178bb658cb1"
     },
     {
       "candidateId": "steam:1028310",
@@ -4551,8 +6194,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:fdcbb1af2df5a26fe5b6fe96a34560efa8ca391d770fe21a3a534ea59e6684eb"
       },
-      "sourceRank": 85,
-      "evidenceDigest": "sha256:12aa2fda73f38f456ac97a87e65394698d6069c7437046d8c212eeb183810665"
+      "sourceRank": 116,
+      "evidenceDigest": "sha256:a786628496724d494bc48127fde1f757bdd9d562e947b2226829280b2a3b08d2"
     },
     {
       "candidateId": "steam:367270",
@@ -4604,8 +6247,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:80a7a88255c0d550f9caa33c367579509b216ca3c50ad6e6e4f6675b811da960"
       },
-      "sourceRank": 86,
-      "evidenceDigest": "sha256:51d7ae622fe8d4e51ba4f219d9a89744c4e04be650e4c4a6300258e8d65b7a60"
+      "sourceRank": 117,
+      "evidenceDigest": "sha256:f71e25810d6b46f0c8e928ef04d37e8aab9b6dc8b939ba768d5bc6a3f6d38b36"
     },
     {
       "candidateId": "steam:3981100",
@@ -4657,8 +6300,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:7ebf439592c4bf39e13af3817e614bf6f4fa6ee4fe66764c04d80097f5daf8c4"
       },
-      "sourceRank": 87,
-      "evidenceDigest": "sha256:c95fcdcf57ae8eab048deebadf616485d6786a31abf4e26fa882597728fc08d0"
+      "sourceRank": 118,
+      "evidenceDigest": "sha256:b81195047c572c28205b0a19e0a642b0366bc95b1b8e6a38119025e9c9475119"
     },
     {
       "candidateId": "steam:3606480",
@@ -4710,8 +6353,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:85987e9681e66e31f782f8f0d7e5a1f97dae956bb9322a6730606cf056dfc697"
       },
-      "sourceRank": 88,
-      "evidenceDigest": "sha256:a7f55c8d4fe440bca3966dfda34c8e4c5df89a55bf39071d6ba71cd1e84c2791"
+      "sourceRank": 119,
+      "evidenceDigest": "sha256:702ac5fba44ac2290ff5517dfd0281bac1085e54153a012f97f9044c8cd81866"
     },
     {
       "candidateId": "steam:3844970",
@@ -4763,8 +6406,61 @@
         ],
         "appDetailsEvidenceDigest": "sha256:7da484c1bab77758de70e6eb2fa91db4ec74a85381c8bc5b64c45857d6c0e30d"
       },
-      "sourceRank": 89,
-      "evidenceDigest": "sha256:6aec14dc80c3fee6a0d54897327a6b604a3971123195010b788500820228cdd0"
+      "sourceRank": 120,
+      "evidenceDigest": "sha256:9dc50c667c24e4d5e0749798764c79c2455fe6fd09f56d5d49de1f779e380b8d"
+    },
+    {
+      "candidateId": "steam:1721110",
+      "catalogAction": "new_game",
+      "steamAppId": 1721110,
+      "slugHint": "abyssus",
+      "title": "Abyssus",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1721110/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 105398,
+      "recommendationCount": 4597,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1735,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 3663,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Aug 12, 2025",
+        "usListPrice": 24.99,
+        "usCurrentPrice": 24.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Abyssus"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 266
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:a2f7237c15f6ade12188465b36bab79883114464b493cbada529f2b8ad5b5b38"
+      },
+      "sourceRank": 121,
+      "evidenceDigest": "sha256:0818a2b6fe522893a479618d88be38a2d1f28bdf4a2c855311ff6094ee1f06a1"
     },
     {
       "candidateId": "steam:2385530",
@@ -4816,8 +6512,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:63e190cf3e5ed0c699e28c467426b083345255551424f74515e44b92c41ee4ea"
       },
-      "sourceRank": 90,
-      "evidenceDigest": "sha256:9c72e98b341db3d99bfc6b8e8ba4d3d1774450dce8ebf24d84298ba10889bef8"
+      "sourceRank": 122,
+      "evidenceDigest": "sha256:32b2e3fc60ab11b8f80318a8f4d5c2127718bcd37c3157d875a97d68013045b6"
     },
     {
       "candidateId": "steam:2244210",
@@ -4869,8 +6565,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:1f5cdf6d06691c48d453d70b144f620cb8f7b0b1392927af9fddc0bcdff0d96d"
       },
-      "sourceRank": 91,
-      "evidenceDigest": "sha256:f2af59349f637d25ab58bcf52afa5d29006b191d8d6d895b2072b3114fa872ce"
+      "sourceRank": 123,
+      "evidenceDigest": "sha256:3ca6b5b762d73193a9d296c6dcebbe7735e233d0a961926f0434e93921dbb7d0"
     },
     {
       "candidateId": "steam:4380490",
@@ -4922,8 +6618,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:8eca6fbc48c8e8d98681029ade5a310a65b2881c4742d0ffbebf17fe6ff9f562"
       },
-      "sourceRank": 92,
-      "evidenceDigest": "sha256:109bc3a371df00e7f9c2eb7ecf12fdaa9319e714536db28d1aafe8ed76cf9c30"
+      "sourceRank": 124,
+      "evidenceDigest": "sha256:0cf199db9bb23002aa64a30719ca661b07dfec9f10e867fb7df999581b2abde8"
     },
     {
       "candidateId": "steam:1805110",
@@ -4975,8 +6671,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:640562ad1e86cf88b55553206ae33a6734d2e8ede5c376369fd8cfd9a0199b68"
       },
-      "sourceRank": 93,
-      "evidenceDigest": "sha256:c2e96fe1c458347c8d114409530a2ea503d4ad0fa94191ba48201a7aba7b68d6"
+      "sourceRank": 125,
+      "evidenceDigest": "sha256:cb7d06c581fef8da5c675e0fdec8a6b6fc30915396e580d162750c1d035e0eea"
     },
     {
       "candidateId": "steam:1920430",
@@ -5028,8 +6724,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:791e66e1c3edc5926e33d82406430db63eb4ca4aa467dc7cc84c06ad640ff7cd"
       },
-      "sourceRank": 94,
-      "evidenceDigest": "sha256:db0a4797d98781d634f57d8c6cc01c31e8aa118954aa22e482ff1503b63fe492"
+      "sourceRank": 126,
+      "evidenceDigest": "sha256:8755393c75ab85ff7203e325d9325fe4380bd6e7f1a783dd5b5a2862bdd9fb36"
     },
     {
       "candidateId": "steam:2195120",
@@ -5081,8 +6777,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:4d685077a49531fb3ed979c5246a91214d3ea2caa9cd068c943c831f764cc754"
       },
-      "sourceRank": 95,
-      "evidenceDigest": "sha256:3a73e24ea168c7e80feb867d821332b1d236dc84f220e1800420724e987e66a1"
+      "sourceRank": 127,
+      "evidenceDigest": "sha256:4ddb8ae95c4bf8dd5a26b86e429e0b49936c234af7b139be97459b9444cdfd40"
     },
     {
       "candidateId": "steam:4032350",
@@ -5134,8 +6830,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:9ca355d3bee5a50d551766fa79420399f440a025fd7f05a6197e4fd3b7df236f"
       },
-      "sourceRank": 96,
-      "evidenceDigest": "sha256:213ea98e4b46b07a67b06994377ace8e8c7f6b8fe3fe67a3bf30774e845d081d"
+      "sourceRank": 128,
+      "evidenceDigest": "sha256:584f597fc2053be3a8fc7e5607246df6076a56c123d6c9ddfd2867d62ce92097"
     },
     {
       "candidateId": "steam:2569760",
@@ -5187,8 +6883,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:d34f3d300ae5fd7a1b617b3c3d1b7e6a0cac7b78323115e7365ff83ee972d483"
       },
-      "sourceRank": 97,
-      "evidenceDigest": "sha256:ac3013c8ed9d0444af6406c3a3a838dc1ece0653c1044351a897c9a069636a97"
+      "sourceRank": 129,
+      "evidenceDigest": "sha256:d07b4bfd6c68149d44f1ed0bfe8b6362ba31097b96bba3dd248912b6cb9babf5"
     },
     {
       "candidateId": "steam:3767850",
@@ -5240,8 +6936,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:1997c0f1378a356b1189c5b43bd023a9fb8421d1350f34c9cca0cd46fa6a6873"
       },
-      "sourceRank": 98,
-      "evidenceDigest": "sha256:3b5fd3fcdc16991e379b94207649cb191beb30f93ec00eaebc5f2336b05afdc7"
+      "sourceRank": 130,
+      "evidenceDigest": "sha256:970eb7a35eab5be94bc39594db8fc83f237c76902566f7bf1ff2dfcae7b5b997"
     },
     {
       "candidateId": "steam:3935020",
@@ -5293,8 +6989,8 @@
         ],
         "appDetailsEvidenceDigest": "sha256:01051ac587de43e7876f38999960b3f7ff128ba5ed734538e92ad6992784e2a3"
       },
-      "sourceRank": 99,
-      "evidenceDigest": "sha256:a86a5befed77eb124724618a989219783628e18098d127c2050007ccc0e2cc08"
+      "sourceRank": 131,
+      "evidenceDigest": "sha256:ea0165c939362e9c8c7ef844af09e9a93859748d0910f6dd8afec4f0a7a01bbb"
     },
     {
       "candidateId": "steam:3641000",
@@ -5346,8 +7042,967 @@
         ],
         "appDetailsEvidenceDigest": "sha256:91955010691a317c4d513a823c31cf3e57a388b0e95fda084dd49565e5028d78"
       },
-      "sourceRank": 100,
-      "evidenceDigest": "sha256:b1f08fcaddff7a50f45323d3fc3ee459be5b41a68e68be5f4d6f43f4a256d30c"
+      "sourceRank": 132,
+      "evidenceDigest": "sha256:143429eedb6f7f2b7d737f6148438a7af47eb4b4afbb4efeca531a46897957d9"
+    },
+    {
+      "candidateId": "steam:2019620",
+      "catalogAction": "new_game",
+      "steamAppId": 2019620,
+      "slugHint": "geronimo",
+      "title": "GERONIMO",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2019620/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 104698,
+      "recommendationCount": 751,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1822,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2876,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 10, 2026",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 17.99,
+        "usDiscountPercent": 10,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "GERONIMO"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 179
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:1f925214227bfbb0e8cb768e53bc0712fe557612dec4e7fd9657fb9e4d1fbdc0"
+      },
+      "sourceRank": 133,
+      "evidenceDigest": "sha256:df0a707a6403c324ffc3571311fad76eb4096698ba743e6b3b46464c33bbbb22"
+    },
+    {
+      "candidateId": "steam:2131680",
+      "catalogAction": "new_game",
+      "steamAppId": 2131680,
+      "slugHint": "metal-gear-and-metal-gear-2-solid-snake",
+      "title": "METAL GEAR & METAL GEAR 2: Solid Snake",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2131680/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 104681,
+      "recommendationCount": 673,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1852,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2829,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Oct 24, 2023",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 9.99,
+        "usDiscountPercent": 50,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "METAL GEAR & METAL GEAR 2: Solid Snake"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 149
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:987388c951d6f076bf9d60d2ac245e36de07d2eb5f10cc73afa0fe778fec0de3"
+      },
+      "sourceRank": 134,
+      "evidenceDigest": "sha256:aa79f55d1f0aee681dc825aa48146b06a59ab79c33f004d18356f52e8b225698"
+    },
+    {
+      "candidateId": "steam:2524850",
+      "catalogAction": "new_game",
+      "steamAppId": 2524850,
+      "slugHint": "denshattack",
+      "title": "Denshattack!",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2524850/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 104561,
+      "recommendationCount": 382,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1978,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2583,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 15, 2026",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 17.99,
+        "usDiscountPercent": 10,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Denshattack!"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 23
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:12e8279eef3183bab2ab89ee5ba244623b39920bb8e4160854b1413f7274d241"
+      },
+      "sourceRank": 135,
+      "evidenceDigest": "sha256:389d85d957fed143186540faa3a38154079ba44c2b4ca466e6ff2067345d2d2e"
+    },
+    {
+      "candidateId": "steam:3712080",
+      "catalogAction": "new_game",
+      "steamAppId": 3712080,
+      "slugHint": "funnel-runners",
+      "title": "Funnel Runners",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3712080/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 104540,
+      "recommendationCount": 281,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1995,
+        "bestFeaturedTopSellerRank": 6,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2450,
+        "auxiliaryPoints": 95
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 16, 2026",
+        "usListPrice": 14.99,
+        "usCurrentPrice": 13.49,
+        "usDiscountPercent": 10,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Funnel Runners"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 6
+          }
+        ],
+        "featuredTopSellerObservations": [
+          {
+            "date": "2026-07-17",
+            "rank": 6
+          }
+        ],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:0e4c7e50819ac3ad7a4d5b5b17e54a26e7e90cd60fb57a49c4d8823cb969ede8"
+      },
+      "sourceRank": 136,
+      "evidenceDigest": "sha256:0081b0ab5e2518b0ce02d2d86eeea8fcfc7b129fa07fe8854ae6bfa5f6630000"
+    },
+    {
+      "candidateId": "steam:4297840",
+      "catalogAction": "new_game",
+      "steamAppId": 4297840,
+      "slugHint": "rock-bottom",
+      "title": "Rock Bottom",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4297840/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 104404,
+      "recommendationCount": 419,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1781,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2623,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 14, 2026",
+        "usListPrice": 7.99,
+        "usCurrentPrice": 7.19,
+        "usDiscountPercent": 10,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Rock Bottom"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 220
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:10bcb49eee698598e625ba41c863789d94dbccc4b02b6c39e9dbd97d9b6026e0"
+      },
+      "sourceRank": 137,
+      "evidenceDigest": "sha256:1f540028f464222cf01ab66be26f5be5b3672c85d7eb0841cdd366b01de1e0d4"
+    },
+    {
+      "candidateId": "steam:3372060",
+      "catalogAction": "new_game",
+      "steamAppId": 3372060,
+      "slugHint": "hell-maiden",
+      "title": "Hell Maiden",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3372060/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 104384,
+      "recommendationCount": 281,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1934,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2450,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 16, 2026",
+        "usListPrice": 9.99,
+        "usCurrentPrice": 9.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Hell Maiden"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 67
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:7c539663716ca6bf586822197999d1a6badfb6e916908e5e27ad6ff7f39869ba"
+      },
+      "sourceRank": 138,
+      "evidenceDigest": "sha256:ce56bb9e7f2eeaf1d4f2058b465c299b5e0d4304f987778d0903ca19d0ec22ec"
+    },
+    {
+      "candidateId": "steam:2697940",
+      "catalogAction": "new_game",
+      "steamAppId": 2697940,
+      "slugHint": "ascend-to-zero",
+      "title": "Ascend to ZERO",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2697940/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 104343,
+      "recommendationCount": 401,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1739,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2604,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 13, 2026",
+        "usListPrice": 11.99,
+        "usCurrentPrice": 9.59,
+        "usDiscountPercent": 20,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Ascend to ZERO"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 262
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:0faf21ed6557f4038b6ea07da1c7632851a92695ecc38f1e35e4875e6bc65b29"
+      },
+      "sourceRank": 139,
+      "evidenceDigest": "sha256:d3907fed2d83fd321431a6f59e4138b5e6781a91f3ab9770846519a11c23272c"
+    },
+    {
+      "candidateId": "steam:3808690",
+      "catalogAction": "new_game",
+      "steamAppId": 3808690,
+      "slugHint": "pathogenic",
+      "title": "Pathogenic",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3808690/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 104304,
+      "recommendationCount": 226,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1948,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2356,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 16, 2026",
+        "usListPrice": 9.99,
+        "usCurrentPrice": 7.99,
+        "usDiscountPercent": 20,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Pathogenic"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 53
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:a56d50f10bbcc33187c656407014d16ad913bbe6714726bdcefa9fadd47deee2"
+      },
+      "sourceRank": 140,
+      "evidenceDigest": "sha256:7a72b29f201d980501ea1bc505d7213d9ec6bba09636069192dee218b00c5ed8"
+    },
+    {
+      "candidateId": "steam:4512570",
+      "catalogAction": "new_game",
+      "steamAppId": 4512570,
+      "slugHint": "a-game-about-chopping-trees",
+      "title": "A Game About Chopping Trees",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4512570/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 104163,
+      "recommendationCount": 203,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1853,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2310,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 15, 2026",
+        "usListPrice": 7.99,
+        "usCurrentPrice": 7.19,
+        "usDiscountPercent": 10,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "A Game About Chopping Trees"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 148
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:da6fefa24c59872a31aa96ecd0022409c83431f345e82c5a0586fed444f00f45"
+      },
+      "sourceRank": 141,
+      "evidenceDigest": "sha256:d8724c29178abd4885ca45b8fee632a6dc8c34ccdb67991ef9e9d72a736b5af2"
+    },
+    {
+      "candidateId": "steam:4163030",
+      "catalogAction": "new_game",
+      "steamAppId": 4163030,
+      "slugHint": "cat-chess",
+      "title": "Cat Chess",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4163030/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 104112,
+      "recommendationCount": 228,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1752,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2360,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 14, 2026",
+        "usListPrice": 6.99,
+        "usCurrentPrice": 5.94,
+        "usDiscountPercent": 15,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Cat Chess"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 249
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:03da6e0a5e19bff239b584998287cee7728bcffa64bf842009cb7ca9d58a720d"
+      },
+      "sourceRank": 142,
+      "evidenceDigest": "sha256:ea6ef6c7acabd9b1bf3fd8b7def3b8b87bca2a661afaeccbb42d8e5628515d18"
+    },
+    {
+      "candidateId": "steam:4210580",
+      "catalogAction": "new_game",
+      "steamAppId": 4210580,
+      "slugHint": "ore-factory-squad",
+      "title": "Ore Factory Squad ⛏️",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/4210580/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 103960,
+      "recommendationCount": 105,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1935,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 2025,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 16, 2026",
+        "usListPrice": 12.99,
+        "usCurrentPrice": 9.74,
+        "usDiscountPercent": 25,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Ore Factory Squad ⛏️"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 66
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:98903ec30687c3a72b371a718c4f09fcd0769258c7cc2f9023c2a54502604bc9"
+      },
+      "sourceRank": 143,
+      "evidenceDigest": "sha256:7d3d2964f5064da49cbfd75663ea319885dfb795dca47d1b8e4cdcc1d2ce0e7b"
+    },
+    {
+      "candidateId": "steam:1696770",
+      "catalogAction": "new_game",
+      "steamAppId": 1696770,
+      "slugHint": "the-mermaid-mask",
+      "title": "The Mermaid Mask",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1696770/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 101967,
+      "recommendationCount": null,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1967,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 0,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 16, 2026",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 17.99,
+        "usDiscountPercent": 10,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "The Mermaid Mask"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 34
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:7d79c99f8f031e6627af6b326a9f19fce597ac4ca3f0417f792e5ca99eb04294"
+      },
+      "sourceRank": 144,
+      "evidenceDigest": "sha256:a811bd446fb0f95fa6162bac87b65f7664c87f85b4cfe7b05cab1f6c40565096"
+    },
+    {
+      "candidateId": "steam:3869850",
+      "catalogAction": "new_game",
+      "steamAppId": 3869850,
+      "slugHint": "welcome-to-the-game-iii",
+      "title": "Welcome to the Game III",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3869850/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 101929,
+      "recommendationCount": null,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1929,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 0,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 16, 2026",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 17.99,
+        "usDiscountPercent": 10,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Welcome to the Game III"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 72
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:2b7948d63a860484327c1e58d692fb42f973bed1fd108f2fd67a46b1d08bd22c"
+      },
+      "sourceRank": 145,
+      "evidenceDigest": "sha256:5196eab45cfa4b9f5828ab7595da9db7bf6c67da5a029a5fb7399f9d6996ef3f"
+    },
+    {
+      "candidateId": "steam:3914860",
+      "catalogAction": "new_game",
+      "steamAppId": 3914860,
+      "slugHint": "moss-the-forgotten-relic",
+      "title": "Moss: The Forgotten Relic",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3914860/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 101925,
+      "recommendationCount": null,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1925,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 0,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 16, 2026",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 17.99,
+        "usDiscountPercent": 10,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Moss: The Forgotten Relic"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 76
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:c25385ee2800885b33cbabaf07d20536edafcd24cc65dc08785267aac1f40d54"
+      },
+      "sourceRank": 146,
+      "evidenceDigest": "sha256:e0441d700095cf94418b7399fc379e4278f70e3b79747c4bad17c241aa4c25c5"
+    },
+    {
+      "candidateId": "steam:3453910",
+      "catalogAction": "new_game",
+      "steamAppId": 3453910,
+      "slugHint": "happy-s-humble-burger-cult",
+      "title": "Happy's Humble Burger Cult",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/3453910/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 101912,
+      "recommendationCount": null,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1912,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 0,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 16, 2026",
+        "usListPrice": 9.99,
+        "usCurrentPrice": 7.99,
+        "usDiscountPercent": 20,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Happy's Humble Burger Cult"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 89
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:2ad0eef0e6ec5316d46b3b7b163049cffbc242df82ceeca6e385f5899fb864a4"
+      },
+      "sourceRank": 147,
+      "evidenceDigest": "sha256:da32f93a76a9543354beada01107e4d41d7871fd4926151e9ba66e98e5636aaf"
+    },
+    {
+      "candidateId": "steam:1289670",
+      "catalogAction": "new_game",
+      "steamAppId": 1289670,
+      "slugHint": "ea-play",
+      "title": "EA Play",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1289670/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 101845,
+      "recommendationCount": null,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1845,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 0,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Aug 31, 2020",
+        "usListPrice": 5.99,
+        "usCurrentPrice": 5.99,
+        "usDiscountPercent": 0,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "EA Play"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 156
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:d4b597fe6ee12590930ec075fc7985809e1e2419238ddac868baf99d1f27d5a5"
+      },
+      "sourceRank": 148,
+      "evidenceDigest": "sha256:e20e524a31d1fd536d228223c4dfc815d5c67ee75ba4dbdf1c2fcb6cd4a0c9e6"
+    },
+    {
+      "candidateId": "steam:2646720",
+      "catalogAction": "new_game",
+      "steamAppId": 2646720,
+      "slugHint": "dead-weight",
+      "title": "Dead Weight",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/2646720/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 101827,
+      "recommendationCount": null,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1827,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 0,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 16, 2026",
+        "usListPrice": 12.99,
+        "usCurrentPrice": 9.74,
+        "usDiscountPercent": 25,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "Dead Weight"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 174
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:29bc879402698ae3590b12e16fb218255cebbd42e64e2b3d5152672aea1cfdfe"
+      },
+      "sourceRank": 149,
+      "evidenceDigest": "sha256:e16ab5c8b8726f4cedcf20b8b1fcb673ab9902de6e60d683cb6d07278d20bd43"
+    },
+    {
+      "candidateId": "steam:1662160",
+      "catalogAction": "new_game",
+      "steamAppId": 1662160,
+      "slugHint": "k-pop-idol-stories-road-to-debut",
+      "title": "K-pop Idol Stories: Road to Debut",
+      "platforms": [
+        "pc"
+      ],
+      "sourceUrl": "https://store.steampowered.com/app/1662160/",
+      "humanDecision": "待定",
+      "provisional": true,
+      "popularityScore": 101749,
+      "recommendationCount": null,
+      "signals": {
+        "topSellersAppearanceCount": 1,
+        "topSellersRankPoints": 1749,
+        "bestFeaturedTopSellerRank": null,
+        "bestMostPlayedRank": null,
+        "recommendationProxyPoints": 0,
+        "auxiliaryPoints": 0
+      },
+      "paidGate": {
+        "productType": "game",
+        "isFree": false,
+        "releaseDate": "Jul 16, 2026",
+        "usListPrice": 19.99,
+        "usCurrentPrice": 15.99,
+        "usDiscountPercent": 20,
+        "currency": "USD",
+        "titleEvidence": "ranking_exact_match"
+      },
+      "evidence": {
+        "schemaVersion": 1,
+        "expectedTitles": [
+          "K-pop Idol Stories: Road to Debut"
+        ],
+        "topSellerRanks": [
+          {
+            "date": "2026-07-17",
+            "rank": 252
+          }
+        ],
+        "featuredTopSellerObservations": [],
+        "mostPlayedObservations": [],
+        "rankingSampleDigests": [
+          "sha256:b1e4f978b4ac506023e8a4eee0057bcbc285b00e471afc1af0b175d39b953215"
+        ],
+        "appDetailsEvidenceDigest": "sha256:19930ed46bb2a2255b606f6d94d8fe63a9e2019061ca788aa9a51e92bf22a5c7"
+      },
+      "sourceRank": 150,
+      "evidenceDigest": "sha256:254d84e79c51fc6d72d6087a9a208482674d9fdcc96af0d58d8e6a5ece6ca5d8"
     }
   ],
   "rejectedCandidates": [
@@ -5576,6 +8231,11 @@
       "reason": "free_game",
       "details": {},
       "appDetailsEvidenceDigest": "sha256:383e1a9e3a23b037f1947e1bd94ad22b4b17f459d457d602f26146757629fc45"
+    },
+    {
+      "candidateId": "steam:553850",
+      "steamAppId": 553850,
+      "reason": "already_in_catalog"
     },
     {
       "candidateId": "steam:1086940",
@@ -5954,6 +8614,13 @@
       "appDetailsEvidenceDigest": "sha256:d19dde05e020970515544db9da09807220585052732beecd6e16885a6ff1303c"
     },
     {
+      "candidateId": "steam:2707930",
+      "steamAppId": 2707930,
+      "reason": "free_game",
+      "details": {},
+      "appDetailsEvidenceDigest": "sha256:599d2740f644f717e1287884a19428644c3cbd204d7d1118341013085ef79ede"
+    },
+    {
       "candidateId": "steam:753640",
       "steamAppId": 753640,
       "reason": "already_in_catalog"
@@ -5972,6 +8639,29 @@
       "candidateId": "steam:1643320",
       "steamAppId": 1643320,
       "reason": "already_in_catalog"
+    },
+    {
+      "candidateId": "steam:3469450",
+      "steamAppId": 3469450,
+      "reason": "not_base_game",
+      "details": {
+        "productType": "dlc"
+      },
+      "appDetailsEvidenceDigest": "sha256:ea4d32f96daa7c009be6d336f45b8cb20cb8efae2543eed380d595afa0500b8a"
+    },
+    {
+      "candidateId": "steam:291550",
+      "steamAppId": 291550,
+      "reason": "free_game",
+      "details": {},
+      "appDetailsEvidenceDigest": "sha256:76e1652df26170a932e475bd0d854e49246a9bda8964911b9351217a01e81b44"
+    },
+    {
+      "candidateId": "steam:4584110",
+      "steamAppId": 4584110,
+      "reason": "free_game",
+      "details": {},
+      "appDetailsEvidenceDigest": "sha256:1391d6eca406afa9cf3295763f657700eefb3c0b98a12659afaef1ab011a957f"
     },
     {
       "candidateId": "steam:1142710",
@@ -5994,14 +8684,81 @@
       "reason": "already_in_catalog"
     },
     {
+      "candidateId": "steam:799960",
+      "steamAppId": 799960,
+      "reason": "free_game",
+      "details": {},
+      "appDetailsEvidenceDigest": "sha256:c0d44d1a5e402484d64fdb7fa3103c65b1ad25804920be00b0f3dffdb7f96e14"
+    },
+    {
+      "candidateId": "steam:2272360",
+      "steamAppId": 2272360,
+      "reason": "unreleased",
+      "details": {},
+      "appDetailsEvidenceDigest": "sha256:0a2df5be81673f89761adc4d91cbb0dae64953fda799b802bf2f388a998b707b"
+    },
+    {
+      "candidateId": "steam:3940610",
+      "steamAppId": 3940610,
+      "reason": "unreleased",
+      "details": {},
+      "appDetailsEvidenceDigest": "sha256:5c28c6451dae5caa484c04dd886c2106e330267aae461cbb16ad48d59ef06bfd"
+    },
+    {
       "candidateId": "steam:1984270",
       "steamAppId": 1984270,
       "reason": "already_in_catalog"
     },
     {
+      "candidateId": "steam:380600",
+      "steamAppId": 380600,
+      "reason": "free_game",
+      "details": {},
+      "appDetailsEvidenceDigest": "sha256:8fb5bdd5f512aa0178ea4205f536bc291a14d7f655cf8c8d947e23ab3c352002"
+    },
+    {
+      "candidateId": "steam:3679080",
+      "steamAppId": 3679080,
+      "reason": "free_game",
+      "details": {},
+      "appDetailsEvidenceDigest": "sha256:528198ac52df81261a35f841ee32df5430fb529bb93a51855042d1d72144a02f"
+    },
+    {
       "candidateId": "steam:1604030",
       "steamAppId": 1604030,
       "reason": "already_in_catalog"
+    },
+    {
+      "candidateId": "steam:2075800",
+      "steamAppId": 2075800,
+      "reason": "unreleased",
+      "details": {},
+      "appDetailsEvidenceDigest": "sha256:9c435b336e089cdfec14014d915b1dd713e65ab28d8c67b9d1dc51217f2daad0"
+    },
+    {
+      "candidateId": "steam:4376930",
+      "steamAppId": 4376930,
+      "reason": "not_base_game",
+      "details": {
+        "productType": "dlc"
+      },
+      "appDetailsEvidenceDigest": "sha256:fefda7b6514f8b8b4604b52526aecaa4661cd12bc452fc6ae71e4a8575dddf7c"
+    },
+    {
+      "candidateId": "steam:2072560",
+      "steamAppId": 2072560,
+      "reason": "free_game",
+      "details": {},
+      "appDetailsEvidenceDigest": "sha256:8c65273b15b109055b60e9e0675b472b9bf29fd0b67a1321b9e0a1c8591e73c9"
+    },
+    {
+      "candidateId": "steam:4558480",
+      "steamAppId": 4558480,
+      "reason": "not_base_game",
+      "details": {
+        "productType": "dlc"
+      },
+      "appDetailsEvidenceDigest": "sha256:7a60d4cf5fb4c3c6e829d0ad4843562f7af6d58ce7bbb6b285804530144fac43"
     },
     {
       "candidateId": "steam:1903340",
@@ -6195,256 +8952,6 @@
     }
   ],
   "pendingCandidates": [
-    {
-      "candidateId": "steam:2707930",
-      "steamAppId": 2707930,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:3124540",
-      "steamAppId": 3124540,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:3059520",
-      "steamAppId": 3059520,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:4000",
-      "steamAppId": 4000,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:427410",
-      "steamAppId": 427410,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:12210",
-      "steamAppId": 12210,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:221100",
-      "steamAppId": 221100,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:3404260",
-      "steamAppId": 3404260,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:440900",
-      "steamAppId": 440900,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:934700",
-      "steamAppId": 934700,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:4297840",
-      "steamAppId": 4297840,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:1364780",
-      "steamAppId": 1364780,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:3469450",
-      "steamAppId": 3469450,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:2828860",
-      "steamAppId": 2828860,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:291550",
-      "steamAppId": 291550,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:1332010",
-      "steamAppId": 1332010,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:3672400",
-      "steamAppId": 3672400,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:4584110",
-      "steamAppId": 4584110,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:447040",
-      "steamAppId": 447040,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:1757300",
-      "steamAppId": 1757300,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:3834090",
-      "steamAppId": 3834090,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:1465360",
-      "steamAppId": 1465360,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:378540",
-      "steamAppId": 378540,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:648800",
-      "steamAppId": 648800,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:431960",
-      "steamAppId": 431960,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:799960",
-      "steamAppId": 799960,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:2479810",
-      "steamAppId": 2479810,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:2272360",
-      "steamAppId": 2272360,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:3940610",
-      "steamAppId": 3940610,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:380600",
-      "steamAppId": 380600,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:1569580",
-      "steamAppId": 1569580,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:3679080",
-      "steamAppId": 3679080,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:3357650",
-      "steamAppId": 3357650,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:4163030",
-      "steamAppId": 4163030,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:1297900",
-      "steamAppId": 1297900,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:1662160",
-      "steamAppId": 1662160,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:2661300",
-      "steamAppId": 2661300,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:960090",
-      "steamAppId": 960090,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:2075800",
-      "steamAppId": 2075800,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:668580",
-      "steamAppId": 668580,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:2592160",
-      "steamAppId": 2592160,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:1384160",
-      "steamAppId": 1384160,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:4376930",
-      "steamAppId": 4376930,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:1875580",
-      "steamAppId": 1875580,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:2072560",
-      "steamAppId": 2072560,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:2697940",
-      "steamAppId": 2697940,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:377160",
-      "steamAppId": 377160,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:4558480",
-      "steamAppId": 4558480,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:550",
-      "steamAppId": 550,
-      "reason": "missing_appdetails_evidence"
-    },
-    {
-      "candidateId": "steam:1721110",
-      "steamAppId": 1721110,
-      "reason": "missing_appdetails_evidence"
-    },
     {
       "candidateId": "steam:4355570",
       "steamAppId": 4355570,
@@ -14911,5 +17418,5 @@
       "reason": "missing_appdetails_evidence"
     }
   ],
-  "documentDigest": "sha256:897a82f085022df07e9c468c1526d1a35410f1ab6bcbe1ac747709e367850407"
+  "documentDigest": "sha256:1a9dec8035aa00d836c604e2338c2dec73f402cd404a72dc0a19ffba92419d9f"
 }

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4558480,
+  "fetchedAt": "2026-07-17T12:37:40.648Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4558480&cc=us&l=english",
+  "responseDigest": "sha256:98a2b10fc2cfd5ae937de0dc3097384c58f8d98a59d3fb257f9acc0430a7ce80",
+  "payload": {
+    "4558480": {
+      "success": true,
+      "data": {
+        "steam_appid": 4558480,
+        "name": "ARK Tides of Fortune",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 440
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7a60d4cf5fb4c3c6e829d0ad4843562f7af6d58ce7bbb6b285804530144fac43"
+}

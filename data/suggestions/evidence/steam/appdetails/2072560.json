@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2072560,
+  "fetchedAt": "2026-07-17T12:37:36.841Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2072560&cc=us&l=english",
+  "responseDigest": "sha256:803cc096838c66fe888e10fd6d60ab259da66d6125395f19d23f7eee085bd938",
+  "payload": {
+    "2072560": {
+      "success": true,
+      "data": {
+        "steam_appid": 2072560,
+        "name": "DRAGON BALL GEKISHIN SQUADRA",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 9, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8c65273b15b109055b60e9e0675b472b9bf29fd0b67a1321b9e0a1c8591e73c9"
+}

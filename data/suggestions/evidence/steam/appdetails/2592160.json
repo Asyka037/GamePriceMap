@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2592160,
+  "fetchedAt": "2026-07-17T12:37:31.811Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2592160&cc=us&l=english",
+  "responseDigest": "sha256:80386d2abe6e042687f53ef907ab6dc071b18bbd4616d7919b5f93b0c3320d17",
+  "payload": {
+    "2592160": {
+      "success": true,
+      "data": {
+        "steam_appid": 2592160,
+        "name": "Dispatch",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 170848
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fe419c2f8bf0b33a7077acc1225d5a5ff0cc5ed00a94e106e13ec4647d6c043a"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2697940,
+  "fetchedAt": "2026-07-17T12:37:38.082Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2697940&cc=us&l=english",
+  "responseDigest": "sha256:db7165869ff0d436f5fc94da43ec78defdccf632cb20b44c730048171329247f",
+  "payload": {
+    "2697940": {
+      "success": true,
+      "data": {
+        "steam_appid": 2697940,
+        "name": "Ascend to ZERO",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 959,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 401
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0faf21ed6557f4038b6ea07da1c7632851a92695ecc38f1e35e4875e6bc65b29"
+}

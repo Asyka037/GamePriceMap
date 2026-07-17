@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4000,
+  "fetchedAt": "2026-07-17T12:36:45.384Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4000&cc=us&l=english",
+  "responseDigest": "sha256:a285244744a0c4660734970db787160169f24ef84616f7266bd3b231bcc5b199",
+  "payload": {
+    "4000": {
+      "success": true,
+      "data": {
+        "steam_appid": 4000,
+        "name": "Garry's Mod",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 29, 2006"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1079659
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:87fd05403e4353db05606bac357ecd17909f8040f9ea7438675982212c2f0b61"
+}

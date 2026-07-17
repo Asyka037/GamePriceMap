@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1757300,
+  "fetchedAt": "2026-07-17T12:37:05.554Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1757300&cc=us&l=english",
+  "responseDigest": "sha256:9c0f6a2e18c2fddbb829859d1510a2cd26f397a29e62d8592bdb20e1ab106266",
+  "payload": {
+    "1757300": {
+      "success": true,
+      "data": {
+        "steam_appid": 1757300,
+        "name": "Jump Space",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 10266
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dfee0695f31102dab45254d82d9e44258cbd937a192283684b75c5aeaff7d8c1"
+}
