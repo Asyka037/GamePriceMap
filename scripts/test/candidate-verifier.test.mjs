@@ -187,6 +187,35 @@ test('Nintendo verifier accepts machine-sealed Americas evidence and enforces it
   }).reason, /自动证据.*超过 30 天有效期/u);
 });
 
+test('Nintendo enrichment verifier ignores null regional placeholders and preserves existing mappings', () => {
+  const seed = structuredClone(rawNintendoSeed);
+  seed.candidateId = null;
+  seed.catalogAction = 'add_platform_mapping';
+  seed.knownNsuids = { americas: null, europe: '70010000000012', japan: null };
+  seed.manualUsEvidence = null;
+  seed.popularityEvidence = [];
+  const candidate = buildNintendoSuggestion(seed, {
+    americas: nintendoAmericas(),
+    europe: { status: 'none', reason: 'already_mapped' },
+    japan: { status: 'none', reason: 'not_found' },
+  }, {
+    existingNsuids: new Map([['70010000000012', 'example-game']]),
+  });
+  assert.equal(candidate.nsuids.europe, null);
+  const result = verifyNintendoCandidate(candidate, {
+    games: [{
+      slug: 'example-game',
+      title: 'Example Game',
+      steamAppId: 42,
+      nsuids: { europe: '70010000000012' },
+      platforms: ['pc', 'switch'],
+      tier: 'extended',
+      addedAt: '2026-07-17',
+    }],
+  }, { now: new Date('2026-07-17T01:00:00.000Z') });
+  assert.equal(result.passed, true, result.reason);
+});
+
 test('Nintendo verifier rejects digest/status, identity, retained evidence and catalog conflicts', () => {
   const candidate = nintendoSuggestion();
   assert.match(

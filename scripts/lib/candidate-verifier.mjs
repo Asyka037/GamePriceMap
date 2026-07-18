@@ -112,7 +112,7 @@ function nintendoCatalogIdentityCheck(candidate, catalog) {
   catalogIdentityCheck(candidate, catalog);
   if (candidate.catalogAction !== 'add_platform_mapping') return;
   const target = catalogGames(catalog).find((game) => game.slug === candidate.slug);
-  for (const [group, nsuid] of Object.entries(candidate.nsuids ?? {})) {
+  for (const [group, nsuid] of Object.entries(candidate.nsuids ?? {}).filter(([, value]) => value)) {
     if (target?.nsuids?.[group] && String(target.nsuids[group]) !== String(nsuid)) {
       throw new Error(`${group} NSUID 会替换 catalog 现有身份`);
     }
