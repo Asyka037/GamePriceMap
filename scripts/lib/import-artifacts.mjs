@@ -116,7 +116,17 @@ export function validateImportArtifacts(root, plan, { minimumCoverageRatio = 0.8
 
     const metaRel = `data/meta/${item.slug}.json`;
     const meta = readJson(root, metaRel);
-    if (meta.slug !== item.slug || !(typeof meta.name === 'string' && titleMatches(meta.name, item.title)) || !(typeof meta.headerImage === 'string' && /^https:\/\//.test(meta.headerImage))) {
+    // Mapping-only imports already bind the candidate title to an existing
+    // reviewed catalog row.  Its established metadata source may later append
+    // a storefront rename (for example "Sea of Stars: Sunset Edition"), which
+    // is unrelated to the new platform identity.  Keep exact title matching
+    // for new games, while still requiring complete, non-empty metadata for an
+    // existing mapping.
+    const hasMetaName = typeof meta.name === 'string' && Boolean(normTitle(meta.name));
+    const metaTitleReviewed = item.catalogAction === 'add_platform_mapping'
+      ? hasMetaName
+      : hasMetaName && titleMatches(meta.name, item.title);
+    if (meta.slug !== item.slug || !metaTitleReviewed || !(typeof meta.headerImage === 'string' && /^https:\/\//.test(meta.headerImage))) {
       throw new Error(`${metaRel}: incomplete reviewed metadata`);
     }
     files.add(metaRel);

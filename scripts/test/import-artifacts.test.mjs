@@ -17,6 +17,7 @@ function setup() {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'gpm-import-artifacts-'));
   const item = {
     key: 'steam:222',
+    catalogAction: 'new_game',
     slug: 'new-game',
     title: 'New Game',
     steamAppId: 222,
@@ -80,10 +81,24 @@ test('import artifacts bind the reviewed Nintendo US slug and platform generatio
   assert.throws(() => validateImportArtifacts(root, plan), /platform generation drifted/);
 });
 
+test('mapping-only imports tolerate an established storefront rename without weakening new-game identity', () => {
+  const { root, plan, item } = setup();
+  writeJson(root, `data/meta/${item.slug}.json`, {
+    slug: item.slug,
+    name: 'New Game: Sunset Edition',
+    headerImage: 'https://example.com/cover.jpg',
+  });
+
+  assert.throws(() => validateImportArtifacts(root, plan), /incomplete reviewed metadata/);
+  plan.items[0].catalogAction = 'add_platform_mapping';
+  assert.doesNotThrow(() => validateImportArtifacts(root, plan));
+});
+
 test('PSN import artifacts require the mapped identity, native US snapshot, and isolated history event', () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'gpm-import-artifacts-psn-'));
   const item = {
     key: 'psn:UP0700-PPSA04610_00-ELDENRING0000000',
+    catalogAction: 'add_platform_mapping',
     slug: 'existing-game',
     title: 'Existing Game',
     steamAppId: null,
