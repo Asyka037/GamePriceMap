@@ -1,6 +1,7 @@
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import * as XLSX from 'xlsx';
+import { validPsnProductId } from './psn.mjs';
 
 export const LIBRARY_SHEET_NAME = '游戏库';
 export const LIBRARY_HEADER_ROW = 4;
@@ -18,6 +19,7 @@ const HEADER_ALIASES = Object.freeze({
   nsuidEu: ['NSUID EU', 'nsuidEU', 'nsuidEu'],
   nsuidJp: ['NSUID JP', 'nsuidJP', 'nsuidJp'],
   xboxBigId: ['Xbox BigID', 'xboxBigId'],
+  psnProductId: ['PSN Product ID', 'psnProductId'],
   sourceRank: ['来源排名', 'sourceRank'],
   notes: ['备注 / 异常说明', '备注/异常说明', 'notes'],
   addedAt: ['加入日期', 'addedAt'],
@@ -34,7 +36,8 @@ const APPROVED_VALUES = new Set(['批准', '已批准', '可上线', '已上线'
 const REJECTED_VALUES = new Set(['淘汰', '已淘汰', '忽略', '已忽略', '拒绝', '已拒绝', 'rejected']);
 const PENDING_VALUES = new Set(['', '待定', '待审', '待审核', '待批准', '未决定', 'pending']);
 const DIGEST_RE = /^sha256:[0-9a-f]{64}$/;
-const CANDIDATE_ID_RE = /^(?:steam:[1-9]\d*|ns:\d{10,16})$/;
+const STEAM_CANDIDATE_ID_RE = /^steam:[1-9]\d*$/u;
+const NINTENDO_CANDIDATE_ID_RE = /^ns:\d{10,16}$/u;
 
 function stringCell(value) {
   if (value === null || value === undefined) return '';
@@ -106,9 +109,25 @@ export function sha256Digest(value) {
 }
 
 function validateCandidateId(value) {
-  const candidateId = stringCell(value).toLowerCase();
-  if (!CANDIDATE_ID_RE.test(candidateId)) throw new Error(`candidateId 格式无效: ${value}`);
+  const text = stringCell(value);
+  const psn = text.match(/^psn:(.+)$/iu);
+  if (psn) {
+    const productId = psn[1].toUpperCase();
+    if (!validPsnProductId(productId)) throw new Error(`candidateId 格式无效: ${value}`);
+    return `psn:${productId}`;
+  }
+  const candidateId = text.toLowerCase();
+  if (!STEAM_CANDIDATE_ID_RE.test(candidateId) && !NINTENDO_CANDIDATE_ID_RE.test(candidateId)) {
+    throw new Error(`candidateId 格式无效: ${value}`);
+  }
   return candidateId;
+}
+
+function normalizePsnProductId(value) {
+  const text = stringCell(value).toUpperCase();
+  if (!text) return null;
+  if (!validPsnProductId(text)) throw new Error(`PSN Product ID 格式无效: ${value}`);
+  return text;
 }
 
 /**
@@ -129,6 +148,10 @@ export function candidateIdFor(candidate) {
     if (candidateId.startsWith('ns:') && nsuids.length > 0 && !nsuids.includes(candidateId.slice(3))) {
       throw new Error(`candidateId 与 NSUID 不一致: ${candidateId}`);
     }
+    const psnProductId = normalizePsnProductId(candidate?.psnProductId);
+    if (candidateId.startsWith('psn:') && psnProductId && candidateId !== `psn:${psnProductId}`) {
+      throw new Error(`candidateId 与 PSN Product ID 不一致: ${candidateId}`);
+    }
     return candidateId;
   }
 
@@ -143,7 +166,10 @@ export function candidateIdFor(candidate) {
     .find(Boolean);
   if (nsuid) return `ns:${nsuid}`;
 
-  throw new Error(`候选项缺少可用的 Steam AppID/NSUID: ${stringCell(candidate?.title) || '<untitled>'}`);
+  const psnProductId = normalizePsnProductId(candidate?.psnProductId);
+  if (psnProductId) return `psn:${psnProductId}`;
+
+  throw new Error(`候选项缺少可用的 Steam AppID/NSUID/PSN Product ID: ${stringCell(candidate?.title) || '<untitled>'}`);
 }
 
 export function evidenceDigestFor(candidate) {
@@ -163,6 +189,9 @@ export function evidenceDigestFor(candidate) {
       jp: normalizeExternalId(candidate?.nsuidJp ?? candidate?.nsuidJP, { label: 'NSUID JP', pattern: /^\d{10,16}$/ }),
     },
     xboxBigId: stringCell(candidate?.xboxBigId) || null,
+    psnProductId: normalizePsnProductId(candidate?.psnProductId),
+    psnConceptId: stringCell(candidate?.psnConceptId) || null,
+    psnEdition: stringCell(candidate?.psnEdition) || null,
     sourceRank: candidate?.sourceRank ?? null,
     sourceUrl: stringCell(candidate?.sourceUrl) || null,
     sources: candidate?.sources ?? null,
@@ -206,6 +235,7 @@ export function parseLibraryGrid(grid, { sheetName = LIBRARY_SHEET_NAME, headerR
     const nsuidAm = normalizeExternalId(valueAt(row, 'nsuidAm'), { label: 'NSUID AM', pattern: /^\d{10,16}$/ });
     const nsuidEu = normalizeExternalId(valueAt(row, 'nsuidEu'), { label: 'NSUID EU', pattern: /^\d{10,16}$/ });
     const nsuidJp = normalizeExternalId(valueAt(row, 'nsuidJp'), { label: 'NSUID JP', pattern: /^\d{10,16}$/ });
+    const psnProductId = normalizePsnProductId(valueAt(row, 'psnProductId'));
     const lifecycleStatus = stringCell(valueAt(row, 'lifecycleStatus'));
     const sourceHumanDecision = normalizeHumanDecision(
       explicitHumanDecision ? valueAt(row, 'humanDecision') : lifecycleStatus,
@@ -224,6 +254,7 @@ export function parseLibraryGrid(grid, { sheetName = LIBRARY_SHEET_NAME, headerR
       nsuidEu,
       nsuidJp,
       xboxBigId: stringCell(valueAt(row, 'xboxBigId')) || null,
+      psnProductId,
       sourceRank: stringCell(valueAt(row, 'sourceRank')) || null,
       notes: stringCell(valueAt(row, 'notes')) || null,
       addedAt: stringCell(valueAt(row, 'addedAt')) || null,

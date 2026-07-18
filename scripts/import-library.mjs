@@ -28,6 +28,10 @@ import {
   readLibraryWorkbook,
 } from './lib/library-workbook.mjs';
 import {
+  candidatesForImportPolicy,
+  normalizeImportApprovalPolicy,
+} from './lib/import-policy.mjs';
+import {
   fetchJson,
   requestBudgetFor,
   setRequestBudget,
@@ -48,10 +52,11 @@ const VALUE_FLAGS = new Set([
   '--batch',
   '--batch-id',
   '--run-id',
+  '--policy',
 ]);
 const MODE_ALLOWED = Object.freeze({
-  verify: new Set(['candidateSource', 'workbook', 'state', 'outDir', 'maxRequests', 'sleepMs']),
-  apply: new Set(['candidateSource', 'batch', 'batchId', 'runId']),
+  verify: new Set(['candidateSource', 'workbook', 'state', 'outDir', 'maxRequests', 'sleepMs', 'policy']),
+  apply: new Set(['candidateSource', 'batch', 'batchId', 'runId', 'policy']),
   resume: new Set(['runId']),
   abort: new Set(['runId']),
   status: new Set(['runId']),
@@ -66,6 +71,7 @@ const OPTION_NAMES = Object.freeze({
   '--batch': 'batch',
   '--batch-id': 'batchId',
   '--run-id': 'runId',
+  '--policy': 'policy',
 });
 
 function integerOption(value, flag, { min, max }) {
@@ -140,6 +146,7 @@ export function parseImportArgs(args) {
     options.sleepMs = integerOption(options.sleepMs ?? '1200', '--sleep-ms', { min: 0, max: 5000 });
   }
   if (mode === 'apply') options.batch = integerOption(options.batch, '--batch', { min: 1, max: 100 });
+  options.policy = normalizeImportApprovalPolicy(options.policy);
   if (['resume', 'abort', 'status'].includes(mode) && !options.runId) throw new Error(`--${mode} requires RUN_ID`);
   if (options.runId && !RUN_ID_RE.test(options.runId)) throw new Error('invalid runId');
   return { mode, ...options };
@@ -213,6 +220,10 @@ function productionDependencies(overrides = {}) {
     paths,
     clock: overrides.clock ?? (() => new Date()),
     loadContext: overrides.loadContext ?? loadCurrentContext,
+    // Production apply preflights the sealed source before opening the workbook
+    // or import state. Injected unit contexts may opt out unless they supply the
+    // equivalent readCandidateSource seam explicitly.
+    readCandidateSource: overrides.readCandidateSource ?? (overrides.loadContext ? null : candidateSourceDocument),
     readCatalog: overrides.readCatalog ?? ((file) => JSON.parse(fs.readFileSync(file, 'utf8'))),
     writeState: overrides.writeState ?? writeImportState,
     readState: overrides.readState ?? readImportState,
@@ -239,6 +250,7 @@ function productionDependencies(overrides = {}) {
     loadRunPlan: overrides.loadRunPlan ?? readTrustedRunPlan,
     verificationTtlMs: overrides.verificationTtlMs ?? DEFAULT_VERIFICATION_TTL_MS,
     orchestratorOptions: overrides.orchestratorOptions ?? {},
+    psnAutomationAuthorized: overrides.psnAutomationAuthorized ?? process.env.PSN_AUTOMATION_AUTHORIZED === 'true',
   };
 }
 
@@ -247,10 +259,34 @@ function contextOptions(parsed, deps) {
     candidateSourcePath: resolveCliPath(parsed.candidateSource),
     workbookPath: parsed.workbook ? resolveCliPath(parsed.workbook) : deps.paths.workbookPath,
     statePath: parsed.state ? resolveCliPath(parsed.state) : deps.paths.statePath,
+    approvalPolicy: parsed.policy,
   };
 }
 
-function assertSourceReadyForApply(source) {
+function contextForPolicy(context, policy) {
+  if (!context || typeof context !== 'object') throw new Error('import context is required');
+  return {
+    ...context,
+    candidates: candidatesForImportPolicy(context.candidates, context.state, policy),
+  };
+}
+
+function psnAuthorizationError() {
+  const error = new Error(
+    'PSN apply is disabled before staging/network: explicit PlayStation automation risk authorization '
+      + 'is required via PSN_AUTOMATION_AUTHORIZED=true; offline --verify remains available.',
+  );
+  error.code = 'PSN_AUTOMATION_DISABLED';
+  return error;
+}
+
+function assertPsnPlanAuthorized(plan, deps) {
+  if (plan?.items?.some((item) => item.psnProductId) && deps.psnAutomationAuthorized !== true) {
+    throw psnAuthorizationError();
+  }
+}
+
+function assertSourceReadyForApply(source, deps, approvalPolicy) {
   if (!source || typeof source !== 'object') throw new Error('apply requires the current sealed candidate source context');
   if (source.kind === 'steam-candidates'
     && (source.mode !== 'final' || source.provisional !== false || (source.distinctUtcDates?.length ?? 0) < 14)) {
@@ -258,12 +294,20 @@ function assertSourceReadyForApply(source) {
     error.code = 'PROVISIONAL_CANDIDATES';
     throw error;
   }
+  if (source.kind === 'psn-mapping-suggestions') {
+    if (approvalPolicy !== 'v2-auto-approve') {
+      const error = new Error('PSN POC apply requires the explicit --policy=v2-auto-approve approval model');
+      error.code = 'PSN_V2_POLICY_REQUIRED';
+      throw error;
+    }
+    if (deps.psnAutomationAuthorized !== true) throw psnAuthorizationError();
+  }
 }
 
 async function verifyCommand(parsed, deps) {
   const paths = contextOptions(parsed, deps);
   const outputDir = parsed.outDir ? resolveCliPath(parsed.outDir) : deps.paths.outputDir;
-  const context = deps.loadContext(paths);
+  const context = contextForPolicy(deps.loadContext(paths), parsed.policy);
   const catalog = deps.readCatalog(deps.paths.catalogPath);
   const now = clockValue(deps.clock);
   deps.configureRequestBudget(parsed.maxRequests);
@@ -283,6 +327,7 @@ async function verifyCommand(parsed, deps) {
     outputDir,
     candidateSourcePath: paths.candidateSourcePath,
     generatedAt: clockValue(deps.clock).toISOString(),
+    approvalPolicy: parsed.policy,
   });
   return {
     mode: 'verify',
@@ -292,6 +337,7 @@ async function verifyCommand(parsed, deps) {
     results: verification.results,
     statePath: paths.statePath,
     reports: reports.outputPaths,
+    approvalPolicy: parsed.policy,
   };
 }
 
@@ -335,8 +381,10 @@ function statusAfterFailure(deps, runId) {
 
 async function applyCommand(parsed, deps) {
   const paths = contextOptions(parsed, deps);
-  const context = deps.loadContext(paths);
-  assertSourceReadyForApply(context.source);
+  const preflightSource = deps.readCandidateSource?.(paths.candidateSourcePath) ?? null;
+  if (preflightSource) assertSourceReadyForApply(preflightSource, deps, parsed.policy);
+  const context = contextForPolicy(deps.loadContext(paths), parsed.policy);
+  if (!preflightSource) assertSourceReadyForApply(context.source, deps, parsed.policy);
   const catalog = deps.readCatalog(deps.paths.catalogPath);
   const now = clockValue(deps.clock);
   const identity = deps.repositoryIdentity(deps.root);
@@ -350,6 +398,7 @@ async function applyCommand(parsed, deps) {
     now,
     maxVerifiedAgeMs: deps.verificationTtlMs,
     catalog,
+    approvalPolicy: parsed.policy,
   });
   const runId = parsed.runId ?? `${plan.batchId}-${now.getTime().toString(36)}`;
   if (!RUN_ID_RE.test(runId)) throw new Error('invalid runId');
@@ -400,6 +449,7 @@ async function applyCommand(parsed, deps) {
     items: plan.items.map((item) => item.key),
     state: completedState,
     noOp: Boolean(result?.noOp),
+    approvalPolicy: parsed.policy,
   };
 }
 
@@ -433,6 +483,8 @@ function syncRunState(parsed, deps, operation) {
 }
 
 function resumeCommand(parsed, deps) {
+  const trustedPlan = deps.loadRunPlan(deps.paths.stateRoot, parsed.runId);
+  assertPsnPlanAuthorized(trustedPlan, deps);
   const { plan, result } = syncRunState(parsed, deps, () => deps.resumeRun(
     deps.root,
     parsed.runId,

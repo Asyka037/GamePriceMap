@@ -26,6 +26,7 @@ const HIST_DIR = path.join(ROOT, 'data', 'history');
 const STEAM_SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'steam');
 const ESHOP_SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'eshop');
 const XBOX_SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'xbox');
+const PSN_SNAP_DIR = path.join(ROOT, 'data', 'snapshots', 'psn');
 const EU_SEEDS_FILE = path.join(ROOT, 'data', 'seeds', 'eshop-eu-lows.json');
 const RATES_FILE = path.join(ROOT, 'data', 'rates', 'usd.json');
 const REQUEST_DELAY_MS = 1000;
@@ -52,11 +53,12 @@ function saveHistory(h) {
   fs.writeFileSync(path.join(HIST_DIR, `${h.slug}.json`), JSON.stringify(h, null, 2) + '\n');
 }
 
-// Pass 1: apply steam + eshop snapshots.
+// Pass 1: apply every tracked channel's native-US snapshot.
 const channels = [
   { dir: STEAM_SNAP_DIR, channel: 'steam', atlKey: 'pc' },
   { dir: ESHOP_SNAP_DIR, channel: 'eshop', atlKey: 'eshop-us' },
   { dir: XBOX_SNAP_DIR, channel: 'xbox', atlKey: 'xbox-us' },
+  { dir: PSN_SNAP_DIR, channel: 'psn', atlKey: 'psn-us' },
 ];
 const histories = new Map();
 let events = 0;

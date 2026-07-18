@@ -19,3 +19,11 @@ dist/
 
 # Office temporary lock files
 ~$*.xlsx
+
+# Local conflict/duplicate copies: preserve on disk, but keep import staging
+# allowlists and production commits from treating them as catalog artifacts.
+/LOGO 2.png
+/data/history/* 2.json
+/data/meta/* 2.json
+/data/snapshots/steam/* 2.json
+/data/snapshots/eshop/* 2.json

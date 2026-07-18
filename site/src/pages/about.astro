@@ -5,6 +5,7 @@ import { catalog } from '../lib/data.mjs';
 
 const gameCount = catalog().length;
 const hasXboxPilot = catalog().some((g: any) => g.xboxBigId);
+const hasPsnPilot = catalog().some((g: any) => g.psnProductId);
 ---
 <Layout
   title="About GamePriceMap — data sources, update cadence & policies"
@@ -13,7 +14,7 @@ const hasXboxPilot = catalog().some((g: any) => g.xboxBigId);
   <div class="page-head wrap">
     <div class="breadcrumb"><a href="/">Home</a><span>/</span>About</div>
     <h1>About</h1>
-    <p>GamePriceMap tracks game prices across Steam and the Nintendo eShop{hasXboxPilot ? ', plus a small Xbox US pilot' : ''} — regional pricing, current deals, historical lows and free games — for {gameCount} games and growing.</p>
+    <p>GamePriceMap tracks game prices across Steam and the Nintendo eShop{hasXboxPilot ? ', plus a small Xbox US pilot' : ''}{hasPsnPilot ? ', and a PlayStation US pilot' : ''} — regional pricing, current deals, historical lows and free games — for {gameCount} games and growing.</p>
   </div>
 
   <div class="wrap" style="padding-bottom: 32px; max-width: 860px;">
@@ -24,7 +25,8 @@ const hasXboxPilot = catalog().some((g: any) => g.xboxBigId);
         <tbody>
           <tr><td style="font-weight:800;">Steam regional prices</td><td>Steam storefront (18 regions)</td><td class="mono">daily</td></tr>
           <tr><td style="font-weight:800;">eShop regional prices</td><td>Nintendo storefront price service (16 regions)</td><td class="mono">daily</td></tr>
-          {hasXboxPilot && <tr><td style="font-weight:800;">Xbox Store prices</td><td>Microsoft Store display catalog (US pilot, approved mappings only)</td><td class="mono">weekly</td></tr>}
+          {hasXboxPilot && <tr><td style="font-weight:800;">Xbox Store prices</td><td>Microsoft Store display catalog (US pilot, verified mappings only)</td><td class="mono">weekly</td></tr>}
+          {hasPsnPilot && <tr><td style="font-weight:800;">PlayStation Store prices</td><td>Official PlayStation Store product pages (US pilot, verified standard-edition mappings only)</td><td class="mono">weekly</td></tr>}
           <tr><td style="font-weight:800;">Multi-store PC deals</td><td>CheapShark (Steam, GOG, Fanatical, GMG, Humble …)</td><td class="mono">daily</td></tr>
           <tr><td style="font-weight:800;">Historical lows</td><td>CheapShark records + Nintendo eShop index + our own tracking since Jul 2026</td><td class="mono">daily</td></tr>
           <tr><td style="font-weight:800;">Free games</td><td>Epic Games Store promotions + Steam 100% discounts</td><td class="mono">daily</td></tr>
@@ -58,11 +60,11 @@ const hasXboxPilot = catalog().some((g: any) => g.xboxBigId);
         Regional prices are store list prices converted at daily exchange rates —
         not checkout totals. Taxes, payment fees and rounding differ by country,
         and whether you can buy from another region depends on your account,
-        payment method and platform rules. Prices refresh daily, so a flash sale
+        payment method and platform rules. Prices refresh on the cadence above, so a flash sale
         can briefly show its previous state.
       </NoteBox>
       <p style="color: var(--text-3); font-weight: 600; font-size: 13px; margin-top: 12px;">
-        GamePriceMap is an independent project, not affiliated with Valve, Nintendo, Microsoft,
+        GamePriceMap is an independent project, not affiliated with Valve, Nintendo, Microsoft, Sony Interactive Entertainment,
         Epic Games or any listed store. Game artwork and names belong to their publishers.
         Multi-store deal data by CheapShark; exchange rates by ExchangeRate-API.
         Contact: <span class="mono">yiyi22331999@gmail.com</span>

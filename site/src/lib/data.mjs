@@ -41,6 +41,7 @@ const offerCatalog = () => (offerCatalogCache ??= readJson('offer-catalog.json',
 export const steamSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/steam/${slug}.json`), currentRates());
 export const eshopSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/eshop/${slug}.json`), currentRates());
 export const xboxSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/xbox/${slug}.json`), currentRates());
+export const psnSnapshot = (slug) => enrichSnapshot(readJson(`snapshots/psn/${slug}.json`), currentRates());
 export const steamOffers = (slug) => {
   const enriched = enrichSteamOffers(readJson(`offers/steam/${slug}.json`), currentRates());
   if (!enriched) return null;
@@ -77,6 +78,7 @@ export function gameBundle(slug) {
     steam: steamSnapshot(slug),
     eshop: eshopSnapshot(slug),
     xbox: xboxSnapshot(slug),
+    psn: psnSnapshot(slug),
     steamOffers: steamOffers(slug),
     history: history(slug),
     meta: meta(slug),

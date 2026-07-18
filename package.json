@@ -11,6 +11,7 @@
     "candidates:steam:build": "node scripts/build-steam-candidates.mjs",
     "candidates:review": "node scripts/export-candidate-review.mjs",
     "candidates:steam:promote-cache": "node scripts/promote-steam-appdetails-evidence.mjs",
+    "candidates:ns:build": "node scripts/build-nintendo-popularity-seeds.mjs",
     "candidates:ns:seal": "node scripts/seal-ns-candidate-seeds.mjs",
     "import": "node scripts/import-library.mjs",
     "scrape:steam": "node scripts/scrape-steam.mjs",
@@ -21,8 +22,11 @@
     "test": "node --test scripts/test/*.test.mjs",
     "scrape:eshop": "node scripts/scrape-eshop.mjs",
     "scrape:xbox": "node scripts/scrape-xbox.mjs",
+    "scrape:psn": "node scripts/scrape-psn.mjs",
     "discover": "node scripts/discover-nsuid.mjs",
-    "discover:xbox": "node scripts/discover-xbox.mjs"
+    "discover:nintendo-enrichment": "node scripts/build-nintendo-enrichment-seeds.mjs",
+    "discover:xbox": "node scripts/discover-xbox.mjs",
+    "verify:psn-mappings": "node scripts/verify-psn-manual-mappings.mjs"
   },
   "devDependencies": {
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"

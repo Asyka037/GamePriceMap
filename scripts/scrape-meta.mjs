@@ -99,9 +99,9 @@ async function steamMeta(g) {
 }
 
 /**
- * NS-only metadata now comes from the public Nintendo-Europe Solr index —
- * Nintendo US Terms of Use prohibit automated access to US store pages, so
- * the scheduled pipeline never touches them (one-time human review only).
+ * NS-only scheduled metadata stays on Nintendo-Europe Solr to minimize load.
+ * The authorized US discovery path is a separately budgeted one-time identity
+ * check and must not turn this recurring shard into US product-page traffic.
  */
 async function euMeta(g) {
   const body = await fetchJson(euSolrMetaUrl(g.nsuids.europe), { label: `eu solr meta ${g.slug}` });

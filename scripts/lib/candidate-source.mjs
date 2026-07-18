@@ -1,9 +1,10 @@
 import { assertDocumentDigest } from './candidate-evidence.mjs';
 import { validateNintendoSuggestionDocument } from './ns-candidates.mjs';
+import { validatePsnSuggestionDocument } from './psn-manual-mappings.mjs';
 import { validateSteamCandidateDocument } from './steam-candidates.mjs';
 
 /** Only machine-produced candidate document kinds may enter review/import. */
-export function validateCandidateSourceDocument(document) {
+export function validateCandidateSourceDocument(document, { now = Date.now() } = {}) {
   if (!document || typeof document !== 'object' || Array.isArray(document)) {
     throw new Error('candidate source must be a sealed versioned document');
   }
@@ -14,5 +15,6 @@ export function validateCandidateSourceDocument(document) {
   if (!Array.isArray(document.candidates)) throw new Error('candidate source is missing candidates');
   if (document.kind === 'steam-candidates') return validateSteamCandidateDocument(document);
   if (document.kind === 'nintendo-discovery-suggestions') return validateNintendoSuggestionDocument(document);
+  if (document.kind === 'psn-mapping-suggestions') return validatePsnSuggestionDocument(document, { now });
   throw new Error(`unsupported candidate source kind: ${document.kind ?? '<missing>'}`);
 }

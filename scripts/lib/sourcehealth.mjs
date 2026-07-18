@@ -12,6 +12,19 @@ import { fileURLToPath } from 'node:url';
 
 const FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', 'data', 'source-health.json');
 
+export const PSN_AWAITING_FIRST_FULL_RUN_NOTE = 'POC registered; awaiting first authorized full weekly run';
+
+/** A newly engineered source may be registered before its first full run.
+ * This is not freshness evidence: both timestamps remain null, so the status
+ * page reports the source as down/awaiting data until a real full run occurs. */
+export function isAwaitingFirstFullRun(name, entry) {
+  return name === 'psn-us'
+    && entry?.lastAttemptAt === null
+    && entry?.lastSuccessAt === null
+    && entry?.consecutiveFailures === 0
+    && entry?.note === PSN_AWAITING_FIRST_FULL_RUN_NOTE;
+}
+
 export function readSourceHealth() {
   try {
     return JSON.parse(fs.readFileSync(FILE, 'utf8'));

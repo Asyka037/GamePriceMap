@@ -33,10 +33,11 @@ import {
 } from './import-git.mjs';
 
 const STATE_DIR_REL = 'private/game-library/import';
-const NETWORK_STEPS = new Set(['steam', 'eshop', 'meta']);
+const NETWORK_STEPS = new Set(['steam', 'eshop', 'psn', 'meta']);
 export const STEP_TIMEOUT_MS = Object.freeze({
   steam: 15 * 60_000,
   eshop: 15 * 60_000,
+  psn: 15 * 60_000,
   meta: 20 * 60_000,
   history: 5 * 60_000,
   test: 5 * 60_000,
@@ -47,9 +48,24 @@ const STEP_STATE = Object.freeze({
   catalog: 'catalog_staged',
   steam: 'steam_done',
   eshop: 'eshop_done',
+  psn: 'psn_done',
   meta: 'meta_done',
   history: 'history_done',
 });
+
+function assertPsnRunAuthorized(plan, runtime = {}) {
+  if (!plan.items.some((item) => item.psnProductId)) return;
+  const testRuntimeAuthorized = typeof runtime.executeStep === 'function'
+    && runtime.psnAutomationAuthorized === true;
+  if (process.env.PSN_AUTOMATION_AUTHORIZED !== 'true' && !testRuntimeAuthorized) {
+    const error = new Error(
+      'PSN import is disabled before worktree staging/network: '
+        + 'PSN_AUTOMATION_AUTHORIZED=true requires explicit PlayStation risk authorization.',
+    );
+    error.code = 'PSN_AUTOMATION_DISABLED';
+    throw error;
+  }
+}
 
 function runDir(stateRoot, runId) {
   if (!/^[a-z0-9][a-z0-9-]{5,95}$/.test(runId ?? '')) throw new Error('bad runId');
@@ -153,8 +169,10 @@ function commandFor(step, worktree, plan) {
   const allSlugs = plan.items.map((item) => item.slug);
   const steamSlugs = plan.items.filter((item) => Number.isInteger(item.steamAppId)).map((item) => item.slug);
   const eshopSlugs = plan.items.filter((item) => item.nsuids && Object.values(item.nsuids).some(Boolean)).map((item) => item.slug);
+  const psnSlugs = plan.items.filter((item) => item.psnProductId).map((item) => item.slug);
   if (step === 'steam') return steamSlugs.length ? [process.execPath, ['scripts/scrape-steam.mjs', ...steamSlugs]] : null;
   if (step === 'eshop') return eshopSlugs.length ? [process.execPath, ['scripts/scrape-eshop.mjs', ...eshopSlugs]] : null;
+  if (step === 'psn') return psnSlugs.length ? [process.execPath, ['scripts/scrape-psn.mjs', ...psnSlugs]] : null;
   if (step === 'meta') return [process.execPath, ['scripts/scrape-meta.mjs', ...allSlugs]];
   if (step === 'history') return [process.execPath, ['scripts/build-history.mjs', '--observations-only', ...allSlugs]];
   if (step === 'test') return ['npm', ['test']];
@@ -174,6 +192,9 @@ function stepAllowlist(step, plan) {
     ...plan.items.filter((item) => item.nsuids && Object.values(item.nsuids).some(Boolean)).map((item) => `data/snapshots/eshop/${item.slug}.json`),
     'data/rates/usd.json',
   ];
+  if (step === 'psn') return plan.items
+    .filter((item) => item.psnProductId)
+    .map((item) => `data/snapshots/psn/${item.slug}.json`);
   if (step === 'meta') return slugs.map((slug) => `data/meta/${slug}.json`);
   if (step === 'history') return slugs.map((slug) => `data/history/${slug}.json`);
   if (step === 'validate') return ['data/health.json'];
@@ -258,6 +279,7 @@ function writeReceipt(worktree, plan, manifest, artifactReport) {
     batchId: plan.batchId,
     batchDigest: plan.batchDigest,
     baseCommit: plan.baseCommit,
+    ...(plan.approvalPolicy ? { approvalPolicy: plan.approvalPolicy } : {}),
     appliedAt: new Date().toISOString(),
     items: plan.items.map((item) => ({
       key: item.key,
@@ -276,6 +298,7 @@ function expectedReceiptArtifacts(plan) {
   for (const item of plan.items) {
     if (Number.isInteger(item.steamAppId)) files.add(`data/snapshots/steam/${item.slug}.json`);
     if (item.nsuids && Object.values(item.nsuids).some(Boolean)) files.add(`data/snapshots/eshop/${item.slug}.json`);
+    if (item.psnProductId) files.add(`data/snapshots/psn/${item.slug}.json`);
     files.add(`data/meta/${item.slug}.json`);
     files.add(`data/history/${item.slug}.json`);
   }
@@ -287,6 +310,9 @@ function validateReceipt(receipt, plan) {
   if (receipt.schemaVersion !== 1) throw new Error(`unsupported import receipt schema ${receipt.schemaVersion}`);
   for (const field of ['batchId', 'batchDigest', 'baseCommit']) {
     if (receipt[field] !== plan[field]) throw new Error(`tracked import receipt ${field} does not match plan`);
+  }
+  if ((receipt.approvalPolicy ?? null) !== (plan.approvalPolicy ?? null)) {
+    throw new Error('tracked import receipt approvalPolicy does not match plan');
   }
   if (!(typeof receipt.appliedAt === 'string' && !Number.isNaN(Date.parse(receipt.appliedAt)))) throw new Error('tracked import receipt has invalid appliedAt');
   const expectedItems = plan.items.map((item) => ({
@@ -426,7 +452,7 @@ function continueRun(root, stateRoot, manifest, plan, runtime = {}, worktreePare
     writeManifest(stateRoot, next);
   }
 
-  const steps = ['catalog', 'steam', 'eshop', 'meta', 'history', 'test', 'validate', 'build'];
+  const steps = ['catalog', 'steam', 'eshop', 'psn', 'meta', 'history', 'test', 'validate', 'build'];
   for (const step of steps) {
     if (next.steps[step].status === 'completed') continue;
     const action = step === 'catalog'
@@ -491,6 +517,7 @@ export function startImportRun(root, plan, {
   runtime = {},
 } = {}) {
   validateBatchPlan(plan);
+  assertPsnRunAuthorized(plan, runtime);
   const release = acquireImportLock(stateRoot);
   try {
     assertRepositoryReady(root, { branch: plan.branch });
@@ -569,6 +596,7 @@ export function resumeImportRun(root, runId, {
   try {
     const plan = readJsonFile(planPath(stateRoot, runId));
     validateBatchPlan(plan);
+    assertPsnRunAuthorized(plan, runtime);
     let manifest = readManifest(stateRoot, runId, plan);
     if (manifest.worktreePath) assertExpectedWorktreePath(root, worktreeParent, manifest);
     assertRepositoryReady(root, { branch: plan.branch });
@@ -582,7 +610,7 @@ export function resumeImportRun(root, runId, {
     if (manifest.sealedCommit && isAncestor(root, manifest.sealedCommit, current)) {
       return recoverAppliedRun(root, stateRoot, manifest, plan, worktreeParent, runtime);
     }
-    if (!['planned', 'worktree_creating', 'paused', 'sealed', 'promoting', 'worktree_ready', 'catalog_staged', 'steam_done', 'eshop_done', 'meta_done', 'history_done', 'gates_passed'].includes(manifest.state)) {
+    if (!['planned', 'worktree_creating', 'paused', 'sealed', 'promoting', 'worktree_ready', 'catalog_staged', 'steam_done', 'eshop_done', 'psn_done', 'meta_done', 'history_done', 'gates_passed'].includes(manifest.state)) {
       throw new Error(`run state ${manifest.state} is not resumable; abort and create a corrected batch`);
     }
     if (current !== plan.baseCommit) {

@@ -12,6 +12,7 @@ import {
   joinCandidatesWithState,
   readImportState,
 } from './lib/import-state.mjs';
+import { candidatesForImportPolicy } from './lib/import-policy.mjs';
 import { validateCandidateSourceDocument } from './lib/candidate-source.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -54,6 +55,7 @@ export function buildVerifyReportRows(candidates) {
     appliedAt: candidate.appliedAt ?? '',
     evidenceDigest: candidate.evidenceDigest,
     approvalStale: candidate.approvalStale ? '是' : '否',
+    approvalPolicy: candidate.approvalPolicy ?? '',
   }));
 }
 
@@ -65,6 +67,9 @@ export function buildReviewRows(candidates) {
     'NSUID AM': candidate.nsuidAm ?? candidate.nsuidAM ?? '',
     'NSUID EU': candidate.nsuidEu ?? candidate.nsuidEU ?? '',
     'NSUID JP': candidate.nsuidJp ?? candidate.nsuidJP ?? '',
+    'PSN Product ID': candidate.psnProductId ?? '',
+    'PSN Concept ID': candidate.psnConceptId ?? '',
+    'PSN Edition': candidate.psnEdition ?? '',
     '来源排名': candidate.sourceRank ?? '',
     '来源链接': candidate.sourceUrl ?? '',
     evidenceDigest: candidate.evidenceDigest,
@@ -72,6 +77,7 @@ export function buildReviewRows(candidates) {
     verifyStatus: VERIFY_LABELS[candidate.verifyStatus] ?? candidate.verifyStatus,
     applyStatus: APPLY_LABELS[candidate.applyStatus] ?? candidate.applyStatus,
     '异常原因': candidate.verifyReason ?? candidate.applyReason ?? (candidate.approvalStale ? '证据已变更，需重新人工批准' : ''),
+    approvalPolicy: candidate.approvalPolicy ?? '',
   }));
 }
 
@@ -85,6 +91,7 @@ export function exportReviewArtifacts({
   outputDir = DEFAULT_OUTPUT_DIR,
   candidateSourcePath = null,
   generatedAt = new Date().toISOString(),
+  approvalPolicy = null,
 } = {}) {
   const library = readLibraryWorkbook(workbookPath);
   const state = readImportState(statePath);
@@ -98,7 +105,7 @@ export function exportReviewArtifacts({
       evidenceDigest: evidenceDigestFor(candidate),
     }));
   }
-  const joined = joinCandidatesWithState(candidates, state);
+  const joined = candidatesForImportPolicy(joinCandidatesWithState(candidates, state), state, approvalPolicy);
   const verifyRows = buildVerifyReportRows(joined);
   const reviewRows = buildReviewRows(joined);
   const candidatesDocument = {
@@ -117,11 +124,14 @@ export function exportReviewArtifacts({
     'candidateId', 'title', 'humanDecision', 'humanDecisionDigest',
     'verifyStatus', 'verifyStatusLabel', 'verifyReason', 'applyStatus',
     'applyStatusLabel', 'verifiedAt', 'appliedAt', 'evidenceDigest', 'approvalStale',
+    'approvalPolicy',
   ];
   const reviewHeaders = [
     'candidateId', '游戏名(EN)', 'Steam AppID', 'NSUID AM', 'NSUID EU', 'NSUID JP',
+    'PSN Product ID', 'PSN Concept ID', 'PSN Edition',
     '来源排名', '来源链接', 'evidenceDigest', 'humanDecision', 'verifyStatus',
     'applyStatus', '异常原因',
+    'approvalPolicy',
   ];
   const outputPaths = {
     candidates: path.join(outputDir, 'candidates.json'),

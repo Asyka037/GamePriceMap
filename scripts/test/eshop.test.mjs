@@ -16,16 +16,20 @@ const usProductPage = readFileSync(new URL('./fixtures/nintendo-us-product-page.
 
 test('US NSUID discovery reads only the exact current product, not recommendations', () => {
   assert.deepEqual(
-    extractUsProductNsuid(usProductPage, { title: "No Man's Sky", urlKey: 'no-mans-sky-switch' }),
-    { nsuid: '70010000044642', matchedTitle: "No Man's Sky" },
+    extractUsProductNsuid(usProductPage, {
+      title: 'Super Mario Odyssey',
+      urlKey: 'super-mario-odyssey-switch',
+      platforms: ['switch'],
+    }),
+    { nsuid: '70010000001130', matchedTitle: 'Super Mario Odyssey' },
   );
   assert.equal(
-    extractUsProductNsuid(usProductPage, { title: 'Terraria', urlKey: 'no-mans-sky-switch' }),
+    extractUsProductNsuid(usProductPage, { title: 'Terraria', urlKey: 'super-mario-odyssey-switch' }),
     null,
     'an exact-title recommendation is not the page product',
   );
   assert.equal(
-    extractUsProductNsuid(usProductPage, { title: "No Man's Sky", urlKey: 'different-product-switch' }),
+    extractUsProductNsuid(usProductPage, { title: 'Super Mario Odyssey', urlKey: 'different-product-switch' }),
     null,
     'the current product must also be bound to the requested URL key',
   );
@@ -34,6 +38,11 @@ test('US NSUID discovery reads only the exact current product, not recommendatio
     extractUsProductNsuid(jsonLdOnly, { title: "No Man's Sky", urlKey: 'no-mans-sky-switch' })?.nsuid,
     '70010000044642',
     'exact-title JSON-LD remains a safe fallback when page analytics is absent',
+  );
+  assert.equal(
+    extractUsProductNsuid(usProductPage, { title: "No Man's Sky", urlKey: 'no-mans-sky-switch' }),
+    null,
+    'conflicting current-page analytics and JSON-LD must reject instead of accepting either ID',
   );
 });
 

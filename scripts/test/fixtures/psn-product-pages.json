@@ -1,0 +1,161 @@
+{
+  "capturedAt": "2026-07-18",
+  "market": "en-us",
+  "samples": {
+    "publicSale": {
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP9000-PPSA21564_00-0000000000000000",
+      "productId": "UP9000-PPSA21564_00-0000000000000000",
+      "conceptId": "10002684",
+      "title": "ASTRO BOT",
+      "platforms": ["PS5"],
+      "edition": { "type": "STANDARD", "name": "Standard Edition" },
+      "skuIds": ["UP9000-PPSA21564_00-0000000000000000-U002"],
+      "ctas": [
+        {
+          "cacheKey": "GameCTA:ADD_TO_CART:ADD_TO_CART:UP9000-PPSA21564_00-0000000000000000-U002:OUTRIGHT",
+          "id": "ADD_TO_CART:ADD_TO_CART:UP9000-PPSA21564_00-0000000000000000-U002:OUTRIGHT",
+          "type": "ADD_TO_CART",
+          "skuId": "UP9000-PPSA21564_00-0000000000000000-U002",
+          "actionType": "ADD_TO_CART",
+          "rewardId": "OUTRIGHT",
+          "ctaType": "purchase",
+          "upSellService": "NONE",
+          "exclusive": false,
+          "price": {
+            "basePriceValue": 5999,
+            "discountedValue": 3959,
+            "currencyCode": "USD",
+            "serviceBranding": ["NONE"],
+            "endTime": "1785394740000",
+            "qualifications": [],
+            "applicability": "APPLICABLE",
+            "isFree": false,
+            "isExclusive": false,
+            "isTiedToSubscription": false
+          }
+        }
+      ]
+    },
+    "plusAndPublicSale": {
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP6989-PPSA16751_00-0731950739441726",
+      "productId": "UP6989-PPSA16751_00-0731950739441726",
+      "conceptId": "10008505",
+      "title": "A Castle Full of Cats",
+      "platforms": ["PS5"],
+      "edition": { "type": "STANDARD", "name": "" },
+      "skuIds": ["UP6989-PPSA16751_00-0731950739441726-U001"],
+      "ctas": [
+        {
+          "cacheKey": "GameCTA:UPSELL_PS_PLUS_DISCOUNT:ADD_TO_CART:UP6989-PPSA16751_00-0731950739441726-U001:OUTRIGHT",
+          "id": "UPSELL_PS_PLUS_DISCOUNT:ADD_TO_CART:UP6989-PPSA16751_00-0731950739441726-U001:OUTRIGHT",
+          "type": "UPSELL_PS_PLUS_DISCOUNT",
+          "skuId": "UP6989-PPSA16751_00-0731950739441726-U001",
+          "actionType": "ADD_TO_CART",
+          "rewardId": "OUTRIGHT",
+          "ctaType": "purchase",
+          "upSellService": "PS_PLUS",
+          "exclusive": false,
+          "price": {
+            "basePriceValue": 399,
+            "discountedValue": 119,
+            "currencyCode": "USD",
+            "serviceBranding": ["PS_PLUS"],
+            "endTime": "1785394740000",
+            "qualifications": [
+              { "type": "ENTITLEMENT_IN_CART", "value": "IP9101-NPIA90005_00-PLUS00" }
+            ],
+            "applicability": "UPSELL",
+            "isFree": false,
+            "isExclusive": false,
+            "isTiedToSubscription": false
+          }
+        },
+        {
+          "cacheKey": "GameCTA:ADD_TO_CART:ADD_TO_CART:UP6989-PPSA16751_00-0731950739441726-U001:OUTRIGHT",
+          "id": "ADD_TO_CART:ADD_TO_CART:UP6989-PPSA16751_00-0731950739441726-U001:OUTRIGHT",
+          "type": "ADD_TO_CART",
+          "skuId": "UP6989-PPSA16751_00-0731950739441726-U001",
+          "actionType": "ADD_TO_CART",
+          "rewardId": "OUTRIGHT",
+          "ctaType": "purchase",
+          "upSellService": "NONE",
+          "exclusive": false,
+          "price": {
+            "basePriceValue": 399,
+            "discountedValue": 159,
+            "currencyCode": "USD",
+            "serviceBranding": ["NONE"],
+            "endTime": "1785394740000",
+            "qualifications": [],
+            "applicability": "APPLICABLE",
+            "isFree": false,
+            "isExclusive": false,
+            "isTiedToSubscription": false
+          }
+        }
+      ]
+    },
+    "trialAndPublicPrice": {
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP3526-PPSA14001_00-0507384846053057",
+      "productId": "UP3526-PPSA14001_00-0507384846053057",
+      "conceptId": "10007460",
+      "title": "Baldur's Gate 3",
+      "platforms": ["PS5"],
+      "edition": { "type": "STANDARD", "name": "Base Game" },
+      "skuIds": [
+        "UP3526-PPSA14001_00-0507384846053057-U002",
+        "UP3526-PPSA14001_00-0507384846053057-U003"
+      ],
+      "ctas": [
+        {
+          "cacheKey": "GameCTA:UPSELL_PS_PLUS_TRIAL:BUY_NOW:UP3526-PPSA14001_00-0507384846053057-U003",
+          "id": "UPSELL_PS_PLUS_TRIAL:BUY_NOW:UP3526-PPSA14001_00-0507384846053057-U003",
+          "type": "UPSELL_PS_PLUS_TRIAL",
+          "skuId": "UP3526-PPSA14001_00-0507384846053057-U003",
+          "actionType": "BUY_NOW",
+          "rewardId": "SUB001-SUBC00002_00-TGQEJFGHYKHUY2U4",
+          "ctaType": "purchase",
+          "upSellService": "PS_PLUS",
+          "exclusive": false,
+          "price": {
+            "basePriceValue": 0,
+            "discountedValue": 0,
+            "currencyCode": "USD",
+            "serviceBranding": ["PS_PLUS"],
+            "endTime": null,
+            "qualifications": [
+              { "type": "ENTITLEMENT_IN_CART", "value": "SUB001-SUBC00002_00-TGQEJFGHYKHUY2U4" }
+            ],
+            "applicability": "UPSELL",
+            "isFree": true,
+            "isExclusive": true,
+            "isTiedToSubscription": true
+          }
+        },
+        {
+          "cacheKey": "GameCTA:ADD_TO_CART:ADD_TO_CART:UP3526-PPSA14001_00-0507384846053057-U002:OUTRIGHT",
+          "id": "ADD_TO_CART:ADD_TO_CART:UP3526-PPSA14001_00-0507384846053057-U002:OUTRIGHT",
+          "type": "ADD_TO_CART",
+          "skuId": "UP3526-PPSA14001_00-0507384846053057-U002",
+          "actionType": "ADD_TO_CART",
+          "rewardId": "OUTRIGHT",
+          "ctaType": "purchase",
+          "upSellService": "NONE",
+          "exclusive": false,
+          "price": {
+            "basePriceValue": 6999,
+            "discountedValue": 6999,
+            "currencyCode": "USD",
+            "serviceBranding": ["NONE"],
+            "endTime": null,
+            "qualifications": [],
+            "applicability": "APPLICABLE",
+            "isFree": false,
+            "isExclusive": false,
+            "isTiedToSubscription": false
+          }
+        }
+      ]
+    }
+  }
+}

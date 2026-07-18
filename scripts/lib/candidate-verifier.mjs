@@ -1,10 +1,12 @@
-import { titleMatches } from './match.mjs';
+import { normTitle, titleMatches } from './match.mjs';
 import { gateSteamAppDetails } from './steam-candidates.mjs';
 import {
   createNintendoSuggestionDocument,
   validateManualUsEvidence,
+  validateNintendoAmericasEvidence,
   validateNintendoSuggestionDocument,
 } from './ns-candidates.mjs';
+import { validatePsnMappingCandidate } from './psn-manual-mappings.mjs';
 import {
   APPLY_STATUS,
   VERIFY_STATUS,
@@ -153,18 +155,37 @@ export function verifyNintendoCandidate(candidate, catalog, {
       throw new Error('Nintendo candidateId 与 retained NSUID 不一致');
     }
 
-    const sourceEvidence = suggestion.manualUsEvidence?.sourceEvidence;
-    const americas = validateManualUsEvidence(sourceEvidence, suggestion);
-    if (suggestion.nsuids?.americas !== americas.nsuid) {
-      throw new Error('Americas NSUID 与人工证据不一致');
+    const automaticAmericas = suggestion.regionalEvidence?.americas
+      ? validateNintendoAmericasEvidence(suggestion.regionalEvidence.americas, suggestion)
+      : null;
+    const manualSourceEvidence = suggestion.manualUsEvidence?.sourceEvidence ?? null;
+    const manualAmericas = manualSourceEvidence
+      ? validateManualUsEvidence(manualSourceEvidence, suggestion)
+      : null;
+    const americas = automaticAmericas ?? manualAmericas;
+    if (suggestion.nsuids?.americas) {
+      if (!americas || suggestion.nsuids.americas !== americas.nsuid) {
+        throw new Error('Americas NSUID 与 retained 证据不一致');
+      }
+      const productSlug = automaticAmericas?.productSlug ?? manualSourceEvidence?.productSlug;
+      if (suggestion.nintendoUsSlug !== productSlug) {
+        throw new Error('nintendoUsSlug 不是 retained Americas 证据中的产品 slug');
+      }
+    } else if (suggestion.nintendoUsSlug || americas) {
+      throw new Error('缺失 Americas NSUID 时不得保留 US 产品身份');
     }
-    if (suggestion.nintendoUsSlug !== sourceEvidence.productSlug) {
-      throw new Error('nintendoUsSlug 不是人工证据中的产品 slug');
+    const expectedPrimaryRegionalChannel = suggestion.catalogAction === 'new_game' ? 'eshop' : null;
+    if (suggestion.primaryRegionalChannel !== expectedPrimaryRegionalChannel) {
+      throw new Error(
+        `Nintendo 主区域渠道必须是 ${expectedPrimaryRegionalChannel ?? 'null'}（${suggestion.catalogAction}）`,
+      );
     }
-    if (suggestion.primaryRegionalChannel !== 'eshop') {
-      throw new Error('Nintendo 主区域渠道必须是 eshop');
+    if (automaticAmericas) {
+      assertCurrentEvidence(automaticAmericas.collectedAt, current.valueOf(), evidenceTtlMs, 'Nintendo US 自动证据');
     }
-    assertCurrentEvidence(sourceEvidence.reviewedAt, current.valueOf(), evidenceTtlMs, 'Nintendo US 人工证据');
+    if (manualSourceEvidence) {
+      assertCurrentEvidence(manualSourceEvidence.reviewedAt, current.valueOf(), evidenceTtlMs, 'Nintendo US 人工证据');
+    }
     for (const region of ['europe', 'japan']) {
       const evidence = suggestion.regionalEvidence?.[region];
       if (evidence) {
@@ -190,12 +211,58 @@ export function verifyNintendoCandidate(candidate, catalog, {
         nsuids: structuredClone(suggestion.nsuids),
         nintendoUsSlug: suggestion.nintendoUsSlug,
         generation: suggestion.generation,
-        paid: americas.paid,
+        paid: americas?.paid ?? Object.values(suggestion.regionalEvidence ?? {}).some((evidence) => evidence?.paid === true),
         primaryRegionalChannel: suggestion.primaryRegionalChannel,
       },
     };
   } catch (error) {
     return { passed: false, reason: `Nintendo 当前核验失败: ${error.message}` };
+  }
+}
+
+/**
+ * Re-check one sealed PSN mapping suggestion without fetching PlayStation.
+ * Page collection and the later snapshot scrape remain separately gated; this
+ * verifier trusts only an unexpired, digest-bound official-product evidence
+ * record and an unchanged catalog target.
+ */
+export function verifyPsnCandidate(candidate, catalog, { now = new Date() } = {}) {
+  try {
+    const current = now instanceof Date ? now : new Date(now);
+    if (!Number.isFinite(current.valueOf())) throw new Error('当前核验时间无效');
+    validatePsnMappingCandidate(candidate, { now: current.valueOf() });
+    if (candidate.catalogAction !== 'add_platform_mapping') {
+      throw new Error('PSN POC 仅允许 add_platform_mapping');
+    }
+    catalogIdentityCheck(candidate, catalog);
+    const games = catalogGames(catalog);
+    const target = games.find((game) => game.slug === candidate.slug);
+    if (!target || normTitle(candidate.title) !== normTitle(target.title)) {
+      throw new Error('PSN 标题与 catalog 映射目标不精确一致');
+    }
+    if (target.psnProductId != null || target.psnConceptId != null || target.psnEdition != null) {
+      throw new Error('catalog 映射目标已存在 PSN 身份，拒绝覆盖或重复');
+    }
+    const productOwner = games.find((game) => game.psnProductId === candidate.psnProductId);
+    if (productOwner) throw new Error(`PSN Product ID 已属于 ${productOwner.slug}`);
+    const conceptOwner = candidate.psnConceptId == null
+      ? null
+      : games.find((game) => game.psnConceptId === candidate.psnConceptId);
+    if (conceptOwner) throw new Error(`PSN Concept ID 已属于 ${conceptOwner.slug}`);
+    return {
+      passed: true,
+      reason: null,
+      facts: {
+        candidateId: candidate.candidateId,
+        psnProductId: candidate.psnProductId,
+        psnConceptId: candidate.psnConceptId ?? null,
+        psnEdition: candidate.psnEdition,
+        platforms: [...candidate.platforms],
+        publicUsOffer: structuredClone(candidate.evidence.publicUsOffer),
+      },
+    };
+  } catch (error) {
+    return { passed: false, reason: `PSN retained evidence verification failed: ${error.message}` };
   }
 }
 
@@ -286,6 +353,8 @@ export async function verifyApprovedCandidates(candidates, state, {
         }
       } else if (candidate.candidateId?.startsWith('ns:')) {
         result = await nintendoVerifier(candidate, catalog, { now: current });
+      } else if (candidate.candidateId?.startsWith('psn:')) {
+        result = verifyPsnCandidate(candidate, catalog, { now: current });
       } else {
         result = { passed: false, reason: '候选 candidateId 平台前缀无效' };
       }

@@ -42,12 +42,21 @@ test('显式 humanDecision 列优先于生命周期状态，空值 fail closed',
   assert.equal(parsed.rows[0].candidateId, 'ns:70010000000001');
 });
 
-test('candidateId 优先使用已冻结显式值，其次 Steam，NS 按 AM -> EU -> JP', () => {
+test('candidateId 优先使用已冻结显式值，并严格绑定 Steam / Nintendo / PSN 商品 ID', () => {
   assert.equal(candidateIdFor({ candidateId: 'ns:70010000000099', nsuidAm: '70010000000001', nsuidEu: '70010000000099' }), 'ns:70010000000099');
   assert.equal(candidateIdFor({ steamAppId: 123, nsuidAm: '70010000000001' }), 'steam:123');
   assert.equal(candidateIdFor({ nsuidEu: '70010000000002', nsuidJp: '70010000000003' }), 'ns:70010000000002');
+  assert.equal(candidateIdFor({
+    candidateId: 'psn:up0700-ppsa04610_00-eldenring0000000',
+    psnProductId: 'UP0700-PPSA04610_00-ELDENRING0000000',
+  }), 'psn:UP0700-PPSA04610_00-ELDENRING0000000');
+  assert.equal(candidateIdFor({ psnProductId: 'UP0700-PPSA04610_00-ELDENRING0000000' }), 'psn:UP0700-PPSA04610_00-ELDENRING0000000');
   assert.throws(() => candidateIdFor({ candidateId: 'steam:42', steamAppId: 43 }), /不一致/u);
   assert.throws(() => candidateIdFor({ candidateId: 'ns:70010000000001', nsuidAm: '70010000000002' }), /不一致/u);
+  assert.throws(() => candidateIdFor({
+    candidateId: 'psn:UP0700-PPSA04610_00-ELDENRING0000000',
+    psnProductId: 'UP9000-PPSA08329_00-GOWRAGNAROK00000',
+  }), /PSN Product ID 不一致/u);
 });
 
 test('机器候选字段为事实源，workbook 只 join 人工决定', () => {

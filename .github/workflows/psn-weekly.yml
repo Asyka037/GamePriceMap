@@ -1,0 +1,70 @@
+name: Weekly PlayStation US POC
+
+on:
+  schedule:
+    # PSN stays out of Monday's Xbox/offers fleet and the 07:30 UTC daily run.
+    # Separate scheduling keeps either weekly fleet below the 30-minute budget.
+    - cron: '0 13 * * 4'   # Thursdays 13:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  psn-weekly:
+    # Closed by default: current PlayStation US terms prohibit automated data
+    # collection. The repository variable must only be enabled after the user
+    # separately accepts this platform's automation risk.
+    if: ${{ vars.PSN_AUTOMATION_AUTHORIZED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PSN_AUTOMATION_AUTHORIZED: ${{ vars.PSN_AUTOMATION_AUTHORIZED }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Check for verified PSN mappings
+        id: scope
+        run: node --input-type=module -e "import fs from 'node:fs'; const c=JSON.parse(fs.readFileSync('data/catalog.json','utf8')); console.log('enabled='+c.games.some(g=>g.psnProductId));" >> "$GITHUB_OUTPUT"
+
+      - name: Install root tooling dependencies
+        if: steps.scope.outputs.enabled == 'true'
+        run: npm ci --no-audit --no-fund
+
+      - name: Unit tests
+        if: steps.scope.outputs.enabled == 'true'
+        run: npm test
+
+      - name: Scrape PlayStation Store US POC (verified standard products only)
+        if: steps.scope.outputs.enabled == 'true'
+        run: node scripts/scrape-psn.mjs
+
+      - name: Evolve price history (includes PlayStation US)
+        if: steps.scope.outputs.enabled == 'true'
+        run: npm run history:observations
+
+      - name: Validate data gate
+        if: steps.scope.outputs.enabled == 'true'
+        run: npm run validate
+
+      - name: Commit and push PSN observations
+        if: steps.scope.outputs.enabled == 'true'
+        run: |
+          git config user.name "gamepricemap-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshots/psn/ data/history/ data/source-health.json data/health.json
+          if git diff --cached --quiet; then
+            echo "No PlayStation price changes."
+            exit 0
+          fi
+          git commit -m "chore(data): weekly PSN refresh $(date -u +%F)"
+          git pull --rebase origin main
+          git push origin main

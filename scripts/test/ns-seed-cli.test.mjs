@@ -39,6 +39,21 @@ test('seed sealing CLI library binds every nested evidence object and validates 
   assert.equal(candidate.popularityEvidence[0].sourceDigest, sha256Digest({ fixture: 'nintendo-rank' }));
 });
 
+test('seed sealing supports a popularity-backed row before Nintendo discovery assigns its NSUID', () => {
+  const candidate = {
+    ...withoutEvidenceDigests(raw),
+    candidateId: null,
+    manualUsEvidence: null,
+    seedEvidence: [],
+    nintendoUsSlugHint: null,
+  };
+  const document = sealNintendoSeedDraft({ ...draft(), candidates: [candidate] });
+  validateNintendoSeedDocument(document);
+  assert.equal(document.candidates[0].candidateId, null);
+  assert.equal(document.candidates[0].manualUsEvidence, null);
+  assert.match(document.candidates[0].popularityEvidence[0].evidenceDigest, /^sha256:/u);
+});
+
 test('seed sealing writes a separate file and leaves the reviewed draft byte-for-byte unchanged', () => {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'gpm-ns-seed-seal-'));
   const inputPath = path.join(directory, 'draft.json');

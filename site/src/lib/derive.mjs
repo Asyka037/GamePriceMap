@@ -17,7 +17,7 @@ export function isLive(endsAt, now = Date.now()) {
 
 /** 渠道对应的 ATL，绝不跨渠道混用。 */
 export function atlFor(history, channel) {
-  const key = { steam: 'pc', eshop: 'eshop-us', xbox: 'xbox-us' }[channel];
+  const key = { steam: 'pc', eshop: 'eshop-us', xbox: 'xbox-us', psn: 'psn-us' }[channel];
   if (!key) return null;
   return history?.atl?.[key] ?? null;
 }
@@ -117,8 +117,9 @@ export function primaryRegionalSource(bundle) {
 }
 
 /**
- * Regional sources eligible for the unified comparison table. Xbox remains a
- * US-only POC and is deliberately excluded until it has multi-region data.
+ * Regional sources eligible for the unified comparison table. Xbox and PSN
+ * remain US-only POCs and are deliberately excluded until they have
+ * multi-region data.
  */
 export function regionalPriceSources(bundle) {
   return [
@@ -226,6 +227,7 @@ export function bestPriceNow(bundle) {
     { usd: usRow(bundle.steam)?.usd, channel: 'steam' },
     { usd: usRow(bundle.eshop)?.usd, channel: 'eshop' },
     { usd: usRow(bundle.xbox)?.usd, channel: 'xbox' },
+    { usd: usRow(bundle.psn)?.usd, channel: 'psn' },
   ].filter((c) => c.usd != null);
   if (candidates.length === 0) return null;
   return candidates.sort((a, b) => a.usd - b.usd)[0];
@@ -301,6 +303,9 @@ export function hotDealsBoard(bundles, limit = 5) {
       { pct: usRow(b.steam)?.discountPct, usd: usRow(b.steam)?.usd, channel: 'steam' },
       { pct: usRow(b.eshop)?.discountPct, usd: usRow(b.eshop)?.usd, channel: 'eshop' },
       { pct: usRow(b.xbox)?.discountPct, usd: usRow(b.xbox)?.usd, channel: 'xbox' },
+      // Membership-only PS Plus annotations deliberately live outside this
+      // public price row and therefore cannot enter deal ranking.
+      { pct: usRow(b.psn)?.discountPct, usd: usRow(b.psn)?.usd, channel: 'psn' },
     ].filter((x) => x.pct > 0);
     if (pcts.length === 0) continue;
     const top = pcts.sort((a, b2) => b2.pct - a.pct)[0];
@@ -313,7 +318,7 @@ export function hotDealsBoard(bundles, limit = 5) {
 export function trackedDeals(bundles, channel) {
   const rows = [];
   for (const b of bundles) {
-    const snap = { steam: b.steam, eshop: b.eshop, xbox: b.xbox }[channel];
+    const snap = { steam: b.steam, eshop: b.eshop, xbox: b.xbox, psn: b.psn }[channel];
     const us = usRow(snap);
     if (!us || !(us.discountPct > 0)) continue;
     if (!isLive(us.saleEndsAt)) continue; // 快照滞后窗口：已过期的折扣不再当作当前

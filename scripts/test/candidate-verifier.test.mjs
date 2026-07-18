@@ -69,6 +69,34 @@ function nintendoRegional(region, nsuid) {
   });
 }
 
+function nintendoAmericas(nsuid = '70010000000011') {
+  const productSlug = 'example-game-switch';
+  const sourceUrl = `https://www.nintendo.com/us/store/products/${productSlug}/`;
+  return sealRegionalDiscoveryEvidence({
+    status: 'matched',
+    evidenceKind: 'nintendo_us_current_product_page',
+    region: 'americas',
+    manual: false,
+    nsuid,
+    matchedTitle: rawNintendoSeed.title,
+    generation: 'HAC',
+    paid: true,
+    released: true,
+    releasedAt: '2025-01-01T00:00:00.000Z',
+    productSlug,
+    sourceUrl,
+    requestedUrl: sourceUrl,
+    finalUrl: sourceUrl,
+    priceSourceUrl: `https://api.ec.nintendo.com/v1/price?country=US&ids=${nsuid}&lang=en`,
+    sitemapUrl: 'https://www.nintendo.com/us/store/sitemap.xml',
+    sitemapDigest: sha256Digest({ sitemap: 1 }),
+    locatedBy: 'official_sitemap_exact_slug',
+    collectedAt: '2026-07-17T00:00:00.000Z',
+    pageSourceDigest: sha256Digest({ page: 1 }),
+    sourceDigest: sha256Digest({ page: 1, price: 1 }),
+  });
+}
+
 function nintendoSuggestion(overrides = {}) {
   const seed = structuredClone(rawNintendoSeed);
   seed.manualUsEvidence = sealManualUsEvidence(seed.manualUsEvidence);
@@ -137,6 +165,26 @@ test('Nintendo retained suggestion evidence passes without any US request', () =
   assert.equal(result.facts.candidateId, 'ns:70010000000011');
   assert.equal(result.facts.nintendoUsSlug, 'example-game-switch');
   assert.equal(result.facts.paid, true);
+});
+
+test('Nintendo verifier accepts machine-sealed Americas evidence and enforces its TTL', () => {
+  const seed = structuredClone(rawNintendoSeed);
+  seed.candidateId = null;
+  seed.manualUsEvidence = null;
+  const candidate = buildNintendoSuggestion(seed, {
+    americas: nintendoAmericas(),
+    europe: nintendoRegional('europe', '70010000000012'),
+    japan: nintendoRegional('japan', '70010000000013'),
+  });
+  const current = verifyNintendoCandidate(candidate, { games: [] }, {
+    now: new Date('2026-07-17T01:00:00.000Z'),
+  });
+  assert.equal(current.passed, true);
+  assert.equal(current.facts.nintendoUsSlug, 'example-game-switch');
+  assert.equal(current.facts.paid, true);
+  assert.match(verifyNintendoCandidate(candidate, { games: [] }, {
+    now: new Date('2026-08-17T00:00:00.000Z'),
+  }).reason, /自动证据.*超过 30 天有效期/u);
 });
 
 test('Nintendo verifier rejects digest/status, identity, retained evidence and catalog conflicts', () => {

@@ -7,6 +7,7 @@ import { catalog, gameBundle, feed, calendar } from '../lib/data.mjs';
 import { regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, bestPriceNow, primaryRegionalSource, popularRegionalCards, usRow, overallAtl, isLive, fmtUsd } from '../lib/derive.mjs';
 
 const bundles = catalog().map((g: any) => gameBundle(g.slug));
+const hasPsnPilot = bundles.some((bundle: any) => bundle.psn?.regions?.length);
 
 // Typewriter showcase: games with the richest cross-platform story first.
 const showcase = ['hollow-knight-silksong', 'elden-ring', 'stardew-valley', 'cyberpunk-2077']
@@ -15,16 +16,17 @@ const showcase = ['hollow-knight-silksong', 'elden-ring', 'stardew-valley', 'cyb
   .map((b: any) => {
     const st = usRow(b.steam);
     const es = usRow(b.eshop);
+    const ps = usRow(b.psn);
     const regionalSource = primaryRegionalSource(b);
     const cheapestRegion = regionalSource?.snapshot.regions?.[0];
     const atl = overallAtl(b.history);
     const best = bestPriceNow(b);
-    const deal = [st, es].filter((r) => r?.discountPct).sort((a, b2) => b2!.discountPct - a!.discountPct)[0];
+    const deal = [st, es, ps].filter((r) => r?.discountPct).sort((a, b2) => b2!.discountPct - a!.discountPct)[0];
     return {
       slug: b.slug,
       name: b.game.title,
       cover: b.meta?.headerImage ?? '',
-      plat: [st && `Steam ${fmtUsd(st.usd)}`, es && `eShop ${fmtUsd(es.usd)}`].filter(Boolean).join(' · ') || 'PC',
+      plat: [st && `Steam ${fmtUsd(st.usd)}`, es && `eShop ${fmtUsd(es.usd)}`, ps && `PSN ${fmtUsd(ps.usd)}`].filter(Boolean).join(' · ') || 'PC',
       region: cheapestRegion ? `${regionalSource.label} ${cheapestRegion.cc} ≈ ${fmtUsd(cheapestRegion.usd)}` : '—',
       deal: deal ? `−${deal.discountPct}% right now` : 'No discount right now',
       atl: !!(best && atl && best.usd <= atl.usd + 0.001),
@@ -34,6 +36,7 @@ const showcase = ['hollow-knight-silksong', 'elden-ring', 'stardew-valley', 'cyb
 const regionRows = regionGapBoard(bundles, 3);
 const atlRows = atlBoard(bundles, 3);
 const hotRows = hotDealsBoard(bundles, 3);
+const dealChannelLabels: Record<string, string> = { steam: 'Steam', eshop: 'eShop', xbox: 'Xbox', psn: 'PSN' };
 const steamRegionalPopular = popularRegionalCards(bundles, 'steam', 4);
 const eshopRegionalPopular = popularRegionalCards(bundles, 'eshop', 4, steamRegionalPopular.map((card) => card.slug));
 
@@ -58,7 +61,7 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : [])
 ---
 <Layout
   title="Game Price Tracker, Deals & Regional Prices | GamePriceMap"
-  description="Compare game prices across Steam, Nintendo eShop, and Xbox. Discover global regional pricing, active discounts, and all-time lows updated daily."
+  description={`Compare game prices across Steam, Nintendo eShop, Xbox${hasPsnPilot ? ', and PlayStation Store' : ''}. Discover global regional pricing, active discounts, and all-time lows.`}
   active="home"
   dockSearch={true}
 >
@@ -73,7 +76,7 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : [])
     <div class="wrap hero-grid">
       <div class="hero-left">
         <h1 class="pixel-title">EVERY DEAL.<br>ONE TRACKER.</h1>
-        <p class="lede2">Type any game — see its cheapest store, cheapest region and current discount. Live, across Steam and Nintendo eShop.</p>
+        <p class="lede2">Type any game — see its cheapest store, cheapest region and current discount. Live, across Steam and Nintendo eShop{hasPsnPilot ? ', and PlayStation Store' : ''}.</p>
 
         <div class="hero-search">
           <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
@@ -150,7 +153,7 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : [])
             <a class="board-row" href={`/game/${r.slug}`}>
               <span class:list={['b-rank', { first: i === 0 }]}>{i + 1}</span>
               <span class="b-name">{r.title}</span>
-              <span class="b-chip g">−{r.pct}%</span>
+              <span class="b-chip g">−{r.pct}% · {dealChannelLabels[r.channel] ?? r.channel}</span>
             </a>
           ))}
         </div>

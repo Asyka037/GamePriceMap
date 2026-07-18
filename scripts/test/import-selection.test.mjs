@@ -36,6 +36,8 @@ function verifiedCandidate(appId, title, slug = null) {
 
 test('slug 冻结处理重音、年份冲突与稳定商品 ID 回退', () => {
   assert.equal(slugBase('Pokémon: Let’s Go, Eevee!'), 'pokemon-lets-go-eevee');
+  assert.equal(slugBase('Battlefield™ 6'), 'battlefield-6');
+  assert.equal(slugBase('Game® © Edition'), 'game-edition');
   const catalog = { games: [{ slug: 'doom', title: 'DOOM' }, { slug: 'doom-2016', title: 'Other' }] };
   assert.equal(freezeCandidateSlug({
     candidateId: 'steam:379720', title: 'DOOM', paidGate: { releaseDate: 'May 12, 2016' }, catalogAction: 'new_game',
@@ -79,5 +81,5 @@ test('过期核验和空批次不会生成 plan', () => {
     baseCommit: BASE_COMMIT,
     addedAt: '2026-07-30',
     now: new Date('2026-07-30T00:00:00Z'),
-  }), /没有当前批准/u);
+  }), /没有经当前批准策略/u);
 });

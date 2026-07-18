@@ -1,7 +1,12 @@
 import { normTitle } from './match.mjs';
+import { validPsnProductId } from './psn.mjs';
 
 const ALLOWED_PLATFORMS = new Set(['pc', 'ps4', 'ps5', 'xbox', 'switch', 'switch-2', 'mobile']);
 const NSUID_GROUPS = ['americas', 'europe', 'japan'];
+// The first PlayStation milestone is deliberately bounded to 10-20 mappings.
+// Raising this is a separate post-two-natural-week-runs code review, not a
+// runtime switch, so repeated candidate documents cannot silently expand POC.
+export const PSN_POC_GAME_LIMIT = 20;
 
 function hasNsuid(nsuids) {
   return nsuids && NSUID_GROUPS.some((group) => Boolean(nsuids[group]));
@@ -24,6 +29,18 @@ export function validateCatalogGame(game) {
   }
   if (new Set(game.platforms).size !== game.platforms.length) throw new Error(`${label}: duplicate platforms`);
   if (Number.isInteger(game.steamAppId) && !game.platforms.includes('pc')) throw new Error(`${label}: Steam mapping requires pc platform`);
+  if (game.psnProductId != null && !validPsnProductId(game.psnProductId)) {
+    throw new Error(`${label}: bad psnProductId`);
+  }
+  if (game.psnProductId != null && game.psnEdition !== 'standard') {
+    throw new Error(`${label}: PSN POC requires psnEdition "standard"`);
+  }
+  if (game.psnProductId != null && !game.platforms.some((platform) => platform === 'ps4' || platform === 'ps5')) {
+    throw new Error(`${label}: PSN mapping requires a PlayStation platform`);
+  }
+  if (game.psnEdition != null && game.psnProductId == null) throw new Error(`${label}: psnEdition requires psnProductId`);
+  if (game.psnConceptId != null && !/^\d{8}$/.test(game.psnConceptId)) throw new Error(`${label}: bad psnConceptId`);
+  if (game.psnConceptId != null && game.psnProductId == null) throw new Error(`${label}: psnConceptId requires psnProductId`);
   if (game.nsuids != null) {
     if (typeof game.nsuids !== 'object' || Array.isArray(game.nsuids)) throw new Error(`${label}: bad nsuids object`);
     for (const group of Object.keys(game.nsuids)) {
@@ -35,10 +52,10 @@ export function validateCatalogGame(game) {
     throw new Error(`${label}: Nintendo mapping requires a Switch platform`);
   }
   if (!Number.isInteger(game.steamAppId) && !hasNsuid(game.nsuids)) throw new Error(`${label}: no supported store mapping`);
-  // Nintendo-only metadata comes from the EU Solr feed since 2026-07-17
-  // (Nintendo US ToU forbids automated US page access), so the hard
-  // requirement is a europe NSUID; americas + nintendoUsSlug stay optional
-  // human-reviewed extras that unlock the US price line.
+  // Nintendo-only recurring metadata stays on the EU Solr feed. The separately
+  // authorized US discovery path is an identity/price enrichment, not a
+  // metadata dependency, so Europe remains mandatory while Americas + the
+  // product slug stay optional verified extras that unlock the US price line.
   if (!Number.isInteger(game.steamAppId) && !game.nsuids?.europe) {
     throw new Error(`${label}: Nintendo-only game requires a europe NSUID for metadata and EU prices`);
   }
@@ -61,6 +78,8 @@ export function catalogIndexes(catalog) {
   const bySlug = new Map();
   const bySteamAppId = new Map();
   const byNsuid = new Map();
+  const byPsnProductId = new Map();
+  const byPsnConceptId = new Map();
   for (const game of catalog.games) {
     validateCatalogGame(game);
     if (bySlug.has(game.slug)) throw new Error(`duplicate catalog slug ${game.slug}`);
@@ -69,12 +88,23 @@ export function catalogIndexes(catalog) {
       if (bySteamAppId.has(game.steamAppId)) throw new Error(`duplicate Steam AppID ${game.steamAppId}`);
       bySteamAppId.set(game.steamAppId, game.slug);
     }
+    if (game.psnProductId) {
+      if (byPsnProductId.has(game.psnProductId)) throw new Error(`duplicate PSN product ID ${game.psnProductId}`);
+      byPsnProductId.set(game.psnProductId, game.slug);
+    }
+    if (game.psnConceptId) {
+      if (byPsnConceptId.has(game.psnConceptId)) throw new Error(`duplicate PSN concept ID ${game.psnConceptId}`);
+      byPsnConceptId.set(game.psnConceptId, game.slug);
+    }
     for (const id of Object.values(game.nsuids ?? {}).filter(Boolean).map(String)) {
       if (byNsuid.has(id)) throw new Error(`duplicate Nintendo NSUID ${id}`);
       byNsuid.set(id, game.slug);
     }
   }
-  return { bySlug, bySteamAppId, byNsuid };
+  if (byPsnProductId.size > PSN_POC_GAME_LIMIT) {
+    throw new Error(`PSN POC has ${byPsnProductId.size} games (limit ${PSN_POC_GAME_LIMIT} before two stable weekly runs)`);
+  }
+  return { bySlug, bySteamAppId, byNsuid, byPsnProductId, byPsnConceptId };
 }
 
 function itemFields(item, addedAt) {
@@ -91,6 +121,11 @@ function itemFields(item, addedAt) {
   game.tier = 'extended';
   game.addedAt = addedAt;
   if (item.primaryRegionalChannel) game.primaryRegionalChannel = item.primaryRegionalChannel;
+  if (item.psnProductId) {
+    game.psnProductId = item.psnProductId;
+    game.psnConceptId = item.psnConceptId ?? null;
+    game.psnEdition = item.psnEdition;
+  }
   return game;
 }
 
@@ -101,8 +136,12 @@ export function applyBatchToCatalog(catalog, plan) {
   for (const item of plan.items) {
     const steamOwner = Number.isInteger(item.steamAppId) ? indexes.bySteamAppId.get(item.steamAppId) : null;
     const nsuidOwners = [...new Set(Object.values(item.nsuids ?? {}).filter(Boolean).map(String).map((id) => indexes.byNsuid.get(id)).filter(Boolean))];
+    const psnProductOwner = item.psnProductId ? indexes.byPsnProductId.get(item.psnProductId) : null;
+    const psnConceptOwner = item.psnConceptId ? indexes.byPsnConceptId.get(item.psnConceptId) : null;
     if (steamOwner && steamOwner !== item.slug) throw new Error(`${item.key}: Steam AppID already belongs to ${steamOwner}`);
     if (nsuidOwners.some((owner) => owner !== item.slug)) throw new Error(`${item.key}: NSUID already belongs to ${nsuidOwners.join(', ')}`);
+    if (psnProductOwner) throw new Error(`${item.key}: PSN Product ID already belongs to ${psnProductOwner}`);
+    if (psnConceptOwner) throw new Error(`${item.key}: PSN Concept ID already belongs to ${psnConceptOwner}`);
 
     if (item.catalogAction === 'new_game') {
       if (indexes.bySlug.has(item.slug)) throw new Error(`${item.key}: slug already exists`);
@@ -126,6 +165,10 @@ export function applyBatchToCatalog(catalog, plan) {
       if (item.nintendoUsSlug && existing.nintendoUsSlug && existing.nintendoUsSlug !== item.nintendoUsSlug) {
         throw new Error(`${item.key}: refuses to replace existing Nintendo US product slug`);
       }
+      if (item.psnProductId
+        && (existing.psnProductId != null || existing.psnConceptId != null || existing.psnEdition != null)) {
+        throw new Error(`${item.key}: refuses to replace or duplicate an existing PSN identity`);
+      }
       const incomingNintendoPlatforms = item.platforms.filter((platform) => platform === 'switch' || platform === 'switch-2');
       const existingNintendoPlatforms = existing.platforms.filter((platform) => platform === 'switch' || platform === 'switch-2');
       if (hasNsuid(item.nsuids) && existingNintendoPlatforms.length > 0) {
@@ -138,6 +181,11 @@ export function applyBatchToCatalog(catalog, plan) {
       existing.platforms = [...new Set([...existing.platforms, ...item.platforms])];
       if (item.nintendoUsSlug) existing.nintendoUsSlug ??= item.nintendoUsSlug;
       if (item.primaryRegionalChannel) existing.primaryRegionalChannel ??= item.primaryRegionalChannel;
+      if (item.psnProductId) {
+        existing.psnProductId = item.psnProductId;
+        existing.psnConceptId = item.psnConceptId ?? null;
+        existing.psnEdition = item.psnEdition;
+      }
       validateCatalogGame(existing);
     }
 
@@ -145,6 +193,8 @@ export function applyBatchToCatalog(catalog, plan) {
     indexes.bySlug = refreshed.bySlug;
     indexes.bySteamAppId = refreshed.bySteamAppId;
     indexes.byNsuid = refreshed.byNsuid;
+    indexes.byPsnProductId = refreshed.byPsnProductId;
+    indexes.byPsnConceptId = refreshed.byPsnConceptId;
   }
   return next;
 }
@@ -154,6 +204,7 @@ export function expectedImportArtifacts(plan) {
   for (const item of plan.items) {
     if (Number.isInteger(item.steamAppId)) files.add(`data/snapshots/steam/${item.slug}.json`);
     if (hasNsuid(item.nsuids)) files.add(`data/snapshots/eshop/${item.slug}.json`);
+    if (item.psnProductId) files.add(`data/snapshots/psn/${item.slug}.json`);
     files.add(`data/meta/${item.slug}.json`);
     files.add(`data/history/${item.slug}.json`);
   }

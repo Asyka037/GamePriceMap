@@ -1,12 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { validPsnProductId } from './psn.mjs';
 
 export const IMPORT_SCHEMA_VERSION = 1;
 export const IMPORT_STEPS = Object.freeze([
   'catalog',
   'steam',
   'eshop',
+  'psn',
   'meta',
   'history',
   'test',
@@ -23,6 +25,7 @@ const MAIN_STATES = Object.freeze([
   'catalog_staged',
   'steam_done',
   'eshop_done',
+  'psn_done',
   'meta_done',
   'history_done',
   'gates_passed',
@@ -114,7 +117,11 @@ function validDigest(value) {
 function validateItem(item, index) {
   const label = `batch item ${index + 1}`;
   if (!plainObject(item)) throw new Error(`${label}: must be an object`);
-  if (!/^(?:steam:[1-9]\d*|ns:7001\d{10})$/.test(item.key ?? '')) throw new Error(`${label}: bad key`);
+  const psnKey = typeof item.key === 'string' && item.key.startsWith('psn:')
+    && validPsnProductId(item.key.slice(4));
+  if (!/^(?:steam:[1-9]\d*|ns:7001\d{10})$/.test(item.key ?? '') && !psnKey) {
+    throw new Error(`${label}: bad key`);
+  }
   if (!['new_game', 'add_platform_mapping'].includes(item.catalogAction)) throw new Error(`${label}: bad catalogAction`);
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug ?? '')) throw new Error(`${label}: bad slug`);
   if (!(typeof item.title === 'string' && item.title.trim())) throw new Error(`${label}: missing title`);
@@ -134,14 +141,37 @@ function validateItem(item, index) {
   if (item.nintendoUsSlug != null && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.nintendoUsSlug)) {
     throw new Error(`${label}: bad nintendoUsSlug`);
   }
+  if (item.psnProductId != null && !validPsnProductId(item.psnProductId)) throw new Error(`${label}: bad psnProductId`);
+  if (item.psnConceptId != null && !/^\d{8}$/.test(item.psnConceptId)) throw new Error(`${label}: bad psnConceptId`);
+  if (item.psnEdition != null && item.psnEdition !== 'standard') throw new Error(`${label}: bad psnEdition`);
+  if ((item.psnConceptId != null || item.psnEdition != null) && item.psnProductId == null) {
+    throw new Error(`${label}: PSN identity requires psnProductId`);
+  }
   const hasNsuid = item.nsuids && Object.values(item.nsuids).some(Boolean);
-  if (!Number.isInteger(item.steamAppId) && !hasNsuid) throw new Error(`${label}: no platform product ID`);
+  const hasPsn = validPsnProductId(item.psnProductId);
+  if (!Number.isInteger(item.steamAppId) && !hasNsuid && !hasPsn) throw new Error(`${label}: no platform product ID`);
   const [keyType, keyValue] = item.key.split(':', 2);
   if (keyType === 'steam' && String(item.steamAppId ?? '') !== keyValue) {
     throw new Error(`${label}: key does not match steamAppId`);
   }
   if (keyType === 'ns' && !Object.values(item.nsuids ?? {}).filter(Boolean).map(String).includes(keyValue)) {
     throw new Error(`${label}: key does not match any NSUID`);
+  }
+  if (keyType === 'psn' && item.psnProductId !== keyValue) {
+    throw new Error(`${label}: key does not match psnProductId`);
+  }
+  if (hasPsn) {
+    if (keyType !== 'psn' || item.catalogAction !== 'add_platform_mapping') {
+      throw new Error(`${label}: PSN POC only supports psn-keyed add_platform_mapping`);
+    }
+    if (Number.isInteger(item.steamAppId) || hasNsuid) {
+      throw new Error(`${label}: PSN mapping item cannot carry another store identity`);
+    }
+    if (item.psnEdition !== 'standard'
+      || item.platforms.length === 0
+      || item.platforms.some((platform) => !['ps4', 'ps5'].includes(platform))) {
+      throw new Error(`${label}: PSN POC requires only PlayStation platforms and standard edition`);
+    }
   }
   if (hasNsuid) {
     const generations = item.platforms.filter((platform) => platform === 'switch' || platform === 'switch-2');
@@ -160,6 +190,9 @@ export function validateBatchPlan(plan, { requireDigest = true } = {}) {
   if (!/^[a-f0-9]{40}$|^[a-f0-9]{64}$/.test(plan.baseCommit ?? '')) throw new Error('bad baseCommit');
   if (!(typeof plan.branch === 'string' && plan.branch.trim())) throw new Error('missing branch');
   if (!validIsoDate(plan.addedAt)) throw new Error('bad addedAt');
+  if (plan.approvalPolicy != null && plan.approvalPolicy !== 'v2-auto-approve') {
+    throw new Error(`unsupported batch approvalPolicy ${plan.approvalPolicy}`);
+  }
   if (!Array.isArray(plan.items) || plan.items.length === 0 || plan.items.length > 100) {
     throw new Error('batch items must contain 1..100 entries');
   }
@@ -170,6 +203,8 @@ export function validateBatchPlan(plan, { requireDigest = true } = {}) {
     ['slug', plan.items.map((item) => item.slug)],
     ['steamAppId', plan.items.map((item) => item.steamAppId).filter(Number.isInteger)],
     ['NSUID', plan.items.flatMap((item) => Object.values(item.nsuids ?? {}).filter(Boolean).map(String))],
+    ['PSN Product ID', plan.items.map((item) => item.psnProductId).filter(Boolean)],
+    ['PSN Concept ID', plan.items.map((item) => item.psnConceptId).filter(Boolean)],
   ]) {
     if (new Set(values).size !== values.length) throw new Error(`duplicate batch ${label}`);
   }

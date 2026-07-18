@@ -67,3 +67,11 @@ test('snapshot without US region is a no-op', () => {
   const { changed } = applySnapshot(emptyHistory('g'), { slug: 'g', regions: [{ cc: 'BR', usd: 10 }] }, opts);
   assert.equal(changed, false);
 });
+
+test('PSN public US price evolves its isolated psn-us ATL', () => {
+  const { history: h } = applySnapshot(null, snap(39.99, 20), {
+    channel: 'psn', atlKey: 'psn-us', today: '2026-07-18',
+  });
+  assert.deepEqual(h.events[0], { d: '2026-07-18', ch: 'psn', cc: 'US', usd: 39.99, pct: 20 });
+  assert.deepEqual(h.atl['psn-us'], { usd: 39.99, date: '2026-07-18', seed: 'self' });
+});

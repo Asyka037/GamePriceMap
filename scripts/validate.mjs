@@ -22,6 +22,8 @@ import { DERIVED_STEAM_OFFER_FIELDS } from './lib/steam-offers.mjs';
 import { catalogIndexes } from './lib/catalog.mjs';
 import { ESHOP_REGIONS } from './lib/eshop.mjs';
 import { CORE_GAME_LIMIT, memberShards, META_SHARDS } from './lib/schedule.mjs';
+import { validPsnProductId } from './lib/psn.mjs';
+import { isAwaitingFirstFullRun } from './lib/sourcehealth.mjs';
 import { STEAM_REGIONS } from './lib/steam.mjs';
 import { hasNativeUsObservation, isNintendoBaseGameNsuid, minimumApplicableRegionCount } from './lib/validation.mjs';
 
@@ -64,6 +66,8 @@ const steamAppOwners = new Map(catalog.games
 const slugs = new Set();
 const appIds = new Set();
 const xboxIds = new Set();
+const psnProductIds = new Set();
+const psnConceptIds = new Set();
 const nintendoProductSlugs = new Set();
 for (const g of catalog.games) {
   if (!/^[a-z0-9-]+$/.test(g.slug)) fail(`catalog: bad slug "${g.slug}"`);
@@ -73,6 +77,14 @@ for (const g of catalog.games) {
   if (g.xboxBigId != null && !/^[A-Z0-9]{12}$/.test(g.xboxBigId)) fail(`catalog ${g.slug}: malformed xboxBigId ${g.xboxBigId}`);
   if (g.xboxBigId != null && g.xboxEdition !== 'standard') fail(`catalog ${g.slug}: Xbox POC requires xboxEdition "standard"`);
   if (g.xboxBigId && xboxIds.has(g.xboxBigId)) fail(`catalog: duplicate xboxBigId ${g.xboxBigId}`);
+  if (g.psnProductId != null && !validPsnProductId(g.psnProductId)) fail(`catalog ${g.slug}: malformed psnProductId ${g.psnProductId}`);
+  if (g.psnProductId != null && g.psnEdition !== 'standard') fail(`catalog ${g.slug}: PSN POC requires psnEdition "standard"`);
+  if (g.psnProductId != null && !g.platforms?.some((platform) => platform === 'ps4' || platform === 'ps5')) fail(`catalog ${g.slug}: PSN mapping requires ps4 or ps5 platform`);
+  if (g.psnEdition != null && g.psnProductId == null) fail(`catalog ${g.slug}: psnEdition requires psnProductId`);
+  if (g.psnConceptId != null && !/^\d{8}$/.test(g.psnConceptId)) fail(`catalog ${g.slug}: malformed psnConceptId ${g.psnConceptId}`);
+  if (g.psnConceptId != null && g.psnProductId == null) fail(`catalog ${g.slug}: psnConceptId requires psnProductId`);
+  if (g.psnProductId && psnProductIds.has(g.psnProductId)) fail(`catalog: duplicate psnProductId ${g.psnProductId}`);
+  if (g.psnConceptId && psnConceptIds.has(g.psnConceptId)) fail(`catalog: duplicate psnConceptId ${g.psnConceptId}`);
   if (!['core', 'extended'].includes(g.tier)) fail(`catalog ${g.slug}: bad tier`);
   if (g.primaryRegionalChannel != null && !['steam', 'eshop'].includes(g.primaryRegionalChannel)) fail(`catalog ${g.slug}: bad primaryRegionalChannel ${g.primaryRegionalChannel}`);
   if (g.primaryRegionalChannel === 'steam' && !Number.isInteger(g.steamAppId)) fail(`catalog ${g.slug}: primaryRegionalChannel steam requires steamAppId`);
@@ -84,6 +96,8 @@ for (const g of catalog.games) {
   slugs.add(g.slug);
   appIds.add(g.steamAppId);
   if (g.xboxBigId) xboxIds.add(g.xboxBigId);
+  if (g.psnProductId) psnProductIds.add(g.psnProductId);
+  if (g.psnConceptId) psnConceptIds.add(g.psnConceptId);
   if (g.nintendoUsSlug) nintendoProductSlugs.add(g.nintendoUsSlug);
 }
 const coreGames = catalog.games.filter((game) => game.tier === 'core').length;
@@ -203,6 +217,9 @@ for (const g of catalog.games) {
   if (g.xboxBigId && !fs.existsSync(path.join(ROOT, `data/snapshots/xbox/${g.slug}.json`))) {
     fail(`missing required snapshot data/snapshots/xbox/${g.slug}.json (game has xboxBigId)`);
   }
+  if (g.psnProductId && !fs.existsSync(path.join(ROOT, `data/snapshots/psn/${g.slug}.json`))) {
+    fail(`missing required snapshot data/snapshots/psn/${g.slug}.json (game has psnProductId)`);
+  }
   if (!fs.existsSync(path.join(ROOT, `data/meta/${g.slug}.json`))) {
     fail(`missing required meta data/meta/${g.slug}.json`);
   }
@@ -228,6 +245,8 @@ function validateSnapshotDir(dir, channel) {
     const id = snap.slug;
     const game = catalogBySlug.get(id);
     if (!slugs.has(id)) fail(`${rel}: slug not in catalog`);
+    if (channel === 'psn' && file !== `${id}.json`) fail(`${rel}: filename does not match slug ${id}`);
+    if (channel === 'psn' && !game?.psnProductId) fail(`${rel}: PSN snapshot has no catalog product mapping`);
     if (!Array.isArray(snap.regions) || snap.regions.length === 0) { fail(`${rel}: no regions`); continue; }
 
     for (const r of snap.regions) {
@@ -236,6 +255,14 @@ function validateSnapshotDir(dir, channel) {
       if (r.discountPct !== null && !(r.list > 0)) fail(`${rel} ${r.cc}: discount without list price`);
       const leaked = DERIVED_REGION_FIELDS.filter((field) => field in r);
       if (leaked.length) fail(`${rel} ${r.cc}: derived field(s) persisted (${leaked.join('/')} belong to build time)`);
+      if (channel === 'psn') {
+        const allowed = new Set(['cc', 'currency', 'amount', 'list', 'discountPct', 'saleEndsAt']);
+        const extra = Object.keys(r).filter((field) => !allowed.has(field));
+        if (extra.length) fail(`${rel} ${r.cc}: PSN membership/derived fields must not enter the public price row (${extra.join('/')})`);
+        if (r.discountPct !== null && !(r.list > r.amount)) fail(`${rel} ${r.cc}: PSN discount requires public list > public amount`);
+        if (r.discountPct === null && r.list !== null) fail(`${rel} ${r.cc}: PSN list price without a public discount`);
+        if (r.saleEndsAt !== null && Number.isNaN(Date.parse(r.saleEndsAt))) fail(`${rel} ${r.cc}: bad PSN saleEndsAt`);
+      }
       // 缺失汇率 = 构建期该区域会消失，硬失败
       if (r.currency !== 'USD' && !(rates[r.currency] > 0)) fail(`${rel} ${r.cc}: no exchange rate for ${r.currency}`);
     }
@@ -243,10 +270,12 @@ function validateSnapshotDir(dir, channel) {
     // requires US; eShop Americas is checked from catalog mappings above.
     const usRow = snap.regions.find((r) => r.cc === 'US');
     if (channel === 'steam' && (!usRow || usRow.currency !== 'USD')) fail(`${rel}: Steam snapshot requires a native US/USD observation`);
+    else if (channel === 'psn' && (!usRow || usRow.currency !== 'USD')) fail(`${rel}: PSN snapshot requires a native US/USD observation`);
     else if (usRow && usRow.currency !== 'USD') fail(`${rel}: US row currency ${usRow.currency} breaks the native-USD invariant`);
     // 稳定字典序（写盘守卫的语义比较依赖它）
     const ccs = snap.regions.map((r) => r.cc);
     if (ccs.join() !== [...ccs].sort().join()) fail(`${rel}: regions not sorted by cc`);
+    if (channel === 'psn' && (snap.regions.length !== 1 || ccs[0] !== 'US')) fail(`${rel}: PSN POC requires exactly one US region`);
 
     const prev = gitHeadJson(rel);
     if (!prev) {
@@ -266,10 +295,11 @@ function validateSnapshotDir(dir, channel) {
 validateSnapshotDir('data/snapshots/steam', 'steam');
 validateSnapshotDir('data/snapshots/eshop', 'eshop');
 validateSnapshotDir('data/snapshots/xbox', 'xbox');
+validateSnapshotDir('data/snapshots/psn', 'psn');
 
 // Cross-channel edition sanity: warn, do not block (platform pricing can truly differ).
 for (const g of catalog.games) {
-  const prices = ['steam', 'eshop', 'xbox'].flatMap((channel) => {
+  const prices = ['steam', 'eshop', 'xbox', 'psn'].flatMap((channel) => {
     const p = path.join(ROOT, `data/snapshots/${channel}/${g.slug}.json`);
     if (!fs.existsSync(p)) return [];
     const us = JSON.parse(fs.readFileSync(p, 'utf8')).regions?.find((r) => r.cc === 'US' && r.currency === 'USD');
@@ -295,11 +325,16 @@ if (fs.existsSync(histDir)) {
       if (!(atl.usd > 0)) fail(`${rel}: atl.${key} non-positive`);
       if (!['self', 'cheapshark', 'eshop-eu'].includes(atl.seed)) fail(`${rel}: atl.${key} unknown seed ${atl.seed}`);
     }
-    const chKey = { steam: 'pc', eshop: 'eshop-us', xbox: 'xbox-us' };
+    const chKey = { steam: 'pc', eshop: 'eshop-us', xbox: 'xbox-us', psn: 'psn-us' };
     for (const e of h.events ?? []) {
       if (!(e.usd > 0)) fail(`${rel}: event with non-positive usd`);
       const atl = h.atl?.[chKey[e.ch]];
       if (atl && e.usd < atl.usd - 0.005) fail(`${rel}: event ${e.d} usd ${e.usd} below recorded ATL ${atl.usd}`);
+    }
+    const historyGame = catalogBySlug.get(h.slug);
+    if (historyGame?.psnProductId) {
+      if (!h.events?.some((event) => event.ch === 'psn' && event.cc === 'US' && event.usd > 0)) fail(`${rel}: PSN mapping requires a public US history event`);
+      if (!(h.atl?.['psn-us']?.usd > 0)) fail(`${rel}: PSN mapping requires psn-us ATL`);
     }
   }
 }
@@ -353,12 +388,13 @@ if (fs.existsSync(metaDir)) {
     if (!(typeof m.headerImage === 'string' && /^https:\/\//.test(m.headerImage))) fail(`meta/${file}: missing absolute headerImage`);
     const game = catalogBySlug.get(m.slug);
     if (!Number.isInteger(game?.steamAppId)) {
-      // Two reviewed Nintendo meta sources exist: legacy human-reviewed US
-      // pages (nintendo-us, requires a reviewed nintendoUsSlug URL) and the
-      // scheduled EU Solr feed (nintendo-eu-solr, EU store URL; adopted
-      // 2026-07-17 because Nintendo US ToU forbids automated US page access).
+      // Two verified Nintendo meta sources exist: retained US product-page
+      // evidence (nintendo-us, bound to nintendoUsSlug) and the recurring EU
+      // Solr feed (nintendo-eu-solr). The separately authorized 2026-07-18 US
+      // discovery path may establish the former, while scheduled metadata
+      // remains on EU Solr to avoid recurring US product-page traffic.
       if (m.metaSource === 'nintendo-us') {
-        if (m.storeUrl !== `https://www.nintendo.com/us/store/products/${game?.nintendoUsSlug}/`) fail(`meta/${file}: Nintendo storeUrl does not match reviewed catalog URL`);
+        if (m.storeUrl !== `https://www.nintendo.com/us/store/products/${game?.nintendoUsSlug}/`) fail(`meta/${file}: Nintendo storeUrl does not match verified catalog URL`);
       } else if (m.metaSource === 'nintendo-eu-solr') {
         if (!game?.nsuids?.europe) fail(`meta/${file}: EU-sourced meta requires a europe NSUID in catalog`);
         if (m.storeUrl !== null && !/^https:\/\/www\.nintendo\.com\//.test(m.storeUrl)) fail(`meta/${file}: EU meta storeUrl must be an official nintendo.com URL`);
@@ -375,13 +411,16 @@ const sourceHealth = fs.existsSync(sourceHealthPath) ? readJson('data/source-hea
 if (!sourceHealth.updatedAt || Number.isNaN(Date.parse(sourceHealth.updatedAt))) fail('source-health: bad updatedAt');
 for (const [name, e] of Object.entries(sourceHealth.sources ?? {})) {
   if (!e || typeof e !== 'object') { fail(`source-health ${name}: entry must be an object`); continue; }
-  if (!e.lastAttemptAt || Number.isNaN(Date.parse(e.lastAttemptAt))) fail(`source-health ${name}: bad lastAttemptAt`);
+  const awaitingFirstFullRun = isAwaitingFirstFullRun(name, e);
+  if (!awaitingFirstFullRun && (!e.lastAttemptAt || Number.isNaN(Date.parse(e.lastAttemptAt)))) {
+    fail(`source-health ${name}: bad lastAttemptAt`);
+  }
   if (e.lastSuccessAt != null && Number.isNaN(Date.parse(e.lastSuccessAt))) fail(`source-health ${name}: bad lastSuccessAt`);
   if (e.lastSuccessAt && e.lastAttemptAt && Date.parse(e.lastSuccessAt) > Date.parse(e.lastAttemptAt)) fail(`source-health ${name}: success is after attempt`);
   if (!(Number.isInteger(e.consecutiveFailures) && e.consecutiveFailures >= 0)) fail(`source-health ${name}: bad consecutiveFailures`);
   if (typeof e.note !== 'string') fail(`source-health ${name}: note must be a string`);
 }
-for (const required of ['steam-regional', 'eshop-regional', 'meta', ...(offerCatalog.offers?.length ? ['steam-offers'] : []), ...(xboxIds.size ? ['xbox-us'] : [])]) {
+for (const required of ['steam-regional', 'eshop-regional', 'meta', ...(offerCatalog.offers?.length ? ['steam-offers'] : []), ...(xboxIds.size ? ['xbox-us'] : []), ...(psnProductIds.size ? ['psn-us'] : [])]) {
   if (!sourceHealth.sources?.[required]) fail(`source-health: missing required source ${required}`);
 }
 const metadataEligibleGames = catalog.games.filter((game) => Number.isInteger(game.steamAppId)
@@ -433,6 +472,7 @@ const health = {
     ...(offerCatalog.offers?.length && { 'steam-offers': sourceHealth.sources?.['steam-offers']?.lastSuccessAt ?? null }),
     'eshop-regional': sourceHealth.sources?.['eshop-regional']?.lastSuccessAt ?? null,
     ...(xboxIds.size && { 'xbox-us': sourceHealth.sources?.['xbox-us']?.lastSuccessAt ?? null }),
+    ...(psnProductIds.size && { 'psn-us': sourceHealth.sources?.['psn-us']?.lastSuccessAt ?? null }),
     // Extended-tier shard stamps (present only once extended games exist).
     ...Object.fromEntries(Object.entries(sourceHealth.sources ?? {})
       .filter(([key]) => /:extended-\d+$/.test(key))

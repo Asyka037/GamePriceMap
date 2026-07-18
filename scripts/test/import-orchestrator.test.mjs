@@ -54,6 +54,42 @@ function batch(root, id = 'steam-test-0001') {
   });
 }
 
+function psnBatch(root, id = 'psn-test-0001') {
+  writeJson(root, 'data/catalog.json', { games: [{
+    slug: 'existing-game',
+    title: 'Existing Game',
+    steamAppId: 111,
+    nsuids: null,
+    platforms: ['pc'],
+    tier: 'core',
+    addedAt: '2026-07-08',
+  }] });
+  git(root, ['add', 'data/catalog.json']);
+  git(root, ['commit', '--no-gpg-sign', '-m', 'add PSN mapping target']);
+  return createBatchPlan({
+    batchId: id,
+    baseCommit: headCommit(root),
+    branch: 'main',
+    addedAt: '2026-07-18',
+    approvalPolicy: 'v2-auto-approve',
+    items: [{
+      key: 'psn:UP0700-PPSA04610_00-ELDENRING0000000',
+      catalogAction: 'add_platform_mapping',
+      slug: 'existing-game',
+      title: 'Existing Game',
+      steamAppId: null,
+      nsuids: null,
+      psnProductId: 'UP0700-PPSA04610_00-ELDENRING0000000',
+      psnConceptId: '10000333',
+      psnEdition: 'standard',
+      platforms: ['ps5'],
+      evidenceDigest: sha256('psn evidence'),
+      humanDecisionDigest: sha256('psn approved'),
+      verifiedAt: '2026-07-18T00:00:00Z',
+    }],
+  });
+}
+
 function fakeRuntime({ failAt = null } = {}) {
   let failed = false;
   return {
@@ -81,6 +117,29 @@ function fakeRuntime({ failAt = null } = {}) {
   };
 }
 
+function fakePsnRuntime(executed = []) {
+  return {
+    psnAutomationAuthorized: true,
+    linkDependencies() {},
+    executeStep(step, worktree, plan, logFile) {
+      executed.push(step);
+      fs.mkdirSync(path.dirname(logFile), { recursive: true });
+      fs.writeFileSync(logFile, `${step}\n`);
+      const slug = plan.items[0].slug;
+      if (step === 'psn') writeJson(worktree, `data/snapshots/psn/${slug}.json`, {
+        slug, regions: [{ cc: 'US', currency: 'USD', amount: 59.99, list: null, discountPct: null, saleEndsAt: null }],
+      });
+      if (step === 'meta') writeJson(worktree, `data/meta/${slug}.json`, {
+        slug, name: 'Existing Game', headerImage: 'https://example.com/cover.jpg', genres: ['Action'], reviewCount: 10,
+      });
+      if (step === 'history') writeJson(worktree, `data/history/${slug}.json`, {
+        slug, events: [{ d: '2026-07-18', ch: 'psn', cc: 'US', usd: 59.99 }], atl: { 'psn-us': { usd: 59.99, date: '2026-07-18', seed: 'self' } },
+      });
+      if (step === 'validate') writeJson(worktree, 'data/health.json', { updatedAt: '2026-07-18T00:00:00Z', games: 1, sources: {} });
+    },
+  };
+}
+
 test('orchestrator keeps main untouched until all gates pass and records an idempotent receipt', () => {
   const root = initRepo();
   const plan = batch(root);
@@ -93,6 +152,7 @@ test('orchestrator keeps main untouched until all gates pass and records an idem
     runtime: fakeRuntime(),
   });
   assert.equal(result.state, 'applied');
+  assert.equal(result.steps.psn.status, 'completed', 'ordinary batches retain an audited no-op PSN checkpoint');
   assert.notEqual(headCommit(root), base);
   const receipt = readJsonFile(path.join(root, 'data', 'imports', 'steam-test-0001.json'));
   assert.equal(receipt.batchDigest, plan.batchDigest);
@@ -106,6 +166,34 @@ test('orchestrator keeps main untouched until all gates pass and records an idem
   git(root, ['add', 'data/catalog.json']);
   git(root, ['commit', '--no-gpg-sign', '-m', 'later catalog batch']);
   assert.deepEqual(startImportRun(root, plan, { stateRoot, runtime: fakeRuntime() }), { noOp: true, batchId: plan.batchId });
+});
+
+test('PSN has a dedicated staged snapshot step and direct orchestration is authorization-gated', () => {
+  const root = initRepo();
+  const plan = psnBatch(root);
+  const base = headCommit(root);
+  const stateRoot = path.join(root, 'private', 'game-library', 'import');
+  const unauthorized = fakePsnRuntime();
+  delete unauthorized.psnAutomationAuthorized;
+  assert.throws(() => startImportRun(root, plan, {
+    stateRoot,
+    runId: 'psn-test-0001-closed',
+    runtime: unauthorized,
+  }), /disabled before worktree staging\/network/u);
+  assert.equal(headCommit(root), base);
+  assert.equal(fs.existsSync(path.join(stateRoot, 'runs', 'psn-test-0001-closed')), false);
+
+  const executed = [];
+  const applied = startImportRun(root, plan, {
+    stateRoot,
+    runId: 'psn-test-0001-authorized',
+    runtime: fakePsnRuntime(executed),
+  });
+  assert.equal(applied.state, 'applied');
+  assert.deepEqual(executed, ['steam', 'eshop', 'psn', 'meta', 'history', 'test', 'validate', 'build']);
+  const catalog = readJsonFile(path.join(root, 'data/catalog.json'));
+  assert.equal(catalog.games[0].psnProductId, 'UP0700-PPSA04610_00-ELDENRING0000000');
+  assert.equal(fs.existsSync(path.join(root, 'data/snapshots/psn/existing-game.json')), true);
 });
 
 test('injected network failure pauses with main unchanged and resume starts from the checkpoint', () => {
@@ -348,6 +436,6 @@ test('tampered checkpoint and sealed commits are audited before execution or pro
 });
 
 test('every built-in subprocess step has a finite explicit timeout', () => {
-  assert.deepEqual(Object.keys(STEP_TIMEOUT_MS).sort(), ['build', 'eshop', 'history', 'meta', 'steam', 'test', 'validate']);
+  assert.deepEqual(Object.keys(STEP_TIMEOUT_MS).sort(), ['build', 'eshop', 'history', 'meta', 'psn', 'steam', 'test', 'validate']);
   assert.equal(Object.values(STEP_TIMEOUT_MS).every((value) => Number.isFinite(value) && value > 0), true);
 });

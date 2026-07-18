@@ -15,7 +15,7 @@ export function getStaticPaths() {
 const { slug } = Astro.params;
 const bundle = gameBundle(slug!);
 const { game } = bundle;
-const atlLabels: Record<string, string> = { pc: 'PC (any store, US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)', 'xbox-us': 'Xbox Store US' };
+const atlLabels: Record<string, string> = { pc: 'PC (any store, US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)', 'xbox-us': 'Xbox Store US', 'psn-us': 'PlayStation Store US' };
 const seedLabels: Record<string, string> = {
   self: 'observed by our tracker',
   cheapshark: 'all-time record via CheapShark',
@@ -32,6 +32,7 @@ const channelDefs = [
   { id: 'steam', label: 'Steam · US', color: 'var(--teal)', lineStyle: 'solid', dash: '', marker: 'square', source: sourceKeyFor('steam', game), tracked: !!bundle.steam },
   { id: 'eshop', label: 'eShop · US', color: 'var(--red)', lineStyle: 'dash', dash: '10 6', marker: 'circle', source: sourceKeyFor('eshop', game), tracked: !!bundle.eshop },
   { id: 'xbox', label: 'Xbox · US', color: 'var(--text-2)', lineStyle: 'dot', dash: '3 6', marker: 'diamond', source: sourceKeyFor('xbox', game), tracked: !!bundle.xbox, fallbackSince: '2026-07-12' },
+  { id: 'psn', label: 'PlayStation · US', color: '#006fcd', lineStyle: 'dashdot', dash: '12 5 3 5', marker: 'triangle', source: sourceKeyFor('psn', game), tracked: !!bundle.psn, fallbackSince: '2026-07-18' },
 ].filter((channel) => channel.tracked);
 
 const chart = multiStepChartModel(historyEvents, {
@@ -152,6 +153,10 @@ const chartDescription = channels.map((channel) => {
                         <polygon points={`${point.x},${point.y - 6} ${point.x + 6},${point.y} ${point.x},${point.y + 6} ${point.x - 6},${point.y}`} class="trend-dot" style={`fill:${channel.color};`} vector-effect="non-scaling-stroke">
                           <title>{channel.label}: {point.d} — {fmtUsd(point.usd)}{point.pct ? ` (−${point.pct}%)` : ''}</title>
                         </polygon>
+                      ) : channel.marker === 'triangle' ? (
+                        <polygon points={`${point.x},${point.y - 6} ${point.x + 6},${point.y + 5} ${point.x - 6},${point.y + 5}`} class="trend-dot" style={`fill:${channel.color};`} vector-effect="non-scaling-stroke">
+                          <title>{channel.label}: {point.d} — {fmtUsd(point.usd)}{point.pct ? ` (−${point.pct}%)` : ''}</title>
+                        </polygon>
                       ) : (
                         <rect x={point.x - 5} y={point.y - 5} width="10" height="10" class="trend-dot" style={`fill:${channel.color};`} vector-effect="non-scaling-stroke">
                           <title>{channel.label}: {point.d} — {fmtUsd(point.usd)}{point.pct ? ` (−${point.pct}%)` : ''}</title>
@@ -165,7 +170,7 @@ const chartDescription = channels.map((channel) => {
             <p class="trend-empty">Automatic tracking is active; the first US price observation has not been recorded yet.</p>
           )}
         </figure>
-        <p class="trend-note">Steam and eShop are checked daily; Xbox is checked weekly. Flat segments mean later checks found no price change, and each line stops at that store’s last successful check.</p>
+        <p class="trend-note">Steam and eShop are checked daily; Xbox and PlayStation are checked weekly. Flat segments mean later checks found no price change, and each line stops at that store’s last successful check.</p>
       </div>
 
       <div class="detail-cols history-detail-cols">
@@ -245,12 +250,14 @@ const chartDescription = channels.map((channel) => {
   .trend-swatch { position: relative; display: inline-block; width: 26px; height: 3px; flex: 0 0 26px; background: currentColor; }
   .trend-swatch.is-dash { background: repeating-linear-gradient(90deg, currentColor 0 8px, transparent 8px 12px); }
   .trend-swatch.is-dot { background: repeating-linear-gradient(90deg, currentColor 0 3px, transparent 3px 7px); }
+  .trend-swatch.is-dashdot { background: repeating-linear-gradient(90deg, currentColor 0 9px, transparent 9px 13px, currentColor 13px 16px, transparent 16px 20px); }
   .trend-swatch::after {
     content: ''; position: absolute; left: 10px; top: -3px; width: 7px; height: 7px;
     background: currentColor; border: 1.5px solid var(--ink);
   }
   .trend-swatch.marker-circle::after { border-radius: 50%; }
   .trend-swatch.marker-diamond::after { transform: rotate(45deg); }
+  .trend-swatch.marker-triangle::after { clip-path: polygon(50% 0, 100% 100%, 0 100%); }
   .trend-chart-scroll {
     width: 100%; max-width: 100%; min-width: 0; overflow-x: auto;
     padding: 0 4px 4px 0;

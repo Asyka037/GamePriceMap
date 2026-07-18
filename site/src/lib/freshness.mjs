@@ -21,6 +21,7 @@ const SOURCE_BUDGET_HOURS = {
   'eshop-regional': 26,
   'steam-offers': 8 * 24,
   'xbox-us': 8 * 24,
+  'psn-us': 8 * 24,
   'deals-steam': 26,
   'deals-eshop': 26,
   'deals-stores': 26,

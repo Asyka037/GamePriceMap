@@ -1,4 +1,4 @@
-/** Pure parser for one reviewed Nintendo US base-game product page. */
+/** Pure parser for one identity-verified Nintendo US base-game product page. */
 import { titleMatches } from './match.mjs';
 import { isNintendoBaseGameNsuid } from './validation.mjs';
 
@@ -91,10 +91,10 @@ export function parseNintendoMeta(html, {
 
 // --- EU Solr metadata (scheduled path since 2026-07-17) -----------------------
 //
-// Nintendo US Terms of Use prohibit automated access to US store pages, so the
-// scheduled NS-only metadata refresh reads the public Nintendo-Europe Solr
-// index instead (already the discovery/EU-seed source in this repo). US pages
-// are only ever opened by a human during one-time candidate review.
+// The scheduled NS-only metadata refresh continues to use Nintendo-Europe Solr
+// to minimize load. The separately authorized US discovery path is one-time,
+// sitemap-located, persistently capped at 100 product pages/day, and is not a
+// reason to turn weekly metadata refreshes into repeated US page requests.
 
 export function euSolrMetaUrl(euNsuid) {
   const q = new URLSearchParams({

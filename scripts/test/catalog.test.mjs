@@ -1,6 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { applyBatchToCatalog, catalogIndexes, expectedImportArtifacts, validateCatalogGame } from '../lib/catalog.mjs';
+import {
+  PSN_POC_GAME_LIMIT,
+  applyBatchToCatalog,
+  catalogIndexes,
+  expectedImportArtifacts,
+  validateCatalogGame,
+} from '../lib/catalog.mjs';
 import { createBatchPlan, sha256 } from '../lib/import-run.mjs';
 
 function baseGame(overrides = {}) {
@@ -97,4 +103,40 @@ test('catalog schema rejects ID/platform mismatches and duplicate external IDs',
   assert.throws(() => validateCatalogGame(baseGame({ platforms: ['ps5'] })), /requires pc/);
   assert.throws(() => validateCatalogGame(baseGame({ steamAppId: null })), /no supported store/);
   assert.throws(() => catalogIndexes({ games: [baseGame(), baseGame({ slug: 'other' })] }), /duplicate Steam AppID/);
+});
+
+test('PSN POC mappings pin one standard product SKU and a PlayStation platform', () => {
+  const mapping = {
+    psnProductId: 'UP9000-PPSA08329_00-GOWRAGNAROK00000',
+    psnConceptId: '10001850',
+    psnEdition: 'standard',
+    platforms: ['pc', 'ps5'],
+  };
+  assert.doesNotThrow(() => validateCatalogGame(baseGame(mapping)));
+  assert.throws(() => validateCatalogGame(baseGame({ ...mapping, psnEdition: 'deluxe' })), /requires psnEdition/);
+  assert.throws(() => validateCatalogGame(baseGame({ ...mapping, platforms: ['pc'] })), /requires a PlayStation platform/);
+  assert.throws(() => validateCatalogGame(baseGame({ ...mapping, psnProductId: '10001850' })), /bad psnProductId/);
+  assert.throws(() => validateCatalogGame(baseGame({ psnConceptId: '10001850' })), /requires psnProductId/);
+  assert.throws(() => catalogIndexes({ games: [
+    baseGame(mapping),
+    baseGame({ ...mapping, slug: 'other', steamAppId: 222, psnConceptId: '10009999' }),
+  ] }), /duplicate PSN product ID/);
+});
+
+test('PSN POC cannot grow past 20 mappings before the two-week stability milestone', () => {
+  const psnGame = (index) => baseGame({
+    slug: `psn-game-${index}`,
+    title: `PSN Game ${index}`,
+    steamAppId: 1000 + index,
+    psnProductId: `UP9000-PPSA${String(index).padStart(5, '0')}_00-${String(index).padStart(16, '0')}`,
+    psnEdition: 'standard',
+    platforms: ['pc', 'ps5'],
+  });
+  assert.equal(PSN_POC_GAME_LIMIT, 20);
+  assert.doesNotThrow(() => catalogIndexes({
+    games: Array.from({ length: PSN_POC_GAME_LIMIT }, (_, index) => psnGame(index + 1)),
+  }));
+  assert.throws(() => catalogIndexes({
+    games: Array.from({ length: PSN_POC_GAME_LIMIT + 1 }, (_, index) => psnGame(index + 1)),
+  }), /PSN POC has 21 games \(limit 20/u);
 });

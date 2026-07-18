@@ -21,6 +21,7 @@ function candidateSuffix(candidate) {
 
 export function slugBase(title, fallback = 'game') {
   const slug = String(title ?? '')
+    .replace(/[™®©]/gu, '')
     .normalize('NFKD')
     .replace(/[\u0300-\u036f]/gu, '')
     .toLowerCase()
@@ -95,9 +96,10 @@ export function buildFrozenBatchPlan(candidates, {
   batchId = null,
   now = Date.now(),
   maxVerifiedAgeMs = DEFAULT_VERIFICATION_TTL_MS,
+  approvalPolicy = null,
 } = {}) {
   const items = projectEligibleBatch(candidates, { limit, now, maxVerifiedAgeMs });
-  if (items.length === 0) throw new Error('没有当前批准且核验有效的待导入候选');
+  if (items.length === 0) throw new Error('没有经当前批准策略放行且核验有效的待导入候选');
   const families = new Set(items.map((item) => item.key.split(':', 1)[0]));
   const prefix = families.size === 1 ? [...families][0] : 'mixed';
   const digestSuffix = sha256(canonicalJson({ baseCommit, items })).slice('sha256:'.length, 'sha256:'.length + 12);
@@ -108,6 +110,7 @@ export function buildFrozenBatchPlan(candidates, {
     branch,
     addedAt,
     items,
+    ...(approvalPolicy ? { approvalPolicy } : {}),
   });
 }
 
@@ -121,6 +124,9 @@ export function candidateFromBatchItem(item) {
     steamAppId: item.steamAppId,
     nsuids: item.nsuids,
     nintendoUsSlug: item.nintendoUsSlug,
+    psnProductId: item.psnProductId,
+    psnConceptId: item.psnConceptId,
+    psnEdition: item.psnEdition,
     primaryRegionalChannel: item.primaryRegionalChannel,
     evidenceDigest: item.evidenceDigest,
     humanDecision: '批准',

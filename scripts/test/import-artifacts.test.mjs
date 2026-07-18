@@ -79,3 +79,33 @@ test('import artifacts bind the reviewed Nintendo US slug and platform generatio
   writeJson(root, 'data/catalog.json', catalog);
   assert.throws(() => validateImportArtifacts(root, plan), /platform generation drifted/);
 });
+
+test('PSN import artifacts require the mapped identity, native US snapshot, and isolated history event', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'gpm-import-artifacts-psn-'));
+  const item = {
+    key: 'psn:UP0700-PPSA04610_00-ELDENRING0000000',
+    slug: 'existing-game',
+    title: 'Existing Game',
+    steamAppId: null,
+    nsuids: null,
+    psnProductId: 'UP0700-PPSA04610_00-ELDENRING0000000',
+    psnConceptId: '10000333',
+    psnEdition: 'standard',
+    platforms: ['ps5'],
+  };
+  writeJson(root, 'data/catalog.json', { games: [{ ...item, platforms: ['pc', 'ps5'] }] });
+  writeJson(root, 'data/snapshots/psn/existing-game.json', {
+    slug: item.slug,
+    regions: [{ cc: 'US', currency: 'USD', amount: 59.99 }],
+  });
+  writeJson(root, 'data/meta/existing-game.json', {
+    slug: item.slug, name: item.title, headerImage: 'https://example.com/cover.jpg',
+  });
+  writeJson(root, 'data/history/existing-game.json', {
+    slug: item.slug, events: [{ d: '2026-07-18', ch: 'psn', cc: 'US', usd: 59.99 }], atl: {},
+  });
+  const plan = { items: [item] };
+  assert.deepEqual(validateImportArtifacts(root, plan).items[0].channels, ['psn']);
+  writeJson(root, 'data/history/existing-game.json', { slug: item.slug, events: [], atl: {} });
+  assert.throws(() => validateImportArtifacts(root, plan), /missing first psn US observation/u);
+});

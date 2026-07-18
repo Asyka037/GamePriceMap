@@ -1,0 +1,81 @@
+{
+  "response": {
+    "numFound": 7,
+    "docs": [
+      {
+        "title": "Example Game™",
+        "nsuid_txt": ["70010000012345"],
+        "type": "GAME",
+        "playable_on_txt": ["HAC"],
+        "system_names_txt": ["Nintendo Switch"],
+        "digital_version_b": true,
+        "eshop_removed_b": false,
+        "date_from": "2024-05-10T00:00:00Z",
+        "price_regular_f": 29.99,
+        "price_lowest_f": 19.99,
+        "publisher": "Example Publisher",
+        "developer_txt": ["Example Studio"],
+        "hits_i": 999999,
+        "score": 12345.67
+      },
+      {
+        "title": "Example Game Deluxe Edition",
+        "nsuid_txt": ["70010000012346"],
+        "type": "GAME",
+        "playable_on_txt": ["HAC"],
+        "system_names_txt": ["Nintendo Switch"],
+        "date_from": "2024-05-10T00:00:00Z",
+        "price_regular_f": 39.99
+      },
+      {
+        "title": "Future Game",
+        "nsuid_txt": ["70010000022345"],
+        "type": "GAME",
+        "playable_on_txt": ["BEE"],
+        "system_names_txt": ["Nintendo Switch 2"],
+        "date_from": "2027-01-01T00:00:00Z",
+        "price_regular_f": 69.99
+      },
+      {
+        "title": "Zero Price Game",
+        "nsuid_txt": ["70010000032345"],
+        "type": "GAME",
+        "playable_on_txt": ["HAC"],
+        "system_names_txt": ["Nintendo Switch"],
+        "date_from": "2024-01-01T00:00:00Z",
+        "price_lowest_f": 0,
+        "price_regular_f": 29.99
+      },
+      {
+        "title": "Conflict Game",
+        "nsuid_txt": ["70010000042345"],
+        "type": "GAME",
+        "playable_on_txt": ["HAC"],
+        "system_names_txt": ["Nintendo Switch 2"],
+        "date_from": "2024-01-01T00:00:00Z",
+        "price_regular_f": 49.99
+      },
+      {
+        "title": "Switch 2 Game",
+        "nsuid_txt": ["70010000052345"],
+        "type": "GAME",
+        "playable_on_txt": ["BEE"],
+        "system_names_txt": ["Nintendo Switch 2"],
+        "digital_version_b": false,
+        "eshop_removed_b": false,
+        "date_from": "2025-06-05T00:00:00Z",
+        "price_regular_f": 69.99,
+        "publisher_txt": ["Nintendo"]
+      },
+      {
+        "title": "DLC-shaped Game",
+        "nsuid_txt": ["70050000012345"],
+        "type": "GAME",
+        "playable_on_txt": ["HAC"],
+        "system_names_txt": ["Nintendo Switch"],
+        "date_from": "2024-01-01T00:00:00Z",
+        "price_regular_f": 9.99
+      }
+    ]
+  }
+}

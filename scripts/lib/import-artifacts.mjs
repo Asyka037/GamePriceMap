@@ -53,6 +53,13 @@ export function validateImportArtifacts(root, plan, { minimumCoverageRatio = 0.8
     if (item.nintendoUsSlug && game.nintendoUsSlug !== item.nintendoUsSlug) {
       throw new Error(`${item.key}: staged Nintendo US product slug drifted`);
     }
+    if (item.psnProductId) {
+      if (game.psnProductId !== item.psnProductId
+        || (game.psnConceptId ?? null) !== (item.psnConceptId ?? null)
+        || game.psnEdition !== item.psnEdition) {
+        throw new Error(`${item.key}: staged PSN identity drifted`);
+      }
+    }
     if (item.nsuids && Object.values(item.nsuids).some(Boolean)) {
       const expectedGeneration = item.platforms?.filter((platform) => platform === 'switch' || platform === 'switch-2');
       const actualGeneration = game.platforms?.filter((platform) => platform === 'switch' || platform === 'switch-2');
@@ -91,6 +98,20 @@ export function validateImportArtifacts(root, plan, { minimumCoverageRatio = 0.8
       });
       files.add(rel);
       if (item.nsuids.americas) channels.push('eshop');
+    }
+
+    if (item.psnProductId) {
+      const rel = `data/snapshots/psn/${item.slug}.json`;
+      const snapshot = readJson(root, rel);
+      validateSnapshot(snapshot, {
+        slug: item.slug,
+        label: rel,
+        expectedCcs: ['US'],
+        requireUs: true,
+        minimumRatio: 1,
+      });
+      files.add(rel);
+      channels.push('psn');
     }
 
     const metaRel = `data/meta/${item.slug}.json`;

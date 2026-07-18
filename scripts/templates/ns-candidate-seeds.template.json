@@ -1,28 +1,19 @@
 {
-  "$comment": "Template only. Do not paste an unreviewed title list. Every real row needs a frozen ns:<NSUID> candidateId, dated paid identity evidence, and dated popularity evidence. Use createNintendoSeedDocument/sealManualUsEvidence/sealDatedEvidence to generate digests. For a mapping onto an existing catalog game, set catalogAction to add_platform_mapping and use that existing game slug.",
+  "$comment": "Template only. Do not paste an unreviewed title list. A new-game row may start without an NSUID only when it carries retained, dated Nintendo-rank or Steam-heat evidence; discovery then assigns the stable candidateId from verified regional identity. If candidateId is supplied, it must stay bound to NSUID evidence. An optional nintendoUsSlugHint must be an exact retained official-sitemap product slug and is rechecked against the current sitemap. For an existing catalog game, set catalogAction to add_platform_mapping and use that game slug.",
   "schemaVersion": 1,
   "kind": "nintendo-candidate-seeds",
   "generatedAt": "REPLACE_WITH_ISO_TIMESTAMP",
   "candidates": [
     {
-      "candidateId": "ns:REPLACE_WITH_REVIEWED_BASE_GAME_NSUID",
+      "candidateId": null,
       "catalogAction": "new_game",
       "slug": "replace-with-reviewed-slug",
       "title": "REPLACE WITH REVIEWED TITLE",
       "platforms": ["switch"],
       "publisher": "REPLACE WITH REVIEWED PUBLISHER",
       "developer": "REPLACE WITH REVIEWED DEVELOPER",
-      "manualUsEvidence": {
-        "sourceUrl": "https://www.nintendo.com/us/store/products/replace-with-reviewed-product-slug/",
-        "productSlug": "replace-with-reviewed-product-slug",
-        "nsuid": "REPLACE_WITH_REVIEWED_BASE_GAME_NSUID",
-        "title": "REPLACE WITH REVIEWED TITLE",
-        "reviewedAt": "REPLACE_WITH_ISO_TIMESTAMP",
-        "releasedAt": "REPLACE_WITH_ISO_TIMESTAMP",
-        "paid": true,
-        "generation": "HAC",
-        "evidenceDigest": "GENERATE_WITH_sealManualUsEvidence"
-      },
+      "nintendoUsSlugHint": null,
+      "manualUsEvidence": null,
       "seedEvidence": [],
       "exclusivityEvidence": null,
       "steamMatchEvidence": null,

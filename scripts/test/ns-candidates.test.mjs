@@ -22,7 +22,11 @@ import {
   validateNintendoSeedDocument,
   validateNintendoSuggestionDocument,
 } from '../lib/ns-candidates.mjs';
-import { assertSafeDiscoveryPaths } from '../discover-nsuid.mjs';
+import {
+  assertSafeDiscoveryPaths,
+  catalogTargets,
+  validateNintendoUsSlugMapDocument,
+} from '../discover-nsuid.mjs';
 import { applyBatchToCatalog, validateCatalogGame } from '../lib/catalog.mjs';
 import {
   APPLY_STATUS,
@@ -64,6 +68,37 @@ function regional(region, nsuid, { generation = 'HAC', title = 'Example Game', .
   });
 }
 
+function automaticAmericas(nsuid = '70010000000011', {
+  title = 'Example Game',
+  generation = 'HAC',
+  productSlug = 'example-game-switch',
+} = {}) {
+  const sourceUrl = `https://www.nintendo.com/us/store/products/${productSlug}/`;
+  return sealRegionalDiscoveryEvidence({
+    status: 'matched',
+    evidenceKind: 'nintendo_us_current_product_page',
+    region: 'americas',
+    manual: false,
+    nsuid,
+    matchedTitle: title,
+    generation,
+    paid: true,
+    released: true,
+    releasedAt: '2025-01-01T00:00:00.000Z',
+    productSlug,
+    sourceUrl,
+    requestedUrl: sourceUrl,
+    finalUrl: sourceUrl,
+    priceSourceUrl: `https://api.ec.nintendo.com/v1/price?country=US&ids=${nsuid}&lang=en`,
+    sitemapUrl: 'https://www.nintendo.com/us/store/sitemap.xml',
+    sitemapDigest: sha256Digest({ sitemap: 1 }),
+    locatedBy: 'official_sitemap_exact_slug',
+    collectedAt: '2026-07-17T00:00:00.000Z',
+    pageSourceDigest: sha256Digest({ page: 1 }),
+    sourceDigest: sha256Digest({ page: 1, price: 1 }),
+  });
+}
+
 function officialEvidence(classification, extra = {}) {
   return sealDatedEvidence({
     kind: 'official_platform_evidence',
@@ -92,14 +127,20 @@ test('strict CLI accepts --input and catalog compatibility, rejects ambiguous/un
     apply: true,
     inputPath: 'seeds.json',
     outputPath: 'out.json',
+    usProductSlugMapPath: null,
     slugs: [],
   });
   assert.deepEqual(parseDiscoverNsuidArgs(['zelda-botw']), {
     apply: false,
     inputPath: null,
     outputPath: null,
+    usProductSlugMapPath: null,
     slugs: ['zelda-botw'],
   });
+  assert.equal(
+    parseDiscoverNsuidArgs(['--us-product-slug-map=us-map.json']).usProductSlugMapPath,
+    'us-map.json',
+  );
   assert.throws(() => parseDiscoverNsuidArgs(['--input', 'a.json', 'slug']), { code: 'input_slug_conflict' });
   assert.throws(() => parseDiscoverNsuidArgs(['--wat']), { code: 'unknown_cli_option' });
   assert.throws(() => parseDiscoverNsuidArgs(['--output', 'x.json']), { code: 'output_requires_apply' });
@@ -111,6 +152,50 @@ test('strict CLI accepts --input and catalog compatibility, rejects ambiguous/un
     () => assertSafeDiscoveryPaths({ inputPath: 'reviewed.json', outputPath: 'reviewed.json' }),
     { code: 'input_output_conflict' },
   );
+  assert.throws(
+    () => assertSafeDiscoveryPaths({ usProductSlugMapPath: 'us-map.json', outputPath: 'us-map.json' }),
+    { code: 'slug_map_output_conflict' },
+  );
+});
+
+test('audited US product slug map is digest-bound and schema checked', () => {
+  const payload = {
+    schemaVersion: 1,
+    kind: 'nintendo-us-product-slug-map',
+    generatedAt: '2026-07-18T00:00:00.000Z',
+    mappings: { 'example-game': 'example-game-switch' },
+  };
+  const document = { ...payload, documentDigest: sha256Digest(payload) };
+  assert.equal(validateNintendoUsSlugMapDocument(document), document);
+  assert.throws(() => validateNintendoUsSlugMapDocument({
+    ...document,
+    mappings: { 'example-game': 'tampered-switch' },
+  }), /documentDigest mismatch/u);
+});
+
+test('catalog enrichment selects partially mapped games and preserves known regional identities', () => {
+  const catalog = {
+    games: [{
+      slug: 'partial-game',
+      title: 'Partial Game',
+      platforms: ['pc', 'switch'],
+      nsuids: { americas: null, europe: '70010000000012', japan: '70010000000013' },
+    }, {
+      slug: 'complete-game',
+      title: 'Complete Game',
+      platforms: ['switch'],
+      nsuids: {
+        americas: '70010000000021',
+        europe: '70010000000022',
+        japan: '70010000000023',
+      },
+    }],
+  };
+  const [candidate] = catalogTargets(catalog, [], new Map([['partial-game', 'partial-game-switch']]));
+  assert.equal(candidate.catalogAction, 'add_platform_mapping');
+  assert.deepEqual(candidate.knownNsuids, catalog.games[0].nsuids);
+  assert.equal(candidate.nintendoUsSlugHint, 'partial-game-switch');
+  assert.throws(() => catalogTargets(catalog, ['complete-game']), /already mapped/u);
 });
 
 test('manual US evidence is exact URL/title/NSUID/generation bound and detects drift', () => {
@@ -128,7 +213,7 @@ test('manual US evidence is exact URL/title/NSUID/generation bound and detects d
   assert.throws(() => validateManualUsEvidence(guessed, candidate), { code: 'manual_us_url_slug_mismatch' });
 });
 
-test('seed document requires frozen identity and dated evidence; document drift is rejected', () => {
+test('seed document accepts trusted pre-discovery popularity evidence and rejects unsubstantiated rows', () => {
   const candidate = seed();
   const document = createNintendoSeedDocument({
     generatedAt: '2026-07-17T00:00:00.000Z',
@@ -141,9 +226,22 @@ test('seed document requires frozen identity and dated evidence; document drift 
 
   const unsupported = { ...candidate, candidateId: null, manualUsEvidence: null, seedEvidence: [] };
   assert.throws(() => validateNintendoSeedCandidate(unsupported), { code: 'missing_candidate_id' });
+  const preDiscovery = createNintendoSeedDocument({
+    generatedAt: '2026-07-17T00:00:00.000Z',
+    candidates: [unsupported],
+  });
+  assert.equal(validateNintendoSeedDocument(preDiscovery), preDiscovery);
+  assert.equal(preDiscovery.candidates[0].candidateId, null);
+  assert.throws(
+    () => createNintendoSeedDocument({
+      generatedAt: '2026-07-17T00:00:00.000Z',
+      candidates: [{ ...unsupported, popularityEvidence: [] }],
+    }),
+    { code: 'seed_evidence_missing' },
+  );
   assert.throws(
     () => validateNintendoSeedCandidate({ ...unsupported, candidateId: 'ns:70010000000011' }),
-    { code: 'seed_evidence_missing' },
+    { code: 'candidate_id_unbound' },
   );
 });
 
@@ -165,9 +263,13 @@ test('candidateId freezes after first assignment; missing IDs use AM then EU the
   }), 'ns:70010000000012');
 });
 
-test('discovery orchestration calls only injected EU/JP sources; Americas comes solely from manual evidence', async () => {
+test('discovery orchestration calls injected Americas/EU/JP sources and keeps legacy manual US evidence', async () => {
   const calls = [];
   const [result] = await discoverNintendoCandidates([seed()], {
+    discoverAmericas: async () => {
+      calls.push('us');
+      return { status: 'none', reason: 'not_found' };
+    },
     discoverEurope: async () => {
       calls.push('eu');
       return regional('europe', '70010000000012');
@@ -177,7 +279,7 @@ test('discovery orchestration calls only injected EU/JP sources; Americas comes 
       return regional('japan', '70010000000013');
     },
   });
-  assert.deepEqual(calls, ['eu', 'jp']);
+  assert.deepEqual(calls, ['us', 'eu', 'jp']);
   assert.equal(result.nsuids.americas, '70010000000011');
   assert.equal(result.nsuidAm, result.nsuids.americas);
   assert.equal(result.nsuidEu, result.nsuids.europe);
@@ -194,6 +296,35 @@ test('discovery orchestration calls only injected EU/JP sources; Americas comes 
     result.manualUsEvidence.sourceDigest,
     result.manualUsEvidence.sourceEvidence.evidenceDigest,
   );
+});
+
+test('catalog enrichment calls only discovery sources for missing mappings', async () => {
+  const calls = [];
+  const candidate = seed({
+    candidateId: null,
+    catalogAction: 'add_platform_mapping',
+    knownNsuids: {
+      americas: '70010000000011',
+      europe: '70010000000012',
+      japan: null,
+    },
+    knownNintendoUsSlug: 'example-game-switch',
+    manualUsEvidence: null,
+    popularityEvidence: [],
+  });
+  const [result] = await discoverNintendoCandidates([candidate], {
+    discoverAmericas: async () => { calls.push('us'); return automaticAmericas(); },
+    discoverEurope: async () => { calls.push('eu'); return regional('europe', '70010000000012'); },
+    discoverJapan: async () => { calls.push('jp'); return regional('japan', '70010000000013'); },
+    existingNsuids: new Map([
+      ['70010000000011', 'example-game'],
+      ['70010000000012', 'example-game'],
+    ]),
+  });
+  assert.deepEqual(calls, ['jp']);
+  assert.equal(result.verifyStatus, 'passed');
+  assert.equal(result.nsuids.japan, '70010000000013');
+  assert.equal(result.primaryRegionalChannel, null);
 });
 
 test('a passed suggestion projects into the shared Phase B plan and a valid Nintendo-only catalog row', () => {
@@ -243,7 +374,53 @@ test('a passed suggestion projects into the shared Phase B plan and a valid Nint
   });
 });
 
-test('catalog compatibility candidates without manual US evidence stay explicit exceptions', () => {
+test('machine-sealed Americas evidence can auto-pass an enrichment without popularity evidence', () => {
+  const candidate = seed({
+    candidateId: null,
+    catalogAction: 'add_platform_mapping',
+    knownNsuids: { europe: '70010000000012' },
+    knownNintendoUsSlug: null,
+    manualUsEvidence: null,
+    popularityEvidence: [],
+  });
+  const suggestion = buildNintendoSuggestion(candidate, {
+    americas: automaticAmericas(),
+    europe: regional('europe', '70010000000012'),
+    japan: { status: 'none', reason: 'not_found' },
+  }, {
+    existingNsuids: new Map([['70010000000012', 'example-game']]),
+  });
+  assert.equal(suggestion.verifyStatus, 'passed');
+  assert.equal(suggestion.nsuids.americas, '70010000000011');
+  assert.equal(suggestion.nintendoUsSlug, 'example-game-switch');
+  assert.equal(suggestion.primaryRegionalChannel, null);
+  assert.equal(suggestion.manualUsEvidence, null);
+  assert.equal(suggestion.regionalEvidence.americas.evidenceKind, 'nintendo_us_current_product_page');
+  assert.equal(validateNintendoSuggestionDocument(createNintendoSuggestionDocument({
+    generatedAt: '2026-07-17T00:00:00.000Z',
+    inputDigest: sha256Digest({ input: 'machine-us' }),
+    candidates: [suggestion],
+  })).candidates[0].verifyStatus, 'passed');
+});
+
+test('catalog enrichment with no identity relative to known mappings is explicitly non-applicable', () => {
+  const candidate = seed({
+    candidateId: null,
+    catalogAction: 'add_platform_mapping',
+    knownNsuids: { europe: '70010000000012' },
+    manualUsEvidence: null,
+    popularityEvidence: [],
+  });
+  const suggestion = buildNintendoSuggestion(candidate, {
+    americas: { status: 'none', reason: 'not_found' },
+    europe: regional('europe', '70010000000012'),
+    japan: { status: 'none', reason: 'not_found' },
+  });
+  assert.equal(suggestion.verifyStatus, 'exception');
+  assert.ok(suggestion.exceptionReasons.includes('no_new_mapping'));
+});
+
+test('US misses are auditable but non-blocking; new Nintendo games still require popularity and EU', () => {
   const result = buildNintendoSuggestion({
     candidateId: null,
     slug: 'catalog-only-game',
@@ -256,7 +433,7 @@ test('catalog compatibility candidates without manual US evidence stay explicit 
     japan: regional('japan', '70010000000422', { title: 'Catalog Only Game' }),
   });
   assert.equal(result.verifyStatus, 'exception');
-  assert.ok(result.exceptionReasons.includes('manual_us_evidence_missing'));
+  assert.ok(result.warnings.includes('americas_not_found'));
   assert.ok(result.exceptionReasons.includes('popularity_evidence_missing'));
   assert.equal(result.nintendoUsSlug, null);
 });
@@ -418,9 +595,11 @@ test('candidate and suggestion digests detect evidence drift', () => {
   );
 });
 
-test('candidate discovery source contains no raw fetch or automatic Nintendo US page path', () => {
+test('candidate discovery uses the shared HTTP helper and official sitemap, never raw fetch or guessed URLs', () => {
   const source = readFileSync(new URL('../discover-nsuid.mjs', import.meta.url), 'utf8');
   assert.doesNotMatch(source, /\bfetch\s*\(/u);
-  assert.doesNotMatch(source, /discoverAmericas|extractUsProductNsuid/u);
-  assert.match(source, /manualUsEvidence/u);
+  assert.match(source, /fetchText/u);
+  assert.match(source, /\/us\/store\/sitemap\.xml/u);
+  assert.match(source, /nintendoUsProductPageCandidates/u);
+  assert.doesNotMatch(source, /\[\s*`\$\{slug\}-switch`\s*,\s*slug\s*\]/u);
 });

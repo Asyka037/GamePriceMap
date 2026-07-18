@@ -1,5 +1,5 @@
 import { assertDocumentDigest, sha256Digest } from './candidate-evidence.mjs';
-import { titleMatches } from './match.mjs';
+import { normTitle, titleMatches } from './match.mjs';
 import { switchGenerations } from './nsuid-discovery.mjs';
 
 export const NINTENDO_SEED_SCHEMA_VERSION = 1;
@@ -119,6 +119,59 @@ export function validateManualUsEvidence(evidence, { title, platforms } = {}) {
   };
 }
 
+/** Validate an automatically sealed Nintendo US current-product observation. */
+export function validateNintendoAmericasEvidence(evidence, candidate = {}) {
+  const normalized = normalizeRegionalEvidence(evidence, 'americas', candidate).evidence;
+  if (!normalized) fail('americas_evidence_missing', 'Americas machine evidence is missing');
+  if (normalized.evidenceKind !== 'nintendo_us_current_product_page') {
+    fail('americas_evidence_kind_invalid', 'Americas evidence kind is invalid');
+  }
+  if (normalized.manual !== false) fail('americas_evidence_manual_flag_invalid', 'Americas machine evidence must be non-manual');
+  if (!normTitle(normalized.matchedTitle)
+    || normTitle(normalized.matchedTitle) !== normTitle(candidate.title)) {
+    fail('americas_exact_title_mismatch', 'Americas machine evidence title is not an exact normalized match');
+  }
+  if (!SLUG_RE.test(normalized.productSlug ?? '')) {
+    fail('americas_product_slug_invalid', 'Americas product slug is invalid');
+  }
+  const expectedPath = `/us/store/products/${normalized.productSlug}`;
+  for (const [field, value] of [
+    ['sourceUrl', normalized.sourceUrl],
+    ['requestedUrl', normalized.requestedUrl],
+    ['finalUrl', normalized.finalUrl],
+  ]) {
+    const url = httpsUrl(value, `americasEvidence.${field}`);
+    if (!['nintendo.com', 'www.nintendo.com'].includes(url.hostname)
+      || url.pathname.replace(/\/+$/u, '') !== expectedPath) {
+      fail('americas_product_url_mismatch', `Americas ${field} does not match productSlug`);
+    }
+  }
+  const priceUrl = httpsUrl(normalized.priceSourceUrl, 'americasEvidence.priceSourceUrl');
+  if (priceUrl.hostname !== 'api.ec.nintendo.com'
+    || priceUrl.pathname !== '/v1/price'
+    || priceUrl.searchParams.get('country') !== 'US'
+    || !(priceUrl.searchParams.get('ids') ?? '').split(',').includes(normalized.nsuid)) {
+    fail('americas_price_source_invalid', 'Americas paid evidence is not bound to the official US price endpoint');
+  }
+  const releasedAt = isoTimestamp(normalized.releasedAt, 'americasEvidence.releasedAt');
+  if (Date.parse(releasedAt) > Date.parse(normalized.collectedAt)) {
+    fail('americas_evidence_unreleased', 'Americas evidence was collected before release');
+  }
+  if (!DIGEST_RE.test(normalized.sitemapDigest ?? '')) {
+    fail('americas_sitemap_digest_missing', 'Americas evidence must bind the official store sitemap');
+  }
+  if (!DIGEST_RE.test(normalized.pageSourceDigest ?? '')) {
+    fail('americas_page_digest_missing', 'Americas evidence must bind the current product page');
+  }
+  if (normalized.sitemapUrl !== 'https://www.nintendo.com/us/store/sitemap.xml') {
+    fail('americas_sitemap_url_invalid', 'Americas evidence must use the official US store sitemap');
+  }
+  if (!['official_sitemap_exact_slug', 'audited_hint'].includes(normalized.locatedBy)) {
+    fail('americas_slug_locator_invalid', 'Americas product slug locator is invalid');
+  }
+  return normalized;
+}
+
 function normalizeStringList(value) {
   return (Array.isArray(value) ? value : value == null ? [] : [value])
     .map((entry) => String(entry).trim())
@@ -207,6 +260,9 @@ export function validateNintendoSeedCandidate(candidate, { requireCandidateId = 
   }
   const catalogAction = candidate.catalogAction ?? 'new_game';
   if (!CATALOG_ACTIONS.has(catalogAction)) fail('invalid_catalog_action', 'Nintendo seed catalogAction is invalid');
+  if (candidate.nintendoUsSlugHint != null && !SLUG_RE.test(candidate.nintendoUsSlugHint)) {
+    fail('invalid_nintendo_us_slug_hint', 'Nintendo US product slug hint is invalid');
+  }
   const knownNsuids = normalizeNsuids(candidate.knownNsuids);
   if (requireCandidateId && !candidate.candidateId) fail('missing_candidate_id', 'Nintendo seed candidateId is required');
   const candidateId = candidate.candidateId ? stableNintendoCandidateId(candidate.candidateId, knownNsuids) : null;
@@ -217,7 +273,9 @@ export function validateNintendoSeedCandidate(candidate, { requireCandidateId = 
   const manualUsEvidence = candidate.manualUsEvidence
     ? validateManualUsEvidence(candidate.manualUsEvidence, candidate)
     : null;
-  if (requireSeedEvidence && seedEvidence.length === 0 && !manualUsEvidence) {
+  const popularityEvidence = validatePopularityEvidence(candidate.popularityEvidence);
+  const trustedPreDiscoverySeed = catalogAction === 'new_game' && popularityEvidence.length > 0;
+  if (requireSeedEvidence && seedEvidence.length === 0 && !manualUsEvidence && !trustedPreDiscoverySeed) {
     fail('seed_evidence_missing', 'candidate has no dated source evidence; unsubstantiated seed lists are rejected');
   }
 
@@ -233,7 +291,6 @@ export function validateNintendoSeedCandidate(candidate, { requireCandidateId = 
 
   validateExclusivityEvidence(candidate.exclusivityEvidence, candidate);
   validateSteamMatchEvidence(candidate.steamMatchEvidence, candidate);
-  validatePopularityEvidence(candidate.popularityEvidence);
   return { ...candidate, candidateId, knownNsuids, catalogAction };
 }
 
@@ -263,10 +320,12 @@ export function validateNintendoSeedDocument(document) {
   const ids = new Set();
   const slugs = new Set();
   for (const candidate of document.candidates) {
-    const normalized = validateNintendoSeedCandidate(candidate);
-    if (ids.has(normalized.candidateId)) fail('duplicate_candidate_id', `duplicate seed candidateId ${normalized.candidateId}`);
+    const normalized = validateNintendoSeedCandidate(candidate, { requireCandidateId: false });
+    if (normalized.candidateId && ids.has(normalized.candidateId)) {
+      fail('duplicate_candidate_id', `duplicate seed candidateId ${normalized.candidateId}`);
+    }
     if (slugs.has(normalized.slug)) fail('duplicate_candidate_slug', `duplicate seed slug ${normalized.slug}`);
-    ids.add(normalized.candidateId);
+    if (normalized.candidateId) ids.add(normalized.candidateId);
     slugs.add(normalized.slug);
   }
   return document;
@@ -382,6 +441,27 @@ function sealSuggestionCandidate(payload) {
   return { ...unsigned, evidenceDigest: sha256Digest(unsigned) };
 }
 
+function americasIdentity(evidence) {
+  if (!evidence) return null;
+  return {
+    nsuid: evidence.nsuid,
+    generation: evidence.generation,
+    productSlug: evidence.productSlug ?? evidence.sourceEvidence?.productSlug ?? null,
+  };
+}
+
+function catalogNsuidOwner(existing, nsuid) {
+  if (existing instanceof Map) return existing.get(String(nsuid)) ?? null;
+  if (existing instanceof Set) return existing.has(String(nsuid)) ? true : null;
+  return null;
+}
+
+function addsMapping(normalized, nsuids, nintendoUsSlug) {
+  if (normalized.catalogAction !== 'add_platform_mapping') return true;
+  if (GROUPS.some((group) => nsuids[group] && !normalized.knownNsuids[group])) return true;
+  return Boolean(nintendoUsSlug && !normalized.knownNintendoUsSlug);
+}
+
 export function buildNintendoSuggestion(candidate, discoveries = {}, { existingNsuids = new Set() } = {}) {
   const normalized = validateNintendoSeedCandidate(candidate, {
     requireCandidateId: false,
@@ -389,16 +469,38 @@ export function buildNintendoSuggestion(candidate, discoveries = {}, { existingN
   });
   const exceptions = [];
   const warnings = [];
-  let usEvidence = null;
+  let manualUsEvidence = null;
   if (candidate.manualUsEvidence) {
     try {
-      usEvidence = validateManualUsEvidence(candidate.manualUsEvidence, candidate);
+      manualUsEvidence = validateManualUsEvidence(candidate.manualUsEvidence, candidate);
     } catch (error) {
       exceptions.push(error.code ?? 'manual_us_evidence_invalid');
     }
-  } else {
-    exceptions.push('manual_us_evidence_missing');
   }
+
+  let automaticUsEvidence = null;
+  const automaticUs = discoveries.americas;
+  if (automaticUs?.status === 'matched') {
+    try {
+      automaticUsEvidence = validateNintendoAmericasEvidence(automaticUs, candidate);
+    } catch (error) {
+      exceptions.push(error.code ?? 'americas_evidence_invalid');
+    }
+  } else if (automaticUs?.status === 'exception') {
+    const reason = `americas_${automaticUs.reason ?? 'exception'}`;
+    if (manualUsEvidence) warnings.push(reason);
+    else exceptions.push(reason);
+  } else if (!manualUsEvidence) {
+    const auditReasons = automaticUs?.auditReasons?.length
+      ? automaticUs.auditReasons
+      : [automaticUs?.reason ?? 'not_found'];
+    warnings.push(...auditReasons.map((reason) => `americas_${reason}`));
+  }
+  if (automaticUsEvidence && manualUsEvidence
+    && !sameCanonicalValue(americasIdentity(automaticUsEvidence), americasIdentity(manualUsEvidence))) {
+    exceptions.push('americas_evidence_conflict');
+  }
+  const usEvidence = automaticUsEvidence ?? manualUsEvidence;
 
   const regional = {
     americas: usEvidence,
@@ -419,16 +521,36 @@ export function buildNintendoSuggestion(candidate, discoveries = {}, { existingN
   const nsuids = Object.fromEntries(GROUPS.map((group) => [group, regional[group]?.nsuid ?? null]));
   const generationEvidence = uniqueStrings(Object.values(regional).map((item) => item?.generation));
   if (generationEvidence.length > 1) exceptions.push('generation_fingerprint_conflict');
-  const candidateId = stableNintendoCandidateId(normalized.candidateId, nsuids);
+  const newlyDiscoveredNsuids = Object.fromEntries(GROUPS.map((group) => [
+    group,
+    normalized.catalogAction === 'add_platform_mapping'
+      && normalized.knownNsuids[group]
+      ? null
+      : nsuids[group],
+  ]));
+  const candidateId = stableNintendoCandidateId(
+    normalized.candidateId,
+    Object.values(newlyDiscoveredNsuids).some(Boolean) ? newlyDiscoveredNsuids : nsuids,
+  );
   if (!Object.values(nsuids).some(Boolean)) exceptions.push('no_verified_nsuid');
   for (const nsuid of Object.values(nsuids).filter(Boolean)) {
-    if (existingNsuids.has(String(nsuid))) exceptions.push(`catalog_nsuid_conflict:${nsuid}`);
+    const owner = catalogNsuidOwner(existingNsuids, nsuid);
+    if (owner && owner !== normalized.slug) exceptions.push(`catalog_nsuid_conflict:${nsuid}`);
   }
 
   const exclusivity = classifyNintendoExclusivity(candidate);
   if (exclusivity.conflict) exceptions.push(exclusivity.reason);
   const popularity = derivePopularity(candidate);
-  if (popularity.popularityUnverified) exceptions.push('popularity_evidence_missing');
+  if (normalized.catalogAction === 'new_game' && popularity.popularityUnverified) {
+    exceptions.push('popularity_evidence_missing');
+  }
+  if (normalized.catalogAction === 'new_game' && !nsuids.europe) {
+    exceptions.push('new_game_europe_mapping_required');
+  }
+  const nintendoUsSlug = automaticUsEvidence?.productSlug
+    ?? manualUsEvidence?.sourceEvidence?.productSlug
+    ?? null;
+  if (!addsMapping(normalized, nsuids, nintendoUsSlug)) exceptions.push('no_new_mapping');
   return sealSuggestionCandidate({
     schemaVersion: NINTENDO_SUGGESTION_SCHEMA_VERSION,
     candidateId,
@@ -445,16 +567,20 @@ export function buildNintendoSuggestion(candidate, discoveries = {}, { existingN
     nsuidAm: nsuids.americas,
     nsuidEu: nsuids.europe,
     nsuidJp: nsuids.japan,
-    nintendoUsSlug: usEvidence?.sourceEvidence?.productSlug ?? null,
-    primaryRegionalChannel: 'eshop',
+    nintendoUsSlug,
+    // A Nintendo-only row needs an explicit eShop primary channel. Enrichment
+    // must not silently replace (or initialize over) an existing Steam game's
+    // regional-channel choice when the mapping is projected into the catalog.
+    primaryRegionalChannel: normalized.catalogAction === 'new_game' ? 'eshop' : null,
     humanDecision: '待定',
     sourceUrl: usEvidence?.sourceUrl
       ?? regional.europe?.sourceUrl
       ?? regional.japan?.sourceUrl
       ?? null,
     generation: generationEvidence.length === 1 ? generationEvidence[0] : null,
-    manualUsEvidence: usEvidence,
+    manualUsEvidence,
     regionalEvidence: {
+      americas: automaticUsEvidence,
       europe: regional.europe,
       japan: regional.japan,
     },
@@ -538,29 +664,56 @@ export function sortNintendoSuggestions(candidates) {
 }
 
 export async function discoverNintendoCandidates(candidates, {
+  discoverAmericas,
   discoverEurope,
   discoverJapan,
   existingNsuids = new Set(),
   afterEach = async () => {},
 } = {}) {
-  if (typeof discoverEurope !== 'function' || typeof discoverJapan !== 'function') {
-    throw new TypeError('EU and JP discovery functions are required; US discovery is intentionally unsupported');
+  if (typeof discoverAmericas !== 'function'
+    || typeof discoverEurope !== 'function'
+    || typeof discoverJapan !== 'function') {
+    throw new TypeError('Americas, EU and JP discovery functions are required');
   }
   const suggestions = [];
   for (const candidate of candidates) {
+    let americas;
     let europe;
     let japan;
-    try {
-      europe = await discoverEurope(candidate);
-    } catch (error) {
-      europe = { status: 'exception', reason: error?.code ?? 'network_error' };
+    const enrichment = candidate.catalogAction === 'add_platform_mapping';
+    const needsAmericas = !enrichment
+      || !candidate.knownNsuids?.americas
+      || !candidate.knownNintendoUsSlug;
+    const needsEurope = !enrichment || !candidate.knownNsuids?.europe;
+    const needsJapan = !enrichment || !candidate.knownNsuids?.japan;
+    if (needsAmericas) {
+      try {
+        americas = await discoverAmericas(candidate);
+      } catch (error) {
+        americas = { status: 'exception', reason: error?.code ?? 'network_error' };
+      }
+    } else {
+      americas = { status: 'none', reason: 'already_mapped' };
     }
-    try {
-      japan = await discoverJapan(candidate);
-    } catch (error) {
-      japan = { status: 'exception', reason: error?.code ?? 'network_error' };
+    if (needsEurope) {
+      try {
+        europe = await discoverEurope(candidate);
+      } catch (error) {
+        europe = { status: 'exception', reason: error?.code ?? 'network_error' };
+      }
+    } else {
+      europe = { status: 'none', reason: 'already_mapped' };
     }
-    suggestions.push(buildNintendoSuggestion(candidate, { europe, japan }, { existingNsuids }));
+    if (needsJapan) {
+      try {
+        japan = await discoverJapan(candidate);
+      } catch (error) {
+        japan = { status: 'exception', reason: error?.code ?? 'network_error' };
+      }
+    } else {
+      japan = { status: 'none', reason: 'already_mapped' };
+    }
+    suggestions.push(buildNintendoSuggestion(candidate, { americas, europe, japan }, { existingNsuids }));
     await afterEach(candidate);
   }
   return sortNintendoSuggestions(guardDuplicateNintendoCandidates(suggestions));
@@ -574,8 +727,12 @@ export function createNintendoSuggestionDocument({ generatedAt, inputDigest, can
     generatedAt: isoTimestamp(generatedAt, 'generatedAt'),
     inputDigest,
     policy: {
-      americasIdentity: 'manual_reviewed_official_evidence_only',
-      automaticNetworkDiscovery: ['nintendo_europe_official_search_and_price', 'nintendo_japan_official_search'],
+      americasIdentity: 'official_current_product_page_or_reviewed_evidence',
+      automaticNetworkDiscovery: [
+        'nintendo_us_official_store_sitemap_product_page_and_price',
+        'nintendo_europe_official_search_and_price',
+        'nintendo_japan_official_search',
+      ],
     },
     candidates: sortNintendoSuggestions(candidates),
   };
@@ -605,8 +762,12 @@ function validateSuggestionCandidate(candidate, index) {
   if (!CATALOG_ACTIONS.has(candidate.catalogAction)) {
     fail('invalid_catalog_action', `${label}.catalogAction is invalid`);
   }
-  if (candidate.primaryRegionalChannel !== 'eshop') {
-    fail('invalid_primary_regional_channel', `${label}.primaryRegionalChannel must be eshop`);
+  const expectedPrimaryRegionalChannel = candidate.catalogAction === 'new_game' ? 'eshop' : null;
+  if (candidate.primaryRegionalChannel !== expectedPrimaryRegionalChannel) {
+    fail(
+      'invalid_primary_regional_channel',
+      `${label}.primaryRegionalChannel must be ${expectedPrimaryRegionalChannel ?? 'null'} for ${candidate.catalogAction}`,
+    );
   }
   if (candidate.humanDecision !== '待定') {
     fail('invalid_initial_human_decision', `${label}.humanDecision must remain pending until user review`);
@@ -629,13 +790,24 @@ function validateSuggestionCandidate(candidate, index) {
       fail('manual_us_source_evidence_missing', `${label}.manualUsEvidence must retain its reviewed source evidence`);
     }
     americas = validateManualUsEvidence(candidate.manualUsEvidence.sourceEvidence, candidate);
-  if (!sameCanonicalValue(candidate.manualUsEvidence, americas)) {
+    if (!sameCanonicalValue(candidate.manualUsEvidence, americas)) {
       fail('manual_us_derived_evidence_mismatch', `${label}.manualUsEvidence does not match its reviewed source evidence`);
     }
   }
-  const expectedNintendoUsSlug = americas?.sourceEvidence?.productSlug ?? null;
+  let automaticAmericas = null;
+  if (candidate.regionalEvidence?.americas != null) {
+    automaticAmericas = validateNintendoAmericasEvidence(candidate.regionalEvidence.americas, candidate);
+  }
+  if (americas && automaticAmericas
+    && !sameCanonicalValue(americasIdentity(americas), americasIdentity(automaticAmericas))) {
+    fail('americas_evidence_conflict', `${label} manual and automatic Americas evidence conflict`);
+  }
+  const effectiveAmericas = automaticAmericas ?? americas;
+  const expectedNintendoUsSlug = automaticAmericas?.productSlug
+    ?? americas?.sourceEvidence?.productSlug
+    ?? null;
   if (candidate.nintendoUsSlug !== expectedNintendoUsSlug) {
-    fail('suggestion_us_slug_evidence_mismatch', `${label}.nintendoUsSlug must come from reviewed manual US evidence`);
+    fail('suggestion_us_slug_evidence_mismatch', `${label}.nintendoUsSlug must come from retained Americas evidence`);
   }
 
   const regional = {};
@@ -644,14 +816,15 @@ function validateSuggestionCandidate(candidate, index) {
     regional[region] = result.evidence;
   }
   const derivedNsuids = {
-    americas: americas?.nsuid ?? null,
+    americas: effectiveAmericas?.nsuid ?? null,
     europe: regional.europe?.nsuid ?? null,
     japan: regional.japan?.nsuid ?? null,
   };
   if (!sameCanonicalValue(nsuids, derivedNsuids)) {
     fail('suggestion_nsuid_evidence_mismatch', `${label}.nsuids do not match the retained regional evidence`);
   }
-  const expectedSourceUrl = americas?.sourceUrl
+  const expectedSourceUrl = automaticAmericas?.sourceUrl
+    ?? americas?.sourceUrl
     ?? regional.europe?.sourceUrl
     ?? regional.japan?.sourceUrl
     ?? null;
@@ -660,7 +833,7 @@ function validateSuggestionCandidate(candidate, index) {
   }
 
   const generationEvidence = uniqueStrings([
-    americas?.generation,
+    effectiveAmericas?.generation,
     regional.europe?.generation,
     regional.japan?.generation,
   ]);
@@ -704,8 +877,7 @@ function validateSuggestionCandidate(candidate, index) {
   }
   if (candidate.verifyStatus === 'passed'
     && (!candidate.candidateId
-      || !candidate.nintendoUsSlug
-      || candidate.popularityUnverified
+      || (candidate.catalogAction === 'new_game' && candidate.popularityUnverified)
       || candidate.exceptionReasons.length > 0)) {
     fail('invalid_passed_suggestion', `${label} cannot pass without identity, popularity evidence, and zero exceptions`);
   }
@@ -723,12 +895,19 @@ export function validateNintendoSuggestionDocument(document) {
   }
   isoTimestamp(document.generatedAt, 'generatedAt');
   if (!DIGEST_RE.test(document.inputDigest ?? '')) fail('invalid_input_digest', 'Nintendo suggestion inputDigest is invalid');
-  if (document.policy?.americasIdentity !== 'manual_reviewed_official_evidence_only'
-    || !sameCanonicalValue(document.policy?.automaticNetworkDiscovery, [
+  const legacyPolicy = document.policy?.americasIdentity === 'manual_reviewed_official_evidence_only'
+    && sameCanonicalValue(document.policy?.automaticNetworkDiscovery, [
       'nintendo_europe_official_search_and_price',
       'nintendo_japan_official_search',
-    ])) {
-    fail('invalid_suggestion_policy', 'Nintendo suggestion policy does not match the no-US-scraping contract');
+    ]);
+  const currentPolicy = document.policy?.americasIdentity === 'official_current_product_page_or_reviewed_evidence'
+    && sameCanonicalValue(document.policy?.automaticNetworkDiscovery, [
+      'nintendo_us_official_store_sitemap_product_page_and_price',
+      'nintendo_europe_official_search_and_price',
+      'nintendo_japan_official_search',
+    ]);
+  if (!legacyPolicy && !currentPolicy) {
+    fail('invalid_suggestion_policy', 'Nintendo suggestion policy is unsupported');
   }
   if (!Array.isArray(document.candidates)) fail('missing_suggestion_candidates', 'Nintendo suggestions must be an array');
   const ids = new Set();
@@ -746,7 +925,13 @@ export function validateNintendoSuggestionDocument(document) {
 }
 
 export function parseDiscoverNsuidArgs(args) {
-  const result = { apply: false, inputPath: null, outputPath: null, slugs: [] };
+  const result = {
+    apply: false,
+    inputPath: null,
+    outputPath: null,
+    usProductSlugMapPath: null,
+    slugs: [],
+  };
   const seen = new Set();
   for (let index = 0; index < args.length; index += 1) {
     const arg = args[index];
@@ -756,7 +941,7 @@ export function parseDiscoverNsuidArgs(args) {
       result.apply = true;
       continue;
     }
-    const matched = arg.match(/^(--input|--output)(?:=(.*))?$/u);
+    const matched = arg.match(/^(--input|--output|--us-product-slug-map)(?:=(.*))?$/u);
     if (matched) {
       const flag = matched[1];
       if (seen.has(flag)) fail('duplicate_cli_option', `${flag} may only appear once`);
@@ -764,7 +949,8 @@ export function parseDiscoverNsuidArgs(args) {
       const value = matched[2] ?? args[++index];
       if (!value || value.startsWith('--')) fail('missing_cli_value', `${flag} requires a path`);
       if (flag === '--input') result.inputPath = value;
-      else result.outputPath = value;
+      else if (flag === '--output') result.outputPath = value;
+      else result.usProductSlugMapPath = value;
       continue;
     }
     if (arg.startsWith('-')) fail('unknown_cli_option', `unknown discover-nsuid option: ${arg}`);

@@ -104,6 +104,18 @@ test('strict parser rejects raw --plan bypass, unknown/missing options, and mixe
   assert.throws(() => parseImportArgs(['--apply', '--batch', '0', '--candidate-source', 'x']), /1..100/u);
   assert.throws(() => parseImportArgs(['--status', 'run-001', '--batch', '1']), /not valid/u);
   assert.throws(() => parseImportArgs(['--resume', 'run-001', '--run-id', 'run-002']), /not valid/u);
+  assert.equal(
+    parseImportArgs(['--verify', '--candidate-source', 'x', '--policy=v2-auto-approve']).policy,
+    'v2-auto-approve',
+  );
+  assert.throws(
+    () => parseImportArgs(['--verify', '--candidate-source', 'x', '--policy', 'silent-bypass']),
+    /unsupported import approval policy/u,
+  );
+  assert.throws(
+    () => parseImportArgs(['--status', 'run-001', '--policy', 'v2-auto-approve']),
+    /not valid/u,
+  );
   assert.throws(() => validateCandidateSourceDocument(sealEvidenceDocument({
     schemaVersion: 1,
     kind: 'self-signed-batch-plan',
@@ -121,6 +133,38 @@ test('strict parser rejects raw --plan bypass, unknown/missing options, and mixe
     }],
   });
   assert.throws(() => validateCandidateSourceDocument(forged), /candidate|slugHint|catalog action/iu);
+});
+
+test('v2 policy verifies a pending sealed candidate without storing a workbook decision', async () => {
+  const fixture = tempPaths();
+  const pendingSource = source(42, { humanDecision: '待定' });
+  const [pending] = joinCandidatesWithState([pendingSource], createEmptyImportState());
+  let calls = 0;
+  const writes = [];
+  const result = await runImportCli([
+    '--verify', '--candidate-source', 'sealed.json', '--policy=v2-auto-approve',
+    '--max-requests', '1', '--sleep-ms', '0',
+  ], {
+    root: fixture.root,
+    paths: fixture.paths,
+    clock: () => NOW,
+    loadContext: () => ({ candidates: [pending], state: createEmptyImportState() }),
+    readCatalog: () => ({ games: [] }),
+    fetchSteamAppDetails: async (appId) => { calls += 1; return payload(appId); },
+    configureRequestBudget: () => {},
+    wait: async () => {},
+    writeState: (_file, state) => writes.push(structuredClone(state)),
+    exportReports: (options) => {
+      assert.equal(options.approvalPolicy, 'v2-auto-approve');
+      return { outputPaths: { verifyReport: 'verify.csv', review: 'review.csv' } };
+    },
+    stdout: () => {},
+  });
+  assert.equal(calls, 1);
+  assert.equal(result.passed, 1);
+  assert.equal(result.approvalPolicy, 'v2-auto-approve');
+  assert.equal(writes.length, 1);
+  assert.equal('humanDecision' in writes[0].candidates['steam:42'], false);
 });
 
 test('production entrypoint reports parser errors as JSON on stderr with non-zero exit', () => {
@@ -233,6 +277,36 @@ test('apply generates its own plan, selects only fresh passed rows, then persist
   assert.equal(stdout.json().batchId, 'steam-cli-test');
 });
 
+test('v2 apply binds the explicit policy into the immutable batch plan', async () => {
+  const fixture = tempPaths();
+  const pendingSource = source(42, { humanDecision: '待定' });
+  const approvedView = {
+    ...pendingSource,
+    humanDecision: '批准',
+    sourceHumanDecision: '批准',
+    approvalPolicy: 'v2-auto-approve',
+  };
+  const verified = verifiedContext(approvedView);
+  const [pendingJoined] = joinCandidatesWithState([pendingSource], verified.state);
+  let receivedPlan;
+  const result = await runImportCli([
+    '--apply', '--batch', '1', '--candidate-source', 'sealed.json',
+    '--policy=v2-auto-approve', '--batch-id', 'steam-v2-test', '--run-id', 'steam-v2-test-run-1',
+  ], {
+    root: fixture.root,
+    paths: fixture.paths,
+    clock: () => NOW,
+    loadContext: () => ({ source: finalSteamSource(), candidates: [pendingJoined], state: verified.state }),
+    readCatalog: () => ({ games: [] }),
+    repositoryIdentity: () => ({ branch: 'main', baseCommit: BASE_COMMIT }),
+    writeState: () => {},
+    startRun: (_root, plan) => { receivedPlan = plan; return { state: 'applied' }; },
+    stdout: () => {},
+  });
+  assert.equal(receivedPlan.approvalPolicy, 'v2-auto-approve');
+  assert.equal(result.approvalPolicy, 'v2-auto-approve');
+});
+
 test('pilot/provisional Steam source may be reviewed but cannot generate a Phase B plan', async () => {
   const fixture = tempPaths();
   const verified = verifiedContext(source(42));
@@ -262,6 +336,34 @@ test('pilot/provisional Steam source may be reviewed but cannot generate a Phase
   }), /provisional Steam candidates cannot be applied/u);
   assert.equal(starts, 0);
   assert.equal(writes, 0);
+});
+
+test('v2 policy does not bypass the 14-day final Steam evidence gate', async () => {
+  const fixture = tempPaths();
+  const sourceCandidate = source(42, { humanDecision: '待定' });
+  const approved = {
+    ...sourceCandidate,
+    humanDecision: '批准',
+    sourceHumanDecision: '批准',
+    approvalPolicy: 'v2-auto-approve',
+  };
+  const verified = verifiedContext(approved);
+  const [pendingJoined] = joinCandidatesWithState([sourceCandidate], verified.state);
+  await assert.rejects(() => runImportCli([
+    '--apply', '--batch', '1', '--candidate-source', 'pilot.json', '--policy=v2-auto-approve',
+  ], {
+    root: fixture.root,
+    paths: fixture.paths,
+    clock: () => NOW,
+    loadContext: () => ({
+      source: { kind: 'steam-candidates', mode: 'pilot', provisional: true, distinctUtcDates: ['2026-07-17'] },
+      candidates: [pendingJoined],
+      state: verified.state,
+    }),
+    readCatalog: () => ({ games: [] }),
+    repositoryIdentity: () => ({ branch: 'main', baseCommit: BASE_COMMIT }),
+    stdout: () => {},
+  }), /provisional Steam candidates cannot be applied/u);
 });
 
 test('network-paused apply remains staged; resume uses the trusted run plan and marks applied', async () => {

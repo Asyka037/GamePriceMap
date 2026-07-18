@@ -23,6 +23,8 @@ test('status timestamps are formatted with an explicit UTC label', () => {
 test('status budgets match daily, seven-shard, and fourteen-shard cadences', () => {
   assert.equal(sourceBudgetHours('steam-regional'), 26);
   assert.equal(sourceBudgetHours('steam-regional:extended-3'), 8 * 24);
+  assert.equal(sourceBudgetHours('xbox-us'), 8 * 24);
+  assert.equal(sourceBudgetHours('psn-us'), 8 * 24);
   assert.equal(sourceBudgetHours('meta'), 15 * 24);
   assert.equal(sourceBudgetHours('meta:shard-12'), 15 * 24);
   assert.equal(freshnessState(stamp, sourceBudgetHours('meta'), atHoursAfter(14 * 24)), 'fresh');

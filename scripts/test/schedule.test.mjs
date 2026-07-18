@@ -28,6 +28,7 @@ test('sourceKeyFor: only extended-tier Steam games get shard keys', () => {
   assert.equal(sourceKeyFor('steam', ext), `steam-regional:extended-${shardOf('hades-ii')}`);
   assert.equal(sourceKeyFor('eshop', ext), 'eshop-regional', 'eShop stays daily-full');
   assert.equal(sourceKeyFor('xbox', ext), 'xbox-us', 'Xbox stays weekly-full');
+  assert.equal(sourceKeyFor('psn', ext), 'psn-us', 'PSN stays weekly-full');
   assert.equal(sourceKeyFor('nope', ext), null);
 });
 

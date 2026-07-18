@@ -52,6 +52,9 @@ test('canonical JSON and plan digests ignore object key insertion order but pres
   assert.match(plan.batchDigest, /^sha256:[a-f0-9]{64}$/);
   assert.equal(validateBatchPlan(plan), plan);
   assert.throws(() => validateBatchPlan({ ...plan, addedAt: '2026-07-18' }), /batchDigest/);
+  const v2Plan = createBatchPlan(planInput({ approvalPolicy: 'v2-auto-approve' }));
+  assert.equal(v2Plan.approvalPolicy, 'v2-auto-approve');
+  assert.throws(() => createBatchPlan(planInput({ approvalPolicy: 'silent-bypass' })), /approvalPolicy/u);
 });
 
 test('batch plan rejects unsafe IDs, duplicates, missing evidence and batches over 100', () => {

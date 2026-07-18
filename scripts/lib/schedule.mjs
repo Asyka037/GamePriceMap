@@ -30,9 +30,10 @@ export function shardOf(slug, count = EXTENDED_SHARDS) {
 
 /** Health-ledger key for one game on one channel (site chart + scrapers). */
 export function sourceKeyFor(channel, game) {
-  const base = { steam: 'steam-regional', eshop: 'eshop-regional', xbox: 'xbox-us' }[channel];
+  const base = { steam: 'steam-regional', eshop: 'eshop-regional', xbox: 'xbox-us', psn: 'psn-us' }[channel];
   if (!base) return null;
-  // Only Steam is tier-scheduled; eShop stays daily-full and Xbox weekly-full.
+  // Only Steam is tier-scheduled; eShop stays daily-full, while Xbox and PSN
+  // are independent weekly US-only fleets during their POCs.
   if (channel === 'steam' && game?.tier === 'extended') {
     return `${base}:extended-${shardOf(game.slug)}`;
   }

@@ -12,6 +12,7 @@ const bundle = (over = {}) => ({
   steam: { regions: [{ cc: 'UA', usd: 20, rank: 1 }, { cc: 'US', usd: 30, discountPct: 50, listUsd: 60, rank: 2 }] },
   eshop: { regions: [{ cc: 'ZA', usd: 11, rank: 1 }, { cc: 'US', usd: 35, discountPct: null, rank: 2 }] },
   xbox: null,
+  psn: null,
   history: { atl: { pc: { usd: 25, date: '2025-11-28', seed: 'cheapshark' } }, events: [] },
   meta: null,
   ...over,
@@ -37,6 +38,24 @@ test('Xbox joins current-price and channel-specific ATL derivations', () => {
   assert.deepEqual(bestPriceNow(b), { usd: 20, channel: 'xbox' });
   assert.equal(atlFor(b.history, 'xbox').usd, 20);
   assert.equal(hotDealsBoard([b])[0].channel, 'xbox');
+});
+
+test('PSN joins public current-price/ATL derivations and ignores PS Plus annotations', () => {
+  const b = bundle({
+    steam: null,
+    eshop: null,
+    psn: {
+      annotations: { psPlus: { amount: 1.99, discountPct: 95 } },
+      regions: [{ cc: 'US', usd: 24.99, discountPct: 50, listUsd: 49.99, rank: 1 }],
+    },
+    history: { atl: { 'psn-us': { usd: 24.99, seed: 'self' } }, events: [] },
+  });
+  assert.deepEqual(bestPriceNow(b), { usd: 24.99, channel: 'psn' });
+  assert.equal(atlFor(b.history, 'psn').usd, 24.99);
+  assert.deepEqual(hotDealsBoard([b])[0], {
+    slug: 'g', title: 'G', pct: 50, usd: 24.99, channel: 'psn',
+  });
+  assert.equal(trackedDeals([b], 'psn')[0].usd, 24.99);
 });
 
 test('verdict tiers: BUY at ATL, FAIR within 15%, WAIT beyond', () => {

@@ -60,7 +60,7 @@ test('核验后 state 中冻结的 slug 优先于后续候选源改名', () => {
 
 test('未批准候选不得核验或应用', () => {
   const [pending] = joinCandidatesWithState([{ ...APPROVED, humanDecision: '待定' }], createEmptyImportState());
-  assert.throws(() => transitionVerify(createEmptyImportState(), pending, VERIFY_STATUS.PASSED), /未经人工批准/u);
+  assert.throws(() => transitionVerify(createEmptyImportState(), pending, VERIFY_STATUS.PASSED), /未经有效批准策略/u);
 });
 
 test('evidenceDigest 变化会让旧批准与旧核验同时失效', () => {
@@ -75,6 +75,23 @@ test('evidenceDigest 变化会让旧批准与旧核验同时失效', () => {
   assert.equal(stale.approvalStale, true);
   assert.equal(stale.verifyStatus, VERIFY_STATUS.PENDING);
   assert.equal(stale.verifiedAt, null);
+});
+
+test('v2 auto-approve 重新绑定变化后的证据，但仍重置机器核验', () => {
+  const [joined] = joinCandidatesWithState([APPROVED], createEmptyImportState());
+  const state = transitionVerify(createEmptyImportState(), joined, VERIFY_STATUS.PASSED, {
+    at: '2026-07-17T00:00:00.000Z',
+  });
+  const changed = {
+    ...APPROVED,
+    evidence: { type: 'game', paid: true, revision: 2 },
+    approvalPolicy: 'v2-auto-approve',
+  };
+  const [rebound] = joinCandidatesWithState([changed], state);
+  assert.equal(rebound.humanDecision, '批准');
+  assert.equal(rebound.approvalStale, false);
+  assert.equal(rebound.verifyStatus, VERIFY_STATUS.PENDING);
+  assert.equal(rebound.machineStateValid, false);
 });
 
 test('证据变化不会抹掉已发生的 applied 事实，但旧核验仍失效', () => {

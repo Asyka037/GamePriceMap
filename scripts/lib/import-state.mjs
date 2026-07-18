@@ -7,6 +7,7 @@ import {
   humanDecisionDigestFor,
   normalizeHumanDecision,
 } from './library-workbook.mjs';
+import { validPsnProductId } from './psn.mjs';
 
 export const IMPORT_STATE_SCHEMA_VERSION = 1;
 export const VERIFY_STATUS = Object.freeze({
@@ -111,7 +112,10 @@ export function joinCandidatesWithState(candidates, state = createEmptyImportSta
     const record = state.candidates[candidateId] ?? null;
     const evidenceChanged = Boolean(record && record.evidenceDigest !== evidenceDigest);
     const workbookEvidenceStale = Boolean(source.workbookEvidenceStale);
-    const approvalStale = sourceHumanDecision === '批准' && (evidenceChanged || workbookEvidenceStale);
+    const policyAutoApproved = source.approvalPolicy === 'v2-auto-approve';
+    const approvalStale = !policyAutoApproved
+      && sourceHumanDecision === '批准'
+      && (evidenceChanged || workbookEvidenceStale);
     const humanDecision = approvalStale ? '待定' : sourceHumanDecision;
     const humanDecisionDigest = humanDecisionDigestFor({ candidateId, evidenceDigest, humanDecision });
     const decisionChanged = Boolean(record && !evidenceChanged && record.humanDecisionDigest !== humanDecisionDigest);
@@ -189,7 +193,7 @@ export function transitionVerify(state, candidate, verifyStatus, { reason = null
     throw new Error(`非法 verify 目标状态: ${verifyStatus}`);
   }
   const identity = assertJoinedCandidate(candidate);
-  if (identity.humanDecision !== '批准') throw new Error(`未经人工批准，不得机器核验: ${identity.candidateId}`);
+  if (identity.humanDecision !== '批准') throw new Error(`未经有效批准策略，不得机器核验: ${identity.candidateId}`);
   if (candidate.approvalStale) throw new Error(`旧批准已因证据变化失效: ${identity.candidateId}`);
 
   const next = clonedState(state);
@@ -221,7 +225,7 @@ export function transitionApply(state, candidate, applyStatus, { reason = null, 
     throw new Error(`非法 apply 目标状态: ${applyStatus}`);
   }
   const identity = assertJoinedCandidate(candidate);
-  if (identity.humanDecision !== '批准') throw new Error(`未经人工批准，不得应用: ${identity.candidateId}`);
+  if (identity.humanDecision !== '批准') throw new Error(`未经有效批准策略，不得应用: ${identity.candidateId}`);
   const next = clonedState(state);
   const previous = next.candidates[identity.candidateId];
   if (!previous
@@ -304,7 +308,13 @@ export function projectBatchItem(candidate) {
     throw new Error(`批次候选缺少 platforms: ${candidateId}`);
   }
   const nsuids = projectedNsuids(candidate);
-  if (!steamAppId && !nsuids) throw new Error(`批次候选缺少平台商品 ID: ${candidateId}`);
+  const psnProductId = candidate?.psnProductId == null ? null : String(candidate.psnProductId).toUpperCase();
+  if (psnProductId && !validPsnProductId(psnProductId)) throw new Error(`PSN Product ID 无法安全投影: ${candidate.psnProductId}`);
+  const psnConceptId = candidate?.psnConceptId == null ? null : String(candidate.psnConceptId);
+  if (psnConceptId && !/^\d{8}$/u.test(psnConceptId)) throw new Error(`PSN Concept ID 无法安全投影: ${candidate.psnConceptId}`);
+  const psnEdition = candidate?.psnEdition == null ? null : String(candidate.psnEdition);
+  if (psnProductId && psnEdition !== 'standard') throw new Error(`PSN POC 仅允许 standard edition: ${candidateId}`);
+  if (!steamAppId && !nsuids && !psnProductId) throw new Error(`批次候选缺少平台商品 ID: ${candidateId}`);
   const item = {
     key: candidateId,
     catalogAction: candidate.catalogAction ?? 'new_game',
@@ -317,6 +327,11 @@ export function projectBatchItem(candidate) {
     humanDecisionDigest: candidate.humanDecisionDigest,
     verifiedAt: candidate.verifiedAt,
   };
+  if (psnProductId) {
+    item.psnProductId = psnProductId;
+    item.psnConceptId = psnConceptId;
+    item.psnEdition = psnEdition;
+  }
   if (candidate.nintendoUsSlug) item.nintendoUsSlug = candidate.nintendoUsSlug;
   if (candidate.primaryRegionalChannel) item.primaryRegionalChannel = candidate.primaryRegionalChannel;
   return item;

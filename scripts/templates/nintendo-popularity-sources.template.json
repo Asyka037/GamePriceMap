@@ -1,0 +1,58 @@
+{
+  "$comment": "Offline evidence manifest for scripts/build-nintendo-popularity-seeds.mjs. Every file path is relative to this manifest. sourceDigest binds the retained raw file. reviewed_table rows are a deliberate, locator-bearing extraction for quarterly IR PDF tables; the generator never infers title or Switch generation. Steam input must be mode=final (14 distinct UTC dates), and every Steam title needs separate digest-bound official Nintendo platform evidence. EU hit counts and JP search scores are never accepted as popularity.",
+  "schemaVersion": 1,
+  "kind": "nintendo-popularity-source-manifest",
+  "excludedSlugs": [],
+  "sources": [
+    {
+      "kind": "nintendo_ir_top_sellers_html",
+      "file": "REPLACE_WITH_RETAINED_NINTENDO_IR_HTML",
+      "sourceUrl": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html",
+      "observedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+      "sourceDigest": "sha256:REPLACE_WITH_64_HEX_RAW_FILE_DIGEST"
+    },
+    {
+      "kind": "nintendo_ir_reviewed_table",
+      "file": "REPLACE_WITH_RETAINED_QUARTERLY_IR_PDF",
+      "sourceUrl": "https://www.nintendo.co.jp/ir/pdf/REPLACE_WITH_OFFICIAL_DOCUMENT.pdf",
+      "observedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+      "sourceDigest": "sha256:REPLACE_WITH_64_HEX_RAW_FILE_DIGEST",
+      "rows": [
+        {
+          "title": "REPLACE_WITH_EXACT_TABLE_TITLE",
+          "slug": "replace-with-reviewed-slug",
+          "platforms": ["switch"],
+          "rank": 1,
+          "unitsMillions": 1.0,
+          "sourceLocator": "page 00, million-seller table, row 1",
+          "publisher": null,
+          "developer": null
+        }
+      ]
+    },
+    {
+      "kind": "steam_final_candidates",
+      "file": "REPLACE_WITH_STEAM_FINAL_CANDIDATES_JSON",
+      "documentDigest": "sha256:REPLACE_WITH_FINAL_DOCUMENT_DIGEST",
+      "bindings": [
+        {
+          "steamAppId": 123,
+          "title": "REPLACE_WITH_EXACT_STEAM_AND_NINTENDO_TITLE",
+          "slug": "replace-with-reviewed-slug",
+          "platforms": ["switch"],
+          "publisher": null,
+          "developer": null,
+          "platformEvidence": {
+            "file": "REPLACE_WITH_RETAINED_OFFICIAL_NINTENDO_IDENTITY_RESPONSE",
+            "sourceUrl": "https://REPLACE_WITH_OFFICIAL_NINTENDO_URL",
+            "observedAt": "REPLACE_WITH_ISO_TIMESTAMP",
+            "sourceDigest": "sha256:REPLACE_WITH_64_HEX_RAW_FILE_DIGEST",
+            "matchedTitle": "REPLACE_WITH_EXACT_TITLE",
+            "platforms": ["switch"],
+            "sourceLocator": "REPLACE_WITH_FIELD_OR_ROW_LOCATOR"
+          }
+        }
+      ]
+    }
+  ]
+}
