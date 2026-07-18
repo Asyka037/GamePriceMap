@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1313140,
+  "fetchedAt": "2026-07-18T12:06:22.277Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1313140&cc=us&l=english",
+  "responseDigest": "sha256:7921d4d81e60c2edbd3c9c6108074dd0cfb3d81aad130704c953d1437a97e053",
+  "payload": {
+    "1313140": {
+      "success": true,
+      "data": {
+        "steam_appid": 1313140,
+        "name": "Cult of the Lamb",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 11, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 109178
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d17d002a0b624622c94efc09395b97d7b776ae8a1322c2bf0c9344dca97778a3"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1669000,
+  "fetchedAt": "2026-07-18T12:06:53.015Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1669000&cc=us&l=english",
+  "responseDigest": "sha256:57776437f341d60e564221ecdd79703df705109969e1e6fe4b08820a3ea38d69",
+  "payload": {
+    "1669000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1669000,
+        "name": "Age of Wonders 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16652
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:abc67d964e14009cb2085b5fd62c90d67043f8783de110919b6038df3204f704"
+}

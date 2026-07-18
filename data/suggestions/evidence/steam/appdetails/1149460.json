@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1149460,
+  "fetchedAt": "2026-07-18T12:06:01.697Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1149460&cc=us&l=english",
+  "responseDigest": "sha256:00814980c704880db101421b062533654345dab3bf3b54755ea8c5f7cd2117d2",
+  "payload": {
+    "1149460": {
+      "success": true,
+      "data": {
+        "steam_appid": 1149460,
+        "name": "ICARUS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 53207
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cf790d873198758ce4762f0778b7d3d72e76e850f50ef5f4d3f0fb55fce3b365"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1407200,
+  "fetchedAt": "2026-07-18T12:06:42.845Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1407200&cc=us&l=english",
+  "responseDigest": "sha256:d585306380c00f2067759cdf51b97789c078f69246cf3ea32047a78ae38ca03e",
+  "payload": {
+    "1407200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1407200,
+        "name": "World of Tanks",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2021"
+        },
+        "recommendations": {
+          "total": 529
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b6159013d9947dca2beafee26871f3de5c81981c8d1e5b1bd52407328429aa88"
+}

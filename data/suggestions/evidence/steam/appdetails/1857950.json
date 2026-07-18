@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1857950,
+  "fetchedAt": "2026-07-18T12:06:37.716Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1857950&cc=us&l=english",
+  "responseDigest": "sha256:cd1de167f7d85c2765d41b895df14b72c69331e87f2f85a4053f406e48a19240",
+  "payload": {
+    "1857950": {
+      "success": true,
+      "data": {
+        "steam_appid": 1857950,
+        "name": "VEIN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10418
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b9404211d8c8171d1e59ec64447c8f28702bcf8ab46c1fef1a37cb801105fe0b"
+}

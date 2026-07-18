@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1818450,
+  "fetchedAt": "2026-07-18T12:05:59.096Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1818450&cc=us&l=english",
+  "responseDigest": "sha256:469ab1b8e922a5446a83ea4327009e955f3565c9db29d98928003417b6f70866",
+  "payload": {
+    "1818450": {
+      "success": true,
+      "data": {
+        "steam_appid": 1818450,
+        "name": "STALZONE",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e81a1a4dabaa18f675dd60cc10a6c8ca120689ca0c4cf1022ccd18c0f9309ef2"
+}

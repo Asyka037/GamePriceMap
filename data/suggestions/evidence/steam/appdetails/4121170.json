@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4121170,
+  "fetchedAt": "2026-07-18T12:06:27.413Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4121170&cc=us&l=english",
+  "responseDigest": "sha256:28c26719c05caa122f127c9cd470b4893976d9f74bd6a4dc029df4a2a9f2057c",
+  "payload": {
+    "4121170": {
+      "success": true,
+      "data": {
+        "steam_appid": 4121170,
+        "name": "Fears to Fathom® - Scratch Creek",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5710
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ad16177b032ad41d88a879048b05a83f3cef4ef87a710978aa15dc919b1c95c9"
+}

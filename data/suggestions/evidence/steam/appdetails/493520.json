@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 493520,
+  "fetchedAt": "2026-07-18T12:06:00.379Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=493520&cc=us&l=english",
+  "responseDigest": "sha256:eaa82b2ea6940c2088409f2a66bc3d39ec306ba1be1c0a036fff9006001932b2",
+  "payload": {
+    "493520": {
+      "success": true,
+      "data": {
+        "steam_appid": 493520,
+        "name": "GTFO",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1159,
+          "discount_percent": 71
+        },
+        "recommendations": {
+          "total": 45770
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4c82c24312217a67988aa3ed27edce69761d13cc3608c6de0c878e014ef2a041"
+}

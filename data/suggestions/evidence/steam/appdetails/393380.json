@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 393380,
+  "fetchedAt": "2026-07-18T12:06:51.647Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=393380&cc=us&l=english",
+  "responseDigest": "sha256:3a825a0f9428af5f91ceab0be52af27e3916e68f4509344011ee5e387a06324d",
+  "payload": {
+    "393380": {
+      "success": true,
+      "data": {
+        "steam_appid": 393380,
+        "name": "Squad",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 178226
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:be63fd53f4d9accc29455da78a8ceb759c249dd4c9469ba1e5da9e3644c79d1d"
+}

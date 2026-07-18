@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3186490,
+  "fetchedAt": "2026-07-18T12:06:54.319Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3186490&cc=us&l=english",
+  "responseDigest": "sha256:d9ff6a78b59357a5bdb1a48ea1ab6d742b48182049f8883e06a2657d3a49fe6f",
+  "payload": {
+    "3186490": {
+      "success": true,
+      "data": {
+        "steam_appid": 3186490,
+        "name": "Destiny 2: The Edge of Fate",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2645
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:470da74d1bbf586c74585ec2f282ff38525faa007de9144470ee29632324291e"
+}

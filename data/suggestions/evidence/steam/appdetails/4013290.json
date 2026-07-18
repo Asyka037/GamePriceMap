@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4013290,
+  "fetchedAt": "2026-07-18T12:06:09.311Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4013290&cc=us&l=english",
+  "responseDigest": "sha256:54e9b86b600eb5070946f94db456c137b0ea67423a5a6cae517b926f5f1c172d",
+  "payload": {
+    "4013290": {
+      "success": true,
+      "data": {
+        "steam_appid": 4013290,
+        "name": "Warhammer 40,000: Darktide - Hive Scum Class",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 2, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 899,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 2060
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:97c47920c1cbb36d9690f4d9fe21a5167b969fba7e95b6f570a43044a66ddd48"
+}

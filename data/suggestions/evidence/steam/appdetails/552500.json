@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 552500,
+  "fetchedAt": "2026-07-18T12:06:32.571Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=552500&cc=us&l=english",
+  "responseDigest": "sha256:87699f1ef95b9ddb6f97105be265cb70a48df89ae7a1127d31f8505cdc16843f",
+  "payload": {
+    "552500": {
+      "success": true,
+      "data": {
+        "steam_appid": 552500,
+        "name": "Warhammer: Vermintide 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 8, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 299,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 90650
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:493c1fab57adb8b2a84a8ee63575f4821f571dc63e4ffce52ceabc7544cca68c"
+}

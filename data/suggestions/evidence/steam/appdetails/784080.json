@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 784080,
+  "fetchedAt": "2026-07-18T12:06:36.446Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=784080&cc=us&l=english",
+  "responseDigest": "sha256:2c2eb0834f92d342eb7ea595c09d916548051161a8a290b7a6665e9342fd08d1",
+  "payload": {
+    "784080": {
+      "success": true,
+      "data": {
+        "steam_appid": 784080,
+        "name": "MechWarrior 5: Mercenaries",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12953
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b0a93efbaaa9e7f8fd25717e99e2ec447c2cb70f00d4eed93655cdae0cb16389"
+}

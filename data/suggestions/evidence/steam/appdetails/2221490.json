@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2221490,
+  "fetchedAt": "2026-07-18T12:06:02.939Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2221490&cc=us&l=english",
+  "responseDigest": "sha256:9f2184b4f195bd2a813402e2a433be25caf73995f61b9f7dad4e9a0192c266e0",
+  "payload": {
+    "2221490": {
+      "success": true,
+      "data": {
+        "steam_appid": 2221490,
+        "name": "Tom Clancy’s The Division® 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 12, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 31546
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8b0ed4d89e4d87ab5088293f0f03386ec3e4eff8cef63f9629429d3c307021d3"
+}

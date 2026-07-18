@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4373820,
+  "fetchedAt": "2026-07-18T12:06:38.977Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4373820&cc=us&l=english",
+  "responseDigest": "sha256:c157c2bb1afee650fa5e564e04bb62cd9597ff94282ea4905008d357a85aeb7d",
+  "payload": {
+    "4373820": {
+      "success": true,
+      "data": {
+        "steam_appid": 4373820,
+        "name": "Season 3 Battlefield Pro - Battlefield™ 6 and REDSEC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fe2284ea0579484ce58cdfdad3430ea1dc416553529014c317426596f375e4fb"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 220200,
+  "fetchedAt": "2026-07-18T12:06:40.214Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=220200&cc=us&l=english",
+  "responseDigest": "sha256:4e27394758012fd201507ff47f63733db186209e823791c11b7268aeead3fd5f",
+  "payload": {
+    "220200": {
+      "success": true,
+      "data": {
+        "steam_appid": 220200,
+        "name": "Kerbal Space Program",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 118597
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ba1eca603cb2e7f9da1aa334515e238aabc0893082476514875945f657f3ed74"
+}

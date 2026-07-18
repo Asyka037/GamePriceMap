@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 588430,
+  "fetchedAt": "2026-07-18T12:06:58.217Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=588430&cc=us&l=english",
+  "responseDigest": "sha256:80fc78dac8ff8729ee4f8ecea6d181a62d9766796484daa7059c873c765e2251",
+  "payload": {
+    "588430": {
+      "success": true,
+      "data": {
+        "steam_appid": 588430,
+        "name": "Fallout Shelter",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 29, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:60ea413e0d3a91bdbff1532eeb87f4b6c206658de102f3f4dec75c19dd69f931"
+}

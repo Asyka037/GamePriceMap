@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3552140,
+  "fetchedAt": "2026-07-18T12:06:33.861Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3552140&cc=us&l=english",
+  "responseDigest": "sha256:e4a80d20f44b832df2f12dc925d73d297765a579058ddf0c1b1970a40993cdba",
+  "payload": {
+    "3552140": {
+      "success": true,
+      "data": {
+        "steam_appid": 3552140,
+        "name": "Retro Rewind - Video Store Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1990,
+          "final": 1990,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8997
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:998e696b253284e67d39b3e14c68850c4d7617aecaf6ba659d9c26dcb3a9cde5"
+}

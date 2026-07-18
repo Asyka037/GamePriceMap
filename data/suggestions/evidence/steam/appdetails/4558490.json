@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4558490,
+  "fetchedAt": "2026-07-18T12:06:14.465Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4558490&cc=us&l=english",
+  "responseDigest": "sha256:f84a11e32f38eb6daf0e123ad1a5c2c6af16c392af3db126699956eb49956ef7",
+  "payload": {
+    "4558490": {
+      "success": true,
+      "data": {
+        "steam_appid": 4558490,
+        "name": "ARK: Dragontopia",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 162
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ad70682510f7bff922c85570a2aa581f624e24866cb1cf35a81f12535686466d"
+}

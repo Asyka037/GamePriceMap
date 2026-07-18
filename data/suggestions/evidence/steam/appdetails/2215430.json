@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2215430,
+  "fetchedAt": "2026-07-18T12:06:41.453Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2215430&cc=us&l=english",
+  "responseDigest": "sha256:ccc39c65b166746fbde17306ea81896c6bb6032d6be3086f6506d77f2503f0b0",
+  "payload": {
+    "2215430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2215430,
+        "name": "Ghost of Tsushima DIRECTOR'S CUT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 16, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 62963
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2e1d29ce1630a2183bf56a916812d2a520c0f6178bc2f3b908c368ef15fbf063"
+}

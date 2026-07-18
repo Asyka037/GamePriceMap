@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1778820,
+  "fetchedAt": "2026-07-18T12:06:47.859Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1778820&cc=us&l=english",
+  "responseDigest": "sha256:30156cff8f51ac4f29700ed9cacf2cb9b480acab7907c5ae189c886242cf195b",
+  "payload": {
+    "1778820": {
+      "success": true,
+      "data": {
+        "steam_appid": 1778820,
+        "name": "TEKKEN 8",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 46730
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f2ea2927462e3c673b8dc097172682223ef30cfe4709d54b4955532226411c9e"
+}

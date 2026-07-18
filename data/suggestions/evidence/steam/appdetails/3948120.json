@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3948120,
+  "fetchedAt": "2026-07-18T12:06:28.728Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3948120&cc=us&l=english",
+  "responseDigest": "sha256:62aaf78474017d4e6b5b85c64e714e20b7135060be62c0a4259a1a5cfa55eb93",
+  "payload": {
+    "3948120": {
+      "success": true,
+      "data": {
+        "steam_appid": 3948120,
+        "name": "Scritchy Scratchy",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13107
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4fbf32da983839592171104ef46752455d7adb33b416e3f79018f724ce183366"
+}

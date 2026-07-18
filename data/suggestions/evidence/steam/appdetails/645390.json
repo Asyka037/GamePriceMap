@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 645390,
+  "fetchedAt": "2026-07-18T12:06:59.491Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=645390&cc=us&l=english",
+  "responseDigest": "sha256:7fb4b5c08f20d2a6b301b6f32ea071aafb1b24c2b7597cbed31a7d30751933a9",
+  "payload": {
+    "645390": {
+      "success": true,
+      "data": {
+        "steam_appid": 645390,
+        "name": "Factorio: Space Age",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3500,
+          "final": 3500,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6171
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4ab731da8418defccb4006ddfe7be41f957e01ba41c52cc39f4f745188cbd288"
+}
