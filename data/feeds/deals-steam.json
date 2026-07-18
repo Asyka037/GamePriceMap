@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T09:29:48.731Z",
+  "updatedAt": "2026-07-18T09:11:16.439Z",
   "items": [
     {
       "title": "Palworld",
@@ -26,6 +26,30 @@
       "slugIfTracked": null
     },
     {
+      "title": "Grand Theft Auto V Enhanced",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "currency": "USD",
+      "price": 14.99,
+      "list": 29.99,
+      "pct": 50,
+      "endsAt": "2026-07-28T17:00:00.000Z",
+      "steamAppId": 3240220,
+      "slugIfTracked": "grand-theft-auto-v-enhanced"
+    },
+    {
+      "title": "Grand Theft Auto V Enhanced",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "currency": "USD",
+      "price": 14.99,
+      "list": 29.99,
+      "pct": 50,
+      "endsAt": "2026-07-28T17:00:00.000Z",
+      "steamAppId": 3240220,
+      "slugIfTracked": "grand-theft-auto-v-enhanced"
+    },
+    {
       "title": "Warhammer 40,000: Space Marine 2",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/2183900/",
@@ -38,27 +62,27 @@
       "slugIfTracked": "warhammer-40000-space-marine-2"
     },
     {
-      "title": "Grand Theft Auto V Enhanced",
+      "title": "Gamble With Your Friends",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
+      "url": "https://store.steampowered.com/app/3892270/",
       "currency": "USD",
-      "price": 14.99,
-      "list": 29.99,
-      "pct": 50,
-      "endsAt": "2026-07-28T17:00:00.000Z",
-      "steamAppId": 3240220,
-      "slugIfTracked": null
+      "price": 4.95,
+      "list": 7.99,
+      "pct": 38,
+      "endsAt": "2026-07-29T18:00:00.000Z",
+      "steamAppId": 3892270,
+      "slugIfTracked": "gamble-with-your-friends"
     },
     {
-      "title": "Grand Theft Auto V Enhanced",
+      "title": "Burglin' Gnomes",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
+      "url": "https://store.steampowered.com/app/3844970/",
       "currency": "USD",
-      "price": 14.99,
-      "list": 29.99,
-      "pct": 50,
-      "endsAt": "2026-07-28T17:00:00.000Z",
-      "steamAppId": 3240220,
+      "price": 7.99,
+      "list": 9.99,
+      "pct": 20,
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 3844970,
       "slugIfTracked": null
     },
     {
@@ -83,7 +107,7 @@
       "pct": 25,
       "endsAt": "2026-07-23T17:00:00.000Z",
       "steamAppId": 2968420,
-      "slugIfTracked": null
+      "slugIfTracked": "powerwash-simulator-2"
     },
     {
       "title": "Denshattack!",
@@ -95,30 +119,6 @@
       "pct": 10,
       "endsAt": "2026-07-29T17:00:23.000Z",
       "steamAppId": 2524850,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Gamble With Your Friends",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3892270/",
-      "currency": "USD",
-      "price": 4.95,
-      "list": 7.99,
-      "pct": 38,
-      "endsAt": "2026-07-29T18:00:00.000Z",
-      "steamAppId": 3892270,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Pathogenic",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3808690/",
-      "currency": "USD",
-      "price": 7.99,
-      "list": 9.99,
-      "pct": 20,
-      "endsAt": "2026-07-30T17:00:00.000Z",
-      "steamAppId": 3808690,
       "slugIfTracked": null
     }
   ]
