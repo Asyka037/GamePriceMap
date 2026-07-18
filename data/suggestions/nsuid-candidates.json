@@ -1,0 +1,962 @@
+{
+  "schemaVersion": 1,
+  "kind": "nintendo-discovery-suggestions",
+  "generatedAt": "2026-07-18T05:26:26.411Z",
+  "inputDigest": "sha256:4e88c384c09d27037a615ab2fd3ebf063b5c2ebfaecf740a89b69c2ddfdc1275",
+  "policy": {
+    "americasIdentity": "official_current_product_page_or_reviewed_evidence",
+    "automaticNetworkDiscovery": [
+      "nintendo_us_official_store_sitemap_product_page_and_price",
+      "nintendo_europe_official_search_and_price",
+      "nintendo_japan_official_search"
+    ]
+  },
+  "candidates": [
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000065090",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "animal-well",
+      "title": "ANIMAL WELL",
+      "platforms": [
+        "pc",
+        "switch",
+        "ps5"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000065090",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000065090",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "animal-well-switch",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/animal-well-switch/",
+      "generation": "HAC",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000065090",
+          "matchedTitle": "ANIMAL WELL",
+          "generation": "HAC",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2024-05-09T00:00:00.000Z",
+          "productSlug": "animal-well-switch",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/animal-well-switch/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/animal-well-switch/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/animal-well-switch/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000065090&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:6f62a315da99b63f9a2778faf177dbd970f6e73ca7c22d2ec43a1ed0626996a1",
+          "sourceDigest": "sha256:8c68dfcc733af61b273b3c9b3fc10d4750cbd8d01024d5cb0044c6ffa0f7ff3a",
+          "evidenceDigest": "sha256:26503ceb2b8e8b2cdf03d12bda12694ced76166dee51e593311e507eb93c00dc"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:cdad8fce0dea273528d208c5275d8a1adc32419710d09e2eb0dace0ebb0508e6"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000072051",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "balatro",
+      "title": "Balatro",
+      "platforms": [
+        "pc",
+        "switch",
+        "ps5",
+        "xbox",
+        "mobile"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000072051",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000072051",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "balatro-switch",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/balatro-switch/",
+      "generation": "HAC",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000072051",
+          "matchedTitle": "Balatro",
+          "generation": "HAC",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2024-02-20T00:00:00.000Z",
+          "productSlug": "balatro-switch",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/balatro-switch/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/balatro-switch/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/balatro-switch/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000072051&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:5f3deeff338bbf62bf1f54b258530561af9f2812cd20a36f2fd03ee723b61261",
+          "sourceDigest": "sha256:c8c4a0cc64d51b520700c4cd98f0d5b7bfe9dfa02d699e3d931d7a295f9e8ebc",
+          "evidenceDigest": "sha256:a03aa85c01746b20edee45f88818a91634a1202ca8a8b1402c294a33595e1234"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:85fe234a115ac2f43a3dbe75e183c296a704e1da380cae25c25fa3f820136440"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000096809",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "donkey-kong-bananza",
+      "title": "Donkey Kong Bananza",
+      "platforms": [
+        "switch-2"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000096809",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000096809",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "donkey-kong-bananza-switch-2",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/donkey-kong-bananza-switch-2/",
+      "generation": "BEE",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000096809",
+          "matchedTitle": "Donkey Kong™ Bananza",
+          "generation": "BEE",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2025-07-17T00:00:00.000Z",
+          "productSlug": "donkey-kong-bananza-switch-2",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/donkey-kong-bananza-switch-2/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/donkey-kong-bananza-switch-2/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/donkey-kong-bananza-switch-2/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000096809&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:9b82fc883a8d9c185cfb3451bc004b13faa5e682daa8e0d01b5c215223fd406c",
+          "sourceDigest": "sha256:c29318f03d2ddeba7bb4e1b15077808fe14cd6d8db5184c5bac3984f92be793f",
+          "evidenceDigest": "sha256:9e46a1ccbac8044a8d0401068f44c50ba37123d22c36befd96f5e6070c0f579a"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:7a10f0593c09a473886a65595a34b4484eeae250fa7a77d33a2b12b324f0876e"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000049267",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "dredge",
+      "title": "DREDGE",
+      "platforms": [
+        "pc",
+        "switch",
+        "ps5",
+        "xbox"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000049267",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000049267",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "dredge-switch",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/dredge-switch/",
+      "generation": "HAC",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000049267",
+          "matchedTitle": "DREDGE",
+          "generation": "HAC",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2023-03-30T00:00:00.000Z",
+          "productSlug": "dredge-switch",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/dredge-switch/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/dredge-switch/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/dredge-switch/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000049267&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:019b6fdb7830ee272516db0a537b2406d0ab1980f5b9719b3d1a5b6831691989",
+          "sourceDigest": "sha256:3654688b9e482c225740f810ae6d6d545bf78cded2f868476282d2d4c8486628",
+          "evidenceDigest": "sha256:21fe20394efa3e26d074eca423a1aee395917f5156a826d92cd732f44f071b09"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:8ddbc186fd8234c11efac00b4bd95635f0504b6cffe74b697586e5bea45ed4c5"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000103775",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "kirby-air-riders",
+      "title": "Kirby Air Riders",
+      "platforms": [
+        "switch-2"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000103775",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000103775",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "kirby-air-riders-switch-2",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/kirby-air-riders-switch-2/",
+      "generation": "BEE",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000103775",
+          "matchedTitle": "Kirby™ Air Riders",
+          "generation": "BEE",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2025-11-20T00:00:00.000Z",
+          "productSlug": "kirby-air-riders-switch-2",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/kirby-air-riders-switch-2/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/kirby-air-riders-switch-2/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/kirby-air-riders-switch-2/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000103775&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:950381f241a66acd991f37633728d177d4e27cb3b83212b5dd4aed864ac16b6f",
+          "sourceDigest": "sha256:72dcb3de2adbd7404a94f0f44dde24d7b8e965e6a1301612f8d2705b323ccc8f",
+          "evidenceDigest": "sha256:b72b2841cbca46b1e738442aab1a8a8de60f4e095e78dbc880114349f01495d9"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:9f49a9951f373b91829c644db02b0d371e162f04c57abba9a4073dbc6dd5291d"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000095431",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "mario-kart-world",
+      "title": "Mario Kart World",
+      "platforms": [
+        "switch-2"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000095431",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000095431",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "mario-kart-world-switch-2",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-world-switch-2/",
+      "generation": "BEE",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000095431",
+          "matchedTitle": "Mario Kart™ World",
+          "generation": "BEE",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2025-06-05T00:00:00.000Z",
+          "productSlug": "mario-kart-world-switch-2",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-world-switch-2/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/mario-kart-world-switch-2/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/mario-kart-world-switch-2/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000095431&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:2dd68199ef2009f54ab3dfbc480dd063340f20ea480c1573b2fa174c9b9d45ec",
+          "sourceDigest": "sha256:7d82bc6aaab7dbb5e76e0e5f2ef7c61f1c446d8d057fd6f373834d83065349ff",
+          "evidenceDigest": "sha256:696e1f33e16300e7dae00ffbf4a0ac46913324775ff31d887154be128d329141"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:c8b07968bbab7f4dfb1aa7be566818d6768b0cc06919982499b6c56e9e8c2213"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000073072",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "nine-sols",
+      "title": "Nine Sols",
+      "platforms": [
+        "pc",
+        "switch",
+        "ps5",
+        "xbox"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000073072",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000073072",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "nine-sols-switch",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/nine-sols-switch/",
+      "generation": "HAC",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000073072",
+          "matchedTitle": "Nine Sols",
+          "generation": "HAC",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2024-11-26T00:00:00.000Z",
+          "productSlug": "nine-sols-switch",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/nine-sols-switch/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/nine-sols-switch/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/nine-sols-switch/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000073072&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:321b9b58e20f7ad73ce2c0a91a222875e835a109fdee9516eb715eb7867fe428",
+          "sourceDigest": "sha256:a0505e4ea5951012c399c7f3ca356d646a7f7e7e6924d8bf4de38eff301b19a6",
+          "evidenceDigest": "sha256:8546dda3f9efad579668b0151a2d2e1a08dc2e5bded0b681526de38eba2ba813"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:89013e62349386a849a15096390169b87f816b3c997196536c18988e0c8e7447"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000100149",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "persona-3-reload",
+      "title": "Persona 3 Reload",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch-2"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000100149",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000100149",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "persona-3-reload-switch-2",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/persona-3-reload-switch-2/",
+      "generation": "BEE",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000100149",
+          "matchedTitle": "Persona 3 Reload",
+          "generation": "BEE",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2025-10-23T00:00:00.000Z",
+          "productSlug": "persona-3-reload-switch-2",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/persona-3-reload-switch-2/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/persona-3-reload-switch-2/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/persona-3-reload-switch-2/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000100149&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:78b3184a05cdbeddf746d5e4d01835aeb8cd919164a767309fbfc8223949868f",
+          "sourceDigest": "sha256:bd423bed63d4180f0d0dfe6c3fc8889456adf142de2489fa6ed1df5ef9f7a1cd",
+          "evidenceDigest": "sha256:01456f40366f2379cbe4ae2bf4e16aa6cbb08c254e95323b88d584cc7e70a516"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:8fde132a39a0aa121fba59e3e29d96a5dc93408c191eb9368bffdf0d14647e0a"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000107421",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "pokemon-pokopia",
+      "title": "Pokémon Pokopia",
+      "platforms": [
+        "switch-2"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000107421",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000107421",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "pokemon-pokopia-switch-2",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+      "generation": "BEE",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000107421",
+          "matchedTitle": "Pokémon™ Pokopia",
+          "generation": "BEE",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2026-03-05T00:00:00.000Z",
+          "productSlug": "pokemon-pokopia-switch-2",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000107421&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:5de519eea4ffc9c7a3a4c753c00fce16e72c1d743a7bb0f39347fbfe5bad0768",
+          "sourceDigest": "sha256:43f2f1c32e392bfcde1e73f1f1eb3ad38eeff12a8c3284547979130654c612c6",
+          "evidenceDigest": "sha256:1c5bcecae698b96b37d0e050e7d685098391fd33a9b7f7df77bf535212d0d976"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:a0fd5bfd13d94699ca88e18cf89157b7ff2d8185755866008b7dcf66228034bf"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000101675",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "resident-evil-requiem",
+      "title": "Resident Evil Requiem",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch-2"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000101675",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000101675",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "resident-evil-requiem-switch-2",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/resident-evil-requiem-switch-2/",
+      "generation": "BEE",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000101675",
+          "matchedTitle": "Resident Evil Requiem",
+          "generation": "BEE",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2026-02-27T00:00:00.000Z",
+          "productSlug": "resident-evil-requiem-switch-2",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/resident-evil-requiem-switch-2/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/resident-evil-requiem-switch-2/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/resident-evil-requiem-switch-2/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000101675&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:14c807a6203201288231a8b8463a186b71e2459608c896d4849fcfbe9a03d673",
+          "sourceDigest": "sha256:6359e407cdec221e6831b6b2fa28ba08481d524cccc66f00b9ce04295b26e7e7",
+          "evidenceDigest": "sha256:a3c3a35c6e7f3bff0f08b7902e582e7e1b0a667a4700779d8a862a024cdb4fd3"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:44e3bb5046a213c28437a4a107863dd97ffbb136cd245fed220d0db0ce081716"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000046189",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "sea-of-stars",
+      "title": "Sea of Stars",
+      "platforms": [
+        "pc",
+        "switch",
+        "ps5",
+        "xbox"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000046189",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000046189",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "sea-of-stars-switch",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/sea-of-stars-switch/",
+      "generation": "HAC",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000046189",
+          "matchedTitle": "Sea of Stars",
+          "generation": "HAC",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2023-08-29T00:00:00.000Z",
+          "productSlug": "sea-of-stars-switch",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/sea-of-stars-switch/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/sea-of-stars-switch/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/sea-of-stars-switch/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000046189&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:01f0fbd4492d1580216fddcc7b6b975d8cc1a2101764808db9b419000384af91",
+          "sourceDigest": "sha256:b27c6ab0313cf1820e28be79dfc5eb8bfa2799ab1762566bec7246a1050d74f4",
+          "evidenceDigest": "sha256:a0687c9b20fe2b41c340700265c57d750dfd4477b00ab8e7d70677ef9c1fbeca"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:7bae715578735706287130bb2aeb553e1f05612ad62533c5d19ffecb0ee96626"
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "ns:70010000014158",
+      "sourceCandidateId": null,
+      "catalogAction": "add_platform_mapping",
+      "slug": "super-mario-party",
+      "title": "Super Mario Party",
+      "platforms": [
+        "switch"
+      ],
+      "publisher": null,
+      "developer": null,
+      "nsuids": {
+        "americas": "70010000014158",
+        "europe": null,
+        "japan": null
+      },
+      "nsuidAm": "70010000014158",
+      "nsuidEu": null,
+      "nsuidJp": null,
+      "nintendoUsSlug": "super-mario-party-switch",
+      "primaryRegionalChannel": null,
+      "humanDecision": "待定",
+      "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-party-switch/",
+      "generation": "HAC",
+      "manualUsEvidence": null,
+      "regionalEvidence": {
+        "americas": {
+          "status": "matched",
+          "evidenceKind": "nintendo_us_current_product_page",
+          "region": "americas",
+          "manual": false,
+          "nsuid": "70010000014158",
+          "matchedTitle": "Super Mario Party™ ",
+          "generation": "HAC",
+          "paid": true,
+          "released": true,
+          "releasedAt": "2018-10-05T00:00:00.000Z",
+          "productSlug": "super-mario-party-switch",
+          "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-party-switch/",
+          "requestedUrl": "https://www.nintendo.com/us/store/products/super-mario-party-switch/",
+          "finalUrl": "https://www.nintendo.com/us/store/products/super-mario-party-switch/",
+          "priceSourceUrl": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000014158&lang=en",
+          "sitemapUrl": "https://www.nintendo.com/us/store/sitemap.xml",
+          "sitemapDigest": "sha256:b09389966499193bdbb47e9cb62028187dfafd0091b7cf4d996e93907c14b2ce",
+          "locatedBy": "official_sitemap_exact_slug",
+          "collectedAt": "2026-07-18T05:26:26.411Z",
+          "pageSourceDigest": "sha256:ae93ed39115b7fc75fe5fc48e646bbb2acd62d452d3a06f324b5b80ef2b4233e",
+          "sourceDigest": "sha256:1b7caa7e4ee5a107b66fe1a38c93c6162fc6816d7628f0f5b02a8daaf3d67d07",
+          "evidenceDigest": "sha256:fa6e25e30a934ae95b8acb87d7b2d9447e0bc3148394c7571df8f04fc6b136c3"
+        },
+        "europe": null,
+        "japan": null
+      },
+      "exclusivityEvidence": null,
+      "steamMatchEvidence": null,
+      "exclusivity": {
+        "classification": "unverified",
+        "possibleCrossPlatform": false,
+        "conflict": false,
+        "reason": "no_affirmative_platform_evidence"
+      },
+      "popularity": {
+        "popularityUnverified": true,
+        "score": null,
+        "rank": null,
+        "evidence": []
+      },
+      "popularityUnverified": true,
+      "verifyStatus": "passed",
+      "exceptionReasons": [],
+      "warnings": [
+        "europe_not_found",
+        "japan_not_found"
+      ],
+      "evidenceDigest": "sha256:a6ca24d25f60e2f33f8a97fb84f61ab71ab4ef453a29d2e868568a877f027604"
+    }
+  ],
+  "documentDigest": "sha256:0fbe84e2241a453c8b8622e2bcd5003af8f3a1b2c9ddb94c19dee77124da6ef2"
+}
