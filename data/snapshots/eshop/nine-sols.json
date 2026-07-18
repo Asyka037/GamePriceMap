@@ -1,7 +1,15 @@
 {
   "slug": "nine-sols",
-  "lastPriceChangeAt": "2026-07-10",
+  "lastPriceChangeAt": "2026-07-18",
   "regions": [
+    {
+      "cc": "AR",
+      "currency": "ARS",
+      "amount": 9999,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
     {
       "cc": "AU",
       "currency": "AUD",
@@ -11,9 +19,33 @@
       "saleEndsAt": null
     },
     {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 119.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 38.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
       "cc": "CH",
       "currency": "CHF",
       "amount": 33.5,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CO",
+      "currency": "COP",
+      "amount": 79999,
       "list": null,
       "discountPct": null,
       "saleEndsAt": null
@@ -43,6 +75,14 @@
       "saleEndsAt": null
     },
     {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 339.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
       "cc": "NO",
       "currency": "NOK",
       "amount": 329,
@@ -62,6 +102,14 @@
       "cc": "PL",
       "currency": "PLN",
       "amount": 120,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 29.99,
       "list": null,
       "discountPct": null,
       "saleEndsAt": null

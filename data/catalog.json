@@ -231,7 +231,7 @@
       "title": "Resident Evil Requiem",
       "steamAppId": 3764200,
       "nsuids": {
-        "americas": null,
+        "americas": "70010000101675",
         "europe": "70010000101676",
         "japan": null
       },
@@ -242,7 +242,8 @@
         "switch-2"
       ],
       "tier": "core",
-      "addedAt": "2026-07-08"
+      "addedAt": "2026-07-08",
+      "nintendoUsSlug": "resident-evil-requiem-switch-2"
     },
     {
       "slug": "god-of-war-ragnarok",
@@ -263,7 +264,7 @@
       "xboxBigId": "9NKK6Z0K3RH2",
       "xboxEdition": "standard",
       "nsuids": {
-        "americas": null,
+        "americas": "70010000100149",
         "europe": "70010000100150",
         "japan": null
       },
@@ -274,14 +275,15 @@
         "switch-2"
       ],
       "tier": "core",
-      "addedAt": "2026-07-08"
+      "addedAt": "2026-07-08",
+      "nintendoUsSlug": "persona-3-reload-switch-2"
     },
     {
       "slug": "sea-of-stars",
       "title": "Sea of Stars",
       "steamAppId": 1244090,
       "nsuids": {
-        "americas": null,
+        "americas": "70010000046189",
         "europe": "70010000046190",
         "japan": "70010000124570"
       },
@@ -292,7 +294,8 @@
         "xbox"
       ],
       "tier": "core",
-      "addedAt": "2026-07-08"
+      "addedAt": "2026-07-08",
+      "nintendoUsSlug": "sea-of-stars-switch"
     },
     {
       "slug": "black-myth-wukong",
@@ -314,7 +317,7 @@
       "xboxBigId": "9MSVVM5NS9L6",
       "xboxEdition": "standard",
       "nsuids": {
-        "americas": null,
+        "americas": "70010000049267",
         "europe": "70010000049268",
         "japan": "70010000060548"
       },
@@ -325,7 +328,8 @@
         "xbox"
       ],
       "tier": "core",
-      "addedAt": "2026-07-08"
+      "addedAt": "2026-07-08",
+      "nintendoUsSlug": "dredge-switch"
     },
     {
       "slug": "silent-hill-2",
@@ -421,7 +425,7 @@
       "xboxBigId": "9PK087LNGJC5",
       "xboxEdition": "standard",
       "nsuids": {
-        "americas": null,
+        "americas": "70010000072051",
         "europe": "70010000072052",
         "japan": "70010000119173"
       },
@@ -433,7 +437,8 @@
         "mobile"
       ],
       "tier": "core",
-      "addedAt": "2026-07-08"
+      "addedAt": "2026-07-08",
+      "nintendoUsSlug": "balatro-switch"
     },
     {
       "slug": "hades",
@@ -490,7 +495,7 @@
       "title": "Nine Sols",
       "steamAppId": 1809540,
       "nsuids": {
-        "americas": null,
+        "americas": "70010000073072",
         "europe": "70010000073073",
         "japan": null
       },
@@ -501,7 +506,8 @@
         "xbox"
       ],
       "tier": "core",
-      "addedAt": "2026-07-08"
+      "addedAt": "2026-07-08",
+      "nintendoUsSlug": "nine-sols-switch"
     },
     {
       "slug": "tunic",
@@ -644,7 +650,7 @@
       "title": "ANIMAL WELL",
       "steamAppId": 813230,
       "nsuids": {
-        "americas": null,
+        "americas": "70010000065090",
         "europe": "70010000065091",
         "japan": "70010000065089"
       },
@@ -654,7 +660,8 @@
         "ps5"
       ],
       "tier": "core",
-      "addedAt": "2026-07-08"
+      "addedAt": "2026-07-08",
+      "nintendoUsSlug": "animal-well-switch"
     },
     {
       "slug": "cuphead",
@@ -2025,7 +2032,7 @@
       "title": "Super Mario Party",
       "steamAppId": null,
       "nsuids": {
-        "americas": null,
+        "americas": "70010000014158",
         "europe": "70010000014063",
         "japan": "70010000013977"
       },
@@ -2033,14 +2040,15 @@
         "switch"
       ],
       "tier": "extended",
-      "addedAt": "2026-07-17"
+      "addedAt": "2026-07-17",
+      "nintendoUsSlug": "super-mario-party-switch"
     },
     {
       "slug": "mario-kart-world",
       "title": "Mario Kart World",
       "steamAppId": null,
       "nsuids": {
-        "americas": null,
+        "americas": "70010000095431",
         "europe": "70010000096802",
         "japan": "70010000092842"
       },
@@ -2048,14 +2056,15 @@
         "switch-2"
       ],
       "tier": "extended",
-      "addedAt": "2026-07-18"
+      "addedAt": "2026-07-18",
+      "nintendoUsSlug": "mario-kart-world-switch-2"
     },
     {
       "slug": "donkey-kong-bananza",
       "title": "Donkey Kong Bananza",
       "steamAppId": null,
       "nsuids": {
-        "americas": null,
+        "americas": "70010000096809",
         "europe": "70010000096810",
         "japan": "70010000096306"
       },
@@ -2063,14 +2072,15 @@
         "switch-2"
       ],
       "tier": "extended",
-      "addedAt": "2026-07-18"
+      "addedAt": "2026-07-18",
+      "nintendoUsSlug": "donkey-kong-bananza-switch-2"
     },
     {
       "slug": "pokemon-pokopia",
       "title": "Pokémon Pokopia",
       "steamAppId": null,
       "nsuids": {
-        "americas": null,
+        "americas": "70010000107421",
         "europe": "70010000107422",
         "japan": null
       },
@@ -2078,14 +2088,15 @@
         "switch-2"
       ],
       "tier": "extended",
-      "addedAt": "2026-07-18"
+      "addedAt": "2026-07-18",
+      "nintendoUsSlug": "pokemon-pokopia-switch-2"
     },
     {
       "slug": "kirby-air-riders",
       "title": "Kirby Air Riders",
       "steamAppId": null,
       "nsuids": {
-        "americas": null,
+        "americas": "70010000103775",
         "europe": "70010000103776",
         "japan": "70010000103774"
       },
@@ -2093,7 +2104,8 @@
         "switch-2"
       ],
       "tier": "extended",
-      "addedAt": "2026-07-18"
+      "addedAt": "2026-07-18",
+      "nintendoUsSlug": "kirby-air-riders-switch-2"
     },
     {
       "slug": "assassin-s-creed-black-flag-resynced",

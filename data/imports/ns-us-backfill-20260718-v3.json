@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ns-us-backfill-20260718-v3",
+  "batchDigest": "sha256:3faeb8849c5afb9026ca8820d90efa6ad2ba3ba96773f18dc63c5c67dbca0ef9",
+  "baseCommit": "6271c923b34fa0e47c0630bbcb34feecdb9eeab5",
+  "approvalPolicy": "v2-auto-approve",
+  "appliedAt": "2026-07-18T15:03:57.612Z",
+  "items": [
+    {
+      "key": "ns:70010000065090",
+      "slug": "animal-well",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:cdad8fce0dea273528d208c5275d8a1adc32419710d09e2eb0dace0ebb0508e6"
+    },
+    {
+      "key": "ns:70010000072051",
+      "slug": "balatro",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:85fe234a115ac2f43a3dbe75e183c296a704e1da380cae25c25fa3f820136440"
+    },
+    {
+      "key": "ns:70010000096809",
+      "slug": "donkey-kong-bananza",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:7a10f0593c09a473886a65595a34b4484eeae250fa7a77d33a2b12b324f0876e"
+    },
+    {
+      "key": "ns:70010000049267",
+      "slug": "dredge",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:8ddbc186fd8234c11efac00b4bd95635f0504b6cffe74b697586e5bea45ed4c5"
+    },
+    {
+      "key": "ns:70010000103775",
+      "slug": "kirby-air-riders",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:9f49a9951f373b91829c644db02b0d371e162f04c57abba9a4073dbc6dd5291d"
+    },
+    {
+      "key": "ns:70010000095431",
+      "slug": "mario-kart-world",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:c8b07968bbab7f4dfb1aa7be566818d6768b0cc06919982499b6c56e9e8c2213"
+    },
+    {
+      "key": "ns:70010000073072",
+      "slug": "nine-sols",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:89013e62349386a849a15096390169b87f816b3c997196536c18988e0c8e7447"
+    },
+    {
+      "key": "ns:70010000100149",
+      "slug": "persona-3-reload",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:8fde132a39a0aa121fba59e3e29d96a5dc93408c191eb9368bffdf0d14647e0a"
+    },
+    {
+      "key": "ns:70010000107421",
+      "slug": "pokemon-pokopia",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:a0fd5bfd13d94699ca88e18cf89157b7ff2d8185755866008b7dcf66228034bf"
+    },
+    {
+      "key": "ns:70010000101675",
+      "slug": "resident-evil-requiem",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:44e3bb5046a213c28437a4a107863dd97ffbb136cd245fed220d0db0ce081716"
+    },
+    {
+      "key": "ns:70010000046189",
+      "slug": "sea-of-stars",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:7bae715578735706287130bb2aeb553e1f05612ad62533c5d19ffecb0ee96626"
+    },
+    {
+      "key": "ns:70010000014158",
+      "slug": "super-mario-party",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:a6ca24d25f60e2f33f8a97fb84f61ab71ab4ef453a29d2e868568a877f027604"
+    }
+  ],
+  "artifacts": {
+    "data/catalog.json": "sha256:87add667d6d6d81ee543856d8de07ae7ecb2d70fd49aa67bfa8a88895eb3a01f",
+    "data/history/animal-well.json": "sha256:4719e11842bbc7c15c91810ec17ec3fdba1eb276a1475f4bbac7cf262ea1f7e8",
+    "data/history/balatro.json": "sha256:f79d08c63f200bbde33fe292be7d1bda1d3dcc87dec0b435f0ada0a1cc61cc71",
+    "data/history/donkey-kong-bananza.json": "sha256:82acfe34bff814c070433fc0f196d56c6ea6d997ac292b1a9e1c77c864d162a1",
+    "data/history/dredge.json": "sha256:254a17a702bd430098c175527fcbadf8d41e04609fd7a4b756f6bc94d96aad3c",
+    "data/history/kirby-air-riders.json": "sha256:d575ddd7d77cbdd79d258c3b7d9290c3e76479487d914b3d967654aafd324c49",
+    "data/history/mario-kart-world.json": "sha256:54531a54a24b0cc0c8a3d17c1e0340252ce3cfa48c80f989c0036111cfd0d286",
+    "data/history/nine-sols.json": "sha256:7dfc8d72973efa1bb653b4e5853a461c9e2f9f517adf748590ba43d2dbbc92e8",
+    "data/history/persona-3-reload.json": "sha256:6f3348a8e5ffa3283df01f38631659c2fb4e72463e472244a34ce4228335e5be",
+    "data/history/pokemon-pokopia.json": "sha256:38ac8f93ec145da9b074c8f41b0f9f7556a9ea5c7b6dcd4afd74066bfe1ac0c5",
+    "data/history/resident-evil-requiem.json": "sha256:b78cc7fd3a61c90240c76297905f54f9739cc899fe977e1ad36794a44d3d9bdd",
+    "data/history/sea-of-stars.json": "sha256:36cd1eabfb3057b29d6a0a1dfc0ddd7c520bc43b29e198cc49e296b08c254422",
+    "data/history/super-mario-party.json": "sha256:dc27ea414a79d897c95d20470023477f62024005ee4cdae265a0f80b09561c95",
+    "data/meta/animal-well.json": "sha256:249daf9ca07de82c6fb1597c474d7efa80de6ffec0f01ac3011ee5849a56d253",
+    "data/meta/balatro.json": "sha256:58522de87a173d99f0fd9ddf06debf77c92214491932f1ea45c720922b9d8828",
+    "data/meta/donkey-kong-bananza.json": "sha256:2166083d4a3c4d08ac011e947394bfbbf72d9f542a580678a1280f6586fc8b4b",
+    "data/meta/dredge.json": "sha256:695532feaf67bb867c42835f42aa3f72e6d8c75d713e1a12ab59ff4fd34e6eb4",
+    "data/meta/kirby-air-riders.json": "sha256:aa754c7a14bc02ec6da30e86c6c84d1b13c530a5845da98f852283d162c3e08e",
+    "data/meta/mario-kart-world.json": "sha256:fa60be0f27ac2e5bbed5930bedea3ad70c13bff94eabae189f98ed87782797e4",
+    "data/meta/nine-sols.json": "sha256:6a402525fec692677ee9edceb651670cff421406f754ca6a982c54be552356ff",
+    "data/meta/persona-3-reload.json": "sha256:786285bf05e0312aac20c02e92cc536edeca0ae89619ce3cff88f72fda26ab87",
+    "data/meta/pokemon-pokopia.json": "sha256:66aaa28983db66e79e9b7fb6c086f909e2565b8bdc73695a9dfbee8c944d6219",
+    "data/meta/resident-evil-requiem.json": "sha256:c760d6c4367d972b8a47ab2b2be32f62a258b94f865bb18df3bdceb4d26a05bf",
+    "data/meta/sea-of-stars.json": "sha256:59459a0a648cb95456fd7de8057945fdfa0515847282df076c3e9bf2a3971619",
+    "data/meta/super-mario-party.json": "sha256:4d043943b73c06b02eb7f982d7bfd1c914342b959e0137b898dd43b51034fd01",
+    "data/snapshots/eshop/animal-well.json": "sha256:9c63ba887f150dfbb95b26a46e3a7c5e515d864f0c9563e427b9d0f220ce8552",
+    "data/snapshots/eshop/balatro.json": "sha256:3625fb123a4f869280b6fcbb0cedbaf3484fdceade7c9d60da37b471d73ea7cb",
+    "data/snapshots/eshop/donkey-kong-bananza.json": "sha256:93e4afd4fc745fee6ba5c8593e85436daa34b1cfdc9122e7a0e6bfd54d9bf7da",
+    "data/snapshots/eshop/dredge.json": "sha256:2b92cc53a6a480f57838c3548c0693283ffed12a1d39d28bf397e78d1d85f170",
+    "data/snapshots/eshop/kirby-air-riders.json": "sha256:7f841c999d8f10629db3ffd20d49d15b78c78b9d9aecd5a2b3099917ace2c95a",
+    "data/snapshots/eshop/mario-kart-world.json": "sha256:90baadf3128c1182863992914b62758e883789eb031226516a9f6978b657e0cd",
+    "data/snapshots/eshop/nine-sols.json": "sha256:051a487ef7793600b1b8f6559e95c49908467806f0112ad84d4a8627aee6fc92",
+    "data/snapshots/eshop/persona-3-reload.json": "sha256:48e2133e80d258b5ad9efbc2524d939117703c68cdc7264d0b44c117dbafff91",
+    "data/snapshots/eshop/pokemon-pokopia.json": "sha256:dd994b1a8d0cb6e4a186e5d83a33ebb6f68961370e0767a7512d4f6bfd70bdef",
+    "data/snapshots/eshop/resident-evil-requiem.json": "sha256:06b208b3d7916f2e73bacb96419f74e46cf1cc980765de524412c023fc9efac2",
+    "data/snapshots/eshop/sea-of-stars.json": "sha256:12800f48d92c6b7484e1407a8f0a763d9482ce63b94da1edf58c21624f1396a1",
+    "data/snapshots/eshop/super-mario-party.json": "sha256:6bd551280f7e4514e34c75f1bd3990c08a0a9ac8f16337db484774e5610af0c5"
+  }
+}

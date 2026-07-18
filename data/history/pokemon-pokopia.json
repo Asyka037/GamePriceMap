@@ -3,10 +3,23 @@
   "cheapsharkGameId": null,
   "atl": {
     "eshop-eu": {
-      "usd": 40.45,
+      "usd": 40.32,
       "date": null,
       "seed": "eshop-eu"
+    },
+    "eshop-us": {
+      "usd": 69.99,
+      "date": "2026-07-18",
+      "seed": "self"
     }
   },
-  "events": []
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "eshop",
+      "cc": "US",
+      "usd": 69.99,
+      "pct": null
+    }
+  ]
 }

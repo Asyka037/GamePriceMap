@@ -1,7 +1,15 @@
 {
   "slug": "balatro",
-  "lastPriceChangeAt": "2026-07-10",
+  "lastPriceChangeAt": "2026-07-18",
   "regions": [
+    {
+      "cc": "AR",
+      "currency": "ARS",
+      "amount": 6580,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
     {
       "cc": "AU",
       "currency": "AUD",
@@ -11,9 +19,33 @@
       "saleEndsAt": null
     },
     {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 44.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 18.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
       "cc": "CH",
       "currency": "CHF",
       "amount": 16.79,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CO",
+      "currency": "COP",
+      "amount": 37500,
       "list": null,
       "discountPct": null,
       "saleEndsAt": null
@@ -51,6 +83,14 @@
       "saleEndsAt": null
     },
     {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 178.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
       "cc": "NO",
       "currency": "NOK",
       "amount": 165,
@@ -70,6 +110,14 @@
       "cc": "PL",
       "currency": "PLN",
       "amount": 64.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 14.99,
       "list": null,
       "discountPct": null,
       "saleEndsAt": null
