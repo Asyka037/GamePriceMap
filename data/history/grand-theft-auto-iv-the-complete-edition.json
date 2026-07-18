@@ -1,0 +1,20 @@
+{
+  "slug": "grand-theft-auto-iv-the-complete-edition",
+  "cheapsharkGameId": "212387",
+  "atl": {
+    "pc": {
+      "usd": 5.99,
+      "date": "2026-07-18",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 5.99,
+      "pct": 70
+    }
+  ]
+}

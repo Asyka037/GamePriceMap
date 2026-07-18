@@ -1,0 +1,20 @@
+{
+  "slug": "call-of-duty-black-ops-iii",
+  "cheapsharkGameId": "143424",
+  "atl": {
+    "pc": {
+      "usd": 19.79,
+      "date": "2021-12-22",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 59.99,
+      "pct": null
+    }
+  ]
+}

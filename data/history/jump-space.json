@@ -1,0 +1,20 @@
+{
+  "slug": "jump-space",
+  "cheapsharkGameId": "308554",
+  "atl": {
+    "pc": {
+      "usd": 15.99,
+      "date": "2026-07-18",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 15.99,
+      "pct": 20
+    }
+  ]
+}

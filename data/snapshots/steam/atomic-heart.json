@@ -1,0 +1,142 @@
+{
+  "slug": "atomic-heart",
+  "lastPriceChangeAt": "2026-07-18",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 9.24,
+      "list": 36.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 22.48,
+      "list": 89.95,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 49.97,
+      "list": 199.9,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 19.99,
+      "list": 79.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 16.22,
+      "list": 64.9,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 59.75,
+      "list": 239,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 14.99,
+      "list": 59.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 13.74,
+      "list": 54.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 11.24,
+      "list": 44.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 674,
+      "list": 2699,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2200,
+      "list": 8800,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 17450,
+      "list": 69800,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 199.99,
+      "list": 799.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 11.24,
+      "list": 44.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 9.99,
+      "list": 39.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 374,
+      "list": 1499,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 14.99,
+      "list": 59.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    }
+  ]
+}

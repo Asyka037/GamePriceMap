@@ -1,0 +1,20 @@
+{
+  "slug": "dead-island-2",
+  "cheapsharkGameId": "259837",
+  "atl": {
+    "pc": {
+      "usd": 4.99,
+      "date": "2026-07-18",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 4.99,
+      "pct": 90
+    }
+  ]
+}

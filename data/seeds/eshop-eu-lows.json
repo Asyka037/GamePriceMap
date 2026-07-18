@@ -86,5 +86,21 @@
   "super-mario-party": {
     "currency": "GBP",
     "amount": 49.99
+  },
+  "mario-kart-world": {
+    "currency": "GBP",
+    "amount": 66.99
+  },
+  "donkey-kong-bananza": {
+    "currency": "GBP",
+    "amount": 58.99
+  },
+  "pokemon-pokopia": {
+    "currency": "GBP",
+    "amount": 29.99
+  },
+  "kirby-air-riders": {
+    "currency": "GBP",
+    "amount": 58.99
   }
 }

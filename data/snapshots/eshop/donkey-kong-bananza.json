@@ -1,0 +1,86 @@
+{
+  "slug": "donkey-kong-bananza",
+  "lastPriceChangeAt": "2026-07-18",
+  "regions": [
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 109.95,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 69.9,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 519,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 58.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 7980,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 769,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 119.95,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 289.8,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "ZA",
+      "currency": "ZAR",
+      "amount": 1329,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    }
+  ]
+}

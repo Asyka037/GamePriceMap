@@ -1,0 +1,20 @@
+{
+  "slug": "hitman-world-of-assassination",
+  "cheapsharkGameId": "256538",
+  "atl": {
+    "pc": {
+      "usd": 0.99,
+      "date": "2025-03-13",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 27.99,
+      "pct": 60
+    }
+  ]
+}

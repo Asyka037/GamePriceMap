@@ -1,0 +1,150 @@
+{
+  "slug": "warhammer-40-000-rogue-trader",
+  "lastPriceChangeAt": "2026-07-18",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 24.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 124.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 64.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 54.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 188,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 49.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 42.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 22.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 2000,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 6500,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 53000,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 9999,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 519.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 24.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 24.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 799,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 49.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    }
+  ]
+}

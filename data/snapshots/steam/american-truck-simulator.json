@@ -1,0 +1,150 @@
+{
+  "slug": "american-truck-simulator",
+  "lastPriceChangeAt": "2026-07-18",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 2.52,
+      "list": 10.09,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 7.37,
+      "list": 29.5,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 15.49,
+      "list": 61.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 6.49,
+      "list": 25.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 4.74,
+      "list": 18.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 22,
+      "list": 88,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 4.99,
+      "list": 19.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 4.22,
+      "list": 16.89,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 2.74,
+      "list": 10.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 230,
+      "list": 920,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 695,
+      "list": 2780,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 6200,
+      "list": 24800,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 1300,
+      "list": 5200,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 61.24,
+      "list": 244.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 2.71,
+      "list": 10.84,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 2.52,
+      "list": 10.09,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 100,
+      "list": 400,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 4.99,
+      "list": 19.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    }
+  ]
+}

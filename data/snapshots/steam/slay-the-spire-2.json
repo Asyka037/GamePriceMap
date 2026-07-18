@@ -1,0 +1,150 @@
+{
+  "slug": "slay-the-spire-2",
+  "lastPriceChangeAt": "2026-07-18",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 11.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 36.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 74.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 32.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 22.49,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 88,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 22.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 19.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 12.49,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 1100,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2800,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 27000,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 6900,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 290,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 11.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 11.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 499,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 24.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    }
+  ]
+}

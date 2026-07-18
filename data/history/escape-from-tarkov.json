@@ -1,0 +1,20 @@
+{
+  "slug": "escape-from-tarkov",
+  "cheapsharkGameId": "311731",
+  "atl": {
+    "pc": {
+      "usd": 33.49,
+      "date": "2026-06-19",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 37.49,
+      "pct": 25
+    }
+  ]
+}

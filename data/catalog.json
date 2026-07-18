@@ -2034,6 +2034,1144 @@
       ],
       "tier": "extended",
       "addedAt": "2026-07-17"
+    },
+    {
+      "slug": "mario-kart-world",
+      "title": "Mario Kart World",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": null,
+        "europe": "70010000096802",
+        "japan": "70010000092842"
+      },
+      "platforms": [
+        "switch-2"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "donkey-kong-bananza",
+      "title": "Donkey Kong Bananza",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": null,
+        "europe": "70010000096810",
+        "japan": "70010000096306"
+      },
+      "platforms": [
+        "switch-2"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "pokemon-pokopia",
+      "title": "Pokémon Pokopia",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": null,
+        "europe": "70010000107422",
+        "japan": null
+      },
+      "platforms": [
+        "switch-2"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "kirby-air-riders",
+      "title": "Kirby Air Riders",
+      "steamAppId": null,
+      "nsuids": {
+        "americas": null,
+        "europe": "70010000103776",
+        "japan": "70010000103774"
+      },
+      "platforms": [
+        "switch-2"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "assassin-s-creed-black-flag-resynced",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "steamAppId": 3751950,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "meccha-chameleon",
+      "title": "MECCHA CHAMELEON",
+      "steamAppId": 4704690,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "powerwash-simulator-2",
+      "title": "PowerWash Simulator 2",
+      "steamAppId": 2968420,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "grand-theft-auto-v-enhanced",
+      "title": "Grand Theft Auto V Enhanced",
+      "steamAppId": 3240220,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "path-of-exile-2",
+      "title": "Path of Exile 2",
+      "steamAppId": 2694490,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "call-of-duty-black-ops-ii",
+      "title": "Call of Duty: Black Ops II",
+      "steamAppId": 202970,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "the-outlast-trials",
+      "title": "The Outlast Trials",
+      "steamAppId": 1304930,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "granblue-fantasy-relink",
+      "title": "Granblue Fantasy: Relink",
+      "steamAppId": 881020,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "escape-from-tarkov",
+      "title": "Escape from Tarkov",
+      "steamAppId": 3932890,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "gamble-with-your-friends",
+      "title": "Gamble With Your Friends",
+      "steamAppId": 3892270,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "ark-survival-ascended",
+      "title": "ARK: Survival Ascended",
+      "steamAppId": 2399830,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "battlefield-6",
+      "title": "Battlefield 6",
+      "steamAppId": 2807960,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "borderlands-4",
+      "title": "Borderlands 4",
+      "steamAppId": 1285190,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "the-elder-scrolls-online",
+      "title": "The Elder Scrolls Online",
+      "steamAppId": 306130,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "slay-the-spire-2",
+      "title": "Slay the Spire 2",
+      "steamAppId": 2868840,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "american-truck-simulator",
+      "title": "American Truck Simulator",
+      "steamAppId": 270880,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "fallout-76",
+      "title": "Fallout 76",
+      "steamAppId": 1151340,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "final-fantasy-xiv-online",
+      "title": "FINAL FANTASY XIV Online",
+      "steamAppId": 39210,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "schedule-i",
+      "title": "Schedule I",
+      "steamAppId": 3164500,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "easy-red-2",
+      "title": "Easy Red 2",
+      "steamAppId": 1324780,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "call-of-duty-black-ops-iii",
+      "title": "Call of Duty: Black Ops III",
+      "steamAppId": 311210,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "007-first-light",
+      "title": "007 First Light",
+      "steamAppId": 3768760,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "paralives",
+      "title": "Paralives",
+      "steamAppId": 1118520,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "ready-or-not",
+      "title": "Ready or Not",
+      "steamAppId": 1144200,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "windrose",
+      "title": "Windrose",
+      "steamAppId": 3041230,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "crimson-desert",
+      "title": "Crimson Desert",
+      "steamAppId": 3321460,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "peak",
+      "title": "PEAK",
+      "steamAppId": 3527290,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "r-e-p-o",
+      "title": "R.E.P.O.",
+      "steamAppId": 3241660,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "runescape-dragonwilds",
+      "title": "RuneScape: Dragonwilds",
+      "steamAppId": 1374490,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "dragon-ball-xenoverse-2",
+      "title": "DRAGON BALL XENOVERSE 2",
+      "steamAppId": 454650,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "stellaris",
+      "title": "Stellaris",
+      "steamAppId": 281990,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "fantasy-life-i-the-girl-who-steals-time",
+      "title": "FANTASY LIFE i: The Girl Who Steals Time",
+      "steamAppId": 2993780,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "the-isle",
+      "title": "The Isle",
+      "steamAppId": 376210,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "ground-branch",
+      "title": "GROUND BRANCH",
+      "steamAppId": 16900,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "arc-raiders",
+      "title": "ARC Raiders",
+      "steamAppId": 1808500,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "factorio",
+      "title": "Factorio",
+      "steamAppId": 427520,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "grand-theft-auto-san-andreas-the-definitive-edition",
+      "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
+      "steamAppId": 1547000,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "crusader-kings-iii",
+      "title": "Crusader Kings III",
+      "steamAppId": 1158310,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "barony",
+      "title": "Barony",
+      "steamAppId": 371970,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "content-warning",
+      "title": "Content Warning",
+      "steamAppId": 2881650,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "hunt-showdown-1896",
+      "title": "Hunt: Showdown 1896",
+      "steamAppId": 594650,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "rv-there-yet",
+      "title": "RV There Yet?",
+      "steamAppId": 3949040,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "beamng-drive",
+      "title": "BeamNG.drive",
+      "steamAppId": 284160,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "farming-simulator-25",
+      "title": "Farming Simulator 25",
+      "steamAppId": 2300320,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "doom-the-dark-ages",
+      "title": "DOOM: The Dark Ages",
+      "steamAppId": 3017860,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "the-binding-of-isaac-rebirth",
+      "title": "The Binding of Isaac: Rebirth",
+      "steamAppId": 250900,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "the-elder-scrolls-v-skyrim-special-edition",
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "steamAppId": 489830,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "arma-reforger",
+      "title": "Arma Reforger",
+      "steamAppId": 1874880,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "hearts-of-iron-iv",
+      "title": "Hearts of Iron IV",
+      "steamAppId": 394360,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "silent-hill-f",
+      "title": "SILENT HILL f",
+      "steamAppId": 2947440,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "sid-meier-s-civilization-vii",
+      "title": "Sid Meier's Civilization VII",
+      "steamAppId": 1295660,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "microsoft-flight-simulator-2024",
+      "title": "Microsoft Flight Simulator 2024",
+      "steamAppId": 2537590,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "hitman-world-of-assassination",
+      "title": "HITMAN World of Assassination",
+      "steamAppId": 1659040,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "cities-skylines-ii",
+      "title": "Cities: Skylines II",
+      "steamAppId": 949230,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "marvel-s-spider-man-2",
+      "title": "Marvel's Spider-Man 2",
+      "steamAppId": 2651280,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "half-sword",
+      "title": "Half Sword",
+      "steamAppId": 2397300,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "librarian-tidy-up-the-arcane-library",
+      "title": "Librarian: Tidy Up the Arcane Library!",
+      "steamAppId": 4197610,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "for-honor",
+      "title": "FOR HONOR",
+      "steamAppId": 304390,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "sons-of-the-forest",
+      "title": "Sons Of The Forest",
+      "steamAppId": 1326470,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "payday-2",
+      "title": "PAYDAY 2",
+      "steamAppId": 218620,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "rematch",
+      "title": "REMATCH",
+      "steamAppId": 2138720,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "7-days-to-die",
+      "title": "7 Days to Die",
+      "steamAppId": 251570,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "jurassic-world-evolution-3",
+      "title": "Jurassic World Evolution 3",
+      "steamAppId": 2958130,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "bioshock-infinite",
+      "title": "BioShock Infinite",
+      "steamAppId": 8870,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "warhammer-40-000-rogue-trader",
+      "title": "Warhammer 40,000: Rogue Trader",
+      "steamAppId": 2186680,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "marathon",
+      "title": "Marathon",
+      "steamAppId": 3065800,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "sea-of-thieves-2026-edition",
+      "title": "Sea of Thieves: 2026 Edition",
+      "steamAppId": 1172620,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "tabletop-simulator",
+      "title": "Tabletop Simulator",
+      "steamAppId": 286160,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "house-flipper-2",
+      "title": "House Flipper 2",
+      "steamAppId": 1190970,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "halo-the-master-chief-collection",
+      "title": "Halo: The Master Chief Collection",
+      "steamAppId": 976730,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "backrooms-escape-together",
+      "title": "Backrooms: Escape Together",
+      "steamAppId": 2141730,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "thehunter-call-of-the-wild",
+      "title": "theHunter: Call of the Wild",
+      "steamAppId": 518790,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "call-of-duty-black-ops",
+      "title": "Call of Duty: Black Ops",
+      "steamAppId": 42700,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "far-far-west",
+      "title": "Far Far West",
+      "steamAppId": 3124540,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "f1-25",
+      "title": "F1 25",
+      "steamAppId": 3059520,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "garry-s-mod",
+      "title": "Garry's Mod",
+      "steamAppId": 4000,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "abiotic-factor",
+      "title": "Abiotic Factor",
+      "steamAppId": 427410,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "grand-theft-auto-iv-the-complete-edition",
+      "title": "Grand Theft Auto IV: The Complete Edition",
+      "steamAppId": 12210,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "dayz",
+      "title": "DayZ",
+      "steamAppId": 221100,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "dead-as-disco",
+      "title": "Dead as Disco",
+      "steamAppId": 3404260,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "conan-exiles-enhanced",
+      "title": "Conan Exiles Enhanced",
+      "steamAppId": 440900,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "dead-island-2",
+      "title": "Dead Island 2",
+      "steamAppId": 934700,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "street-fighter-6",
+      "title": "Street Fighter 6",
+      "steamAppId": 1364780,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "the-forever-winter",
+      "title": "The Forever Winter",
+      "steamAppId": 2828860,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "stray",
+      "title": "Stray",
+      "steamAppId": 1332010,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "watch-dogs-2",
+      "title": "Watch_Dogs 2",
+      "steamAppId": 447040,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "jump-space",
+      "title": "Jump Space",
+      "steamAppId": 1757300,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "snowrunner",
+      "title": "SnowRunner",
+      "steamAppId": 1465360,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "raft",
+      "title": "Raft",
+      "steamAppId": 648800,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "wallpaper-engine",
+      "title": "Wallpaper Engine",
+      "steamAppId": 431960,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "gray-zone-warfare",
+      "title": "Gray Zone Warfare",
+      "steamAppId": 2479810,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "blue-prince",
+      "title": "Blue Prince",
+      "steamAppId": 1569580,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "pragmata",
+      "title": "PRAGMATA",
+      "steamAppId": 3357650,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "gothic-1-remake",
+      "title": "Gothic 1 Remake",
+      "steamAppId": 1297900,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "grounded-2",
+      "title": "Grounded 2",
+      "steamAppId": 2661300,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "bloons-td-6",
+      "title": "Bloons TD 6",
+      "steamAppId": 960090,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "atomic-heart",
+      "title": "Atomic Heart",
+      "steamAppId": 668580,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
+    },
+    {
+      "slug": "dispatch",
+      "title": "Dispatch",
+      "steamAppId": 2592160,
+      "nsuids": null,
+      "platforms": [
+        "pc"
+      ],
+      "tier": "extended",
+      "addedAt": "2026-07-18"
     }
   ]
 }

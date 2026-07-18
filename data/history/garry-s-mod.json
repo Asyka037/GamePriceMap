@@ -1,0 +1,20 @@
+{
+  "slug": "garry-s-mod",
+  "cheapsharkGameId": "110",
+  "atl": {
+    "pc": {
+      "usd": 2.49,
+      "date": "2012-07-22",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 9.99,
+      "pct": null
+    }
+  ]
+}

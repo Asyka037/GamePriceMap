@@ -1,0 +1,150 @@
+{
+  "slug": "hitman-world-of-assassination",
+  "lastPriceChangeAt": "2026-07-18",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 13.19,
+      "list": 32.99,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 41,
+      "list": 102.5,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 75.59,
+      "list": 188.99,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 35.99,
+      "list": 89.99,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 31.19,
+      "list": 77.99,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 95.2,
+      "list": 238,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 27.99,
+      "list": 69.99,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 23.4,
+      "list": 58.5,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 12.79,
+      "list": 31.99,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 640,
+      "list": 1600,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 3040,
+      "list": 7600,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 29400,
+      "list": 73500,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 6600,
+      "list": 16500,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 287.99,
+      "list": 719.99,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 9.19,
+      "list": 22.99,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 13.19,
+      "list": 32.99,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 526,
+      "list": 1315,
+      "discountPct": 60,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 27.99,
+      "list": 69.99,
+      "discountPct": 60,
+      "saleEndsAt": null
+    }
+  ]
+}

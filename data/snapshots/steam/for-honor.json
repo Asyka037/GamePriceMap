@@ -1,0 +1,150 @@
+{
+  "slug": "for-honor",
+  "lastPriceChangeAt": "2026-07-18",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 23.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 49.95,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 129.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 39.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 29.9,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 148,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 29.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 24.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 16.49,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 1499,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 4180,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 34000,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 7349,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 599,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 21.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 23.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 459,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 29.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    }
+  ]
+}

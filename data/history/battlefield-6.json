@@ -1,0 +1,20 @@
+{
+  "slug": "battlefield-6",
+  "cheapsharkGameId": null,
+  "atl": {
+    "pc": {
+      "usd": 69.99,
+      "date": "2026-07-18",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 69.99,
+      "pct": null
+    }
+  ]
+}

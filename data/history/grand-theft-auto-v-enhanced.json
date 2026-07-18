@@ -1,0 +1,20 @@
+{
+  "slug": "grand-theft-auto-v-enhanced",
+  "cheapsharkGameId": "298615",
+  "atl": {
+    "pc": {
+      "usd": 12.9,
+      "date": "2025-09-05",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 14.99,
+      "pct": 50
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "windrose",
+  "cheapsharkGameId": "319544",
+  "atl": {
+    "pc": {
+      "usd": 26.99,
+      "date": "2026-04-14",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 29.99,
+      "pct": null
+    }
+  ]
+}

@@ -114,7 +114,7 @@ export function parseBuilderArgs(args) {
     if (flag === '--sleep-ms') options.waitMs = integer(value, '--sleep-ms', { max: 5000 });
     if (flag === '--now') options.generatedAt = new Date(value);
   }
-  if (!['pilot', 'final'].includes(options.mode)) throw new Error('--mode must be pilot or final');
+  if (!['pilot', 'final', 'day-one'].includes(options.mode)) throw new Error('--mode must be pilot, final or day-one');
   if (!Number.isFinite(options.generatedAt.valueOf())) throw new Error('--now is invalid');
   options.evidenceDir ??= path.join(ROOT, 'data', 'suggestions', 'evidence', 'steam', 'ranking');
   options.cacheDir ??= path.join(
@@ -186,6 +186,9 @@ export async function buildSteamCandidates(options = parseBuilderArgs([])) {
   }
   if (options.mode === 'final' && document.pool.incomplete) {
     throw new Error(`final candidate build is incomplete: ${document.pool.pending} appdetails records remain; rerun to resume`);
+  }
+  if (options.mode === 'day-one' && document.pool.headIncomplete) {
+    throw new Error('day-one cohort head is missing appdetails evidence; rerun with more --max-requests to resume');
   }
   atomicWrite(options.outputPath, candidateDocumentJson(document));
   return { document, outputPath: options.outputPath, fetched: pending.length, noOp: false };

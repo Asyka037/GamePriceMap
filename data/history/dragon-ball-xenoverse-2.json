@@ -1,0 +1,20 @@
+{
+  "slug": "dragon-ball-xenoverse-2",
+  "cheapsharkGameId": "141446",
+  "atl": {
+    "pc": {
+      "usd": 1.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 4.99,
+      "pct": 75
+    }
+  ]
+}

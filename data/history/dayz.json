@@ -1,0 +1,20 @@
+{
+  "slug": "dayz",
+  "cheapsharkGameId": "104077",
+  "atl": {
+    "pc": {
+      "usd": 22.49,
+      "date": "2020-12-22",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 49.99,
+      "pct": null
+    }
+  ]
+}

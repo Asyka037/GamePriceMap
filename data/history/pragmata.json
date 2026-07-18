@@ -1,0 +1,20 @@
+{
+  "slug": "pragmata",
+  "cheapsharkGameId": "304398",
+  "atl": {
+    "pc": {
+      "usd": 49.16,
+      "date": "2026-04-20",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 59.99,
+      "pct": null
+    }
+  ]
+}

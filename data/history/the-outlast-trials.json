@@ -1,0 +1,20 @@
+{
+  "slug": "the-outlast-trials",
+  "cheapsharkGameId": "260874",
+  "atl": {
+    "pc": {
+      "usd": 11.99,
+      "date": "2026-07-18",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 11.99,
+      "pct": 70
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "7-days-to-die",
+  "cheapsharkGameId": "104051",
+  "atl": {
+    "pc": {
+      "usd": 4.8,
+      "date": "2023-06-02",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 44.99,
+      "pct": null
+    }
+  ]
+}

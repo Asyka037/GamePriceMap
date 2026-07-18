@@ -12,6 +12,11 @@ export const STEAM_CANDIDATE_KIND = 'steam-candidates';
 export const STEAM_APPDETAILS_EVIDENCE_SCHEMA_VERSION = 1;
 export const STEAM_APPDETAILS_EVIDENCE_KIND = 'steam-appdetails-evidence';
 export const FINAL_MINIMUM_DISTINCT_DATES = 14;
+// Day-one launch cohort (user policy 2026-07-17): capped at 100 titles, each
+// hard-gated on long-term popularity (appdetails recommendations.total) so a
+// single day's revenue chart cannot smuggle in a flash-in-the-pan release.
+export const DAY_ONE_LIMIT = 100;
+export const DAY_ONE_MIN_RECOMMENDATIONS = 10000;
 export const RANK_POINTS_CEILING = 2001;
 
 const NOISE_TITLE = /(?:\b(?:demo|soundtrack|playtest|dedicated server|season pass|upgrade pack|artbook)\b|\bdlc\b)/iu;
@@ -223,7 +228,7 @@ export function gateSteamAppDetails(appId, payload, { expectedTitles = [], now =
 
 function dedupeSamples(samples, mode) {
   if (!Array.isArray(samples) || samples.length === 0) throw new Error('Steam ranking evidence is empty');
-  if (!['pilot', 'final'].includes(mode)) throw new Error(`unsupported candidate mode: ${mode}`);
+  if (!['pilot', 'final', 'day-one'].includes(mode)) throw new Error(`unsupported candidate mode: ${mode}`);
   const byDate = new Map();
   for (const source of samples) {
     const sample = validateDailySteamRankingEvidence(source);
@@ -417,6 +422,7 @@ export function buildSteamCandidateDocument({
   generatedAt = new Date(),
 }) {
   if (!Number.isSafeInteger(limit) || limit <= 0 || limit > 5000) throw new Error('candidate limit must be 1..5000');
+  if (mode === 'day-one' && limit > DAY_ONE_LIMIT) throw new Error(`day-one limit must be <= ${DAY_ONE_LIMIT}`);
   const distinctSamples = dedupeSamples(samples, mode);
   const { pool, sourceRejections } = candidatePool(distinctSamples);
   const known = knownCatalogAppIds(catalog);
@@ -424,6 +430,7 @@ export function buildSteamCandidateDocument({
   const rejectedCandidates = [];
   const pendingCandidates = [];
   const acceptedCandidates = [];
+  let headIncomplete = false;
 
   const prioritizedPool = [...pool.values()].sort((a, b) => poolPriority(b) - poolPriority(a) || a.appId - b.appId);
   for (const record of prioritizedPool) {
@@ -434,6 +441,9 @@ export function buildSteamCandidateDocument({
     }
     const details = appDetails.get(record.appId);
     if (!details) {
+      // In day-one mode a coverage gap ahead of the cut-off makes the cohort
+      // unrankable: the head of the official chart must be fully evidenced.
+      if (mode === 'day-one' && acceptedCandidates.length < limit) headIncomplete = true;
       pendingCandidates.push({ candidateId, steamAppId: record.appId, reason: 'missing_appdetails_evidence' });
       continue;
     }
@@ -451,12 +461,21 @@ export function buildSteamCandidateDocument({
       });
       continue;
     }
+    if (mode === 'day-one' && (gate.recommendationCount ?? 0) < DAY_ONE_MIN_RECOMMENDATIONS) {
+      rejectedCandidates.push({
+        candidateId,
+        steamAppId: record.appId,
+        reason: 'below_day_one_recommendation_floor',
+        appDetailsEvidenceDigest: details.documentDigest,
+      });
+      continue;
+    }
     const candidate = scoredCandidate(record, gate, mode);
     candidate.evidence.appDetailsEvidenceDigest = details.documentDigest;
     acceptedCandidates.push(candidate);
   }
 
-  acceptedCandidates.sort(compareSteamCandidates);
+  if (mode !== 'day-one') acceptedCandidates.sort(compareSteamCandidates);
   const candidates = acceptedCandidates.slice(0, limit).map((candidate, index) => {
     const ranked = { ...candidate, sourceRank: index + 1 };
     ranked.evidenceDigest = sha256Digest(candidateEvidencePayload(ranked));
@@ -490,6 +509,7 @@ export function buildSteamCandidateDocument({
       rejected: rejectedCandidates.length,
       pending: pendingCandidates.length,
       incomplete: pendingCandidates.length > 0,
+      headIncomplete,
     },
     sourceRejections,
     candidates,
@@ -503,7 +523,15 @@ export function validateSteamCandidateDocument(document) {
   if (document.schemaVersion !== STEAM_CANDIDATE_SCHEMA_VERSION || document.kind !== STEAM_CANDIDATE_KIND) {
     throw new Error('unsupported Steam candidate schema');
   }
-  if (!['pilot', 'final'].includes(document.mode)) throw new Error('Steam candidate mode invalid');
+  if (!['pilot', 'final', 'day-one'].includes(document.mode)) throw new Error('Steam candidate mode invalid');
+  if (document.mode === 'day-one') {
+    if (document.candidates.length > DAY_ONE_LIMIT) throw new Error('day-one cohort exceeds 100 candidates');
+    for (const candidate of document.candidates) {
+      if (!(candidate.recommendationCount >= DAY_ONE_MIN_RECOMMENDATIONS)) {
+        throw new Error(`day-one candidate ${candidate.candidateId} below the ${DAY_ONE_MIN_RECOMMENDATIONS} recommendation floor`);
+      }
+    }
+  }
   if (!Array.isArray(document.distinctUtcDates)
     || new Set(document.distinctUtcDates).size !== document.distinctUtcDates.length
     || document.distinctUtcDates.some((date, index, dates) => {

@@ -1,0 +1,20 @@
+{
+  "slug": "dead-as-disco",
+  "cheapsharkGameId": "321575",
+  "atl": {
+    "pc": {
+      "usd": 16.95,
+      "date": "2026-05-18",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 24.99,
+      "pct": null
+    }
+  ]
+}

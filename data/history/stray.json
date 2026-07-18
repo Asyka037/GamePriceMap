@@ -1,0 +1,20 @@
+{
+  "slug": "stray",
+  "cheapsharkGameId": "247173",
+  "atl": {
+    "pc": {
+      "usd": 11.69,
+      "date": "2026-06-26",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 14.99,
+      "pct": 50
+    }
+  ]
+}

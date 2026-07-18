@@ -1,0 +1,20 @@
+{
+  "slug": "easy-red-2",
+  "cheapsharkGameId": "222911",
+  "atl": {
+    "pc": {
+      "usd": 3.24,
+      "date": "2020-11-11",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 4.49,
+      "pct": 50
+    }
+  ]
+}

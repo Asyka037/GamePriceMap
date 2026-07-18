@@ -1,0 +1,20 @@
+{
+  "slug": "f1-25",
+  "cheapsharkGameId": "299534",
+  "atl": {
+    "pc": {
+      "usd": 23.99,
+      "date": "2026-02-09",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": 20
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "ark-survival-ascended",
+  "cheapsharkGameId": "276883",
+  "atl": {
+    "pc": {
+      "usd": 11.24,
+      "date": "2026-07-18",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 11.24,
+      "pct": 75
+    }
+  ]
+}

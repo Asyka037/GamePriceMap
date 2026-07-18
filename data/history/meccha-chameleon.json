@@ -1,0 +1,20 @@
+{
+  "slug": "meccha-chameleon",
+  "cheapsharkGameId": "324353",
+  "atl": {
+    "pc": {
+      "usd": 4.79,
+      "date": "2026-06-10",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 5.99,
+      "pct": null
+    }
+  ]
+}

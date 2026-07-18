@@ -1,0 +1,20 @@
+{
+  "slug": "far-far-west",
+  "cheapsharkGameId": "305503",
+  "atl": {
+    "pc": {
+      "usd": 13.99,
+      "date": "2026-06-23",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 19.99,
+      "pct": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "granblue-fantasy-relink",
+  "cheapsharkGameId": "282406",
+  "atl": {
+    "pc": {
+      "usd": 21.59,
+      "date": "2025-11-20",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    }
+  ]
+}

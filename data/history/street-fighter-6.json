@@ -1,0 +1,20 @@
+{
+  "slug": "street-fighter-6",
+  "cheapsharkGameId": "251191",
+  "atl": {
+    "pc": {
+      "usd": 15.91,
+      "date": "2025-11-21",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    }
+  ]
+}

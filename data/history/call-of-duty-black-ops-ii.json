@@ -1,0 +1,20 @@
+{
+  "slug": "call-of-duty-black-ops-ii",
+  "cheapsharkGameId": "87489",
+  "atl": {
+    "pc": {
+      "usd": 13.19,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    }
+  ]
+}

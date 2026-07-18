@@ -1,0 +1,20 @@
+{
+  "slug": "ground-branch",
+  "cheapsharkGameId": "190977",
+  "atl": {
+    "pc": {
+      "usd": 14.99,
+      "date": "2019-06-25",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 23.99,
+      "pct": 20
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "content-warning",
+  "cheapsharkGameId": "284514",
+  "atl": {
+    "pc": {
+      "usd": 3.96,
+      "date": "2026-04-17",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 3.99,
+      "pct": 50
+    }
+  ]
+}

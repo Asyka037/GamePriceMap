@@ -102,7 +102,7 @@ export function euSolrMetaUrl(euNsuid) {
     fq: `type:GAME AND nsuid_txt:${euNsuid}`,
     rows: '1',
     wt: 'json',
-    fl: 'title,nsuid_txt,type,image_url,image_url_h2x1_s,pretty_game_categories_txt,dates_released_dts,publisher,excerpt,url,playable_on_txt',
+    fl: 'title,nsuid_txt,type,image_url,image_url_h2x1_s,image_url_h16x9_s,pretty_game_categories_txt,dates_released_dts,publisher,excerpt,url,playable_on_txt',
   });
   return `https://searching.nintendo-europe.com/en/select?${q}`;
 }
@@ -119,7 +119,9 @@ export function parseEuSolrMeta(body, { slug, title, euNsuid, now = new Date() }
   if (!isNintendoBaseGameNsuid(String(euNsuid ?? ''))) return null;
   if (!titleMatches(doc.title, title)) return null;
 
-  const headerImage = doc.image_url_h2x1_s ?? doc.image_url ?? null;
+  // Newer Switch 2 listings often ship only the 16:9 asset; official EU CDN
+  // either way, so it is a valid header fallback.
+  const headerImage = doc.image_url_h2x1_s ?? doc.image_url ?? doc.image_url_h16x9_s ?? null;
   if (!/^https:\/\/(www\.)?nintendo\./.test(headerImage ?? '')) return null;
   const releaseDate = (doc.dates_released_dts ?? [])[0] ?? null;
   const releaseMs = Date.parse(releaseDate);

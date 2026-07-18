@@ -1,0 +1,150 @@
+{
+  "slug": "grand-theft-auto-v-enhanced",
+  "lastPriceChangeAt": "2026-07-18",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 14.99,
+      "list": 29.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 22.47,
+      "list": 44.95,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 74.95,
+      "list": 149.9,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 22.49,
+      "list": 44.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 14.95,
+      "list": 29.9,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 74.5,
+      "list": 149,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 14.99,
+      "list": 29.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 14.99,
+      "list": 29.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 14.99,
+      "list": 29.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 1249,
+      "list": 2499,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2190,
+      "list": 4380,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 18390,
+      "list": 36790,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 7499,
+      "list": 14999,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 299.5,
+      "list": 599,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 14.99,
+      "list": 29.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 14.99,
+      "list": 29.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 674,
+      "list": 1349,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 14.99,
+      "list": 29.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    }
+  ]
+}

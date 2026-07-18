@@ -1,0 +1,20 @@
+{
+  "slug": "marvel-s-spider-man-2",
+  "cheapsharkGameId": "294621",
+  "atl": {
+    "pc": {
+      "usd": 35.37,
+      "date": "2026-03-19",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 59.99,
+      "pct": null
+    }
+  ]
+}

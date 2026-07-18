@@ -1,0 +1,20 @@
+{
+  "slug": "halo-the-master-chief-collection",
+  "cheapsharkGameId": "207201",
+  "atl": {
+    "pc": {
+      "usd": 9.99,
+      "date": "2023-06-08",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    }
+  ]
+}

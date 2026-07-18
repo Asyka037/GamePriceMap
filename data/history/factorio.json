@@ -1,0 +1,20 @@
+{
+  "slug": "factorio",
+  "cheapsharkGameId": "150308",
+  "atl": {
+    "pc": {
+      "usd": 19.99,
+      "date": "2016-02-25",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 35,
+      "pct": null
+    }
+  ]
+}

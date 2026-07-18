@@ -1,0 +1,20 @@
+{
+  "slug": "007-first-light",
+  "cheapsharkGameId": "307902",
+  "atl": {
+    "pc": {
+      "usd": 60.85,
+      "date": "2026-07-01",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 69.99,
+      "pct": null
+    }
+  ]
+}

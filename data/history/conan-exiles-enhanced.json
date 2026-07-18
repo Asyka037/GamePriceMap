@@ -1,0 +1,20 @@
+{
+  "slug": "conan-exiles-enhanced",
+  "cheapsharkGameId": "321581",
+  "atl": {
+    "pc": {
+      "usd": 4,
+      "date": "2025-03-10",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "grand-theft-auto-iv-the-complete-edition",
+  "lastPriceChangeAt": "2026-07-18",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 5.99,
+      "list": 19.99,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 8.98,
+      "list": 29.95,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 23.7,
+      "list": 79,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 8.99,
+      "list": 29.99,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 6,
+      "list": 20,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 29.7,
+      "list": 99,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 5.99,
+      "list": 19.99,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 5.09,
+      "list": 16.99,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 3.89,
+      "list": 12.99,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 299,
+      "list": 999,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 660,
+      "list": 2200,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 7320,
+      "list": 24400,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 2459,
+      "list": 8199,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 119.7,
+      "list": 399,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 4.49,
+      "list": 14.99,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 5.99,
+      "list": 19.99,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 128,
+      "list": 429,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 5.99,
+      "list": 19.99,
+      "discountPct": 70,
+      "saleEndsAt": null
+    }
+  ]
+}

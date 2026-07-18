@@ -1,0 +1,20 @@
+{
+  "slug": "barony",
+  "cheapsharkGameId": "143194",
+  "atl": {
+    "pc": {
+      "usd": 1.99,
+      "date": "2016-12-22",
+      "seed": "cheapshark"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-18",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 19.99,
+      "pct": null
+    }
+  ]
+}
