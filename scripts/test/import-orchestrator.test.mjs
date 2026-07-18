@@ -24,7 +24,7 @@ function writeJson(root, rel, value) {
 function initRepo() {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'gpm-import-orchestrator-'));
   git(root, ['init', '--initial-branch=main']);
-  fs.writeFileSync(path.join(root, '.gitignore'), 'private/\nnode_modules/\ndist/\n.astro/\n');
+  fs.writeFileSync(path.join(root, '.gitignore'), 'private/\nnode_modules\ndist/\n.astro/\n');
   writeJson(root, 'data/catalog.json', { games: [] });
   writeJson(root, 'data/source-health.json', { updatedAt: null, sources: {} });
   writeJson(root, 'data/health.json', { updatedAt: null, games: 0, sources: {} });
@@ -281,6 +281,25 @@ test('worktree creation is journaled before linking and a link failure resumes c
   const resumed = resumeImportRun(root, runId, { stateRoot, worktreeParent, runtime });
   assert.equal(resumed.state, 'applied');
   assert.equal(isRegisteredWorktree(root, expected), false);
+});
+
+test('real dependency symlinks stay ignored during import checkpoints', () => {
+  const root = initRepo();
+  fs.mkdirSync(path.join(root, 'node_modules'), { recursive: true });
+  fs.mkdirSync(path.join(root, 'site', 'node_modules'), { recursive: true });
+  const plan = batch(root, 'steam-test-real-links');
+  const stateRoot = path.join(root, 'private', 'game-library', 'import');
+  const runtime = fakeRuntime();
+  delete runtime.linkDependencies;
+
+  const applied = startImportRun(root, plan, {
+    stateRoot,
+    runId: 'steam-test-real-links-run-1',
+    runtime,
+  });
+
+  assert.equal(applied.state, 'applied');
+  assert.equal(isRegisteredWorktree(root, applied.worktreePath), false);
 });
 
 test('resume recovers a promotion crash when the branch descended from the sealed commit', () => {
