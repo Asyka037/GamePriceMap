@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1133870,
+  "fetchedAt": "2026-07-19T12:08:05.285Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1133870&cc=us&l=english",
+  "responseDigest": "sha256:0667293843167513bce6db43d3ba68d75842c680aad006702e493a17a4848415",
+  "payload": {
+    "1133870": {
+      "success": true,
+      "data": {
+        "steam_appid": 1133870,
+        "name": "Space Engineers 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4595
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ea41a7ff27b00c76441b2b5becc920b84ad8c8edc59c99e370b0524f477be950"
+}

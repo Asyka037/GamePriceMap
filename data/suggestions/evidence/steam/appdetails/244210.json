@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 244210,
+  "fetchedAt": "2026-07-19T12:08:06.540Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=244210&cc=us&l=english",
+  "responseDigest": "sha256:03a15ddd54445283bacd2ac152cb2aa596acf00960227610a3b9aa5b54110509",
+  "payload": {
+    "244210": {
+      "success": true,
+      "data": {
+        "steam_appid": 244210,
+        "name": "Assetto Corsa",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 19, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 134582
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:328db3dc9cbc167a4d8050839e50d7888c13a63b35ecfa0728061a9bf29fe61b"
+}

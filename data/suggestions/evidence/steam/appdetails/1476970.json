@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1476970,
+  "fetchedAt": "2026-07-19T12:07:47.363Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1476970&cc=us&l=english",
+  "responseDigest": "sha256:79bb130f5166f5418ae573c02868383967327e2c1a855f3801a7de02b7d8cbcc",
+  "payload": {
+    "1476970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1476970,
+        "name": "IdleOn",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ce55e60c3adfc73680e7deacb4ee0bdf7ad6329c4afb8c811a9d310d2c8b1357"
+}

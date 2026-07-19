@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1167630,
+  "fetchedAt": "2026-07-19T12:07:24.437Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1167630&cc=us&l=english",
+  "responseDigest": "sha256:57f7911c6ff56668c16f86014d1c4af8f054f11b7f336bf575ee90cf418d148f",
+  "payload": {
+    "1167630": {
+      "success": true,
+      "data": {
+        "steam_appid": 1167630,
+        "name": "Teardown",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 21, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 124289
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6f3272f498e87d19c584334566b6e54aee8c7c0e81cc962bdac008a54506c576"
+}

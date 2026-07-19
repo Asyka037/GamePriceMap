@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 227300,
+  "fetchedAt": "2026-07-19T12:07:58.891Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=227300&cc=us&l=english",
+  "responseDigest": "sha256:9c6bd209ee92f170e65c321621c5583d91919e550f0bf629b77f8fd10ccde612",
+  "payload": {
+    "227300": {
+      "success": true,
+      "data": {
+        "steam_appid": 227300,
+        "name": "Euro Truck Simulator 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 12, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 774854
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e9287ff4aa738d9154cbaf5e2446427dfbdf89235fb0d83b740394bada24fdc"
+}

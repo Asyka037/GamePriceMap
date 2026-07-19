@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 589290,
+  "fetchedAt": "2026-07-19T12:07:40.997Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=589290&cc=us&l=english",
+  "responseDigest": "sha256:377e268ed378dd3390a526c1b18691e1720379f8c24ff272ebb5a270c1b4672d",
+  "payload": {
+    "589290": {
+      "success": true,
+      "data": {
+        "steam_appid": 589290,
+        "name": "Holdfast: Nations At War",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 26286
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2a66d6b09642ad05ee3f2f24d730796a9e4fc99c049599cc82d02c5f52c7d950"
+}

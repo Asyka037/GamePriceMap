@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 255710,
+  "fetchedAt": "2026-07-19T12:07:46.083Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=255710&cc=us&l=english",
+  "responseDigest": "sha256:7d4ef40dbeb336006e318c5e764c1502f9668e3564f81c66f9ead4fc3e873ef1",
+  "payload": {
+    "255710": {
+      "success": true,
+      "data": {
+        "steam_appid": 255710,
+        "name": "Cities: Skylines",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 10, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 218968
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91e20474014289ef0b221fcd9e51bfaf7b76cf831107aa21ac005ded68c4bbac"
+}

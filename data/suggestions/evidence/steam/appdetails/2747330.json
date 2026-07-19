@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2747330,
+  "fetchedAt": "2026-07-19T12:07:56.333Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2747330&cc=us&l=english",
+  "responseDigest": "sha256:098fa45122bc08f025ef946b598b6ebdd185f890a119aecc2e486061e2a79c47",
+  "payload": {
+    "2747330": {
+      "success": true,
+      "data": {
+        "steam_appid": 2747330,
+        "name": "Species: Unknown",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8589
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:baec7205e4c9954fa1a988ea708bcaf60ff110ad72ff9f5c149f595d49574ec9"
+}

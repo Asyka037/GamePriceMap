@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3198890,
+  "fetchedAt": "2026-07-19T12:08:09.137Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3198890&cc=us&l=english",
+  "responseDigest": "sha256:5d797e6d71a5cc4c726c31a2725c46914657679e8c12b07a0418a071c45bffff",
+  "payload": {
+    "3198890": {
+      "success": true,
+      "data": {
+        "steam_appid": 3198890,
+        "name": "Scale the Depths",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 1386
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8eea8fd71be4cfa4da152f7769c6d8daa59d7e8263aa4d4503a5f90d47a0d3b1"
+}

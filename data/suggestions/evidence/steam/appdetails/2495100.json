@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2495100,
+  "fetchedAt": "2026-07-19T12:07:18.143Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2495100&cc=us&l=english",
+  "responseDigest": "sha256:d70cd44d206a1d7b2a7fd084f5df7cb0c8f41020de69d261ec59069e35e6abc1",
+  "payload": {
+    "2495100": {
+      "success": true,
+      "data": {
+        "steam_appid": 2495100,
+        "name": "Hello Kitty Island Adventure",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2399,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 9335
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b07ed338c997615da61e7353824910940332cd55eabbce9c7433458a926a508d"
+}

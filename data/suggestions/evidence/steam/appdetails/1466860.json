@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1466860,
+  "fetchedAt": "2026-07-19T12:07:33.321Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1466860&cc=us&l=english",
+  "responseDigest": "sha256:21f2e59286009e4809524e94e21ef97d5d5d18086b53473255c6fbd3e67d888b",
+  "payload": {
+    "1466860": {
+      "success": true,
+      "data": {
+        "steam_appid": 1466860,
+        "name": "Age of Empires IV: Anniversary Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 28, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 71444
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:58b32aa3af0f9be00553ff32c096286481b029b988441d6c169655a6e3b91f56"
+}

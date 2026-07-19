@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2186990,
+  "fetchedAt": "2026-07-19T12:07:23.188Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2186990&cc=us&l=english",
+  "responseDigest": "sha256:f9da7480f67538cb591fe9ec95416bfa8e8e374874d2f943feb1e80ef3d1492a",
+  "payload": {
+    "2186990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2186990,
+        "name": "Fatekeeper",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9551
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fde20ed32257d2e72c5662d271429a5b235ac5f6ae096dbbf07c77b5ef5d2be5"
+}

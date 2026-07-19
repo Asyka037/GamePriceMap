@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1284190,
+  "fetchedAt": "2026-07-19T12:07:21.908Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1284190&cc=us&l=english",
+  "responseDigest": "sha256:3a108a5344eb616b990adaa156b56025efc5f4b6aa2cb760beef7073740c987c",
+  "payload": {
+    "1284190": {
+      "success": true,
+      "data": {
+        "steam_appid": 1284190,
+        "name": "The Planet Crafter",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2399,
+          "final": 2399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 66974
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d372e0d16a45c2dda7a2c9e63d88367e0406aa750643108571ffc093fa12242e"
+}

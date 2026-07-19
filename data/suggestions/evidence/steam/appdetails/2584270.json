@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2584270,
+  "fetchedAt": "2026-07-19T12:07:52.534Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2584270&cc=us&l=english",
+  "responseDigest": "sha256:53cca721c27565d0c3cf83dfabc207ebb6ecb814996a4f525a0eaed428deec54",
+  "payload": {
+    "2584270": {
+      "success": true,
+      "data": {
+        "steam_appid": 2584270,
+        "name": "Mortal Shell II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Aug 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:34a1ac963456f9ed711c774f5a8d9ee27d0c883094c731e5cc100b2055b5e10f"
+}

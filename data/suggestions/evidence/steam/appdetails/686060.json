@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 686060,
+  "fetchedAt": "2026-07-19T12:07:43.577Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=686060&cc=us&l=english",
+  "responseDigest": "sha256:7c333bd98c407d99aa1b9f1a25b7e263107e791fc0beb614679566a6a5c48d8f",
+  "payload": {
+    "686060": {
+      "success": true,
+      "data": {
+        "steam_appid": 686060,
+        "name": "Mewgenics",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 47945
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1087b491084c78c2427a43727302dfc9e45c826597a6f3fe69a45465befd9492"
+}

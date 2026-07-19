@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2426960,
+  "fetchedAt": "2026-07-19T12:08:02.709Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2426960&cc=us&l=english",
+  "responseDigest": "sha256:c34d033e4ad31b2c47caf5217fd341b6ff6eb73a00639e5cc56aea9d37a5b734",
+  "payload": {
+    "2426960": {
+      "success": true,
+      "data": {
+        "steam_appid": 2426960,
+        "name": "Summoners War",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 7, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:937eae90fa909604363c15f689dbd62566e0828530f0eecb995cb64060ac8e79"
+}

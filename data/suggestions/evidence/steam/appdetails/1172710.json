@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1172710,
+  "fetchedAt": "2026-07-19T12:07:51.243Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1172710&cc=us&l=english",
+  "responseDigest": "sha256:42cc8ad18b5cfe3f2285ec76a22cad2967376d57ae684d34caca5fdbe107ad8b",
+  "payload": {
+    "1172710": {
+      "success": true,
+      "data": {
+        "steam_appid": 1172710,
+        "name": "Dune: Awakening",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 66136
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:22ad4649409f306163951e3d8b93c9405aa929b936456183b8a17101cd22ff62"
+}

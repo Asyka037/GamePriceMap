@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1665460,
+  "fetchedAt": "2026-07-19T12:08:15.525Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1665460&cc=us&l=english",
+  "responseDigest": "sha256:137f399b6cb5e620af89e629aff66251e352e98ed41625e5878ccf1822133f6c",
+  "payload": {
+    "1665460": {
+      "success": true,
+      "data": {
+        "steam_appid": 1665460,
+        "name": "eFootball™",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 29, 2021"
+        },
+        "recommendations": {
+          "total": 1208
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b4ab7b8a9e561441a5f283d8ac42c472bcd02002952525df37ed4055f8205762"
+}

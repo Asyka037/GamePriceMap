@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2129530,
+  "fetchedAt": "2026-07-19T12:07:39.703Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2129530&cc=us&l=english",
+  "responseDigest": "sha256:7b9417098f2f2f47bc597dee43b55d415b056252cca7ef3b06f434bc2c60bd68",
+  "payload": {
+    "2129530": {
+      "success": true,
+      "data": {
+        "steam_appid": 2129530,
+        "name": "REANIMAL",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12905
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aec7e9229d31bebc72ddb3d2265802d9a5602e13126ff9c5dfc884bf18050b1d"
+}

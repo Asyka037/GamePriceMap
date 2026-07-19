@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2054970,
+  "fetchedAt": "2026-07-19T12:07:26.944Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2054970&cc=us&l=english",
+  "responseDigest": "sha256:42627f8b0b9df054756975f9f15d807fa86b4877e94299d3057c33a230e5374c",
+  "payload": {
+    "2054970": {
+      "success": true,
+      "data": {
+        "steam_appid": 2054970,
+        "name": "Dragon's Dogma 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 21, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 75505
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7842258708c496c62367aa37cc728c5301efcc4f379059d029ac092b0019fca0"
+}

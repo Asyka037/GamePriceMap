@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1343400,
+  "fetchedAt": "2026-07-19T12:07:48.659Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1343400&cc=us&l=english",
+  "responseDigest": "sha256:ec91e9bdc68ae326530591d781e7f32d475ad743c087f9c41bf942e29bdb323a",
+  "payload": {
+    "1343400": {
+      "success": true,
+      "data": {
+        "steam_appid": 1343400,
+        "name": "RuneScape ®",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 14, 2020"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5fbd99e53635f5502b92236c20a7991950c2c4c1ff7449e823d0c75e4afd465b"
+}

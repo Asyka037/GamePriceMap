@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2071280,
+  "fetchedAt": "2026-07-19T12:08:20.671Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2071280&cc=us&l=english",
+  "responseDigest": "sha256:ddb5a5ca8cf41b27919c5149e82fa21888b5f550ec9da4545eb1bea302373da4",
+  "payload": {
+    "2071280": {
+      "success": true,
+      "data": {
+        "steam_appid": 2071280,
+        "name": "Ravenswatch",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 16501
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:20dc2f1395c8c785705b0420ed9afc4c2b08d3eacbb8c9d95109c854329f791c"
+}

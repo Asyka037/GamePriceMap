@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 285900,
+  "fetchedAt": "2026-07-19T12:07:30.776Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=285900&cc=us&l=english",
+  "responseDigest": "sha256:475044ee1a36234fadf1140af474f980eeb97f0ece69be91f693e1e95bfd722b",
+  "payload": {
+    "285900": {
+      "success": true,
+      "data": {
+        "steam_appid": 285900,
+        "name": "Gang Beasts",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 799,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 54143
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e3761046fb902cf4bf5cd284ca1baceeec020cacc33faeefae87d4909454691c"
+}

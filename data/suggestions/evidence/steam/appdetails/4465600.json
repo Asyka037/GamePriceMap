@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4465600,
+  "fetchedAt": "2026-07-19T12:08:03.997Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4465600&cc=us&l=english",
+  "responseDigest": "sha256:40cdb08939be61a69dca8b59aaf540eaa57651037f5da115f7829d938897489b",
+  "payload": {
+    "4465600": {
+      "success": true,
+      "data": {
+        "steam_appid": 4465600,
+        "name": "Bowling Alley Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1349,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4b2c820201e5747430d35204419b36e9bc80de165d56f6c4221d8ef123c21999"
+}

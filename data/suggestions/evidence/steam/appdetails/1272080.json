@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1272080,
+  "fetchedAt": "2026-07-19T12:07:38.407Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1272080&cc=us&l=english",
+  "responseDigest": "sha256:03b10f10e412bdebd5b7def29ab5ed5c53aebfda2c205357ed1e2d4089710095",
+  "payload": {
+    "1272080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1272080,
+        "name": "PAYDAY 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 21, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 48672
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8a61d912b71d53d21a54d931d1bee39fac61cca18d683e6798faa411ade0796e"
+}

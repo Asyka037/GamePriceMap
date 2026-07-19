@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3483510,
+  "fetchedAt": "2026-07-19T12:08:10.416Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3483510&cc=us&l=english",
+  "responseDigest": "sha256:7349c852e561332fc5ecd520c06ea6ca1930b8ba80062b6eb9b18dcc79e7dead",
+  "payload": {
+    "3483510": {
+      "success": true,
+      "data": {
+        "steam_appid": 3483510,
+        "name": "The Adventures of Elliot: The Millennium Tales",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1472
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7e6dbe036402a7671dfacc04ceb4bcb4e80f429e2f00722857d6074875052153"
+}

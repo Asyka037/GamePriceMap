@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 812140,
+  "fetchedAt": "2026-07-19T12:08:19.382Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=812140&cc=us&l=english",
+  "responseDigest": "sha256:b9da0a8ed3b1c034951f5b00220572e6dc7b5ebcce30c302b6aaa311580bf632",
+  "payload": {
+    "812140": {
+      "success": true,
+      "data": {
+        "steam_appid": 812140,
+        "name": "Assassin's Creed® Odyssey",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 5, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 169376
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3af1c693480eb2d767a334359f3014d8b3706fb3c956134277cff2bcf42a5f76"
+}

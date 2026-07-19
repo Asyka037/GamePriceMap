@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1371980,
+  "fetchedAt": "2026-07-19T12:07:34.608Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1371980&cc=us&l=english",
+  "responseDigest": "sha256:9d97035f6c74df00f515c5720a00fc4e04f845b3bb289b8c85a16c688ffa1cbe",
+  "payload": {
+    "1371980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1371980,
+        "name": "No Rest for the Wicked",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 18, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 64272
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:30b8fedf236097f91a15c22182d955e35d7b8022589ed936a1912f13dd3e02e4"
+}
