@@ -1,6 +1,6 @@
 {
   "slug": "dredge",
-  "lastPriceChangeAt": "2026-07-10",
+  "lastPriceChangeAt": "2026-07-19",
   "regions": [
     {
       "cc": "AU",
@@ -45,10 +45,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 1028,
-      "list": 2570,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-18T14:59:59Z"
+      "amount": 2570,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NO",

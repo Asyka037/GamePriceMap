@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T09:11:16.439Z",
+  "updatedAt": "2026-07-19T09:29:47.777Z",
   "items": [
     {
       "title": "Palworld",
@@ -50,18 +50,6 @@
       "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
-      "title": "Warhammer 40,000: Space Marine 2",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2183900/",
-      "currency": "USD",
-      "price": 17.99,
-      "list": 59.99,
-      "pct": 70,
-      "endsAt": "2026-07-30T17:00:00.000Z",
-      "steamAppId": 2183900,
-      "slugIfTracked": "warhammer-40000-space-marine-2"
-    },
-    {
       "title": "Gamble With Your Friends",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/3892270/",
@@ -74,16 +62,28 @@
       "slugIfTracked": "gamble-with-your-friends"
     },
     {
-      "title": "Burglin' Gnomes",
+      "title": "The Outlast Trials",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3844970/",
+      "url": "https://store.steampowered.com/app/1304930/",
       "currency": "USD",
-      "price": 7.99,
-      "list": 9.99,
-      "pct": 20,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 3844970,
-      "slugIfTracked": null
+      "price": 11.99,
+      "list": 39.99,
+      "pct": 70,
+      "endsAt": "2026-07-21T17:00:00.000Z",
+      "steamAppId": 1304930,
+      "slugIfTracked": "the-outlast-trials"
+    },
+    {
+      "title": "Warhammer 40,000: Space Marine 2",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2183900/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 59.99,
+      "pct": 70,
+      "endsAt": "2026-07-30T17:00:00.000Z",
+      "steamAppId": 2183900,
+      "slugIfTracked": "warhammer-40000-space-marine-2"
     },
     {
       "title": "DELTARUNE",
@@ -110,16 +110,16 @@
       "slugIfTracked": "powerwash-simulator-2"
     },
     {
-      "title": "Denshattack!",
+      "title": "Red Dead Redemption 2",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2524850/",
+      "url": "https://store.steampowered.com/app/1174180/",
       "currency": "USD",
-      "price": 17.99,
-      "list": 19.99,
-      "pct": 10,
-      "endsAt": "2026-07-29T17:00:23.000Z",
-      "steamAppId": 2524850,
-      "slugIfTracked": null
+      "price": 14.99,
+      "list": 59.99,
+      "pct": 75,
+      "endsAt": "2026-07-23T17:00:00.000Z",
+      "steamAppId": 1174180,
+      "slugIfTracked": "red-dead-redemption-2"
     }
   ]
 }

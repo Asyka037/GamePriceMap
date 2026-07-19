@@ -1,6 +1,6 @@
 {
   "slug": "tunic",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-07-19",
   "regions": [
     {
       "cc": "AU",
@@ -13,18 +13,18 @@
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 20.98,
-      "list": 104.9,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-19T06:59:59Z"
+      "amount": 104.9,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 5.03,
-      "list": 25.19,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-19T06:59:59Z"
+      "amount": 25.19,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CH",
@@ -77,10 +77,10 @@
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 49.99,
-      "list": 249.99,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-19T06:59:59Z"
+      "amount": 249.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NO",
@@ -109,10 +109,10 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 3.99,
-      "list": 19.99,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-19T06:59:59Z"
+      "amount": 19.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "ZA",
