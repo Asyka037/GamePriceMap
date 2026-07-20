@@ -1,6 +1,6 @@
 {
   "slug": "nba-2k26",
-  "lastPriceChangeAt": "2026-07-16",
+  "lastPriceChangeAt": "2026-07-20",
   "regions": [
     {
       "cc": "AR",
@@ -77,10 +77,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 7990,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 799,
+      "list": 7990,
+      "discountPct": 90,
+      "saleEndsAt": "2026-08-09T14:59:59Z"
     },
     {
       "cc": "MX",

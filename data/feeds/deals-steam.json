@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T09:29:47.777Z",
+  "updatedAt": "2026-07-20T10:27:55.484Z",
   "items": [
     {
       "title": "Palworld",
@@ -26,16 +26,16 @@
       "slugIfTracked": null
     },
     {
-      "title": "Grand Theft Auto V Enhanced",
+      "title": "DELTARUNE",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
+      "url": "https://store.steampowered.com/app/1671210/",
       "currency": "USD",
-      "price": 14.99,
-      "list": 29.99,
-      "pct": 50,
-      "endsAt": "2026-07-28T17:00:00.000Z",
-      "steamAppId": 3240220,
-      "slugIfTracked": "grand-theft-auto-v-enhanced"
+      "price": 19.99,
+      "list": 24.99,
+      "pct": 20,
+      "endsAt": "2026-07-20T17:00:00.000Z",
+      "steamAppId": 1671210,
+      "slugIfTracked": "deltarune"
     },
     {
       "title": "Grand Theft Auto V Enhanced",
@@ -50,16 +50,16 @@
       "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
-      "title": "Gamble With Your Friends",
+      "title": "Grand Theft Auto V Enhanced",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3892270/",
+      "url": "https://store.steampowered.com/app/3240220/",
       "currency": "USD",
-      "price": 4.95,
-      "list": 7.99,
-      "pct": 38,
-      "endsAt": "2026-07-29T18:00:00.000Z",
-      "steamAppId": 3892270,
-      "slugIfTracked": "gamble-with-your-friends"
+      "price": 14.99,
+      "list": 29.99,
+      "pct": 50,
+      "endsAt": "2026-07-28T17:00:00.000Z",
+      "steamAppId": 3240220,
+      "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
       "title": "The Outlast Trials",
@@ -86,16 +86,28 @@
       "slugIfTracked": "warhammer-40000-space-marine-2"
     },
     {
-      "title": "DELTARUNE",
+      "title": "Red Dead Redemption 2",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1671210/",
+      "url": "https://store.steampowered.com/app/1174180/",
       "currency": "USD",
-      "price": 19.99,
-      "list": 24.99,
-      "pct": 20,
-      "endsAt": "2026-07-20T17:00:00.000Z",
-      "steamAppId": 1671210,
-      "slugIfTracked": "deltarune"
+      "price": 14.99,
+      "list": 59.99,
+      "pct": 75,
+      "endsAt": "2026-07-23T17:00:00.000Z",
+      "steamAppId": 1174180,
+      "slugIfTracked": "red-dead-redemption-2"
+    },
+    {
+      "title": "Gamble With Your Friends",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3892270/",
+      "currency": "USD",
+      "price": 4.95,
+      "list": 7.99,
+      "pct": 38,
+      "endsAt": "2026-07-29T18:00:00.000Z",
+      "steamAppId": 3892270,
+      "slugIfTracked": "gamble-with-your-friends"
     },
     {
       "title": "PowerWash Simulator 2",
@@ -108,18 +120,6 @@
       "endsAt": "2026-07-23T17:00:00.000Z",
       "steamAppId": 2968420,
       "slugIfTracked": "powerwash-simulator-2"
-    },
-    {
-      "title": "Red Dead Redemption 2",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1174180/",
-      "currency": "USD",
-      "price": 14.99,
-      "list": 59.99,
-      "pct": 75,
-      "endsAt": "2026-07-23T17:00:00.000Z",
-      "steamAppId": 1174180,
-      "slugIfTracked": "red-dead-redemption-2"
     }
   ]
 }

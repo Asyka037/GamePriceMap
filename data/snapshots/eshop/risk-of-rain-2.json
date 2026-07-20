@@ -1,6 +1,6 @@
 {
   "slug": "risk-of-rain-2",
-  "lastPriceChangeAt": "2026-07-16",
+  "lastPriceChangeAt": "2026-07-20",
   "regions": [
     {
       "cc": "AU",
@@ -69,10 +69,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 2800,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 700,
+      "list": 2800,
+      "discountPct": 75,
+      "saleEndsAt": "2026-08-09T14:59:59Z"
     },
     {
       "cc": "MX",
