@@ -1,14 +1,14 @@
 {
   "slug": "ori-and-the-will-of-the-wisps",
-  "lastPriceChangeAt": "2026-07-12",
+  "lastPriceChangeAt": "2026-07-20",
   "regions": [
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 29.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 7.49,
+      "list": 29.99,
+      "discountPct": 75,
+      "saleEndsAt": "2026-07-30T09:59:59.000Z"
     }
   ]
 }

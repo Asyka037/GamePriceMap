@@ -1,14 +1,14 @@
 {
   "slug": "clair-obscur-expedition-33",
-  "lastPriceChangeAt": "2026-07-12",
+  "lastPriceChangeAt": "2026-07-20",
   "regions": [
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 49.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 37.49,
+      "list": 49.99,
+      "discountPct": 25,
+      "saleEndsAt": "2026-07-30T09:59:59.000Z"
     }
   ]
 }

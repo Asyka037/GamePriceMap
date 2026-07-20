@@ -1,14 +1,14 @@
 {
   "slug": "cyberpunk-2077",
-  "lastPriceChangeAt": "2026-07-12",
+  "lastPriceChangeAt": "2026-07-20",
   "regions": [
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 59.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 17.99,
+      "list": 59.99,
+      "discountPct": 70,
+      "saleEndsAt": "2026-07-30T09:59:59.000Z"
     }
   ]
 }
