@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2881150,
+  "fetchedAt": "2026-07-20T13:18:56.618Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2881150&cc=us&l=english",
+  "responseDigest": "sha256:b04af739532234917c52b50f934cfcbbf7f35e34dc07f197c0626021b24bd50d",
+  "payload": {
+    "2881150": {
+      "success": true,
+      "data": {
+        "steam_appid": 2881150,
+        "name": "ARK: Bob's Tall Tales",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 1, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 989,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 1380
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:845e625873439f16afb2c2d17eba13f7aafd781df7940188c5a89620eac782ce"
+}

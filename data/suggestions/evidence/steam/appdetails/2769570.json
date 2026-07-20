@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2769570,
+  "fetchedAt": "2026-07-20T13:18:49.984Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2769570&cc=us&l=english",
+  "responseDigest": "sha256:9ca9648185e7d83753a338b11d9e22dc1b02c276e74fff3fa5aaaad0c5c7ca17",
+  "payload": {
+    "2769570": {
+      "success": true,
+      "data": {
+        "steam_appid": 2769570,
+        "name": "Fable",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Feb 23, 2027"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8c89140822df0980697d308a00376e5c1dc009984eadd3fa0ae6c4e05c6f8130"
+}

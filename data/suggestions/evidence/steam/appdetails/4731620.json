@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4731620,
+  "fetchedAt": "2026-07-20T13:18:16.069Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4731620&cc=us&l=english",
+  "responseDigest": "sha256:36e58d023e0ff3666ca70908f051387307744776e9de051c0fa40f0f3ca25e7a",
+  "payload": {
+    "4731620": {
+      "success": true,
+      "data": {
+        "steam_appid": 4731620,
+        "name": "Fortune Mill",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2884
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4cc196fde4848464ee756c760d9e0cafe3e9dbb68b11dafafc3bf0bba1278e5f"
+}

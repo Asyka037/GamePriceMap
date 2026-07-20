@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 204360,
+  "fetchedAt": "2026-07-20T13:18:51.302Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=204360&cc=us&l=english",
+  "responseDigest": "sha256:cd57bccbd30b000c3753fb58be95816d85c3469d72accac3f314b54dd826c6c8",
+  "payload": {
+    "204360": {
+      "success": true,
+      "data": {
+        "steam_appid": 204360,
+        "name": "Castle Crashers®",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 108647
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fb8e57970fc61cbf57390acf43a7e5580ec152998b4394ab43e4f8c77149f4f6"
+}

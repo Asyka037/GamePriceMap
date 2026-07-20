@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 585420,
+  "fetchedAt": "2026-07-20T13:18:23.840Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=585420&cc=us&l=english",
+  "responseDigest": "sha256:6b51f7321c7cd3723af3a38173189780eed4f7f597afe7e8894567b2b40d5f48",
+  "payload": {
+    "585420": {
+      "success": true,
+      "data": {
+        "steam_appid": 585420,
+        "name": "Trailmakers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 32203
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4722bb2225d9469c9d692f3e1c8a6d104b2e81d6d1bf0973c1baffcafca52d0b"
+}

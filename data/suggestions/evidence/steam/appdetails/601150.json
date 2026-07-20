@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 601150,
+  "fetchedAt": "2026-07-20T13:18:22.483Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=601150&cc=us&l=english",
+  "responseDigest": "sha256:e816a0ccbd5399d7683c334b0dd5016aedc22937469857550b6441edb4df1d5e",
+  "payload": {
+    "601150": {
+      "success": true,
+      "data": {
+        "steam_appid": 601150,
+        "name": "Devil May Cry 5",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 7, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 449,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 117048
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:20a10a85d6a2c33285d93452044815035cec47e295e0b1dbb7db8d2b5f88496b"
+}

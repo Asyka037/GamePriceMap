@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1203220,
+  "fetchedAt": "2026-07-20T13:19:18.027Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1203220&cc=us&l=english",
+  "responseDigest": "sha256:fff541fa80be85d726d112ce0de4a451488a8a2d5c45ba1d8c7d22b18611a95a",
+  "payload": {
+    "1203220": {
+      "success": true,
+      "data": {
+        "steam_appid": 1203220,
+        "name": "NARAKA: BLADEPOINT",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 11, 2021"
+        },
+        "recommendations": {
+          "total": 197821
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:73db5a4043289e3c02d93074931af990c403b588d0bbcbe9302fa445e2c9e592"
+}

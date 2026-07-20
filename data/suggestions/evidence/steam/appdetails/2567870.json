@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2567870,
+  "fetchedAt": "2026-07-20T13:19:11.436Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2567870&cc=us&l=english",
+  "responseDigest": "sha256:fd74ca9bfd1d9fb8c869ee157f8fb13a8d3424f528af461e2b81451104e493c5",
+  "payload": {
+    "2567870": {
+      "success": true,
+      "data": {
+        "steam_appid": 2567870,
+        "name": "Chained Together",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 19, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 53510
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e2d84298c8d550f7857f3d5256516aad0f2d03004184f20036f9cf05beea58d0"
+}

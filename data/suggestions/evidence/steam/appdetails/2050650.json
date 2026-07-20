@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2050650,
+  "fetchedAt": "2026-07-20T13:19:12.715Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2050650&cc=us&l=english",
+  "responseDigest": "sha256:01ed9d35d01a06377c7d83e74705b4d66f4cbcd492d46d0e5009c47f176fead0",
+  "payload": {
+    "2050650": {
+      "success": true,
+      "data": {
+        "steam_appid": 2050650,
+        "name": "Resident Evil 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 178908
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:263c602f4c5b7f42b5deb61b3701143230ccdcb4fe7af38e7855d270772e3811"
+}

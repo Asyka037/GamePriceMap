@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2168680,
+  "fetchedAt": "2026-07-20T13:18:40.799Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2168680&cc=us&l=english",
+  "responseDigest": "sha256:e0f85ef78a4f19c6b0584f62434b60656baa64cbf1cd33fe7775ba7f37041a7a",
+  "payload": {
+    "2168680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2168680,
+        "name": "Nuclear Option",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9358
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7d6df676a5a447165c557a4379f5e4416457515c31f3bb553f46f59e017dd83c"
+}

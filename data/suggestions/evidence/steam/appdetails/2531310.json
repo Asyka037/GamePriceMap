@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2531310,
+  "fetchedAt": "2026-07-20T13:18:31.713Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2531310&cc=us&l=english",
+  "responseDigest": "sha256:d9dc2583c893e8697708dd5ccb7773631ed57cd82189c6716f064d9d363b3b93",
+  "payload": {
+    "2531310": {
+      "success": true,
+      "data": {
+        "steam_appid": 2531310,
+        "name": "The Last of Us™ Part II Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 32679
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fc3ab1e1acc2932263f7f519dd9516250e1057351e4cf5e636a05d79298763fa"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3643170,
+  "fetchedAt": "2026-07-20T13:18:48.648Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3643170&cc=us&l=english",
+  "responseDigest": "sha256:4177188bfca62b503ac7bcf1a865198e495aaf98fe33368b84cfbd74ded04175",
+  "payload": {
+    "3643170": {
+      "success": true,
+      "data": {
+        "steam_appid": 3643170,
+        "name": "Roadside Research",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3661
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b590802e94252d1f939b5326140442bffc2bffcd64415f8b71bf8a932d77a037"
+}

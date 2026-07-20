@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1206560,
+  "fetchedAt": "2026-07-20T13:18:26.485Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1206560&cc=us&l=english",
+  "responseDigest": "sha256:a00ec3ca2fd62101554841ba9c79b834a704e6a131f171890c53a94e5de3b7d7",
+  "payload": {
+    "1206560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1206560,
+        "name": "WorldBox - God Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 2, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 49963
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7461fab7286065eea2c1d38530730d95edd492843c96449992174b5c1a620279"
+}

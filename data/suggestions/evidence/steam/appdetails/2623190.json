@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2623190,
+  "fetchedAt": "2026-07-20T13:18:13.492Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2623190&cc=us&l=english",
+  "responseDigest": "sha256:19328efb99bf04581f47228dfcb97ed43eaf82178cc9f8330611e8394b103edd",
+  "payload": {
+    "2623190": {
+      "success": true,
+      "data": {
+        "steam_appid": 2623190,
+        "name": "The Elder Scrolls IV: Oblivion Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 58879
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9cbffa50e764857f632971432c790245b7594c59431a3c6d9439f425dec6afa1"
+}

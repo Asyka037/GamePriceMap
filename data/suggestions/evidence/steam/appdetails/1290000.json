@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1290000,
+  "fetchedAt": "2026-07-20T13:19:08.868Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1290000&cc=us&l=english",
+  "responseDigest": "sha256:1cc982e9a55a30c486ae5d35db1703cdaf8e3d817facddfb206e566fa3cbcaa5",
+  "payload": {
+    "1290000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1290000,
+        "name": "PowerWash Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 50608
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e8c470bf8c5b93582368622f1aa37c2682838d6046744e7ade9d3354984a228d"
+}

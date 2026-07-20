@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1426300,
+  "fetchedAt": "2026-07-20T13:18:29.117Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1426300&cc=us&l=english",
+  "responseDigest": "sha256:b82bb3c285fd79a78b084d4933f38daaf014497d06554a42db048dc503c1ecb9",
+  "payload": {
+    "1426300": {
+      "success": true,
+      "data": {
+        "steam_appid": 1426300,
+        "name": "The Binding of Isaac: Repentance",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 31, 2021"
+        },
+        "recommendations": {
+          "total": 13545
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:40310cafdd3632c3c38d6deef5c57e0805fab1b2f73f60e2347d85b023515ba9"
+}

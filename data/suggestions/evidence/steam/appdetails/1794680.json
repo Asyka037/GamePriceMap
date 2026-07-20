@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1794680,
+  "fetchedAt": "2026-07-20T13:19:03.127Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1794680&cc=us&l=english",
+  "responseDigest": "sha256:3ca5da23b2a85503f6c5d89fe1562e6880b877dd0491b0979df7340d8b8f59ea",
+  "payload": {
+    "1794680": {
+      "success": true,
+      "data": {
+        "steam_appid": 1794680,
+        "name": "Vampire Survivors",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 250132
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:05b704df346cfb16daf705bb6a0549b04fcdb14097123abb65c09a5b239fd2d1"
+}

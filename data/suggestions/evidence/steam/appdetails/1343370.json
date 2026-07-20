@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1343370,
+  "fetchedAt": "2026-07-20T13:19:01.800Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1343370&cc=us&l=english",
+  "responseDigest": "sha256:11309fb0aa455f103a3bc979b8ba48fe3ae231341286b40c9c06d807d855b844",
+  "payload": {
+    "1343370": {
+      "success": true,
+      "data": {
+        "steam_appid": 1343370,
+        "name": "Old School RuneScape",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 24, 2021"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1af7e2683bb159a56f918be16d14d65be7ca511977dcf8e8c09aadc49748d29b"
+}

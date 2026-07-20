@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1096900,
+  "fetchedAt": "2026-07-20T13:19:07.543Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1096900&cc=us&l=english",
+  "responseDigest": "sha256:13f36a8637ca5d47255547bfa96f0770ce954ef73b2637f248de39e77717ef1f",
+  "payload": {
+    "1096900": {
+      "success": true,
+      "data": {
+        "steam_appid": 1096900,
+        "name": "RPG Maker MZ",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 7999,
+          "final": 3599,
+          "discount_percent": 55
+        },
+        "recommendations": {
+          "total": 1920
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e98939823a4cb0ca2ad44a6df3094015cb2c835585b1e729d9750ce415381f37"
+}

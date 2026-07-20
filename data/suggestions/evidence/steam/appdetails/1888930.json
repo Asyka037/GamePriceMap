@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1888930,
+  "fetchedAt": "2026-07-20T13:18:30.394Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1888930&cc=us&l=english",
+  "responseDigest": "sha256:6090a18e107fefcdc830d178d19eb3546b5e6b054d7b5eb1107a6b2f58085281",
+  "payload": {
+    "1888930": {
+      "success": true,
+      "data": {
+        "steam_appid": 1888930,
+        "name": "The Last of Us™ Part I",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 28, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 63807
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3b9ce269df398f7c53e8d9672dd62e4d8adc54e9ad5c4f533ef42dcccc9f45d7"
+}

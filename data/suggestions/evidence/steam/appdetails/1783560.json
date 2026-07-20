@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1783560,
+  "fetchedAt": "2026-07-20T13:18:12.185Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1783560&cc=us&l=english",
+  "responseDigest": "sha256:90cf6ce5bd20e7ce7a03f50e0673ac13780e08bdab4f1f5f3a76089604ba1e54",
+  "payload": {
+    "1783560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1783560,
+        "name": "The Last Caretaker",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12026
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1084400284da741bdbfc52dfc369293a8b41004396c4c8cd137517fa7cabbb43"
+}

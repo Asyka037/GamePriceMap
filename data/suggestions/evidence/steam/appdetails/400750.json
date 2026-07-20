@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 400750,
+  "fetchedAt": "2026-07-20T13:18:25.164Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=400750&cc=us&l=english",
+  "responseDigest": "sha256:f887810e88c8860cc45a273f80b3f902068e818b6be5eea32fe098a96ee7f173",
+  "payload": {
+    "400750": {
+      "success": true,
+      "data": {
+        "steam_appid": 400750,
+        "name": "Call to Arms - Gates of Hell: Ostfront",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 31226
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:88afbe6526b1cf170c81e5864923b756bb2080717de18783d9591e9afbf0d2b7"
+}

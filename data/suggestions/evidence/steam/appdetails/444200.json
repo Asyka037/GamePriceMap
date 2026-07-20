@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 444200,
+  "fetchedAt": "2026-07-20T13:18:47.372Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=444200&cc=us&l=english",
+  "responseDigest": "sha256:8ca35a9eb339de680322ccc9623a3cd109dfd0440b2b61d5f513ab0ad6a53356",
+  "payload": {
+    "444200": {
+      "success": true,
+      "data": {
+        "steam_appid": 444200,
+        "name": "World of Tanks Blitz",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 9, 2016"
+        },
+        "recommendations": {
+          "total": 930
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aad77387d13cdb7b308e5c9cb1129b7a773b25596a2a809971b96aa69b3aabe4"
+}

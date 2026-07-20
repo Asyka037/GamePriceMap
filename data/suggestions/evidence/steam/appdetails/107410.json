@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 107410,
+  "fetchedAt": "2026-07-20T13:18:43.437Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=107410&cc=us&l=english",
+  "responseDigest": "sha256:5deefeb2dd156e6c2871cb86030751840bdad9bc3cd1c1a543eff1c1bed674fa",
+  "payload": {
+    "107410": {
+      "success": true,
+      "data": {
+        "steam_appid": 107410,
+        "name": "Arma 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 12, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 230120
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:802d44d73dc4c90b7f37e5a038c48d4512c70badacb7156b3725d111ce7d03b5"
+}
