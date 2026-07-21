@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1583230,
+  "fetchedAt": "2026-07-21T12:44:27.656Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1583230&cc=us&l=english",
+  "responseDigest": "sha256:e81c24d90183ab98c22fbde31eeb7e4513faff5f5af60d3a57cbd06cc360520a",
+  "payload": {
+    "1583230": {
+      "success": true,
+      "data": {
+        "steam_appid": 1583230,
+        "name": "High On Life",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 13, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 20219
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a34d4a123da9ded092e38e6c1ddc08b42035941266dad502c261844bcb627f1f"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 961200,
+  "fetchedAt": "2026-07-21T12:44:31.496Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=961200&cc=us&l=english",
+  "responseDigest": "sha256:dc4162afdc995208a7f315babb1994640380b4fe72cb42525d81ea014b28c4ea",
+  "payload": {
+    "961200": {
+      "success": true,
+      "data": {
+        "steam_appid": 961200,
+        "name": "Predecessor",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 20, 2024"
+        },
+        "recommendations": {
+          "total": 8554
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:75ce0bfe8778a5a170f4aea7d625804310afe325a2fe4d931079624874e4ccdb"
+}

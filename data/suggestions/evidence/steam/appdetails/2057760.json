@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2057760,
+  "fetchedAt": "2026-07-21T12:44:32.793Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2057760&cc=us&l=english",
+  "responseDigest": "sha256:56cb5fd29079aad63ff6d556a1a82edfe1658599a2bd28f238b8a1a1b36958d5",
+  "payload": {
+    "2057760": {
+      "success": true,
+      "data": {
+        "steam_appid": 2057760,
+        "name": "Esoteric Ebb",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7723
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dc0ee31336c0814a01231996b2b5c653716dbc8ce7c725f565cdcb2d722f4d2c"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2001760,
+  "fetchedAt": "2026-07-21T12:44:22.437Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2001760&cc=us&l=english",
+  "responseDigest": "sha256:4a939ba4e4f159117185d7777c3cb2927491006e535bb10c97d994efb38ebd05",
+  "payload": {
+    "2001760": {
+      "success": true,
+      "data": {
+        "steam_appid": 2001760,
+        "name": "Beast of Reincarnation",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Aug 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48d351122e931eb391acd228b8cf89500b5a73a82240b07fc8e4c9aef4bd9ac9"
+}

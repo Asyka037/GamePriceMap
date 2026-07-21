@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4735410,
+  "fetchedAt": "2026-07-21T12:45:11.500Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4735410&cc=us&l=english",
+  "responseDigest": "sha256:2b634add275096ac701a1437ce1320ed450349369c4f69c0582aa6f5b03c78d6",
+  "payload": {
+    "4735410": {
+      "success": true,
+      "data": {
+        "steam_appid": 4735410,
+        "name": "Warframe: Mesa Heirloom Collection",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e963dd867f68c8ed1a72ae73850e61b22fc3c96c93abf220ec5c069e9188f052"
+}

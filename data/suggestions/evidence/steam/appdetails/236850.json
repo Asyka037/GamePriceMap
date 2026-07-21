@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 236850,
+  "fetchedAt": "2026-07-21T12:44:50.893Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=236850&cc=us&l=english",
+  "responseDigest": "sha256:59c5c79d36ca9c57e8602ce12bd5213378ae205c15d0bec1a57a498076e710b5",
+  "payload": {
+    "236850": {
+      "success": true,
+      "data": {
+        "steam_appid": 236850,
+        "name": "Europa Universalis IV",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 13, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 95465
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2cf6e3099c062339167b8faf872da62c52693bb9d808f09e6b726f04592f0772"
+}

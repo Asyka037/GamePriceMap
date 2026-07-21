@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 655500,
+  "fetchedAt": "2026-07-21T12:45:08.924Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=655500&cc=us&l=english",
+  "responseDigest": "sha256:dff6351f2fbb864ecea74b26d8e8053914db0b99f84e333d8eae5a7cdcb7d21f",
+  "payload": {
+    "655500": {
+      "success": true,
+      "data": {
+        "steam_appid": 655500,
+        "name": "MX Bikes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 7, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 34823
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b052270eb4865b1cc18917ac7056e98e88a467c35f36cc37075ee63330a90989"
+}

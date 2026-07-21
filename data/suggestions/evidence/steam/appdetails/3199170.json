@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3199170,
+  "fetchedAt": "2026-07-21T12:44:52.184Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3199170&cc=us&l=english",
+  "responseDigest": "sha256:c39210ee5db82749eed809b3055dee4072dd0d90576ddc0fdc71d6d20155570c",
+  "payload": {
+    "3199170": {
+      "success": true,
+      "data": {
+        "steam_appid": 3199170,
+        "name": "Blood Strike",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9119513dc705dc578f6c6e6da3a44ac7d36a1914c58701c09dcd892eb5f475f"
+}

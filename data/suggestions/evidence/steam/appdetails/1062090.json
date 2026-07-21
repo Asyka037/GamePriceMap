@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1062090,
+  "fetchedAt": "2026-07-21T12:44:49.567Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1062090&cc=us&l=english",
+  "responseDigest": "sha256:82b990352d4137ea10b29cecd05571f5cf692a1e3c5036850df953d0a2edc185",
+  "payload": {
+    "1062090": {
+      "success": true,
+      "data": {
+        "steam_appid": 1062090,
+        "name": "Timberborn",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2449,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 37750
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:12f2918faaaa9e51ec1d94c520418331a57bd141d71ffd6f786db91d77f8d566"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1934680,
+  "fetchedAt": "2026-07-21T12:44:45.691Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1934680&cc=us&l=english",
+  "responseDigest": "sha256:ee1e8b5b23a7c7f6f799ad1fb32cbef1562020575606677459172eb837fb17bf",
+  "payload": {
+    "1934680": {
+      "success": true,
+      "data": {
+        "steam_appid": 1934680,
+        "name": "Age of Mythology: Retold",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 4, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20593
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6321ab18a92546ce9cd15a8032a57cc500bd288192a6b483f77e3500e0f50626"
+}

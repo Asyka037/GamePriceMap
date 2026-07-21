@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3467040,
+  "fetchedAt": "2026-07-21T12:45:06.369Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3467040&cc=us&l=english",
+  "responseDigest": "sha256:7ffe876eae18be18ecea13d21868120b989d8a660bb50c2508dcd1c4669f901c",
+  "payload": {
+    "3467040": {
+      "success": true,
+      "data": {
+        "steam_appid": 3467040,
+        "name": "Bookshop Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1359,
+          "discount_percent": 15
+        },
+        "recommendations": {
+          "total": 1246
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:587a43671a04bf70a1ed5f82703708c508192755a239ffa5479629195c0205ba"
+}

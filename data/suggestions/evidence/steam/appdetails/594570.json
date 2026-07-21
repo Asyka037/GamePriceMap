@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 594570,
+  "fetchedAt": "2026-07-21T12:44:28.975Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=594570&cc=us&l=english",
+  "responseDigest": "sha256:8c457bfd45f4b18325b6d46cd84deef71902d3b1f15e92633f0179ef710de01a",
+  "payload": {
+    "594570": {
+      "success": true,
+      "data": {
+        "steam_appid": 594570,
+        "name": "Total War: WARHAMMER II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 28, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 87827
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fc2631722a50bbd25af4d3d1a83ae7d7c95a5e46094cabd1811d154e0c8327b3"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3419520,
+  "fetchedAt": "2026-07-21T12:44:39.196Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3419520&cc=us&l=english",
+  "responseDigest": "sha256:1e8c78fd12b60dfd74d206d6f6300574d1294266a5cebca2169f13d2fd6a205d",
+  "payload": {
+    "3419520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3419520,
+        "name": "Quarantine Zone: The Last Check",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11302
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d91936fcf6be895d2dae8e3e69024ccafc76fd83721555cc0558cb228bd043d4"
+}

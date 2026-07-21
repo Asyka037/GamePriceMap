@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1805320,
+  "fetchedAt": "2026-07-21T12:45:14.052Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1805320&cc=us&l=english",
+  "responseDigest": "sha256:87efc0201c08aa355387fbc05769d4da6185c1a63a510b3d5b19424f3dd38010",
+  "payload": {
+    "1805320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1805320,
+        "name": "Romestead",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4105
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e53d99537c8e2ca93ab91704b78bb1cd86f3cc093fa3a45dcfe7ad3490141d6d"
+}

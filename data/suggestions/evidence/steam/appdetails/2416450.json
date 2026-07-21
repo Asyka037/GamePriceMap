@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2416450,
+  "fetchedAt": "2026-07-21T12:44:34.053Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2416450&cc=us&l=english",
+  "responseDigest": "sha256:c3d20c5adc3f0d5fdf42e1a43dc43da7a27ee7919ab5611039cfd247ea8b127a",
+  "payload": {
+    "2416450": {
+      "success": true,
+      "data": {
+        "steam_appid": 2416450,
+        "name": "MOUSE: P.I. For Hire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13431
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bfda86ebde17f525369b04ffe8bde41c801b92ac8509b1d5a98da995ae7cd933"
+}

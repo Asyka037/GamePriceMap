@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2963800,
+  "fetchedAt": "2026-07-21T12:45:12.764Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2963800&cc=us&l=english",
+  "responseDigest": "sha256:b0038e9517764d96ebd298c4769b9af086311e3ffacb4aa106d6bdd3dd4e929a",
+  "payload": {
+    "2963800": {
+      "success": true,
+      "data": {
+        "steam_appid": 2963800,
+        "name": "DrainSim",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2303
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0103d2434f1550044ccf52d79b5771e9c24a4206a2f4100407bf31576d5df9d4"
+}

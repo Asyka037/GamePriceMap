@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 835570,
+  "fetchedAt": "2026-07-21T12:44:25.099Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=835570&cc=us&l=english",
+  "responseDigest": "sha256:a0bbadd83ba63ebc4574b0f769d59f773703d262ed85c178e144349b87b9b2aa",
+  "payload": {
+    "835570": {
+      "success": true,
+      "data": {
+        "steam_appid": 835570,
+        "name": "Conqueror's Blade",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 5, 2020"
+        },
+        "recommendations": {
+          "total": 4114
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:88dea5c9c30f0e99ef7981bd28a180ed59dcfcbb87c3bf4b1ef347c67df5cf98"
+}

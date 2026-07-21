@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 322170,
+  "fetchedAt": "2026-07-21T12:44:59.851Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=322170&cc=us&l=english",
+  "responseDigest": "sha256:4c66a1d0590dc3bc8204086fd5694cfc5171ff6e8e1b3b37b43fc7f03d718b6f",
+  "payload": {
+    "322170": {
+      "success": true,
+      "data": {
+        "steam_appid": 322170,
+        "name": "Geometry Dash",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 22, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 577916
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1177f6ddf051dc1a06d12cf1a44dd37be7fc4ae207d336ad129eb5a83346c282"
+}

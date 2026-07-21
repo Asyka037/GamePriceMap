@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 686810,
+  "fetchedAt": "2026-07-21T12:44:30.235Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=686810&cc=us&l=english",
+  "responseDigest": "sha256:7cf4fcab234724681c901e5ef74eed634c4a2eec1048d9fee0babc8b640f39ef",
+  "payload": {
+    "686810": {
+      "success": true,
+      "data": {
+        "steam_appid": 686810,
+        "name": "Hell Let Loose",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 1749,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 98822
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:60c9d17421a68307eb20981561eb668eb4043fec2d81a4174301fb8de19e07e8"
+}

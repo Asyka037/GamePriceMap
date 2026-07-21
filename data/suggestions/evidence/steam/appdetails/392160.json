@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 392160,
+  "fetchedAt": "2026-07-21T12:44:58.554Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=392160&cc=us&l=english",
+  "responseDigest": "sha256:5251635972277a931f4f2574697c8b2c7d01fc69c90df6a71aac47baa3464b00",
+  "payload": {
+    "392160": {
+      "success": true,
+      "data": {
+        "steam_appid": 392160,
+        "name": "X4: Foundations",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 24725
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c90edf5f019c6c7f827ce3b72ecbc0e69de3ec781b468dbed031fc03588463dc"
+}

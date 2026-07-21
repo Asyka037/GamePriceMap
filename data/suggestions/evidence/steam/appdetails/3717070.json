@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3717070,
+  "fetchedAt": "2026-07-21T12:44:19.598Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3717070&cc=us&l=english",
+  "responseDigest": "sha256:008e0c7edeb23309cbc05ccec88add7c6756478fe331c535f3b9d72836527653",
+  "payload": {
+    "3717070": {
+      "success": true,
+      "data": {
+        "steam_appid": 3717070,
+        "name": "WWE 2K26",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 3499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1990
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:86cfee08a3b755288583883981e7ac7624235a5b35f262cd423f3ad45db1eaaa"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3489700,
+  "fetchedAt": "2026-07-21T12:44:44.426Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3489700&cc=us&l=english",
+  "responseDigest": "sha256:333fdc40d9b3b27671de63ab4110b47667504a3f8351d1f10531092d092a5f1b",
+  "payload": {
+    "3489700": {
+      "success": true,
+      "data": {
+        "steam_appid": 3489700,
+        "name": "Stellar Blade™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 59490
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:34e12b1dd626b05693717fc26505bdaa0e5d55399ed5f404d2c283fef416f78f"
+}

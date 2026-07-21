@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 611790,
+  "fetchedAt": "2026-07-21T12:45:01.178Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=611790&cc=us&l=english",
+  "responseDigest": "sha256:6ba73aad9f5fb148f1acfb05f1f06f5db7592fe0c1c8c7620b80d28ca59bde41",
+  "payload": {
+    "611790": {
+      "success": true,
+      "data": {
+        "steam_appid": 611790,
+        "name": "House Party",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13912
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:93815e56844a63e53bad628334a88511740d8f0503e4335a73de9b0b85c85579"
+}

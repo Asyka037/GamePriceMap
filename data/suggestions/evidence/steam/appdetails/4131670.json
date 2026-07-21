@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4131670,
+  "fetchedAt": "2026-07-21T12:44:41.777Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4131670&cc=us&l=english",
+  "responseDigest": "sha256:95e0a629f83e4de58b832849c7f29782a30d07abea67461c620c21d218f6c006",
+  "payload": {
+    "4131670": {
+      "success": true,
+      "data": {
+        "steam_appid": 4131670,
+        "name": "Jurassic World Evolution 3: Rebirth Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 222
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ecb7906c1535a3fc1f9cffdd6bbc43d54be250a2a37d6c8d3eeda6c737a4e716"
+}

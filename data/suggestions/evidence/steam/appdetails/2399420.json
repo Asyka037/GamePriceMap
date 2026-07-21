@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2399420,
+  "fetchedAt": "2026-07-21T12:44:48.304Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2399420&cc=us&l=english",
+  "responseDigest": "sha256:eeaaea899b44b1b349c68bbd5ee912b1d638d9ccd81efbcb910fa556af49a746",
+  "payload": {
+    "2399420": {
+      "success": true,
+      "data": {
+        "steam_appid": 2399420,
+        "name": "Le Mans Ultimate",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14391
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5a4e88fd379045d8bc9571548cc0a790ae4ee1afee378fe25ab13e59618e5e54"
+}
