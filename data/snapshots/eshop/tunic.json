@@ -1,6 +1,6 @@
 {
   "slug": "tunic",
-  "lastPriceChangeAt": "2026-07-19",
+  "lastPriceChangeAt": "2026-07-21",
   "regions": [
     {
       "cc": "AU",
@@ -69,10 +69,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 4085,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 2042,
+      "list": 4085,
+      "discountPct": 50,
+      "saleEndsAt": "2026-08-02T14:59:59Z"
     },
     {
       "cc": "MX",

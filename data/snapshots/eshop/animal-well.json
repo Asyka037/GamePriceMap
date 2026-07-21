@@ -1,6 +1,6 @@
 {
   "slug": "animal-well",
-  "lastPriceChangeAt": "2026-07-10",
+  "lastPriceChangeAt": "2026-07-21",
   "regions": [
     {
       "cc": "AU",
@@ -45,10 +45,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 2950,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 2065,
+      "list": 2950,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-02T14:59:59Z"
     },
     {
       "cc": "NO",

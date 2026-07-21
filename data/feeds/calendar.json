@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T10:28:28.792Z",
+  "updatedAt": "2026-07-21T10:05:35.894Z",
   "months": {
     "2026-07": [
       {
@@ -14,102 +14,58 @@
         "slugIfTracked": null
       },
       {
-        "title": "Beat Boxy",
-        "date": "2026-07-20",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "url": "https://store.steampowered.com/app/4536120/",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4536120/a44587f92006ef33fc5e6d0eb60ca4c2ef4a1478/header.jpg?t=1784104983",
-        "slugIfTracked": null
-      },
-      {
-        "title": "ClassWarfare",
-        "date": "2026-07-20",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "url": "https://store.steampowered.com/app/4930820/",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4930820/bb2c647ea6c1a8b5eee9c2f21a74f4c6377e91e8/header.jpg?t=1784239580",
-        "slugIfTracked": null
-      },
-      {
-        "title": "EverRail",
-        "date": "2026-07-20",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "url": "https://store.steampowered.com/app/4134600/",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4134600/a9ac500333406730bbabf503f872cf39165cfcfe/header.jpg?t=1784493430",
-        "slugIfTracked": null
-      },
-      {
-        "title": "G-Rebels",
-        "date": "2026-07-20",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "url": "https://store.steampowered.com/app/2445980/",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445980/f224277541292b5bfae49d97fcc421ef8c36d47f/header.jpg?t=1784491259",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Risen Blade",
-        "date": "2026-07-20",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "url": "https://store.steampowered.com/app/4347620/",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4347620/c6e107b0fbca6be71d216c11e2cfa51b284df082/header.jpg?t=1783597458",
-        "slugIfTracked": null
-      },
-      {
-        "title": "ROOM by ROOM",
-        "date": "2026-07-20",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "url": "https://store.steampowered.com/app/4920650/",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4920650/0135129ca169622131c1142cdece7cb56ff2e4a1/header.jpg?t=1784159267",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Souls Runner",
-        "date": "2026-07-20",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "url": "https://store.steampowered.com/app/4888600/",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4888600/a7dd238f24cd3399ae5d29bd4745ca20a97bab82/header.jpg?t=1784064619",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Wobble Ops!",
-        "date": "2026-07-20",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "url": "https://store.steampowered.com/app/4730160/",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4730160/1a632260181d1fb9c66388b429d1a50b06ebf7af/header.jpg?t=1783370866",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Cozy Battle Royale 2026",
+        "title": "Character Limit",
         "date": "2026-07-21",
         "month": "2026-07",
         "platforms": [
-          "switch"
+          "pc"
         ],
-        "url": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Cozy-Battle-Royale-2026-3134068.html",
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/cozybattleroyale2026/16x9_CozyBattleRoyale2026_image500w.jpg",
+        "url": "https://store.steampowered.com/app/4121620/",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4121620/e08dc8983e8900a502945ebe3fd5c0fa4d882701/header.jpg?t=1784308402",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Cobalt Miner",
+        "date": "2026-07-21",
+        "month": "2026-07",
+        "platforms": [
+          "pc"
+        ],
+        "url": "https://store.steampowered.com/app/4601880/",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4601880/50f066fec87fa286bd27eee520a89a5330674a1e/header.jpg?t=1782907323",
+        "slugIfTracked": null
+      },
+      {
+        "title": "DATA BREACH",
+        "date": "2026-07-21",
+        "month": "2026-07",
+        "platforms": [
+          "pc"
+        ],
+        "url": "https://store.steampowered.com/app/3724820/",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724820/21f927923e6038424c07601214d9dee942c2895c/header.jpg?t=1784505601",
+        "slugIfTracked": null
+      },
+      {
+        "title": "DIVE or DIE - Children of Rain",
+        "date": "2026-07-21",
+        "month": "2026-07",
+        "platforms": [
+          "pc"
+        ],
+        "url": "https://store.steampowered.com/app/3590290/",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590290/e0279893a393cecd472e1475d16ddb648aad15a3/header.jpg?t=1784128963",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Neuralnx",
+        "date": "2026-07-21",
+        "month": "2026-07",
+        "platforms": [
+          "pc"
+        ],
+        "url": "https://store.steampowered.com/app/4190860/",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190860/9e70e8dc2742eb8321e1790fb3390462c9929188/header.jpg?t=1784589229",
         "slugIfTracked": null
       },
       {
@@ -117,10 +73,10 @@
         "date": "2026-07-21",
         "month": "2026-07",
         "platforms": [
-          "switch"
+          "pc"
         ],
-        "url": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Pit-Panic-3139933.html",
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/pitpanic_1/16x9_PitPanic_image500w.jpg",
+        "url": "https://store.steampowered.com/app/2491490/",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2491490/7d09fa8c9029696e455fa83bf9ea3168478de3b6/header.jpg?t=1784295335",
         "slugIfTracked": null
       },
       {
@@ -1292,6 +1248,17 @@
         "slugIfTracked": null
       },
       {
+        "title": "Ascent DX",
+        "date": "2026-08-20",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "url": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Ascent-DX-3144159.html",
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/ascentdx/16x9_AscentDX_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
         "title": "Grim Trials",
         "date": "2026-08-20",
         "month": "2026-08",
@@ -1322,6 +1289,28 @@
         ],
         "url": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-games/The-Witch-s-Bakery-3128981.html",
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/thewitchsbakery/16x9_TheWitchsBakery_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "BRIGANDINE ABYSS",
+        "date": "2026-08-27",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "url": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/BRIGANDINE-ABYSS-3137766.html",
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/brigandineabyss/16x9_BrigandineAbyss_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Golftacular!",
+        "date": "2026-08-27",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "url": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Golftacular--3137562.html",
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/golftacular/16x9_Golftacular_image500w.jpg",
         "slugIfTracked": null
       },
       {

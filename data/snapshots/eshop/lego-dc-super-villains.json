@@ -1,6 +1,6 @@
 {
   "slug": "lego-dc-super-villains",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-07-21",
   "regions": [
     {
       "cc": "AU",
@@ -13,18 +13,18 @@
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 29.99,
-      "list": 299.99,
-      "discountPct": 90,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 299.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 6.99,
-      "list": 69.99,
-      "discountPct": 90,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CH",
@@ -37,10 +37,10 @@
     {
       "cc": "CO",
       "currency": "COP",
-      "amount": 20999,
-      "list": 209999,
-      "discountPct": 90,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 209999,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "DE",
@@ -69,10 +69,10 @@
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 130.8,
-      "list": 1308,
-      "discountPct": 90,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 1308,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NO",
@@ -101,10 +101,10 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 5.99,
-      "list": 59.99,
-      "discountPct": 90,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 59.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "ZA",

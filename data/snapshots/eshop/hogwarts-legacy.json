@@ -1,6 +1,6 @@
 {
   "slug": "hogwarts-legacy",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-07-21",
   "regions": [
     {
       "cc": "AR",
@@ -77,10 +77,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 8778,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 1316,
+      "list": 8778,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-09T14:59:59Z"
     },
     {
       "cc": "MX",

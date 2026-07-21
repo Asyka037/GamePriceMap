@@ -1,6 +1,6 @@
 {
   "slug": "disney-dreamlight-valley",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-07-21",
   "regions": [
     {
       "cc": "AR",
@@ -77,10 +77,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 4650,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 3255,
+      "list": 4650,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-08T14:59:59Z"
     },
     {
       "cc": "MX",

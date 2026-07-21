@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T10:27:55.484Z",
+  "updatedAt": "2026-07-21T10:05:06.456Z",
   "items": [
     {
       "title": "Palworld",
@@ -14,6 +14,18 @@
       "slugIfTracked": "palworld"
     },
     {
+      "title": "Tainted Grail: The Fall of Avalon",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1466060/",
+      "currency": "USD",
+      "price": 22.49,
+      "list": 44.99,
+      "pct": 50,
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 1466060,
+      "slugIfTracked": null
+    },
+    {
       "title": "Funnel Runners",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/3712080/",
@@ -24,30 +36,6 @@
       "endsAt": "2026-07-23T17:00:34.000Z",
       "steamAppId": 3712080,
       "slugIfTracked": null
-    },
-    {
-      "title": "DELTARUNE",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1671210/",
-      "currency": "USD",
-      "price": 19.99,
-      "list": 24.99,
-      "pct": 20,
-      "endsAt": "2026-07-20T17:00:00.000Z",
-      "steamAppId": 1671210,
-      "slugIfTracked": "deltarune"
-    },
-    {
-      "title": "Grand Theft Auto V Enhanced",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
-      "currency": "USD",
-      "price": 14.99,
-      "list": 29.99,
-      "pct": 50,
-      "endsAt": "2026-07-28T17:00:00.000Z",
-      "steamAppId": 3240220,
-      "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
       "title": "Grand Theft Auto V Enhanced",
@@ -74,16 +62,16 @@
       "slugIfTracked": "the-outlast-trials"
     },
     {
-      "title": "Warhammer 40,000: Space Marine 2",
+      "title": "Grand Theft Auto V Enhanced",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2183900/",
+      "url": "https://store.steampowered.com/app/3240220/",
       "currency": "USD",
-      "price": 17.99,
-      "list": 59.99,
-      "pct": 70,
-      "endsAt": "2026-07-30T17:00:00.000Z",
-      "steamAppId": 2183900,
-      "slugIfTracked": "warhammer-40000-space-marine-2"
+      "price": 14.99,
+      "list": 29.99,
+      "pct": 50,
+      "endsAt": "2026-07-28T17:00:00.000Z",
+      "steamAppId": 3240220,
+      "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
       "title": "Red Dead Redemption 2",
@@ -110,16 +98,28 @@
       "slugIfTracked": "gamble-with-your-friends"
     },
     {
-      "title": "PowerWash Simulator 2",
+      "title": "Derail Valley",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2968420/",
+      "url": "https://store.steampowered.com/app/588030/",
       "currency": "USD",
-      "price": 18.74,
-      "list": 24.99,
+      "price": 29.99,
+      "list": 39.99,
       "pct": 25,
-      "endsAt": "2026-07-23T17:00:00.000Z",
-      "steamAppId": 2968420,
-      "slugIfTracked": "powerwash-simulator-2"
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 588030,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Warhammer 40,000: Space Marine 2",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2183900/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 59.99,
+      "pct": 70,
+      "endsAt": "2026-07-30T17:00:00.000Z",
+      "steamAppId": 2183900,
+      "slugIfTracked": "warhammer-40000-space-marine-2"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-20T11:46:47.756Z",
+  "updatedAt": "2026-07-21T10:06:21.865Z",
   "sources": {
     "steam-regional": {
-      "lastAttemptAt": "2026-07-20T10:26:39.590Z",
-      "lastSuccessAt": "2026-07-20T10:26:39.590Z",
+      "lastAttemptAt": "2026-07-21T10:03:51.028Z",
+      "lastSuccessAt": "2026-07-21T10:03:51.028Z",
       "consecutiveFailures": 0,
-      "note": "changed 0, unchanged 91, skipped 0, failed region requests 0, expected 91"
+      "note": "changed 8, unchanged 83, skipped 0, failed region requests 0, expected 91"
     },
     "eshop-regional": {
-      "lastAttemptAt": "2026-07-20T10:27:53.955Z",
-      "lastSuccessAt": "2026-07-20T10:27:53.955Z",
+      "lastAttemptAt": "2026-07-21T10:05:05.076Z",
+      "lastSuccessAt": "2026-07-21T10:05:05.076Z",
       "consecutiveFailures": 0,
-      "note": "changed 2, unchanged 95, skipped 0, failed region requests 0, expected 97"
+      "note": "changed 9, unchanged 88, skipped 0, failed region requests 0, expected 97"
     },
     "xbox-us": {
       "lastAttemptAt": "2026-07-20T11:44:38.499Z",
@@ -56,10 +56,10 @@
       "note": "changed 9, unchanged 0, failed games 0, expected 9"
     },
     "meta:shard-4": {
-      "lastAttemptAt": "2026-07-16T15:57:35.998Z",
-      "lastSuccessAt": "2026-07-16T15:57:35.998Z",
+      "lastAttemptAt": "2026-07-21T10:06:21.865Z",
+      "lastSuccessAt": "2026-07-21T10:06:21.865Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 16, unchanged 0, failed games 0, expected 16"
     },
     "meta:shard-5": {
       "lastAttemptAt": "2026-07-16T15:57:35.998Z",
@@ -138,6 +138,12 @@
       "lastSuccessAt": "2026-07-20T10:27:09.528Z",
       "consecutiveFailures": 0,
       "note": "changed 0, unchanged 10, skipped 0, failed region requests 0, expected 10"
+    },
+    "steam-regional:extended-4": {
+      "lastAttemptAt": "2026-07-21T10:04:20.759Z",
+      "lastSuccessAt": "2026-07-21T10:04:20.759Z",
+      "consecutiveFailures": 0,
+      "note": "changed 0, unchanged 11, skipped 0, failed region requests 0, expected 11"
     }
   }
 }

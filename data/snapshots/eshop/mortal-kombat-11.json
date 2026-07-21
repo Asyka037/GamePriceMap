@@ -1,6 +1,6 @@
 {
   "slug": "mortal-kombat-11",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-07-21",
   "regions": [
     {
       "cc": "AU",
@@ -13,18 +13,18 @@
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 39.99,
-      "list": 199.99,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 199.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 13.99,
-      "list": 69.99,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CH",
@@ -37,10 +37,10 @@
     {
       "cc": "CO",
       "currency": "COP",
-      "amount": 39999,
-      "list": 199999,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 199999,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "DE",
@@ -69,10 +69,10 @@
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 285.6,
-      "list": 1428,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 1428,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NO",
@@ -101,10 +101,10 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 9.99,
-      "list": 49.99,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 49.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "ZA",

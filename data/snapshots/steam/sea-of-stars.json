@@ -1,149 +1,149 @@
 {
   "slug": "sea-of-stars",
-  "lastPriceChangeAt": "2026-07-10",
+  "lastPriceChangeAt": "2026-07-21",
   "regions": [
     {
       "cc": "AR",
       "currency": "USD",
-      "amount": 17.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 8.99,
+      "list": 17.99,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 50.95,
-      "list": null,
-      "discountPct": null,
+      "amount": 25.47,
+      "list": 50.95,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 99.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 49.99,
+      "list": 99.99,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 44.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 22.49,
+      "list": 44.99,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 38.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 19.49,
+      "list": 38.99,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "CN",
       "currency": "CNY",
-      "amount": 165,
-      "list": null,
-      "discountPct": null,
+      "amount": 82.5,
+      "list": 165,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 33.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 16.99,
+      "list": 33.99,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 29.5,
-      "list": null,
-      "discountPct": null,
+      "amount": 14.75,
+      "list": 29.5,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "GE",
       "currency": "USD",
-      "amount": 16.49,
-      "list": null,
-      "discountPct": null,
+      "amount": 8.24,
+      "list": 16.49,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "IN",
       "currency": "INR",
-      "amount": 1500,
-      "list": null,
-      "discountPct": null,
+      "amount": 750,
+      "list": 1500,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 4000,
-      "list": null,
-      "discountPct": null,
+      "amount": 2000,
+      "list": 4000,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "KR",
       "currency": "KRW",
-      "amount": 37500,
-      "list": null,
-      "discountPct": null,
+      "amount": 18750,
+      "list": 37500,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "KZ",
       "currency": "KZT",
-      "amount": 8800,
-      "list": null,
-      "discountPct": null,
+      "amount": 4400,
+      "list": 8800,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 399.9,
-      "list": null,
-      "discountPct": null,
+      "amount": 199.95,
+      "list": 399.9,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "PK",
       "currency": "USD",
-      "amount": 11.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 5.99,
+      "list": 11.99,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "TR",
       "currency": "USD",
-      "amount": 17.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 8.99,
+      "list": 17.99,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "UA",
       "currency": "UAH",
-      "amount": 700,
-      "list": null,
-      "discountPct": null,
+      "amount": 350,
+      "list": 700,
+      "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 34.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 17.49,
+      "list": 34.99,
+      "discountPct": 50,
       "saleEndsAt": null
     }
   ]
