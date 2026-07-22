@@ -92,6 +92,7 @@ for (const route of indexedRoutes) {
 }
 
 let microsoftStoreLinks = 0;
+let xboxComparisonRowsTotal = 0;
 for (const [route, file] of builtRoutes) {
   const html = await readFile(file, 'utf8');
   if (/^\/game\/[^/]+\/price-history\/$/.test(route)) {
@@ -104,6 +105,7 @@ for (const [route, file] of builtRoutes) {
   const xboxComparisonRows = (html.match(/<tr\b[^>]*data-store-channel="xbox"[^>]*>[\s\S]*?<\/tr>/g) ?? [])
     .filter((row) => /href="https:\/\/www\.microsoft\.com\/store\/productId\/[A-Z0-9]{12}"/.test(row));
   assert(xboxComparisonRows.length === links.length, `Microsoft Store product link escaped the Xbox comparison row: ${route}`);
+  xboxComparisonRowsTotal += xboxComparisonRows.length;
   for (const link of links) {
     assert(/\btarget="_blank"/.test(link), `Microsoft Store link must open in a new tab: ${route}`);
     assert(/\brel="[^"]*\bnoopener\b[^"]*"/.test(link), `Microsoft Store link is missing noopener: ${route}`);
@@ -111,7 +113,11 @@ for (const [route, file] of builtRoutes) {
     microsoftStoreLinks++;
   }
 }
-assert(microsoftStoreLinks > 0, 'build contains no verified Microsoft Store comparison links');
+const catalogDocument = JSON.parse(await readFile(join(projectRoot, 'data', 'catalog.json'), 'utf8'));
+const expectedXboxMappings = catalogDocument.games.filter((game) => game.xboxBigId).length;
+assert(expectedXboxMappings > 0, 'catalog contains no reviewed Xbox mappings');
+assert(microsoftStoreLinks === expectedXboxMappings, `expected ${expectedXboxMappings} Microsoft Store links, built ${microsoftStoreLinks}`);
+assert(xboxComparisonRowsTotal === expectedXboxMappings, `expected ${expectedXboxMappings} Xbox comparison rows, built ${xboxComparisonRowsTotal}`);
 
 const home = await readFile(join(distDir, 'index.html'), 'utf8');
 assert(!/href="\/(?:xbox|psn)(?:\/|\")/.test(home), 'header/footer must not expose standalone Xbox or PSN navigation');

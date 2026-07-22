@@ -19,6 +19,38 @@ export function round2(n) {
 /** Fields derived at build time and forbidden in persisted raw observations. */
 export const DERIVED_REGION_FIELDS = Object.freeze(['usd', 'listUsd', 'rank']);
 
+const SINGLE_MARKET_CHANNELS = new Set(['xbox', 'psn']);
+
+/**
+ * Fail-closed invariants shared by the US-only Xbox and PlayStation pilots.
+ * Returning messages keeps this pure and lets the production validator attach
+ * the concrete file path while unit tests exercise the contract directly.
+ */
+export function singleMarketSnapshotErrors({ channel, fileName, snapshot, hasMapping }) {
+  if (!SINGLE_MARKET_CHANNELS.has(channel)) return [];
+  const label = channel === 'xbox' ? 'Xbox' : 'PSN';
+  const errors = [];
+  if (fileName !== `${snapshot?.slug}.json`) errors.push(`filename does not match slug ${snapshot?.slug}`);
+  if (!hasMapping) errors.push(`${label} snapshot has no catalog product mapping`);
+  const regions = snapshot?.regions ?? [];
+  if (regions.length !== 1 || regions[0]?.cc !== 'US') errors.push(`${label} pilot requires exactly one US region`);
+  if (regions[0]?.cc === 'US' && regions[0]?.currency !== 'USD') errors.push(`${label} snapshot requires a native US/USD observation`);
+  return errors;
+}
+
+/** A mapped US-only channel must have both an observed event and isolated ATL. */
+export function singleMarketHistoryErrors({ channel, history, hasMapping }) {
+  if (!SINGLE_MARKET_CHANNELS.has(channel) || !hasMapping) return [];
+  const label = channel === 'xbox' ? 'Xbox' : 'PSN';
+  const atlKey = `${channel}-us`;
+  const errors = [];
+  if (!history?.events?.some((event) => event.ch === channel && event.cc === 'US' && event.usd > 0)) {
+    errors.push(`${label} mapping requires a public US history event`);
+  }
+  if (!(history?.atl?.[atlKey]?.usd > 0)) errors.push(`${label} mapping requires ${atlKey} ATL`);
+  return errors;
+}
+
 /** rates: USD -> currency multipliers (open.er-api shape). */
 export function toUsd(amount, currency, rates) {
   if (currency === 'USD') return round2(amount);

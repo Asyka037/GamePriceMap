@@ -1,6 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { assembleRawSnapshot, sameObservations, enrichSnapshot, usObservation, DERIVED_REGION_FIELDS } from '../lib/snapshot.mjs';
+import {
+  assembleRawSnapshot,
+  sameObservations,
+  enrichSnapshot,
+  usObservation,
+  DERIVED_REGION_FIELDS,
+  singleMarketHistoryErrors,
+  singleMarketSnapshotErrors,
+} from '../lib/snapshot.mjs';
 
 const rows = [
   { cc: 'ua', currency: 'UAH', amount: 899, list: 1799, discountPct: 50, saleEndsAt: null },
@@ -35,4 +43,31 @@ test('enrichment drops regions with missing rates (validate makes that a hard fa
 
 test('persisted-snapshot denylist covers every v2.1 derived field', () => {
   assert.deepEqual(DERIVED_REGION_FIELDS, ['usd', 'listUsd', 'rank']);
+});
+
+test('US-only platform snapshots require a catalog mapping and one native US row', () => {
+  const snapshot = assembleRawSnapshot('g', [{ cc: 'US', currency: 'USD', amount: 19.99 }]);
+  assert.deepEqual(singleMarketSnapshotErrors({
+    channel: 'xbox', fileName: 'g.json', snapshot, hasMapping: true,
+  }), []);
+  assert.deepEqual(singleMarketSnapshotErrors({
+    channel: 'xbox', fileName: 'orphan.json', snapshot, hasMapping: false,
+  }), [
+    'filename does not match slug g',
+    'Xbox snapshot has no catalog product mapping',
+  ]);
+  const wrongRegion = assembleRawSnapshot('g', [{ cc: 'CA', currency: 'CAD', amount: 29.99 }]);
+  assert.match(singleMarketSnapshotErrors({
+    channel: 'psn', fileName: 'g.json', snapshot: wrongRegion, hasMapping: true,
+  }).join('\n'), /exactly one US region/u);
+});
+
+test('US-only platform mappings require an isolated event and ATL', () => {
+  const history = { events: [{ ch: 'xbox', cc: 'US', usd: 19.99 }], atl: { 'xbox-us': { usd: 19.99 } } };
+  assert.deepEqual(singleMarketHistoryErrors({ channel: 'xbox', history, hasMapping: true }), []);
+  assert.deepEqual(singleMarketHistoryErrors({ channel: 'xbox', history: {}, hasMapping: true }), [
+    'Xbox mapping requires a public US history event',
+    'Xbox mapping requires xbox-us ATL',
+  ]);
+  assert.deepEqual(singleMarketHistoryErrors({ channel: 'xbox', history: {}, hasMapping: false }), []);
 });

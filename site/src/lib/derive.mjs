@@ -96,9 +96,25 @@ export function multiRegionalPriceSummary(gameTitle, sources) {
   };
 }
 
-/** US-region row of a snapshot (canonical price), or null. */
-export function usRow(snapshot) {
-  return snapshot?.regions?.find((r) => r.cc === 'US') ?? null;
+/**
+ * US-region row of a snapshot (canonical current price), or null. During the
+ * weekly scrape window an ended promotion may still be present in the latest
+ * observation; expose its public list price until the next refresh instead of
+ * continuing to advertise the expired discount.
+ */
+export function usRow(snapshot, now = Date.now()) {
+  const row = snapshot?.regions?.find((r) => r.cc === 'US') ?? null;
+  if (!row || !row.discountPct || isLive(row.saleEndsAt, now)) return row;
+  if (!(row.listUsd > 0)) return null;
+  return {
+    ...row,
+    amount: row.list ?? row.listUsd,
+    usd: row.listUsd,
+    list: null,
+    listUsd: null,
+    discountPct: null,
+    saleEndsAt: null,
+  };
 }
 
 /**

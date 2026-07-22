@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  bestPriceNow, bestPriceFlags, overallAtl, atlFor, visiblePriceHistory, isLive, buyWaitVerdict, primaryRegionalSource, regionalPriceSources, regionalCardModel, regionalListingCards, popularRegionalCards, multiRegionalPriceSummary, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, trackedAtlDeals, fmtMoney, regionalPriceSummary,
+  bestPriceNow, bestPriceFlags, overallAtl, atlFor, visiblePriceHistory, isLive, usRow, buyWaitVerdict, primaryRegionalSource, regionalPriceSources, regionalCardModel, regionalListingCards, popularRegionalCards, multiRegionalPriceSummary, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, trackedAtlDeals, fmtMoney, regionalPriceSummary,
 } from '../../site/src/lib/derive.mjs';
 import { gameBundle } from '../../site/src/lib/data.mjs';
 import { regionalPriceModel } from '../../site/src/lib/regions.mjs';
@@ -337,6 +337,22 @@ test('isLive: missing endsAt is live, past is dead, future is live', () => {
   assert.equal(isLive('2020-01-01T00:00:00Z'), false);
   assert.equal(isLive('2099-01-01T00:00:00Z'), true);
   assert.equal(isLive('garbage'), true, 'unparseable dates fail open');
+});
+
+test('usRow falls back an expired promotion to its public list price', () => {
+  const snapshot = {
+    regions: [{
+      cc: 'US', currency: 'USD', amount: 17.99, usd: 17.99,
+      list: 59.99, listUsd: 59.99, discountPct: 70,
+      saleEndsAt: '2026-07-30T09:59:59Z', rank: 1,
+    }],
+  };
+  assert.equal(usRow(snapshot, Date.parse('2026-07-29T00:00:00Z')).usd, 17.99);
+  assert.deepEqual(usRow(snapshot, Date.parse('2026-07-31T00:00:00Z')), {
+    cc: 'US', currency: 'USD', amount: 59.99, usd: 59.99,
+    list: null, listUsd: null, discountPct: null, saleEndsAt: null, rank: 1,
+  });
+  assert.equal(snapshot.regions[0].usd, 17.99, 'pure derivation does not mutate the snapshot');
 });
 
 test('atlFor never crosses channels (Celeste case)', () => {

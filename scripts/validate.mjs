@@ -17,7 +17,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { DERIVED_REGION_FIELDS } from './lib/snapshot.mjs';
+import { DERIVED_REGION_FIELDS, singleMarketHistoryErrors, singleMarketSnapshotErrors } from './lib/snapshot.mjs';
 import { DERIVED_STEAM_OFFER_FIELDS } from './lib/steam-offers.mjs';
 import { catalogIndexes } from './lib/catalog.mjs';
 import { ESHOP_REGIONS } from './lib/eshop.mjs';
@@ -252,8 +252,15 @@ function validateSnapshotDir(dir, channel) {
     const id = snap.slug;
     const game = catalogBySlug.get(id);
     if (!slugs.has(id)) fail(`${rel}: slug not in catalog`);
-    if (channel === 'psn' && file !== `${id}.json`) fail(`${rel}: filename does not match slug ${id}`);
-    if (channel === 'psn' && !game?.psnProductId) fail(`${rel}: PSN snapshot has no catalog product mapping`);
+    const hasSingleMarketMapping = channel === 'xbox'
+      ? Boolean(game?.xboxBigId)
+      : channel === 'psn' && Boolean(game?.psnProductId);
+    for (const error of singleMarketSnapshotErrors({
+      channel,
+      fileName: file,
+      snapshot: snap,
+      hasMapping: hasSingleMarketMapping,
+    })) fail(`${rel}: ${error}`);
     if (!Array.isArray(snap.regions) || snap.regions.length === 0) { fail(`${rel}: no regions`); continue; }
 
     for (const r of snap.regions) {
@@ -262,13 +269,14 @@ function validateSnapshotDir(dir, channel) {
       if (r.discountPct !== null && !(r.list > 0)) fail(`${rel} ${r.cc}: discount without list price`);
       const leaked = DERIVED_REGION_FIELDS.filter((field) => field in r);
       if (leaked.length) fail(`${rel} ${r.cc}: derived field(s) persisted (${leaked.join('/')} belong to build time)`);
-      if (channel === 'psn') {
+      if (channel === 'psn' || channel === 'xbox') {
+        const label = channel === 'xbox' ? 'Xbox' : 'PSN';
         const allowed = new Set(['cc', 'currency', 'amount', 'list', 'discountPct', 'saleEndsAt']);
         const extra = Object.keys(r).filter((field) => !allowed.has(field));
-        if (extra.length) fail(`${rel} ${r.cc}: PSN membership/derived fields must not enter the public price row (${extra.join('/')})`);
-        if (r.discountPct !== null && !(r.list > r.amount)) fail(`${rel} ${r.cc}: PSN discount requires public list > public amount`);
-        if (r.discountPct === null && r.list !== null) fail(`${rel} ${r.cc}: PSN list price without a public discount`);
-        if (r.saleEndsAt !== null && Number.isNaN(Date.parse(r.saleEndsAt))) fail(`${rel} ${r.cc}: bad PSN saleEndsAt`);
+        if (extra.length) fail(`${rel} ${r.cc}: ${label} membership/derived fields must not enter the public price row (${extra.join('/')})`);
+        if (r.discountPct !== null && !(r.list > r.amount)) fail(`${rel} ${r.cc}: ${label} discount requires public list > public amount`);
+        if (r.discountPct === null && r.list !== null) fail(`${rel} ${r.cc}: ${label} list price without a public discount`);
+        if (r.saleEndsAt !== null && Number.isNaN(Date.parse(r.saleEndsAt))) fail(`${rel} ${r.cc}: bad ${label} saleEndsAt`);
       }
       // 缺失汇率 = 构建期该区域会消失，硬失败
       if (r.currency !== 'USD' && !(rates[r.currency] > 0)) fail(`${rel} ${r.cc}: no exchange rate for ${r.currency}`);
@@ -277,12 +285,10 @@ function validateSnapshotDir(dir, channel) {
     // requires US; eShop Americas is checked from catalog mappings above.
     const usRow = snap.regions.find((r) => r.cc === 'US');
     if (channel === 'steam' && (!usRow || usRow.currency !== 'USD')) fail(`${rel}: Steam snapshot requires a native US/USD observation`);
-    else if (channel === 'psn' && (!usRow || usRow.currency !== 'USD')) fail(`${rel}: PSN snapshot requires a native US/USD observation`);
     else if (usRow && usRow.currency !== 'USD') fail(`${rel}: US row currency ${usRow.currency} breaks the native-USD invariant`);
     // 稳定字典序（写盘守卫的语义比较依赖它）
     const ccs = snap.regions.map((r) => r.cc);
     if (ccs.join() !== [...ccs].sort().join()) fail(`${rel}: regions not sorted by cc`);
-    if (channel === 'psn' && (snap.regions.length !== 1 || ccs[0] !== 'US')) fail(`${rel}: PSN POC requires exactly one US region`);
 
     const prev = gitHeadJson(rel);
     if (!prev) {
@@ -339,9 +345,9 @@ if (fs.existsSync(histDir)) {
       if (atl && e.usd < atl.usd - 0.005) fail(`${rel}: event ${e.d} usd ${e.usd} below recorded ATL ${atl.usd}`);
     }
     const historyGame = catalogBySlug.get(h.slug);
-    if (historyGame?.psnProductId) {
-      if (!h.events?.some((event) => event.ch === 'psn' && event.cc === 'US' && event.usd > 0)) fail(`${rel}: PSN mapping requires a public US history event`);
-      if (!(h.atl?.['psn-us']?.usd > 0)) fail(`${rel}: PSN mapping requires psn-us ATL`);
+    for (const channel of ['xbox', 'psn']) {
+      const hasMapping = channel === 'xbox' ? Boolean(historyGame?.xboxBigId) : Boolean(historyGame?.psnProductId);
+      for (const error of singleMarketHistoryErrors({ channel, history: h, hasMapping })) fail(`${rel}: ${error}`);
     }
   }
 }
