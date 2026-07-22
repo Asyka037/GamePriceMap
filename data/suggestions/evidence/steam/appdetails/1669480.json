@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1669480,
+  "fetchedAt": "2026-07-22T12:47:49.705Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1669480&cc=us&l=english",
+  "responseDigest": "sha256:a79233cce5a50e5fb86ab88195688a9e67e43cd91693bce44b6ed9b4c0159550",
+  "payload": {
+    "1669480": {
+      "success": true,
+      "data": {
+        "steam_appid": 1669480,
+        "name": "Firefighting Simulator: Ignite",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2099,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 1829
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5683c7b67b5b26b76548f27142348869aefd595dd2ad82ced459656519030bce"
+}

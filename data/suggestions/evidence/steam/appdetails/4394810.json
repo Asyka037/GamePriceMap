@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4394810,
+  "fetchedAt": "2026-07-22T12:48:15.611Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4394810&cc=us&l=english",
+  "responseDigest": "sha256:65830424a3d463f1d7f6dc0c46f408f37d85efd4ac764ce962e5833eeb864e49",
+  "payload": {
+    "4394810": {
+      "success": true,
+      "data": {
+        "steam_appid": 4394810,
+        "name": "DAVE THE DIVER - In the Jungle Content Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1709
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c873e60c77087ce35f6bb1d5161e6bdea7886a70c4725e79a835312f3165ce81"
+}

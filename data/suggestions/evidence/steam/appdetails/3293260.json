@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3293260,
+  "fetchedAt": "2026-07-22T12:48:28.072Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3293260&cc=us&l=english",
+  "responseDigest": "sha256:111b32ed9bfa3d3eac88f52a22b51c6387368bb2f264ca787e5ff55479217d9d",
+  "payload": {
+    "3293260": {
+      "success": true,
+      "data": {
+        "steam_appid": 3293260,
+        "name": "Waterpark Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10249
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3da736830f0b21caa8e1af53f31324bfec71c5ff78b2125a4292e9c96bc51e9a"
+}

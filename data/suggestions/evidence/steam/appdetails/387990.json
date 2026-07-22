@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 387990,
+  "fetchedAt": "2026-07-22T12:47:26.860Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=387990&cc=us&l=english",
+  "responseDigest": "sha256:68c523ecb2ed4c9db16ead71b3c8ef11782d14270af50552f9693735592fdd16",
+  "payload": {
+    "387990": {
+      "success": true,
+      "data": {
+        "steam_appid": 387990,
+        "name": "Scrap Mechanic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 19, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 105530
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5eff058e671c802923aec61613be4d8e61decc037dc5c334ee29ac00e315e453"
+}

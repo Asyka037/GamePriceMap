@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3859630,
+  "fetchedAt": "2026-07-22T12:47:42.181Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3859630&cc=us&l=english",
+  "responseDigest": "sha256:8ebad2258eaac7bb412b5c92b62975d4309e026423f9640f1605a3ac170893dc",
+  "payload": {
+    "3859630": {
+      "success": true,
+      "data": {
+        "steam_appid": 3859630,
+        "name": "METAL GEAR SOLID: MASTER COLLECTION Vol.2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Aug 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7c33c085c2760dff1c286c7cf4e8c5eadc6785f3ff6db1edd33a3a256dd5a0b6"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1419170,
+  "fetchedAt": "2026-07-22T12:48:07.316Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1419170&cc=us&l=english",
+  "responseDigest": "sha256:8530d4ee3afd656b48e399fbb91f6c303b9953dbada363ffe0db847858571da1",
+  "payload": {
+    "1419170": {
+      "success": true,
+      "data": {
+        "steam_appid": 1419170,
+        "name": "My Singing Monsters",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 24, 2021"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eea96a352d5d46d8f3a6acae9be36b0944e64af537ec4cea6107465bdfad8fbc"
+}

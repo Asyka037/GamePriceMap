@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1182900,
+  "fetchedAt": "2026-07-22T12:47:50.968Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1182900&cc=us&l=english",
+  "responseDigest": "sha256:0300e16418bb5d3d58a3a1ee6b7b605b5f8edfefe51382de9d69e16acc0f1e86",
+  "payload": {
+    "1182900": {
+      "success": true,
+      "data": {
+        "steam_appid": 1182900,
+        "name": "A Plague Tale: Requiem",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1499,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 19688
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ee0f3f4e4a8f454261bb0b59fee896058389d3bccb829faf9340109b3e897ccd"
+}

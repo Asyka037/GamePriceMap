@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 212500,
+  "fetchedAt": "2026-07-22T12:48:11.118Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=212500&cc=us&l=english",
+  "responseDigest": "sha256:ad10bb80e2efb24078871e8c42c35b1537f8f632286520ec03080f402b17f175",
+  "payload": {
+    "212500": {
+      "success": true,
+      "data": {
+        "steam_appid": 212500,
+        "name": "The Lord of the Rings Online™",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 6, 2012"
+        },
+        "recommendations": {
+          "total": 170
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:71948367731da7023d967ff4ef8ca1edd4550943648f7d381cc3c0bd346a808c"
+}

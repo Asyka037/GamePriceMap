@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1963610,
+  "fetchedAt": "2026-07-22T12:48:04.792Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1963610&cc=us&l=english",
+  "responseDigest": "sha256:1030917079245e2168ad631782d203cc78a41acc8c2ce841ff3feadbe28186c7",
+  "payload": {
+    "1963610": {
+      "success": true,
+      "data": {
+        "steam_appid": 1963610,
+        "name": "Road to Vostok",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8251
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f6ab46d769e980239dd7951a0b287df8a348ab04fe468603c71c414775e76cde"
+}

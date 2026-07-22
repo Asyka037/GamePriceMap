@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2536520,
+  "fetchedAt": "2026-07-22T12:47:34.612Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2536520&cc=us&l=english",
+  "responseDigest": "sha256:b3ac7fd6945ad75c03b08be692372aed3f7ad3b109c417f4e699a744b836f8f2",
+  "payload": {
+    "2536520": {
+      "success": true,
+      "data": {
+        "steam_appid": 2536520,
+        "name": "Diablo II: Resurrected – Infernal Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5456
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:022f623dc17112fc0156ebedfec0e14546b082ee7ccb76e175dfc1a31fab9f00"
+}

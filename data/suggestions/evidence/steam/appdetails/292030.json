@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 292030,
+  "fetchedAt": "2026-07-22T12:48:24.289Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=292030&cc=us&l=english",
+  "responseDigest": "sha256:22e6f87cf44bf89f88b039f520c27fb8cca55e9990028740f992a2e5be9d6dd7",
+  "payload": {
+    "292030": {
+      "success": true,
+      "data": {
+        "steam_appid": 292030,
+        "name": "The Witcher 3: Wild Hunt",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 18, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 824165
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:77abc65caa23a3c76a4309f9c39b9ac244a4c0b684c7581d5f417bb026843d48"
+}

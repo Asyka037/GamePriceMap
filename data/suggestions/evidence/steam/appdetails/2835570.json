@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2835570,
+  "fetchedAt": "2026-07-22T12:48:19.291Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2835570&cc=us&l=english",
+  "responseDigest": "sha256:c7b7a600739483e24c35b54d9e05644eeb7f8248a75ace3976a472b5fa56ae41",
+  "payload": {
+    "2835570": {
+      "success": true,
+      "data": {
+        "steam_appid": 2835570,
+        "name": "Buckshot Roulette",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 4, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 107080
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:05b0c68b6215736e9c7fac1e41d31e3d3a8645ce63ee1d99681a14df0732ec37"
+}

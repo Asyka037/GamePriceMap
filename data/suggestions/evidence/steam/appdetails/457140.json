@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 457140,
+  "fetchedAt": "2026-07-22T12:47:35.878Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=457140&cc=us&l=english",
+  "responseDigest": "sha256:33889caa9d9d0f2bd450a1529037a98406609c1118e4d2d98f8b3b9e1aceba8c",
+  "payload": {
+    "457140": {
+      "success": true,
+      "data": {
+        "steam_appid": 457140,
+        "name": "Oxygen Not Included",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 30, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 134274
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e3070b6aa75cf924151504fe54d388e6199502727cd7e76ca32fb41839aaef6b"
+}

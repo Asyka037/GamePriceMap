@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2336880,
+  "fetchedAt": "2026-07-22T12:48:00.957Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2336880&cc=us&l=english",
+  "responseDigest": "sha256:f0c9c33f97d627c35199412399cd860e506d959615f876fc8773fac93aca9d6f",
+  "payload": {
+    "2336880": {
+      "success": true,
+      "data": {
+        "steam_appid": 2336880,
+        "name": "Destiny 2: The Final Shape",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 199,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 5425
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:49b95fda50053b3c44dba2d2e004702e23ae0cf5c022f4ce4022e24093033f90"
+}

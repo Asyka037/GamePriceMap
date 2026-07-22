@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1593500,
+  "fetchedAt": "2026-07-22T12:48:26.799Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1593500&cc=us&l=english",
+  "responseDigest": "sha256:372787f0c64108465c3ae13165cda77ea5a90412adef024d909058246e7cb9f5",
+  "payload": {
+    "1593500": {
+      "success": true,
+      "data": {
+        "steam_appid": 1593500,
+        "name": "God of War",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 14, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 128241
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b2c539243b1a898bcc9deb759ecba75e18bcf38d5b752dca2c5f3e305815cbd5"
+}

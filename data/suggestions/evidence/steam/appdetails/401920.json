@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 401920,
+  "fetchedAt": "2026-07-22T12:47:45.934Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=401920&cc=us&l=english",
+  "responseDigest": "sha256:ef4bb8bc4ad124c08c59d75c744781322777f231ca645ac7eebcf568c2c6a6dc",
+  "payload": {
+    "401920": {
+      "success": true,
+      "data": {
+        "steam_appid": 401920,
+        "name": "The Binding of Isaac: Afterbirth",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 30, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1099,
+          "final": 1099,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7502
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b481cc0a325443ae327b9746f8121738209742dbaba946f9ba5b05df5e7422c4"
+}

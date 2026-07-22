@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4496660,
+  "fetchedAt": "2026-07-22T12:48:21.812Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4496660&cc=us&l=english",
+  "responseDigest": "sha256:58f56eacd53d68906e69426bdc6fca7fbd5d6841e4d32939e263746bb932cf34",
+  "payload": {
+    "4496660": {
+      "success": true,
+      "data": {
+        "steam_appid": 4496660,
+        "name": "Assassin's Creed Black Flag Resynced - Map Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e63706b6c3b2f3d0241cd101827ada632cf91f29ca91a58017a99c394a0271af"
+}
