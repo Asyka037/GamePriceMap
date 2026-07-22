@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import SectionHead from '../components/SectionHead.astro';
 import RegionalGameCard from '../components/RegionalGameCard.astro';
 import StoreMark from '../components/StoreMark.astro';
+import DealRows from '../components/DealRows.astro';
 import { catalog, gameBundle, feed, calendar } from '../lib/data.mjs';
 import { regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, bestPriceNow, primaryRegionalSource, popularRegionalCards, usRow, overallAtl, isLive, fmtUsd } from '../lib/derive.mjs';
 
@@ -16,17 +17,18 @@ const showcase = ['hollow-knight-silksong', 'elden-ring', 'stardew-valley', 'cyb
   .map((b: any) => {
     const st = usRow(b.steam);
     const es = usRow(b.eshop);
+    const xb = usRow(b.xbox);
     const ps = usRow(b.psn);
     const regionalSource = primaryRegionalSource(b);
     const cheapestRegion = regionalSource?.snapshot.regions?.[0];
     const atl = overallAtl(b.history);
     const best = bestPriceNow(b);
-    const deal = [st, es, ps].filter((r) => r?.discountPct).sort((a, b2) => b2!.discountPct - a!.discountPct)[0];
+    const deal = [st, es, xb, ps].filter((r) => r?.discountPct).sort((a, b2) => b2!.discountPct - a!.discountPct)[0];
     return {
       slug: b.slug,
       name: b.game.title,
       cover: b.meta?.headerImage ?? '',
-      plat: [st && `Steam ${fmtUsd(st.usd)}`, es && `eShop ${fmtUsd(es.usd)}`, ps && `PSN ${fmtUsd(ps.usd)}`].filter(Boolean).join(' · ') || 'PC',
+      plat: [st && `Steam ${fmtUsd(st.usd)}`, es && `eShop ${fmtUsd(es.usd)}`, xb && `Xbox ${fmtUsd(xb.usd)}`, ps && `PSN ${fmtUsd(ps.usd)}`].filter(Boolean).join(' · ') || 'PC',
       region: cheapestRegion ? `${regionalSource.label} ${cheapestRegion.cc} ≈ ${fmtUsd(cheapestRegion.usd)}` : '—',
       deal: deal ? `−${deal.discountPct}% right now` : 'No discount right now',
       atl: !!(best && atl && best.usd <= atl.usd + 0.001),
@@ -36,14 +38,24 @@ const showcase = ['hollow-knight-silksong', 'elden-ring', 'stardew-valley', 'cyb
 const regionRows = regionGapBoard(bundles, 3);
 const atlRows = atlBoard(bundles, 3);
 const hotRows = hotDealsBoard(bundles, 3);
-const dealChannelLabels: Record<string, string> = { steam: 'Steam', eshop: 'eShop', psn: 'PSN' };
+const dealChannelLabels: Record<string, string> = { steam: 'Steam', eshop: 'eShop', xbox: 'Xbox', psn: 'PSN' };
 const steamRegionalPopular = popularRegionalCards(bundles, 'steam', 4);
 const eshopRegionalPopular = popularRegionalCards(bundles, 'eshop', 4, steamRegionalPopular.map((card) => card.slug));
 
-const atlGrid = trackedDeals(bundles, 'steam').filter((d) => d.isAtl).slice(0, 8);
-const endingSoon = [...trackedDeals(bundles, 'steam'), ...trackedDeals(bundles, 'eshop')]
-  .filter((d) => d.saleEndsAt)
-  .sort((a, b) => a.saleEndsAt!.localeCompare(b.saleEndsAt!))
+const publicDealChannels = ['steam', 'eshop', 'xbox', 'psn'];
+const allTrackedDeals = publicDealChannels.flatMap((channel) => trackedDeals(bundles, channel));
+const uniqueBySlug = (rows: any[]) => {
+  const unique = new Map<string, any>();
+  for (const row of rows) if (!unique.has(row.slug)) unique.set(row.slug, row);
+  return [...unique.values()];
+};
+const atlGrid = uniqueBySlug(allTrackedDeals
+  .filter((deal) => deal.isAtl)
+  .sort((a, b) => b.pct - a.pct || a.usd - b.usd))
+  .slice(0, 8);
+const endingSoon = uniqueBySlug(allTrackedDeals
+  .filter((deal) => deal.saleEndsAt)
+  .sort((a, b) => a.saleEndsAt.localeCompare(b.saleEndsAt) || b.pct - a.pct))
   .slice(0, 4);
 const freeNow = feed('free-games').items.filter((i: any) => i.status === 'free-now' && isLive(i.endsAt)).slice(0, 2);
 const cal = calendar();
@@ -51,6 +63,7 @@ const nowMonth = new Date().toISOString().slice(0, 7);
 const currentMonth = Object.keys(cal.months).find((m) => m >= nowMonth) ?? null;
 const today = new Date().toISOString().slice(0, 10);
 const bundleBySlug = new Map(bundles.map((bundle: any) => [bundle.slug, bundle]));
+const releasePlatformLabels: Record<string, string> = { pc: 'PC', switch: 'Switch', xbox: 'Xbox', psn: 'PlayStation' };
 const upcoming = (currentMonth ? cal.months[currentMonth] : [])
   .filter((entry: any) => entry.date && entry.date >= today)
   .slice(0, 4)
@@ -76,7 +89,7 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : [])
     <div class="wrap hero-grid">
       <div class="hero-left">
         <h1 class="pixel-title">EVERY DEAL.<br>ONE TRACKER.</h1>
-        <p class="lede2">Type any game — see its cheapest store, cheapest region and current discount. Live, across Steam and Nintendo eShop{hasPsnPilot ? ', and PlayStation Store' : ''}.</p>
+        <p class="lede2">Type any game — see its cheapest store, cheapest region and current discount. Live, across Steam, Nintendo eShop and Xbox{hasPsnPilot ? ', plus PlayStation Store' : ''}.</p>
 
         <div class="hero-search">
           <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
@@ -132,13 +145,12 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : [])
           <div class="board-head bh-gold">
             <svg viewBox="0 0 24 24" fill="none" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
             AT ALL-TIME LOW
-            <a class="bh-more" href="/steam/deals">MORE →</a>
           </div>
           {atlRows.map((r, i) => (
             <a class="board-row" href={`/game/${r.slug}`}>
               <span class:list={['b-rank', { first: i === 0 }]}>{i + 1}</span>
               <span class="b-name">{r.title}</span>
-              <span class="b-val">{fmtUsd(r.usd)}</span>
+              <span class="b-val">{fmtUsd(r.usd)} · {dealChannelLabels[r.channel] ?? r.channel}</span>
             </a>
           ))}
         </div>
@@ -147,7 +159,6 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : [])
           <div class="board-head bh-red">
             <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
             HOTTEST DEALS
-            <a class="bh-more" href="/steam/deals">MORE →</a>
           </div>
           {hotRows.map((r, i) => (
             <a class="board-row" href={`/game/${r.slug}`}>
@@ -212,7 +223,7 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : [])
             </div>
             <div class="card-body">
               <div class="title">{d.title}</div>
-              <div class="meta">Steam{d.reviewPercent != null && <span class="review-pos">{d.reviewPercent}% positive</span>}</div>
+              <div class="meta">{dealChannelLabels[d.channel] ?? d.channel}{d.reviewPercent != null && <span class="review-pos">{d.reviewPercent}% positive</span>}</div>
               <div class="price-row">
                 <span class="chip-off">−{d.pct}%</span>
                 {d.listUsd != null && <span class="price-old">{fmtUsd(d.listUsd)}</span>}
@@ -227,27 +238,8 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : [])
 
   {endingSoon.length > 0 && (
     <section class="section wrap">
-      <SectionHead tone="red" title="Ending soon" moreHref="/switch/deals" moreText="All deals →" />
-      <div class="row-list">
-        {endingSoon.map((d) => (
-          <a class="deal-row" href={`/game/${d.slug}`}>
-            <div class="thumb">{d.headerImage && <img src={d.headerImage} alt={d.title} loading="lazy" />}</div>
-            <div class="info">
-              <div class="title">{d.title}</div>
-              <div class="sub">{d.reviewPercent != null && <span class="review-pos">{d.reviewPercent}% positive</span>}{d.isAtl && <span class="badge-atl">ATL</span>}</div>
-            </div>
-            <span class="ends">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              {d.saleEndsAt!.slice(0, 10)}
-            </span>
-            <div class="pricing">
-              <span class="chip-off">−{d.pct}%</span>
-              {d.listUsd != null && <span class="price-old">{fmtUsd(d.listUsd)}</span>}
-              <span class="price-now mono">{fmtUsd(d.usd)}</span>
-            </div>
-          </a>
-        ))}
-      </div>
+      <SectionHead tone="red" title="Ending soon" />
+      <DealRows deals={endingSoon} />
     </section>
   )}
 
@@ -272,25 +264,30 @@ const upcoming = (currentMonth ? cal.months[currentMonth] : [])
     <section class="section wrap">
       <SectionHead tone="violet" title="Coming this month" moreHref="/new-releases" moreText="Full calendar →" />
       <div class="release-strip">
-        {upcoming.map((e: any) => (
-          <a
-            class="release-card"
-            href={e.slugIfTracked ? `/game/${e.slugIfTracked}` : e.url}
-            rel={e.slugIfTracked ? undefined : 'nofollow noopener'}
-            target={e.slugIfTracked ? undefined : '_blank'}
-          >
-            <div class="art">
-              {e.image
-                ? <img src={e.image} alt="" loading="lazy" />
-                : <span>{e.title.trim().split(/\s+/).slice(0, 2).map((w: string) => w[0]).join('').toUpperCase()}</span>}
-            </div>
-            <div class="body">
-              <div class="date">{e.date}</div>
-              <div class="title">{e.title}</div>
-              <div class="plats">{e.platforms.join(' · ')}</div>
-            </div>
-          </a>
-        ))}
+        {upcoming.map((e: any) => {
+          const href = e.slugIfTracked ? `/game/${e.slugIfTracked}` : e.urls?.[e.platforms[0]];
+          const external = href?.startsWith('https://');
+          return (
+            <article class="release-card">
+              <a class="release-card-main" href={href} rel={external ? 'nofollow noopener' : undefined} target={external ? '_blank' : undefined}>
+                <div class="art">
+                  {e.image
+                    ? <img src={e.image} alt="" loading="lazy" />
+                    : <span>{e.title.trim().split(/\s+/).slice(0, 2).map((w: string) => w[0]).join('').toUpperCase()}</span>}
+                </div>
+                <div class="body">
+                  <div class="date">{e.date}</div>
+                  <div class="title">{e.title}</div>
+                </div>
+              </a>
+              <nav class="release-card-platforms" aria-label={`${e.title} official store links`}>
+                {e.platforms.map((platform: string) => (
+                  <a href={e.urls[platform]} rel="nofollow noopener" target="_blank">{releasePlatformLabels[platform] ?? platform}</a>
+                ))}
+              </nav>
+            </article>
+          );
+        })}
       </div>
     </section>
   )}

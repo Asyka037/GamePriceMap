@@ -4,10 +4,13 @@ import { fmtUsd } from '../lib/derive.mjs';
 interface Deal {
   slug: string; title: string; usd: number; listUsd: number | null; pct: number;
   saleEndsAt?: string | null; headerImage?: string | null; reviewPercent?: number | null;
-  isAtl?: boolean;
+  isAtl?: boolean; channel?: string;
 }
-interface Props { deals: Deal[]; storeLabel: string }
-const { deals, storeLabel } = Astro.props;
+interface Props { deals: Deal[]; storeLabel?: string | null }
+const { deals, storeLabel = null } = Astro.props;
+const channelLabels: Record<string, string> = {
+  steam: 'Steam', eshop: 'Nintendo eShop', xbox: 'Xbox Store', psn: 'PlayStation Store',
+};
 ---
 <div class="row-list">
   {deals.map((d) => (
@@ -18,7 +21,7 @@ const { deals, storeLabel } = Astro.props;
       <div class="info">
         <div class="title">{d.title}</div>
         <div class="sub">
-          {storeLabel}
+          {storeLabel ?? channelLabels[d.channel ?? ''] ?? d.channel}
           {d.reviewPercent != null && <span class="review-pos">{d.reviewPercent}% positive</span>}
           {d.isAtl && <span class="badge-atl">ATL</span>}
         </div>

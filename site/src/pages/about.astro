@@ -1,11 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import NoteBox from '../components/NoteBox.astro';
-import { catalog } from '../lib/data.mjs';
+import { calendar, catalog } from '../lib/data.mjs';
 
 const gameCount = catalog().length;
 const hasXboxPilot = catalog().some((g: any) => g.xboxBigId);
 const hasPsnPilot = catalog().some((g: any) => g.psnProductId);
+const hasPsnReleases = Object.values(calendar().months ?? {})
+  .some((items: any) => items.some((item: any) => item.platforms?.includes('psn')));
 ---
 <Layout
   title="About GamePriceMap — data sources, update cadence & policies"
@@ -28,9 +30,9 @@ const hasPsnPilot = catalog().some((g: any) => g.psnProductId);
           {hasXboxPilot && <tr><td style="font-weight:800;">Xbox Store prices</td><td>Microsoft Store display catalog (US pilot, verified mappings only)</td><td class="mono">weekly</td></tr>}
           {hasPsnPilot && <tr><td style="font-weight:800;">PlayStation Store prices</td><td>Official PlayStation Store product pages (US pilot, verified standard-edition mappings only)</td><td class="mono">weekly</td></tr>}
           <tr><td style="font-weight:800;">Multi-store PC deals</td><td>CheapShark (Steam, GOG, Fanatical, GMG, Humble …)</td><td class="mono">daily</td></tr>
-          <tr><td style="font-weight:800;">Historical lows</td><td>CheapShark records + Nintendo eShop index + our own tracking since Jul 2026</td><td class="mono">daily</td></tr>
+          <tr><td style="font-weight:800;">Historical lows</td><td>CheapShark records + Nintendo eShop index + our own Steam and eShop{hasXboxPilot ? ', Xbox' : ''}{hasPsnPilot ? ', PlayStation' : ''} observations since Jul 2026</td><td class="mono">daily / weekly</td></tr>
           <tr><td style="font-weight:800;">Free games</td><td>Epic Games Store promotions + Steam 100% discounts</td><td class="mono">daily</td></tr>
-          <tr><td style="font-weight:800;">Release calendar</td><td>Nintendo eShop listings + Steam coming-soon</td><td class="mono">weekly</td></tr>
+          <tr><td style="font-weight:800;">Release calendar</td><td>Official Nintendo eShop, Steam and Microsoft Store listings{hasPsnReleases ? ', plus PlayStation Store US' : ''}</td><td class="mono">weekly</td></tr>
           <tr><td style="font-weight:800;">Exchange rates</td><td>ExchangeRate-API (USD base)</td><td class="mono">daily</td></tr>
         </tbody>
       </table>

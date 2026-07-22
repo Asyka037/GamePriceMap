@@ -60,8 +60,53 @@ function currentAvailability(a, now) {
   if (!a?.Actions?.includes('Purchase')) return false;
   const start = Date.parse(a.Conditions?.StartDate ?? '');
   const end = Date.parse(a.Conditions?.EndDate ?? '');
-  if (Number.isFinite(start) && start > now) return false;
-  if (Number.isFinite(end) && end <= now) return false;
+  return Number.isFinite(now)
+    && Number.isFinite(start)
+    && Number.isFinite(end)
+    && end > start
+    && start <= now
+    && now < end;
+}
+
+function exactKeys(value, expected) {
+  return value && typeof value === 'object' && !Array.isArray(value)
+    && Object.keys(value).toSorted().join('\0') === expected.join('\0');
+}
+
+function knownPublicConditions(conditions) {
+  if (!exactKeys(conditions, ['ClientConditions', 'EndDate', 'ResourceSetIds', 'StartDate'])) return false;
+  if (!Array.isArray(conditions.ResourceSetIds)
+    || conditions.ResourceSetIds.length !== 1
+    || conditions.ResourceSetIds[0] !== '1') return false;
+  const client = conditions.ClientConditions;
+  if (!exactKeys(client, ['AllowedPlatforms'])
+    || !Array.isArray(client.AllowedPlatforms)
+    || client.AllowedPlatforms.length < 1
+    || client.AllowedPlatforms.length > 3) return false;
+  const seen = new Set();
+  for (const platform of client.AllowedPlatforms) {
+    if (!exactKeys(platform, ['MaxVersion', 'MinVersion', 'PlatformName'])
+      || !Number.isSafeInteger(platform.MinVersion)
+      || !Number.isSafeInteger(platform.MaxVersion)
+      || platform.MinVersion < 0
+      || platform.MaxVersion < platform.MinVersion
+      || !['Windows.8828080', 'Windows.Desktop', 'Windows.Xbox'].includes(platform.PlatformName)
+      || seen.has(platform.PlatformName)) return false;
+    seen.add(platform.PlatformName);
+  }
+  return seen.has('Windows.Xbox');
+}
+
+export function publicPurchaseAvailability(availability, now) {
+  if (!currentAvailability(availability, now)) return false;
+  if (!Array.isArray(availability.Actions)
+    || new Set(availability.Actions).size !== availability.Actions.length
+    || availability.Actions.some((action) => ![
+      'Browse', 'Curate', 'Details', 'Fulfill', 'Gift', 'Purchase', 'Redeem',
+    ].includes(action))) return false;
+  if (!knownPublicConditions(availability.Conditions)) return false;
+  if (!Array.isArray(availability?.OrderManagementData?.GrantedEntitlementKeys)
+    || availability.OrderManagementData.GrantedEntitlementKeys.length !== 0) return false;
   return true;
 }
 
@@ -89,7 +134,7 @@ export function parseXboxProduct(body, { bigId, expectedTitle, edition = 'standa
     if (sku?.SkuType !== 'full' || sku?.Properties?.IsTrial || sku?.Properties?.IsBundle) continue;
     if (!exactXboxTitle(skuTitle, expectedTitle)) continue;
     for (const availability of display?.Availabilities ?? []) {
-      if (!currentAvailability(availability, now)) continue;
+      if (!publicPurchaseAvailability(availability, now)) continue;
       const price = availability?.OrderManagementData?.Price;
       const amount = Number(price?.ListPrice);
       const msrp = Number(price?.MSRP);
@@ -107,9 +152,9 @@ export function parseXboxProduct(body, { bigId, expectedTitle, edition = 'standa
       });
     }
   }
-  if (offers.length === 0) return null;
-  offers.sort((a, b) => a.amount - b.amount || String(a.skuId).localeCompare(String(b.skuId)));
-  const best = offers[0];
+  const uniqueOffers = [...new Map(offers.map((offer) => [JSON.stringify(offer), offer])).values()];
+  if (uniqueOffers.length !== 1) return null;
+  const [best] = uniqueOffers;
   return {
     matchedTitle: productTitle,
     skuId: best.skuId,

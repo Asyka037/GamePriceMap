@@ -44,3 +44,24 @@ test('product parser fails closed on wrong title, edition, expired or non-Game p
   app.Products[0].ProductKind = 'Application';
   assert.equal(parseXboxProduct(app, mapping), null);
 });
+
+test('product parser rejects missing, malformed or reversed public-offer validity dates', () => {
+  const mapping = { bigId: '9P3J32CTXLRZ', expectedTitle: 'Elden Ring', edition: 'standard' };
+  const now = Date.parse('2026-07-12T00:00:00Z');
+  for (const mutate of [
+    (conditions) => { delete conditions.StartDate; },
+    (conditions) => { delete conditions.EndDate; },
+    (conditions) => { conditions.StartDate = 'not-a-date'; },
+    (conditions) => { conditions.EndDate = 'not-a-date'; },
+    (conditions) => {
+      conditions.StartDate = '2026-07-20T00:00:00Z';
+      conditions.EndDate = '2026-07-19T00:00:00Z';
+    },
+  ]) {
+    const drifted = structuredClone(product);
+    const conditions = drifted.Products[0].DisplaySkuAvailabilities[0].Availabilities[0].Conditions;
+    mutate(conditions);
+    assert.equal(parseXboxProduct(drifted, mapping, now), null);
+  }
+  assert.equal(parseXboxProduct(product, mapping, Number.NaN), null);
+});

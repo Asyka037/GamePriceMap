@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   fetchJson,
   fetchText,
+  fetchTextViaCurl,
   requestBudgetFor,
   requestsMade,
   resetHostState,
@@ -96,4 +97,43 @@ test('fetchText returns text and the final URL after redirects', async () => {
   const { text, finalUrl } = await fetchText('https://e.example/page', { label: 't' });
   assert.equal(text, '<html>hi</html>');
   assert.equal(finalUrl, 'https://e.example/page');
+});
+
+test('curl HTML transport shares request accounting and returns exact metadata', async () => {
+  const calls = [];
+  const result = await fetchTextViaCurl('https://www.microsoft.com/en-us/example', {
+    label: 'curl fixture',
+    attempts: 1,
+    execFileImpl: async (binary, args, options) => {
+      calls.push({ binary, args, options });
+      return {
+        stdout: '<html>official</html>\n__GPM_CURL_META__200\thttps://www.microsoft.com/en-us/example\t',
+        stderr: '',
+      };
+    },
+  });
+  assert.deepEqual(result, {
+    text: '<html>official</html>',
+    finalUrl: 'https://www.microsoft.com/en-us/example',
+  });
+  assert.equal(requestsMade(), 1);
+  assert.equal(calls[0].binary, 'curl');
+  assert.ok(calls[0].args.includes('--max-time'));
+  assert.ok(calls[0].args.includes('--http1.1'));
+  assert.ok(!calls[0].args.includes('--location'), 'redirects stay visible to caller identity guards');
+});
+
+test('curl HTML transport fails permanent 4xx without retry', async () => {
+  let calls = 0;
+  await assert.rejects(fetchTextViaCurl('https://www.microsoft.com/en-us/missing', {
+    label: 'curl 404',
+    execFileImpl: async () => {
+      calls += 1;
+      return {
+        stdout: 'not found\n__GPM_CURL_META__404\thttps://www.microsoft.com/en-us/missing\t',
+        stderr: '',
+      };
+    },
+  }), (error) => error.status === 404 && error.permanent === true);
+  assert.equal(calls, 1);
 });

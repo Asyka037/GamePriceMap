@@ -406,7 +406,7 @@ img { display: block; max-width: 100%; }
 .release-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
 .release-card {
   background: var(--surface); border: 3px solid var(--ink);
-  border-radius: var(--radius-lg); overflow: hidden; cursor: pointer;
+  border-radius: var(--radius-lg); overflow: hidden;
   box-shadow: var(--shadow);
   transition: transform .15s, box-shadow .15s;
 }
@@ -425,6 +425,25 @@ img { display: block; max-width: 100%; }
 .release-card .date { font-family: var(--font-pixel); font-size: 8px; color: var(--red); }
 .release-card .title { font-weight: 800; font-size: 15px; color: var(--ink); margin-top: 5px; }
 .release-card .plats { font-size: 12.5px; font-weight: 600; color: var(--text-3); margin-top: 2px; }
+.release-card-main { display: block; }
+.release-card-platforms,
+.release-store-links { display: flex; flex-wrap: wrap; gap: 6px; }
+.release-card-platforms {
+  padding: 0 13px 12px;
+}
+.release-card-platforms a,
+.release-store-link {
+  display: inline-flex; align-items: center; min-height: 30px;
+  padding: 4px 7px; border: 2px solid var(--ink); border-radius: 4px;
+  background: var(--sky); color: var(--ink);
+  font-family: var(--font-pixel); font-size: 7px; line-height: 1.2;
+}
+.release-card-platforms a:hover,
+.release-store-link:hover { background: var(--gold-bg); }
+.release-calendar-row { cursor: default; }
+.release-row-main {
+  display: flex; align-items: center; gap: 14px; min-width: 0; flex: 1;
+}
 
 /* ---------------- footer ---------------- */
 .site-footer { margin-top: 60px; border-top: 4px solid var(--ink); background: var(--ink); color: #EFEAFB; }
@@ -1024,6 +1043,15 @@ img { display: block; max-width: 100%; }
     grid-column: 1 / -1; justify-content: flex-end; min-width: 0;
     padding-top: 6px; border-top: 2px dashed #E5DDC8;
   }
+  .release-calendar-row { display: grid; grid-template-columns: 72px minmax(0, 1fr); }
+  .release-calendar-row .release-row-main {
+    grid-column: 1 / -1; display: grid;
+    grid-template-columns: 72px minmax(0, 1fr); gap: 10px; align-items: center;
+  }
+  .release-calendar-row .release-row-main .thumb { grid-column: 1; }
+  .release-calendar-row .release-row-main .info { grid-column: 2; }
+  .release-calendar-row .release-store-links { grid-column: 2; }
+  .release-calendar-row .release-row-date { grid-column: 2; }
   .stat-badges { gap: 10px; }
   .board-stack { grid-template-columns: 1fr; }
   .hero-toggle { position: static; justify-content: flex-end; margin-bottom: 14px; }

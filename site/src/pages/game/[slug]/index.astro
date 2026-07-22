@@ -25,7 +25,9 @@ const storeRows = [
   { channel: 'xbox', store: 'Xbox Store', dot: 'var(--teal)', platform: 'Xbox', row: usRow(bundle.xbox), atl: atlFor(bundle.history, 'xbox'), url: game.xboxBigId ? `https://www.microsoft.com/store/productId/${game.xboxBigId}` : null },
   { channel: 'psn', store: 'PlayStation Store', dot: '#006fcd', platform: playStationPlatform, row: usRow(bundle.psn), atl: atlFor(bundle.history, 'psn'), url: game.psnProductId ? `https://store.playstation.com/en-us/product/${encodeURIComponent(game.psnProductId)}` : null },
 ].filter((r) => r.row);
-const structuredOfferRows = storeRows.filter((row) => row.channel !== 'xbox');
+// Every row has already passed its channel's unrestricted public-purchase
+// guard. Membership/trial/license annotations never enter these snapshots.
+const structuredOfferRows = storeRows;
 const cheapest = structuredOfferRows.length ? Math.min(...structuredOfferRows.map((r) => r.row!.usd)) : null;
 const bestFlags = bestPriceFlags(storeRows.map((r) => r.row!.usd));
 const visibleHistory = visiblePriceHistory(bundle.history);

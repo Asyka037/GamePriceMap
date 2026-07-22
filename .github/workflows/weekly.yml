@@ -35,6 +35,12 @@ jobs:
       - name: Scrape Xbox US POC (approved mappings only)
         run: npm run scrape:xbox
 
+      - name: Scrape Xbox US release calendar
+        run: npm run scrape:xbox-calendar
+
+      - name: Merge console release caches into public calendar
+        run: npm run merge:console-calendar
+
       - name: Scrape curated Steam editions and add-ons
         run: npm run scrape:steam-offers
 

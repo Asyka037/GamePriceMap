@@ -26,6 +26,7 @@ import { validPsnProductId } from './lib/psn.mjs';
 import { isAwaitingFirstFullRun } from './lib/sourcehealth.mjs';
 import { STEAM_REGIONS } from './lib/steam.mjs';
 import { hasNativeUsObservation, isNintendoBaseGameNsuid, minimumApplicableRegionCount } from './lib/validation.mjs';
+import { isXboxBaseGameCalendarTitle } from './lib/xbox-calendar.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
@@ -383,11 +384,162 @@ if (fs.existsSync(calPath)) {
     for (const e of list) {
       calendarEntries++;
       if (e.date && !e.date.startsWith(month)) fail(`calendar ${month} "${e.title}": date ${e.date} outside month`);
+      if (!Array.isArray(e.platforms) || e.platforms.length === 0 || new Set(e.platforms).size !== e.platforms.length) {
+        fail(`calendar ${month} "${e.title}": invalid platforms`);
+      }
+      if (!e.urls || typeof e.urls !== 'object' || Array.isArray(e.urls)) {
+        fail(`calendar ${month} "${e.title}": missing per-platform URLs`);
+      } else {
+        for (const platform of e.platforms ?? []) {
+          const url = e.urls[platform];
+          if (typeof url !== 'string' || !/^https:\/\//.test(url)) fail(`calendar ${month} "${e.title}": bad ${platform} URL`);
+        }
+      }
       if (typeof e.image === 'string' && /^https:\/\//.test(e.image)) calendarImages++;
     }
   }
   if (calendarEntries > 0 && calendarImages / calendarEntries < 0.8) {
     fail(`calendar: artwork coverage ${calendarImages}/${calendarEntries} below 80%`);
+  }
+}
+
+// Platform-specific release caches are sealed source artifacts. They are
+// optional until their first complete discovery run, but once present every
+// field must stay on the reviewed US storefront contract. The merged calendar
+// is intentionally validated separately above.
+const RELEASE_SOURCE_SPECS = {
+  'calendar-xbox-us': {
+    file: 'data/feeds/releases-xbox.json',
+    platform: 'xbox',
+    productIdentity(value) {
+      try {
+        const url = new URL(value);
+        const match = url.pathname.match(/^\/en-us\/p\/_\/([a-z0-9]{12})$/u);
+        if (url.origin !== 'https://www.microsoft.com'
+          || url.username || url.password || url.search || url.hash || !match) return null;
+        return match[1].toUpperCase();
+      } catch {
+        return null;
+      }
+    },
+    validImage(value) {
+      try {
+        const url = new URL(value);
+        return url.origin === 'https://store-images.s-microsoft.com'
+          && !url.username && !url.password && !url.hash
+          && url.pathname.startsWith('/image/');
+      } catch {
+        return false;
+      }
+    },
+    validTitle: isXboxBaseGameCalendarTitle,
+    mappedIdentity(game) { return game?.xboxBigId ?? null; },
+  },
+  'calendar-psn-us': {
+    file: 'data/feeds/releases-psn.json',
+    platform: 'psn',
+    productIdentity(value) {
+      try {
+        const url = new URL(value);
+        const match = url.pathname.match(/^\/en-us\/product\/([^/]+)$/u);
+        if (url.origin !== 'https://store.playstation.com'
+          || url.username || url.password || url.search || url.hash || !match) return null;
+        const productId = decodeURIComponent(match[1]);
+        return validPsnProductId(productId) && match[1] === encodeURIComponent(productId)
+          ? productId
+          : null;
+      } catch {
+        return null;
+      }
+    },
+    validImage(value) {
+      try {
+        const url = new URL(value);
+        return url.origin === 'https://image.api.playstation.com'
+          && !url.username && !url.password && !url.hash
+          && url.pathname !== '/';
+      } catch {
+        return false;
+      }
+    },
+    mappedIdentity(game) { return game?.psnProductId ?? null; },
+  },
+};
+const presentReleaseSources = new Map();
+const releaseTopLevelKeys = ['items', 'schemaVersion', 'source', 'updatedAt'];
+const releaseItemKeys = ['date', 'image', 'month', 'platform', 'slugIfTracked', 'title', 'url'];
+const exactKeys = (value, expected) => value && typeof value === 'object' && !Array.isArray(value)
+  && Object.keys(value).toSorted().join('\0') === expected.join('\0');
+const validIsoDay = (value) => {
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/u.test(value)) return false;
+  const milliseconds = Date.parse(`${value}T00:00:00.000Z`);
+  return Number.isFinite(milliseconds)
+    && new Date(milliseconds).toISOString().slice(0, 10) === value;
+};
+
+for (const [source, spec] of Object.entries(RELEASE_SOURCE_SPECS)) {
+  if (!fs.existsSync(path.join(ROOT, spec.file))) continue;
+  const doc = readJson(spec.file);
+  presentReleaseSources.set(source, { spec, doc });
+  if (!exactKeys(doc, releaseTopLevelKeys)) fail(`${spec.file}: top-level fields differ from the sealed release-source schema`);
+  if (doc.schemaVersion !== 1) fail(`${spec.file}: unsupported schemaVersion ${doc.schemaVersion}`);
+  if (doc.source !== source) fail(`${spec.file}: source must be ${source}`);
+  const updatedAtMs = typeof doc.updatedAt === 'string' ? Date.parse(doc.updatedAt) : NaN;
+  if (!Number.isFinite(updatedAtMs) || new Date(updatedAtMs).toISOString() !== doc.updatedAt) {
+    fail(`${spec.file}: updatedAt must be an exact ISO timestamp`);
+  }
+  if (!Array.isArray(doc.items) || doc.items.length === 0) {
+    fail(`${spec.file}: items must be a non-empty array`);
+    continue;
+  }
+
+  const sourceDay = Number.isFinite(updatedAtMs)
+    ? Date.parse(`${doc.updatedAt.slice(0, 10)}T00:00:00.000Z`)
+    : NaN;
+  const seenUrls = new Set();
+  const sortKeys = [];
+  for (const [index, item] of doc.items.entries()) {
+    const label = `${spec.file} item ${index}`;
+    if (!exactKeys(item, releaseItemKeys)) {
+      fail(`${label}: fields differ from the sealed release item schema`);
+      continue;
+    }
+    if (typeof item.title !== 'string' || !item.title || item.title !== item.title.trim() || item.title.length > 300) {
+      fail(`${label}: invalid title`);
+    }
+    if (spec.validTitle && !spec.validTitle(item.title)) fail(`${label}: title is not a base game`);
+    if (!validIsoDay(item.date) || item.month !== (typeof item.date === 'string' ? item.date.slice(0, 7) : null)) {
+      fail(`${label}: invalid date/month`);
+    } else if (Number.isFinite(sourceDay)) {
+      const releaseDay = Date.parse(`${item.date}T00:00:00.000Z`);
+      if (releaseDay < sourceDay || releaseDay > sourceDay + 180 * 86_400_000) {
+        fail(`${label}: date ${item.date} is outside the source's 180-day upcoming window`);
+      }
+    }
+    if (item.platform !== spec.platform) fail(`${label}: platform must be ${spec.platform}`);
+    const productIdentity = spec.productIdentity(item.url);
+    if (!productIdentity) fail(`${label}: URL is not an exact official ${spec.platform} US product URL`);
+    if (!spec.validImage(item.image)) fail(`${label}: image is not on the reviewed official ${spec.platform} image host`);
+    if (seenUrls.has(item.url)) fail(`${spec.file}: duplicate product URL ${item.url}`);
+    seenUrls.add(item.url);
+    if (item.slugIfTracked !== null) {
+      const game = typeof item.slugIfTracked === 'string' ? catalogBySlug.get(item.slugIfTracked) : null;
+      if (!game) fail(`${label}: slugIfTracked is not a catalog slug or null`);
+      else if (productIdentity !== spec.mappedIdentity(game)) {
+        fail(`${label}: product URL does not match ${item.slugIfTracked}'s reviewed ${spec.platform} mapping`);
+      }
+    }
+    sortKeys.push({
+      date: String(item.date ?? ''),
+      title: String(item.title ?? ''),
+      url: String(item.url ?? ''),
+    });
+  }
+  const sortedKeys = [...sortKeys].sort((a, b) => a.date.localeCompare(b.date)
+    || a.title.localeCompare(b.title)
+    || a.url.localeCompare(b.url));
+  if (JSON.stringify(sortKeys) !== JSON.stringify(sortedKeys)) {
+    fail(`${spec.file}: items are not sorted by date, title and URL`);
   }
 }
 
@@ -435,6 +587,14 @@ for (const [name, e] of Object.entries(sourceHealth.sources ?? {})) {
 }
 for (const required of ['steam-regional', 'eshop-regional', 'meta', ...(offerCatalog.offers?.length ? ['steam-offers'] : []), ...(xboxIds.size ? ['xbox-us'] : []), ...(psnProductIds.size ? ['psn-us'] : [])]) {
   if (!sourceHealth.sources?.[required]) fail(`source-health: missing required source ${required}`);
+}
+for (const [source, { spec, doc }] of presentReleaseSources) {
+  const entry = sourceHealth.sources?.[source];
+  if (!entry) {
+    fail(`source-health: missing required source ${source} for ${spec.file}`);
+  } else if (!entry.lastSuccessAt || Date.parse(entry.lastSuccessAt) < Date.parse(doc.updatedAt)) {
+    fail(`source-health: ${source} last success predates its sealed source cache`);
+  }
 }
 const metadataEligibleGames = catalog.games.filter((game) => Number.isInteger(game.steamAppId)
   || (game.nsuids?.americas && game.nintendoUsSlug));
@@ -495,6 +655,9 @@ const health = {
     'deals-stores': fs.existsSync(path.join(ROOT, 'data/feeds/deals-stores.json')) ? readJson('data/feeds/deals-stores.json').updatedAt : null,
     'free-games': fs.existsSync(freePath) ? readJson('data/feeds/free-games.json').updatedAt : null,
     calendar: fs.existsSync(calPath) ? readJson('data/feeds/calendar.json').updatedAt : null,
+    ...Object.fromEntries(Object.entries(RELEASE_SOURCE_SPECS)
+      .filter(([key, spec]) => fs.existsSync(path.join(ROOT, spec.file)) || sourceHealth.sources?.[key])
+      .map(([key]) => [key, sourceHealth.sources?.[key]?.lastSuccessAt ?? null])),
     // Meta fleet freshness = the weakest shard once shards exist (a fleet is
     // only as fresh as its most overdue slice); legacy full-run stamp before.
     meta: (() => {

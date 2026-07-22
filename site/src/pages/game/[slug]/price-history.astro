@@ -15,7 +15,7 @@ export function getStaticPaths() {
 const { slug } = Astro.params;
 const bundle = gameBundle(slug!);
 const { game } = bundle;
-const atlLabels: Record<string, string> = { pc: 'PC (any store, US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)', 'psn-us': 'PlayStation Store US' };
+const atlLabels: Record<string, string> = { pc: 'PC (any store, US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)', 'xbox-us': 'Xbox Store US', 'psn-us': 'PlayStation Store US' };
 const seedLabels: Record<string, string> = {
   self: 'observed by our tracker',
   cheapshark: 'all-time record via CheapShark',
@@ -32,6 +32,7 @@ const health = sourceHealth().sources ?? {};
 const channelDefs = [
   { id: 'steam', label: 'Steam · US', color: 'var(--teal)', lineStyle: 'solid', dash: '', marker: 'square', source: sourceKeyFor('steam', game), tracked: !!bundle.steam },
   { id: 'eshop', label: 'eShop · US', color: 'var(--red)', lineStyle: 'dash', dash: '10 6', marker: 'circle', source: sourceKeyFor('eshop', game), tracked: !!bundle.eshop },
+  { id: 'xbox', label: 'Xbox · US', color: '#107c10', lineStyle: 'dashdot', dash: '14 5 3 5', marker: 'diamond', source: sourceKeyFor('xbox', game), tracked: !!bundle.xbox, fallbackSince: '2026-07-12' },
   { id: 'psn', label: 'PlayStation · US', color: '#006fcd', lineStyle: 'dashdot', dash: '12 5 3 5', marker: 'triangle', source: sourceKeyFor('psn', game), tracked: !!bundle.psn, fallbackSince: '2026-07-18' },
 ].filter((channel) => channel.tracked);
 
@@ -51,6 +52,29 @@ const channels = channelDefs.map((channel) => {
     checkedAt: health[channel.source]?.lastSuccessAt?.slice(0, 10) ?? null,
   };
 });
+
+function readableList(labels: string[]) {
+  if (labels.length <= 1) return labels[0] ?? '';
+  if (labels.length === 2) return `${labels[0]} and ${labels[1]}`;
+  return `${labels.slice(0, -1).join(', ')}, and ${labels.at(-1)}`;
+}
+
+const cadenceNames: Record<string, string> = {
+  steam: 'Steam',
+  eshop: 'eShop',
+  xbox: 'Xbox',
+  psn: 'PlayStation',
+};
+const cadenceParts = [
+  { frequency: 'daily', ids: new Set(['steam', 'eshop']) },
+  { frequency: 'weekly', ids: new Set(['xbox', 'psn']) },
+].flatMap(({ frequency, ids }) => {
+  const labels = channels.filter((channel) => ids.has(channel.id)).map((channel) => cadenceNames[channel.id]);
+  return labels.length
+    ? [`${readableList(labels)} ${labels.length === 1 ? 'is' : 'are'} checked ${frequency}`]
+    : [];
+});
+const cadenceText = `${cadenceParts.join('; ')}.`;
 
 function seriesStatus(channel: typeof channels[number]) {
   if (channel.series.state === 'changes') return `${channel.series.dots.length} recorded price points`;
@@ -170,7 +194,9 @@ const chartDescription = channels.map((channel) => {
             <p class="trend-empty">Automatic tracking is active; the first US price observation has not been recorded yet.</p>
           )}
         </figure>
-        <p class="trend-note">Steam and eShop are checked daily; PlayStation is checked weekly. Flat segments mean later checks found no price change, and each line stops at that store’s last successful check.</p>
+        <p class="trend-note" data-trend-cadence={channels.map((channel) => channel.id).join(',')}>
+          {cadenceText} Flat segments mean later checks found no price change, and each line stops at that store’s last successful check.
+        </p>
       </div>
 
       <div class="detail-cols history-detail-cols">

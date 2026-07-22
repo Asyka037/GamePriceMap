@@ -9,7 +9,7 @@ const best = bestPriceNow(bundle);
 const atl = overallAtl(bundle.history);
 const bestRow = best ? usRow(bundle[best.channel]) : null;
 const storeLabels: Record<string, string> = {
-  steam: 'Steam', eshop: 'Nintendo eShop', psn: 'PlayStation Store',
+  steam: 'Steam', eshop: 'Nintendo eShop', xbox: 'Xbox Store', psn: 'PlayStation Store',
 };
 const platLabels: Record<string, string> = {
   pc: 'PC', switch: 'Switch', 'switch-2': 'Switch 2', ps4: 'PS4', ps5: 'PS5', xbox: 'Xbox', mobile: 'Mobile',

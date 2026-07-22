@@ -15,8 +15,8 @@
           "Availabilities": [
             {
               "Actions": ["Purchase", "Details"],
-              "Conditions": { "StartDate": "2026-01-01T00:00:00Z", "EndDate": "2026-07-20T00:00:00Z" },
-              "OrderManagementData": { "Price": { "CurrencyCode": "USD", "ListPrice": 41.99, "MSRP": 59.99 } }
+              "Conditions": { "ClientConditions": { "AllowedPlatforms": [{ "MinVersion": 0, "MaxVersion": 2147483647, "PlatformName": "Windows.Xbox" }] }, "EndDate": "2026-07-20T00:00:00Z", "ResourceSetIds": ["1"], "StartDate": "2026-01-01T00:00:00Z" },
+              "OrderManagementData": { "GrantedEntitlementKeys": [], "Price": { "CurrencyCode": "USD", "ListPrice": 41.99, "MSRP": 59.99 } }
             },
             {
               "Actions": ["License", "Details"],

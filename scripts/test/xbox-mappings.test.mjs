@@ -94,6 +94,47 @@ test('Xbox mapping candidate seals autosuggest, products, standard SKU, public U
   }), /expired/u);
 });
 
+test('Xbox public offer ignores entitlement and member-conditioned Purchase prices', () => {
+  const productsResponse = verifiedProduct();
+  const availabilities = productsResponse.Products[0].DisplaySkuAvailabilities[0].Availabilities;
+  const publicOffer = availabilities[0];
+
+  const entitlementOffer = structuredClone(publicOffer);
+  entitlementOffer.OrderManagementData.Price.ListPrice = 4.99;
+  entitlementOffer.OrderManagementData.GrantedEntitlementKeys = ['XboxGamePassUltimate'];
+  availabilities.push(entitlementOffer);
+
+  for (const signal of ['GamePass', 'RequiresSubscription', 'MembershipTier', 'XboxLiveGold']) {
+    const memberOffer = structuredClone(publicOffer);
+    memberOffer.OrderManagementData.Price.ListPrice = 3.99;
+    memberOffer.Conditions.ClientConditions = { eligibility: signal };
+    availabilities.push(memberOffer);
+  }
+
+  const parsed = parseXboxProduct(productsResponse, {
+    bigId: '9P3J32CTXLRZ', expectedTitle: 'Elden Ring', edition: 'standard',
+  }, NOW.valueOf());
+  assert.equal(parsed.row.amount, 41.99, 'only the unrestricted public Purchase price may win');
+});
+
+test('Xbox public offer deduplicates an identical response but rejects distinct public prices', () => {
+  const duplicateResponse = verifiedProduct();
+  const duplicateAvailabilities = duplicateResponse.Products[0].DisplaySkuAvailabilities[0].Availabilities;
+  duplicateAvailabilities.push(structuredClone(duplicateAvailabilities[0]));
+  assert.equal(parseXboxProduct(duplicateResponse, {
+    bigId: '9P3J32CTXLRZ', expectedTitle: 'Elden Ring', edition: 'standard',
+  }, NOW.valueOf()).row.amount, 41.99);
+
+  const ambiguousResponse = verifiedProduct();
+  const ambiguousAvailabilities = ambiguousResponse.Products[0].DisplaySkuAvailabilities[0].Availabilities;
+  const otherPublicOffer = structuredClone(ambiguousAvailabilities[0]);
+  otherPublicOffer.OrderManagementData.Price.ListPrice = 49.99;
+  ambiguousAvailabilities.push(otherPublicOffer);
+  assert.equal(parseXboxProduct(ambiguousResponse, {
+    bigId: '9P3J32CTXLRZ', expectedTitle: 'Elden Ring', edition: 'standard',
+  }, NOW.valueOf()), null, 'different unrestricted Purchase prices are ambiguous');
+});
+
 test('Xbox suggestion document binds the full stability ledger and rejects duplicate BigIDs', () => {
   const mapping = candidate();
   const document = createXboxSuggestionDocument({

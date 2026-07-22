@@ -16,6 +16,7 @@ import { parseSteamReleaseDate, isJunkComingSoonName, mergeCalendarEntries } fro
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'data', 'feeds', 'calendar.json');
+const PLATFORM_RELEASE_FILES = ['releases-xbox.json', 'releases-psn.json'];
 const STEAM_LIMIT = 25;
 
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'catalog.json'), 'utf8'));
@@ -23,6 +24,22 @@ const euNsuidToSlug = new Map(catalog.games.filter((g) => g.nsuids?.europe).map(
 const appIdToSlug = new Map(catalog.games.filter((g) => g.steamAppId).map((g) => [g.steamAppId, g.slug]));
 
 const entries = [];
+
+// Xbox/PlayStation discovery is intentionally separated from the daily fleet:
+// each source has its own request budget, cadence, fail-soft cache and health
+// key. Daily calendar assembly only consumes the last complete sealed cache.
+for (const file of PLATFORM_RELEASE_FILES) {
+  const releasePath = path.join(ROOT, 'data', 'feeds', file);
+  if (!fs.existsSync(releasePath)) continue;
+  try {
+    const source = JSON.parse(fs.readFileSync(releasePath, 'utf8'));
+    if (source.schemaVersion !== 1 || !Array.isArray(source.items)) throw new Error('unsupported release cache');
+    entries.push(...source.items);
+    console.log(`${file}: ${source.items.length} sealed entries`);
+  } catch (err) {
+    console.warn(`${file}: ignored invalid cache (${err.message})`);
+  }
+}
 
 // --- eShop EU upcoming ---
 try {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T02:42:40.081Z",
+  "updatedAt": "2026-07-22T04:44:35.886Z",
   "sources": {
     "steam-regional": {
       "lastAttemptAt": "2026-07-17T09:28:34.536Z",
@@ -14,8 +14,8 @@
       "note": "changed 7, unchanged 86, skipped 0, failed region requests 0, expected 93"
     },
     "xbox-us": {
-      "lastAttemptAt": "2026-07-22T02:42:40.081Z",
-      "lastSuccessAt": "2026-07-22T02:42:40.081Z",
+      "lastAttemptAt": "2026-07-22T04:44:35.886Z",
+      "lastSuccessAt": "2026-07-22T04:44:35.886Z",
       "consecutiveFailures": 0,
       "note": "changed 0, unchanged 26, failed products 0, failed requests 0, expected 26"
     },
@@ -126,6 +126,18 @@
       "lastSuccessAt": "2026-07-17T09:29:03.486Z",
       "consecutiveFailures": 0,
       "note": "changed 0, unchanged 1, skipped 0, failed region requests 0, expected 1"
+    },
+    "calendar-xbox-us": {
+      "lastAttemptAt": "2026-07-22T04:43:48.907Z",
+      "lastSuccessAt": "2026-07-22T04:43:48.907Z",
+      "consecutiveFailures": 0,
+      "note": "pages 3, category products 106, verified products 106, published 24, outside window 0, safe exclusions 82 (bundle_requires_manual_resolution=81, non_base_game_title=1)"
+    },
+    "calendar-psn-us": {
+      "lastAttemptAt": "2026-07-22T03:58:23.068Z",
+      "lastSuccessAt": null,
+      "consecutiveFailures": 3,
+      "note": "pages 5/5, category products 107, verified preorders 10/45, published 1, failed products 0, failed requests 6, skipped 35"
     }
   }
 }

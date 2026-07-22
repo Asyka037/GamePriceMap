@@ -1,7 +1,19 @@
 ---
+import { catalog } from '../lib/data.mjs';
+
 interface Props { updatedAt?: string | null }
 const { updatedAt = null } = Astro.props;
 const stamp = updatedAt ? new Date(updatedAt).toUTCString().replace(':00 GMT', ' UTC') : null;
+const games = catalog();
+const priceStores = [
+  'Steam',
+  'Nintendo eShop',
+  games.some((game: any) => game.xboxBigId) && 'Xbox',
+  games.some((game: any) => game.psnProductId) && 'PlayStation Store',
+].filter(Boolean);
+const priceStoreLabel = priceStores.length > 1
+  ? `${priceStores.slice(0, -1).join(', ')} and ${priceStores.at(-1)}`
+  : priceStores[0];
 ---
 <footer class="site-footer">
   <div class="wrap footer-inner">
@@ -11,9 +23,9 @@ const stamp = updatedAt ? new Date(updatedAt).toUTCString().replace(':00 GMT', '
         <span class="logo-word">Game<em>PriceMap</em></span>
       </div>
       <p class="footer-note">
-        Track game prices across Steam, Nintendo eShop and Xbox. Compare stores
-        and regions, explore verified price history, spot meaningful discounts,
-        and find free games and upcoming releases — all in one place.
+        Track verified public purchase prices across {priceStoreLabel}.
+        Compare stores and regions, explore price
+        history, spot meaningful discounts, and find upcoming releases.
       </p>
     </div>
     <div>
@@ -29,7 +41,7 @@ const stamp = updatedAt ? new Date(updatedAt).toUTCString().replace(':00 GMT', '
     </div>
     <div>
       <h4>Topics</h4>
-      <a href="/new-releases">PC &amp; Switch new releases</a>
+      <a href="/new-releases">All-platform new releases</a>
       <a href="/free-games">Epic &amp; Steam free games</a>
     </div>
     <div>
@@ -39,7 +51,7 @@ const stamp = updatedAt ? new Date(updatedAt).toUTCString().replace(':00 GMT', '
     </div>
   </div>
   <div class="wrap footer-bottom">
-    <span>© 2026 GamePriceMap — not affiliated with Valve or Nintendo</span>
+    <span>© 2026 GamePriceMap — not affiliated with the tracked stores</span>
     {stamp && <span>Data updated {stamp}</span>}
   </div>
 </footer>

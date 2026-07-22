@@ -41,8 +41,13 @@ function product(title, id, { action = 'Purchase', trial = false, bundle = false
       },
       Availabilities: [{
         Actions: [action],
-        Conditions: { StartDate: '2026-01-01T00:00:00Z', EndDate: '9998-12-30T00:00:00Z' },
-        OrderManagementData: { Price: { CurrencyCode: 'USD', ListPrice: 19.99, MSRP: 19.99 } },
+        Conditions: {
+          ClientConditions: { AllowedPlatforms: [{ MinVersion: 0, MaxVersion: 2147483647, PlatformName: 'Windows.Xbox' }] },
+          EndDate: '9998-12-30T00:00:00Z',
+          ResourceSetIds: ['1'],
+          StartDate: '2026-01-01T00:00:00Z',
+        },
+        OrderManagementData: { GrantedEntitlementKeys: [], Price: { CurrencyCode: 'USD', ListPrice: 19.99, MSRP: 19.99 } },
       }],
     }],
   };

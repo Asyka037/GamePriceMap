@@ -15,6 +15,11 @@
  *     thrown error has .budget = true so callers can distinguish it.
  */
 
+import { execFile as execFileCallback } from 'node:child_process';
+import { promisify } from 'node:util';
+
+const execFile = promisify(execFileCallback);
+
 export const USER_AGENT =
   'GamePriceMapBot/0.1 (+https://gamepricemap.com/about; contact: yiyi22331999@gmail.com)';
 
@@ -164,4 +169,102 @@ export function fetchText(url, { label = url, timeoutMs = 30000, attempts = 3, h
     { label, timeoutMs, attempts, headers: { ...HEADERS, Accept: 'text/html,application/xhtml+xml', ...headers } },
     async (res) => ({ text: await res.text(), finalUrl: res.url }),
   );
+}
+
+const CURL_META = '__GPM_CURL_META__';
+
+function safeCurlHeaders(headers) {
+  const args = [];
+  for (const [name, value] of Object.entries(headers)) {
+    if (/[^!#$%&'*+.^_`|~0-9A-Za-z-]/u.test(name)
+      || /[\r\n]/u.test(String(value))) throw new Error('unsafe HTTP header for curl transport');
+    args.push('--header', `${name}: ${value}`);
+  }
+  return args;
+}
+
+async function curlTextResponse(url, {
+  timeoutMs,
+  headers,
+  execFileImpl = execFile,
+}) {
+  const seconds = Math.max(1, Math.ceil(timeoutMs / 1000));
+  const marker = `\n${CURL_META}%{http_code}\t%{url_effective}\t%header{retry-after}`;
+  const { stdout } = await execFileImpl('curl', [
+    '--silent', '--show-error',
+    // Microsoft's storefront intermittently resets long HTTP/2 HTML streams;
+    // HTTP/1.1 is stable and still uses the same HTTPS endpoint.
+    '--http1.1',
+    '--connect-timeout', String(Math.min(seconds, 15)),
+    '--max-time', String(seconds),
+    ...safeCurlHeaders(headers),
+    '--write-out', marker,
+    url,
+  ], { encoding: 'utf8', maxBuffer: 4 * 1024 * 1024 });
+  const markerAt = stdout.lastIndexOf(`\n${CURL_META}`);
+  if (markerAt < 0) throw new Error('curl transport returned no response metadata');
+  const [statusText, finalUrl, retryAfter = ''] = stdout.slice(markerAt + CURL_META.length + 1).split('\t');
+  const status = Number(statusText);
+  if (!Number.isInteger(status) || status < 100 || status > 599 || !finalUrl) {
+    throw new Error('curl transport returned invalid response metadata');
+  }
+  return { status, finalUrl, retryAfter, text: stdout.slice(0, markerAt) };
+}
+
+/**
+ * HTML transport for official storefronts that stall Node/undici at the TLS
+ * edge but answer curl normally. It keeps the same budget, host pacing,
+ * 4xx/429 and retry policy as fetchText, and does not follow redirects so the
+ * caller can retain exact-final-URL identity guards.
+ */
+export async function fetchTextViaCurl(url, {
+  label = url,
+  timeoutMs = 45000,
+  attempts = 3,
+  headers = {},
+  execFileImpl = execFile,
+} = {}) {
+  const host = new URL(url).host;
+  const requestHeaders = { ...HEADERS, Accept: 'text/html,application/xhtml+xml', ...headers };
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    if (requestCount >= requestBudget) {
+      const error = new Error(`request budget exhausted (${requestBudget}) at ${label}`);
+      error.budget = true;
+      throw error;
+    }
+    await paceHost(host);
+    requestCount += 1;
+    try {
+      const response = await curlTextResponse(url, { timeoutMs, headers: requestHeaders, execFileImpl });
+      markHostRequest(host);
+      if (response.status < 200 || response.status >= 300) {
+        if (response.status === 429) penalizeHost(host);
+        const retryable = response.status === 429 || response.status === 408 || response.status >= 500;
+        const error = new Error(`HTTP ${response.status}${retryable ? '' : ' (permanent, not retried)'}`);
+        error.status = response.status;
+        if (!retryable) error.permanent = true;
+        else if (response.retryAfter) {
+          const seconds = Number(response.retryAfter);
+          const at = Date.parse(response.retryAfter);
+          error.retryAfterMs = Number.isFinite(seconds)
+            ? Math.min(Math.max(seconds, 0) * 1000, 120000)
+            : (Number.isFinite(at) ? Math.min(Math.max(at - nowFn(), 0), 120000) : null);
+        }
+        throw error;
+      }
+      return { text: response.text, finalUrl: response.finalUrl };
+    } catch (error) {
+      if (error?.code === 'ENOENT') error.permanent = true;
+      if (error.permanent || error.budget) {
+        console.warn(`  ${label}: ${error.message}`);
+        throw error;
+      }
+      const finalAttempt = attempt === attempts;
+      console.warn(`  ${label}: ${error.message}${finalAttempt ? '' : ', retrying...'}`);
+      if (finalAttempt) throw error;
+      const backoff = Math.min(2000 * 2 ** (attempt - 1), 60000);
+      const jittered = backoff * (0.7 + randomFn() * 0.6);
+      await waitFn(error.retryAfterMs ?? jittered);
+    }
+  }
 }

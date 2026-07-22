@@ -7,12 +7,13 @@ import { regionalPriceModel } from './regions.mjs';
 
 export const fmtUsd = (n) => (n == null ? null : `$${n.toFixed(2)}`);
 const AMBIGUOUS_DOLLAR_CURRENCIES = new Set(['ARS', 'AUD', 'CAD', 'MXN', 'NZD']);
-// Xbox is a deliberately narrow US pilot: its price may appear only in the
-// explicit multi-store comparison table on a game's overview page. Summary,
-// ranking, hero and history surfaces use this smaller channel set so a new
-// caller cannot accidentally create an Xbox listing through shared helpers.
-const SUMMARY_PRICE_CHANNELS = ['steam', 'eshop', 'psn'];
-const SUMMARY_ATL_KEYS = new Set(['pc', 'eshop-us', 'eshop-eu', 'psn-us']);
+// Reader-facing public cash prices. Xbox and PlayStation remain US-only (and
+// therefore stay out of regional-price comparisons), but their verified
+// unrestricted purchase rows can participate in store comparisons, deals,
+// ATL summaries and history alongside Steam/eShop.
+const SUMMARY_PRICE_CHANNELS = ['steam', 'eshop', 'xbox', 'psn'];
+const SUMMARY_ATL_KEYS = new Set(['pc', 'eshop-us', 'eshop-eu', 'xbox-us', 'psn-us']);
+const HISTORY_CHANNELS = new Set(SUMMARY_PRICE_CHANNELS);
 
 /** endsAt 缺失视为长期有效；已过期返回 false（UTC 比较）。 */
 export function isLive(endsAt, now = Date.now()) {
@@ -240,7 +241,7 @@ export function popularRegionalCards(bundles, channel, limit = 4, excludeSlugs =
     .slice(0, limit);
 }
 
-/** Best current price across reader-facing summary channels (Xbox table is explicit). */
+/** Best current price across reader-facing public purchase channels. */
 export function bestPriceNow(bundle) {
   const candidates = SUMMARY_PRICE_CHANNELS
     .map((channel) => ({ usd: usRow(bundle[channel])?.usd, channel }))
@@ -261,7 +262,7 @@ export function bestPriceFlags(prices, tolerance = 0.005) {
   return prices.map((price) => Math.abs(price - lowest) <= tolerance);
 }
 
-/** Lowest known ATL across reader-facing summary channels, or null. */
+/** Lowest known ATL across reader-facing public purchase channels, or null. */
 export function overallAtl(history) {
   const entries = Object.entries(history?.atl ?? {})
     .filter(([key]) => SUMMARY_ATL_KEYS.has(key))
@@ -270,16 +271,12 @@ export function overallAtl(history) {
   return entries.sort((a, b) => a.usd - b.usd)[0];
 }
 
-/**
- * History model for reader-facing trend/log surfaces. Raw Xbox observations
- * remain stored for the overview table's channel ATL, but never leak into the
- * graph, ATL summary or event log.
- */
+/** History model for reader-facing trend/log surfaces. */
 export function visiblePriceHistory(history) {
   return {
-    events: (history?.events ?? []).filter((event) => event?.ch !== 'xbox'),
+    events: (history?.events ?? []).filter((event) => HISTORY_CHANNELS.has(event?.ch)),
     atl: Object.fromEntries(
-      Object.entries(history?.atl ?? {}).filter(([key]) => key !== 'xbox-us'),
+      Object.entries(history?.atl ?? {}).filter(([key]) => SUMMARY_ATL_KEYS.has(key)),
     ),
   };
 }
@@ -322,7 +319,7 @@ export function atlBoard(bundles, limit = 5) {
     const best = bestPriceNow(b);
     const atl = overallAtl(b.history);
     if (!best || !atl || best.usd > atl.usd + 0.001) continue;
-    rows.push({ slug: b.slug, title: b.game?.title ?? b.slug, usd: best.usd, date: atl.date });
+    rows.push({ slug: b.slug, title: b.game?.title ?? b.slug, usd: best.usd, date: atl.date, channel: best.channel });
   }
   return rows.sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '')).slice(0, limit);
 }
@@ -331,13 +328,12 @@ export function atlBoard(bundles, limit = 5) {
 export function hotDealsBoard(bundles, limit = 5) {
   const rows = [];
   for (const b of bundles) {
-    const pcts = [
-      { pct: usRow(b.steam)?.discountPct, usd: usRow(b.steam)?.usd, channel: 'steam' },
-      { pct: usRow(b.eshop)?.discountPct, usd: usRow(b.eshop)?.usd, channel: 'eshop' },
-      // Membership-only PS Plus annotations deliberately live outside this
-      // public price row and therefore cannot enter deal ranking.
-      { pct: usRow(b.psn)?.discountPct, usd: usRow(b.psn)?.usd, channel: 'psn' },
-    ].filter((x) => x.pct > 0);
+    // Membership/Game Pass/trial rows are excluded by the channel parsers and
+    // never enter snapshots, so this loop sees public cash prices only.
+    const pcts = SUMMARY_PRICE_CHANNELS.map((channel) => {
+      const row = usRow(b[channel]);
+      return { pct: row?.discountPct, usd: row?.usd, channel };
+    }).filter((x) => x.pct > 0);
     if (pcts.length === 0) continue;
     const top = pcts.sort((a, b2) => b2.pct - a.pct)[0];
     rows.push({ slug: b.slug, title: b.game?.title ?? b.slug, ...top });
@@ -350,13 +346,14 @@ export function trackedDeals(bundles, channel) {
   if (!SUMMARY_PRICE_CHANNELS.includes(channel)) return [];
   const rows = [];
   for (const b of bundles) {
-    const snap = { steam: b.steam, eshop: b.eshop, psn: b.psn }[channel];
+    const snap = b[channel];
     const us = usRow(snap);
     if (!us || !(us.discountPct > 0)) continue;
     if (!isLive(us.saleEndsAt)) continue; // 快照滞后窗口：已过期的折扣不再当作当前
     rows.push({
       slug: b.slug,
       title: b.game?.title ?? b.slug,
+      channel,
       usd: us.usd,
       listUsd: us.listUsd,
       pct: us.discountPct,

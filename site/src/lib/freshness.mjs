@@ -15,6 +15,13 @@ export function freshnessState(stamp, budgetHours, nowMs = Date.now()) {
   return 'down';
 }
 
+/** A recent failed refresh cannot remain green merely because old data is young. */
+export function freshnessStateWithFailures(stamp, budgetHours, consecutiveFailures = 0, nowMs = Date.now()) {
+  const base = freshnessState(stamp, budgetHours, nowMs);
+  if (!(Number.isInteger(consecutiveFailures) && consecutiveFailures > 0)) return base;
+  return base === 'fresh' ? 'stale' : base;
+}
+
 const SOURCE_BUDGET_HOURS = {
   rates: 26,
   'steam-regional': 26,
@@ -27,6 +34,8 @@ const SOURCE_BUDGET_HOURS = {
   'deals-stores': 26,
   'free-games': 26,
   calendar: 8 * 24,
+  'calendar-xbox-us': 8 * 24,
+  'calendar-psn-us': 8 * 24,
   // Fleet freshness is the oldest of 14 daily shards, so its healthy age is 15 days.
   meta: 15 * 24,
 };
