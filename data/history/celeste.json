@@ -16,6 +16,11 @@
       "usd": 24.04,
       "date": null,
       "seed": "eshop-eu"
+    },
+    "xbox-us": {
+      "usd": 19.99,
+      "date": "2026-07-22",
+      "seed": "self"
     }
   },
   "events": [
@@ -46,6 +51,13 @@
       "cc": "US",
       "usd": 4.99,
       "pct": 75
+    },
+    {
+      "d": "2026-07-22",
+      "ch": "xbox",
+      "cc": "US",
+      "usd": 19.99,
+      "pct": null
     }
   ]
 }

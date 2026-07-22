@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "batchId": "xbox-wave2-20260722",
+  "batchDigest": "sha256:cb2d092ea0fb4ee214050d57a968ae2931dc2bbaf6ca5d950262fb400a0605f2",
+  "baseCommit": "9876f0adb2039ba0977794420c4d0a6042e8f32b",
+  "approvalPolicy": "v2-auto-approve",
+  "appliedAt": "2026-07-22T02:41:54.031Z",
+  "items": [
+    {
+      "key": "xbox:9N116V0599HB",
+      "slug": "hollow-knight-silksong",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:5abbee99b7576b0d40c082c47fefe27f940bc4ecac55bea9db13fe34a1cf42c6"
+    },
+    {
+      "key": "xbox:9NMFWR0NRLZS",
+      "slug": "resident-evil-requiem",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:ae9ed8144fd0045036351b61d6b565ff546877ef4c6bb4523501b5902703e88e"
+    },
+    {
+      "key": "xbox:9NWQ1Q1FR0C9",
+      "slug": "black-myth-wukong",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:19648c6f978be78ee60bbeb1fc087cfa2050e9de8f065ec0c846e206f48f8fcc"
+    },
+    {
+      "key": "xbox:BNG91PT95LQN",
+      "slug": "monster-hunter-world",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:6db2445c675d5ee06234e801eb04fc7c8a781c579f923482f04cefadf7abb7f4"
+    },
+    {
+      "key": "xbox:9P8DL6W0JBB8",
+      "slug": "hades",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:d7f030f803f0f9a967212f60e5f78211ef05e5f2d4b0b14118b52ec4d44d1fe2"
+    },
+    {
+      "key": "xbox:9N3LGKGF3CC2",
+      "slug": "nine-sols",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:024d0f87a13e73ab655d6ea483193744bd8e7cb52902aa34a8ac8b7a69732034"
+    },
+    {
+      "key": "xbox:9NLRT31Z4RWM",
+      "slug": "tunic",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:95bab94ce94e96166f47d246724ab8cfdfa542830ce8a6917018a2a76cd370c3"
+    },
+    {
+      "key": "xbox:BWMQL2RPWBHB",
+      "slug": "celeste",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:9c8dac5b8e3be788e72ea4e608c9f4b29a6f02623ffc8d8575dd00245e2e5278"
+    },
+    {
+      "key": "xbox:9NHFVWX1V7QJ",
+      "slug": "deep-rock-galactic",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:b76ad1c567cdd1bd9e0694e5374534778de0bc52e70726a4ff3e8f553515184b"
+    },
+    {
+      "key": "xbox:9PKP39CL0C8D",
+      "slug": "ghostwire-tokyo",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:5356c1669a4817f2c75505139a0834f696f2948dea5bf2fc02642cceb64e61e0"
+    },
+    {
+      "key": "xbox:C596FKDKMQN7",
+      "slug": "outer-wilds",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:1f3cf21cb2bf814844cb9c1872f6a5f622c6d0286c51d37822a198a398a7809d"
+    },
+    {
+      "key": "xbox:9NJRX71M5X9P",
+      "slug": "cuphead",
+      "catalogAction": "add_platform_mapping",
+      "evidenceDigest": "sha256:a9f1c3d2d46ef6e847c07800068371f14193dc8c57e0443483d9e19f9d46b5bd"
+    }
+  ],
+  "artifacts": {
+    "data/catalog.json": "sha256:1b43378674b78c1dc909300f47f29154f26da90f27833fbdea52b051f22bec58",
+    "data/history/black-myth-wukong.json": "sha256:dd1c512c6e0e316f14af4144026b68561cf041371b846c75d536c00655b33392",
+    "data/history/celeste.json": "sha256:c4b665f8d5ae075e0d68bb288762e96bdeeb3b868b475840db9d4f2235c154b1",
+    "data/history/cuphead.json": "sha256:8f6b914c94f62b777cc8fe4f56f378fc5e356663b952c802edf5dcff45e15744",
+    "data/history/deep-rock-galactic.json": "sha256:d25d4c72a8a5d7985eb1c4b728f6301f4fe2c1d8d81fbfc0d9768ee15058b336",
+    "data/history/ghostwire-tokyo.json": "sha256:5f3128ae1846cf0d644dec571d11b8b4bc34fca826ec604d8e092caf0518de09",
+    "data/history/hades.json": "sha256:22999b1568cd6af746a1de861af145f0424a22e56b0660992df93d58cfc124d6",
+    "data/history/hollow-knight-silksong.json": "sha256:eaeecbb3451682a7437b577ed66025b17e4569f009459bb89214babd74c59464",
+    "data/history/monster-hunter-world.json": "sha256:dd8fa846faaadcd35ac741525744e744ce6ed273fdfbfbaf55d544a6f277ac5b",
+    "data/history/nine-sols.json": "sha256:12b17b7a93267c29f7b67ebb4c5a1c0d3931a7f3902f75a022f199c760cf0dd7",
+    "data/history/outer-wilds.json": "sha256:01c15e0c8252150f05a54259434c6aa990099c6f0646f0ab6f49b5c3aedfef6b",
+    "data/history/resident-evil-requiem.json": "sha256:4c284561d98d336008ebe89bcba2d1a131dcf6af13f2a34e40adedbc4b7493f4",
+    "data/history/tunic.json": "sha256:bff1d18cc69e5eb4e87a6b91abe0f6a04425b5a240559ebc99035fc1e24ae9a9",
+    "data/meta/black-myth-wukong.json": "sha256:83c85b7f2b1bef8d51fac003db009a6302bea1bfa99d5e53cbc880e29a44f32e",
+    "data/meta/celeste.json": "sha256:9def79f90e43f5c5604e9905c89cee042e3b5c86f97e9fa0d0fe99d66de51848",
+    "data/meta/cuphead.json": "sha256:bb5a295a368d768c1493faa2759e44b6c6964b428210672418d78b55590eb33f",
+    "data/meta/deep-rock-galactic.json": "sha256:3c4b041117b4c9939f30909bfe38e10b442f384f049997379dab3e4705708d6a",
+    "data/meta/ghostwire-tokyo.json": "sha256:1df981403dba6ffb1a90b37733e4ae4f5c58e28e26456514d2c5af7d25330235",
+    "data/meta/hades.json": "sha256:f40145e431622b89ac0d294e443e1d02216edf86616881868eeb1d4bf48cfc0f",
+    "data/meta/hollow-knight-silksong.json": "sha256:56b148997d61e741dc36f9d54282d032f114599c14090dad48ad4eddee88f31d",
+    "data/meta/monster-hunter-world.json": "sha256:2ea77bbc281ae145136c381e7dd38edd36c3a381ad9a0df0dec9190534c188af",
+    "data/meta/nine-sols.json": "sha256:a6ef741db45d0289f736fc345ae1bf83d33487276a6575cc450cf0e5711f74c0",
+    "data/meta/outer-wilds.json": "sha256:bec38312cf9d49701629a2eb7ff364f5aa48336b55cc92991656aaad772d077d",
+    "data/meta/resident-evil-requiem.json": "sha256:1c91e47ae859fb88d9e1e704c0c2c7a4b44d1ed9707e8baf5f47cf5404731e48",
+    "data/meta/tunic.json": "sha256:7fa5e0695153fc4a16fc33f587a06a4fffa9aad3e9f74b3393075c6609ec8372",
+    "data/snapshots/xbox/black-myth-wukong.json": "sha256:6bdc408e1e4deab894688c34ac5f04fcb128206224de094938c1af45c62a3428",
+    "data/snapshots/xbox/celeste.json": "sha256:ae794e8d0834661cf0b4f672e46e87aae414d7673f2b10ec80115c251e1c32ff",
+    "data/snapshots/xbox/cuphead.json": "sha256:577ffbbbe00ee0d7fb75d3cec590814c8d9d7300599c895591385403eda49597",
+    "data/snapshots/xbox/deep-rock-galactic.json": "sha256:df2b0af4759a571baf816845e0eb09ee0d53a61a83b4a632324ba66e17fb951b",
+    "data/snapshots/xbox/ghostwire-tokyo.json": "sha256:a7d82b806b0c46c1b6ea4f694189b6b9d1a55aabb86fbfbba718997342c15962",
+    "data/snapshots/xbox/hades.json": "sha256:6910e41ef929a40561b4d3fa9d5133185335fbf52bed83a7ed8a9bae027b531b",
+    "data/snapshots/xbox/hollow-knight-silksong.json": "sha256:b3c8ebc21fc00a9186f948e9df5a1bf3de03f22f1fe955947d40eb37e00cb809",
+    "data/snapshots/xbox/monster-hunter-world.json": "sha256:6c3c142bbb54e21e2fde50761cf71b3ca7144ffbfd15ff0110b9dde211f12101",
+    "data/snapshots/xbox/nine-sols.json": "sha256:9ca798c68f30abe83d7d0ce838ca34853ae1fbb1a8e9c9e5bc8d7ec596f15121",
+    "data/snapshots/xbox/outer-wilds.json": "sha256:630e72dbd0810d06dbd0bb7b7d0bf53ec5e2a8ab0b0d3f5c060d39c33c79f683",
+    "data/snapshots/xbox/resident-evil-requiem.json": "sha256:943bcd1b030d252ed0a99e33eda35a4eeaa0e32a0293c0ba61f9f4b95a6e3046",
+    "data/snapshots/xbox/tunic.json": "sha256:46f1139c140e2f3060f9cb2cacb98634e70124131a3bae1c181b4276e55d2392"
+  }
+}
