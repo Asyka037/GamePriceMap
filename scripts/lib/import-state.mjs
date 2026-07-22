@@ -8,6 +8,7 @@ import {
   normalizeHumanDecision,
 } from './library-workbook.mjs';
 import { validPsnProductId } from './psn.mjs';
+import { validXboxBigId } from './xbox.mjs';
 
 export const IMPORT_STATE_SCHEMA_VERSION = 1;
 export const VERIFY_STATUS = Object.freeze({
@@ -314,7 +315,11 @@ export function projectBatchItem(candidate) {
   if (psnConceptId && !/^\d{8}$/u.test(psnConceptId)) throw new Error(`PSN Concept ID 无法安全投影: ${candidate.psnConceptId}`);
   const psnEdition = candidate?.psnEdition == null ? null : String(candidate.psnEdition);
   if (psnProductId && psnEdition !== 'standard') throw new Error(`PSN POC 仅允许 standard edition: ${candidateId}`);
-  if (!steamAppId && !nsuids && !psnProductId) throw new Error(`批次候选缺少平台商品 ID: ${candidateId}`);
+  const xboxBigId = candidate?.xboxBigId == null ? null : String(candidate.xboxBigId).toUpperCase();
+  if (xboxBigId && !validXboxBigId(xboxBigId)) throw new Error(`Xbox BigID 无法安全投影: ${candidate.xboxBigId}`);
+  const xboxEdition = candidate?.xboxEdition == null ? null : String(candidate.xboxEdition);
+  if (xboxBigId && xboxEdition !== 'standard') throw new Error(`Xbox 仅允许 standard edition: ${candidateId}`);
+  if (!steamAppId && !nsuids && !psnProductId && !xboxBigId) throw new Error(`批次候选缺少平台商品 ID: ${candidateId}`);
   const item = {
     key: candidateId,
     catalogAction: candidate.catalogAction ?? 'new_game',
@@ -331,6 +336,10 @@ export function projectBatchItem(candidate) {
     item.psnProductId = psnProductId;
     item.psnConceptId = psnConceptId;
     item.psnEdition = psnEdition;
+  }
+  if (xboxBigId) {
+    item.xboxBigId = xboxBigId;
+    item.xboxEdition = xboxEdition;
   }
   if (candidate.nintendoUsSlug) item.nintendoUsSlug = candidate.nintendoUsSlug;
   if (candidate.primaryRegionalChannel) item.primaryRegionalChannel = candidate.primaryRegionalChannel;

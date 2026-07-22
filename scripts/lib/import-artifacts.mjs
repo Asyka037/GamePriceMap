@@ -60,6 +60,10 @@ export function validateImportArtifacts(root, plan, { minimumCoverageRatio = 0.8
         throw new Error(`${item.key}: staged PSN identity drifted`);
       }
     }
+    if (item.xboxBigId
+      && (game.xboxBigId !== item.xboxBigId || game.xboxEdition !== item.xboxEdition)) {
+      throw new Error(`${item.key}: staged Xbox identity drifted`);
+    }
     if (item.nsuids && Object.values(item.nsuids).some(Boolean)) {
       const expectedGeneration = item.platforms?.filter((platform) => platform === 'switch' || platform === 'switch-2');
       const actualGeneration = game.platforms?.filter((platform) => platform === 'switch' || platform === 'switch-2');
@@ -112,6 +116,20 @@ export function validateImportArtifacts(root, plan, { minimumCoverageRatio = 0.8
       });
       files.add(rel);
       channels.push('psn');
+    }
+
+    if (item.xboxBigId) {
+      const rel = `data/snapshots/xbox/${item.slug}.json`;
+      const snapshot = readJson(root, rel);
+      validateSnapshot(snapshot, {
+        slug: item.slug,
+        label: rel,
+        expectedCcs: ['US'],
+        requireUs: true,
+        minimumRatio: 1,
+      });
+      files.add(rel);
+      channels.push('xbox');
     }
 
     const metaRel = `data/meta/${item.slug}.json`;

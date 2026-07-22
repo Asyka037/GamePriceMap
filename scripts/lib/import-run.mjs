@@ -2,12 +2,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { validPsnProductId } from './psn.mjs';
+import { validXboxBigId } from './xbox.mjs';
 
 export const IMPORT_SCHEMA_VERSION = 1;
 export const IMPORT_STEPS = Object.freeze([
   'catalog',
   'steam',
   'eshop',
+  'xbox',
   'psn',
   'meta',
   'history',
@@ -25,6 +27,7 @@ const MAIN_STATES = Object.freeze([
   'catalog_staged',
   'steam_done',
   'eshop_done',
+  'xbox_done',
   'psn_done',
   'meta_done',
   'history_done',
@@ -119,7 +122,9 @@ function validateItem(item, index) {
   if (!plainObject(item)) throw new Error(`${label}: must be an object`);
   const psnKey = typeof item.key === 'string' && item.key.startsWith('psn:')
     && validPsnProductId(item.key.slice(4));
-  if (!/^(?:steam:[1-9]\d*|ns:7001\d{10})$/.test(item.key ?? '') && !psnKey) {
+  const xboxKey = typeof item.key === 'string' && item.key.startsWith('xbox:')
+    && validXboxBigId(item.key.slice(5));
+  if (!/^(?:steam:[1-9]\d*|ns:7001\d{10})$/.test(item.key ?? '') && !psnKey && !xboxKey) {
     throw new Error(`${label}: bad key`);
   }
   if (!['new_game', 'add_platform_mapping'].includes(item.catalogAction)) throw new Error(`${label}: bad catalogAction`);
@@ -147,9 +152,13 @@ function validateItem(item, index) {
   if ((item.psnConceptId != null || item.psnEdition != null) && item.psnProductId == null) {
     throw new Error(`${label}: PSN identity requires psnProductId`);
   }
+  if (item.xboxBigId != null && !validXboxBigId(item.xboxBigId)) throw new Error(`${label}: bad xboxBigId`);
+  if (item.xboxEdition != null && item.xboxEdition !== 'standard') throw new Error(`${label}: bad xboxEdition`);
+  if (item.xboxEdition != null && item.xboxBigId == null) throw new Error(`${label}: Xbox edition requires xboxBigId`);
   const hasNsuid = item.nsuids && Object.values(item.nsuids).some(Boolean);
   const hasPsn = validPsnProductId(item.psnProductId);
-  if (!Number.isInteger(item.steamAppId) && !hasNsuid && !hasPsn) throw new Error(`${label}: no platform product ID`);
+  const hasXbox = validXboxBigId(item.xboxBigId);
+  if (!Number.isInteger(item.steamAppId) && !hasNsuid && !hasPsn && !hasXbox) throw new Error(`${label}: no platform product ID`);
   const [keyType, keyValue] = item.key.split(':', 2);
   if (keyType === 'steam' && String(item.steamAppId ?? '') !== keyValue) {
     throw new Error(`${label}: key does not match steamAppId`);
@@ -159,6 +168,9 @@ function validateItem(item, index) {
   }
   if (keyType === 'psn' && item.psnProductId !== keyValue) {
     throw new Error(`${label}: key does not match psnProductId`);
+  }
+  if (keyType === 'xbox' && item.xboxBigId !== keyValue) {
+    throw new Error(`${label}: key does not match xboxBigId`);
   }
   if (hasPsn) {
     if (keyType !== 'psn' || item.catalogAction !== 'add_platform_mapping') {
@@ -171,6 +183,19 @@ function validateItem(item, index) {
       || item.platforms.length === 0
       || item.platforms.some((platform) => !['ps4', 'ps5'].includes(platform))) {
       throw new Error(`${label}: PSN POC requires only PlayStation platforms and standard edition`);
+    }
+  }
+  if (hasXbox) {
+    if (keyType !== 'xbox' || item.catalogAction !== 'add_platform_mapping') {
+      throw new Error(`${label}: Xbox expansion only supports xbox-keyed add_platform_mapping`);
+    }
+    if (Number.isInteger(item.steamAppId) || hasNsuid || hasPsn) {
+      throw new Error(`${label}: Xbox mapping item cannot carry another store identity`);
+    }
+    if (item.xboxEdition !== 'standard'
+      || item.platforms.length !== 1
+      || item.platforms[0] !== 'xbox') {
+      throw new Error(`${label}: Xbox mapping requires only the xbox platform and standard edition`);
     }
   }
   if (hasNsuid) {
@@ -205,6 +230,7 @@ export function validateBatchPlan(plan, { requireDigest = true } = {}) {
     ['NSUID', plan.items.flatMap((item) => Object.values(item.nsuids ?? {}).filter(Boolean).map(String))],
     ['PSN Product ID', plan.items.map((item) => item.psnProductId).filter(Boolean)],
     ['PSN Concept ID', plan.items.map((item) => item.psnConceptId).filter(Boolean)],
+    ['Xbox BigID', plan.items.map((item) => item.xboxBigId).filter(Boolean)],
   ]) {
     if (new Set(values).size !== values.length) throw new Error(`duplicate batch ${label}`);
   }
@@ -276,6 +302,23 @@ export function validateRunManifest(manifest, plan, { runId = manifest?.runId } 
   }
   if (manifest.sealedTree != null && !/^[a-f0-9]{40}$|^[a-f0-9]{64}$/.test(manifest.sealedTree)) {
     throw new Error('run manifest has invalid sealedTree');
+  }
+  // Schema v1 journals created before the Xbox Wave 2 importer have every
+  // current checkpoint except `xbox`. Preserve read/resume/status support for
+  // those private journals, but never synthesize the step for an Xbox plan.
+  const legacySteps = IMPORT_STEPS.filter((step) => step !== 'xbox');
+  const actualStepKeys = plainObject(manifest.steps) ? Object.keys(manifest.steps).sort() : [];
+  if (actualStepKeys.join() === [...legacySteps].sort().join()
+    && !plan.items.some((item) => item.xboxBigId)) {
+    const passedConsoleCheckpoint = manifest.steps.psn?.status === 'completed'
+      || MAIN_STATES.indexOf(manifest.state) >= MAIN_STATES.indexOf('psn_done');
+    manifest = {
+      ...manifest,
+      steps: {
+        ...manifest.steps,
+        xbox: { status: passedConsoleCheckpoint ? 'completed' : 'pending', attempts: 0 },
+      },
+    };
   }
   const mainIndex = MAIN_STATES.indexOf(manifest.state);
   if (mainIndex >= MAIN_STATES.indexOf('worktree_creating') && manifest.worktreePath === null) {

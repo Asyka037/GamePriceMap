@@ -40,6 +40,10 @@ const files = await walk(distDir);
 const htmlFiles = files.filter((file) => file.endsWith(`${sep}index.html`) || file === join(distDir, 'index.html'));
 const builtRoutes = new Map(htmlFiles.map((file) => [routeForHtml(file), file]));
 
+for (const route of builtRoutes.keys()) {
+  assert(!/^\/(?:xbox|psn)(?:\/|$)/.test(route), `platform pilot must not create a standalone list route: ${route}`);
+}
+
 const robots = await readFile(join(distDir, 'robots.txt'), 'utf8');
 assert(/^User-agent:\s*\*$/m.test(robots), 'robots.txt must address all crawlers');
 assert(/^Allow:\s*\/$/m.test(robots), 'robots.txt must allow the public site');
@@ -87,7 +91,30 @@ for (const route of indexedRoutes) {
   assert(builtRoutes.has(route), `sitemap URL has no built index.html: ${route}`);
 }
 
+let microsoftStoreLinks = 0;
+for (const [route, file] of builtRoutes) {
+  const html = await readFile(file, 'utf8');
+  if (/^\/game\/[^/]+\/price-history\/$/.test(route)) {
+    assert(!html.includes('data-channel="xbox"'), `Xbox price series escaped into price history: ${route}`);
+    assert(!html.includes('Xbox Store US'), `Xbox ATL escaped into price history: ${route}`);
+  }
+  const links = html.match(/<a\b[^>]*href="https:\/\/www\.microsoft\.com\/store\/productId\/[A-Z0-9]{12}"[^>]*>/g) ?? [];
+  if (links.length === 0) continue;
+  assert(/^\/game\/[^/]+\/$/.test(route), `Microsoft Store product link escaped the game comparison page: ${route}`);
+  const xboxComparisonRows = (html.match(/<tr\b[^>]*data-store-channel="xbox"[^>]*>[\s\S]*?<\/tr>/g) ?? [])
+    .filter((row) => /href="https:\/\/www\.microsoft\.com\/store\/productId\/[A-Z0-9]{12}"/.test(row));
+  assert(xboxComparisonRows.length === links.length, `Microsoft Store product link escaped the Xbox comparison row: ${route}`);
+  for (const link of links) {
+    assert(/\btarget="_blank"/.test(link), `Microsoft Store link must open in a new tab: ${route}`);
+    assert(/\brel="[^"]*\bnoopener\b[^"]*"/.test(link), `Microsoft Store link is missing noopener: ${route}`);
+    assert(/\brel="[^"]*\bnofollow\b[^"]*"/.test(link), `Microsoft Store link is missing nofollow: ${route}`);
+    microsoftStoreLinks++;
+  }
+}
+assert(microsoftStoreLinks > 0, 'build contains no verified Microsoft Store comparison links');
+
 const home = await readFile(join(distDir, 'index.html'), 'utf8');
+assert(!/href="\/(?:xbox|psn)(?:\/|\")/.test(home), 'header/footer must not expose standalone Xbox or PSN navigation');
 assert((home.match(/\/brand\/gamepricemap-logo-96\.png/g) ?? []).length >= 2, 'home header and footer must use the brand logo');
 assert(home.includes('href="/favicon-32.png"'), 'home is missing the PNG favicon');
 assert(home.includes('href="/apple-touch-icon.png"'), 'home is missing the Apple touch icon');
@@ -102,4 +129,4 @@ for (const [asset, maxBytes] of [
   assert(info.size > 0 && info.size <= maxBytes, `${asset} is empty or unexpectedly large (${info.size} bytes)`);
 }
 
-console.log(`Site output valid: ${indexedUrls.length} canonical URLs, ${builtRoutes.size} built pages, logo assets verified.`);
+console.log(`Site output valid: ${indexedUrls.length} canonical URLs, ${builtRoutes.size} built pages, ${microsoftStoreLinks} safe Microsoft Store links, logo assets verified.`);

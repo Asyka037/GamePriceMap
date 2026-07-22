@@ -3,6 +3,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { applyBatchToCatalog, importAllowlist } from './catalog.mjs';
+import { assertAdmissionDayAvailable, assertAdmissionReceiptDay } from './import-admission.mjs';
 import { validateImportArtifacts } from './import-artifacts.mjs';
 import {
   atomicWriteJson,
@@ -33,10 +34,11 @@ import {
 } from './import-git.mjs';
 
 const STATE_DIR_REL = 'private/game-library/import';
-const NETWORK_STEPS = new Set(['steam', 'eshop', 'psn', 'meta']);
+const NETWORK_STEPS = new Set(['steam', 'eshop', 'xbox', 'psn', 'meta']);
 export const STEP_TIMEOUT_MS = Object.freeze({
   steam: 15 * 60_000,
   eshop: 15 * 60_000,
+  xbox: 15 * 60_000,
   psn: 15 * 60_000,
   meta: 20 * 60_000,
   history: 5 * 60_000,
@@ -48,6 +50,7 @@ const STEP_STATE = Object.freeze({
   catalog: 'catalog_staged',
   steam: 'steam_done',
   eshop: 'eshop_done',
+  xbox: 'xbox_done',
   psn: 'psn_done',
   meta: 'meta_done',
   history: 'history_done',
@@ -169,9 +172,11 @@ function commandFor(step, worktree, plan) {
   const allSlugs = plan.items.map((item) => item.slug);
   const steamSlugs = plan.items.filter((item) => Number.isInteger(item.steamAppId)).map((item) => item.slug);
   const eshopSlugs = plan.items.filter((item) => item.nsuids && Object.values(item.nsuids).some(Boolean)).map((item) => item.slug);
+  const xboxSlugs = plan.items.filter((item) => item.xboxBigId).map((item) => item.slug);
   const psnSlugs = plan.items.filter((item) => item.psnProductId).map((item) => item.slug);
   if (step === 'steam') return steamSlugs.length ? [process.execPath, ['scripts/scrape-steam.mjs', ...steamSlugs]] : null;
   if (step === 'eshop') return eshopSlugs.length ? [process.execPath, ['scripts/scrape-eshop.mjs', ...eshopSlugs]] : null;
+  if (step === 'xbox') return xboxSlugs.length ? [process.execPath, ['scripts/scrape-xbox.mjs', ...xboxSlugs]] : null;
   if (step === 'psn') return psnSlugs.length ? [process.execPath, ['scripts/scrape-psn.mjs', ...psnSlugs]] : null;
   if (step === 'meta') return [process.execPath, ['scripts/scrape-meta.mjs', ...allSlugs]];
   if (step === 'history') return [process.execPath, ['scripts/build-history.mjs', '--observations-only', ...allSlugs]];
@@ -192,9 +197,17 @@ function stepAllowlist(step, plan) {
     ...plan.items.filter((item) => item.nsuids && Object.values(item.nsuids).some(Boolean)).map((item) => `data/snapshots/eshop/${item.slug}.json`),
     'data/rates/usd.json',
   ];
-  if (step === 'psn') return plan.items
-    .filter((item) => item.psnProductId)
-    .map((item) => `data/snapshots/psn/${item.slug}.json`);
+  if (step === 'xbox') return plan.items
+    .filter((item) => item.xboxBigId)
+    .map((item) => `data/snapshots/xbox/${item.slug}.json`);
+  if (step === 'psn') return [
+    ...plan.items
+      .filter((item) => item.psnProductId)
+      .map((item) => `data/snapshots/psn/${item.slug}.json`),
+    ...(plan.items.some((item) => item.psnProductId)
+      ? ['data/seeds/psn-us-request-budget.json']
+      : []),
+  ];
   if (step === 'meta') return slugs.map((slug) => `data/meta/${slug}.json`);
   if (step === 'history') return slugs.map((slug) => `data/history/${slug}.json`);
   if (step === 'validate') return ['data/health.json'];
@@ -299,6 +312,7 @@ function expectedReceiptArtifacts(plan) {
     if (Number.isInteger(item.steamAppId)) files.add(`data/snapshots/steam/${item.slug}.json`);
     if (item.nsuids && Object.values(item.nsuids).some(Boolean)) files.add(`data/snapshots/eshop/${item.slug}.json`);
     if (item.psnProductId) files.add(`data/snapshots/psn/${item.slug}.json`);
+    if (item.xboxBigId) files.add(`data/snapshots/xbox/${item.slug}.json`);
     files.add(`data/meta/${item.slug}.json`);
     files.add(`data/history/${item.slug}.json`);
   }
@@ -338,8 +352,7 @@ function validateReceipt(receipt, plan) {
   return receipt;
 }
 
-function receiptFromBranch(root, branch, plan) {
-  const ref = `refs/heads/${branch}`;
+function receiptFromRef(root, ref, plan) {
   const rel = `data/imports/${plan.batchId}.json`;
   const entry = git(root, ['ls-tree', '-z', ref, '--', rel], { trim: false });
   if (!entry) return null;
@@ -352,6 +365,10 @@ function receiptFromBranch(root, branch, plan) {
     throw new Error(`tracked import receipt is invalid JSON: ${rel}`, { cause: error });
   }
   return validateReceipt(receipt, plan);
+}
+
+function receiptFromBranch(root, branch, plan) {
+  return receiptFromRef(root, `refs/heads/${branch}`, plan);
 }
 
 function validateAppliedBranch(root, plan) {
@@ -385,6 +402,20 @@ function finishPromotion(root, stateRoot, manifest, plan, { worktreeParent = os.
     throw error;
   }
   let promoted;
+  try {
+    const promotionTime = new Date();
+    const sealedReceipt = receiptFromRef(root, next.sealedCommit, plan);
+    if (!sealedReceipt) throw new Error(`sealed import receipt is missing for ${plan.batchId}`);
+    (runtime.assertAdmissionReceiptDay ?? assertAdmissionReceiptDay)(sealedReceipt, promotionTime);
+    (runtime.assertAdmissionDayAvailable ?? assertAdmissionDayAvailable)(root, plan, promotionTime);
+  } catch (error) {
+    next = transitionRun(next, 'failed', {
+      resumeState: 'promoting',
+      error: { step: 'promote', message: error.message },
+    });
+    writeManifest(stateRoot, next);
+    throw error;
+  }
   try {
     promoted = promoteFastForward(root, {
       branch: plan.branch,
@@ -452,7 +483,7 @@ function continueRun(root, stateRoot, manifest, plan, runtime = {}, worktreePare
     writeManifest(stateRoot, next);
   }
 
-  const steps = ['catalog', 'steam', 'eshop', 'psn', 'meta', 'history', 'test', 'validate', 'build'];
+  const steps = ['catalog', 'steam', 'eshop', 'xbox', 'psn', 'meta', 'history', 'test', 'validate', 'build'];
   for (const step of steps) {
     if (next.steps[step].status === 'completed') continue;
     const action = step === 'catalog'
@@ -610,7 +641,7 @@ export function resumeImportRun(root, runId, {
     if (manifest.sealedCommit && isAncestor(root, manifest.sealedCommit, current)) {
       return recoverAppliedRun(root, stateRoot, manifest, plan, worktreeParent, runtime);
     }
-    if (!['planned', 'worktree_creating', 'paused', 'sealed', 'promoting', 'worktree_ready', 'catalog_staged', 'steam_done', 'eshop_done', 'psn_done', 'meta_done', 'history_done', 'gates_passed'].includes(manifest.state)) {
+    if (!['planned', 'worktree_creating', 'paused', 'sealed', 'promoting', 'worktree_ready', 'catalog_staged', 'steam_done', 'eshop_done', 'xbox_done', 'psn_done', 'meta_done', 'history_done', 'gates_passed'].includes(manifest.state)) {
       throw new Error(`run state ${manifest.state} is not resumable; abort and create a corrected batch`);
     }
     if (current !== plan.baseCommit) {

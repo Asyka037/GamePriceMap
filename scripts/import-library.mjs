@@ -38,6 +38,7 @@ import {
   sleep,
 } from './lib/http.mjs';
 import { exportReviewArtifacts } from './export-candidate-review.mjs';
+import { assertAdmissionDayAvailable, assertAdmissionReceiptDay } from './lib/import-admission.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const RUN_ID_RE = /^[a-z0-9][a-z0-9-]{5,95}$/u;
@@ -152,7 +153,7 @@ export function parseImportArgs(args) {
   return { mode, ...options };
 }
 
-export { validateCandidateSourceDocument };
+export { assertAdmissionDayAvailable, assertAdmissionReceiptDay, validateCandidateSourceDocument };
 
 function candidateSourceDocument(filePath) {
   const document = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -242,6 +243,7 @@ function productionDependencies(overrides = {}) {
       return { branch: ready.branch, baseCommit: ready.head };
     }),
     buildBatchPlan: overrides.buildBatchPlan ?? buildFrozenBatchPlan,
+    assertAdmissionDayAvailable: overrides.assertAdmissionDayAvailable ?? assertAdmissionDayAvailable,
     transitionBatchState: overrides.transitionBatchState ?? transitionBatchApplyState,
     startRun: overrides.startRun ?? startImportRun,
     resumeRun: overrides.resumeRun ?? resumeImportRun,
@@ -301,6 +303,11 @@ function assertSourceReadyForApply(source, deps, approvalPolicy) {
       throw error;
     }
     if (deps.psnAutomationAuthorized !== true) throw psnAuthorizationError();
+  }
+  if (source.kind === 'xbox-mapping-suggestions' && approvalPolicy !== 'v2-auto-approve') {
+    const error = new Error('Xbox Wave 2 apply requires the explicit --policy=v2-auto-approve approval model');
+    error.code = 'XBOX_V2_POLICY_REQUIRED';
+    throw error;
   }
 }
 
@@ -400,6 +407,7 @@ async function applyCommand(parsed, deps) {
     catalog,
     approvalPolicy: parsed.policy,
   });
+  deps.assertAdmissionDayAvailable(deps.root, plan, now);
   const runId = parsed.runId ?? `${plan.batchId}-${now.getTime().toString(36)}`;
   if (!RUN_ID_RE.test(runId)) throw new Error('invalid runId');
 

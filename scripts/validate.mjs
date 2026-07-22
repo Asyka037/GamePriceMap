@@ -43,6 +43,13 @@ function gitHeadJson(repoPath) {
   }
 }
 
+// Finder/OS copy names retained by the user (for example `game 2.json`) are
+// explicitly ignored local backups, not production artifacts. Directory-wide
+// validators must never let them shadow or weaken the canonical slug file.
+const isLocalJsonCopy = (name) => / \d+\.json$/u.test(name);
+const canonicalJsonNames = (directory) => fs.readdirSync(directory)
+  .filter((name) => name.endsWith('.json') && !isLocalJsonCopy(name));
+
 // --- rates ---
 const ratesDoc = readJson('data/rates/usd.json');
 const rates = ratesDoc.rates ?? {};
@@ -239,7 +246,7 @@ for (const g of catalog.games) {
 function validateSnapshotDir(dir, channel) {
   const abs = path.join(ROOT, dir);
   if (!fs.existsSync(abs)) return;
-  for (const file of fs.readdirSync(abs).filter((f) => f.endsWith('.json'))) {
+  for (const file of canonicalJsonNames(abs)) {
     const rel = `${dir}/${file}`;
     const snap = readJson(rel);
     const id = snap.slug;
@@ -381,7 +388,7 @@ if (fs.existsSync(calPath)) {
 // --- meta ---
 const metaDir = path.join(ROOT, 'data/meta');
 if (fs.existsSync(metaDir)) {
-  for (const file of fs.readdirSync(metaDir).filter((f) => f.endsWith('.json'))) {
+  for (const file of canonicalJsonNames(metaDir)) {
     const m = readJson(`data/meta/${file}`);
     if (!slugs.has(m.slug)) fail(`meta/${file}: slug not in catalog`);
     if (m.reviewPercent !== null && !(m.reviewPercent >= 0 && m.reviewPercent <= 100)) fail(`meta/${file}: reviewPercent out of range`);
@@ -457,7 +464,7 @@ function newestStamp(dir) {
   const abs = path.join(ROOT, dir);
   if (!fs.existsSync(abs)) return null;
   let max = null;
-  for (const f of fs.readdirSync(abs).filter((x) => x.endsWith('.json'))) {
+  for (const f of canonicalJsonNames(abs)) {
     const t = JSON.parse(fs.readFileSync(path.join(abs, f), 'utf8')).updatedAt ?? null;
     if (t && (!max || t > max)) max = t;
   }

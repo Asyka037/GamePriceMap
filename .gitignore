@@ -27,3 +27,10 @@ dist/
 /data/meta/* 2.json
 /data/snapshots/steam/* 2.json
 /data/snapshots/eshop/* 2.json
+
+# Legacy/fallback runtime locks beside the tracked PSN audit mirror. Normal
+# local/import locking lives under already-ignored /private/runtime so every
+# linked worktree on this machine shares one authoritative allowance.
+/data/seeds/psn-us-request-budget.json.lock
+/data/seeds/psn-us-request-budget.json.run.lock
+/data/seeds/psn-us-request-budget.json.*.tmp

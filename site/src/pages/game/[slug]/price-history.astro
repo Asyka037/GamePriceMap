@@ -4,7 +4,7 @@ import GameHero from '../../../components/GameHero.astro';
 import GameTabs from '../../../components/GameTabs.astro';
 import NoteBox from '../../../components/NoteBox.astro';
 import { catalog, gameBundle, sourceHealth } from '../../../lib/data.mjs';
-import { fmtUsd } from '../../../lib/derive.mjs';
+import { fmtUsd, visiblePriceHistory } from '../../../lib/derive.mjs';
 import { firstObservedDate, multiStepChartModel } from '../../../lib/chart.mjs';
 import { sourceKeyFor } from '../../../../../scripts/lib/schedule.mjs';
 
@@ -15,13 +15,14 @@ export function getStaticPaths() {
 const { slug } = Astro.params;
 const bundle = gameBundle(slug!);
 const { game } = bundle;
-const atlLabels: Record<string, string> = { pc: 'PC (any store, US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)', 'xbox-us': 'Xbox Store US', 'psn-us': 'PlayStation Store US' };
+const atlLabels: Record<string, string> = { pc: 'PC (any store, US)', 'eshop-us': 'eShop US', 'eshop-eu': 'eShop EU (converted)', 'psn-us': 'PlayStation Store US' };
 const seedLabels: Record<string, string> = {
   self: 'observed by our tracker',
   cheapshark: 'all-time record via CheapShark',
   'eshop-eu': 'UK-shop lowest via Nintendo index',
 };
-const historyEvents = bundle.history?.events ?? [];
+const visibleHistory = visiblePriceHistory(bundle.history);
+const historyEvents = visibleHistory.events;
 const events = [...historyEvents].reverse();
 const trackingSince = firstObservedDate(historyEvents);
 
@@ -31,7 +32,6 @@ const health = sourceHealth().sources ?? {};
 const channelDefs = [
   { id: 'steam', label: 'Steam · US', color: 'var(--teal)', lineStyle: 'solid', dash: '', marker: 'square', source: sourceKeyFor('steam', game), tracked: !!bundle.steam },
   { id: 'eshop', label: 'eShop · US', color: 'var(--red)', lineStyle: 'dash', dash: '10 6', marker: 'circle', source: sourceKeyFor('eshop', game), tracked: !!bundle.eshop },
-  { id: 'xbox', label: 'Xbox · US', color: 'var(--text-2)', lineStyle: 'dot', dash: '3 6', marker: 'diamond', source: sourceKeyFor('xbox', game), tracked: !!bundle.xbox, fallbackSince: '2026-07-12' },
   { id: 'psn', label: 'PlayStation · US', color: '#006fcd', lineStyle: 'dashdot', dash: '12 5 3 5', marker: 'triangle', source: sourceKeyFor('psn', game), tracked: !!bundle.psn, fallbackSince: '2026-07-18' },
 ].filter((channel) => channel.tracked);
 
@@ -170,7 +170,7 @@ const chartDescription = channels.map((channel) => {
             <p class="trend-empty">Automatic tracking is active; the first US price observation has not been recorded yet.</p>
           )}
         </figure>
-        <p class="trend-note">Steam and eShop are checked daily; Xbox and PlayStation are checked weekly. Flat segments mean later checks found no price change, and each line stops at that store’s last successful check.</p>
+        <p class="trend-note">Steam and eShop are checked daily; PlayStation is checked weekly. Flat segments mean later checks found no price change, and each line stops at that store’s last successful check.</p>
       </div>
 
       <div class="detail-cols history-detail-cols">
@@ -179,14 +179,14 @@ const chartDescription = channels.map((channel) => {
             <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
             All-time lows
           </h3>
-          {Object.entries(bundle.history?.atl ?? {}).map(([key, atl]: [string, any]) => (
+          {Object.entries(visibleHistory.atl).map(([key, atl]: [string, any]) => (
             <div class="kv">
               <span class="k">{atlLabels[key] ?? key}</span>
               <span class="v mono" style="color:var(--gold);">{fmtUsd(atl.usd)}</span>
             </div>
           ))}
           <p style="font-size:12.5px; color:var(--text-3); font-weight:600; margin-top:10px;">
-            {Object.entries(bundle.history?.atl ?? {}).map(([key, atl]: [string, any]) => (
+            {Object.entries(visibleHistory.atl).map(([key, atl]: [string, any]) => (
               <span style="display:block;">{atlLabels[key] ?? key}: {seedLabels[atl.seed] ?? atl.seed}{atl.date ? ` (${atl.date})` : ''}</span>
             ))}
           </p>

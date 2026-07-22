@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "kind": "psn-mapping-suggestions",
+  "discoveryMode": "official-search-v1",
+  "generatedAt": "2026-07-18T15:27:54.559Z",
+  "stabilityStatus": "day-1-only",
+  "candidates": [
+    {
+      "schemaVersion": 1,
+      "kind": "psn-mapping-candidate",
+      "candidateId": "psn:UP3526-PPSA14001_00-0507384846053057",
+      "catalogAction": "add_platform_mapping",
+      "slug": "baldurs-gate-3",
+      "title": "Baldur's Gate 3",
+      "psnProductId": "UP3526-PPSA14001_00-0507384846053057",
+      "psnConceptId": "10007460",
+      "psnEdition": "standard",
+      "platforms": [
+        "ps5"
+      ],
+      "evidence": {
+        "kind": "psn-official-product-verification",
+        "sourceUrl": "https://store.playstation.com/en-us/product/UP3526-PPSA14001_00-0507384846053057",
+        "finalUrl": "https://store.playstation.com/en-us/product/UP3526-PPSA14001_00-0507384846053057",
+        "observedAt": "2026-07-18T15:27:24.311Z",
+        "expiresAt": "2026-07-25T15:27:24.311Z",
+        "productId": "UP3526-PPSA14001_00-0507384846053057",
+        "conceptId": "10007460",
+        "matchedTitle": "Baldur's Gate 3",
+        "edition": "standard",
+        "skuId": "UP3526-PPSA14001_00-0507384846053057-U002",
+        "platforms": [
+          "ps5"
+        ],
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 69.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        "psPlusOfferExcluded": false,
+        "excludedTrials": 1,
+        "discovery": {
+          "kind": "psn-official-search-result",
+          "sourceUrl": "https://store.playstation.com/en-us/search/Baldur's%20Gate%203",
+          "finalUrl": "https://store.playstation.com/en-us/search/Baldur's%20Gate%203",
+          "queryTitle": "Baldur's Gate 3",
+          "matchedTitle": "Baldur's Gate 3",
+          "productId": "UP3526-PPSA14001_00-0507384846053057",
+          "rank": 0,
+          "pageDigest": "sha256:5282250c42ebc881a117eec35e560965e3aa2fddd130935f93228873d8cbbc08"
+        },
+        "evidenceDigest": "sha256:7829f947933744d722899cd7204234ac636cf3ec0eea374c14d54662b13d536f"
+      },
+      "evidenceDigest": "sha256:7829f947933744d722899cd7204234ac636cf3ec0eea374c14d54662b13d536f"
+    },
+    {
+      "schemaVersion": 1,
+      "kind": "psn-mapping-candidate",
+      "candidateId": "psn:UP4497-PPSA03974_00-0000000000000CP1",
+      "catalogAction": "add_platform_mapping",
+      "slug": "cyberpunk-2077",
+      "title": "Cyberpunk 2077",
+      "psnProductId": "UP4497-PPSA03974_00-0000000000000CP1",
+      "psnConceptId": null,
+      "psnEdition": "standard",
+      "platforms": [
+        "ps4",
+        "ps5"
+      ],
+      "evidence": {
+        "kind": "psn-official-product-verification",
+        "sourceUrl": "https://store.playstation.com/en-us/product/UP4497-PPSA03974_00-0000000000000CP1",
+        "finalUrl": "https://store.playstation.com/en-us/product/UP4497-PPSA03974_00-0000000000000CP1",
+        "observedAt": "2026-07-18T15:27:24.311Z",
+        "expiresAt": "2026-07-25T15:27:24.311Z",
+        "productId": "UP4497-PPSA03974_00-0000000000000CP1",
+        "conceptId": null,
+        "matchedTitle": "Cyberpunk 2077",
+        "edition": "standard",
+        "skuId": "UP4497-PPSA03974_00-0000000000000CP1-U001",
+        "platforms": [
+          "ps4",
+          "ps5"
+        ],
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 19.99,
+          "list": 49.99,
+          "discountPct": 60,
+          "saleEndsAt": "2026-07-30T06:59:00.000Z"
+        },
+        "psPlusOfferExcluded": false,
+        "excludedTrials": 1,
+        "discovery": {
+          "kind": "psn-official-search-result",
+          "sourceUrl": "https://store.playstation.com/en-us/search/Cyberpunk%202077",
+          "finalUrl": "https://store.playstation.com/en-us/search/Cyberpunk%202077",
+          "queryTitle": "Cyberpunk 2077",
+          "matchedTitle": "Cyberpunk 2077",
+          "productId": "UP4497-PPSA03974_00-0000000000000CP1",
+          "rank": 0,
+          "pageDigest": "sha256:709b05c044d8999138563348e4833dafdb7568ee903c89c18dea7fc0baced4be"
+        },
+        "evidenceDigest": "sha256:f4555dac5292572ee058452489352035641d09e4745cf02c731ab72894ac0786"
+      },
+      "evidenceDigest": "sha256:f4555dac5292572ee058452489352035641d09e4745cf02c731ab72894ac0786"
+    },
+    {
+      "schemaVersion": 1,
+      "kind": "psn-mapping-candidate",
+      "candidateId": "psn:UP0177-PPSA10872_00-APPLICATION00000",
+      "catalogAction": "add_platform_mapping",
+      "slug": "persona-3-reload",
+      "title": "Persona 3 Reload",
+      "psnProductId": "UP0177-PPSA10872_00-APPLICATION00000",
+      "psnConceptId": "10001555",
+      "psnEdition": "standard",
+      "platforms": [
+        "ps4",
+        "ps5"
+      ],
+      "evidence": {
+        "kind": "psn-official-product-verification",
+        "sourceUrl": "https://store.playstation.com/en-us/product/UP0177-PPSA10872_00-APPLICATION00000",
+        "finalUrl": "https://store.playstation.com/en-us/product/UP0177-PPSA10872_00-APPLICATION00000",
+        "observedAt": "2026-07-18T15:27:24.311Z",
+        "expiresAt": "2026-07-25T15:27:24.311Z",
+        "productId": "UP0177-PPSA10872_00-APPLICATION00000",
+        "conceptId": "10001555",
+        "matchedTitle": "Persona 3 Reload PS4 & PS5",
+        "edition": "standard",
+        "skuId": "UP0177-PPSA10872_00-APPLICATION00000-U002",
+        "platforms": [
+          "ps4",
+          "ps5"
+        ],
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 20.99,
+          "list": 59.99,
+          "discountPct": 65,
+          "saleEndsAt": "2026-07-30T06:59:00.000Z"
+        },
+        "psPlusOfferExcluded": false,
+        "excludedTrials": 0,
+        "discovery": {
+          "kind": "psn-official-search-result",
+          "sourceUrl": "https://store.playstation.com/en-us/search/Persona%203%20Reload",
+          "finalUrl": "https://store.playstation.com/en-us/search/Persona%203%20Reload",
+          "queryTitle": "Persona 3 Reload",
+          "matchedTitle": "Persona 3 Reload PS4 & PS5",
+          "productId": "UP0177-PPSA10872_00-APPLICATION00000",
+          "rank": 0,
+          "pageDigest": "sha256:25e562d06325faa0c5096bfadd5e455a20dc0b2c967199ea1c314a30a7f884b3"
+        },
+        "evidenceDigest": "sha256:005ba489cf428efe05091a50244da0be03be0c59057fa1b1d1176ed36aaae4a0"
+      },
+      "evidenceDigest": "sha256:005ba489cf428efe05091a50244da0be03be0c59057fa1b1d1176ed36aaae4a0"
+    },
+    {
+      "schemaVersion": 1,
+      "kind": "psn-mapping-candidate",
+      "candidateId": "psn:UP0177-PPSA20800_00-METAPHORNA000001",
+      "catalogAction": "add_platform_mapping",
+      "slug": "metaphor-refantazio",
+      "title": "Metaphor: ReFantazio",
+      "psnProductId": "UP0177-PPSA20800_00-METAPHORNA000001",
+      "psnConceptId": "10001029",
+      "psnEdition": "standard",
+      "platforms": [
+        "ps4",
+        "ps5"
+      ],
+      "evidence": {
+        "kind": "psn-official-product-verification",
+        "sourceUrl": "https://store.playstation.com/en-us/product/UP0177-PPSA20800_00-METAPHORNA000001",
+        "finalUrl": "https://store.playstation.com/en-us/product/UP0177-PPSA20800_00-METAPHORNA000001",
+        "observedAt": "2026-07-18T15:27:24.311Z",
+        "expiresAt": "2026-07-25T15:27:24.311Z",
+        "productId": "UP0177-PPSA20800_00-METAPHORNA000001",
+        "conceptId": "10001029",
+        "matchedTitle": "Metaphor: ReFantazio PS4 & PS5",
+        "edition": "standard",
+        "skuId": "UP0177-PPSA20800_00-METAPHORNA000001-U002",
+        "platforms": [
+          "ps4",
+          "ps5"
+        ],
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 27.99,
+          "list": 69.99,
+          "discountPct": 60,
+          "saleEndsAt": "2026-07-30T06:59:00.000Z"
+        },
+        "psPlusOfferExcluded": false,
+        "excludedTrials": 1,
+        "discovery": {
+          "kind": "psn-official-search-result",
+          "sourceUrl": "https://store.playstation.com/en-us/search/Metaphor%3A%20ReFantazio",
+          "finalUrl": "https://store.playstation.com/en-us/search/Metaphor%3A%20ReFantazio",
+          "queryTitle": "Metaphor: ReFantazio",
+          "matchedTitle": "Metaphor: ReFantazio PS4 & PS5",
+          "productId": "UP0177-PPSA20800_00-METAPHORNA000001",
+          "rank": 1,
+          "pageDigest": "sha256:7200dd3911fc88ed6a4c89054774f78754928ccedaf28118aa6ad3b6b1e9cbe4"
+        },
+        "evidenceDigest": "sha256:d1e8df445fc2aad636c91671e8d1737835ce664f9b6f6334a2e760bb2ae96b66"
+      },
+      "evidenceDigest": "sha256:d1e8df445fc2aad636c91671e8d1737835ce664f9b6f6334a2e760bb2ae96b66"
+    },
+    {
+      "schemaVersion": 1,
+      "kind": "psn-mapping-candidate",
+      "candidateId": "psn:UP3639-PPSA21401_00-0767712965312971",
+      "catalogAction": "add_platform_mapping",
+      "slug": "balatro",
+      "title": "Balatro",
+      "psnProductId": "UP3639-PPSA21401_00-0767712965312971",
+      "psnConceptId": "10010334",
+      "psnEdition": "standard",
+      "platforms": [
+        "ps4",
+        "ps5"
+      ],
+      "evidence": {
+        "kind": "psn-official-product-verification",
+        "sourceUrl": "https://store.playstation.com/en-us/product/UP3639-PPSA21401_00-0767712965312971",
+        "finalUrl": "https://store.playstation.com/en-us/product/UP3639-PPSA21401_00-0767712965312971",
+        "observedAt": "2026-07-18T15:27:24.311Z",
+        "expiresAt": "2026-07-25T15:27:24.311Z",
+        "productId": "UP3639-PPSA21401_00-0767712965312971",
+        "conceptId": "10010334",
+        "matchedTitle": "Balatro",
+        "edition": "standard",
+        "skuId": "UP3639-PPSA21401_00-0767712965312971-U002",
+        "platforms": [
+          "ps4",
+          "ps5"
+        ],
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 12.74,
+          "list": 14.99,
+          "discountPct": 15,
+          "saleEndsAt": "2026-07-30T06:59:00.000Z"
+        },
+        "psPlusOfferExcluded": false,
+        "excludedTrials": 0,
+        "discovery": {
+          "kind": "psn-official-search-result",
+          "sourceUrl": "https://store.playstation.com/en-us/search/Balatro",
+          "finalUrl": "https://store.playstation.com/en-us/search/Balatro",
+          "queryTitle": "Balatro",
+          "matchedTitle": "Balatro",
+          "productId": "UP3639-PPSA21401_00-0767712965312971",
+          "rank": 0,
+          "pageDigest": "sha256:19255757227cc4de6d6d98f0dbe9bea46f1b7b034111df977be84971212073c2"
+        },
+        "evidenceDigest": "sha256:4a20aa869647a47deca1967659de23e4c6785b08646d9eac7f0679970cb7eb5c"
+      },
+      "evidenceDigest": "sha256:4a20aa869647a47deca1967659de23e4c6785b08646d9eac7f0679970cb7eb5c"
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "slug": "elden-ring",
+      "reason": "no_standard_public_paid_product"
+    },
+    {
+      "slug": "red-dead-redemption-2",
+      "reason": "no_standard_public_paid_product"
+    },
+    {
+      "slug": "dead-by-daylight",
+      "reason": "no_standard_public_paid_product"
+    },
+    {
+      "slug": "monster-hunter-wilds",
+      "reason": "no_standard_public_paid_product"
+    },
+    {
+      "slug": "clair-obscur-expedition-33",
+      "reason": "no_standard_public_paid_product"
+    },
+    {
+      "slug": "god-of-war-ragnarok",
+      "reason": "circuit_open_unrequested"
+    },
+    {
+      "slug": "helldivers-2",
+      "reason": "circuit_open_unrequested"
+    }
+  ],
+  "documentDigest": "sha256:9ab7210bfdd476e341a50cd1d1cfee1a21c835e6e6be19a84e09f6b90f7313da"
+}

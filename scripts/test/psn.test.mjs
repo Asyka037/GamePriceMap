@@ -90,7 +90,7 @@ function parse(sampleName) {
     productId: sample.productId,
     expectedTitle: sample.title,
     edition: 'standard',
-    finalUrl: `${sample.sourceUrl}/?tracking=ignored`,
+    finalUrl: sample.sourceUrl,
   }, NOW);
 }
 
@@ -169,6 +169,9 @@ test('parser fails closed on redirect, identity, edition, classification and off
   };
   assert.equal(parsePsnNextData(nextData, { ...mapping, finalUrl: null }, NOW), null);
   assert.equal(parsePsnNextData(nextData, { ...mapping, finalUrl: 'https://store.playstation.com/en-us/' }, NOW), null);
+  assert.equal(parsePsnNextData(nextData, { ...mapping, finalUrl: `${sample.sourceUrl}?tracking=1` }, NOW), null);
+  assert.equal(parsePsnNextData(nextData, { ...mapping, finalUrl: `${sample.sourceUrl}#offer` }, NOW), null);
+  assert.equal(parsePsnNextData(nextData, { ...mapping, finalUrl: sample.sourceUrl.replace('https://', 'https://user@') }, NOW), null);
   assert.equal(parsePsnNextData(nextData, { ...mapping, expectedTitle: 'ASTRO BOT 2' }, NOW), null);
   assert.equal(parsePsnNextData(nextData, { ...mapping, edition: 'deluxe' }, NOW), null);
 
@@ -271,6 +274,26 @@ test('bounded official variants allow a blank single-edition marker and null cas
     edition: 'standard',
     finalUrl: experiment.sourceUrl,
   }, NOW), null, 'experiment-qualified price is not guaranteed public to everyone');
+});
+
+test('a live Base Game label without edition.type is standard, but other named editions fail closed', () => {
+  const sample = structuredClone(fixture.samples.publicSale);
+  sample.edition = { name: 'Base Game' };
+  const accepted = parsePsnProductPage(htmlFor(sample), {
+    productId: sample.productId,
+    expectedTitle: sample.title,
+    edition: 'standard',
+    finalUrl: sample.sourceUrl,
+  }, NOW);
+  assert.equal(accepted?.productId, sample.productId);
+
+  sample.edition = { name: 'Digital Deluxe Edition' };
+  assert.equal(parsePsnProductPage(htmlFor(sample), {
+    productId: sample.productId,
+    expectedTitle: sample.title,
+    edition: 'standard',
+    finalUrl: sample.sourceUrl,
+  }, NOW), null);
 });
 
 test('__NEXT_DATA__ extraction rejects malformed or missing JSON scripts', () => {

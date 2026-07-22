@@ -90,6 +90,41 @@ function psnBatch(root, id = 'psn-test-0001') {
   });
 }
 
+function xboxBatch(root, id = 'xbox-test-0001') {
+  writeJson(root, 'data/catalog.json', { games: [{
+    slug: 'existing-game',
+    title: 'Existing Game',
+    steamAppId: 111,
+    nsuids: null,
+    platforms: ['pc', 'xbox'],
+    tier: 'core',
+    addedAt: '2026-07-08',
+  }] });
+  git(root, ['add', 'data/catalog.json']);
+  git(root, ['commit', '--no-gpg-sign', '-m', 'add Xbox mapping target']);
+  return createBatchPlan({
+    batchId: id,
+    baseCommit: headCommit(root),
+    branch: 'main',
+    addedAt: '2026-07-22',
+    approvalPolicy: 'v2-auto-approve',
+    items: [{
+      key: 'xbox:BNG91PT95LQN',
+      catalogAction: 'add_platform_mapping',
+      slug: 'existing-game',
+      title: 'Existing Game',
+      steamAppId: null,
+      nsuids: null,
+      xboxBigId: 'BNG91PT95LQN',
+      xboxEdition: 'standard',
+      platforms: ['xbox'],
+      evidenceDigest: sha256('xbox evidence'),
+      humanDecisionDigest: sha256('xbox approved'),
+      verifiedAt: '2026-07-22T00:00:00Z',
+    }],
+  });
+}
+
 function fakeRuntime({ failAt = null } = {}) {
   let failed = false;
   return {
@@ -129,6 +164,12 @@ function fakePsnRuntime(executed = []) {
       if (step === 'psn') writeJson(worktree, `data/snapshots/psn/${slug}.json`, {
         slug, regions: [{ cc: 'US', currency: 'USD', amount: 59.99, list: null, discountPct: null, saleEndsAt: null }],
       });
+      if (step === 'psn') writeJson(worktree, 'data/seeds/psn-us-request-budget.json', {
+        schemaVersion: 1,
+        days: {
+          '2026-07-18': { pageRequests: 1, lastRequestedAt: '2026-07-18T00:00:00.000Z' },
+        },
+      });
       if (step === 'meta') writeJson(worktree, `data/meta/${slug}.json`, {
         slug, name: 'Existing Game', headerImage: 'https://example.com/cover.jpg', genres: ['Action'], reviewCount: 10,
       });
@@ -136,6 +177,28 @@ function fakePsnRuntime(executed = []) {
         slug, events: [{ d: '2026-07-18', ch: 'psn', cc: 'US', usd: 59.99 }], atl: { 'psn-us': { usd: 59.99, date: '2026-07-18', seed: 'self' } },
       });
       if (step === 'validate') writeJson(worktree, 'data/health.json', { updatedAt: '2026-07-18T00:00:00Z', games: 1, sources: {} });
+    },
+  };
+}
+
+function fakeXboxRuntime(executed = []) {
+  return {
+    linkDependencies() {},
+    executeStep(step, worktree, plan, logFile) {
+      executed.push(step);
+      fs.mkdirSync(path.dirname(logFile), { recursive: true });
+      fs.writeFileSync(logFile, `${step}\n`);
+      const slug = plan.items[0].slug;
+      if (step === 'xbox') writeJson(worktree, `data/snapshots/xbox/${slug}.json`, {
+        slug, regions: [{ cc: 'US', currency: 'USD', amount: 19.99, list: null, discountPct: null, saleEndsAt: null }],
+      });
+      if (step === 'meta') writeJson(worktree, `data/meta/${slug}.json`, {
+        slug, name: 'Existing Game', headerImage: 'https://example.com/cover.jpg', genres: ['Action'], reviewCount: 10,
+      });
+      if (step === 'history') writeJson(worktree, `data/history/${slug}.json`, {
+        slug, events: [{ d: '2026-07-22', ch: 'xbox', cc: 'US', usd: 19.99 }], atl: { 'xbox-us': { usd: 19.99, date: '2026-07-22', seed: 'self' } },
+      });
+      if (step === 'validate') writeJson(worktree, 'data/health.json', { updatedAt: '2026-07-22T00:00:00Z', games: 1, sources: {} });
     },
   };
 }
@@ -190,10 +253,30 @@ test('PSN has a dedicated staged snapshot step and direct orchestration is autho
     runtime: fakePsnRuntime(executed),
   });
   assert.equal(applied.state, 'applied');
-  assert.deepEqual(executed, ['steam', 'eshop', 'psn', 'meta', 'history', 'test', 'validate', 'build']);
+  assert.deepEqual(executed, ['steam', 'eshop', 'xbox', 'psn', 'meta', 'history', 'test', 'validate', 'build']);
   const catalog = readJsonFile(path.join(root, 'data/catalog.json'));
   assert.equal(catalog.games[0].psnProductId, 'UP0700-PPSA04610_00-ELDENRING0000000');
   assert.equal(fs.existsSync(path.join(root, 'data/snapshots/psn/existing-game.json')), true);
+  assert.equal(readJsonFile(path.join(root, 'data/seeds/psn-us-request-budget.json'))
+    .days['2026-07-18'].pageRequests, 1, 'PSN physical-request ledger survives staging and promotion');
+});
+
+test('Xbox has a dedicated transactional mapping and snapshot step', () => {
+  const root = initRepo();
+  const plan = xboxBatch(root);
+  const stateRoot = path.join(root, 'private', 'game-library', 'import');
+  const executed = [];
+  const applied = startImportRun(root, plan, {
+    stateRoot,
+    runId: 'xbox-test-0001-run',
+    runtime: fakeXboxRuntime(executed),
+  });
+  assert.equal(applied.state, 'applied');
+  assert.deepEqual(executed, ['steam', 'eshop', 'xbox', 'psn', 'meta', 'history', 'test', 'validate', 'build']);
+  const catalog = readJsonFile(path.join(root, 'data/catalog.json'));
+  assert.equal(catalog.games[0].xboxBigId, 'BNG91PT95LQN');
+  assert.equal(catalog.games[0].xboxEdition, 'standard');
+  assert.equal(fs.existsSync(path.join(root, 'data/snapshots/xbox/existing-game.json')), true);
 });
 
 test('injected network failure pauses with main unchanged and resume starts from the checkpoint', () => {
@@ -213,6 +296,32 @@ test('injected network failure pauses with main unchanged and resume starts from
   const resumed = resumeImportRun(root, runId, { stateRoot, runtime: fakeRuntime() });
   assert.equal(resumed.state, 'applied');
   assert.notEqual(headCommit(root), base);
+});
+
+test('admission-day invariant is rechecked under the promotion lock and blocks fast-forward', () => {
+  const root = initRepo();
+  const plan = batch(root, 'steam-test-admission-guard');
+  const base = headCommit(root);
+  const stateRoot = path.join(root, 'private', 'game-library', 'import');
+  const runId = 'steam-test-admission-guard-run';
+  let blocked = true;
+  const runtime = {
+    ...fakeRuntime(),
+    assertAdmissionDayAvailable() {
+      if (!blocked) return;
+      const error = new Error('another admission already used this day');
+      error.code = 'ADMISSION_DAY_OCCUPIED';
+      throw error;
+    },
+  };
+  assert.throws(() => startImportRun(root, plan, {
+    stateRoot,
+    runId,
+    runtime,
+  }), { code: 'ADMISSION_DAY_OCCUPIED' });
+  assert.equal(headCommit(root), base);
+  assert.equal(readJsonFile(path.join(stateRoot, 'runs', runId, 'manifest.json')).state, 'failed');
+  assert.equal(abortImportRun(root, runId, { stateRoot, runtime }).state, 'aborted');
 });
 
 test('forged working-tree and tracked receipts never authorize an idempotent no-op', () => {
@@ -455,6 +564,6 @@ test('tampered checkpoint and sealed commits are audited before execution or pro
 });
 
 test('every built-in subprocess step has a finite explicit timeout', () => {
-  assert.deepEqual(Object.keys(STEP_TIMEOUT_MS).sort(), ['build', 'eshop', 'history', 'meta', 'psn', 'steam', 'test', 'validate']);
+  assert.deepEqual(Object.keys(STEP_TIMEOUT_MS).sort(), ['build', 'eshop', 'history', 'meta', 'psn', 'steam', 'test', 'validate', 'xbox']);
   assert.equal(Object.values(STEP_TIMEOUT_MS).every((value) => Number.isFinite(value) && value > 0), true);
 });

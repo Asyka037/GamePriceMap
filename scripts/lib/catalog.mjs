@@ -1,5 +1,6 @@
 import { normTitle } from './match.mjs';
 import { validPsnProductId } from './psn.mjs';
+import { validXboxBigId } from './xbox.mjs';
 
 const ALLOWED_PLATFORMS = new Set(['pc', 'ps4', 'ps5', 'xbox', 'switch', 'switch-2', 'mobile']);
 const NSUID_GROUPS = ['americas', 'europe', 'japan'];
@@ -41,6 +42,14 @@ export function validateCatalogGame(game) {
   if (game.psnEdition != null && game.psnProductId == null) throw new Error(`${label}: psnEdition requires psnProductId`);
   if (game.psnConceptId != null && !/^\d{8}$/.test(game.psnConceptId)) throw new Error(`${label}: bad psnConceptId`);
   if (game.psnConceptId != null && game.psnProductId == null) throw new Error(`${label}: psnConceptId requires psnProductId`);
+  if (game.xboxBigId != null && !validXboxBigId(game.xboxBigId)) throw new Error(`${label}: bad xboxBigId`);
+  if (game.xboxBigId != null && game.xboxEdition !== 'standard') {
+    throw new Error(`${label}: Xbox mapping requires xboxEdition "standard"`);
+  }
+  if (game.xboxBigId != null && !game.platforms.includes('xbox')) {
+    throw new Error(`${label}: Xbox mapping requires xbox platform`);
+  }
+  if (game.xboxEdition != null && game.xboxBigId == null) throw new Error(`${label}: xboxEdition requires xboxBigId`);
   if (game.nsuids != null) {
     if (typeof game.nsuids !== 'object' || Array.isArray(game.nsuids)) throw new Error(`${label}: bad nsuids object`);
     for (const group of Object.keys(game.nsuids)) {
@@ -80,6 +89,7 @@ export function catalogIndexes(catalog) {
   const byNsuid = new Map();
   const byPsnProductId = new Map();
   const byPsnConceptId = new Map();
+  const byXboxBigId = new Map();
   for (const game of catalog.games) {
     validateCatalogGame(game);
     if (bySlug.has(game.slug)) throw new Error(`duplicate catalog slug ${game.slug}`);
@@ -96,6 +106,10 @@ export function catalogIndexes(catalog) {
       if (byPsnConceptId.has(game.psnConceptId)) throw new Error(`duplicate PSN concept ID ${game.psnConceptId}`);
       byPsnConceptId.set(game.psnConceptId, game.slug);
     }
+    if (game.xboxBigId) {
+      if (byXboxBigId.has(game.xboxBigId)) throw new Error(`duplicate Xbox BigID ${game.xboxBigId}`);
+      byXboxBigId.set(game.xboxBigId, game.slug);
+    }
     for (const id of Object.values(game.nsuids ?? {}).filter(Boolean).map(String)) {
       if (byNsuid.has(id)) throw new Error(`duplicate Nintendo NSUID ${id}`);
       byNsuid.set(id, game.slug);
@@ -104,7 +118,7 @@ export function catalogIndexes(catalog) {
   if (byPsnProductId.size > PSN_POC_GAME_LIMIT) {
     throw new Error(`PSN POC has ${byPsnProductId.size} games (limit ${PSN_POC_GAME_LIMIT} before two stable weekly runs)`);
   }
-  return { bySlug, bySteamAppId, byNsuid, byPsnProductId, byPsnConceptId };
+  return { bySlug, bySteamAppId, byNsuid, byPsnProductId, byPsnConceptId, byXboxBigId };
 }
 
 function itemFields(item, addedAt) {
@@ -126,6 +140,10 @@ function itemFields(item, addedAt) {
     game.psnConceptId = item.psnConceptId ?? null;
     game.psnEdition = item.psnEdition;
   }
+  if (item.xboxBigId) {
+    game.xboxBigId = item.xboxBigId;
+    game.xboxEdition = item.xboxEdition;
+  }
   return game;
 }
 
@@ -138,10 +156,12 @@ export function applyBatchToCatalog(catalog, plan) {
     const nsuidOwners = [...new Set(Object.values(item.nsuids ?? {}).filter(Boolean).map(String).map((id) => indexes.byNsuid.get(id)).filter(Boolean))];
     const psnProductOwner = item.psnProductId ? indexes.byPsnProductId.get(item.psnProductId) : null;
     const psnConceptOwner = item.psnConceptId ? indexes.byPsnConceptId.get(item.psnConceptId) : null;
+    const xboxOwner = item.xboxBigId ? indexes.byXboxBigId.get(item.xboxBigId) : null;
     if (steamOwner && steamOwner !== item.slug) throw new Error(`${item.key}: Steam AppID already belongs to ${steamOwner}`);
     if (nsuidOwners.some((owner) => owner !== item.slug)) throw new Error(`${item.key}: NSUID already belongs to ${nsuidOwners.join(', ')}`);
     if (psnProductOwner) throw new Error(`${item.key}: PSN Product ID already belongs to ${psnProductOwner}`);
     if (psnConceptOwner) throw new Error(`${item.key}: PSN Concept ID already belongs to ${psnConceptOwner}`);
+    if (xboxOwner) throw new Error(`${item.key}: Xbox BigID already belongs to ${xboxOwner}`);
 
     if (item.catalogAction === 'new_game') {
       if (indexes.bySlug.has(item.slug)) throw new Error(`${item.key}: slug already exists`);
@@ -169,6 +189,9 @@ export function applyBatchToCatalog(catalog, plan) {
         && (existing.psnProductId != null || existing.psnConceptId != null || existing.psnEdition != null)) {
         throw new Error(`${item.key}: refuses to replace or duplicate an existing PSN identity`);
       }
+      if (item.xboxBigId && (existing.xboxBigId != null || existing.xboxEdition != null)) {
+        throw new Error(`${item.key}: refuses to replace or duplicate an existing Xbox identity`);
+      }
       const incomingNintendoPlatforms = item.platforms.filter((platform) => platform === 'switch' || platform === 'switch-2');
       const existingNintendoPlatforms = existing.platforms.filter((platform) => platform === 'switch' || platform === 'switch-2');
       if (hasNsuid(item.nsuids) && existingNintendoPlatforms.length > 0) {
@@ -186,6 +209,10 @@ export function applyBatchToCatalog(catalog, plan) {
         existing.psnConceptId = item.psnConceptId ?? null;
         existing.psnEdition = item.psnEdition;
       }
+      if (item.xboxBigId) {
+        existing.xboxBigId = item.xboxBigId;
+        existing.xboxEdition = item.xboxEdition;
+      }
       validateCatalogGame(existing);
     }
 
@@ -195,6 +222,7 @@ export function applyBatchToCatalog(catalog, plan) {
     indexes.byNsuid = refreshed.byNsuid;
     indexes.byPsnProductId = refreshed.byPsnProductId;
     indexes.byPsnConceptId = refreshed.byPsnConceptId;
+    indexes.byXboxBigId = refreshed.byXboxBigId;
   }
   return next;
 }
@@ -205,6 +233,7 @@ export function expectedImportArtifacts(plan) {
     if (Number.isInteger(item.steamAppId)) files.add(`data/snapshots/steam/${item.slug}.json`);
     if (hasNsuid(item.nsuids)) files.add(`data/snapshots/eshop/${item.slug}.json`);
     if (item.psnProductId) files.add(`data/snapshots/psn/${item.slug}.json`);
+    if (item.xboxBigId) files.add(`data/snapshots/xbox/${item.slug}.json`);
     files.add(`data/meta/${item.slug}.json`);
     files.add(`data/history/${item.slug}.json`);
   }
@@ -214,6 +243,9 @@ export function expectedImportArtifacts(plan) {
 export function importAllowlist(plan) {
   return [
     ...expectedImportArtifacts(plan),
+    ...(plan.items.some((item) => item.psnProductId)
+      ? ['data/seeds/psn-us-request-budget.json']
+      : []),
     'data/health.json',
     'data/rates/usd.json',
   ];

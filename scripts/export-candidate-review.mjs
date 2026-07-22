@@ -67,6 +67,8 @@ export function buildReviewRows(candidates) {
     'NSUID AM': candidate.nsuidAm ?? candidate.nsuidAM ?? '',
     'NSUID EU': candidate.nsuidEu ?? candidate.nsuidEU ?? '',
     'NSUID JP': candidate.nsuidJp ?? candidate.nsuidJP ?? '',
+    'Xbox BigID': candidate.xboxBigId ?? '',
+    'Xbox Edition': candidate.xboxEdition ?? '',
     'PSN Product ID': candidate.psnProductId ?? '',
     'PSN Concept ID': candidate.psnConceptId ?? '',
     'PSN Edition': candidate.psnEdition ?? '',
@@ -128,6 +130,7 @@ export function exportReviewArtifacts({
   ];
   const reviewHeaders = [
     'candidateId', '游戏名(EN)', 'Steam AppID', 'NSUID AM', 'NSUID EU', 'NSUID JP',
+    'Xbox BigID', 'Xbox Edition',
     'PSN Product ID', 'PSN Concept ID', 'PSN Edition',
     '来源排名', '来源链接', 'evidenceDigest', 'humanDecision', 'verifyStatus',
     'applyStatus', '异常原因',

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "kind": "xbox-weekly-stability",
+  "sourceKey": "xbox-us",
+  "generatedAt": "2026-07-22T02:08:02.989Z",
+  "successes": [
+    {
+      "lastSuccessAt": "2026-07-13T12:07:55.170Z",
+      "expected": 14,
+      "changed": 0,
+      "unchanged": 14,
+      "failedProducts": 0,
+      "failedRequests": 0
+    },
+    {
+      "lastSuccessAt": "2026-07-22T02:08:02.989Z",
+      "expected": 14,
+      "changed": 3,
+      "unchanged": 11,
+      "failedProducts": 0,
+      "failedRequests": 0
+    }
+  ],
+  "documentDigest": "sha256:7c0bf20b3981d4ab4ac99698ce87260e29aa3ae1ad885b12b14645e167600fcb"
+}

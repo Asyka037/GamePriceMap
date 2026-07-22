@@ -6,11 +6,21 @@
  * paid offer. A purchasable price MUST come from a current positive-price
  * availability whose Actions include Purchase, never from the cheapest row.
  */
-import { titleMatches } from './match.mjs';
+import { normTitle } from './match.mjs';
 import { round2 } from './snapshot.mjs';
 
 export const XBOX_BATCH_SIZE = 20;
 const BASE = 'https://displaycatalog.mp.microsoft.com/v7.0';
+
+export function validXboxBigId(value) {
+  return typeof value === 'string' && /^[A-Z0-9]{12}$/u.test(value);
+}
+
+export function exactXboxTitle(left, right) {
+  const a = normTitle(left);
+  const b = normTitle(right);
+  return Boolean(a && b && a === b);
+}
 
 export function xboxSuggestUrl(title) {
   const q = new URLSearchParams({
@@ -39,7 +49,7 @@ export function parseXboxSuggestion(body, wantedTitle) {
   const matches = (body?.Results ?? [])
     .flatMap((group) => group?.Products ?? [])
     .filter((p) => p?.Type === 'Game' && /^[A-Z0-9]{12}$/i.test(p.ProductId ?? ''))
-    .filter((p) => titleMatches(p.Title, wantedTitle));
+    .filter((p) => exactXboxTitle(p.Title, wantedTitle));
   const unique = [...new Map(matches.map((p) => [p.ProductId.toUpperCase(), p])).values()];
   if (unique.length !== 1) return null;
   const p = unique[0];
@@ -70,14 +80,14 @@ export function parseXboxProduct(body, { bigId, expectedTitle, edition = 'standa
   if (edition !== 'standard') return null; // POC deliberately supports one edition only
   const product = (body?.Products ?? []).find((p) => String(p?.ProductId).toUpperCase() === String(bigId).toUpperCase());
   const productTitle = product?.LocalizedProperties?.[0]?.ProductTitle;
-  if (!product || product.ProductKind !== 'Game' || !titleMatches(productTitle, expectedTitle)) return null;
+  if (!product || product.ProductKind !== 'Game' || !exactXboxTitle(productTitle, expectedTitle)) return null;
 
   const offers = [];
   for (const display of product.DisplaySkuAvailabilities ?? []) {
     const sku = display?.Sku;
     const skuTitle = sku?.LocalizedProperties?.[0]?.SkuTitle;
     if (sku?.SkuType !== 'full' || sku?.Properties?.IsTrial || sku?.Properties?.IsBundle) continue;
-    if (!titleMatches(skuTitle, expectedTitle)) continue;
+    if (!exactXboxTitle(skuTitle, expectedTitle)) continue;
     for (const availability of display?.Availabilities ?? []) {
       if (!currentAvailability(availability, now)) continue;
       const price = availability?.OrderManagementData?.Price;

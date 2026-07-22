@@ -36,7 +36,7 @@ const showcase = ['hollow-knight-silksong', 'elden-ring', 'stardew-valley', 'cyb
 const regionRows = regionGapBoard(bundles, 3);
 const atlRows = atlBoard(bundles, 3);
 const hotRows = hotDealsBoard(bundles, 3);
-const dealChannelLabels: Record<string, string> = { steam: 'Steam', eshop: 'eShop', xbox: 'Xbox', psn: 'PSN' };
+const dealChannelLabels: Record<string, string> = { steam: 'Steam', eshop: 'eShop', psn: 'PSN' };
 const steamRegionalPopular = popularRegionalCards(bundles, 'steam', 4);
 const eshopRegionalPopular = popularRegionalCards(bundles, 'eshop', 4, steamRegionalPopular.map((card) => card.slug));
 

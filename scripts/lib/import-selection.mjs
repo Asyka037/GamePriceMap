@@ -127,6 +127,8 @@ export function candidateFromBatchItem(item) {
     psnProductId: item.psnProductId,
     psnConceptId: item.psnConceptId,
     psnEdition: item.psnEdition,
+    xboxBigId: item.xboxBigId,
+    xboxEdition: item.xboxEdition,
     primaryRegionalChannel: item.primaryRegionalChannel,
     evidenceDigest: item.evidenceDigest,
     humanDecision: '批准',

@@ -5,6 +5,8 @@ import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import {
+  assertAdmissionDayAvailable,
+  assertAdmissionReceiptDay,
   executeImportCommand,
   parseImportArgs,
   runImportCli,
@@ -133,6 +135,48 @@ test('strict parser rejects raw --plan bypass, unknown/missing options, and mixe
     }],
   });
   assert.throws(() => validateCandidateSourceDocument(forged), /candidate|slugHint|catalog action/iu);
+});
+
+test('catalog admission guard allows one distinct batch per Tokyo calendar day', () => {
+  const { root } = tempPaths();
+  const receipts = path.join(root, 'data', 'imports');
+  fs.mkdirSync(receipts, { recursive: true });
+  fs.writeFileSync(path.join(receipts, 'nintendo.json'), `${JSON.stringify({
+    batchId: 'nintendo-wave',
+    batchDigest: `sha256:${'a'.repeat(64)}`,
+    appliedAt: '2026-07-18T15:03:57.612Z',
+  })}\n`);
+  try {
+    assert.throws(
+      () => assertAdmissionDayAvailable(root, { batchId: 'psn-wave' }, new Date('2026-07-18T15:30:00.000Z')),
+      { code: 'ADMISSION_DAY_OCCUPIED' },
+    );
+    assert.doesNotThrow(
+      () => assertAdmissionDayAvailable(root, {
+        batchId: 'nintendo-wave', batchDigest: `sha256:${'a'.repeat(64)}`,
+      }, new Date('2026-07-18T15:30:00.000Z')),
+    );
+    assert.throws(
+      () => assertAdmissionDayAvailable(root, {
+        batchId: 'nintendo-wave', batchDigest: `sha256:${'b'.repeat(64)}`,
+      }, new Date('2026-07-18T15:30:00.000Z')),
+      { code: 'BATCH_ID_REUSED' },
+    );
+    assert.doesNotThrow(
+      () => assertAdmissionDayAvailable(root, { batchId: 'psn-wave' }, new Date('2026-07-19T15:00:00.000Z')),
+    );
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test('sealed receipt day must equal the actual Tokyo promotion day', () => {
+  const receipt = { appliedAt: '2026-07-18T14:59:59.000Z' }; // 2026-07-18 23:59:59 JST
+  assert.doesNotThrow(() => assertAdmissionReceiptDay(receipt, new Date('2026-07-18T14:59:59.999Z')));
+  assert.throws(
+    () => assertAdmissionReceiptDay(receipt, new Date('2026-07-18T15:00:00.000Z')),
+    { code: 'ADMISSION_RECEIPT_DAY_STALE' },
+  );
 });
 
 test('v2 policy verifies a pending sealed candidate without storing a workbook decision', async () => {
@@ -305,6 +349,62 @@ test('v2 apply binds the explicit policy into the immutable batch plan', async (
   });
   assert.equal(receivedPlan.approvalPolicy, 'v2-auto-approve');
   assert.equal(result.approvalPolicy, 'v2-auto-approve');
+});
+
+test('Xbox Wave 2 source requires v2 policy and projects only its mapped identity', async () => {
+  const fixture = tempPaths();
+  const xboxSource = {
+    candidateId: 'xbox:BNG91PT95LQN',
+    catalogAction: 'add_platform_mapping',
+    slug: 'monster-hunter-world',
+    title: 'Monster Hunter: World',
+    platforms: ['xbox'],
+    xboxBigId: 'BNG91PT95LQN',
+    xboxEdition: 'standard',
+    humanDecision: '待定',
+    evidenceDigest: `sha256:${'1'.repeat(64)}`,
+  };
+  const approved = {
+    ...xboxSource,
+    humanDecision: '批准',
+    sourceHumanDecision: '批准',
+    approvalPolicy: 'v2-auto-approve',
+  };
+  const verified = verifiedContext(approved, '2026-07-22T00:00:00.000Z');
+  const [pendingJoined] = joinCandidatesWithState([xboxSource], verified.state);
+  const common = {
+    root: fixture.root,
+    paths: fixture.paths,
+    clock: () => new Date('2026-07-22T02:30:00.000Z'),
+    loadContext: () => ({
+      source: { kind: 'xbox-mapping-suggestions' },
+      candidates: [pendingJoined],
+      state: verified.state,
+    }),
+    readCatalog: () => ({ games: [] }),
+    repositoryIdentity: () => ({ branch: 'main', baseCommit: BASE_COMMIT }),
+    writeState: () => {},
+    stdout: () => {},
+  };
+  await assert.rejects(() => runImportCli([
+    '--apply', '--batch', '1', '--candidate-source', 'xbox.json',
+  ], common), { code: 'XBOX_V2_POLICY_REQUIRED' });
+
+  let receivedPlan;
+  await runImportCli([
+    '--apply', '--batch', '1', '--candidate-source', 'xbox.json',
+    '--policy=v2-auto-approve', '--batch-id', 'xbox-v2-test', '--run-id', 'xbox-v2-test-run-1',
+  ], {
+    ...common,
+    startRun: (_root, plan) => { receivedPlan = plan; return { state: 'applied' }; },
+  });
+  assert.equal(receivedPlan.approvalPolicy, 'v2-auto-approve');
+  assert.equal(receivedPlan.items[0].key, 'xbox:BNG91PT95LQN');
+  assert.equal(receivedPlan.items[0].steamAppId, null);
+  assert.equal(receivedPlan.items[0].nsuids, null);
+  assert.equal(receivedPlan.items[0].xboxBigId, 'BNG91PT95LQN');
+  assert.equal(receivedPlan.items[0].xboxEdition, 'standard');
+  assert.equal(receivedPlan.items[0].psnProductId, undefined);
 });
 
 test('pilot/provisional Steam source may be reviewed but cannot generate a Phase B plan', async () => {

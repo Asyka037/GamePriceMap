@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  bestPriceNow, bestPriceFlags, overallAtl, atlFor, isLive, buyWaitVerdict, primaryRegionalSource, regionalPriceSources, regionalCardModel, regionalListingCards, popularRegionalCards, multiRegionalPriceSummary, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, trackedAtlDeals, fmtMoney, regionalPriceSummary,
+  bestPriceNow, bestPriceFlags, overallAtl, atlFor, visiblePriceHistory, isLive, buyWaitVerdict, primaryRegionalSource, regionalPriceSources, regionalCardModel, regionalListingCards, popularRegionalCards, multiRegionalPriceSummary, regionGapBoard, atlBoard, hotDealsBoard, trackedDeals, trackedAtlDeals, fmtMoney, regionalPriceSummary,
 } from '../../site/src/lib/derive.mjs';
 import { gameBundle } from '../../site/src/lib/data.mjs';
 import { regionalPriceModel } from '../../site/src/lib/regions.mjs';
@@ -30,14 +30,41 @@ test('BEST flags hide an all-store tie and include every partial low-price tie',
   assert.deepEqual(bestPriceFlags([19.99, 19.994, 29.99]), [true, true, false], 'half-cent rounding noise stays tied');
 });
 
-test('Xbox joins current-price and channel-specific ATL derivations', () => {
+test('Xbox remains available to the detail table but is excluded from shared price surfaces', () => {
   const b = bundle({
     xbox: { regions: [{ cc: 'US', usd: 20, discountPct: 60, rank: 1 }] },
-    history: { atl: { 'xbox-us': { usd: 20, seed: 'self' } }, events: [] },
+    history: {
+      atl: {
+        pc: { usd: 25, seed: 'cheapshark' },
+        'xbox-us': { usd: 20, seed: 'self' },
+      },
+      events: [
+        { d: '2026-07-12', ch: 'steam', cc: 'US', usd: 25 },
+        { d: '2026-07-12', ch: 'xbox', cc: 'US', usd: 20 },
+      ],
+    },
   });
-  assert.deepEqual(bestPriceNow(b), { usd: 20, channel: 'xbox' });
-  assert.equal(atlFor(b.history, 'xbox').usd, 20);
-  assert.equal(hotDealsBoard([b])[0].channel, 'xbox');
+  assert.deepEqual(bestPriceNow(b), { usd: 30, channel: 'steam' });
+  assert.equal(atlFor(b.history, 'xbox').usd, 20, 'detail comparison keeps the Xbox channel ATL');
+  assert.equal(overallAtl(b.history).usd, 25, 'hero/home ATL summaries exclude Xbox');
+  assert.notEqual(hotDealsBoard([b])[0]?.channel, 'xbox');
+  assert.deepEqual(trackedDeals([b], 'xbox'), [], 'generic listing helper cannot create an Xbox deal list');
+  assert.deepEqual(visiblePriceHistory(b.history), {
+    events: [{ d: '2026-07-12', ch: 'steam', cc: 'US', usd: 25 }],
+    atl: { pc: { usd: 25, seed: 'cheapshark' } },
+  });
+
+  const xboxOnly = bundle({
+    steam: null,
+    eshop: null,
+    psn: null,
+    xbox: b.xbox,
+    history: { atl: { 'xbox-us': { usd: 20, seed: 'self' } }, events: b.history.events.slice(1) },
+  });
+  assert.equal(bestPriceNow(xboxOnly), null);
+  assert.equal(overallAtl(xboxOnly.history), null);
+  assert.deepEqual(hotDealsBoard([xboxOnly]), []);
+  assert.deepEqual(atlBoard([xboxOnly]), []);
 });
 
 test('PSN joins public current-price/ATL derivations and ignores PS Plus annotations', () => {

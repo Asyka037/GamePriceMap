@@ -1,9 +1,9 @@
 /**
  * Verify manually selected PlayStation Store product URLs. This is not a
  * search crawler: it only visits exact en-us product URLs supplied in the
- * bounded input file and writes suggestions, never catalog.json. Because the
- * current terms prohibit automated collection generally, non-empty execution
- * also requires the explicit PSN_AUTOMATION_AUTHORIZED opt-in.
+ * bounded input file and writes suggestions, never catalog.json. The user
+ * accepted PlayStation automation risk on 2026-07-18; non-empty execution
+ * still requires the explicit PSN_AUTOMATION_AUTHORIZED accident guard.
  *
  * Usage:
  *   node scripts/verify-psn-manual-mappings.mjs [input.json]
@@ -13,11 +13,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
-  fetchText,
-  requestBudgetFor,
   setRequestBudget,
   shouldTripCircuit,
-  sleep,
 } from './lib/http.mjs';
 import {
   buildPsnMappingCandidate,
@@ -25,11 +22,14 @@ import {
   validatePsnManualInput,
 } from './lib/psn-manual-mappings.mjs';
 import { parsePsnProductPage } from './lib/psn.mjs';
+import { writePsnSuggestionDocument } from './lib/psn-suggestion-output.mjs';
+import {
+  acquirePsnUsRequestRun,
+  fetchPsnUsPage,
+} from './lib/psn-request-budget.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DEFAULT_INPUT = path.join(ROOT, 'data', 'suggestions', 'psn-manual-input.json');
-const OUTPUT = path.join(ROOT, 'data', 'suggestions', 'psn-candidates.json');
-const REQUEST_DELAY_MS = 1500;
 
 const args = process.argv.slice(2);
 const apply = args.includes('--apply');
@@ -47,56 +47,68 @@ if (validated.ready.length === 0) {
 }
 
 if (process.env.PSN_AUTOMATION_AUTHORIZED !== 'true') {
-  console.error('PSN page verification is disabled pending explicit user authorization for PlayStation automation risk.');
+  console.error('PSN page verification is authorized but disabled in this invocation: set PSN_AUTOMATION_AUTHORIZED=true only in an approved job.');
   process.exit(2);
 }
 
-setRequestBudget(requestBudgetFor(validated.ready.length));
-const candidates = [];
-const failures = [];
-let attempted = 0;
-for (const [index, entry] of validated.ready.entries()) {
-  if (shouldTripCircuit(attempted, failures.length)) {
-    for (const skipped of validated.ready.slice(index)) {
-      failures.push({ slug: skipped.slug, reason: 'circuit_open_unrequested' });
+const releaseRun = acquirePsnUsRequestRun();
+try {
+  setRequestBudget(validated.ready.length);
+  const candidates = [];
+  const failures = [];
+  let attempted = 0;
+  for (const [index, entry] of validated.ready.entries()) {
+    if (shouldTripCircuit(attempted, failures.length)) {
+      for (const skipped of validated.ready.slice(index)) {
+        failures.push({ slug: skipped.slug, reason: 'circuit_open_unrequested' });
+      }
+      break;
     }
-    break;
+    attempted++;
+    try {
+      const response = await fetchPsnUsPage(entry.canonicalUrl, {
+        label: `psn manual verify ${entry.slug}`,
+      });
+      const parsed = parsePsnProductPage(response.text, {
+        productId: entry.productId,
+        expectedTitle: entry.title,
+        edition: 'standard',
+        finalUrl: response.finalUrl,
+      });
+      if (!parsed) throw new Error('product_identity_edition_or_public_offer_failed');
+      const candidate = buildPsnMappingCandidate(entry, parsed, { finalUrl: response.finalUrl });
+      candidates.push(candidate);
+      console.log(`${entry.slug.padEnd(36)} ${candidate.psnProductId} · ${candidate.platforms.join('+')}`);
+    } catch (error) {
+      if (error?.budget || error?.code === 'psn_us_budget_locked') {
+        for (const unrequested of validated.ready.slice(index)) {
+          failures.push({ slug: unrequested.slug, reason: 'persistent_request_budget_unrequested' });
+        }
+        console.warn(`  ${entry.slug}: persistent request budget stopped verification; remaining pages unrequested`);
+        break;
+      }
+      const reason = error?.budget ? 'request_budget_exhausted'
+        : error?.status ? `http_${error.status}`
+          : error?.message === 'product_identity_edition_or_public_offer_failed'
+            ? error.message
+            : 'verification_error';
+      failures.push({ slug: entry.slug, reason });
+      console.warn(`  ${entry.slug}: ${reason}; candidate dropped`);
+    }
   }
-  attempted++;
-  try {
-    const response = await fetchText(entry.canonicalUrl, { label: `psn manual verify ${entry.slug}` });
-    const parsed = parsePsnProductPage(response.text, {
-      productId: entry.productId,
-      expectedTitle: entry.title,
-      edition: 'standard',
-      finalUrl: response.finalUrl,
-    });
-    if (!parsed) throw new Error('product_identity_edition_or_public_offer_failed');
-    const candidate = buildPsnMappingCandidate(entry, parsed, { finalUrl: response.finalUrl });
-    candidates.push(candidate);
-    console.log(`${entry.slug.padEnd(36)} ${candidate.psnProductId} · ${candidate.platforms.join('+')}`);
-  } catch (error) {
-    const reason = error?.budget ? 'request_budget_exhausted'
-      : error?.status ? `http_${error.status}`
-        : error?.message === 'product_identity_edition_or_public_offer_failed'
-          ? error.message
-          : 'verification_error';
-    failures.push({ slug: entry.slug, reason });
-    console.warn(`  ${entry.slug}: ${reason}; candidate dropped`);
-  }
-  await sleep(REQUEST_DELAY_MS);
-}
 
-const document = createPsnSuggestionDocument({
-  candidates,
-  pending: validated.pending.map((entry) => entry.slug),
-  failures,
-});
-console.log(`Verified PSN mapping candidates: ${candidates.length}/${validated.ready.length}; failures: ${failures.length}`);
-if (!apply) {
-  console.log('Dry run. Re-run with --apply to write data/suggestions/psn-candidates.json; catalog remains unchanged.');
-  process.exit(0);
+  const document = createPsnSuggestionDocument({
+    candidates,
+    pending: validated.pending.map((entry) => entry.slug),
+    failures,
+  });
+  console.log(`Verified PSN mapping candidates: ${candidates.length}/${validated.ready.length}; failures: ${failures.length}`);
+  if (!apply) {
+    console.log('Dry run. Re-run with --apply to write data/suggestions/psn-candidates.json; catalog remains unchanged.');
+  } else {
+    writePsnSuggestionDocument(document);
+    console.log(`${candidates.length} candidate(s) written to data/suggestions/psn-candidates.json; catalog unchanged.`);
+  }
+} finally {
+  releaseRun();
 }
-fs.mkdirSync(path.dirname(OUTPUT), { recursive: true });
-fs.writeFileSync(OUTPUT, JSON.stringify(document, null, 2) + '\n');
-console.log(`${candidates.length} candidate(s) written to data/suggestions/psn-candidates.json; catalog unchanged.`);

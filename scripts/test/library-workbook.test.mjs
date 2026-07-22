@@ -21,7 +21,7 @@ function grid(headers = BASE_HEADERS, data = []) {
 test('识别游戏库第 4 行现有中文表头，旧状态只作兼容人工决定', () => {
   const parsed = parseLibraryGrid(grid(BASE_HEADERS, [[
     'elden-ring', 'Elden Ring', '艾尔登法环', '已上线', 'PC / Xbox', 'Steam',
-    1245620, '', '', '', 'BIG', '既有 catalog', '', '2026-07-08', 'https://example.test', '是', '否', '是',
+    1245620, '', '', '', '9P3J32CTXLRZ', '既有 catalog', '', '2026-07-08', 'https://example.test', '是', '否', '是',
   ]]));
   assert.equal(parsed.headerRow, 4);
   assert.equal(parsed.explicitHumanDecision, false);
@@ -51,12 +51,21 @@ test('candidateId 优先使用已冻结显式值，并严格绑定 Steam / Ninte
     psnProductId: 'UP0700-PPSA04610_00-ELDENRING0000000',
   }), 'psn:UP0700-PPSA04610_00-ELDENRING0000000');
   assert.equal(candidateIdFor({ psnProductId: 'UP0700-PPSA04610_00-ELDENRING0000000' }), 'psn:UP0700-PPSA04610_00-ELDENRING0000000');
+  assert.equal(candidateIdFor({ xboxBigId: 'bng91pt95lqn' }), 'xbox:BNG91PT95LQN');
+  assert.equal(candidateIdFor({
+    candidateId: 'xbox:bng91pt95lqn',
+    xboxBigId: 'BNG91PT95LQN',
+  }), 'xbox:BNG91PT95LQN');
   assert.throws(() => candidateIdFor({ candidateId: 'steam:42', steamAppId: 43 }), /不一致/u);
   assert.throws(() => candidateIdFor({ candidateId: 'ns:70010000000001', nsuidAm: '70010000000002' }), /不一致/u);
   assert.throws(() => candidateIdFor({
     candidateId: 'psn:UP0700-PPSA04610_00-ELDENRING0000000',
     psnProductId: 'UP9000-PPSA08329_00-GOWRAGNAROK00000',
   }), /PSN Product ID 不一致/u);
+  assert.throws(() => candidateIdFor({
+    candidateId: 'xbox:BNG91PT95LQN',
+    xboxBigId: '9P3J32CTXLRZ',
+  }), /Xbox BigID 不一致/u);
 });
 
 test('机器候选字段为事实源，workbook 只 join 人工决定', () => {

@@ -26,6 +26,7 @@
     "discover": "node scripts/discover-nsuid.mjs",
     "discover:nintendo-enrichment": "node scripts/build-nintendo-enrichment-seeds.mjs",
     "discover:xbox": "node scripts/discover-xbox.mjs",
+    "discover:psn": "node scripts/discover-psn.mjs",
     "verify:psn-mappings": "node scripts/verify-psn-manual-mappings.mjs"
   },
   "devDependencies": {

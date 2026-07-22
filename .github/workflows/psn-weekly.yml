@@ -16,9 +16,8 @@ concurrency:
 
 jobs:
   psn-weekly:
-    # Closed by default: current PlayStation US terms prohibit automated data
-    # collection. The repository variable must only be enabled after the user
-    # separately accepts this platform's automation risk.
+    # The user accepted PlayStation automation risk on 2026-07-18. Keep the
+    # repository variable as an explicit accident guard for this approved job.
     if: ${{ vars.PSN_AUTOMATION_AUTHORIZED == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
@@ -47,6 +46,21 @@ jobs:
         if: steps.scope.outputs.enabled == 'true'
         run: node scripts/scrape-psn.mjs
 
+      # Persist consumed slots before downstream gates. A history/validate
+      # failure must not let a same-day rerun start from the old allowance.
+      - name: Checkpoint PSN request budget
+        if: ${{ always() && steps.scope.outputs.enabled == 'true' }}
+        run: |
+          if git diff --quiet -- data/seeds/psn-us-request-budget.json; then
+            exit 0
+          fi
+          git config user.name "gamepricemap-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/seeds/psn-us-request-budget.json
+          git commit -m "chore(data): reserve PSN request budget $(date -u +%F)"
+          git pull --rebase --autostash origin main
+          git push origin main
+
       - name: Evolve price history (includes PlayStation US)
         if: steps.scope.outputs.enabled == 'true'
         run: npm run history:observations
@@ -60,7 +74,7 @@ jobs:
         run: |
           git config user.name "gamepricemap-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/snapshots/psn/ data/history/ data/source-health.json data/health.json
+          git add data/snapshots/psn/ data/history/ data/seeds/psn-us-request-budget.json data/source-health.json data/health.json
           if git diff --cached --quiet; then
             echo "No PlayStation price changes."
             exit 0

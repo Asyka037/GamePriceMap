@@ -1,204 +1,708 @@
 {
-  "updatedAt": "2026-07-12T02:54:57.755Z",
-  "reviewStatus": "approved-and-merged",
-  "reviewedAt": "2026-07-12",
-  "note": "Approved by the user on 2026-07-12 and merged into catalog.json. Retained as mapping evidence.",
+  "schemaVersion": 1,
+  "kind": "xbox-mapping-suggestions",
+  "discoveryMode": "official-autosuggest-v1",
+  "generatedAt": "2026-07-22T02:27:35.777Z",
+  "stabilityEvidence": {
+    "schemaVersion": 1,
+    "kind": "xbox-weekly-stability",
+    "sourceKey": "xbox-us",
+    "generatedAt": "2026-07-22T02:08:02.989Z",
+    "successes": [
+      {
+        "lastSuccessAt": "2026-07-13T12:07:55.170Z",
+        "expected": 14,
+        "changed": 0,
+        "unchanged": 14,
+        "failedProducts": 0,
+        "failedRequests": 0
+      },
+      {
+        "lastSuccessAt": "2026-07-22T02:08:02.989Z",
+        "expected": 14,
+        "changed": 3,
+        "unchanged": 11,
+        "failedProducts": 0,
+        "failedRequests": 0
+      }
+    ],
+    "documentDigest": "sha256:7c0bf20b3981d4ab4ac99698ce87260e29aa3ae1ad885b12b14645e167600fcb"
+  },
   "candidates": [
     {
-      "slug": "elden-ring",
-      "xboxBigId": "9P3J32CTXLRZ",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:9N116V0599HB",
+      "catalogAction": "add_platform_mapping",
+      "slug": "hollow-knight-silksong",
+      "title": "Hollow Knight: Silksong",
+      "xboxBigId": "9N116V0599HB",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Elden Ring",
-        "productTitle": "ELDEN RING",
-        "skuTitle": "ELDEN RING",
-        "skuId": "0010",
-        "usPrice": 59.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.752Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "9N116V0599HB",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Hollow+Knight%3A+Silksong",
+          "queryTitle": "Hollow Knight: Silksong",
+          "matchedTitle": "Hollow Knight: Silksong",
+          "responseDigest": "sha256:a5769f94e65b10801ec7a2c3a6caf2bb8bd2f797628c6753a9df48be46fae5fe"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "Hollow Knight: Silksong",
+          "skuTitle": "Hollow Knight: Silksong",
+          "skuId": "0010",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 19.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        "evidenceDigest": "sha256:5abbee99b7576b0d40c082c47fefe27f940bc4ecac55bea9db13fe34a1cf42c6"
+      },
+      "evidenceDigest": "sha256:5abbee99b7576b0d40c082c47fefe27f940bc4ecac55bea9db13fe34a1cf42c6"
     },
     {
-      "slug": "baldurs-gate-3",
-      "xboxBigId": "9ND58LQTG09T",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:9NMFWR0NRLZS",
+      "catalogAction": "add_platform_mapping",
+      "slug": "resident-evil-requiem",
+      "title": "Resident Evil Requiem",
+      "xboxBigId": "9NMFWR0NRLZS",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Baldur's Gate 3",
-        "productTitle": "Baldur's Gate 3",
-        "skuTitle": "Baldur's Gate 3",
-        "skuId": "0010",
-        "usPrice": 69.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "9NMFWR0NRLZS",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Resident+Evil+Requiem",
+          "queryTitle": "Resident Evil Requiem",
+          "matchedTitle": "Resident Evil Requiem",
+          "responseDigest": "sha256:cc232a029e66b6cc5f879ad9c25bc126aa3c0421cf9e58bd05951c76e87ea782"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "Resident Evil Requiem",
+          "skuTitle": "Resident Evil Requiem",
+          "skuId": "0010",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 55.99,
+          "list": 69.99,
+          "discountPct": 20,
+          "saleEndsAt": "2026-07-30T09:59:59.000Z"
+        },
+        "evidenceDigest": "sha256:ae9ed8144fd0045036351b61d6b565ff546877ef4c6bb4523501b5902703e88e"
+      },
+      "evidenceDigest": "sha256:ae9ed8144fd0045036351b61d6b565ff546877ef4c6bb4523501b5902703e88e"
     },
     {
-      "slug": "cyberpunk-2077",
-      "xboxBigId": "BX3M8L83BBRW",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:9NWQ1Q1FR0C9",
+      "catalogAction": "add_platform_mapping",
+      "slug": "black-myth-wukong",
+      "title": "Black Myth: Wukong",
+      "xboxBigId": "9NWQ1Q1FR0C9",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Cyberpunk 2077",
-        "productTitle": "Cyberpunk 2077",
-        "skuTitle": "Cyberpunk 2077",
-        "skuId": "0001",
-        "usPrice": 59.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "9NWQ1Q1FR0C9",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Black+Myth%3A+Wukong",
+          "queryTitle": "Black Myth: Wukong",
+          "matchedTitle": "Black Myth: Wukong",
+          "responseDigest": "sha256:306ee43f35e6b701abf2505990ee6d425fa380bf76659d64ed43a3a3c6fd341d"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "Black Myth: Wukong",
+          "skuTitle": "Black Myth: Wukong",
+          "skuId": "0010",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        "evidenceDigest": "sha256:19648c6f978be78ee60bbeb1fc087cfa2050e9de8f065ec0c846e206f48f8fcc"
+      },
+      "evidenceDigest": "sha256:19648c6f978be78ee60bbeb1fc087cfa2050e9de8f065ec0c846e206f48f8fcc"
     },
     {
-      "slug": "palworld",
-      "xboxBigId": "9NKV34XDW014",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:BNG91PT95LQN",
+      "catalogAction": "add_platform_mapping",
+      "slug": "monster-hunter-world",
+      "title": "Monster Hunter: World",
+      "xboxBigId": "BNG91PT95LQN",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Palworld",
-        "productTitle": "Palworld",
-        "skuTitle": "Palworld",
-        "skuId": "0010",
-        "usPrice": 29.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "BNG91PT95LQN",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Monster+Hunter%3A+World",
+          "queryTitle": "Monster Hunter: World",
+          "matchedTitle": "MONSTER HUNTER: WORLD™",
+          "responseDigest": "sha256:33aff02a1d6a6d17af4ac302097061269e41b0811a65ca6486fe2d42c60963c6"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "MONSTER HUNTER: WORLD™",
+          "skuTitle": "MONSTER HUNTER: WORLD™",
+          "skuId": "0001",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 19.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        "evidenceDigest": "sha256:6db2445c675d5ee06234e801eb04fc7c8a781c579f923482f04cefadf7abb7f4"
+      },
+      "evidenceDigest": "sha256:6db2445c675d5ee06234e801eb04fc7c8a781c579f923482f04cefadf7abb7f4"
     },
     {
-      "slug": "mount-and-blade-ii-bannerlord",
-      "xboxBigId": "9PDHWZ7X3P03",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:9P8DL6W0JBB8",
+      "catalogAction": "add_platform_mapping",
+      "slug": "hades",
+      "title": "Hades",
+      "xboxBigId": "9P8DL6W0JBB8",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Mount & Blade II: Bannerlord",
-        "productTitle": "Mount & Blade II: Bannerlord",
-        "skuTitle": "Mount & Blade II: Bannerlord",
-        "skuId": "0010",
-        "usPrice": 49.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "9P8DL6W0JBB8",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Hades",
+          "queryTitle": "Hades",
+          "matchedTitle": "Hades",
+          "responseDigest": "sha256:b7700dd143176338a01cb6000b1922e7cdbd183d665ec1c0e6fdce4ecce606cc"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "Hades",
+          "skuTitle": "Hades",
+          "skuId": "0010",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        "evidenceDigest": "sha256:d7f030f803f0f9a967212f60e5f78211ef05e5f2d4b0b14118b52ec4d44d1fe2"
+      },
+      "evidenceDigest": "sha256:d7f030f803f0f9a967212f60e5f78211ef05e5f2d4b0b14118b52ec4d44d1fe2"
     },
     {
-      "slug": "dead-by-daylight",
-      "xboxBigId": "C0N22P73QZ60",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:9N3LGKGF3CC2",
+      "catalogAction": "add_platform_mapping",
+      "slug": "nine-sols",
+      "title": "Nine Sols",
+      "xboxBigId": "9N3LGKGF3CC2",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Dead by Daylight",
-        "productTitle": "Dead by Daylight",
-        "skuTitle": "Dead by Daylight",
-        "skuId": "0001",
-        "usPrice": 29.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "9N3LGKGF3CC2",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Nine+Sols",
+          "queryTitle": "Nine Sols",
+          "matchedTitle": "Nine Sols",
+          "responseDigest": "sha256:bb95b068f4016294e0855445aded57c235fec718e93d65626aa52774a8a5b31a"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "Nine Sols",
+          "skuTitle": "Nine Sols",
+          "skuId": "0010",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 29.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        "evidenceDigest": "sha256:024d0f87a13e73ab655d6ea483193744bd8e7cb52902aa34a8ac8b7a69732034"
+      },
+      "evidenceDigest": "sha256:024d0f87a13e73ab655d6ea483193744bd8e7cb52902aa34a8ac8b7a69732034"
     },
     {
-      "slug": "persona-3-reload",
-      "xboxBigId": "9NKK6Z0K3RH2",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:9NLRT31Z4RWM",
+      "catalogAction": "add_platform_mapping",
+      "slug": "tunic",
+      "title": "TUNIC",
+      "xboxBigId": "9NLRT31Z4RWM",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Persona 3 Reload",
-        "productTitle": "Persona 3 Reload",
-        "skuTitle": "Persona 3 Reload",
-        "skuId": "0010",
-        "usPrice": 59.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "9NLRT31Z4RWM",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=TUNIC",
+          "queryTitle": "TUNIC",
+          "matchedTitle": "TUNIC",
+          "responseDigest": "sha256:78bc0689ab0e36e7758568a114e343f8ea0a34b38d08174d3228a4df5be1e9fc"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "TUNIC",
+          "skuTitle": "TUNIC",
+          "skuId": "0010",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 14.99,
+          "list": 29.99,
+          "discountPct": 50,
+          "saleEndsAt": "2026-07-30T09:59:59.000Z"
+        },
+        "evidenceDigest": "sha256:95bab94ce94e96166f47d246724ab8cfdfa542830ce8a6917018a2a76cd370c3"
+      },
+      "evidenceDigest": "sha256:95bab94ce94e96166f47d246724ab8cfdfa542830ce8a6917018a2a76cd370c3"
     },
     {
-      "slug": "dredge",
-      "xboxBigId": "9MSVVM5NS9L6",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:BWMQL2RPWBHB",
+      "catalogAction": "add_platform_mapping",
+      "slug": "celeste",
+      "title": "Celeste",
+      "xboxBigId": "BWMQL2RPWBHB",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "DREDGE",
-        "productTitle": "DREDGE",
-        "skuTitle": "DREDGE",
-        "skuId": "0010",
-        "usPrice": 24.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "BWMQL2RPWBHB",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Celeste",
+          "queryTitle": "Celeste",
+          "matchedTitle": "Celeste",
+          "responseDigest": "sha256:9d4bc030ed5a4b5dcf563b6eac6242c4daac0c81b6a753ac2361efd38e05513d"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "Celeste",
+          "skuTitle": "Celeste",
+          "skuId": "0001",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 19.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        "evidenceDigest": "sha256:9c8dac5b8e3be788e72ea4e608c9f4b29a6f02623ffc8d8575dd00245e2e5278"
+      },
+      "evidenceDigest": "sha256:9c8dac5b8e3be788e72ea4e608c9f4b29a6f02623ffc8d8575dd00245e2e5278"
     },
     {
-      "slug": "metaphor-refantazio",
-      "xboxBigId": "9N5DV8310XP7",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:9NHFVWX1V7QJ",
+      "catalogAction": "add_platform_mapping",
+      "slug": "deep-rock-galactic",
+      "title": "Deep Rock Galactic",
+      "xboxBigId": "9NHFVWX1V7QJ",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Metaphor: ReFantazio",
-        "productTitle": "Metaphor: ReFantazio",
-        "skuTitle": "Metaphor: ReFantazio",
-        "skuId": "0010",
-        "usPrice": 69.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "9NHFVWX1V7QJ",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Deep+Rock+Galactic",
+          "queryTitle": "Deep Rock Galactic",
+          "matchedTitle": "Deep Rock Galactic",
+          "responseDigest": "sha256:ce8d66fa1de59ac2e120f8a1fa00a62f27dcca7f30abdeb739d33e0308560979"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "Deep Rock Galactic",
+          "skuTitle": "Deep Rock Galactic",
+          "skuId": "0010",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 29.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        "evidenceDigest": "sha256:b76ad1c567cdd1bd9e0694e5374534778de0bc52e70726a4ff3e8f553515184b"
+      },
+      "evidenceDigest": "sha256:b76ad1c567cdd1bd9e0694e5374534778de0bc52e70726a4ff3e8f553515184b"
     },
     {
-      "slug": "monster-hunter-wilds",
-      "xboxBigId": "9NMT6XFN0LVD",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:9PKP39CL0C8D",
+      "catalogAction": "add_platform_mapping",
+      "slug": "ghostwire-tokyo",
+      "title": "Ghostwire: Tokyo",
+      "xboxBigId": "9PKP39CL0C8D",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Monster Hunter Wilds",
-        "productTitle": "Monster Hunter Wilds",
-        "skuTitle": "Monster Hunter Wilds",
-        "skuId": "0010",
-        "usPrice": 69.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "9PKP39CL0C8D",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Ghostwire%3A+Tokyo",
+          "queryTitle": "Ghostwire: Tokyo",
+          "matchedTitle": "Ghostwire: Tokyo",
+          "responseDigest": "sha256:9b5fa4aa6e2d79e3ff6194739eb269d152f5e49c204a8e7b2f3692883051de68"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "Ghostwire: Tokyo",
+          "skuTitle": "Ghostwire: Tokyo",
+          "skuId": "0010",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 59.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        "evidenceDigest": "sha256:5356c1669a4817f2c75505139a0834f696f2948dea5bf2fc02642cceb64e61e0"
+      },
+      "evidenceDigest": "sha256:5356c1669a4817f2c75505139a0834f696f2948dea5bf2fc02642cceb64e61e0"
     },
     {
-      "slug": "clair-obscur-expedition-33",
-      "xboxBigId": "9PPT8K6GQHRZ",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:C596FKDKMQN7",
+      "catalogAction": "add_platform_mapping",
+      "slug": "outer-wilds",
+      "title": "Outer Wilds",
+      "xboxBigId": "C596FKDKMQN7",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Clair Obscur: Expedition 33",
-        "productTitle": "Clair Obscur: Expedition 33",
-        "skuTitle": "Clair Obscur: Expedition 33",
-        "skuId": "0010",
-        "usPrice": 49.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "C596FKDKMQN7",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Outer+Wilds",
+          "queryTitle": "Outer Wilds",
+          "matchedTitle": "Outer Wilds",
+          "responseDigest": "sha256:f45d46aec5be8e68b6b6a770d4d5b8f393387f13f327a55125b320e4933a2fec"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "Outer Wilds",
+          "skuTitle": "Outer Wilds",
+          "skuId": "0001",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 14.99,
+          "list": 24.99,
+          "discountPct": 40,
+          "saleEndsAt": "2026-07-30T09:59:59.000Z"
+        },
+        "evidenceDigest": "sha256:1f3cf21cb2bf814844cb9c1872f6a5f622c6d0286c51d37822a198a398a7809d"
+      },
+      "evidenceDigest": "sha256:1f3cf21cb2bf814844cb9c1872f6a5f622c6d0286c51d37822a198a398a7809d"
     },
     {
-      "slug": "balatro",
-      "xboxBigId": "9PK087LNGJC5",
+      "schemaVersion": 1,
+      "kind": "xbox-mapping-candidate",
+      "candidateId": "xbox:9NJRX71M5X9P",
+      "catalogAction": "add_platform_mapping",
+      "slug": "cuphead",
+      "title": "Cuphead",
+      "xboxBigId": "9NJRX71M5X9P",
       "xboxEdition": "standard",
+      "platforms": [
+        "xbox"
+      ],
       "evidence": {
-        "queryTitle": "Balatro",
-        "productTitle": "Balatro",
-        "skuTitle": "Balatro",
-        "skuId": "0010",
-        "usPrice": 14.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
-    },
-    {
-      "slug": "hi-fi-rush",
-      "xboxBigId": "9NFTC552K3GJ",
-      "xboxEdition": "standard",
-      "evidence": {
-        "queryTitle": "Hi-Fi Rush",
-        "productTitle": "Hi-Fi RUSH",
-        "skuTitle": "Hi-Fi RUSH",
-        "skuId": "0010",
-        "usPrice": 29.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
-    },
-    {
-      "slug": "ori-and-the-will-of-the-wisps",
-      "xboxBigId": "9N8CD0XZKLP4",
-      "xboxEdition": "standard",
-      "evidence": {
-        "queryTitle": "Ori and the Will of the Wisps",
-        "productTitle": "Ori and the Will of the Wisps",
-        "skuTitle": "Ori and the Will of the Wisps",
-        "skuId": "0010",
-        "usPrice": 29.99,
-        "currency": "USD",
-        "checkedAt": "2026-07-12T02:54:57.754Z"
-      }
+        "kind": "xbox-official-product-verification",
+        "observedAt": "2026-07-22T02:27:35.777Z",
+        "expiresAt": "2026-07-29T02:27:35.777Z",
+        "bigId": "9NJRX71M5X9P",
+        "edition": "standard",
+        "discovery": {
+          "kind": "xbox-official-autosuggest-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/productFamilies/autosuggest?market=US&languages=en-US&productFamilyNames=Games&query=Cuphead",
+          "queryTitle": "Cuphead",
+          "matchedTitle": "Cuphead",
+          "responseDigest": "sha256:ef1bed7f34f4ae15be5af4249ffab0afed90cf3ccf12b2a0d3f72334f2ac65c0"
+        },
+        "product": {
+          "kind": "xbox-official-products-result",
+          "sourceUrl": "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=9N116V0599HB%2C9NR1R1XWLCNB%2C9NMFWR0NRLZS%2C9NWQ1Q1FR0C9%2CBNG91PT95LQN%2C9P8DL6W0JBB8%2C9N3LGKGF3CC2%2C9NLRT31Z4RWM%2CBWMQL2RPWBHB%2C9NHFVWX1V7QJ%2C9PKP39CL0C8D%2CC596FKDKMQN7%2C9NJRX71M5X9P&market=US&languages=en-US",
+          "matchedTitle": "Cuphead",
+          "skuTitle": "Cuphead",
+          "skuId": "0010",
+          "responseDigest": "sha256:232f7aa971de8981bf0bc572d77a4b03f1ffd54ac0464906c504b3272e3ed2c2"
+        },
+        "gates": {
+          "productKind": "Game",
+          "edition": "standard",
+          "skuType": "full",
+          "isTrial": false,
+          "isBundle": false,
+          "purchaseActionRequired": true
+        },
+        "publicUsOffer": {
+          "cc": "US",
+          "currency": "USD",
+          "amount": 19.99,
+          "list": null,
+          "discountPct": null,
+          "saleEndsAt": null
+        },
+        "evidenceDigest": "sha256:a9f1c3d2d46ef6e847c07800068371f14193dc8c57e0443483d9e19f9d46b5bd"
+      },
+      "evidenceDigest": "sha256:a9f1c3d2d46ef6e847c07800068371f14193dc8c57e0443483d9e19f9d46b5bd"
     }
-  ]
+  ],
+  "failures": [
+    {
+      "slug": "sekiro-shadows-die-twice",
+      "reason": "no_unique_exact_autosuggest_match"
+    },
+    {
+      "slug": "stardew-valley",
+      "reason": "no_unique_exact_autosuggest_match"
+    },
+    {
+      "slug": "red-dead-redemption-2",
+      "reason": "no_unique_exact_autosuggest_match"
+    },
+    {
+      "slug": "forza-horizon-6",
+      "reason": "product_standard_public_purchase_fingerprint_failed"
+    },
+    {
+      "slug": "subnautica-2",
+      "reason": "no_unique_exact_autosuggest_match"
+    },
+    {
+      "slug": "terraria",
+      "reason": "no_unique_exact_autosuggest_match"
+    },
+    {
+      "slug": "sea-of-stars",
+      "reason": "no_unique_exact_autosuggest_match"
+    },
+    {
+      "slug": "hollow-knight",
+      "reason": "no_unique_exact_autosuggest_match"
+    },
+    {
+      "slug": "slay-the-spire",
+      "reason": "no_unique_exact_autosuggest_match"
+    }
+  ],
+  "documentDigest": "sha256:c0cc53e2f66bbffd7e354e5a304abdbf67a48f4082d6400b8a05b6da23a272ad"
 }

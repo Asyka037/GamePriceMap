@@ -117,6 +117,10 @@ function exactFinalProductUrl(finalUrl, productId) {
     const url = new URL(finalUrl);
     const wantedPath = `/en-us/product/${productId}`;
     return url.origin === STORE_ORIGIN
+      && !url.username
+      && !url.password
+      && !url.search
+      && !url.hash
       && decodeURIComponent(url.pathname).replace(/\/$/, '') === wantedPath;
   } catch {
     return false;
@@ -124,25 +128,23 @@ function exactFinalProductUrl(finalUrl, productId) {
 }
 
 function classificationIsStandardGame(productViews) {
+  const standardEdition = (edition) => edition?.type === 'STANDARD'
+    || (edition?.type == null && (edition?.name === '' || edition?.name === 'Base Game'));
   const explicitConflict = productViews.some((product) => {
     if (product?.topCategory != null && product.topCategory !== 'GAME') return true;
     if (product?.storeDisplayClassification != null
       && product.storeDisplayClassification !== 'FULL_GAME') return true;
     if (product?.type != null && product.type !== 'GAME') return true;
-    if (product?.edition != null
-      && product.edition.type !== 'STANDARD'
-      && !(product.edition.type == null && product.edition.name === '')) return true;
+    if (product?.edition != null && !standardEdition(product.edition)) return true;
     return false;
   });
   if (explicitConflict) return false;
   const fullGame = productViews.some((p) => p?.topCategory === 'GAME'
     && p?.storeDisplayClassification === 'FULL_GAME'
-    // Some single-edition official pages (for example Balatro and ANIMAL
-    // WELL) expose an empty edition name but omit edition.type entirely.
-    // Accept only that bounded blank marker; named/unknown editions still
-    // require the explicit STANDARD classification.
-    && (p?.edition?.type === 'STANDARD'
-      || (p?.edition && p.edition.type == null && p.edition.name === '')));
+    // Some single-edition official pages expose a blank or exact "Base Game"
+    // edition name but omit edition.type. Accept only those bounded official
+    // markers; every other named/unknown edition still requires STANDARD.
+    && standardEdition(p?.edition));
   const gameType = productViews.some((p) => p?.type === 'GAME');
   return fullGame && gameType;
 }
@@ -205,7 +207,7 @@ function psnPlatforms(productViews) {
     .map((platform) => platform.toLowerCase());
 }
 
-function exactPsnTitle(candidate, wanted) {
+export function exactPsnTitle(candidate, wanted) {
   // Product display names may carry a bounded platform suffix even when the
   // invariant catalog title does not (for example, "Persona 3 Reload PS4 &
   // PS5"). Strip only that terminal storefront decoration; editions and other

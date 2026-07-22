@@ -2,6 +2,7 @@ import { assertDocumentDigest } from './candidate-evidence.mjs';
 import { validateNintendoSuggestionDocument } from './ns-candidates.mjs';
 import { validatePsnSuggestionDocument } from './psn-manual-mappings.mjs';
 import { validateSteamCandidateDocument } from './steam-candidates.mjs';
+import { validateXboxSuggestionDocument } from './xbox-mappings.mjs';
 
 /** Only machine-produced candidate document kinds may enter review/import. */
 export function validateCandidateSourceDocument(document, { now = Date.now() } = {}) {
@@ -16,5 +17,6 @@ export function validateCandidateSourceDocument(document, { now = Date.now() } =
   if (document.kind === 'steam-candidates') return validateSteamCandidateDocument(document);
   if (document.kind === 'nintendo-discovery-suggestions') return validateNintendoSuggestionDocument(document);
   if (document.kind === 'psn-mapping-suggestions') return validatePsnSuggestionDocument(document, { now });
+  if (document.kind === 'xbox-mapping-suggestions') return validateXboxSuggestionDocument(document, { now });
   throw new Error(`unsupported candidate source kind: ${document.kind ?? '<missing>'}`);
 }

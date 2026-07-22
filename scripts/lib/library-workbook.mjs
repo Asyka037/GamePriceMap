@@ -2,6 +2,7 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import * as XLSX from 'xlsx';
 import { validPsnProductId } from './psn.mjs';
+import { validXboxBigId } from './xbox.mjs';
 
 export const LIBRARY_SHEET_NAME = '游戏库';
 export const LIBRARY_HEADER_ROW = 4;
@@ -38,6 +39,7 @@ const PENDING_VALUES = new Set(['', '待定', '待审', '待审核', '待批准'
 const DIGEST_RE = /^sha256:[0-9a-f]{64}$/;
 const STEAM_CANDIDATE_ID_RE = /^steam:[1-9]\d*$/u;
 const NINTENDO_CANDIDATE_ID_RE = /^ns:\d{10,16}$/u;
+const XBOX_CANDIDATE_ID_RE = /^xbox:[A-Z0-9]{12}$/u;
 
 function stringCell(value) {
   if (value === null || value === undefined) return '';
@@ -116,8 +118,16 @@ function validateCandidateId(value) {
     if (!validPsnProductId(productId)) throw new Error(`candidateId 格式无效: ${value}`);
     return `psn:${productId}`;
   }
+  const xbox = text.match(/^xbox:(.+)$/iu);
+  if (xbox) {
+    const bigId = xbox[1].toUpperCase();
+    if (!validXboxBigId(bigId)) throw new Error(`candidateId 格式无效: ${value}`);
+    return `xbox:${bigId}`;
+  }
   const candidateId = text.toLowerCase();
-  if (!STEAM_CANDIDATE_ID_RE.test(candidateId) && !NINTENDO_CANDIDATE_ID_RE.test(candidateId)) {
+  if (!STEAM_CANDIDATE_ID_RE.test(candidateId)
+    && !NINTENDO_CANDIDATE_ID_RE.test(candidateId)
+    && !XBOX_CANDIDATE_ID_RE.test(candidateId)) {
     throw new Error(`candidateId 格式无效: ${value}`);
   }
   return candidateId;
@@ -127,6 +137,13 @@ function normalizePsnProductId(value) {
   const text = stringCell(value).toUpperCase();
   if (!text) return null;
   if (!validPsnProductId(text)) throw new Error(`PSN Product ID 格式无效: ${value}`);
+  return text;
+}
+
+function normalizeXboxBigId(value) {
+  const text = stringCell(value).toUpperCase();
+  if (!text) return null;
+  if (!validXboxBigId(text)) throw new Error(`Xbox BigID 格式无效: ${value}`);
   return text;
 }
 
@@ -152,6 +169,10 @@ export function candidateIdFor(candidate) {
     if (candidateId.startsWith('psn:') && psnProductId && candidateId !== `psn:${psnProductId}`) {
       throw new Error(`candidateId 与 PSN Product ID 不一致: ${candidateId}`);
     }
+    const xboxBigId = normalizeXboxBigId(candidate?.xboxBigId);
+    if (candidateId.startsWith('xbox:') && xboxBigId && candidateId !== `xbox:${xboxBigId}`) {
+      throw new Error(`candidateId 与 Xbox BigID 不一致: ${candidateId}`);
+    }
     return candidateId;
   }
 
@@ -169,7 +190,10 @@ export function candidateIdFor(candidate) {
   const psnProductId = normalizePsnProductId(candidate?.psnProductId);
   if (psnProductId) return `psn:${psnProductId}`;
 
-  throw new Error(`候选项缺少可用的 Steam AppID/NSUID/PSN Product ID: ${stringCell(candidate?.title) || '<untitled>'}`);
+  const xboxBigId = normalizeXboxBigId(candidate?.xboxBigId);
+  if (xboxBigId) return `xbox:${xboxBigId}`;
+
+  throw new Error(`候选项缺少可用的 Steam AppID/NSUID/PSN Product ID/Xbox BigID: ${stringCell(candidate?.title) || '<untitled>'}`);
 }
 
 export function evidenceDigestFor(candidate) {
@@ -188,7 +212,8 @@ export function evidenceDigestFor(candidate) {
       eu: normalizeExternalId(candidate?.nsuidEu ?? candidate?.nsuidEU, { label: 'NSUID EU', pattern: /^\d{10,16}$/ }),
       jp: normalizeExternalId(candidate?.nsuidJp ?? candidate?.nsuidJP, { label: 'NSUID JP', pattern: /^\d{10,16}$/ }),
     },
-    xboxBigId: stringCell(candidate?.xboxBigId) || null,
+    xboxBigId: normalizeXboxBigId(candidate?.xboxBigId),
+    xboxEdition: stringCell(candidate?.xboxEdition) || null,
     psnProductId: normalizePsnProductId(candidate?.psnProductId),
     psnConceptId: stringCell(candidate?.psnConceptId) || null,
     psnEdition: stringCell(candidate?.psnEdition) || null,

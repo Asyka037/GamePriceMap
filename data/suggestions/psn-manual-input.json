@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "psn-manual-mapping-input",
   "createdAt": "2026-07-18T04:27:09.000Z",
-  "instructions": "For each row, manually open the official US PlayStation Store, choose the exact paid base/standard edition, paste the clean /en-us/product/<ID> URL, and set selectedAt. Do not use search/API keys or guess product IDs.",
+  "instructions": "The authorized bounded official-search pipeline is the default locator. This file remains the occasional manual fallback: paste only a clean official /en-us/product/<ID> URL for the exact paid base/standard edition and set selectedAt. Never guess product IDs or borrow private API keys.",
   "entries": [
     { "slug": "elden-ring", "title": "Elden Ring", "productUrl": null, "selectedAt": null, "note": null },
     { "slug": "baldurs-gate-3", "title": "Baldur's Gate 3", "productUrl": null, "selectedAt": null, "note": null },

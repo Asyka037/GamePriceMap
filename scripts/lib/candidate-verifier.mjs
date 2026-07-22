@@ -7,6 +7,7 @@ import {
   validateNintendoSuggestionDocument,
 } from './ns-candidates.mjs';
 import { validatePsnMappingCandidate } from './psn-manual-mappings.mjs';
+import { validateXboxMappingCandidate } from './xbox-mappings.mjs';
 import {
   APPLY_STATUS,
   VERIFY_STATUS,
@@ -266,6 +267,47 @@ export function verifyPsnCandidate(candidate, catalog, { now = new Date() } = {}
   }
 }
 
+/** Re-check one sealed Xbox Wave 2 mapping without another discovery request. */
+export function verifyXboxCandidate(candidate, catalog, { now = new Date() } = {}) {
+  try {
+    const current = now instanceof Date ? now : new Date(now);
+    if (!Number.isFinite(current.valueOf())) throw new Error('当前核验时间无效');
+    validateXboxMappingCandidate(candidate, { now: current.valueOf() });
+    if (candidate.catalogAction !== 'add_platform_mapping') {
+      throw new Error('Xbox Wave 2 仅允许 add_platform_mapping');
+    }
+    if (JSON.stringify(candidate.platforms) !== JSON.stringify(['xbox'])) {
+      throw new Error('Xbox mapping 候选平台必须固定为 xbox');
+    }
+    catalogIdentityCheck(candidate, catalog);
+    const games = catalogGames(catalog);
+    const target = games.find((game) => game.slug === candidate.slug);
+    if (!target || normTitle(candidate.title) !== normTitle(target.title)) {
+      throw new Error('Xbox 标题与 catalog 映射目标不精确一致');
+    }
+    if (!target.platforms?.includes('xbox')) {
+      throw new Error('catalog 映射目标未声明 Xbox 平台');
+    }
+    if (target.xboxBigId != null || target.xboxEdition != null) {
+      throw new Error('catalog 映射目标已存在 Xbox 身份，拒绝覆盖或重复');
+    }
+    const owner = games.find((game) => game.xboxBigId === candidate.xboxBigId);
+    if (owner) throw new Error(`Xbox BigID 已属于 ${owner.slug}`);
+    return {
+      passed: true,
+      reason: null,
+      facts: {
+        candidateId: candidate.candidateId,
+        xboxBigId: candidate.xboxBigId,
+        xboxEdition: candidate.xboxEdition,
+        publicUsOffer: structuredClone(candidate.evidence.publicUsOffer),
+      },
+    };
+  } catch (error) {
+    return { passed: false, reason: `Xbox retained evidence verification failed: ${error.message}` };
+  }
+}
+
 /** Re-check the current official US appdetails response for one approved row. */
 export function verifySteamCandidate(candidate, payload, catalog, { now = new Date() } = {}) {
   const numericAppId = appId(candidate?.steamAppId);
@@ -355,6 +397,8 @@ export async function verifyApprovedCandidates(candidates, state, {
         result = await nintendoVerifier(candidate, catalog, { now: current });
       } else if (candidate.candidateId?.startsWith('psn:')) {
         result = verifyPsnCandidate(candidate, catalog, { now: current });
+      } else if (candidate.candidateId?.startsWith('xbox:')) {
+        result = verifyXboxCandidate(candidate, catalog, { now: current });
       } else {
         result = { passed: false, reason: '候选 candidateId 平台前缀无效' };
       }

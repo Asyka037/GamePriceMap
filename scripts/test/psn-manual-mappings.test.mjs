@@ -114,6 +114,31 @@ test('verified candidate binds title, product, platforms, public price, digest a
   }), /expired/);
 });
 
+test('authorized official-search candidates bind the locator page and exact result card', () => {
+  const entry = validatePsnManualInput(readyInput(), { catalog: catalogFor(), now: NOW }).ready[0];
+  const searchUrl = 'https://store.playstation.com/en-us/search/elden%20ring';
+  const candidate = buildPsnMappingCandidate(entry, parsedElden(), {
+    observedAt: NOW,
+    finalUrl: ELDEN_URL,
+    discovery: {
+      kind: 'psn-official-search-result',
+      sourceUrl: searchUrl,
+      finalUrl: searchUrl,
+      queryTitle: 'Elden Ring',
+      matchedTitle: 'ELDEN RING PS4 & PS5',
+      productId: ELDEN_ID,
+      rank: 0,
+      pageDigest: `sha256:${'a'.repeat(64)}`,
+    },
+  });
+  assert.equal(candidate.evidence.discovery.productId, ELDEN_ID);
+  assert.equal(validatePsnMappingCandidate(candidate, { now: NOW }), candidate);
+
+  const tampered = structuredClone(candidate);
+  tampered.evidence.discovery.finalUrl = 'https://store.playstation.com/en-us/search/different';
+  assert.throws(() => validatePsnMappingCandidate(tampered, { now: NOW }), /digest mismatch|discovery evidence/);
+});
+
 test('candidate creation rejects wrong title, wrong final URL and overlong evidence TTL', () => {
   const entry = validatePsnManualInput(readyInput(), { catalog: catalogFor(), now: NOW }).ready[0];
   assert.throws(() => buildPsnMappingCandidate(entry, {
@@ -152,4 +177,58 @@ test('suggestion document is day-1-only, sealed, and contains no catalog mutatio
   const tampered = structuredClone(document);
   tampered.pending.push('invented');
   assert.throws(() => validatePsnSuggestionDocument(tampered, { now: NOW }), /documentDigest mismatch/);
+
+  const automated = createPsnSuggestionDocument({
+    generatedAt: NOW,
+    candidates: [],
+    pending: [],
+    failures: [],
+    discoveryMode: 'official-search-v1',
+  });
+  assert.equal(validatePsnSuggestionDocument(automated, { now: NOW }), automated);
+
+  assert.throws(() => createPsnSuggestionDocument({
+    generatedAt: NOW,
+    candidates: [candidate],
+    pending: [],
+    failures: [],
+    discoveryMode: 'official-search-v1',
+  }), /lacks discovery evidence/);
+
+  const searchUrl = 'https://store.playstation.com/en-us/search/elden%20ring';
+  const discovered = buildPsnMappingCandidate(entry, parsedElden(), {
+    observedAt: NOW,
+    finalUrl: ELDEN_URL,
+    discovery: {
+      kind: 'psn-official-search-result',
+      sourceUrl: searchUrl,
+      finalUrl: searchUrl,
+      queryTitle: 'Elden Ring',
+      matchedTitle: 'ELDEN RING PS4 & PS5',
+      productId: ELDEN_ID,
+      rank: 0,
+      pageDigest: `sha256:${'a'.repeat(64)}`,
+    },
+  });
+  const discoveredDocument = createPsnSuggestionDocument({
+    generatedAt: NOW,
+    candidates: [discovered],
+    pending: [],
+    failures: [],
+    discoveryMode: 'official-search-v1',
+  });
+  assert.equal(validatePsnSuggestionDocument(discoveredDocument, { now: NOW }), discoveredDocument);
+  assert.throws(() => createPsnSuggestionDocument({
+    generatedAt: NOW,
+    candidates: [discovered],
+    pending: [],
+    failures: [],
+  }), /must not contain automated discovery evidence/);
+
+  assert.throws(() => createPsnSuggestionDocument({
+    generatedAt: NOW,
+    candidates: [candidate, structuredClone(candidate)],
+    pending: [],
+    failures: [],
+  }), /duplicate PSN suggestion/);
 });
