@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:05:06.456Z",
+  "updatedAt": "2026-07-22T10:02:25.313Z",
   "items": [
     {
       "title": "Palworld",
@@ -50,18 +50,6 @@
       "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
-      "title": "The Outlast Trials",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1304930/",
-      "currency": "USD",
-      "price": 11.99,
-      "list": 39.99,
-      "pct": 70,
-      "endsAt": "2026-07-21T17:00:00.000Z",
-      "steamAppId": 1304930,
-      "slugIfTracked": "the-outlast-trials"
-    },
-    {
       "title": "Grand Theft Auto V Enhanced",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/3240220/",
@@ -72,6 +60,18 @@
       "endsAt": "2026-07-28T17:00:00.000Z",
       "steamAppId": 3240220,
       "slugIfTracked": "grand-theft-auto-v-enhanced"
+    },
+    {
+      "title": "Hades II",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1145350/",
+      "currency": "USD",
+      "price": 20.99,
+      "list": 29.99,
+      "pct": 30,
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 1145350,
+      "slugIfTracked": "hades-ii"
     },
     {
       "title": "Red Dead Redemption 2",
@@ -86,27 +86,27 @@
       "slugIfTracked": "red-dead-redemption-2"
     },
     {
-      "title": "Gamble With Your Friends",
+      "title": "DIVE or DIE - Children of Rain",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3892270/",
+      "url": "https://store.steampowered.com/app/3590290/",
       "currency": "USD",
-      "price": 4.95,
-      "list": 7.99,
-      "pct": 38,
-      "endsAt": "2026-07-29T18:00:00.000Z",
-      "steamAppId": 3892270,
-      "slugIfTracked": "gamble-with-your-friends"
+      "price": 14.39,
+      "list": 17.99,
+      "pct": 20,
+      "endsAt": "2026-08-04T17:00:37.000Z",
+      "steamAppId": 3590290,
+      "slugIfTracked": null
     },
     {
-      "title": "Derail Valley",
+      "title": "ZeroSpace",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/588030/",
+      "url": "https://store.steampowered.com/app/1605850/",
       "currency": "USD",
-      "price": 29.99,
+      "price": 35.99,
       "list": 39.99,
-      "pct": 25,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 588030,
+      "pct": 10,
+      "endsAt": "2026-08-03T17:00:33.000Z",
+      "steamAppId": 1605850,
       "slugIfTracked": null
     },
     {

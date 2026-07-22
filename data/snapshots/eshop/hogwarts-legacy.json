@@ -1,6 +1,6 @@
 {
   "slug": "hogwarts-legacy",
-  "lastPriceChangeAt": "2026-07-21",
+  "lastPriceChangeAt": "2026-07-22",
   "regions": [
     {
       "cc": "AR",
@@ -13,10 +13,10 @@
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 89.95,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 13.49,
+      "list": 89.95,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-09T13:59:59Z"
     },
     {
       "cc": "BR",
@@ -37,10 +37,10 @@
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 64.9,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 9.73,
+      "list": 64.9,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
     },
     {
       "cc": "CO",
@@ -53,26 +53,26 @@
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 59.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 8.99,
+      "list": 59.99,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
     },
     {
       "cc": "DK",
       "currency": "DKK",
-      "amount": 449,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 67.25,
+      "list": 449,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 49.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 7.49,
+      "list": 49.99,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-09T22:59:59Z"
     },
     {
       "cc": "JP",
@@ -93,26 +93,26 @@
     {
       "cc": "NO",
       "currency": "NOK",
-      "amount": 629,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 94,
+      "list": 629,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
     },
     {
       "cc": "NZ",
       "currency": "NZD",
-      "amount": 104.95,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 15.74,
+      "list": 104.95,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-09T11:59:59Z"
     },
     {
       "cc": "PL",
       "currency": "PLN",
-      "amount": 269,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 40.35,
+      "list": 269,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
     },
     {
       "cc": "US",
@@ -125,10 +125,10 @@
     {
       "cc": "ZA",
       "currency": "ZAR",
-      "amount": 1069,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 160.35,
+      "list": 1069,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
     }
   ]
 }
