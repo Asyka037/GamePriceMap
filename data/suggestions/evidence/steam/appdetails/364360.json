@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 364360,
+  "fetchedAt": "2026-07-23T12:50:58.388Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=364360&cc=us&l=english",
+  "responseDigest": "sha256:20cf511432de72ca8331680c8ca37aed5e6da7c282afbd7d034c7ce1d6f1ed5f",
+  "payload": {
+    "364360": {
+      "success": true,
+      "data": {
+        "steam_appid": 364360,
+        "name": "Total War: WARHAMMER",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 24, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 32579
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4d74eb06333796666f7beff55d15c50b5b74d0fa0423b17d4496be40abf5c2d6"
+}

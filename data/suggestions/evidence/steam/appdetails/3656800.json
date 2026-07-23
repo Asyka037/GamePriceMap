@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3656800,
+  "fetchedAt": "2026-07-23T12:50:05.445Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3656800&cc=us&l=english",
+  "responseDigest": "sha256:8bcf1e31d1135d20c50822593238c758d441db1cc94ca25d84e71846d9088868",
+  "payload": {
+    "3656800": {
+      "success": true,
+      "data": {
+        "steam_appid": 3656800,
+        "name": "Train Sim World® 6",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 999,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 1972
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a7d03e1d39a093fd287b2b6e6a8c5998122b51ffd4bdf712da146c98d82b2228"
+}

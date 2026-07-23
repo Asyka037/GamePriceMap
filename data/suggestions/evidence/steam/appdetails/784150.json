@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 784150,
+  "fetchedAt": "2026-07-23T12:50:30.580Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=784150&cc=us&l=english",
+  "responseDigest": "sha256:cf1d16de6f9b56863049215a4daa2fcabd21dd56a8195987c05d7b54dcb387d8",
+  "payload": {
+    "784150": {
+      "success": true,
+      "data": {
+        "steam_appid": 784150,
+        "name": "Workers & Resources: Soviet Republic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 24617
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8f091944a5a9506eb7c9635068ccbdf531522624e342a50e774ad76ea73c805e"
+}

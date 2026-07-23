@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 805550,
+  "fetchedAt": "2026-07-23T12:50:39.892Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=805550&cc=us&l=english",
+  "responseDigest": "sha256:39e415f3b542d88111aabcd367a85b692092ceff83015d269f6c64c03bc9aa1d",
+  "payload": {
+    "805550": {
+      "success": true,
+      "data": {
+        "steam_appid": 805550,
+        "name": "Assetto Corsa Competizione",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 29, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 33135
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:11d90ced92e105dbd965feb2a68b9dbbd004d91c087558122b1a80a89a130ef6"
+}

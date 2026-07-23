@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3751260,
+  "fetchedAt": "2026-07-23T12:50:08.077Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3751260&cc=us&l=english",
+  "responseDigest": "sha256:9fa16492154e67a8da4497e4f9812a91b5d397b4f15358cdd1b6effb2f6ae3d2",
+  "payload": {
+    "3751260": {
+      "success": true,
+      "data": {
+        "steam_appid": 3751260,
+        "name": "The Blood of Dawnwalker",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a1dd6bf269bb5c69dad7950f7117661ea7e8c12bdd6ded43a1658dfdc07ab1bb"
+}

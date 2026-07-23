@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3618030,
+  "fetchedAt": "2026-07-23T12:51:05.016Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3618030&cc=us&l=english",
+  "responseDigest": "sha256:63ba9b15e57677abb1362272c8e7825d8d972dced0d74c191412d8d300b7bfec",
+  "payload": {
+    "3618030": {
+      "success": true,
+      "data": {
+        "steam_appid": 3618030,
+        "name": "Flock Around",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1692
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:606b38e410d9f89db096246dcc30aaeaea19e9f420a5ac3329f3bb07640556ef"
+}

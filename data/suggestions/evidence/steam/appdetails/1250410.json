@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1250410,
+  "fetchedAt": "2026-07-23T12:50:19.914Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1250410&cc=us&l=english",
+  "responseDigest": "sha256:aa08799b8a72112d4839555f5b58e8320dc8cf7b1e08db13f8c41c78666da97a",
+  "payload": {
+    "1250410": {
+      "success": true,
+      "data": {
+        "steam_appid": 1250410,
+        "name": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 17, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 69444
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b7b5a7838e6c1c76fa6dff3412737599c90b2e94ee4a4527d3f8c3756fab6635"
+}

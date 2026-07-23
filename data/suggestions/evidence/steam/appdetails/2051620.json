@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2051620,
+  "fetchedAt": "2026-07-23T12:50:54.510Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2051620&cc=us&l=english",
+  "responseDigest": "sha256:2743365df19f309ee7c64f941e42b60b96484f55b5f58ceaf0ecb5f3ee6d80a7",
+  "payload": {
+    "2051620": {
+      "success": true,
+      "data": {
+        "steam_appid": 2051620,
+        "name": "Enlisted",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2024"
+        },
+        "recommendations": {
+          "total": 255
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7a6c11c6bc1df8cb4f69ba8fb9ee7dd5750056a400f8f30dd8f9cedd41ea8c62"
+}

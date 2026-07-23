@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2162800,
+  "fetchedAt": "2026-07-23T12:50:34.698Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2162800&cc=us&l=english",
+  "responseDigest": "sha256:a48837efc881ec8d0865bf34a6009929930f79061ac15da2774c4a698b26cd2d",
+  "payload": {
+    "2162800": {
+      "success": true,
+      "data": {
+        "steam_appid": 2162800,
+        "name": "shapez 2 - Factory",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1799,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 13483
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c683b5e91b6773d9ab88df3201ec83f6d4fea7e6a802eb78f8efd6031542657a"
+}

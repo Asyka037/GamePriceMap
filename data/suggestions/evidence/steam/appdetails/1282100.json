@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1282100,
+  "fetchedAt": "2026-07-23T12:51:07.724Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1282100&cc=us&l=english",
+  "responseDigest": "sha256:2c61e43e0b4eb714a57b31316e6b23abcc9c2f35a57b71f178e862ec3fe72851",
+  "payload": {
+    "1282100": {
+      "success": true,
+      "data": {
+        "steam_appid": 1282100,
+        "name": "REMNANT II®",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 25, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 45706
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c63d1e566c630a230513534b655f85dcde56991f4ed4be7ffe18f7cf47881f0"
+}

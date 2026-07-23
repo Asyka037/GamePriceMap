@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 424030,
+  "fetchedAt": "2026-07-23T12:50:21.290Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=424030&cc=us&l=english",
+  "responseDigest": "sha256:886296d8cdb93ebf1c394bdd9c81cbcf57514ca8fb9b8244cf208c5a97c00b4b",
+  "payload": {
+    "424030": {
+      "success": true,
+      "data": {
+        "steam_appid": 424030,
+        "name": "War of Rights",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2249,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 13308
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:50ea185736c2498d5e60d35e47ae12c0809a160f21949b2d655693dac7e5fd7a"
+}

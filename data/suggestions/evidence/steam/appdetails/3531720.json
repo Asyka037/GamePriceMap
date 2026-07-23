@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3531720,
+  "fetchedAt": "2026-07-23T12:50:23.951Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3531720&cc=us&l=english",
+  "responseDigest": "sha256:39a8804e81d668689733811e2a83901a06d99b3d9ccb614bef0bb560eeccfe26",
+  "payload": {
+    "3531720": {
+      "success": true,
+      "data": {
+        "steam_appid": 3531720,
+        "name": "ELDEN RING NIGHTREIGN The Forsaken Hollows",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1500,
+          "final": 1500,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7841
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fa7feb6d46a673885bc18f70d87679e6e7d5bd6d80131c41b19ad36ada8aa3ee"
+}

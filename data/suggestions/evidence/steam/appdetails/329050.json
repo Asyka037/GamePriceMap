@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 329050,
+  "fetchedAt": "2026-07-23T12:50:45.197Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=329050&cc=us&l=english",
+  "responseDigest": "sha256:f81046b444cd61a0b9932bf482521530630acdbefbfeaad1ef52e4451a041537",
+  "payload": {
+    "329050": {
+      "success": true,
+      "data": {
+        "steam_appid": 329050,
+        "name": "Devil May Cry 4 Special Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 499,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 16582
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d240070fe997ba7eb1f1f4a99482faa90dc256a48d7e21056495c4fc4d835b76"
+}

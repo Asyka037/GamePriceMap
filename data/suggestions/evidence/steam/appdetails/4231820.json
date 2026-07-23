@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4231820,
+  "fetchedAt": "2026-07-23T12:50:51.812Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4231820&cc=us&l=english",
+  "responseDigest": "sha256:deaf32a02bf497869bba33c781e80d154b821015a704227f1fd9f0b7bb382e41",
+  "payload": {
+    "4231820": {
+      "success": true,
+      "data": {
+        "steam_appid": 4231820,
+        "name": "Castlevania: Belmont's Curse",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Oct 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cd134752f78dfcdf087180f02b0f168f27b09dc113be68c63032a4da7353e1ab"
+}

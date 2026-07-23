@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2754380,
+  "fetchedAt": "2026-07-23T12:50:46.574Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2754380&cc=us&l=english",
+  "responseDigest": "sha256:1531be562075bfacffe52ba3c5aac9925dcd7c930b814d3d893dc2660cab2883",
+  "payload": {
+    "2754380": {
+      "success": true,
+      "data": {
+        "steam_appid": 2754380,
+        "name": "The Roottrees are Dead",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9039
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4d87813b489199f62e084c00fbf639f1349da4041470bf5904fd38a8c77b1380"
+}

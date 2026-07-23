@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1040200,
+  "fetchedAt": "2026-07-23T12:50:42.487Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1040200&cc=us&l=english",
+  "responseDigest": "sha256:a8f38d08cc96b7393d5f0b5be950eec827e00f854b8b954f5de6fb0b3ac88ae8",
+  "payload": {
+    "1040200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1040200,
+        "name": "Crime Scene Cleaner",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 14, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 31657
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0af68de461b1325fc32caf9b6eaa91c3a3510098f50447404e9af6f891d26be9"
+}

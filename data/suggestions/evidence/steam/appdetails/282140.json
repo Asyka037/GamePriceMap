@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 282140,
+  "fetchedAt": "2026-07-23T12:50:41.171Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=282140&cc=us&l=english",
+  "responseDigest": "sha256:2e6b30ee18517d6e8ae33957932ba68ba54d614724c8c33dbe89d939fcfe8b99",
+  "payload": {
+    "282140": {
+      "success": true,
+      "data": {
+        "steam_appid": 282140,
+        "name": "SOMA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 21, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 599,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 45906
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:791b48c19458754f1c4d9a3348a675b8edbfaa58f4e6c78a48f7269307d6b5ed"
+}

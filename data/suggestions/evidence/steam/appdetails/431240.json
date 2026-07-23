@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 431240,
+  "fetchedAt": "2026-07-23T12:50:53.191Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=431240&cc=us&l=english",
+  "responseDigest": "sha256:e0cf7a985f5fa968bbda07e95b7ad96b8e640449c0045ca50f76ab1c5ff64350",
+  "payload": {
+    "431240": {
+      "success": true,
+      "data": {
+        "steam_appid": 431240,
+        "name": "Golf With Your Friends",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 19, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 50017
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e00f9b4cec6ddac4cca97164629e641ab1e1369da2e748211c3dd2d5009e8aaf"
+}

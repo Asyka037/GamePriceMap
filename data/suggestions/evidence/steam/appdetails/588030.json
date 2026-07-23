@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 588030,
+  "fetchedAt": "2026-07-23T12:50:29.282Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=588030&cc=us&l=english",
+  "responseDigest": "sha256:f822afbec3757a6c766a112a69371081fcea1871f285635359c7a81e75096bcb",
+  "payload": {
+    "588030": {
+      "success": true,
+      "data": {
+        "steam_appid": 588030,
+        "name": "Derail Valley",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 25, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2999,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 8960
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:961b632dbed28a7dea7702e9da5c99c2d295a4e42b1c5b41c455239cd518b5c5"
+}

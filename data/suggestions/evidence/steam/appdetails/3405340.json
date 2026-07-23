@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3405340,
+  "fetchedAt": "2026-07-23T12:50:55.787Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3405340&cc=us&l=english",
+  "responseDigest": "sha256:3c9300e52ee0bab151d28ef48b0e4506c36f72295d38f274c7b4a8edae33ec59",
+  "payload": {
+    "3405340": {
+      "success": true,
+      "data": {
+        "steam_appid": 3405340,
+        "name": "Megabonk",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 98552
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:826fec1d7c16b232952d0dced52292fa30b03b1888bc73242b494c807944f621"
+}

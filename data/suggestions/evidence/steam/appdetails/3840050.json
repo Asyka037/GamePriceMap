@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3840050,
+  "fetchedAt": "2026-07-23T12:51:01.009Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3840050&cc=us&l=english",
+  "responseDigest": "sha256:4a160371151384233d344dd14d48be24062bea252ede574538c100992d6f4824",
+  "payload": {
+    "3840050": {
+      "success": true,
+      "data": {
+        "steam_appid": 3840050,
+        "name": "Cult of the Lamb: Woolhaven",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1163
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91e80f8b12d360bb401f8dcacabfcc3e9c1da693389ab2e1c6944e533654afaf"
+}

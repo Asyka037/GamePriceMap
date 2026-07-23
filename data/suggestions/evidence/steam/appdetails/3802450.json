@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3802450,
+  "fetchedAt": "2026-07-23T12:50:50.508Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3802450&cc=us&l=english",
+  "responseDigest": "sha256:91ddca37f1bc06219e4873c06b58d21282adf46b4b171b2798eeeeabda7e2736",
+  "payload": {
+    "3802450": {
+      "success": true,
+      "data": {
+        "steam_appid": 3802450,
+        "name": "Borderlands®4 - Story Pack 1: Mad Ellie and the Vault of the Damned",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 618
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5ef93f71c65b744396df3ef3ee83bd29cc61ea11e65215eaf13f8f0fe5f1165c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 365360,
+  "fetchedAt": "2026-07-23T12:50:38.585Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=365360&cc=us&l=english",
+  "responseDigest": "sha256:f029737b7439770259f7c9ba0994eedc496f1c01a19b94ce60592a5f673ac0b9",
+  "payload": {
+    "365360": {
+      "success": true,
+      "data": {
+        "steam_appid": 365360,
+        "name": "Battle Brothers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 24, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 899,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 25677
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:326b6061376f419362dd3de9255439f2b8d012ebc6cff68df8ece3448e2f359e"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1282270,
+  "fetchedAt": "2026-07-23T12:50:36.006Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1282270&cc=us&l=english",
+  "responseDigest": "sha256:19a8e096b5b39ef680bb3adedbfe80a908070ff2abb0cd76bde182f98c761365",
+  "payload": {
+    "1282270": {
+      "success": true,
+      "data": {
+        "steam_appid": 1282270,
+        "name": "Strinova",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 21, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:500458575de8cf614da9302b0023a0644cedc2be4f4c23a6e1226d73743926a5"
+}
