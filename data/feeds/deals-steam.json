@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T10:02:25.313Z",
+  "updatedAt": "2026-07-23T10:01:19.137Z",
   "items": [
     {
       "title": "Palworld",
@@ -14,15 +14,27 @@
       "slugIfTracked": "palworld"
     },
     {
-      "title": "Tainted Grail: The Fall of Avalon",
+      "title": "Tears of Metal",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1466060/",
+      "url": "https://store.steampowered.com/app/1913120/",
       "currency": "USD",
       "price": 22.49,
-      "list": 44.99,
-      "pct": 50,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 1466060,
+      "list": 24.99,
+      "pct": 10,
+      "endsAt": "2026-08-05T17:00:01.000Z",
+      "steamAppId": 1913120,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Shift At Midnight",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3722330/",
+      "currency": "USD",
+      "price": 8.99,
+      "list": 9.99,
+      "pct": 10,
+      "endsAt": "2026-07-29T17:00:37.000Z",
+      "steamAppId": 3722330,
       "slugIfTracked": null
     },
     {
@@ -50,6 +62,18 @@
       "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
+      "title": "Tainted Grail: The Fall of Avalon",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1466060/",
+      "currency": "USD",
+      "price": 22.49,
+      "list": 44.99,
+      "pct": 50,
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 1466060,
+      "slugIfTracked": null
+    },
+    {
       "title": "Grand Theft Auto V Enhanced",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/3240220/",
@@ -62,16 +86,16 @@
       "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
-      "title": "Hades II",
+      "title": "Rubinite",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1145350/",
+      "url": "https://store.steampowered.com/app/1845250/",
       "currency": "USD",
-      "price": 20.99,
-      "list": 29.99,
-      "pct": 30,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 1145350,
-      "slugIfTracked": "hades-ii"
+      "price": 17.99,
+      "list": 19.99,
+      "pct": 10,
+      "endsAt": "2026-08-05T17:00:14.000Z",
+      "steamAppId": 1845250,
+      "slugIfTracked": null
     },
     {
       "title": "Red Dead Redemption 2",
@@ -86,40 +110,16 @@
       "slugIfTracked": "red-dead-redemption-2"
     },
     {
-      "title": "DIVE or DIE - Children of Rain",
+      "title": "Dirty Business",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3590290/",
+      "url": "https://store.steampowered.com/app/4324480/",
       "currency": "USD",
-      "price": 14.39,
-      "list": 17.99,
+      "price": 11.99,
+      "list": 14.99,
       "pct": 20,
-      "endsAt": "2026-08-04T17:00:37.000Z",
-      "steamAppId": 3590290,
+      "endsAt": "2026-08-05T17:00:18.000Z",
+      "steamAppId": 4324480,
       "slugIfTracked": null
-    },
-    {
-      "title": "ZeroSpace",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1605850/",
-      "currency": "USD",
-      "price": 35.99,
-      "list": 39.99,
-      "pct": 10,
-      "endsAt": "2026-08-03T17:00:33.000Z",
-      "steamAppId": 1605850,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Warhammer 40,000: Space Marine 2",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2183900/",
-      "currency": "USD",
-      "price": 17.99,
-      "list": 59.99,
-      "pct": 70,
-      "endsAt": "2026-07-30T17:00:00.000Z",
-      "steamAppId": 2183900,
-      "slugIfTracked": "warhammer-40000-space-marine-2"
     }
   ]
 }

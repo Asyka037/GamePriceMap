@@ -1,22 +1,21 @@
 {
   "slug": "splatoon-2",
-  "updatedAt": "2026-07-16T07:35:27.119Z",
-  "name": "Splatoon™ 2",
-  "headerImage": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000000529/b0b183a9860296016649fadb03b929411e7e5e0809af241e2e9652ebf0c5a715",
+  "updatedAt": "2026-07-23T10:02:19.937Z",
+  "name": "Splatoon 2",
+  "headerImage": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_Splatoon2_image500w.jpg",
   "genres": [
-    "Action",
-    "Shooting"
+    "Shooter"
   ],
-  "releaseDate": "2017-07-21T00:00:00.000Z",
+  "releaseDate": "2017-07-21T00:00:00Z",
   "comingSoon": false,
   "metacritic": null,
   "recommendations": null,
   "reviewDesc": null,
   "reviewCount": 0,
   "reviewPercent": null,
-  "description": "The squid kids called Inklings are back to splat more ink and claim more turf in this colorful and chaotic 4-on-4 action shooter. For the first time, take Turf War battles on-the-go with the Nintendo Switch™ system, and use any of the console’s portable play styles for intense local multiplayer* action. Even team up for new 4-player co-op fun in Salmon Run!\n\nExpect a fresh wave of fashion, not to mention new weapons and gear. Dual wield the new Splat Dualies or stick to mainstays like chargers and rollers, which have been remixed with new strategic possibilities. As always, Turf War is the favored sport among Inklings, but they also dig ranked battles, taking down Octarians in a robust single-player campaign, and battling enemy Salmonids in one dangerous part-time job! No matter which way you play, splat at home or on-the-go with Nintendo Switch. Staying fresh never felt so good.",
+  "description": "Traditional 4-on-4 turf battles return in Splatoon 2 for Nintendo Switch, along with new stages, new fashions and new weapons!",
   "publisher": "Nintendo",
   "developer": null,
-  "storeUrl": "https://www.nintendo.com/us/store/products/splatoon-2-switch/",
-  "metaSource": "nintendo-us"
+  "storeUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Splatoon-2-1173295.html",
+  "metaSource": "nintendo-eu-solr"
 }

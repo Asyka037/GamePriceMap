@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-22T10:03:37.548Z",
+  "updatedAt": "2026-07-23T10:02:50.155Z",
   "games": 235,
   "sources": {
-    "rates": "2026-07-22T10:01:09.904Z",
-    "steam-regional": "2026-07-22T10:01:09.625Z",
+    "rates": "2026-07-23T10:00:03.501Z",
+    "steam-regional": "2026-07-23T10:00:03.269Z",
     "steam-offers": "2026-07-20T11:46:47.756Z",
-    "eshop-regional": "2026-07-22T10:02:23.747Z",
+    "eshop-regional": "2026-07-23T10:01:17.798Z",
     "xbox-us": "2026-07-20T11:44:38.499Z",
     "steam-regional:extended-2": "2026-07-17T09:29:03.486Z",
     "steam-regional:extended-0": "2026-07-18T09:10:30.485Z",
@@ -13,11 +13,12 @@
     "steam-regional:extended-3": "2026-07-20T10:27:09.528Z",
     "steam-regional:extended-4": "2026-07-21T10:04:20.759Z",
     "steam-regional:extended-5": "2026-07-22T10:01:39.935Z",
-    "deals-steam": "2026-07-22T10:02:25.313Z",
-    "deals-eshop": "2026-07-22T10:02:30.354Z",
-    "deals-stores": "2026-07-22T10:02:38.094Z",
-    "free-games": "2026-07-22T10:02:40.932Z",
-    "calendar": "2026-07-22T10:02:58.418Z",
+    "steam-regional:extended-6": "2026-07-23T10:00:32.906Z",
+    "deals-steam": "2026-07-23T10:01:19.137Z",
+    "deals-eshop": "2026-07-23T10:01:22.825Z",
+    "deals-stores": "2026-07-23T10:01:29.798Z",
+    "free-games": "2026-07-23T10:01:32.431Z",
+    "calendar": "2026-07-23T10:01:47.755Z",
     "meta": "2026-07-16T15:57:35.998Z"
   }
 }
