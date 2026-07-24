@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3052450,
+  "fetchedAt": "2026-07-24T12:47:11.906Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3052450&cc=us&l=english",
+  "responseDigest": "sha256:68f3a7f1d1334725eeb58a38073d1d5ef62606af9efe9cf4e8d2e012c3c9751c",
+  "payload": {
+    "3052450": {
+      "success": true,
+      "data": {
+        "steam_appid": 3052450,
+        "name": "Morimens",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 1, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9867800371fe38199132d9748f9b8c8a1f05e76781f41da791be57a9c44f3b26"
+}

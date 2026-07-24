@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3645890,
+  "fetchedAt": "2026-07-24T12:47:30.733Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3645890&cc=us&l=english",
+  "responseDigest": "sha256:b3ec9080ff27cb1bf478a000cc8cb60ec59196fc5c61548738b6b764e43c33f0",
+  "payload": {
+    "3645890": {
+      "success": true,
+      "data": {
+        "steam_appid": 3645890,
+        "name": "GONE Fishing",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 2829
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:282bc578a737bd9d02a4c169ec433195d5ea4bfbad543c156872accd0e6ccec4"
+}

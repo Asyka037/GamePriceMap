@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 613100,
+  "fetchedAt": "2026-07-24T12:47:10.603Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=613100&cc=us&l=english",
+  "responseDigest": "sha256:78037109df6d3f8e8ee0f70e4d88dba97175915b03f43f373655db82853b991c",
+  "payload": {
+    "613100": {
+      "success": true,
+      "data": {
+        "steam_appid": 613100,
+        "name": "House Flipper",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 17, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 92021
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a6d783b243ab6ed23e3242a2c41c5f6f73a3b23ee9805b8eecec11cab496555b"
+}

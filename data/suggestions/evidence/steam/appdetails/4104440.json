@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4104440,
+  "fetchedAt": "2026-07-24T12:46:58.745Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4104440&cc=us&l=english",
+  "responseDigest": "sha256:0716455072fe393b008c6583b97f733190d0f25bd5a8a91bc1b0047b84fdaaa4",
+  "payload": {
+    "4104440": {
+      "success": true,
+      "data": {
+        "steam_appid": 4104440,
+        "name": "Dragon Traveler",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 10, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1b16c0cba279610135f074bab13172c7e39dc7623fc6382c7ac6d1b29de6773e"
+}

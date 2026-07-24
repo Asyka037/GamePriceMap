@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1676840,
+  "fetchedAt": "2026-07-24T12:47:37.497Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1676840&cc=us&l=english",
+  "responseDigest": "sha256:44d57b281458f41f16d778c4c14e5ec976447838fb334a051c6a90130c82caa8",
+  "payload": {
+    "1676840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1676840,
+        "name": "For The King II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12528
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:04cc26914c78e40f3a7fb889d77e48e78056fd30770c45bdc1e6948c29530182"
+}

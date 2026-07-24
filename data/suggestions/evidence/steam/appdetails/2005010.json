@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2005010,
+  "fetchedAt": "2026-07-24T12:47:02.749Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2005010&cc=us&l=english",
+  "responseDigest": "sha256:949b5abaa3bdfbf4fbbf8c121ae0c67d00679524e600158ae7423dcf50a9bb5b",
+  "payload": {
+    "2005010": {
+      "success": true,
+      "data": {
+        "steam_appid": 2005010,
+        "name": "Warhammer 40,000: Boltgun",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2199,
+          "final": 725,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 15515
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:faab206b7656e64ab01f7cfeb30a4c852546bd928df540f2d4b9e5b97ab2fbec"
+}

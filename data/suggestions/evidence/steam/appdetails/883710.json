@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 883710,
+  "fetchedAt": "2026-07-24T12:47:00.117Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=883710&cc=us&l=english",
+  "responseDigest": "sha256:4032c568ab53a1d84056144f0e8176fd1b6277077d578f5aea525f14e1cfc523",
+  "payload": {
+    "883710": {
+      "success": true,
+      "data": {
+        "steam_appid": 883710,
+        "name": "Resident Evil 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 24, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 799,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 152727
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:275e71066020b8e56e39a617094b8ad79456e658350888d8b7d69c537880d8a0"
+}

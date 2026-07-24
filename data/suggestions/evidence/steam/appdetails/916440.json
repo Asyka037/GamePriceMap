@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 916440,
+  "fetchedAt": "2026-07-24T12:47:29.318Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=916440&cc=us&l=english",
+  "responseDigest": "sha256:f0e4258539ca6dc806042e76efe26f2fc670e2818e575472e0431d2a7aa1273a",
+  "payload": {
+    "916440": {
+      "success": true,
+      "data": {
+        "steam_appid": 916440,
+        "name": "Anno 1800",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 29433
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b83b0aece1543be05ac3d791ac82a136072e7961a626d49981ddb24f915486d8"
+}

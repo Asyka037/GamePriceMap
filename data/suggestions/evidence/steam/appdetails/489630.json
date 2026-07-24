@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 489630,
+  "fetchedAt": "2026-07-24T12:47:15.863Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=489630&cc=us&l=english",
+  "responseDigest": "sha256:b1798ee6ef05ec3815a633a39fa0af8ef585b6d2f38631c1f35caecc794bface",
+  "payload": {
+    "489630": {
+      "success": true,
+      "data": {
+        "steam_appid": 489630,
+        "name": "Warhammer 40,000: Gladius - Relics of War",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 12, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 399,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 8079
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:64a937f3700b1b2cdc3b5e2643acca99f41db1ebfe2c6fd7389cc2e7c5496eb3"
+}

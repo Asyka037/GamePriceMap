@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 47890,
+  "fetchedAt": "2026-07-24T12:47:42.731Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=47890&cc=us&l=english",
+  "responseDigest": "sha256:559a3b5ddc42b166f748e3444ce95bd4dfceda6b728f153e1d1a07776b417789",
+  "payload": {
+    "47890": {
+      "success": true,
+      "data": {
+        "steam_appid": 47890,
+        "name": "The Sims™ 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 27, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 30957
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:978e0e580a728d38dc173ec6fea4c9000eeb617a1e7be05ac863b079e2456164"
+}

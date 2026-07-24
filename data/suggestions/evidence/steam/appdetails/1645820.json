@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1645820,
+  "fetchedAt": "2026-07-24T12:47:32.046Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1645820&cc=us&l=english",
+  "responseDigest": "sha256:23d905e129f7348a136880a71be0956d3b7ff753d9d37bd7fc52943a1a0b3e62",
+  "payload": {
+    "1645820": {
+      "success": true,
+      "data": {
+        "steam_appid": 1645820,
+        "name": "SurrounDead",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 24, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23656
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cfa18e7bec89d1db275d140f77a5c1cca260439314382745f80acce1a8ae1955"
+}

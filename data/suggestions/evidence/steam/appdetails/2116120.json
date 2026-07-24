@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2116120,
+  "fetchedAt": "2026-07-24T12:47:44.011Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2116120&cc=us&l=english",
+  "responseDigest": "sha256:f9d8219d775cde72625cfc43681e96c70bfee583bd4b62575a5e7e9c8ad30179",
+  "payload": {
+    "2116120": {
+      "success": true,
+      "data": {
+        "steam_appid": 2116120,
+        "name": "Incursion Red River",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2199,
+          "final": 1759,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 7964
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:34b88a861c12188c8a4e52b2b287f8773393a34588a434afdd88f6dfec8c27e5"
+}

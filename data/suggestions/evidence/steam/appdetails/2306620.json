@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2306620,
+  "fetchedAt": "2026-07-24T12:47:13.212Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2306620&cc=us&l=english",
+  "responseDigest": "sha256:6fd355ba7967ceb5832f7c6c07118a1ca91d6671359a2bba37844f9d66e35718",
+  "payload": {
+    "2306620": {
+      "success": true,
+      "data": {
+        "steam_appid": 2306620,
+        "name": "Risk of Rain 2: Seekers of the Storm",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11385
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1073b199de8870a17827fc121dffb65de451343e2203a390a59d80f286cbb399"
+}

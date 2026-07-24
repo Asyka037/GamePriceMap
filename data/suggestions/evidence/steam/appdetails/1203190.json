@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1203190,
+  "fetchedAt": "2026-07-24T12:47:46.692Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1203190&cc=us&l=english",
+  "responseDigest": "sha256:55f5910ff5472c0056759a08ff3735054950d8825673892cc4acd40a3d8445ae",
+  "payload": {
+    "1203190": {
+      "success": true,
+      "data": {
+        "steam_appid": 1203190,
+        "name": "Wreckfest 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5321
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c7c2b8aa19fcc533ef500fd1f9d444d08b8a8ab756735b86818673b8b46b62d5"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1159690,
+  "fetchedAt": "2026-07-24T12:46:52.188Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1159690&cc=us&l=english",
+  "responseDigest": "sha256:1ca0780ed151366b0473cda684e00bcaf3100717cd308ff116156eecc725c81e",
+  "payload": {
+    "1159690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1159690,
+        "name": "Voidtrain",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1799,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 8522
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f2dc9f61270ff3c29ecfb0b7d81956263b83044ec45ae2866d048172d89f1212"
+}

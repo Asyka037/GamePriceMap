@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1549970,
+  "fetchedAt": "2026-07-24T12:47:52.079Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1549970&cc=us&l=english",
+  "responseDigest": "sha256:9948355de5f7c50be9c601baa666d0276849c39f8c44f8a6661cfdebad53521e",
+  "payload": {
+    "1549970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1549970,
+        "name": "Aliens: Fireteam Elite",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 23, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 599,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 21465
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f6c151433bdb1b5bc9b5fb50bd0fa62f5cc0bee39e8312373c6ebc16f38135b0"
+}

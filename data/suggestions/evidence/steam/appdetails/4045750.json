@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4045750,
+  "fetchedAt": "2026-07-24T12:46:54.786Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4045750&cc=us&l=english",
+  "responseDigest": "sha256:67a7568123194f87262c07cfd1f56396994ea2a31e36a0e43f8ae14b75187e5d",
+  "payload": {
+    "4045750": {
+      "success": true,
+      "data": {
+        "steam_appid": 4045750,
+        "name": "Out of the Park Baseball 27",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 396
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:54291cb51489b9d2fe83c730f67446fbef6984eae853c01c0615efe87755d88c"
+}

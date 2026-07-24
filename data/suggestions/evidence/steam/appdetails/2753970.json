@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2753970,
+  "fetchedAt": "2026-07-24T12:47:24.056Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2753970&cc=us&l=english",
+  "responseDigest": "sha256:ea84cc2a0e28234f7ac695cfc306d3cf6a09cc46ad7f95bdc6dc073febdd40ca",
+  "payload": {
+    "2753970": {
+      "success": true,
+      "data": {
+        "steam_appid": 2753970,
+        "name": "MARVEL Cosmic Invasion",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1949,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 2148
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:161fb304efd929e64890e7a00004b7d1be4357a02d1af9fef45ca6ee86ead678"
+}

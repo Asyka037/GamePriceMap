@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 851850,
+  "fetchedAt": "2026-07-24T12:47:17.222Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=851850&cc=us&l=english",
+  "responseDigest": "sha256:c7aa55dbc509888872ce02c7679a9bcff4f8a5476bdd7b8cd1a9440c20e534c1",
+  "payload": {
+    "851850": {
+      "success": true,
+      "data": {
+        "steam_appid": 851850,
+        "name": "DRAGON BALL Z: KAKAROT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 16, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1499,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 43719
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bd654bd63c350124701f99bc90bc584055fa0f24192752bc1d139444673d1837"
+}
