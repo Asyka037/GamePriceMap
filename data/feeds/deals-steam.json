@@ -1,17 +1,29 @@
 {
-  "updatedAt": "2026-07-23T10:01:19.137Z",
+  "updatedAt": "2026-07-24T09:58:21.166Z",
   "items": [
     {
-      "title": "Palworld",
+      "title": "Grim Dawn - Fangs of Asterkarn",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1623730/",
+      "url": "https://store.steampowered.com/app/2699230/",
       "currency": "USD",
-      "price": 20.99,
-      "list": 29.99,
-      "pct": 30,
-      "endsAt": "2026-07-23T17:00:00.000Z",
-      "steamAppId": 1623730,
-      "slugIfTracked": "palworld"
+      "price": 17.09,
+      "list": 18.99,
+      "pct": 10,
+      "endsAt": "2026-07-30T17:00:41.000Z",
+      "steamAppId": 2699230,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Dinoblade",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3440070/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 19.99,
+      "pct": 10,
+      "endsAt": "2026-07-30T17:00:26.000Z",
+      "steamAppId": 3440070,
+      "slugIfTracked": null
     },
     {
       "title": "Tears of Metal",
@@ -38,39 +50,39 @@
       "slugIfTracked": null
     },
     {
-      "title": "Funnel Runners",
+      "title": "MECCHA CHAMELEON",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3712080/",
+      "url": "https://store.steampowered.com/app/4704690/",
       "currency": "USD",
-      "price": 13.49,
-      "list": 14.99,
-      "pct": 10,
-      "endsAt": "2026-07-23T17:00:34.000Z",
-      "steamAppId": 3712080,
+      "price": 5.09,
+      "list": 5.99,
+      "pct": 15,
+      "endsAt": "2026-08-02T16:00:00.000Z",
+      "steamAppId": 4704690,
+      "slugIfTracked": "meccha-chameleon"
+    },
+    {
+      "title": "ICARUS",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1149460/",
+      "currency": "USD",
+      "price": 6.99,
+      "list": 34.99,
+      "pct": 80,
+      "endsAt": "2026-07-30T17:00:00.000Z",
+      "steamAppId": 1149460,
       "slugIfTracked": null
     },
     {
-      "title": "Grand Theft Auto V Enhanced",
+      "title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3240220/",
+      "url": "https://store.steampowered.com/app/886313/",
       "currency": "USD",
-      "price": 14.99,
-      "list": 29.99,
-      "pct": 50,
-      "endsAt": "2026-07-28T17:00:00.000Z",
-      "steamAppId": 3240220,
-      "slugIfTracked": "grand-theft-auto-v-enhanced"
-    },
-    {
-      "title": "Tainted Grail: The Fall of Avalon",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1466060/",
-      "currency": "USD",
-      "price": 22.49,
-      "list": 44.99,
+      "price": 29.99,
+      "list": 59.99,
       "pct": 50,
       "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 1466060,
+      "steamAppId": 886313,
       "slugIfTracked": null
     },
     {
@@ -86,40 +98,28 @@
       "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
-      "title": "Rubinite",
+      "title": "Nine Sols",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1845250/",
-      "currency": "USD",
-      "price": 17.99,
-      "list": 19.99,
-      "pct": 10,
-      "endsAt": "2026-08-05T17:00:14.000Z",
-      "steamAppId": 1845250,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Red Dead Redemption 2",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1174180/",
+      "url": "https://store.steampowered.com/app/1809540/",
       "currency": "USD",
       "price": 14.99,
-      "list": 59.99,
-      "pct": 75,
-      "endsAt": "2026-07-23T17:00:00.000Z",
-      "steamAppId": 1174180,
-      "slugIfTracked": "red-dead-redemption-2"
+      "list": 29.99,
+      "pct": 50,
+      "endsAt": "2026-07-30T17:00:00.000Z",
+      "steamAppId": 1809540,
+      "slugIfTracked": "nine-sols"
     },
     {
-      "title": "Dirty Business",
+      "title": "Gamble With Your Friends",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/4324480/",
+      "url": "https://store.steampowered.com/app/3892270/",
       "currency": "USD",
-      "price": 11.99,
-      "list": 14.99,
-      "pct": 20,
-      "endsAt": "2026-08-05T17:00:18.000Z",
-      "steamAppId": 4324480,
-      "slugIfTracked": null
+      "price": 4.95,
+      "list": 7.99,
+      "pct": 38,
+      "endsAt": "2026-07-29T18:00:00.000Z",
+      "steamAppId": 3892270,
+      "slugIfTracked": "gamble-with-your-friends"
     }
   ]
 }

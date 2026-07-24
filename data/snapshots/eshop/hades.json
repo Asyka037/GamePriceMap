@@ -1,6 +1,6 @@
 {
   "slug": "hades",
-  "lastPriceChangeAt": "2026-07-22",
+  "lastPriceChangeAt": "2026-07-24",
   "regions": [
     {
       "cc": "AU",
@@ -13,10 +13,10 @@
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 22.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 3.44,
+      "list": 22.99,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-14T06:59:59Z"
     },
     {
       "cc": "CH",
@@ -61,10 +61,10 @@
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 359.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 53.99,
+      "list": 359.99,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-14T06:59:59Z"
     },
     {
       "cc": "NO",
@@ -93,10 +93,10 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 17.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 2.69,
+      "list": 17.99,
+      "discountPct": 85,
+      "saleEndsAt": "2026-08-14T06:59:59Z"
     },
     {
       "cc": "ZA",
