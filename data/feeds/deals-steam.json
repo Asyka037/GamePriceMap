@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-07-24T09:58:21.166Z",
+  "updatedAt": "2026-07-25T09:20:42.268Z",
   "items": [
-    {
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2699230/",
-      "currency": "USD",
-      "price": 17.09,
-      "list": 18.99,
-      "pct": 10,
-      "endsAt": "2026-07-30T17:00:41.000Z",
-      "steamAppId": 2699230,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Dinoblade",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3440070/",
-      "currency": "USD",
-      "price": 17.99,
-      "list": 19.99,
-      "pct": 10,
-      "endsAt": "2026-07-30T17:00:26.000Z",
-      "steamAppId": 3440070,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Tears of Metal",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1913120/",
-      "currency": "USD",
-      "price": 22.49,
-      "list": 24.99,
-      "pct": 10,
-      "endsAt": "2026-08-05T17:00:01.000Z",
-      "steamAppId": 1913120,
-      "slugIfTracked": null
-    },
     {
       "title": "Shift At Midnight",
       "storeId": "steam",
@@ -62,27 +26,39 @@
       "slugIfTracked": "meccha-chameleon"
     },
     {
-      "title": "ICARUS",
+      "title": "Grim Dawn - Fangs of Asterkarn",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1149460/",
+      "url": "https://store.steampowered.com/app/2699230/",
       "currency": "USD",
-      "price": 6.99,
-      "list": 34.99,
-      "pct": 80,
-      "endsAt": "2026-07-30T17:00:00.000Z",
-      "steamAppId": 1149460,
+      "price": 17.09,
+      "list": 18.99,
+      "pct": 10,
+      "endsAt": "2026-07-30T17:00:41.000Z",
+      "steamAppId": 2699230,
       "slugIfTracked": null
     },
     {
-      "title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
+      "title": "Tears of Metal",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/886313/",
+      "url": "https://store.steampowered.com/app/1913120/",
       "currency": "USD",
-      "price": 29.99,
-      "list": 59.99,
-      "pct": 50,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 886313,
+      "price": 22.49,
+      "list": 24.99,
+      "pct": 10,
+      "endsAt": "2026-08-05T17:00:01.000Z",
+      "steamAppId": 1913120,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Dinoblade",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3440070/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 19.99,
+      "pct": 10,
+      "endsAt": "2026-07-30T17:00:26.000Z",
+      "steamAppId": 3440070,
       "slugIfTracked": null
     },
     {
@@ -98,16 +74,28 @@
       "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
-      "title": "Nine Sols",
+      "title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1809540/",
+      "url": "https://store.steampowered.com/app/886313/",
       "currency": "USD",
-      "price": 14.99,
-      "list": 29.99,
+      "price": 29.99,
+      "list": 59.99,
       "pct": 50,
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 886313,
+      "slugIfTracked": null
+    },
+    {
+      "title": "ICARUS",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1149460/",
+      "currency": "USD",
+      "price": 6.99,
+      "list": 34.99,
+      "pct": 80,
       "endsAt": "2026-07-30T17:00:00.000Z",
-      "steamAppId": 1809540,
-      "slugIfTracked": "nine-sols"
+      "steamAppId": 1149460,
+      "slugIfTracked": null
     },
     {
       "title": "Gamble With Your Friends",
@@ -120,6 +108,18 @@
       "endsAt": "2026-07-29T18:00:00.000Z",
       "steamAppId": 3892270,
       "slugIfTracked": "gamble-with-your-friends"
+    },
+    {
+      "title": "R.E.P.O.",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3241660/",
+      "currency": "USD",
+      "price": 6.49,
+      "list": 9.99,
+      "pct": 35,
+      "endsAt": "2026-08-07T17:00:00.000Z",
+      "steamAppId": 3241660,
+      "slugIfTracked": "r-e-p-o"
     }
   ]
 }
