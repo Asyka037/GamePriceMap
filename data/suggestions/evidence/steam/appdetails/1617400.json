@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1617400,
+  "fetchedAt": "2026-07-25T12:10:49.720Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1617400&cc=us&l=english",
+  "responseDigest": "sha256:7e5d1816b64b3f46bcc18509cb67ba41955155dada3e2d7c03aa104404bcae37",
+  "payload": {
+    "1617400": {
+      "success": true,
+      "data": {
+        "steam_appid": 1617400,
+        "name": "The Bazaar",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 13, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14049
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7748f5a89b4eb9535b6d126cd3990a4cd4a784726463717d70d83b67590719ee"
+}

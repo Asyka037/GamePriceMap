@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 109600,
+  "fetchedAt": "2026-07-25T12:11:22.189Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=109600&cc=us&l=english",
+  "responseDigest": "sha256:e2d9a6e67a8e657a81829e5dbb3c09c15a576eee048a197e7fdc782c667673b9",
+  "payload": {
+    "109600": {
+      "success": true,
+      "data": {
+        "steam_appid": 109600,
+        "name": "Neverwinter",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2013"
+        },
+        "recommendations": {
+          "total": 295
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:627839738861efd96a062edb516dd26cfda361e8ab9ad60e46ab710f519df7b5"
+}

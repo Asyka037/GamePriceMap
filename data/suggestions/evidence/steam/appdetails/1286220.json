@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1286220,
+  "fetchedAt": "2026-07-25T12:10:30.463Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1286220&cc=us&l=english",
+  "responseDigest": "sha256:d7664e642f4697c65aa1c03cd849c8bb76d4039735301e8175ace9bc94d5d05e",
+  "payload": {
+    "1286220": {
+      "success": true,
+      "data": {
+        "steam_appid": 1286220,
+        "name": "Sea Power : Naval Combat in the Missile Age",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5574
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9328b7fe7a167746c38e7c7feb0f626a3c6ac14cf07013032d742ea1d3c4533c"
+}

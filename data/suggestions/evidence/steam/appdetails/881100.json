@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 881100,
+  "fetchedAt": "2026-07-25T12:10:47.108Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=881100&cc=us&l=english",
+  "responseDigest": "sha256:9be6bd4bf5430364bcad6c31ae727f7d1711224197329ce808fbb9b3432f46ed",
+  "payload": {
+    "881100": {
+      "success": true,
+      "data": {
+        "steam_appid": 881100,
+        "name": "Noita",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 80435
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b8bb09a6af161dcaeb8b6725af629fdc75ae0cfa7c2489d7f4ce897f68501c81"
+}

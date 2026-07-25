@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 880940,
+  "fetchedAt": "2026-07-25T12:10:31.745Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=880940&cc=us&l=english",
+  "responseDigest": "sha256:7c48e6be7103d0cd63f60d6baa2a08d0d973de85ed0aa00ac69600cb9ed16f55",
+  "payload": {
+    "880940": {
+      "success": true,
+      "data": {
+        "steam_appid": 880940,
+        "name": "Pummel Party",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 20, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 45867
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:87ed810fe24391327c4fae6c50f04d27bc0c22ff48ad2368dea435c28327db90"
+}

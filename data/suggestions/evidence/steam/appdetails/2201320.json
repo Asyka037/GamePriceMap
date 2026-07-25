@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2201320,
+  "fetchedAt": "2026-07-25T12:10:51.028Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2201320&cc=us&l=english",
+  "responseDigest": "sha256:e037866049225b04704124f008e3dd29d4bd5b77ed00061b90713474e569f03c",
+  "payload": {
+    "2201320": {
+      "success": true,
+      "data": {
+        "steam_appid": 2201320,
+        "name": "Date Everything!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6425
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:287bb8b1cef2663de54532bb1d00aa5ea3c399488e4c5a3c1011252c0848b9bb"
+}

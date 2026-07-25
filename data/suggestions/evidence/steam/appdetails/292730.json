@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 292730,
+  "fetchedAt": "2026-07-25T12:11:16.976Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=292730&cc=us&l=english",
+  "responseDigest": "sha256:6df2acca1f51b1153cdf743503552c1d1a9f3d8498b900e826650f6d31cc1f58",
+  "payload": {
+    "292730": {
+      "success": true,
+      "data": {
+        "steam_appid": 292730,
+        "name": "Call of Duty®: Infinite Warfare",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 3, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17244
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e520479feec54d8b585b3a25005aa0afa1e7ecca623ebfdd8fab1d7be32d14aa"
+}

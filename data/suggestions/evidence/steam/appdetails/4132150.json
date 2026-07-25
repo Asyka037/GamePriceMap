@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4132150,
+  "fetchedAt": "2026-07-25T12:10:22.761Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4132150&cc=us&l=english",
+  "responseDigest": "sha256:2ccc687220d2e0d728b174a7a486c770a6433062cd53399489d3ba1454f381f2",
+  "payload": {
+    "4132150": {
+      "success": true,
+      "data": {
+        "steam_appid": 4132150,
+        "name": "Tainted Grail: The Fall of Avalon - Sanctuary of Sarras DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 749,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 494
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:162620ca13de1787f39d4c4ffbadbe38f28d0434ce97f34ccb6ec06dd897c468"
+}

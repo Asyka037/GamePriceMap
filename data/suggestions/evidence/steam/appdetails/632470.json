@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 632470,
+  "fetchedAt": "2026-07-25T12:10:34.292Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=632470&cc=us&l=english",
+  "responseDigest": "sha256:fabcccbcfb238b345b7ccae2f9171c80354882b9f95172613e30877beff16060",
+  "payload": {
+    "632470": {
+      "success": true,
+      "data": {
+        "steam_appid": 632470,
+        "name": "Disco Elysium - The Final Cut",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 116462
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9b3f75a08ff8216d460b5f2ee3ad30ad3df958e9f89acca69f332ff65d37f3e4"
+}

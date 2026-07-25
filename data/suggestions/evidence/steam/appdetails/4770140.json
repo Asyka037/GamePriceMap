@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4770140,
+  "fetchedAt": "2026-07-25T12:11:09.226Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4770140&cc=us&l=english",
+  "responseDigest": "sha256:586ce2abd195e08835fe3e11f9a7de8a14e8c6da78c87ecd438d4cfb53a845a5",
+  "payload": {
+    "4770140": {
+      "success": true,
+      "data": {
+        "steam_appid": 4770140,
+        "name": "7,200 Premier Pack - Rainbow Six Siege",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 9999,
+          "final": 9999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:218ab91ee818ce1d89eb43f1ae7333389d31d17d6697e549d645e82e51505f6d"
+}

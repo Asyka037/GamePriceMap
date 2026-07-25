@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 505460,
+  "fetchedAt": "2026-07-25T12:10:59.978Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=505460&cc=us&l=english",
+  "responseDigest": "sha256:4b23c7ad2cf1794342d3c3398c9cb3bd8b7e2d3f12887f8345ff069153214d9b",
+  "payload": {
+    "505460": {
+      "success": true,
+      "data": {
+        "steam_appid": 505460,
+        "name": "Foxhole",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 28, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 46806
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fcef66406b528bfa9c9dd7d68ec878794fd177c8620cd1c221b7d54f44e711dc"
+}

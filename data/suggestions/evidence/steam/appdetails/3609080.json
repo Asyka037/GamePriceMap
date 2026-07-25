@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3609080,
+  "fetchedAt": "2026-07-25T12:10:27.913Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3609080&cc=us&l=english",
+  "responseDigest": "sha256:00169c38ea92456548d2832f5b86653bddffe71b7cc1ef043975cc928d1d7374",
+  "payload": {
+    "3609080": {
+      "success": true,
+      "data": {
+        "steam_appid": 3609080,
+        "name": "StarSavior",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3094eef512c951cc8d4470de26009f3fb64f6459071784b1935d0195b97882da"
+}

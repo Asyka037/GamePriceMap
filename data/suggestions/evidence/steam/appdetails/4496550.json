@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4496550,
+  "fetchedAt": "2026-07-25T12:10:57.433Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4496550&cc=us&l=english",
+  "responseDigest": "sha256:a040aa7f4e3a4823fc1dba00f16bd51e96a1030a8746b934effd771941ccd077",
+  "payload": {
+    "4496550": {
+      "success": true,
+      "data": {
+        "steam_appid": 4496550,
+        "name": " Assassin's Creed Black Flag Resynced - Hellfire Naval Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8608c66b0fe4ad6fefcd2e21ba400fcd9767be5e785072e23fed00790e31e538"
+}

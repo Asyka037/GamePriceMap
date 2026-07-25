@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1196590,
+  "fetchedAt": "2026-07-25T12:11:01.236Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1196590&cc=us&l=english",
+  "responseDigest": "sha256:923e521f6f1042be25bc408e1dfe5cc383041d49d1c60713b94d89600cbbcd6c",
+  "payload": {
+    "1196590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1196590,
+        "name": "Resident Evil Village",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 6, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 104644
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f87aaac1abf89838345a1f61d5bd86a6412d06ac37edfb06f202f9762c99b0f5"
+}

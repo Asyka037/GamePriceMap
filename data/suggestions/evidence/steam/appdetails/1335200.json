@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1335200,
+  "fetchedAt": "2026-07-25T12:11:11.818Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1335200&cc=us&l=english",
+  "responseDigest": "sha256:3a5cddbf1c14428d0914f303d51a8361ac31d8e525de57aa506983bcfdbb4dff",
+  "payload": {
+    "1335200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1335200,
+        "name": "Action Taimanin",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 5, 2020"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:277cfa75767804fb94ca4c920231332617c22416c6cb9e52e14e0bd955ef471a"
+}

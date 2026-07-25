@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 239140,
+  "fetchedAt": "2026-07-25T12:11:18.345Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=239140&cc=us&l=english",
+  "responseDigest": "sha256:78762a63ccaad218e34c23fa878a36c987e21032e8dfe7932c77960fa99a0caa",
+  "payload": {
+    "239140": {
+      "success": true,
+      "data": {
+        "steam_appid": 239140,
+        "name": "Dying Light",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 26, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 375488
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c57e20cf36e3571759bd05b2e613819394bca3736af03f9d321ee1ea76b7d7d5"
+}

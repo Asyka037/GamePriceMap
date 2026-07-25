@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2231380,
+  "fetchedAt": "2026-07-25T12:10:44.531Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2231380&cc=us&l=english",
+  "responseDigest": "sha256:d2e9c53e5f63d162de7efe7a4288a529852e94f8f130ad9eddb4dfec96755285",
+  "payload": {
+    "2231380": {
+      "success": true,
+      "data": {
+        "steam_appid": 2231380,
+        "name": "Tom Clancy's Ghost Recon® Breakpoint",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 40476
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:019204b65e40e22e758468aecca70b4480dae1b7f518cba754626da16032ff77"
+}

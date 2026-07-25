@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1184370,
+  "fetchedAt": "2026-07-25T12:11:04.021Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1184370&cc=us&l=english",
+  "responseDigest": "sha256:dca3608bb748d591c7371a8373c4718d15c19176bf49b0dc5122b1cb67c29a73",
+  "payload": {
+    "1184370": {
+      "success": true,
+      "data": {
+        "steam_appid": 1184370,
+        "name": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 2, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 33631
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:93102d8d0a5ec1ff08e5cd23bcadf94d991b464dcf9cb4232c412136fe294341"
+}

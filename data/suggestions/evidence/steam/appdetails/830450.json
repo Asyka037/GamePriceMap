@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 830450,
+  "fetchedAt": "2026-07-25T12:10:36.831Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=830450&cc=us&l=english",
+  "responseDigest": "sha256:d9b378f216d434fe785b792048990186604b3f3725d308b4e316e5c4ffbd2d36",
+  "payload": {
+    "830450": {
+      "success": true,
+      "data": {
+        "steam_appid": 830450,
+        "name": "Call of Duty®: Black Ops III - Der Eisendrache Zombies Map",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 1, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 415
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:359333b8e8fe1e694d8ca6ad2285e4b6200f815979d943c48d695f40a47f059b"
+}

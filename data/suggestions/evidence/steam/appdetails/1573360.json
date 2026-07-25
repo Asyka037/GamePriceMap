@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1573360,
+  "fetchedAt": "2026-07-25T12:11:15.720Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1573360&cc=us&l=english",
+  "responseDigest": "sha256:0ac8b6edec7f27b4d8ce516278eba58ba690dd18d825416337ca93e2c3872da8",
+  "payload": {
+    "1573360": {
+      "success": true,
+      "data": {
+        "steam_appid": 1573360,
+        "name": "Infinity Kingdom",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 1, 2021"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48380e5351807927fcba4ea9746817b4102198c59ca20398d510f0a9c0504b02"
+}

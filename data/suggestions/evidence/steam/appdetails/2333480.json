@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2333480,
+  "fetchedAt": "2026-07-25T12:10:25.372Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2333480&cc=us&l=english",
+  "responseDigest": "sha256:7792f62302e095e68db9dbf2bdfa6e09a3e45c9e4c7b54fcd1fbcf55971827c0",
+  "payload": {
+    "2333480": {
+      "success": true,
+      "data": {
+        "steam_appid": 2333480,
+        "name": "RAID: Shadow Legends",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 9, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:04100449b4f781bef34be15929e4f4636e5bd7ef7b11f47add6268679499c044"
+}

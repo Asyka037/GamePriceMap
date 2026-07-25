@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 782330,
+  "fetchedAt": "2026-07-25T12:10:29.174Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=782330&cc=us&l=english",
+  "responseDigest": "sha256:fcac4c1a5fa2f00a34bfb0014590d3fc4613cf513f45f4bd45e46bbdad3d928c",
+  "payload": {
+    "782330": {
+      "success": true,
+      "data": {
+        "steam_appid": 782330,
+        "name": "DOOM Eternal",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 19, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 188942
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:10785e6c9b051679e77e7c6bfe5b21a85bb80b37d4c834c77fbe384269097fbf"
+}

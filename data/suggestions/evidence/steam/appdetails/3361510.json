@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3361510,
+  "fetchedAt": "2026-07-25T12:10:41.972Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3361510&cc=us&l=english",
+  "responseDigest": "sha256:49ec92f4da12b3b4002f8d6be17c4ec134ca08dcc3da13d1d9eae2ca94065b56",
+  "payload": {
+    "3361510": {
+      "success": true,
+      "data": {
+        "steam_appid": 3361510,
+        "name": "Coal LLC",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 899,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 1253
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2b27e2458ed86fa4ac8ed1d1125931521e1ce4d1e0d349560209d2fcada32f47"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 431730,
+  "fetchedAt": "2026-07-25T12:11:19.626Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=431730&cc=us&l=english",
+  "responseDigest": "sha256:131debc21b022fa5122848c6d177b94fe310461be9e3ff67a183875bbf270ac8",
+  "payload": {
+    "431730": {
+      "success": true,
+      "data": {
+        "steam_appid": 431730,
+        "name": "Aseprite",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 22, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20848
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df71eb7298cb6af12bcfe84811e91cef525267b70d69805b8b9430999187f4e5"
+}

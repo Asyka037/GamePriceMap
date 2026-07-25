@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3092660,
+  "fetchedAt": "2026-07-25T12:10:20.074Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3092660&cc=us&l=english",
+  "responseDigest": "sha256:5fece9199479c2a1230c512ccdefc41061e5d4d7ffe8c198baf62a1d9dc9e580",
+  "payload": {
+    "3092660": {
+      "success": true,
+      "data": {
+        "steam_appid": 3092660,
+        "name": "Reverse: 1999",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:86b8e9eb623bb08ba3ad70880b118e751d25a4cfd9a1d9533a51a2db2efac177"
+}
