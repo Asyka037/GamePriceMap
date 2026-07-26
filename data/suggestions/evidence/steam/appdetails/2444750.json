@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2444750,
+  "fetchedAt": "2026-07-26T12:18:23.157Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2444750&cc=us&l=english",
+  "responseDigest": "sha256:9065d106b5cdfea218dc830d11e3135939c12e95cd1cac4b2660c704e8396cf3",
+  "payload": {
+    "2444750": {
+      "success": true,
+      "data": {
+        "steam_appid": 2444750,
+        "name": "Shape of Dreams",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15353
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9280fdf949189d34019920038d1338832ab7cdb54f50183c9c9795b1704410ae"
+}

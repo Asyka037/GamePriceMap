@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1259420,
+  "fetchedAt": "2026-07-26T12:17:37.126Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1259420&cc=us&l=english",
+  "responseDigest": "sha256:2818100cf61bdb1e847d3c6bf107794fff03d86084faece2c19b7fc233a8c939",
+  "payload": {
+    "1259420": {
+      "success": true,
+      "data": {
+        "steam_appid": 1259420,
+        "name": "Days Gone",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 17, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 81860
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9716dbfc84de115ad4eef304b6172ec346d23787914f3b88e08b5012f7b2d08b"
+}

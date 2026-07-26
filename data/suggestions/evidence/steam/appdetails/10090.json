@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 10090,
+  "fetchedAt": "2026-07-26T12:17:58.808Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=10090&cc=us&l=english",
+  "responseDigest": "sha256:6491158efa00fed746ef31eba817dccd27d33ec2e5ee31a833edac6ff3a64306",
+  "payload": {
+    "10090": {
+      "success": true,
+      "data": {
+        "steam_appid": 10090,
+        "name": "Call of Duty: World at War",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 18, 2008"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 45532
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91f3866446af9ef33057b8d8d3d4a89ddd50ccde621537f4423d905483d0b92b"
+}

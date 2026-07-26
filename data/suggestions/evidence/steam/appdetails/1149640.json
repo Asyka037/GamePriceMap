@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1149640,
+  "fetchedAt": "2026-07-26T12:18:07.774Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1149640&cc=us&l=english",
+  "responseDigest": "sha256:21fa826f133076c4f03c1b2ce4b71cc4c501118e2fae1d8091060dc375846594",
+  "payload": {
+    "1149640": {
+      "success": true,
+      "data": {
+        "steam_appid": 1149640,
+        "name": "RimWorld - Royalty",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 24, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2419
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:42e4d518104574a861665db46fc0dfc0cbdd78c814aae07f5e8326d0dcf0590a"
+}

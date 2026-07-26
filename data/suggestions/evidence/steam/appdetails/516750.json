@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 516750,
+  "fetchedAt": "2026-07-26T12:17:52.376Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=516750&cc=us&l=english",
+  "responseDigest": "sha256:ce189a58f0fb5e39564851fdf8e3c835918884a3627fc0dddd3799757b0c644e",
+  "payload": {
+    "516750": {
+      "success": true,
+      "data": {
+        "steam_appid": 516750,
+        "name": "My Summer Car",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 106908
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d45b62cd9f134c19eabd61c7e23e35f6c3037642936cdd7ea6235dd486966121"
+}

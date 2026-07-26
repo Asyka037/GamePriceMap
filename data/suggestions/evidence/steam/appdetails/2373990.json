@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2373990,
+  "fetchedAt": "2026-07-26T12:18:20.599Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2373990&cc=us&l=english",
+  "responseDigest": "sha256:2158fa44d0c9db4a7f1f5fba0cbd5abd2c9733370c16652cbbc8f60c4b6900a0",
+  "payload": {
+    "2373990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2373990,
+        "name": "Solo Leveling: ARISE OVERDRIVE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7356
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:29e6180799156f9997705ef4db2b4f1b901f9f7a36956bc8bbd48529266120d4"
+}

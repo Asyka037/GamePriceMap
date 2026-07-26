@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1262350,
+  "fetchedAt": "2026-07-26T12:17:28.314Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1262350&cc=us&l=english",
+  "responseDigest": "sha256:fe4a0b713c34948cf1d670a991494ff4871d5c7f119349defcd62ae4364b069e",
+  "payload": {
+    "1262350": {
+      "success": true,
+      "data": {
+        "steam_appid": 1262350,
+        "name": "SIGNALIS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 29937
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48f31d4909102df613b5bf4f7057ef3942688bc391dcce2fa69e5269e50ad2a4"
+}

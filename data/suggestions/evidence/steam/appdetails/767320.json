@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 767320,
+  "fetchedAt": "2026-07-26T12:17:40.937Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=767320&cc=us&l=english",
+  "responseDigest": "sha256:83b002f36eb1f7b313767b4b5ef85d7cd762b38e531a94887f7ed76440597eaa",
+  "payload": {
+    "767320": {
+      "success": true,
+      "data": {
+        "steam_appid": 767320,
+        "name": "Granblue Fantasy",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 10, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c795ef4ac444f47de95c9cca8bbc067ab4a9e072fe8b205d6bd3056e70416e5b"
+}

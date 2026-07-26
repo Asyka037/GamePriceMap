@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1044720,
+  "fetchedAt": "2026-07-26T12:17:27.036Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1044720&cc=us&l=english",
+  "responseDigest": "sha256:3d7a293ae30e9a7273feaf09ec20f123f59eaf5935ae5364b8cfd3e2206ec00a",
+  "payload": {
+    "1044720": {
+      "success": true,
+      "data": {
+        "steam_appid": 1044720,
+        "name": "Farthest Frontier",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2099,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 24016
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:21d841e3add31cef267fdb99af38afdeba4f73e94c247a24f0477f0b61642501"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1222140,
+  "fetchedAt": "2026-07-26T12:18:02.589Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1222140&cc=us&l=english",
+  "responseDigest": "sha256:b691e402c274a53bd7a5782f58b96e6dfa379c968a07a3a5cf4a085b4e85bd2e",
+  "payload": {
+    "1222140": {
+      "success": true,
+      "data": {
+        "steam_appid": 1222140,
+        "name": "Detroit: Become Human",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 220814
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6322726549e74e422321d200e2e41990e90d9b9cfae50e8720c0f4dce84e2353"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1644320,
+  "fetchedAt": "2026-07-26T12:17:49.858Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1644320&cc=us&l=english",
+  "responseDigest": "sha256:048cc46cad2a4b2ca0f006da1bed9d9a9318217382c97240c01ed995418eb12a",
+  "payload": {
+    "1644320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1644320,
+        "name": "Railway Empire 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 2499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1919
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4da717fe5eb874fb51b25dc595770ce068deffef446536fbd3715b083b01e677"
+}

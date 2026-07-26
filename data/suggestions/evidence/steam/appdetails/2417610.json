@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2417610,
+  "fetchedAt": "2026-07-26T12:18:01.353Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2417610&cc=us&l=english",
+  "responseDigest": "sha256:159e73eba640170aa90d1e30a8217417b6b45db604ea16dfa5211b4624819c5d",
+  "payload": {
+    "2417610": {
+      "success": true,
+      "data": {
+        "steam_appid": 2417610,
+        "name": "METAL GEAR SOLID Δ: SNAKE EATER",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12512
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7a119b7d61a9e25ef0c47bd6013d30f0e33a3d33c5a788d37fa545f8927b9cc6"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 386180,
+  "fetchedAt": "2026-07-26T12:18:14.183Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=386180&cc=us&l=english",
+  "responseDigest": "sha256:7ad00f51206f39c1c25bef0acb3b91c90b9f241dedc842d01f1f6724e55f856a",
+  "payload": {
+    "386180": {
+      "success": true,
+      "data": {
+        "steam_appid": 386180,
+        "name": "Crossout",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 26, 2017"
+        },
+        "recommendations": {
+          "total": 880
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:82af76ca49bcf07925c39fd3a209d1033ecee69343c6fe96a28a2302aabd9dd5"
+}

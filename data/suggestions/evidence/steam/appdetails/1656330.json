@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1656330,
+  "fetchedAt": "2026-07-26T12:17:56.218Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1656330&cc=us&l=english",
+  "responseDigest": "sha256:07e9570618f0f483f6293d82c75c61e5a404361e619a7a41a1815c102261dcf2",
+  "payload": {
+    "1656330": {
+      "success": true,
+      "data": {
+        "steam_appid": 1656330,
+        "name": "Destiny 2: The Witch Queen",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 22, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 199,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 2651
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a7c5ce5ed9405bcfbcdfee8cbb8631157858079660dc305391c70cc05cb0cf9a"
+}

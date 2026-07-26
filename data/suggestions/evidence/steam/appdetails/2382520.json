@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2382520,
+  "fetchedAt": "2026-07-26T12:17:42.250Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2382520&cc=us&l=english",
+  "responseDigest": "sha256:e92f86c8666a3ee13baa873feaa759603c23b7261d7952fd29d4016692a95b71",
+  "payload": {
+    "2382520": {
+      "success": true,
+      "data": {
+        "steam_appid": 2382520,
+        "name": "Erenshor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2074
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f66be2c8c9ef6b20c55abaa14efdfba9bcb883b0c2c6bf0938443405346d06e8"
+}

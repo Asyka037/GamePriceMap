@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1912410,
+  "fetchedAt": "2026-07-26T12:18:26.991Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1912410&cc=us&l=english",
+  "responseDigest": "sha256:3d2043fbf89b8feb97e1d75a059e39c76d746a13166cad9bf0464c00bd41957c",
+  "payload": {
+    "1912410": {
+      "success": true,
+      "data": {
+        "steam_appid": 1912410,
+        "name": "Minecraft Dungeons II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:246965b646498e192ac37f48bee90374e17fb98659fde49058e55147b8e83d99"
+}

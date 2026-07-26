@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 21690,
+  "fetchedAt": "2026-07-26T12:17:34.597Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=21690&cc=us&l=english",
+  "responseDigest": "sha256:f8229fae34ff37b17018aa5c176d112d23b91f215f2dc4ba6d57a0508b8b9dc8",
+  "payload": {
+    "21690": {
+      "success": true,
+      "data": {
+        "steam_appid": 21690,
+        "name": "Resident Evil 5",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 15, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 47334
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a31ca10b59b356153d753fa928bbc4768db8e2f96e83b83381cdb41efac67820"
+}

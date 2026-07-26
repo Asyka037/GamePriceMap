@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2131640,
+  "fetchedAt": "2026-07-26T12:17:29.615Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2131640&cc=us&l=english",
+  "responseDigest": "sha256:14701353aedfad746b51ea408425eb88491f09207cfe3aa2d56637a9c0499889",
+  "payload": {
+    "2131640": {
+      "success": true,
+      "data": {
+        "steam_appid": 2131640,
+        "name": "METAL GEAR SOLID 2: Sons of Liberty - Master Collection Version",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 3138
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ad177d6c1f1e95ffdcc7873afd73cddbeaa8a92426eafbda31b738f8a70fbca3"
+}

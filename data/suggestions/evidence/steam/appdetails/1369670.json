@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1369670,
+  "fetchedAt": "2026-07-26T12:18:21.919Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1369670&cc=us&l=english",
+  "responseDigest": "sha256:2a08c0324e416a6ea0417782297fdd487b0e103eaa2911a6be8387604fd6e955",
+  "payload": {
+    "1369670": {
+      "success": true,
+      "data": {
+        "steam_appid": 1369670,
+        "name": "Motor Town: Behind The Wheel",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 17, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8702
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3fdbd724888099d1bd4f33efbb0575e142551097ccdfef5a39fda3e9eeba195f"
+}

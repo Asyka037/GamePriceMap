@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 24010,
+  "fetchedAt": "2026-07-26T12:17:30.852Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=24010&cc=us&l=english",
+  "responseDigest": "sha256:48fe994ff17fd129030cfc1ac6db6611ba55622f4e4f420531570d539b1691e8",
+  "payload": {
+    "24010": {
+      "success": true,
+      "data": {
+        "steam_appid": 24010,
+        "name": "Train Simulator Classic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 17, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 599,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 19346
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1b7a5ff09459bf31a908ab9afb59a2c6d1992d41feededecc86ff74c89e20c9c"
+}

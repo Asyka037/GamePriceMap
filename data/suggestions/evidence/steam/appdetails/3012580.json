@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3012580,
+  "fetchedAt": "2026-07-26T12:17:54.938Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3012580&cc=us&l=english",
+  "responseDigest": "sha256:fec9d97e3665277b833575d45044e7cdff4d3ac6f02f694eafa68e05acfc4474",
+  "payload": {
+    "3012580": {
+      "success": true,
+      "data": {
+        "steam_appid": 3012580,
+        "name": "American Truck Simulator - Louisiana",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 283
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:abca68f8437854ca66dd56d64133022d8cda94704ee6036a0e38d87d8beee2e3"
+}
