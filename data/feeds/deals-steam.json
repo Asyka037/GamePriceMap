@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T09:20:42.268Z",
+  "updatedAt": "2026-07-26T09:36:08.226Z",
   "items": [
     {
       "title": "Shift At Midnight",
@@ -26,18 +26,6 @@
       "slugIfTracked": "meccha-chameleon"
     },
     {
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2699230/",
-      "currency": "USD",
-      "price": 17.09,
-      "list": 18.99,
-      "pct": 10,
-      "endsAt": "2026-07-30T17:00:41.000Z",
-      "steamAppId": 2699230,
-      "slugIfTracked": null
-    },
-    {
       "title": "Tears of Metal",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/1913120/",
@@ -47,6 +35,18 @@
       "pct": 10,
       "endsAt": "2026-08-05T17:00:01.000Z",
       "steamAppId": 1913120,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Grim Dawn - Fangs of Asterkarn",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2699230/",
+      "currency": "USD",
+      "price": 17.09,
+      "list": 18.99,
+      "pct": 10,
+      "endsAt": "2026-07-30T17:00:41.000Z",
+      "steamAppId": 2699230,
       "slugIfTracked": null
     },
     {
@@ -74,18 +74,6 @@
       "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
-      "title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/886313/",
-      "currency": "USD",
-      "price": 29.99,
-      "list": 59.99,
-      "pct": 50,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 886313,
-      "slugIfTracked": null
-    },
-    {
       "title": "ICARUS",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/1149460/",
@@ -110,16 +98,28 @@
       "slugIfTracked": "gamble-with-your-friends"
     },
     {
-      "title": "R.E.P.O.",
+      "title": "Arma Reforger",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3241660/",
+      "url": "https://store.steampowered.com/app/1874880/",
       "currency": "USD",
-      "price": 6.49,
-      "list": 9.99,
-      "pct": 35,
-      "endsAt": "2026-08-07T17:00:00.000Z",
-      "steamAppId": 3241660,
-      "slugIfTracked": "r-e-p-o"
+      "price": 27.99,
+      "list": 39.99,
+      "pct": 30,
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 1874880,
+      "slugIfTracked": "arma-reforger"
+    },
+    {
+      "title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/886313/",
+      "currency": "USD",
+      "price": 29.99,
+      "list": 59.99,
+      "pct": 50,
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 886313,
+      "slugIfTracked": null
     }
   ]
 }
