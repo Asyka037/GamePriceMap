@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T10:57:39.693Z",
+  "updatedAt": "2026-07-27T12:25:17.525Z",
   "sources": {
     "steam-regional": {
       "lastAttemptAt": "2026-07-27T10:55:10.147Z",
@@ -14,16 +14,16 @@
       "note": "changed 4, unchanged 93, skipped 0, failed region requests 0, expected 97"
     },
     "xbox-us": {
-      "lastAttemptAt": "2026-07-20T11:44:38.499Z",
-      "lastSuccessAt": "2026-07-20T11:44:38.499Z",
+      "lastAttemptAt": "2026-07-27T12:23:09.817Z",
+      "lastSuccessAt": "2026-07-27T12:23:09.817Z",
       "consecutiveFailures": 0,
-      "note": "changed 3, unchanged 11, failed products 0, failed requests 0, expected 14"
+      "note": "changed 0, unchanged 14, failed products 0, failed requests 0, expected 14"
     },
     "steam-offers": {
-      "lastAttemptAt": "2026-07-20T11:46:47.756Z",
-      "lastSuccessAt": "2026-07-20T11:46:47.756Z",
+      "lastAttemptAt": "2026-07-27T12:25:17.525Z",
+      "lastSuccessAt": "2026-07-27T12:25:17.525Z",
       "consecutiveFailures": 0,
-      "note": "changed 0, unchanged 9, files written 0, failed requests 0, expected 9"
+      "note": "changed 5, unchanged 4, files written 2, failed requests 0, expected 9"
     },
     "meta": {
       "lastAttemptAt": "2026-07-16T15:57:35.996Z",
