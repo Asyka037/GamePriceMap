@@ -1,6 +1,6 @@
 {
   "slug": "final-fantasy-vii-rebirth",
-  "lastPriceChangeAt": "2026-07-17",
+  "lastPriceChangeAt": "2026-07-27",
   "regions": [
     {
       "cc": "AR",
@@ -77,10 +77,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 6578,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 3946,
+      "list": 6578,
+      "discountPct": 40,
+      "saleEndsAt": "2026-08-12T14:59:59Z"
     },
     {
       "cc": "MX",

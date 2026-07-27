@@ -1,6 +1,6 @@
 {
   "slug": "final-fantasy-vii-remake-intergrade",
-  "lastPriceChangeAt": "2026-07-17",
+  "lastPriceChangeAt": "2026-07-27",
   "regions": [
     {
       "cc": "AR",
@@ -77,10 +77,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 5478,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 2191,
+      "list": 5478,
+      "discountPct": 60,
+      "saleEndsAt": "2026-08-17T14:59:59Z"
     },
     {
       "cc": "MX",

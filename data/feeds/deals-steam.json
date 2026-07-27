@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-07-26T09:36:08.226Z",
+  "updatedAt": "2026-07-27T10:56:26.132Z",
   "items": [
+    {
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2417610/",
+      "currency": "USD",
+      "price": 27.99,
+      "list": 69.99,
+      "pct": 60,
+      "endsAt": "2026-08-08T17:00:00.000Z",
+      "steamAppId": 2417610,
+      "slugIfTracked": null
+    },
     {
       "title": "Shift At Midnight",
       "storeId": "steam",
@@ -11,6 +23,18 @@
       "pct": 10,
       "endsAt": "2026-07-29T17:00:37.000Z",
       "steamAppId": 3722330,
+      "slugIfTracked": null
+    },
+    {
+      "title": "ICARUS",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1149460/",
+      "currency": "USD",
+      "price": 6.99,
+      "list": 34.99,
+      "pct": 80,
+      "endsAt": "2026-07-30T17:00:00.000Z",
+      "steamAppId": 1149460,
       "slugIfTracked": null
     },
     {
@@ -38,6 +62,18 @@
       "slugIfTracked": null
     },
     {
+      "title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/886313/",
+      "currency": "USD",
+      "price": 29.99,
+      "list": 59.99,
+      "pct": 50,
+      "endsAt": "2026-07-27T17:00:00.000Z",
+      "steamAppId": 886313,
+      "slugIfTracked": null
+    },
+    {
       "title": "Grim Dawn - Fangs of Asterkarn",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/2699230/",
@@ -47,18 +83,6 @@
       "pct": 10,
       "endsAt": "2026-07-30T17:00:41.000Z",
       "steamAppId": 2699230,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Dinoblade",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3440070/",
-      "currency": "USD",
-      "price": 17.99,
-      "list": 19.99,
-      "pct": 10,
-      "endsAt": "2026-07-30T17:00:26.000Z",
-      "steamAppId": 3440070,
       "slugIfTracked": null
     },
     {
@@ -74,15 +98,15 @@
       "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
-      "title": "ICARUS",
+      "title": "Dinoblade",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1149460/",
+      "url": "https://store.steampowered.com/app/3440070/",
       "currency": "USD",
-      "price": 6.99,
-      "list": 34.99,
-      "pct": 80,
-      "endsAt": "2026-07-30T17:00:00.000Z",
-      "steamAppId": 1149460,
+      "price": 17.99,
+      "list": 19.99,
+      "pct": 10,
+      "endsAt": "2026-07-30T17:00:26.000Z",
+      "steamAppId": 3440070,
       "slugIfTracked": null
     },
     {
@@ -96,30 +120,6 @@
       "endsAt": "2026-07-29T18:00:00.000Z",
       "steamAppId": 3892270,
       "slugIfTracked": "gamble-with-your-friends"
-    },
-    {
-      "title": "Arma Reforger",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1874880/",
-      "currency": "USD",
-      "price": 27.99,
-      "list": 39.99,
-      "pct": 30,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 1874880,
-      "slugIfTracked": "arma-reforger"
-    },
-    {
-      "title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/886313/",
-      "currency": "USD",
-      "price": 29.99,
-      "list": 59.99,
-      "pct": 50,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 886313,
-      "slugIfTracked": null
     }
   ]
 }
