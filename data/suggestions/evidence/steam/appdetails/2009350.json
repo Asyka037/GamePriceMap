@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2009350,
+  "fetchedAt": "2026-07-27T13:45:39.843Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2009350&cc=us&l=english",
+  "responseDigest": "sha256:c87d69d71bbc73e173ab5e3d86c58b92be64bb1d7637bf6147294900e2bdd97b",
+  "payload": {
+    "2009350": {
+      "success": true,
+      "data": {
+        "steam_appid": 2009350,
+        "name": "Out of Ore",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 31, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3846
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0b21acb978703affec9914b8a1e07837e0d99fe5882aa147a0c90dcc3bbbfeac"
+}

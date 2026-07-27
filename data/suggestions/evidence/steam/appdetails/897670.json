@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 897670,
+  "fetchedAt": "2026-07-27T13:46:14.254Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=897670&cc=us&l=english",
+  "responseDigest": "sha256:8f42b2414317e0e84f852852bfc7e1b18313e76f051d765ff0fc9d7a1a393eaf",
+  "payload": {
+    "897670": {
+      "success": true,
+      "data": {
+        "steam_appid": 897670,
+        "name": "Grim Dawn - Forgotten Gods Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 27, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1061
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:659def4e49720d3ccc205d398ce00b0598908c94bde870bad00193475f498955"
+}

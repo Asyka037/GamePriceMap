@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1089980,
+  "fetchedAt": "2026-07-27T13:46:20.551Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1089980&cc=us&l=english",
+  "responseDigest": "sha256:639efd0eb45edc41b125bd163d13a7ef1d3343c4829f3d0b1c2ef5c0cd108bb7",
+  "payload": {
+    "1089980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1089980,
+        "name": "The Henry Stickmin Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 7, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 599,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 55027
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:53a09678f35e15626120e9f8eff5e75e60c6e5e5562849b2878660b870c735f4"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4322960,
+  "fetchedAt": "2026-07-27T13:45:52.535Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4322960&cc=us&l=english",
+  "responseDigest": "sha256:9024a0168ce7ca2925fbe08590971480630979807441af44e9e3e1dd5f1c07fd",
+  "payload": {
+    "4322960": {
+      "success": true,
+      "data": {
+        "steam_appid": 4322960,
+        "name": "Trail & Error",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2ac34bd6e25a04fc9325a93cd5b554b9a3db13946b6e09e6d1d0494868b9ec0f"
+}

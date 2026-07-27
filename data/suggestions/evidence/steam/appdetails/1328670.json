@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1328670,
+  "fetchedAt": "2026-07-27T13:45:43.633Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1328670&cc=us&l=english",
+  "responseDigest": "sha256:6f195d61fe11e2a0eaf61db2bb62a4d6f704584a0afe5fc684b13e41bc5f504d",
+  "payload": {
+    "1328670": {
+      "success": true,
+      "data": {
+        "steam_appid": 1328670,
+        "name": "Mass Effect™ Legendary Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 14, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 61255
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:54542e76079d5f4d5c4b73dfcf217551ddc380fb40178f143d643b4f4e062087"
+}

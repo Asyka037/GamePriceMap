@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2739990,
+  "fetchedAt": "2026-07-27T13:46:00.115Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2739990&cc=us&l=english",
+  "responseDigest": "sha256:355a680341ace01f99e127867bbf27ab9c897e41a1b34c9b64f120384436d0ce",
+  "payload": {
+    "2739990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2739990,
+        "name": "Mahjong Soul",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:10b6024fd7d9a1f682201ed99a428e7decc0d825f3ab9dff1766609301bc4d26"
+}

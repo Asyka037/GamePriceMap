@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 886250,
+  "fetchedAt": "2026-07-27T13:45:18.875Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=886250&cc=us&l=english",
+  "responseDigest": "sha256:6fa534204edb7786812ee123cc52c871a1b78d0d47c30638ab328cc1ccf4ffff",
+  "payload": {
+    "886250": {
+      "success": true,
+      "data": {
+        "steam_appid": 886250,
+        "name": "Vegas Infinite by PokerStars",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b6db4897f39751f4241282dc8e07848de4ebb7de3c8f39518f8abb2984d7b773"
+}

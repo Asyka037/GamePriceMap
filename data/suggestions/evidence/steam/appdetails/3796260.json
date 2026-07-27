@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3796260,
+  "fetchedAt": "2026-07-27T13:46:18.036Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3796260&cc=us&l=english",
+  "responseDigest": "sha256:f4886f4cf87f9de26effd3b37fd10ba31ac8e7b727f3fc353c4d708bdf5b8a8d",
+  "payload": {
+    "3796260": {
+      "success": true,
+      "data": {
+        "steam_appid": 3796260,
+        "name": "Expansion - Hearts of Iron IV: No Compromise, No Surrender",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1641
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:649d952dd5a83c376640c4f2f1e9630a0fdd68e04476127246de3c470aa3c4ba"
+}

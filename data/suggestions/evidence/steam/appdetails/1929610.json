@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1929610,
+  "fetchedAt": "2026-07-27T13:46:15.534Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1929610&cc=us&l=english",
+  "responseDigest": "sha256:4008ed28312d969366964e06f8910a9f74c2f96ebdab4f192ce1e5003188e497",
+  "payload": {
+    "1929610": {
+      "success": true,
+      "data": {
+        "steam_appid": 1929610,
+        "name": "Demonologist",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 18665
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e069601c84e3181d31dd327052c0f2bc4bf3066dda2a5f36c249f334b838ca1c"
+}

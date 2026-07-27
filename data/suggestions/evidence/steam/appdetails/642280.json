@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 642280,
+  "fetchedAt": "2026-07-27T13:45:58.857Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=642280&cc=us&l=english",
+  "responseDigest": "sha256:30a7cba78a71e5132498218fb1e690915baef865292f839499baecfb1cc2aa81",
+  "payload": {
+    "642280": {
+      "success": true,
+      "data": {
+        "steam_appid": 642280,
+        "name": "Grim Dawn - Ashes of Malmouth Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 11, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1430
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df33851eb211f45ab21034c8a56593e6203216498c1233c2d4101ee99173f1dd"
+}

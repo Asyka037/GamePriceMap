@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 15100,
+  "fetchedAt": "2026-07-27T13:45:27.765Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=15100&cc=us&l=english",
+  "responseDigest": "sha256:764d982209fd0ab68fea7fd356fe67694495c772781e77a86e71fa91373974c2",
+  "payload": {
+    "15100": {
+      "success": true,
+      "data": {
+        "steam_appid": 15100,
+        "name": "Assassin's Creed™: Director's Cut Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2008"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 23622
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cdbd2144a5da205304094a8aea499d4899bd3f5a79435fe27e35d06e757d5cd4"
+}

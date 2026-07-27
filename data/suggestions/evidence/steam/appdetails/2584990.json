@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2584990,
+  "fetchedAt": "2026-07-27T13:45:46.130Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2584990&cc=us&l=english",
+  "responseDigest": "sha256:e2f5f4d1702e022011f13bcab83e1a14cb37f60ed6342e4be5f7d41c687180a3",
+  "payload": {
+    "2584990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2584990,
+        "name": "Shadowverse: Worlds Beyond",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 14, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d5b256c75485510f5dec36a90342a4a559cb3e1ecfdab9c2afdd8a4ec3cabcde"
+}

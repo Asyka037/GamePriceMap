@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2131650,
+  "fetchedAt": "2026-07-27T13:45:51.243Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2131650&cc=us&l=english",
+  "responseDigest": "sha256:686059a04989ae62dccb9933a03bd829771d19c3ca59c52c68602b80c29c7e84",
+  "payload": {
+    "2131650": {
+      "success": true,
+      "data": {
+        "steam_appid": 2131650,
+        "name": "METAL GEAR SOLID 3: Snake Eater - Master Collection Version",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 5187
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1ae9782c176bae9f53f40885644d68d4543b6297ac9914a7f2d13423da2e06d0"
+}

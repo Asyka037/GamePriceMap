@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3370870,
+  "fetchedAt": "2026-07-27T13:46:06.494Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3370870&cc=us&l=english",
+  "responseDigest": "sha256:61c47d1e8b9df96caf3a0f990d76bb0109180d17b1adedfa9063004f416667c5",
+  "payload": {
+    "3370870": {
+      "success": true,
+      "data": {
+        "steam_appid": 3370870,
+        "name": "Berry Bury Berry",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8030
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5deaf2736e8a9df72ea97f2ddc5d6d69cf926c77e7a9dc47c7afcd274daf0333"
+}

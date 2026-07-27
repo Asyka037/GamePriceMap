@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 304050,
+  "fetchedAt": "2026-07-27T13:46:19.318Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=304050&cc=us&l=english",
+  "responseDigest": "sha256:8fed9fb6060b1b71076a1051503de89973254bfd3b0e8257b0d8acbfdf77cb42",
+  "payload": {
+    "304050": {
+      "success": true,
+      "data": {
+        "steam_appid": 304050,
+        "name": "Trove",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2015"
+        },
+        "recommendations": {
+          "total": 954
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c35714b0d3c7cf43adf5b8b9c8ffe44663f52ab88b96b34a22c8ac4016746391"
+}

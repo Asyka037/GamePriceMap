@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3438850,
+  "fetchedAt": "2026-07-27T13:45:38.266Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3438850&cc=us&l=english",
+  "responseDigest": "sha256:85aeb7738232f9f3e26cb2df2d08edf81c27869757def1ad3f8acffcca701517",
+  "payload": {
+    "3438850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3438850,
+        "name": "Sledding Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 639,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 2756
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:05d04063511bb2507212ceac98696042ce0b360ba3c87cf4f69a1e48fddd4ddf"
+}

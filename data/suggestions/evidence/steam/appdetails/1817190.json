@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1817190,
+  "fetchedAt": "2026-07-27T13:45:23.998Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1817190&cc=us&l=english",
+  "responseDigest": "sha256:9b5b4fde952f4b303ce94f969dc8d02c28e7338caf5626db2dc12fd3f6791dc6",
+  "payload": {
+    "1817190": {
+      "success": true,
+      "data": {
+        "steam_appid": 1817190,
+        "name": "Marvel’s Spider-Man: Miles Morales",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 18, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 37549
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e45cf5f573f471ae2892d6c3c30e30d72c31782390e721cc407050ed086534b1"
+}

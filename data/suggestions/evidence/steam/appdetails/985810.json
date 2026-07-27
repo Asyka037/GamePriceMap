@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 985810,
+  "fetchedAt": "2026-07-27T13:45:22.757Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=985810&cc=us&l=english",
+  "responseDigest": "sha256:15407450b47a574c4486590debece902884e9987d77107d9f420bf4c4ccd436d",
+  "payload": {
+    "985810": {
+      "success": true,
+      "data": {
+        "steam_appid": 985810,
+        "name": "GrandChase",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2021"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a6987cf0d8ebf1e84a367565e654f6107946c27e8f04a095efed4d827c198be3"
+}

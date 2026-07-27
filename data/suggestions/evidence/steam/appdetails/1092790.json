@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1092790,
+  "fetchedAt": "2026-07-27T13:45:25.271Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1092790&cc=us&l=english",
+  "responseDigest": "sha256:297bf65785cfa3f10f4e41ea6c71c6f05742f564f7b8f7de2adc7a5afe972cf5",
+  "payload": {
+    "1092790": {
+      "success": true,
+      "data": {
+        "steam_appid": 1092790,
+        "name": "Inscryption",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 19, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 799,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 133849
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:de5805c80497a428a8c584049d9dfe24e69116238bab3601807c452830069d9b"
+}

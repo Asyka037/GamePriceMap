@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3615160,
+  "fetchedAt": "2026-07-27T13:45:48.695Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3615160&cc=us&l=english",
+  "responseDigest": "sha256:b66cbdb157422e435e55c42a885d9a7a3128101e918728e81e996a55fea866e1",
+  "payload": {
+    "3615160": {
+      "success": true,
+      "data": {
+        "steam_appid": 3615160,
+        "name": "Teddy's Haven",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2571
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f6e6b352d00ae25a5940acf2e9b0408b87fbd4bf55f889fba1f7482250872496"
+}

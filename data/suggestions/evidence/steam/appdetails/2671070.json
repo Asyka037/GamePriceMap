@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2671070,
+  "fetchedAt": "2026-07-27T13:45:26.534Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2671070&cc=us&l=english",
+  "responseDigest": "sha256:f2f0d64acaa104353a8375b341b4eff508525440e460668e310a812ca215f349",
+  "payload": {
+    "2671070": {
+      "success": true,
+      "data": {
+        "steam_appid": 2671070,
+        "name": "Crusader Kings III: Roads to Power",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2050
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0a55d088ea9714c6ae43b3df067ebc28529efbe178c0c63037c1cc515724266e"
+}
