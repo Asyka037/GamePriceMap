@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-27T10:56:26.132Z",
+  "updatedAt": "2026-07-28T10:10:29.608Z",
   "items": [
     {
-      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "title": "Cyberpunk 2077",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2417610/",
+      "url": "https://store.steampowered.com/app/1091500/",
       "currency": "USD",
-      "price": 27.99,
-      "list": 69.99,
-      "pct": 60,
-      "endsAt": "2026-08-08T17:00:00.000Z",
-      "steamAppId": 2417610,
-      "slugIfTracked": null
+      "price": 17.99,
+      "list": 59.99,
+      "pct": 70,
+      "endsAt": "2026-08-10T17:00:00.000Z",
+      "steamAppId": 1091500,
+      "slugIfTracked": "cyberpunk-2077"
     },
     {
       "title": "Shift At Midnight",
@@ -26,15 +26,27 @@
       "slugIfTracked": null
     },
     {
-      "title": "ICARUS",
+      "title": "Cyberpunk 2077: Phantom Liberty",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1149460/",
+      "url": "https://store.steampowered.com/app/2138330/",
       "currency": "USD",
-      "price": 6.99,
-      "list": 34.99,
-      "pct": 80,
-      "endsAt": "2026-07-30T17:00:00.000Z",
-      "steamAppId": 1149460,
+      "price": 17.99,
+      "list": 29.99,
+      "pct": 40,
+      "endsAt": "2026-08-10T17:00:00.000Z",
+      "steamAppId": 2138330,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Endacopia",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2684630/",
+      "currency": "USD",
+      "price": 14.85,
+      "list": 16.5,
+      "pct": 10,
+      "endsAt": "2026-08-10T17:00:17.000Z",
+      "steamAppId": 2684630,
       "slugIfTracked": null
     },
     {
@@ -50,42 +62,6 @@
       "slugIfTracked": "meccha-chameleon"
     },
     {
-      "title": "Tears of Metal",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1913120/",
-      "currency": "USD",
-      "price": 22.49,
-      "list": 24.99,
-      "pct": 10,
-      "endsAt": "2026-08-05T17:00:01.000Z",
-      "steamAppId": 1913120,
-      "slugIfTracked": null
-    },
-    {
-      "title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/886313/",
-      "currency": "USD",
-      "price": 29.99,
-      "list": 59.99,
-      "pct": 50,
-      "endsAt": "2026-07-27T17:00:00.000Z",
-      "steamAppId": 886313,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2699230/",
-      "currency": "USD",
-      "price": 17.09,
-      "list": 18.99,
-      "pct": 10,
-      "endsAt": "2026-07-30T17:00:41.000Z",
-      "steamAppId": 2699230,
-      "slugIfTracked": null
-    },
-    {
       "title": "Grand Theft Auto V Enhanced",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/3240220/",
@@ -98,28 +74,52 @@
       "slugIfTracked": "grand-theft-auto-v-enhanced"
     },
     {
-      "title": "Dinoblade",
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3440070/",
+      "url": "https://store.steampowered.com/app/2417610/",
       "currency": "USD",
-      "price": 17.99,
-      "list": 19.99,
-      "pct": 10,
-      "endsAt": "2026-07-30T17:00:26.000Z",
-      "steamAppId": 3440070,
+      "price": 27.99,
+      "list": 69.99,
+      "pct": 60,
+      "endsAt": "2026-08-08T17:00:00.000Z",
+      "steamAppId": 2417610,
       "slugIfTracked": null
     },
     {
-      "title": "Gamble With Your Friends",
+      "title": "ICARUS",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3892270/",
+      "url": "https://store.steampowered.com/app/1149460/",
       "currency": "USD",
-      "price": 4.95,
-      "list": 7.99,
-      "pct": 38,
-      "endsAt": "2026-07-29T18:00:00.000Z",
-      "steamAppId": 3892270,
-      "slugIfTracked": "gamble-with-your-friends"
+      "price": 6.99,
+      "list": 34.99,
+      "pct": 80,
+      "endsAt": "2026-07-30T17:00:00.000Z",
+      "steamAppId": 1149460,
+      "slugIfTracked": null
+    },
+    {
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2215200/",
+      "currency": "USD",
+      "price": 55.99,
+      "list": 69.99,
+      "pct": 20,
+      "endsAt": "2026-08-10T17:00:00.000Z",
+      "steamAppId": 2215200,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Tears of Metal",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1913120/",
+      "currency": "USD",
+      "price": 22.49,
+      "list": 24.99,
+      "pct": 10,
+      "endsAt": "2026-08-05T17:00:01.000Z",
+      "steamAppId": 1913120,
+      "slugIfTracked": null
     }
   ]
 }

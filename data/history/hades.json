@@ -13,7 +13,7 @@
       "seed": "self"
     },
     "eshop-eu": {
-      "usd": 29.96,
+      "usd": 29.91,
       "date": null,
       "seed": "eshop-eu"
     }
@@ -53,6 +53,13 @@
       "cc": "US",
       "usd": 2.69,
       "pct": 85
+    },
+    {
+      "d": "2026-07-28",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 24.99,
+      "pct": null
     }
   ]
 }
