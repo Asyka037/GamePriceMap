@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4662010,
+  "fetchedAt": "2026-07-28T13:03:34.509Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4662010&cc=us&l=english",
+  "responseDigest": "sha256:d9cf32dd3a71b1067e906dc8eb5031792b70c79449a1ac2c836b9a6f966e2924",
+  "payload": {
+    "4662010": {
+      "success": true,
+      "data": {
+        "steam_appid": 4662010,
+        "name": "Tom Clancy’s The Division 2 – Into the Dark Supply Drop",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f6fcc038fd773aa40aeeb45aeb98a4ae9dad5ee0c9885ad6c6e7e7567160d85c"
+}

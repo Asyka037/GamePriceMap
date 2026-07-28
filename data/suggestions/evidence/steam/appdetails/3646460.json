@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3646460,
+  "fetchedAt": "2026-07-28T13:03:05.514Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3646460&cc=us&l=english",
+  "responseDigest": "sha256:2c37a84c17132f5dfa067f598bba76258ac0fd73e6348e26189d1c2ada0c0bd9",
+  "payload": {
+    "3646460": {
+      "success": true,
+      "data": {
+        "steam_appid": 3646460,
+        "name": "Devil Spire Falls",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 909
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a4b20d6a569472385acb04d5c606083f22d2edca177f557c3bd2788c3e56dcde"
+}

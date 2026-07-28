@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3681810,
+  "fetchedAt": "2026-07-28T13:02:50.370Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3681810&cc=us&l=english",
+  "responseDigest": "sha256:ee3046b2c64321796eefa448147332a125c8ac51a3f1321996b4a7b36df48978",
+  "payload": {
+    "3681810": {
+      "success": true,
+      "data": {
+        "steam_appid": 3681810,
+        "name": "Blue Protocol: Star Resonance",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 9, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8ece31236d2752af7c2b2f4cbce84e40f42fbbead2aab75d7bc755e5024cecfc"
+}

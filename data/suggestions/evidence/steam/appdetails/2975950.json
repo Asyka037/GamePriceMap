@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2975950,
+  "fetchedAt": "2026-07-28T13:03:15.572Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2975950&cc=us&l=english",
+  "responseDigest": "sha256:175cbb276f1e10d5dc1caf17e285dcd5cb021f169136063a57424c162d1977f0",
+  "payload": {
+    "2975950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2975950,
+        "name": "Solasta II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3199,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 2730
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dc28c44c31c5bdb40b1ec38044375ad2b5099171582c4d97a31714a1250634fa"
+}

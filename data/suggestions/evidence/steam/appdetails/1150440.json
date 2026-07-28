@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1150440,
+  "fetchedAt": "2026-07-28T13:03:30.715Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1150440&cc=us&l=english",
+  "responseDigest": "sha256:9929e1b1fc646c79203cb73779b6b98436f50485150a58eff9f489e414d45004",
+  "payload": {
+    "1150440": {
+      "success": true,
+      "data": {
+        "steam_appid": 1150440,
+        "name": "Aliens: Dark Descent",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 19, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1199,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 15034
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:abcd5a417651decb9c2f4db87c391d801da9c22907b38b19c2a06602cd5a1668"
+}

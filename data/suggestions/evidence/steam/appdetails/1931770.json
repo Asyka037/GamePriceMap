@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1931770,
+  "fetchedAt": "2026-07-28T13:03:18.099Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1931770&cc=us&l=english",
+  "responseDigest": "sha256:b418541f6b9c284889bef4883c3813768ee2d160de2013421a43d24110f2c67e",
+  "payload": {
+    "1931770": {
+      "success": true,
+      "data": {
+        "steam_appid": 1931770,
+        "name": "Chants of Sennaar",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 29218
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:680f4fd3a5647a50f1252370cc1c1003c2d1889030f1250e1c46408b19c95f04"
+}

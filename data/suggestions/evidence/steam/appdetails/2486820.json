@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2486820,
+  "fetchedAt": "2026-07-28T13:03:47.141Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2486820&cc=us&l=english",
+  "responseDigest": "sha256:8fe1ae5331a4d7c65c4a5754c96ef65fe334056a92338906b4d14dde83bfee2b",
+  "payload": {
+    "2486820": {
+      "success": true,
+      "data": {
+        "steam_appid": 2486820,
+        "name": "Sonic Racing: CrossWorlds",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11047
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fc75a0865622fe0f462de27c954928d1dbf3027c574b8d7e6a08fa5bfafc3de5"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2638890,
+  "fetchedAt": "2026-07-28T13:03:25.705Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2638890&cc=us&l=english",
+  "responseDigest": "sha256:c7f9c1a3d0b3f3a5850505f6c5baf25810f4f1b00ea32b00d8bab381bd3a84de",
+  "payload": {
+    "2638890": {
+      "success": true,
+      "data": {
+        "steam_appid": 2638890,
+        "name": "Onimusha: Way of the Sword",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e677e9b49e5728757ac3c13acbf724f70939d549d6a78b02d310cb1ed755c0cb"
+}

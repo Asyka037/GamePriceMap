@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 678960,
+  "fetchedAt": "2026-07-28T13:03:28.204Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=678960&cc=us&l=english",
+  "responseDigest": "sha256:5700a94904d6fb794a6825904ddd967bcd26ec027962b03a10ee7fd0c52c8352",
+  "payload": {
+    "678960": {
+      "success": true,
+      "data": {
+        "steam_appid": 678960,
+        "name": "CODE VEIN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 599,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 46039
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2e81a2f89e95e556fc706365ff9fce2e2c7ea5e67242726825f9b59bf66116f8"
+}

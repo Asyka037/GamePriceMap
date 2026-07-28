@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 752590,
+  "fetchedAt": "2026-07-28T13:03:11.804Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=752590&cc=us&l=english",
+  "responseDigest": "sha256:a9b952404dd41605aed5700747fe3960dbadfbfc3ecfee60a5ab5723ec2bb3a7",
+  "payload": {
+    "752590": {
+      "success": true,
+      "data": {
+        "steam_appid": 752590,
+        "name": "A Plague Tale: Innocence",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 14, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 399,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 61053
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:780637bf1e4577c25406cb1933bdd8afe030946228fb56ad67f47f8f16a473e0"
+}

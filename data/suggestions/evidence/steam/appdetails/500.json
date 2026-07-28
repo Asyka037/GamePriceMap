@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 500,
+  "fetchedAt": "2026-07-28T13:02:54.199Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=500&cc=us&l=english",
+  "responseDigest": "sha256:7150d7483ff3613d182d10bc2ddeaeb343b9ce5aa2f84bcc9b56c2d3bb4b0eba",
+  "payload": {
+    "500": {
+      "success": true,
+      "data": {
+        "steam_appid": 500,
+        "name": "Left 4 Dead",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 17, 2008"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 57746
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8cf23a24db05638aeae282002a1281c0cd332693e52141ac90cd6d8343c4949f"
+}

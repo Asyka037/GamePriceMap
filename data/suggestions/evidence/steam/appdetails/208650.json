@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 208650,
+  "fetchedAt": "2026-07-28T13:02:46.627Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=208650&cc=us&l=english",
+  "responseDigest": "sha256:263bd18f9d75faef7a6637f8d38e913388cfe154633341cc79305820b43eaefc",
+  "payload": {
+    "208650": {
+      "success": true,
+      "data": {
+        "steam_appid": 208650,
+        "name": "Batman™: Arkham Knight",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 109798
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:71e158f3603cb90aeaf5a533b20230c9697955df5467a51b062166931220d227"
+}

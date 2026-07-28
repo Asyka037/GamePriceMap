@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3265230,
+  "fetchedAt": "2026-07-28T13:03:48.419Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3265230&cc=us&l=english",
+  "responseDigest": "sha256:6b03b50f3a98c71618b08a2a4ad32845c901613428e3f3352252e1aa77f579df",
+  "payload": {
+    "3265230": {
+      "success": true,
+      "data": {
+        "steam_appid": 3265230,
+        "name": "Cursed Companions",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 324
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:33d1f6123324d0d417dd75a4f62165fcd30ec9831d8c73259bca94b784cd95f3"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1527950,
+  "fetchedAt": "2026-07-28T13:03:43.324Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1527950&cc=us&l=english",
+  "responseDigest": "sha256:6ed00fa160879d9ad6fd01b15809996e9061cace53000233bef8038561ec342d",
+  "payload": {
+    "1527950": {
+      "success": true,
+      "data": {
+        "steam_appid": 1527950,
+        "name": "Wartales",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 12, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 31691
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ee96736709aa37181babcc48ed2361aa2e28fc16944250eb0be3313dc9a5020d"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3710840,
+  "fetchedAt": "2026-07-28T13:03:16.843Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3710840&cc=us&l=english",
+  "responseDigest": "sha256:c99fbde527df42624e77f14cdbaa963564aab68b658834201a82ee06a89637d2",
+  "payload": {
+    "3710840": {
+      "success": true,
+      "data": {
+        "steam_appid": 3710840,
+        "name": "House Flipper Remastered Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 3999,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 717
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:546c18ddc3d015e0d52c7488c8800e5feb633a95870fa6a7367834ad65d0be40"
+}

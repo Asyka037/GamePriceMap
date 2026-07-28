@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 379430,
+  "fetchedAt": "2026-07-28T13:03:10.569Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=379430&cc=us&l=english",
+  "responseDigest": "sha256:b173cb46e1d241701eb7fac029fcccb2b0143cb69125d9fb4cd25fcb2cc45122",
+  "payload": {
+    "379430": {
+      "success": true,
+      "data": {
+        "steam_appid": 379430,
+        "name": "Kingdom Come: Deliverance",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 13, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 141804
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91084ac70514c7023760024fbef54b1df2cd6b1708690b47604621cbe02fcc38"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3499380,
+  "fetchedAt": "2026-07-28T13:03:45.842Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3499380&cc=us&l=english",
+  "responseDigest": "sha256:8b08cbb3f7a62644c674a432b82075058bf8666b0050f9924da542b92ce25719",
+  "payload": {
+    "3499380": {
+      "success": true,
+      "data": {
+        "steam_appid": 3499380,
+        "name": "Easy Red 2: Shanghai - Nanking",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 479,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 884
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a7170c98e30fd68985bf40240f1dcf5002a0baa90778ec6875cac9e44ce173e9"
+}

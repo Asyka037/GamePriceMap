@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2627570,
+  "fetchedAt": "2026-07-28T13:03:13.056Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2627570&cc=us&l=english",
+  "responseDigest": "sha256:5cc7082b1008d231c2e6c746f46466ddab11b4dc3f0f3ad9482fcbceb01035c3",
+  "payload": {
+    "2627570": {
+      "success": true,
+      "data": {
+        "steam_appid": 2627570,
+        "name": "Goofy Gorillas",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 758
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a4e396e15d37c7a372f1b5ec126969e521e11fea2b9368240b55db8db1bc3c3f"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1118200,
+  "fetchedAt": "2026-07-28T13:03:40.803Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1118200&cc=us&l=english",
+  "responseDigest": "sha256:2840e4f75e3f9fe6d6dfd007b23a536f3b5c12bc38ad152969cd031be323938c",
+  "payload": {
+    "1118200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1118200,
+        "name": "People Playground",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 296009
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7c8f3b29343a4b20349ba427b571dd5be2836ec3a08b648fade2a8e51d61c9ef"
+}

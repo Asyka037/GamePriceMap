@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 221040,
+  "fetchedAt": "2026-07-28T13:02:47.867Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=221040&cc=us&l=english",
+  "responseDigest": "sha256:39a06177a35fca76b30039afc72c39b70082ab1d360f6667629bb9f274cab6da",
+  "payload": {
+    "221040": {
+      "success": true,
+      "data": {
+        "steam_appid": 221040,
+        "name": "Resident Evil 6",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 21, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 50413
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a414e3839a8714d0d584aeece3bb03c3ad3f4b4111762013e6d7306a19e7b3fc"
+}

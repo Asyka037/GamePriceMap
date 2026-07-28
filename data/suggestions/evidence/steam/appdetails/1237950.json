@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1237950,
+  "fetchedAt": "2026-07-28T13:03:39.568Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1237950&cc=us&l=english",
+  "responseDigest": "sha256:d15613a78fa7c2a5ecc2baef397d6d121ee4795789e5756ae060d65d52a63cf1",
+  "payload": {
+    "1237950": {
+      "success": true,
+      "data": {
+        "steam_appid": 1237950,
+        "name": "STAR WARS™ Battlefront™ II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 86690
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ad26ca2cb0a5ac4c8527f2a601c7e7b28019cec156cfaa6046d65783766246e2"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2719750,
+  "fetchedAt": "2026-07-28T13:03:14.341Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2719750&cc=us&l=english",
+  "responseDigest": "sha256:15b6e906423412f126c689453763742c64b4b14ed05dc065b84140502eb75587",
+  "payload": {
+    "2719750": {
+      "success": true,
+      "data": {
+        "steam_appid": 2719750,
+        "name": "Star Birds",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1499,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 2876
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0693ea6182d99eff91f9fd8e5413a293b3e18436110e7755b7e77888f5cb6857"
+}

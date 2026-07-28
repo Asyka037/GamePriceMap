@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 235460,
+  "fetchedAt": "2026-07-28T13:02:57.935Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=235460&cc=us&l=english",
+  "responseDigest": "sha256:d951481f7148228d9667b0029ba7a31464e149feb1aae9e9a8e7d4059bcab706",
+  "payload": {
+    "235460": {
+      "success": true,
+      "data": {
+        "steam_appid": 235460,
+        "name": "METAL GEAR RISING: REVENGEANCE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 9, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 68826
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1b7b769933d196417c8002331205175856021f7e5fee50185bbdcfac49570408"
+}

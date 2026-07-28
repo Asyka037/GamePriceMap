@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4760260,
+  "fetchedAt": "2026-07-28T13:03:00.465Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4760260&cc=us&l=english",
+  "responseDigest": "sha256:069ac0d878465e71d85e03debade51db5fdd78a266ccf65510a49057ea08fdb1",
+  "payload": {
+    "4760260": {
+      "success": true,
+      "data": {
+        "steam_appid": 4760260,
+        "name": "Warframe: Styanax Prime Access - Weapons Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:08f873ea658f46d0b84987f93f8db11c44b814a18debae0cfd32732f19b6b5e6"
+}
