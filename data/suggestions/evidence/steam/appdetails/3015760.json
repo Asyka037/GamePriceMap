@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3015760,
+  "fetchedAt": "2026-07-29T13:09:24.677Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3015760&cc=us&l=english",
+  "responseDigest": "sha256:6982bec73f037f5a9dfaeef3afdb010c1381f5e0b74c5743bdfe6ef354766cde",
+  "payload": {
+    "3015760": {
+      "success": true,
+      "data": {
+        "steam_appid": 3015760,
+        "name": "Ready or Not: Home Invasion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2780
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:87c5ffd6ce7d1fe392c2628805e771432c6769f6b5620a3df2a242757ff07f9d"
+}

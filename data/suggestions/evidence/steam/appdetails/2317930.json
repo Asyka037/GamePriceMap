@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2317930,
+  "fetchedAt": "2026-07-29T13:08:33.431Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2317930&cc=us&l=english",
+  "responseDigest": "sha256:0d5ab0ab7b213ca646c0f4683950562c20c8eadca983a8cf9b1c8ab2f98c484c",
+  "payload": {
+    "2317930": {
+      "success": true,
+      "data": {
+        "steam_appid": 2317930,
+        "name": "Easy Red 2: Normandy",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 6, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 479,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 245
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b32ac7e71a5ba2a3993107901b1d7292336b54dbb1ddb7b49004d40da1e59539"
+}

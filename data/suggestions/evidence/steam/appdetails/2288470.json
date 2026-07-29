@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2288470,
+  "fetchedAt": "2026-07-29T13:09:06.183Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2288470&cc=us&l=english",
+  "responseDigest": "sha256:df2c9b36e95d6c71de8514baae8ca94caf00b266cb3be2e42e104da2c095abb9",
+  "payload": {
+    "2288470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2288470,
+        "name": "Aethermancer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2599,
+          "final": 2599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2503
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3a31e8ab62c90c52f76cc334aa1871bc6398310fab35f36e5b9f3cfbbacfdf8e"
+}

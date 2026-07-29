@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3373660,
+  "fetchedAt": "2026-07-29T13:08:58.354Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3373660&cc=us&l=english",
+  "responseDigest": "sha256:4d44edf895d92e77f16594f3be1600c59e6ceba26e9f71dec66f67697e360746",
+  "payload": {
+    "3373660": {
+      "success": true,
+      "data": {
+        "steam_appid": 3373660,
+        "name": "Look Outside",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12800
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b54117fbf4b86e55d3a521d8c6f4adbbc515d68900f68d791534a07580b02631"
+}

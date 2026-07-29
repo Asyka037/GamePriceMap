@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2543830,
+  "fetchedAt": "2026-07-29T13:08:57.032Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2543830&cc=us&l=english",
+  "responseDigest": "sha256:d46ef4092152e3a3368d6b80c74db669c6e73d9aaaa1a32242aecf05001495d1",
+  "payload": {
+    "2543830": {
+      "success": true,
+      "data": {
+        "steam_appid": 2543830,
+        "name": "Way of the Hunter 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1234
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9392338a713d7ce61f5d4dc47fe13657bb1ba786a38c4e2c7e59bb24c17766f2"
+}

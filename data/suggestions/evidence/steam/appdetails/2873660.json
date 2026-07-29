@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2873660,
+  "fetchedAt": "2026-07-29T13:08:46.573Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2873660&cc=us&l=english",
+  "responseDigest": "sha256:e9c569b4eabda71c0a77d265fe3725455e74fec63bc3352693537a187ecdac8f",
+  "payload": {
+    "2873660": {
+      "success": true,
+      "data": {
+        "steam_appid": 2873660,
+        "name": "Global Rescue",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1651
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6605eedad3c5120b7839d9f14eb42cb7b4d4994ae5a17b21b006f0f90a5d6d41"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3917090,
+  "fetchedAt": "2026-07-29T13:09:15.350Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3917090&cc=us&l=english",
+  "responseDigest": "sha256:9dd376c10088b60860e7ecd2532b81a31249efac21ea0bb0dc8d16bf3052b179",
+  "payload": {
+    "3917090": {
+      "success": true,
+      "data": {
+        "steam_appid": 3917090,
+        "name": "Assetto Corsa Rally",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 13, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8393
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:478648f1a0371bb934abc21acfd4257fc1d0aee6ca620f961a8757d4b1dc1477"
+}

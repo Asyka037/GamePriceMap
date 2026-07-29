@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 965580,
+  "fetchedAt": "2026-07-29T13:08:49.176Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=965580&cc=us&l=english",
+  "responseDigest": "sha256:4b3ef08acfccda66f952bae0f04099c2d2b066382c4c7eacd666135593333d48",
+  "payload": {
+    "965580": {
+      "success": true,
+      "data": {
+        "steam_appid": 965580,
+        "name": "Root",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4946
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1469173f1d0ed83a461f390fb3259df30749a23a8705f1fac16aa11d2a119d29"
+}

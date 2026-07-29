@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1703340,
+  "fetchedAt": "2026-07-29T13:09:10.116Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1703340&cc=us&l=english",
+  "responseDigest": "sha256:965edda850cd8f2c930d452b3f587e23cc035076a125c55a517d31fa5008991d",
+  "payload": {
+    "1703340": {
+      "success": true,
+      "data": {
+        "steam_appid": 1703340,
+        "name": "The Stanley Parable: Ultra Deluxe",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 33754
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e77a420fe42b7852164a354cccbe7913d42fe15d9288b8005de610721b615c5b"
+}

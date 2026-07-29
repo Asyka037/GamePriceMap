@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2069250,
+  "fetchedAt": "2026-07-29T13:08:34.750Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2069250&cc=us&l=english",
+  "responseDigest": "sha256:6d819c3c97d89c9adf012de9febd1b65cea49c1be5cbc04d5a8ff29774e68c2d",
+  "payload": {
+    "2069250": {
+      "success": true,
+      "data": {
+        "steam_appid": 2069250,
+        "name": "High On Life 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2102
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5f5cbe4e73f0b8b966a41370dfad3d9740b9a1b65f583fe13dba679148673390"
+}

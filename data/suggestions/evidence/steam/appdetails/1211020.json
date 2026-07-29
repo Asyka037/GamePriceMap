@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1211020,
+  "fetchedAt": "2026-07-29T13:09:16.630Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1211020&cc=us&l=english",
+  "responseDigest": "sha256:4d90b9fec0203f04dab999aed14f71fd913f83938e595d923b75492b9537317a",
+  "payload": {
+    "1211020": {
+      "success": true,
+      "data": {
+        "steam_appid": 1211020,
+        "name": "Wobbly Life",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 32164
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bae78e10b2dee387df739461ab867b85c668ec6451299b9cfdda6ff4dff665ec"
+}

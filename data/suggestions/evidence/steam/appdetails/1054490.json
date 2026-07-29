@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1054490,
+  "fetchedAt": "2026-07-29T13:09:04.882Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1054490&cc=us&l=english",
+  "responseDigest": "sha256:9c519a36f12b231db7e9c39b094e7b960f9f687f5b6a930c77bb383c35fd7282",
+  "payload": {
+    "1054490": {
+      "success": true,
+      "data": {
+        "steam_appid": 1054490,
+        "name": "Wingspan",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 17, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 9687
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b02aa07e4591cb0743cd87e921095ce6c34a3bd03fa9df3cfdb9db497985ad77"
+}

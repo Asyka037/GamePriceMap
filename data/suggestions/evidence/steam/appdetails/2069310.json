@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2069310,
+  "fetchedAt": "2026-07-29T13:09:26.063Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2069310&cc=us&l=english",
+  "responseDigest": "sha256:711c59de4845fa2aa26a4b53dc5f865f0d134c3b1f4ff614cf15001d2ed65578",
+  "payload": {
+    "2069310": {
+      "success": true,
+      "data": {
+        "steam_appid": 2069310,
+        "name": "RealFlight Evolution",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 914
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ae94bddde47c6338cadd7ce64ce1777836a8c0cad688ae055cf715544de4ba87"
+}

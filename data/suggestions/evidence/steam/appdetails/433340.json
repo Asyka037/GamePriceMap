@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 433340,
+  "fetchedAt": "2026-07-29T13:08:24.175Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=433340&cc=us&l=english",
+  "responseDigest": "sha256:addd50ef7f91baaeed36c6a6d3229cb8817a6663de213760642dc8fbbd1afffd",
+  "payload": {
+    "433340": {
+      "success": true,
+      "data": {
+        "steam_appid": 433340,
+        "name": "Slime Rancher",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 1, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 138118
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:51d8a81652c591f478b9576e550bb40a4105987b9929b9853629be77f6fad766"
+}

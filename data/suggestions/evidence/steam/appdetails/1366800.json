@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1366800,
+  "fetchedAt": "2026-07-29T13:09:21.868Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1366800&cc=us&l=english",
+  "responseDigest": "sha256:e82bf1be81ac4b7e4fa06254ce5636faf34a4b9c9b0b4033b28f51df8e5efacb",
+  "payload": {
+    "1366800": {
+      "success": true,
+      "data": {
+        "steam_appid": 1366800,
+        "name": "Crosshair X",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 17, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 41973
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2c4e0d93537c323c7bbaea32792a468091b8ee37cfb5a750af2bdd44ec7e38aa"
+}

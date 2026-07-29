@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2471100,
+  "fetchedAt": "2026-07-29T13:09:03.599Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2471100&cc=us&l=english",
+  "responseDigest": "sha256:d7ae4ff93622a392c210582b0be4e6dc30090e551c9f1c316ad8e3d5568ecbfd",
+  "payload": {
+    "2471100": {
+      "success": true,
+      "data": {
+        "steam_appid": 2471100,
+        "name": "Unnamed Space Idle",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dc7fea077993482de9675d65da40cfdb9bc8b1cadc238aa842b98c0c68efd440"
+}

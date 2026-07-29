@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2617770,
+  "fetchedAt": "2026-07-29T13:09:17.943Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2617770&cc=us&l=english",
+  "responseDigest": "sha256:1ee63f624bfea25eca1ec2d7e6a83c69ced038f854dbdddd3f15fa4b481e18e7",
+  "payload": {
+    "2617770": {
+      "success": true,
+      "data": {
+        "steam_appid": 2617770,
+        "name": "Easy Red 2: Ardennes 1940 & 1944",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 24, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 479,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 128
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:72acc8fa1ffabcfedd40650be7bb497ad42c9f3e7f0667070a658c825e19cd29"
+}

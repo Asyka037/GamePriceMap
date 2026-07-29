@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2878450,
+  "fetchedAt": "2026-07-29T13:08:29.498Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2878450&cc=us&l=english",
+  "responseDigest": "sha256:12d1d49158f99e29645dcd4c0264e9f121882dfc662ce4a0538d2542b07c3ee9",
+  "payload": {
+    "2878450": {
+      "success": true,
+      "data": {
+        "steam_appid": 2878450,
+        "name": "Master of Command",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3692
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5f69541be134887a04a1f4f41ae5665c99ae023fb151faac4c0e4d541f9b97c2"
+}

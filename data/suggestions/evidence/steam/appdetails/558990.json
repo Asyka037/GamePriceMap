@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 558990,
+  "fetchedAt": "2026-07-29T13:08:42.664Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=558990&cc=us&l=english",
+  "responseDigest": "sha256:2c54596ae451b210be1af456db56764f8a1559b06a3ee1b862e98dfd12e39acd",
+  "payload": {
+    "558990": {
+      "success": true,
+      "data": {
+        "steam_appid": 558990,
+        "name": "Opus Magnum",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5855
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c9eec213207bc480c0b6906ff7f781350c89b4afa68e37960b8ddf9ffadbf99b"
+}

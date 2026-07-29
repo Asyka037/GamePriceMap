@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 230290,
+  "fetchedAt": "2026-07-29T13:08:55.724Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=230290&cc=us&l=english",
+  "responseDigest": "sha256:0d50e5f3c7a59077986e2beed18906e9dd9fa2a3f2b7da86b77e4545de4884e2",
+  "payload": {
+    "230290": {
+      "success": true,
+      "data": {
+        "steam_appid": 230290,
+        "name": "Universe Sandbox",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 24, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 27473
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fdf7356285a77ad9f5d604e724f89c0d3ca9eb0eb4abfa60f21adceb9da9a9ce"
+}

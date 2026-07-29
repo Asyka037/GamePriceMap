@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 268500,
+  "fetchedAt": "2026-07-29T13:09:07.461Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=268500&cc=us&l=english",
+  "responseDigest": "sha256:8ef7a98d3953c85d2caf60c20ed5b769f0c07c088b38f37b799ce732706ccb01",
+  "payload": {
+    "268500": {
+      "success": true,
+      "data": {
+        "steam_appid": 268500,
+        "name": "XCOM® 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 4, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 79341
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f54ed088a286e1e8c2285175f33b77d2d4afeab9492864ac3f3cfc07a37f428f"
+}
