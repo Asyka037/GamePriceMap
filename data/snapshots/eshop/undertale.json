@@ -1,6 +1,6 @@
 {
   "slug": "undertale",
-  "lastPriceChangeAt": "2026-07-23",
+  "lastPriceChangeAt": "2026-07-29",
   "regions": [
     {
       "cc": "AU",
@@ -69,10 +69,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 1620,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 1069,
+      "list": 1620,
+      "discountPct": 34,
+      "saleEndsAt": "2026-08-13T14:59:59Z"
     },
     {
       "cc": "MX",

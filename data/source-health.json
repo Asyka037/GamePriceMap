@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-07-28T10:11:46.797Z",
+  "updatedAt": "2026-07-29T10:12:21.366Z",
   "sources": {
     "steam-regional": {
-      "lastAttemptAt": "2026-07-28T10:09:12.802Z",
-      "lastSuccessAt": "2026-07-28T10:09:12.802Z",
+      "lastAttemptAt": "2026-07-29T10:09:47.198Z",
+      "lastSuccessAt": "2026-07-29T10:09:47.198Z",
       "consecutiveFailures": 0,
-      "note": "changed 12, unchanged 79, skipped 0, failed region requests 0, expected 91"
+      "note": "changed 1, unchanged 90, skipped 0, failed region requests 0, expected 91"
     },
     "eshop-regional": {
-      "lastAttemptAt": "2026-07-28T10:10:28.134Z",
-      "lastSuccessAt": "2026-07-28T10:10:28.134Z",
+      "lastAttemptAt": "2026-07-29T10:11:01.577Z",
+      "lastSuccessAt": "2026-07-29T10:11:01.577Z",
       "consecutiveFailures": 0,
       "note": "changed 3, unchanged 94, skipped 0, failed region requests 0, expected 97"
     },
@@ -104,10 +104,10 @@
       "note": "changed 16, unchanged 2, failed games 0, expected 18"
     },
     "meta:shard-12": {
-      "lastAttemptAt": "2026-07-16T15:57:36.000Z",
-      "lastSuccessAt": "2026-07-16T15:57:36.000Z",
+      "lastAttemptAt": "2026-07-29T10:12:21.366Z",
+      "lastSuccessAt": "2026-07-29T10:12:21.366Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 17, unchanged 1, failed games 0, expected 18"
     },
     "meta:shard-13": {
       "lastAttemptAt": "2026-07-16T15:57:36.001Z",
@@ -146,10 +146,10 @@
       "note": "changed 4, unchanged 7, skipped 0, failed region requests 0, expected 11"
     },
     "steam-regional:extended-5": {
-      "lastAttemptAt": "2026-07-22T10:01:39.935Z",
-      "lastSuccessAt": "2026-07-22T10:01:39.935Z",
+      "lastAttemptAt": "2026-07-29T10:10:16.383Z",
+      "lastSuccessAt": "2026-07-29T10:10:16.383Z",
       "consecutiveFailures": 0,
-      "note": "changed 1, unchanged 10, skipped 0, failed region requests 0, expected 11"
+      "note": "changed 2, unchanged 9, skipped 0, failed region requests 0, expected 11"
     },
     "steam-regional:extended-6": {
       "lastAttemptAt": "2026-07-23T10:00:32.906Z",

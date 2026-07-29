@@ -1,6 +1,6 @@
 {
   "slug": "monster-hunter-rise",
-  "lastPriceChangeAt": "2026-07-28",
+  "lastPriceChangeAt": "2026-07-29",
   "regions": [
     {
       "cc": "AR",
@@ -77,10 +77,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 3990,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 798,
+      "list": 3990,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-11T14:59:59Z"
     },
     {
       "cc": "MX",
