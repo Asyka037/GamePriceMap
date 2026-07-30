@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-07-29T10:12:21.366Z",
+  "updatedAt": "2026-07-30T10:02:56.216Z",
   "sources": {
     "steam-regional": {
-      "lastAttemptAt": "2026-07-29T10:09:47.198Z",
-      "lastSuccessAt": "2026-07-29T10:09:47.198Z",
+      "lastAttemptAt": "2026-07-30T10:00:15.765Z",
+      "lastSuccessAt": "2026-07-30T10:00:15.765Z",
       "consecutiveFailures": 0,
-      "note": "changed 1, unchanged 90, skipped 0, failed region requests 0, expected 91"
+      "note": "changed 4, unchanged 87, skipped 0, failed region requests 0, expected 91"
     },
     "eshop-regional": {
-      "lastAttemptAt": "2026-07-29T10:11:01.577Z",
-      "lastSuccessAt": "2026-07-29T10:11:01.577Z",
+      "lastAttemptAt": "2026-07-30T10:01:29.884Z",
+      "lastSuccessAt": "2026-07-30T10:01:29.884Z",
       "consecutiveFailures": 0,
       "note": "changed 3, unchanged 94, skipped 0, failed region requests 0, expected 97"
     },
@@ -110,10 +110,10 @@
       "note": "changed 17, unchanged 1, failed games 0, expected 18"
     },
     "meta:shard-13": {
-      "lastAttemptAt": "2026-07-16T15:57:36.001Z",
-      "lastSuccessAt": "2026-07-16T15:57:36.001Z",
+      "lastAttemptAt": "2026-07-30T10:02:56.216Z",
+      "lastSuccessAt": "2026-07-30T10:02:56.216Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 20, unchanged 0, failed games 0, expected 20"
     },
     "steam-regional:extended-2": {
       "lastAttemptAt": "2026-07-24T09:57:34.720Z",
@@ -152,10 +152,10 @@
       "note": "changed 2, unchanged 9, skipped 0, failed region requests 0, expected 11"
     },
     "steam-regional:extended-6": {
-      "lastAttemptAt": "2026-07-23T10:00:32.906Z",
-      "lastSuccessAt": "2026-07-23T10:00:32.906Z",
+      "lastAttemptAt": "2026-07-30T10:00:44.342Z",
+      "lastSuccessAt": "2026-07-30T10:00:44.342Z",
       "consecutiveFailures": 0,
-      "note": "changed 3, unchanged 12, skipped 0, failed region requests 0, expected 15"
+      "note": "changed 5, unchanged 10, skipped 0, failed region requests 0, expected 15"
     }
   }
 }

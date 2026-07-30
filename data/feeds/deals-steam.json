@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T10:11:02.959Z",
+  "updatedAt": "2026-07-30T10:01:31.275Z",
   "items": [
     {
       "title": "Cyberpunk 2077",
@@ -14,27 +14,27 @@
       "slugIfTracked": "cyberpunk-2077"
     },
     {
-      "title": "Shift At Midnight",
+      "title": "Baldur's Gate 3",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3722330/",
+      "url": "https://store.steampowered.com/app/1086940/",
       "currency": "USD",
-      "price": 8.99,
-      "list": 9.99,
-      "pct": 10,
-      "endsAt": "2026-07-29T17:00:37.000Z",
-      "steamAppId": 3722330,
-      "slugIfTracked": null
+      "price": 41.99,
+      "list": 59.99,
+      "pct": 30,
+      "endsAt": "2026-08-06T08:00:00.000Z",
+      "steamAppId": 1086940,
+      "slugIfTracked": "baldurs-gate-3"
     },
     {
-      "title": "Sir, We Have an Orc Problem",
+      "title": "Cyberpunk 2077: Phantom Liberty",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/4594150/",
+      "url": "https://store.steampowered.com/app/2138330/",
       "currency": "USD",
-      "price": 8.99,
-      "list": 9.99,
-      "pct": 10,
-      "endsAt": "2026-08-11T17:00:17.000Z",
-      "steamAppId": 4594150,
+      "price": 17.99,
+      "list": 29.99,
+      "pct": 40,
+      "endsAt": "2026-08-10T17:00:00.000Z",
+      "steamAppId": 2138330,
       "slugIfTracked": null
     },
     {
@@ -50,15 +50,15 @@
       "slugIfTracked": "meccha-chameleon"
     },
     {
-      "title": "Cyberpunk 2077: Phantom Liberty",
+      "title": "Sir, We Have an Orc Problem",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2138330/",
+      "url": "https://store.steampowered.com/app/4594150/",
       "currency": "USD",
-      "price": 17.99,
-      "list": 29.99,
-      "pct": 40,
-      "endsAt": "2026-08-10T17:00:00.000Z",
-      "steamAppId": 2138330,
+      "price": 8.99,
+      "list": 9.99,
+      "pct": 10,
+      "endsAt": "2026-08-11T17:00:17.000Z",
+      "steamAppId": 4594150,
       "slugIfTracked": null
     },
     {
@@ -74,16 +74,28 @@
       "slugIfTracked": "warhammer-40000-space-marine-2"
     },
     {
-      "title": "Endacopia",
+      "title": "Bills Must Be Paid",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2684630/",
+      "url": "https://store.steampowered.com/app/4421010/",
       "currency": "USD",
-      "price": 14.85,
-      "list": 16.5,
-      "pct": 10,
-      "endsAt": "2026-08-10T17:00:17.000Z",
-      "steamAppId": 2684630,
+      "price": 4.89,
+      "list": 6.99,
+      "pct": 30,
+      "endsAt": "2026-08-12T17:00:05.000Z",
+      "steamAppId": 4421010,
       "slugIfTracked": null
+    },
+    {
+      "title": "Rust",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/252490/",
+      "currency": "USD",
+      "price": 19.99,
+      "list": 39.99,
+      "pct": 50,
+      "endsAt": "2026-08-12T17:00:00.000Z",
+      "steamAppId": 252490,
+      "slugIfTracked": "rust"
     },
     {
       "title": "METAL GEAR SOLID Δ: SNAKE EATER",
@@ -107,18 +119,6 @@
       "pct": 10,
       "endsAt": "2026-08-05T17:00:01.000Z",
       "steamAppId": 1913120,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Pathogenic",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3808690/",
-      "currency": "USD",
-      "price": 7.99,
-      "list": 9.99,
-      "pct": 20,
-      "endsAt": "2026-07-30T17:00:00.000Z",
-      "steamAppId": 3808690,
       "slugIfTracked": null
     }
   ]

@@ -1,6 +1,6 @@
 {
   "slug": "a-little-to-the-left",
-  "lastPriceChangeAt": "2026-07-22",
+  "lastPriceChangeAt": "2026-07-30",
   "regions": [
     {
       "cc": "AU",
@@ -13,18 +13,18 @@
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 36.98,
-      "list": 92.45,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T06:59:59Z"
+      "amount": 92.45,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 7.99,
-      "list": 19.99,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T06:59:59Z"
+      "amount": 19.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CH",
@@ -37,10 +37,10 @@
     {
       "cc": "CO",
       "currency": "COP",
-      "amount": 19600,
-      "list": 49000,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T06:59:59Z"
+      "amount": 49000,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "DE",
@@ -77,10 +77,10 @@
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 99.6,
-      "list": 249,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T06:59:59Z"
+      "amount": 249,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NO",
@@ -109,10 +109,10 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 5.99,
-      "list": 14.99,
-      "discountPct": 60,
-      "saleEndsAt": "2026-07-30T06:59:59Z"
+      "amount": 14.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "ZA",

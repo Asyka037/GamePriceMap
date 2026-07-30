@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T10:11:15.169Z",
+  "updatedAt": "2026-07-30T10:01:43.104Z",
   "items": [
     {
       "title": "Rubinite",
@@ -165,30 +165,6 @@
       "price": 10.53,
       "list": 79.99,
       "pct": 87,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Fairy Fencer F: Refrain Chord - Deluxe Edition",
-      "storeId": "indiegala",
-      "url": "https://www.cheapshark.com/redirect?dealID=Vxh3CX2udAzzCzvvEBrax6dN93%2F45uwRSje4RbNhiKs%3D",
-      "currency": "USD",
-      "price": 6.99,
-      "list": 69.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Touhou Spell Carnival Deluxe Edition",
-      "storeId": "indiegala",
-      "url": "https://www.cheapshark.com/redirect?dealID=H%2FPwo1uwJLViFenAyTCaQROFtbvdShesBLajq01BrGk%3D",
-      "currency": "USD",
-      "price": 6.99,
-      "list": 69.99,
-      "pct": 90,
       "endsAt": null,
       "steamAppId": null,
       "slugIfTracked": null
@@ -710,24 +686,12 @@
       "slugIfTracked": null
     },
     {
-      "title": "Middle-earth: The Shadow Bundle",
-      "storeId": "gog",
-      "url": "https://www.cheapshark.com/redirect?dealID=tZtWDm4EV8cRgKxuSlCxLJ3cIGJp2rdidQQA0CozlOE%3D",
-      "currency": "USD",
-      "price": 7.49,
-      "list": 79.98,
-      "pct": 91,
-      "endsAt": null,
-      "steamAppId": 648168,
-      "slugIfTracked": null
-    },
-    {
       "title": "Nioh: Complete Edition",
       "storeId": "indiegala",
       "url": "https://www.cheapshark.com/redirect?dealID=fiM5xxzqnlG0ZNwvkQLiXE4czE4uFG%2BY53eqH8L7Vgg%3D",
       "currency": "USD",
       "price": 6.48,
-      "list": 56.92,
+      "list": 56.89,
       "pct": 89,
       "endsAt": null,
       "steamAppId": 485510,
@@ -767,6 +731,18 @@
       "pct": 85,
       "endsAt": null,
       "steamAppId": 20900,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Nioh: Complete Edition",
+      "storeId": "gamebillet",
+      "url": "https://www.cheapshark.com/redirect?dealID=Q0zhAYJO10pSkdBog%2BD1vE6xtWJskM1txjFO6qegq9c%3D",
+      "currency": "USD",
+      "price": 7.5,
+      "list": 49.99,
+      "pct": 85,
+      "endsAt": null,
+      "steamAppId": 485510,
       "slugIfTracked": null
     },
     {
@@ -890,6 +866,18 @@
       "slugIfTracked": null
     },
     {
+      "title": "Crypt of the NecroDancer",
+      "storeId": "steam",
+      "url": "https://www.cheapshark.com/redirect?dealID=5Aiw0UGtePMGhVWUzvhkvd8VLBIn9OJEJ3%2BD4SSwr0k%3D",
+      "currency": "USD",
+      "price": 2.99,
+      "list": 14.99,
+      "pct": 80,
+      "endsAt": null,
+      "steamAppId": 247080,
+      "slugIfTracked": null
+    },
+    {
       "title": "Disco Elysium - The Final Cut",
       "storeId": "indiegala",
       "url": "https://www.cheapshark.com/redirect?dealID=3Y%2Fp3MbsSuCo%2FLOFoOL7cnlYwZl1qBKQCMsAaqZHRl8%3D",
@@ -899,6 +887,18 @@
       "pct": 78,
       "endsAt": null,
       "steamAppId": 632470,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Biped",
+      "storeId": "steam",
+      "url": "https://www.cheapshark.com/redirect?dealID=RpaI73PFb%2Bp3svQNV95XlcRwlwnAhkLjGrzp98fU8YM%3D",
+      "currency": "USD",
+      "price": 1.49,
+      "list": 14.99,
+      "pct": 90,
+      "endsAt": null,
+      "steamAppId": 1071870,
       "slugIfTracked": null
     },
     {
@@ -1046,6 +1046,18 @@
       "slugIfTracked": null
     },
     {
+      "title": "Time Loader",
+      "storeId": "steam",
+      "url": "https://www.cheapshark.com/redirect?dealID=Brh0Cx4GkEXEq8NnlGjK7HpcxJ3S%2FEvBSLriNO6CIp0%3D",
+      "currency": "USD",
+      "price": 1.19,
+      "list": 7.99,
+      "pct": 85,
+      "endsAt": null,
+      "steamAppId": 1301950,
+      "slugIfTracked": null
+    },
+    {
       "title": "The Aquatic Adventure of the Last Human",
       "storeId": "wingamestore",
       "url": "https://www.cheapshark.com/redirect?dealID=KQEXQ%2FToEvIopl5ULCD6wg8kIgIpnrOAZNc8bxpzFKI%3D",
@@ -1118,18 +1130,6 @@
       "slugIfTracked": null
     },
     {
-      "title": "Last Stop",
-      "storeId": "gamebillet",
-      "url": "https://www.cheapshark.com/redirect?dealID=SDxRt8klib5qaOq%2FYkl%2Fr%2FwmtdC96ANw0JZqBiqQti8%3D",
-      "currency": "USD",
-      "price": 3.85,
-      "list": 24.99,
-      "pct": 85,
-      "endsAt": null,
-      "steamAppId": 1122690,
-      "slugIfTracked": null
-    },
-    {
       "title": "Disco Elysium - The Final Cut",
       "storeId": "gamesplanet",
       "url": "https://www.cheapshark.com/redirect?dealID=AUvSqG%2BjgjZBM4JGg0dEDho7mk8Sxn2CpCvml8OEW40%3D",
@@ -1139,6 +1139,18 @@
       "pct": 76,
       "endsAt": null,
       "steamAppId": 632470,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Last Stop",
+      "storeId": "gamebillet",
+      "url": "https://www.cheapshark.com/redirect?dealID=SDxRt8klib5qaOq%2FYkl%2Fr%2FwmtdC96ANw0JZqBiqQti8%3D",
+      "currency": "USD",
+      "price": 3.85,
+      "list": 24.99,
+      "pct": 85,
+      "endsAt": null,
+      "steamAppId": 1122690,
       "slugIfTracked": null
     },
     {
@@ -1166,18 +1178,6 @@
       "slugIfTracked": null
     },
     {
-      "title": "Last Stop",
-      "storeId": "indiegala",
-      "url": "https://www.cheapshark.com/redirect?dealID=dAX3k%2BAQvg1z7F2FvSoJufo0FqN%2BG8wXyVn9iXCwRkc%3D",
-      "currency": "USD",
-      "price": 3.89,
-      "list": 24.99,
-      "pct": 84,
-      "endsAt": null,
-      "steamAppId": 1122690,
-      "slugIfTracked": null
-    },
-    {
       "title": "Destiny 2: The Witch Queen",
       "storeId": "gamersgate",
       "url": "https://www.cheapshark.com/redirect?dealID=qkqi%2FKUR0O4hCqrILwTKcR8xS9Q8GXjHhd%2BtoV0w8qE%3D",
@@ -1187,6 +1187,18 @@
       "pct": 90,
       "endsAt": null,
       "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Last Stop",
+      "storeId": "indiegala",
+      "url": "https://www.cheapshark.com/redirect?dealID=dAX3k%2BAQvg1z7F2FvSoJufo0FqN%2BG8wXyVn9iXCwRkc%3D",
+      "currency": "USD",
+      "price": 3.89,
+      "list": 24.99,
+      "pct": 84,
+      "endsAt": null,
+      "steamAppId": 1122690,
       "slugIfTracked": null
     },
     {
@@ -1346,18 +1358,6 @@
       "slugIfTracked": null
     },
     {
-      "title": "Possessor(s)",
-      "storeId": "steam",
-      "url": "https://www.cheapshark.com/redirect?dealID=bj%2B5z967kX%2FPGICjEnf0DZNvfJ%2FgKx8kXaqJjV4Wtms%3D",
-      "currency": "USD",
-      "price": 2.49,
-      "list": 9.99,
-      "pct": 75,
-      "endsAt": null,
-      "steamAppId": 2132890,
-      "slugIfTracked": null
-    },
-    {
       "title": "Nioh: Complete Edition",
       "storeId": "gamesplanet",
       "url": "https://www.cheapshark.com/redirect?dealID=xDwt92ZzA3E622WdR4gpXNttAIGX%2Fsv%2Fh17Ka0GXKbg%3D",
@@ -1379,6 +1379,18 @@
       "pct": 90,
       "endsAt": null,
       "steamAppId": 244160,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Possessor(s)",
+      "storeId": "steam",
+      "url": "https://www.cheapshark.com/redirect?dealID=bj%2B5z967kX%2FPGICjEnf0DZNvfJ%2FgKx8kXaqJjV4Wtms%3D",
+      "currency": "USD",
+      "price": 2.49,
+      "list": 9.99,
+      "pct": 75,
+      "endsAt": null,
+      "steamAppId": 2132890,
       "slugIfTracked": null
     },
     {
@@ -1427,18 +1439,6 @@
       "pct": 80,
       "endsAt": null,
       "steamAppId": 220240,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Destiny 2: Shadowkeep",
-      "storeId": "gamebillet",
-      "url": "https://www.cheapshark.com/redirect?dealID=O%2Blo1LaJDBY6AG2uTU2turEt2s6wp1aBttde%2B8COtlw%3D",
-      "currency": "USD",
-      "price": 0.88,
-      "list": 19.99,
-      "pct": 96,
-      "endsAt": null,
-      "steamAppId": null,
       "slugIfTracked": null
     }
   ]

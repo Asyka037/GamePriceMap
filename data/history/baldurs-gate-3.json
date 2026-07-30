@@ -3,8 +3,8 @@
   "cheapsharkGameId": "202278",
   "atl": {
     "pc": {
-      "usd": 44.99,
-      "date": "2026-07-08",
+      "usd": 41.99,
+      "date": "2026-07-30",
       "seed": "self"
     },
     "xbox-us": {
@@ -34,6 +34,13 @@
       "cc": "US",
       "usd": 69.99,
       "pct": null
+    },
+    {
+      "d": "2026-07-30",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 41.99,
+      "pct": 30
     }
   ]
 }
