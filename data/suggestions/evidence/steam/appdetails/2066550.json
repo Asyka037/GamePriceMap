@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2066550,
+  "fetchedAt": "2026-07-30T12:56:25.156Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2066550&cc=us&l=english",
+  "responseDigest": "sha256:62a4b5ca8c9c8562f459563c578a7639552ad535f488335c45a397a2f90e38be",
+  "payload": {
+    "2066550": {
+      "success": true,
+      "data": {
+        "steam_appid": 2066550,
+        "name": "ERROR143",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 26, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3c098ceb378a9b17ed24c52a1274db05ca9fbff192edd005599f6c2e47910bbf"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2307350,
+  "fetchedAt": "2026-07-30T12:55:46.064Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2307350&cc=us&l=english",
+  "responseDigest": "sha256:7227ac78f6ea35405272dc9c3f9581f3777b7f78cfbde4361f884436a5767fcc",
+  "payload": {
+    "2307350": {
+      "success": true,
+      "data": {
+        "steam_appid": 2307350,
+        "name": "Into the Radius 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5054
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5bd94970f7029ac08ea38ce01b8f9db40306688e7581f9dd1137374541aa70b4"
+}

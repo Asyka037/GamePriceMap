@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2191500,
+  "fetchedAt": "2026-07-30T12:55:59.979Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2191500&cc=us&l=english",
+  "responseDigest": "sha256:4e16809dd34b0974012718c11e465f294f79d4eb214d7190c7d9e8cc7794e837",
+  "payload": {
+    "2191500": {
+      "success": true,
+      "data": {
+        "steam_appid": 2191500,
+        "name": "Vampires: Bloodlord Rising",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1531
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3178bafbf2e890d6157eac52dc2c2d0e2b4ef9c93a38dac4430fd7e53fdc34ea"
+}

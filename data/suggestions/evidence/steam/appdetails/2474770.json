@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2474770,
+  "fetchedAt": "2026-07-30T12:55:54.348Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2474770&cc=us&l=english",
+  "responseDigest": "sha256:0ba85d70595d3c6b89a561e4689439a4fd2b0e5e0d3d5f8512dcb7e69c73d799",
+  "payload": {
+    "2474770": {
+      "success": true,
+      "data": {
+        "steam_appid": 2474770,
+        "name": "Momento",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 177
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8c1e66c76641f2cdb51523919d6167715ffb688d9b424ce8569db93ad2c5fb6f"
+}

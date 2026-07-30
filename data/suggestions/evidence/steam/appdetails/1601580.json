@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1601580,
+  "fetchedAt": "2026-07-30T12:55:36.356Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1601580&cc=us&l=english",
+  "responseDigest": "sha256:341fc376b0fafc1807dfada98b750a905a84a52eb5942366b22fd28ff02d9f3f",
+  "payload": {
+    "1601580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1601580,
+        "name": "Frostpunk 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 2249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 20611
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:87f68732aa0aebe5fe3d8d700b006b1b411fc8dc1973b7e337ddf929cfb45e70"
+}

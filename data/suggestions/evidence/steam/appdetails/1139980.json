@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1139980,
+  "fetchedAt": "2026-07-30T12:56:15.434Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1139980&cc=us&l=english",
+  "responseDigest": "sha256:50d53bd254217d4f5cb0592cecba252e2164555c0e485774c58bed0392ec3347",
+  "payload": {
+    "1139980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1139980,
+        "name": "Travellers Rest",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16195
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7597dc1772793fd3dfe8391bb2fc6762da98bcdb71de3d90eefd51ec69139f2e"
+}

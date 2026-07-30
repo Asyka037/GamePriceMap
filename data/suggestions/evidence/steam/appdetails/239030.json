@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 239030,
+  "fetchedAt": "2026-07-30T12:56:09.724Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=239030&cc=us&l=english",
+  "responseDigest": "sha256:c12311eaa451f64295033595557c9994a5d7e9552901526122702eed9b3595bd",
+  "payload": {
+    "239030": {
+      "success": true,
+      "data": {
+        "steam_appid": 239030,
+        "name": "Papers, Please",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 8, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 72805
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:679eb350cb9f3c7121b8419a1be62d63b3096ac1973511601754029e1cabeba9"
+}

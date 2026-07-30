@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1604270,
+  "fetchedAt": "2026-07-30T12:56:01.347Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1604270&cc=us&l=english",
+  "responseDigest": "sha256:26370ac1a84387f61756ea25386c2975207c07b02a1ad63264bf99fe5c6bb14b",
+  "payload": {
+    "1604270": {
+      "success": true,
+      "data": {
+        "steam_appid": 1604270,
+        "name": "Broken Arrow",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 28267
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cb5d502fd4a7261ff43665174294c241bf208b45d4d5d086916e758eaee906bf"
+}

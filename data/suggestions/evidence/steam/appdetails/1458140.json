@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1458140,
+  "fetchedAt": "2026-07-30T12:55:57.204Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1458140&cc=us&l=english",
+  "responseDigest": "sha256:02729d328a5c25cc164e67915e0b883a9c066a03bbe77273dec683056db56dd9",
+  "payload": {
+    "1458140": {
+      "success": true,
+      "data": {
+        "steam_appid": 1458140,
+        "name": "Pacific Drive",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 21, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 21186
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9131ddb41d71e9c51b9a874e49176a2fa82fa72e91a03a0e6153510a1a8b997e"
+}

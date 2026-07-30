@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 400,
+  "fetchedAt": "2026-07-30T12:56:12.462Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=400&cc=us&l=english",
+  "responseDigest": "sha256:a3c66ee7811084b083c453ba36cd133d84f6fb0a0c065b5ea213d9dfb00d46d2",
+  "payload": {
+    "400": {
+      "success": true,
+      "data": {
+        "steam_appid": 400,
+        "name": "Portal",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2007"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 172155
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0d9f0f1e27c333490ad8aadc14382376b1c2a1aea0c81b06be0de82725b26d29"
+}

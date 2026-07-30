@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1237970,
+  "fetchedAt": "2026-07-30T12:56:36.257Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1237970&cc=us&l=english",
+  "responseDigest": "sha256:c8e192b87d93f331ff3f139cd97b5460c91ec9fa2dab54e653db6af8a4037c58",
+  "payload": {
+    "1237970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1237970,
+        "name": "Titanfall® 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 252848
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e3146030e465df1cfffbe8d69bd26a34968b75b1adec2af7505106644e0a465a"
+}

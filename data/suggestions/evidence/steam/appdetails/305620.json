@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 305620,
+  "fetchedAt": "2026-07-30T12:56:33.523Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=305620&cc=us&l=english",
+  "responseDigest": "sha256:3a2325eb9e10f7f3c60a2533ce941466dd29dc981f5b432ff6fcd8b55a5f4e78",
+  "payload": {
+    "305620": {
+      "success": true,
+      "data": {
+        "steam_appid": 305620,
+        "name": "The Long Dark",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 1, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 111085
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:51acb3eeaff579cdb8bd5b1b08145fcc7336c17c32afb6005796970f12b6c0ef"
+}

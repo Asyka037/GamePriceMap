@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 359870,
+  "fetchedAt": "2026-07-30T12:56:08.333Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=359870&cc=us&l=english",
+  "responseDigest": "sha256:e51c0356b04c3104b378a3f369ce0b88df65e6188de4baf03b4a4d7b2a9f0ee6",
+  "payload": {
+    "359870": {
+      "success": true,
+      "data": {
+        "steam_appid": 359870,
+        "name": "FINAL FANTASY X/X-2 HD Remaster",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19578
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bba492a76bff0a53cd6c0b45ca6d75f8c3e930125a6711661db187e1d738ea40"
+}

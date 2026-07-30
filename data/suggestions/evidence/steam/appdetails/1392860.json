@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1392860,
+  "fetchedAt": "2026-07-30T12:56:41.843Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1392860&cc=us&l=english",
+  "responseDigest": "sha256:73f9435e2c4efe6b09910461768754933cf10c4d7f837040a00a58bd405deff5",
+  "payload": {
+    "1392860": {
+      "success": true,
+      "data": {
+        "steam_appid": 1392860,
+        "name": "Little Nightmares III",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 9970
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6524a985fbae138979099bd89a297a567caf7b4f994fb7c67a29a2d587475313"
+}

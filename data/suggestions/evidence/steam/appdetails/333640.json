@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 333640,
+  "fetchedAt": "2026-07-30T12:56:30.714Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=333640&cc=us&l=english",
+  "responseDigest": "sha256:4f765318d177f0eb640221855b728707094b2ac9b062449d8cdb7b0f6db659fd",
+  "payload": {
+    "333640": {
+      "success": true,
+      "data": {
+        "steam_appid": 333640,
+        "name": "Caves of Qud",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11733
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7d4782e1f1523c16335ecd8fe96ab3d5e51fd93deea7bdb93654875731f5497a"
+}

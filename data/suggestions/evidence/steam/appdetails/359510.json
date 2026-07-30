@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 359510,
+  "fetchedAt": "2026-07-30T12:56:44.684Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=359510&cc=us&l=english",
+  "responseDigest": "sha256:1f537b8689555cf1bdb4c95ee5a902a383aa449a8d99781798e71868c260ddc8",
+  "payload": {
+    "359510": {
+      "success": true,
+      "data": {
+        "steam_appid": 359510,
+        "name": "Tangle Tower",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6217
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a4de45eed5a769c1349592ee1e7841bb86ae024e9a8035bf78406b574be2030"
+}

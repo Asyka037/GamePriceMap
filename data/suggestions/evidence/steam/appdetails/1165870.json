@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1165870,
+  "fetchedAt": "2026-07-30T12:55:37.767Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1165870&cc=us&l=english",
+  "responseDigest": "sha256:3dc5c5221403fe707fc3512a0802b1913c2200ed36a45ab819832bfbab5639ca",
+  "payload": {
+    "1165870": {
+      "success": true,
+      "data": {
+        "steam_appid": 1165870,
+        "name": "Mahou Arms",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3599,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 561
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e0c1f28918ed628e40e0d2deb555e5b952c1cfe4467720256bcfff0148d1804"
+}

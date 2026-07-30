@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1235721,
+  "fetchedAt": "2026-07-30T12:55:41.928Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1235721&cc=us&l=english",
+  "responseDigest": "sha256:742901617a2a0136d3e73b2b5197f660c0107338a50250ad6984ccea70953ba8",
+  "payload": {
+    "1235721": {
+      "success": true,
+      "data": {
+        "steam_appid": 1235721,
+        "name": "The Sims™ 4 Cats & Dogs",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 626
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f4e24ad9e22442a599eccf006be7577d8239a90a77e8398d9827d3eee220ddcc"
+}

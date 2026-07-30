@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2784470,
+  "fetchedAt": "2026-07-30T12:56:32.130Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2784470&cc=us&l=english",
+  "responseDigest": "sha256:cda84a9c6c5cd1fdfcd2116820ddc9da8b7faf290e8133a15d7585d0ddc488f6",
+  "payload": {
+    "2784470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2784470,
+        "name": "9 Kings",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20823
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fb8ae4b9e20f57afcc37fb5d27e4d75597b6ae154665c9aa1b8bc94a33a13381"
+}

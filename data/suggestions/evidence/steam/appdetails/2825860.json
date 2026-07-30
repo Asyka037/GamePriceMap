@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2825860,
+  "fetchedAt": "2026-07-30T12:56:39.040Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2825860&cc=us&l=english",
+  "responseDigest": "sha256:18c3cb96df544ace0a702c5a292e78c3cb9d73119f1e8c5afbc5c3a79c6f2e0b",
+  "payload": {
+    "2825860": {
+      "success": true,
+      "data": {
+        "steam_appid": 2825860,
+        "name": "The Sinking City 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Aug 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c17ccbbc710b24f03dc642d9cca710d98568dcd8fe0d4e6bc53bab00e8ba528e"
+}

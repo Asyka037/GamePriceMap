@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 653530,
+  "fetchedAt": "2026-07-30T12:56:43.280Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=653530&cc=us&l=english",
+  "responseDigest": "sha256:5f674e3a8724b2de9b7468fc82b354f61a348dcb1f1dbf1ae084293811d84ba5",
+  "payload": {
+    "653530": {
+      "success": true,
+      "data": {
+        "steam_appid": 653530,
+        "name": "Return of the Obra Dinn",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 18, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 31929
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3168fb5ff4de04ad32b2e4231a1043d3f5e6dcaf78d226c6e15db93a1abe36ba"
+}

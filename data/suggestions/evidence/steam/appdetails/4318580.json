@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4318580,
+  "fetchedAt": "2026-07-30T12:56:11.098Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4318580&cc=us&l=english",
+  "responseDigest": "sha256:adc275799312bb5bf2720b08efa9903053117e41688302b10d1ceb31a68ffcf6",
+  "payload": {
+    "4318580": {
+      "success": true,
+      "data": {
+        "steam_appid": 4318580,
+        "name": "Dead by Daylight: Stranger Things Chapter 2",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 807
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:757e128844f41548e404ec06da62a3ca94cf3bd66a8ab5378502b8eeaa08e9fd"
+}

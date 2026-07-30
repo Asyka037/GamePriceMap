@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2014780,
+  "fetchedAt": "2026-07-30T12:56:18.271Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2014780&cc=us&l=english",
+  "responseDigest": "sha256:7b7942d6ad61823dd7b99d8b51ece16903cd469517aae73d5abf96d6c262d6a8",
+  "payload": {
+    "2014780": {
+      "success": true,
+      "data": {
+        "steam_appid": 2014780,
+        "name": "X-Plane 12",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 17, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6110
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:525898a6375abebe824478042304c890e20895dcc5ef5a37790ccabf719c1949"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4173620,
+  "fetchedAt": "2026-07-30T12:55:43.302Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4173620&cc=us&l=english",
+  "responseDigest": "sha256:567c707c1a7a0ee79c59d743dd7aaca22ab2277f432d091b1c193f1539c09b4f",
+  "payload": {
+    "4173620": {
+      "success": true,
+      "data": {
+        "steam_appid": 4173620,
+        "name": "I Know a Guy: Shady Life Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 1, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1039,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 360
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b8ff35fd6b8e5e8e252c6443260256a966bc3462eb1e50e0c0080e23b484caaf"
+}

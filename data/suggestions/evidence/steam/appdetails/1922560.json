@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1922560,
+  "fetchedAt": "2026-07-30T12:55:40.518Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1922560&cc=us&l=english",
+  "responseDigest": "sha256:220d40734b23d3ed2a894742ea754f1ebb0e7dcbad806b3622d2512521866792",
+  "payload": {
+    "1922560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1922560,
+        "name": "Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 16, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 44553
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:99af15287889dc128f892cfee63913bc793e8146e146d5ba933b7e85191e93cc"
+}

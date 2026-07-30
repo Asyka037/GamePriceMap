@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 747660,
+  "fetchedAt": "2026-07-30T12:55:47.408Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=747660&cc=us&l=english",
+  "responseDigest": "sha256:e61d6995c2abda43944a983e0aa4ed76e1a1d518b0534aea2ef15b45b96725ae",
+  "payload": {
+    "747660": {
+      "success": true,
+      "data": {
+        "steam_appid": 747660,
+        "name": "Five Nights at Freddy's: Security Breach",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 16, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 64902
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:532b9562abe3220d4493aaef6a51c56fdf2ee8f2b23622960cb83f98c896ed60"
+}

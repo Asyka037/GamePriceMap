@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1433140,
+  "fetchedAt": "2026-07-30T12:56:21.093Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1433140&cc=us&l=english",
+  "responseDigest": "sha256:93f5943fdbc3952e63d713e78efe4616bc152a472a81965d4531394b25f25a61",
+  "payload": {
+    "1433140": {
+      "success": true,
+      "data": {
+        "steam_appid": 1433140,
+        "name": "The Texas Chain Saw Massacre",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 18, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19273
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0afa5f483f6906385f02d68c4510190bdef043f86f68e4d29c2dcaa9eab99925"
+}

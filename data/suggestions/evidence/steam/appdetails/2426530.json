@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2426530,
+  "fetchedAt": "2026-07-30T12:56:19.675Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2426530&cc=us&l=english",
+  "responseDigest": "sha256:957f83d29c929c02936b6eaba29885d1ec0d742357a598965c8b3cc93640363d",
+  "payload": {
+    "2426530": {
+      "success": true,
+      "data": {
+        "steam_appid": 2426530,
+        "name": "Nova Roma",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1934
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cb9301da5fe40d9fadefe193ab174a90accb585312b8aa8b4010b856157c13ed"
+}

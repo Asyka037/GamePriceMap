@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4467980,
+  "fetchedAt": "2026-07-30T12:55:58.596Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4467980&cc=us&l=english",
+  "responseDigest": "sha256:5e9331a77f775348918325967a52db099fc0b2acf0505bec78f8ba22cee361fc",
+  "payload": {
+    "4467980": {
+      "success": true,
+      "data": {
+        "steam_appid": 4467980,
+        "name": "theHunter: Call of the Wild™ - Peru Hunting Reserve",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 110
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:36ccc75a16648ecac996c816fdf1aea060eed70b3b84672c16e036700b543402"
+}

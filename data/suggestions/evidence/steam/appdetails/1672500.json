@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1672500,
+  "fetchedAt": "2026-07-30T12:55:39.167Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1672500&cc=us&l=english",
+  "responseDigest": "sha256:5adbf989ac19254600cabfb33f1561f4e881196341083edf088d752246450e5e",
+  "payload": {
+    "1672500": {
+      "success": true,
+      "data": {
+        "steam_appid": 1672500,
+        "name": "GUNDAM BREAKER 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 28, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 9999,
+          "final": 3999,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 3439
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9fb368f89b5d79cf7b51218101ba63ee15dc6ece1b7e550f5e754c56f0a1c2cf"
+}
