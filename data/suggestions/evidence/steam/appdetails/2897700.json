@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2897700,
+  "fetchedAt": "2026-07-31T03:53:38.365Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2897700&cc=us&l=english",
+  "responseDigest": "sha256:9806738f7b6ea01eef5260ce0d863ed4da4544ffc25b10deae9818e491be027c",
+  "payload": {
+    "2897700": {
+      "success": true,
+      "data": {
+        "steam_appid": 2897700,
+        "name": "Arizona Sunshine® VR Remake",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1162
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6a77e28cf3fb66fdef867f8e9dfd877d72e09b8bb741d7313fd51b7fa82b306c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2830030,
+  "fetchedAt": "2026-07-31T02:46:56.685Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2830030&cc=us&l=english",
+  "responseDigest": "sha256:d63949e8a45c5a0e48d24d4d5f933182e74b9384e7dd4ea05daa95588ab26ab2",
+  "payload": {
+    "2830030": {
+      "success": true,
+      "data": {
+        "steam_appid": 2830030,
+        "name": "MOTORSLICE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5083
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8a5dcb1fd0d349ddf5ee85f608b7a2cbcfc1527bcfc86ed8207b9fd256603ad2"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3743340,
+  "fetchedAt": "2026-07-31T03:01:28.685Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3743340&cc=us&l=english",
+  "responseDigest": "sha256:8fc04a2d68b5dd16aa2cac0973f9bbec36476de68f639d7104b4099a3ecfeafe",
+  "payload": {
+    "3743340": {
+      "success": true,
+      "data": {
+        "steam_appid": 3743340,
+        "name": "Firefighting Simulator: Ignite - Motor Vehicle Accident Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1e8ae622a1e138a7bfb276d839030927c74de1eae04f250afb414a99cea7489a"
+}

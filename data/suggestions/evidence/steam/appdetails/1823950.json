@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1823950,
+  "fetchedAt": "2026-07-31T03:10:34.288Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1823950&cc=us&l=english",
+  "responseDigest": "sha256:b14d2b9e510eab5da48bdd8cc9cac20cbe055d084461acd22894b301e9765973",
+  "payload": {
+    "1823950": {
+      "success": true,
+      "data": {
+        "steam_appid": 1823950,
+        "name": "Laysara: Summit Kingdom",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1393
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cda50e6f579e896e7919785c97d0501035c2d7696c4fcdc724aa074eeb1c7487"
+}

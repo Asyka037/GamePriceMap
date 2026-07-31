@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3063250,
+  "fetchedAt": "2026-07-31T03:16:40.658Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3063250&cc=us&l=english",
+  "responseDigest": "sha256:80f7876a05564347d47e67f7bb97145df640e424fb9ea93c3c44ea2edf5f7e89",
+  "payload": {
+    "3063250": {
+      "success": true,
+      "data": {
+        "steam_appid": 3063250,
+        "name": "Gunfire Reborn - Realm of Frost and Inkwash",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 11, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 559,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 440
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c89b14547cba5d2350781a958beb2c81ec12b080000f7ebfbda395169b317794"
+}

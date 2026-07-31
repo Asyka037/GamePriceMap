@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2475460,
+  "fetchedAt": "2026-07-31T03:57:38.201Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2475460&cc=us&l=english",
+  "responseDigest": "sha256:da477e149d5971370eb39959afc30832dccdef1b9015084d733816969d43c996",
+  "payload": {
+    "2475460": {
+      "success": true,
+      "data": {
+        "steam_appid": 2475460,
+        "name": "SOS OPS!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3460
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2851d8d09b059ab1d3ff3f8b0bf8485717dc1118cb3e7b17b38fd16787ae010d"
+}

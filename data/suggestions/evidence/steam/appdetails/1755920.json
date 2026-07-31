@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1755920,
+  "fetchedAt": "2026-07-31T03:12:24.991Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1755920&cc=us&l=english",
+  "responseDigest": "sha256:6c154da634a0065abcc5401a13628571d6342e353f00edcf5156a4f1ea5beac5",
+  "payload": {
+    "1755920": {
+      "success": true,
+      "data": {
+        "steam_appid": 1755920,
+        "name": "Star Hunter - Infinite Lagrange",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 7, 2021"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5bb8c5d653c6eba48f61dcdd2ada4a355139a506ad5c7175214ac95fb36396d2"
+}

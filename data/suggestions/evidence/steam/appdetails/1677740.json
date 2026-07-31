@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1677740,
+  "fetchedAt": "2026-07-31T04:08:05.313Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1677740&cc=us&l=english",
+  "responseDigest": "sha256:4eae715a9250cb633896eab52dc4f195101a990f9a1b94a96c0f2be0339eb8a0",
+  "payload": {
+    "1677740": {
+      "success": true,
+      "data": {
+        "steam_appid": 1677740,
+        "name": "Stumble Guys",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 7, 2021"
+        },
+        "recommendations": {
+          "total": 11039
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:60a75cd57cce54909672a1d86fb665b1470a12fe3382d1ca1d9408e3ea1cf7c7"
+}

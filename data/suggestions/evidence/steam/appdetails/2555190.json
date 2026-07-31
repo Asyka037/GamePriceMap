@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2555190,
+  "fetchedAt": "2026-07-31T02:57:52.571Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2555190&cc=us&l=english",
+  "responseDigest": "sha256:9c6216046c4bcaacd637559c1c9bb573b6dec71527e3706822c7ce5dd0402d39",
+  "payload": {
+    "2555190": {
+      "success": true,
+      "data": {
+        "steam_appid": 2555190,
+        "name": "Poppy Playtime - Chapter 3",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10421
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dd410c9c6fa69a1a5a5b339a17090b199d9bc4206bbb707aa53a75dbc4516a7f"
+}

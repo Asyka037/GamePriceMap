@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4773930,
+  "fetchedAt": "2026-07-31T03:19:36.683Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4773930&cc=us&l=english",
+  "responseDigest": "sha256:d66f3df675a332955a4048b9751d814b1ce8016244d378061bf1ef75e06acc79",
+  "payload": {
+    "4773930": {
+      "success": true,
+      "data": {
+        "steam_appid": 4773930,
+        "name": "君临传奇之风起云涌",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b5948ed569474b9940efa9780cfa914bdd689dc4e0f8e1e5a6d75e65ebde4095"
+}

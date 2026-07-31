@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2446600,
+  "fetchedAt": "2026-07-31T03:06:12.852Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2446600&cc=us&l=english",
+  "responseDigest": "sha256:ebd1a36ba2c3b0e8f2b5d4bdcce627975387e32f2e579f1621ff6eadbabeb0b8",
+  "payload": {
+    "2446600": {
+      "success": true,
+      "data": {
+        "steam_appid": 2446600,
+        "name": "Dark Deity 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1542
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ff3705523ab5018b5080a36a43938810386fd1deca21e15edabda790dbfaea7c"
+}

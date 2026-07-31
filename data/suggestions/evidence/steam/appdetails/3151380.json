@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3151380,
+  "fetchedAt": "2026-07-31T03:18:17.658Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3151380&cc=us&l=english",
+  "responseDigest": "sha256:2c66ebe5df4a84f38cb7e0517ce9fb1b272b9b9acd0748544b7052baaf160651",
+  "payload": {
+    "3151380": {
+      "success": true,
+      "data": {
+        "steam_appid": 3151380,
+        "name": "Small Spaces",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 909,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1361
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6a2357ba8cb1ef9ae9019787e1d0164a30d39c1815f36843965f81c73d7ea6dc"
+}

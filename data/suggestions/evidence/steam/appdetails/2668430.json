@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2668430,
+  "fetchedAt": "2026-07-31T03:11:14.239Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2668430&cc=us&l=english",
+  "responseDigest": "sha256:5ff068fb591d0f1fdf88e161d01a6a2a0f4225e535b01f1488e0df447308a2b2",
+  "payload": {
+    "2668430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2668430,
+        "name": "The Legend of Heroes: Trails through Daybreak II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 14, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 3899,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 646
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8aefcebddffe61855aa7bc6470dcde34b27698b799881e11f6239e3895e39e81"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4786050,
+  "fetchedAt": "2026-07-31T03:01:50.890Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4786050&cc=us&l=english",
+  "responseDigest": "sha256:7db208c28c303409c707c06900d76d477dd8ba56f01d76b3cce6b6ba3d1442ec",
+  "payload": {
+    "4786050": {
+      "success": true,
+      "data": {
+        "steam_appid": 4786050,
+        "name": "DragonSword : Awakening - Familiar : Holy Knightage Griffon",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b56e2913becd30532363d066d1db0cde7003eca07564d6bf329968529226e39c"
+}

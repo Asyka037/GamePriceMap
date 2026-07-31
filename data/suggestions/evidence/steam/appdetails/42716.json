@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 42716,
+  "fetchedAt": "2026-07-31T03:18:26.636Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=42716&cc=us&l=english",
+  "responseDigest": "sha256:14a921ee22782f47966a03863f4495d6427fdbc10d7f7f4b44fab536f3402d19",
+  "payload": {
+    "42716": {
+      "success": true,
+      "data": {
+        "steam_appid": 42716,
+        "name": "Call of Duty®: Black Ops First Strike Content Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 123
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:def4c53e251bef94399bbdd610d94cb591da2f497949713cf978e021c3b9d783"
+}

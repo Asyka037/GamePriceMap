@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3144890,
+  "fetchedAt": "2026-07-31T04:02:44.548Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3144890&cc=us&l=english",
+  "responseDigest": "sha256:56ef64352564632bf5bae0fb7553661589304c7a4069c578d18ce3b1d2a0bfe0",
+  "payload": {
+    "3144890": {
+      "success": true,
+      "data": {
+        "steam_appid": 3144890,
+        "name": "Age of Empires IV: Knights of Cross and Rose ",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1379
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a789cfe349610f2bbe2b299536ee97eda978441341125c35986cab56c47f3c67"
+}

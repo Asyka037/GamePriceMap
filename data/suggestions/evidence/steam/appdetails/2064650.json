@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2064650,
+  "fetchedAt": "2026-07-31T03:40:45.493Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2064650&cc=us&l=english",
+  "responseDigest": "sha256:cac8557a807e93f6566de3476a3eaf249dee06b989edacc8a6382f67be095185",
+  "payload": {
+    "2064650": {
+      "success": true,
+      "data": {
+        "steam_appid": 2064650,
+        "name": "Tower of Fantasy",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 19, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8a6feea26762a2f338d82b8e8e88a4ff8b9d7c89418c1f6239d16995094196a3"
+}

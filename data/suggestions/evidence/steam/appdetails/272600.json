@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 272600,
+  "fetchedAt": "2026-07-31T03:09:46.551Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=272600&cc=us&l=english",
+  "responseDigest": "sha256:5f931fa06166f41c686ef7cfe5d7d9ac451ffce9ade6948d58db5173d662c74f",
+  "payload": {
+    "272600": {
+      "success": true,
+      "data": {
+        "steam_appid": 272600,
+        "name": "Detective Grimoire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 18, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2082
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e61ce5f98dacedf4ff6595c82a2db689d19bd3d70661abf3bbfef02d3c97254"
+}

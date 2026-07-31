@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 65790,
+  "fetchedAt": "2026-07-31T03:59:00.626Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=65790&cc=us&l=english",
+  "responseDigest": "sha256:364514a9e65a3f090d529c969fe3328521b3ccfd7ba157ad567a68fcc7d94a3d",
+  "payload": {
+    "65790": {
+      "success": true,
+      "data": {
+        "steam_appid": 65790,
+        "name": "Arma: Cold War Assault Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 8, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2367
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ea6a534212b01265e3a6c5e51a05b0e474d0e8d9d2a592b9c59ee6094850a5cb"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3746540,
+  "fetchedAt": "2026-07-31T02:54:50.467Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3746540&cc=us&l=english",
+  "responseDigest": "sha256:f789c123280d8a1afddd7fd952ac06dbb35ec516744bc71b9730d41ff9fbc226",
+  "payload": {
+    "3746540": {
+      "success": true,
+      "data": {
+        "steam_appid": 3746540,
+        "name": "Age of Empires IV: Yue Fei's Legacy",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 524
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4f2ab6b9dbc995dd8b28152b9e6649ed93cda0d648000f0443dc35740ee02bcf"
+}

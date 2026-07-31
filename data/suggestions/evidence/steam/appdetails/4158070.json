@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4158070,
+  "fetchedAt": "2026-07-31T03:24:17.977Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4158070&cc=us&l=english",
+  "responseDigest": "sha256:79e48fbaa6b5eb011f20bdcd5f429b2f95118f3e35c35dbec40630722790e611",
+  "payload": {
+    "4158070": {
+      "success": true,
+      "data": {
+        "steam_appid": 4158070,
+        "name": "Guild Wars 2® Starter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e62c39ff3f097b9650cb700fdf37b736b48964cd195a7382870325bbefe44703"
+}

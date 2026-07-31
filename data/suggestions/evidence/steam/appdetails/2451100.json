@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2451100,
+  "fetchedAt": "2026-07-31T04:01:58.218Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2451100&cc=us&l=english",
+  "responseDigest": "sha256:7e994d0d89b8f29afba5502c7a2303638c6c83e9b2384fff21e4ed8d12b8943a",
+  "payload": {
+    "2451100": {
+      "success": true,
+      "data": {
+        "steam_appid": 2451100,
+        "name": "Little Rocket Lab",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 7, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1267
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8459baff5bcac4a83da553b61bb69f844cd6ad7dc3f1fbd518c6b348be4555f6"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2144600,
+  "fetchedAt": "2026-07-31T04:13:41.488Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2144600&cc=us&l=english",
+  "responseDigest": "sha256:fb8782780e325d3c10add11715d9554369b07531f4200f0893eda74867d86375",
+  "payload": {
+    "2144600": {
+      "success": true,
+      "data": {
+        "steam_appid": 2144600,
+        "name": "Eterspire",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4d59569a85727a36f022f842a12475947a2d05d178a804ac5d79e17b27824718"
+}

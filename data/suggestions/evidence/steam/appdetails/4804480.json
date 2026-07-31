@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4804480,
+  "fetchedAt": "2026-07-31T03:01:12.427Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4804480&cc=us&l=english",
+  "responseDigest": "sha256:a1a91947dd1a1774665703ce95ac65b861c84bb62ba69f49a4a46cecb22fd5cc",
+  "payload": {
+    "4804480": {
+      "success": true,
+      "data": {
+        "steam_appid": 4804480,
+        "name": "Age of Clicks",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 974,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 340
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cca9558570cbfff3df9341676540cc45229154a7cbf0bc2e252df846f142d0f6"
+}

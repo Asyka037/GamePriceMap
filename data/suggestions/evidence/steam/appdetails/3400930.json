@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3400930,
+  "fetchedAt": "2026-07-31T03:00:00.898Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3400930&cc=us&l=english",
+  "responseDigest": "sha256:a999f6c72041e79ca348b0525080babfdcdfa96833646c06d9d665f9ebd39b71",
+  "payload": {
+    "3400930": {
+      "success": true,
+      "data": {
+        "steam_appid": 3400930,
+        "name": "Guilty as Sock!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 550,
+          "final": 550,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4716
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a4cb304530ac6c32f5a10a54f336019d3daee5fad09a70936168a8d54fb08089"
+}

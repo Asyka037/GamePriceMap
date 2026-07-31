@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 237310,
+  "fetchedAt": "2026-07-31T03:54:34.347Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=237310&cc=us&l=english",
+  "responseDigest": "sha256:0b301cff55397a3fcfd994948063bb0aa1843c4b84c6020200f1e2ff8968d1cc",
+  "payload": {
+    "237310": {
+      "success": true,
+      "data": {
+        "steam_appid": 237310,
+        "name": "Elsword",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 2, 2014"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d0b537b1660f3b8b85680fdfe8b25990c95deb25e7307714e621f1259c8dd3c0"
+}

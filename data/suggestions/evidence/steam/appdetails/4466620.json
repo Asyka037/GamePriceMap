@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4466620,
+  "fetchedAt": "2026-07-31T02:54:38.357Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4466620&cc=us&l=english",
+  "responseDigest": "sha256:91ffd22493eba2781efd972c0fc6d95cd15eb708ae4640838f94437ab217aad0",
+  "payload": {
+    "4466620": {
+      "success": true,
+      "data": {
+        "steam_appid": 4466620,
+        "name": "SiNiSistar 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3027
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:73958dd72c9d15df5868372c160b21457b0c0e2f786d832f54972ed5d8e74e2d"
+}

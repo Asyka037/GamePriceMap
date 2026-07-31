@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1710820,
+  "fetchedAt": "2026-07-31T04:07:06.139Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1710820&cc=us&l=english",
+  "responseDigest": "sha256:c8bdfe7824575ef4219431f67f19ba2818265dc0d43b528871bf9a1557a0ee52",
+  "payload": {
+    "1710820": {
+      "success": true,
+      "data": {
+        "steam_appid": 1710820,
+        "name": "Cleared Hot",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3751
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fdd5773e5ea626d2883bc6295b797e27f3f50b6b2905e0d1895f0417256ad12e"
+}

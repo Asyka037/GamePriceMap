@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4438540,
+  "fetchedAt": "2026-07-31T03:15:23.204Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4438540&cc=us&l=english",
+  "responseDigest": "sha256:c2af7e7518e5568826716cc2a1452b6c7e51b0d9c9ac693a62356015e9c5c349",
+  "payload": {
+    "4438540": {
+      "success": true,
+      "data": {
+        "steam_appid": 4438540,
+        "name": "Limitless Survivor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 319,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:332cd1092784a8d84e7308254c8f670a8c5d43c3d525f2e031c7ed882601ecbe"
+}

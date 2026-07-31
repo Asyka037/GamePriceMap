@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3365050,
+  "fetchedAt": "2026-07-31T03:21:32.401Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3365050&cc=us&l=english",
+  "responseDigest": "sha256:3b0339220cf60ef103b296ee75d5b5713cc0f8a245d4cccf3e88ac92eb4d7c5b",
+  "payload": {
+    "3365050": {
+      "success": true,
+      "data": {
+        "steam_appid": 3365050,
+        "name": "Atelier Ryza 3: Alchemist of the End & the Secret Key DX",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2999,
+          "discount_percent": 25
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0bca9ab9ec012693f1f0b930bca2c4f72769e1ac344b86773bbd7092cec05571"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3579760,
+  "fetchedAt": "2026-07-31T03:18:13.225Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3579760&cc=us&l=english",
+  "responseDigest": "sha256:e3c502d3c70d642840fcee52394a64b16492151cb20da90412314afff30e4085",
+  "payload": {
+    "3579760": {
+      "success": true,
+      "data": {
+        "steam_appid": 3579760,
+        "name": "Cities: Skylines II - Creator Pack: Supply Chains",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:565d8f951123e7198e2f164ac061ca512bc851dc19becd6b8ffbf28998ca8cef"
+}

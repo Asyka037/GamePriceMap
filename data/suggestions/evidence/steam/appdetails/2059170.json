@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2059170,
+  "fetchedAt": "2026-07-31T02:43:00.265Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2059170&cc=us&l=english",
+  "responseDigest": "sha256:867a10965cec71bda517f6c4307a3440206c43d3d807390655f8127fca0ba9de",
+  "payload": {
+    "2059170": {
+      "success": true,
+      "data": {
+        "steam_appid": 2059170,
+        "name": "Quasimorph",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5575
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fce76acc78b15f7dc35c4827901074a0a17e89ecb5cae84bb91e5af38c624f78"
+}

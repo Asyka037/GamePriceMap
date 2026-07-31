@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4042800,
+  "fetchedAt": "2026-07-31T03:08:22.104Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4042800&cc=us&l=english",
+  "responseDigest": "sha256:994e2e846fdeb141216654cc4afc63d05c9574ab4eb6162b13f9e08df3eab801",
+  "payload": {
+    "4042800": {
+      "success": true,
+      "data": {
+        "steam_appid": 4042800,
+        "name": "Poker Fate - Anime Girls Texas Hold'em",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 3, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ea8d23018b43653c9831b35f03f06d6bccdca5f3bd4913a1ad0cb350d5cc8319"
+}

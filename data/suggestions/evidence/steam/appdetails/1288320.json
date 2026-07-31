@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1288320,
+  "fetchedAt": "2026-07-31T03:18:23.643Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1288320&cc=us&l=english",
+  "responseDigest": "sha256:df8c46954a45bf8c0a98f7c6bad78d0f1974c8378cf7daa2ad4a47f7f787a15f",
+  "payload": {
+    "1288320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1288320,
+        "name": "Way of the Hunter",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 16, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8372
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9865d9a67bcf3f2260b2c33972bb4d65acd614741b27c360775946398b01fb09"
+}

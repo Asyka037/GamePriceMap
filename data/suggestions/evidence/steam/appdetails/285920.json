@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 285920,
+  "fetchedAt": "2026-07-31T02:50:30.805Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=285920&cc=us&l=english",
+  "responseDigest": "sha256:6d75f760bd354574983d8b4d2446c09ebff8c005e42d948b69096de96d951b1d",
+  "payload": {
+    "285920": {
+      "success": true,
+      "data": {
+        "steam_appid": 285920,
+        "name": "TerraTech",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 10, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20438
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e628ec6425c32af873b69ae4e38cd70d8a7766b6b1744d7c6c4851bc0ee20376"
+}

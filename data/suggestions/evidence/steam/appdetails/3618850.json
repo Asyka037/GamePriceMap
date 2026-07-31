@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3618850,
+  "fetchedAt": "2026-07-31T02:44:29.727Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3618850&cc=us&l=english",
+  "responseDigest": "sha256:16863a6500e7a3febd91c21cd20d3c1ca9284f605dedd3917c818523f00ee98e",
+  "payload": {
+    "3618850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3618850,
+        "name": "Pronoun Palace",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1984,
+          "final": 1984,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1106
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df72b31f442af74d4bc6892dba188523171bcb72296b6d6d0e63d7bd7fcac35e"
+}

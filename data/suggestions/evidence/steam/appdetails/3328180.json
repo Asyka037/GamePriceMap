@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3328180,
+  "fetchedAt": "2026-07-31T04:11:00.236Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3328180&cc=us&l=english",
+  "responseDigest": "sha256:1081ab2dad6025606edcf0d750dbbd33ad11d24966cf5d9f1381f5b927d6867c",
+  "payload": {
+    "3328180": {
+      "success": true,
+      "data": {
+        "steam_appid": 3328180,
+        "name": "Snoopy & The Great Mystery Club",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1599,
+          "discount_percent": 60
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:78aaa9f1c0ab40cb4a774dfd55d3fc2ec206919ee2aa6d61f22060f1aa7a4d59"
+}

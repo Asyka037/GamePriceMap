@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1537830,
+  "fetchedAt": "2026-07-31T02:55:10.939Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1537830&cc=us&l=english",
+  "responseDigest": "sha256:b4efbd59c6ddeff201c743a0ccb2225accd17719bfb317f36d886983585a37ba",
+  "payload": {
+    "1537830": {
+      "success": true,
+      "data": {
+        "steam_appid": 1537830,
+        "name": "Disney Speedstorm",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 18, 2023"
+        },
+        "recommendations": {
+          "total": 1004
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ce310ddfa80f18ea5f181bfeba67c2171a5ac00bdc655b038be6eae2db071914"
+}

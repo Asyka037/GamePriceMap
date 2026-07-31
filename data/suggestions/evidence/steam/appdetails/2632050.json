@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2632050,
+  "fetchedAt": "2026-07-31T02:52:09.217Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2632050&cc=us&l=english",
+  "responseDigest": "sha256:46c6bc7d3468a37b61beeda3bc46325d61b73a179098efc96f083cb40271c59f",
+  "payload": {
+    "2632050": {
+      "success": true,
+      "data": {
+        "steam_appid": 2632050,
+        "name": "Disney Dreamlight Valley: A Rift in Time",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 271
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7a1cf5c8701f468d180f37a33a2918c6b1bc752fe85996c116bcf0221f175063"
+}

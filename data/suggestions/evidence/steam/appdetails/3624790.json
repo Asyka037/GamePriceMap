@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3624790,
+  "fetchedAt": "2026-07-31T03:18:28.130Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3624790&cc=us&l=english",
+  "responseDigest": "sha256:db65703f676baa474c8d6ff852827d581d85aed587ac1ba753446283ccdb58f6",
+  "payload": {
+    "3624790": {
+      "success": true,
+      "data": {
+        "steam_appid": 3624790,
+        "name": "Letter Lost",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 140
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0085c6d62f82a3b6436666730af4c1c4ed5f40ac0fec82aa734d8cdb245c74f9"
+}

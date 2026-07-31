@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3228520,
+  "fetchedAt": "2026-07-31T03:23:36.826Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3228520&cc=us&l=english",
+  "responseDigest": "sha256:cc600e69451733febf7e64aef04f56753db6dec25da5187cb70bdfd48fec495e",
+  "payload": {
+    "3228520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3228520,
+        "name": "Clair Obscur: Expedition 33 – Deluxe Edition Upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1099,
+          "final": 879,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 683
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c41cf55053fd2093177b604f8994d4ab1e015123177fa7f2157657b9cb0ecc3e"
+}

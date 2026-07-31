@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2097570,
+  "fetchedAt": "2026-07-31T03:09:42.125Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2097570&cc=us&l=english",
+  "responseDigest": "sha256:a7d8a38f45784c4f207ccd6ad6147ca4edcc9d953bdce14e9a92019b5dfae621",
+  "payload": {
+    "2097570": {
+      "success": true,
+      "data": {
+        "steam_appid": 2097570,
+        "name": "StarVaders",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1749,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 3704
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8583a0f24256535b21f65690b64288acfdf4cc1c64a3f5b1971d515c6564d8eb"
+}

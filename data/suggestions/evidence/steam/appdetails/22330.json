@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 22330,
+  "fetchedAt": "2026-07-31T03:47:02.697Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=22330&cc=us&l=english",
+  "responseDigest": "sha256:f8c5c28b4d3327996fda38858fd1238baca30bc10f1f991c3db530223d5cf9e4",
+  "payload": {
+    "22330": {
+      "success": true,
+      "data": {
+        "steam_appid": 22330,
+        "name": "The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009)",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 374,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 42727
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4319ca0df76addf4cc28bedf59f2835cdab00310b1335205f9b387285e49df73"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 379720,
+  "fetchedAt": "2026-07-31T02:42:42.377Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=379720&cc=us&l=english",
+  "responseDigest": "sha256:874b7bbae26ccf8bf015df894e71812d2514d5c51af1ac2a3a0359cf01f8e77c",
+  "payload": {
+    "379720": {
+      "success": true,
+      "data": {
+        "steam_appid": 379720,
+        "name": "DOOM",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 154139
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9747c6b9de7538295e9705b8b9407e5b4db13e8a5a01380b15cf926334bfdb1d"
+}

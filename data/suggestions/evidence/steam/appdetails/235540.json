@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 235540,
+  "fetchedAt": "2026-07-31T03:05:57.767Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=235540&cc=us&l=english",
+  "responseDigest": "sha256:a4697b47d6660c4db4f597b55eaaae54b826f174a4a55ee32f423aad90e2520a",
+  "payload": {
+    "235540": {
+      "success": true,
+      "data": {
+        "steam_appid": 235540,
+        "name": "Warhammer: End Times - Vermintide",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13649
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:58b075f05de9c25229c5d19613f381837d913dc740d18e7c7a90c3c06893140d"
+}

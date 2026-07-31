@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 32370,
+  "fetchedAt": "2026-07-31T03:29:23.908Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=32370&cc=us&l=english",
+  "responseDigest": "sha256:8a453cafd617578f0d705438c7965d7c23875a2f9784830cd9dad98075bd7752",
+  "payload": {
+    "32370": {
+      "success": true,
+      "data": {
+        "steam_appid": 32370,
+        "name": "STAR WARS™ Knights of the Old Republic™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 28392
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9534a354d69b678ed69fbacea5892faff38f80d04f6182b6535fe38cf027b069"
+}

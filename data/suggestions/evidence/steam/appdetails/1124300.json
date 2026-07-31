@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1124300,
+  "fetchedAt": "2026-07-31T03:24:15.034Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1124300&cc=us&l=english",
+  "responseDigest": "sha256:459c2ef853edb5c3e5a13b933ce355f3f94739bc6e1bf217d4bd0b5af3d3217c",
+  "payload": {
+    "1124300": {
+      "success": true,
+      "data": {
+        "steam_appid": 1124300,
+        "name": "HUMANKIND™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 17, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 21967
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7455ba9e556465b642e9f9fd4e8c114ac52e3d528ebc8cecead774c8fa568da3"
+}

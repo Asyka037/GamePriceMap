@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 626690,
+  "fetchedAt": "2026-07-31T03:13:05.869Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=626690&cc=us&l=english",
+  "responseDigest": "sha256:3504aa8a089f602aaef6302c3af95cf685e5f8e4650017e46a4c5f98e3a927ba",
+  "payload": {
+    "626690": {
+      "success": true,
+      "data": {
+        "steam_appid": 626690,
+        "name": "Sword Art Online: Fatal Bullet",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 23, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15450
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:95ccf7e3906adbd919e42f35fcf53c99b06c76cb57ec8ac7c5e157fdb7f50ba4"
+}

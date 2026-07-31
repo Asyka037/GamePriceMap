@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3797340,
+  "fetchedAt": "2026-07-31T02:47:05.635Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3797340&cc=us&l=english",
+  "responseDigest": "sha256:7f8e39f67aac1f664454961c8719fa486c0ad16d4e8ac15a91b79ed3d4280725",
+  "payload": {
+    "3797340": {
+      "success": true,
+      "data": {
+        "steam_appid": 3797340,
+        "name": "Anomalous Coffee Machine 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 641
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d812219e175a599ae484dfdd3ad310293fc876be707d481dae023ef0df053bbb"
+}

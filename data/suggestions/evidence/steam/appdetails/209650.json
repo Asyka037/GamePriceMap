@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 209650,
+  "fetchedAt": "2026-07-31T02:57:11.760Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=209650&cc=us&l=english",
+  "responseDigest": "sha256:ca0dde8af7cd73b7e33b14330abca368f604ec687868f111fdcc56b640565e20",
+  "payload": {
+    "209650": {
+      "success": true,
+      "data": {
+        "steam_appid": 209650,
+        "name": "Call of Duty®: Advanced Warfare - Gold Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 3, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11037
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a2661d0fc3313186c37f765121d64f3fc74260b51dcea78ebc2a775fcb6ec038"
+}

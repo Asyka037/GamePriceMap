@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 404012,
+  "fetchedAt": "2026-07-31T04:04:52.954Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=404012&cc=us&l=english",
+  "responseDigest": "sha256:a03e37260dcd42def04e344a5c6646698d5de1177757980a81c12cd1b497a369",
+  "payload": {
+    "404012": {
+      "success": true,
+      "data": {
+        "steam_appid": 404012,
+        "name": "Total War: WARHAMMER - Call of the Beastmen",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1899,
+          "final": 1899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1355
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91442549e94aec8ff6c4d45e0edb494c2c689091888c9cd59f6858af7cc74ad2"
+}

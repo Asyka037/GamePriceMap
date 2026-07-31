@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1567020,
+  "fetchedAt": "2026-07-31T03:49:24.483Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1567020&cc=us&l=english",
+  "responseDigest": "sha256:ca2846effc2cd8cc1d9c8731e783534474606ac19eb806e052020950ff6f6a28",
+  "payload": {
+    "1567020": {
+      "success": true,
+      "data": {
+        "steam_appid": 1567020,
+        "name": "The Dark Pictures Anthology: The Devil in Me",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 17, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1479,
+          "discount_percent": 63
+        },
+        "recommendations": {
+          "total": 3714
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a7a68ac89be30192b235816a201757ec0a7310024bc99860c556ea2e606882bd"
+}

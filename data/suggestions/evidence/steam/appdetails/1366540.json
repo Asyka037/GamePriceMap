@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1366540,
+  "fetchedAt": "2026-07-31T02:48:44.145Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1366540&cc=us&l=english",
+  "responseDigest": "sha256:46aaab8335798571e95fd950a10fb001b40a09f1a65d775e15d446c8a535b693",
+  "payload": {
+    "1366540": {
+      "success": true,
+      "data": {
+        "steam_appid": 1366540,
+        "name": "Dyson Sphere Program",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 20, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 83161
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:68fb295e8c049b23c09d8cebafb6780c0f68968076d89eadf2b41e3f630f8238"
+}

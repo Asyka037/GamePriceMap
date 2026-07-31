@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2347080,
+  "fetchedAt": "2026-07-31T03:17:40.581Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2347080&cc=us&l=english",
+  "responseDigest": "sha256:d8677b404261aebc6ead14f7e7636e77c664750da4192a6bc5de4b2914f886f9",
+  "payload": {
+    "2347080": {
+      "success": true,
+      "data": {
+        "steam_appid": 2347080,
+        "name": "Frosthaven",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 31, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 783
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:03a8ef8c362b770d91e91d70084a59724852ce6db1b72c4572d76effd1fd5ff4"
+}

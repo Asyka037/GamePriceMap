@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 502520,
+  "fetchedAt": "2026-07-31T04:12:48.783Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=502520&cc=us&l=english",
+  "responseDigest": "sha256:fc6afc824d1d6957c82903add364b96ae69b56fef4f107a4095e38fc1d1024f9",
+  "payload": {
+    "502520": {
+      "success": true,
+      "data": {
+        "steam_appid": 502520,
+        "name": "Ultimate General: Civil War",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8275
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c9dfa26b386a30f982e1516139ae01f92466aa3d3bebc6eba531d2ae9a26a50"
+}

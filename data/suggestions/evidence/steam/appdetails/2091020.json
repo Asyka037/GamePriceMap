@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2091020,
+  "fetchedAt": "2026-07-31T04:14:53.880Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2091020&cc=us&l=english",
+  "responseDigest": "sha256:ed2dd3101416b4aa8f0fd86c6a44b9aa910d20d79e8a80b4e48b4672846e956b",
+  "payload": {
+    "2091020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2091020,
+        "name": "Blades of Fire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 484
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7965dda35e071b6790e4f6e649a64c5af81c838ae06d03529121ebc29f4dd695"
+}

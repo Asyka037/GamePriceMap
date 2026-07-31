@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 740130,
+  "fetchedAt": "2026-07-31T04:12:22.567Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=740130&cc=us&l=english",
+  "responseDigest": "sha256:7a91adda7b4c9e878151d07780fb9d9397f75af56716998afa5469b1e8cdb5f5",
+  "payload": {
+    "740130": {
+      "success": true,
+      "data": {
+        "steam_appid": 740130,
+        "name": "Tales of ARISE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 8, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 27565
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dbaf0b52a60d20b1280b4603556b7492e895c714796843f0506e20e5157042dc"
+}

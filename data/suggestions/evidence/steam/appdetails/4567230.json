@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4567230,
+  "fetchedAt": "2026-07-31T03:51:06.748Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4567230&cc=us&l=english",
+  "responseDigest": "sha256:fe7046c831dcb8de102946713979d6e947f691d91c25d87a2ae6555e3a59041c",
+  "payload": {
+    "4567230": {
+      "success": true,
+      "data": {
+        "steam_appid": 4567230,
+        "name": "DigWorld",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 424,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d206e6d7e4f0edb3f2feed3c8dfda09c978af3abe6edeb8b57e3cd6ec8c6746"
+}

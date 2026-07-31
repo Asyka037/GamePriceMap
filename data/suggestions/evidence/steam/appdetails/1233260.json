@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1233260,
+  "fetchedAt": "2026-07-31T03:20:18.020Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1233260&cc=us&l=english",
+  "responseDigest": "sha256:054e2930056f298c8ed7514228cb82a5dd2d982a2d8dcd4a6b8cad8f306163a5",
+  "payload": {
+    "1233260": {
+      "success": true,
+      "data": {
+        "steam_appid": 1233260,
+        "name": "FAIRY TAIL",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1979,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 1524
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6520e39e76448a6d50c8206e92fa3aa1dea8a15bac8d4715e6854780796e9630"
+}

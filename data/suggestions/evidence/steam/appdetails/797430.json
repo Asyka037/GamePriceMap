@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 797430,
+  "fetchedAt": "2026-07-31T04:09:21.087Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=797430&cc=us&l=english",
+  "responseDigest": "sha256:2d114a4a5f1e0e4a97fb06326f55ced158d1ca077ec3d66f4de93a49ec3f7320",
+  "payload": {
+    "797430": {
+      "success": true,
+      "data": {
+        "steam_appid": 797430,
+        "name": "HD Poker: Texas Hold'em",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 14, 2018"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9bd2c46dccc89beba4b8a2e4b1c2034bb9669fda8c08e26650d9ee55242edd5c"
+}

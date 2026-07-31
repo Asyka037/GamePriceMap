@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2765930,
+  "fetchedAt": "2026-07-31T04:00:42.427Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2765930&cc=us&l=english",
+  "responseDigest": "sha256:78d42d2f6b16ec15955d05032ccca18420c14854b2af1d484acb91f3de20386b",
+  "payload": {
+    "2765930": {
+      "success": true,
+      "data": {
+        "steam_appid": 2765930,
+        "name": "Empyrion - Galactic Survival: Dark Faction",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 6, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 240
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:957a5be241e7192ac128b8add17f4588441966b3fdb2cb6a2ac4dbb37732d0de"
+}

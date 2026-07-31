@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2819590,
+  "fetchedAt": "2026-07-31T03:16:52.919Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2819590&cc=us&l=english",
+  "responseDigest": "sha256:ef8aeeac2e51f71d7b49b973885ba603c1609d71774b3e91dc7868194d8ef8f2",
+  "payload": {
+    "2819590": {
+      "success": true,
+      "data": {
+        "steam_appid": 2819590,
+        "name": "House Flipper - Dine Out DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1124,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 113
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a463b21577f656aeef1eeb2ca7c506bbcdcb36da1c571370ee8edbf24e9c36fa"
+}

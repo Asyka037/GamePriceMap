@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1449110,
+  "fetchedAt": "2026-07-31T02:43:29.675Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1449110&cc=us&l=english",
+  "responseDigest": "sha256:3c28e05a6564555c93ce0af4f33b1823531c64b7f721cc118fd6ef4fa72abf58",
+  "payload": {
+    "1449110": {
+      "success": true,
+      "data": {
+        "steam_appid": 1449110,
+        "name": "The Outer Worlds 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8320
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5fb3ef38939567a3267c1d2cebee6d228a34fab68642c9ccbcae5aac715af7ca"
+}

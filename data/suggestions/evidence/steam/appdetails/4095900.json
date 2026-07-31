@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4095900,
+  "fetchedAt": "2026-07-31T03:06:11.334Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4095900&cc=us&l=english",
+  "responseDigest": "sha256:f59c1311c3bac631cccacf17554eb6ae4c897058a5e917b1eb67233d7696887b",
+  "payload": {
+    "4095900": {
+      "success": true,
+      "data": {
+        "steam_appid": 4095900,
+        "name": "Company of Heroes 3: Endure & Defy",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1999,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 247
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2504efed6275bf53924437177535794b3be47e5cc343129cd70dfac23e9d4ec0"
+}

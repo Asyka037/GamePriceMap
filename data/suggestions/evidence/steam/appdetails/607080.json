@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 607080,
+  "fetchedAt": "2026-07-31T04:14:21.013Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=607080&cc=us&l=english",
+  "responseDigest": "sha256:800352a9d37bc949d55827e12662b14afaba3984c55c2fa0c97f3767c1aec089",
+  "payload": {
+    "607080": {
+      "success": true,
+      "data": {
+        "steam_appid": 607080,
+        "name": "Psychonauts 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 24, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12181
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:80962001754183d5265831d90cd2bd88be0de44a8d483b9f2bfab245abd4ee60"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3075500,
+  "fetchedAt": "2026-07-31T03:06:28.990Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3075500&cc=us&l=english",
+  "responseDigest": "sha256:7eda8f7aeb2b91c60b2736d9ee45ced3af72fb737063641d423c6b95036ed322",
+  "payload": {
+    "3075500": {
+      "success": true,
+      "data": {
+        "steam_appid": 3075500,
+        "name": "Against the Storm - Keepers of the Stone",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 393
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1eb642fe01a5c54026464f3190c4acb7538f7beff346982df08058319f56ba2d"
+}

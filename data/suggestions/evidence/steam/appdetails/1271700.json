@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1271700,
+  "fetchedAt": "2026-07-31T03:21:38.357Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1271700&cc=us&l=english",
+  "responseDigest": "sha256:89cc05d23b4c3e1cf09a1a337a32e871295dbfca2bd2c565493b18bb588bf88b",
+  "payload": {
+    "1271700": {
+      "success": true,
+      "data": {
+        "steam_appid": 1271700,
+        "name": "HOT WHEELS UNLEASHED™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 30, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 599,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 5410
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:49b6a65c645531a1ebc2bc77120bad46f103b6156b22ebe5ff6709bc3505faa1"
+}

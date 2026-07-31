@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3818000,
+  "fetchedAt": "2026-07-31T04:01:02.330Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3818000&cc=us&l=english",
+  "responseDigest": "sha256:e8ce672406b5b901b46ee77a791c28d407f49bce9af6c6fc94594c0933546e95",
+  "payload": {
+    "3818000": {
+      "success": true,
+      "data": {
+        "steam_appid": 3818000,
+        "name": "Guns and Nuns: Storming Hell",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 669,
+          "discount_percent": 33
+        },
+        "recommendations": {
+          "total": 758
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:02e13d023a852b50c0eaf368ab419fd075ac613a4539f894e2b87782d6e65934"
+}

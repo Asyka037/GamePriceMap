@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4661970,
+  "fetchedAt": "2026-07-31T02:43:44.287Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4661970&cc=us&l=english",
+  "responseDigest": "sha256:d76dab8ba234c1a3d941efd0049a439081a20c9db38cc19fb2f14bd75b6b3fa9",
+  "payload": {
+    "4661970": {
+      "success": true,
+      "data": {
+        "steam_appid": 4661970,
+        "name": "Tom Clancy’s The Division 2 – CBRN Mask Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed9ea9f6621cab99563c1afc680145749b1075be5d2d38941068c5c2f9309e4e"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4358310,
+  "fetchedAt": "2026-07-31T03:04:01.497Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4358310&cc=us&l=english",
+  "responseDigest": "sha256:698697e25c4e0e2229beba73a05c5473afa8cc88adc4f5baf934f34a50af1673",
+  "payload": {
+    "4358310": {
+      "success": true,
+      "data": {
+        "steam_appid": 4358310,
+        "name": "Coin Tavern",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 849,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a07b0e4ca5dca858bf79865ffdf2091fe73728eb8522394314599f1c5d9faf4d"
+}

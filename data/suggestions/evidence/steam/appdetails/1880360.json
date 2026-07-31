@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1880360,
+  "fetchedAt": "2026-07-31T03:22:55.669Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1880360&cc=us&l=english",
+  "responseDigest": "sha256:b2f78592abd5259ef040174985b04571cd11286c9a8ff94ba99dfc6739d54278",
+  "payload": {
+    "1880360": {
+      "success": true,
+      "data": {
+        "steam_appid": 1880360,
+        "name": "Monster Hunter Rise: Sunbreak",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 29, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 599,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 4792
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:69f941b71a1b85a251bd13c48a87f12a803b239d8f92fa7a523c9f84c0a112ab"
+}

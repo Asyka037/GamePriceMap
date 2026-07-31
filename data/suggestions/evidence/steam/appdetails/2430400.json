@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2430400,
+  "fetchedAt": "2026-07-31T03:23:20.690Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2430400&cc=us&l=english",
+  "responseDigest": "sha256:bf39cb55fdac280a0320015617a7ceb984df155851c66e3651b4a84306b7022f",
+  "payload": {
+    "2430400": {
+      "success": true,
+      "data": {
+        "steam_appid": 2430400,
+        "name": "Gunfire Reborn - Artisan and Magician",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 31, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 559,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 585
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:33c175bbf48f452dc7e0a423769577d6cace4199f40eea8e9e454de892e51414"
+}

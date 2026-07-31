@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 32470,
+  "fetchedAt": "2026-07-31T02:46:55.238Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=32470&cc=us&l=english",
+  "responseDigest": "sha256:a7a463678dbf70381ca87c731978f4e220070a21a0df4d3d48091fbb4190f26e",
+  "payload": {
+    "32470": {
+      "success": true,
+      "data": {
+        "steam_appid": 32470,
+        "name": "STAR WARS™ Empire at War - Gold Pack",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 35912
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:23144b6c4e5ebaab08de1d015f60d58e38f054f8726afcf2999d746c362eb0b2"
+}

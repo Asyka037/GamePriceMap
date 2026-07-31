@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4855760,
+  "fetchedAt": "2026-07-31T03:21:02.593Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4855760&cc=us&l=english",
+  "responseDigest": "sha256:4ad1e72608ab24ca1077645244f920b85a14bc4f8c00212732ca4e484fd9d86a",
+  "payload": {
+    "4855760": {
+      "success": true,
+      "data": {
+        "steam_appid": 4855760,
+        "name": "Tung Tung Tung Survival",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 282
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9445f9c203e006062e795d7b8c505d406a745f5767b6e80fe261504c7ab6238"
+}

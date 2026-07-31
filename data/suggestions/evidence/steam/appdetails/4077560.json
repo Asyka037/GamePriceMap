@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4077560,
+  "fetchedAt": "2026-07-31T03:42:47.229Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4077560&cc=us&l=english",
+  "responseDigest": "sha256:c405093a530e284982d081edeeee7c3c8dd0ddcc821491e39222567fd0fb91c2",
+  "payload": {
+    "4077560": {
+      "success": true,
+      "data": {
+        "steam_appid": 4077560,
+        "name": "THE FINALS - The Chirurgeon Set",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8c22940e5df8b6479eb4771a28836aa5fd357449c6612578a84fdfd66f57c48a"
+}

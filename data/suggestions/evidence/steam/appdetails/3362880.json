@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3362880,
+  "fetchedAt": "2026-07-31T03:44:31.968Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3362880&cc=us&l=english",
+  "responseDigest": "sha256:116918ff84b763ff9c264f6692d0c0591f77d6afd6edca50a0f1e05c27ee15ad",
+  "payload": {
+    "3362880": {
+      "success": true,
+      "data": {
+        "steam_appid": 3362880,
+        "name": "Wingspan: Asia Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 959,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:135726d4f4f747bb354aae9b461859e0a291fb90bf5069e9640dc894a5f4c847"
+}

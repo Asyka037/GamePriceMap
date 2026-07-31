@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3839250,
+  "fetchedAt": "2026-07-31T03:21:11.620Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3839250&cc=us&l=english",
+  "responseDigest": "sha256:1a8307b70b2d625bcc667d2e2c5db3877609ee4af1325acfc06d7760bce9cca8",
+  "payload": {
+    "3839250": {
+      "success": true,
+      "data": {
+        "steam_appid": 3839250,
+        "name": "Soulforge Lost Path",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 277
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e5428aa72773919458689557ac49d6c4484693902e0ccb4d4d9deafdfd5adbf8"
+}

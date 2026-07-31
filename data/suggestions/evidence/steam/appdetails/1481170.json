@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1481170,
+  "fetchedAt": "2026-07-31T02:55:52.292Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1481170&cc=us&l=english",
+  "responseDigest": "sha256:d756286e22169f78eed3a820c7c0e791dd613ffbf3d540af6fe1d36b6e9b0e73",
+  "payload": {
+    "1481170": {
+      "success": true,
+      "data": {
+        "steam_appid": 1481170,
+        "name": "ZEPHON",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1792
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6eb9f04116d04113214b9707b1f4b41433d613831707438b0ba817b04e37e0ac"
+}

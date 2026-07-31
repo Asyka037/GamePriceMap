@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1766740,
+  "fetchedAt": "2026-07-31T03:09:25.862Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1766740&cc=us&l=english",
+  "responseDigest": "sha256:e3a67aaec23b3b4b7d3089c0b44337fcb41115a3a8336f50b34b58c7cf7caaa7",
+  "payload": {
+    "1766740": {
+      "success": true,
+      "data": {
+        "steam_appid": 1766740,
+        "name": "Choo-Choo Charles",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15833
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:21bf6e1e42af6ac5f5eafb172185bb90709f453679811dcd12d63f15eb196847"
+}

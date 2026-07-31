@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 254700,
+  "fetchedAt": "2026-07-31T02:56:43.538Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=254700&cc=us&l=english",
+  "responseDigest": "sha256:c5921f3e891e11d7c36a378e2559609752330c364dc40120d23d21fbff5e9412",
+  "payload": {
+    "254700": {
+      "success": true,
+      "data": {
+        "steam_appid": 254700,
+        "name": "Resident Evil 4 (2005)",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 27, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 77651
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5449e24bda19b8643cb71b085af9fb985b289caa68d4a7edff7c8292bbf529b6"
+}

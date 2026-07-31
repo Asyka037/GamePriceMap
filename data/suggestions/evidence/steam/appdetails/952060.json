@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 952060,
+  "fetchedAt": "2026-07-31T02:48:04.077Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=952060&cc=us&l=english",
+  "responseDigest": "sha256:ca09548139e08a1c8a49eaf42456843a17b061cc2f8c2695a127310895aedaaf",
+  "payload": {
+    "952060": {
+      "success": true,
+      "data": {
+        "steam_appid": 952060,
+        "name": "Resident Evil 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 2, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 799,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 88515
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:182cede060ffe6f389dc88599f58b4fa7dbe6d98e93716c5ff6f618cd7eff67f"
+}

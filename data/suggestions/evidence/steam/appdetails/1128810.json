@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1128810,
+  "fetchedAt": "2026-07-31T02:50:33.709Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1128810&cc=us&l=english",
+  "responseDigest": "sha256:6d04b4c157bb857705a83089e74e4dc1166997ef9ef2a65275b6bcebee2e57c0",
+  "payload": {
+    "1128810": {
+      "success": true,
+      "data": {
+        "steam_appid": 1128810,
+        "name": "RISK: Global Domination",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 19, 2020"
+        },
+        "recommendations": {
+          "total": 148
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:718fc18408b497856564a57c507087cd5d2f11d7e28a15a4af4441647b2b72d6"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1428520,
+  "fetchedAt": "2026-07-31T03:36:52.634Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1428520&cc=us&l=english",
+  "responseDigest": "sha256:6092fed8eeb67953972625c101395e6750340535fcb026c0d889e747271f5dee",
+  "payload": {
+    "1428520": {
+      "success": true,
+      "data": {
+        "steam_appid": 1428520,
+        "name": "Mech Engineer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 914
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:31167026b0b56aa76e6587f65a9f554af803a142baa597105288c342e63fb177"
+}

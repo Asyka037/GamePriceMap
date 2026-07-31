@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2696050,
+  "fetchedAt": "2026-07-31T03:16:03.367Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2696050&cc=us&l=english",
+  "responseDigest": "sha256:7dec10f2f86d330a24496be032c50c7963967a2cf8d88771fbce0295b2f8473b",
+  "payload": {
+    "2696050": {
+      "success": true,
+      "data": {
+        "steam_appid": 2696050,
+        "name": "Yarimono",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 30, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1999,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 3969
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e0e56c4b24af15b6b39e8a11d90db59d016b403eeb026acf959070b2a6bf9eaf"
+}

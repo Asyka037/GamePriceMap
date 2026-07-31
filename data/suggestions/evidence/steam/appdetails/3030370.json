@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3030370,
+  "fetchedAt": "2026-07-31T03:12:13.340Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3030370&cc=us&l=english",
+  "responseDigest": "sha256:f87bd15acfe662656ec909f484bcd9f65abc5e8b95d50e835412c132fd098d33",
+  "payload": {
+    "3030370": {
+      "success": true,
+      "data": {
+        "steam_appid": 3030370,
+        "name": "The Outlast Trials - Exotica Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 130
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2c033f01e48ab6642ac6e8c3efe0ab3197b1e9017e59b7a420a8445b3ea87023"
+}

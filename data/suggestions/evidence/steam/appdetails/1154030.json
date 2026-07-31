@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1154030,
+  "fetchedAt": "2026-07-31T02:59:30.853Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1154030&cc=us&l=english",
+  "responseDigest": "sha256:2353854cfadb6c1d18ffbb35aba5364dbf079cd7da43cf0462b84c6b571e3d42",
+  "payload": {
+    "1154030": {
+      "success": true,
+      "data": {
+        "steam_appid": 1154030,
+        "name": "Titan Quest II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 1, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16728
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:70d0edfd4ece049a785d0f3beeffa5c4d825a6fcb8c86fcafea695eb1f705594"
+}

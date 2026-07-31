@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3213850,
+  "fetchedAt": "2026-07-31T03:10:18.158Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3213850&cc=us&l=english",
+  "responseDigest": "sha256:55075c0a2ee150507fe048a2ecf0d26c0f626410024043ed68f91825a587d35f",
+  "payload": {
+    "3213850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3213850,
+        "name": "gogh: Focus with Your Avatar",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4690
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:939ee1f13a152ad15f75edebacedcf3b781bba2722b2bd45416055312ef653d4"
+}

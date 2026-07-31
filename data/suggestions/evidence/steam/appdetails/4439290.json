@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4439290,
+  "fetchedAt": "2026-07-31T03:05:33.983Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4439290&cc=us&l=english",
+  "responseDigest": "sha256:67ad992e9fa1f1617a27f6d35f666349612a0790e602acef65ecf126c40a03cd",
+  "payload": {
+    "4439290": {
+      "success": true,
+      "data": {
+        "steam_appid": 4439290,
+        "name": "Forza Horizon 6 Italian Passion Car Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c3fe76eb578361781661b5548fe6e0b524af08b39c16dda2a646c1fcfeaf4c21"
+}

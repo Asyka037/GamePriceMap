@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1016800,
+  "fetchedAt": "2026-07-31T03:20:46.238Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1016800&cc=us&l=english",
+  "responseDigest": "sha256:a2e7cf082b6913e53ef278645e3afcb8f663c06721d37ffccf13107548fe9f12",
+  "payload": {
+    "1016800": {
+      "success": true,
+      "data": {
+        "steam_appid": 1016800,
+        "name": "Chernobylite Complete Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 599,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 12490
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aab057c858af2244cef621ec44271121eeb082705d184dc8addcca84761f5757"
+}

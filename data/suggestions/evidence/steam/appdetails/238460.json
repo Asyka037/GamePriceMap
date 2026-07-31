@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 238460,
+  "fetchedAt": "2026-07-31T02:52:55.845Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=238460&cc=us&l=english",
+  "responseDigest": "sha256:d5b222858b906d556f2a0602b2e850dc390cf907159aaf3f49d517ee4e252fdc",
+  "payload": {
+    "238460": {
+      "success": true,
+      "data": {
+        "steam_appid": 238460,
+        "name": "BattleBlock Theater®",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 15, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 55707
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2b9479e5d7fcf39881e25b8624ae56d1a68c14ee4912e2265db5b87a57f2148e"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2909110,
+  "fetchedAt": "2026-07-31T02:44:54.773Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2909110&cc=us&l=english",
+  "responseDigest": "sha256:80e5fd082a6c46605136034def65081fda6e78842cd693d223bb7b84972886e7",
+  "payload": {
+    "2909110": {
+      "success": true,
+      "data": {
+        "steam_appid": 2909110,
+        "name": "Nuclear Nightmare",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15119
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:452de6e9b3f1708ee5f2086c5054629a8206d0ed0323ce070e0296761c0b345e"
+}

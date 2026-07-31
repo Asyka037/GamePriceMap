@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2792180,
+  "fetchedAt": "2026-07-31T03:53:05.293Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2792180&cc=us&l=english",
+  "responseDigest": "sha256:0f9563cae8e3041ab331f11ec0ba915844a52589bbc7ed88d659bdab82714a48",
+  "payload": {
+    "2792180": {
+      "success": true,
+      "data": {
+        "steam_appid": 2792180,
+        "name": "Warhammer 40,000: Space Marine 2 - Space Wolves Chapter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 244
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a5153fbb28f56a88eb8cd1a9095fa968cbed998d89eb25996e448a7606e47550"
+}

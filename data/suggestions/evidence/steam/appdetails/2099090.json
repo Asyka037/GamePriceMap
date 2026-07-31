@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2099090,
+  "fetchedAt": "2026-07-31T04:10:30.574Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2099090&cc=us&l=english",
+  "responseDigest": "sha256:0534a837a9c56600535a1a97f1e6ff3de336d21d69a6f40f181e5a897bc0db1c",
+  "payload": {
+    "2099090": {
+      "success": true,
+      "data": {
+        "steam_appid": 2099090,
+        "name": "Alaris",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:40b8b4559e9a19e7f106ba118ce3e7f85d759ab07cfda95dfb5dccebb5ee3d20"
+}

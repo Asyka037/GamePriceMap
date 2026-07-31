@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 12200,
+  "fetchedAt": "2026-07-31T03:01:10.951Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=12200&cc=us&l=english",
+  "responseDigest": "sha256:9df1d0f6e0c6cfc5f2d27b1e785303cb5e27d39e67ade7147269c33e60bcfc8b",
+  "payload": {
+    "12200": {
+      "success": true,
+      "data": {
+        "steam_appid": 12200,
+        "name": "Bully: Scholarship Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2008"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 37089
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1d6f4c5f82df41b069450b1b618652bfbbbcf8c30b55bb4816e2709d6be68a63"
+}

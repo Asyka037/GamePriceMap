@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3871370,
+  "fetchedAt": "2026-07-31T02:47:01.113Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3871370&cc=us&l=english",
+  "responseDigest": "sha256:9f7c72e6102daa536ee50aed27ed020f22fc97fb187adb8e353081e8df7dbb23",
+  "payload": {
+    "3871370": {
+      "success": true,
+      "data": {
+        "steam_appid": 3871370,
+        "name": "Warhammer 40,000: Space Marine 2 - Raven Guard Champion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 122
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c198b95fc08b1efddc240bf0e41171b76b668394634efb28081594039a1a9bdf"
+}

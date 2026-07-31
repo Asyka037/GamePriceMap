@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3833620,
+  "fetchedAt": "2026-07-31T04:03:17.445Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3833620&cc=us&l=english",
+  "responseDigest": "sha256:1b55ad5e066ee4d8f3e6ce2582cfd36f7ce891414c0b1228faf035d2ff7aa15d",
+  "payload": {
+    "3833620": {
+      "success": true,
+      "data": {
+        "steam_appid": 3833620,
+        "name": "Ariokan - create your cards, break the Meta",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2699,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fd41da162a249b825b0fbcfabdff5884e8a0641df93360d005a1842e15531520"
+}

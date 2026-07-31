@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2369390,
+  "fetchedAt": "2026-07-31T03:02:29.705Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2369390&cc=us&l=english",
+  "responseDigest": "sha256:35e6213d2d6e1d0e2a9ea47700efa3b5f3a275af6a9fe8a07415df709c17b224",
+  "payload": {
+    "2369390": {
+      "success": true,
+      "data": {
+        "steam_appid": 2369390,
+        "name": "Far Cry® 6",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 11, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 32781
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dc68e7ca785fb6b1151692df7432863a22eaaba602d7011e29a56d10a47bfa55"
+}

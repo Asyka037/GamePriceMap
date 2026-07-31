@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3081320,
+  "fetchedAt": "2026-07-31T03:34:34.604Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3081320&cc=us&l=english",
+  "responseDigest": "sha256:7c118090dfae1e02d4f31969efbebb7fcaf50e352ca1d8f4bc9a09d191ac7200",
+  "payload": {
+    "3081320": {
+      "success": true,
+      "data": {
+        "steam_appid": 3081320,
+        "name": "Fuga: Melodies of Steel 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2399,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 213
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:905b02028c328f7359904c6c13362d614a3291f82eb80c9c2afda5b2f7a2773f"
+}

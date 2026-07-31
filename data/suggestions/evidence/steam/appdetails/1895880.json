@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1895880,
+  "fetchedAt": "2026-07-31T03:02:04.312Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1895880&cc=us&l=english",
+  "responseDigest": "sha256:ed7d7558856f16d4999149fae1dbb656f9434cbbeec72ec9c75feeca546ec140",
+  "payload": {
+    "1895880": {
+      "success": true,
+      "data": {
+        "steam_appid": 1895880,
+        "name": "Ratchet & Clank: Rift Apart",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 26, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11392
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:845a4a1779fe223e60c4187b4b362de7f3199baf8306843f57f4d9598bb6bbc0"
+}

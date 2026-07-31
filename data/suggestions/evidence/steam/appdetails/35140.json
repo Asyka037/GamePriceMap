@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 35140,
+  "fetchedAt": "2026-07-31T03:21:48.885Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=35140&cc=us&l=english",
+  "responseDigest": "sha256:1dfdcf6c19e778eaace4408630770d939ccad63e3adb459607f0708bafc39463",
+  "payload": {
+    "35140": {
+      "success": true,
+      "data": {
+        "steam_appid": 35140,
+        "name": "Batman: Arkham Asylum Game of the Year Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 299,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 61146
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:190b152d816233952154dfd2dff6341e4721f625f645c9fb75f9172ad3a21a13"
+}

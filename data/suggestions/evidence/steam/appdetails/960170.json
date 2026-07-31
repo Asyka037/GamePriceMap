@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 960170,
+  "fetchedAt": "2026-07-31T03:10:37.192Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=960170&cc=us&l=english",
+  "responseDigest": "sha256:731f2597435e8414912f9e035a0392f715129c0acaaef539b6c718db2d4b4dd6",
+  "payload": {
+    "960170": {
+      "success": true,
+      "data": {
+        "steam_appid": 960170,
+        "name": "DJMAX RESPECT V",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 11, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29680
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2835f87c628df1c5a290556f6aa1125ce89e5b9f5a6c975603248bab2d2bde32"
+}

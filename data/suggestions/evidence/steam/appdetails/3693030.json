@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3693030,
+  "fetchedAt": "2026-07-31T03:54:17.877Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3693030&cc=us&l=english",
+  "responseDigest": "sha256:a709d671973fb6fae32bb3f226c885cda61142ad25dbd348f04ebb228f3877e0",
+  "payload": {
+    "3693030": {
+      "success": true,
+      "data": {
+        "steam_appid": 3693030,
+        "name": "King of Bones",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 312
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:25f5660c9de812bce46bfbfd8c4f4e85b0b791ec5fb05ed14fa958de1ed91539"
+}

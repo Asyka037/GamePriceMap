@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4080220,
+  "fetchedAt": "2026-07-31T03:03:30.406Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4080220&cc=us&l=english",
+  "responseDigest": "sha256:d9a8b6c0a9cfa3f4b3bd769df9a686075eeb7f516ade8304e3dc7c9ace4d2e55",
+  "payload": {
+    "4080220": {
+      "success": true,
+      "data": {
+        "steam_appid": 4080220,
+        "name": "EA SPORTS FC™ 27",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b04474b4afcda621bfea2de22c1c754ce879c2c76c0ce390407a1da3e4ffc675"
+}

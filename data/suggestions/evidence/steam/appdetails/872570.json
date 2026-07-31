@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 872570,
+  "fetchedAt": "2026-07-31T03:51:36.317Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=872570&cc=us&l=english",
+  "responseDigest": "sha256:c92fbb55d1ee724bf4557eec661bdca2230b9527c1fcc96500b75b14a7fd9a52",
+  "payload": {
+    "872570": {
+      "success": true,
+      "data": {
+        "steam_appid": 872570,
+        "name": "Romans: Age of Caesar",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5224ebeaa4cfea245172906798ebac077f9c62bee12f990c29b0cddc3efbe503"
+}

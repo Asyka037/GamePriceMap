@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3143910,
+  "fetchedAt": "2026-07-31T03:44:22.162Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3143910&cc=us&l=english",
+  "responseDigest": "sha256:ca2158df6c16e270677269d582de09354784ccba096810cc36861de4c49fb8e0",
+  "payload": {
+    "3143910": {
+      "success": true,
+      "data": {
+        "steam_appid": 3143910,
+        "name": "Tattoo Removal Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3fe5663dce894e17c2fa6f388958cf5158fbe56460416c0091204a2ce0f61bed"
+}

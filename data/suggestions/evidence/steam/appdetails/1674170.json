@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1674170,
+  "fetchedAt": "2026-07-31T03:14:36.129Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1674170&cc=us&l=english",
+  "responseDigest": "sha256:1b495686bcd6c90ca0ff438d91b96529e29ad757d1c5ba10db12025b7a15f196",
+  "payload": {
+    "1674170": {
+      "success": true,
+      "data": {
+        "steam_appid": 1674170,
+        "name": "Sprocket",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 26, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12070
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9cf9312125d4e18ace5c18ea33d6e60ae9519fae2cf498b7f87b5ff19ad4c514"
+}

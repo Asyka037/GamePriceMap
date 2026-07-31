@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2658510,
+  "fetchedAt": "2026-07-31T02:48:01.140Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2658510&cc=us&l=english",
+  "responseDigest": "sha256:845cd99a3733bf4fdf8251849cdb7947b9eddc6aba24619f53396a68a0dea419",
+  "payload": {
+    "2658510": {
+      "success": true,
+      "data": {
+        "steam_appid": 2658510,
+        "name": "Animal Shelter 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1499,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 1133
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e0210c999f852b07b5df05c4d1ff79bb89dbdbafa52439eebf14d9181521d64e"
+}

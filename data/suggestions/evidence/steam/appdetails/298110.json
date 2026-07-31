@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 298110,
+  "fetchedAt": "2026-07-31T03:21:18.981Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=298110&cc=us&l=english",
+  "responseDigest": "sha256:4db4a60f4d1b1fb8f56ad6f9e3a4cb9fc24cdcaba83b5fc3e453f5b0d83fe61f",
+  "payload": {
+    "298110": {
+      "success": true,
+      "data": {
+        "steam_appid": 298110,
+        "name": "Far Cry® 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 17, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 67205
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4cff4074ead34106f22d15d8de7eb1b24218f7a8a6d73fe6995fc4284bf5861f"
+}

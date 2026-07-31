@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2603020,
+  "fetchedAt": "2026-07-31T04:12:32.384Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2603020&cc=us&l=english",
+  "responseDigest": "sha256:da122e5f36728713f85f316c9ade613a36f9ac7a2ad0ec4afec80fe31e952075",
+  "payload": {
+    "2603020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2603020,
+        "name": "Citadelum",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 976
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3aed682543fc27d15b512084bc9e981fb268c1abfc9c7c0d19e692575c79f4a9"
+}

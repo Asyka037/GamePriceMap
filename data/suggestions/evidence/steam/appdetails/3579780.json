@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3579780,
+  "fetchedAt": "2026-07-31T03:43:45.866Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3579780&cc=us&l=english",
+  "responseDigest": "sha256:108a70c356e26ddbd07e6577ec9bd960b51199c4f92c7f2d147e8620e677471c",
+  "payload": {
+    "3579780": {
+      "success": true,
+      "data": {
+        "steam_appid": 3579780,
+        "name": "Cities: Skylines II - Creator Pack: Office Evolution",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d5873870e5bb9c9fad21133557bb570643551c52cbeecfdc820f08e20826787b"
+}

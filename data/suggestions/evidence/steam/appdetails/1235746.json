@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1235746,
+  "fetchedAt": "2026-07-31T03:30:36.884Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1235746&cc=us&l=english",
+  "responseDigest": "sha256:040b49c53418843b16b24009ab697f52e3fa231ca1c1d04cd3a9c92358cea3d4",
+  "payload": {
+    "1235746": {
+      "success": true,
+      "data": {
+        "steam_appid": 1235746,
+        "name": "The Sims™ 4 Realm of Magic",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 168
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:161ec9d1baa99329dedb46fd860de5ceb9ea8b9c5cd55c764320223e9fdf7be3"
+}

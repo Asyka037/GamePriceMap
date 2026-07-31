@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2506160,
+  "fetchedAt": "2026-07-31T02:47:10.215Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2506160&cc=us&l=english",
+  "responseDigest": "sha256:9ccd45b944900cff91b9e2bb661423824fe6104bf6bd6223c232bcca63737d65",
+  "payload": {
+    "2506160": {
+      "success": true,
+      "data": {
+        "steam_appid": 2506160,
+        "name": "Fears to Fathom - Ironbark Lookout",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5924
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e8e2c7e14425b3a9dcc84131504c169c992d15df85b7dfc9948b2151806a09f8"
+}

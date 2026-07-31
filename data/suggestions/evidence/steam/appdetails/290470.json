@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 290470,
+  "fetchedAt": "2026-07-31T03:11:39.271Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=290470&cc=us&l=english",
+  "responseDigest": "sha256:f3a9c0a03f90463403b8a3f5bfc885568efa6efb61b6778a04015f1fa77d3b87",
+  "payload": {
+    "290470": {
+      "success": true,
+      "data": {
+        "steam_appid": 290470,
+        "name": "Onigiri",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 28, 2019"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:67aff793950c32d2c609bfec1679f04cd59e16b12dcb001bf4dfbfb8326555ab"
+}

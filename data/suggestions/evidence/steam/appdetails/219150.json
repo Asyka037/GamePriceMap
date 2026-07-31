@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 219150,
+  "fetchedAt": "2026-07-31T03:42:37.400Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=219150&cc=us&l=english",
+  "responseDigest": "sha256:8746bd8e83e43ec6a2b09ebfa8afcead25fa044bd87d474b1b721d54f51074ad",
+  "payload": {
+    "219150": {
+      "success": true,
+      "data": {
+        "steam_appid": 219150,
+        "name": "Hotline Miami",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 249,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 108272
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f93f63d9cfafc712bd64bf7557c679f05fe52efadac7ee962865e4bffbb0a503"
+}

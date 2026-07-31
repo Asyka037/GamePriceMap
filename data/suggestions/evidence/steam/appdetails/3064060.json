@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3064060,
+  "fetchedAt": "2026-07-31T04:11:26.564Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3064060&cc=us&l=english",
+  "responseDigest": "sha256:604962c7df13fd7574a4b91d53fa8038b0c92ba8a79a32c93e2c7fb38d2d39ef",
+  "payload": {
+    "3064060": {
+      "success": true,
+      "data": {
+        "steam_appid": 3064060,
+        "name": "Super Chipflake Ü: Quest for the Uncooked Schnitzel",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 389
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a4ca56af7f29fc47277d28bf4e3f8219852607f9fb369fd05a332e4a0f32e3c3"
+}

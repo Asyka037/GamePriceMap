@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4572310,
+  "fetchedAt": "2026-07-31T03:47:52.066Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4572310&cc=us&l=english",
+  "responseDigest": "sha256:cf9ce152b2e70c1f5b683f51fa3a9d0990f5d703486f73a821ba3cd540f44145",
+  "payload": {
+    "4572310": {
+      "success": true,
+      "data": {
+        "steam_appid": 4572310,
+        "name": "Mistfall Hunter - Upgrade to Deluxe Edition",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1349,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9836a0e9d50c298a71a9781094ecadc535dee6cc7fded88ccd42d7b1632760bf"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1206340,
+  "fetchedAt": "2026-07-31T04:07:02.871Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1206340&cc=us&l=english",
+  "responseDigest": "sha256:e93d91b539376d0bbf6efa4a1f6d46ec0780df51cd176b48f6ae504b224c57e6",
+  "payload": {
+    "1206340": {
+      "success": true,
+      "data": {
+        "steam_appid": 1206340,
+        "name": "Hades Original Soundtrack",
+        "type": "music",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 252
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d8c24bf714e02a364e9a4146dad4806acfae8b0661c276505383c9f384bbae6"
+}

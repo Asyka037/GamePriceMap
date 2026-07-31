@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2597810,
+  "fetchedAt": "2026-07-31T03:34:24.704Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2597810&cc=us&l=english",
+  "responseDigest": "sha256:c0e6eb076bb8908bcb5b49d25bd5528bf8abf4477bfc634b30668a016973829a",
+  "payload": {
+    "2597810": {
+      "success": true,
+      "data": {
+        "steam_appid": 2597810,
+        "name": "Afallon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 539,
+          "discount_percent": 55
+        },
+        "recommendations": {
+          "total": 204
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:31ac73d39c80a96fd19890c993d898d4123b2d840008e8a039400b42781ce4a6"
+}

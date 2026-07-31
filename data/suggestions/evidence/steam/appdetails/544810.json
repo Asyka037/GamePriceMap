@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 544810,
+  "fetchedAt": "2026-07-31T03:13:17.651Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=544810&cc=us&l=english",
+  "responseDigest": "sha256:f64ee512198895604c8ac7673c9c7706751aa66faaefc952babfbeae8fccf491",
+  "payload": {
+    "544810": {
+      "success": true,
+      "data": {
+        "steam_appid": 544810,
+        "name": "KARDS - The WW2 Card Game",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 15, 2020"
+        },
+        "recommendations": {
+          "total": 167
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:249e216404072d3c3997db22aceb84736660deff56897a2fc4fbfc8122669d45"
+}

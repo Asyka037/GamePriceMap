@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2008100,
+  "fetchedAt": "2026-07-31T03:58:11.279Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2008100&cc=us&l=english",
+  "responseDigest": "sha256:6ff547e2557a3bf4148c3cfc72aaa4a2664aaaac4640a15b3a4c4afc85fe0b86",
+  "payload": {
+    "2008100": {
+      "success": true,
+      "data": {
+        "steam_appid": 2008100,
+        "name": "Rule the Waves 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 18, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 847
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6f1863438016f2c0c73383928b4c62164b701efd3361c83f2c9cbafb49e72062"
+}

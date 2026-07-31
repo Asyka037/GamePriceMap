@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1333350,
+  "fetchedAt": "2026-07-31T02:53:49.825Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1333350&cc=us&l=english",
+  "responseDigest": "sha256:b241a62476b0b202d7e2839c2d6a121dd4304052ea9460bfa5f006df84781698",
+  "payload": {
+    "1333350": {
+      "success": true,
+      "data": {
+        "steam_appid": 1333350,
+        "name": "Angel Legion",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 14, 2020"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e4cf5fe351196965b88ab0e2c78b979d35a6dd33f8834f1b21e45c1328fd4a61"
+}

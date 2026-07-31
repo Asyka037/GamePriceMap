@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4157970,
+  "fetchedAt": "2026-07-31T03:20:29.790Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4157970&cc=us&l=english",
+  "responseDigest": "sha256:c90aefebe94a73830a6acfe430d11982ca59f13ed9754d35067e0d42c44a4222",
+  "payload": {
+    "4157970": {
+      "success": true,
+      "data": {
+        "steam_appid": 4157970,
+        "name": "Warframe: The Old Peace Uriel Bundle",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6ed1fff4ba45c7cffab13b659c97dcae67b0fe85af13eb29e6f388297a89d290"
+}

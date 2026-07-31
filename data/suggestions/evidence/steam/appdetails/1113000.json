@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1113000,
+  "fetchedAt": "2026-07-31T02:46:46.449Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1113000&cc=us&l=english",
+  "responseDigest": "sha256:627061f33bafed597eaeac6500599d3ef58147002aa91bba7eac3fe7a6594401",
+  "payload": {
+    "1113000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1113000,
+        "name": "Persona 4 Golden",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 13, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 70649
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3346aa57e570cc3f90d1fa98826e36b846151cf6d1d4f38684dc06260b72d65c"
+}

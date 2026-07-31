@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1502970,
+  "fetchedAt": "2026-07-31T04:06:18.405Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1502970&cc=us&l=english",
+  "responseDigest": "sha256:cf88457add6fca347ffd997498ac3a4c7b6968bd7cbc35868dfc88bd1066b06f",
+  "payload": {
+    "1502970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1502970,
+        "name": "Atelier Sophie: The Alchemist of the Mysterious Book DX",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 21, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 956
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4d10a2828f08c1c02823958e97b4e65f372c56c970b293d3854c2d558e9296b1"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3858460,
+  "fetchedAt": "2026-07-31T03:34:57.655Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3858460&cc=us&l=english",
+  "responseDigest": "sha256:4c2b6dc4ad0b3704442d4de50556a7783bf39bf819cd7395a6ac96726aa53978",
+  "payload": {
+    "3858460": {
+      "success": true,
+      "data": {
+        "steam_appid": 3858460,
+        "name": "PAYDAY 3: Delivery Charge Heist",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 195
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:541266d6e4ca99496f00138357631c6d847c6c9a6377b187eb218da31f7aca13"
+}

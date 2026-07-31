@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3282470,
+  "fetchedAt": "2026-07-31T04:09:04.715Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3282470&cc=us&l=english",
+  "responseDigest": "sha256:c713203c7118add01aa27e434833d6c3e5b6f65fcbbbc0af2847833b57c4431e",
+  "payload": {
+    "3282470": {
+      "success": true,
+      "data": {
+        "steam_appid": 3282470,
+        "name": "ARK Fantastic Tames - Dreadmare",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 30, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 295
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:652a9a610c7222f3e2b53f5757b38e22f52b609e3fa9705d74f271bf30f47b9d"
+}

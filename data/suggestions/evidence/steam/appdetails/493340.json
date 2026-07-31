@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 493340,
+  "fetchedAt": "2026-07-31T03:41:31.652Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=493340&cc=us&l=english",
+  "responseDigest": "sha256:b82cd76caa235719db58bd2682bf66c0d4b677119b6a839fd8e0c88f28974135",
+  "payload": {
+    "493340": {
+      "success": true,
+      "data": {
+        "steam_appid": 493340,
+        "name": "Planet Coaster",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 17, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 59663
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:249c98127c8c639b010e591c4f1042c9f4bfe3c5dd469a06cd254240ce2d23bb"
+}

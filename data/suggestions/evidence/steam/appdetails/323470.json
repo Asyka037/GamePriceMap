@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 323470,
+  "fetchedAt": "2026-07-31T04:02:08.010Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=323470&cc=us&l=english",
+  "responseDigest": "sha256:40cdd9d9f0086f73142d81f60dd68cb7b4a4d9d0548d0fe00abb15c6ba180564",
+  "payload": {
+    "323470": {
+      "success": true,
+      "data": {
+        "steam_appid": 323470,
+        "name": "DRAGON BALL XENOVERSE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 26, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 399,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 17460
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c4ba2cbcbcea3a6a734a8ba848e2176de939ab048dfdf04241df47bd7b274d65"
+}

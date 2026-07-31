@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1633370,
+  "fetchedAt": "2026-07-31T04:14:07.781Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1633370&cc=us&l=english",
+  "responseDigest": "sha256:d5262a38b3ccca9d192fecd04f856cb1356eddc5867b89fc5510a396d7d96027",
+  "payload": {
+    "1633370": {
+      "success": true,
+      "data": {
+        "steam_appid": 1633370,
+        "name": "Boat Crew",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 1, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 421
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:44fc04e9a1ccb507b64800a97a27fff128ea449cf45e540224a82dcfa3185ef8"
+}

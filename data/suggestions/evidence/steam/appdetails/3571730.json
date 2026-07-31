@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3571730,
+  "fetchedAt": "2026-07-31T04:16:09.599Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3571730&cc=us&l=english",
+  "responseDigest": "sha256:29038e874a9a162ce786aee7649cf79f393bbf3272180aabad5ea28e8f1b06d0",
+  "payload": {
+    "3571730": {
+      "success": true,
+      "data": {
+        "steam_appid": 3571730,
+        "name": "ARK Animated Series 109-Costumes Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:189fab813260ee5e8c23be278d69b2eedce23b7e8b14eea329d477c770fe71b9"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3574360,
+  "fetchedAt": "2026-07-31T03:02:16.185Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3574360&cc=us&l=english",
+  "responseDigest": "sha256:95c8e611436d7f46b2cf0f60a530e6a513dba02ea7f0930d14b5bce976bc9c4a",
+  "payload": {
+    "3574360": {
+      "success": true,
+      "data": {
+        "steam_appid": 3574360,
+        "name": "Battlefield™ 6 - Phantom Upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3000,
+          "final": 3000,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 449
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:286bbeba1bd5daef3b1e6f6699c3b403d920dc5aeaae65a02785f28790862769"
+}

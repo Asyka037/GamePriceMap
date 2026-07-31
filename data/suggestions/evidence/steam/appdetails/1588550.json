@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1588550,
+  "fetchedAt": "2026-07-31T02:42:27.509Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1588550&cc=us&l=english",
+  "responseDigest": "sha256:884917fb78164ce340befab102cbfffaaa703f3ab03be297a29020ecb601f54e",
+  "payload": {
+    "1588550": {
+      "success": true,
+      "data": {
+        "steam_appid": 1588550,
+        "name": "Cairn",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17469
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0f58f1bba5240fef81ffe9dde949ead2cb04d9b33606a07db2edfa3e420174ec"
+}

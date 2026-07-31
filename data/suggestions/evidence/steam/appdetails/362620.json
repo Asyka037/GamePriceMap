@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 362620,
+  "fetchedAt": "2026-07-31T03:47:22.570Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=362620&cc=us&l=english",
+  "responseDigest": "sha256:d5ca02368abf6c43d555c8690df1fe7fc28266dd1a90943e972fe66c96a6f02c",
+  "payload": {
+    "362620": {
+      "success": true,
+      "data": {
+        "steam_appid": 362620,
+        "name": "Software Inc.",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 1, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 2299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7515
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:84e2876c2e5b4b0d1bb34400a46409957cbe959872e2877c9473cb0ac76ff2c2"
+}

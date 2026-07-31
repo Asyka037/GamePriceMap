@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2261430,
+  "fetchedAt": "2026-07-31T03:06:40.884Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2261430&cc=us&l=english",
+  "responseDigest": "sha256:401639673e84f285bed1d98aa03d7bb1c9d2db01babab205bb8cf8a0e6ab04a2",
+  "payload": {
+    "2261430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2261430,
+        "name": "LumenTale: Memories of Trey",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 1075
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:935b8e903e0e049f43b255b21ebd0e74aca0bbd261ba188324e26af2b65821b0"
+}

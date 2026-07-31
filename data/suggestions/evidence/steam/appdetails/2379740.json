@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2379740,
+  "fetchedAt": "2026-07-31T03:00:45.470Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2379740&cc=us&l=english",
+  "responseDigest": "sha256:f7d08e5aeb35685a63c51f98fa6e7238a0c89843ed981db2431d6e13cf8ca0dc",
+  "payload": {
+    "2379740": {
+      "success": true,
+      "data": {
+        "steam_appid": 2379740,
+        "name": "Wizardry Variants Daphne",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63eb5a6762da11ef353d36b59464563f716cb9e06ce6ebf6cfb2b44c30aba7cf"
+}

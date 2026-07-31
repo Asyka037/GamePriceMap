@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 859580,
+  "fetchedAt": "2026-07-31T04:11:56.152Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=859580&cc=us&l=english",
+  "responseDigest": "sha256:dd7f274a63fb133f765d1cd205f4a73e141a428e6e127845fd981f3dc63e2a99",
+  "payload": {
+    "859580": {
+      "success": true,
+      "data": {
+        "steam_appid": 859580,
+        "name": "Imperator: Rome",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 25, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19606
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5936f888ad96947da61be78d1b16f569c309cbef066fc6897bc2ad49f2068478"
+}

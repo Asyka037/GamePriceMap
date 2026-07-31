@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3307910,
+  "fetchedAt": "2026-07-31T03:11:34.668Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3307910&cc=us&l=english",
+  "responseDigest": "sha256:03d3283cec1d63bd6a88dbb9648fc6653aca82ddf9b74b3a80a25f844a8e53a6",
+  "payload": {
+    "3307910": {
+      "success": true,
+      "data": {
+        "steam_appid": 3307910,
+        "name": "The Outlast Trials - Unholy Night Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 112
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d79092c6ffea32195214d6160b2a4d41a94f704eead6146ec5ab9a241a65e44c"
+}

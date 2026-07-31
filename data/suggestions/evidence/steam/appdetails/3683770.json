@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3683770,
+  "fetchedAt": "2026-07-31T03:03:33.349Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3683770&cc=us&l=english",
+  "responseDigest": "sha256:e0416bff3d09150997e13d207079439c9b2fc820033f4a7a682ade728fa1f697",
+  "payload": {
+    "3683770": {
+      "success": true,
+      "data": {
+        "steam_appid": 3683770,
+        "name": "Boba Cafe Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1039,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 920
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1971a662a7239b18375c6b87a037bbbce1bacc9a15f40b87cbe4aba992441004"
+}

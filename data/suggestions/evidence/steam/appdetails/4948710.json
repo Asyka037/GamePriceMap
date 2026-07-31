@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4948710,
+  "fetchedAt": "2026-07-31T04:14:27.654Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4948710&cc=us&l=english",
+  "responseDigest": "sha256:e1c5484569a9040efc7f3600cf97d612f0841754a71f39231166f040a86a2818",
+  "payload": {
+    "4948710": {
+      "success": true,
+      "data": {
+        "steam_appid": 4948710,
+        "name": "Aquapark Tycoon - Supporter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:736ff13807878363ab68ef9f05611dab175f7bf4a356d474af93b41eb065d96f"
+}

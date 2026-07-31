@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3312130,
+  "fetchedAt": "2026-07-31T03:11:08.154Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3312130&cc=us&l=english",
+  "responseDigest": "sha256:d6ac161c6b3a650d714614460c789d4fa98a524f749b52e5d63544cb78e2188a",
+  "payload": {
+    "3312130": {
+      "success": true,
+      "data": {
+        "steam_appid": 3312130,
+        "name": "Factory Town 2: Paradise",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 107
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d77e811d931a30c52b018f73b01f77e5252b4e224d7642c2f8024271c4e0b302"
+}

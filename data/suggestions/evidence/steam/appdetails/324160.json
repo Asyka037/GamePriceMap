@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 324160,
+  "fetchedAt": "2026-07-31T03:04:39.998Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=324160&cc=us&l=english",
+  "responseDigest": "sha256:1d4f3243d46e851a9f098fa6989eaf8e8b8cf60eede499fb1dae734e6fef054f",
+  "payload": {
+    "324160": {
+      "success": true,
+      "data": {
+        "steam_appid": 324160,
+        "name": "CLANNAD",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 23, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9789
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a8d22a9047f48f22d938a9e2111245918131d6b96371ddbfd6071f278a9563b"
+}

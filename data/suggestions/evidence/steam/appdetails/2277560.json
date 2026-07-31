@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2277560,
+  "fetchedAt": "2026-07-31T02:55:47.894Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2277560&cc=us&l=english",
+  "responseDigest": "sha256:9a92b8940df1f385ceec2856bc6795f02c7a605606a5a3822791c50c74f13464",
+  "payload": {
+    "2277560": {
+      "success": true,
+      "data": {
+        "steam_appid": 2277560,
+        "name": "WUCHANG: Fallen Feathers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 3499,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 44154
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5ca1b719404a6841da0b8a32a513bc18f5297e5df98606dcc259cf53cb41ca9d"
+}

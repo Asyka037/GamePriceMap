@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 366849,
+  "fetchedAt": "2026-07-31T02:45:03.783Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=366849&cc=us&l=english",
+  "responseDigest": "sha256:aae15524da29befad74cee25da5ebc37c45fb54828e8b5b163870ef0b856d70c",
+  "payload": {
+    "366849": {
+      "success": true,
+      "data": {
+        "steam_appid": 366849,
+        "name": "Call of Duty®: Black Ops III - The Giant Zombies Map",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 2, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 352
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:797dca9ef9c3a9e8d8abf2f21a3ef20600b46aa598d28af62f0e3c28c965eb24"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 21970,
+  "fetchedAt": "2026-07-31T02:49:06.402Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=21970&cc=us&l=english",
+  "responseDigest": "sha256:a6d07623b322d48a47dd4e324e7f46955d05ef2641c44e15aecc887a88e3dbb5",
+  "payload": {
+    "21970": {
+      "success": true,
+      "data": {
+        "steam_appid": 21970,
+        "name": "R.U.S.E.™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 9, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2426
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d19bc990d4b4ed6eadf5700ca2b38ef66053c274878b6f718817f92796a89cd3"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2295940,
+  "fetchedAt": "2026-07-31T04:03:50.273Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2295940&cc=us&l=english",
+  "responseDigest": "sha256:20d2aac051f54e30634a24b08abbfffac64ce3e816ec918b25c952f51613298e",
+  "payload": {
+    "2295940": {
+      "success": true,
+      "data": {
+        "steam_appid": 2295940,
+        "name": "Master of Realms",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2399,
+          "discount_percent": 40
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5a0ed9ca0f0d11cf4397f5dbc43f955004673ca5d8453738864ddca7fd7c6ad1"
+}

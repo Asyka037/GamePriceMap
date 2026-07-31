@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2475490,
+  "fetchedAt": "2026-07-31T02:46:50.824Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2475490&cc=us&l=english",
+  "responseDigest": "sha256:e4318719098a80a3711e2aa123cadc09db143721c8c5a61d4191a58710accfaf",
+  "payload": {
+    "2475490": {
+      "success": true,
+      "data": {
+        "steam_appid": 2475490,
+        "name": "Mouthwashing",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 33740
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0311e18e78a93cd9c2131092ee7da655a3e60dfee2bb5d9087a7eacab5706d8e"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2383430,
+  "fetchedAt": "2026-07-31T03:11:55.463Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2383430&cc=us&l=english",
+  "responseDigest": "sha256:3c569e76ea0562ce2246521002117ab27b14bc7e05d3f72d0388c9baca7ebe62",
+  "payload": {
+    "2383430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2383430,
+        "name": "theHunter: Call of the Wild™ - Emerald Coast Australia",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 399,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 511
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:913f6fbbcd4e8442e42e8a6bf1ec1f71cf5fed8c7691639948e15aff7c1baded"
+}

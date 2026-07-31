@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1850570,
+  "fetchedAt": "2026-07-31T02:53:13.442Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1850570&cc=us&l=english",
+  "responseDigest": "sha256:e55328aaf1c57d326193788c2f3f0cc64c4a590d688230555a87f2dc8f6e964c",
+  "payload": {
+    "1850570": {
+      "success": true,
+      "data": {
+        "steam_appid": 1850570,
+        "name": "DEATH STRANDING DIRECTOR'S CUT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 30, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 48870
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:66a0031cfeb78db864e02ace6c102bc585b67b8f300d7ec55dbe414c5edfebcb"
+}

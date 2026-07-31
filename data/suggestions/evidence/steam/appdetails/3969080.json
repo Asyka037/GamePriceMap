@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3969080,
+  "fetchedAt": "2026-07-31T03:19:48.418Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3969080&cc=us&l=english",
+  "responseDigest": "sha256:efbc4c8155dbb7fa84906cced10008ad49943d6a9ac12d2eb891777a92ee0bf0",
+  "payload": {
+    "3969080": {
+      "success": true,
+      "data": {
+        "steam_appid": 3969080,
+        "name": "MapleStory M",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 18, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:00c3e5af49346a4d95b3d63b805942a8f83dd4c9032db8a249e7a96559a008c3"
+}

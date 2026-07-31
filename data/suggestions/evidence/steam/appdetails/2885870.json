@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2885870,
+  "fetchedAt": "2026-07-31T02:44:22.392Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2885870&cc=us&l=english",
+  "responseDigest": "sha256:bb8b999e0f3d048580a175dbc08fcdb458cfb3f5e487182fa685f27d077b1142",
+  "payload": {
+    "2885870": {
+      "success": true,
+      "data": {
+        "steam_appid": 2885870,
+        "name": "Strange Antiquities",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3153
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b13bfabea324d1027e0a4883349a95ae8ce9644eebc351ee291dcfae0a017891"
+}

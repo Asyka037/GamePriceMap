@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3278290,
+  "fetchedAt": "2026-07-31T02:49:55.160Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3278290&cc=us&l=english",
+  "responseDigest": "sha256:2f1ee32cff51074c99212ee700025180065a1bc9fd7896ab98f23436c17e0ce2",
+  "payload": {
+    "3278290": {
+      "success": true,
+      "data": {
+        "steam_appid": 3278290,
+        "name": "Feed The Pit",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 344
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ebadba73684802987f79a61fd9fcaa441216ee66233d55526386ed754246912"
+}

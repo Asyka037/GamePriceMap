@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2783360,
+  "fetchedAt": "2026-07-31T03:15:24.687Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2783360&cc=us&l=english",
+  "responseDigest": "sha256:74620ede03b558e3eb194577f7ad175d6a53a435b4ae6b4b6253ee9947ff01a0",
+  "payload": {
+    "2783360": {
+      "success": true,
+      "data": {
+        "steam_appid": 2783360,
+        "name": "Age of Empires Mobile: PC Edition",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:95d03447ee07c48cde58954ba77c624ccfec75e9bc2bbfb325af8f83e2eb96eb"
+}

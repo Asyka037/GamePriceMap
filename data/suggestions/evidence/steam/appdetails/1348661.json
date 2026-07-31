@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1348661,
+  "fetchedAt": "2026-07-31T03:07:52.496Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1348661&cc=us&l=english",
+  "responseDigest": "sha256:eb71740940b5ea1dc2a7fc16f416aa9d28271af26ac1689598a034b545bbb459",
+  "payload": {
+    "1348661": {
+      "success": true,
+      "data": {
+        "steam_appid": 1348661,
+        "name": "Expansion - Hearts of Iron IV: No Step Back",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 23, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3526
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1b247faf0e04171daaf830f79cf31230c31b8a660a33437a5bab8d9d3ccc10a9"
+}

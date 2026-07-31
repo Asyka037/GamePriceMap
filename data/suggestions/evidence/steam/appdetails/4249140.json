@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4249140,
+  "fetchedAt": "2026-07-31T03:35:20.627Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4249140&cc=us&l=english",
+  "responseDigest": "sha256:17cf6ea26b88636688112e58a74ebe9c1f1db7a1d89b2d739d401f682cdfdb25",
+  "payload": {
+    "4249140": {
+      "success": true,
+      "data": {
+        "steam_appid": 4249140,
+        "name": "Dino Crisis 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 677
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d650c74675f1ea6113486940938e5f803bbbc89fac3bebd909889eff7649b5b"
+}

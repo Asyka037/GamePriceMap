@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 382110,
+  "fetchedAt": "2026-07-31T03:56:41.954Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=382110&cc=us&l=english",
+  "responseDigest": "sha256:4a100d7623132c5f284ba5284da7fc5b33b24c38f5858453a75139160b52f361",
+  "payload": {
+    "382110": {
+      "success": true,
+      "data": {
+        "steam_appid": 382110,
+        "name": "Virtual Desktop Classic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 31, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2013
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5b8e4033e1e477cdb1af7e6da0574fda2d9460308a9d0a4adc906e14081c7790"
+}

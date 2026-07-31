@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2225070,
+  "fetchedAt": "2026-07-31T02:42:37.938Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2225070&cc=us&l=english",
+  "responseDigest": "sha256:a09db416d4e2d91a55140aaaeb6100bd436d582c3e5736a4118a33efffd8b396",
+  "payload": {
+    "2225070": {
+      "success": true,
+      "data": {
+        "steam_appid": 2225070,
+        "name": "Trackmania",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 2, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2bec8afb1f5522dfa8c2f4a247be28954cb7707de5f65b02cc64ae0c2bedc1cb"
+}

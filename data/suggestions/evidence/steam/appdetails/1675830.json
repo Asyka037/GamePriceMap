@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1675830,
+  "fetchedAt": "2026-07-31T03:07:39.271Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1675830&cc=us&l=english",
+  "responseDigest": "sha256:a71b7eba08a3a009fddb7ea746f16a719fb2b03abb37d22d7e1fcd500613aa07",
+  "payload": {
+    "1675830": {
+      "success": true,
+      "data": {
+        "steam_appid": 1675830,
+        "name": "1000xRESIST",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 9, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5185
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1982221ed27ddddcbdfd4cce87a5f8d6fa276d3db2f11822c5fe1f186bb24cdd"
+}

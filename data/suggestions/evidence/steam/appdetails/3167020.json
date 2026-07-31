@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3167020,
+  "fetchedAt": "2026-07-31T02:51:35.806Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3167020&cc=us&l=english",
+  "responseDigest": "sha256:c14871dc6b8878c50e559e3d9d3c8da53a3a32e5f50ec0f58ecdf088dbf26f89",
+  "payload": {
+    "3167020": {
+      "success": true,
+      "data": {
+        "steam_appid": 3167020,
+        "name": "Escape From Duckov",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 83186
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:563c8f08567c438d258b211b6a29a58d625d97159fe27665fce32a0bd060a789"
+}

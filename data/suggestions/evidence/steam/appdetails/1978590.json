@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1978590,
+  "fetchedAt": "2026-07-31T03:41:54.816Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1978590&cc=us&l=english",
+  "responseDigest": "sha256:201de58d3b1272ef872813afa769ce332c43c8ec7e5bac373b0117dc2ffc2cec",
+  "payload": {
+    "1978590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1978590,
+        "name": "Anger Foot",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 11, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 3502
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0b26716bdcbb9fcd90aa4d731a98f29098de9f50df094dbe71208bc26b571a22"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1336980,
+  "fetchedAt": "2026-07-31T04:15:30.072Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1336980&cc=us&l=english",
+  "responseDigest": "sha256:010f74e7836564f850d95eafcebf871a241aa8da944e84697192cb8af51a8ac7",
+  "payload": {
+    "1336980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1336980,
+        "name": "NOBUNAGA'S AMBITION: Awakening",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 3899,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 2292
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1f8dd88df13e67a1e35e6fb61bd68381fe67ac378c7a9bcb679b4acc36cccc80"
+}

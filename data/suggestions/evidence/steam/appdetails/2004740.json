@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2004740,
+  "fetchedAt": "2026-07-31T03:05:54.796Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2004740&cc=us&l=english",
+  "responseDigest": "sha256:48f0fd8d9689c3a29e24352dd556b8bce4450bc05da99d51d27468a54c9d1c68",
+  "payload": {
+    "2004740": {
+      "success": true,
+      "data": {
+        "steam_appid": 2004740,
+        "name": "Captain of Industry - Supporter edition upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 31, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:06e33312169cf487177ae65b830a52d28cc0ec1224574d879eeb2aee4995e795"
+}

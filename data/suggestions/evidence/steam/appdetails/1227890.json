@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1227890,
+  "fetchedAt": "2026-07-31T03:10:40.166Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1227890&cc=us&l=english",
+  "responseDigest": "sha256:92b892ba4fc7abae57ef8ff8104fd62868f7fdf4af7c2df094d345139da8fb49",
+  "payload": {
+    "1227890": {
+      "success": true,
+      "data": {
+        "steam_appid": 1227890,
+        "name": "Summer Memories",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 14, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23965
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:46ff6d211f13891007ab355844c288c4299b4965e92393f79ba8027b25d6842f"
+}

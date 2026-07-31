@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2280,
+  "fetchedAt": "2026-07-31T02:47:02.593Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2280&cc=us&l=english",
+  "responseDigest": "sha256:98105d50c235fca1729ba1fbaf81d2d85cb1ec35067e6d69bd8b921177dd2f8c",
+  "payload": {
+    "2280": {
+      "success": true,
+      "data": {
+        "steam_appid": 2280,
+        "name": "DOOM + DOOM II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 3, 2007"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 399,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 25057
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:49995f95e691773dde94d03bf12436a6a00f6981e9a3c2bd261d78cf2519a0e9"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3393070,
+  "fetchedAt": "2026-07-31T03:54:01.501Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3393070&cc=us&l=english",
+  "responseDigest": "sha256:3769941d3292ffc6b6d26a20b839d5d09161fe706a74c94ff16ec451fc8116e1",
+  "payload": {
+    "3393070": {
+      "success": true,
+      "data": {
+        "steam_appid": 3393070,
+        "name": "KAIJU NO. 8 THE GAME",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 30, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ae828419d2144f26b560a67200139925d71d93e5925f76919c256e2d6bc6ea62"
+}

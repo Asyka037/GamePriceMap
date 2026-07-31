@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3577690,
+  "fetchedAt": "2026-07-31T03:06:49.877Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3577690&cc=us&l=english",
+  "responseDigest": "sha256:a63181755ac8d4ca56721649469c49cfeff108fab3cf63e313e5b8a442a2ebbd",
+  "payload": {
+    "3577690": {
+      "success": true,
+      "data": {
+        "steam_appid": 3577690,
+        "name": "Warhammer 40,000: Battlesector - Ultramarines",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:80572dc616b9856490ffdd43d02c54583dd14aca66b87e9ddb0f8a145971aea4"
+}

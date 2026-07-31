@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 868360,
+  "fetchedAt": "2026-07-31T03:57:31.668Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=868360&cc=us&l=english",
+  "responseDigest": "sha256:e529677f4fef8c2cf08c238c3b010b072e4b163a223b68c220482d4a43877561",
+  "payload": {
+    "868360": {
+      "success": true,
+      "data": {
+        "steam_appid": 868360,
+        "name": "Project Hospital",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 30, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8282
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8107e66cf84064bba0742ecf1e7b71f9ebce31cffe541f1269ba39b6439879c4"
+}

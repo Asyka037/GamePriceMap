@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 372000,
+  "fetchedAt": "2026-07-31T03:11:57.014Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=372000&cc=us&l=english",
+  "responseDigest": "sha256:76d4c3730e75d0365ab032f0d1ab6c8cd5b78d279c31f40987a39c073ac0c972",
+  "payload": {
+    "372000": {
+      "success": true,
+      "data": {
+        "steam_appid": 372000,
+        "name": "Tree of Savior (English Ver.)",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 28, 2016"
+        },
+        "recommendations": {
+          "total": 5754
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:23e0aed86a35e95b74316375561621535013c56e5f99ad4a37b7734e7fa67497"
+}

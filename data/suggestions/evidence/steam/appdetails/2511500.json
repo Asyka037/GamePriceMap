@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2511500,
+  "fetchedAt": "2026-07-31T02:50:24.956Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2511500&cc=us&l=english",
+  "responseDigest": "sha256:f5dd9a6c0dc8e681c050f69cb593e2981aeca3c74902e656a818a8e60f005dd7",
+  "payload": {
+    "2511500": {
+      "success": true,
+      "data": {
+        "steam_appid": 2511500,
+        "name": "Dominions 6 - Rise of the Pantokrator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1636
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:51956b832052dcf5b18830967bd2007c88bd450e4e7d0da48df59524c171c253"
+}

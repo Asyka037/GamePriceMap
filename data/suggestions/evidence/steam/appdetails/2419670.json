@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2419670,
+  "fetchedAt": "2026-07-31T04:12:58.685Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2419670&cc=us&l=english",
+  "responseDigest": "sha256:8f069617301c4b68e72e2c53ff16c5c3d4e64dbeb5cf1bbe17711ca9c51dea2f",
+  "payload": {
+    "2419670": {
+      "success": true,
+      "data": {
+        "steam_appid": 2419670,
+        "name": "Eclipsium",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3003
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:be8dcf42f93df319e2b29f79f3bfe0dfe9a510b79501030bec507cc4e1f273aa"
+}

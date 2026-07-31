@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2356560,
+  "fetchedAt": "2026-07-31T03:04:22.060Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2356560&cc=us&l=english",
+  "responseDigest": "sha256:dd0540e14416b006b8af6ff32d676cbca2040ccdaaa537c058f61f46e2664a22",
+  "payload": {
+    "2356560": {
+      "success": true,
+      "data": {
+        "steam_appid": 2356560,
+        "name": "Monster Hunter Stories",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 13, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1561
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4c657d8b515dda81e59f97f603bd6ff8a5a80970a107abde973de8ff46d0b2b0"
+}

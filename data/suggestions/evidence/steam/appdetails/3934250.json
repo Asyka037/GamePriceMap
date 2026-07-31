@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3934250,
+  "fetchedAt": "2026-07-31T03:48:21.822Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3934250&cc=us&l=english",
+  "responseDigest": "sha256:a4ced56527af27572e09cf7922b20e7da68457465ef3dea51f1d38cf09b4dcd3",
+  "payload": {
+    "3934250": {
+      "success": true,
+      "data": {
+        "steam_appid": 3934250,
+        "name": "Village in the Shade",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c831f1dae600271cc9e02c9d5e423347a7266f3a1e2e0c727c3f4bef05132122"
+}

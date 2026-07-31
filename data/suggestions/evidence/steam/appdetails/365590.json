@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 365590,
+  "fetchedAt": "2026-07-31T02:54:26.498Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=365590&cc=us&l=english",
+  "responseDigest": "sha256:a46a4d8af02ab20a677b5a5488f20a18517c2c741555de57c3d9392b8d0941a7",
+  "payload": {
+    "365590": {
+      "success": true,
+      "data": {
+        "steam_appid": 365590,
+        "name": "Tom Clancy’s The Division™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 7, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 76815
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c698a0466f546f2e8f9c3447d395f39d0a464f4c0ba28ca81d7079a55ee4c3b0"
+}

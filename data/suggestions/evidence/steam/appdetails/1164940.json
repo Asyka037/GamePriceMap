@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1164940,
+  "fetchedAt": "2026-07-31T02:43:50.167Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1164940&cc=us&l=english",
+  "responseDigest": "sha256:53ad1a1d90a329ce4e5b5c9f3e2c105f2306d449085aa9adcc8b65fff5a64c33",
+  "payload": {
+    "1164940": {
+      "success": true,
+      "data": {
+        "steam_appid": 1164940,
+        "name": "Trepang2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 21, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 15315
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b09a4db207f281574328e9a0288edba1643ba22ae6b022a37f7b6ef3644ad8fb"
+}

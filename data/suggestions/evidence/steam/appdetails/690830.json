@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 690830,
+  "fetchedAt": "2026-07-31T02:47:55.221Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=690830&cc=us&l=english",
+  "responseDigest": "sha256:ba23a3ff66b84f55d7635c59c3986efba7bba93983f61811b66e1f915040da70",
+  "payload": {
+    "690830": {
+      "success": true,
+      "data": {
+        "steam_appid": 690830,
+        "name": "Foundation",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 31, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 22797
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5a3f077c8023028a673a5eb14cf699f9d017a52d8865650ee27563f64aac6e7f"
+}

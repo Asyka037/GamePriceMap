@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1940340,
+  "fetchedAt": "2026-07-31T02:48:28.012Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1940340&cc=us&l=english",
+  "responseDigest": "sha256:b9d446e390d8b955f74f1db35a15b25d6fbd2c70efc1e60e5f2320c83809558b",
+  "payload": {
+    "1940340": {
+      "success": true,
+      "data": {
+        "steam_appid": 1940340,
+        "name": "Darkest Dungeon® II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23878
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:98d559c8fb291ca78c78454e372c6cad8f8eb22ffb7381a30d984219719802f7"
+}

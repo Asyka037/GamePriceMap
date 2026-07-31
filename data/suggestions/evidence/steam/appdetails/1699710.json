@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1699710,
+  "fetchedAt": "2026-07-31T03:23:17.758Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1699710&cc=us&l=english",
+  "responseDigest": "sha256:2168c08fcebdca1f9dcaa2d540044d374bff81606cf35e4f5ff3c9d9cc15873a",
+  "payload": {
+    "1699710": {
+      "success": true,
+      "data": {
+        "steam_appid": 1699710,
+        "name": "The Dream Of A Cockspur",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 629,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 173
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:903a6b2e8db2c608931ed86c5588f3be348ec3b26d769de70eacdb7b01381e31"
+}

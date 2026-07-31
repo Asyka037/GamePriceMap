@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3237970,
+  "fetchedAt": "2026-07-31T03:15:11.433Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3237970&cc=us&l=english",
+  "responseDigest": "sha256:531ef6f80ea5ece842925f51bff38a7c3a922cc0209e2b6c81f4fd0a389876b0",
+  "payload": {
+    "3237970": {
+      "success": true,
+      "data": {
+        "steam_appid": 3237970,
+        "name": "Bubsy 4D",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 698
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:90a8e639ccbece5aebd10378dd5f3244d484d936f4f51d71b50324d3eec565ef"
+}

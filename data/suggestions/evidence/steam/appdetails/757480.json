@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 757480,
+  "fetchedAt": "2026-07-31T03:33:03.428Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=757480&cc=us&l=english",
+  "responseDigest": "sha256:a054d0b505d8de02fa9f59f949347f78f93133f121ec0cad6e6ad7677b2f4255",
+  "payload": {
+    "757480": {
+      "success": true,
+      "data": {
+        "steam_appid": 757480,
+        "name": "Broken Reality",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 29, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 374,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 2111
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b88d2b4e40b8b6c97476e39b2c662d66cc5ec1a15d9cb95e22e8f5158791a223"
+}

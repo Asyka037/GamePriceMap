@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3146530,
+  "fetchedAt": "2026-07-31T02:55:28.619Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3146530&cc=us&l=english",
+  "responseDigest": "sha256:268904854a33e2a372e1fe08a60f1d5ab186f69ce4d1df1f84a8fd0d5b538165",
+  "payload": {
+    "3146530": {
+      "success": true,
+      "data": {
+        "steam_appid": 3146530,
+        "name": "Supermarket Together - The Cool Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 15, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 645
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:112b74e545a647e8035e67b799753f6383a97a806e4c1d5385a777647f29d7af"
+}

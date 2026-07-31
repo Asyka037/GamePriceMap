@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1822060,
+  "fetchedAt": "2026-07-31T03:16:49.842Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1822060&cc=us&l=english",
+  "responseDigest": "sha256:dff231c7d8d484602acd429c2d885d89a9a7ebaeae147feb1fd84f3c1dba7d17",
+  "payload": {
+    "1822060": {
+      "success": true,
+      "data": {
+        "steam_appid": 1822060,
+        "name": "Those Who Rule",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 899,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1064
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e055551a80b7bf19e4f25914962535a2cb44900b910d47233b665c6b3560cab7"
+}

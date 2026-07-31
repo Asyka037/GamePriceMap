@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1149440,
+  "fetchedAt": "2026-07-31T04:01:51.627Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1149440&cc=us&l=english",
+  "responseDigest": "sha256:d729b9b9acfbffd39c9b7fa79bf4878ca9433d3d39df851bb95aa54e5ae141c2",
+  "payload": {
+    "1149440": {
+      "success": true,
+      "data": {
+        "steam_appid": 1149440,
+        "name": "Dragon Marked For Death",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 21, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1399,
+          "discount_percent": 65
+        },
+        "recommendations": {
+          "total": 974
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c22a5259b8936bc401ac880ad2821b0522954a9410318f763b45ccf2d2053a7a"
+}

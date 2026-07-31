@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1621310,
+  "fetchedAt": "2026-07-31T04:10:37.235Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1621310&cc=us&l=english",
+  "responseDigest": "sha256:4931358597843d6a404f3c3f5ec872fd69275d003045fd5ae75c36f2b4c11316",
+  "payload": {
+    "1621310": {
+      "success": true,
+      "data": {
+        "steam_appid": 1621310,
+        "name": "Atelier Sophie 2: The Alchemist of the Mysterious Dream",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 24, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 2999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 2148
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9789d938221c54c96707dec89c578fea5d0a73a330d3d3fde0c4ab42c0057c62"
+}

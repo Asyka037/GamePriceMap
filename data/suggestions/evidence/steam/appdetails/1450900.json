@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1450900,
+  "fetchedAt": "2026-07-31T03:49:50.834Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1450900&cc=us&l=english",
+  "responseDigest": "sha256:c6f4cded0fdbf986c60de66909e5eb4627f1286daa3d157bf17a6560977a6df4",
+  "payload": {
+    "1450900": {
+      "success": true,
+      "data": {
+        "steam_appid": 1450900,
+        "name": "Desynced",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2099,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1839
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a0476990421c5caed258acb083230758a6a7eb6d2cb87971e45d8cb0366618ae"
+}

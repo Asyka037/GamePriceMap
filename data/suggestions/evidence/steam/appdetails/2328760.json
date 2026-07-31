@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2328760,
+  "fetchedAt": "2026-07-31T02:46:00.198Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2328760&cc=us&l=english",
+  "responseDigest": "sha256:9071de385df78c5cb32bb22907a62258f573c2a08b2f5fee4bffc5c5af93d4e6",
+  "payload": {
+    "2328760": {
+      "success": true,
+      "data": {
+        "steam_appid": 2328760,
+        "name": "Pinball FX",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 13, 2023"
+        },
+        "recommendations": {
+          "total": 230
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48e14bf2c79ef8bbe3535dda34e533df9c3ce69c42ff1c6e0feb49bfb1684d73"
+}

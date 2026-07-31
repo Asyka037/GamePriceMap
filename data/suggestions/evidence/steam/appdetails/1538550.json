@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1538550,
+  "fetchedAt": "2026-07-31T02:55:09.466Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1538550&cc=us&l=english",
+  "responseDigest": "sha256:234b8446188328840bf7958b08c53a1136e9fd28ca7eeb5ad6e25e944f409000",
+  "payload": {
+    "1538550": {
+      "success": true,
+      "data": {
+        "steam_appid": 1538550,
+        "name": "LEGO® Voyagers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1761
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bb5e0865518c0a67b20ad03cae8632fbf0b8295ca0f8f26501ef10b167220be8"
+}

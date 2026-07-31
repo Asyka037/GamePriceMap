@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1843410,
+  "fetchedAt": "2026-07-31T03:18:05.848Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1843410&cc=us&l=english",
+  "responseDigest": "sha256:32bdf67fb8f4703062d7f861412f4ca533e76558b70d04272e893334ad07b858",
+  "payload": {
+    "1843410": {
+      "success": true,
+      "data": {
+        "steam_appid": 1843410,
+        "name": "theHunter: Call of the Wild™ - Modern Rifle Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 22, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 199,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 612
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:41716753615c8088eb1de3612b2ee3a6ecf0668c06958b033fb384fb34938b15"
+}

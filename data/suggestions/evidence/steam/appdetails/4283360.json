@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4283360,
+  "fetchedAt": "2026-07-31T02:59:20.514Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4283360&cc=us&l=english",
+  "responseDigest": "sha256:ef50558ea65696dcf612381563c7671ed04340d70bdc22960080dce915102479",
+  "payload": {
+    "4283360": {
+      "success": true,
+      "data": {
+        "steam_appid": 4283360,
+        "name": "Legionbound",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 596
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1188ad645b48393941b6d8a33b7c8b9a9b36fadbaa36cb2ff91ca4c64d2bf538"
+}

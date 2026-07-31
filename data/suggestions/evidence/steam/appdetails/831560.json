@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 831560,
+  "fetchedAt": "2026-07-31T04:15:00.464Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=831560&cc=us&l=english",
+  "responseDigest": "sha256:1a4ad43c73894195aef4b7f85cb99a8157cfe70e2dbb1c71f8b431df67e6d60d",
+  "payload": {
+    "831560": {
+      "success": true,
+      "data": {
+        "steam_appid": 831560,
+        "name": "WARRIORS OROCHI 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 2999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 4414
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6a91a3a952d8762535dc925492da5608cd17dcc17a4d04d915ae0c25aca009e4"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1451190,
+  "fetchedAt": "2026-07-31T02:53:46.469Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1451190&cc=us&l=english",
+  "responseDigest": "sha256:85cfc6a3ab98fb64bb14a2400a54f21e636301b899799c9d27e095e8b1cddfdf",
+  "payload": {
+    "1451190": {
+      "success": true,
+      "data": {
+        "steam_appid": 1451190,
+        "name": "Undisputed",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19020
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:293085829cf91b191385e0312afe4aeea2e6f5497435bab0a831c71872f90ed7"
+}

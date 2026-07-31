@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3417850,
+  "fetchedAt": "2026-07-31T02:50:22.041Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3417850&cc=us&l=english",
+  "responseDigest": "sha256:145ce4973da8d81423ff0e448be1fc6fbdd1b8a9e13d0d37b986f7bfa0e636e9",
+  "payload": {
+    "3417850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3417850,
+        "name": "Stellaris: Shadows of the Shroud",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 331
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0576a95d46c87e96030eab0bd6a575b53dedff55cb8511d6264bcae5f2024d1e"
+}

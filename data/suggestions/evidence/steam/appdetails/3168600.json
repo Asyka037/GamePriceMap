@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3168600,
+  "fetchedAt": "2026-07-31T02:57:49.609Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3168600&cc=us&l=english",
+  "responseDigest": "sha256:fb1ed26e0f91b9811b4270eb5531d4d3eadafe42fe9063f5afd1969a792ba63c",
+  "payload": {
+    "3168600": {
+      "success": true,
+      "data": {
+        "steam_appid": 3168600,
+        "name": "Among Us 3D",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2852
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b74f3e592d3ab8ea7f0ba3c0653b41452cd2cccd8697433f3c32a57d7ba899de"
+}

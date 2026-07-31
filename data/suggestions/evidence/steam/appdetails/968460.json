@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 968460,
+  "fetchedAt": "2026-07-31T04:00:16.214Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=968460&cc=us&l=english",
+  "responseDigest": "sha256:6670799a0cf07fbc59655f49618c59660052da907bed4c1d48e7f30994570e7c",
+  "payload": {
+    "968460": {
+      "success": true,
+      "data": {
+        "steam_appid": 968460,
+        "name": "Mine Royale - Battle Royale",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 15, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 19999,
+          "final": 19999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1833cff5390682def2b34395e16321cbc61f8c0d8fbcb2e1b78e8a5546814f6e"
+}

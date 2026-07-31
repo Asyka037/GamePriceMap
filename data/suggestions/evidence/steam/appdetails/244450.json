@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 244450,
+  "fetchedAt": "2026-07-31T03:54:24.452Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=244450&cc=us&l=english",
+  "responseDigest": "sha256:a907228381f6adfa7b0252709da774617d60feb6d5e4c28f6e5ee6bb28c7c32d",
+  "payload": {
+    "244450": {
+      "success": true,
+      "data": {
+        "steam_appid": 244450,
+        "name": "Men of War: Assault Squad 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 15, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 35646
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f82a904344d84ef4bf2c2b6c92ca54bf5c0e965f8caf2e518f440981f381434c"
+}

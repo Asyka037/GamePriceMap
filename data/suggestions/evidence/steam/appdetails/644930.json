@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 644930,
+  "fetchedAt": "2026-07-31T03:43:32.916Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=644930&cc=us&l=english",
+  "responseDigest": "sha256:320e203ff352d99e6ce5150af149727d89381819835d4a53aa4af7b6d2014105",
+  "payload": {
+    "644930": {
+      "success": true,
+      "data": {
+        "steam_appid": 644930,
+        "name": "They Are Billions",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 46036
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3f6c087db110ddac805319d5afb48d50399a00bf90c70169ea74d42490f80d17"
+}

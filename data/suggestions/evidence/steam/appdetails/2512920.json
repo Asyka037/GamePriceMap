@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2512920,
+  "fetchedAt": "2026-07-31T03:05:00.619Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2512920&cc=us&l=english",
+  "responseDigest": "sha256:ba7ed2465260f019440fd482b039959be15ce8612c29b6d27ccfa6333791ef21",
+  "payload": {
+    "2512920": {
+      "success": true,
+      "data": {
+        "steam_appid": 2512920,
+        "name": "Garlic Builder",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 15, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 258
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:177d87ff2b729bdf3701c0468dd0db9321f26f790604503fbd6207223e58f350"
+}

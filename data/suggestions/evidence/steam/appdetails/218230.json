@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 218230,
+  "fetchedAt": "2026-07-31T03:15:40.825Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=218230&cc=us&l=english",
+  "responseDigest": "sha256:747a290bc7104c92daa679166647836284cd2e0d8785ac6661c767ec366327e6",
+  "payload": {
+    "218230": {
+      "success": true,
+      "data": {
+        "steam_appid": 218230,
+        "name": "PlanetSide 2",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2012"
+        },
+        "recommendations": {
+          "total": 577
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e50daf1864120d22855398b73935cf324ab4696333f451df25868dfc76fd6594"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4635240,
+  "fetchedAt": "2026-07-31T03:59:33.590Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4635240&cc=us&l=english",
+  "responseDigest": "sha256:7e7ab4aaed1f7f9143de36de3288f679a591871c9537eff5cc8280e858f67aa5",
+  "payload": {
+    "4635240": {
+      "success": true,
+      "data": {
+        "steam_appid": 4635240,
+        "name": "SCUM Specialist Archer Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1936a76b612108355bf10a10119180a0e9bdf24a1c6af305dc4a0b25c143a458"
+}

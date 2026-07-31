@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3087460,
+  "fetchedAt": "2026-07-31T03:05:28.064Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3087460&cc=us&l=english",
+  "responseDigest": "sha256:bf46f91d4713f90982e3d12e814ec422196cfe130a23f1589fb189c987b99b30",
+  "payload": {
+    "3087460": {
+      "success": true,
+      "data": {
+        "steam_appid": 3087460,
+        "name": "Sid Meier's Civilization® VII: Tecumseh and Shawnee Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0a5036862dc2b384fb84dd9aee2fea2a1633eb92cc7b7fa7518c533b931cdfd8"
+}

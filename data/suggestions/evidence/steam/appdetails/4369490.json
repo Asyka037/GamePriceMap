@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4369490,
+  "fetchedAt": "2026-07-31T03:03:37.772Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4369490&cc=us&l=english",
+  "responseDigest": "sha256:777896cd635bd4d06a14d75919108a47ffedd45c2082641af927c3a0c8b84d1e",
+  "payload": {
+    "4369490": {
+      "success": true,
+      "data": {
+        "steam_appid": 4369490,
+        "name": "Soulbound: Online",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 418
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:106600e15953a6249d699ca3a61d2150a6cb449e0b25740ad5f9dc07daa891fc"
+}

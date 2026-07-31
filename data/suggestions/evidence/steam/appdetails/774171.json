@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 774171,
+  "fetchedAt": "2026-07-31T02:57:42.352Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=774171&cc=us&l=english",
+  "responseDigest": "sha256:88c8413d58cc92daabb480a2b2d4bcfd4189b9eb413643160bdf5ef19e14850c",
+  "payload": {
+    "774171": {
+      "success": true,
+      "data": {
+        "steam_appid": 774171,
+        "name": "Muse Dash",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 19, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 115974
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b1e02d3e23d7a52190eb7f0091f92b07f117c8012acca413d4cc47854f8d8f55"
+}

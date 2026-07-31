@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1377580,
+  "fetchedAt": "2026-07-31T03:54:54.207Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1377580&cc=us&l=english",
+  "responseDigest": "sha256:6d9484cd5bdbefc89bbb2196190a41e3188005c549c83e262d71325c8a6459af",
+  "payload": {
+    "1377580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1377580,
+        "name": "Soulworker",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2021"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:25a5e7fcb8aabe5b7ed2d9abccddd6b7ffd9140f17246a6b341ff434dcb0279a"
+}

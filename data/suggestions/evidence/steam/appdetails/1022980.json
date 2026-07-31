@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1022980,
+  "fetchedAt": "2026-07-31T03:17:03.316Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1022980&cc=us&l=english",
+  "responseDigest": "sha256:5c86f033898eeafcfd82ab1563cdc62629b76ce38cd5c014040f6dd3036fc0d8",
+  "payload": {
+    "1022980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1022980,
+        "name": "Ostranauts",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 10, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2606
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:563c80b384cf7d39745a484f29a4d0e329627886185216f134921f92c5162159"
+}

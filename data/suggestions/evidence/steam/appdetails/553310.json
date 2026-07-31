@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 553310,
+  "fetchedAt": "2026-07-31T04:04:26.525Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=553310&cc=us&l=english",
+  "responseDigest": "sha256:01e426e74de4ff4f2cc56d3f3d9a9a6b8fe56f6d3b3ca2af76264a0ece829d3c",
+  "payload": {
+    "553310": {
+      "success": true,
+      "data": {
+        "steam_appid": 553310,
+        "name": "Lethal League Blaze",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4754
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ffaf6fbb127d909927afff9b4fc18ea3e682d846edf04ab80ece23cd5cbdc1ac"
+}

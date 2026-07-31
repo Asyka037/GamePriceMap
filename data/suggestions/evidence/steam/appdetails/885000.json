@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 885000,
+  "fetchedAt": "2026-07-31T03:51:13.367Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=885000&cc=us&l=english",
+  "responseDigest": "sha256:c55081b650de9138a676d518fba0fba6e557769ebcb42fcd9c001db5b0dc704a",
+  "payload": {
+    "885000": {
+      "success": true,
+      "data": {
+        "steam_appid": 885000,
+        "name": "Synth Riders",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 31, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1330
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8f451cf4215f37f1255669150d57d91a74c1cea7f74822cd339ea3f74e6980ef"
+}

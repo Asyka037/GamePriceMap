@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1731080,
+  "fetchedAt": "2026-07-31T03:23:04.503Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1731080&cc=us&l=english",
+  "responseDigest": "sha256:0025ac106d004537c25abd4026957e45774686c32b5a086e6efc5d9ea5ac7c6e",
+  "payload": {
+    "1731080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1731080,
+        "name": "Resident Evil Village - Winters’ Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 2764
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ee7427bfa655908a0749cb3bf1af51e51b14d37708870d90609337ffab52bb91"
+}

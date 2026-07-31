@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3985060,
+  "fetchedAt": "2026-07-31T03:44:47.071Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3985060&cc=us&l=english",
+  "responseDigest": "sha256:6a8a073cb8d9efde9b7ef1ed88095c0f267a0a37a4c16dd0dd6051739f6e81c1",
+  "payload": {
+    "3985060": {
+      "success": true,
+      "data": {
+        "steam_appid": 3985060,
+        "name": "FLASH AND DIE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d0f7cf02c29cb76c0b644b04d26aaa812c9fe79a2ce5012c947c71f4d1d2ec17"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1546670,
+  "fetchedAt": "2026-07-31T03:24:26.712Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1546670&cc=us&l=english",
+  "responseDigest": "sha256:445bca72f5ff3f069c821366106809f83624a8e5e38586149025e30ca744a01f",
+  "payload": {
+    "1546670": {
+      "success": true,
+      "data": {
+        "steam_appid": 1546670,
+        "name": "theHunter: Call of the Wild™ - Bloodhound",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 30, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 199,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1437
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0aacc61599963d022c2f88b2933df76aec99c8510fce74ba299dbdc840fec9a5"
+}

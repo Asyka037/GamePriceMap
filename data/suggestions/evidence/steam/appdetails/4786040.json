@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4786040,
+  "fetchedAt": "2026-07-31T03:12:01.449Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4786040&cc=us&l=english",
+  "responseDigest": "sha256:705cd0144421fdeced12085892baec7a3a51a222c4b9af968fd3129a7462de4e",
+  "payload": {
+    "4786040": {
+      "success": true,
+      "data": {
+        "steam_appid": 4786040,
+        "name": "DragonSword : Awakening - Familiar : Exploration Squad Griffon",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:83b8f4f89b432017317847f0c9e22c498621953f6bfea2fb8fdd5e4f6549317b"
+}

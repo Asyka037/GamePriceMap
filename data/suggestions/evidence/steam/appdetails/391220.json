@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 391220,
+  "fetchedAt": "2026-07-31T03:54:50.896Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=391220&cc=us&l=english",
+  "responseDigest": "sha256:0596148c7e27fc96ba110a3d183d7a153c46099f23afb37dd590e03788d6165c",
+  "payload": {
+    "391220": {
+      "success": true,
+      "data": {
+        "steam_appid": 391220,
+        "name": "Rise of the Tomb Raider™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 9, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 125974
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6b9796dc4d8dfdcd5448060af644a63601143e746b8f2ba5d6fc97785d968014"
+}

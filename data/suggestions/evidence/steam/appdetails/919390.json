@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 919390,
+  "fetchedAt": "2026-07-31T03:45:53.554Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=919390&cc=us&l=english",
+  "responseDigest": "sha256:ca879ffd9a09ca57ce16eeb0ab980fc19468d233f2a55765edce54bc4f5e1072",
+  "payload": {
+    "919390": {
+      "success": true,
+      "data": {
+        "steam_appid": 919390,
+        "name": "Conan Exiles Enhanced - The Savage Frontier Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 9, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9ea466628e7a9853d2299e6731360312a87fe9c507a7a089804d0e0a5bf87578"
+}

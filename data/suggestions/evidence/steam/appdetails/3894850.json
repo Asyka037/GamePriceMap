@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3894850,
+  "fetchedAt": "2026-07-31T03:08:07.280Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3894850&cc=us&l=english",
+  "responseDigest": "sha256:44546531b50c8b40aabb6dd46be96402c261f138ad5b6e3c31e30209fd541eae",
+  "payload": {
+    "3894850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3894850,
+        "name": "Nothing To Declare",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 699,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 122
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5001a402624b4a4bba27af9b651965910c98e3925e0ebc140965634062f2276c"
+}

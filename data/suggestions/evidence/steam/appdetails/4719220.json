@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4719220,
+  "fetchedAt": "2026-07-31T02:51:31.346Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4719220&cc=us&l=english",
+  "responseDigest": "sha256:d2d8fed12e07284e03488433566e2a93cc1b02ed1760d23a78493b951c26e8dc",
+  "payload": {
+    "4719220": {
+      "success": true,
+      "data": {
+        "steam_appid": 4719220,
+        "name": "Denshattack! Soundtrack",
+        "type": "music",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:922b46d9833c3c87dc61f138e0e535aae788aa6b1a6f5eb09d91edd3bd9e5818"
+}

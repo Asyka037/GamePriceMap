@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1494810,
+  "fetchedAt": "2026-07-31T03:04:34.071Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1494810&cc=us&l=english",
+  "responseDigest": "sha256:d716587da194fcbd65f0891efa995e7dd751adbbce5cf3ea08fadd5d4594d0bd",
+  "payload": {
+    "1494810": {
+      "success": true,
+      "data": {
+        "steam_appid": 1494810,
+        "name": "Mortal Sin",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5564
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:920845649a9146734f725eb83902b60b775546c995a892a7234ecbee6719214b"
+}

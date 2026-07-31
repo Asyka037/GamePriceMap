@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1043810,
+  "fetchedAt": "2026-07-31T04:08:51.409Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1043810&cc=us&l=english",
+  "responseDigest": "sha256:60adff90311a5960a46577f207372aaa659e9a5246195543c21ace920f2979d4",
+  "payload": {
+    "1043810": {
+      "success": true,
+      "data": {
+        "steam_appid": 1043810,
+        "name": "Tactical Breach Wizards",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 22, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11337
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d2b8d78e340f33a1d3108c8ba1370e273baaa33bfc12a8fc4e5729ad479d116a"
+}

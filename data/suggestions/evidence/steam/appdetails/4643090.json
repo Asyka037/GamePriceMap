@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4643090,
+  "fetchedAt": "2026-07-31T03:33:38.797Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4643090&cc=us&l=english",
+  "responseDigest": "sha256:47b308a6cb34ddea35df987d3df5a317e799127465b711cccd9df7f51d04c244",
+  "payload": {
+    "4643090": {
+      "success": true,
+      "data": {
+        "steam_appid": 4643090,
+        "name": "The NOexistenceN of Lilith",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1249
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:797356c3ed3e8b03a1257aef6ed8de4a9d65fe80e6e4b6b7e1a0d9bb9aa9708c"
+}

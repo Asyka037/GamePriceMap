@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4335540,
+  "fetchedAt": "2026-07-31T04:15:23.485Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4335540&cc=us&l=english",
+  "responseDigest": "sha256:a7ce1d97f744e49894ca2ebca5fb41ac50b926418e8bbfb09692b228246da0a8",
+  "payload": {
+    "4335540": {
+      "success": true,
+      "data": {
+        "steam_appid": 4335540,
+        "name": "Lepidarium",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 639,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8d3a20f3f0f6bcecaf064c9065edbd784b42050d8f84b5179aa255d204eb05a1"
+}

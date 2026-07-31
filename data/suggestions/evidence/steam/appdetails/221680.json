@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 221680,
+  "fetchedAt": "2026-07-31T02:44:17.877Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=221680&cc=us&l=english",
+  "responseDigest": "sha256:be6863330eba26919cb2cb418f49debf6f031fe50afba59345359f22a49870e5",
+  "payload": {
+    "221680": {
+      "success": true,
+      "data": {
+        "steam_appid": 221680,
+        "name": "Rocksmith® 2014 Edition REMASTERED LEARN & PLAY",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 19, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15533
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e2a888b3bb2c9eff48f462d4d99fa274bf6ebd68882c319be0180acab55b4ab"
+}

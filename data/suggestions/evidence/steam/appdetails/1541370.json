@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1541370,
+  "fetchedAt": "2026-07-31T03:08:41.356Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1541370&cc=us&l=english",
+  "responseDigest": "sha256:8603f2461293da2f6313b774a96661bdedb072078089386f81cbbdba184edc51",
+  "payload": {
+    "1541370": {
+      "success": true,
+      "data": {
+        "steam_appid": 1541370,
+        "name": "Ultimate Theater Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 779,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 603
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f5a56f7b6beb8d1778406bf80c5f15f6e6490e3ec41c962d7e78cc7aa40cade5"
+}

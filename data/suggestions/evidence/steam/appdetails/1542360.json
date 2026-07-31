@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1542360,
+  "fetchedAt": "2026-07-31T03:18:39.968Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1542360&cc=us&l=english",
+  "responseDigest": "sha256:a0ed252bacd40e1882ba2e4d757fcca4e3d49aa6044bcf18eda4154c91f3c94f",
+  "payload": {
+    "1542360": {
+      "success": true,
+      "data": {
+        "steam_appid": 1542360,
+        "name": "Stormworks: Search and Destroy",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 5, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1226
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:960d392ced307f665acff01a813fff5f74783a466a3bbd386e77743e65306f7a"
+}

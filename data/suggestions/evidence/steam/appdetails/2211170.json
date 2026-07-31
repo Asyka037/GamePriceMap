@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2211170,
+  "fetchedAt": "2026-07-31T02:48:08.572Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2211170&cc=us&l=english",
+  "responseDigest": "sha256:5f4855699f72871b7a3dbb24af42b1f78776bbdc7932cc1434d84fe2cecf0e3c",
+  "payload": {
+    "2211170": {
+      "success": true,
+      "data": {
+        "steam_appid": 2211170,
+        "name": "Unrailed 2: Back on Track",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1199,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 1728
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f278afab1e37209dcb931b0a24e9d6138286f111e4e56789899587b51a80225d"
+}

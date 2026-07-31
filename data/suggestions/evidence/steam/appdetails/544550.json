@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 544550,
+  "fetchedAt": "2026-07-31T02:54:42.879Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=544550&cc=us&l=english",
+  "responseDigest": "sha256:87a2da56567557b8dbe8db06abf98123573d24e93a589a9a4cbdde08dbe699ea",
+  "payload": {
+    "544550": {
+      "success": true,
+      "data": {
+        "steam_appid": 544550,
+        "name": "Stationeers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8494
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed42402f6070f7496f27c2b01091b93cc63ced090021b79a9e845171d93924a2"
+}

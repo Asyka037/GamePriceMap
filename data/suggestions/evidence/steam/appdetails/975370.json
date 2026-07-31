@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 975370,
+  "fetchedAt": "2026-07-31T02:43:22.370Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=975370&cc=us&l=english",
+  "responseDigest": "sha256:3157e53f265e8e3a334e45fb4cb3e8862f2cf05d59a56bd6b0544bb74b20bd7b",
+  "payload": {
+    "975370": {
+      "success": true,
+      "data": {
+        "steam_appid": 975370,
+        "name": "Dwarf Fortress",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 6, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29132
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:34b380967503e14563e2e9c1ce249a16f3ddb7f01976693edf24f1d7062930aa"
+}

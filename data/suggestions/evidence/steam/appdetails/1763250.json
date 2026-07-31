@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1763250,
+  "fetchedAt": "2026-07-31T03:05:41.449Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1763250&cc=us&l=english",
+  "responseDigest": "sha256:5bdd2006c200f4dfa731fd6779a4f1e5956dd71ff254ae45bd71bff206c24d86",
+  "payload": {
+    "1763250": {
+      "success": true,
+      "data": {
+        "steam_appid": 1763250,
+        "name": "SWORN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3099,
+          "final": 1053,
+          "discount_percent": 66
+        },
+        "recommendations": {
+          "total": 3619
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3f3cce0044b0a0baaf4623dfd67dbc3a4812aa069920f9d78afbebfdc312a3e5"
+}

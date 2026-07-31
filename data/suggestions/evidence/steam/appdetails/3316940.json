@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3316940,
+  "fetchedAt": "2026-07-31T03:10:51.984Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3316940&cc=us&l=english",
+  "responseDigest": "sha256:85b8618c571fa90c0a0ab096a194e7f187a21dd7f5459e6c7a664a923e84cd8b",
+  "payload": {
+    "3316940": {
+      "success": true,
+      "data": {
+        "steam_appid": 3316940,
+        "name": "The Legend of Heroes: Trails beyond the Horizon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 656
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:69dd0a7a2c425bad8cfe578f8a975cb4b1945ce162e2944ccda1e2bea14caa06"
+}

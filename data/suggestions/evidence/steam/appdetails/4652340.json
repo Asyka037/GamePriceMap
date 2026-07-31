@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4652340,
+  "fetchedAt": "2026-07-31T03:53:25.016Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4652340&cc=us&l=english",
+  "responseDigest": "sha256:8871f673b9da16c2bd7bfeec1be4dbc4679cf895176166ffaa42fbb7156180bb",
+  "payload": {
+    "4652340": {
+      "success": true,
+      "data": {
+        "steam_appid": 4652340,
+        "name": "Cloudrooms",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 359,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8d7260857828a2b67a343f94d341bb48b6aa0f165f999a41bc6cc1378b62c504"
+}

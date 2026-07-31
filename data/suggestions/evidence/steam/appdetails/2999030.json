@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2999030,
+  "fetchedAt": "2026-07-31T03:13:13.217Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2999030&cc=us&l=english",
+  "responseDigest": "sha256:37d55b82dca0c9d06fcb51fee4fa0188a17fbd2b848b0437f65766abd4193ba3",
+  "payload": {
+    "2999030": {
+      "success": true,
+      "data": {
+        "steam_appid": 2999030,
+        "name": "Exploding Kittens® 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1249,
+          "final": 1249,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 412
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b9a47d61c5a392f2d670c25cae5efa2b2324e1f2a50f0268d5b5a75bdbf4e575"
+}

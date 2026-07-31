@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2101430,
+  "fetchedAt": "2026-07-31T03:11:12.780Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2101430&cc=us&l=english",
+  "responseDigest": "sha256:82ce53565d705d44b15d7749a10bdd9373b260d7976278755646c2519d87926f",
+  "payload": {
+    "2101430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2101430,
+        "name": "Dead Cells: Return to Castlevania",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 699,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 873
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:737d27455c279490daf98c90b159d862430f856f756d34a36c968e68a5b800af"
+}

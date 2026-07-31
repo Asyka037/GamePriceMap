@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 285160,
+  "fetchedAt": "2026-07-31T03:20:12.034Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=285160&cc=us&l=english",
+  "responseDigest": "sha256:c6029063590402bda280cd5b53f8030b2656e380a25475e6f40e89a72f53adb6",
+  "payload": {
+    "285160": {
+      "success": true,
+      "data": {
+        "steam_appid": 285160,
+        "name": "LEGO® The Hobbit™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 8, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 5032
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8532035ce82ac632903b5c4827c2e5e937ef4bc650ae367c40bddb96649bfbe7"
+}

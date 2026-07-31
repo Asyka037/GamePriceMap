@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2873470,
+  "fetchedAt": "2026-07-31T03:09:09.443Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2873470&cc=us&l=english",
+  "responseDigest": "sha256:5d966e9522b0d565d26086006ac81676d49f89b5ae1dcf5daf891b07c29c1e8c",
+  "payload": {
+    "2873470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2873470,
+        "name": "EVERSPACE™ 2 - Wrath of the Ancients",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5cc836220b41be8e3703f14b3db82f745365d940252b08a2db9b1f42ef9a1efa"
+}

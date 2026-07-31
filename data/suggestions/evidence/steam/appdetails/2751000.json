@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2751000,
+  "fetchedAt": "2026-07-31T03:11:24.452Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2751000&cc=us&l=english",
+  "responseDigest": "sha256:02c6d743b3ad390452b4a749addb12da9715049d64303c19a53df9400b66430a",
+  "payload": {
+    "2751000": {
+      "success": true,
+      "data": {
+        "steam_appid": 2751000,
+        "name": "Prince of Persia The Lost Crown",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 6486
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3358ffe35c8d8e40a0338449ce152a8972ebe1095718b10eb7cf87f85ae0dc0a"
+}

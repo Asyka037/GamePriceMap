@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1428420,
+  "fetchedAt": "2026-07-31T04:01:54.910Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1428420&cc=us&l=english",
+  "responseDigest": "sha256:a87531b7d70d1452ee52e7ce86bb9a0de294702e63f9ec2ce4eeb74e099da6fa",
+  "payload": {
+    "1428420": {
+      "success": true,
+      "data": {
+        "steam_appid": 1428420,
+        "name": "Nucleares",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1095
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4f2e122fcc0fb17d3b523a5516bfdd6c1532cd71208fbbce96d721c7fc365f81"
+}

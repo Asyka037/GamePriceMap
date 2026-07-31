@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1177980,
+  "fetchedAt": "2026-07-31T03:10:04.068Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1177980&cc=us&l=english",
+  "responseDigest": "sha256:45036d9f612d4697771017474789058c7a8186728ac7bf5710e9a71faa530572",
+  "payload": {
+    "1177980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1177980,
+        "name": "Little Kitty, Big City",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 9, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10313
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:95ead1cf9d603e18c9e15a368de7d784f275b536658dae3d77d269973057120a"
+}

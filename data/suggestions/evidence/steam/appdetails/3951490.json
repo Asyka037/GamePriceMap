@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3951490,
+  "fetchedAt": "2026-07-31T04:06:59.605Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3951490&cc=us&l=english",
+  "responseDigest": "sha256:0bd6abd28269eaa80d1ef329a8ac576f9f89a3b99cab0be3c443d5ac9db5fb62",
+  "payload": {
+    "3951490": {
+      "success": true,
+      "data": {
+        "steam_appid": 3951490,
+        "name": "The King is Watching: Crowns of History",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 399,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a922a97c196a5dce2e5d2af3882fe4b13ac2e3907939014226613b6fe401d1f3"
+}

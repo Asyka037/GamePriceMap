@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1660080,
+  "fetchedAt": "2026-07-31T03:01:27.220Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1660080&cc=us&l=english",
+  "responseDigest": "sha256:51d1e392a65fa1f45cc9213c1579681cdbd166c9e340f6356f407f95abe7275e",
+  "payload": {
+    "1660080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1660080,
+        "name": "Aloft",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2978
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fe1628d647fbcfa650ac82eac9f56c8c8ba76afae64745c39cdb06d4c85ce3ab"
+}

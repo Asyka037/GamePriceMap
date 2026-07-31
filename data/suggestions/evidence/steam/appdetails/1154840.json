@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1154840,
+  "fetchedAt": "2026-07-31T03:44:08.855Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1154840&cc=us&l=english",
+  "responseDigest": "sha256:65a1b448328b74ff00abf169a09fc19d64c3cf04f7cc9486e50227a6e8a5c5b4",
+  "payload": {
+    "1154840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1154840,
+        "name": "Shadow Empire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1412
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8654be78ef7895760fd8b7e02662b1b8df7e59969acad346f6155f8ee799ffa5"
+}

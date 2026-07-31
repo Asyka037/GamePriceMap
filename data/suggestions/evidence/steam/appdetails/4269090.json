@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4269090,
+  "fetchedAt": "2026-07-31T02:54:56.333Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4269090&cc=us&l=english",
+  "responseDigest": "sha256:875a5f33692bee946a90d43200834ae71c8dd3b8fa1ea443a8301133447e43dc",
+  "payload": {
+    "4269090": {
+      "success": true,
+      "data": {
+        "steam_appid": 4269090,
+        "name": "Predecessor: Heroes Unlimited",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9dbec7c3e12e6c887259e342ea4f24c3ef1b90fdb019a414b71fb5fbc38a7f2f"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3008670,
+  "fetchedAt": "2026-07-31T02:46:45.005Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3008670&cc=us&l=english",
+  "responseDigest": "sha256:7dd7bb05d333fad131bf8708a5fe1dcf1663603a78ace76a23c0ce247793445b",
+  "payload": {
+    "3008670": {
+      "success": true,
+      "data": {
+        "steam_appid": 3008670,
+        "name": "Poppy Playtime - Chapter 4",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10202
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3453b07e03e5347c2f152947d544e00c3e97b0c1051555e0d6294dcbf1c8bb42"
+}

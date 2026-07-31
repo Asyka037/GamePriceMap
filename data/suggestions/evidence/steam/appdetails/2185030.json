@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2185030,
+  "fetchedAt": "2026-07-31T04:13:15.181Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2185030&cc=us&l=english",
+  "responseDigest": "sha256:c9196c95b4adbbc82f45a5c7f983338b1c8abd9dc912e54b103ceebe1220f595",
+  "payload": {
+    "2185030": {
+      "success": true,
+      "data": {
+        "steam_appid": 2185030,
+        "name": "Dealer's Life Legend",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 264
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:46f66910fbded24ea86c52ecb332e2df7aebf39e06d13df6fee07995b8c2dfe6"
+}

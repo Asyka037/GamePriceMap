@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1244040,
+  "fetchedAt": "2026-07-31T03:37:54.833Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1244040&cc=us&l=english",
+  "responseDigest": "sha256:535de338b90f10a837b37f17a15bf3f942b751ae6b435cb33cca7b63152fda9d",
+  "payload": {
+    "1244040": {
+      "success": true,
+      "data": {
+        "steam_appid": 1244040,
+        "name": "Crocotile 3D",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 26, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 247
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e825f9bc324e22a39df0d422b734f7c9fd6f929b18e3de5586f0910ad1105f3f"
+}

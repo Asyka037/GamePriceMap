@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2433630,
+  "fetchedAt": "2026-07-31T03:31:50.030Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2433630&cc=us&l=english",
+  "responseDigest": "sha256:77c7d79586a37a30b821f25f4d7152cd1ad5bbf9a41aed7d1caf847c54499fad",
+  "payload": {
+    "2433630": {
+      "success": true,
+      "data": {
+        "steam_appid": 2433630,
+        "name": "The Left Behind",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1099,
+          "final": 989,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:800758de0ec7fc6096a19820d3f20e7adf0775ad6f2f37aa435eba8dd5ed8eb3"
+}

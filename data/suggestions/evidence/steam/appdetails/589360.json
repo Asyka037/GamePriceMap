@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 589360,
+  "fetchedAt": "2026-07-31T03:21:40.019Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=589360&cc=us&l=english",
+  "responseDigest": "sha256:2bb1d7c840626cdb50cbb08d4df92eceec46aab40a408064e4fe141a0a7703ca",
+  "payload": {
+    "589360": {
+      "success": true,
+      "data": {
+        "steam_appid": 589360,
+        "name": "Ni no Kuni™ II: Revenant Kingdom",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 23, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 7998,
+          "final": 1199,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 8083
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2b23b96ba55f40e20e3bc599f01db44335109ef09fea3149cf9496e790e993f0"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 494730,
+  "fetchedAt": "2026-07-31T04:11:06.789Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=494730&cc=us&l=english",
+  "responseDigest": "sha256:505781738cfee57a2df365c0494d97ac90f01f49741e5bfa942fac572d144050",
+  "payload": {
+    "494730": {
+      "success": true,
+      "data": {
+        "steam_appid": 494730,
+        "name": "Galacticare",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 591
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3cad74c2450ab4b467d0eeda40af78977f540c2cb4f1bee37f3ef6ee30229b67"
+}

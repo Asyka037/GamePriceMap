@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2184020,
+  "fetchedAt": "2026-07-31T03:19:51.311Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2184020&cc=us&l=english",
+  "responseDigest": "sha256:7556bdf31964f9a8cf18ad41ea3c098c7b9e75e8ba944cdcb6fdad00324695e7",
+  "payload": {
+    "2184020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2184020,
+        "name": "LIFTED",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b7638847b134e9a3c932f8434cd2705800c7927102198663c6de810148962599"
+}

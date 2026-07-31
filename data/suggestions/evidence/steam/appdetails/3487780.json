@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3487780,
+  "fetchedAt": "2026-07-31T03:46:26.432Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3487780&cc=us&l=english",
+  "responseDigest": "sha256:4a1bafc35b2b24cf2cb1c1f8860339a70d2d1504656999e67ad45c0e3cae1e4f",
+  "payload": {
+    "3487780": {
+      "success": true,
+      "data": {
+        "steam_appid": 3487780,
+        "name": "House Party - Supporter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f756c3766b6b27184ce7d4f665e8acda80dbd289d97f08d370f22e2a6ca99dc9"
+}

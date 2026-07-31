@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4412680,
+  "fetchedAt": "2026-07-31T02:49:01.991Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4412680&cc=us&l=english",
+  "responseDigest": "sha256:b91a0cd3c017550545d1021f5baa727908f95bc74413afbd99c802b4109eb84f",
+  "payload": {
+    "4412680": {
+      "success": true,
+      "data": {
+        "steam_appid": 4412680,
+        "name": "Street Fighter™ 6 - Year 4 Character Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9fcf70a916f19ba3d8031b9183626c3200e3262d694b64aa49c095dde7c9061d"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3450970,
+  "fetchedAt": "2026-07-31T02:47:08.753Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3450970&cc=us&l=english",
+  "responseDigest": "sha256:ac4b230926e6a2e8080acbf00fdb3a19276c42c5a2d76208d44864eee0265dc8",
+  "payload": {
+    "3450970": {
+      "success": true,
+      "data": {
+        "steam_appid": 3450970,
+        "name": "Total War: WARHAMMER III - Sayl – Tides of Torment",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 378
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6185d298d32b61daa19553e52aa0833edf9c18cdf8283dbff1481e71cc6e4c82"
+}

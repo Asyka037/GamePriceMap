@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 996580,
+  "fetchedAt": "2026-07-31T03:06:58.860Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=996580&cc=us&l=english",
+  "responseDigest": "sha256:81a5f00481ca679f62b3a7891a7974962924fb83a785fb78917b069eef2be2d1",
+  "payload": {
+    "996580": {
+      "success": true,
+      "data": {
+        "steam_appid": 996580,
+        "name": "Spyro™ Reignited Trilogy",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 3, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14075
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e4b12a24cc2e6d1632f3e845e06ed34a90aff802bd706830685a7c5068741428"
+}

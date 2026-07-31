@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 265550,
+  "fetchedAt": "2026-07-31T03:04:59.065Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=265550&cc=us&l=english",
+  "responseDigest": "sha256:c439b5720e2fde66487b7c6d3f6c6fa24f2821d432c16b035a35d1338597e458",
+  "payload": {
+    "265550": {
+      "success": true,
+      "data": {
+        "steam_appid": 265550,
+        "name": "Dead Rising 3 Apocalypse Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13765
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d8039f34b830ff9247a343f6b026961b6c1c23147646198359bb4954b5ac6b32"
+}

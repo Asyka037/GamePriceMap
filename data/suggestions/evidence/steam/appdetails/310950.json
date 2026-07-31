@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 310950,
+  "fetchedAt": "2026-07-31T03:06:46.834Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=310950&cc=us&l=english",
+  "responseDigest": "sha256:7a230091bae9142fcea1a283ea28c9967d393372e3b0e3399d25c11403a7f177",
+  "payload": {
+    "310950": {
+      "success": true,
+      "data": {
+        "steam_appid": 310950,
+        "name": "Street Fighter V",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 15, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 27781
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:430481104fb70063de5bd7c4727d61c36d28cc4d6b2e6e624c80946d65bf7e5c"
+}

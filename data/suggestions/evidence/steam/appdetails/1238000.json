@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1238000,
+  "fetchedAt": "2026-07-31T04:05:12.661Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1238000&cc=us&l=english",
+  "responseDigest": "sha256:eed6c2aadb4fe98059fa3ebf481e706cb2dbf173b4b5474a5da4ae433076f2d1",
+  "payload": {
+    "1238000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1238000,
+        "name": "Mass Effect™: Andromeda Deluxe Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 799,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 16545
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0c7e1b911b81adc57f321ced9f73ecf82f34afdf0d36dcdb6c4d4aeb65f9081c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2738230,
+  "fetchedAt": "2026-07-31T03:35:10.779Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2738230&cc=us&l=english",
+  "responseDigest": "sha256:a7ea73ff36ff0487259ad67edafb63811295c8c645f1406c69a15d9e2ed6d2b1",
+  "payload": {
+    "2738230": {
+      "success": true,
+      "data": {
+        "steam_appid": 2738230,
+        "name": "The House of Tesla: Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 814
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:71e3e991bfcdf8525bd14c64b943ebeee6e349464d30fd5393772c11aec9daa0"
+}

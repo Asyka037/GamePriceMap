@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 599140,
+  "fetchedAt": "2026-07-31T02:52:31.411Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=599140&cc=us&l=english",
+  "responseDigest": "sha256:652b9112d92a08c9b6adb6ea17dafc5c624be2cec80f5a4c74d0ccb8a83f46fc",
+  "payload": {
+    "599140": {
+      "success": true,
+      "data": {
+        "steam_appid": 599140,
+        "name": "Graveyard Keeper",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 15, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 39135
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a101cf71ad18cbc0cf44e456f08027bc6a05500c4b1a3109d9073b9f1f982302"
+}

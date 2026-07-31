@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2305840,
+  "fetchedAt": "2026-07-31T03:53:54.884Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2305840&cc=us&l=english",
+  "responseDigest": "sha256:44a445c7c63dbbfa9a88e7be072bc0571348298963afd5e5c8b5d5857d81900f",
+  "payload": {
+    "2305840": {
+      "success": true,
+      "data": {
+        "steam_appid": 2305840,
+        "name": "Cat Quest III",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 799,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 3057
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cf5a49d672b6dffa5882617d4a6fa94dbbba91aee1fafa9ff1a794b2b6ff54d5"
+}

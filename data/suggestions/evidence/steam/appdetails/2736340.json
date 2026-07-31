@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2736340,
+  "fetchedAt": "2026-07-31T04:06:28.264Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2736340&cc=us&l=english",
+  "responseDigest": "sha256:6ff0a79c0a9d68df07ffd937505bea9b56bbcee6eb09ef1e44aebfa5d6b5bb27",
+  "payload": {
+    "2736340": {
+      "success": true,
+      "data": {
+        "steam_appid": 2736340,
+        "name": "Kingdom Two Crowns: Call of Olympus",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 855
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fa33b2094a3e9fc03f64c049289283ca5b4a86335be769caea498461e87487a5"
+}

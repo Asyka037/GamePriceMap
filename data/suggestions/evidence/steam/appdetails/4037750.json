@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4037750,
+  "fetchedAt": "2026-07-31T03:19:21.837Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4037750&cc=us&l=english",
+  "responseDigest": "sha256:2aad7fb32e0efdc528d0f013aac8e28c39f5e1fa5f58837241e170febce9445a",
+  "payload": {
+    "4037750": {
+      "success": true,
+      "data": {
+        "steam_appid": 4037750,
+        "name": "Warframe: Nokko Bundle",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1749,
+          "discount_percent": 30
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5236737c140e8485c375c9ccd20ab108573aecbef5a85105879b0de1fdc4577f"
+}

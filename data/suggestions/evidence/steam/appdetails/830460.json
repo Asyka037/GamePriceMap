@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 830460,
+  "fetchedAt": "2026-07-31T02:43:01.752Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=830460&cc=us&l=english",
+  "responseDigest": "sha256:a50fa66a83fb9dc281f036a3519f88e51e3ce5ccc5fca160ae9622d4c24e2b56",
+  "payload": {
+    "830460": {
+      "success": true,
+      "data": {
+        "steam_appid": 830460,
+        "name": "Call of Duty®: Black Ops III - Gorod Krovi Zombies Map",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 1, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 151
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:abb0b731c78b38f0370fc675a0b35aadcfbc4b9e1b927a5aaf7a2501e8cbc275"
+}

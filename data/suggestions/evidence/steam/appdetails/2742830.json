@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2742830,
+  "fetchedAt": "2026-07-31T02:45:50.038Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2742830&cc=us&l=english",
+  "responseDigest": "sha256:69a7835476efc08c4a2962f39c69b1a671dc8ee62adf229e3b2659052ac0a21a",
+  "payload": {
+    "2742830": {
+      "success": true,
+      "data": {
+        "steam_appid": 2742830,
+        "name": "Monster Train 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8533
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dd36a522e00d9ddb69dcdcda347b8366dec1f894446e14b699c6d5c34193bbe8"
+}

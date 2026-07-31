@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2928410,
+  "fetchedAt": "2026-07-31T03:06:09.890Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2928410&cc=us&l=english",
+  "responseDigest": "sha256:48ec45358d5cad5313586453f66f59aceab2917cfbd2cfb37ad3dc59063eb686",
+  "payload": {
+    "2928410": {
+      "success": true,
+      "data": {
+        "steam_appid": 2928410,
+        "name": "Under Par Golf Architect",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 143
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:41bf9e2313f7e8376e2ef6cab8670c002800310a5a1331362046160314f963d7"
+}

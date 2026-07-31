@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1272320,
+  "fetchedAt": "2026-07-31T02:54:17.761Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1272320&cc=us&l=english",
+  "responseDigest": "sha256:94b2ff04e638e8ed9889a2e4193cb1beec23696e092076231cdd04e32457fb11",
+  "payload": {
+    "1272320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1272320,
+        "name": "Diplomacy is Not an Option",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 4, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10690
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d5a7604271f9aa8d5099e1c1f557bc719dfd24b9d1ec438f7b9bc8c50a8b489b"
+}

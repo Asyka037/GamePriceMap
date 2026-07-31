@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4449300,
+  "fetchedAt": "2026-07-31T04:02:28.060Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4449300&cc=us&l=english",
+  "responseDigest": "sha256:c9a502e2785a47e18bdcdcb215a992f41b08916848d6e06a813502e046144465",
+  "payload": {
+    "4449300": {
+      "success": true,
+      "data": {
+        "steam_appid": 4449300,
+        "name": "JDM: American Classics",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:588b1c794a30f5c35b49de0cd5851827aebd02c190cb46fc38b98da3e9f038af"
+}

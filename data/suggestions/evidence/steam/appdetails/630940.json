@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 630940,
+  "fetchedAt": "2026-07-31T03:29:40.414Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=630940&cc=us&l=english",
+  "responseDigest": "sha256:b17c13a362ce110f8c30a64b97d6f631c5d1675edcb804cb0afbf218bc56cecf",
+  "payload": {
+    "630940": {
+      "success": true,
+      "data": {
+        "steam_appid": 630940,
+        "name": "theHunter: Call of the Wild™ - ATV SABER 4X4",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 15, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 199,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1606
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2548b5afeb00b4bfb8a8f02f12284529cfb81524c14ab0881e3ae86dc0f73f2b"
+}

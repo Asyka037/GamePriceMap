@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 849740,
+  "fetchedAt": "2026-07-31T04:04:36.457Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=849740&cc=us&l=english",
+  "responseDigest": "sha256:a33870d5fcd3253f5bd5b4b60d38ec9351810eb5790bb5a657ec49bb014644aa",
+  "payload": {
+    "849740": {
+      "success": true,
+      "data": {
+        "steam_appid": 849740,
+        "name": "Love Esquire - RPG/Dating Sim/Visual Novel",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 999
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e899f3f53093e2017323c570f15f0f612e0df97989975c6dda408285c33ec6db"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1533420,
+  "fetchedAt": "2026-07-31T03:05:07.016Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1533420&cc=us&l=english",
+  "responseDigest": "sha256:e30c86129872a7780d2651da01bd742c825c1dcc325da94f6fe26ae950c9a5ff",
+  "payload": {
+    "1533420": {
+      "success": true,
+      "data": {
+        "steam_appid": 1533420,
+        "name": "Neon White",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17098
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a36746fabd84b61841430b4c26752247b5ba202bfbd03d4637dee4ab99d8f116"
+}

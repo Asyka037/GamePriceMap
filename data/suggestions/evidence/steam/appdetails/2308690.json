@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2308690,
+  "fetchedAt": "2026-07-31T02:58:56.804Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2308690&cc=us&l=english",
+  "responseDigest": "sha256:7d10d3bfa9405670ccce0a07542fc2464c37ebf3c119023bbb722a6c0a296f7c",
+  "payload": {
+    "2308690": {
+      "success": true,
+      "data": {
+        "steam_appid": 2308690,
+        "name": "Ground of Aces",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1949,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 1356
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91a98a2313c412752961c9b68017a92ab899865cbce62278dcaf623d08805330"
+}

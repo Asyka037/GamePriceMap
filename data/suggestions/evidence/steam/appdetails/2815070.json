@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2815070,
+  "fetchedAt": "2026-07-31T03:06:32.009Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2815070&cc=us&l=english",
+  "responseDigest": "sha256:39a080ba3d2656942b8baec96079803f737ec5542d2db39d260f711fb005be5e",
+  "payload": {
+    "2815070": {
+      "success": true,
+      "data": {
+        "steam_appid": 2815070,
+        "name": "RIDE 6",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 514
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9d2bc72c6dd7e1657c181071a0f8a74945bebf44cfeea480d692d0e801495cfc"
+}

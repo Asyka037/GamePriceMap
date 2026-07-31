@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1989070,
+  "fetchedAt": "2026-07-31T04:05:42.330Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1989070&cc=us&l=english",
+  "responseDigest": "sha256:c3d74e9621835649d9eb94d68b25c6e5c3688c5bc8579c376d72b8af972aa15a",
+  "payload": {
+    "1989070": {
+      "success": true,
+      "data": {
+        "steam_appid": 1989070,
+        "name": "Synergy",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 999,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 678
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ef0bbc58435dade065fb5117dff8caa89c164e040016c160f7477713384b2616"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 565610,
+  "fetchedAt": "2026-07-31T03:21:20.483Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=565610&cc=us&l=english",
+  "responseDigest": "sha256:6d86474316de3c15ffbc1e5017d203f1e4eb6679f1ce8f58042d4c3e5bc2af25",
+  "payload": {
+    "565610": {
+      "success": true,
+      "data": {
+        "steam_appid": 565610,
+        "name": "Grim Dawn - Steam Loyalist Items Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 22, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 209
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e5fa52631588ccc9e753e63f68ff334bdb29627516b641248ba6035d056e3439"
+}

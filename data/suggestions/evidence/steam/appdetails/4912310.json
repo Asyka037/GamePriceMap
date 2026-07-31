@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4912310,
+  "fetchedAt": "2026-07-31T03:20:49.255Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4912310&cc=us&l=english",
+  "responseDigest": "sha256:e4bd3300d8fd4c339847d64a2babdd63ed13227783e95cbfe4fe15de03fb306a",
+  "payload": {
+    "4912310": {
+      "success": true,
+      "data": {
+        "steam_appid": 4912310,
+        "name": "Cat Chess - Royal Cat (Deluxe Digital Edition)",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e2a7fc0d0109dc870d7cfdbb0f0279b85ed3b5c596972550abc8db0d810f11a4"
+}

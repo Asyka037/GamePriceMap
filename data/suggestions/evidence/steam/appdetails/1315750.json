@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1315750,
+  "fetchedAt": "2026-07-31T04:15:03.734Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1315750&cc=us&l=english",
+  "responseDigest": "sha256:4834245817754c813aaa06269386e341b7f9453feefe10c7d219d947a6978b04",
+  "payload": {
+    "1315750": {
+      "success": true,
+      "data": {
+        "steam_appid": 1315750,
+        "name": "Total War: WARHAMMER II - The Twisted & The Twilight",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1141
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:33fc0a443f58b5d42ab4de6bc532d2202e1bfd43ebccc5d6eeaef134e94e01b7"
+}

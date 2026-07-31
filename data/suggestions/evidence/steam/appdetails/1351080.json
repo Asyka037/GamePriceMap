@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1351080,
+  "fetchedAt": "2026-07-31T03:09:56.809Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1351080&cc=us&l=english",
+  "responseDigest": "sha256:c9f0cd867455e877097d6cd9438e0cd2c77ef1e8be1917c44fea6e87bb0598cf",
+  "payload": {
+    "1351080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1351080,
+        "name": "Pharaoh™: A New Era",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 15, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 2299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4748
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cc5d10c37a51d9b8824564466e60fe1b3795f9068a96f51fd4ea4938e0770e5a"
+}

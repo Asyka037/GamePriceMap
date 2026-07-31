@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2753000,
+  "fetchedAt": "2026-07-31T03:16:45.245Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2753000&cc=us&l=english",
+  "responseDigest": "sha256:dfbbd92658384a0c549f6467de9fe69190a170790e92c899f8f6feff9dd25737",
+  "payload": {
+    "2753000": {
+      "success": true,
+      "data": {
+        "steam_appid": 2753000,
+        "name": "GOALS",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f75b79a8108e7c63c1ccc813ea1d0565318ff1ea6a61ed8b88a7359f45f6b08a"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 488860,
+  "fetchedAt": "2026-07-31T04:08:21.761Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=488860&cc=us&l=english",
+  "responseDigest": "sha256:f120e4ae351c8949a146a559ddb9c06c375ad79c455b3e141158ed913e121c37",
+  "payload": {
+    "488860": {
+      "success": true,
+      "data": {
+        "steam_appid": 488860,
+        "name": "MADNESS: Project Nexus",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 29, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15862
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ee8b94ae15866583d0165490ff46c7340c5b3a33fd2b15af3ea8e3864f7ac45c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 354140,
+  "fetchedAt": "2026-07-31T03:10:57.832Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=354140&cc=us&l=english",
+  "responseDigest": "sha256:14421f33660a944d615854f3bb538189dac7f97b561a444e4d357a9fa580c680",
+  "payload": {
+    "354140": {
+      "success": true,
+      "data": {
+        "steam_appid": 354140,
+        "name": "Five Nights at Freddy's 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 2, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10298
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bc2048b155ae9ab72d709faa3831ea053d80e9f66dfce1ae1a0c86fd689a32b1"
+}

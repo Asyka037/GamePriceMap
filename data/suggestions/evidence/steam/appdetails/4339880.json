@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4339880,
+  "fetchedAt": "2026-07-31T03:36:10.107Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4339880&cc=us&l=english",
+  "responseDigest": "sha256:dcbff330ca346d15c251a1fb0a33133b3c1cb2a5d8362931939055004e038754",
+  "payload": {
+    "4339880": {
+      "success": true,
+      "data": {
+        "steam_appid": 4339880,
+        "name": "Game Compressor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 216
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e497e555fb3016c2e8c1baff9166cd6d54f66d59b337decfc199350c076f0f94"
+}

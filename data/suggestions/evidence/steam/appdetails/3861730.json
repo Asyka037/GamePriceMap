@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3861730,
+  "fetchedAt": "2026-07-31T02:53:30.140Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3861730&cc=us&l=english",
+  "responseDigest": "sha256:8d9f9fb3991bc0c6bbf57b3ddb91e2d21ef79fc7cc885bc28e861e9c0537f2c4",
+  "payload": {
+    "3861730": {
+      "success": true,
+      "data": {
+        "steam_appid": 3861730,
+        "name": "Class of '09: Puzzle Showdown",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 288
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:510dc80d9bae82be8939e4b2129eb6cdc71a7b48e6c410d82a5616eecd410cb8"
+}

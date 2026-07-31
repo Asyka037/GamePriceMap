@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2431980,
+  "fetchedAt": "2026-07-31T03:35:47.141Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2431980&cc=us&l=english",
+  "responseDigest": "sha256:13a84c46860c118b7be093c4178e79a8de33ba49bfc66dab50eb197e44caa3a4",
+  "payload": {
+    "2431980": {
+      "success": true,
+      "data": {
+        "steam_appid": 2431980,
+        "name": "Goblin Camp",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 113
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ec7b2a61443e34c0c3af56eb53d9e7489d6763901bf340487d9105c53bcc43e0"
+}

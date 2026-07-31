@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1088290,
+  "fetchedAt": "2026-07-31T03:15:21.756Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1088290&cc=us&l=english",
+  "responseDigest": "sha256:e9ee20d26ecddb27fa4329d94763001b64da1f01fa236d25bd5491db1f760486",
+  "payload": {
+    "1088290": {
+      "success": true,
+      "data": {
+        "steam_appid": 1088290,
+        "name": "Grim Dawn - Steam Loyalist Items Pack 2",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 247
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d5ab02238c0629b5515c3161bd81167fe1e369a57085cd17bcb3e13a2f8267a0"
+}

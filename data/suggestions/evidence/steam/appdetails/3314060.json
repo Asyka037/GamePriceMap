@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3314060,
+  "fetchedAt": "2026-07-31T02:59:54.343Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3314060&cc=us&l=english",
+  "responseDigest": "sha256:925c806cd724df3be3702f7fdc09f7727d5770f535b821768a0e39d04eecfdf0",
+  "payload": {
+    "3314060": {
+      "success": true,
+      "data": {
+        "steam_appid": 3314060,
+        "name": "The Sims™ Legacy Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 31, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 2282
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9853c648a53e370907560132a1ba2d1b92859672b071c6b360d7ab7fde7eb7b5"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1845910,
+  "fetchedAt": "2026-07-31T03:12:42.544Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1845910&cc=us&l=english",
+  "responseDigest": "sha256:c6110625df4da2e0fe827a0404fb735a778d457edf5655c90892e6dd22b3ca90",
+  "payload": {
+    "1845910": {
+      "success": true,
+      "data": {
+        "steam_appid": 1845910,
+        "name": "Dragon Age™: The Veilguard",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 31, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 2099,
+          "discount_percent": 65
+        },
+        "recommendations": {
+          "total": 41097
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8c09284d9bebb83e21e2defc89d44e2c7ec3fba91e4e166a35f0f3faa06728ac"
+}

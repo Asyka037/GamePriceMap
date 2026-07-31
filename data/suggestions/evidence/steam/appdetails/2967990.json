@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2967990,
+  "fetchedAt": "2026-07-31T03:39:59.432Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2967990&cc=us&l=english",
+  "responseDigest": "sha256:fcab6674eeb3c40d2db93d4b6d8925fa7bb8d121fdf754d2e6c7416a8734a295",
+  "payload": {
+    "2967990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2967990,
+        "name": "Train Sim World® 5",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1599,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 3005
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:128d9f25869ea2f91a67b4db5a9461e41cf74f57908ac54d49075ac0b5c97c16"
+}

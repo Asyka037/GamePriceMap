@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3548850,
+  "fetchedAt": "2026-07-31T03:06:08.468Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3548850&cc=us&l=english",
+  "responseDigest": "sha256:b2383e7fcf6fc69a9428816123f11bef77f9a8f1d99437efc6556f14fe0b93c4",
+  "payload": {
+    "3548850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3548850,
+        "name": "The Sims™ 4 Adventure Awaits Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 2, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2999,
+          "discount_percent": 25
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:44fb859b3319d0ebc1ab35fcecf834d47ca4a6be813207a1a9176299b87b5be0"
+}

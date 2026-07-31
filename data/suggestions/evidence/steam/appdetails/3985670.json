@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3985670,
+  "fetchedAt": "2026-07-31T03:43:03.544Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3985670&cc=us&l=english",
+  "responseDigest": "sha256:b05c0ca29dbe1eee6e40f039c60296ac3197fb2774e1eeefdf61f02aef88184c",
+  "payload": {
+    "3985670": {
+      "success": true,
+      "data": {
+        "steam_appid": 3985670,
+        "name": "UBOAT - Type IX: Distant Coasts",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 461
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:28254809c935f17e0861b5d030a01753996237eb3026d56198bb015f4f5c25ca"
+}

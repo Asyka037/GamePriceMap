@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2294660,
+  "fetchedAt": "2026-07-31T02:49:39.041Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2294660&cc=us&l=english",
+  "responseDigest": "sha256:3f061bea781ab3897f87a79bdf57a7d6fed888166a1f56e89fa5a35e85559e48",
+  "payload": {
+    "2294660": {
+      "success": true,
+      "data": {
+        "steam_appid": 2294660,
+        "name": "The Quinfall",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 99,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 11957
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:90b9722cb8dffdeb0502784bba42430ce0caa6117345bd20fad3469d04fa1eaf"
+}

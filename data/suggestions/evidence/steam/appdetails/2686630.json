@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2686630,
+  "fetchedAt": "2026-07-31T02:56:05.479Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2686630&cc=us&l=english",
+  "responseDigest": "sha256:72984936f97457d8b515b1daa20441947a5fea7c15fe61b355c935b5ab634691",
+  "payload": {
+    "2686630": {
+      "success": true,
+      "data": {
+        "steam_appid": 2686630,
+        "name": "Voyagers of Nera",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1968
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4e47e6a38c78151bd4f2fc295d9497431c8d9b25c278564a182fd9905695b40d"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1041720,
+  "fetchedAt": "2026-07-31T03:00:08.443Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1041720&cc=us&l=english",
+  "responseDigest": "sha256:6543c518edddf54379e51deb7dee31d4cbe150af852816422c99d8cd80b289e4",
+  "payload": {
+    "1041720": {
+      "success": true,
+      "data": {
+        "steam_appid": 1041720,
+        "name": "Kingdoms of Amalur: Re-Reckoning",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 8, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6231
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:010e540da5dd288a615ceee01f44ef0e24c65596748cf6e1c82430e3eea0d77b"
+}

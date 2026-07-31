@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2298430,
+  "fetchedAt": "2026-07-31T02:52:44.664Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2298430&cc=us&l=english",
+  "responseDigest": "sha256:7ecb57745ff8bc6eab36d054d6a36e128ab131330556a414d1abc086712fac59",
+  "payload": {
+    "2298430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2298430,
+        "name": "American Truck Simulator - Kansas",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 299
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9509558ca932b5cd0edddbfcd25de58a4bb92059e908abdc77e039b7124d8505"
+}

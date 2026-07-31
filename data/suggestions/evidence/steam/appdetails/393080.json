@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 393080,
+  "fetchedAt": "2026-07-31T03:13:41.143Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=393080&cc=us&l=english",
+  "responseDigest": "sha256:e9142682cc4a354ef06dd6130a762ec946fa5f3ecb9e0df1e1c42d5fd6e6fdae",
+  "payload": {
+    "393080": {
+      "success": true,
+      "data": {
+        "steam_appid": 393080,
+        "name": "Call of Duty®: Modern Warfare® Remastered (2017)",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12951
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8e604b6f11c1afff2383224d18510cbb1d97f8c3aab7692808347cc072567650"
+}

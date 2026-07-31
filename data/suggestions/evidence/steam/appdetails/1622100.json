@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1622100,
+  "fetchedAt": "2026-07-31T02:48:57.440Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1622100&cc=us&l=english",
+  "responseDigest": "sha256:2632d4b69a579c56a36869278a5b1a8585e9943f4a85b60e0c580f7ce1023294",
+  "payload": {
+    "1622100": {
+      "success": true,
+      "data": {
+        "steam_appid": 1622100,
+        "name": "Outer Wilds - Echoes of the Eye",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 28, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5809
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:970db86f5278e4148a3dd03aae27f68e1fecc2e0e32919d5565a5e167af4fb1e"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3160880,
+  "fetchedAt": "2026-07-31T03:32:43.398Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3160880&cc=us&l=english",
+  "responseDigest": "sha256:101fbcd418e8567b95d76ffb4833e9ca12e091db142cd198a1e8197a467fec4e",
+  "payload": {
+    "3160880": {
+      "success": true,
+      "data": {
+        "steam_appid": 3160880,
+        "name": "Tavern Legends",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 145
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:74b80a933303b853b57c05ab86bbe782518ec1724f99d923fbc7c3c27f9add55"
+}

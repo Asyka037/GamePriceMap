@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3794610,
+  "fetchedAt": "2026-07-31T03:35:43.841Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3794610&cc=us&l=english",
+  "responseDigest": "sha256:7547324de1dee1e2c0cc3deef8b76a7629fd84f98c41c1dd0ba304f18c97579a",
+  "payload": {
+    "3794610": {
+      "success": true,
+      "data": {
+        "steam_appid": 3794610,
+        "name": "Goblin Vyke: The Thief Tycoon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1124,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 1348
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8a433f736ba54d13a96c6305ee001e95a969a876e3af2290a6a17481452e14ca"
+}

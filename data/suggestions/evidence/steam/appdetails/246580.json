@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 246580,
+  "fetchedAt": "2026-07-31T04:15:46.663Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=246580&cc=us&l=english",
+  "responseDigest": "sha256:9469a49aa33494cccc79d61ad8b6aa88279838b5f0a73a8467c239d2a157bc20",
+  "payload": {
+    "246580": {
+      "success": true,
+      "data": {
+        "steam_appid": 246580,
+        "name": "The Typing of The Dead: Overkill",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 29, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2769
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e1ceadbde8149fcefbb97a90cf2ce250c812d3cbbfbfb0b6bb353c465dec064"
+}

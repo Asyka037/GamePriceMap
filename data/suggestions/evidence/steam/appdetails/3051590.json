@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3051590,
+  "fetchedAt": "2026-07-31T03:52:58.700Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3051590&cc=us&l=english",
+  "responseDigest": "sha256:4fcea0cc08b71b61cf72e316becd0c87c14aa877e39d18467e4dede270a6a5ad",
+  "payload": {
+    "3051590": {
+      "success": true,
+      "data": {
+        "steam_appid": 3051590,
+        "name": "Dune: Imperium - Rise of Ix",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 31, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 749,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 117
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:11f1c5c657a06a1b716765c184c39e7b2d0c824550c8429ee042576ecb63b4f7"
+}

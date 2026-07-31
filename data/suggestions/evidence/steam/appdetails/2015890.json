@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2015890,
+  "fetchedAt": "2026-07-31T04:04:16.672Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2015890&cc=us&l=english",
+  "responseDigest": "sha256:6a98dc100ca64556066c10df9bad91cfebb5cec5b22dd28ee7e5280adc3b0202",
+  "payload": {
+    "2015890": {
+      "success": true,
+      "data": {
+        "steam_appid": 2015890,
+        "name": "Cult of the Lamb Soundtrack",
+        "type": "music",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 11, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 132
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63ee8a295683636ab2f4b639c18bde9067fb18037d325bafb0e27932c8249b64"
+}

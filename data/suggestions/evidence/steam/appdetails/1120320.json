@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1120320,
+  "fetchedAt": "2026-07-31T03:05:31.016Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1120320&cc=us&l=english",
+  "responseDigest": "sha256:cb6984db4ab89b92a436fdf18743186cf0d7bd7be57f1dca8bbd1c9c918dfcf3",
+  "payload": {
+    "1120320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1120320,
+        "name": "Builder Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 9, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 299,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 1591
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5fbb5d331e7a8d868e91e9f7ab2eb8904b1499b6a5558fb5e4f20d5b7d0c78b5"
+}

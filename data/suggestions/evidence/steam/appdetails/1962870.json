@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1962870,
+  "fetchedAt": "2026-07-31T04:05:38.962Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1962870&cc=us&l=english",
+  "responseDigest": "sha256:4067690e9c8b9f3880ec4c2c32448728828cf3e35608ab2e8333a5db6d19cad8",
+  "payload": {
+    "1962870": {
+      "success": true,
+      "data": {
+        "steam_appid": 1962870,
+        "name": "Wingspan: Oceania Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 959,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:65776176cf472e85a33fbeea76b5fba308a47ae19dc75dddae5a0187c27fbac8"
+}

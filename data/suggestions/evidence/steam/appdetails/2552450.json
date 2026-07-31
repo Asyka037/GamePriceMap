@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2552450,
+  "fetchedAt": "2026-07-31T03:10:08.990Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2552450&cc=us&l=english",
+  "responseDigest": "sha256:fa5425de70291a880765f9daeb8e52ff2ae461f780dcf69a10902018596441a0",
+  "payload": {
+    "2552450": {
+      "success": true,
+      "data": {
+        "steam_appid": 2552450,
+        "name": "KINGDOM HEARTS III + Re Mind (DLC)",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 13, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2268
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c4bdce704da4a7db53faf6a56f62cab8768ef575eff0faff0faf6a718985d098"
+}

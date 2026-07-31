@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1850960,
+  "fetchedAt": "2026-07-31T03:02:25.250Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1850960&cc=us&l=english",
+  "responseDigest": "sha256:83665599cfa53a0bdccdcc1878819ac623a0085bd89260cab390c993b4b70a23",
+  "payload": {
+    "1850960": {
+      "success": true,
+      "data": {
+        "steam_appid": 1850960,
+        "name": "The Jackbox Party Pack 9",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 19, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 602
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dffd7db50996981f2b95d7386fb1c4699e6bed49a473a53551b97d2504a203f2"
+}

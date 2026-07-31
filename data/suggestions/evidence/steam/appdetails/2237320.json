@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2237320,
+  "fetchedAt": "2026-07-31T03:50:23.795Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2237320&cc=us&l=english",
+  "responseDigest": "sha256:15bb347a274068ccb1e7b360182401348198c3506ecc0912fc89931225773207",
+  "payload": {
+    "2237320": {
+      "success": true,
+      "data": {
+        "steam_appid": 2237320,
+        "name": "Dwarf Delve",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1039,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5ab2a7cf38b89202a2d8b60365306da235231dc42a3c937261cd0b41ceb087ca"
+}

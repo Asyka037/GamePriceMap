@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3589510,
+  "fetchedAt": "2026-07-31T03:06:26.059Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3589510&cc=us&l=english",
+  "responseDigest": "sha256:d23843f27441606841e999026f8ee7bc41f8de628291ab6bc21bbda540d52f32",
+  "payload": {
+    "3589510": {
+      "success": true,
+      "data": {
+        "steam_appid": 3589510,
+        "name": "Returns Outlet Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 847
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:20ea2f6447097d66f18bb6a86b1b82e7cf00702f4718a742efd39c873c2454aa"
+}

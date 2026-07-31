@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 65980,
+  "fetchedAt": "2026-07-31T03:40:32.299Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=65980&cc=us&l=english",
+  "responseDigest": "sha256:e23451c57529df54303459735463ab0fa9fe4d12da33e85943841eb65df6b70f",
+  "payload": {
+    "65980": {
+      "success": true,
+      "data": {
+        "steam_appid": 65980,
+        "name": "Sid Meier's Civilization®: Beyond Earth™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 14000
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c1911fde83055eff6acf25b38d790c9f99cd2b7641baf6c0dda2fed38e8bcffb"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2393920,
+  "fetchedAt": "2026-07-31T03:38:07.942Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2393920&cc=us&l=english",
+  "responseDigest": "sha256:4118e6f0078b69ec20742f21406a5906b29fbc5147dc7f89aad2ee7f5853f1c8",
+  "payload": {
+    "2393920": {
+      "success": true,
+      "data": {
+        "steam_appid": 2393920,
+        "name": "Angeline Era",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 637
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6c60101fb39af258d95d54011da28a1d2e55e8305e42b032b5c55588b71fdb98"
+}

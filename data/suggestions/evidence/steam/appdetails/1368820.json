@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1368820,
+  "fetchedAt": "2026-07-31T02:54:20.646Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1368820&cc=us&l=english",
+  "responseDigest": "sha256:30584cea50a52e3e4d187108f758deaf9de6f8b05fedd71e0d60b25c7a256fcc",
+  "payload": {
+    "1368820": {
+      "success": true,
+      "data": {
+        "steam_appid": 1368820,
+        "name": "RollerCoaster Tycoon® 3: Complete Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2584
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:53da4a4953d1df8beb5cfa7a79b7ddde4d1c7b02fc40c9b7bbe0a72fcf99131f"
+}

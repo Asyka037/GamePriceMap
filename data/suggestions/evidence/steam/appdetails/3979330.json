@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3979330,
+  "fetchedAt": "2026-07-31T03:07:16.986Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3979330&cc=us&l=english",
+  "responseDigest": "sha256:2a65274ee16bc886b94358da348df40ade0f889facc8f35b9b78e21fd7cb96f5",
+  "payload": {
+    "3979330": {
+      "success": true,
+      "data": {
+        "steam_appid": 3979330,
+        "name": "nophenia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1152
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:17a7b8e9054281687078574ae3db01ad226d30c6d71b558ce4ccdf3644cd64ce"
+}

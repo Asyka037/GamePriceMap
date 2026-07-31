@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1472780,
+  "fetchedAt": "2026-07-31T03:07:13.957Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1472780&cc=us&l=english",
+  "responseDigest": "sha256:d4a34df32f7f5b875a795fdf07d959bdf83f92a8aa52de45ce52e1323f7a2d61",
+  "payload": {
+    "1472780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1472780,
+        "name": "Plague Inc: The Cure",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 28, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 272
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a5fc5736bf20a9a89610d3c4aa9cc4eed036aa60b1c9a51640c52d34c3456426"
+}

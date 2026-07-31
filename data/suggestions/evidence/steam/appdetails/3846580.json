@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3846580,
+  "fetchedAt": "2026-07-31T03:51:16.653Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3846580&cc=us&l=english",
+  "responseDigest": "sha256:91d350ac6cda06abf4fd02d313c55099792b6e3d570a721f36daccb0bdac3753",
+  "payload": {
+    "3846580": {
+      "success": true,
+      "data": {
+        "steam_appid": 3846580,
+        "name": "Lost in Tandem",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0db66dbd8f994a379901d77ec7a436f606cbb7eecb0254b38741bbc4c23258ec"
+}

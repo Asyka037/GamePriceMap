@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1090150,
+  "fetchedAt": "2026-07-31T02:46:29.787Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1090150&cc=us&l=english",
+  "responseDigest": "sha256:b3ed69dea4d99eeddf6005f50cbe5683602afbf5a4ad8acf59cc2757ac2190f2",
+  "payload": {
+    "1090150": {
+      "success": true,
+      "data": {
+        "steam_appid": 1090150,
+        "name": "Destiny 2: Forsaken Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 1, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 99,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 3668
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a8476fe0730160119a66bc91d9c741ebad0c8022d68bd2bffaf130644e7f65b2"
+}

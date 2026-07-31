@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 837470,
+  "fetchedAt": "2026-07-31T02:46:47.890Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=837470&cc=us&l=english",
+  "responseDigest": "sha256:133f1f496e8d2b60535bc62d231400347c6639455361e3c5593de7b8cc8f6063",
+  "payload": {
+    "837470": {
+      "success": true,
+      "data": {
+        "steam_appid": 837470,
+        "name": "Untitled Goose Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 22377
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:18635b6793b8a6482dbea40da6818f74f4b63cdaac0878ca272b8573c330ff8e"
+}

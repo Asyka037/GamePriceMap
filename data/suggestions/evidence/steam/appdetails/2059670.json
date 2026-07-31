@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2059670,
+  "fetchedAt": "2026-07-31T03:57:05.112Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2059670&cc=us&l=english",
+  "responseDigest": "sha256:86100613d44e47db90de759f966750de2775fa9525cf81854ede5aa74d57d64e",
+  "payload": {
+    "2059670": {
+      "success": true,
+      "data": {
+        "steam_appid": 2059670,
+        "name": "Moss II VR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 716
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:686df7864bced80155f4dbee32f04c5064fb7be12738b44d0325678b1359ac7c"
+}

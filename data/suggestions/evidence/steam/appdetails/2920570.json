@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2920570,
+  "fetchedAt": "2026-07-31T03:39:30.055Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2920570&cc=us&l=english",
+  "responseDigest": "sha256:84999852782bae936664061627d06d95e1de45d970d7df3db4cdc9df16df2d4c",
+  "payload": {
+    "2920570": {
+      "success": true,
+      "data": {
+        "steam_appid": 2920570,
+        "name": "Dale & Dawson Stationery Supplies",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 30, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7714
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3dfee13a19966dd1317f905e557e495ef7e365e3c956f065f731ec35bea2013b"
+}

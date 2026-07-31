@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2918310,
+  "fetchedAt": "2026-07-31T02:50:04.213Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2918310&cc=us&l=english",
+  "responseDigest": "sha256:836b0bbe86fbe1fc66730039b656507ae7a669423d41995eed4ee439c98e8d75",
+  "payload": {
+    "2918310": {
+      "success": true,
+      "data": {
+        "steam_appid": 2918310,
+        "name": "Mama's Sleeping Angels",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 749,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 943
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c739ef93ea89dea6c93f6b58ce715875c103faaaf8686fc7934eeb2b5b9629a9"
+}

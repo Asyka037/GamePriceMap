@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3936730,
+  "fetchedAt": "2026-07-31T03:49:40.952Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3936730&cc=us&l=english",
+  "responseDigest": "sha256:9716759b5f7e63c0b5c6c31b5ea5c4272764436e576cc09fa7bbe6e8a54674aa",
+  "payload": {
+    "3936730": {
+      "success": true,
+      "data": {
+        "steam_appid": 3936730,
+        "name": "STARDUST: Wish of Witch",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1999,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 649
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4bf59b9c90cfbd988ccfdc52d7e5608fd2395ba9a64c011bc270f4ceb92cd5a9"
+}

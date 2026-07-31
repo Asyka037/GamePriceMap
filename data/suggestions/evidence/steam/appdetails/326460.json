@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 326460,
+  "fetchedAt": "2026-07-31T04:14:34.254Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=326460&cc=us&l=english",
+  "responseDigest": "sha256:0b31bb3c6dbe4c9db53a24b62919940ca17d63f3a4088ede694da7eedad5ad93",
+  "payload": {
+    "326460": {
+      "success": true,
+      "data": {
+        "steam_appid": 326460,
+        "name": "ShellShock Live",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 22, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29301
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5eff9f48634a4ffe99bb33032a235025d73ccfbdec7159df9470bf1bdf8440f3"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3364840,
+  "fetchedAt": "2026-07-31T03:21:45.934Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3364840&cc=us&l=english",
+  "responseDigest": "sha256:437a369884156d26459be49571d65b53c681658a2fc99956555f14ed8a4937df",
+  "payload": {
+    "3364840": {
+      "success": true,
+      "data": {
+        "steam_appid": 3364840,
+        "name": "METAL GEAR SOLID Δ: SNAKE EATER - Sneaking DLC Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:25753f2d5dcc35a72c6ad5ee07429aa9c13d9803942baf6b002c89586295a016"
+}

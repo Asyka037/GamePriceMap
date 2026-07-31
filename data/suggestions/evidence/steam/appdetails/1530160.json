@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1530160,
+  "fetchedAt": "2026-07-31T03:05:22.206Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1530160&cc=us&l=english",
+  "responseDigest": "sha256:8f9780b2a9390a6c7b7126cd485c97aeac5f2e65894f487aace32c3e51701048",
+  "payload": {
+    "1530160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1530160,
+        "name": "Digimon World: Next Order",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 21, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2287
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:27e0026d2862968f5988d61924ea1895434ea1e9c3b125b4114df6874cb0970b"
+}

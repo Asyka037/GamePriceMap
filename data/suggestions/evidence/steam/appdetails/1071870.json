@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1071870,
+  "fetchedAt": "2026-07-31T03:48:28.378Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1071870&cc=us&l=english",
+  "responseDigest": "sha256:4e74f2b926a25f46b1461dba4d0c64decd39085157badc1f7628a79d021f4b7d",
+  "payload": {
+    "1071870": {
+      "success": true,
+      "data": {
+        "steam_appid": 1071870,
+        "name": "Biped",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 149,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 8808
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:289bf79b326c67d33c89393742913b543009991e66a8eb36c2c3b8ccfae48365"
+}

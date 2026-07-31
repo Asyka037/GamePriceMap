@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 530611,
+  "fetchedAt": "2026-07-31T02:55:34.486Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=530611&cc=us&l=english",
+  "responseDigest": "sha256:007482437452a5e0ddac3b8ab303bdaa45fbe186fc04502878d2d19b1db58af8",
+  "payload": {
+    "530611": {
+      "success": true,
+      "data": {
+        "steam_appid": 530611,
+        "name": "End of Zoe",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 374,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 1336
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f81a216f5b6c114cfe9102e325c63a6d762dcbd1a04a757034fdffdb5fc6acc0"
+}

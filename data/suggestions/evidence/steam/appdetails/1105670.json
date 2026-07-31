@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1105670,
+  "fetchedAt": "2026-07-31T03:59:10.482Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1105670&cc=us&l=english",
+  "responseDigest": "sha256:9f73f70a275c0516ea8706fdca04809a1b84126895a316f80728004cdbbffe84",
+  "payload": {
+    "1105670": {
+      "success": true,
+      "data": {
+        "steam_appid": 1105670,
+        "name": "The Last Spell",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 9, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13089
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eb5d92730ccfbbe6d278df901916bbd62203d520e1a554178c24889648d059ac"
+}

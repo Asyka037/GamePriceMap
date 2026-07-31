@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 386360,
+  "fetchedAt": "2026-07-31T03:27:50.877Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=386360&cc=us&l=english",
+  "responseDigest": "sha256:949843ff04e0b84a0efed70fc38583277b0e1111c094b5c4e681bbbe5bb95397",
+  "payload": {
+    "386360": {
+      "success": true,
+      "data": {
+        "steam_appid": 386360,
+        "name": "SMITE®",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 8, 2015"
+        },
+        "recommendations": {
+          "total": 1389
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8fa5d7078333db872d1e92a5306315929a6c908f3e3fc40c3cfcb4fc1351be35"
+}

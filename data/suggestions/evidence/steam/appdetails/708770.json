@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 708770,
+  "fetchedAt": "2026-07-31T04:16:46.039Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=708770&cc=us&l=english",
+  "responseDigest": "sha256:8b4cce8cf99a6bf41fbff1fd9cdc381384f24b9eed7d25b66ebf6586b3dfd699",
+  "payload": {
+    "708770": {
+      "success": true,
+      "data": {
+        "steam_appid": 708770,
+        "name": "ARK: Aberration - Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2017"
+        },
+        "recommendations": {
+          "total": 3649
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0b512d913a61955a5c4ecbb071b5e51dd7e4c8de2f0c156c53cbf3f0a3c3c574"
+}

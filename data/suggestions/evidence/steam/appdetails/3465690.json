@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3465690,
+  "fetchedAt": "2026-07-31T03:46:56.154Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3465690&cc=us&l=english",
+  "responseDigest": "sha256:0afa5920e35f2d327d2c222c7c5a76e598f0e307fd0e7d6e14dd41ba45e66ad1",
+  "payload": {
+    "3465690": {
+      "success": true,
+      "data": {
+        "steam_appid": 3465690,
+        "name": "Still Wakes the Deep: Siren’s Rest",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 847
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:42074602c82e922c279f181f6dde799d9173ccb2a6db01c6dca0ecce048a89ac"
+}

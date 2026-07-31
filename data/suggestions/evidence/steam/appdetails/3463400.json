@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3463400,
+  "fetchedAt": "2026-07-31T03:37:48.272Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3463400&cc=us&l=english",
+  "responseDigest": "sha256:2343cdb7b5dd4e0924d3b56953e7b5d92926aa60e57cae9d68aacc4c8812b411",
+  "payload": {
+    "3463400": {
+      "success": true,
+      "data": {
+        "steam_appid": 3463400,
+        "name": "Game Store Chronicle",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9ad55779c96e08234d39ee0897573cfb5e1057e187560825b140db38a382e3ea"
+}

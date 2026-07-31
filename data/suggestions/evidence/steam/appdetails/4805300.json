@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4805300,
+  "fetchedAt": "2026-07-31T03:30:50.129Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4805300&cc=us&l=english",
+  "responseDigest": "sha256:9ee3e06125d90604ded19496298c0c9667355329f7a83b8b9227e91b0864bcfb",
+  "payload": {
+    "4805300": {
+      "success": true,
+      "data": {
+        "steam_appid": 4805300,
+        "name": "Heroes of Hammerwatch II - Celestial Ruins",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 559,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:78c9580e2a4ddaa977f88dcc4d39e0624afd551060f2cd645005ac70c460e20c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3871330,
+  "fetchedAt": "2026-07-31T02:44:31.208Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3871330&cc=us&l=english",
+  "responseDigest": "sha256:98e2123bc2177be784093222048c363922f268863aff672041a6ab4e133e2e93",
+  "payload": {
+    "3871330": {
+      "success": true,
+      "data": {
+        "steam_appid": 3871330,
+        "name": "Warhammer 40,000: Space Marine 2 - Black Templars Champion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 234
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:764585345a6de15be42a5a6652023d6109cf19627d455fd6ac021f019118a018"
+}

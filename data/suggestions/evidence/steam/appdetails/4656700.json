@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4656700,
+  "fetchedAt": "2026-07-31T02:46:59.588Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4656700&cc=us&l=english",
+  "responseDigest": "sha256:798c215990ffaf6e17b05f4e11101931919869e7bb092badffc2e6fc987f69a3",
+  "payload": {
+    "4656700": {
+      "success": true,
+      "data": {
+        "steam_appid": 4656700,
+        "name": "Papa's Mocharia Deluxe",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 691
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:540865021931f1934e9aff56c7f6ae951cad2363d874c73cadf033fb513dc343"
+}

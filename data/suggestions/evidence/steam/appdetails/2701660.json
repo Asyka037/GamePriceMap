@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2701660,
+  "fetchedAt": "2026-07-31T03:55:49.270Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2701660&cc=us&l=english",
+  "responseDigest": "sha256:f793ad042f3508849b67025c24e786051254d63342b75c6ec9012c0c0668893f",
+  "payload": {
+    "2701660": {
+      "success": true,
+      "data": {
+        "steam_appid": 2701660,
+        "name": "DRAGON QUEST III HD-2D Remake",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3970
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0bf7df8f2f13b1ff36178b550bb9d8cf71d3f5dcac9bb5683cea982b38026459"
+}

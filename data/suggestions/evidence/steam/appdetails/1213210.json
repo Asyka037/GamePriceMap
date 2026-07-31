@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1213210,
+  "fetchedAt": "2026-07-31T03:28:14.339Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1213210&cc=us&l=english",
+  "responseDigest": "sha256:20dcee474ecc029af93a6d019435a5721ba561a70f511fca0dbcdae620e3d9fa",
+  "payload": {
+    "1213210": {
+      "success": true,
+      "data": {
+        "steam_appid": 1213210,
+        "name": "Command & Conquer™ Remastered Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 5, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 31342
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5c5a097ea22f20139535f0fbc1c1ffbe6de4f0ffa7ef28a15bdabaa612905270"
+}

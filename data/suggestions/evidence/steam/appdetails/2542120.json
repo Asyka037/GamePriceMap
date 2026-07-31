@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2542120,
+  "fetchedAt": "2026-07-31T03:04:23.525Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2542120&cc=us&l=english",
+  "responseDigest": "sha256:b85129fd24e95985367fd8f53b6e3f6ed00bbf9f71f50711554a1be6350ffb4f",
+  "payload": {
+    "2542120": {
+      "success": true,
+      "data": {
+        "steam_appid": 2542120,
+        "name": "NINJA GAIDEN: Ragebound",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 31, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2435
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f1aab9d4c4f7716e85d36a7d6dfd421832c197067cfde2cf949eeda746832f40"
+}

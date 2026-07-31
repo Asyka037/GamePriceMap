@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4791940,
+  "fetchedAt": "2026-07-31T03:58:47.469Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4791940&cc=us&l=english",
+  "responseDigest": "sha256:f445de9489558eb920f780267fc2034bd9fa9521ab21c05c08c9b307bb064ace",
+  "payload": {
+    "4791940": {
+      "success": true,
+      "data": {
+        "steam_appid": 4791940,
+        "name": "Endacopia Soundtrack",
+        "type": "music",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 539,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f935127eb07f0ee097b10c995a5e44f18913bda2421fd8bd866bc0f300aa1ce8"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4440380,
+  "fetchedAt": "2026-07-31T02:43:56.247Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4440380&cc=us&l=english",
+  "responseDigest": "sha256:ad927554f666be666c40dd9af6607d001051c8614a59b5a8d69b89afd23aaa34",
+  "payload": {
+    "4440380": {
+      "success": true,
+      "data": {
+        "steam_appid": 4440380,
+        "name": "Forza Horizon 6 VIP Membership",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fd94548a17a0e7ecf686fe6388fbfc2502d2a0b12d7f898add1c8232d71e9f0e"
+}

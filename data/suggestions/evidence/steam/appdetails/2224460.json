@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2224460,
+  "fetchedAt": "2026-07-31T03:14:12.374Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2224460&cc=us&l=english",
+  "responseDigest": "sha256:f790018aeaf9d5bd3dc3da95f42294da6a5289d15056dbac3706c432bb5c94a3",
+  "payload": {
+    "2224460": {
+      "success": true,
+      "data": {
+        "steam_appid": 2224460,
+        "name": "Street Fighter™ 6 - Year 1 Character Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 197
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c1e188d29420c0d4c24f3340ce836af50f7cf1f1be1dc4df7a0d2e6839875e8"
+}

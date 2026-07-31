@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4301300,
+  "fetchedAt": "2026-07-31T02:58:11.725Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4301300&cc=us&l=english",
+  "responseDigest": "sha256:6d4ec68cae0cdf1542458eed00e324c9bb008915bdddc46503a44dd191d2fecc",
+  "payload": {
+    "4301300": {
+      "success": true,
+      "data": {
+        "steam_appid": 4301300,
+        "name": "Incrempire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 133
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f0e7eb1812b7576af3538abe83d1fd464ec8c644efd994d7e3790365e3c44395"
+}

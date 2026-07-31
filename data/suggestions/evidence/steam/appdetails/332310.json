@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 332310,
+  "fetchedAt": "2026-07-31T03:45:19.964Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=332310&cc=us&l=english",
+  "responseDigest": "sha256:4ca8cb7a3d51b05ba26364ba6cce1574bf33b7cabb3d817e950f96ac4d10cd23",
+  "payload": {
+    "332310": {
+      "success": true,
+      "data": {
+        "steam_appid": 332310,
+        "name": "LEGO® Worlds",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 7, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 449,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 12474
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e78554728082aa2dbbbba43be01180a8fb3be3619673ae74bf227c73f390611a"
+}

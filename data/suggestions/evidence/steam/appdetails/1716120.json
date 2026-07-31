@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1716120,
+  "fetchedAt": "2026-07-31T03:19:41.081Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1716120&cc=us&l=english",
+  "responseDigest": "sha256:0b3e241739f3ff6ce0e97ce7002a535bd8d2b4417b23a1c53b6972d538353c72",
+  "payload": {
+    "1716120": {
+      "success": true,
+      "data": {
+        "steam_appid": 1716120,
+        "name": "Monster Rancher 1 & 2 DX",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 8, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1949,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 1013
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:20772cfeb4fa62e9a9f8eeeb0fde7e3c7d93fd67a99dec6cc459c96526983594"
+}

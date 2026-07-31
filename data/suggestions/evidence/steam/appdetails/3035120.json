@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3035120,
+  "fetchedAt": "2026-07-31T02:51:00.324Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3035120&cc=us&l=english",
+  "responseDigest": "sha256:ba4879c126326deada27e859a39a11a4c8b58ced2469fe2de02d798860c0c161",
+  "payload": {
+    "3035120": {
+      "success": true,
+      "data": {
+        "steam_appid": 3035120,
+        "name": "Is This Seat Taken?",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 7, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8662
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1c265d84c538a98e378f64dd477f16226fe4d824c32a7165f81f85f0f266adf7"
+}

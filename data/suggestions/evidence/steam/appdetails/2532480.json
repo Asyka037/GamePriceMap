@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2532480,
+  "fetchedAt": "2026-07-31T03:17:36.170Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2532480&cc=us&l=english",
+  "responseDigest": "sha256:cffbbf62c26f1d15c054a3e0c4c45e88554b7ef93b8dbc49ea105df7578e3c90",
+  "payload": {
+    "2532480": {
+      "success": true,
+      "data": {
+        "steam_appid": 2532480,
+        "name": "Warhammer 40,000: Mechanicus II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1991
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5cbc72afa30ce787f35c92a63b32e3e02d0517c64221e8a6ee64a9b23865a480"
+}

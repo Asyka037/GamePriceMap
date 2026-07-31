@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1089090,
+  "fetchedAt": "2026-07-31T03:01:03.507Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1089090&cc=us&l=english",
+  "responseDigest": "sha256:642f28826095607209e05425bda6509e40973c8296085fdb6f9798b7347b4b12",
+  "payload": {
+    "1089090": {
+      "success": true,
+      "data": {
+        "steam_appid": 1089090,
+        "name": "ONE PIECE: PIRATE WARRIORS 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 14, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17196
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:43d6a19e6ebe8aa3ba5f34f8df8a09c17f75888c8853e058c97fd12463577bc1"
+}

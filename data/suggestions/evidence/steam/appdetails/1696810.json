@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1696810,
+  "fetchedAt": "2026-07-31T03:09:18.444Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1696810&cc=us&l=english",
+  "responseDigest": "sha256:f860402ac9740e451937781652f85cdc7628541865afe06f11e97b9c14f4fdfe",
+  "payload": {
+    "1696810": {
+      "success": true,
+      "data": {
+        "steam_appid": 1696810,
+        "name": "Railroads Online",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5385
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d802b2f343eebad577e883b504a10126b2701205dae3c7dd8ec99450b7790ed3"
+}

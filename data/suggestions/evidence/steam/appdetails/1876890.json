@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1876890,
+  "fetchedAt": "2026-07-31T03:03:57.092Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1876890&cc=us&l=english",
+  "responseDigest": "sha256:6fcc2a1687c9185a1e86a8aef25ff54e71cb4aaa39cbad02e4bf582efddbb15c",
+  "payload": {
+    "1876890": {
+      "success": true,
+      "data": {
+        "steam_appid": 1876890,
+        "name": "Wandering Sword",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 14, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1749,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 35959
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2578ab5d538641b098474ae20315d6a8b43023508429f1ef78985545ce5839a8"
+}

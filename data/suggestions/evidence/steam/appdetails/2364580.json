@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2364580,
+  "fetchedAt": "2026-07-31T02:57:07.211Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2364580&cc=us&l=english",
+  "responseDigest": "sha256:10d853de5f7ebb592b64dcaba8b940a726f9c0adcfe92e9245fde778775ab803",
+  "payload": {
+    "2364580": {
+      "success": true,
+      "data": {
+        "steam_appid": 2364580,
+        "name": "Titanium Court",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1124,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 953
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3ef607e5e9c7f6845fee0072a9e84df2b43de8dfd1e1ae32e3d41f871804be6b"
+}

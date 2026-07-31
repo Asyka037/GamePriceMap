@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3393110,
+  "fetchedAt": "2026-07-31T03:00:38.120Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3393110&cc=us&l=english",
+  "responseDigest": "sha256:44e7293245c44d858987ed8058c876400fecd05702171edd5cdd3534ff890f6e",
+  "payload": {
+    "3393110": {
+      "success": true,
+      "data": {
+        "steam_appid": 3393110,
+        "name": "AION 2",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": true,
+          "date": "September 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f86ae05ac6b980b07dd5515e5afb3e1511e89124062a0e0a200faed6025dc167"
+}

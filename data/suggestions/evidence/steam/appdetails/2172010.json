@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2172010,
+  "fetchedAt": "2026-07-31T02:42:36.383Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2172010&cc=us&l=english",
+  "responseDigest": "sha256:ec301ad2dee9f8a03cbf8541af8fe436c5d0e40c1fa39af2af8617a6a2c044c1",
+  "payload": {
+    "2172010": {
+      "success": true,
+      "data": {
+        "steam_appid": 2172010,
+        "name": "Until Dawn™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 4, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3457
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1ea3e55a731f3d4e95486878e960142ee45f282c99cc1651976f1af32a88518e"
+}

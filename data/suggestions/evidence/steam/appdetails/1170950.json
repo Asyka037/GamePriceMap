@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1170950,
+  "fetchedAt": "2026-07-31T02:49:25.757Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1170950&cc=us&l=english",
+  "responseDigest": "sha256:eee6ad4a9348bbcddcfdbd3b2cde4f1b556bc02a2038c433b503426d6a004e97",
+  "payload": {
+    "1170950": {
+      "success": true,
+      "data": {
+        "steam_appid": 1170950,
+        "name": "Mortal Online 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 25, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11065
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:989b3aa1dd8d69a0767490d1f5c462c0ee4df342021df0f92345ac0dfa71fd41"
+}

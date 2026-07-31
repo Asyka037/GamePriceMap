@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1774580,
+  "fetchedAt": "2026-07-31T02:54:00.039Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1774580&cc=us&l=english",
+  "responseDigest": "sha256:e87644a4f93da8e3d0e09af59af05748213d8811ea3f4e09286e917b4714b401",
+  "payload": {
+    "1774580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1774580,
+        "name": "STAR WARS Jedi: Survivor™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 1049,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 78890
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d0491fd99738cdc9283d5d64d0c116fd20f35c860648b706e21ed6d01fed722"
+}

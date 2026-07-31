@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3365540,
+  "fetchedAt": "2026-07-31T03:24:20.899Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3365540&cc=us&l=english",
+  "responseDigest": "sha256:c0240724c447b01d1767d50f26627493b9dc5bc2e98fe17a90bbfc488cb51bb1",
+  "payload": {
+    "3365540": {
+      "success": true,
+      "data": {
+        "steam_appid": 3365540,
+        "name": "Space Engineers 2 Pioneer Edition",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dba0c8329e09c747ce728f923cebb64b2767b769f4a109538905b5e8fe650850"
+}

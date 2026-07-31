@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1648532,
+  "fetchedAt": "2026-07-31T02:48:02.640Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1648532&cc=us&l=english",
+  "responseDigest": "sha256:09d1811c09ea5444596e773c115562253a6c38234d5dfc0a314a3b400359fd6b",
+  "payload": {
+    "1648532": {
+      "success": true,
+      "data": {
+        "steam_appid": 1648532,
+        "name": "Icarus: New Frontiers Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 24, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 517
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bd750279be35dd49202373e62dd1f6225dd095d65dde683b9639a271452c4f08"
+}

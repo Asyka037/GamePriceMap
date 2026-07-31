@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 346010,
+  "fetchedAt": "2026-07-31T02:52:37.289Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=346010&cc=us&l=english",
+  "responseDigest": "sha256:b383acca390362a3bb8200b649e4e1330a97f2f33570afe71bb0c5d8da3e220d",
+  "payload": {
+    "346010": {
+      "success": true,
+      "data": {
+        "steam_appid": 346010,
+        "name": "Besiege",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 299,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 47862
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eafea2fb6321b960ba908cf012c7a2dfeb4275c70e5fe6fbfad5342483e5b46b"
+}

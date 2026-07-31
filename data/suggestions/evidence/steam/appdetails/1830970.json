@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1830970,
+  "fetchedAt": "2026-07-31T03:13:57.530Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1830970&cc=us&l=english",
+  "responseDigest": "sha256:17e9846e4443f069ba1aafc1d4e4c3f3e7c548d6487bb8094132178c462c4c56",
+  "payload": {
+    "1830970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1830970,
+        "name": "The Last Flame",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2699
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6568e1906251cb11b0fdb58642268512c75e0f2c3768a025978023af2ec6378c"
+}

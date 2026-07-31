@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 784950,
+  "fetchedAt": "2026-07-31T02:43:51.635Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=784950&cc=us&l=english",
+  "responseDigest": "sha256:844241e180d2186aa84e93dd76abda390c5d9ad6bfa4b2fbab5c309013ee1811",
+  "payload": {
+    "784950": {
+      "success": true,
+      "data": {
+        "steam_appid": 784950,
+        "name": "SUPREMACY: WORLD WAR 3",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 15, 2018"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1d3682fdac5c12bea64faa925296c17e6a19eefcad74dc7ef0f7c2efaab417eb"
+}

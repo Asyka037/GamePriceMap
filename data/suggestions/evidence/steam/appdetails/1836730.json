@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1836730,
+  "fetchedAt": "2026-07-31T03:43:00.300Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1836730&cc=us&l=english",
+  "responseDigest": "sha256:da9a6cb639745bce9de4baedb7724bb731855a5de6a4db9fbaf55aa6feab6625",
+  "payload": {
+    "1836730": {
+      "success": true,
+      "data": {
+        "steam_appid": 1836730,
+        "name": "Echo Point Nova",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7406
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:24022c1250715418188789e87ee5192f45f077af0445b1b0f6e2baa86cfa32ff"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1829590,
+  "fetchedAt": "2026-07-31T03:01:52.367Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1829590&cc=us&l=english",
+  "responseDigest": "sha256:cd1c35d8df660d14b160cbb7759b22559bdf9cfe28a8d2f83ab4eed5bbc9d990",
+  "payload": {
+    "1829590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1829590,
+        "name": "HITMAN 3 Access Pass: HITMAN 2 Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 601
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:40565d8b907f5174953c6236bdc712f0228f7d7cd2ce139e4e8bb667843fa5a3"
+}

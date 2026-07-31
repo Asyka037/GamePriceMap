@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3818010,
+  "fetchedAt": "2026-07-31T03:48:35.084Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3818010&cc=us&l=english",
+  "responseDigest": "sha256:92dc9c19781c234a86f14b8e912a75449392fe1499e27047a2a6ac2e73f15106",
+  "payload": {
+    "3818010": {
+      "success": true,
+      "data": {
+        "steam_appid": 3818010,
+        "name": "BEYBLADE X EVOBATTLE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 2499,
+          "discount_percent": 50
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1549d4d3ecf3a8eae1515ea1186e53e0fbea836169002282af0d65ee19495abe"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3635260,
+  "fetchedAt": "2026-07-31T04:15:07.012Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3635260&cc=us&l=english",
+  "responseDigest": "sha256:7e0f9107e5d32f85ae131847e2854e5046a47e2222ee00b8f038eb385e7741dd",
+  "payload": {
+    "3635260": {
+      "success": true,
+      "data": {
+        "steam_appid": 3635260,
+        "name": "﻿The Desert Armor Set",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 250
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:80ec8c8c141f91029485ed6df846f416255a8e75b2171d1718092121db3b6193"
+}

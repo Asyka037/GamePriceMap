@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2355150,
+  "fetchedAt": "2026-07-31T04:03:20.733Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2355150&cc=us&l=english",
+  "responseDigest": "sha256:a5bb94059f75e8d5aa9846d2de4e7b9e4cbb7c7930bb5e1054e03c45c0e0d934",
+  "payload": {
+    "2355150": {
+      "success": true,
+      "data": {
+        "steam_appid": 2355150,
+        "name": "Mudborne: Frog Management Sim",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 978
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1846e442fc7dcfa5f1d9b29561e237b1febd8f6f01c0f3466543eb89be62bf79"
+}

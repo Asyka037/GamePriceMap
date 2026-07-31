@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3497800,
+  "fetchedAt": "2026-07-31T03:31:13.488Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3497800&cc=us&l=english",
+  "responseDigest": "sha256:c125491b4e4844190ace6dd0a1907af3f69c50c27d1aaf026f03f647026f1d9b",
+  "payload": {
+    "3497800": {
+      "success": true,
+      "data": {
+        "steam_appid": 3497800,
+        "name": "Bonehold",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 899,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0da70e5ca5555ff6c3e893e67d25f7088cd57c7e6c8b45d368dd8a7a7a9bf253"
+}

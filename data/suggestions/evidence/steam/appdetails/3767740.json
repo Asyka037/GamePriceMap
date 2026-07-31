@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3767740,
+  "fetchedAt": "2026-07-31T03:07:45.187Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3767740&cc=us&l=english",
+  "responseDigest": "sha256:eb6ad0efa8f63bf63fb60b2c39b0c9633629d7e2120f737986ae8c7f7745513e",
+  "payload": {
+    "3767740": {
+      "success": true,
+      "data": {
+        "steam_appid": 3767740,
+        "name": "Outhold",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1703
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91989eaf0943a2069d65b2210508a980c95a2b750b1045758356e09659b90206"
+}

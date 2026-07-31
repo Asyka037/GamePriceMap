@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3681610,
+  "fetchedAt": "2026-07-31T03:39:16.972Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3681610&cc=us&l=english",
+  "responseDigest": "sha256:3c69fefb52f30c716ac2ed0cb4d13dbe3d07329074b19d256fe1eeb7564e4b9e",
+  "payload": {
+    "3681610": {
+      "success": true,
+      "data": {
+        "steam_appid": 3681610,
+        "name": "DRAGON QUEST MONSTERS: The Withered World",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Dec 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:66ea3a6bc856f83283039f786d4ca3e93d094775f82046027b083f6e29afb1a6"
+}

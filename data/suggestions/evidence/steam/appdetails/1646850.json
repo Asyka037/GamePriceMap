@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1646850,
+  "fetchedAt": "2026-07-31T04:08:31.590Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1646850&cc=us&l=english",
+  "responseDigest": "sha256:36e1deed3a7390b836ae7586b6ceb98fb495ca9f002867175ba5ff79a3560502",
+  "payload": {
+    "1646850": {
+      "success": true,
+      "data": {
+        "steam_appid": 1646850,
+        "name": "SpaceBourne 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4918
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:993b23b780fd3c307850882ae46ad23cf0bcd913e050f8b74cd79e5dc4c2ec58"
+}

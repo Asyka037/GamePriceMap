@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 921570,
+  "fetchedAt": "2026-07-31T03:20:28.312Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=921570&cc=us&l=english",
+  "responseDigest": "sha256:ab24119ba077bdd6c819921d6b58e84dc28def1df5b89856c439282cb29f3dae",
+  "payload": {
+    "921570": {
+      "success": true,
+      "data": {
+        "steam_appid": 921570,
+        "name": "OCTOPATH TRAVELER™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 7, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1799,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 13563
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0a43fbceb5b1ef3d86a6052b3a9fbee8de242a91ebac9d808c76b488aa19fb44"
+}

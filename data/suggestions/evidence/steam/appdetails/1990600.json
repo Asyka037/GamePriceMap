@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1990600,
+  "fetchedAt": "2026-07-31T02:49:46.311Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1990600&cc=us&l=english",
+  "responseDigest": "sha256:24f1a1999df07fb54d51f15a2743d9ca280c2ce3367699e56efc0366786af4e9",
+  "payload": {
+    "1990600": {
+      "success": true,
+      "data": {
+        "steam_appid": 1990600,
+        "name": "The Sims™ 4 Horse Ranch Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 282
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3e1abf5fdabf7c5fb51292226258c781bd7f5b28f9e8f5fac3efb9b08df93bed"
+}

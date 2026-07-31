@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 268650,
+  "fetchedAt": "2026-07-31T03:30:03.597Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=268650&cc=us&l=english",
+  "responseDigest": "sha256:4a73be5dcc325254fc84ec25697f70f18f80bbdb0e418b1d99bf357626e5c63c",
+  "payload": {
+    "268650": {
+      "success": true,
+      "data": {
+        "steam_appid": 268650,
+        "name": "From the Depths",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10988
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d1b40a948eb4f2d4f687bb3bc51108e7e013b6b0f18241dd0b6df8cd7d6da604"
+}

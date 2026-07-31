@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4518440,
+  "fetchedAt": "2026-07-31T03:50:50.293Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4518440&cc=us&l=english",
+  "responseDigest": "sha256:287230582554bf81bdaa90cd79e4ff3c698d9a0bae4ae227dd15cb956bf3037e",
+  "payload": {
+    "4518440": {
+      "success": true,
+      "data": {
+        "steam_appid": 4518440,
+        "name": "超凡功夫之王传奇",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 27, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eaaf6529fc0e81c8f5dd744ba8ef6fa774d7579fc2bbdb2056bb6cb232df0690"
+}

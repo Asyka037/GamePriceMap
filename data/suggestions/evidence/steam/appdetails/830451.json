@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 830451,
+  "fetchedAt": "2026-07-31T02:45:55.876Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=830451&cc=us&l=english",
+  "responseDigest": "sha256:ece2ad83d493bfdf3e97ed49cb0732d5c4ac3c21d9b7f291643a292c4a4f22a4",
+  "payload": {
+    "830451": {
+      "success": true,
+      "data": {
+        "steam_appid": 830451,
+        "name": "Call of Duty®: Black Ops III - Zetsubou No Shima Zombies Map",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 1, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 135
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c372c5b306d6d468f32b17a6522aab1ba957686a94d4c275d8f6589bd82c1ad7"
+}

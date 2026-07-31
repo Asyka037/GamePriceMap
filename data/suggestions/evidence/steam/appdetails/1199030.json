@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1199030,
+  "fetchedAt": "2026-07-31T03:21:44.467Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1199030&cc=us&l=english",
+  "responseDigest": "sha256:31a17c417809c6dea78cfbb9624cdf565cfc94c8ff497c9985c4cb4dc6765f16",
+  "payload": {
+    "1199030": {
+      "success": true,
+      "data": {
+        "steam_appid": 1199030,
+        "name": "Tainted Grail: Conquest",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 27, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 7542
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:549f4ad7a250eb67e5fb3bdd4494c63a7f9d73d5485cc6da8bdc2d10dd20a137"
+}

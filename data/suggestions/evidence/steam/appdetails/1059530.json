@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1059530,
+  "fetchedAt": "2026-07-31T02:48:17.520Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1059530&cc=us&l=english",
+  "responseDigest": "sha256:ef1dd7abc49cb053690f97b830186f1f6eddd118ff8db30001d00cb4491b0025",
+  "payload": {
+    "1059530": {
+      "success": true,
+      "data": {
+        "steam_appid": 1059530,
+        "name": "Valve Index® Headset",
+        "type": "hardware",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 28, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 49900,
+          "final": 49900,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:412c656542cf1970e02577927ef2f8d2f405948b3932ae220b30d89f78696819"
+}

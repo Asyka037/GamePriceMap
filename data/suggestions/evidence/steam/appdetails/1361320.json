@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1361320,
+  "fetchedAt": "2026-07-31T03:11:43.754Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1361320&cc=us&l=english",
+  "responseDigest": "sha256:af7c08ca5163414a27dc9442dd80ce4fd9148386858d4af19578f8ea32b6c9d0",
+  "payload": {
+    "1361320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1361320,
+        "name": "The Room 4: Old Sins",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 11, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 224,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 17634
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7f942b6623d92ea25e740df29f3c119d07d527d5aa147134302f488edcafc035"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 871540,
+  "fetchedAt": "2026-07-31T02:52:28.415Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=871540&cc=us&l=english",
+  "responseDigest": "sha256:66814f68a3400b5455ad070269e67f70c48f045fba0dd4ba6edb0be2ad7d0540",
+  "payload": {
+    "871540": {
+      "success": true,
+      "data": {
+        "steam_appid": 871540,
+        "name": "BMX Streets",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 4, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4248
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7df99d3564ca24deb107d0c9176d6d790b8afd9b8536c689ab91545e41fb2ec1"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4872640,
+  "fetchedAt": "2026-07-31T03:01:22.780Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4872640&cc=us&l=english",
+  "responseDigest": "sha256:e3f197b0abb47e442ecb53feefb0c660f07e036c63acf39fa558db7bf679b643",
+  "payload": {
+    "4872640": {
+      "success": true,
+      "data": {
+        "steam_appid": 4872640,
+        "name": "DragonSword : Awakening - Familiar : Flame Spirit Fox",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ff970719f76f8ab752b3eee74b852b6821d8c0587f2640007fdc11d5eca88fc6"
+}

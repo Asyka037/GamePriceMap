@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1209471,
+  "fetchedAt": "2026-07-31T02:52:35.798Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1209471&cc=us&l=english",
+  "responseDigest": "sha256:fd34a833240d59f0ecacb43359091266e6d9711dbbc38bbf3ad3eedc43f87338",
+  "payload": {
+    "1209471": {
+      "success": true,
+      "data": {
+        "steam_appid": 1209471,
+        "name": "American Truck Simulator - Colorado",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 725
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:18cd5d61268a8a193d0693b895474f32126b25a36b74982f015bc1f57b1e0bc3"
+}

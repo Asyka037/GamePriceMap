@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4207910,
+  "fetchedAt": "2026-07-31T04:07:19.266Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4207910&cc=us&l=english",
+  "responseDigest": "sha256:1f94fb6b522d8583b5da05f824e685cdb601ee173b79630d3146e1e378bfe306",
+  "payload": {
+    "4207910": {
+      "success": true,
+      "data": {
+        "steam_appid": 4207910,
+        "name": "Deep Rock Galactic - Relic Raider Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 162
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c967ef1b9eb0f9c5b8666e5dd64fa159da5a83533880780e771c7482a65173ac"
+}

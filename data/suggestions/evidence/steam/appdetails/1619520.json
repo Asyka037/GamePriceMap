@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1619520,
+  "fetchedAt": "2026-07-31T03:58:21.132Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1619520&cc=us&l=english",
+  "responseDigest": "sha256:6ef25973b44ca90c1a384df8de2bbb0a4280896568a4e64ca2a2f20cc1aabb63",
+  "payload": {
+    "1619520": {
+      "success": true,
+      "data": {
+        "steam_appid": 1619520,
+        "name": "Cross Blitz",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 2299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1524
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:66717736595c95c864597a44fe2790680f04ea98ad05dfc2eeb70290d39ba4f2"
+}

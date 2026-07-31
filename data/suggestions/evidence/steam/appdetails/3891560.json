@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3891560,
+  "fetchedAt": "2026-07-31T02:54:36.831Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3891560&cc=us&l=english",
+  "responseDigest": "sha256:34077955fda2b952b1a35ab4cb4cf5530fd0b062bd51789567b8a6f0aea82cb5",
+  "payload": {
+    "3891560": {
+      "success": true,
+      "data": {
+        "steam_appid": 3891560,
+        "name": "Rust - Warhammer 40,000 Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1039,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 948
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b84a1d9337d889bb8a1604497921b417931cf0799399ada375ee0d6bb5ef4259"
+}

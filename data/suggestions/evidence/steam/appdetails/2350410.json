@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2350410,
+  "fetchedAt": "2026-07-31T02:55:27.167Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2350410&cc=us&l=english",
+  "responseDigest": "sha256:590e883c43ab424d641c2fff2225ffedade17bd7a414e25c6cbf2c1acc53767e",
+  "payload": {
+    "2350410": {
+      "success": true,
+      "data": {
+        "steam_appid": 2350410,
+        "name": "Police Simulator: Patrol Officers: Highway Patrol Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 252
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:575ce215bbbce52c9272c188e84fe4811744b4208c3f98717112296254b21b29"
+}

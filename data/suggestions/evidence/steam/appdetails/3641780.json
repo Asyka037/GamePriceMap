@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3641780,
+  "fetchedAt": "2026-07-31T04:04:46.346Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3641780&cc=us&l=english",
+  "responseDigest": "sha256:672763efb1c257755e098844e0f013fce6d5cc69d8e54fbebc8e7b8001eb71f7",
+  "payload": {
+    "3641780": {
+      "success": true,
+      "data": {
+        "steam_appid": 3641780,
+        "name": "Abiotic Factor - Supporter's Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 453
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7a70d5dffad02dfb3dee1c498d96153903db0ac6f2f46f0f0d6913d402fe053d"
+}

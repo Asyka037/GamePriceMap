@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 19680,
+  "fetchedAt": "2026-07-31T03:10:59.281Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=19680&cc=us&l=english",
+  "responseDigest": "sha256:2133d34044c73db3c94c62359afffc5023d3cac7765bc6f32344c5adf8971770",
+  "payload": {
+    "19680": {
+      "success": true,
+      "data": {
+        "steam_appid": 19680,
+        "name": "Alice: Madness Returns",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 249,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 27183
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:34023a2c836328ffbfabc2c01a654fa2e72963f9e49a0ba63e675aa352ab3b1a"
+}

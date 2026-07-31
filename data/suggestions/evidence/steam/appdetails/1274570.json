@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1274570,
+  "fetchedAt": "2026-07-31T02:49:50.776Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1274570&cc=us&l=english",
+  "responseDigest": "sha256:383f85bc5a5ddb5390710597fc8abd4d04e67684756b61ac1b5794b36a193d08",
+  "payload": {
+    "1274570": {
+      "success": true,
+      "data": {
+        "steam_appid": 1274570,
+        "name": "DEVOUR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 28, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 68459
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cce803543bad2cb057bde189c8a4ebc1ee836e2b6a5c5374e3bac1eacc8c0566"
+}

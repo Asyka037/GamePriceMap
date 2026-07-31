@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 931060,
+  "fetchedAt": "2026-07-31T03:04:19.110Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=931060&cc=us&l=english",
+  "responseDigest": "sha256:04d576d497443989e4d66a31485253dcb2b84847be82b320928381adef90fbcf",
+  "payload": {
+    "931060": {
+      "success": true,
+      "data": {
+        "steam_appid": 931060,
+        "name": "Tormentum II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1699,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e2a395f23d7413b9760e0e8333f517a98d15c4a183b552f8bbedb5d5aa26e69d"
+}

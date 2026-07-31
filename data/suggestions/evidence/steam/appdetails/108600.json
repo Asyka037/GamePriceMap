@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 108600,
+  "fetchedAt": "2026-07-31T02:58:04.329Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=108600&cc=us&l=english",
+  "responseDigest": "sha256:600da2f805b85eb3b5a63debadc43887d059603632f65ef349e8a50a06368830",
+  "payload": {
+    "108600": {
+      "success": true,
+      "data": {
+        "steam_appid": 108600,
+        "name": "Project Zomboid",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 8, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 352144
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2f43a3f36a78f22dfd0b03e2ab9cffde9a3ea8bcae2c6350bcd1c1ffe49dff50"
+}

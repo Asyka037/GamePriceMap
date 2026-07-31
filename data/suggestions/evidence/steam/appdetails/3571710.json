@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3571710,
+  "fetchedAt": "2026-07-31T03:37:38.476Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3571710&cc=us&l=english",
+  "responseDigest": "sha256:b2d176ec17d7921a028d0df96f55b6fbf247088116af1b8fc64f5a3bd78d4d4c",
+  "payload": {
+    "3571710": {
+      "success": true,
+      "data": {
+        "steam_appid": 3571710,
+        "name": "Leaf Blower Co.",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1199,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 212
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d1143e84d680a4ebd3a69356ba5d2a1553ee101b4d9c98a553d8a1e10a568446"
+}

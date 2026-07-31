@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4249850,
+  "fetchedAt": "2026-07-31T03:19:11.272Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4249850&cc=us&l=english",
+  "responseDigest": "sha256:07f688d3b187283ad62ad07f6b0be1f9bc84255d1b14b071b97f40233f676f64",
+  "payload": {
+    "4249850": {
+      "success": true,
+      "data": {
+        "steam_appid": 4249850,
+        "name": "E-Shop Tycoon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 909,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 327
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:49400504a664bd86b46a0dc3270726a9475b58feb3462dec12355e2909206eab"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 304240,
+  "fetchedAt": "2026-07-31T02:56:04.009Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=304240&cc=us&l=english",
+  "responseDigest": "sha256:b6607c2e1da9606ca60d5df0a6ed1c85893d0129a8f0cfcadcebc0a855acc5ca",
+  "payload": {
+    "304240": {
+      "success": true,
+      "data": {
+        "steam_appid": 304240,
+        "name": "Resident Evil",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 19, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 26919
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ee83c55ba203d071bad86bd831fa87500df03de257d98579cb4e4a0ec4ce88ee"
+}

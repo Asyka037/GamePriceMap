@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 580100,
+  "fetchedAt": "2026-07-31T03:23:48.499Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=580100&cc=us&l=english",
+  "responseDigest": "sha256:5339260c279e241e07c9065b9f9097ffce6a913f45880f4a91e399e3b0b6e5c2",
+  "payload": {
+    "580100": {
+      "success": true,
+      "data": {
+        "steam_appid": 580100,
+        "name": "Darkest Dungeon®: The Crimson Court",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 19, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2169
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:183c006bb41099bd513fcd5bece37f42d1d71873629fc85cf0268e54d8252ac4"
+}

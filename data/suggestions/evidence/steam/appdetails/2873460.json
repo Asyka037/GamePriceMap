@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2873460,
+  "fetchedAt": "2026-07-31T04:14:37.619Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2873460&cc=us&l=english",
+  "responseDigest": "sha256:c26b8ecfe12ca47ad33c763939c56058b1a3e76d9e0d53d5db6822010d1619c7",
+  "payload": {
+    "2873460": {
+      "success": true,
+      "data": {
+        "steam_appid": 2873460,
+        "name": "EVERSPACE™ 2 - Titans",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 16, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 117
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:36f11703ba51f27cb2bb2599533a4d4d6e6b342f8e4c3a33d83ec5ebb3c862c7"
+}

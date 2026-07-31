@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 601050,
+  "fetchedAt": "2026-07-31T02:57:32.175Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=601050&cc=us&l=english",
+  "responseDigest": "sha256:47cf09ae0ab06c9cd252a36b14cd11e20578000bf97af70a82110eadb85e2718",
+  "payload": {
+    "601050": {
+      "success": true,
+      "data": {
+        "steam_appid": 601050,
+        "name": "Attack on Titan 2 - A.O.T.2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 26, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6792
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2f825cd781f531dd725ab5c0300351fe85d0329fa6ca236adba8b57d48de8877"
+}

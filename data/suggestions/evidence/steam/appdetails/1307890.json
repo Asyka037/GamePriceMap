@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1307890,
+  "fetchedAt": "2026-07-31T03:30:17.143Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1307890&cc=us&l=english",
+  "responseDigest": "sha256:85d2002fe653250e22b716298d597200b968f4c88319971fe453270ad0d1285d",
+  "payload": {
+    "1307890": {
+      "success": true,
+      "data": {
+        "steam_appid": 1307890,
+        "name": "Kingdoms Reborn",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 2, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8818
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8a188f81e54fb3f04a992e2a1c69e89689bf78023b7fb275bc67a33d353b1442"
+}

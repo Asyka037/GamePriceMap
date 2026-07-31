@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4641690,
+  "fetchedAt": "2026-07-31T03:52:12.512Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4641690&cc=us&l=english",
+  "responseDigest": "sha256:0f4543f8fa0d2cc317ec2b784fab5ab343a8b1497015fdfe1ff77d84e0d19b50",
+  "payload": {
+    "4641690": {
+      "success": true,
+      "data": {
+        "steam_appid": 4641690,
+        "name": "D.R.A.F.​T. VR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1349,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:10f3a013d5efed3108362ef48518dbc4d6cb4261f675b59ae79824082b09cbbb"
+}

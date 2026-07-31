@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1134010,
+  "fetchedAt": "2026-07-31T03:44:12.146Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1134010&cc=us&l=english",
+  "responseDigest": "sha256:6e34e0fa387e1d4035cb15b4086a30634c7b536ab0b569401807c8c3dff7a840",
+  "payload": {
+    "1134010": {
+      "success": true,
+      "data": {
+        "steam_appid": 1134010,
+        "name": "Conan Exiles Enhanced - Blood and Sand Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 3, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:400fcc30352c547a5a24439cfb14e7a3fe71f5d3c0c355f6de6a910a8635b541"
+}

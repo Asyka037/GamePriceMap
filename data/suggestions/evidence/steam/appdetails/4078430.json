@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4078430,
+  "fetchedAt": "2026-07-31T02:48:39.754Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4078430&cc=us&l=english",
+  "responseDigest": "sha256:a91f48e876895426af5de6c901788bb4ebc2dfe489817f4120265d5fc81f4f04",
+  "payload": {
+    "4078430": {
+      "success": true,
+      "data": {
+        "steam_appid": 4078430,
+        "name": "STAR WARS: Galactic Racer™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Oct 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ced63dd73dd2cef3ae44066ed2438492460f18d45f8032040a83d6322d5a2dc7"
+}

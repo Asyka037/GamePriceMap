@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1661621,
+  "fetchedAt": "2026-07-31T04:07:45.576Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1661621&cc=us&l=english",
+  "responseDigest": "sha256:e4303726b98234b979a555a46b1ccc392dec920d465ea73f18d749528902e6f7",
+  "payload": {
+    "1661621": {
+      "success": true,
+      "data": {
+        "steam_appid": 1661621,
+        "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl - Ultimate Content",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2449,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 112
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:632f2222cc6cb0a0220d587ff6fe905189332f91f07f3e82de5219e20dbe8ac0"
+}

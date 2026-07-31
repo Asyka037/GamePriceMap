@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1832960,
+  "fetchedAt": "2026-07-31T04:12:15.913Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1832960&cc=us&l=english",
+  "responseDigest": "sha256:38e9b73c5603e50b7c182b4a26e1d0ae9e9ad9a677d7adabe764445ddaff10af",
+  "payload": {
+    "1832960": {
+      "success": true,
+      "data": {
+        "steam_appid": 1832960,
+        "name": "House Flipper - Farm DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 13, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1124,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 382
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:496f4c4e30ba671d8ee8c9d190a567173eb3c64294daff5a9e21bf928241062b"
+}

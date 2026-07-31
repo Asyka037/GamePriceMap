@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2215390,
+  "fetchedAt": "2026-07-31T02:52:54.329Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2215390&cc=us&l=english",
+  "responseDigest": "sha256:8a839d8d5e2dfcc230874db0752c395cba3c837cef22604400837828142d4d68",
+  "payload": {
+    "2215390": {
+      "success": true,
+      "data": {
+        "steam_appid": 2215390,
+        "name": "Five Nights at Freddy's: Secret of the Mimic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 13, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10625
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c3decb1e39463d4fa8dadff473c54e3dbc8819bff7c3fced14b3158a86ceda95"
+}

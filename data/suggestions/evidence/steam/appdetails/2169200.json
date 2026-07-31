@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2169200,
+  "fetchedAt": "2026-07-31T02:43:19.480Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2169200&cc=us&l=english",
+  "responseDigest": "sha256:cd3a9d29bb9fb2567432eed724822845202723568296d7b37762c97e14771fe1",
+  "payload": {
+    "2169200": {
+      "success": true,
+      "data": {
+        "steam_appid": 2169200,
+        "name": "Sniper Elite: Resistance",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4630
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b067e54eb85a09d01eea5db77510721346e1a9118e1e8b1a29909ddcfd7f63a3"
+}

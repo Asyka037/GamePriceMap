@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 247000,
+  "fetchedAt": "2026-07-31T03:07:09.453Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=247000&cc=us&l=english",
+  "responseDigest": "sha256:8a941ead95435989a1d3c132f3b7fb37670884ec4b2dcb36a9fa0579c4e80b86",
+  "payload": {
+    "247000": {
+      "success": true,
+      "data": {
+        "steam_appid": 247000,
+        "name": "Talisman: Digital Classic Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 25, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5546
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a4b56dee71907857b8346af4afaf260d71bc83d8f5889c0c5d43e88893507cb5"
+}

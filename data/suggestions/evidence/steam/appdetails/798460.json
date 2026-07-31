@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 798460,
+  "fetchedAt": "2026-07-31T03:06:17.268Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=798460&cc=us&l=english",
+  "responseDigest": "sha256:88918ca7719ea0477c58da0d27476afb589a55f0c8f7b75fb1004059d5fecc81",
+  "payload": {
+    "798460": {
+      "success": true,
+      "data": {
+        "steam_appid": 798460,
+        "name": "Ni no Kuni Wrath of the White Witch™ Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 19, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3997
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a8f264ffddad0b5916aef197fab628bd5cb4f8aace2672f1fd2519c16d9242cc"
+}

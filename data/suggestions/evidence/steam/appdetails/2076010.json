@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2076010,
+  "fetchedAt": "2026-07-31T03:18:08.792Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2076010&cc=us&l=english",
+  "responseDigest": "sha256:6bc88cdbd30044d1bb8d79d896e765627379391e00bf4d26ff11350d818bd611",
+  "payload": {
+    "2076010": {
+      "success": true,
+      "data": {
+        "steam_appid": 2076010,
+        "name": "UNDER NIGHT IN-BIRTH II Sys:Celes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1928
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d3efd985e927a4fd758d20e2d3432f7011525a044ef95d9d28d0619f28d3ff8"
+}

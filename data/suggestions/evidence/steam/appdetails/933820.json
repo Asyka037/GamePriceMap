@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 933820,
+  "fetchedAt": "2026-07-31T03:16:55.925Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=933820&cc=us&l=english",
+  "responseDigest": "sha256:354a2e1ccee3e9f06c04e880566dc373eeb8e9d125e929b24b6e691997e8ffbd",
+  "payload": {
+    "933820": {
+      "success": true,
+      "data": {
+        "steam_appid": 933820,
+        "name": "Endzone - A World Apart",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 18, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8243
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d07e97133c75e6a66233d03fe767104438f4069ab74820d8f8795305962e6208"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4585130,
+  "fetchedAt": "2026-07-31T02:44:44.504Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4585130&cc=us&l=english",
+  "responseDigest": "sha256:03f7d2e804525770b6cefbb327ae0b528fd747142379477dc2358c0956e1700d",
+  "payload": {
+    "4585130": {
+      "success": true,
+      "data": {
+        "steam_appid": 4585130,
+        "name": "Battle Bundle – Y10S2 – FOR HONOR",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c29c7eff4320ee821bbc5c54710509b97d307971c9e74ec8448568cb8d39bba0"
+}

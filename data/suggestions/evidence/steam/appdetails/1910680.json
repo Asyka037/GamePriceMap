@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1910680,
+  "fetchedAt": "2026-07-31T02:56:08.484Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1910680&cc=us&l=english",
+  "responseDigest": "sha256:29ece4f030b00ae6d061a667f03b060610d875726616701547c01c1de9ee8cef",
+  "payload": {
+    "1910680": {
+      "success": true,
+      "data": {
+        "steam_appid": 1910680,
+        "name": "Orb of Creation",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2085
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:744da6f6150b56d4c632f0f87941f1275ea9e6390038df0de2626dcf46f0c5ea"
+}

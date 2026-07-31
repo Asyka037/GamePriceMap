@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 887120,
+  "fetchedAt": "2026-07-31T04:10:23.958Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=887120&cc=us&l=english",
+  "responseDigest": "sha256:77a764db17c34f707d405eb3ade6d12e045f5008f623e7e3313e8567375f8cdd",
+  "payload": {
+    "887120": {
+      "success": true,
+      "data": {
+        "steam_appid": 887120,
+        "name": "Conan Exiles Enhanced - Jewel of the West Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 2, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 122
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8ed2cfc74c40e0b38f74f361941b03906bceaa40de9606e1dd400f9934738858"
+}

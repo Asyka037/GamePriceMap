@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1088090,
+  "fetchedAt": "2026-07-31T03:13:16.174Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1088090&cc=us&l=english",
+  "responseDigest": "sha256:5550eabe30f5b4c4654c82c32f07c6d47d1108a39cdfd05ff970b046367bae00",
+  "payload": {
+    "1088090": {
+      "success": true,
+      "data": {
+        "steam_appid": 1088090,
+        "name": "Day of Dragons",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6239
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9478fe535005ff6c75c3a40260601c08dd5635bb3ea36d71709b53872d6f15a1"
+}

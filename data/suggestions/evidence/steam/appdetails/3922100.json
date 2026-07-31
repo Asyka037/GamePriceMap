@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3922100,
+  "fetchedAt": "2026-07-31T02:59:08.701Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3922100&cc=us&l=english",
+  "responseDigest": "sha256:13f246aad05e056fbcb3a39cf46eae4670f7e14f5ee6352070c51eb6e498ccfe",
+  "payload": {
+    "3922100": {
+      "success": true,
+      "data": {
+        "steam_appid": 3922100,
+        "name": "Forest Doesn’t Care",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 125
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fd110f8ffec8d0db6fb311531a0b9765a273e59b6f47828366b540e7f9c7626b"
+}

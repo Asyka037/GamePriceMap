@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3976890,
+  "fetchedAt": "2026-07-31T02:50:47.033Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3976890&cc=us&l=english",
+  "responseDigest": "sha256:158567698fdc779aa7528174958b817d2b02786983b9f3c2f34d4d34139ce8f0",
+  "payload": {
+    "3976890": {
+      "success": true,
+      "data": {
+        "steam_appid": 3976890,
+        "name": "Age of Wonders 4: Thrones of Blood",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 164
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:52fb72f0aabece5abf06463eb11a7115e81d581b7d674c7352dd926c050ed2ea"
+}

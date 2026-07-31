@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3097300,
+  "fetchedAt": "2026-07-31T02:44:23.874Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3097300&cc=us&l=english",
+  "responseDigest": "sha256:ff6db4f3c7ba0d72287b42e29ffa754b3c0b775474e1ab7767027b25268b6437",
+  "payload": {
+    "3097300": {
+      "success": true,
+      "data": {
+        "steam_appid": 3097300,
+        "name": "Creature Kitchen",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8243
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d2b66778f2b048634c83dfed2763749ebe12396c42451132a6b5a17b08a3884"
+}

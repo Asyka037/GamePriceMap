@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 617290,
+  "fetchedAt": "2026-07-31T03:13:11.762Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=617290&cc=us&l=english",
+  "responseDigest": "sha256:a39ce3da12ca3fb12f3cd4b5d4c7d6e8e30283aef2c38b4889b0f4298994726c",
+  "payload": {
+    "617290": {
+      "success": true,
+      "data": {
+        "steam_appid": 617290,
+        "name": "Remnant: From the Ashes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 19, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 46961
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eaf0047fed049007963c43771fcff460aeb8b381cbe9f2789247c34ddee4cee7"
+}

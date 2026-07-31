@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4719180,
+  "fetchedAt": "2026-07-31T03:17:50.927Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4719180&cc=us&l=english",
+  "responseDigest": "sha256:19432a43b24226a61ca264724f8b8bb18b91a288d88acfcca4ea901c3d4b24c4",
+  "payload": {
+    "4719180": {
+      "success": true,
+      "data": {
+        "steam_appid": 4719180,
+        "name": "Hunt: Showdown 1896 - Twice a Renegade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 107
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63186346a62847aa56e74a5b4ab16bcbfdc8858829eb3df85e41d0c0882cff83"
+}

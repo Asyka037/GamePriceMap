@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 979690,
+  "fetchedAt": "2026-07-31T03:17:39.123Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=979690&cc=us&l=english",
+  "responseDigest": "sha256:6cb5fa31e18337a425a47c375cbb4a469ab5db0da4c7da8698bd9bd503ef7601",
+  "payload": {
+    "979690": {
+      "success": true,
+      "data": {
+        "steam_appid": 979690,
+        "name": "The Ascent",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 18830
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:66712d0a3d59a053394f7835ab05e7aa81936720075c8a8c8ed881b6767be9e9"
+}

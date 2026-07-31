@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1816640,
+  "fetchedAt": "2026-07-31T03:58:14.537Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1816640&cc=us&l=english",
+  "responseDigest": "sha256:2af2a5cae18f090f8962ecec4058317a4b6a1f77b798bc44594d5b84419e9380",
+  "payload": {
+    "1816640": {
+      "success": true,
+      "data": {
+        "steam_appid": 1816640,
+        "name": "Modern Naval Warfare",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 221
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5bdb7fbd83a19d1cb4bf52ed295a37787137303a8a9cc8a1510c1bfc5d4c60bc"
+}

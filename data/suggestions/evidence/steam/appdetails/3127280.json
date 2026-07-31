@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3127280,
+  "fetchedAt": "2026-07-31T03:09:22.889Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3127280&cc=us&l=english",
+  "responseDigest": "sha256:7a6cdda125699afe8537683d69920147f8b05ced33f247083a1a4827dd4ae94e",
+  "payload": {
+    "3127280": {
+      "success": true,
+      "data": {
+        "steam_appid": 3127280,
+        "name": "Marvel Contest of Champions",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:71bc4304ae236679b5fdc6895c7ec3b73f0ae6edca4e519b6791cbfc400898c5"
+}

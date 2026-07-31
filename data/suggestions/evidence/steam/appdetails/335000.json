@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 335000,
+  "fetchedAt": "2026-07-31T03:35:50.412Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=335000&cc=us&l=english",
+  "responseDigest": "sha256:72e4826eb7316a66f3769f6ef2a0537dd7a69eea7030b59a1a35acac6e1049c8",
+  "payload": {
+    "335000": {
+      "success": true,
+      "data": {
+        "steam_appid": 335000,
+        "name": "Tormentum - Dark Sorrow",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 4, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 395,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 2473
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:81ea742eb9a6b331212bde7d1f8732a951720ba6a0b6df6feda289ea55cc44ea"
+}

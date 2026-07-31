@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 477160,
+  "fetchedAt": "2026-07-31T02:50:41.040Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=477160&cc=us&l=english",
+  "responseDigest": "sha256:bfbebc225b340fa34bbeeac85e308f2dc8c55811b9acd6081a7dd355c429d990",
+  "payload": {
+    "477160": {
+      "success": true,
+      "data": {
+        "steam_appid": 477160,
+        "name": "Human Fall Flat",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 599,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 173954
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:979330ec635114f7e527f6bcd7bd3592c359a63295af65a3eee62327fc0303e9"
+}

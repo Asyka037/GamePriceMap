@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1253220,
+  "fetchedAt": "2026-07-31T03:05:56.276Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1253220&cc=us&l=english",
+  "responseDigest": "sha256:84a0c28cc1e310a0a0b960d4d89049c73efec3351f436c52b2dfe61d13cb0784",
+  "payload": {
+    "1253220": {
+      "success": true,
+      "data": {
+        "steam_appid": 1253220,
+        "name": "The Gold River Project",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 587
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8fffefb446fb09630331a8bcbfc2df18bd829e89d67ef7781e3fef1f95f62a42"
+}

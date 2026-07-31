@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 288470,
+  "fetchedAt": "2026-07-31T02:44:26.783Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=288470&cc=us&l=english",
+  "responseDigest": "sha256:f0c655e505a8502764abec9cd329ac80c4c0567fb368a151e89ecb337d06b297",
+  "payload": {
+    "288470": {
+      "success": true,
+      "data": {
+        "steam_appid": 288470,
+        "name": "Fable Anniversary",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 12, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14580
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:433221e6701ff2acacce47baaa10c070cba3be6a21917517a3a46d66714f5f7a"
+}

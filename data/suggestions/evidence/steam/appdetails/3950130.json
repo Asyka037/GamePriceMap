@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3950130,
+  "fetchedAt": "2026-07-31T02:47:52.226Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3950130&cc=us&l=english",
+  "responseDigest": "sha256:21ed29f1c155e823dca6f4007295f03552fde0d30e1bc349e4d09c0a32426f45",
+  "payload": {
+    "3950130": {
+      "success": true,
+      "data": {
+        "steam_appid": 3950130,
+        "name": "Database Detective: Minor Crimes Division",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1274,
+          "discount_percent": 15
+        },
+        "recommendations": {
+          "total": 436
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b5bb0cbf48b3e1a263a0055d6492a4ee0ac16f8f64bbd393e10c4c12b1cefd86"
+}

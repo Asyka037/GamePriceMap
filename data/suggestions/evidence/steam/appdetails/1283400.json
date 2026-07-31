@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1283400,
+  "fetchedAt": "2026-07-31T03:44:50.432Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1283400&cc=us&l=english",
+  "responseDigest": "sha256:b571209318568240bb22375c9791f2eaffd10d76b2179fb68bd9141ee2245b0d",
+  "payload": {
+    "1283400": {
+      "success": true,
+      "data": {
+        "steam_appid": 1283400,
+        "name": "Steelrising",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 8, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 599,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 4427
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a593e77377af7d863b1e34fe6eaeee512b52c294aa1d2b2e4350b3730ff6ae3"
+}

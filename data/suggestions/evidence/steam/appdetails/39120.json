@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 39120,
+  "fetchedAt": "2026-07-31T03:12:43.975Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=39120&cc=us&l=english",
+  "responseDigest": "sha256:287c270243e146ecaf29b7c1abe15c0313ec20a2e21ea50645011a9eb842ecce",
+  "payload": {
+    "39120": {
+      "success": true,
+      "data": {
+        "steam_appid": 39120,
+        "name": "RIFT",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 1, 2011"
+        },
+        "recommendations": {
+          "total": 999
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:43bc47197f98bf5592c8b59f87700223d721feb4522e58c6140ed21eab1eb7dc"
+}

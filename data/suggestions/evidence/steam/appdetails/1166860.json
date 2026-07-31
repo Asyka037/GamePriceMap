@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1166860,
+  "fetchedAt": "2026-07-31T03:07:28.879Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1166860&cc=us&l=english",
+  "responseDigest": "sha256:6bb1331f0039cfcb14248b8749fa6113e54c59b3661ef95d97cce118081d162f",
+  "payload": {
+    "1166860": {
+      "success": true,
+      "data": {
+        "steam_appid": 1166860,
+        "name": "Rival Stars Horse Racing: Desktop Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 24, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4964
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:23e5e91e5115331f9ed81b6902caa8f1756add55bb1e6d2c182b2f2866a4e925"
+}

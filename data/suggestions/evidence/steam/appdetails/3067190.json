@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3067190,
+  "fetchedAt": "2026-07-31T02:50:27.867Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3067190&cc=us&l=english",
+  "responseDigest": "sha256:ac79ac40be322075f9e6ac00c7e4aa4ed1964c9257fbc6a854b66e499a5801be",
+  "payload": {
+    "3067190": {
+      "success": true,
+      "data": {
+        "steam_appid": 3067190,
+        "name": "Age of Empires IV: Dynasties of the East",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 998
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5bb6f4bc99530f8bb027682653d39b9035cdcca6a7b048d793544c5e4f3611d5"
+}

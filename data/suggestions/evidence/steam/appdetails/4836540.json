@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4836540,
+  "fetchedAt": "2026-07-31T03:47:55.349Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4836540&cc=us&l=english",
+  "responseDigest": "sha256:3f68a1286dd84fc297f73cffbb4762828c6fc26a659e5a8dd6f5a2f1516f7e2d",
+  "payload": {
+    "4836540": {
+      "success": true,
+      "data": {
+        "steam_appid": 4836540,
+        "name": "Company of Heroes 3: Final Stand",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2699,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 458
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e49a7dfafbb0e825aac514021def2a07bfb199d1f31b1cc2960bb9471e0aacb1"
+}

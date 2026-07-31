@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1239080,
+  "fetchedAt": "2026-07-31T02:42:31.881Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1239080&cc=us&l=english",
+  "responseDigest": "sha256:59f8435bd4c1cadba390f5065fe1db7c98cc437640019ebeca96b40047d74231",
+  "payload": {
+    "1239080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1239080,
+        "name": "Door Kickers 2: Task Force North",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12165
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:def05b6fbe3a437aabfa311041f688ab759c7565e8a84a53ee3e22a00e316faa"
+}

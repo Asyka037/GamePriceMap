@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2342950,
+  "fetchedAt": "2026-07-31T03:32:46.710Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2342950&cc=us&l=english",
+  "responseDigest": "sha256:1aae56057b68cebbf90fadc5e58521dbed40b640b9fb7c848cb61579b02d445c",
+  "payload": {
+    "2342950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2342950,
+        "name": "God Of Weapons",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 12, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 269,
+          "discount_percent": 55
+        },
+        "recommendations": {
+          "total": 4771
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d6c49e1bc11c344ef1e6d66bdcb65c89029e8911abb4eacf3970beeaf03bec89"
+}

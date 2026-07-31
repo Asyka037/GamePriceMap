@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4458310,
+  "fetchedAt": "2026-07-31T03:35:40.573Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4458310&cc=us&l=english",
+  "responseDigest": "sha256:5aaad9fcbf7b5b78c45ff6f53dbba3ecd46b09b09f3addbf397cdcbc2bea4227",
+  "payload": {
+    "4458310": {
+      "success": true,
+      "data": {
+        "steam_appid": 4458310,
+        "name": "Stick Scholars",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:64c9a81fb51a7728be3204fddc9d02c74b317edd3e6117badb25915e0e285a3e"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4046960,
+  "fetchedAt": "2026-07-31T02:45:32.406Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4046960&cc=us&l=english",
+  "responseDigest": "sha256:493d79ec43dfd88ff261c59e23f2a516879b4f7f6406a347e65f5723d54977ec",
+  "payload": {
+    "4046960": {
+      "success": true,
+      "data": {
+        "steam_appid": 4046960,
+        "name": "Car Dealer Simulator - Up 2 You DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1619,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 184
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8aeaf1ff3e8ecaf8fe9a95eb5b1f8678744fbbd5ab7caf04ff4c61bdd2e1fb93"
+}

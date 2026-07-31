@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2138610,
+  "fetchedAt": "2026-07-31T03:56:12.356Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2138610&cc=us&l=english",
+  "responseDigest": "sha256:6962406be29bbc8677d4b7dd0aa99c9537ce101216dfd29db60fd3a6d71f3a1b",
+  "payload": {
+    "2138610": {
+      "success": true,
+      "data": {
+        "steam_appid": 2138610,
+        "name": "The Legend of Heroes: Trails through Daybreak",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1151
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cd6e01e60fd2bb224b98055a391c3b665666534ee94ffd982c65b09e9625fe65"
+}

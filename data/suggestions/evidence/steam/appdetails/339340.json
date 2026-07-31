@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 339340,
+  "fetchedAt": "2026-07-31T02:55:49.355Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=339340&cc=us&l=english",
+  "responseDigest": "sha256:f8fe62de9a835a27592663be03a7d0c31de9984a1bdec784c36c99ec6599e5ac",
+  "payload": {
+    "339340": {
+      "success": true,
+      "data": {
+        "steam_appid": 339340,
+        "name": "Resident Evil 0",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 19, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 14139
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7160cdb565aaeaa209c255e44aff2ef34277abfdd4c46a48c3209b1dae3bfe62"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3039040,
+  "fetchedAt": "2026-07-31T04:02:41.296Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3039040&cc=us&l=english",
+  "responseDigest": "sha256:105e9490122b76c4e8da55ddc22b1076ef7e21de8172751b84b530ff71baccc1",
+  "payload": {
+    "3039040": {
+      "success": true,
+      "data": {
+        "steam_appid": 3039040,
+        "name": "Arcane Rush",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 10, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:146a0f506c5944cfe994872e6ec5f737fea26c09bf6f96b84a3b10cccff09dc0"
+}

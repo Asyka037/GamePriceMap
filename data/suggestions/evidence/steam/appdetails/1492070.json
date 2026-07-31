@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1492070,
+  "fetchedAt": "2026-07-31T03:32:36.482Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1492070&cc=us&l=english",
+  "responseDigest": "sha256:88e71ef824119fdb7be9f8be81d236ccf4938e0534d8d01e920865789862b60f",
+  "payload": {
+    "1492070": {
+      "success": true,
+      "data": {
+        "steam_appid": 1492070,
+        "name": "Sker Ritual",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4899
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f08f99062ad3bb303b6568306d3b6e498f2c0ec35a3a572b40d32a611ce0ab0c"
+}

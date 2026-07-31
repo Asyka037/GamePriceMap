@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1761390,
+  "fetchedAt": "2026-07-31T02:53:35.998Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1761390&cc=us&l=english",
+  "responseDigest": "sha256:7d6e8dc173896d4a8ee7ac8f6b9581d5594612d5fa116f2c376a03f2faca2eb5",
+  "payload": {
+    "1761390": {
+      "success": true,
+      "data": {
+        "steam_appid": 1761390,
+        "name": "Hatsune Miku: Project DIVA Mega Mix+",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3939,
+          "final": 3939,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19201
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d2d29a983ad34f95249fb90205e68bd5d5d67e7585df0ef4b5f8ec8700832bf0"
+}

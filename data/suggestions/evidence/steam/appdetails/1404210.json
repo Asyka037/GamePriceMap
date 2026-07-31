@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1404210,
+  "fetchedAt": "2026-07-31T03:09:37.702Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1404210&cc=us&l=english",
+  "responseDigest": "sha256:c03b572fca18d3822f45ef117270f93d30d99983b6325513c4684475add20188",
+  "payload": {
+    "1404210": {
+      "success": true,
+      "data": {
+        "steam_appid": 1404210,
+        "name": "Red Dead Online",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 59388
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e83b658ebf8bc631d8ec6bb45546d0319b9b20404a7a458d3099c8e22130ba0f"
+}

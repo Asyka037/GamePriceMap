@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3100370,
+  "fetchedAt": "2026-07-31T03:10:29.924Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3100370&cc=us&l=english",
+  "responseDigest": "sha256:ea1c4fa5b8dbf67611b65b1ef325c8a2d7fabae76285b6f769cef85519ac2029",
+  "payload": {
+    "3100370": {
+      "success": true,
+      "data": {
+        "steam_appid": 3100370,
+        "name": "Black Jacket",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1321
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:17e7a004a1df0d0c55ff84f52be39ddcbb79571a0c3b52d888a8ee4c8077b0f5"
+}

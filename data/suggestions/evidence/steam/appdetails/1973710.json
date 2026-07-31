@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1973710,
+  "fetchedAt": "2026-07-31T03:19:33.714Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1973710&cc=us&l=english",
+  "responseDigest": "sha256:83334ba3889200d0df6f6eb8471ca699759c5644a5ec709277ca00673d7450c4",
+  "payload": {
+    "1973710": {
+      "success": true,
+      "data": {
+        "steam_appid": 1973710,
+        "name": "ヘブンバーンズレッド",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 10, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0c3b4fb1652cf2c30c4c0b86a751418c2c6a91b8f7997c743e8a34b78075a0d0"
+}

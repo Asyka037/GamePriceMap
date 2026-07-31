@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4687220,
+  "fetchedAt": "2026-07-31T03:49:27.743Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4687220&cc=us&l=english",
+  "responseDigest": "sha256:4214962f296d0474992cdf7072ef29540a07438cc9b49b6f0ee2b0806826991e",
+  "payload": {
+    "4687220": {
+      "success": true,
+      "data": {
+        "steam_appid": 4687220,
+        "name": "Disgaea Mayhem - Bonus Story: Catastrophe Flan Arc",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:14557fa5a48d46c62ac01504f8c6d6757f269d52ec2e21b8d4b7d44d6d3103ed"
+}

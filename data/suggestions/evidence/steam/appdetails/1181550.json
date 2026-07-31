@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1181550,
+  "fetchedAt": "2026-07-31T03:03:31.888Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1181550&cc=us&l=english",
+  "responseDigest": "sha256:428a84321e5b38c38eafaf5dd87fbe121abca9cee2813fdf69a2949f343c9ab9",
+  "payload": {
+    "1181550": {
+      "success": true,
+      "data": {
+        "steam_appid": 1181550,
+        "name": "Carnival Hunt",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1799,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 1467
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dc65325837372272adcf20804fe073d761485314f05263f4655f1a47e476553d"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2803600,
+  "fetchedAt": "2026-07-31T03:20:10.578Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2803600&cc=us&l=english",
+  "responseDigest": "sha256:1f1df403be27a56f5a9e13c46a115ceb6e5b537dd2e642f702ae3e2b0792eb15",
+  "payload": {
+    "2803600": {
+      "success": true,
+      "data": {
+        "steam_appid": 2803600,
+        "name": "Warframe: Starter Weapon Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 116
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:21eb906672809fb4c76206a03885f1d3fae7e900c2d2731ba0d4c4c1639411a6"
+}

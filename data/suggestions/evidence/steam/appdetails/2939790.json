@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2939790,
+  "fetchedAt": "2026-07-31T03:30:56.813Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2939790&cc=us&l=english",
+  "responseDigest": "sha256:64d6806592bf26e2c3a965a4110e53424ca69634838ea697d066fe45b2d4e33b",
+  "payload": {
+    "2939790": {
+      "success": true,
+      "data": {
+        "steam_appid": 2939790,
+        "name": "Lunarium",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1619,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 103
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:69d352dc95abb311680b471a4378ffa9039143e3a5d5045bb7ddf7c06393b3e3"
+}

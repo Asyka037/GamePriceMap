@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2863640,
+  "fetchedAt": "2026-07-31T02:56:39.157Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2863640&cc=us&l=english",
+  "responseDigest": "sha256:c296830faa28b6cd754b48acae93bac66894ac9bf2175130977c378ee9ffa872",
+  "payload": {
+    "2863640": {
+      "success": true,
+      "data": {
+        "steam_appid": 2863640,
+        "name": "The Midnight Walk",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2611
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:991aef5e554b52649b86ae497d707296da2f4c870bb41342db36d9d21d90c551"
+}

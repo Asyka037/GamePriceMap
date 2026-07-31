@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 301320,
+  "fetchedAt": "2026-07-31T04:02:18.255Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=301320&cc=us&l=english",
+  "responseDigest": "sha256:8584d3dd636707eadef250a0aaf813da5767b10856cdc07649d4167581ccb9a8",
+  "payload": {
+    "301320": {
+      "success": true,
+      "data": {
+        "steam_appid": 301320,
+        "name": "NoLimits 2 Roller Coaster Simulation",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 21, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1524
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cb1035265f4555131a4fb248c95c05c53672d9c70b8bda8e60475c182a0790f2"
+}

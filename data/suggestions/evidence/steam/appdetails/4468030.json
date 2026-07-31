@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4468030,
+  "fetchedAt": "2026-07-31T03:00:39.611Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4468030&cc=us&l=english",
+  "responseDigest": "sha256:3d85583271fea3f689000829cccc5794ab1f29c9716e0a56ca705b48abdb88ad",
+  "payload": {
+    "4468030": {
+      "success": true,
+      "data": {
+        "steam_appid": 4468030,
+        "name": "OFFBEAT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1079,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 241
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:81dc8385b1d8b2be858bff357d89a1eaea95304f63cfd4c72e35a56db3c73f08"
+}

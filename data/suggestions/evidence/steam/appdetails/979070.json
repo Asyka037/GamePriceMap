@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 979070,
+  "fetchedAt": "2026-07-31T03:17:37.650Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=979070&cc=us&l=english",
+  "responseDigest": "sha256:3351f9b02b976c6ba6e32e31b9b8bb44c372dc21d4010ae54fe8f1405f276ea3",
+  "payload": {
+    "979070": {
+      "success": true,
+      "data": {
+        "steam_appid": 979070,
+        "name": "Just Die Already",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 20, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2774
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d5db7e08d322161ba162569cbfdb716f315865aeb216834cb0b8ec7931a8ebe0"
+}

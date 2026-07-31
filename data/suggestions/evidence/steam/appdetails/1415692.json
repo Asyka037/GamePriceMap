@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1415692,
+  "fetchedAt": "2026-07-31T03:09:02.128Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1415692&cc=us&l=english",
+  "responseDigest": "sha256:166d405f0193a7c63ef922000d07b4f4342e0c60ce6b78016567a1930bdcb9c1",
+  "payload": {
+    "1415692": {
+      "success": true,
+      "data": {
+        "steam_appid": 1415692,
+        "name": "American Truck Simulator - Wyoming",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 7, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 475
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c08f292c6318cc99146f504ddfc6c6cce25db08d49e7bb46bc183d1506e2302c"
+}

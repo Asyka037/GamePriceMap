@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2457220,
+  "fetchedAt": "2026-07-31T02:49:12.432Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2457220&cc=us&l=english",
+  "responseDigest": "sha256:ba6903bbbfc66023ccaf84cad38657a9d16fabf8efbfeeeb5d5c77bd0a471cc0",
+  "payload": {
+    "2457220": {
+      "success": true,
+      "data": {
+        "steam_appid": 2457220,
+        "name": "Avowed",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12324
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:228545ded707d3500f93ccc9b8a2b8a4a1f4c196dae6610cf7b8b4ca61862b28"
+}

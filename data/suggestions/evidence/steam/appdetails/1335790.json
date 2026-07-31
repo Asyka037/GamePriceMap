@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1335790,
+  "fetchedAt": "2026-07-31T03:57:54.650Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1335790&cc=us&l=english",
+  "responseDigest": "sha256:8356543af020877e1f1cd4c6737f8d89a86be96b592c26801982da816645eb18",
+  "payload": {
+    "1335790": {
+      "success": true,
+      "data": {
+        "steam_appid": 1335790,
+        "name": "Operation: Tango",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 7084
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7e4d9a063417a4823188109888335f8a7b4e51d3478c50a43718c912906bd92e"
+}

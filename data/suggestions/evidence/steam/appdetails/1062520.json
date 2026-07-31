@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1062520,
+  "fetchedAt": "2026-07-31T02:53:09.077Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1062520&cc=us&l=english",
+  "responseDigest": "sha256:246785bfede6eeba04483bcc61cf31cfe5fede61518b4204f063ccd7f7f0d86f",
+  "payload": {
+    "1062520": {
+      "success": true,
+      "data": {
+        "steam_appid": 1062520,
+        "name": "Dinkum",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 24530
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:32ba24af15551c2c92dbdff7d0bab642980eae688c02ff62b523696c0c300764"
+}

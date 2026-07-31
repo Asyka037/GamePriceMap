@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2704090,
+  "fetchedAt": "2026-07-31T03:15:39.366Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2704090&cc=us&l=english",
+  "responseDigest": "sha256:d8045da73a8bbe75fd1c2530f4d6072d577cc2ea12fafc2c187074950b8aa377",
+  "payload": {
+    "2704090": {
+      "success": true,
+      "data": {
+        "steam_appid": 2704090,
+        "name": "Celestial Return",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 117
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:88c14e7e76e9777ce22e88ec0f89321274601123bd14c825fde76b1e181c6f0c"
+}

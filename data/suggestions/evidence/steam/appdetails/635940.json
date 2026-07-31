@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 635940,
+  "fetchedAt": "2026-07-31T03:38:14.552Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=635940&cc=us&l=english",
+  "responseDigest": "sha256:67102a1b7f3e4d2f920e2ce3beb9fc701645fa098cbabb38d3f6a577a711ddce",
+  "payload": {
+    "635940": {
+      "success": true,
+      "data": {
+        "steam_appid": 635940,
+        "name": "Little Busters! English Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1065
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:40fa65ef8ce127c1f2b85a4f4fd36b7a4495be8304fe660ae60efac66066c62b"
+}

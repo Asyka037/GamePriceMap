@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3579790,
+  "fetchedAt": "2026-07-31T03:28:37.450Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3579790&cc=us&l=english",
+  "responseDigest": "sha256:a27c99d0e268eb5386e6e40968be2ecdb85126f29e62a72ed3f517cfe3c73d40",
+  "payload": {
+    "3579790": {
+      "success": true,
+      "data": {
+        "steam_appid": 3579790,
+        "name": "Cities: Skylines II - Creator Pack: Skyscrapers",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 103
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5febb644adcb3833949dc39bcf197397cf246e3a277f0b1d146d2f905f0acaaf"
+}

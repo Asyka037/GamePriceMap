@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 710230,
+  "fetchedAt": "2026-07-31T02:56:11.423Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=710230&cc=us&l=english",
+  "responseDigest": "sha256:3455dd1235c2c59331d1876eaed4c27e5ba25ed2b7d21c99d72bcc47a92bcc64",
+  "payload": {
+    "710230": {
+      "success": true,
+      "data": {
+        "steam_appid": 710230,
+        "name": "Urban Strife",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 569
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f21591b27d283d41416bb960705297f20f95910752806a6e7093456f08a8558f"
+}

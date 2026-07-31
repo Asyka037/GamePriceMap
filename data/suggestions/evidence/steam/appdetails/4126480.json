@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4126480,
+  "fetchedAt": "2026-07-31T03:18:41.545Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4126480&cc=us&l=english",
+  "responseDigest": "sha256:7191515cd975e8930d11b8c1713271ce0fd5b0bd140bfa6bad8362f40ee9b0d4",
+  "payload": {
+    "4126480": {
+      "success": true,
+      "data": {
+        "steam_appid": 4126480,
+        "name": "Fishing Inc",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1643
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:24463251bdb4145f5c25a749ac7e1894329d6bdbf51912a4bc9c6ed9d54a48db"
+}

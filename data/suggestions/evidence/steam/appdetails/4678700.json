@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4678700,
+  "fetchedAt": "2026-07-31T04:16:42.599Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4678700&cc=us&l=english",
+  "responseDigest": "sha256:e329d2c4aa00da23ebe2dce99e05f22616bc0614d3375dc36b9f43003df3a457",
+  "payload": {
+    "4678700": {
+      "success": true,
+      "data": {
+        "steam_appid": 4678700,
+        "name": "Holdfast: American Revolution - Washington’s Colonials",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 639,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2ce828d6a5d544f82962875c82d6c6fd021119988c09974d8f9463400a8f60d4"
+}

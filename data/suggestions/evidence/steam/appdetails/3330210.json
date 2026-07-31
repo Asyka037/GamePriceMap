@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3330210,
+  "fetchedAt": "2026-07-31T03:14:53.851Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3330210&cc=us&l=english",
+  "responseDigest": "sha256:c9fc96a4ff3b47134d232ba2e25f0d5df544f0991974e3e891ad294144c69c32",
+  "payload": {
+    "3330210": {
+      "success": true,
+      "data": {
+        "steam_appid": 3330210,
+        "name": "Kinny and the Cosmic Cauldron",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 974,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 300
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:52faa5003f2e828c8a48355a59461dd27b803bc8bcb0b32829d8bd1e2941455e"
+}

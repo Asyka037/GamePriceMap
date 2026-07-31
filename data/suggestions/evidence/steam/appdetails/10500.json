@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 10500,
+  "fetchedAt": "2026-07-31T03:02:38.650Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=10500&cc=us&l=english",
+  "responseDigest": "sha256:b988e730d8a0d5f211ee4f2b0fe3ab241bcffcdc78d8632a48cc2c8708a39038",
+  "payload": {
+    "10500": {
+      "success": true,
+      "data": {
+        "steam_appid": 10500,
+        "name": "Total War: EMPIRE – Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 4, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 21164
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dbe53eac27f5d7065dd072d08506751bfd2eef35c091cb406645644b82359d98"
+}

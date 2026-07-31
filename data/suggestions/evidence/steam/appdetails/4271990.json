@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4271990,
+  "fetchedAt": "2026-07-31T03:17:58.411Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4271990&cc=us&l=english",
+  "responseDigest": "sha256:8f79b99b09c3eaf280a0c252f4a14b0442e2e7910424a949d78d3ba6aa52c723",
+  "payload": {
+    "4271990": {
+      "success": true,
+      "data": {
+        "steam_appid": 4271990,
+        "name": "IL-2 Sturmovik: Odessa and Leningrad - Siege and Liberation",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 7999,
+          "final": 5599,
+          "discount_percent": 30
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2c41d64ee7c8ea75b50a513acd2f2b553e2ef46b2e779ac00166a2494e07ec52"
+}

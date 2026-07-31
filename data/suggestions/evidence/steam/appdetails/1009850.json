@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1009850,
+  "fetchedAt": "2026-07-31T02:57:51.092Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1009850&cc=us&l=english",
+  "responseDigest": "sha256:648846338fa7b5cda8ffc51f2f73d400fdb2572e0d7dbdf05f8d80c24c40ce06",
+  "payload": {
+    "1009850": {
+      "success": true,
+      "data": {
+        "steam_appid": 1009850,
+        "name": "OVR Advanced Settings",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 493
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:664736486562bd9f64797a87ee3e3a2a2b640cf7e42936d05d0e0625e987e247"
+}

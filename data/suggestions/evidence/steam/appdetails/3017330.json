@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3017330,
+  "fetchedAt": "2026-07-31T03:17:19.910Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3017330&cc=us&l=english",
+  "responseDigest": "sha256:a5728627c40d6563dea8dfe6058eafbc5e33002805ff90b79eb489d5d747f9c8",
+  "payload": {
+    "3017330": {
+      "success": true,
+      "data": {
+        "steam_appid": 3017330,
+        "name": "Verho - Curse of Faces",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1154
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d75878e7ca5b84c1f27f9120a7886fc5bfa188870198b39499703d805755c0a0"
+}

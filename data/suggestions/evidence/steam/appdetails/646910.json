@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 646910,
+  "fetchedAt": "2026-07-31T03:06:52.776Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=646910&cc=us&l=english",
+  "responseDigest": "sha256:3cf96e6058c2555642c7fc78d18ae93e16a108a708bada8cf62ccbe72ff48d0d",
+  "payload": {
+    "646910": {
+      "success": true,
+      "data": {
+        "steam_appid": 646910,
+        "name": "The Crew™ 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 28, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 86353
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:54e4582506ded8d7f798b222bcd0ecacd2f560bd673fb6829bd27cf70b91b6b6"
+}

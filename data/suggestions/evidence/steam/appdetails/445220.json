@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 445220,
+  "fetchedAt": "2026-07-31T03:28:11.045Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=445220&cc=us&l=english",
+  "responseDigest": "sha256:61094e48295eb23d3ff35a3c3f29e1f534141d2d2a416946431b7e90d52a47f8",
+  "payload": {
+    "445220": {
+      "success": true,
+      "data": {
+        "steam_appid": 445220,
+        "name": "Avorion",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 9, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12957
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b48826ccf7dbc989a9c81250788f9fd09e395cc3ad000aca1e6adbf065b50738"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 418530,
+  "fetchedAt": "2026-07-31T03:08:36.981Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=418530&cc=us&l=english",
+  "responseDigest": "sha256:6c70866dceb4ca194469df9d719d69b398209d8bc8a9d3073a9c07ddaba7fd0e",
+  "payload": {
+    "418530": {
+      "success": true,
+      "data": {
+        "steam_appid": 418530,
+        "name": "Spelunky 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 29, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19635
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:be344812271a5e027e529cedeee2bbb3744e9f5a57ae4d7c14abfd830bf196e6"
+}

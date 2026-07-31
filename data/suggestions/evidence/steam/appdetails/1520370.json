@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1520370,
+  "fetchedAt": "2026-07-31T02:55:30.127Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1520370&cc=us&l=english",
+  "responseDigest": "sha256:f8acd51b2d1bbfae4627a25d408eb813365ab0a993bf7f68449df3d2834ac1fa",
+  "payload": {
+    "1520370": {
+      "success": true,
+      "data": {
+        "steam_appid": 1520370,
+        "name": "Mon Bazou",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19644
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:19e9f03b3a3b599e1d95991dba093ba23422c7fb3624c48bd57c9e505a426ca6"
+}

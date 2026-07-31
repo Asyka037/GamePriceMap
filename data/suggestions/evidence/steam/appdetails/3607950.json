@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3607950,
+  "fetchedAt": "2026-07-31T03:27:57.527Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3607950&cc=us&l=english",
+  "responseDigest": "sha256:3cd837e00fb5e69cdcc9b2331e10f2f2762659e9e9ffe0901cd3d6e8ea6a1130",
+  "payload": {
+    "3607950": {
+      "success": true,
+      "data": {
+        "steam_appid": 3607950,
+        "name": "Ravenswatch - Merlin",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 19, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 172
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:32c9a48393a94984da8d4c8cb29056c41e856ddadebb6cdb24834f5e82bd46a6"
+}

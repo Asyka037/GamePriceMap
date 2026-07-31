@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4035830,
+  "fetchedAt": "2026-07-31T04:01:45.088Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4035830&cc=us&l=english",
+  "responseDigest": "sha256:3308c939d8f849396588f3a96ed053fd251165993c4887816f745d367c3197a8",
+  "payload": {
+    "4035830": {
+      "success": true,
+      "data": {
+        "steam_appid": 4035830,
+        "name": "Train Sim World® 6: Northeast Corridor Metro-North: New York - Stamford Route Add-On ",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 19, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 3599,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed2079040bb0b51b9634429e0b25c899f832a40ae0b3fcc3836bba7210d99751"
+}

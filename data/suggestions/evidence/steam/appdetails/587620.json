@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 587620,
+  "fetchedAt": "2026-07-31T03:36:13.380Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=587620&cc=us&l=english",
+  "responseDigest": "sha256:28221ab655e7f37e83f3544cb06e442e9222b2215da6b12d05aafd4763e9a9c0",
+  "payload": {
+    "587620": {
+      "success": true,
+      "data": {
+        "steam_appid": 587620,
+        "name": "Okami HD",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8171
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6613f92e38249ae8a8452c0037368ff483c30774b812c814abb7bc5c2967bf02"
+}

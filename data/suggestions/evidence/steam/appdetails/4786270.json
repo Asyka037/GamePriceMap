@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4786270,
+  "fetchedAt": "2026-07-31T03:01:19.807Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4786270&cc=us&l=english",
+  "responseDigest": "sha256:7c1c11775f57a9a55cc5a4ccccfad6fbc06c060a8208882aa925ec6c35665951",
+  "payload": {
+    "4786270": {
+      "success": true,
+      "data": {
+        "steam_appid": 4786270,
+        "name": "DragonSword : Awakening - Costume : Wild Strawberry Waitress",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9f55476f40a8b5682383c7c17e64d4ead736ae4faecae191c7ae00ee9b0aae6e"
+}

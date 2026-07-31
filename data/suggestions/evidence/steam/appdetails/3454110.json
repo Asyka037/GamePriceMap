@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3454110,
+  "fetchedAt": "2026-07-31T03:36:26.414Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3454110&cc=us&l=english",
+  "responseDigest": "sha256:6a6692cc2b43ba011a3ec991580dafe0bf47b3fda39a6e401acf45795da1f2d3",
+  "payload": {
+    "3454110": {
+      "success": true,
+      "data": {
+        "steam_appid": 3454110,
+        "name": "Starship Troopers: Terran Command - The Eradicators",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 119
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:39b38ec4e9e2f96a348bdb277c12ccdde857425106115c9a4534847aa5b3001e"
+}

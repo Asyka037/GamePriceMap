@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1677110,
+  "fetchedAt": "2026-07-31T02:53:27.136Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1677110&cc=us&l=english",
+  "responseDigest": "sha256:06131b79d6f0d8c9f985e321360901a524af4351abe7a4eca6eeefc8a1c8f0e9",
+  "payload": {
+    "1677110": {
+      "success": true,
+      "data": {
+        "steam_appid": 1677110,
+        "name": "Lightyear Frontier",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 19, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4190
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7d7478561cad419b6a1890b7f964444fc860bcc123a2c6c41bb8d97cebb78332"
+}

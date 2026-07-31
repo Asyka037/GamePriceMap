@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 285330,
+  "fetchedAt": "2026-07-31T03:03:11.416Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=285330&cc=us&l=english",
+  "responseDigest": "sha256:a18389955de5bab15ccc0961f1c9384f00a8ad37142322e8b3d7bead04447bac",
+  "payload": {
+    "285330": {
+      "success": true,
+      "data": {
+        "steam_appid": 285330,
+        "name": "RollerCoaster Tycoon® 2: Triple Thrill Pack",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5015
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a41f0399fef1bcab4afa9676cdf6f2a4d0d9e36b4cb2c29a95f7b192c73985f"
+}

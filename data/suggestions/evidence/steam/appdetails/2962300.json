@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2962300,
+  "fetchedAt": "2026-07-31T04:09:24.478Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2962300&cc=us&l=english",
+  "responseDigest": "sha256:093530cb6ff2cb02c7d6dd4d3be90ceaab8ea877c369bc5895d14cc551c15b23",
+  "payload": {
+    "2962300": {
+      "success": true,
+      "data": {
+        "steam_appid": 2962300,
+        "name": "Royal Quest Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 19, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6774ec57ca18d4ca17380165918345c6d70ffe67e137e5ce062e6ee1cc2babb2"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3631290,
+  "fetchedAt": "2026-07-31T03:09:28.800Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3631290&cc=us&l=english",
+  "responseDigest": "sha256:abfd6e3909ad3c1c3fd6918fd44676bad431abaa2cf9185ed8f3babd553da396",
+  "payload": {
+    "3631290": {
+      "success": true,
+      "data": {
+        "steam_appid": 3631290,
+        "name": "Slots & Daggers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7226
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:57b4890e5e5357e4c6293a3f39c09703c26cc4ef67fca611f96014ff0951e64f"
+}

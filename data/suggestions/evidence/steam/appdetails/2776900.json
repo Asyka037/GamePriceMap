@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2776900,
+  "fetchedAt": "2026-07-31T03:15:32.086Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2776900&cc=us&l=english",
+  "responseDigest": "sha256:769d237cad28dd8129d37e5fffb033be6060ad14ba56b31bc8e5703900a426c4",
+  "payload": {
+    "2776900": {
+      "success": true,
+      "data": {
+        "steam_appid": 2776900,
+        "name": "The Eminence in Shadow: Master of Garden",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 28, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:81eb8aba4b50124c2f02bd63ef0fb8c8438f512381e71dda4da09b81835e920e"
+}

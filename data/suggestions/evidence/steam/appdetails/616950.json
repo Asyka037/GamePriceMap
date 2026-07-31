@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 616950,
+  "fetchedAt": "2026-07-31T03:23:22.151Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=616950&cc=us&l=english",
+  "responseDigest": "sha256:886c96d805f61be59a4745c336909ebeb554382d423078e18951c0bc2671dd44",
+  "payload": {
+    "616950": {
+      "success": true,
+      "data": {
+        "steam_appid": 616950,
+        "name": "Beholder - Blissful Sleep",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 18, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 149,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 563
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a1446149943ae8ddbd9eaebd8c6d047f13a20d40df09c8fec761a5cebc79de92"
+}

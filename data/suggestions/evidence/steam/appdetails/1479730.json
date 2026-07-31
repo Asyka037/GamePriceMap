@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1479730,
+  "fetchedAt": "2026-07-31T03:16:01.911Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1479730&cc=us&l=english",
+  "responseDigest": "sha256:8fd29fcfaf82235e4187d7c88730ff9e875bef4d9e543c16028e311bdbbbddd7",
+  "payload": {
+    "1479730": {
+      "success": true,
+      "data": {
+        "steam_appid": 1479730,
+        "name": "Commandos: Origins",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1782
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e3927db2360987c915558a9be1492a3f6b48dacb63d98a0f4bf03f015640c449"
+}

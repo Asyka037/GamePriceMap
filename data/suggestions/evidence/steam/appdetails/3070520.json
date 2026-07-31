@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3070520,
+  "fetchedAt": "2026-07-31T04:08:18.477Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3070520&cc=us&l=english",
+  "responseDigest": "sha256:67b8057bb56e9a24a8f9214e0c11ad7e10b9af938a89353dd06ecb8beb772788",
+  "payload": {
+    "3070520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3070520,
+        "name": "Granny: Escape Together",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 6, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1567
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7484236b9ed51ed2985a764ec951199d730d062134a29c53a96a385a8079f73a"
+}

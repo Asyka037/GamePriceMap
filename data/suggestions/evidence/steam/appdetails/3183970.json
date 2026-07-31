@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3183970,
+  "fetchedAt": "2026-07-31T03:17:00.444Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3183970&cc=us&l=english",
+  "responseDigest": "sha256:6372e3b4c5692cb8dc195e4c4f5f1b74cefa8907df2d1c1db397c865068a0d5e",
+  "payload": {
+    "3183970": {
+      "success": true,
+      "data": {
+        "steam_appid": 3183970,
+        "name": "GEX Trilogy",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 321
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b501539d14b9fd363fcfb88778686c3ea88eb037b887f3b2d75ef6c1d7008ef7"
+}

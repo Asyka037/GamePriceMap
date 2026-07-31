@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1255560,
+  "fetchedAt": "2026-07-31T03:01:25.784Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1255560&cc=us&l=english",
+  "responseDigest": "sha256:58126df14ab704a09d7fd8428747995a3c027a2f0226fe6d42c2d4c4dbad2b13",
+  "payload": {
+    "1255560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1255560,
+        "name": "Myst",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 26, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1981
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5eba59472d2e11e385e14bd4ca9c16874868180ed0fe3ef94c449d44554a0795"
+}

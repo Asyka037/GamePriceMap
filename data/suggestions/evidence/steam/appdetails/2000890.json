@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2000890,
+  "fetchedAt": "2026-07-31T02:54:10.312Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2000890&cc=us&l=english",
+  "responseDigest": "sha256:badec8b09262752ec8cdd641288ea6a1533a0b6be2552002cc3f07054e7b7eaa",
+  "payload": {
+    "2000890": {
+      "success": true,
+      "data": {
+        "steam_appid": 2000890,
+        "name": "MechWarrior 5: Clans",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5506
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b9b5a889c94d3ac2ce900e7aae768d1bb49dc931645e8eb746314100a0e5437c"
+}

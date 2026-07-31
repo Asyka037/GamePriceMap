@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1059990,
+  "fetchedAt": "2026-07-31T03:24:03.197Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1059990&cc=us&l=english",
+  "responseDigest": "sha256:78f52c9584659c9a46f8d9cd7729be388eab0b4ca18f5b626254d37936978c14",
+  "payload": {
+    "1059990": {
+      "success": true,
+      "data": {
+        "steam_appid": 1059990,
+        "name": "Trombone Champ",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 15, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10230
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f5cac0ef04797d70c55110d73932e1d5e53eaa3aefdf5c779aecaa9a7ca661e7"
+}

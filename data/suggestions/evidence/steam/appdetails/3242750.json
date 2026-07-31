@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3242750,
+  "fetchedAt": "2026-07-31T03:09:10.905Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3242750&cc=us&l=english",
+  "responseDigest": "sha256:9cf8c2968ad863d29da786a09c5aeb61f3f349ebf303b67fc845c424c877868b",
+  "payload": {
+    "3242750": {
+      "success": true,
+      "data": {
+        "steam_appid": 3242750,
+        "name": "Level Devil",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1233
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7943b285d0009bdc7c517eae0229ee34dc5635ec18f52cb733f21a448a3944b6"
+}

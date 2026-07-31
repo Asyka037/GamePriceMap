@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2440510,
+  "fetchedAt": "2026-07-31T02:52:38.719Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2440510&cc=us&l=english",
+  "responseDigest": "sha256:5d9b0a2586312724260154d89bbc41f20ae020e0fc015a9d3d8f3ceafc81da03",
+  "payload": {
+    "2440510": {
+      "success": true,
+      "data": {
+        "steam_appid": 2440510,
+        "name": "Forza Motorsport",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 9, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11987
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0cc5caff921e8c01c68e6cd00a67d4cef1cc0e4d0eb5817fc6f3cd117f6a7600"
+}

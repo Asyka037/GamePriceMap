@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 460920,
+  "fetchedAt": "2026-07-31T03:08:20.636Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=460920&cc=us&l=english",
+  "responseDigest": "sha256:0fcf92a232b8930a78ddf4bd8657f4d12ae0562c31b21c69da12c5ec866314e3",
+  "payload": {
+    "460920": {
+      "success": true,
+      "data": {
+        "steam_appid": 460920,
+        "name": "Steep™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 2, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 449,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 30526
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:567d3318d6ed54d09a1b234cc60e98e928e4647edc1c6739c30937555881691e"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1520620,
+  "fetchedAt": "2026-07-31T02:55:19.827Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1520620&cc=us&l=english",
+  "responseDigest": "sha256:ef2dec242788a601f388209a2a50c6037aaaaaae5b02e69e0d2271dc1fa58e19",
+  "payload": {
+    "1520620": {
+      "success": true,
+      "data": {
+        "steam_appid": 1520620,
+        "name": "VTube Studio - Remove Watermark",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5b41ea0e1c5778cc7c15db85d8cce4e3de9e6c3406931d4f0d35b562a79d48a1"
+}

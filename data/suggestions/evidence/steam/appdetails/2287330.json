@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2287330,
+  "fetchedAt": "2026-07-31T03:09:21.410Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2287330&cc=us&l=english",
+  "responseDigest": "sha256:c995af1ea1d9b2103712df6275e751cf27f2805e7d67a3b892f3e0025d57f9f4",
+  "payload": {
+    "2287330": {
+      "success": true,
+      "data": {
+        "steam_appid": 2287330,
+        "name": "Empire of the Ants",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1399,
+          "discount_percent": 65
+        },
+        "recommendations": {
+          "total": 921
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:96896554abff616c1756c3fe526ceb598e7bc22a254169ae030a31568018f691"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 403640,
+  "fetchedAt": "2026-07-31T03:29:43.715Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=403640&cc=us&l=english",
+  "responseDigest": "sha256:4e5d1a36b9d7208c9f1a5827a19d637900fc14cc678983e6eaec0ca6337eff24",
+  "payload": {
+    "403640": {
+      "success": true,
+      "data": {
+        "steam_appid": 403640,
+        "name": "Dishonored 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 11, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 599,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 42600
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9b99916548ebe1b6446a4d7626b14a51b3c990a19829c4285b4a31932430bd2f"
+}

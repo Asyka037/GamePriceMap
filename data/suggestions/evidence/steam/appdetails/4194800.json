@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4194800,
+  "fetchedAt": "2026-07-31T03:42:40.691Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4194800&cc=us&l=english",
+  "responseDigest": "sha256:253eaed58e41ef29786117bd2edcb54829dc17b2340e63a3df62d777303161e6",
+  "payload": {
+    "4194800": {
+      "success": true,
+      "data": {
+        "steam_appid": 4194800,
+        "name": "Starvester",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 629,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 748
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b41e95f7d2ff077c5abd0607409dd8f371532ac100f2871907d048f694810133"
+}

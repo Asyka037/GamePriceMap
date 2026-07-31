@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1919470,
+  "fetchedAt": "2026-07-31T03:14:52.402Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1919470&cc=us&l=english",
+  "responseDigest": "sha256:8beab1b235f4852d1c28d988d13c0f84e74e48d762c635ceb323093e4d39039d",
+  "payload": {
+    "1919470": {
+      "success": true,
+      "data": {
+        "steam_appid": 1919470,
+        "name": "Atari 50: The Anniversary Celebration",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 11, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 450
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1ec00fa43a6dbeb003ddaf16be8e135635ef6696bb3759e23481651531a18589"
+}

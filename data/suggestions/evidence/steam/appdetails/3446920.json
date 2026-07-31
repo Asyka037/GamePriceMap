@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3446920,
+  "fetchedAt": "2026-07-31T02:52:03.346Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3446920&cc=us&l=english",
+  "responseDigest": "sha256:d6a6f61c91ef1400abad88ca2b30579f177726616a978af1422f1bae38c71524",
+  "payload": {
+    "3446920": {
+      "success": true,
+      "data": {
+        "steam_appid": 3446920,
+        "name": "Mecharashi",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 30, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0cb478bd9ab67b53c7d1b7e5afb9e2f41d333c7a57dc89d993aa470406d0d2c4"
+}

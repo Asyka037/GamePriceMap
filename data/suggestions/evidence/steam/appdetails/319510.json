@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 319510,
+  "fetchedAt": "2026-07-31T02:44:09.667Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=319510&cc=us&l=english",
+  "responseDigest": "sha256:b9bac8700dcec3b50cfbd16dc0c41cfecf659c01f4c82193415706262df3df36",
+  "payload": {
+    "319510": {
+      "success": true,
+      "data": {
+        "steam_appid": 319510,
+        "name": "Five Nights at Freddy's",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 19, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 53154
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:12d57469a8b8259d0d0493c17502acacb31a5036ea6b3735b0aa4efd745081ab"
+}

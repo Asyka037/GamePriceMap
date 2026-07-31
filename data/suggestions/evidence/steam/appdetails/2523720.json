@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2523720,
+  "fetchedAt": "2026-07-31T02:43:18.055Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2523720&cc=us&l=english",
+  "responseDigest": "sha256:481cada8be60303e9bf4120bbf9d3be9fc10a0a1e117e833abbe0e7934c8c935",
+  "payload": {
+    "2523720": {
+      "success": true,
+      "data": {
+        "steam_appid": 2523720,
+        "name": "Gears of War: Reloaded",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 26, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3322
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b28205a9e5ca959efe11101018a600b2f176f1d38b16ae7427bc77548f835bc6"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2591280,
+  "fetchedAt": "2026-07-31T03:58:57.317Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2591280&cc=us&l=english",
+  "responseDigest": "sha256:e6573bbb121bbca557c75d8d2cbfadf01dfb9d1a05ea5a3dd7efae460d04707b",
+  "payload": {
+    "2591280": {
+      "success": true,
+      "data": {
+        "steam_appid": 2591280,
+        "name": "F1® Manager 2024",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5430
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8365051c67d05c32e7ea6e6ec022ab204b7dca5e07d66e78b532cca0a7fc88a6"
+}

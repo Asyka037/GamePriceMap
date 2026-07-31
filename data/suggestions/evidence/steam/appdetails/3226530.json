@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3226530,
+  "fetchedAt": "2026-07-31T03:46:49.433Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3226530&cc=us&l=english",
+  "responseDigest": "sha256:b9111c15a6d3cacac56e32ea9736a5e62f08cd1f8a8f73e9e5ba0fed3f8a2528",
+  "payload": {
+    "3226530": {
+      "success": true,
+      "data": {
+        "steam_appid": 3226530,
+        "name": "Tower Dominion",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1749,
+          "final": 1049,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 4905
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4f4fdd62ea027117369d994bfa83848f3c95db261b819ed033687c880a32fefa"
+}

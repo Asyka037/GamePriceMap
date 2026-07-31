@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2509200,
+  "fetchedAt": "2026-07-31T04:00:52.303Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2509200&cc=us&l=english",
+  "responseDigest": "sha256:30a2c8877e9096f0edf5a3f2e07d3b9799586e3c085f2dc19d5c85238ab6b2c8",
+  "payload": {
+    "2509200": {
+      "success": true,
+      "data": {
+        "steam_appid": 2509200,
+        "name": "ERA ONE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1481
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f85fb297ea0c0a817368d528d776597ebd0d6081d47a690fd83ed7309df3e185"
+}

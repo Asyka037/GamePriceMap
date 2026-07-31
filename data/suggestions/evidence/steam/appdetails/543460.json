@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 543460,
+  "fetchedAt": "2026-07-31T03:24:23.790Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=543460&cc=us&l=english",
+  "responseDigest": "sha256:a4da5605f8874a1daa4a26e91b2de86423159e5c0968af939684796aee646feb",
+  "payload": {
+    "543460": {
+      "success": true,
+      "data": {
+        "steam_appid": 543460,
+        "name": "Dead Rising 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 14, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4739
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:39330609cbd8afcdf7014fab7e1259b4633c4aae87ce335e791115bc27ea4998"
+}

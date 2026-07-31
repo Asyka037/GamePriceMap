@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4160210,
+  "fetchedAt": "2026-07-31T02:43:06.237Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4160210&cc=us&l=english",
+  "responseDigest": "sha256:a0e15d34a0704f6679dd38a58337daeb9e38e1c13f7912a47b809faeee8c740b",
+  "payload": {
+    "4160210": {
+      "success": true,
+      "data": {
+        "steam_appid": 4160210,
+        "name": "The Artisan of Glimmith",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1039,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 2092
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:34f7a9836b6434a0898e99b5db659c3a91c77b57a23f795b2f7d2f4d94c69ace"
+}

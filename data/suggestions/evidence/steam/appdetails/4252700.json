@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4252700,
+  "fetchedAt": "2026-07-31T03:48:11.797Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4252700&cc=us&l=english",
+  "responseDigest": "sha256:e34e80d2b117c67772dc8a8a831bb2585ef0a24d31104817e18729065f5b55f2",
+  "payload": {
+    "4252700": {
+      "success": true,
+      "data": {
+        "steam_appid": 4252700,
+        "name": "Archon Soul",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 979,
+          "discount_percent": 30
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9a4571a51572bb8f3ae6864c822cf467ab417b86232ec543b0e06729f85a6d8b"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1090200,
+  "fetchedAt": "2026-07-31T02:46:17.956Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1090200&cc=us&l=english",
+  "responseDigest": "sha256:b510038c35637e3e7aefe4eee3e153a2bfecaaf4059701385d7621ca362b9ddf",
+  "payload": {
+    "1090200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1090200,
+        "name": "Destiny 2: Shadowkeep Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 1, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 99,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 4229
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:154297b0376841a2b3362ae3bebe46e5de7db5e6f02a60dcae9edc273d0a5b36"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 383150,
+  "fetchedAt": "2026-07-31T03:06:15.797Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=383150&cc=us&l=english",
+  "responseDigest": "sha256:6ca807cdc4f497b087d7775ca181860bd22f7502fb300c6bc7f28e144d982ed8",
+  "payload": {
+    "383150": {
+      "success": true,
+      "data": {
+        "steam_appid": 383150,
+        "name": "Dead Island Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 31, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23854
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:58ddc279ef90e2bb5fd024ab16f90aedfc360fce621bbdd469e25abcbbac1034"
+}

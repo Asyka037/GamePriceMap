@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1746030,
+  "fetchedAt": "2026-07-31T04:15:59.734Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1746030&cc=us&l=english",
+  "responseDigest": "sha256:c1e003f8510861ab0cc2a8d11bdb7d2eccd217d06d68eaf90033877a448c5456",
+  "payload": {
+    "1746030": {
+      "success": true,
+      "data": {
+        "steam_appid": 1746030,
+        "name": "Murders on the Yangtze River",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 899,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 15649
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b21b1f65808391d94e0bec453903222f76cafee2f2280dd8147f796131216aff"
+}

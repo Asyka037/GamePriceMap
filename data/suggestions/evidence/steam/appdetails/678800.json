@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 678800,
+  "fetchedAt": "2026-07-31T03:16:16.834Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=678800&cc=us&l=english",
+  "responseDigest": "sha256:70fad673814235ead280d690158fe29023999e6d2b79b9f88c2d71c6b242575d",
+  "payload": {
+    "678800": {
+      "success": true,
+      "data": {
+        "steam_appid": 678800,
+        "name": "SAS: Zombie Assault 4",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0d5e122442378053c610cdb85d5fd9821c10490a161932994b84f1c3b39e2755"
+}

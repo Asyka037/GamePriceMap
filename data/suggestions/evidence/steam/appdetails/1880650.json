@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1880650,
+  "fetchedAt": "2026-07-31T03:18:22.142Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1880650&cc=us&l=english",
+  "responseDigest": "sha256:fb1e13991035894ba447f9c101ce9ece45add071139a983bbb2285c225be35ce",
+  "payload": {
+    "1880650": {
+      "success": true,
+      "data": {
+        "steam_appid": 1880650,
+        "name": "Expansion - Hearts of Iron IV: By Blood Alone",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 27, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2953
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:204a453d3ed0d554d608f21f994edc1ccef9097fd13a3446c82bb908e5dcf757"
+}

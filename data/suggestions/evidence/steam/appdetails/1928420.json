@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1928420,
+  "fetchedAt": "2026-07-31T03:54:27.726Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1928420&cc=us&l=english",
+  "responseDigest": "sha256:0255ef849a5dfab2703ce81c5f86031a2281bc860d67d3e1b06183103e0d9579",
+  "payload": {
+    "1928420": {
+      "success": true,
+      "data": {
+        "steam_appid": 1928420,
+        "name": "Farlight 84",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 21, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9477a94e81d1fb3a62841166f13c342754cba0c53079995a42849b3f8c1128f0"
+}

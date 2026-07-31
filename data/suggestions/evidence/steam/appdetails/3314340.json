@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3314340,
+  "fetchedAt": "2026-07-31T03:10:53.430Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3314340&cc=us&l=english",
+  "responseDigest": "sha256:83f781014e34646b8b2347151bcf067e4a228719490a7400f61c921f18609369",
+  "payload": {
+    "3314340": {
+      "success": true,
+      "data": {
+        "steam_appid": 3314340,
+        "name": "Burgie's Cozy Kitchen",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1072
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6bd88c7983ce1ea846a5a70d8a7b65694dcc8e57a046f0ff7f88413242ce86b7"
+}

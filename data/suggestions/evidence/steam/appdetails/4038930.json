@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4038930,
+  "fetchedAt": "2026-07-31T03:20:38.911Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4038930&cc=us&l=english",
+  "responseDigest": "sha256:9d3c10922f884d1dfb2d6d6f6f543ad1344789bae0f0f7612262e0dcb3be4901",
+  "payload": {
+    "4038930": {
+      "success": true,
+      "data": {
+        "steam_appid": 4038930,
+        "name": "DYNASTY WARRIORS: ORIGINS Visions of Four Heroes",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2624,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 1101
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e91d8c50ee7ddede8aa17380c201ccd79ccd9a60b81b975f6927c8926868cc7f"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2447000,
+  "fetchedAt": "2026-07-31T03:14:44.995Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2447000&cc=us&l=english",
+  "responseDigest": "sha256:7aba36cc96cea664538afc5034164ea10d287508020b86e0f6e3b2d9e69bfad2",
+  "payload": {
+    "2447000": {
+      "success": true,
+      "data": {
+        "steam_appid": 2447000,
+        "name": "High On Life: High On Knife",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 525
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:58ead9a4b643514047e40ffdd41984ee74c60a5883c860191bd9baf34f771e3d"
+}

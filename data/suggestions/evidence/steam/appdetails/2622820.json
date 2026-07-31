@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2622820,
+  "fetchedAt": "2026-07-31T03:55:59.092Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2622820&cc=us&l=english",
+  "responseDigest": "sha256:89dbec30d27e13e9ab8a9c7ee8bfa053bd4badef3a4d76dd27e641a8b025c685",
+  "payload": {
+    "2622820": {
+      "success": true,
+      "data": {
+        "steam_appid": 2622820,
+        "name": "Dobbel Dungeon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 433
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4315b56908608909d8e34f687439ba58b3473b1922f771e53d2801a5d714f98f"
+}

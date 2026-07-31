@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2726490,
+  "fetchedAt": "2026-07-31T02:55:22.760Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2726490&cc=us&l=english",
+  "responseDigest": "sha256:6525264476cd6b3a5c645018f41a088255394bb28ffac8a783a85bb4c8f2abb8",
+  "payload": {
+    "2726490": {
+      "success": true,
+      "data": {
+        "steam_appid": 2726490,
+        "name": "Hamster Hunter",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 31, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 3175
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e128c46ff619fc44fe15cbf2d21385b5c34a5abed501561820311e8c198936a1"
+}

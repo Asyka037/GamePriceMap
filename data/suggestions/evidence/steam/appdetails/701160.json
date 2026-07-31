@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 701160,
+  "fetchedAt": "2026-07-31T02:48:36.798Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=701160&cc=us&l=english",
+  "responseDigest": "sha256:828b7edc0d8d9fa17b3945f0a69e391e796d1497f36b7ae8df30fa590c946934",
+  "payload": {
+    "701160": {
+      "success": true,
+      "data": {
+        "steam_appid": 701160,
+        "name": "Kingdom Two Crowns",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 30805
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3f6a0989b22012e48f21e96203040ac796ee30e0cdc03f3886916874f7c95606"
+}

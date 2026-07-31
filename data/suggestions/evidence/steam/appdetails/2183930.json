@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2183930,
+  "fetchedAt": "2026-07-31T03:41:15.308Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2183930&cc=us&l=english",
+  "responseDigest": "sha256:f6b98284a38668dce85296e55b9b7a3be68055b4da94602c663be3bfb245693e",
+  "payload": {
+    "2183930": {
+      "success": true,
+      "data": {
+        "steam_appid": 2183930,
+        "name": "Expansion - Hearts of Iron IV: Arms Against Tyranny",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1943
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2c36e78251e63c30c041fd4f8ec28662e7a730457fb9d843fcd4c955ebcc8d4c"
+}

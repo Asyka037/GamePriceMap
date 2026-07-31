@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2976110,
+  "fetchedAt": "2026-07-31T03:34:01.799Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2976110&cc=us&l=english",
+  "responseDigest": "sha256:3c9d9fdaefdabf81822bf48e05daf43df09cfee402ade5df8b3bca42944f7ba8",
+  "payload": {
+    "2976110": {
+      "success": true,
+      "data": {
+        "steam_appid": 2976110,
+        "name": "Separated",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 899,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a4faf43eb1747426c5794d458ac66dee98bb22626583905853cbe9085ccb2a37"
+}

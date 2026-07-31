@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2411231,
+  "fetchedAt": "2026-07-31T03:06:03.953Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2411231&cc=us&l=english",
+  "responseDigest": "sha256:4d9844b6e480a0383bdeb9c561e36d7237a4c11900e259567db2aab04151741c",
+  "payload": {
+    "2411231": {
+      "success": true,
+      "data": {
+        "steam_appid": 2411231,
+        "name": "Victoria 3: Sphere of Influence - Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1145
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:87757f33e86f608a10840daebe641662abb29a922136f0f06b2196db74e50a63"
+}

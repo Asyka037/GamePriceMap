@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3198850,
+  "fetchedAt": "2026-07-31T02:59:13.183Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3198850&cc=us&l=english",
+  "responseDigest": "sha256:692eda1823790979354c0e495c305ae7175e34f2c673837681352c313c640eff",
+  "payload": {
+    "3198850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3198850,
+        "name": "Play Together",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 13, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cac2d60e6fbd038b21ee4688c67e28e7b6ef6ce0f9661862ae1e7bf890b6b4c0"
+}

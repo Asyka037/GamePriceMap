@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 420530,
+  "fetchedAt": "2026-07-31T02:57:59.920Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=420530&cc=us&l=english",
+  "responseDigest": "sha256:439763781c352182e524b7fcd48f1a6e69328ef7346d7d6b2ae6a27e35108f8b",
+  "payload": {
+    "420530": {
+      "success": true,
+      "data": {
+        "steam_appid": 420530,
+        "name": "OneShot",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 8, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 58310
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b4e3c3f1cca288dc1e5d88e31363e40335ddbcba0e995fba9e6a91d4e7d43cc5"
+}

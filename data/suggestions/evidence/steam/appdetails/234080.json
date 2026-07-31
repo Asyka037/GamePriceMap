@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 234080,
+  "fetchedAt": "2026-07-31T02:55:06.549Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=234080&cc=us&l=english",
+  "responseDigest": "sha256:e3680ab1be3e1cb6d909ea74c6fad8724aee57880d21f8b42fe4da37a00b2413",
+  "payload": {
+    "234080": {
+      "success": true,
+      "data": {
+        "steam_appid": 234080,
+        "name": "Castlevania: Lords of Shadow – Ultimate Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7930
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f681d1c157213a5c867e9e6b66ed7121524b0e3c335756776d49143d82c7b211"
+}

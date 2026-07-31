@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 702320,
+  "fetchedAt": "2026-07-31T02:45:02.307Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=702320&cc=us&l=english",
+  "responseDigest": "sha256:7f60b0fb32a97feef733c2b81b74f790ff5eccd7f70d5fb61e04ec8ee329eff8",
+  "payload": {
+    "702320": {
+      "success": true,
+      "data": {
+        "steam_appid": 702320,
+        "name": "March of Empires",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:242f3790ec31d2f4502de23d41cfcabe9a87ccb712164d9caa945cc239b1e4da"
+}

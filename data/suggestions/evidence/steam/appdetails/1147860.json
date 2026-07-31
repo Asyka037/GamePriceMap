@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1147860,
+  "fetchedAt": "2026-07-31T02:57:45.359Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1147860&cc=us&l=english",
+  "responseDigest": "sha256:a7d8f5b4531ba61cc21514e8a03ce4617cdba51a985ff90f5ce605aa923ba027",
+  "payload": {
+    "1147860": {
+      "success": true,
+      "data": {
+        "steam_appid": 1147860,
+        "name": "UFO 50",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7052
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:319be5e224355274e7b71bd05753de9424b8a0b91baf6933cbc2e3daf62d09eb"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1295920,
+  "fetchedAt": "2026-07-31T02:44:59.325Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1295920&cc=us&l=english",
+  "responseDigest": "sha256:acb1845bfd7ddaecd3b1aefeaa85271c03f6a694edd57658359cc8568f498211",
+  "payload": {
+    "1295920": {
+      "success": true,
+      "data": {
+        "steam_appid": 1295920,
+        "name": "The Mortuary Assistant",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 2, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7182
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91f25034ce878c6c3f87290d79f5977e1e9deb465f88670dfea26ccedc886543"
+}

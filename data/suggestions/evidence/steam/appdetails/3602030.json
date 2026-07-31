@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3602030,
+  "fetchedAt": "2026-07-31T03:10:02.637Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3602030&cc=us&l=english",
+  "responseDigest": "sha256:a9d2e1225165fc58dce457b45391160a25526c9a7563a25e7ce996d68f6dd30a",
+  "payload": {
+    "3602030": {
+      "success": true,
+      "data": {
+        "steam_appid": 3602030,
+        "name": "Steel Artery: Train City Builder",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 295
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e037812c068cfd928c7a319550188070066a5fa9620c7e7f60dbf7cad0b4db50"
+}

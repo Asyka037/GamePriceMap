@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 537180,
+  "fetchedAt": "2026-07-31T03:08:29.461Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=537180&cc=us&l=english",
+  "responseDigest": "sha256:cc416782f9ca510eda8dd31c7fd09bf4280b37aca22df77b8211f67cf77108c7",
+  "payload": {
+    "537180": {
+      "success": true,
+      "data": {
+        "steam_appid": 537180,
+        "name": "Digimon Masters Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 3, 2016"
+        },
+        "recommendations": {
+          "total": 173
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:81bb45f4041ea2aa5497d9ac18b635e75ff9888d12a202b898f899778b9cbf1f"
+}

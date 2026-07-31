@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3244220,
+  "fetchedAt": "2026-07-31T02:42:57.284Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3244220&cc=us&l=english",
+  "responseDigest": "sha256:0c2d6075488767137469dcdf78f9caf93ecc611f2383725063d33d7f026f1ec5",
+  "payload": {
+    "3244220": {
+      "success": true,
+      "data": {
+        "steam_appid": 3244220,
+        "name": "A Game About Digging A Hole™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 7, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 18583
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f8339ae8b215196df5eec4f2ca54c903bde251a44d37d7e70a00de9219295a11"
+}

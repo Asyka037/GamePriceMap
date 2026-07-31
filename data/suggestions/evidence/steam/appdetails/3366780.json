@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3366780,
+  "fetchedAt": "2026-07-31T04:16:39.322Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3366780&cc=us&l=english",
+  "responseDigest": "sha256:981ca0b79afe0ff6cfa45f79f8f94822c439a2f8818fd7ccd2e3ee708ca625d8",
+  "payload": {
+    "3366780": {
+      "success": true,
+      "data": {
+        "steam_appid": 3366780,
+        "name": "Outlaws + Handful of Missions: Remaster",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 225
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:74f79b3387c864e2c114e005361eaeacd32575f5ce1cff2d4f311967dc8ea320"
+}

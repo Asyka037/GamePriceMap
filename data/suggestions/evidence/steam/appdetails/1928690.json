@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1928690,
+  "fetchedAt": "2026-07-31T04:15:36.712Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1928690&cc=us&l=english",
+  "responseDigest": "sha256:786495fe1b27ad36bdde9edd0e8f0394567299792d783344d14769e7b34ad87b",
+  "payload": {
+    "1928690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1928690,
+        "name": "Bionic Bay",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 688
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a3f1f476d8211889b680b0dc4cd9d7b1a100785f470a03ab52a6fc8e29297488"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1284470,
+  "fetchedAt": "2026-07-31T04:16:19.429Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1284470&cc=us&l=english",
+  "responseDigest": "sha256:1b33f0e5f19fcfffe98665b25274d45f7c32d284cf51028689bcdf427da2fbfc",
+  "payload": {
+    "1284470": {
+      "success": true,
+      "data": {
+        "steam_appid": 1284470,
+        "name": "Sid Meier's Civilization® VI: Byzantium & Gaul Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 119
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d29dbeb37f652674e6ec6f329627e8accc375962f74b2fbf514321f7e1b75e76"
+}

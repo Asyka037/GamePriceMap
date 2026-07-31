@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3759670,
+  "fetchedAt": "2026-07-31T03:52:19.071Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3759670&cc=us&l=english",
+  "responseDigest": "sha256:4fe7adf3173e4dd36049c51ff08807e1c7379b3efd4cbf4bcd387052c01f7ccc",
+  "payload": {
+    "3759670": {
+      "success": true,
+      "data": {
+        "steam_appid": 3759670,
+        "name": "no fox season",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 299,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 115
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:327e53db6caf9e4a34a0a5ac1798d602cd47043446ab951bcd9350c38f9d0fe3"
+}

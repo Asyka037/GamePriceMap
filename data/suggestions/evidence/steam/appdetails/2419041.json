@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2419041,
+  "fetchedAt": "2026-07-31T03:50:04.073Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2419041&cc=us&l=english",
+  "responseDigest": "sha256:191ae9a7f4c3d8d9eb2b0163dfe4fae99a8fcfa67fc0a8fedfaed8c4757dd567",
+  "payload": {
+    "2419041": {
+      "success": true,
+      "data": {
+        "steam_appid": 2419041,
+        "name": "Spirit Island - Jagged Earth",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 29, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1499,
+          "discount_percent": 40
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d902cd23d1d460bd81ec7601b59f4d0aed08d1fe256503308bda23dfe2b45467"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1887400,
+  "fetchedAt": "2026-07-31T04:07:38.965Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1887400&cc=us&l=english",
+  "responseDigest": "sha256:3fea6195bee4617327de5912192113e805b7cc8d545b00dbd2e3b73878907aa8",
+  "payload": {
+    "1887400": {
+      "success": true,
+      "data": {
+        "steam_appid": 1887400,
+        "name": "ANTONBLAST",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3892
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:847af87556f3fa3949634fbdeb79ade09352ca5d9ea4fe512942f9207435c24a"
+}

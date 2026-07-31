@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 690790,
+  "fetchedAt": "2026-07-31T02:49:33.149Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=690790&cc=us&l=english",
+  "responseDigest": "sha256:cf0dccfeca2efa04cceb2e0bd8b7cbad7fdb8f042b4f5568e457c28bd37cec47",
+  "payload": {
+    "690790": {
+      "success": true,
+      "data": {
+        "steam_appid": 690790,
+        "name": "DiRT Rally 2.0",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 25, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 38870
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:26991e8aa78376bc30907e814365d524cb21568fc9e6f3fc060cb508c89efc1c"
+}

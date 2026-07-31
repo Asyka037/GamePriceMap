@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3035570,
+  "fetchedAt": "2026-07-31T02:51:50.737Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3035570&cc=us&l=english",
+  "responseDigest": "sha256:9d24e9c90c750d16581935919cc4d4e51081a289afc9c696be9203c071b9b307",
+  "payload": {
+    "3035570": {
+      "success": true,
+      "data": {
+        "steam_appid": 3035570,
+        "name": "Assassin's Creed Mirage",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11334
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4eb0b152c282d856789e3d5ac0aaa724d89e2045fdcaf5f1d4d5759cf4b879d9"
+}

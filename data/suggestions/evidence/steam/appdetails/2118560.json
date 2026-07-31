@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2118560,
+  "fetchedAt": "2026-07-31T03:22:02.157Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2118560&cc=us&l=english",
+  "responseDigest": "sha256:287357c7b1d1b798b53c3d830048762c5e2c1e80c0af4864fc9c4ff29979d514",
+  "payload": {
+    "2118560": {
+      "success": true,
+      "data": {
+        "steam_appid": 2118560,
+        "name": "IL-2 Sturmovik: Battle of Normandy",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 29, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1499,
+          "discount_percent": 75
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df5769981633a8ca3a00cdb19136851245185ff3287b46bb9e7b504002558a9e"
+}

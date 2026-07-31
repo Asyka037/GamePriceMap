@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1999520,
+  "fetchedAt": "2026-07-31T03:59:36.904Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1999520&cc=us&l=english",
+  "responseDigest": "sha256:ce922ece17bd40df5c9cb0479e0dea756c4a7bc6773f2fdb2671ce058abfe630",
+  "payload": {
+    "1999520": {
+      "success": true,
+      "data": {
+        "steam_appid": 1999520,
+        "name": "CATO: Buttered Cat",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1099,
+          "final": 659,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 2674
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6b0765468199f33d3d391e4bbad056efb2b588daf0849488f82a23a47791208c"
+}

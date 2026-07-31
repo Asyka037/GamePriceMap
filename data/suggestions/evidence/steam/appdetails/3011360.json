@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3011360,
+  "fetchedAt": "2026-07-31T03:47:32.403Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3011360&cc=us&l=english",
+  "responseDigest": "sha256:67dc0ac0f3e4da3266e117a834c32e4e323dbba86062a709a726b0abc37efdd6",
+  "payload": {
+    "3011360": {
+      "success": true,
+      "data": {
+        "steam_appid": 3011360,
+        "name": "Primordialis",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 2, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 921
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c6e5991b7fb3e97c7f3192dcdd6ada1573f38a363c78f0238efdeacdd441a211"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 240,
+  "fetchedAt": "2026-07-31T04:09:47.367Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=240&cc=us&l=english",
+  "responseDigest": "sha256:5212aee80fe596e8ba92e463ec578c486e65f65a48ca4f014dca506247cf717e",
+  "payload": {
+    "240": {
+      "success": true,
+      "data": {
+        "steam_appid": 240,
+        "name": "Counter-Strike: Source",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2004"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 134881
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ce1d32719d196c79659f14d27b07361a084738d88a60124fb21942ff38be1d3a"
+}

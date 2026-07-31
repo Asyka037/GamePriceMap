@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 283740,
+  "fetchedAt": "2026-07-31T02:50:51.393Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=283740&cc=us&l=english",
+  "responseDigest": "sha256:2b7aedf4031d60cb3a7319bce047f64b6e095190eaaf681ce2858073e5f41c0c",
+  "payload": {
+    "283740": {
+      "success": true,
+      "data": {
+        "steam_appid": 283740,
+        "name": "Kerbal Space Program: Making History Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 449,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 672
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b1434b7dab98c430986c26f63d7b0034d2f6c5e7ee985b93d289ddb4738e5bf6"
+}

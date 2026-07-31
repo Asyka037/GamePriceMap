@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 424840,
+  "fetchedAt": "2026-07-31T02:43:34.009Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=424840&cc=us&l=english",
+  "responseDigest": "sha256:d04509f9798938e8d549c779e40238cd5a203120e045d2e17736bd741b0a6eea",
+  "payload": {
+    "424840": {
+      "success": true,
+      "data": {
+        "steam_appid": 424840,
+        "name": "Little Nightmares",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 52019
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1b43e15ef999935a1d4a151157107d3db646be492600a8530e2ad9b6a4335aac"
+}

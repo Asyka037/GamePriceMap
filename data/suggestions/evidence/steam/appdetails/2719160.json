@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2719160,
+  "fetchedAt": "2026-07-31T03:02:41.586Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2719160&cc=us&l=english",
+  "responseDigest": "sha256:dec06ef5957e9a4532d309d6d7649d8612c295c81fee580b72b46a8770b06d1f",
+  "payload": {
+    "2719160": {
+      "success": true,
+      "data": {
+        "steam_appid": 2719160,
+        "name": "Contractors Showdown : ExfilZone",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3287
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f0e563961b108979e3df3a312f016de10b5d31db19da724e43716b64594bac0e"
+}

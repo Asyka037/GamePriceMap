@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2275440,
+  "fetchedAt": "2026-07-31T03:10:24.004Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2275440&cc=us&l=english",
+  "responseDigest": "sha256:1ab80e4ca5f92146d674c3c941ce9465564b7031daf15f2f2609a71abd032085",
+  "payload": {
+    "2275440": {
+      "success": true,
+      "data": {
+        "steam_appid": 2275440,
+        "name": "Solar Nations 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 31, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 531
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2486f83948107daa0d66dfb6ec7c230bade4a034c671b32d9965070467cf1b7e"
+}

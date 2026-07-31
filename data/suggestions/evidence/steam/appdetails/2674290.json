@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2674290,
+  "fetchedAt": "2026-07-31T03:01:09.457Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2674290&cc=us&l=english",
+  "responseDigest": "sha256:13a9c9bc31399f6a2c065afab84b90c028e6a0813faf005f26ae3fe3f4eab7f2",
+  "payload": {
+    "2674290": {
+      "success": true,
+      "data": {
+        "steam_appid": 2674290,
+        "name": "Kings Call",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 25, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4bacaf465118aa2ce98e64755b64b0e77e510527d9c23f81b2a4bed04925e5ea"
+}

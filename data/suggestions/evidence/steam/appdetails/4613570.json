@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4613570,
+  "fetchedAt": "2026-07-31T03:20:50.729Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4613570&cc=us&l=english",
+  "responseDigest": "sha256:fe0d07aa94f6fe9f61c9a213f925df962d66e800733f859cf895d2f16d2a8c89",
+  "payload": {
+    "4613570": {
+      "success": true,
+      "data": {
+        "steam_appid": 4613570,
+        "name": "Animal Shelter 2 - Hunting Dogs Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 374,
+          "discount_percent": 25
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b93aabb91ff127992163576e669713cb30fa09fd8225bc436975437508ee2f10"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2569510,
+  "fetchedAt": "2026-07-31T02:48:32.466Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2569510&cc=us&l=english",
+  "responseDigest": "sha256:e61e18d547638f9f41ddbab1b5aabcc01cf5ac0bfa8cdbabfe01b09251f87ba0",
+  "payload": {
+    "2569510": {
+      "success": true,
+      "data": {
+        "steam_appid": 2569510,
+        "name": "MLB 9 Innings Rivals 26",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 17, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fafd63213ce6e4f73a1d7d2a73262cb77a7161bcb0d180d0b414e6c79791ee58"
+}

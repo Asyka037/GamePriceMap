@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3845870,
+  "fetchedAt": "2026-07-31T02:50:01.179Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3845870&cc=us&l=english",
+  "responseDigest": "sha256:db21bc9e2a8d0f5e6e6ad79d1f4e9add4d4402b6c4ac5afdb6773f7c571d82f9",
+  "payload": {
+    "3845870": {
+      "success": true,
+      "data": {
+        "steam_appid": 3845870,
+        "name": "Guild Wars 2® Visions of Eternity™ Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c5f6378aa3d9d72059a619d27ad90e2d80617ccda63fd2a24b7dfa1d97d7919b"
+}

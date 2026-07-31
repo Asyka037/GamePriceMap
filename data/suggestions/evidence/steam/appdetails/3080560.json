@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3080560,
+  "fetchedAt": "2026-07-31T04:05:09.384Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3080560&cc=us&l=english",
+  "responseDigest": "sha256:3380e6a2aa4faa7d3066b7497e0f56a1aae73c614f1b5588229e291d617636a2",
+  "payload": {
+    "3080560": {
+      "success": true,
+      "data": {
+        "steam_appid": 3080560,
+        "name": "Graphite",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 719,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5af61b1b0b455869cd435275b2101dd4ea9f639edfdbf2c9019040944f53154d"
+}

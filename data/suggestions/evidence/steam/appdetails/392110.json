@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 392110,
+  "fetchedAt": "2026-07-31T03:44:33.757Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=392110&cc=us&l=english",
+  "responseDigest": "sha256:9b46b6ce6bfbd9b0d6b867a977a6cb751412447e9198ed15e6e62661099958f8",
+  "payload": {
+    "392110": {
+      "success": true,
+      "data": {
+        "steam_appid": 392110,
+        "name": "ENDLESS Space™ 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 18, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17192
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:460732ce2dd57e5df788a344c01adc2c322e9442c4bc77185a22f4f67072d5e3"
+}

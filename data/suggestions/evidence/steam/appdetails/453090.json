@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 453090,
+  "fetchedAt": "2026-07-31T04:02:11.329Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=453090&cc=us&l=english",
+  "responseDigest": "sha256:f67c9fde3c449b5bbcc8d31250e2d39e756185b6d32b91d1cb3af9eb555b7760",
+  "payload": {
+    "453090": {
+      "success": true,
+      "data": {
+        "steam_appid": 453090,
+        "name": "Parkitect",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 29, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6775
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a3a778b8b8dfacac30a9967945c5eef32a5632f18f63444585077c64bd901966"
+}

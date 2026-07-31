@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1222690,
+  "fetchedAt": "2026-07-31T03:40:18.973Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1222690&cc=us&l=english",
+  "responseDigest": "sha256:2a6f76413359c125b2d72ece2578060106966df7a1a9f4068b93f7a44df81a4a",
+  "payload": {
+    "1222690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1222690,
+        "name": "Dragon Age™ Inquisition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 18978
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4f41b3cda6cfa4e6675ba6ef73a1cc49d1b4621d92c273082c54971e5537b6bc"
+}

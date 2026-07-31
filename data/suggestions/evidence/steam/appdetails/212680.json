@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 212680,
+  "fetchedAt": "2026-07-31T02:57:40.874Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=212680&cc=us&l=english",
+  "responseDigest": "sha256:9a726e253c78be28d91925106da574279a6dc51f76483b7343b681eb6191c9aa",
+  "payload": {
+    "212680": {
+      "success": true,
+      "data": {
+        "steam_appid": 212680,
+        "name": "FTL: Faster Than Light",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 14, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 349,
+          "discount_percent": 65
+        },
+        "recommendations": {
+          "total": 62462
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:be6e6f1f3125b5520577d1f8c6b8dc4f4174a4191dfa1a13808fe380404c5759"
+}

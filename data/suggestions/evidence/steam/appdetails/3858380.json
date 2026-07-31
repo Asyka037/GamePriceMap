@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3858380,
+  "fetchedAt": "2026-07-31T03:42:34.174Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3858380&cc=us&l=english",
+  "responseDigest": "sha256:3cf731dd4c1d98a794543f4e626c0c004c2e2de31c505cc0a7488e4eb464a42c",
+  "payload": {
+    "3858380": {
+      "success": true,
+      "data": {
+        "steam_appid": 3858380,
+        "name": "Space Engineers - Apex Survival Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8296eb874a7c56c27d6e9e734f3771e171f18370e1ab4bf154e4a5cd0fb12dab"
+}

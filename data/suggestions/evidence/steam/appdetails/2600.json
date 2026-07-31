@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2600,
+  "fetchedAt": "2026-07-31T03:00:21.818Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2600&cc=us&l=english",
+  "responseDigest": "sha256:6c0f813a69dd432f21ecedd24603856fb07b69fd6163ba8fc3a0bf8f3cee22f2",
+  "payload": {
+    "2600": {
+      "success": true,
+      "data": {
+        "steam_appid": 2600,
+        "name": "Vampire: The Masquerade - Bloodlines",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 22, 2007"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13799
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:341a2bc8ad8f53d81e3b556208ec6409f47bfba3aa441b95d567f16c2f9b7d69"
+}

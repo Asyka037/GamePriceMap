@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3083300,
+  "fetchedAt": "2026-07-31T04:10:43.837Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3083300&cc=us&l=english",
+  "responseDigest": "sha256:d0a7edc7dc9ca7db240845d04c8da1908ed888d88a79532ddbcd275790643112",
+  "payload": {
+    "3083300": {
+      "success": true,
+      "data": {
+        "steam_appid": 3083300,
+        "name": "Proverbs",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1631
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:184af3e49b686eff32171a86758497af3e93381c73e1e988e91bf8dffd94bf06"
+}

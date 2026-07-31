@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3902620,
+  "fetchedAt": "2026-07-31T03:23:39.735Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3902620&cc=us&l=english",
+  "responseDigest": "sha256:624912a1c766796457d5bc1d292f103e824b56c5e308f1ff706866d01fcd1f8a",
+  "payload": {
+    "3902620": {
+      "success": true,
+      "data": {
+        "steam_appid": 3902620,
+        "name": "Planet Coaster 2: Sorcery Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 125
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9b5da4e4e458696caddedb697681019fe12aeff482812aede535f4199cf86334"
+}

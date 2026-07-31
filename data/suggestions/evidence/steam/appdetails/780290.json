@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 780290,
+  "fetchedAt": "2026-07-31T03:07:43.695Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=780290&cc=us&l=english",
+  "responseDigest": "sha256:94f414d2591ef878e9ecf4dc2628fc7be65fe58971ce3c942f7b0150f504ac2e",
+  "payload": {
+    "780290": {
+      "success": true,
+      "data": {
+        "steam_appid": 780290,
+        "name": "Gloomhaven",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13569
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b1eecb22c1f892f8a25b5aba98435d0ce6c4d53a077b818973e7ed6ff76d0d29"
+}

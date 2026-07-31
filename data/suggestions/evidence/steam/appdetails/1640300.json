@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1640300,
+  "fetchedAt": "2026-07-31T04:09:01.435Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1640300&cc=us&l=english",
+  "responseDigest": "sha256:080dc57bc6808bcaad0b3431d9def2bbebbfb4eeae48e990c008ab6bf9d8bcdd",
+  "payload": {
+    "1640300": {
+      "success": true,
+      "data": {
+        "steam_appid": 1640300,
+        "name": "Project Warlock II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1104,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 1218
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:07b223c76b25bc365ac684e9238d62a97e261338f7a40bab000dd3ceaa420ba0"
+}

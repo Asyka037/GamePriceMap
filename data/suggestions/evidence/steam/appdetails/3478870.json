@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3478870,
+  "fetchedAt": "2026-07-31T03:12:23.547Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3478870&cc=us&l=english",
+  "responseDigest": "sha256:825dda0342dd60a17e53c2778047c5f51b2daf10ed37bbc90b0ec7f907fb0bc8",
+  "payload": {
+    "3478870": {
+      "success": true,
+      "data": {
+        "steam_appid": 3478870,
+        "name": "GeoGuessr Steam Edition",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c948264eb3990c7720eb831264060c14194d1b21edf93f7fd80ca46dfce35dd3"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3694480,
+  "fetchedAt": "2026-07-31T03:06:18.776Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3694480&cc=us&l=english",
+  "responseDigest": "sha256:e8a87099af417b1e2e71ad8e9344b4743b6a366190fd450557419295529dbda0",
+  "payload": {
+    "3694480": {
+      "success": true,
+      "data": {
+        "steam_appid": 3694480,
+        "name": "A Game About Feeding A Black Hole",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3217
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d96013f51c187e9456dfc1f345e7ff2b2634e1a63d8de4b1c28e32f15d4d3fde"
+}

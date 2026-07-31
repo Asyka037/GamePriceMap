@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4496640,
+  "fetchedAt": "2026-07-31T02:51:53.849Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4496640&cc=us&l=english",
+  "responseDigest": "sha256:d4556c7dc1f72e2b8aab0c54b6f6dacab0e53c9fde65e1fd7596c9b125e2fb67",
+  "payload": {
+    "4496640": {
+      "success": true,
+      "data": {
+        "steam_appid": 4496640,
+        "name": "Assassin's Creed Black Flag Resynced - Dragon Storm Naval Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3961f074c3965fa7f661e421dab81809b7d538fa9778c054fdee026625151a4d"
+}

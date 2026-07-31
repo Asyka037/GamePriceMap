@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1529930,
+  "fetchedAt": "2026-07-31T03:13:48.548Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1529930&cc=us&l=english",
+  "responseDigest": "sha256:647cef5387b7a3ac4822a04b207867fa210c96c3f100af069b56102b5fc84844",
+  "payload": {
+    "1529930": {
+      "success": true,
+      "data": {
+        "steam_appid": 1529930,
+        "name": "WolfQuest Anniversary - Lost River",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 15, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 218
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4d9f131f0e4a7358cac933167d79efd175218f8b4a0bb979e81e1c988b968bfa"
+}

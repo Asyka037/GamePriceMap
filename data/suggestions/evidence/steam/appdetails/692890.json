@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 692890,
+  "fetchedAt": "2026-07-31T02:53:06.151Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=692890&cc=us&l=english",
+  "responseDigest": "sha256:22d0b325ce3187124daa1f6f8969a2527e98cc7f2bb634832de7092f4067c7c2",
+  "payload": {
+    "692890": {
+      "success": true,
+      "data": {
+        "steam_appid": 692890,
+        "name": "Roboquest",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19045
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b158f4b4fb01eeeeb2c19128847026c22c88bef4185fed30aad7c8a382e6595d"
+}

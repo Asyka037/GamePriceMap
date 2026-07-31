@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 490110,
+  "fetchedAt": "2026-07-31T03:41:21.865Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=490110&cc=us&l=english",
+  "responseDigest": "sha256:91d74b2ba3575b3874d30636bdb1192800a493c8b16273b3d1eda772136422be",
+  "payload": {
+    "490110": {
+      "success": true,
+      "data": {
+        "steam_appid": 490110,
+        "name": "The Precinct",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 13, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7658
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8fb4f43133b1061095af4c2e9fa24e732bc1ff4def96e66769ce18fa5e0342c3"
+}

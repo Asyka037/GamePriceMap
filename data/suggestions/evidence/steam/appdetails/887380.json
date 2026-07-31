@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 887380,
+  "fetchedAt": "2026-07-31T04:16:29.281Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=887380&cc=us&l=english",
+  "responseDigest": "sha256:47b75cb9f2ac12659d581b67cdea14e0314ae13877654c8b4a6ebde9aad9f590",
+  "payload": {
+    "887380": {
+      "success": true,
+      "data": {
+        "steam_appid": 887380,
+        "name": "ARK: Extinction - Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2018"
+        },
+        "recommendations": {
+          "total": 3013
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:544b0c23bf28298fbb51ef6f60447d0c19251476b220869e99e2ca544d4589b8"
+}

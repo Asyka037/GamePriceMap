@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3931060,
+  "fetchedAt": "2026-07-31T03:16:04.827Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3931060&cc=us&l=english",
+  "responseDigest": "sha256:cd48f48bf9baa6275a84c6794fcde61580cdd162f0336d0cb926546ace7a740e",
+  "payload": {
+    "3931060": {
+      "success": true,
+      "data": {
+        "steam_appid": 3931060,
+        "name": "MARVEL MaXimum Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 109
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fd3c3ad1f14532c451578d93509bd677533596aa0c7a7c087965608336363f5a"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 215280,
+  "fetchedAt": "2026-07-31T03:28:57.250Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=215280&cc=us&l=english",
+  "responseDigest": "sha256:5206134999a45fbfbc6cde2b24cd0d5a92fe41df5fb3e65365844e273f093bb4",
+  "payload": {
+    "215280": {
+      "success": true,
+      "data": {
+        "steam_appid": 215280,
+        "name": "Secret World Legends",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 31, 2017"
+        },
+        "recommendations": {
+          "total": 4419
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e67f25f37a096e63e25dcf24ba78bbcd4c2f9cfc98e3aae9fc1ab6fd809fb5f"
+}

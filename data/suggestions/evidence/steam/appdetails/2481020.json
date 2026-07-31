@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2481020,
+  "fetchedAt": "2026-07-31T03:33:06.742Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2481020&cc=us&l=english",
+  "responseDigest": "sha256:97fabf5f83485978b13d11fdaa13b7e94348f38243659a0418d988ffc350857b",
+  "payload": {
+    "2481020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2481020,
+        "name": "Vampire Therapist",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 18, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 893
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:080c1809ca39f592e4d3e85829081dbee4126432fb6de9ace1c91a0c01d0e9d8"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 951240,
+  "fetchedAt": "2026-07-31T03:49:44.235Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=951240&cc=us&l=english",
+  "responseDigest": "sha256:4127284f6b8f958767f4540437dcad6065a25fa978c1f736931847c94d9fdf59",
+  "payload": {
+    "951240": {
+      "success": true,
+      "data": {
+        "steam_appid": 951240,
+        "name": "Obenseuer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1099,
+          "discount_percent": 45
+        },
+        "recommendations": {
+          "total": 1596
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e7e045f44a6759d3c25107121b04ed8712637869c1296d8aa78679a949b0f26"
+}

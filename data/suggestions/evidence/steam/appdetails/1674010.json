@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1674010,
+  "fetchedAt": "2026-07-31T04:17:15.612Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1674010&cc=us&l=english",
+  "responseDigest": "sha256:5234068429f37618713c15598f537baa2d11164c62d0e7e564d65550a1e7bcdc",
+  "payload": {
+    "1674010": {
+      "success": true,
+      "data": {
+        "steam_appid": 1674010,
+        "name": "Nin Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 12, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:58216fd41810c3f648b472dc1859edf2526cec8eda952df8d2bd5cde976da07f"
+}

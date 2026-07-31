@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2853730,
+  "fetchedAt": "2026-07-31T02:59:21.956Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2853730&cc=us&l=english",
+  "responseDigest": "sha256:371108fcdf80ef804b6f48f16d99bf74b6554dca0c2a6df5fec062930651ef50",
+  "payload": {
+    "2853730": {
+      "success": true,
+      "data": {
+        "steam_appid": 2853730,
+        "name": "Skull and Bones",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 22, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4400
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1d85a4dcab5791c40b9c9384d0beac77d4023b104a61943bdcaff56be7ff74d8"
+}

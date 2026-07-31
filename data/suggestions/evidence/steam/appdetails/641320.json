@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 641320,
+  "fetchedAt": "2026-07-31T03:20:01.712Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=641320&cc=us&l=english",
+  "responseDigest": "sha256:2b6ea454ea35a12fdb79809d49858f7d537c482b303492cee72182ada6f0e652",
+  "payload": {
+    "641320": {
+      "success": true,
+      "data": {
+        "steam_appid": 641320,
+        "name": "Cooking Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 6, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 17755
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6c398a06db2e4a9a25583e31b3fc005a6194fc2c793bfbcb8d935e2abb9500eb"
+}

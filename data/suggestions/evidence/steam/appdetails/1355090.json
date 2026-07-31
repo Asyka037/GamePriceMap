@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1355090,
+  "fetchedAt": "2026-07-31T03:05:53.323Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1355090&cc=us&l=english",
+  "responseDigest": "sha256:17d870de741a05ae86ae3decd264c0f46171bb67030613b48b94e028cdae78a0",
+  "payload": {
+    "1355090": {
+      "success": true,
+      "data": {
+        "steam_appid": 1355090,
+        "name": "RAILGRADE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 13, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1176
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:09ca22a162f8a013eae13263701e9539e5034467e611f60e38251b09098bf6cd"
+}

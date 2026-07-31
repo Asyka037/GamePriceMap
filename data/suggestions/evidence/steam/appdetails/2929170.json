@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2929170,
+  "fetchedAt": "2026-07-31T03:23:13.300Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2929170&cc=us&l=english",
+  "responseDigest": "sha256:fa05724ac6904d1ea5fc9223e1798c789fde755b5f91b35fedc75cfd6dba16f6",
+  "payload": {
+    "2929170": {
+      "success": true,
+      "data": {
+        "steam_appid": 2929170,
+        "name": "NEW MONOPOLY®",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 517
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ba9aecafa4d848c73ee5376638a72c689e6b53e107975fa4dffdf54223c74b7d"
+}

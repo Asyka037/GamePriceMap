@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4070950,
+  "fetchedAt": "2026-07-31T03:07:37.802Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4070950&cc=us&l=english",
+  "responseDigest": "sha256:6e9039ac36f8e7f80c8500299bca6bf140bd1141101adf0762f11e2b765de9ed",
+  "payload": {
+    "4070950": {
+      "success": true,
+      "data": {
+        "steam_appid": 4070950,
+        "name": "FATAL FURY: CotW - Season Pass 2",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6ef91086e6d05f7bc7dc1c33872c55f64a664ea3a58bb45fa422db46c6f47236"
+}

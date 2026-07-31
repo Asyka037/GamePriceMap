@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2922530,
+  "fetchedAt": "2026-07-31T03:13:26.582Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2922530&cc=us&l=english",
+  "responseDigest": "sha256:3ef958c914def8fa1d84b51d20481e4644ff4d41a985c91bd670329554a05d55",
+  "payload": {
+    "2922530": {
+      "success": true,
+      "data": {
+        "steam_appid": 2922530,
+        "name": "Fishing Planet: Ocean Voyager Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bcd6a36638ea3dc3bfb02bcd818b94e79348ffcfc09b841a6dd9b0f4fce0f170"
+}

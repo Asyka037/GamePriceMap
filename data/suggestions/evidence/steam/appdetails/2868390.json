@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2868390,
+  "fetchedAt": "2026-07-31T03:03:04.082Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2868390&cc=us&l=english",
+  "responseDigest": "sha256:d29a93ce42ae32b67398fd112191be2c93935e6c6b2a9139729e99b4f2341273",
+  "payload": {
+    "2868390": {
+      "success": true,
+      "data": {
+        "steam_appid": 2868390,
+        "name": "Brotato: Abyssal Terrors",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 319,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 2445
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cbbd0fdd286d9e30acc6b341ac0859a743e1928017ab2e8d26af92154fb70580"
+}

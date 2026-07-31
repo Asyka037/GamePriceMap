@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4129630,
+  "fetchedAt": "2026-07-31T03:52:15.787Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4129630&cc=us&l=english",
+  "responseDigest": "sha256:4f78a7140686c46d01933f53e8bc9a3ba8d45a999949e097dd3e634bfc0c0b48",
+  "payload": {
+    "4129630": {
+      "success": true,
+      "data": {
+        "steam_appid": 4129630,
+        "name": "Old World - Empires of the Indus",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d547bd228b93ed83e48c398bd0bf3bdb373a4bd9c605ab3e22188d7e37126252"
+}

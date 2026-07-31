@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1061910,
+  "fetchedAt": "2026-07-31T03:16:54.407Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1061910&cc=us&l=english",
+  "responseDigest": "sha256:84273662f15e8ccaa9280232ed6178d880ed8030a5d973db2acfb6633ca1d3e5",
+  "payload": {
+    "1061910": {
+      "success": true,
+      "data": {
+        "steam_appid": 1061910,
+        "name": "Metal: Hellsinger",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 15, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13931
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0a4e77e0f8ef8498871c2b26919b924fa79f90332d550ead97a2a62e6df38a5b"
+}

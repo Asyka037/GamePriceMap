@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4730180,
+  "fetchedAt": "2026-07-31T03:12:32.250Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4730180&cc=us&l=english",
+  "responseDigest": "sha256:333630dac950943d8a926f50d18f2bc546ee83256d7c0ef2ab8bf78fe9595e55",
+  "payload": {
+    "4730180": {
+      "success": true,
+      "data": {
+        "steam_appid": 4730180,
+        "name": "Hacker's Journey",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 449,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 175
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ad13d5b063ce2272262db6fa6168539927469c21c4405f8ed2a24107ca9a6d74"
+}

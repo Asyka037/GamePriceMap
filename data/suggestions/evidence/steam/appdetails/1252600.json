@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1252600,
+  "fetchedAt": "2026-07-31T04:05:15.937Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1252600&cc=us&l=english",
+  "responseDigest": "sha256:f1f26a2fd7f7480bbaa70aa35b3d1f0bbf9c2acb0afcadc875aea376690a2e9f",
+  "payload": {
+    "1252600": {
+      "success": true,
+      "data": {
+        "steam_appid": 1252600,
+        "name": "ANOTHER EDEN",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 30, 2021"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:38f0df0f05998b7754b121d47a9a79478daa5c03fc5a91cd21f08cb8ef4dd996"
+}

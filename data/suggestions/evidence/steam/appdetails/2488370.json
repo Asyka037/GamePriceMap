@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2488370,
+  "fetchedAt": "2026-07-31T02:44:56.331Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2488370&cc=us&l=english",
+  "responseDigest": "sha256:e8629f5d88eb48b3ad875e47c6a4a84f912610fd09e1a6424f29b6867f36e38f",
+  "payload": {
+    "2488370": {
+      "success": true,
+      "data": {
+        "steam_appid": 2488370,
+        "name": "Cash Cleaner Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7117
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1b5c8d55ee0444dde2ff7945232db505a044e1684cd01c406f4f1fce7167d8c2"
+}

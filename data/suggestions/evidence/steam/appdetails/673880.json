@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 673880,
+  "fetchedAt": "2026-07-31T04:03:56.918Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=673880&cc=us&l=english",
+  "responseDigest": "sha256:a8b9cfc1dd1300fbe8561eba05d0945930b448b9127d61821bd15db768c30044",
+  "payload": {
+    "673880": {
+      "success": true,
+      "data": {
+        "steam_appid": 673880,
+        "name": "Warhammer 40,000: Mechanicus",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 15, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11596
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:12197699c82a9d068ee09f186875d2d80847e2af632d8b618ebe522939bf185c"
+}

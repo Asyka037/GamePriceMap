@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 800370,
+  "fetchedAt": "2026-07-31T02:44:53.349Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=800370&cc=us&l=english",
+  "responseDigest": "sha256:b91ba03c30d218065b03ffbccb5def5eee2ce6eb8beb4bcf8b0559add69d39b4",
+  "payload": {
+    "800370": {
+      "success": true,
+      "data": {
+        "steam_appid": 800370,
+        "name": "American Truck Simulator - Oregon",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 4, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 896
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a42d7da58c0868514eb94df9f3cc8082faad7d6c7c0051ecb168a25d52d03cf0"
+}

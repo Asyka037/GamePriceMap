@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3137350,
+  "fetchedAt": "2026-07-31T03:01:34.524Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3137350&cc=us&l=english",
+  "responseDigest": "sha256:f057f7f95de056d1b5a6019a97bc4af5755b20047b5ca6718a6b947c8a956ef2",
+  "payload": {
+    "3137350": {
+      "success": true,
+      "data": {
+        "steam_appid": 3137350,
+        "name": "Motion Soccer PRO",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 121
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f22a8e71a2d51c6cee08fe7ec53f40a29a5bfb5c0082657d6d03ba0e6a1c5c20"
+}

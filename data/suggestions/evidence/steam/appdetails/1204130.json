@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1204130,
+  "fetchedAt": "2026-07-31T03:46:23.116Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1204130&cc=us&l=english",
+  "responseDigest": "sha256:d18dd42d028c58c2abb11dfaa417cde9bb0460b9bbffec9c9959a758a9c9210d",
+  "payload": {
+    "1204130": {
+      "success": true,
+      "data": {
+        "steam_appid": 1204130,
+        "name": "Dead Cells: The Bad Seed",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 11, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 759
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cdcebece63c8f63bbb384ef65bd66efe15fb9f37f287b20bbb4f586e74e604c7"
+}

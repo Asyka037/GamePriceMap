@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2144740,
+  "fetchedAt": "2026-07-31T03:19:45.408Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2144740&cc=us&l=english",
+  "responseDigest": "sha256:0f109e699985050cb7f1b562b588b7718db7a52719ac5dd977a69e64aab193b7",
+  "payload": {
+    "2144740": {
+      "success": true,
+      "data": {
+        "steam_appid": 2144740,
+        "name": "Ghostrunner 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 26, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 999,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 7866
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:26256049d5968ffd49f1e40347cbf455e2a9a3f33bbb048de7c07a86c3e413e6"
+}

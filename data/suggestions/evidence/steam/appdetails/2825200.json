@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2825200,
+  "fetchedAt": "2026-07-31T03:07:24.552Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2825200&cc=us&l=english",
+  "responseDigest": "sha256:ff78f8b60861de853c92e0a50053603241f966cc176dc623a8fa35b8d3e708de",
+  "payload": {
+    "2825200": {
+      "success": true,
+      "data": {
+        "steam_appid": 2825200,
+        "name": "Street Fighter™ 6 - Year 2 Ultimate Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 3249,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 129
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d94cd07049716eb356b56ef21f264ca4d502f5edad974f5eff105540c2490c06"
+}

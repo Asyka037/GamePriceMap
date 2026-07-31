@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1493640,
+  "fetchedAt": "2026-07-31T03:04:45.781Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1493640&cc=us&l=english",
+  "responseDigest": "sha256:135ee1d4e502824c907b78f16b8bdac8b13ede8b8779b16954638a0db8fd886a",
+  "payload": {
+    "1493640": {
+      "success": true,
+      "data": {
+        "steam_appid": 1493640,
+        "name": "Banishers: Ghosts of New Eden",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6261
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9053a40549837b88e15104d78348386a0a7595353ea0357f1dfb4bc0472ff1fe"
+}

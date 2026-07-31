@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2252680,
+  "fetchedAt": "2026-07-31T03:11:40.792Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2252680&cc=us&l=english",
+  "responseDigest": "sha256:2cd23bf492922afd234fa6323668f93a68533c488dcd199158dca7f4a53e9e91",
+  "payload": {
+    "2252680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2252680,
+        "name": "Farlands",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1555
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e98a6e1ee6937050a5354885c5d0f0e9a0d73e4b74ece501bbcad61d9ad7986"
+}

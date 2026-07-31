@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2140440,
+  "fetchedAt": "2026-07-31T03:50:46.951Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2140440&cc=us&l=english",
+  "responseDigest": "sha256:be0031d5a7fc16415165e99e79995f5d2a7892ea4a80a1dbe3503f007584fa83",
+  "payload": {
+    "2140440": {
+      "success": true,
+      "data": {
+        "steam_appid": 2140440,
+        "name": "Chivalry 2 - King's Edition Content",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 4, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 199,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 129
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a0d9b4006fa73b03c42f763aad3a883e707da983ae145ac2e2738272eed2bbfa"
+}

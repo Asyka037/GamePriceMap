@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4424610,
+  "fetchedAt": "2026-07-31T03:14:18.400Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4424610&cc=us&l=english",
+  "responseDigest": "sha256:efab7c2fb8709a347e0d1f80b801bc68a9745e6db4aad57dbaddb1711e4fdfc6",
+  "payload": {
+    "4424610": {
+      "success": true,
+      "data": {
+        "steam_appid": 4424610,
+        "name": "theHunter: Call of the Wild™ - Multi-Class Weapon Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 479,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a111bd5b03ed7169407a05ddc146d3611a8f368085714be398c468776105688a"
+}

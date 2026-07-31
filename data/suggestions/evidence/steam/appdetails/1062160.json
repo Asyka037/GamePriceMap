@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1062160,
+  "fetchedAt": "2026-07-31T03:53:08.604Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1062160&cc=us&l=english",
+  "responseDigest": "sha256:309323cfac03d1f4d6cd0a5eb86ac70069b1499a8ab2b3fd5b2db1d20d07604e",
+  "payload": {
+    "1062160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1062160,
+        "name": "Poly Bridge 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7862
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3ebad5ad5c8fb6dc48c2fa93becc8d5fb62cb1058c1afb394f078a40b5898db7"
+}

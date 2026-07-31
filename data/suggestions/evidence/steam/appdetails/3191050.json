@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3191050,
+  "fetchedAt": "2026-07-31T03:12:30.789Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3191050&cc=us&l=english",
+  "responseDigest": "sha256:214c2d87dde440bde13e1761390e29c6fe90ed4a2874856b7c4f21c611b9c3f1",
+  "payload": {
+    "3191050": {
+      "success": true,
+      "data": {
+        "steam_appid": 3191050,
+        "name": "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7458
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ef242c468c95e343f5e8d6f64efb60e175fbf2d697643660c899bcb38758bcab"
+}

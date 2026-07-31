@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1998240,
+  "fetchedAt": "2026-07-31T03:50:07.369Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1998240&cc=us&l=english",
+  "responseDigest": "sha256:70f7f6e6e854f320b8b1ac603471cd3fe6f9922d56291b5850cff12955f88ab8",
+  "payload": {
+    "1998240": {
+      "success": true,
+      "data": {
+        "steam_appid": 1998240,
+        "name": "Chivalry 2 - Special Edition Content",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 12, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 199,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 312
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e672d0dc636867fce7c39f844c593b50da183dc3c445e96c4495e84ebb070a2"
+}

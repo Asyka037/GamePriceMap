@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1240590,
+  "fetchedAt": "2026-07-31T03:55:42.567Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1240590&cc=us&l=english",
+  "responseDigest": "sha256:5af79557cbbd0f4075c80ed03df39b5a48de2969a65bf5323ea962c2770ce6c4",
+  "payload": {
+    "1240590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1240590,
+        "name": "Sir Whoopass™: Immortal Death",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 18, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 849,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1330
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7bbd1b6e12454f036e72e78df8a5d94fabeea510836a2f78249c598f68ebd012"
+}

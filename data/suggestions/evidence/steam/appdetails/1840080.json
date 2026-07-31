@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1840080,
+  "fetchedAt": "2026-07-31T03:07:04.847Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1840080&cc=us&l=english",
+  "responseDigest": "sha256:3f65f5f6f53624d567bef8e639b401c2e141628b5652ee77337d775f65bca7d5",
+  "payload": {
+    "1840080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1840080,
+        "name": "Homeworld 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 13, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5412
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dc545a48abfe0bbe43d2a3171cf1e5999d540f8d1590d18706c6e2b906dd2b8e"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 211500,
+  "fetchedAt": "2026-07-31T03:14:37.608Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=211500&cc=us&l=english",
+  "responseDigest": "sha256:df80b19484b9a77e2f88a0900ff79a2f178a75102b9aa85f1022c102e3fa45fc",
+  "payload": {
+    "211500": {
+      "success": true,
+      "data": {
+        "steam_appid": 211500,
+        "name": "RaceRoom Racing Experience",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 12, 2013"
+        },
+        "recommendations": {
+          "total": 1982
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bfed1f4cdbaedae9168a1425d7f1b115819fae12ab90fa9dcef1aa17c46284f4"
+}

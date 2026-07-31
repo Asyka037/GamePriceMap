@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 311690,
+  "fetchedAt": "2026-07-31T02:43:13.674Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=311690&cc=us&l=english",
+  "responseDigest": "sha256:c627dade16907d24b1e2f0b085a53f830fa9d769a617550bf543fee43202794b",
+  "payload": {
+    "311690": {
+      "success": true,
+      "data": {
+        "steam_appid": 311690,
+        "name": "Enter the Gungeon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 5, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 79114
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:333a8325857352a0a59aa5847ac92a4dc5a4ede641bee68c70c8a5d123756801"
+}

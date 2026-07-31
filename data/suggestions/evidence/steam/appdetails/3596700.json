@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3596700,
+  "fetchedAt": "2026-07-31T02:49:37.544Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3596700&cc=us&l=english",
+  "responseDigest": "sha256:d787fac12cd339205c4e37b3c7f2d414eb5f6d8468c140759c17a9149b7a81be",
+  "payload": {
+    "3596700": {
+      "success": true,
+      "data": {
+        "steam_appid": 3596700,
+        "name": "TerraTech Legion",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1916
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:88a7229e9ed16a9209fa6048477e59b7df887f1814d02bd41eb3c86268792ec0"
+}

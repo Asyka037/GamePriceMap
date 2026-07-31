@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3124550,
+  "fetchedAt": "2026-07-31T03:32:03.279Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3124550&cc=us&l=english",
+  "responseDigest": "sha256:6bcbd2a0bb32290ba973cd13caf885cac823c468afca5ba9fd9cc598a6d6397c",
+  "payload": {
+    "3124550": {
+      "success": true,
+      "data": {
+        "steam_appid": 3124550,
+        "name": "Liquor Store Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 2, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 539,
+          "discount_percent": 55
+        },
+        "recommendations": {
+          "total": 544
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3e3e616b2b36e9081f3711c9f0753e3e692bba1776d6765e2fef0b79f1cde6d0"
+}

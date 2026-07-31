@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2525510,
+  "fetchedAt": "2026-07-31T03:08:48.775Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2525510&cc=us&l=english",
+  "responseDigest": "sha256:1aaa9b54e67fb12fbe7002bc60a0295c5193012b07841b5b27b237a2fdb88216",
+  "payload": {
+    "2525510": {
+      "success": true,
+      "data": {
+        "steam_appid": 2525510,
+        "name": "NITRO GEN OMEGA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 387
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cef6bdf78ec3032fc3b9ef4697b651f3b0562d5bdf200fc39fcfe9da2ccc7776"
+}

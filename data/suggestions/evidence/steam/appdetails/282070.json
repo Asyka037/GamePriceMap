@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 282070,
+  "fetchedAt": "2026-07-31T03:12:45.479Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=282070&cc=us&l=english",
+  "responseDigest": "sha256:b331ff8c6e11cd6beba7fad96f6d5e4776f021909c29830e1eed0b8f203348d0",
+  "payload": {
+    "282070": {
+      "success": true,
+      "data": {
+        "steam_appid": 282070,
+        "name": "This War of Mine",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 299,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 88975
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9b4257901e3913ae8a5e00a3fb34f06dd0be49fcea306fe01d6dcd581a9a7a12"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2445690,
+  "fetchedAt": "2026-07-31T02:45:42.734Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2445690&cc=us&l=english",
+  "responseDigest": "sha256:41599b10c0c663698076ad8920a06853b25030e1b3ad9e54dfb67141f1bf653d",
+  "payload": {
+    "2445690": {
+      "success": true,
+      "data": {
+        "steam_appid": 2445690,
+        "name": "Lost Castle 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1259,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 10376
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4e93ae6f5e7e6e7d5b953b0ad9b9d433e7c5125f275a8f8a11156c8be475841d"
+}

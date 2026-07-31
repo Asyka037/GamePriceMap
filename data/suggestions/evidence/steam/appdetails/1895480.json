@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1895480,
+  "fetchedAt": "2026-07-31T03:45:33.064Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1895480&cc=us&l=english",
+  "responseDigest": "sha256:1fc571aa732a31fcc71d256f4e1fa20736fc5e8a29486425fb6f91b9eaf5e30e",
+  "payload": {
+    "1895480": {
+      "success": true,
+      "data": {
+        "steam_appid": 1895480,
+        "name": "Cozy Grove - New Neighbears DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 26, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:557482a7819097924f9f9492537eec0966e40348c45dd5f6ce8ae748832c4ccd"
+}

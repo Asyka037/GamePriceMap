@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3357960,
+  "fetchedAt": "2026-07-31T03:13:33.838Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3357960&cc=us&l=english",
+  "responseDigest": "sha256:611dac10240549eefda5de1833a4c4748a544b085ccabea04bf059365128e33e",
+  "payload": {
+    "3357960": {
+      "success": true,
+      "data": {
+        "steam_appid": 3357960,
+        "name": "KuloNiku: Bowl Up!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2042
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8e8b877ae854047f2b1c00252bfd364e3b90fc002c0c77295a42bce85ba8a7d6"
+}

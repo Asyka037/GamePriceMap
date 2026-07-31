@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1702390,
+  "fetchedAt": "2026-07-31T03:49:01.443Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1702390&cc=us&l=english",
+  "responseDigest": "sha256:87d38aa08013a680f32c9452b44f40661793de592d8b39e31dee0b0ccf81647e",
+  "payload": {
+    "1702390": {
+      "success": true,
+      "data": {
+        "steam_appid": 1702390,
+        "name": "Voor De Kroon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2249,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 634
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c877030d55575ef5d63b989c4b197799458326d8116e5533dcd471e213942cc7"
+}

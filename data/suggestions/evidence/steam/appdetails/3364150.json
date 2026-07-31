@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3364150,
+  "fetchedAt": "2026-07-31T03:31:56.659Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3364150&cc=us&l=english",
+  "responseDigest": "sha256:f0fa26c23f267747681868f60b7f4b62cdecd110ad92668d232c86e176bbd450",
+  "payload": {
+    "3364150": {
+      "success": true,
+      "data": {
+        "steam_appid": 3364150,
+        "name": "Whack-A-Monster",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 629,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d5d3e2c7ecb272df3b76781a8ff5baebc68898621b585b5c3116988f5c268c36"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3146520,
+  "fetchedAt": "2026-07-31T02:50:52.901Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3146520&cc=us&l=english",
+  "responseDigest": "sha256:1fa4e9a52f20a0da73c6737a2cf9b425a76c257a1fa066fcaa5b5687476d1532",
+  "payload": {
+    "3146520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3146520,
+        "name": "WEBFISHING",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 11, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 57241
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:047201b82e57d6f4c26b94024402ca9b15c939aafbc988d732b95076d0065dda"
+}

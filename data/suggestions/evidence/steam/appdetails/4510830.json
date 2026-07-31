@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4510830,
+  "fetchedAt": "2026-07-31T03:03:49.665Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4510830&cc=us&l=english",
+  "responseDigest": "sha256:59215528b107035a8ee6a14e21218e19662c59d64fcdf195ff012597f3832cce",
+  "payload": {
+    "4510830": {
+      "success": true,
+      "data": {
+        "steam_appid": 4510830,
+        "name": "Myth of Empires: Throne",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a17dd35ab86f76e721e3a2a79abc2aa3a98e8f6d9fb2d7944b5a7adb7ff7c614"
+}

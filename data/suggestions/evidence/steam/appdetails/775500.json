@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 775500,
+  "fetchedAt": "2026-07-31T03:24:19.448Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=775500&cc=us&l=english",
+  "responseDigest": "sha256:b9ca7907880554781fa542be9dab060f7eb963436290f26daa432c3c284c0f89",
+  "payload": {
+    "775500": {
+      "success": true,
+      "data": {
+        "steam_appid": 775500,
+        "name": "SCARLET NEXUS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 24, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 9999,
+          "final": 1999,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 13697
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cafeffdc8e66de2956530176fc8d3c45c604e2c8cb777b2c351bdcf67fc9c673"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1451460,
+  "fetchedAt": "2026-07-31T03:44:28.713Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1451460&cc=us&l=english",
+  "responseDigest": "sha256:83d3df534d5553706e9fdcc8fc7cc7dbd22de42bfff1e51d28bf6c23ffc12d96",
+  "payload": {
+    "1451460": {
+      "success": true,
+      "data": {
+        "steam_appid": 1451460,
+        "name": "Dead Cells: Fatal Falls",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 26, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 526
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:120c08db956116c41d147e7efde9d2cf556f1c54a45fa255dbd4b6c7b4a8160e"
+}

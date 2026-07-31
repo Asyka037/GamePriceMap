@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1021210,
+  "fetchedAt": "2026-07-31T03:55:00.775Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1021210&cc=us&l=english",
+  "responseDigest": "sha256:4216b2abae503e78574e349e3d4a7b0ba5c5d9693c7c6d9c3e814da08d1d85f3",
+  "payload": {
+    "1021210": {
+      "success": true,
+      "data": {
+        "steam_appid": 1021210,
+        "name": "Cyber Knights: Flashpoint",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 2, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1979,
+          "discount_percent": 34
+        },
+        "recommendations": {
+          "total": 2765
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f785ac28eb58b3ca5b4e09a0a0834246a4c477cf1e362f595f9e3ba9af0a6029"
+}

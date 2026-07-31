@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 362680,
+  "fetchedAt": "2026-07-31T04:03:53.567Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=362680&cc=us&l=english",
+  "responseDigest": "sha256:2d09e5d84b2af61b68323f84e54e55951d64d19619d56505fbed6f5e5daa01c7",
+  "payload": {
+    "362680": {
+      "success": true,
+      "data": {
+        "steam_appid": 362680,
+        "name": "Fran Bow",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20336
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4e1534158918a63f3d0473e282fce0045bb5b129db2e5d0fb8da175b60b56762"
+}

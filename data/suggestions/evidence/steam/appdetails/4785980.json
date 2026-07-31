@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4785980,
+  "fetchedAt": "2026-07-31T03:05:42.925Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4785980&cc=us&l=english",
+  "responseDigest": "sha256:a4808d5d6e80305edad2797999bc2d3a1289d69749ea4d8e45fdee3985f93e3e",
+  "payload": {
+    "4785980": {
+      "success": true,
+      "data": {
+        "steam_appid": 4785980,
+        "name": "DragonSword : Awakening - Familiar : Viola Flying Squirrel",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:78c94e58174d5f2a4688a3e6d80f274aac134293ff471e96b29bf34bfe1e0e87"
+}

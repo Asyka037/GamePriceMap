@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2170970,
+  "fetchedAt": "2026-07-31T02:42:48.215Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2170970&cc=us&l=english",
+  "responseDigest": "sha256:bbd0ec6bf0e31c09db1463ba718e6316a24b62c49bb84b247ef9ccc9efde7ad6",
+  "payload": {
+    "2170970": {
+      "success": true,
+      "data": {
+        "steam_appid": 2170970,
+        "name": "Call of Duty®: Black Ops 7 or Call of Duty®: Warzone™ Points",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:db15e08cbb39774296e7466a4c1fca651eb277f1eade9161a60b07fac3f12aac"
+}

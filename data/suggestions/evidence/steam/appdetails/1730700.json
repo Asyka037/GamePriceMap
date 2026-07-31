@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1730700,
+  "fetchedAt": "2026-07-31T03:07:03.374Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1730700&cc=us&l=english",
+  "responseDigest": "sha256:56d7409c0684a3396165b3a49c7cc9fbdc555b5bf27904d624f1294c5a98504b",
+  "payload": {
+    "1730700": {
+      "success": true,
+      "data": {
+        "steam_appid": 1730700,
+        "name": "We Love Katamari REROLL+ Royal Reverie",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 2158
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:635f4dce08aa45c25ada6b7482a4d7da81ed0fe9bf440d474a00fb3133d9da49"
+}

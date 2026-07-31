@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3813350,
+  "fetchedAt": "2026-07-31T04:09:44.095Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3813350&cc=us&l=english",
+  "responseDigest": "sha256:5a4760af67a720cb4c13b1613bc8d770fe8a91eb33b3fce45867ca852a70275f",
+  "payload": {
+    "3813350": {
+      "success": true,
+      "data": {
+        "steam_appid": 3813350,
+        "name": "Azure Striker Gunvolt Trilogy Enhanced",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2799,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 205
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:329ce24b866ecf19b25ac03e6a854432edc8138aa3ed7637fa80d889c490ce20"
+}

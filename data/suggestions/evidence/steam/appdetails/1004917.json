@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1004917,
+  "fetchedAt": "2026-07-31T03:56:58.559Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1004917&cc=us&l=english",
+  "responseDigest": "sha256:b70f3862ade79ddf9e1ea471a8f1b52f0c2f7dadaaf5bb222f4e8e1f83e50674",
+  "payload": {
+    "1004917": {
+      "success": true,
+      "data": {
+        "steam_appid": 1004917,
+        "name": "Warhammer: Chaosbane - Gods Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 319,
+          "discount_percent": 60
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b7c95ca7328b3670ee0b85606212959c8ccc1ef9843fd8d97563579ff5271266"
+}

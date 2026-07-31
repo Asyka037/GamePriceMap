@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 736260,
+  "fetchedAt": "2026-07-31T03:03:02.641Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=736260&cc=us&l=english",
+  "responseDigest": "sha256:946c5447c022f24d5f4dac8e29a1da0bcd326d87897f5aa5d85f1f907c120b89",
+  "payload": {
+    "736260": {
+      "success": true,
+      "data": {
+        "steam_appid": 736260,
+        "name": "Baba Is You",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20818
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:00bc5933de4cf2a44b0294dee3ccc7a605eea1e4dfe14810916a2d74ac8057e6"
+}

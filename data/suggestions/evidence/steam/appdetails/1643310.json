@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1643310,
+  "fetchedAt": "2026-07-31T03:01:35.994Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1643310&cc=us&l=english",
+  "responseDigest": "sha256:9e7ce5f1dcccbb74dabd5e081302625c420e63021a1d91396888e44c6a99fe44",
+  "payload": {
+    "1643310": {
+      "success": true,
+      "data": {
+        "steam_appid": 1643310,
+        "name": "Dungeons 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 9, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2355
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cb2528ebeffd6dc8091adad0651a83539d346fcd12c5e861231d0dab91623850"
+}

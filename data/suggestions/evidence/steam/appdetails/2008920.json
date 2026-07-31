@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2008920,
+  "fetchedAt": "2026-07-31T03:28:27.453Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2008920&cc=us&l=english",
+  "responseDigest": "sha256:d43206c70e9f6429dbcdf4847da01abe2b8fbd8d7457211a0153d402ef26add6",
+  "payload": {
+    "2008920": {
+      "success": true,
+      "data": {
+        "steam_appid": 2008920,
+        "name": "Lorelei and the Laser Eyes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 16, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3019
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:02eaad000d6f1f3f73f736d5fe039b8539d8988f9f44dbe825aa33f5120b31ef"
+}

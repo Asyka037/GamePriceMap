@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2059190,
+  "fetchedAt": "2026-07-31T02:50:26.418Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2059190&cc=us&l=english",
+  "responseDigest": "sha256:e66f806574963ccb9eca4da26ef585f1ea1b204fd47de06b11f31eb42f6f6651",
+  "payload": {
+    "2059190": {
+      "success": true,
+      "data": {
+        "steam_appid": 2059190,
+        "name": "Total War: WARHAMMER III - Forge of the Chaos Dwarfs",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 13, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3749
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63213e9dbe473c4abecbc523a4a6f982506e27abac2eb74b6fe31fcb7bd7a6d9"
+}

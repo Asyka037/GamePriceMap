@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3857430,
+  "fetchedAt": "2026-07-31T03:22:37.628Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3857430&cc=us&l=english",
+  "responseDigest": "sha256:7167ef7364a19fd7cd11140e575a38935b79f22ffa212a8b34c40dbae76a2471",
+  "payload": {
+    "3857430": {
+      "success": true,
+      "data": {
+        "steam_appid": 3857430,
+        "name": "Interdimensional Vending Machine",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 156
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:989974d3963ad5893b9315885e717f1e35f0aff711cda49cf9ac47e98fa99594"
+}

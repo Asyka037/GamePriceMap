@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1243830,
+  "fetchedAt": "2026-07-31T02:44:47.477Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1243830&cc=us&l=english",
+  "responseDigest": "sha256:cf41d17989eb47fb66d41feb27a0cc1cefa04a45f0bcad50e6baaf64076b6bb2",
+  "payload": {
+    "1243830": {
+      "success": true,
+      "data": {
+        "steam_appid": 1243830,
+        "name": "Overcooked! All You Can Eat",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 23, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5602
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:390fb7fdba8a8cafaeee8916b0873ad118a1978a4c2f396daa30ac9cada575c2"
+}

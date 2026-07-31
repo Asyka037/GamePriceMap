@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2647680,
+  "fetchedAt": "2026-07-31T03:01:58.309Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2647680&cc=us&l=english",
+  "responseDigest": "sha256:4c8dfd63f4165d7bd885d6bad73b5daf9b44aa43b8b2388106e4ab6d203e4e97",
+  "payload": {
+    "2647680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2647680,
+        "name": "ICBM: Escalation",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 21, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1209
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:71da2facbbfe4b8ddabf849c86fdf053d7da1d944a7c0452486c59dbcee76137"
+}

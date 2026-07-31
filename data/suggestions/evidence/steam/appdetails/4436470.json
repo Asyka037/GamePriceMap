@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4436470,
+  "fetchedAt": "2026-07-31T03:05:19.297Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4436470&cc=us&l=english",
+  "responseDigest": "sha256:6999eb9d100bf8db22bc0a423ab283b3b962a3dbf7413552a1e07c03826b57ee",
+  "payload": {
+    "4436470": {
+      "success": true,
+      "data": {
+        "steam_appid": 4436470,
+        "name": "MARVEL Cosmic Invasion - Cyclops & The Thing",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c68833b1a33c2a79c92b7485ecda675befccea9fbdbebb773a93bdc33b76c714"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 236110,
+  "fetchedAt": "2026-07-31T02:44:34.218Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=236110&cc=us&l=english",
+  "responseDigest": "sha256:c9ab81f8045fa505ec705edfa499184f042c24e2105e1d720b69f91bb497ec6e",
+  "payload": {
+    "236110": {
+      "success": true,
+      "data": {
+        "steam_appid": 236110,
+        "name": "Dungeon Defenders II",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2017"
+        },
+        "recommendations": {
+          "total": 2985
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:35247b9f4ea4248f523f87d8aec4a9ca096ff8d52c5118199efc0c5cee11280c"
+}

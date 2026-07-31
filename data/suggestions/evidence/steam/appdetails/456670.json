@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 456670,
+  "fetchedAt": "2026-07-31T04:10:13.873Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=456670&cc=us&l=english",
+  "responseDigest": "sha256:39096b36c370b6ce704d9f25ff818ecac6af5b71ed92709a23735d340038f302",
+  "payload": {
+    "456670": {
+      "success": true,
+      "data": {
+        "steam_appid": 456670,
+        "name": "Hand of Fate 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5261
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2818b8dae121b0db60a311c4e59b228fe3edc35f5c6373f455f47b2808fb81d4"
+}

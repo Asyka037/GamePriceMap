@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2498570,
+  "fetchedAt": "2026-07-31T04:02:57.651Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2498570&cc=us&l=english",
+  "responseDigest": "sha256:7eecf1fd897a8dfa5eb1b689462fb9b27f0c13f676f0341bc040e0693d7444ba",
+  "payload": {
+    "2498570": {
+      "success": true,
+      "data": {
+        "steam_appid": 2498570,
+        "name": "Canvas of Kings",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 3, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1899,
+          "final": 1899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 795
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6615a87665c5e2d931c171c9cf3b3d98b4923bdd7411f02e6eaac7e4311e9846"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 571890,
+  "fetchedAt": "2026-07-31T04:08:25.043Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=571890&cc=us&l=english",
+  "responseDigest": "sha256:16ea279d15f617554b0917b3ce20461817f25746718822ad81faa25011140a38",
+  "payload": {
+    "571890": {
+      "success": true,
+      "data": {
+        "steam_appid": 571890,
+        "name": "Shapelab",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 26, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6499,
+          "final": 4224,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 285
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b04f3e98cba29eecdf06cea60f2e0689b08cc282ad16bfac643c161cfe71adfd"
+}

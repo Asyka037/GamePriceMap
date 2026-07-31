@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3132870,
+  "fetchedAt": "2026-07-31T03:34:21.476Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3132870&cc=us&l=english",
+  "responseDigest": "sha256:66ef3398a61505bd508062a0d57c726cf30e43ff930b19fc726a1221bbdae435",
+  "payload": {
+    "3132870": {
+      "success": true,
+      "data": {
+        "steam_appid": 3132870,
+        "name": "DarkSwitch",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2799,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 625
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:336eb6c9aa5d37c4652fdbc8baa98c26c753c1e627197d8b807a03da135bc50c"
+}

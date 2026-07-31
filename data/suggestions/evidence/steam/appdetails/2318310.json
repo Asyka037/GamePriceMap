@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2318310,
+  "fetchedAt": "2026-07-31T02:46:23.886Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2318310&cc=us&l=english",
+  "responseDigest": "sha256:f47ca0756bbeb3530465ae776c48a02de53cc94e720d2d9943940528696c1cb2",
+  "payload": {
+    "2318310": {
+      "success": true,
+      "data": {
+        "steam_appid": 2318310,
+        "name": "Class of '09: The Re-Up",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4431
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5c3590dcf4fbbcc0a9476f2b7df02d9223b2b18cd299b916413dea196f61148e"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 821250,
+  "fetchedAt": "2026-07-31T03:02:55.220Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=821250&cc=us&l=english",
+  "responseDigest": "sha256:4c0e9db5413910edb36f4a6fec8dde37738d5d6cc7300c03b9271427642c4128",
+  "payload": {
+    "821250": {
+      "success": true,
+      "data": {
+        "steam_appid": 821250,
+        "name": "Flotsam",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4220
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8d1772bfdcb8bf40dd3706621e58b1cd292dccc9cc0ff81a640dcc85e0a6ef2f"
+}

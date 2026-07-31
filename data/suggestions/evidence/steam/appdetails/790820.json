@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 790820,
+  "fetchedAt": "2026-07-31T03:16:07.770Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=790820&cc=us&l=english",
+  "responseDigest": "sha256:230ba00bff9e8237fcac3fed4102283018cfbd152ec1f8b467aab049f9b28a8f",
+  "payload": {
+    "790820": {
+      "success": true,
+      "data": {
+        "steam_appid": 790820,
+        "name": "Valkyria Chronicles 4 Complete Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5657
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f30efda77f17a85398c10eb08a6039e7d2375b5a89e5e1c85c9ac87e46b1fb8e"
+}

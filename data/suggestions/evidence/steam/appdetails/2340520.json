@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2340520,
+  "fetchedAt": "2026-07-31T02:49:49.236Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2340520&cc=us&l=english",
+  "responseDigest": "sha256:44e5f829c07c933d36f148131f3c71d648a5a6bb3f912c8c3abb1254ee300e3d",
+  "payload": {
+    "2340520": {
+      "success": true,
+      "data": {
+        "steam_appid": 2340520,
+        "name": "Tales of Seikyu",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2037
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:242090e4605c04d692e7f57c8c9d1c3a08f9ae53aa23044e2cee2155cbfa2211"
+}

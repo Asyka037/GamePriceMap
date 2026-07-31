@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 289890,
+  "fetchedAt": "2026-07-31T04:11:03.506Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=289890&cc=us&l=english",
+  "responseDigest": "sha256:a23c76f3b37dc20152402800bcea87c02df7fc9223be8f08b0c01506f766915c",
+  "payload": {
+    "289890": {
+      "success": true,
+      "data": {
+        "steam_appid": 289890,
+        "name": "7,62 High Calibre",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 349
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fde4e0f9f55a65f637b8955816526c189550af198c5a1783d63c8a5fc9b93de3"
+}

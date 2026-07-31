@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3367430,
+  "fetchedAt": "2026-07-31T03:43:49.109Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3367430&cc=us&l=english",
+  "responseDigest": "sha256:f0f012af6a0561bd816be580416cf259fbf0070d64133c25db646062ffe04d4f",
+  "payload": {
+    "3367430": {
+      "success": true,
+      "data": {
+        "steam_appid": 3367430,
+        "name": "Battleship Command",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 251
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fd194c4595bff5134cc7f700078e4c050ab50f4a59a7b1afad5e35ad10b3c5f5"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4496620,
+  "fetchedAt": "2026-07-31T02:48:26.584Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4496620&cc=us&l=english",
+  "responseDigest": "sha256:9ba87dc743ef5cc401387139bff6eb7647b056e5fcbe451be0185eb354e32b3c",
+  "payload": {
+    "4496620": {
+      "success": true,
+      "data": {
+        "steam_appid": 4496620,
+        "name": "Assassin's Creed Black Flag Resynced - Dragon Storm Character Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b1f05b5c7ea40e4b9f50237b8e17050a798b7a82c722b77d8ca27a096a5fe14e"
+}

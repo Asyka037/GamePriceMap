@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3819640,
+  "fetchedAt": "2026-07-31T02:43:59.287Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3819640&cc=us&l=english",
+  "responseDigest": "sha256:f8dac260492a81209c91e5de1a490f5f128bc1a04fb9b2ae3bd2981c1a8dbd4f",
+  "payload": {
+    "3819640": {
+      "success": true,
+      "data": {
+        "steam_appid": 3819640,
+        "name": "Megastore Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1105,
+          "discount_percent": 21
+        },
+        "recommendations": {
+          "total": 1707
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3892c0121758675dedad482b2d3e9de0c71bac92026a84280f8edbb58fd00694"
+}

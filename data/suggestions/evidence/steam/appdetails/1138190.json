@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1138190,
+  "fetchedAt": "2026-07-31T03:23:00.101Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1138190&cc=us&l=english",
+  "responseDigest": "sha256:7781394d58aa74ef0555596a389eda4cdc876c23203a53f1fed1339c0a1a684b",
+  "payload": {
+    "1138190": {
+      "success": true,
+      "data": {
+        "steam_appid": 1138190,
+        "name": "Poker Championship",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2019"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:103a206324aa5a1aa1e3dfd38a82c16e113065c17ca1e207c39d7b604c0323ac"
+}

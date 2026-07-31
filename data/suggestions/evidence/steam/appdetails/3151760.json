@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3151760,
+  "fetchedAt": "2026-07-31T04:13:51.357Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3151760&cc=us&l=english",
+  "responseDigest": "sha256:7378b4b055e0da4bda60f4f8f1f111af7299b192020eb68965175e78e8974cc5",
+  "payload": {
+    "3151760": {
+      "success": true,
+      "data": {
+        "steam_appid": 3151760,
+        "name": "Roboquest VR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 379
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:081089cc547a6a62f725a4d80dc585276b7a91eca915a66abe38d75cab660320"
+}

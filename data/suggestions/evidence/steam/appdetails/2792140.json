@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2792140,
+  "fetchedAt": "2026-07-31T03:00:03.886Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2792140&cc=us&l=english",
+  "responseDigest": "sha256:e4b12b5441790970367d79ccf60a6c07c477ff7fb92bc66e2dd6a633d9b89aed",
+  "payload": {
+    "2792140": {
+      "success": true,
+      "data": {
+        "steam_appid": 2792140,
+        "name": "Warhammer 40,000: Space Marine 2 - Ultramarines Champion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 3, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:27257bf8dd055cd9b35f9101d472160d266aa8da468e528d7833944c031c197d"
+}

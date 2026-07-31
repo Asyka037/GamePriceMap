@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1531540,
+  "fetchedAt": "2026-07-31T03:05:20.732Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1531540&cc=us&l=english",
+  "responseDigest": "sha256:0cc575354ee3a9fa71e908335bd4b28e2964d510dbae77e64d1e785a2529831f",
+  "payload": {
+    "1531540": {
+      "success": true,
+      "data": {
+        "steam_appid": 1531540,
+        "name": "Distant Worlds 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 10, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2644
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a74becb945c4491d5ab36d43902908520a448c3fcee778ede4a39e419a58f48"
+}

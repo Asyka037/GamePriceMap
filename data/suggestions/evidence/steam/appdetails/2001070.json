@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2001070,
+  "fetchedAt": "2026-07-31T02:50:10.066Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2001070&cc=us&l=english",
+  "responseDigest": "sha256:08c7ce541c6b980334785dd0151966135c9efe26c6419145e15e1a5a74fa8cec",
+  "payload": {
+    "2001070": {
+      "success": true,
+      "data": {
+        "steam_appid": 2001070,
+        "name": "Heart of the Machine",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1973
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:84eb32e15d568f51823d5512516db5a952d78f9f3f69a1ef5b162b82b842dbe0"
+}

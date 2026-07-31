@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 846470,
+  "fetchedAt": "2026-07-31T04:00:55.643Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=846470&cc=us&l=english",
+  "responseDigest": "sha256:ae3d3b4f6b4faca73e2e60d613c0d1bb9dc7ec55f0f343d616a0a5522aaeaece",
+  "payload": {
+    "846470": {
+      "success": true,
+      "data": {
+        "steam_appid": 846470,
+        "name": "Moss VR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 7, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2931
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:66576dfa2d99351c29a820318db4310d41f1ffd2bcbc02c603e519dedb8338c3"
+}

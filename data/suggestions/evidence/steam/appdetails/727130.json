@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 727130,
+  "fetchedAt": "2026-07-31T03:31:26.804Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=727130&cc=us&l=english",
+  "responseDigest": "sha256:6a0bd651dfc5b0435ee8dd83cc5e59ae238ad9b9a15dcc5bbb475402e2e7787d",
+  "payload": {
+    "727130": {
+      "success": true,
+      "data": {
+        "steam_appid": 727130,
+        "name": "Between the Stars",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1950
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cb38d4ac74bd4c0fe4468aa3f216e6dd090f34f059da29df17578551b50f7dea"
+}

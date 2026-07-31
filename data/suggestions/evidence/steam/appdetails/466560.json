@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 466560,
+  "fetchedAt": "2026-07-31T02:58:30.160Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=466560&cc=us&l=english",
+  "responseDigest": "sha256:38a33b1b653062478273024831758d5f0165b2327f7c5dbe7f671c1f7ace271e",
+  "payload": {
+    "466560": {
+      "success": true,
+      "data": {
+        "steam_appid": 466560,
+        "name": "Northgard: Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 7, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 54335
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3548c8f076626bdb7863d4616f3f1812bd3300e0787a818e11de2fd33a91d82e"
+}

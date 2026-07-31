@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3406890,
+  "fetchedAt": "2026-07-31T03:51:29.755Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3406890&cc=us&l=english",
+  "responseDigest": "sha256:c256ad9cbd6e4f6ff88785750ed1a5d628cd2a85133c48de55700d06bf5f6a42",
+  "payload": {
+    "3406890": {
+      "success": true,
+      "data": {
+        "steam_appid": 3406890,
+        "name": "Touhou: Divine Land -Majesty in Game-",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0cc9481814fab3f1bda89794b5c803102678b42b42f6e07dd06a9bbb7010678b"
+}

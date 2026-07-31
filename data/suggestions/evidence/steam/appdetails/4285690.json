@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4285690,
+  "fetchedAt": "2026-07-31T02:44:19.409Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4285690&cc=us&l=english",
+  "responseDigest": "sha256:05f8650d5e272bff7346aa3d2f966a3560487bd5c8b717b2a1bf110b76a0eddd",
+  "payload": {
+    "4285690": {
+      "success": true,
+      "data": {
+        "steam_appid": 4285690,
+        "name": "Airport Security Sucks!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 383
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:806fece59dcb36b3f5290012aef2411e4244a549251bc35a138e3fa6762899ef"
+}

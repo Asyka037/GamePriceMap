@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2234150,
+  "fetchedAt": "2026-07-31T04:07:29.130Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2234150&cc=us&l=english",
+  "responseDigest": "sha256:ec548c09136c3b27d29229170dbb541ca78f14b52612f7139cb4e8c32a57e53d",
+  "payload": {
+    "2234150": {
+      "success": true,
+      "data": {
+        "steam_appid": 2234150,
+        "name": "BACKROOMS: APPREHENSION",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 14, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1288
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f914b43a61ccfbf9172d68efd1caf2e9fde85998cfbc5a9dacea172a4c1a2ad3"
+}

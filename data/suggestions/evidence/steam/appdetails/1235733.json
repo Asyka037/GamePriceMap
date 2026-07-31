@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1235733,
+  "fetchedAt": "2026-07-31T02:45:34.048Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1235733&cc=us&l=english",
+  "responseDigest": "sha256:a11bd9a58ba08ce6a5e3437722e096455507b0c651df80ead495c089fe6be551",
+  "payload": {
+    "1235733": {
+      "success": true,
+      "data": {
+        "steam_appid": 1235733,
+        "name": "The Sims™ 4 Seasons",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 536
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8f4454db0379fab97bf0227427f12170bf025f831ea317e29d9831f85284da68"
+}

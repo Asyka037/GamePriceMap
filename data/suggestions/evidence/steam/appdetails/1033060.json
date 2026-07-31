@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1033060,
+  "fetchedAt": "2026-07-31T02:56:36.300Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1033060&cc=us&l=english",
+  "responseDigest": "sha256:91c3dfd45b3c436115002df280ae1cf53671ecaad5f8cb3e31eebb5dad7d0bf8",
+  "payload": {
+    "1033060": {
+      "success": true,
+      "data": {
+        "steam_appid": 1033060,
+        "name": "Warhammer: Vermintide 2 - Winds of Magic",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 13, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2165
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7bf76c7ba8f61830350e871fb78620ec8d8d7e5ee660d07fab0db52b7febe480"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4263300,
+  "fetchedAt": "2026-07-31T03:52:42.327Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4263300&cc=us&l=english",
+  "responseDigest": "sha256:a28bbe241cb98c276061760880eb5e4191475a3c84b9aba860f7162e10ba5940",
+  "payload": {
+    "4263300": {
+      "success": true,
+      "data": {
+        "steam_appid": 4263300,
+        "name": "Brawlhalla - Spring Esports 2026 Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d7980236dfa3b25dd905ab12ed185a6a91277f98449272155ed621596723eff5"
+}

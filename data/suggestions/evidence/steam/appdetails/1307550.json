@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1307550,
+  "fetchedAt": "2026-07-31T02:54:07.411Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1307550&cc=us&l=english",
+  "responseDigest": "sha256:39d1d287b7ce5b751cfc1ec4e96daf8f4b799940a574021f3f442fb1ad3467c8",
+  "payload": {
+    "1307550": {
+      "success": true,
+      "data": {
+        "steam_appid": 1307550,
+        "name": "Craftopia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 4, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 18318
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:959ee05487dbd41c07eca776d1cb36ddc4840277cdc4a8fa71aa10615e65ffaf"
+}

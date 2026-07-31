@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3665520,
+  "fetchedAt": "2026-07-31T04:02:14.953Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3665520&cc=us&l=english",
+  "responseDigest": "sha256:86651bf3e96642bb4778b969f1139c163b07a4b11cb5b3faf40ae2fb3cce791d",
+  "payload": {
+    "3665520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3665520,
+        "name": "Catto Pew Pew!",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d0c07df213eda4c4ce58f4d944364a566debc3be56cb2b1a674971c0776ebe92"
+}

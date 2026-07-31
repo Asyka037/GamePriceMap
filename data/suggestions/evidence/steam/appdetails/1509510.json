@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1509510,
+  "fetchedAt": "2026-07-31T04:11:43.000Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1509510&cc=us&l=english",
+  "responseDigest": "sha256:f41f2a9bfeca4ef2ea30697195d36b9210b3ca9d20daa875094986ba0bdd703e",
+  "payload": {
+    "1509510": {
+      "success": true,
+      "data": {
+        "steam_appid": 1509510,
+        "name": "Settlement Survival",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2149,
+          "final": 537,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 7641
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0277e00f5a6028c4cc736a87e087cc736790be5855636f5c2c6e1b6850d151ca"
+}

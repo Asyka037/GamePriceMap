@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1764530,
+  "fetchedAt": "2026-07-31T04:12:42.169Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1764530&cc=us&l=english",
+  "responseDigest": "sha256:a6ca3f0c37aeb1554817ffec3202b103c577d9f718933c82c91b91eb4c73b0c3",
+  "payload": {
+    "1764530": {
+      "success": true,
+      "data": {
+        "steam_appid": 1764530,
+        "name": "Sailwind",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 18, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2261
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3f0282a238755476d595e25256a433234c85bd508bbb330b7c4294d667841640"
+}

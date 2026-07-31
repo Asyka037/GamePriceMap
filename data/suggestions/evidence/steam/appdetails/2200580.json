@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2200580,
+  "fetchedAt": "2026-07-31T03:21:13.095Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2200580&cc=us&l=english",
+  "responseDigest": "sha256:2a1c947ee1815e2ef6d089e3e0a4029c32e4f471f6208aa0a0b1edbf432c10ad",
+  "payload": {
+    "2200580": {
+      "success": true,
+      "data": {
+        "steam_appid": 2200580,
+        "name": "Pocky & Rocky Reshrined",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 24, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1649,
+          "discount_percent": 45
+        },
+        "recommendations": {
+          "total": 241
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fc047047f9ce4f22a10c61a75877d68ab2764a245249092562a470c3bc1f26d1"
+}

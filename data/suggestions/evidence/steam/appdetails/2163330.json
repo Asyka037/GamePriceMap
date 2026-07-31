@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2163330,
+  "fetchedAt": "2026-07-31T02:57:37.995Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2163330&cc=us&l=english",
+  "responseDigest": "sha256:256b781f6ced5b82ab26d9b9fe4e6669164b78c75cd841c36bcbc2402193e63f",
+  "payload": {
+    "2163330": {
+      "success": true,
+      "data": {
+        "steam_appid": 2163330,
+        "name": "Yet Another Zombie Survivors",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 13, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12373
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d7954dc435275a844b17535bc299c4bd04d4d74c284a1f1f37242147507c96d8"
+}

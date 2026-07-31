@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 648410,
+  "fetchedAt": "2026-07-31T03:46:00.083Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=648410&cc=us&l=english",
+  "responseDigest": "sha256:74e4657aa4c014207e6ff4fd87e2f79939e7c9189125bd83947f48fbabe4cc10",
+  "payload": {
+    "648410": {
+      "success": true,
+      "data": {
+        "steam_appid": 648410,
+        "name": "Colony Ship: A Post-Earth Role Playing Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 9, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3944
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:00960084e04cb9a686d2342602e0cf7b0f3a93f0f7eb538ee095d0498ee70f05"
+}

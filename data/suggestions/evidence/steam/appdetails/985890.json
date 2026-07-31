@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 985890,
+  "fetchedAt": "2026-07-31T03:04:37.078Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=985890&cc=us&l=english",
+  "responseDigest": "sha256:2d7e8ad82a539da8102212110667a9b07d2e2b63f4b225a8d71204b5370c822d",
+  "payload": {
+    "985890": {
+      "success": true,
+      "data": {
+        "steam_appid": 985890,
+        "name": "Streets of Rage 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17189
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8cd0a0879965ed370da0775de29d0a1b54d6deb2f1fb80b01f5bd2e246f51890"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2640,
+  "fetchedAt": "2026-07-31T03:47:15.984Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2640&cc=us&l=english",
+  "responseDigest": "sha256:1cd98557c1cdf3722d77ceb8787a27747f4cb302cf22ae40524738ad72a02368",
+  "payload": {
+    "2640": {
+      "success": true,
+      "data": {
+        "steam_appid": 2640,
+        "name": "Call of Duty: United Offensive",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 13, 2006"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2239
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df6d566489a8a712036aed7b6fcdba1a6789f9aee3e11f8246508fce64dd3933"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4600460,
+  "fetchedAt": "2026-07-31T02:55:44.920Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4600460&cc=us&l=english",
+  "responseDigest": "sha256:97bf800d686320e5d23dde026b529e470732fd83389950995b4219d8abb44e8c",
+  "payload": {
+    "4600460": {
+      "success": true,
+      "data": {
+        "steam_appid": 4600460,
+        "name": "Season 4 Advanced Pack - Battlefield™ 6 and REDSEC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c4120e36ec0874c40cbf7a0fce75ec355c70d10b5c7f88be3874a54200cf1085"
+}

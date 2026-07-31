@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3152750,
+  "fetchedAt": "2026-07-31T03:11:20.108Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3152750&cc=us&l=english",
+  "responseDigest": "sha256:6a590fa698bd0b18ad3a684b04830085ff1af2a91bc1856e40aa49d56d707479",
+  "payload": {
+    "3152750": {
+      "success": true,
+      "data": {
+        "steam_appid": 3152750,
+        "name": "Taival",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 103
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8ba534d1dc640435ecaa4964f2d4f33f8a2244421bf265b33d81eebd9a1b4476"
+}

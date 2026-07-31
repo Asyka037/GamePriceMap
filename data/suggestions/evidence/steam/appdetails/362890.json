@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 362890,
+  "fetchedAt": "2026-07-31T03:10:49.018Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=362890&cc=us&l=english",
+  "responseDigest": "sha256:0fa77db71373744517e558555560027a1789f00871d955a5241f76a6e884963d",
+  "payload": {
+    "362890": {
+      "success": true,
+      "data": {
+        "steam_appid": 362890,
+        "name": "Black Mesa",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 134033
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0bfbd0c053e91ac2f372054041360161f15502126593ec5a99dc3941a0af77df"
+}

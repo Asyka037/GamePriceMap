@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1238860,
+  "fetchedAt": "2026-07-31T03:54:21.173Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1238860&cc=us&l=english",
+  "responseDigest": "sha256:d2d23860e25a7a1e342d2c12f5a7cc21a038aff0040a72759839050cbdb9d26e",
+  "payload": {
+    "1238860": {
+      "success": true,
+      "data": {
+        "steam_appid": 1238860,
+        "name": "Battlefield 4™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 399,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 68755
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0df94b04214cff454273da076e0d2148972ddc2c44be3a46eba6b23443846aff"
+}

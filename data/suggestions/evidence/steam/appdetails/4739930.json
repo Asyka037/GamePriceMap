@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4739930,
+  "fetchedAt": "2026-07-31T03:21:57.783Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4739930&cc=us&l=english",
+  "responseDigest": "sha256:a0748e030b994eb7b578ae2bca5cabe830e35dc8a124f7e3cc6509a72d4a1d91",
+  "payload": {
+    "4739930": {
+      "success": true,
+      "data": {
+        "steam_appid": 4739930,
+        "name": "Welcome Pack – FOR HONOR",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:905960bf3421de21f690009dc81811cb8ec61463e091c9c5b6f8e5bdd3b2a046"
+}

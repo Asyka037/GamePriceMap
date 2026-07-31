@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 257350,
+  "fetchedAt": "2026-07-31T04:14:57.129Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=257350&cc=us&l=english",
+  "responseDigest": "sha256:0d8aabff1ebf5d9018e630ca5c6119a191a2459b2b78071f5c79507a397fd874",
+  "payload": {
+    "257350": {
+      "success": true,
+      "data": {
+        "steam_appid": 257350,
+        "name": "Baldur's Gate II: Enhanced Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 15, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9404
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9580829354351b546952e56fa5ec2c4aa267beb889a1d07476fcd246ac850e1a"
+}

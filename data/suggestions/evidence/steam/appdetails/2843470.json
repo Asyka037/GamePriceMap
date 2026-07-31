@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2843470,
+  "fetchedAt": "2026-07-31T03:23:30.989Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2843470&cc=us&l=english",
+  "responseDigest": "sha256:b1da068df203c72cffddde7104f5747eb5a7979717bbda6ae97b2d45686e0d32",
+  "payload": {
+    "2843470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2843470,
+        "name": "Killing Floor 3 - Future Seasons 2-4 Deluxe Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0276c70e9f154832e73cf1f9977fa93c48190ae5869c2339d135abb564143f8d"
+}

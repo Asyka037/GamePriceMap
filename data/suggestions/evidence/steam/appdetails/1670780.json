@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1670780,
+  "fetchedAt": "2026-07-31T03:05:05.476Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1670780&cc=us&l=english",
+  "responseDigest": "sha256:b051ec6b4bae45502a6660f1761a0da473db6a71057b9a74a87329a21fcc3414",
+  "payload": {
+    "1670780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1670780,
+        "name": "Out of Action",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 888
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5bc3064432ece0e88d973d2453c39a9cf92c9f5ce7a55f7162fa6d7fed85f5e8"
+}

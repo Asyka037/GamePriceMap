@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4530240,
+  "fetchedAt": "2026-07-31T04:06:46.381Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4530240&cc=us&l=english",
+  "responseDigest": "sha256:a0c2f87f6b6892ada56c1f0be5f707a0461bb0e8b4e470a7c4c6b9cbf56f2b9b",
+  "payload": {
+    "4530240": {
+      "success": true,
+      "data": {
+        "steam_appid": 4530240,
+        "name": "Dissolution of the Silent Union",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 269,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e240f5896c859b0f5cf371b17bf08bd0c1a46deaf06cdc0225f2f27d1f8224bb"
+}

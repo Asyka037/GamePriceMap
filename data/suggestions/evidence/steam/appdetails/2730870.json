@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2730870,
+  "fetchedAt": "2026-07-31T02:43:03.258Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2730870&cc=us&l=english",
+  "responseDigest": "sha256:361d4924692c3a89ce4f53f09edd9809277035d9f8de83a9fcf5f3e1e3e06878",
+  "payload": {
+    "2730870": {
+      "success": true,
+      "data": {
+        "steam_appid": 2730870,
+        "name": "American Truck Simulator - Missouri",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 261
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d82966c899b9f1fab2e344f6ea154eed68efbc7e59d0fb02d59efc2c14e503ff"
+}

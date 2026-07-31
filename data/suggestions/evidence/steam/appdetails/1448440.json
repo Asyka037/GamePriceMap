@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1448440,
+  "fetchedAt": "2026-07-31T03:19:18.862Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1448440&cc=us&l=english",
+  "responseDigest": "sha256:81af22934f3f80d1c8e310f96c1ec67755209cd81dcb4e51e27884ea0f9f38f4",
+  "payload": {
+    "1448440": {
+      "success": true,
+      "data": {
+        "steam_appid": 1448440,
+        "name": "Wo Long: Fallen Dynasty",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 3, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 20758
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:421d58f8f8d73434ce4db740f9af3f4b75ef38ceefccb7ba3d33a2c4a4d24189"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 390100,
+  "fetchedAt": "2026-07-31T04:05:48.915Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=390100&cc=us&l=english",
+  "responseDigest": "sha256:9c1cf50fcf84bda1b65060099b9c249b61f371ab9264ecb5a8fc7fbaa4f4fd3b",
+  "payload": {
+    "390100": {
+      "success": true,
+      "data": {
+        "steam_appid": 390100,
+        "name": "9Dragons",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 14, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4613933157765c855b9361ae10c930adadb20938825163bc63dca8afb47a3fb5"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2313020,
+  "fetchedAt": "2026-07-31T03:14:25.790Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2313020&cc=us&l=english",
+  "responseDigest": "sha256:bfff521280c5df3905ce086603834bb3915dbb77945462afd04e569866f241a0",
+  "payload": {
+    "2313020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2313020,
+        "name": "Umamusume: Pretty Derby - Party Dash",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 29, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1373
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a25f859e1733c2b635700cf8da0ba345cdb2d02f5e4cd91ee7d7abc636a5acc7"
+}

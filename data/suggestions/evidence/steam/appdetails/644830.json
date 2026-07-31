@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 644830,
+  "fetchedAt": "2026-07-31T02:56:20.376Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=644830&cc=us&l=english",
+  "responseDigest": "sha256:a9e99c22b0034beb7ccb200452096874ec2e62011c55bae1ddf97b0b720bb7d4",
+  "payload": {
+    "644830": {
+      "success": true,
+      "data": {
+        "steam_appid": 644830,
+        "name": "The Surge 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7400
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c237d7f340857f45f05684e6bda83a5f92fd7f1fdc9b0ab74ce41b864a831b0c"
+}

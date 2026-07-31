@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1999190,
+  "fetchedAt": "2026-07-31T03:45:50.303Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1999190&cc=us&l=english",
+  "responseDigest": "sha256:09b429be36a10f1990cf3c6fb5fa0ff6834c8d74d948ebcba176cb0b884cb139",
+  "payload": {
+    "1999190": {
+      "success": true,
+      "data": {
+        "steam_appid": 1999190,
+        "name": "DRAGON BALL XENOVERSE 2 Conton City Vote Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 7, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0271ea877ea4ef90bdc967dbeb8716f6a3c028a0359465a51eaf1148557e2549"
+}

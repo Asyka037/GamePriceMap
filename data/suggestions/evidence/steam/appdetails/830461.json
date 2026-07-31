@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 830461,
+  "fetchedAt": "2026-07-31T02:43:54.603Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=830461&cc=us&l=english",
+  "responseDigest": "sha256:d8636154a8aae1db18f6d20af5d2f7ee3436ebe4c610f9db3150d5fece355cf9",
+  "payload": {
+    "830461": {
+      "success": true,
+      "data": {
+        "steam_appid": 830461,
+        "name": "Call of Duty®: Black Ops III - Revelations Zombies Map",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 1, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 178
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:572cbb881197bf7b5a1cd52facee0c4b9911a65f0460c722b151d3e4276ef7fe"
+}

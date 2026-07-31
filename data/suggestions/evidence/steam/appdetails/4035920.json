@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4035920,
+  "fetchedAt": "2026-07-31T03:49:08.041Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4035920&cc=us&l=english",
+  "responseDigest": "sha256:6f529157e3be267bdd66a868ff8a35591a92974c4edcc8f1cd2a0594a6dd6866",
+  "payload": {
+    "4035920": {
+      "success": true,
+      "data": {
+        "steam_appid": 4035920,
+        "name": "Train Sim World® 6: Thames Valley: Windsor, Henley & Marlow Branch Lines Add-On",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9f931ac3552e794eee511a52cb5cbcef5ae38b784377907bec128a180f77cdad"
+}

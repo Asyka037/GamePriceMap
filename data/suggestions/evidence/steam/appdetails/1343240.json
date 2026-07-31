@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1343240,
+  "fetchedAt": "2026-07-31T03:23:03.000Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1343240&cc=us&l=english",
+  "responseDigest": "sha256:d0d018e6fca86f0263c9c23da474d728268bbaae4984c6b0048ed0ee5f0b5645",
+  "payload": {
+    "1343240": {
+      "success": true,
+      "data": {
+        "steam_appid": 1343240,
+        "name": "Thymesia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 18, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 624,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 8103
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b561911714297f2914baa0018f98d56da23497905cd435b21f6fe1dc56714212"
+}

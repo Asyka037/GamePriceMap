@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1473480,
+  "fetchedAt": "2026-07-31T03:50:53.613Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1473480&cc=us&l=english",
+  "responseDigest": "sha256:eb5f39da4ec88522342f9c447bcb2f55dc1a4b4554f7947f9896c72a08d74eeb",
+  "payload": {
+    "1473480": {
+      "success": true,
+      "data": {
+        "steam_appid": 1473480,
+        "name": "A.V.A Global",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 23, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:805abff9b3b1caf1f1eb8d9cf42ceaba5659ea5e48112d201c8b83f7784b3e7a"
+}

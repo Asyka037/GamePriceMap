@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4630570,
+  "fetchedAt": "2026-07-31T03:00:48.486Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4630570&cc=us&l=english",
+  "responseDigest": "sha256:6d14290bc24993836d1fb402e9db0f1140c222e75d963d745add5622fcf68bc0",
+  "payload": {
+    "4630570": {
+      "success": true,
+      "data": {
+        "steam_appid": 4630570,
+        "name": "RUNNING TRAIN | 走ル列車！",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1419
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1d176741066f59c278d4278ca8d84a25a273d0b8b1318b8492636e00fad892cb"
+}

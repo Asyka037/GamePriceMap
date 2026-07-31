@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1682970,
+  "fetchedAt": "2026-07-31T02:46:58.124Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1682970&cc=us&l=english",
+  "responseDigest": "sha256:bf483f2d0df8c1ed4a69505c7a3c816e9e2137127c52f406acdd8f412064be52",
+  "payload": {
+    "1682970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1682970,
+        "name": "Uncrashed : FPV Drone Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 1, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7418
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:149c55f4eb24906b5701e75e3a132a7ae91e24b32e0d2696c2f819120dfe48b4"
+}

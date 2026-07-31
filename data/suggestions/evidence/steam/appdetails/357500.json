@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 357500,
+  "fetchedAt": "2026-07-31T03:56:55.061Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=357500&cc=us&l=english",
+  "responseDigest": "sha256:91b7de2576b83bf96c7874dba19a40e81cf350006b2f76f950f4be59686a5b20",
+  "payload": {
+    "357500": {
+      "success": true,
+      "data": {
+        "steam_appid": 357500,
+        "name": "Rumble Fighter: Unleashed",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 16, 2016"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9f2e9848578e6feae196bb96fab5bd60474c79762ee3eb12de2e4254b54d0740"
+}

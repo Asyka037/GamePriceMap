@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1104380,
+  "fetchedAt": "2026-07-31T03:36:32.962Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1104380&cc=us&l=english",
+  "responseDigest": "sha256:e09df67bfc2bebdfce62061745a3a3651bbf79c93c936978b9a89e40f6727733",
+  "payload": {
+    "1104380": {
+      "success": true,
+      "data": {
+        "steam_appid": 1104380,
+        "name": "The Room VR: A Dark Matter",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 624,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 3836
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dac5857e0ee14a75c6a83ef2635f3b46f926c9e70adc48b49c1f54315df6e644"
+}

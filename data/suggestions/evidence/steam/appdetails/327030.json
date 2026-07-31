@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 327030,
+  "fetchedAt": "2026-07-31T03:19:55.809Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=327030&cc=us&l=english",
+  "responseDigest": "sha256:7324f6989a4df5f034a5b8dede1ef6e5cc465dd0cdda8fe3d7265923964988d4",
+  "payload": {
+    "327030": {
+      "success": true,
+      "data": {
+        "steam_appid": 327030,
+        "name": "Worms W.M.D",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 23, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 599,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 10341
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:afcfb41112edb7eadb72b8de56b51d8e69043416d98e1fd4159a1c2de8596d3f"
+}

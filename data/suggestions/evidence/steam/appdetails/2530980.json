@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2530980,
+  "fetchedAt": "2026-07-31T03:15:37.902Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2530980&cc=us&l=english",
+  "responseDigest": "sha256:98b4e5a11f333dee37f166066620f2a99413218828e7d2c09e044c30fccf1695",
+  "payload": {
+    "2530980": {
+      "success": true,
+      "data": {
+        "steam_appid": 2530980,
+        "name": "Tales of Graces f Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 760
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:87f9d06d64114376afda3b781c7ff0a97ca888d88db78988a5c1e8f627a0f269"
+}

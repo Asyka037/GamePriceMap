@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3681010,
+  "fetchedAt": "2026-07-31T02:48:10.061Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3681010&cc=us&l=english",
+  "responseDigest": "sha256:7da1b7afeb7227b45b8d306f212f4c0ea41225e2ac45fbebd1e07eb171de5b2a",
+  "payload": {
+    "3681010": {
+      "success": true,
+      "data": {
+        "steam_appid": 3681010,
+        "name": "Nioh 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 4479,
+          "discount_percent": 36
+        },
+        "recommendations": {
+          "total": 11339
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5b5e8776657e06235dae77bea2e21d3069db16172cbd1788ec56644c3fc4bec9"
+}

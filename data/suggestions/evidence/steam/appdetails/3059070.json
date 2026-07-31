@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3059070,
+  "fetchedAt": "2026-07-31T02:45:15.663Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3059070&cc=us&l=english",
+  "responseDigest": "sha256:4e3c373749b980fe80ecc3c8a7b1f058a7ff07b6b0cba47ddfb6e397c2de7b7a",
+  "payload": {
+    "3059070": {
+      "success": true,
+      "data": {
+        "steam_appid": 3059070,
+        "name": "The Headliners",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8397
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1fa62b7eecaae762b4170dc4944c96c9f125da77c3e307ed310667e33fdcf8e8"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1605850,
+  "fetchedAt": "2026-07-31T02:55:31.581Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1605850&cc=us&l=english",
+  "responseDigest": "sha256:b06cd84b6308b642f01dcbd22c33dcb1b67d6ebd0cd10307af6785ea2babf159",
+  "payload": {
+    "1605850": {
+      "success": true,
+      "data": {
+        "steam_appid": 1605850,
+        "name": "ZeroSpace",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3599,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 743
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4e933b220b4839f85a5e94922fa7bf59d84d95cc537409af6b66ae100f793e34"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4530910,
+  "fetchedAt": "2026-07-31T03:52:52.163Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4530910&cc=us&l=english",
+  "responseDigest": "sha256:0a596ba7e89b198ee618635d58d0d8ef20679e8e3024d67ab5435c919bc60e1f",
+  "payload": {
+    "4530910": {
+      "success": true,
+      "data": {
+        "steam_appid": 4530910,
+        "name": "Parcel Simulator - Supporter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2e5df351beaf01a682478b3d222d01687b63162370d89f0aa169640edb15be22"
+}

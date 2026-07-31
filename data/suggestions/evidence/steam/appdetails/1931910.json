@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1931910,
+  "fetchedAt": "2026-07-31T03:18:14.684Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1931910&cc=us&l=english",
+  "responseDigest": "sha256:1da2b834c1b0f69b729fe2cbeb381358e50e9678a0f589c9eb48c52448a0548e",
+  "payload": {
+    "1931910": {
+      "success": true,
+      "data": {
+        "steam_appid": 1931910,
+        "name": "theHunter: Call of the Wild™ - Revontuli Coast",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 28, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 399,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 485
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:97692a6cc3435f3498b64df07cf7bc7aace966e3d953a9fa8009221481720064"
+}

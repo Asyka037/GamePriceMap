@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1161830,
+  "fetchedAt": "2026-07-31T03:31:53.379Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1161830&cc=us&l=english",
+  "responseDigest": "sha256:72f5c827ae718cab037f8a0bb4ce74f6643d7ae7ba2e99b84f3d4ffd4dd5043b",
+  "payload": {
+    "1161830": {
+      "success": true,
+      "data": {
+        "steam_appid": 1161830,
+        "name": "Age of Reforging: The Freelands",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2099,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 2196
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3b74189a065d2b934640077b4c2424c9334dfad030a73a9f18ac1b62f7d3e9d6"
+}

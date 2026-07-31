@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2756930,
+  "fetchedAt": "2026-07-31T03:15:56.017Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2756930&cc=us&l=english",
+  "responseDigest": "sha256:6f95fb826f28e64582d71a40fdcbdde1f14419225edc2738a7d90fa3463e0ffc",
+  "payload": {
+    "2756930": {
+      "success": true,
+      "data": {
+        "steam_appid": 2756930,
+        "name": "PUMP IT UP RISE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 753
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:807b9470fab92f23333dbadc94573f219776be1dbe584dc465fe0d5b3c804aad"
+}

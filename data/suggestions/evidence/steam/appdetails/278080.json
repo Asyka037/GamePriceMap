@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 278080,
+  "fetchedAt": "2026-07-31T03:20:43.338Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=278080&cc=us&l=english",
+  "responseDigest": "sha256:b6dcb03ff358f9392385386e7b6284ba4a3835409ba5dfd1842660d665e6f616",
+  "payload": {
+    "278080": {
+      "success": true,
+      "data": {
+        "steam_appid": 278080,
+        "name": "DYNASTY WARRIORS 8: Xtreme Legends Complete Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 13, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1499,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 11843
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:865ee8c6cb79f476b68a825c8d84d17c6e66cbb5f78e599386ca8fb557041d35"
+}

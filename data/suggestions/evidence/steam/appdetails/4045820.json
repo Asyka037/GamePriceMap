@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4045820,
+  "fetchedAt": "2026-07-31T04:14:50.644Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4045820&cc=us&l=english",
+  "responseDigest": "sha256:db6c32cb44b19174d004e680237f5c8ebe20ab55ee6223cac30e373a305e0af7",
+  "payload": {
+    "4045820": {
+      "success": true,
+      "data": {
+        "steam_appid": 4045820,
+        "name": "Solasta II - Supporter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f509d69b9fce14ff2d53b2f0130966f0c1e0c7334ff9730641fcde1069fd8638"
+}

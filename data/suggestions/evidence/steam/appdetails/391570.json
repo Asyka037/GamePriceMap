@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 391570,
+  "fetchedAt": "2026-07-31T03:07:27.458Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=391570&cc=us&l=english",
+  "responseDigest": "sha256:d9abee94f03ff4c9f42c7159e30cea30cac460566cf209fcbbd8871887e92593",
+  "payload": {
+    "391570": {
+      "success": true,
+      "data": {
+        "steam_appid": 391570,
+        "name": "UNDERTALE Soundtrack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 15, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 399,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 2195
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:13298ec86c881a43597a6a7b74fe3a85ad5cf9bddeb66016151191fba3ddefa3"
+}

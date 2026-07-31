@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 307780,
+  "fetchedAt": "2026-07-31T02:53:54.271Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=307780&cc=us&l=english",
+  "responseDigest": "sha256:ad9b2a9d3f4d8cff36558ebb372456652560b62e5ee795544037c47193831744",
+  "payload": {
+    "307780": {
+      "success": true,
+      "data": {
+        "steam_appid": 307780,
+        "name": "Mortal Kombat X",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 13, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 39151
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:64dccc9ba3cb439a634d40dccd83181acfa1237c5ed93ab39d9ee9c8a29dc4cf"
+}

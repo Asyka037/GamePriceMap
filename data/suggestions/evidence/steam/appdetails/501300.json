@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 501300,
+  "fetchedAt": "2026-07-31T02:56:42.116Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=501300&cc=us&l=english",
+  "responseDigest": "sha256:d2efdc1c590113ab564043c16fb92a3025f5182dfbd29cc6aad779e56589b116",
+  "payload": {
+    "501300": {
+      "success": true,
+      "data": {
+        "steam_appid": 501300,
+        "name": "What Remains of Edith Finch",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 24, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 46392
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5a25f6439b1fcc3021342772436b7ee83b110ad833bc67bf87a7d2b922b93bcc"
+}

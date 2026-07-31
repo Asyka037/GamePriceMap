@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2238470,
+  "fetchedAt": "2026-07-31T02:42:30.417Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2238470&cc=us&l=english",
+  "responseDigest": "sha256:0a58ea02935e48a27fe67acc570fa9a354280dcc863b593803f1df69a5cf2604",
+  "payload": {
+    "2238470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2238470,
+        "name": "Grimshire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3046
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fabd3d9db83f365ea9e32238bfa40c76ee0f2486ba664b17ae503060149b3689"
+}

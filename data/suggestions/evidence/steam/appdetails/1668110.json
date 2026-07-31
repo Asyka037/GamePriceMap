@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1668110,
+  "fetchedAt": "2026-07-31T03:10:12.041Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1668110&cc=us&l=english",
+  "responseDigest": "sha256:9bc02872a61c5e09c8adddf39f1a4c742db3331df1a01d9e365a793ba2fda015",
+  "payload": {
+    "1668110": {
+      "success": true,
+      "data": {
+        "steam_appid": 1668110,
+        "name": "Conan Exiles Enhanced - People of the Dragon Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0b3b7b436cef6e1e5fea1150743a102f13b1114ddbb459a2002268d3af8b95a6"
+}

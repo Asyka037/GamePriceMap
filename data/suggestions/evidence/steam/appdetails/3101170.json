@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3101170,
+  "fetchedAt": "2026-07-31T03:53:11.869Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3101170&cc=us&l=english",
+  "responseDigest": "sha256:c1b8b2c2de3cd0af26259ed3e61ba8f9bddf8b9753aa9dc4f52831cdc4ff40a4",
+  "payload": {
+    "3101170": {
+      "success": true,
+      "data": {
+        "steam_appid": 3101170,
+        "name": "Atari 50: The First Console War",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bb3a14ae697be5c91aa4d2169db4d4d62a8a5730d78acb95cb87b4f6938cc030"
+}

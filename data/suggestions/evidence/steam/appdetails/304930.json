@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 304930,
+  "fetchedAt": "2026-07-31T03:24:25.255Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=304930&cc=us&l=english",
+  "responseDigest": "sha256:6dbe2b1385d46b0739e62852ae7dd2a6264e28aeb6d02812e97348ebc78db8d5",
+  "payload": {
+    "304930": {
+      "success": true,
+      "data": {
+        "steam_appid": 304930,
+        "name": "Unturned",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 7, 2017"
+        },
+        "recommendations": {
+          "total": 7504
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a17fa1e45c46102de5978b4007a05fa2d791eac197166f3d1b78d4fadf746393"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 332950,
+  "fetchedAt": "2026-07-31T03:21:53.303Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=332950&cc=us&l=english",
+  "responseDigest": "sha256:098faf6074925a74e90cd6a604d3996f758e756e3ff61acbfc1d6b3379c550c8",
+  "payload": {
+    "332950": {
+      "success": true,
+      "data": {
+        "steam_appid": 332950,
+        "name": "Dark Deception",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2018"
+        },
+        "recommendations": {
+          "total": 1331
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:632539fadd0f20444c64d833b76d8cd159d8f8d431eb9927fc08aa9f4fa9fb98"
+}

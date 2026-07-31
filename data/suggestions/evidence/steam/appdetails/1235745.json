@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1235745,
+  "fetchedAt": "2026-07-31T03:00:17.420Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1235745&cc=us&l=english",
+  "responseDigest": "sha256:6073bac43303b5bf83c8cf37b326ffc09012759a81de6256bfaee86e7d204769",
+  "payload": {
+    "1235745": {
+      "success": true,
+      "data": {
+        "steam_appid": 1235745,
+        "name": "The Sims™ 4 Parenthood",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 118
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:78249b11dbf9ba96d198ebc640def4cd2851bd3cb6d360209fb0909775c9b189"
+}

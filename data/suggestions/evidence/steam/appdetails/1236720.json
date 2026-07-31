@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1236720,
+  "fetchedAt": "2026-07-31T03:12:02.935Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1236720&cc=us&l=english",
+  "responseDigest": "sha256:ec88a353b6aec9655fc877108b2b267f03d19c2b7e040fc4ce8e833938ceb050",
+  "payload": {
+    "1236720": {
+      "success": true,
+      "data": {
+        "steam_appid": 1236720,
+        "name": "Spirit Island",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 499,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 1509
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b489c7b5faac0def49ba71f817e6c0dba2befd56b54efb27880451a2bb228a0f"
+}

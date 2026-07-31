@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4605210,
+  "fetchedAt": "2026-07-31T04:01:41.836Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4605210&cc=us&l=english",
+  "responseDigest": "sha256:1c3e941d443f8f67f274ce7df19eb4508c9d7465cd3c98d30e716b1f490781fa",
+  "payload": {
+    "4605210": {
+      "success": true,
+      "data": {
+        "steam_appid": 4605210,
+        "name": "Pet the Cat",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 449,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 129
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a9e018bfd23e3be102ab1ff4f4b83f8f9dd06a5243d32b19657d9a09ee4e7d10"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 768200,
+  "fetchedAt": "2026-07-31T03:15:02.591Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=768200&cc=us&l=english",
+  "responseDigest": "sha256:d70f46d12ee9b4e24453741cc947e398a4f20b5f2670324c19f4737de54a14a7",
+  "payload": {
+    "768200": {
+      "success": true,
+      "data": {
+        "steam_appid": 768200,
+        "name": "Smalland: Survive the Wilds",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 15, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7992
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:feaaf96ea6b7ba775649104d75faf093915cefc318e5ccdaf949f9a3f890791f"
+}

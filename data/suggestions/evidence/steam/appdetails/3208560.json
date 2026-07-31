@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3208560,
+  "fetchedAt": "2026-07-31T03:44:02.300Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3208560&cc=us&l=english",
+  "responseDigest": "sha256:fdb0dbf2d4decf10b7c3701127beff1cf98bf895dcd1af5c3da6602de57f8804",
+  "payload": {
+    "3208560": {
+      "success": true,
+      "data": {
+        "steam_appid": 3208560,
+        "name": "Trainatic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1055
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6a068e718c0c4a38376e984b069ffa0536cb35b1dc95893214a0fd9323d67be3"
+}

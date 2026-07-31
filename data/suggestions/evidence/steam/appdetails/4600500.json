@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4600500,
+  "fetchedAt": "2026-07-31T02:58:53.858Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4600500&cc=us&l=english",
+  "responseDigest": "sha256:415e8ca0878611d07075324fcf79ee8c9dc9d9150547386e859d14439125594b",
+  "payload": {
+    "4600500": {
+      "success": true,
+      "data": {
+        "steam_appid": 4600500,
+        "name": "Season 4 Starter Pack - Battlefield™ 6 and REDSEC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:85d770704e876ba98740bd8a195a9eff5d4d8fa886d78657514a9d19c84e687e"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1343670,
+  "fetchedAt": "2026-07-31T03:34:14.887Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1343670&cc=us&l=english",
+  "responseDigest": "sha256:5b50effab94932edd0afddf7d35ba3e4bd303dcbe001a8eff988cd3662ef4a28",
+  "payload": {
+    "1343670": {
+      "success": true,
+      "data": {
+        "steam_appid": 1343670,
+        "name": "Dealer's Life 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 15, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3959
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:68d094fbd7d791c47df8ea5b5f94f0cc7e0395d4ba6639d96771351ed2b8b7f5"
+}

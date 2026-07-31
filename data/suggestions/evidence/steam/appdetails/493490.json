@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 493490,
+  "fetchedAt": "2026-07-31T04:05:06.118Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=493490&cc=us&l=english",
+  "responseDigest": "sha256:e308afbdc57df57c837a93f25b134ad53afc2192ba115787e5b282881c32b0f2",
+  "payload": {
+    "493490": {
+      "success": true,
+      "data": {
+        "steam_appid": 493490,
+        "name": "City Car Driving",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 3, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 33252
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4f266559c6ddb0bebe4fc341df2e7f1a1f628c88c5657c2e5193c4550fb5454b"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1939970,
+  "fetchedAt": "2026-07-31T03:19:43.953Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1939970&cc=us&l=english",
+  "responseDigest": "sha256:dd4aa39b8d9f5d37b435cfff275c45719622eae2085c3743d151faacf293ece4",
+  "payload": {
+    "1939970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1939970,
+        "name": "Nobody Wants to Die",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 374,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 5529
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9a5969d4da231799a966f7400e6f1d0d9967beeff80cc56511f34ab61b14ec66"
+}

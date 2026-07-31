@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 858210,
+  "fetchedAt": "2026-07-31T03:51:33.055Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=858210&cc=us&l=english",
+  "responseDigest": "sha256:d2e535f3e74b5cc00ec5c1d0d6933c77e578a90ae09f5bf3bd85b2144dbac483",
+  "payload": {
+    "858210": {
+      "success": true,
+      "data": {
+        "steam_appid": 858210,
+        "name": "Nova Drift",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 899,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 12920
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dc37d4873ab7ce9d01eb984d67aeea0bed6ee8aa267b5be8ad60d8e26d7f2d7b"
+}

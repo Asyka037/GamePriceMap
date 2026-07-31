@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3743790,
+  "fetchedAt": "2026-07-31T02:55:53.751Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3743790&cc=us&l=english",
+  "responseDigest": "sha256:4f58f2b497d948891cb3fa53c79a32b986d525bc9a6ec298505dbed0f237e049",
+  "payload": {
+    "3743790": {
+      "success": true,
+      "data": {
+        "steam_appid": 3743790,
+        "name": "Thomas & Friends™: Wonders of Sodor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2799,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 806
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1b4feb05ea1e6b94cbc86ce0d724b1b7d33fa2db1a6e76137c3b821524963cec"
+}

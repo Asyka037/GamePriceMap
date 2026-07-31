@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 669330,
+  "fetchedAt": "2026-07-31T03:09:52.381Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=669330&cc=us&l=english",
+  "responseDigest": "sha256:a7634e75d05817ca84736487ec5dae028e9671f05d18c373af3fc3bc12e211c4",
+  "payload": {
+    "669330": {
+      "success": true,
+      "data": {
+        "steam_appid": 669330,
+        "name": "Mechabellum",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1049,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 17653
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2a986793b0670713372b714abc56a0f607283ad573c457ce8e7753212b1d20fd"
+}

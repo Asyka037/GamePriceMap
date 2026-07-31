@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1686940,
+  "fetchedAt": "2026-07-31T02:46:09.137Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1686940&cc=us&l=english",
+  "responseDigest": "sha256:b96b74886f296884e3f12cd4e8c86e0357f3523a235520ac397c1bf92560e54d",
+  "payload": {
+    "1686940": {
+      "success": true,
+      "data": {
+        "steam_appid": 1686940,
+        "name": "Bopl Battle",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 21148
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:565afc4d8f45861a05de6d00568d3d5bdc04fda0fe257500ece985bc490eff51"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2527390,
+  "fetchedAt": "2026-07-31T03:03:48.223Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2527390&cc=us&l=english",
+  "responseDigest": "sha256:f94aebc3df0f60d3f9008d5fd81ab7893c0c19e3e4d4ee1251cf20cb05aaa241",
+  "payload": {
+    "2527390": {
+      "success": true,
+      "data": {
+        "steam_appid": 2527390,
+        "name": "Dead Rising Deluxe Remaster",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2941
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df38222890dac9b975a37995d441ed31926d1c7b574677a45a9a84198e4d67c5"
+}

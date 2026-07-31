@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1001270,
+  "fetchedAt": "2026-07-31T03:12:41.062Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1001270&cc=us&l=english",
+  "responseDigest": "sha256:0262e6bd0a4fd9ae46269c696b160c2133402b2ea994a31fcc04a3bd6c81ac4f",
+  "payload": {
+    "1001270": {
+      "success": true,
+      "data": {
+        "steam_appid": 1001270,
+        "name": "Kebab Chefs! - Restaurant Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6905
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c27f80c88b436bad311f5adb000ea7db099ddb6ae4a48020ca49a59765aa1c66"
+}

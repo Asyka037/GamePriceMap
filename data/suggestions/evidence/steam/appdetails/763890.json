@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 763890,
+  "fetchedAt": "2026-07-31T03:13:53.019Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=763890&cc=us&l=english",
+  "responseDigest": "sha256:4ba10c65b4d0df5801c75fe91ec45a5b812a73c4e1c74c4ec13de21da7286fc2",
+  "payload": {
+    "763890": {
+      "success": true,
+      "data": {
+        "steam_appid": 763890,
+        "name": "Wildermyth",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 15, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16280
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4b9e1452cf7cc71ca0ec52ed10d714d574e26061d1e7491342d887bcedb5600d"
+}

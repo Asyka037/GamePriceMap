@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 337320,
+  "fetchedAt": "2026-07-31T02:54:54.874Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=337320&cc=us&l=english",
+  "responseDigest": "sha256:6ee2bd4df4dbad76b069981085020febc42ae9ebfbe990de32ca4e868a2e843b",
+  "payload": {
+    "337320": {
+      "success": true,
+      "data": {
+        "steam_appid": 337320,
+        "name": "Paint the Town Red",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29010
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1d13c3c95922f683bfe5024e8bccd874c59193269468c5337b91fa0c0343d4b5"
+}

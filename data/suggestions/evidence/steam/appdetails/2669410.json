@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2669410,
+  "fetchedAt": "2026-07-31T03:10:22.525Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2669410&cc=us&l=english",
+  "responseDigest": "sha256:458cb286c96cbb72d00742f905c14d19b987f708af81d375e03a61ea9eacf51b",
+  "payload": {
+    "2669410": {
+      "success": true,
+      "data": {
+        "steam_appid": 2669410,
+        "name": "Metro Awakening",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 2968
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f89d44c9db4e40170ed8ee46d1ebacb07171681635f08f8aaaf997b682fe9789"
+}

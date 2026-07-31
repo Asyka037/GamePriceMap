@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 567990,
+  "fetchedAt": "2026-07-31T03:03:09.952Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=567990&cc=us&l=english",
+  "responseDigest": "sha256:511e68cc8eeeecb6496a67d97ef1a4fa3ac326b758f296c757fff1459ef4ee7c",
+  "payload": {
+    "567990": {
+      "success": true,
+      "data": {
+        "steam_appid": 567990,
+        "name": "Sally Face - Season Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 14, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1154
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c83842548f6fe9312e27c681674310651e3f664294731eef6ee328ad79934702"
+}

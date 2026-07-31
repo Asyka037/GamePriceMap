@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2453060,
+  "fetchedAt": "2026-07-31T04:03:30.540Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2453060&cc=us&l=english",
+  "responseDigest": "sha256:e3f194188418ffe40effea5488cf438441371a239456d0813165decbc4fdacea",
+  "payload": {
+    "2453060": {
+      "success": true,
+      "data": {
+        "steam_appid": 2453060,
+        "name": "Dreamcore",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1756
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9f7fd21c5051ec8b933506f5466ff82251239ef5cf5312dfd9c24c73a77be374"
+}

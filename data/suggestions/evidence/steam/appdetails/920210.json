@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 920210,
+  "fetchedAt": "2026-07-31T02:51:24.018Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=920210&cc=us&l=english",
+  "responseDigest": "sha256:285d49e5e184e5eed57447766f605d61b440b686d6bf8099896cb8b4878025de",
+  "payload": {
+    "920210": {
+      "success": true,
+      "data": {
+        "steam_appid": 920210,
+        "name": "LEGO® Star Wars™: The Skywalker Saga",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 5, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 999,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 38145
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:68ecfd65c00b7037b09804e944e9fed1010816df96e12753b740f87dd979f2a4"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 228200,
+  "fetchedAt": "2026-07-31T04:05:02.840Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=228200&cc=us&l=english",
+  "responseDigest": "sha256:d20c4ae14625682612c154268f1dd405b2561fe182dcc8a93efc2ca39f8518ec",
+  "payload": {
+    "228200": {
+      "success": true,
+      "data": {
+        "steam_appid": 228200,
+        "name": "Company of Heroes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 11, 2006"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 12490
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a8c8f044ac5a2bb48dc12aa546f51c817524cce58c8c80f60ca2f83c6e198420"
+}

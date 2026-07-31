@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2994200,
+  "fetchedAt": "2026-07-31T03:50:27.091Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2994200&cc=us&l=english",
+  "responseDigest": "sha256:e37b88b97c53a6df6004a0e56388bd187efcc507a8ead68c5624abf979aa9951",
+  "payload": {
+    "2994200": {
+      "success": true,
+      "data": {
+        "steam_appid": 2994200,
+        "name": "Ritter & Rotwein",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1249,
+          "final": 999,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c7309ceabbb1f05cae5b3b7ce48a38c35caf4e0df4c01f0a6063c0553e92a2b7"
+}

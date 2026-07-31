@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3868320,
+  "fetchedAt": "2026-07-31T03:13:36.774Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3868320&cc=us&l=english",
+  "responseDigest": "sha256:e165dd99521d265078eb7cf06111cbe7418333cf65a7367dd4d54f00da7966af",
+  "payload": {
+    "3868320": {
+      "success": true,
+      "data": {
+        "steam_appid": 3868320,
+        "name": "Forage Wizard",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 559,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 1342
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed7daa46b5dbdd59fd1f5e65f503a2d343413d1c12e4a9ea15c1798f1d12a0ba"
+}

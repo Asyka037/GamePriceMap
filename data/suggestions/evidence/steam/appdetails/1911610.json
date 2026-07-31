@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1911610,
+  "fetchedAt": "2026-07-31T03:04:42.652Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1911610&cc=us&l=english",
+  "responseDigest": "sha256:8446767a7e679bc12897337432609576232a9a44698f6a8e237801b46049bcd2",
+  "payload": {
+    "1911610": {
+      "success": true,
+      "data": {
+        "steam_appid": 1911610,
+        "name": "Windblown",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1749,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 8971
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4bf17b6a26762af1042e5b0c981f0d269eada8ef4c921dbddbd2e3277062fe91"
+}

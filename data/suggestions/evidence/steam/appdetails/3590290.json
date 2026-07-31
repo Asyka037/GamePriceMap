@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3590290,
+  "fetchedAt": "2026-07-31T02:58:05.838Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3590290&cc=us&l=english",
+  "responseDigest": "sha256:d159327a73865c0442005d01564a62b7ded1bd3ca432679a47f8896d0811c94a",
+  "payload": {
+    "3590290": {
+      "success": true,
+      "data": {
+        "steam_appid": 3590290,
+        "name": "DIVE or DIE - Children of Rain",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1439,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 693
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed62d1dfecd3ecbbbbf09a3f1d48335a5df68a2f69feecbd5a1a682b76f92c45"
+}

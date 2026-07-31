@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4831010,
+  "fetchedAt": "2026-07-31T03:20:00.231Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4831010&cc=us&l=english",
+  "responseDigest": "sha256:a679ea47d4d62b8d0c2b59e8499c26b40838ebb1c5224612d933502bedaab5b0",
+  "payload": {
+    "4831010": {
+      "success": true,
+      "data": {
+        "steam_appid": 4831010,
+        "name": "Animal Shelter 2 - Bull-Type Terriers Dogs Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 339,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e01433d62591b4378bb9e21e9c3116c43d533087ebb119439ad860365f42f4c1"
+}

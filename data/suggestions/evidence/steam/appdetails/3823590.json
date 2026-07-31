@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3823590,
+  "fetchedAt": "2026-07-31T03:05:03.964Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3823590&cc=us&l=english",
+  "responseDigest": "sha256:c43a1f118165cd4151b875373af3d696fa5562afcd24b4e885e3552833594ee5",
+  "payload": {
+    "3823590": {
+      "success": true,
+      "data": {
+        "steam_appid": 3823590,
+        "name": "From The Ashes Expansion - Avatar: Frontiers of Pandora™",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 214
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:840ac9e255898f971333e3b7b22b720d216b0152ad83575ef01837d2e8a53cbd"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 203770,
+  "fetchedAt": "2026-07-31T02:56:46.413Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=203770&cc=us&l=english",
+  "responseDigest": "sha256:12b2dda7fefb4456bf61437624f1cf45450774f5418083c04bac676b3d9c7cec",
+  "payload": {
+    "203770": {
+      "success": true,
+      "data": {
+        "steam_appid": 203770,
+        "name": "Crusader Kings II",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 14, 2012"
+        },
+        "recommendations": {
+          "total": 30868
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f1ba22416d8399c1b6f11f18103f697cebcabead06a12a206c0cf413407dccce"
+}

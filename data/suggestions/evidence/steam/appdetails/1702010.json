@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1702010,
+  "fetchedAt": "2026-07-31T02:53:55.688Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1702010&cc=us&l=english",
+  "responseDigest": "sha256:2e6f6ab05f125eaa4ef615bc31ae9b7f127da3fa5e7562d973d71178d9b5f29e",
+  "payload": {
+    "1702010": {
+      "success": true,
+      "data": {
+        "steam_appid": 1702010,
+        "name": "Sengoku Dynasty",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6473
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5fab6aab4175259777f7f83d7e4c4099623d503702afa92a46ea36833303f7cf"
+}

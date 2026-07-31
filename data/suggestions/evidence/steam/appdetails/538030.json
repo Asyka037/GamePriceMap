@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 538030,
+  "fetchedAt": "2026-07-31T03:04:02.975Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=538030&cc=us&l=english",
+  "responseDigest": "sha256:40a9f54e9ec0b08df152d2ea14a52f641e706e0ba4277f99fbb219982085e2f0",
+  "payload": {
+    "538030": {
+      "success": true,
+      "data": {
+        "steam_appid": 538030,
+        "name": "Xenonauts 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4694
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7945a5daaefef9e1a4839e19f8c7a18ce40bf0e6daf19d9b509af5470be4e313"
+}

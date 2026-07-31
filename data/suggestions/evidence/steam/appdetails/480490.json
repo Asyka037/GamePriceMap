@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 480490,
+  "fetchedAt": "2026-07-31T03:41:34.908Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=480490&cc=us&l=english",
+  "responseDigest": "sha256:ef2c93a04f723ec88718f0526074827fa9d66f1f4787cd094faf3bd07c2dfa9f",
+  "payload": {
+    "480490": {
+      "success": true,
+      "data": {
+        "steam_appid": 480490,
+        "name": "Prey",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 4, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 599,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 37442
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1f3b2af4140946c7dec3bde94ae0cb4294ffad09b5b78ffce6788754ea471db0"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 645402,
+  "fetchedAt": "2026-07-31T02:56:59.744Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=645402&cc=us&l=english",
+  "responseDigest": "sha256:aa40ed2d9beb160c45274fd99337f80dd5247167a229cd4334bd71481675f04c",
+  "payload": {
+    "645402": {
+      "success": true,
+      "data": {
+        "steam_appid": 645402,
+        "name": "Sid Meier’s Civilization® VI: Rise and Fall",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 7, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 2288
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c1606a07d1deecbe35d90a6def6374ee8e7180d4daedc1e7d950f3577e5f70e5"
+}

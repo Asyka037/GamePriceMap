@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2627260,
+  "fetchedAt": "2026-07-31T03:23:08.892Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2627260&cc=us&l=english",
+  "responseDigest": "sha256:69bdd48d10de52b7e313ed8df29eb2ff502567c5048a490ae5a1d879cc06dc99",
+  "payload": {
+    "2627260": {
+      "success": true,
+      "data": {
+        "steam_appid": 2627260,
+        "name": "NINJA GAIDEN 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8286
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a4be66336a975574cb5273e6f011fc82ca838e158a421be00aa2d4b051f018af"
+}

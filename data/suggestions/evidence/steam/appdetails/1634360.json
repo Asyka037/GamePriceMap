@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1634360,
+  "fetchedAt": "2026-07-31T03:54:14.598Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1634360&cc=us&l=english",
+  "responseDigest": "sha256:6fe640bb6f2054b11b9f4be4f0f58790ad73847f8b71db64249d0f2f807a4241",
+  "payload": {
+    "1634360": {
+      "success": true,
+      "data": {
+        "steam_appid": 1634360,
+        "name": "EMUUROM",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1249,
+          "final": 1249,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 266
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2d7f94a678510ae31ca9d89b390a3c4f3bbb9c827ea3e6461c468cf79e6be5a2"
+}

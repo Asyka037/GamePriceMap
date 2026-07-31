@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1390190,
+  "fetchedAt": "2026-07-31T04:08:01.987Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1390190&cc=us&l=english",
+  "responseDigest": "sha256:7b7a85eea246dff2d458310b9bcc698d30ac7644ca89128cfc9cae1c228c3afc",
+  "payload": {
+    "1390190": {
+      "success": true,
+      "data": {
+        "steam_appid": 1390190,
+        "name": "APICO",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 1585
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:606872e97fd831a6d4d71df40db526cb3fd51f33fac76d64c27a591629299792"
+}

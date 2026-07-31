@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1425350,
+  "fetchedAt": "2026-07-31T03:52:02.714Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1425350&cc=us&l=english",
+  "responseDigest": "sha256:56036ab65e9d9bf22d77de46718e55d228fc4ade2ea8075d38c82ae4c31b2a27",
+  "payload": {
+    "1425350": {
+      "success": true,
+      "data": {
+        "steam_appid": 1425350,
+        "name": "Botany Manor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1499,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 1000
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a81935d774e547251601762e93e439319639d7f1d54e24243b6e3b546be03559"
+}

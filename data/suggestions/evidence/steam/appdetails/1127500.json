@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1127500,
+  "fetchedAt": "2026-07-31T03:02:43.050Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1127500&cc=us&l=english",
+  "responseDigest": "sha256:8518fcba7f1da2ef4c685542530d8f478034ef0747bb9a877204e8e430a6d267",
+  "payload": {
+    "1127500": {
+      "success": true,
+      "data": {
+        "steam_appid": 1127500,
+        "name": "Mini Motorways",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23396
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7df0877e6c9a5a706ef72de87e0f011ea92ad1fc2db52c67e54a207986962d56"
+}

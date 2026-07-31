@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3450960,
+  "fetchedAt": "2026-07-31T02:46:40.613Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3450960&cc=us&l=english",
+  "responseDigest": "sha256:0e8ebf2a116c11a52a9e773b47ad693c9a83316fbbbabc650985a2532c256ffe",
+  "payload": {
+    "3450960": {
+      "success": true,
+      "data": {
+        "steam_appid": 3450960,
+        "name": "Total War: WARHAMMER III - Aislinn – Tides of Torment",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 641
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d5a0e3e78582b4d3125231d11036036fdcdbc569557c416a32ea3f68f2ca20ff"
+}

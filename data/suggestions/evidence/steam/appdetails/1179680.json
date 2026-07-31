@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1179680,
+  "fetchedAt": "2026-07-31T03:38:53.937Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1179680&cc=us&l=english",
+  "responseDigest": "sha256:49ea22aac2c06ddb5d2518242c890e5a361cadbe6b4b8a0bf2164ea6a3388867",
+  "payload": {
+    "1179680": {
+      "success": true,
+      "data": {
+        "steam_appid": 1179680,
+        "name": "Wurm Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2020"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1a9205b79410650e28c70dc4bb2917f3a0ac309106838892bf168e04bbb4096a"
+}

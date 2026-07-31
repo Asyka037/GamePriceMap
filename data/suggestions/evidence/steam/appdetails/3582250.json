@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3582250,
+  "fetchedAt": "2026-07-31T02:50:05.673Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3582250&cc=us&l=english",
+  "responseDigest": "sha256:0ed5479e89d427c5598296225c1e242b4002c85b5fe2138b301fa8e0260610c0",
+  "payload": {
+    "3582250": {
+      "success": true,
+      "data": {
+        "steam_appid": 3582250,
+        "name": "Farm to Table",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 565
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9f746472af28ae0f77179c872efac4a55c6f5a521825a200048af304d8515d8a"
+}

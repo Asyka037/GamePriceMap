@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 476600,
+  "fetchedAt": "2026-07-31T02:43:23.831Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=476600&cc=us&l=english",
+  "responseDigest": "sha256:ba967df22372409dd6fa429dd36f9a75d5f4a6fcdd66b76f7e6c203c6c530cb8",
+  "payload": {
+    "476600": {
+      "success": true,
+      "data": {
+        "steam_appid": 476600,
+        "name": "Call of Duty®: WWII",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 2, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 33163
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d34eafcf57b34761d3c25a9fe2e6ef634c88e90a9c8c7c178b666dcc763f0f78"
+}

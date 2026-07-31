@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 367450,
+  "fetchedAt": "2026-07-31T03:19:27.785Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=367450&cc=us&l=english",
+  "responseDigest": "sha256:4146e9f17f465d6acfd16bce71caff7b1199fb7c2ee59006ac2b5ec4f3a167e9",
+  "payload": {
+    "367450": {
+      "success": true,
+      "data": {
+        "steam_appid": 367450,
+        "name": "Poly Bridge",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 12, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 99,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 16891
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3799c4eb62d38e133073403e1a5a84b0deb79ab7422518c3e6b959235547b4e5"
+}

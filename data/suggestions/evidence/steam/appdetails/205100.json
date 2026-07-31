@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 205100,
+  "fetchedAt": "2026-07-31T02:53:04.662Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=205100&cc=us&l=english",
+  "responseDigest": "sha256:56c42519864c6027354a40c43d611fd1392ad8a8d2827132d6875f61d129c2c3",
+  "payload": {
+    "205100": {
+      "success": true,
+      "data": {
+        "steam_appid": 205100,
+        "name": "Dishonored",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 249,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 66771
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:25596ddedbcbbffc019ce6460b28b1fc344302819d377e79038d49e5f59c7582"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3756340,
+  "fetchedAt": "2026-07-31T03:12:22.101Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3756340&cc=us&l=english",
+  "responseDigest": "sha256:22bf886a49073ec5c843dfbf73f9cef60397e0d7832a071f10b1c7a3271eb0a8",
+  "payload": {
+    "3756340": {
+      "success": true,
+      "data": {
+        "steam_appid": 3756340,
+        "name": "Cheat Death",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4602493603c4d4d223692306a1466135c4f5ade0671e08e32b579d8d5a4cfcc8"
+}

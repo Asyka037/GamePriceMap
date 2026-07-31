@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 429050,
+  "fetchedAt": "2026-07-31T02:49:47.772Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=429050&cc=us&l=english",
+  "responseDigest": "sha256:ec30d1958333d0fc83d2427dcd8d6f33023a2cc685293d22a724a1f0e90edf19",
+  "payload": {
+    "429050": {
+      "success": true,
+      "data": {
+        "steam_appid": 429050,
+        "name": "Feed and Grow: Fish",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 8, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20490
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d3e1b8402e663d61a30484f38731ca098a9b29b8c4acf214d9055ae944633537"
+}

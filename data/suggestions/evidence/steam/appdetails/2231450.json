@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2231450,
+  "fetchedAt": "2026-07-31T03:07:53.937Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2231450&cc=us&l=english",
+  "responseDigest": "sha256:e6adcdf39a05e131b3c10c67ff35ff209b84e0feaf33f84a84ea67dc07159951",
+  "payload": {
+    "2231450": {
+      "success": true,
+      "data": {
+        "steam_appid": 2231450,
+        "name": "Pizza Tower",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 26, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 65931
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:adb919291607d260574e30c9af5cd6d858928cd10a8141231e08d76a2d856ce4"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 917950,
+  "fetchedAt": "2026-07-31T03:39:39.889Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=917950&cc=us&l=english",
+  "responseDigest": "sha256:a5cf87ad971fea77d5814747e9f7d474271465c37a12a07d394a7531ee51e357",
+  "payload": {
+    "917950": {
+      "success": true,
+      "data": {
+        "steam_appid": 917950,
+        "name": "Vellum",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 2, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1279
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:03e47d82cce5af9613c1bf91f8c8db40f37fb6c25b68b190d891b211e109c9ea"
+}

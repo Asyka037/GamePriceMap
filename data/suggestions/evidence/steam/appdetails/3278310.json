@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3278310,
+  "fetchedAt": "2026-07-31T04:00:09.613Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3278310&cc=us&l=english",
+  "responseDigest": "sha256:15de03e184412a1de650c2a8ecf71b5f704c6c08d0792fa90fab553523387cb4",
+  "payload": {
+    "3278310": {
+      "success": true,
+      "data": {
+        "steam_appid": 3278310,
+        "name": "LANESPLIT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1187,
+          "discount_percent": 34
+        },
+        "recommendations": {
+          "total": 368
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0aefa5ae0f3795aca282575f83fc437df6e5cb406ae9ba92a641c8c9c377c4cd"
+}

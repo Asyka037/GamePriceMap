@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 999660,
+  "fetchedAt": "2026-07-31T03:52:45.594Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=999660&cc=us&l=english",
+  "responseDigest": "sha256:c78f59261e378eac760c9dae9379e6acec18e7548720c75ad82425a546f42bb8",
+  "payload": {
+    "999660": {
+      "success": true,
+      "data": {
+        "steam_appid": 999660,
+        "name": "SAMURAI SHODOWN NEOGEO COLLECTION",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 366
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:70d269f022bd37e28cc9f10e9e613ed149aad9596affa944dafa8e5913fbfc25"
+}

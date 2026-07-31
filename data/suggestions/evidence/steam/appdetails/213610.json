@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 213610,
+  "fetchedAt": "2026-07-31T02:53:12.009Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=213610&cc=us&l=english",
+  "responseDigest": "sha256:9ced54fa9967ba805b10c4ca76c567753fde035832a5ff1d0e8df79d3394e999",
+  "payload": {
+    "213610": {
+      "success": true,
+      "data": {
+        "steam_appid": 213610,
+        "name": "Sonic Adventure 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 19, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23486
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c0e1a106d69c2f09bca838dd2cd508c87f18203749cb25ce030510dda3422d8a"
+}

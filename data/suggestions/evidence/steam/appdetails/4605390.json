@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4605390,
+  "fetchedAt": "2026-07-31T03:12:10.353Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4605390&cc=us&l=english",
+  "responseDigest": "sha256:7b07799495cc181965f38a7df2954647ecc56e9785808c3d3ed98d88fdaa9b72",
+  "payload": {
+    "4605390": {
+      "success": true,
+      "data": {
+        "steam_appid": 4605390,
+        "name": "Codename CURE II – Combat Specialist Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6360a3aafd4568ded5e82e9b8e835e07feca3bc0c4227a97e00ad10f8e320bae"
+}

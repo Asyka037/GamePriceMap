@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2622000,
+  "fetchedAt": "2026-07-31T03:48:54.888Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2622000&cc=us&l=english",
+  "responseDigest": "sha256:e2d187ce62569be995b45c3a0361599a8c7388eb38ace98cc5ec6e52926bdedc",
+  "payload": {
+    "2622000": {
+      "success": true,
+      "data": {
+        "steam_appid": 2622000,
+        "name": "Astral Party ",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 28, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4cfcd34f0f9e08d550770056b363b8801a9070780b11e442d4239d7c1b683737"
+}

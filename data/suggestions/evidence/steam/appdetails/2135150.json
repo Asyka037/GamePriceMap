@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2135150,
+  "fetchedAt": "2026-07-31T03:00:12.979Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2135150&cc=us&l=english",
+  "responseDigest": "sha256:ecc1c4aa71a505f9a947fbd59f256cf254452e0684b55569bd02b30a735154a8",
+  "payload": {
+    "2135150": {
+      "success": true,
+      "data": {
+        "steam_appid": 2135150,
+        "name": "Elin",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8262
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:904291a6095f6b18aacd4fc54e58038f5d9b31f1d5bfdb161929ea3197116e1f"
+}

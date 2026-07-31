@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1620730,
+  "fetchedAt": "2026-07-31T02:58:13.191Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1620730&cc=us&l=english",
+  "responseDigest": "sha256:6e06dc91c92fc1b1e233087944191a30a4d2f75a50082639e02ee74b16e64627",
+  "payload": {
+    "1620730": {
+      "success": true,
+      "data": {
+        "steam_appid": 1620730,
+        "name": "Hell is Us",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 2799,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 3982
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:60660af9b246a6587f7c0cd958ea56b32a87b3d49bd3cb1d13080164e497c574"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2214220,
+  "fetchedAt": "2026-07-31T03:42:57.025Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2214220&cc=us&l=english",
+  "responseDigest": "sha256:0efe8af790f83d19cffeabea9ed2f723e1d9be6d276013e4bb507ccfcb338afd",
+  "payload": {
+    "2214220": {
+      "success": true,
+      "data": {
+        "steam_appid": 2214220,
+        "name": "Trench Tales",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 587
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:af0a2a44a87cc975346414a3155cd2cfbd25187f46127fc8877cd4d8991529d7"
+}

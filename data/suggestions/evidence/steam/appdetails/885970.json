@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 885970,
+  "fetchedAt": "2026-07-31T03:10:13.544Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=885970&cc=us&l=english",
+  "responseDigest": "sha256:f012d6427c196bef264e5f89ad4b7cb81db34e18df1c7ce9c2e5711fd8291ebe",
+  "payload": {
+    "885970": {
+      "success": true,
+      "data": {
+        "steam_appid": 885970,
+        "name": "Total War: ROME REMASTERED",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 29, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12471
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d150240136ae9f466bd7dbf03a0aeadf7baf123bc59c2da5437ae4cf8518af5e"
+}

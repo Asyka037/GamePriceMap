@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4178020,
+  "fetchedAt": "2026-07-31T02:53:25.683Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4178020&cc=us&l=english",
+  "responseDigest": "sha256:93f1b813d22ad097c2b9991061a0c752a66490a706fbe2030ddcf9576b8cfe3b",
+  "payload": {
+    "4178020": {
+      "success": true,
+      "data": {
+        "steam_appid": 4178020,
+        "name": "Lured In",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 639,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 119
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b7df6d9fcd3070350335318fe7e0440aac4859d012959afe5559d0438ed0f451"
+}

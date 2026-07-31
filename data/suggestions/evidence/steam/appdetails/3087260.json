@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3087260,
+  "fetchedAt": "2026-07-31T03:18:36.953Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3087260&cc=us&l=english",
+  "responseDigest": "sha256:3a757196c3147beb45bdddca04714d25aaae8838535de949e132f7ce19f759dd",
+  "payload": {
+    "3087260": {
+      "success": true,
+      "data": {
+        "steam_appid": 3087260,
+        "name": "Sid Meier's Civilization® VII: Himiko (High Shaman) Persona",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:36201cc14fdb322bcf463d24c50f8769d034249d776a540aaa4fdc4796598bc8"
+}

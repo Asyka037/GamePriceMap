@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2957480,
+  "fetchedAt": "2026-07-31T04:07:52.110Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2957480&cc=us&l=english",
+  "responseDigest": "sha256:cd240b1c3dc92d9a29c0f327c11cf74a60305ba79281dd719b26efc75a3e4d82",
+  "payload": {
+    "2957480": {
+      "success": true,
+      "data": {
+        "steam_appid": 2957480,
+        "name": "DRAGON BALL: Sparking! ZERO Anime Music Pack 1",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 152
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7587ebcb3df5e3a855d62af5d4ad1f89c4db8b6d49294a10a28ac2c046523e1e"
+}

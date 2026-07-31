@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1430190,
+  "fetchedAt": "2026-07-31T02:55:43.387Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1430190&cc=us&l=english",
+  "responseDigest": "sha256:beda191e7f81d6d26c23af0c34f04cefd7e265b93c2a98a5185fd7d37bba69a8",
+  "payload": {
+    "1430190": {
+      "success": true,
+      "data": {
+        "steam_appid": 1430190,
+        "name": "Killing Floor 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 16052
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7c5def61c3120591190449f163c81547ed680a377a452644db5c5beb2506a794"
+}

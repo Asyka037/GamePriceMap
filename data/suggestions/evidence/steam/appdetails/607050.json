@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 607050,
+  "fetchedAt": "2026-07-31T03:44:18.770Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=607050&cc=us&l=english",
+  "responseDigest": "sha256:d900e29752ce1da1c247cfdae2de223e77c13257ff2623e4d90f681514cf06e1",
+  "payload": {
+    "607050": {
+      "success": true,
+      "data": {
+        "steam_appid": 607050,
+        "name": "Wargroove",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 1, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 799,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 4013
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:84312f9264030d8e3709eee9c9ef3a1f7c3458e8f851e529c0d72ef92fd874cd"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4439280,
+  "fetchedAt": "2026-07-31T04:14:14.419Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4439280&cc=us&l=english",
+  "responseDigest": "sha256:a6e3bcd6f5cee0cab9368749d73fa40bd7126cd798e9ea31f18d78fb55f8b774",
+  "payload": {
+    "4439280": {
+      "success": true,
+      "data": {
+        "steam_appid": 4439280,
+        "name": "Forza Horizon 6 Time Attack Car Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b82a30fbbbf3c177ba039ec672ecf818df37ec2f4d86693e7467d597d319fd88"
+}

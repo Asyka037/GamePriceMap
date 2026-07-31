@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1388880,
+  "fetchedAt": "2026-07-31T02:42:52.822Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1388880&cc=us&l=english",
+  "responseDigest": "sha256:fd0923f7ad70a9bd7938e9e34d9ba618325f8f5db7cfea4dfa3b2cd39873a402",
+  "payload": {
+    "1388880": {
+      "success": true,
+      "data": {
+        "steam_appid": 1388880,
+        "name": "Doki Doki Literature Club Plus!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 30, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29577
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:273c92a00b3e2dab10a10d1873a6635905ee12af7e2ada5777e8b5bedd9e99da"
+}

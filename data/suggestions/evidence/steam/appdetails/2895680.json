@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2895680,
+  "fetchedAt": "2026-07-31T03:48:15.222Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2895680&cc=us&l=english",
+  "responseDigest": "sha256:8de78a0643879b18bcd49ef38c82e209c751871925cf7fc07cfc6918e84d32bd",
+  "payload": {
+    "2895680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2895680,
+        "name": "Below, Rusted Gods",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 719,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:380858c60a7a00a68df008e886c621f42d7ae317f662e51edfa65cc3bc0f8b0b"
+}

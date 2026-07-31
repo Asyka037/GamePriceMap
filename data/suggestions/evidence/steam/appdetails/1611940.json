@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1611940,
+  "fetchedAt": "2026-07-31T03:32:19.871Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1611940&cc=us&l=english",
+  "responseDigest": "sha256:1c2d867dbe569582bee58fefff460a955d06d1f5c2bbb0a4877f3f6d6f19e246",
+  "payload": {
+    "1611940": {
+      "success": true,
+      "data": {
+        "steam_appid": 1611940,
+        "name": "Maneater: Truth Quest",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 31, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 224,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 1145
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2623ff6b2399320654fb1887e053552197d2db3a7aeeec7ae1a5beb4427068b9"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 955900,
+  "fetchedAt": "2026-07-31T03:59:20.438Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=955900&cc=us&l=english",
+  "responseDigest": "sha256:84245f2995102075d410b017e3fefe06725312d4e5d8f6186af3df8296821969",
+  "payload": {
+    "955900": {
+      "success": true,
+      "data": {
+        "steam_appid": 955900,
+        "name": "Amazing Cultivation Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 24, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19085
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c69086183e26148bd231f658e37c37a5c25c169d6d6a50c1acdf102d4047713d"
+}

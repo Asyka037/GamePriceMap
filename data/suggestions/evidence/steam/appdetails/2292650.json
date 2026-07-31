@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2292650,
+  "fetchedAt": "2026-07-31T03:15:15.911Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2292650&cc=us&l=english",
+  "responseDigest": "sha256:63cc599d5f8208e02ff385e8e13158e4e7025232dd1b04c0e9370969366d338a",
+  "payload": {
+    "2292650": {
+      "success": true,
+      "data": {
+        "steam_appid": 2292650,
+        "name": "Escape From Mystwood Mansion",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 27, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 858
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6c15fb18b5af00ba5760c20695c705a4f2d46c205cde9427d7e2d69414f9e516"
+}

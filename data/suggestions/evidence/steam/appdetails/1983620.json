@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1983620,
+  "fetchedAt": "2026-07-31T03:08:50.269Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1983620&cc=us&l=english",
+  "responseDigest": "sha256:e6783a1cafcea084f65b831dd1ede4e7c6361649f46de4d8c1a279b7fb679480",
+  "payload": {
+    "1983620": {
+      "success": true,
+      "data": {
+        "steam_appid": 1983620,
+        "name": "Infinitevania",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1274,
+          "discount_percent": 15
+        },
+        "recommendations": {
+          "total": 119
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2eb39d21d6ce8ed7c71a2d4afaa837d1b33a08c4cb0de1b63bc53fb6e4ca750b"
+}

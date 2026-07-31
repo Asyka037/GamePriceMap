@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3905260,
+  "fetchedAt": "2026-07-31T02:54:30.903Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3905260&cc=us&l=english",
+  "responseDigest": "sha256:de07f2e745660ae27c5aa7f460a89dec240ef94bb1410033508a61eedbd3bd51",
+  "payload": {
+    "3905260": {
+      "success": true,
+      "data": {
+        "steam_appid": 3905260,
+        "name": "DRAGON BALL XENOVERSE 2 - FUTURE SAGA Chapter 4",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6cd61907870019948657fae6b0c1059ce88cd5637f77c9a4f9f17fd53ed52980"
+}

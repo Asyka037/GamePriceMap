@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1458150,
+  "fetchedAt": "2026-07-31T02:45:52.973Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1458150&cc=us&l=english",
+  "responseDigest": "sha256:6ecabd9faae0cf46ae20253860feb58460ad4ef91016b9f2ceba2c54962cab0f",
+  "payload": {
+    "1458150": {
+      "success": true,
+      "data": {
+        "steam_appid": 1458150,
+        "name": "The Sims™ 4 Cottage Living Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 294
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:85f505a846ff0aaf0902f0b2ddc7f65dff243657742dfbfff2c9f3946f6736ed"
+}

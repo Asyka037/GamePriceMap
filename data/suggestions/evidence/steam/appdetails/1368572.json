@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1368572,
+  "fetchedAt": "2026-07-31T03:42:21.068Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1368572&cc=us&l=english",
+  "responseDigest": "sha256:db8a4ae11d182f20b90109e619b1edc8600bf3fb91afe5a3b9c77f35d1b658d9",
+  "payload": {
+    "1368572": {
+      "success": true,
+      "data": {
+        "steam_appid": 1368572,
+        "name": "The Sims™ 4 Snowy Escape Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 13, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 122
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9e8019e8a7b346ac5681d331814d99ec070370eaddc7e91247f61bec6579bbc"
+}

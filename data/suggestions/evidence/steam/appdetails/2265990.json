@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2265990,
+  "fetchedAt": "2026-07-31T03:37:12.244Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2265990&cc=us&l=english",
+  "responseDigest": "sha256:36e5e222cccc2959ea32d8845af5fe29947d1b8a5fabad80406ac9372e05d8ed",
+  "payload": {
+    "2265990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2265990,
+        "name": "ENDALOR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 244
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:45381fba08c1bb8adbc75c8fbdb884e9f7b8fd54a90c779fe943387d5989b217"
+}

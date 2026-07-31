@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 245390,
+  "fetchedAt": "2026-07-31T04:12:09.252Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=245390&cc=us&l=english",
+  "responseDigest": "sha256:a3bf7e3011fc7f9e224d66fba4acb87cbe390994b331f76a3e0aec697bf6e814",
+  "payload": {
+    "245390": {
+      "success": true,
+      "data": {
+        "steam_appid": 245390,
+        "name": "I Have No Mouth, and I Must Scream",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3512
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0f61553a0a61ba95e4cd109296fd18f7b2dbe4dcb7405cb8c56dc379c062c61c"
+}

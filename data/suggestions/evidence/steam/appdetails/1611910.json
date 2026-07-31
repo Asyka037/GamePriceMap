@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1611910,
+  "fetchedAt": "2026-07-31T02:56:21.819Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1611910&cc=us&l=english",
+  "responseDigest": "sha256:21f861503d016c5bc962dfbfc3b1dc6399a5b9972b685b7d034b342954cf0f22",
+  "payload": {
+    "1611910": {
+      "success": true,
+      "data": {
+        "steam_appid": 1611910,
+        "name": "Warhammer 40,000: Chaos Gate - Daemonhunters",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 5, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 1124,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 11312
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:812a7c8db58f26957fddfccdb4573eaa57fbcd7d9e634046f1aba3fdb8c6f86d"
+}

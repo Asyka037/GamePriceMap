@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1173900,
+  "fetchedAt": "2026-07-31T03:23:32.450Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1173900&cc=us&l=english",
+  "responseDigest": "sha256:bd8cccf421cfbe84a3bf1a6f34eafaab6820dfce9d432e0bcce0112b85955f85",
+  "payload": {
+    "1173900": {
+      "success": true,
+      "data": {
+        "steam_appid": 1173900,
+        "name": "Conan Exiles Enhanced - Riders of Hyboria Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8e29ffe9aaf40d9e69ec9769f2c82dc08da7c28d8cedbd718a2cabf97e7efca8"
+}

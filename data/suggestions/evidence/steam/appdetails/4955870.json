@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4955870,
+  "fetchedAt": "2026-07-31T04:11:23.267Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4955870&cc=us&l=english",
+  "responseDigest": "sha256:21777c91b1febfe87c93a7473d5c0e0eee4d9b03ef6d039a8da9f4ccc5906ab8",
+  "payload": {
+    "4955870": {
+      "success": true,
+      "data": {
+        "steam_appid": 4955870,
+        "name": "Scarlet Deer Inn Soundtrack",
+        "type": "music",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1270654f4b5c5e01f1805c0f0812647dc4350c9a49cd8378b36201d613845d68"
+}

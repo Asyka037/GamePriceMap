@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1442530,
+  "fetchedAt": "2026-07-31T03:31:30.094Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1442530&cc=us&l=english",
+  "responseDigest": "sha256:3033b2c008ffb10cbeb4ebe3e9f28aeccce3c4d895c4d3fb1eb6c27ffe3c6bce",
+  "payload": {
+    "1442530": {
+      "success": true,
+      "data": {
+        "steam_appid": 1442530,
+        "name": "Outbreak Island",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 899,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 915
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d74cd2692c77f85b92f058a0aeadc95812e3a38582cfa378c9cde56fc7585691"
+}

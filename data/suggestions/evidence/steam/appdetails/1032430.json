@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1032430,
+  "fetchedAt": "2026-07-31T02:42:49.756Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1032430&cc=us&l=english",
+  "responseDigest": "sha256:6f73f2d46217670d4b3312eb6b41a948670a5176df9f6eebaaf13752b9047034",
+  "payload": {
+    "1032430": {
+      "success": true,
+      "data": {
+        "steam_appid": 1032430,
+        "name": "Blood Trail",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 27, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7073
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:04cf1954d6f03bc7c7f8319d05557ab77926ea2ee81bf209d1f2b32ce6e7aebd"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2262020,
+  "fetchedAt": "2026-07-31T03:15:51.275Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2262020&cc=us&l=english",
+  "responseDigest": "sha256:7efb71d06c9e50c28a02156f0b028c88be703191bf2f9fe6cc2d6ddafa5bc941",
+  "payload": {
+    "2262020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2262020,
+        "name": "Exo Rally Championship",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1874,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 333
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3b116e4452e0313c3973c704eb406714634c20379fb110dda8062a4e9e4e0d15"
+}

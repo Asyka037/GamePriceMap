@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 230330,
+  "fetchedAt": "2026-07-31T04:06:39.835Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=230330&cc=us&l=english",
+  "responseDigest": "sha256:ff993ee8207d351634f929ecd1ad726169b343c4c9f497f19502efecdd310c25",
+  "payload": {
+    "230330": {
+      "success": true,
+      "data": {
+        "steam_appid": 230330,
+        "name": "FINAL FANTASY® XI: Ultimate Collection Seekers Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 19, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 413
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7982e438b0358dff9e14c654e859905efb38b2029c0be2e7152d42bbe2893474"
+}

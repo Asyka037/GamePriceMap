@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1005300,
+  "fetchedAt": "2026-07-31T02:49:18.312Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1005300&cc=us&l=english",
+  "responseDigest": "sha256:a030f9981988592d5c0de545328b3a1e6f55ff61bfa769647db26a37929e6449",
+  "payload": {
+    "1005300": {
+      "success": true,
+      "data": {
+        "steam_appid": 1005300,
+        "name": "The Jackbox Party Pack 6",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2328
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ea99ed3842de2d5ef6b72a0f6543de2761479457fb45519a70a9ba554d61bd85"
+}

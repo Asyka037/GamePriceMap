@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4785990,
+  "fetchedAt": "2026-07-31T03:05:38.449Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4785990&cc=us&l=english",
+  "responseDigest": "sha256:ab82ada220b13fba364c57671ff96469bc98da111805e92b0c56da5316a12f1f",
+  "payload": {
+    "4785990": {
+      "success": true,
+      "data": {
+        "steam_appid": 4785990,
+        "name": "DragonSword : Awakening - Familiar : Cotton Flying Squirrel",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:77c424bfa0eabc7fd300ebe227452e98a70c1ea8f0c73f59cbf77799854a6357"
+}

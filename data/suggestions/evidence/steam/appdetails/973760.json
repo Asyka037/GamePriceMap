@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 973760,
+  "fetchedAt": "2026-07-31T03:22:21.413Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=973760&cc=us&l=english",
+  "responseDigest": "sha256:45c02e9146a4a80f62e7b0b1124f4fdfe839b2251516b282140e0b7a46cc1a01",
+  "payload": {
+    "973760": {
+      "success": true,
+      "data": {
+        "steam_appid": 973760,
+        "name": "Thronebreaker: The Witcher Tales",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 9, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 15970
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c3a4588881c9634c88cb1a2c5a774ab31efea6eaafc7baa3ca1791b3661e6e80"
+}

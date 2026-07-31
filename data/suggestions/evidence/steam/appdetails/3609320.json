@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3609320,
+  "fetchedAt": "2026-07-31T03:36:23.114Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3609320&cc=us&l=english",
+  "responseDigest": "sha256:5d47edaa9c84f9eb7d29084b6a900aa2da03749267049685dea16d0c4bc640ad",
+  "payload": {
+    "3609320": {
+      "success": true,
+      "data": {
+        "steam_appid": 3609320,
+        "name": "Bombun",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 300
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e3647d8077da770bea6966ffdcc6ef8233d2eecbd071d6ba36d6f9b27e000a29"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1580050,
+  "fetchedAt": "2026-07-31T03:43:19.767Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1580050&cc=us&l=english",
+  "responseDigest": "sha256:70dc8070c56d80610652b8141190dfbe153f418fad42e52337aa79f5cdb285c4",
+  "payload": {
+    "1580050": {
+      "success": true,
+      "data": {
+        "steam_appid": 1580050,
+        "name": "Dead Cells: The Queen and the Sea",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 6, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 576
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1e6da677f89d777eb6e6dd0ad4c90740288960323e325b5349be64aaf70f429f"
+}

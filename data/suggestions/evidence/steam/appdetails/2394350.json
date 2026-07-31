@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2394350,
+  "fetchedAt": "2026-07-31T03:41:51.558Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2394350&cc=us&l=english",
+  "responseDigest": "sha256:b216b164dec3b0f56b512732bee1acd895bacfe11037f6366bd5ed158a404644",
+  "payload": {
+    "2394350": {
+      "success": true,
+      "data": {
+        "steam_appid": 2394350,
+        "name": "aerofly RC 10 - RC Flight Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 9999,
+          "final": 9999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 156
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:61c4c52083b0ce1b82bb1871a391164be187ca7b7f2756af14704e76eb11eef3"
+}

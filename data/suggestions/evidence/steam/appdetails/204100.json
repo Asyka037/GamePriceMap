@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 204100,
+  "fetchedAt": "2026-07-31T03:08:26.521Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=204100&cc=us&l=english",
+  "responseDigest": "sha256:087d70393858c4c9cf3b64d603b41e00945702602d642ba522bdb2d80650deb3",
+  "payload": {
+    "204100": {
+      "success": true,
+      "data": {
+        "steam_appid": 204100,
+        "name": "Max Payne 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 31, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 54416
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:803c4cf63b12c3d3a1d7d4737d5ed758b00cd6ea74f4b822bf23a9fd85e1f5e0"
+}

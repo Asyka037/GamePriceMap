@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4010590,
+  "fetchedAt": "2026-07-31T03:09:50.915Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4010590&cc=us&l=english",
+  "responseDigest": "sha256:1487ad2cd15fb06dde6af26c08b5b1a26d7960fdfd6e0aaa49f8a5fa8bf4005e",
+  "payload": {
+    "4010590": {
+      "success": true,
+      "data": {
+        "steam_appid": 4010590,
+        "name": "theHunter: Call of the Wild™ - Scotland Hunting Reserve",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 899,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 143
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c70488668a645a08d13d4d34e68b0e268846e0901b02ed98361e65303142a071"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3165680,
+  "fetchedAt": "2026-07-31T04:00:45.744Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3165680&cc=us&l=english",
+  "responseDigest": "sha256:6e6ecad9a71685e93ee26ac6b87a5d8c5202ebcbe969d633a75c221eddd8b4db",
+  "payload": {
+    "3165680": {
+      "success": true,
+      "data": {
+        "steam_appid": 3165680,
+        "name": "Avakin Life",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 27, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:47cf826ba6e5a4d82de1c8522501b9abb2f897fd31d6aef5b769dd89795c5d7f"
+}

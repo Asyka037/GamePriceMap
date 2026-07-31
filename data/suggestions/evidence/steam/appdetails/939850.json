@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 939850,
+  "fetchedAt": "2026-07-31T03:50:40.258Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=939850&cc=us&l=english",
+  "responseDigest": "sha256:0a9223e6642fa6c042733c7ac6391d292d755fba478287f79af845bf36aaa171",
+  "payload": {
+    "939850": {
+      "success": true,
+      "data": {
+        "steam_appid": 939850,
+        "name": "The Dark Pictures Anthology: Man of Medan",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 29, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 799,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 9158
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3b0d144fd761906b5a028961daebc8a5a5c63eb9491306f83e8f7ba6d78a03cc"
+}

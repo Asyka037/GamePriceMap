@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 315210,
+  "fetchedAt": "2026-07-31T03:19:58.757Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=315210&cc=us&l=english",
+  "responseDigest": "sha256:a92d812120e2c77d0256c947d9dc8693cf378cf7c5e067e35da242aa5472a77e",
+  "payload": {
+    "315210": {
+      "success": true,
+      "data": {
+        "steam_appid": 315210,
+        "name": "Suicide Squad: Kill the Justice League",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 2, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 349,
+          "discount_percent": 95
+        },
+        "recommendations": {
+          "total": 12612
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b0496a01f40250cebe110659f92fa3e93cfb72754da3f4239774fb01fa33fad3"
+}

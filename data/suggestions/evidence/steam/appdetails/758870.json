@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 758870,
+  "fetchedAt": "2026-07-31T03:24:09.090Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=758870&cc=us&l=english",
+  "responseDigest": "sha256:0c797f05a343886fc212153426c2981a85a12f1cbf48cec269f2e4ca0167de71",
+  "payload": {
+    "758870": {
+      "success": true,
+      "data": {
+        "steam_appid": 758870,
+        "name": "Kynseed",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 6, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3448
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3eb15b011ce291910dd04d38e64743b597d654a1d744d3210311799b5a2fbe0b"
+}

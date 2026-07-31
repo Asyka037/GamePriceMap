@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1494560,
+  "fetchedAt": "2026-07-31T03:35:27.247Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1494560&cc=us&l=english",
+  "responseDigest": "sha256:32e87a8caf14dc24f9e4b3201a5a9bc3b09960eacc7a6eaf554fcfaf8355ba15",
+  "payload": {
+    "1494560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1494560,
+        "name": "Rogue Voltage",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 1, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 575
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:784f53716931eb6063dfb07825cb26f6df95856d213307ae1974626b18af4a54"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 260430,
+  "fetchedAt": "2026-07-31T03:57:14.981Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=260430&cc=us&l=english",
+  "responseDigest": "sha256:e085c8693b1520b67f43e78af0b7fd122e2029ea4fa0742e5724657d7dbf88e3",
+  "payload": {
+    "260430": {
+      "success": true,
+      "data": {
+        "steam_appid": 260430,
+        "name": "The Four Kings Casino and Slots",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2015"
+        },
+        "recommendations": {
+          "total": 116
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:88c3a5bfe88113c9083edef5ec92e81dee7bc09ec4008da06313017c7ba3ad69"
+}

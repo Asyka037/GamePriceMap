@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 22320,
+  "fetchedAt": "2026-07-31T02:46:28.337Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=22320&cc=us&l=english",
+  "responseDigest": "sha256:a702709ad7b0a6aac19754e6b8a6d752129e68602d7d7cb3e4ba1836009b996c",
+  "payload": {
+    "22320": {
+      "success": true,
+      "data": {
+        "steam_appid": 22320,
+        "name": "The Elder Scrolls III: Morrowind® Game of the Year Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 599,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 22104
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dfc175ed113dd9f016b984193c2878c963999c6a1827e7b46e1eda32458a483e"
+}

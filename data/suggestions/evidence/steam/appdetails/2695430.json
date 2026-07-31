@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2695430,
+  "fetchedAt": "2026-07-31T03:56:45.244Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2695430&cc=us&l=english",
+  "responseDigest": "sha256:3ac67a04c8891359b4575312a285d8c99ceb80c448887dc8cff6f97b13af5fcf",
+  "payload": {
+    "2695430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2695430,
+        "name": "A.I.L.A",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 25, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 856
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e21ab448bf0552e59c326d03bec07aa568d3f027f264910912e0ef6fae91ff59"
+}

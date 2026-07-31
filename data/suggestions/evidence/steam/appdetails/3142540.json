@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3142540,
+  "fetchedAt": "2026-07-31T02:48:50.087Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3142540&cc=us&l=english",
+  "responseDigest": "sha256:ddb28e01eac332a906a1c3b18853da3ea1f7fa307729d9b242788f4835cb2323",
+  "payload": {
+    "3142540": {
+      "success": true,
+      "data": {
+        "steam_appid": 3142540,
+        "name": "The Planet Crafter - Planet Humble",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 9, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 495,
+          "discount_percent": 38
+        },
+        "recommendations": {
+          "total": 894
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f0cc0c35d5225852004cae167c23deec7d910141d1d1b32d0288be0560972a9f"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4781400,
+  "fetchedAt": "2026-07-31T03:19:26.289Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4781400&cc=us&l=english",
+  "responseDigest": "sha256:30ce0cfe69eab1c7ac8ccd913e2e20e19f82bc4365e4dd8828cc244789940db8",
+  "payload": {
+    "4781400": {
+      "success": true,
+      "data": {
+        "steam_appid": 4781400,
+        "name": "武林绝学之功夫传奇",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a940e51b7974a3d2d67029841c404216107620bf02462e551e4f61b0cf42ec62"
+}

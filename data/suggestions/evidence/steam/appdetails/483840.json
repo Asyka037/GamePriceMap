@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 483840,
+  "fetchedAt": "2026-07-31T03:01:13.882Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=483840&cc=us&l=english",
+  "responseDigest": "sha256:1e153f2b4ec7c49cbeca47b5733255fc982450920706d1d05200a7744bbaf767",
+  "payload": {
+    "483840": {
+      "success": true,
+      "data": {
+        "steam_appid": 483840,
+        "name": "Grim Dawn - Crucible Mode DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 3, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 573
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c6fa54f598f7ea4deba269b36b9ab340cae875071031197dc425e6ddf02de71e"
+}

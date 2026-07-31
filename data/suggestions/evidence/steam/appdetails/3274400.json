@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3274400,
+  "fetchedAt": "2026-07-31T03:39:49.627Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3274400&cc=us&l=english",
+  "responseDigest": "sha256:9a535b4345ea2910281ac5d9cb8291adfec73e9a3375f8b332cb102dbdaff241",
+  "payload": {
+    "3274400": {
+      "success": true,
+      "data": {
+        "steam_appid": 3274400,
+        "name": "Warhammer 40,000: Space Marine 2 - Raven Guard Cosmetic Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 284
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:588783dfacc65a64caa0e209f2d956db5df31af339f0bc0cb82cf350def52fe5"
+}

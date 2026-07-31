@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4806540,
+  "fetchedAt": "2026-07-31T03:23:10.360Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4806540&cc=us&l=english",
+  "responseDigest": "sha256:f163f67b3b3a57e03147d2529f63c26827c3dc01e70c9da26cbb4b05c3745b51",
+  "payload": {
+    "4806540": {
+      "success": true,
+      "data": {
+        "steam_appid": 4806540,
+        "name": "Throne and Liberty - Character Boost",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0dd6990bd0f5875b18b0e6d260591fd77cae9ad6645654f5ccd7629636b78665"
+}

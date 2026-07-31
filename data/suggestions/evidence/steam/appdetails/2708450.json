@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2708450,
+  "fetchedAt": "2026-07-31T03:34:27.987Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2708450&cc=us&l=english",
+  "responseDigest": "sha256:24b252e6916a82425dfddc315e25750cfded8a187a7c582321a0cd5201499925",
+  "payload": {
+    "2708450": {
+      "success": true,
+      "data": {
+        "steam_appid": 2708450,
+        "name": "Oh Deer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 27, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2106
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:03c60731e3759bf9a4d2fdeef82dff639e1894c885c26921dca6e04c7874672b"
+}

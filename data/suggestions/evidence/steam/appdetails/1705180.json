@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1705180,
+  "fetchedAt": "2026-07-31T02:51:52.390Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1705180&cc=us&l=english",
+  "responseDigest": "sha256:fc1ef99a1e73535ded99d37b39b695d18e4b6f16298ffad6a0468a8b1764496b",
+  "payload": {
+    "1705180": {
+      "success": true,
+      "data": {
+        "steam_appid": 1705180,
+        "name": "Gunner, HEAT, PC!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 6, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7396
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0ed3ed20a45c62535c066cabbe232e63d70ac62f613223b292127c219d2aa683"
+}

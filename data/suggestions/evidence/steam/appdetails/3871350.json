@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3871350,
+  "fetchedAt": "2026-07-31T02:53:10.544Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3871350&cc=us&l=english",
+  "responseDigest": "sha256:16515ceac766c91f962f00221b51bca1a8c5f248984e2d6ce973e460f171cee8",
+  "payload": {
+    "3871350": {
+      "success": true,
+      "data": {
+        "steam_appid": 3871350,
+        "name": "Warhammer 40,000: Space Marine 2 - Blood Angels Champion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 25, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 214
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7dac239aae40d3bf8862bcdfe6c2d08a6b161c8af2c874d451e11c488f96c606"
+}

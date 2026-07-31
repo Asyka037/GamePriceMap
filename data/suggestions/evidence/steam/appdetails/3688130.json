@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3688130,
+  "fetchedAt": "2026-07-31T02:50:39.581Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3688130&cc=us&l=english",
+  "responseDigest": "sha256:93607a171cd967263312f172429ca5dbba206e94eb3d5ec8994905735d77c2fb",
+  "payload": {
+    "3688130": {
+      "success": true,
+      "data": {
+        "steam_appid": 3688130,
+        "name": "Moldwasher",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 657
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:215b298d5fa5ca7ec3929f5e803d46e3649fa859407d46b828e5e8d6ac01ee45"
+}

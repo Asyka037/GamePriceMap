@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3014080,
+  "fetchedAt": "2026-07-31T03:47:25.850Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3014080&cc=us&l=english",
+  "responseDigest": "sha256:d6ee32845d96421e9e4cb9e2c3e8e3778ff404150042c2ae121762b049517fc2",
+  "payload": {
+    "3014080": {
+      "success": true,
+      "data": {
+        "steam_appid": 3014080,
+        "name": "The Hundred Line -Last Defense Academy-",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6794
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c53fc739f6615b72879b2a010d3a9bd2fdd885961ce6f792e8d6307bb3948972"
+}

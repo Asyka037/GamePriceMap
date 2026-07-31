@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2349820,
+  "fetchedAt": "2026-07-31T03:08:27.984Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2349820&cc=us&l=english",
+  "responseDigest": "sha256:0d493a500e2446c9dbcf97c0d5c12f629e7287952de80ab305369abcbfd439b5",
+  "payload": {
+    "2349820": {
+      "success": true,
+      "data": {
+        "steam_appid": 2349820,
+        "name": "Hero's Land",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 17, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:23f9829daf71e42e0d21282b3fe75fdde683b20a3b0329c8624dfeaa9b30d3bf"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2401410,
+  "fetchedAt": "2026-07-31T02:59:47.067Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2401410&cc=us&l=english",
+  "responseDigest": "sha256:d39a417fa7ff00554ce9e7abfb4a4c84fe33c7bd78f34d785a5fb1181999923f",
+  "payload": {
+    "2401410": {
+      "success": true,
+      "data": {
+        "steam_appid": 2401410,
+        "name": "Cabernet",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1935
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:79a53395da9c458a2ae903dcd124eaeceb46712b5d13ee1c20154a7033a23bac"
+}

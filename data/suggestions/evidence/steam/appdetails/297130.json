@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 297130,
+  "fetchedAt": "2026-07-31T03:18:10.297Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=297130&cc=us&l=english",
+  "responseDigest": "sha256:84f52b46bad0831c01e67c610fbd1c8d5bdb976d569dc0e754ec417c3fb26208",
+  "payload": {
+    "297130": {
+      "success": true,
+      "data": {
+        "steam_appid": 297130,
+        "name": "Titan Souls",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 149,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 7934
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:06fa6d6ff3ea18cf19994e5e2e0f5c0831fc0ac460c166e0eb1dc738efa11426"
+}

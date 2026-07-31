@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1067690,
+  "fetchedAt": "2026-07-31T03:29:00.530Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1067690&cc=us&l=english",
+  "responseDigest": "sha256:96e2b05f4ab77cf0732ef5fef4aef2b40ac3df9e6dfb305aa4a9de4001647e7f",
+  "payload": {
+    "1067690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1067690,
+        "name": "Battle Brothers - Warriors of the North",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 9, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 315
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9f409274b8ab77df9bb9a1f936d126e2d60b56fc4943944c40d68f2684962c69"
+}

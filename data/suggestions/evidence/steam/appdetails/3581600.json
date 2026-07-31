@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3581600,
+  "fetchedAt": "2026-07-31T03:37:25.289Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3581600&cc=us&l=english",
+  "responseDigest": "sha256:a89155792f2cb899c00263252ab7e9c71197c96bde67f0637ffc89334e05ec55",
+  "payload": {
+    "3581600": {
+      "success": true,
+      "data": {
+        "steam_appid": 3581600,
+        "name": "Fate War",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 4, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9f6adbd60aae62002d6763e4afcaf2033c7e283dd4884b0fb001cadd05ecca19"
+}

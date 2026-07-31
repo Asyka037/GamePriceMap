@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4088670,
+  "fetchedAt": "2026-07-31T02:58:17.546Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4088670&cc=us&l=english",
+  "responseDigest": "sha256:8254a30be20f147ad57ddeb53d10ce84c4e6215a11a0b291953a0ad1c1752502",
+  "payload": {
+    "4088670": {
+      "success": true,
+      "data": {
+        "steam_appid": 4088670,
+        "name": "Ludus Magnatus: Gladiator Manager Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2249,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 374
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:15e120122c564b87fc19b88d5b46a848f56885cea1a74dadc7ab019bf2d7e5c2"
+}

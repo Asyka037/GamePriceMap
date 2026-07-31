@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2102730,
+  "fetchedAt": "2026-07-31T02:46:31.304Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2102730&cc=us&l=english",
+  "responseDigest": "sha256:6d4ab143105817a3c1c3fdee712813dc168b57e0b147c5c9bff9cf42672f1e90",
+  "payload": {
+    "2102730": {
+      "success": true,
+      "data": {
+        "steam_appid": 2102730,
+        "name": "Dead by Daylight - Resident Evil: PROJECT W Chapter",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 30, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1788
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9d9300a36bf1339098e996dec44ba4398349562847a9ebbcfe071f9797df739f"
+}

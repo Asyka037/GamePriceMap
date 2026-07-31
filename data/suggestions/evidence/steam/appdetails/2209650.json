@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2209650,
+  "fetchedAt": "2026-07-31T02:50:19.092Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2209650&cc=us&l=english",
+  "responseDigest": "sha256:39622df7de84dd85892c95a831bde966f46bfca9bdda0ab544a0241d2bb7862d",
+  "payload": {
+    "2209650": {
+      "success": true,
+      "data": {
+        "steam_appid": 2209650,
+        "name": "American Truck Simulator - Oklahoma",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 422
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:79f95030666d7677a341a0d8a3ce14cd9c713270566194eba0a3f5f44525e8df"
+}

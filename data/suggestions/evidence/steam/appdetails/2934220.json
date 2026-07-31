@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2934220,
+  "fetchedAt": "2026-07-31T03:12:16.277Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2934220&cc=us&l=english",
+  "responseDigest": "sha256:73cfceb025943de869506e29505ffbbb3f9ddeaa1fdab214b6bde5054ed676f9",
+  "payload": {
+    "2934220": {
+      "success": true,
+      "data": {
+        "steam_appid": 2934220,
+        "name": "Monsters are Coming!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 629,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 2591
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:679d6e0e9f612fc842b25eeec17d7b987a0e1a6e69e11936e86f75f0b82b523a"
+}

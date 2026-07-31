@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4055140,
+  "fetchedAt": "2026-07-31T02:53:01.701Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4055140&cc=us&l=english",
+  "responseDigest": "sha256:606d0abc43570aad7c4d0c995d77fb5250b3cc912cef51c51187ae2e0b575c11",
+  "payload": {
+    "4055140": {
+      "success": true,
+      "data": {
+        "steam_appid": 4055140,
+        "name": "Hello Kitty Island Adventure - City Town",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:79b5ca35bdbb88ff19bed07ff6fac6b6aaa7d338401ba982cd1f7245e8782b04"
+}

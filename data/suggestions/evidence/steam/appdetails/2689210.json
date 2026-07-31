@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2689210,
+  "fetchedAt": "2026-07-31T03:13:04.397Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2689210&cc=us&l=english",
+  "responseDigest": "sha256:b26fa290bbcabbfb245ad2252384266bd87bdb4e5221dd190b261cb7dc284aa7",
+  "payload": {
+    "2689210": {
+      "success": true,
+      "data": {
+        "steam_appid": 2689210,
+        "name": "Persona 3 Reload: Expansion Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 11, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3533
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e111b64157476f2ca6ad7398c7c149399dccab85e38c5893c89217764a2bf22d"
+}

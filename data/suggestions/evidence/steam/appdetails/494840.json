@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 494840,
+  "fetchedAt": "2026-07-31T02:45:38.387Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=494840&cc=us&l=english",
+  "responseDigest": "sha256:894cbc66261a49c5ae783c629aebef416bce795c92d7d57320cdc233e4536b7a",
+  "payload": {
+    "494840": {
+      "success": true,
+      "data": {
+        "steam_appid": 494840,
+        "name": "UBOAT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 2, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 25277
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:55058bd4e98fe37cdeb4680596521809bff7ea985997fdfd377b36e43d37fb8b"
+}

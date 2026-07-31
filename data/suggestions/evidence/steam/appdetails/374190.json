@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 374190,
+  "fetchedAt": "2026-07-31T03:55:10.842Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=374190&cc=us&l=english",
+  "responseDigest": "sha256:30bdbe628b2084afc00c79752912a57c053dba27a0c80e203f907aed51c87b3a",
+  "payload": {
+    "374190": {
+      "success": true,
+      "data": {
+        "steam_appid": 374190,
+        "name": "Infernax",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 14, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2094
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:709e4d218cdd8f9e2dbbb2e1f6b7f4de70f994af7323316008b4d63bd1cf1f05"
+}

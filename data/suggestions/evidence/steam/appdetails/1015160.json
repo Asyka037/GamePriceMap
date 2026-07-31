@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1015160,
+  "fetchedAt": "2026-07-31T02:45:36.958Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1015160&cc=us&l=english",
+  "responseDigest": "sha256:49307536afaf5b5f13f3fe2ce50cbfdeda23a1e6beeb2b8195e8f1be9967f915",
+  "payload": {
+    "1015160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1015160,
+        "name": "American Truck Simulator - Washington",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 715
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e4e98f5ca099d777a4f46e9447ad80372439373b6ca364eae5e66567055edc4"
+}

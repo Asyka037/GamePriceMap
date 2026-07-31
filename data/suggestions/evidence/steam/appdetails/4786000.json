@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4786000,
+  "fetchedAt": "2026-07-31T03:01:43.416Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4786000&cc=us&l=english",
+  "responseDigest": "sha256:79fecf47c189affbd4fcd09111a432973c7a1bd00aab811f088a4765c0a52c07",
+  "payload": {
+    "4786000": {
+      "success": true,
+      "data": {
+        "steam_appid": 4786000,
+        "name": "DragonSword : Awakening - Familiar : Orchid Wing Cat",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:57d1be1e5671309e8611db15383815f42c2bbfd68a63df6e2567a727ac302d0e"
+}

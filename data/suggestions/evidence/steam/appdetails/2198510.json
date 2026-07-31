@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2198510,
+  "fetchedAt": "2026-07-31T03:23:25.106Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2198510&cc=us&l=english",
+  "responseDigest": "sha256:131b04c348860c603fad6d983085d821691fe66ed6aa9d819530fe15015c251d",
+  "payload": {
+    "2198510": {
+      "success": true,
+      "data": {
+        "steam_appid": 2198510,
+        "name": "New Cycle",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 18, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2577
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f61306fc1134264fafe4b21aa9d835219d63c1f554f22136629076b39e314eb3"
+}

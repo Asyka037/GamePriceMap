@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3672720,
+  "fetchedAt": "2026-07-31T03:56:28.764Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3672720&cc=us&l=english",
+  "responseDigest": "sha256:42b64d73a9c6ef1727ce90f1454bda3e6c7dc1dbca9b04d241d959bc2e8792b0",
+  "payload": {
+    "3672720": {
+      "success": true,
+      "data": {
+        "steam_appid": 3672720,
+        "name": "Prison Escape Simulator: Dig Out",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 25, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3342
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e284a02984774232bdca0d6f8cd136a89c53f88ca0863a4574763726950888f"
+}

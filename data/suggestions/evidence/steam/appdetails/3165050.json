@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3165050,
+  "fetchedAt": "2026-07-31T03:59:03.894Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3165050&cc=us&l=english",
+  "responseDigest": "sha256:e5f46371bfd4b58a2b9786b6fd1c139f138ea603f7724bcb52899e017ebfc47e",
+  "payload": {
+    "3165050": {
+      "success": true,
+      "data": {
+        "steam_appid": 3165050,
+        "name": "OUTCLAW",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2249,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9c03b7e3dd446f2f5622c2513e12ec7cd1f0ace90397c5108e9c0c2c218b67f"
+}

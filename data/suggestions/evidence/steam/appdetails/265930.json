@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 265930,
+  "fetchedAt": "2026-07-31T03:23:33.877Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=265930&cc=us&l=english",
+  "responseDigest": "sha256:a4251636ab0fa08abcfd54579ad0631d3718d6248cff6d243efca78c37ec7e08",
+  "payload": {
+    "265930": {
+      "success": true,
+      "data": {
+        "steam_appid": 265930,
+        "name": "Goat Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 1, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 199,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 54608
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cc6d6efb8044ff283845bc383a20b6b762276868a4b574b6adafa6abee87591c"
+}

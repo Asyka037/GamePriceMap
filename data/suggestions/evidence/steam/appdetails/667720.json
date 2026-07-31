@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 667720,
+  "fetchedAt": "2026-07-31T03:34:18.170Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=667720&cc=us&l=english",
+  "responseDigest": "sha256:cfc7b466b51aec08a9755e03297c9a49ef267bd9c314c606a90a30c547a1f6a1",
+  "payload": {
+    "667720": {
+      "success": true,
+      "data": {
+        "steam_appid": 667720,
+        "name": "Red Faction Guerrilla Re-Mars-tered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 3, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 3349
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:acfa7522af6341d7efe8d285e4b0c5f4f955d16915b66a5f13e9470215fe73ab"
+}

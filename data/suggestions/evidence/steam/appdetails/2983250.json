@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2983250,
+  "fetchedAt": "2026-07-31T04:05:45.653Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2983250&cc=us&l=english",
+  "responseDigest": "sha256:e1098104cf7b85b2392f1d2c6e0200db0871254ad5c10b680b91f4d9139e8b40",
+  "payload": {
+    "2983250": {
+      "success": true,
+      "data": {
+        "steam_appid": 2983250,
+        "name": "AIR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 571
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:07a230b5b308f8e14e31d2eb8d3309573a5865e0f7fef81bfec79312f7f308a7"
+}

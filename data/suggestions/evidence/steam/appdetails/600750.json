@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 600750,
+  "fetchedAt": "2026-07-31T04:04:13.405Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=600750&cc=us&l=english",
+  "responseDigest": "sha256:127976d7603ce3309ed7d3a5a1b6743bf1797dc127188383fdaba03a2fcd0d60",
+  "payload": {
+    "600750": {
+      "success": true,
+      "data": {
+        "steam_appid": 600750,
+        "name": "Star Trek Timelines",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 12, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1ec001d5bad107ce0a010617ae750d4b9f3a64affb97ac082d48ebc2f46acec9"
+}

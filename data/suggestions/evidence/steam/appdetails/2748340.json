@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2748340,
+  "fetchedAt": "2026-07-31T02:44:40.115Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2748340&cc=us&l=english",
+  "responseDigest": "sha256:64b04630724b220b4f38b121d57bc4e60e9ffecc3d97f73f2ec43756554d1e22",
+  "payload": {
+    "2748340": {
+      "success": true,
+      "data": {
+        "steam_appid": 2748340,
+        "name": "Goblin Cleanup",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1299,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 1579
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ff59bdb1d67b9f72d070c0925c1e051eceeffe725de2717d54da5a9c14da335c"
+}

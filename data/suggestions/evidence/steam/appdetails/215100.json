@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 215100,
+  "fetchedAt": "2026-07-31T03:17:28.824Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=215100&cc=us&l=english",
+  "responseDigest": "sha256:83e269a95aa457c81588963f1f75f42a9031b7c2c134f6699b44066bc951f2d4",
+  "payload": {
+    "215100": {
+      "success": true,
+      "data": {
+        "steam_appid": 215100,
+        "name": "Ragnarok Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 31, 2013"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6a0190966d0cce5acd6c284f76f74e5215ee263c950d5aa918d032b8e988b6b1"
+}

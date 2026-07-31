@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3815550,
+  "fetchedAt": "2026-07-31T03:31:06.910Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3815550&cc=us&l=english",
+  "responseDigest": "sha256:9c2fe51ae9d648d05dd923e0972c677f50c614ce026c30cd98aac5875f038ead",
+  "payload": {
+    "3815550": {
+      "success": true,
+      "data": {
+        "steam_appid": 3815550,
+        "name": "Space Imperia 4X",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 1954,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e142ac4506680b8cd4d852b3f922d22e11c620f3525e610203a572492fa7fa3e"
+}

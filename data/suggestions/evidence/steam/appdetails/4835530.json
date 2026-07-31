@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4835530,
+  "fetchedAt": "2026-07-31T03:18:50.485Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4835530&cc=us&l=english",
+  "responseDigest": "sha256:fbd1fcef6e6735dc854e52dbdf088cf863b06a39ddf96a2a8a56aacf2a9a0909",
+  "payload": {
+    "4835530": {
+      "success": true,
+      "data": {
+        "steam_appid": 4835530,
+        "name": "Space Engineers: Prosperity Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c8f693a044d935ae6d44995da15838d33cf13ea475bb4fa140dc5b1926aaffe"
+}

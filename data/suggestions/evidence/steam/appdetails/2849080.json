@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2849080,
+  "fetchedAt": "2026-07-31T03:40:25.519Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2849080&cc=us&l=english",
+  "responseDigest": "sha256:ff428f0ff1c1233e0e9c919d4ea3f0a2eee006bf0df52adb8a3ef17ee904856c",
+  "payload": {
+    "2849080": {
+      "success": true,
+      "data": {
+        "steam_appid": 2849080,
+        "name": "Kingdom Rush 5: Alliance TD",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10200
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:523f5fda35b38b66637c5e689b5ce3bb0639d58c4e89c4260f6409f48c55e10b"
+}

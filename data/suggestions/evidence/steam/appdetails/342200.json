@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 342200,
+  "fetchedAt": "2026-07-31T03:00:07.019Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=342200&cc=us&l=english",
+  "responseDigest": "sha256:647ce726a207293d7ac3d2e2feef77ab68a2687003bdcb2b1fe4f17927cab241",
+  "payload": {
+    "342200": {
+      "success": true,
+      "data": {
+        "steam_appid": 342200,
+        "name": "MechWarrior Online™ Legends",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2015"
+        },
+        "recommendations": {
+          "total": 155
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7e5f46b0c21a5ef8c5b9d4699f7e61c1ab37caa1a44a451e9f57e761f1fdf1ee"
+}

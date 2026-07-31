@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1118012,
+  "fetchedAt": "2026-07-31T03:02:59.637Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1118012&cc=us&l=english",
+  "responseDigest": "sha256:5571f890e0b74cf4dedfb048bca2415f754f0e459b4c08a2a7143e5649803465",
+  "payload": {
+    "1118012": {
+      "success": true,
+      "data": {
+        "steam_appid": 1118012,
+        "name": "Monster Hunter World: Iceborne Deluxe Kit",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 9, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 974,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 177
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:effbe51a1462cb37dcabd3236d96884a291f8c4b3364ef2c8fa0d7132d97e334"
+}

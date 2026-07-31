@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 371660,
+  "fetchedAt": "2026-07-31T03:57:21.620Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=371660&cc=us&l=english",
+  "responseDigest": "sha256:06835672dd3ec13aa7151211e8963fa168a7829ca70c182d385b01e89a676355",
+  "payload": {
+    "371660": {
+      "success": true,
+      "data": {
+        "steam_appid": 371660,
+        "name": "Far Cry® Primal",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 29, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 38382
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:734133398ef1b965f253eaaf470eddb20d498e5e178ef54d8c5279285f8f3793"
+}

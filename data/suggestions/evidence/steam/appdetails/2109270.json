@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2109270,
+  "fetchedAt": "2026-07-31T03:48:48.283Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2109270&cc=us&l=english",
+  "responseDigest": "sha256:c2808f71e293a005760df5228f356e6481f8a8e589b480557e23d8f81e4736a6",
+  "payload": {
+    "2109270": {
+      "success": true,
+      "data": {
+        "steam_appid": 2109270,
+        "name": "Preserve",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1249,
+          "final": 624,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 664
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cf8abb222e8e808244a7ca9f7a154583fabe3b384ea573e133e0d68ee2e6d348"
+}

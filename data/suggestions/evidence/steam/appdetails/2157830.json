@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2157830,
+  "fetchedAt": "2026-07-31T02:49:03.431Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2157830&cc=us&l=english",
+  "responseDigest": "sha256:e68d29671b627eec8d170c9f0b93884b44c5e8a9aed919c0f3cc01523d3c02a3",
+  "payload": {
+    "2157830": {
+      "success": true,
+      "data": {
+        "steam_appid": 2157830,
+        "name": "John Carpenter's Toxic Commando",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6149
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2ad39895d3d3c6a2abd1e55071c3b41a29d68eb4aeffc551f7cb85c14e637be8"
+}

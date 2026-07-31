@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3521410,
+  "fetchedAt": "2026-07-31T04:14:11.052Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3521410&cc=us&l=english",
+  "responseDigest": "sha256:48737c99ccbf7c40c45315a9e31fdb8cc332f260c1ec30aa732f66afc9c44e78",
+  "payload": {
+    "3521410": {
+      "success": true,
+      "data": {
+        "steam_appid": 3521410,
+        "name": "Cats & Cups",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 996
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3eda6c20d10d385eaef3f17e93afdab7dd44482a643e88d957ea80bddb940980"
+}

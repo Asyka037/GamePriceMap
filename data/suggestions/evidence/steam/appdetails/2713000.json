@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2713000,
+  "fetchedAt": "2026-07-31T03:09:36.245Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2713000&cc=us&l=english",
+  "responseDigest": "sha256:5c6713a1e21af08107bdb69d4e79961a55c2c996c0c10abe939eeb307f5ccb1f",
+  "payload": {
+    "2713000": {
+      "success": true,
+      "data": {
+        "steam_appid": 2713000,
+        "name": "Resonance: A Plague Tale Legacy",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Aug 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cf39b218efd17eb4adb1a0eb3bdba3b802f9b32be702715c58dff73bc1d7bc3f"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 684630,
+  "fetchedAt": "2026-07-31T02:46:07.602Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=684630&cc=us&l=english",
+  "responseDigest": "sha256:cc1b1d9ceda2dbf9d7423380ccefda30061fd6cae12eef05d681e72a873fbf52",
+  "payload": {
+    "684630": {
+      "success": true,
+      "data": {
+        "steam_appid": 684630,
+        "name": "American Truck Simulator - New Mexico",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 9, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 993
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:88e4d9673e0abb0480b502589c560a554c2426ca73b9729423ed849a2b07786b"
+}

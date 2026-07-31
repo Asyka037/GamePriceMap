@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 870780,
+  "fetchedAt": "2026-07-31T03:13:38.199Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=870780&cc=us&l=english",
+  "responseDigest": "sha256:f9d5030913db6c48881d384ee8a6ceb2e25b5269b9a4e48c9668319c47f49d05",
+  "payload": {
+    "870780": {
+      "success": true,
+      "data": {
+        "steam_appid": 870780,
+        "name": "CONTROL Ultimate Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 49168
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:242d0eca5152bd880c2af8f4836084578a5333ea4f1db2d381f1c98255892d8a"
+}

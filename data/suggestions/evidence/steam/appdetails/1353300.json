@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1353300,
+  "fetchedAt": "2026-07-31T04:16:59.198Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1353300&cc=us&l=english",
+  "responseDigest": "sha256:2e9df0af4753eb503fd04a67184eac7d182026503a414e5486081ffdd1df2970",
+  "payload": {
+    "1353300": {
+      "success": true,
+      "data": {
+        "steam_appid": 1353300,
+        "name": "Idle Slayer",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 21, 2020"
+        },
+        "recommendations": {
+          "total": 501
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f31779dc4e068c4dd7b028e87b6392ca3bb499f49de2ee211823414008f8163e"
+}

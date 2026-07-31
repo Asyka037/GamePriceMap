@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1982340,
+  "fetchedAt": "2026-07-31T04:05:32.425Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1982340&cc=us&l=english",
+  "responseDigest": "sha256:48bac281ccfa04465a685f8526b84e4d22fecf3100912639296499dbe4241f11",
+  "payload": {
+    "1982340": {
+      "success": true,
+      "data": {
+        "steam_appid": 1982340,
+        "name": "Blanc",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 14, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 449,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 816
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4cca21136c4d50de24c857e7c17779cf0baea80a379194e0df94930455f2cb93"
+}

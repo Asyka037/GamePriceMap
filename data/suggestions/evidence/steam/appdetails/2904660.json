@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2904660,
+  "fetchedAt": "2026-07-31T03:20:47.715Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2904660&cc=us&l=english",
+  "responseDigest": "sha256:367d7cd1eedf1047352a48f3e21b14df9b305da034b2ba77948395b2263b0bc6",
+  "payload": {
+    "2904660": {
+      "success": true,
+      "data": {
+        "steam_appid": 2904660,
+        "name": "Call to Arms - Gates of Hell: Airborne",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 649,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 718
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7f8a3d6034dc7d5011935ba3497d252211cb5aab34435489f5a7fe2ea6cd12c2"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2076140,
+  "fetchedAt": "2026-07-31T03:43:58.992Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2076140&cc=us&l=english",
+  "responseDigest": "sha256:f4c4966936c56fba0ee9d127245d803df7db937b79fb44444d8afcb9c0581eed",
+  "payload": {
+    "2076140": {
+      "success": true,
+      "data": {
+        "steam_appid": 2076140,
+        "name": "Tavern Talk - A Cozy Visual Novel",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 989,
+          "discount_percent": 45
+        },
+        "recommendations": {
+          "total": 1443
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:30c6a3f5dfaa8da1fc2f47dba5f5ffceded78528203106792be414163f7ba91e"
+}

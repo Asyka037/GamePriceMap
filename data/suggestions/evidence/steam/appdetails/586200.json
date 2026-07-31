@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 586200,
+  "fetchedAt": "2026-07-31T03:28:30.866Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=586200&cc=us&l=english",
+  "responseDigest": "sha256:8c586ca9d9cc78705717fbe5f131382d7cb023bf8cc067e1de8c3f8aed0d510a",
+  "payload": {
+    "586200": {
+      "success": true,
+      "data": {
+        "steam_appid": 586200,
+        "name": "Street Fighter 30th Anniversary Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 29, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 989,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 2292
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c33286aab0a03b7a3858fc8070b4bb7e9a00193ae64b387299df303f444c24ea"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4775410,
+  "fetchedAt": "2026-07-31T03:05:02.360Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4775410&cc=us&l=english",
+  "responseDigest": "sha256:a4d6f540964d6ffcc1fe2f9b4c55ea0146291324aebc8beb914fc0d5dfc60cf2",
+  "payload": {
+    "4775410": {
+      "success": true,
+      "data": {
+        "steam_appid": 4775410,
+        "name": "Jeffrey Eggstein",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 215
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:478db210efdfa7bf474d12eea004791f0582a3b165a10b4f781572c578030a60"
+}

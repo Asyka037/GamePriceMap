@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1850160,
+  "fetchedAt": "2026-07-31T03:32:29.765Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1850160&cc=us&l=english",
+  "responseDigest": "sha256:d932b9af4714939584ba9cb722a99aaa094e7452e8a8e6cd8c0a129135ab14d4",
+  "payload": {
+    "1850160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1850160,
+        "name": "Poly Bridge 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2022
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:878f61db6265f1f4a47576bc8c2a5714028b1bf230dbc176dd042ad642dbe567"
+}

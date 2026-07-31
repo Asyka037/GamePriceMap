@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3976910,
+  "fetchedAt": "2026-07-31T02:49:59.715Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3976910&cc=us&l=english",
+  "responseDigest": "sha256:baa3eeb495c5da5b6a3cddc3c2337c9b383cce4727ba373cd36d87d7c9cc1b7a",
+  "payload": {
+    "3976910": {
+      "success": true,
+      "data": {
+        "steam_appid": 3976910,
+        "name": "Age of Wonders 4: Secrets of the Archmages",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:62a0f6e31f032286aafc0b803fcf83a8c4473d13c63dda1d991afa73249f6ba4"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3871360,
+  "fetchedAt": "2026-07-31T03:13:56.067Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3871360&cc=us&l=english",
+  "responseDigest": "sha256:add40bd423bf3d84ca039a74edc59eb59eb83270b3d2f3ad2aded15785b15f38",
+  "payload": {
+    "3871360": {
+      "success": true,
+      "data": {
+        "steam_appid": 3871360,
+        "name": "Warhammer 40,000: Space Marine 2 - Salamanders Cosmetic Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 25, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 318
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5645546be3f17656d81ccba48d2864d843c8b4dfcec6a901c0362b619e473687"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2982320,
+  "fetchedAt": "2026-07-31T03:07:06.343Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2982320&cc=us&l=english",
+  "responseDigest": "sha256:b603ac78b961e6a8c053aa2dce4d44c861ad5e58e7b58a36ac63a063a4d02110",
+  "payload": {
+    "2982320": {
+      "success": true,
+      "data": {
+        "steam_appid": 2982320,
+        "name": "Guild Wars 2® Janthir Wilds™ Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 103
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4ec27d258ac0a1d1b6fa08636d288ffb62444aeaa1a5561e49f7015a4f270a68"
+}

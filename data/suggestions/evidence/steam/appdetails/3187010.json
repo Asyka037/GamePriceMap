@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3187010,
+  "fetchedAt": "2026-07-31T03:37:15.562Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3187010&cc=us&l=english",
+  "responseDigest": "sha256:c32216e54fee9d96ff02d0469bb94ca301fa14fb4c5cb7a3eadda1a647ac4dd5",
+  "payload": {
+    "3187010": {
+      "success": true,
+      "data": {
+        "steam_appid": 3187010,
+        "name": "Dinocop",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 702
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:887c4e3b504e04115bffb6f0938ab17e6c1ccbabd39a00ac5a4ed18ae9404830"
+}

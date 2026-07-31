@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 357360,
+  "fetchedAt": "2026-07-31T03:59:53.290Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=357360&cc=us&l=english",
+  "responseDigest": "sha256:7a3ff79ef717e439e9d3e1dbbf255cb429fe0135219a717ca0fceb194a647715",
+  "payload": {
+    "357360": {
+      "success": true,
+      "data": {
+        "steam_appid": 357360,
+        "name": "ENDLESS Legend™ - Guardians",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 29, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 249,
+          "discount_percent": 75
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c521e44e9013135777dd9ae45a67c5dac16aadfc30829dfe1fc98334ebd2abca"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1659600,
+  "fetchedAt": "2026-07-31T02:59:19.066Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1659600&cc=us&l=english",
+  "responseDigest": "sha256:c4f8b7c037a02c0f4581ebc71a11dd95c61be139fd87df6f8e8cc76bed369b3d",
+  "payload": {
+    "1659600": {
+      "success": true,
+      "data": {
+        "steam_appid": 1659600,
+        "name": "Teenage Mutant Ninja Turtles: The Cowabunga Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 30, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 778
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a290ec5c8fad47e2a5bdf1ebb863af55a47759d77229d62765e7747c6acd5398"
+}

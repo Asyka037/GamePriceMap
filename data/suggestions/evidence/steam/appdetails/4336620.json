@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4336620,
+  "fetchedAt": "2026-07-31T03:34:51.074Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4336620&cc=us&l=english",
+  "responseDigest": "sha256:e2fbb8fc192ba4f200477182256c0b10c9fb6d507533832dd93e82848f79b3cd",
+  "payload": {
+    "4336620": {
+      "success": true,
+      "data": {
+        "steam_appid": 4336620,
+        "name": "One Deck Dungeon - Relics of the Forge",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ce4e8bafad4961017c9b5e1119431184a8a2512a7baa7b9f8ef3d24f78dea4da"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3424610,
+  "fetchedAt": "2026-07-31T03:29:17.075Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3424610&cc=us&l=english",
+  "responseDigest": "sha256:af196baaa3d092fd062ac730c64c5b07cbf5f718d9852197ebe0764e73063dc5",
+  "payload": {
+    "3424610": {
+      "success": true,
+      "data": {
+        "steam_appid": 3424610,
+        "name": "Fantasy Idle Dungeon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 89,
+          "discount_percent": 91
+        },
+        "recommendations": {
+          "total": 621
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:967e78391da53b45a2decd862cf42e767021bc9ffdfbbc09aeafa994a7de70c2"
+}

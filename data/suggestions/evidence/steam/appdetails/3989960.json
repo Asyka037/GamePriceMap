@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3989960,
+  "fetchedAt": "2026-07-31T03:10:07.509Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3989960&cc=us&l=english",
+  "responseDigest": "sha256:e409d96631114ae867637262cd5b86d0ed7464e488277c223bb9b595fd594b2a",
+  "payload": {
+    "3989960": {
+      "success": true,
+      "data": {
+        "steam_appid": 3989960,
+        "name": "Frog Sqwad 🐸",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 312
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6fe23ec71a36110a5568b4309eaaf38992d649c427d1cf2cf45deb552089e78f"
+}

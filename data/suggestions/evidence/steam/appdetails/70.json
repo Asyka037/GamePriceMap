@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 70,
+  "fetchedAt": "2026-07-31T02:47:16.125Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=70&cc=us&l=english",
+  "responseDigest": "sha256:ba725e5e10dc7db946133a5527c7076062fd1bf764397affa3378de26fe37206",
+  "payload": {
+    "70": {
+      "success": true,
+      "data": {
+        "steam_appid": 70,
+        "name": "Half-Life",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 19, 1998"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 116474
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:67f56ebff254b5ab3efb289f43c95873867b2ee613d08f53f74488fc394749af"
+}

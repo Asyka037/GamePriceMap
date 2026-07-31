@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1281590,
+  "fetchedAt": "2026-07-31T03:33:13.322Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1281590&cc=us&l=english",
+  "responseDigest": "sha256:0575ede23a97a415675de11f2f5c309d8bf2eb03be44a74ac44b203e45eec3c8",
+  "payload": {
+    "1281590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1281590,
+        "name": "The Dark Pictures Anthology: House of Ashes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 989,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 7263
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:282f61d49d5d654c6aed461ef606bab3fa22f474d80c28a275d5bda84afa229a"
+}

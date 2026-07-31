@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2394650,
+  "fetchedAt": "2026-07-31T03:16:39.205Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2394650&cc=us&l=english",
+  "responseDigest": "sha256:234d5f66ae48cc18949f792d78a08bdbf9bb2e54d33695d35f6da83a5611d1e0",
+  "payload": {
+    "2394650": {
+      "success": true,
+      "data": {
+        "steam_appid": 2394650,
+        "name": "Crypt Custodian",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1199,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 2853
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ab5e06c324861784d224c12713ba92e230e977163901139fdad86dc2c18ace1c"
+}

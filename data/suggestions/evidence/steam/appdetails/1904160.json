@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1904160,
+  "fetchedAt": "2026-07-31T03:45:40.451Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1904160&cc=us&l=english",
+  "responseDigest": "sha256:53f99c7300d1016edb2d2e7a1a9ef3c0bcdb5f2e665c2f99d87ab2157a0787e7",
+  "payload": {
+    "1904160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1904160,
+        "name": "Trainz Plus",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 132
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:688c8abbd0c8c78df7bd26d65ac836061ce5b4cbd00bc8425145fb20f1dba147"
+}

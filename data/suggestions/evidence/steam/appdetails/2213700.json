@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2213700,
+  "fetchedAt": "2026-07-31T02:49:27.287Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2213700&cc=us&l=english",
+  "responseDigest": "sha256:5c43ed09f17728d140ac1a79313d9b283a3b89f77b84bd58a449b609f345dcb5",
+  "payload": {
+    "2213700": {
+      "success": true,
+      "data": {
+        "steam_appid": 2213700,
+        "name": "Sintopia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2799,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 893
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a4801d7ff976cb097ed0437cb873c8ebc8065bbce52dfcc9bb4c3f773cbe33d3"
+}

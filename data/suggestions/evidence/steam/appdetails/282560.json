@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 282560,
+  "fetchedAt": "2026-07-31T03:53:41.741Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=282560&cc=us&l=english",
+  "responseDigest": "sha256:8bd30089cf961536a0f179de1d1d6617e880c1a56afdd5b0d1ef11ec02c7da65",
+  "payload": {
+    "282560": {
+      "success": true,
+      "data": {
+        "steam_appid": 282560,
+        "name": "RollerCoaster Tycoon World™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3237
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:25000d676b6117c1be0c9161bcd7ca01d5dd8806f5e84ec98841a8f359637ad5"
+}

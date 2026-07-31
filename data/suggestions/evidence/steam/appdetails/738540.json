@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 738540,
+  "fetchedAt": "2026-07-31T03:22:09.448Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=738540&cc=us&l=english",
+  "responseDigest": "sha256:19a478ccd0aa3680c6e70dee746d261ae3aea980cd0162ba582e442424538406",
+  "payload": {
+    "738540": {
+      "success": true,
+      "data": {
+        "steam_appid": 738540,
+        "name": "Tales of Vesperia: Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 10, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 999,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 3764
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d06e6898e62ffdf58b1ea34c4d6f49d1859ad8c98dfc3d3c286612d6b41aeb94"
+}

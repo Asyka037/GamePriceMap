@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 32440,
+  "fetchedAt": "2026-07-31T02:47:20.466Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=32440&cc=us&l=english",
+  "responseDigest": "sha256:69776ba7ea272e41ad551dea6a9189e8cb8f43ce97fb4133b664cccdb97b4eaf",
+  "payload": {
+    "32440": {
+      "success": true,
+      "data": {
+        "steam_appid": 32440,
+        "name": "LEGO® Star Wars™ - The Complete Saga",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20670
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:29763060b79ce91572a84a2af88d6552c6982ce0bb279a362adfed40cc3ef748"
+}

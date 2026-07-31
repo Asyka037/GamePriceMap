@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2193910,
+  "fetchedAt": "2026-07-31T03:51:52.607Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2193910&cc=us&l=english",
+  "responseDigest": "sha256:6710956272e3acca24ac57bbd6410f11cc396a862cfac330798c6e01fb9de73b",
+  "payload": {
+    "2193910": {
+      "success": true,
+      "data": {
+        "steam_appid": 2193910,
+        "name": "KOF XV Fighter Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 16, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a3ed31925c5d17ee64e04375ecfe2ea12a4c2c530ed8c389b9d33bda1438b25"
+}

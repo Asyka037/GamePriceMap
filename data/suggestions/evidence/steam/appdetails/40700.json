@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 40700,
+  "fetchedAt": "2026-07-31T03:52:35.699Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=40700&cc=us&l=english",
+  "responseDigest": "sha256:934da84a2176630041e44f04fd9a3a157358012cebec532ecdae28f112ae6b0b",
+  "payload": {
+    "40700": {
+      "success": true,
+      "data": {
+        "steam_appid": 40700,
+        "name": "Machinarium",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17312
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eadc27261c8c1c1b1e331fe9720a27966d659917a006baeade4766aca8bb7842"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2753900,
+  "fetchedAt": "2026-07-31T02:47:13.183Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2753900&cc=us&l=english",
+  "responseDigest": "sha256:dfdca3fb69951ab1bfa597ee2a68927cd487852151c2891ea52ebf1ab0b21bd8",
+  "payload": {
+    "2753900": {
+      "success": true,
+      "data": {
+        "steam_appid": 2753900,
+        "name": "The King is Watching",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 974,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 8762
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9a32ef24144387493218868473c6988497a2f7eb82b56904b50363b22ab6f441"
+}

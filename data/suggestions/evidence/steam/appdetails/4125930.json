@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4125930,
+  "fetchedAt": "2026-07-31T02:48:30.983Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4125930&cc=us&l=english",
+  "responseDigest": "sha256:8ef652c2c8e60c42be30c0d1b547f89eb45a47c255323cab54d2310ddd4de6d5",
+  "payload": {
+    "4125930": {
+      "success": true,
+      "data": {
+        "steam_appid": 4125930,
+        "name": "Punishing: Gray Raven",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 2, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:24634aa0315ff4766382968184ee3b63cd4486012d3287f9a72dac50ee8b97c2"
+}

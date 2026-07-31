@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2291060,
+  "fetchedAt": "2026-07-31T03:01:47.879Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2291060&cc=us&l=english",
+  "responseDigest": "sha256:3f8fcc65b3f690f4e9a257364afd40d1a0963b35f880b316623771f788d2cf1e",
+  "payload": {
+    "2291060": {
+      "success": true,
+      "data": {
+        "steam_appid": 2291060,
+        "name": "EARTH DEFENSE FORCE 6",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6164
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fc13b25142af2fdc7c3b423cc8fa9306f72a0e8616520f64a6b19c5f78012c6f"
+}

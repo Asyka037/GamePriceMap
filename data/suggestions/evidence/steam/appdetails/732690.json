@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 732690,
+  "fetchedAt": "2026-07-31T03:10:25.514Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=732690&cc=us&l=english",
+  "responseDigest": "sha256:f07035fe28213db84774020b317401f939341bc4d72554f9d7ac444a559dab46",
+  "payload": {
+    "732690": {
+      "success": true,
+      "data": {
+        "steam_appid": 732690,
+        "name": "FIVE NIGHTS AT FREDDY'S: HELP WANTED",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12218
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e3858a18aaf664268130f256b619830e4bfb55a8b5da865b0c0f2504670d6520"
+}

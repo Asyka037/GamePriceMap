@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2878600,
+  "fetchedAt": "2026-07-31T04:13:38.226Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2878600&cc=us&l=english",
+  "responseDigest": "sha256:a0391ec656802e972480ef35b52a715b63f11e8832eaf2fc267b3a21b0d4a9d1",
+  "payload": {
+    "2878600": {
+      "success": true,
+      "data": {
+        "steam_appid": 2878600,
+        "name": "Harry Potter: Quidditch Champions",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 3, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2756
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f3a764a91954db5cc3e3916dc7171091d90927fce18ec9cda2916b60c63b8528"
+}

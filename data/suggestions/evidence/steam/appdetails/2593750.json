@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2593750,
+  "fetchedAt": "2026-07-31T03:13:29.515Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2593750&cc=us&l=english",
+  "responseDigest": "sha256:1777e1ce1fde97690b4a52483d27954bff0974772059d083748475f8e0654147",
+  "payload": {
+    "2593750": {
+      "success": true,
+      "data": {
+        "steam_appid": 2593750,
+        "name": "Muse Dash - Muse Plus",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 4, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 725
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9198d9f2dd597d9c7e61d5357bc65658953b7ea5cbe3d695d245690890e91b89"
+}

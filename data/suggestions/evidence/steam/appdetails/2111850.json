@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2111850,
+  "fetchedAt": "2026-07-31T03:29:50.350Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2111850&cc=us&l=english",
+  "responseDigest": "sha256:97485ddc0f9e3e89789a242508584e21f57a960ccfc7d0d413c5852556eece81",
+  "payload": {
+    "2111850": {
+      "success": true,
+      "data": {
+        "steam_appid": 2111850,
+        "name": "Gunfire Reborn - Visitors of Spirit Realm",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 28, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 559,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 968
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e016d19c4c9b65ab3440a2d7837235b5394a02d301b032c8b10b78190334b82"
+}

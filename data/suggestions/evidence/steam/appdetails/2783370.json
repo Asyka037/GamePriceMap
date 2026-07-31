@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2783370,
+  "fetchedAt": "2026-07-31T03:11:59.931Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2783370&cc=us&l=english",
+  "responseDigest": "sha256:a61eb0040238a024d72066283ab39f2420d59484280eccbcd004509052745a43",
+  "payload": {
+    "2783370": {
+      "success": true,
+      "data": {
+        "steam_appid": 2783370,
+        "name": "Teeto",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:08c5a8da38e6021b0ede9a844bdd5f6bfc0e3d7a94b5e21506a6015214fb8e44"
+}

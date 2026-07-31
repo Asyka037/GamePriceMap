@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3973840,
+  "fetchedAt": "2026-07-31T03:51:03.490Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3973840&cc=us&l=english",
+  "responseDigest": "sha256:13b7f4c0f19139db20941b33993c1f8811488d57e4945a6a6615c601112c6301",
+  "payload": {
+    "3973840": {
+      "success": true,
+      "data": {
+        "steam_appid": 3973840,
+        "name": "Spirit Island - Nature Incarnate",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 2000,
+          "discount_percent": 13
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:81cb87825eb2d4fda17d49bd6c7d85d777bdde7cd162863ed1d41d458a9c4c51"
+}

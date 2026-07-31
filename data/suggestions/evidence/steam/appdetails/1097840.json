@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1097840,
+  "fetchedAt": "2026-07-31T02:45:00.828Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1097840&cc=us&l=english",
+  "responseDigest": "sha256:a87406183e84460f0492c1abc5e40864b73a461f2cd7bcbcc3ede1ba260d9228",
+  "payload": {
+    "1097840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1097840,
+        "name": "Gears 5",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 9, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 449,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 20366
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:514f5d1b4dca196ca3f3797b179e6c2e3796676e6579985d9ccce92b286aaa26"
+}

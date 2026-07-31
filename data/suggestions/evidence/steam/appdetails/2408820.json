@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2408820,
+  "fetchedAt": "2026-07-31T04:10:33.851Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2408820&cc=us&l=english",
+  "responseDigest": "sha256:604d641bc795fd2c0947336538f14fd19f8e1622bb7d6b6f60ace27c327e39cf",
+  "payload": {
+    "2408820": {
+      "success": true,
+      "data": {
+        "steam_appid": 2408820,
+        "name": "Luma Island",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11083
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b704fa80cf0ef586186530e7dbbcdcca49f7ccf6e3499e46a5f14fbc4991fd7d"
+}

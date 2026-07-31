@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 427730,
+  "fetchedAt": "2026-07-31T02:46:20.907Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=427730&cc=us&l=english",
+  "responseDigest": "sha256:001e84ad1fb0d5d3355c7a0aac8ffdf5f49d3985bd6fc878d7ef262ea2147eca",
+  "payload": {
+    "427730": {
+      "success": true,
+      "data": {
+        "steam_appid": 427730,
+        "name": "Who's Your Daddy?!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 13, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 25734
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2db6fef4819f7864d8ff1569370928c4a4f8bdb5336ad9ae02ff474cac4ee880"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 794860,
+  "fetchedAt": "2026-07-31T04:04:43.059Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=794860&cc=us&l=english",
+  "responseDigest": "sha256:a3e8adbd086547168b1f192c338179d17040f0aa44b70df471d75356521af389",
+  "payload": {
+    "794860": {
+      "success": true,
+      "data": {
+        "steam_appid": 794860,
+        "name": "eSail Sailing Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3799,
+          "final": 3799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 741
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f8bfbe4d2c1b3c243bca9583ca2abec459a9602a5158326a4b959f526e9b354e"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2084970,
+  "fetchedAt": "2026-07-31T03:11:17.159Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2084970&cc=us&l=english",
+  "responseDigest": "sha256:5f1ca655f0389e6f77b2d36067ae35e7806e0bb16c8715fd0043b13820be1aa3",
+  "payload": {
+    "2084970": {
+      "success": true,
+      "data": {
+        "steam_appid": 2084970,
+        "name": "Etheria: Restart",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:afca738a34aaf22d1cfa12ec5f0058f3ee126131b42d9f15fa47ee4cdca59acc"
+}

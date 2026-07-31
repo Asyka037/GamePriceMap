@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4262310,
+  "fetchedAt": "2026-07-31T03:45:16.677Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4262310&cc=us&l=english",
+  "responseDigest": "sha256:6d60c8e567adf1493a47da40c0a75d13b022bf396cd2661bae9e4d390421dee8",
+  "payload": {
+    "4262310": {
+      "success": true,
+      "data": {
+        "steam_appid": 4262310,
+        "name": " All Hail the Orb",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 489,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1198
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2fa327c7358ab888d15384fbca3cfc623b7a3c04678b22d0a0b4783dbb2bfdc8"
+}

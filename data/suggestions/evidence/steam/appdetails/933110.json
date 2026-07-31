@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 933110,
+  "fetchedAt": "2026-07-31T02:43:20.921Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=933110&cc=us&l=english",
+  "responseDigest": "sha256:a0a661b60b7513c4fe85299a23b1419e4c721fcb72ba4fc3fefc9a902328db94",
+  "payload": {
+    "933110": {
+      "success": true,
+      "data": {
+        "steam_appid": 933110,
+        "name": "Age of Empires III: Definitive Edition",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2020"
+        },
+        "recommendations": {
+          "total": 36793
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b307323197ff25f16bec8f4da1e6b0269348bc7eb67e3e4566e7dc873aa6de0b"
+}

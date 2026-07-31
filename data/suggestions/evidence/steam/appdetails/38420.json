@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 38420,
+  "fetchedAt": "2026-07-31T03:10:10.562Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=38420&cc=us&l=english",
+  "responseDigest": "sha256:60aa43a0952aeaaa953ec0b22ad375450bf10244d69fabcf92a5b5793eaff0cc",
+  "payload": {
+    "38420": {
+      "success": true,
+      "data": {
+        "steam_appid": 38420,
+        "name": "Fallout Tactics: Brotherhood of Steel",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 19, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 249,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 2329
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2a37e95fd4348ad8492178bdf70bedff803ca84d2221c3ddcd807b8a3ef55ce3"
+}

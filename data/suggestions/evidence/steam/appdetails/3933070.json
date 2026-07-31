@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3933070,
+  "fetchedAt": "2026-07-31T03:23:19.225Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3933070&cc=us&l=english",
+  "responseDigest": "sha256:cd7dbaea63683d91840efec4eff889d1eeaab51af3fb1d6a9bba97008810789c",
+  "payload": {
+    "3933070": {
+      "success": true,
+      "data": {
+        "steam_appid": 3933070,
+        "name": "Lead the Way Pack - Battlefield™ 6 and REDSEC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 367
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bf232a7844625a7445d8389ebe21a704134cdc0ca7fde28e64ee2ea634caf4cf"
+}

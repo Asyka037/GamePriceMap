@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1402110,
+  "fetchedAt": "2026-07-31T04:12:38.903Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1402110&cc=us&l=english",
+  "responseDigest": "sha256:d359f9ae85184a2bfb6a98104e3cff964e7bfc7c255b08c86deb0d6370c52d3e",
+  "payload": {
+    "1402110": {
+      "success": true,
+      "data": {
+        "steam_appid": 1402110,
+        "name": "Eternights",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 11, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3024
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5a12f5fbbae18fc6c55d6b13c32c6d72095b7a08050ca0cea7377d4f47c132e4"
+}

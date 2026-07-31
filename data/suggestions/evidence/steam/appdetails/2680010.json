@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2680010,
+  "fetchedAt": "2026-07-31T02:51:29.845Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2680010&cc=us&l=english",
+  "responseDigest": "sha256:cef84338f05cf42921785342e2c6dc9015fe2b6bd6ff9a17d58d082a3ad59f44",
+  "payload": {
+    "2680010": {
+      "success": true,
+      "data": {
+        "steam_appid": 2680010,
+        "name": "The First Berserker: Khazan",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20529
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:851d2f79ad826810e3695079d9d6076580e5ebd73cc3157efc61a32cc037f136"
+}

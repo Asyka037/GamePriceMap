@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 617870,
+  "fetchedAt": "2026-07-31T03:07:56.904Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=617870&cc=us&l=english",
+  "responseDigest": "sha256:3cbf3056455791c3395634e6c7e4ae389bcce7229d1fab59d146ae50ff75fea0",
+  "payload": {
+    "617870": {
+      "success": true,
+      "data": {
+        "steam_appid": 617870,
+        "name": "Total War: WARHAMMER II - Rise of the Tomb Kings",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 23, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1899,
+          "final": 1899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1933
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:18ae7a9e02422235a4e12e7ff5f46bc671b312a47f3fb6185825a81483730e2c"
+}

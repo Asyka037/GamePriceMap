@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 965220,
+  "fetchedAt": "2026-07-31T03:14:41.969Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=965220&cc=us&l=english",
+  "responseDigest": "sha256:ef9152b0d896a086980c0308a23f040ea57e62f3e23105699d3a450f965fb7c1",
+  "payload": {
+    "965220": {
+      "success": true,
+      "data": {
+        "steam_appid": 965220,
+        "name": "Total War: WARHAMMER II - The Prophet & The Warlock",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 17, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1171
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ebc8d60b2209229faaafd68dee96eda906138514599d6d071492e1916cf82b15"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4599710,
+  "fetchedAt": "2026-07-31T03:30:46.838Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4599710&cc=us&l=english",
+  "responseDigest": "sha256:8a355914c46dfc3f329e88a717bfc18c24a88b9ff008b0c66f91c1625a127fa4",
+  "payload": {
+    "4599710": {
+      "success": true,
+      "data": {
+        "steam_appid": 4599710,
+        "name": "IDLE_DIRECTIVE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 449,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:52ef6e98149d0852b8c8a61a3e787a958386b1342449deffeaa2eec9a300e365"
+}

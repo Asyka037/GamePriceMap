@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1149620,
+  "fetchedAt": "2026-07-31T02:42:51.255Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1149620&cc=us&l=english",
+  "responseDigest": "sha256:769843797b9c50266a1a53beb02beef4e2484360d50edfb38de6fbe6560d72ae",
+  "payload": {
+    "1149620": {
+      "success": true,
+      "data": {
+        "steam_appid": 1149620,
+        "name": "Gas Station Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 15, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 939,
+          "discount_percent": 53
+        },
+        "recommendations": {
+          "total": 23720
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2b05d0bc0d4d63cc2fdfbb2a18184acb4b90de9949c3a11a038d7cb3d432b6c5"
+}

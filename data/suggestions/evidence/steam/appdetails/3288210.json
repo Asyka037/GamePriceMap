@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3288210,
+  "fetchedAt": "2026-07-31T03:34:31.220Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3288210&cc=us&l=english",
+  "responseDigest": "sha256:b66760a01d22c2bffe25ceba9d525bedeebadfa6b7e2f48f6063a71f48bda0ac",
+  "payload": {
+    "3288210": {
+      "success": true,
+      "data": {
+        "steam_appid": 3288210,
+        "name": "Super Meat Boy 3D",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 31, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1874,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 802
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9a11151b72d84eecd5cd551a8affeeb3556223d1937ca6a6ee2920545b16b26b"
+}

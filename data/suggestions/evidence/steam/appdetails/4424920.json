@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4424920,
+  "fetchedAt": "2026-07-31T03:37:45.000Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4424920&cc=us&l=english",
+  "responseDigest": "sha256:62af561e04b78ad11e5d4285a4f652858b298808c2ecd066f48c31fc904d7447",
+  "payload": {
+    "4424920": {
+      "success": true,
+      "data": {
+        "steam_appid": 4424920,
+        "name": "ARC Raiders - The Wasp Hunter Set",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 31, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2000,
+          "final": 2000,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c15d56c63b6c4bf7d36180cd24126fb04b25089040eea5135c0018204976665e"
+}

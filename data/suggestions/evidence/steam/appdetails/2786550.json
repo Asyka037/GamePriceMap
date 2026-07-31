@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2786550,
+  "fetchedAt": "2026-07-31T03:14:47.915Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2786550&cc=us&l=english",
+  "responseDigest": "sha256:0818f87c92bee1749d52b6c50f35e0620aed780ecc86cfc89b4c3f40dd0c7965",
+  "payload": {
+    "2786550": {
+      "success": true,
+      "data": {
+        "steam_appid": 2786550,
+        "name": "CURE - A Hospital Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 689,
+          "discount_percent": 31
+        },
+        "recommendations": {
+          "total": 767
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:68d251652937390cddd08d800c5a690d6f81a6e8a202c551deb77b519c197f9a"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3908810,
+  "fetchedAt": "2026-07-31T03:40:05.982Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3908810&cc=us&l=english",
+  "responseDigest": "sha256:d7caf452e834bc2f5787a0c2be1f2fb856bfe4fca8a74fc7fc7f32e5f5c5aef4",
+  "payload": {
+    "3908810": {
+      "success": true,
+      "data": {
+        "steam_appid": 3908810,
+        "name": "Stackflow",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 179
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0e396eaa428b8f110014ee0f40a1e6357025de646f4888d3abefba1163ae1c45"
+}

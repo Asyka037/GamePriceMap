@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4857560,
+  "fetchedAt": "2026-07-31T03:08:10.199Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4857560&cc=us&l=english",
+  "responseDigest": "sha256:0454f590da6872ee038b0811f9cce4fea3a9625fb39a94c7a21d149e9615bcc6",
+  "payload": {
+    "4857560": {
+      "success": true,
+      "data": {
+        "steam_appid": 4857560,
+        "name": "Scrap Mechanic - Fan Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e9a5908ab9ede79f670dd885d18fa081c44dfab62f953f504cc2af0f4ebefce8"
+}

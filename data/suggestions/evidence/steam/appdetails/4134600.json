@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4134600,
+  "fetchedAt": "2026-07-31T02:53:20.797Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4134600&cc=us&l=english",
+  "responseDigest": "sha256:784975b8475b0ccd53c9b45b98b04e8e7d8d944cdd129f8a68c4d50b35776b52",
+  "payload": {
+    "4134600": {
+      "success": true,
+      "data": {
+        "steam_appid": 4134600,
+        "name": "EverRail",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1349,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 252
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:15b5f7cb13d8029ff4fd481220b1792b148126692b0ba507689ef853d45ac222"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 595740,
+  "fetchedAt": "2026-07-31T04:12:52.090Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=595740&cc=us&l=english",
+  "responseDigest": "sha256:5535398ac56c815115cd24e75d8f80b2270f07786bb72fffeaae3f87d7501457",
+  "payload": {
+    "595740": {
+      "success": true,
+      "data": {
+        "steam_appid": 595740,
+        "name": "SAMURAI WARRIORS: Spirit of Sanada",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 23, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1999,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 586
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d9cb5581828a14b1c70a002f2504a06da4d75c111d94b62b93d7407814476d72"
+}

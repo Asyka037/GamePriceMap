@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 303310,
+  "fetchedAt": "2026-07-31T03:14:00.435Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=303310&cc=us&l=english",
+  "responseDigest": "sha256:19daf174ac82f6138326840ac9ac89c285b0ced42964d09a4b0f1494b0e10c4e",
+  "payload": {
+    "303310": {
+      "success": true,
+      "data": {
+        "steam_appid": 303310,
+        "name": "The House in Fata Morgana",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 13, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5890
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2869d9a2ff82a0b060885c12babdf3f3877145fb58fb195ee1f6bffe2bba5146"
+}

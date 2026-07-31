@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1946700,
+  "fetchedAt": "2026-07-31T03:39:00.490Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1946700&cc=us&l=english",
+  "responseDigest": "sha256:c7f1b96e5e678eec7a4deadde0da757d1d0beada160335faa7894dd4184c55be",
+  "payload": {
+    "1946700": {
+      "success": true,
+      "data": {
+        "steam_appid": 1946700,
+        "name": "Layers of Fear",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 15, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1199,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 1372
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ecf996721300de46f7f5673fbdc0c6d5427c67ee4db96474c779ed75ccba9275"
+}

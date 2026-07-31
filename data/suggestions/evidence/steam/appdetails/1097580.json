@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1097580,
+  "fetchedAt": "2026-07-31T02:58:22.090Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1097580&cc=us&l=english",
+  "responseDigest": "sha256:f041acde26137a7658ab8e2b722255440c3595356531c7ceedef87b6e1d47f3b",
+  "payload": {
+    "1097580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1097580,
+        "name": "CUSTOM ORDER MAID 3D2 It's a Night Magic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 30, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4000,
+          "final": 3160,
+          "discount_percent": 21
+        },
+        "recommendations": {
+          "total": 1432
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d542acd08e355620a7af123186e2c68620ee5f3b51d716392dd2c028cd195431"
+}

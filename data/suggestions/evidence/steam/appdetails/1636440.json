@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1636440,
+  "fetchedAt": "2026-07-31T02:49:30.253Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1636440&cc=us&l=english",
+  "responseDigest": "sha256:1b2983a00f13804282ffe822c3e00dd378ac6b86bde109fa58b562c364552b32",
+  "payload": {
+    "1636440": {
+      "success": true,
+      "data": {
+        "steam_appid": 1636440,
+        "name": "SILENT HILL: Townfall",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0bae4ad3bfe1fe08b521518ed2156f1bd20162d2ee8bf86c5d6c70f0fb083f84"
+}

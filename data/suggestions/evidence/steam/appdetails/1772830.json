@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1772830,
+  "fetchedAt": "2026-07-31T03:57:41.476Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1772830&cc=us&l=english",
+  "responseDigest": "sha256:8d49f82dd927eea653c6556e41bb8c285fb2a7ceab9d5213154eae2a4e6e79fe",
+  "payload": {
+    "1772830": {
+      "success": true,
+      "data": {
+        "steam_appid": 1772830,
+        "name": "Rusted Moss",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 11, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 799,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 1525
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:be51bf53e35be9dd6daa7abca781685d2d094046f2247e86882c7be84a5ce520"
+}

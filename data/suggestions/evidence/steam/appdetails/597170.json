@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 597170,
+  "fetchedAt": "2026-07-31T02:54:13.258Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=597170&cc=us&l=english",
+  "responseDigest": "sha256:439d45b70d2b9a6fd0694222f930cae406f8996466c140a3aae606a435a0b89c",
+  "payload": {
+    "597170": {
+      "success": true,
+      "data": {
+        "steam_appid": 597170,
+        "name": "Clone Drone in the Danger Zone",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 35650
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:11967ec057b6e9bab0f394c6283473d9b5b0f083deafd2d4e259ee027dd62962"
+}

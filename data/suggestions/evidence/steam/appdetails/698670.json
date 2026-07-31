@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 698670,
+  "fetchedAt": "2026-07-31T03:30:30.343Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=698670&cc=us&l=english",
+  "responseDigest": "sha256:9ad6ceaa591edd558a19dec07630753f65f85314274e9ad171514c3b4954828b",
+  "payload": {
+    "698670": {
+      "success": true,
+      "data": {
+        "steam_appid": 698670,
+        "name": "Scorn",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 14, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1249,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 14277
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c8c6038e7431ab248afd7d40927f2429cbfb98bbc1796b6a5f3d144f8280a01d"
+}

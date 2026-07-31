@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 658260,
+  "fetchedAt": "2026-07-31T03:55:20.693Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=658260&cc=us&l=english",
+  "responseDigest": "sha256:24a795452cf1a2028aaee3a76cdf54c6b8275e4d5c017fc12285cabe8773fc66",
+  "payload": {
+    "658260": {
+      "success": true,
+      "data": {
+        "steam_appid": 658260,
+        "name": "BLUE REFLECTION",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1266
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0a2fee60e56960c4a46f6da4349b1f300de7779424677afc56674fbc90e43df1"
+}

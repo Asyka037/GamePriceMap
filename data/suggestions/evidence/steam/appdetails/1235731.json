@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1235731,
+  "fetchedAt": "2026-07-31T02:46:14.998Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1235731&cc=us&l=english",
+  "responseDigest": "sha256:0a1ed3640b86ca718065a38e610cf1f2eb08eee82cab41005cb65607cc7b2ed5",
+  "payload": {
+    "1235731": {
+      "success": true,
+      "data": {
+        "steam_appid": 1235731,
+        "name": "The Sims™ 4 City Living",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 298
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d5432c45bea83c6f4a15f2a243ca171f6d0876cac81e78cce5951c969c3e112f"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 346900,
+  "fetchedAt": "2026-07-31T03:21:41.469Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=346900&cc=us&l=english",
+  "responseDigest": "sha256:fc97588f9358df3a45ec3b38433e530f98caa32ddbdadd6bffd348f0dc02c042",
+  "payload": {
+    "346900": {
+      "success": true,
+      "data": {
+        "steam_appid": 346900,
+        "name": "AdVenture Capitalist",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 30, 2015"
+        },
+        "recommendations": {
+          "total": 505
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e25f81e6ac0a54aabd35007496957bf0b68dabb9591ce445215ad44ff520bf36"
+}

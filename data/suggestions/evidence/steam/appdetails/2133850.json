@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2133850,
+  "fetchedAt": "2026-07-31T03:18:52.021Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2133850&cc=us&l=english",
+  "responseDigest": "sha256:184f3a70b7c96bcb73cae75b411c19db2de119df58694e435176dd131084a286",
+  "payload": {
+    "2133850": {
+      "success": true,
+      "data": {
+        "steam_appid": 2133850,
+        "name": "Broken Reality 2000",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1349,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 122
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e290e6a61e5a460fe4ee1337a0a03ab8f6c63209ceda7cffc5110e9818de6c28"
+}

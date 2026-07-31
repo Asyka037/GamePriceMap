@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1209470,
+  "fetchedAt": "2026-07-31T02:49:58.157Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1209470&cc=us&l=english",
+  "responseDigest": "sha256:524252bf73b9344fe22d3dcaccf8cbd25e962080e1f76a1da457fa548b7c52ad",
+  "payload": {
+    "1209470": {
+      "success": true,
+      "data": {
+        "steam_appid": 1209470,
+        "name": "American Truck Simulator - Idaho",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 599
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0abc35f3034b912400af535acade34130f8db8f2c28192a66e80f52890150363"
+}

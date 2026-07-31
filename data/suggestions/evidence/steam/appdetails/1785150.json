@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1785150,
+  "fetchedAt": "2026-07-31T03:21:35.332Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1785150&cc=us&l=english",
+  "responseDigest": "sha256:bba1d4fc292e740d313b04132022a27bd84a07e5f5d1f23da9f4a2388eb1dd89",
+  "payload": {
+    "1785150": {
+      "success": true,
+      "data": {
+        "steam_appid": 1785150,
+        "name": "Friends vs Friends",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 249,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 10694
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4bee3546037ee3d9a44138938f330a35e513d06d07c5ee6768681f8d2db4fdf7"
+}

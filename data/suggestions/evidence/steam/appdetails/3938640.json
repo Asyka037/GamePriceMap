@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3938640,
+  "fetchedAt": "2026-07-31T03:31:03.503Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3938640&cc=us&l=english",
+  "responseDigest": "sha256:6d24b2c211761f64a08172f1e37b5b64edb1c92b338740d057eb137a0b72f957",
+  "payload": {
+    "3938640": {
+      "success": true,
+      "data": {
+        "steam_appid": 3938640,
+        "name": "Ugoku Sushi Bar",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 974,
+          "discount_percent": 25
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2a7cba1596beb0af84c42d414ec192efa3fc0b897136bc8e5b7cb161d24024cb"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1485590,
+  "fetchedAt": "2026-07-31T03:52:39.039Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1485590&cc=us&l=english",
+  "responseDigest": "sha256:ca2ef0ec7c7378e5745c30abcc2efff3ad5fe78533f46ac7a2dec66470cd9185",
+  "payload": {
+    "1485590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1485590,
+        "name": "ENDLESS Dungeon™ - Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 19, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 749,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 2944
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fa5fb634b6fbc1e19b82fbed89f5e435722db11b26da076011afc0286ccb2726"
+}

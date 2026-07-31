@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2489330,
+  "fetchedAt": "2026-07-31T03:06:51.348Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2489330&cc=us&l=english",
+  "responseDigest": "sha256:7b7b2599a7497d20e49c3e55125d9c4004eca53229c7f27ab3f213bc1ed49501",
+  "payload": {
+    "2489330": {
+      "success": true,
+      "data": {
+        "steam_appid": 2489330,
+        "name": "Whiskerwood",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2836
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6737288ff00c6c19fcc1da37bcf01554e5da588282524719926437244f13e7ad"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 55150,
+  "fetchedAt": "2026-07-31T03:04:00.036Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=55150&cc=us&l=english",
+  "responseDigest": "sha256:8a3057a1f93d8fd3386949f926e1e4b5b1e3c274a77d4f97ff5631db664bc8bf",
+  "payload": {
+    "55150": {
+      "success": true,
+      "data": {
+        "steam_appid": 55150,
+        "name": "Warhammer 40,000: Space Marine - Anniversary Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 18259
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8ec093e4862d4f01c29f1bf15fd33fc75ea0926958e1aa651366915f41c1e8d4"
+}

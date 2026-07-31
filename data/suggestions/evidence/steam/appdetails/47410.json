@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 47410,
+  "fetchedAt": "2026-07-31T03:20:06.126Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=47410&cc=us&l=english",
+  "responseDigest": "sha256:c60afa4808740174b4995f55a45d572eda7598a78124eeb76b6d41c05baae243",
+  "payload": {
+    "47410": {
+      "success": true,
+      "data": {
+        "steam_appid": 47410,
+        "name": "Stronghold Kingdoms",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 27, 2012"
+        },
+        "recommendations": {
+          "total": 278
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:40a778ac1c473fb5ba5fea8612b649a7b9556d2a7abc62a98e8dc22a19e116e4"
+}

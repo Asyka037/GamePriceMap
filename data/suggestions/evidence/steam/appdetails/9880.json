@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 9880,
+  "fetchedAt": "2026-07-31T03:57:34.937Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=9880&cc=us&l=english",
+  "responseDigest": "sha256:82ca8a558789ba5991ed69d53098411b789d5b46e66b594a0bacf230e903d997",
+  "payload": {
+    "9880": {
+      "success": true,
+      "data": {
+        "steam_appid": 9880,
+        "name": "Champions Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 14, 2011"
+        },
+        "recommendations": {
+          "total": 197
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f04a3a47dec4d1029da9cd77962ae26a78275ce9b75fd9365294970375ce9de0"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2230110,
+  "fetchedAt": "2026-07-31T02:53:43.510Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2230110&cc=us&l=english",
+  "responseDigest": "sha256:a0393f452574b754af748e46b2686d1f7a7a6ab05e56a025952e529b02b0dbaf",
+  "payload": {
+    "2230110": {
+      "success": true,
+      "data": {
+        "steam_appid": 2230110,
+        "name": "Fae Farm",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 8, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2710
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c4c3482f45a7f5e130c6fa1e5dd0c5f15007738ace605762ccd8574ad9d861a4"
+}

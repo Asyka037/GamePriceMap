@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2396980,
+  "fetchedAt": "2026-07-31T03:05:51.873Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2396980&cc=us&l=english",
+  "responseDigest": "sha256:c3ad4c6c5f0cf1f9502372082d54b0c405581ade469c840d8902d268220d40b9",
+  "payload": {
+    "2396980": {
+      "success": true,
+      "data": {
+        "steam_appid": 2396980,
+        "name": "Fate/stay night REMASTERED",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4149
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a2e9840c3c453a60ece4a1630061702671e27569f3e5b4cf991ca995a0479656"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 245170,
+  "fetchedAt": "2026-07-31T03:15:27.667Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=245170&cc=us&l=english",
+  "responseDigest": "sha256:d5be1ceeebe334c1fa6f261ee012c85405668ec74bf46f977fe3d6db3e3be377",
+  "payload": {
+    "245170": {
+      "success": true,
+      "data": {
+        "steam_appid": 245170,
+        "name": "Skullgirls 2nd Encore",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 22, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29153
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b9c3d4c886e0c8ec22c7c581ea35ecde206df504b896d64b3ffd66a29ba4fab4"
+}

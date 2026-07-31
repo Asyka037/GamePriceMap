@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2782500,
+  "fetchedAt": "2026-07-31T04:01:31.960Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2782500&cc=us&l=english",
+  "responseDigest": "sha256:924a0c7cb0a88c7310043b74a1d9898b06a1ca8f954274b1a1500bc4993b210f",
+  "payload": {
+    "2782500": {
+      "success": true,
+      "data": {
+        "steam_appid": 2782500,
+        "name": "SWORD OF JUSTICE",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 5, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e64b95e99c4f480361c98c53098c8792f2a9e6d0e594910c4f3aca10b7e2635"
+}

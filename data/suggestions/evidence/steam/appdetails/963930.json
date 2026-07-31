@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 963930,
+  "fetchedAt": "2026-07-31T03:10:44.574Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=963930&cc=us&l=english",
+  "responseDigest": "sha256:64c825fd9f30c0efeacd5a6ab3791495c7bd48abd7a157ed91b51b0a9e500143",
+  "payload": {
+    "963930": {
+      "success": true,
+      "data": {
+        "steam_appid": 963930,
+        "name": "Contractors",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 14, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4051
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:798387f5857c6dcc4de7576fefbe66fd425e1d1bbd568e3c7cf7cfc19ceef68c"
+}

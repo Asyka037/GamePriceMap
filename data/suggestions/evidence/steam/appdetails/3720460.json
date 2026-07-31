@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3720460,
+  "fetchedAt": "2026-07-31T03:07:42.194Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3720460&cc=us&l=english",
+  "responseDigest": "sha256:478a610bb110360f49ebd8816f4de7a943811f108e22debb8ad2f94ae521967a",
+  "payload": {
+    "3720460": {
+      "success": true,
+      "data": {
+        "steam_appid": 3720460,
+        "name": "KEEP GAMBLING",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 777,
+          "final": 777,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 901
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:523a202f327c1a6cb5de157f22957e07cda9856e9129d4f0c1d67d2f50a0c084"
+}

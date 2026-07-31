@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1569190,
+  "fetchedAt": "2026-07-31T04:06:15.126Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1569190&cc=us&l=english",
+  "responseDigest": "sha256:fdd4643e46a563dc594958953dda01b627ee0191f424941f437d6d293f3d5771",
+  "payload": {
+    "1569190": {
+      "success": true,
+      "data": {
+        "steam_appid": 1569190,
+        "name": "House Flipper - Pets DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1124,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 421
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:116eccb2886f696e15e064d7ad28ae4ceedb81b34a8278977ed2a1488a9af133"
+}

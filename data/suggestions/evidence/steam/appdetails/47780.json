@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 47780,
+  "fetchedAt": "2026-07-31T04:13:31.569Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=47780&cc=us&l=english",
+  "responseDigest": "sha256:bda1c46e7500a0afe111e7ec67d14543b522bd12c79cf8fa9b27b479a67b7ab3",
+  "payload": {
+    "47780": {
+      "success": true,
+      "data": {
+        "steam_appid": 47780,
+        "name": "Dead Space™ 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 25, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 25511
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f91c308d05069edc52ce49b9014538d3f3bc374a734c248baf799fc29174fbbd"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3219010,
+  "fetchedAt": "2026-07-31T02:47:50.723Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3219010&cc=us&l=english",
+  "responseDigest": "sha256:313fab61fb199db91ea96382d0dfab46519e0889df5bcf71aa1b7b4bac50be8c",
+  "payload": {
+    "3219010": {
+      "success": true,
+      "data": {
+        "steam_appid": 3219010,
+        "name": "Fogpiercer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1499,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 434
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0aad6a0ba1672ce8faf40a617738b32b4e3b4f0c11f07c6bb2cfad12c2aae422"
+}

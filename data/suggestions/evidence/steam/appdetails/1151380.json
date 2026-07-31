@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1151380,
+  "fetchedAt": "2026-07-31T03:31:36.763Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1151380&cc=us&l=english",
+  "responseDigest": "sha256:0771fb2b164c06191c65b77618db49e76d21f01990f34c4706d1fceea6a3e0a1",
+  "payload": {
+    "1151380": {
+      "success": true,
+      "data": {
+        "steam_appid": 1151380,
+        "name": "Cowboy Life Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 26, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1899,
+          "final": 1329,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1071
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ba2f34678ce300960ef33d4c74c89e93af932551a6c82fe79090d487906e9d4a"
+}

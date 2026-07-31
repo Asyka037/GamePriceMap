@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2719740,
+  "fetchedAt": "2026-07-31T03:12:07.367Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2719740&cc=us&l=english",
+  "responseDigest": "sha256:f399c195bb890b0ba449cb41ca7f3df3bab498816674abe17d07feeba09bfcf8",
+  "payload": {
+    "2719740": {
+      "success": true,
+      "data": {
+        "steam_appid": 2719740,
+        "name": "Zero Caliber 2 Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 408
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b470fe9dd33c35f547fbe97ffae7f5a63d8b6c8d857dfc8bb156ee4403ef6a5d"
+}

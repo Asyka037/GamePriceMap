@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3144230,
+  "fetchedAt": "2026-07-31T03:09:13.890Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3144230&cc=us&l=english",
+  "responseDigest": "sha256:614a0fe59b0c4a1b6aa7c63e9f3d9cb2b6b7c1818e3b1a1d46e71619d0fb0a13",
+  "payload": {
+    "3144230": {
+      "success": true,
+      "data": {
+        "steam_appid": 3144230,
+        "name": "Modern Warships",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e2c07abc1f7daaf8345b9d3d1b02fbb2de9fe85fdb100a902e487084259ccdc9"
+}

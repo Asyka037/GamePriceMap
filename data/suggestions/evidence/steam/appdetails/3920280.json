@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3920280,
+  "fetchedAt": "2026-07-31T03:14:40.528Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3920280&cc=us&l=english",
+  "responseDigest": "sha256:8c248f19c61e5a823f56a3d18c27b3d4ccf46aefe1628d5dfad8e3e494055a3c",
+  "payload": {
+    "3920280": {
+      "success": true,
+      "data": {
+        "steam_appid": 3920280,
+        "name": "Dispatch - Digital Deluxe Edition Upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1099,
+          "final": 879,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 277
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1a9d88a7c5acffb26aabf85b43cae333457f50114fdbb63dd6e3e4ebdad82938"
+}

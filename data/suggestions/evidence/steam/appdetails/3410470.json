@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3410470,
+  "fetchedAt": "2026-07-31T02:48:22.188Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3410470&cc=us&l=english",
+  "responseDigest": "sha256:cff0070c123feb7f520d248d545e533ce4d74a51f16f52b42c30f914d86cc457",
+  "payload": {
+    "3410470": {
+      "success": true,
+      "data": {
+        "steam_appid": 3410470,
+        "name": "Street Fighter™ 6 - Year 3 Ultimate Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4799,
+          "final": 3839,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6777d9c3d0a28c1808f8f699ce5fae2d0a3cd8664b3b7e4199839af4e2e2aa85"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 801800,
+  "fetchedAt": "2026-07-31T03:17:31.747Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=801800&cc=us&l=english",
+  "responseDigest": "sha256:744bcbf06a9c4f38f4ff97787947bc7ba3789f4db20560d1af907acf8f73ded0",
+  "payload": {
+    "801800": {
+      "success": true,
+      "data": {
+        "steam_appid": 801800,
+        "name": "Atomfall",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4296
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:308b4b96bff0e85120cd108aade9bdd0445141454f1354aaadae1b8fa04fb954"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2717880,
+  "fetchedAt": "2026-07-31T03:16:42.235Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2717880&cc=us&l=english",
+  "responseDigest": "sha256:844bc0055152c3608fd079cf09a9f6ef52b9fc716392556f24d11a0fe93d95fc",
+  "payload": {
+    "2717880": {
+      "success": true,
+      "data": {
+        "steam_appid": 2717880,
+        "name": "The Rogue Prince of Persia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2269
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4ec1df9d9fb22fb783cf4f66e3ac7def5866747c6cad1490ea1dcb049a0d91ce"
+}

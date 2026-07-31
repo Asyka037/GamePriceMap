@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 731040,
+  "fetchedAt": "2026-07-31T02:55:59.603Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=731040&cc=us&l=english",
+  "responseDigest": "sha256:c4f9dcc14ebb59a3c2b81f7935d651a20cb05b772e92b03b93443261edcbaeec",
+  "payload": {
+    "731040": {
+      "success": true,
+      "data": {
+        "steam_appid": 731040,
+        "name": "The Invincible",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1049,
+          "discount_percent": 65
+        },
+        "recommendations": {
+          "total": 9054
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:80a446a5839d377b01e0bff05cb8d2a2baedd722bf15af9bb55c7a9319ad5bc3"
+}

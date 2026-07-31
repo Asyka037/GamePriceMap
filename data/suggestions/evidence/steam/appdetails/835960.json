@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 835960,
+  "fetchedAt": "2026-07-31T03:02:26.699Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=835960&cc=us&l=english",
+  "responseDigest": "sha256:130b377686399cbc257392c5de1bf5d3fcafc903b02d8d3da94403d31327fee4",
+  "payload": {
+    "835960": {
+      "success": true,
+      "data": {
+        "steam_appid": 835960,
+        "name": "The Talos Principle 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12358
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:17a77ef4a2ba55b37f8b56d5f9774cd736e3beac703d85c7dc0329ff9c9535df"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1904392,
+  "fetchedAt": "2026-07-31T02:55:02.190Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1904392&cc=us&l=english",
+  "responseDigest": "sha256:4d8a085eac4e699d8cfaca43528521f92d0889f123dca1476f29f5c3afdc6702",
+  "payload": {
+    "1904392": {
+      "success": true,
+      "data": {
+        "steam_appid": 1904392,
+        "name": "The Sims™ 4 Growing Together Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 16, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 139
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0f4015d7ca34423862c101ea95683e0f3af468c897ebff5e94be96235950db43"
+}

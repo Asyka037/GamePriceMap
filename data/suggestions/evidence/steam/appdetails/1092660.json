@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1092660,
+  "fetchedAt": "2026-07-31T03:21:07.127Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1092660&cc=us&l=english",
+  "responseDigest": "sha256:9aedc788280a2e4df80ee2c02845b1ff484aeaf5abf90cb20d4c531e54443f0c",
+  "payload": {
+    "1092660": {
+      "success": true,
+      "data": {
+        "steam_appid": 1092660,
+        "name": "Blair Witch",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 30, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 599,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 6380
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:767de03583ba1ae1d8371396277ef48358c519413af2fad1b1eece3a8a233dc2"
+}

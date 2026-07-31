@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 924970,
+  "fetchedAt": "2026-07-31T03:22:24.453Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=924970&cc=us&l=english",
+  "responseDigest": "sha256:8e39f18cc71650fbf78d084ccf8161581751b46b3ae3d515a06b172f020d6c82",
+  "payload": {
+    "924970": {
+      "success": true,
+      "data": {
+        "steam_appid": 924970,
+        "name": "Back 4 Blood",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 12, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 55005
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9ebf39d29a53da04eb07bcde16686f71eee5cdee2f577c9993fc99c91d11d7ce"
+}

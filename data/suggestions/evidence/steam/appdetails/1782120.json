@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1782120,
+  "fetchedAt": "2026-07-31T03:14:34.674Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1782120&cc=us&l=english",
+  "responseDigest": "sha256:40dd3f26950251d811c53b0fb49a128a48f6d60184b268b1607ec196de10f624",
+  "payload": {
+    "1782120": {
+      "success": true,
+      "data": {
+        "steam_appid": 1782120,
+        "name": "ZERO Sievert",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13964
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b3ac86b035708135d5fe296486b906cfabaed915c26120f8cc67f14c150a7c91"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1277400,
+  "fetchedAt": "2026-07-31T03:14:10.826Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1277400&cc=us&l=english",
+  "responseDigest": "sha256:8fe315408e16379868bab1894412f3191dd789a363a6f9b776389052bef4bc70",
+  "payload": {
+    "1277400": {
+      "success": true,
+      "data": {
+        "steam_appid": 1277400,
+        "name": "Monster Hunter Stories 2: Wings of Ruin",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 8, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11812
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9d8c78fa0c897598de9dec3baa2d749606b433dd9be5bcf76f3edd33854ae81"
+}

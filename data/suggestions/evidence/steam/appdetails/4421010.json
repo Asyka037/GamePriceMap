@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4421010,
+  "fetchedAt": "2026-07-31T03:47:58.651Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4421010&cc=us&l=english",
+  "responseDigest": "sha256:e37deae77adf3b79658dfd456345685ce7d3cc355f0ff9f8c4646792c1945ee2",
+  "payload": {
+    "4421010": {
+      "success": true,
+      "data": {
+        "steam_appid": 4421010,
+        "name": "Bills Must Be Paid",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 489,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 890
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:baf0e467b290700997a6de50f42e33a41d84f7b052e9b78e32db753df1e47d26"
+}

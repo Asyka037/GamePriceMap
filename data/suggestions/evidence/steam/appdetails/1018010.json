@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1018010,
+  "fetchedAt": "2026-07-31T02:57:23.443Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1018010&cc=us&l=english",
+  "responseDigest": "sha256:dc1be4da7470fc1368cf9c66f977b31b080f25923ec9dbf85bc6a4c2a5d44afe",
+  "payload": {
+    "1018010": {
+      "success": true,
+      "data": {
+        "steam_appid": 1018010,
+        "name": "Castlevania Anniversary Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 16, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1781
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e64564babca122cf4c61dcb0fa2d9529d7d3ff5f6f26dc372d1c0d9ade92968c"
+}

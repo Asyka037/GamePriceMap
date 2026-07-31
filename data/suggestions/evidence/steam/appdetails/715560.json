@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 715560,
+  "fetchedAt": "2026-07-31T03:34:41.179Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=715560&cc=us&l=english",
+  "responseDigest": "sha256:7ce2d19b74f2e2a47b9a441f28263d7f1212a53dc309a82c84afafbe686bf6ab",
+  "payload": {
+    "715560": {
+      "success": true,
+      "data": {
+        "steam_appid": 715560,
+        "name": "Eastshade",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 13, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 624,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 5129
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8a075a3093fc1aaed011e8c19dfd2c8015310a824eb54a612b2bf928e3be7dfa"
+}

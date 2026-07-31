@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4791980,
+  "fetchedAt": "2026-07-31T03:49:31.041Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4791980&cc=us&l=english",
+  "responseDigest": "sha256:9c688bd0b73e91c045154661800f0434bdfa6efc2f2ea5600cf144ebbadd65ff",
+  "payload": {
+    "4791980": {
+      "success": true,
+      "data": {
+        "steam_appid": 4791980,
+        "name": "SCREAM NOTE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 495,
+          "discount_percent": 38
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fc25aa993cfd686e2052dbb2668a4df7e32023b37ccde0a3febd66f94f844bb5"
+}

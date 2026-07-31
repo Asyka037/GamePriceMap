@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3365030,
+  "fetchedAt": "2026-07-31T03:20:13.519Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3365030&cc=us&l=english",
+  "responseDigest": "sha256:b564c64723ac469c078f068781c2911d6dd755d10b17ae740a8344d05dd5c156",
+  "payload": {
+    "3365030": {
+      "success": true,
+      "data": {
+        "steam_appid": 3365030,
+        "name": "Atelier Ryza: Ever Darkness & the Secret Hideout DX",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2599,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 238
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0d90c558c3a151c77bad2332b858a603c328fa32ae7257e4437a0433fbcad46d"
+}

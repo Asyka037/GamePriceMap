@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2414270,
+  "fetchedAt": "2026-07-31T02:58:44.845Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2414270&cc=us&l=english",
+  "responseDigest": "sha256:aa944eb71311f160f4ffdcb30ec7146f5b007a424071b2c1b9cdcbb5c5bea75c",
+  "payload": {
+    "2414270": {
+      "success": true,
+      "data": {
+        "steam_appid": 2414270,
+        "name": "Sunderfolk",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1835
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:60074d83336ab77a310344caf87284d14ddd887f086358c3ec716b13be63ba94"
+}

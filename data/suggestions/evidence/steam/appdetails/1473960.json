@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1473960,
+  "fetchedAt": "2026-07-31T02:51:46.346Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1473960&cc=us&l=english",
+  "responseDigest": "sha256:94fe5f74e8bab465f626b1b29b715b209105c753b303f364d89fd7ce83ee062c",
+  "payload": {
+    "1473960": {
+      "success": true,
+      "data": {
+        "steam_appid": 1473960,
+        "name": "Wreck Runners",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5710bfab9df634433c0eb10f89794240ad60347028b2749a80ec83f58b9f6e2e"
+}

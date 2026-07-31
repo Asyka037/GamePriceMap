@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2218970,
+  "fetchedAt": "2026-07-31T03:55:14.108Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2218970&cc=us&l=english",
+  "responseDigest": "sha256:0e45c1fba9bd4bacf9da1efce58ea4670ae6d4be812ed5b1d55103b70d83f935",
+  "payload": {
+    "2218970": {
+      "success": true,
+      "data": {
+        "steam_appid": 2218970,
+        "name": "Plains of Pain",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 17, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 842
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2ba98b9c970fbd7b11bd4339767505c6ec3190ed86f3ab04fa8e0ada07eca29a"
+}

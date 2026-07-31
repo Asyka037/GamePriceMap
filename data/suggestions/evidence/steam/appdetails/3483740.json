@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3483740,
+  "fetchedAt": "2026-07-31T02:45:45.681Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3483740&cc=us&l=english",
+  "responseDigest": "sha256:e7206fc11f17a21d313041e446b7569f8a2ae1efb3e6160368c1ae51d303d5a8",
+  "payload": {
+    "3483740": {
+      "success": true,
+      "data": {
+        "steam_appid": 3483740,
+        "name": "Cast n Chill",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7848
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0f3fbef7a6af6b6de16cc4d620f647b508c97c11d3a3a2800f27ae6cba22ef9b"
+}

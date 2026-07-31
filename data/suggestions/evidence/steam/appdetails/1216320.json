@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1216320,
+  "fetchedAt": "2026-07-31T02:49:04.923Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1216320&cc=us&l=english",
+  "responseDigest": "sha256:356d44106bc5868c5347106b97346fceb9f9ca59f1e43476e8e836b85d6a72f2",
+  "payload": {
+    "1216320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1216320,
+        "name": "Shieldwall",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 18, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7020
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:75176cb37bcfa8fdc6e298b5dc4a591ed38aa3af61819de60041a56dcf7ee13c"
+}

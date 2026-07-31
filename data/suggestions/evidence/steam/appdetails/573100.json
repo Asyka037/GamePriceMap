@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 573100,
+  "fetchedAt": "2026-07-31T03:41:58.068Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=573100&cc=us&l=english",
+  "responseDigest": "sha256:eb0bc9572d462d2fa09563af26c05dfab152617fd1eb999bafb0c4ca8b3ff214",
+  "payload": {
+    "573100": {
+      "success": true,
+      "data": {
+        "steam_appid": 573100,
+        "name": "Battlefleet Gothic: Armada 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 24, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9647
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d66694a4f295c53045868eecdc0232310f3c5770cef1db2abc7926b242a0e791"
+}

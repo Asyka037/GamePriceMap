@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1952920,
+  "fetchedAt": "2026-07-31T02:49:21.286Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1952920&cc=us&l=english",
+  "responseDigest": "sha256:1c092cfe3f009ede8240e9bace4feab6ef86a1e570d6d4ab4542a20a835efa4c",
+  "payload": {
+    "1952920": {
+      "success": true,
+      "data": {
+        "steam_appid": 1952920,
+        "name": "Strikers Club",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:433bde59491b05cee61701adbf909ce1ceeae5408c63283f9f29208a17d8358c"
+}

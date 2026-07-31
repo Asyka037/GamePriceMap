@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1975580,
+  "fetchedAt": "2026-07-31T04:10:40.543Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1975580&cc=us&l=english",
+  "responseDigest": "sha256:6cef73874f94a56f1618cfabe283a8de70f3e5dededc92e1fa691ce161959305",
+  "payload": {
+    "1975580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1975580,
+        "name": "Wild Woods",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1707
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f183f8eb7192d6133138f5f83d4f467e5de90e1c0bdbfce020532ec1964b6101"
+}

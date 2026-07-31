@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2067050,
+  "fetchedAt": "2026-07-31T03:15:42.348Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2067050&cc=us&l=english",
+  "responseDigest": "sha256:920c78af5a403ded1ee57f3adf12ae7927e84051ac32241d5ea1a87d7f22752a",
+  "payload": {
+    "2067050": {
+      "success": true,
+      "data": {
+        "steam_appid": 2067050,
+        "name": "Squirrel with a Gun",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 29, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3067
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0c49730e5240a78b1f024b6a9c48330c709f547c49caba32bf3ad2bb614feb5f"
+}

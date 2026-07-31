@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3102370,
+  "fetchedAt": "2026-07-31T03:57:18.276Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3102370&cc=us&l=english",
+  "responseDigest": "sha256:d985ba490998c2adfe2f2fdd0dffa34725ec61045a3b85d1ab136b54e136d91a",
+  "payload": {
+    "3102370": {
+      "success": true,
+      "data": {
+        "steam_appid": 3102370,
+        "name": "Fixer Undercover",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:47d008dd5d6853bc29a55e6494f8c1b7195ff7f732f1dd0982c0aaf09e8d39df"
+}

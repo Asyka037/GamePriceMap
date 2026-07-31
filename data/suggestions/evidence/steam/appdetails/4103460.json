@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4103460,
+  "fetchedAt": "2026-07-31T03:14:04.890Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4103460&cc=us&l=english",
+  "responseDigest": "sha256:95194e4baca9a0176ecb81a32fbf04ef854a1efab574bb27ef007640063b5844",
+  "payload": {
+    "4103460": {
+      "success": true,
+      "data": {
+        "steam_appid": 4103460,
+        "name": "Guild Wars® Bonus Mission Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:408b2090788d718ac50cf236a8307bb0564aaa10d50ee6c84899b06028bbdbc7"
+}

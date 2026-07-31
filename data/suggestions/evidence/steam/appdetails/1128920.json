@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1128920,
+  "fetchedAt": "2026-07-31T03:00:51.502Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1128920&cc=us&l=english",
+  "responseDigest": "sha256:aaf96dddb54a73e854101bb64d1ef4a9f0ebc9d91718b274c59cf5b8dc1555a3",
+  "payload": {
+    "1128920": {
+      "success": true,
+      "data": {
+        "steam_appid": 1128920,
+        "name": "EVERSPACE™ 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 6, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11899
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1ace46556a3cb8c04077ea77e76ba046eb4d8371d15ef41b512ae89c7d7dcadb"
+}

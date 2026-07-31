@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1868360,
+  "fetchedAt": "2026-07-31T03:57:01.822Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1868360&cc=us&l=english",
+  "responseDigest": "sha256:9bee31c0848c8f9620013787ee0a3ab2c7eda9cf10611a2fdc38f78a86022f64",
+  "payload": {
+    "1868360": {
+      "success": true,
+      "data": {
+        "steam_appid": 1868360,
+        "name": "Deep Sleep: Labyrinth of the Forsaken",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1299,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 566
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:50693586418497c7d30fdc420c0eeca4f1d4a29ec2f8b33354a99965c73b1634"
+}

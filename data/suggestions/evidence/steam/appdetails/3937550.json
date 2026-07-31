@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3937550,
+  "fetchedAt": "2026-07-31T04:09:34.262Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3937550&cc=us&l=english",
+  "responseDigest": "sha256:28eaa860ee5ca3319977c1d2dcaf9eaf72c2ce9c628df94333a12b687c2daff3",
+  "payload": {
+    "3937550": {
+      "success": true,
+      "data": {
+        "steam_appid": 3937550,
+        "name": "Yakuza Kiwami 3 & Dark Ties",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2107
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:10d9bc0228a21456b0ebfbf52596820b31aad5ff3497add53134c35d225310fb"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2255370,
+  "fetchedAt": "2026-07-31T02:59:14.639Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2255370&cc=us&l=english",
+  "responseDigest": "sha256:e59f442a820f9cf907b019f7ccdc0b5f154dc9d1382fe0bb5ffea2a8752c6baf",
+  "payload": {
+    "2255370": {
+      "success": true,
+      "data": {
+        "steam_appid": 2255370,
+        "name": "Directive 8020",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1282
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0046c87b8affb419da7928b8d292b0cf2ad25c37e1aa3a3f2d37a057d7b810d7"
+}

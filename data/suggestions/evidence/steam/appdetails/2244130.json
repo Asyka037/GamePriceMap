@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2244130,
+  "fetchedAt": "2026-07-31T03:11:25.895Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2244130&cc=us&l=english",
+  "responseDigest": "sha256:725a7b795dfec0372234f321752199c0334660a7733e0130083ded06a5f15635",
+  "payload": {
+    "2244130": {
+      "success": true,
+      "data": {
+        "steam_appid": 2244130,
+        "name": "Ratopia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2200,
+          "final": 1320,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 4538
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:92245fffc4a00344e2d864715f3ae70f64ce084075a6c072bcc3c7359a78cf4d"
+}

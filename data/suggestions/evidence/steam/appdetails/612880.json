@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 612880,
+  "fetchedAt": "2026-07-31T03:17:04.769Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=612880&cc=us&l=english",
+  "responseDigest": "sha256:7321a1a3f6bcd134935b1a6ffaa7e69cd12ded017a58b0cef8cedf7a708fa931",
+  "payload": {
+    "612880": {
+      "success": true,
+      "data": {
+        "steam_appid": 612880,
+        "name": "Wolfenstein II: The New Colossus",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 26, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 599,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 34780
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0389e0dcd53a74f570663cc2478b096102c7ddb99835ad1f94eb134623e8a109"
+}

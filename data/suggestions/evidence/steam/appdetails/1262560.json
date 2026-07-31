@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1262560,
+  "fetchedAt": "2026-07-31T03:42:27.621Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1262560&cc=us&l=english",
+  "responseDigest": "sha256:2413470b0a71e4d93ea7a6669a76d9a4f95c60e7786ad740f207b6d147a0ec06",
+  "payload": {
+    "1262560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1262560,
+        "name": "Need for Speed™ Most Wanted",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 199,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 23976
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b623d32cd454504ad3c932a61f1dd6d002d3dc4e866dce79ced51a647ddb5495"
+}

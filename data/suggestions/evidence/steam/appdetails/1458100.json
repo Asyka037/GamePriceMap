@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1458100,
+  "fetchedAt": "2026-07-31T03:08:25.061Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1458100&cc=us&l=english",
+  "responseDigest": "sha256:c759fc72d0fadf56ea0e8e35341b1b33e0c3c98a595dbd3081c8955fb218f805",
+  "payload": {
+    "1458100": {
+      "success": true,
+      "data": {
+        "steam_appid": 1458100,
+        "name": "Cozy Grove",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 7, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7460
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d641cbabf4c084224eeea2ff5ee7bb730ce804c90bd78a742f9f849d88fdf7e2"
+}

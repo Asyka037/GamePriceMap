@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3014320,
+  "fetchedAt": "2026-07-31T02:52:10.657Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3014320&cc=us&l=english",
+  "responseDigest": "sha256:eb51033c7ca613be390008219377c8758b29b5a8710efe86321feda8928b7b24",
+  "payload": {
+    "3014320": {
+      "success": true,
+      "data": {
+        "steam_appid": 3014320,
+        "name": "OCTOPATH TRAVELER 0",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 3249,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 2754
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:77c33d26f931ee65b8cf7c55e96e0f18f62551a62e99c96f086a5f5fd520ae3d"
+}

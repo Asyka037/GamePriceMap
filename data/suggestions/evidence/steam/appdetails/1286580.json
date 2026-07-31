@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1286580,
+  "fetchedAt": "2026-07-31T03:22:06.563Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1286580&cc=us&l=english",
+  "responseDigest": "sha256:c62e261c01bee70239b877eab81c2966b79df6292f0ec7f21b926f18e86ad46a",
+  "payload": {
+    "1286580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1286580,
+        "name": "Ship of Fools",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 22, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 4940
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f51a7555916e93f858db154c8b704bbc03c01090d1b1d84cd4eb52fa6eeab092"
+}

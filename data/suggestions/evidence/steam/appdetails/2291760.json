@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2291760,
+  "fetchedAt": "2026-07-31T04:05:58.732Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2291760&cc=us&l=english",
+  "responseDigest": "sha256:5b4e89426d883c7e82c4ee25bd29cfec7657ca1c1304fec8263a43b8a9415bef",
+  "payload": {
+    "2291760": {
+      "success": true,
+      "data": {
+        "steam_appid": 2291760,
+        "name": "Papa's Freezeria Deluxe",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 31, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12115
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c9a0e7e3754e4b153284a14e85e7b50fde9e5d37d1279ba3a34281cc18ed018e"
+}

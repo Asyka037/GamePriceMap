@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2624870,
+  "fetchedAt": "2026-07-31T02:45:17.154Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2624870&cc=us&l=english",
+  "responseDigest": "sha256:0525aa6aae313fd9db8688cf0d531c74aa0e3c2f646a432c7d7a2007a44a64d3",
+  "payload": {
+    "2624870": {
+      "success": true,
+      "data": {
+        "steam_appid": 2624870,
+        "name": "Life is Strange: Reunion",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4291
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e8272f4937f89a00fa98aabad5ad866851da41323cc4206f06b99256b3bba9a9"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1265920,
+  "fetchedAt": "2026-07-31T02:57:46.792Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1265920&cc=us&l=english",
+  "responseDigest": "sha256:cf6f0acd53ed56ef0a85d4c9cb31e7d91d1a23c8361999b4dead6b35e8aa1617",
+  "payload": {
+    "1265920": {
+      "success": true,
+      "data": {
+        "steam_appid": 1265920,
+        "name": "Life is Strange Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 1, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8765
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d3001b048b27bbccea92c26fabd2bdec2b565efa7dd13b4c02e571b96ddb6163"
+}

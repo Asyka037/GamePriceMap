@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2689120,
+  "fetchedAt": "2026-07-31T02:54:48.910Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2689120&cc=us&l=english",
+  "responseDigest": "sha256:5c5613e2c111ccfca957b755dbcea9393c28e91e1f364f52dc3f3eefca8eb747",
+  "payload": {
+    "2689120": {
+      "success": true,
+      "data": {
+        "steam_appid": 2689120,
+        "name": "Gladio Mori",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 964
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d1b9cc712fea774fd9ca7e98ece4d2fc031b0421f22f31bcaabd2b09f942ed0"
+}

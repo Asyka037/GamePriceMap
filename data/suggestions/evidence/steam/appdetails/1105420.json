@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1105420,
+  "fetchedAt": "2026-07-31T02:48:23.668Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1105420&cc=us&l=english",
+  "responseDigest": "sha256:76206b6f3bf446e0a084b7c9a8a1df726195e1141b09702dea7454bc1da881c9",
+  "payload": {
+    "1105420": {
+      "success": true,
+      "data": {
+        "steam_appid": 1105420,
+        "name": "Game of Thrones Winter is Coming",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2019"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7936805db6a5cc4444f2a1af2f9ebd32fbdf37a672471bd71bbc54730ef6ec06"
+}

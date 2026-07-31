@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2560240,
+  "fetchedAt": "2026-07-31T03:49:04.727Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2560240&cc=us&l=english",
+  "responseDigest": "sha256:80a69cc1b50c5d42ecb1f7c9334b2c3a0f895d309081c64c55cdd82696224366",
+  "payload": {
+    "2560240": {
+      "success": true,
+      "data": {
+        "steam_appid": 2560240,
+        "name": "Biped 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 5, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 744
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d9f155f4b4b43a88e46f7d97b61bfc724699e6f3c25ad0d9d1cb2c5c0a1abbc0"
+}

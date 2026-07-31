@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2810210,
+  "fetchedAt": "2026-07-31T03:12:14.773Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2810210&cc=us&l=english",
+  "responseDigest": "sha256:52d37b1cd6e22b9bc3a9c0a78038fa827135515e0431cd0709b2511f9678da69",
+  "payload": {
+    "2810210": {
+      "success": true,
+      "data": {
+        "steam_appid": 2810210,
+        "name": "Codename CURE II",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:47e51d2596953f8e282ec78df4dad80607245bfb757b09a72960bd7543c27c1b"
+}

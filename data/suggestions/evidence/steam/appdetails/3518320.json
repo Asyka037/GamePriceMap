@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3518320,
+  "fetchedAt": "2026-07-31T03:08:38.449Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3518320&cc=us&l=english",
+  "responseDigest": "sha256:de6882af13e7033090d5494c4de2114fd5d563596e9eaf71912479bb57fc248c",
+  "payload": {
+    "3518320": {
+      "success": true,
+      "data": {
+        "steam_appid": 3518320,
+        "name": "The Outlast Trials - Sweet Release Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48ab1665577eebf371a36c5f71a7d1dd19c8d1b3b37670168d00e648d29f825f"
+}

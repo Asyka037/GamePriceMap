@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3021540,
+  "fetchedAt": "2026-07-31T03:57:11.690Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3021540&cc=us&l=english",
+  "responseDigest": "sha256:9b54ee3babaa2da4ec7081e2e8365f31d3e0c14539907c50364ab82ac8ec2dab",
+  "payload": {
+    "3021540": {
+      "success": true,
+      "data": {
+        "steam_appid": 3021540,
+        "name": "Starborne: Frontiers",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 14, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6060485899a2859a0cb80aa0cff1d83446538318ad84b72be7f3eeff769faacd"
+}

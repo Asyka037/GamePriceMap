@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1036890,
+  "fetchedAt": "2026-07-31T03:12:04.440Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1036890&cc=us&l=english",
+  "responseDigest": "sha256:dfb9d5a8c75b0d3c6b7566ba09205f73734e6339943f2399b2ed2389d1372419",
+  "payload": {
+    "1036890": {
+      "success": true,
+      "data": {
+        "steam_appid": 1036890,
+        "name": "Shadow Warrior 3: Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 1, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4779
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1e7b3242b25155ddc161127ec59a9109c76f12f08a72b2d67222f192d7a2cdf9"
+}

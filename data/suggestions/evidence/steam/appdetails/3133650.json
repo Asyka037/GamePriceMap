@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3133650,
+  "fetchedAt": "2026-07-31T03:59:40.211Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3133650&cc=us&l=english",
+  "responseDigest": "sha256:ff6f47a438c9286a5652679835173b8c1f1b85b84a76b6d279ecabbcf6e9e07d",
+  "payload": {
+    "3133650": {
+      "success": true,
+      "data": {
+        "steam_appid": 3133650,
+        "name": "Gold Gold Adventure Gold",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 748
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:914f072282f4a44de3454f54bb27a9cc24fd941a9b1353079d265dd9212a5c1d"
+}

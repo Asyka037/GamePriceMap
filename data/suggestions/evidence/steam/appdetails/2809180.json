@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2809180,
+  "fetchedAt": "2026-07-31T03:45:06.842Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2809180&cc=us&l=english",
+  "responseDigest": "sha256:7830c46255ce862004db4ad98b97678e350ddd5e138a4bd96e214245b47273fa",
+  "payload": {
+    "2809180": {
+      "success": true,
+      "data": {
+        "steam_appid": 2809180,
+        "name": "Goat Simulator 3 - Multiverse of Nonsense",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 19, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 318
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fd363b41267f9bd59f0979f2d65bf8c5d06aa70bb6a11d994d0c67feab3f6fc8"
+}

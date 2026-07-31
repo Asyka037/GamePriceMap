@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 972370,
+  "fetchedAt": "2026-07-31T03:47:19.273Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=972370&cc=us&l=english",
+  "responseDigest": "sha256:3b0c6fa954349fa2f31e23ed38e252ad92228200a0175f1bc18389679524c550",
+  "payload": {
+    "972370": {
+      "success": true,
+      "data": {
+        "steam_appid": 972370,
+        "name": "Conan Exiles Enhanced - Seekers of the Dawn Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 137
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:76a101c05adeafb95bb05a7dfd4597f2d11b655e82113b6c3a4cbd7d2f0f50ef"
+}

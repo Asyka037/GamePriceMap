@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1939160,
+  "fetchedAt": "2026-07-31T03:13:39.672Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1939160&cc=us&l=english",
+  "responseDigest": "sha256:2a2a577a01f7909e6e1378138ebda650cd3d3ad13dd3e2aad624f8e1b398f64c",
+  "payload": {
+    "1939160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1939160,
+        "name": "Shadows Over Loathing",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 11, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 2299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3101
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:797b440386f63ee1e63186cd34e8df068c813d63bc79bf03fe65add2b7c6c3c9"
+}

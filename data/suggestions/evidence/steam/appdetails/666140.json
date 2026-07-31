@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 666140,
+  "fetchedAt": "2026-07-31T03:28:34.155Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=666140&cc=us&l=english",
+  "responseDigest": "sha256:339f41e6b55e74f053c8bc3d5948dd089c7187e5bc21751b82691678acc650d1",
+  "payload": {
+    "666140": {
+      "success": true,
+      "data": {
+        "steam_appid": 666140,
+        "name": "My Time at Portia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 15, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 34788
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ad63e5e1011672cf7a8022df978c3953dc8b756ff942e2976d9692ad74f92af3"
+}

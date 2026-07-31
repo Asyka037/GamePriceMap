@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 569480,
+  "fetchedAt": "2026-07-31T03:08:47.297Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=569480&cc=us&l=english",
+  "responseDigest": "sha256:e54e64a8140cf5cf010579cfd249ab63d9bac4918fbf84034a78203a04bda7db",
+  "payload": {
+    "569480": {
+      "success": true,
+      "data": {
+        "steam_appid": 569480,
+        "name": "Kingdoms and Castles",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 30198
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a3c5a5d2ba2a6c1b61e5f2b879918162c317bb8b5dfc514528a620371cd4033c"
+}

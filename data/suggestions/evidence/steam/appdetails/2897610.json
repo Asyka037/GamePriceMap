@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2897610,
+  "fetchedAt": "2026-07-31T04:04:59.538Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2897610&cc=us&l=english",
+  "responseDigest": "sha256:aa74b122111ddef5801c4bda51c9bce684fb6030692bebc6462e76db76a8e111",
+  "payload": {
+    "2897610": {
+      "success": true,
+      "data": {
+        "steam_appid": 2897610,
+        "name": "Egging On",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 749,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 732
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e874bd8ae174a25dcee918e07f7c176437769b23997e47f51d47396178ec254b"
+}

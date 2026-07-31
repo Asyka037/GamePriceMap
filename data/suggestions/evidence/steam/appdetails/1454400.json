@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1454400,
+  "fetchedAt": "2026-07-31T02:45:26.435Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1454400&cc=us&l=english",
+  "responseDigest": "sha256:efb4db42fbdb71d64a872c4f7bfad7023587eb6a83cdbb97584635120a0c658c",
+  "payload": {
+    "1454400": {
+      "success": true,
+      "data": {
+        "steam_appid": 1454400,
+        "name": "Cookie Clicker",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 1, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 87015
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1df78d4d51e565104235ac49aec4dda233a9a33fd9fb10e08acc286b31a49f40"
+}

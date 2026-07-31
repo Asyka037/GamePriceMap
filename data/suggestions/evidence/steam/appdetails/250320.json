@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 250320,
+  "fetchedAt": "2026-07-31T03:46:46.149Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=250320&cc=us&l=english",
+  "responseDigest": "sha256:070f23c233e5fb8fa15ba1f5fc7bc9c4462a8e11e90b2012c36eff1ae9306945",
+  "payload": {
+    "250320": {
+      "success": true,
+      "data": {
+        "steam_appid": 250320,
+        "name": "The Wolf Among Us",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 11, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 32223
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c1bafd9881bb36639de62a59e8fc5b34c46c84acd1b00f56cefe917b8e7e9483"
+}

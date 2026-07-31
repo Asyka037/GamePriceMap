@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4523380,
+  "fetchedAt": "2026-07-31T02:44:05.306Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4523380&cc=us&l=english",
+  "responseDigest": "sha256:789742c124290f5f9ec17f7bb580e385f570fe5de253b69f7ef75be3b92ef24f",
+  "payload": {
+    "4523380": {
+      "success": true,
+      "data": {
+        "steam_appid": 4523380,
+        "name": "Company of Heroes 3: Dare & Destroy",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 263
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1320260970af509f13f18d3c95a24082f93a0260af70135b048bbe126bbe83af"
+}

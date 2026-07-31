@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 201230,
+  "fetchedAt": "2026-07-31T03:02:14.723Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=201230&cc=us&l=english",
+  "responseDigest": "sha256:0be4feac31dc552458bff7480f1ff9421ab3adf0bfdc62e2880b3e99e7337ffc",
+  "payload": {
+    "201230": {
+      "success": true,
+      "data": {
+        "steam_appid": 201230,
+        "name": "EverQuest II",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2011"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f253e6a683d9ceb1879da0f9231bbee1f5d5905045d4b275446139147535734d"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1849250,
+  "fetchedAt": "2026-07-31T04:16:32.605Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1849250&cc=us&l=english",
+  "responseDigest": "sha256:67f451c471455764d52416e27d16e5fa91af7f9f824529576824c0fe4574f3e4",
+  "payload": {
+    "1849250": {
+      "success": true,
+      "data": {
+        "steam_appid": 1849250,
+        "name": "EA SPORTS™ WRC",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 2499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 10455
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e7b0db1828bbaf076f1c5af0dd7b9d04c4533afb2b3662c03c71abc947f6edcf"
+}

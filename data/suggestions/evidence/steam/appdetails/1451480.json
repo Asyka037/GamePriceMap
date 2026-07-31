@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1451480,
+  "fetchedAt": "2026-07-31T03:09:53.857Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1451480&cc=us&l=english",
+  "responseDigest": "sha256:c990386b9057b5b22bf96b53bd2e9447000b284b2568aee41c5d604585629275",
+  "payload": {
+    "1451480": {
+      "success": true,
+      "data": {
+        "steam_appid": 1451480,
+        "name": "The Greatest Penguin Heist of All Time",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2358
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:18840687d79ab9a1cb21845d95c0e6737899226b39e2425f7b5bd365b77fcedf"
+}

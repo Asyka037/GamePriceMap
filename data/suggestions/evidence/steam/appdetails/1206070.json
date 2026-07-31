@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1206070,
+  "fetchedAt": "2026-07-31T03:05:14.917Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1206070&cc=us&l=english",
+  "responseDigest": "sha256:0f9efa3dbc2b320a6e7657c87f113f74f7149907d6fde80023ee1de5b6b4cb4a",
+  "payload": {
+    "1206070": {
+      "success": true,
+      "data": {
+        "steam_appid": 1206070,
+        "name": "Phonopolis",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1350
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e651e00517c00969959a9b1b90cd4d5c088b07d6ef625abeee7b96d18366a03a"
+}

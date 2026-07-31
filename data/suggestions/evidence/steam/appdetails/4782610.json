@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4782610,
+  "fetchedAt": "2026-07-31T03:33:48.762Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4782610&cc=us&l=english",
+  "responseDigest": "sha256:e2f16f40f9c143ba0fc7a95136911484dbe8a87d0c8778f746114bb7ae7afedd",
+  "payload": {
+    "4782610": {
+      "success": true,
+      "data": {
+        "steam_appid": 4782610,
+        "name": "Panzer Corps 2: Elite - All American",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f1500b759a5b7de6e9ee9978ce1841f1bd46f74c1e97371ff2fb412c8f9c12a4"
+}

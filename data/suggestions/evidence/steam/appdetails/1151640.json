@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1151640,
+  "fetchedAt": "2026-07-31T02:46:04.583Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1151640&cc=us&l=english",
+  "responseDigest": "sha256:c200a802c386e818e53525b813f680655b1ab5fc7db5e659e0538a82a96cc497",
+  "payload": {
+    "1151640": {
+      "success": true,
+      "data": {
+        "steam_appid": 1151640,
+        "name": "Horizon Zero Dawn™ Complete Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 7, 2020"
+        },
+        "recommendations": {
+          "total": 95674
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0a18090b9ea70d97dd0052da6820c11a38d310fef039eaa668eb869ecd3fe748"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2427700,
+  "fetchedAt": "2026-07-31T03:22:36.193Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2427700&cc=us&l=english",
+  "responseDigest": "sha256:206c099cf280de5c5cfa1cd42950b1ffd690c513c5a4bcd6ffadf66682106ff6",
+  "payload": {
+    "2427700": {
+      "success": true,
+      "data": {
+        "steam_appid": 2427700,
+        "name": "Backpack Battles",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 13, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 18777
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:18ad5830679897a238b611136578c3b4dd748b122551fb25ded09242f1a60d88"
+}

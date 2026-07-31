@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4179020,
+  "fetchedAt": "2026-07-31T03:43:55.706Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4179020&cc=us&l=english",
+  "responseDigest": "sha256:c2e652839268e4f014dd1397bd05492ca41731cb4b7787938f420bef5573e664",
+  "payload": {
+    "4179020": {
+      "success": true,
+      "data": {
+        "steam_appid": 4179020,
+        "name": "Summer’s Heartbeat",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 305
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e03d035035370c0f40b1077798764076e1fa5d062ca1eb9786e20d0dfe3180bf"
+}

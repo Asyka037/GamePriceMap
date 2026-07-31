@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1248130,
+  "fetchedAt": "2026-07-31T02:43:45.738Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1248130&cc=us&l=english",
+  "responseDigest": "sha256:361d375eae21da299d40b462b342a33568c987a5817728a38c2babcdf13b0ef6",
+  "payload": {
+    "1248130": {
+      "success": true,
+      "data": {
+        "steam_appid": 1248130,
+        "name": "Farming Simulator 22",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 21, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 68968
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0d435306040f23457098d9b5c6c00c77e5a775d19b8f02fdca4495b521b13cec"
+}

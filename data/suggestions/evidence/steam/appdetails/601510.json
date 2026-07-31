@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 601510,
+  "fetchedAt": "2026-07-31T03:04:28.061Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=601510&cc=us&l=english",
+  "responseDigest": "sha256:45ac1fb964b5d1dc54e777dd483ec34a315e688d7ee030107010f928ed99fda8",
+  "payload": {
+    "601510": {
+      "success": true,
+      "data": {
+        "steam_appid": 601510,
+        "name": "Yu-Gi-Oh! Duel Links",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e4884029bc9a0a7c5f844f07adf2c3195c1f66c8f41fc85394fef02618bc3a8"
+}

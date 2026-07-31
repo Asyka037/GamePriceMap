@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 427290,
+  "fetchedAt": "2026-07-31T02:46:52.308Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=427290&cc=us&l=english",
+  "responseDigest": "sha256:59aaad45e777af72cc9c552d34267d730cedcaa332b2c74aa4b5aa16d0f43139",
+  "payload": {
+    "427290": {
+      "success": true,
+      "data": {
+        "steam_appid": 427290,
+        "name": "Vampyr",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19818
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e618eeb1284e2e6e8498864520d0be8aa85d9863cc4da95a8a7ea7d68aa5e9f0"
+}

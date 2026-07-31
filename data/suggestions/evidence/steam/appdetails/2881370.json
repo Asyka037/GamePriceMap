@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2881370,
+  "fetchedAt": "2026-07-31T02:46:49.351Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2881370&cc=us&l=english",
+  "responseDigest": "sha256:05f732caa39c5e89976f8f2a6a8de8d0950924301cd5e523db7a516b533255d6",
+  "payload": {
+    "2881370": {
+      "success": true,
+      "data": {
+        "steam_appid": 2881370,
+        "name": "Thank You For Your Application",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 19, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 869
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:31157e7b40f50ebf8facdd6aea6da44852457f78dece97e0805802c3b2984c14"
+}

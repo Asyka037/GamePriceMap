@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3843410,
+  "fetchedAt": "2026-07-31T03:09:43.609Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3843410&cc=us&l=english",
+  "responseDigest": "sha256:366cf2fdad12b8a07e9e496ec0ad51091557fc1b98d4db99f3790579c5a88cd3",
+  "payload": {
+    "3843410": {
+      "success": true,
+      "data": {
+        "steam_appid": 3843410,
+        "name": "Flux Empyrean",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9ad6da5afc87ec7ec913c2b716469f24e145ae3234f6c3d406d91fe6ff0aee29"
+}

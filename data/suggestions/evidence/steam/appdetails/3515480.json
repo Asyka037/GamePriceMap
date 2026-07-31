@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3515480,
+  "fetchedAt": "2026-07-31T03:22:10.920Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3515480&cc=us&l=english",
+  "responseDigest": "sha256:587cec9049b392e7ad93d9506c3ebd9c0fa1995d8d3b6ac9bea164a98e5bafd7",
+  "payload": {
+    "3515480": {
+      "success": true,
+      "data": {
+        "steam_appid": 3515480,
+        "name": "Etrange Overlord",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8bd2d3f668758d98018f898268a1c98da66a8bb17e192c60a7145bbd923679ea"
+}

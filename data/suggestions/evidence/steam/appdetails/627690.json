@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 627690,
+  "fetchedAt": "2026-07-31T02:43:47.256Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=627690&cc=us&l=english",
+  "responseDigest": "sha256:537917a94596cee89df14b4a645d285e47e110aa97de5d12ee0324e6a5981f32",
+  "payload": {
+    "627690": {
+      "success": true,
+      "data": {
+        "steam_appid": 627690,
+        "name": "Idle Champions of the Forgotten Realms",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2020"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f3add03f04f8a8183610a53f983a89ad8f3074150139a5709c22a291520ced5b"
+}

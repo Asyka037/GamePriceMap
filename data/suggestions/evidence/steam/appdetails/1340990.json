@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1340990,
+  "fetchedAt": "2026-07-31T03:19:29.260Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1340990&cc=us&l=english",
+  "responseDigest": "sha256:c49c8a799730d322d8d0eb0d1ec264d3884ca2ef9270fe3094f6d718c8ee3941",
+  "payload": {
+    "1340990": {
+      "success": true,
+      "data": {
+        "steam_appid": 1340990,
+        "name": "Rise of the Ronin",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 2499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 6344
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:98cee6db9502de4e78148f879e80a4ee67ad43885cea3c660dde8575ba07f7ae"
+}

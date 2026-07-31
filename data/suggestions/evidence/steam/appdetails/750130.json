@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 750130,
+  "fetchedAt": "2026-07-31T02:48:38.282Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=750130&cc=us&l=english",
+  "responseDigest": "sha256:e25c883e823446741778cb06fd7f4f2bac44dc64b1d53525a8060af878124f0f",
+  "payload": {
+    "750130": {
+      "success": true,
+      "data": {
+        "steam_appid": 750130,
+        "name": "The Sinking City Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 26, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5171
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:784644bb385655ba6647a00840e1831548eb4e57b9430d4d59bce6318bae63eb"
+}

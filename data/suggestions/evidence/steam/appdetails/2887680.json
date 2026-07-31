@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2887680,
+  "fetchedAt": "2026-07-31T04:14:47.383Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2887680&cc=us&l=english",
+  "responseDigest": "sha256:ff46dbd293112ae93aad1da60876cfd8164cffe9c33478b8379588da7e5178d3",
+  "payload": {
+    "2887680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2887680,
+        "name": "Vampire Survivors: Operation Guns",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 9, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 249,
+          "final": 249,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 575
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:696b31fb974643d5fb26e3c59374e20a5f1a254abe2fff0125c8d56f589ac954"
+}

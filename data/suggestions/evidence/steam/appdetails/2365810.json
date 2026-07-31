@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2365810,
+  "fetchedAt": "2026-07-31T03:23:11.822Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2365810&cc=us&l=english",
+  "responseDigest": "sha256:25df2cb73cb1c98938af0983af5f23ddd46556e2a745d2fd6e26a02a5c68db35",
+  "payload": {
+    "2365810": {
+      "success": true,
+      "data": {
+        "steam_appid": 2365810,
+        "name": "Pseudoregalia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16696
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d8daf078eaed7acf75c1cfedf812b2a13f35f52abc442f38528b7db179f8e445"
+}

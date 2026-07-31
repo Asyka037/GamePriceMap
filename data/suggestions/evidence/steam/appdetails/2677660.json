@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2677660,
+  "fetchedAt": "2026-07-31T02:51:22.597Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2677660&cc=us&l=english",
+  "responseDigest": "sha256:8423f8da9879029225c845fc8b90abc8a9ec25e55fbbfd321a67aff6a1f8ae01",
+  "payload": {
+    "2677660": {
+      "success": true,
+      "data": {
+        "steam_appid": 2677660,
+        "name": "Indiana Jones and the Great Circle",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 4199,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 12630
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d68cd9f4fe8a9464c777409513b8975faca2eb2906b893af8a11f4b6001e2e9"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 288160,
+  "fetchedAt": "2026-07-31T03:34:08.327Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=288160&cc=us&l=english",
+  "responseDigest": "sha256:d5962ac95c3d08ae0ad5b90e6e8dfb1f34c74faea7e1ff24932c8863d0753626",
+  "payload": {
+    "288160": {
+      "success": true,
+      "data": {
+        "steam_appid": 288160,
+        "name": "The Room",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 99,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 30235
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:620004806da2107af1d62e187aa7efbd3e5e8458585443773ef96ab317b53c04"
+}

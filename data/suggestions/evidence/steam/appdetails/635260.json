@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 635260,
+  "fetchedAt": "2026-07-31T02:46:32.823Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=635260&cc=us&l=english",
+  "responseDigest": "sha256:ff55f7d4f0503a5178f66914e791066c0ba62a17dbefeedb0fca7e1f8a7c97ef",
+  "payload": {
+    "635260": {
+      "success": true,
+      "data": {
+        "steam_appid": 635260,
+        "name": "CarX Drift Racing Online",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 17, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 82455
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6a8403709a0be33b5342657f68618e0e7509ae574cd206252f313d46334c6733"
+}

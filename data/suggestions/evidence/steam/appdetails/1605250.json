@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1605250,
+  "fetchedAt": "2026-07-31T03:17:12.256Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1605250&cc=us&l=english",
+  "responseDigest": "sha256:f46b53604f5ffa30747319eff06af2b38acb8bde83592f10e4925327e39c159f",
+  "payload": {
+    "1605250": {
+      "success": true,
+      "data": {
+        "steam_appid": 1605250,
+        "name": "Moros Protocol",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 702
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d6d9039728f29b611a917aa9029980bc338712b564a115dc2223c454f30f1aba"
+}

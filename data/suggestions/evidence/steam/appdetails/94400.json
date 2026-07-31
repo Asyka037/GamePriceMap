@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 94400,
+  "fetchedAt": "2026-07-31T03:58:07.988Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=94400&cc=us&l=english",
+  "responseDigest": "sha256:db740fef527c631ba32c62d96f550bb459b804344e0042d080659c055e0b4754",
+  "payload": {
+    "94400": {
+      "success": true,
+      "data": {
+        "steam_appid": 94400,
+        "name": "Nidhogg",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 13, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5694
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:518c4e04fc42343d064d34e6e453cb1ff41a238d2ca5a4db88f4ce7769a0cd84"
+}

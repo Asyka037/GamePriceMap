@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1321440,
+  "fetchedAt": "2026-07-31T02:58:19.004Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1321440&cc=us&l=english",
+  "responseDigest": "sha256:71bb3bce9127b782d78af5d0ec0069c1d339d9b49994a7ab50de9fd2d39566ea",
+  "payload": {
+    "1321440": {
+      "success": true,
+      "data": {
+        "steam_appid": 1321440,
+        "name": "Cassette Beasts",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 26, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 699,
+          "discount_percent": 65
+        },
+        "recommendations": {
+          "total": 8867
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ce5e97f1df46ae133ee240e76a58549cafd0a04af35121191ca60c1efc49ad5b"
+}

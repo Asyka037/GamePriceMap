@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1049410,
+  "fetchedAt": "2026-07-31T02:51:16.587Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1049410&cc=us&l=english",
+  "responseDigest": "sha256:66ac1a0be2fc765cc8f6a670bff5b131bb7e32a6c1f4960ba3b83cef1a6143ab",
+  "payload": {
+    "1049410": {
+      "success": true,
+      "data": {
+        "steam_appid": 1049410,
+        "name": "Superliminal",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 5, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 28096
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:105408f54056e7c88fe329b31f1f8c92a8d126fb701ace33b70a72d086ce3dfd"
+}

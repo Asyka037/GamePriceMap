@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1553061,
+  "fetchedAt": "2026-07-31T03:14:27.265Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1553061&cc=us&l=english",
+  "responseDigest": "sha256:19642746b05e75eae3ebc1e29b04a4e3cf42fbbe65e8bded81a0dc765e7ab638",
+  "payload": {
+    "1553061": {
+      "success": true,
+      "data": {
+        "steam_appid": 1553061,
+        "name": "A Total War Saga: TROY - MYTHOS",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 2, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:282d3f92151823f6727bfe4d72a721de4dabe5c03501f39fbcae5047dc74e047"
+}

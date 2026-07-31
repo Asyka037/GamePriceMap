@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1811990,
+  "fetchedAt": "2026-07-31T03:21:08.645Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1811990&cc=us&l=english",
+  "responseDigest": "sha256:e9bc454f2b24d3f30b63b16cb2ecad37a0c7377b75c0584c05113b6375c25f9a",
+  "payload": {
+    "1811990": {
+      "success": true,
+      "data": {
+        "steam_appid": 1811990,
+        "name": "Wildfrost",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 12, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1199,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 8132
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bd793d829dfda0b1237db9d10e4e963089f8cfddedfbf2148b77af40c890a1cb"
+}

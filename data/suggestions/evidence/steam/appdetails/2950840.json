@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2950840,
+  "fetchedAt": "2026-07-31T03:09:33.285Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2950840&cc=us&l=english",
+  "responseDigest": "sha256:fd8686290e7535738a983056e37f0c881c025023bbdf15908c6ad00f4044f825",
+  "payload": {
+    "2950840": {
+      "success": true,
+      "data": {
+        "steam_appid": 2950840,
+        "name": "Hades II Original Soundtrack",
+        "type": "music",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 6, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a2e8a1196f009c2e87cb6c48c0ef0523c2eda872b5275bb300674a882b9ebc32"
+}

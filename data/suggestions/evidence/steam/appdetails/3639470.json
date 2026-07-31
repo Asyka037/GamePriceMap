@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3639470,
+  "fetchedAt": "2026-07-31T03:54:08.048Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3639470&cc=us&l=english",
+  "responseDigest": "sha256:04c3d35371fc309701c55f3b420ec8af2bcc09e0264571becaeff6fba04dc298",
+  "payload": {
+    "3639470": {
+      "success": true,
+      "data": {
+        "steam_appid": 3639470,
+        "name": "Besiege: The Broken Beyond",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 719,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 147
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bf11bdb852ee99e29d8d018ba41ebd445b2a6ff0bc73b8b751b21cb06da4daad"
+}

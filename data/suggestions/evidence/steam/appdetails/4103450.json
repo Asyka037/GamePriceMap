@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4103450,
+  "fetchedAt": "2026-07-31T03:11:37.809Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4103450&cc=us&l=english",
+  "responseDigest": "sha256:2d73ddcb35270cb831379e7c61b6382ae5f3d444b2a635e52db86a66a47327ea",
+  "payload": {
+    "4103450": {
+      "success": true,
+      "data": {
+        "steam_appid": 4103450,
+        "name": "Guild Wars® Eye of the North™",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 139
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ce3c4194f0aeab9e2f0a915dd3977e0b660edb68a7906ee5d77ee575425d044b"
+}

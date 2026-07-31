@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2100280,
+  "fetchedAt": "2026-07-31T03:40:02.684Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2100280&cc=us&l=english",
+  "responseDigest": "sha256:e14eedf320549f408220dd26faf05504cebf2311df62baa75a3b97cdae402a6d",
+  "payload": {
+    "2100280": {
+      "success": true,
+      "data": {
+        "steam_appid": 2100280,
+        "name": "World of Tanks: HEAT",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:43740f51826c3d415427349e9b37f2520cc741cdd3bc749cabfaa9f4f17c22b7"
+}

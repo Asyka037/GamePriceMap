@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2756920,
+  "fetchedAt": "2026-07-31T03:11:06.669Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2756920&cc=us&l=english",
+  "responseDigest": "sha256:0344ecb8b4505722abb5835ad11e350ae2c02a2376a8d02a097b1fdeb1c56f25",
+  "payload": {
+    "2756920": {
+      "success": true,
+      "data": {
+        "steam_appid": 2756920,
+        "name": "Keep Driving",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1259,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 5993
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fe805c012ef4facc37d4d9cd15b75435c4e34553029de82af44a2392cf45f2cc"
+}

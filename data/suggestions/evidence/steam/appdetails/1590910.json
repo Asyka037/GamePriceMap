@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1590910,
+  "fetchedAt": "2026-07-31T03:20:20.890Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1590910&cc=us&l=english",
+  "responseDigest": "sha256:eb270a1f06c6d396133080926591099258dbcb863e2e86184d20a3ea77a5f3cc",
+  "payload": {
+    "1590910": {
+      "success": true,
+      "data": {
+        "steam_appid": 1590910,
+        "name": "Forgive Me Father",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 7, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 3642
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ad5cd6e03e83064ee16c4d22c9df53a060b49c2bc6d77fd6e4c0d3a05df9fd0f"
+}

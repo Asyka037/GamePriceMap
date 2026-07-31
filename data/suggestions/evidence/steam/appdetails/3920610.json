@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3920610,
+  "fetchedAt": "2026-07-31T02:51:40.266Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3920610&cc=us&l=english",
+  "responseDigest": "sha256:95bbb6d1e858fa57fee87c77a5d2fedb04aee77286580040e9b9de254a868f05",
+  "payload": {
+    "3920610": {
+      "success": true,
+      "data": {
+        "steam_appid": 3920610,
+        "name": "FATAL FRAME II: Crimson Butterfly REMAKE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 3499,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 2496
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:35342dfc366f5965f688e2bd5df91e1b393ad3b58e22a35b2b9df5caea807069"
+}

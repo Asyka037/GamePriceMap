@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4529160,
+  "fetchedAt": "2026-07-31T03:59:49.980Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4529160&cc=us&l=english",
+  "responseDigest": "sha256:88e69ae2abcfbec1ca7bdffcd7f27463403aab02d3f607b72b9d877840556ea3",
+  "payload": {
+    "4529160": {
+      "success": true,
+      "data": {
+        "steam_appid": 4529160,
+        "name": "SCUM Woodland Hunter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91ed88d18e224c06abd91307cb6d6a33eafdf5afa94a5c4d9c783382ea99aa57"
+}

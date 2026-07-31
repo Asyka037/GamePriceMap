@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3708250,
+  "fetchedAt": "2026-07-31T03:21:16.037Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3708250&cc=us&l=english",
+  "responseDigest": "sha256:df19933cf675005d5b778b4c1add760ff9366a8657c453eea4af1d8fabae3b0f",
+  "payload": {
+    "3708250": {
+      "success": true,
+      "data": {
+        "steam_appid": 3708250,
+        "name": "My Heaven's Dale",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1019,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:805804b6c79f625a6361002375d258d8c9ec4881c22966935616bcb7eec56043"
+}

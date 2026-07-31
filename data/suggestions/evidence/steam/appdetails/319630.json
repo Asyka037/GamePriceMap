@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 319630,
+  "fetchedAt": "2026-07-31T02:52:43.196Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=319630&cc=us&l=english",
+  "responseDigest": "sha256:8ce010238333d94ef493993d336c270bd381da7105c36a7586ec5c4e7f51d422",
+  "payload": {
+    "319630": {
+      "success": true,
+      "data": {
+        "steam_appid": 319630,
+        "name": "Life is Strange - Episode 1",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 29, 2015"
+        },
+        "recommendations": {
+          "total": 124386
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ea30595fe834776155326d5b413af304a8ffb843424a78ee296b3214dfc7c51b"
+}

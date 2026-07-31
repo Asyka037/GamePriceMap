@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 210970,
+  "fetchedAt": "2026-07-31T03:42:11.253Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=210970&cc=us&l=english",
+  "responseDigest": "sha256:a3218775b475c19cbb39cf8e9374a731770f5666fa65503ee2a2a2a289801774",
+  "payload": {
+    "210970": {
+      "success": true,
+      "data": {
+        "steam_appid": 210970,
+        "name": "The Witness",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 26, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16989
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a46aebe6de466b17ca6db1ed51ebca6665fe8bdb340b9d570f08e742fe766d8f"
+}

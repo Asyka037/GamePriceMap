@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2939040,
+  "fetchedAt": "2026-07-31T03:19:00.793Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2939040&cc=us&l=english",
+  "responseDigest": "sha256:8db17da2b7738766bc0043988aa0286ad42b99a206fdee47ba5fcab9e2039599",
+  "payload": {
+    "2939040": {
+      "success": true,
+      "data": {
+        "steam_appid": 2939040,
+        "name": "Terra Invicta - Supporter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 899,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a38d2ff68d4b1b9e70554659c810c12584cad91f426f15ae9561f3bd57cfd862"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4260840,
+  "fetchedAt": "2026-07-31T02:54:29.405Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4260840&cc=us&l=english",
+  "responseDigest": "sha256:af021329610f4d25079708cf0286cf6d28487f8e45a2c57e5601f8d6f5254ab4",
+  "payload": {
+    "4260840": {
+      "success": true,
+      "data": {
+        "steam_appid": 4260840,
+        "name": "STRANGER THAN HEAVEN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Jan 14, 2027"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c110248fe6fcc7e858395d55a32c63cb8bf273521186f906f5f3b27091c45fc"
+}

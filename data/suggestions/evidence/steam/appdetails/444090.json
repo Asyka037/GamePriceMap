@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 444090,
+  "fetchedAt": "2026-07-31T03:36:16.645Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=444090&cc=us&l=english",
+  "responseDigest": "sha256:62aff6ce0600739e56b1b9431cb04c03430b27a3c126223c75efea84baa0bce7",
+  "payload": {
+    "444090": {
+      "success": true,
+      "data": {
+        "steam_appid": 444090,
+        "name": "Paladins®",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2018"
+        },
+        "recommendations": {
+          "total": 8726
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1f8371f4ed864e787aabb9effb044beaf67ceebbb26f46510498510fcfbb60d5"
+}

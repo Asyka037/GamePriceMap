@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1361510,
+  "fetchedAt": "2026-07-31T03:29:27.247Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1361510&cc=us&l=english",
+  "responseDigest": "sha256:556e793690db777fb5303962786a2f8a3d220e8e5d2db2bd874694c58c99110c",
+  "payload": {
+    "1361510": {
+      "success": true,
+      "data": {
+        "steam_appid": 1361510,
+        "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12870
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f6983ba707589de5155a39ca0806d7dd86ef379ab3baa8299430060b3c4e80c1"
+}

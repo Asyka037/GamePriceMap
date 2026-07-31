@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3774910,
+  "fetchedAt": "2026-07-31T03:02:10.271Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3774910&cc=us&l=english",
+  "responseDigest": "sha256:5c01d658f7dcc8bbc5c26e150ae3871eb250eeddcd331475fc6c817ab2e2c361",
+  "payload": {
+    "3774910": {
+      "success": true,
+      "data": {
+        "steam_appid": 3774910,
+        "name": "Hell Clock: Cursed War",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:93bb66a82dce2fafb11df297e98e4f36bd9396ef44fb4e0c8238b2ad26b100cc"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 822240,
+  "fetchedAt": "2026-07-31T03:09:19.904Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=822240&cc=us&l=english",
+  "responseDigest": "sha256:183d972aa6f739480f27e2d0f3813dbfcda431917a8141d1be6157b73aface94",
+  "payload": {
+    "822240": {
+      "success": true,
+      "data": {
+        "steam_appid": 822240,
+        "name": "Animal Jam",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 8, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:26fd39a7dfe4c88bc8277ffaeb1d73117d4db3928d7d569d452fcc8f6f3a17a9"
+}

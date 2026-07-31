@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 243470,
+  "fetchedAt": "2026-07-31T02:44:14.091Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=243470&cc=us&l=english",
+  "responseDigest": "sha256:b4ce148267608d96ada4dd2f67f0c3dadfdd22934c62cc5dd40934254384558c",
+  "payload": {
+    "243470": {
+      "success": true,
+      "data": {
+        "steam_appid": 243470,
+        "name": "Watch_Dogs™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 48339
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:689dfe7ebadf460ddd02f40cd3b7cba97666b5be23dedc25b07359c790f690b2"
+}

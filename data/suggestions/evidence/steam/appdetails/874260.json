@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 874260,
+  "fetchedAt": "2026-07-31T03:44:37.041Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=874260&cc=us&l=english",
+  "responseDigest": "sha256:e0647aa5e4b14b88e041d753e2ddfaf17204ee3504be139b0c88ff91b76234ef",
+  "payload": {
+    "874260": {
+      "success": true,
+      "data": {
+        "steam_appid": 874260,
+        "name": "The Forgotten City",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11003
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:37fc9820b3e1a278f3fe0bce9120d41223a05c8a89f2c1dd4753fe07a72b708a"
+}

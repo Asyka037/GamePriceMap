@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1108370,
+  "fetchedAt": "2026-07-31T04:01:35.284Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1108370&cc=us&l=english",
+  "responseDigest": "sha256:a710690aee178c8c7c2cf27b66530c685ca4322c422282bd3cc60246b41102c5",
+  "payload": {
+    "1108370": {
+      "success": true,
+      "data": {
+        "steam_appid": 1108370,
+        "name": "Ratropolis",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 22, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5149
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bb6a75f643805942e5ba1545fb6034e4f9d65af3d5909903dceffd3c400e1f4e"
+}

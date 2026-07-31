@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4371450,
+  "fetchedAt": "2026-07-31T03:33:55.268Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4371450&cc=us&l=english",
+  "responseDigest": "sha256:78e145829639caafdd62f92e9f09c270b6588013a8fc98530e79002f45c2b433",
+  "payload": {
+    "4371450": {
+      "success": true,
+      "data": {
+        "steam_appid": 4371450,
+        "name": "Arctic Shift: Fuel Station",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1259,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:723f3cfe2a1f916e0dc030679f8d613c4004e3aa278901854c6d9cfeb13a1869"
+}

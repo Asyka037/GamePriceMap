@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 770810,
+  "fetchedAt": "2026-07-31T04:08:34.998Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=770810&cc=us&l=english",
+  "responseDigest": "sha256:ddf07e20c3b7acb40f547245dc7753cff822efa634014943ac9d950c0b5185f1",
+  "payload": {
+    "770810": {
+      "success": true,
+      "data": {
+        "steam_appid": 770810,
+        "name": "Good Pizza, Great Pizza - Cooking Simulator Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 6, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6198
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:16ae322ee7f8454fb668494675eee497f913e0829198c0c45a40c2985f8479e0"
+}

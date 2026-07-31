@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2482940,
+  "fetchedAt": "2026-07-31T03:50:33.680Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2482940&cc=us&l=english",
+  "responseDigest": "sha256:870e937935e3eb980824b1e626169cc927f760b85d679926e7de3d60d6019481",
+  "payload": {
+    "2482940": {
+      "success": true,
+      "data": {
+        "steam_appid": 2482940,
+        "name": "Little Nightmares VR: Altered Echoes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 155
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:75fadf0a096f7b60d3601c908e4eb84da2c874c1e9f57336e3b8d8915e8a08d5"
+}

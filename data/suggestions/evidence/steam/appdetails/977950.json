@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 977950,
+  "fetchedAt": "2026-07-31T03:18:38.507Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=977950&cc=us&l=english",
+  "responseDigest": "sha256:16ec35a2d16623f92396b0a03154bec96af68ddbfcecbc1f7b7d196da1dfa4ad",
+  "payload": {
+    "977950": {
+      "success": true,
+      "data": {
+        "steam_appid": 977950,
+        "name": "A Dance of Fire and Ice",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 24, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 77625
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6c7fcc2d5fbbe47f78f9a1ff9cbe64fa92e6fc76217e6809904c83a29342b47f"
+}

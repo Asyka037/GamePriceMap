@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3868650,
+  "fetchedAt": "2026-07-31T02:46:22.424Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3868650&cc=us&l=english",
+  "responseDigest": "sha256:488743ddbff171e11f8339cfa1f0358e745715190a0c1cccb0cd8568bb2e9781",
+  "payload": {
+    "3868650": {
+      "success": true,
+      "data": {
+        "steam_appid": 3868650,
+        "name": "Fallout 4 - Creations Bundle",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 714
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f5be640ef6d84aa6780d98113075c401cf3774038821be99c97b0745cf3080fd"
+}

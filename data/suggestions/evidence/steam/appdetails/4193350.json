@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4193350,
+  "fetchedAt": "2026-07-31T04:11:52.832Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4193350&cc=us&l=english",
+  "responseDigest": "sha256:bce1b90e8047b61ad2c6149f968f015419e54fcb32883b97fa58936f4b4d5207",
+  "payload": {
+    "4193350": {
+      "success": true,
+      "data": {
+        "steam_appid": 4193350,
+        "name": "Panzer Corps 2: Allied Operations - Italy: Vol.1",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ec630d63486a3836377cf460480d0fe490dfe094e7909ce58cad925ade8b6cf7"
+}

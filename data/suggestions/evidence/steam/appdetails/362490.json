@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 362490,
+  "fetchedAt": "2026-07-31T03:14:30.221Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=362490&cc=us&l=english",
+  "responseDigest": "sha256:d58fec78b5b3ada35804abe7f1efae340fb812b629abbd7d7578c834ad2d926d",
+  "payload": {
+    "362490": {
+      "success": true,
+      "data": {
+        "steam_appid": 362490,
+        "name": "Exanima",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 29, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12508
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b1bef2e4ca13e5b068f907d89479c507dcbc55ba1afa9b5b92dad57920ebab43"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1987080,
+  "fetchedAt": "2026-07-31T03:45:26.527Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1987080&cc=us&l=english",
+  "responseDigest": "sha256:a4da08ae44e42388ec5e62f89ee1b9a280e928251fa3ac2e913b7e006102bc11",
+  "payload": {
+    "1987080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1987080,
+        "name": "Inside the Backrooms",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 38682
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c45be742db7ecbae4f57196b20a18ee23ae2269e3918f7265cd11c25ec87860e"
+}

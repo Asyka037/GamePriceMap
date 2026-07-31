@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2989180,
+  "fetchedAt": "2026-07-31T02:53:28.589Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2989180&cc=us&l=english",
+  "responseDigest": "sha256:f6b4b78e566499ebca51b357d05cd69b5f557b27ef56742dca693c844f7e0275",
+  "payload": {
+    "2989180": {
+      "success": true,
+      "data": {
+        "steam_appid": 2989180,
+        "name": "Darwin's Paradox!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 721
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a6d28de9b1f5f794c5a25011a9d2e4ef7fba1c007225107f0a8b1911346722ad"
+}

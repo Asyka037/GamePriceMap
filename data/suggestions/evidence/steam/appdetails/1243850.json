@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1243850,
+  "fetchedAt": "2026-07-31T03:29:13.743Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1243850&cc=us&l=english",
+  "responseDigest": "sha256:1b521127cef9201f0edd023f5aa96eaf0dc50c4ce3d79e70bb6a07619c1a2e84",
+  "payload": {
+    "1243850": {
+      "success": true,
+      "data": {
+        "steam_appid": 1243850,
+        "name": "This Bed We Made",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2991
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:05cb267457b527babbaf70efa4f40a2ca4f3c9fe34d1e55487d55b8146f8b0b6"
+}

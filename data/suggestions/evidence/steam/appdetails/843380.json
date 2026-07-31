@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 843380,
+  "fetchedAt": "2026-07-31T03:36:00.232Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=843380&cc=us&l=english",
+  "responseDigest": "sha256:885075e36bd42e8b32f81b055bcb67e76031a1b8c8a24828203b610919095511",
+  "payload": {
+    "843380": {
+      "success": true,
+      "data": {
+        "steam_appid": 843380,
+        "name": "Super Animal Royale",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 26, 2021"
+        },
+        "recommendations": {
+          "total": 6456
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:14c07649f9680eb2693ecbd4b056ca0dcb0cf40a50d8d1f573693b9b281b0f68"
+}

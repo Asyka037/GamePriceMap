@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4197990,
+  "fetchedAt": "2026-07-31T03:18:11.747Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4197990&cc=us&l=english",
+  "responseDigest": "sha256:5b37ef0f99bf0c24aafccc650f6faf88d61c9d2d3a6b8953f5392ed3bf3bee5c",
+  "payload": {
+    "4197990": {
+      "success": true,
+      "data": {
+        "steam_appid": 4197990,
+        "name": "Cargo Hunters",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 570
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c67aa0d1e3cef8b2f669e307aa1d93fb4e99a29b39b288456118143c02614438"
+}

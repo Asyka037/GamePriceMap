@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4813880,
+  "fetchedAt": "2026-07-31T04:09:17.810Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4813880&cc=us&l=english",
+  "responseDigest": "sha256:7424f7a5a17c6ead952a9729f470862b74c2e26fd59cbb35adfdf388b9ac6d0d",
+  "payload": {
+    "4813880": {
+      "success": true,
+      "data": {
+        "steam_appid": 4813880,
+        "name": "Uptime: A Cloud Provider Sim",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f5e78be7df5b6a71a9dc065d3f2e618552ce5910828caf4d8463bf919e0637f9"
+}

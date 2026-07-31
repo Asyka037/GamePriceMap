@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2581950,
+  "fetchedAt": "2026-07-31T03:43:39.390Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2581950&cc=us&l=english",
+  "responseDigest": "sha256:60ea3e2e0698be563dec1ce8a7281a620f4de566a479633ed290cb1f2ea4dd41",
+  "payload": {
+    "2581950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2581950,
+        "name": "Tiny Aquarium: Social Fishkeeping",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 749,
+          "final": 524,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 3309
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b1a1e989890273a33ea5decc7b5e4e471adb41f6e5d2d60a14bf4715de87e9b8"
+}

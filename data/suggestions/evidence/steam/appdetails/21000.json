@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 21000,
+  "fetchedAt": "2026-07-31T04:10:27.236Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=21000&cc=us&l=english",
+  "responseDigest": "sha256:54a4bbb297ebebb24bf03838699c9e640ff69bcd6e9fced1aa40c9ae6f8acb9a",
+  "payload": {
+    "21000": {
+      "success": true,
+      "data": {
+        "steam_appid": 21000,
+        "name": "LEGO® Batman™: The Videogame",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 29, 2008"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 299,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 12562
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c8e872e0b45eda985a77272028a445ff82a154d9b4a7831b44ebecf2c28823ab"
+}

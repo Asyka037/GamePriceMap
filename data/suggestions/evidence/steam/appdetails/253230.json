@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 253230,
+  "fetchedAt": "2026-07-31T03:02:53.737Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=253230&cc=us&l=english",
+  "responseDigest": "sha256:436700e997cdb705b5788ba059283327b2fb57eae1b21e5fb6d82c4dc906f8aa",
+  "payload": {
+    "253230": {
+      "success": true,
+      "data": {
+        "steam_appid": 253230,
+        "name": "A Hat in Time",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 5, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 42761
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3a196f6abc9ef4f17c6591b652edd467d068414be5fdf404f4cd65b9e9824687"
+}

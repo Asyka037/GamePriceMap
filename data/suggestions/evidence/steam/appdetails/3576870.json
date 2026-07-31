@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3576870,
+  "fetchedAt": "2026-07-31T03:59:07.217Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3576870&cc=us&l=english",
+  "responseDigest": "sha256:2c02e072a892c64f2864e1449e457d88e315a640bddc3d756de069c0a96ec55e",
+  "payload": {
+    "3576870": {
+      "success": true,
+      "data": {
+        "steam_appid": 3576870,
+        "name": "Blossom: The Seed of Life",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 906
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9270f0b93f2858695ca9cbe7d01bb8231ce174c33f5f6567e61f871e344c9196"
+}

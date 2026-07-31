@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 546430,
+  "fetchedAt": "2026-07-31T04:08:15.223Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=546430&cc=us&l=english",
+  "responseDigest": "sha256:8a0ec3e3e4ad35cd76c00715b5ceccea5c8956f3d5379a1759bf59fdf6d69eff",
+  "payload": {
+    "546430": {
+      "success": true,
+      "data": {
+        "steam_appid": 546430,
+        "name": "Pathway",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 11, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 479,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 1903
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4c70ed0c9710d4f1d1ee4c5210dd5d04f7da0a2dcd247af935c891b49c51053b"
+}

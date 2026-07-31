@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4039140,
+  "fetchedAt": "2026-07-31T02:47:59.656Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4039140&cc=us&l=english",
+  "responseDigest": "sha256:b5a082c7a821d464c55da23f10a53fc08d493165a58c3e44692625f5528fd4d0",
+  "payload": {
+    "4039140": {
+      "success": true,
+      "data": {
+        "steam_appid": 4039140,
+        "name": "Subway Builder",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2999,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 288
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fa042cc32c5256114f87d9ad28bb32d81d37cb924eeb959771a7b717e31d488b"
+}

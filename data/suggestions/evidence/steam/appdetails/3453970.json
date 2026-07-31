@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3453970,
+  "fetchedAt": "2026-07-31T02:44:46.050Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3453970&cc=us&l=english",
+  "responseDigest": "sha256:5ba01f05c42f116ca8fbb7be43c628fb5c5a5eadfaaf55e23a315d5130eae5dc",
+  "payload": {
+    "3453970": {
+      "success": true,
+      "data": {
+        "steam_appid": 3453970,
+        "name": "Farming Simulator 25: Highlands Fishing Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 307
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5f5853d25209eb97cfd778dbfd13f8d55071873d7a7f1ec35cff8b4dbf6dc1b9"
+}

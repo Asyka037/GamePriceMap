@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3864450,
+  "fetchedAt": "2026-07-31T04:15:10.269Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3864450&cc=us&l=english",
+  "responseDigest": "sha256:249926cc92a2dd5151da0ebd87fc37f334d0b37b7da1b79145d48290bd75fded",
+  "payload": {
+    "3864450": {
+      "success": true,
+      "data": {
+        "steam_appid": 3864450,
+        "name": "Goblin Company",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 250
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f6beb93d4c72a5033490fe45ffd966274ebc551d0f3bd20d1635cfd79ff34efa"
+}

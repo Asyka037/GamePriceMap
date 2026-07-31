@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2703850,
+  "fetchedAt": "2026-07-31T04:08:11.921Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2703850&cc=us&l=english",
+  "responseDigest": "sha256:5590dedf4a29c6d40fcdd913d418815b6a082950af8a81921ffa4508c30691a7",
+  "payload": {
+    "2703850": {
+      "success": true,
+      "data": {
+        "steam_appid": 2703850,
+        "name": "Rooftops & Alleys: The Parkour Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6583
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:24bbaa10230fde2d583d8febb46fba060200ee660b1d78f2053d89dae646c155"
+}

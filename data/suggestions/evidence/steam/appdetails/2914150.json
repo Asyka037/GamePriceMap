@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2914150,
+  "fetchedAt": "2026-07-31T02:50:32.226Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2914150&cc=us&l=english",
+  "responseDigest": "sha256:17a4ba926e0c156d39d55d306d24a62364b49cd33e0af02ee662a4f634ff30a2",
+  "payload": {
+    "2914150": {
+      "success": true,
+      "data": {
+        "steam_appid": 2914150,
+        "name": "Yunyun Syndrome!? Rhythm Psychosis",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3755
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bdc1e5e7cfe45090b0eca06856ca1c7c940437f0f52df89c6bc390c953e9562d"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4943030,
+  "fetchedAt": "2026-07-31T04:03:40.419Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4943030&cc=us&l=english",
+  "responseDigest": "sha256:912262eaa10c229e882be36585e4e31e8842b7bf9672bf7bcf500cd3d28a2908",
+  "payload": {
+    "4943030": {
+      "success": true,
+      "data": {
+        "steam_appid": 4943030,
+        "name": "Tower! Simulator 3 - KMIA Airport",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:05db86e2d6987c4b804b766d4656fc06655b33593c6bab69012bd9527b768a59"
+}

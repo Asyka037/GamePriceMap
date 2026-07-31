@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4395030,
+  "fetchedAt": "2026-07-31T03:21:59.213Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4395030&cc=us&l=english",
+  "responseDigest": "sha256:47ab9be026e3463adb27b6b5f0ac4b2a6338b2912f3366472b593809ebf741a4",
+  "payload": {
+    "4395030": {
+      "success": true,
+      "data": {
+        "steam_appid": 4395030,
+        "name": "B-Prison Unchain",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 719,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:046312a7e524f50f5434bdd7f7495e3d1f5c67c2a43406697f14e73c75a8924f"
+}

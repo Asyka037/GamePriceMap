@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4172530,
+  "fetchedAt": "2026-07-31T03:51:00.218Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4172530&cc=us&l=english",
+  "responseDigest": "sha256:a82b1afc1931827abf621c1bd6b8f53008f78d756b88aa3c526e41c002ad3d3a",
+  "payload": {
+    "4172530": {
+      "success": true,
+      "data": {
+        "steam_appid": 4172530,
+        "name": "Legend of YMIR",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 4, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:92b3572fd90e3cd98fafd606d3f874ffc4c1c8633d9f9648197244551bd3ed70"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1546090,
+  "fetchedAt": "2026-07-31T03:58:24.417Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1546090&cc=us&l=english",
+  "responseDigest": "sha256:ceeba2541f9706683ab25c9572d5ba3b8847334d55b7afc0870cfd18bf8efb8e",
+  "payload": {
+    "1546090": {
+      "success": true,
+      "data": {
+        "steam_appid": 1546090,
+        "name": "RAIDBORN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 422
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:af42fdee3a43cf5ff6a64c6d7ca48a92a6bc65c288c2d7d735139a4a8ad9dd6c"
+}

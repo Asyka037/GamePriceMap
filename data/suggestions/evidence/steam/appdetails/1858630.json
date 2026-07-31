@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1858630,
+  "fetchedAt": "2026-07-31T03:53:15.140Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1858630&cc=us&l=english",
+  "responseDigest": "sha256:10d60a5ae54237d2071f2df0ed340b394f79e39850ce8fd58280d491e4ee5022",
+  "payload": {
+    "1858630": {
+      "success": true,
+      "data": {
+        "steam_appid": 1858630,
+        "name": "SWORD ART ONLINE Fractured Daydream",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 3, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2012
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:044c674b99d51f167d037f177864211dde123268504b7804cea07d04b277913b"
+}

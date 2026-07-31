@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 269210,
+  "fetchedAt": "2026-07-31T04:14:17.719Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=269210&cc=us&l=english",
+  "responseDigest": "sha256:986802634577c8d9ff515fdaf61889f6406247e1a40149dc54ed17787ef022e3",
+  "payload": {
+    "269210": {
+      "success": true,
+      "data": {
+        "steam_appid": 269210,
+        "name": "Hero Siege",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 29, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 36015
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a077b9fb38daa6f83f02eb12ff46793f35c476ca238e3cb0998f2799e01de1d8"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1108270,
+  "fetchedAt": "2026-07-31T03:51:26.454Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1108270&cc=us&l=english",
+  "responseDigest": "sha256:a559d89eb0a34980a9c5d593c2034c6bb9a397e8368b7005d3163c13169a5564",
+  "payload": {
+    "1108270": {
+      "success": true,
+      "data": {
+        "steam_appid": 1108270,
+        "name": "Nova: Space Armada",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:437991e967fb55f66d19f7087a273b304d0b5e96bee971ef14d54beaa3c07004"
+}

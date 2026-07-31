@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2103140,
+  "fetchedAt": "2026-07-31T02:45:21.638Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2103140&cc=us&l=english",
+  "responseDigest": "sha256:e7b1cec89f0a0b28aeb1da738afa4ae847eacd0097893122f2e3c2860a3c1084",
+  "payload": {
+    "2103140": {
+      "success": true,
+      "data": {
+        "steam_appid": 2103140,
+        "name": "Magicraft",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14927
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6e7a973984ab32939bb7af9301e481bde5e725ea489e59866a1ba353236de2fe"
+}

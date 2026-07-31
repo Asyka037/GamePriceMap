@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1158850,
+  "fetchedAt": "2026-07-31T02:58:58.309Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1158850&cc=us&l=english",
+  "responseDigest": "sha256:16bbefe0a972badcaa70e8b54f6ec8de1d1bf0bdba41d690bd150e9dde7dd74d",
+  "payload": {
+    "1158850": {
+      "success": true,
+      "data": {
+        "steam_appid": 1158850,
+        "name": "The Great Ace Attorney Chronicles",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 26, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1599,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 5054
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9ca2b65629801a9a287f984039a7c8bf92902ee7822104b33ffdcddf08d05b43"
+}

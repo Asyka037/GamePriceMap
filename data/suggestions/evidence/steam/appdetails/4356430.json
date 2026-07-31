@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4356430,
+  "fetchedAt": "2026-07-31T03:00:36.627Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4356430&cc=us&l=english",
+  "responseDigest": "sha256:ed2d7564ffc02205dac712efdd32395603ff2da1e12a4f1a0acc4a5baadb3c8b",
+  "payload": {
+    "4356430": {
+      "success": true,
+      "data": {
+        "steam_appid": 4356430,
+        "name": "NBA 2K27",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9590d1939d01926805f87c51782b06a9c56df47a9d77f9e998e016d75519f1dd"
+}

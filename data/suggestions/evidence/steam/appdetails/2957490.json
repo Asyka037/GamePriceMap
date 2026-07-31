@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2957490,
+  "fetchedAt": "2026-07-31T04:03:07.565Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2957490&cc=us&l=english",
+  "responseDigest": "sha256:c5794e4b35d28754f74929edc5cf4c35ea8a40881716e0ee12511cb2d4f6c2f5",
+  "payload": {
+    "2957490": {
+      "success": true,
+      "data": {
+        "steam_appid": 2957490,
+        "name": "DRAGON BALL: Sparking! ZERO Anime Music Pack 2",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 144
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a7ed5360d67790c5f399cfffed2e02004f2af89ecd5a4f801d78811d963aa008"
+}

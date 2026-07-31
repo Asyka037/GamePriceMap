@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3170540,
+  "fetchedAt": "2026-07-31T02:52:46.160Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3170540&cc=us&l=english",
+  "responseDigest": "sha256:baf2291785aaf3a18225877ca99354252cbfd4c79c550910d312c825bc8731d7",
+  "payload": {
+    "3170540": {
+      "success": true,
+      "data": {
+        "steam_appid": 3170540,
+        "name": "Backyard Baseball '97",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2184
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b6c6878dff7e4fdb03d837bffe6821ed038d36c8e2c7066d8a1b26409675dad4"
+}

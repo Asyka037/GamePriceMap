@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2507980,
+  "fetchedAt": "2026-07-31T03:05:23.672Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2507980&cc=us&l=english",
+  "responseDigest": "sha256:32061becc393316634d1ff20f189d61c03d2cbfd8e1f195b2478c2694733a018",
+  "payload": {
+    "2507980": {
+      "success": true,
+      "data": {
+        "steam_appid": 2507980,
+        "name": "Meta Ghost: Breaking Show",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1433
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:84298e5408787d6062ef0ff808db0ab72376f81b3f12d67cd426ce8f96e2f3d9"
+}

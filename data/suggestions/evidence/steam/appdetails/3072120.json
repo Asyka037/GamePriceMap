@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3072120,
+  "fetchedAt": "2026-07-31T02:53:07.612Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3072120&cc=us&l=english",
+  "responseDigest": "sha256:145c5f34588c05d7c3b0722523b521d804ed62ac4c9df4b06ca70a73c44a63f9",
+  "payload": {
+    "3072120": {
+      "success": true,
+      "data": {
+        "steam_appid": 3072120,
+        "name": "Backrooms Lost Runners",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 533
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6530e0ed314612637eadb9128f4651181c0c9fbbc1d94ac7a45733d0b9993001"
+}

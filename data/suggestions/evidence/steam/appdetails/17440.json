@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 17440,
+  "fetchedAt": "2026-07-31T04:15:13.542Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=17440&cc=us&l=english",
+  "responseDigest": "sha256:3a55c4f63b0d0668b6b21c17fd118f14ceda9d78a9b537b5b5b70755763e4b4f",
+  "payload": {
+    "17440": {
+      "success": true,
+      "data": {
+        "steam_appid": 17440,
+        "name": "SPORE™ Creepy & Cute Parts Pack",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 19, 2008"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2042
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1a1dfeaf7583ca24303edce174ae5ba9f0504bd6e2d6e973fbc19c69e24dfafa"
+}

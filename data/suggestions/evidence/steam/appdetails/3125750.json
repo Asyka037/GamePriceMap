@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3125750,
+  "fetchedAt": "2026-07-31T03:15:12.913Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3125750&cc=us&l=english",
+  "responseDigest": "sha256:2a2873e63b72c96bd917251d8709191d2c429092b413f9188c0f6d7f049df8f9",
+  "payload": {
+    "3125750": {
+      "success": true,
+      "data": {
+        "steam_appid": 3125750,
+        "name": "EDENS ZERO",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:12667d9b96de281a805d66aa1ff785939422d0e6005a996b076b7032b8f008f3"
+}

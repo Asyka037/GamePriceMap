@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2251220,
+  "fetchedAt": "2026-07-31T03:03:36.316Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2251220&cc=us&l=english",
+  "responseDigest": "sha256:6e4ac60720fa56dfcc5aae6a1588b1ef0ef347e046305e97a8376d02062cdcf8",
+  "payload": {
+    "2251220": {
+      "success": true,
+      "data": {
+        "steam_appid": 2251220,
+        "name": "High Times",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c54d335273538c61de3257317aa8856cf3c25257c2a1ea68d5b86c82f89901d5"
+}

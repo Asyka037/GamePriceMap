@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 766570,
+  "fetchedAt": "2026-07-31T02:59:10.198Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=766570&cc=us&l=english",
+  "responseDigest": "sha256:415ab307b509ad004287675805c9f19256bba2ba3ab2fa46f672dcdeca2f800d",
+  "payload": {
+    "766570": {
+      "success": true,
+      "data": {
+        "steam_appid": 766570,
+        "name": "Russian Fishing 4",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2021"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:254a5e92a77b6232172648bec9ea21a46a3c64e3b825a1435a4fecf348b5bca0"
+}

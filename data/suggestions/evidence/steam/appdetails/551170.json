@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 551170,
+  "fetchedAt": "2026-07-31T03:35:23.975Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=551170&cc=us&l=english",
+  "responseDigest": "sha256:7a60f157053af54d2b75ad800b3ce426644904a06774a43f131de345366fad09",
+  "payload": {
+    "551170": {
+      "success": true,
+      "data": {
+        "steam_appid": 551170,
+        "name": "Onmyoji",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 18, 2018"
+        },
+        "recommendations": {
+          "total": 269
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e08a5f8b21f1cef30d15e68879167d8da9bc03f50fe26fcfcf6e2919dd98670"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3431040,
+  "fetchedAt": "2026-07-31T02:59:52.899Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3431040&cc=us&l=english",
+  "responseDigest": "sha256:887df234f74e550751f24cc808017fa954f9d15a1db9e387c7f4246a8aca36c3",
+  "payload": {
+    "3431040": {
+      "success": true,
+      "data": {
+        "steam_appid": 3431040,
+        "name": "That's not my Neighbor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4362
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8a3eba67bafede5015cb2e82bc7a8750cd5e0522c20f510e43bc4fd7ee3de247"
+}

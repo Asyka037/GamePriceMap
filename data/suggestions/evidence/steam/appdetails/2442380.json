@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2442380,
+  "fetchedAt": "2026-07-31T03:06:20.243Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2442380&cc=us&l=english",
+  "responseDigest": "sha256:aa0e4950cdef5bdc2711e9ba77e3a2d0ca07ef10d17f3f7778d2abe324739c1c",
+  "payload": {
+    "2442380": {
+      "success": true,
+      "data": {
+        "steam_appid": 2442380,
+        "name": "SNK VS. CAPCOM SVC CHAOS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 377
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:34aec10764e81d273b1fec72e9e94aa7212bc105102063e451baa5311175c91d"
+}

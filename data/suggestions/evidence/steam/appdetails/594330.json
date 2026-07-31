@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 594330,
+  "fetchedAt": "2026-07-31T03:24:07.570Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=594330&cc=us&l=english",
+  "responseDigest": "sha256:ed3accaa2e9d5726ea99394bba44c769e087a1e11cd11ccff646b818ab1118cb",
+  "payload": {
+    "594330": {
+      "success": true,
+      "data": {
+        "steam_appid": 594330,
+        "name": "Visage",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 29, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8682
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2239e4e7bc36a9a92367394b458a587e4e446b8345758d33fa89f360ab0b3fac"
+}

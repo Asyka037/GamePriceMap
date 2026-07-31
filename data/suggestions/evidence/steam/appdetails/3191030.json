@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3191030,
+  "fetchedAt": "2026-07-31T03:30:10.382Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3191030&cc=us&l=english",
+  "responseDigest": "sha256:574da58deed88cf126f88a781075656522b6842cd3e1a8fe542523c3711728a1",
+  "payload": {
+    "3191030": {
+      "success": true,
+      "data": {
+        "steam_appid": 3191030,
+        "name": "Nubby's Number Factory",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 7, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17734
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4c7cc72e83b54922adf037028f598078f623a545325481b67810db0d59b7f26d"
+}

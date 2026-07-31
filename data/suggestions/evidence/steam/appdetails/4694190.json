@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4694190,
+  "fetchedAt": "2026-07-31T03:18:53.477Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4694190&cc=us&l=english",
+  "responseDigest": "sha256:b6fc199435321f72ea0592d80389a380dfe039ec9900dd704ff689689ec2cba5",
+  "payload": {
+    "4694190": {
+      "success": true,
+      "data": {
+        "steam_appid": 4694190,
+        "name": "Le Mans Ultimate - US Track Pack 1",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1799,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f8e8900cdd13dabaabafc13985adf6fa959c96cb66c16a405d4aa7e9ad03c098"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1049590,
+  "fetchedAt": "2026-07-31T02:51:25.495Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1049590&cc=us&l=english",
+  "responseDigest": "sha256:31b77cd7b56ffcc33f2d5c48754cde70f9dda23728eb995fc67b9a6573ed1db5",
+  "payload": {
+    "1049590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1049590,
+        "name": "Eternal Return",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 19, 2023"
+        },
+        "recommendations": {
+          "total": 110
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c533365a12b71c52e43d67eed0ba4b44fca75d9bf9dbe5eed4872ea4f4e8ba5d"
+}

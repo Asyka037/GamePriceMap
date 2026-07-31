@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 418460,
+  "fetchedAt": "2026-07-31T03:30:00.290Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=418460&cc=us&l=english",
+  "responseDigest": "sha256:67165d965c2f3ede17a6adb83b5241a016f8ee6f400ab35febf9dece340c4743",
+  "payload": {
+    "418460": {
+      "success": true,
+      "data": {
+        "steam_appid": 418460,
+        "name": "Rising Storm 2: Vietnam",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 42491
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:207f87c82fdfefe025bab5be7cf53415b1da92c52cb8fbfb8b2d89a969200782"
+}

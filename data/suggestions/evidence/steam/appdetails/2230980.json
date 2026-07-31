@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2230980,
+  "fetchedAt": "2026-07-31T03:03:51.160Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2230980&cc=us&l=english",
+  "responseDigest": "sha256:a27e75c8af84c2b9796cd3f47ecd77a19d891b140e5e9682d39bf05adb98c2b3",
+  "payload": {
+    "2230980": {
+      "success": true,
+      "data": {
+        "steam_appid": 2230980,
+        "name": "Caribbean Legend",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 15, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 749,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 2879
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1b3717f56a61c51b3caf447e08809eb5c18c292bc0997cdb272034cd2580e803"
+}

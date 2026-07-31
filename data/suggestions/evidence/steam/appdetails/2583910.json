@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2583910,
+  "fetchedAt": "2026-07-31T04:13:08.595Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2583910&cc=us&l=english",
+  "responseDigest": "sha256:f1e7e64683634e29816a45f8a284b2460d00f42907de3431b29774b29435d6ec",
+  "payload": {
+    "2583910": {
+      "success": true,
+      "data": {
+        "steam_appid": 2583910,
+        "name": "Warhammer 40,000: Battlesector - T'au",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 15, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:99927b200f38acd291ba3e7cd384bc949471516cc7f94c718727f891164969bf"
+}

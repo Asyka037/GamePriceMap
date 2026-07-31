@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2881660,
+  "fetchedAt": "2026-07-31T03:20:53.695Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2881660&cc=us&l=english",
+  "responseDigest": "sha256:7c10c227c33b2ccf3560c897358aedba729665addaebe9c6024e18543258599c",
+  "payload": {
+    "2881660": {
+      "success": true,
+      "data": {
+        "steam_appid": 2881660,
+        "name": "Holy Shoot",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 779,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 245
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4514bde7d0c3a8e312759e3e2cd8593f772eb4a4ab88d2a3dc0d6fe8de7c380d"
+}

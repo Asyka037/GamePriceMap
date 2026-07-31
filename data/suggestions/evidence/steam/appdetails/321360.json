@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 321360,
+  "fetchedAt": "2026-07-31T03:22:19.937Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=321360&cc=us&l=english",
+  "responseDigest": "sha256:5cd748712b6ca1a39b3a36691527d62c9f5b83340ec8133b563899969525f9d9",
+  "payload": {
+    "321360": {
+      "success": true,
+      "data": {
+        "steam_appid": 321360,
+        "name": "Primal Carnage: Extinction",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 3, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8260
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2361e0a49e9c77078069b6aeca7579b686d3fc99d9a77f228f78fb45fc0fb7d1"
+}

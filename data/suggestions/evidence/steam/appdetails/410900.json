@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 410900,
+  "fetchedAt": "2026-07-31T02:50:42.497Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=410900&cc=us&l=english",
+  "responseDigest": "sha256:df0c3f22898c2369103fbed9fa32e21788b138667790d17ea45ab19d33079723",
+  "payload": {
+    "410900": {
+      "success": true,
+      "data": {
+        "steam_appid": 410900,
+        "name": "Forts",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 19, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 899,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 20985
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ea48998c66b33b0e6957b7ba42a495e3a987aa43183eb2924e725b6e7de4819f"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4739950,
+  "fetchedAt": "2026-07-31T03:03:40.696Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4739950&cc=us&l=english",
+  "responseDigest": "sha256:e04ca6b7dfe92c46122731cd9d719c590ef67655e9bc97c5803e1b7923d93977",
+  "payload": {
+    "4739950": {
+      "success": true,
+      "data": {
+        "steam_appid": 4739950,
+        "name": "Value Pack – FOR HONOR",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:847f61d0952badb1c5c6c2417d9c0a42d38c12cac14e5e78641aaf6615868875"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 695680,
+  "fetchedAt": "2026-07-31T03:17:45.005Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=695680&cc=us&l=english",
+  "responseDigest": "sha256:6f59ef7dca7a09fc7da13c735bbdf3dd9ad5bf4bb1a0d48228479575ca3b5d58",
+  "payload": {
+    "695680": {
+      "success": true,
+      "data": {
+        "steam_appid": 695680,
+        "name": "theHunter: Call of the Wild™ - Medved-Taiga",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 399,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 742
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7de041d9e9342dfd60164121bea4eb7f218debbc50a658f68c7fb00ad66d3ce6"
+}

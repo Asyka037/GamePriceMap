@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 986130,
+  "fetchedAt": "2026-07-31T02:43:36.957Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=986130&cc=us&l=english",
+  "responseDigest": "sha256:4af037dd8538ab9b7e2679bf34a676267d19e4f24155c9c5383e87902cf005bb",
+  "payload": {
+    "986130": {
+      "success": true,
+      "data": {
+        "steam_appid": 986130,
+        "name": "Shadows of Doubt",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 999,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 14485
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1cc920a83a32115655faab7d2ee705c70ec0aa70d20d65ed614b05658056fcbe"
+}

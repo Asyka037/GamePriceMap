@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4447660,
+  "fetchedAt": "2026-07-31T03:49:11.418Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4447660&cc=us&l=english",
+  "responseDigest": "sha256:8c8399652f6cc1a65fd9cb2d155bf4da28e0aaecbb04f000085a516a2ebfc582",
+  "payload": {
+    "4447660": {
+      "success": true,
+      "data": {
+        "steam_appid": 4447660,
+        "name": "Warframe: TennoCon 2026 Digital Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 4, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:db0fc8b5b98ae51f569af1cb6bdd699dcfc8f54be73a4ba98c433793eabe6197"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3500390,
+  "fetchedAt": "2026-07-31T03:43:42.608Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3500390&cc=us&l=english",
+  "responseDigest": "sha256:75c2e60e8a13761195f42b051c308653af7ed471a620bc9d6edf697503608d14",
+  "payload": {
+    "3500390": {
+      "success": true,
+      "data": {
+        "steam_appid": 3500390,
+        "name": "Mega Man Star Force Legacy Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 636
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9385f341147e6a3ed2d33f37aa07e2d7f420550e80ba8de84fae22ff4009b50d"
+}

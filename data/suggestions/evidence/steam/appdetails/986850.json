@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 986850,
+  "fetchedAt": "2026-07-31T04:15:56.463Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=986850&cc=us&l=english",
+  "responseDigest": "sha256:51028f0cef14e554e997398dfcc6bbb0031e799c61eefe4825f20925fc7f8deb",
+  "payload": {
+    "986850": {
+      "success": true,
+      "data": {
+        "steam_appid": 986850,
+        "name": "theHunter: Call of the Wild™ - Parque Fernando",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 13, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 399,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 346
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ce7f148816a343d1d97c26273b9cb1f67b1829d89d7915d98b6759bf338835b8"
+}

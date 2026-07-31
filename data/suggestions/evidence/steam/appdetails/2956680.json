@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2956680,
+  "fetchedAt": "2026-07-31T02:48:42.683Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2956680&cc=us&l=english",
+  "responseDigest": "sha256:200c9a805324d1a7d5a87ead29dc8c58583f5fea65d5018fead6ab421e3bd8c1",
+  "payload": {
+    "2956680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2956680,
+        "name": "LORT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3658
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eeee8c1f79b073cc5cbc4beadbca3c5cbbd7b4c855013451aa9e8bd77cd32c67"
+}

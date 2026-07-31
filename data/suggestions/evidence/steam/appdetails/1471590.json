@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1471590,
+  "fetchedAt": "2026-07-31T04:08:41.552Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1471590&cc=us&l=english",
+  "responseDigest": "sha256:4c130f9afd291c7f877833390650da6d8db0b003217dc737bd96d6778d93812f",
+  "payload": {
+    "1471590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1471590,
+        "name": "Planet Zoo: Aquatic Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 8, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 317
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fefd5d79f1fd8be4de860771823044afdc26fc92a802a9588b20e8785be17495"
+}

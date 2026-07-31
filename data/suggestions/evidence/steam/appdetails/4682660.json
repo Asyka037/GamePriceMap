@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4682660,
+  "fetchedAt": "2026-07-31T03:22:12.422Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4682660&cc=us&l=english",
+  "responseDigest": "sha256:c05938531f208f51c10db7d0c51c1bae9d525369e411f5947e63cccbf5abeb10",
+  "payload": {
+    "4682660": {
+      "success": true,
+      "data": {
+        "steam_appid": 4682660,
+        "name": "Femme Fatality",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0f94b0a12a77bbb19ee41b3f8e3a52d1ee9cdf46c64f3e3ea358379b24681a5f"
+}

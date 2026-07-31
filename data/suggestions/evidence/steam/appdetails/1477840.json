@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1477840,
+  "fetchedAt": "2026-07-31T03:47:29.137Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1477840&cc=us&l=english",
+  "responseDigest": "sha256:c79ccf27244fc63638b0a49956558043844e14df96eac9e9c62b877a97b7af83",
+  "payload": {
+    "1477840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1477840,
+        "name": "American Truck Simulator - Cabin Accessories",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 324
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7cd82715e56c6b0b162bee4abf2cf0c85f9cdbf818be5e9ab5215dfbadc76422"
+}

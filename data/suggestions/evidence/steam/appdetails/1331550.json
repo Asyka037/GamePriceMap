@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1331550,
+  "fetchedAt": "2026-07-31T02:44:41.587Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1331550&cc=us&l=english",
+  "responseDigest": "sha256:cc0f3009750da1942175f1390dc0dbd14c658c760e8575a0e30cb479d32b335f",
+  "payload": {
+    "1331550": {
+      "success": true,
+      "data": {
+        "steam_appid": 1331550,
+        "name": "Big Ambitions",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 10, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2599,
+          "final": 2599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12758
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0c81efeabfd26a87782850def96a23c3122c4417320ca8b305416c4c3fef14ce"
+}

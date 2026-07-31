@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2287520,
+  "fetchedAt": "2026-07-31T03:13:47.063Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2287520&cc=us&l=english",
+  "responseDigest": "sha256:ca3477e7315a5fa2c3f260bfef0f4ceeeb0b6e34369ee4bd063faaf9bde19ec2",
+  "payload": {
+    "2287520": {
+      "success": true,
+      "data": {
+        "steam_appid": 2287520,
+        "name": "Five Nights at Freddy's: Help Wanted 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 14, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5045
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ecc1074ab371755e2527cf973a1d16ec78112ec20e3a59d607a33e054c9946b"
+}

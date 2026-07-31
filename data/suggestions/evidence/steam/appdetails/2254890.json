@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2254890,
+  "fetchedAt": "2026-07-31T02:55:18.385Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2254890&cc=us&l=english",
+  "responseDigest": "sha256:a7d7a8992f0bf99c522005a1db1a8477534a86a29535535716df71175daa9a55",
+  "payload": {
+    "2254890": {
+      "success": true,
+      "data": {
+        "steam_appid": 2254890,
+        "name": "The Killing Antidote",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7359
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:475d4599e7380fd156ae6f9c5c1f28ff8f6edbca18e68000268573626ba3907e"
+}

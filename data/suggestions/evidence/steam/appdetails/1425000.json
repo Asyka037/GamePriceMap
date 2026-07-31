@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1425000,
+  "fetchedAt": "2026-07-31T03:40:28.893Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1425000&cc=us&l=english",
+  "responseDigest": "sha256:ea86e662cee2cab01bcdacaef618f3a76d7e0bf13ac14f782052573b8cabf342",
+  "payload": {
+    "1425000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1425000,
+        "name": "Endless Alice",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2266
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:294a4921862ecba650c45bd0d2e7ab1282e9f84e88c66c4b89ea9bff5e547961"
+}

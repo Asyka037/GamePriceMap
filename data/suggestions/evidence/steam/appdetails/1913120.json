@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1913120,
+  "fetchedAt": "2026-07-31T03:00:27.659Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1913120&cc=us&l=english",
+  "responseDigest": "sha256:f1d47edb9cc9e5b09250b4c8acf7979153a2ee2b197a47f973030c956ffdf946",
+  "payload": {
+    "1913120": {
+      "success": true,
+      "data": {
+        "steam_appid": 1913120,
+        "name": "Tears of Metal",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2249,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 1588
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8518b8153264c9127de1a923a98650a7f4f2fceeb6c893827916e3f222cf8a17"
+}

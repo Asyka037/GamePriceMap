@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2721670,
+  "fetchedAt": "2026-07-31T03:03:05.537Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2721670&cc=us&l=english",
+  "responseDigest": "sha256:d2f6ad67be45d191fa0c728ffdca3568675482378af370532b24d1e64a9d4b4b",
+  "payload": {
+    "2721670": {
+      "success": true,
+      "data": {
+        "steam_appid": 2721670,
+        "name": "Starfield - Shattered Space",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 30, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1699,
+          "discount_percent": 15
+        },
+        "recommendations": {
+          "total": 3789
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0b0d10601538789e218b20b3d9b5354c0640cc1205d9b0843f5b24283195a771"
+}

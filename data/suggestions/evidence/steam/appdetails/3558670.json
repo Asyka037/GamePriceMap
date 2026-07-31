@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3558670,
+  "fetchedAt": "2026-07-31T02:54:08.880Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3558670&cc=us&l=english",
+  "responseDigest": "sha256:ba443415819f08fd7cae8858a6410ecf844e380aac7ec510e927f6897c06d59f",
+  "payload": {
+    "3558670": {
+      "success": true,
+      "data": {
+        "steam_appid": 3558670,
+        "name": "Tomb Raider: Legacy of Atlantis",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Feb 12, 2027"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f3d1064e573678c890aa4879d076c0aa85c4c4260b1737d2f299377bf2ea04f9"
+}

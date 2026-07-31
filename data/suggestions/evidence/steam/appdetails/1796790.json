@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1796790,
+  "fetchedAt": "2026-07-31T03:02:19.135Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1796790&cc=us&l=english",
+  "responseDigest": "sha256:5aa47bbc71e1bc9676984d595d4b4a3c5221afd7b058e6d06824c53230a59159",
+  "payload": {
+    "1796790": {
+      "success": true,
+      "data": {
+        "steam_appid": 1796790,
+        "name": "Chef RPG",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2486
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ac1d84b746ba850107400609b69c45085451a03b1309a8c569b6e7c2e44d5304"
+}

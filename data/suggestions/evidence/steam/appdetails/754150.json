@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 754150,
+  "fetchedAt": "2026-07-31T03:04:16.190Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=754150&cc=us&l=english",
+  "responseDigest": "sha256:f8e60e6eaebe1863f2f130b59293ce149c338326433317dfb0c5e84dda49838f",
+  "payload": {
+    "754150": {
+      "success": true,
+      "data": {
+        "steam_appid": 754150,
+        "name": "Rolling Line",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2410
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3b4c92d2f0dec4cd0edc91ec5e46a98192c24b9348a950c9fc12e35a74442ba3"
+}

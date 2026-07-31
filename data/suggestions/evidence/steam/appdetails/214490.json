@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 214490,
+  "fetchedAt": "2026-07-31T02:52:26.941Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=214490&cc=us&l=english",
+  "responseDigest": "sha256:178f10c72c5fc6ea6022fbdbb4f3a787c4bbb6a37b1e2670e1c5b5af8b659505",
+  "payload": {
+    "214490": {
+      "success": true,
+      "data": {
+        "steam_appid": 214490,
+        "name": "Alien: Isolation",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 6, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 48159
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:624310abd5f4ed1e568550df9840dd3b24a93dc1d2080dc6a096e3c3f38e92e3"
+}

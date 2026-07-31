@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2473350,
+  "fetchedAt": "2026-07-31T03:17:53.862Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2473350&cc=us&l=english",
+  "responseDigest": "sha256:9f9b0ae467072e014c25c76f16932eb253b4ad45a7d2ffdb8adb8c132715193e",
+  "payload": {
+    "2473350": {
+      "success": true,
+      "data": {
+        "steam_appid": 2473350,
+        "name": "HUNTDOWN: OVERTIME",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 772
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8553411c2b6b2bf3a93293ac64cc054539993fdc949ae617c53ae67d71d254e4"
+}

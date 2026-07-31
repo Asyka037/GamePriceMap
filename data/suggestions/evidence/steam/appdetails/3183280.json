@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3183280,
+  "fetchedAt": "2026-07-31T03:10:19.609Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3183280&cc=us&l=english",
+  "responseDigest": "sha256:99dcf26f03d52fafacaf48dbe730fbd4d7343b2eb13e63d9137339bf57177245",
+  "payload": {
+    "3183280": {
+      "success": true,
+      "data": {
+        "steam_appid": 3183280,
+        "name": "Game of Thrones: Kingsroad",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2025"
+        },
+        "recommendations": {
+          "total": 1244
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3ca5134632519146f3cdc74cd094217ccc05f5d5c538e12c436011a17fe9d70c"
+}

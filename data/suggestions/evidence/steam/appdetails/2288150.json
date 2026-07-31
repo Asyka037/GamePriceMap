@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2288150,
+  "fetchedAt": "2026-07-31T03:22:39.117Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2288150&cc=us&l=english",
+  "responseDigest": "sha256:f729667c78acad9982e069135bcbb23871fdddd8e14354eac7be25054735fced",
+  "payload": {
+    "2288150": {
+      "success": true,
+      "data": {
+        "steam_appid": 2288150,
+        "name": "ROMANCE OF THE THREE KINGDOMS 8 REMAKE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 3599,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 3088
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dfb7d6175f11d9a755ef882f9c40dcd18ce556e38236a94bca4ab25bf4b4bf42"
+}

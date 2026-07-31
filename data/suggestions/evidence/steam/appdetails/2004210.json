@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2004210,
+  "fetchedAt": "2026-07-31T04:13:25.045Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2004210&cc=us&l=english",
+  "responseDigest": "sha256:7fef1a7582f5f8e934bd3ff8597dfb04a3843cac2920d088b23dd572344c8c71",
+  "payload": {
+    "2004210": {
+      "success": true,
+      "data": {
+        "steam_appid": 2004210,
+        "name": "Euro Truck Simulator 2 - West Balkans",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 19, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1757
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0ee03408849b7e6c9cfd647dc403039f9c1ff19d9689bf7b2da2182ea12f1cfb"
+}

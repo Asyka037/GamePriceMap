@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 250760,
+  "fetchedAt": "2026-07-31T03:12:48.437Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=250760&cc=us&l=english",
+  "responseDigest": "sha256:ae18b7d7b76b839f41a8d84ca50c5e8ac00a02a01f3e3606e141198c64e62dca",
+  "payload": {
+    "250760": {
+      "success": true,
+      "data": {
+        "steam_appid": 250760,
+        "name": "Shovel Knight: Treasure Trove",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 26, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14165
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d396330494fd26a4eb144b85902fda145fd0b5105e6256deda0afc948381eb30"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4468750,
+  "fetchedAt": "2026-07-31T03:20:14.986Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4468750&cc=us&l=english",
+  "responseDigest": "sha256:919b39583b0462df6b992dc4aa6d4e078c1f2dac4362a9f18d6ae404b443d241",
+  "payload": {
+    "4468750": {
+      "success": true,
+      "data": {
+        "steam_appid": 4468750,
+        "name": "LEGO® Batman™: Legacy of the Dark Knight Deluxe Edition Upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1999,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:65f5a580c7d0e9b9a09151331285ceeb8e2397fea75591bc930b98a3884eb0b8"
+}

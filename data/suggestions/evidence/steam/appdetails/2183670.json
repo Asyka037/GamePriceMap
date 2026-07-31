@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2183670,
+  "fetchedAt": "2026-07-31T03:15:45.255Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2183670&cc=us&l=english",
+  "responseDigest": "sha256:f7e4c970e99a68f5afa46af8a54b5de9afdb078a4c5c1d28454cbd857e834137",
+  "payload": {
+    "2183670": {
+      "success": true,
+      "data": {
+        "steam_appid": 2183670,
+        "name": "Hotel Galactic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 570
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a8302a361be4a6b0eb26a90a5892dda7bcddddaaa02b1afd504651ee071ddc3a"
+}

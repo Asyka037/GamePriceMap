@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 222480,
+  "fetchedAt": "2026-07-31T02:56:18.795Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=222480&cc=us&l=english",
+  "responseDigest": "sha256:4ab4038dc348ece89e530dbcb0ee1bba8d5abeb83d2d58bed8ab14af026d62b4",
+  "payload": {
+    "222480": {
+      "success": true,
+      "data": {
+        "steam_appid": 222480,
+        "name": "Resident Evil Revelations",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 20, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 11516
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a3d619b64a9dd363681622850c61fa0bd0401f8f474a17f719d73b6acb273828"
+}

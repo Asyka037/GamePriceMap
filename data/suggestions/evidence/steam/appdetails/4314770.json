@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4314770,
+  "fetchedAt": "2026-07-31T03:51:39.574Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4314770&cc=us&l=english",
+  "responseDigest": "sha256:b7285548fb829350c948dad8d9bb7dac6cea42a6084c8c5011f51ebaad07b57c",
+  "payload": {
+    "4314770": {
+      "success": true,
+      "data": {
+        "steam_appid": 4314770,
+        "name": "SnekromancY",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 497,
+          "discount_percent": 17
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed8c101a2d3126d6eab0907364ccc645e70014a0d90b418b0aa005e38cfdd65a"
+}

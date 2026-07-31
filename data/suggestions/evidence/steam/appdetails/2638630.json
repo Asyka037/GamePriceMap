@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2638630,
+  "fetchedAt": "2026-07-31T03:30:33.612Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2638630&cc=us&l=english",
+  "responseDigest": "sha256:018da09b5f7de4b1ae5e390e6bc1996789b57d17727810b60abc139caaf2bcac",
+  "payload": {
+    "2638630": {
+      "success": true,
+      "data": {
+        "steam_appid": 2638630,
+        "name": "American Truck Simulator - Farm Machinery",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 108
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9eaf7cef0c6c2c183f6aa10dd4e948549a4c1e11e153d8f7465fa8bd8e200276"
+}

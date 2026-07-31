@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1817490,
+  "fetchedAt": "2026-07-31T03:03:15.766Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1817490&cc=us&l=english",
+  "responseDigest": "sha256:084d8f239716782bffd4d53a2a35e3d25c21368e259be2e3aa7ddd6cd19d702f",
+  "payload": {
+    "1817490": {
+      "success": true,
+      "data": {
+        "steam_appid": 1817490,
+        "name": "Poppy Playtime - Chapter 2",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 5, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13505
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:40b0b2b2120aa270f6705f322f75b97bb596eb32a17193bb278d57a31183825d"
+}

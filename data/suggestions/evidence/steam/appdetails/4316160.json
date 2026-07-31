@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4316160,
+  "fetchedAt": "2026-07-31T03:45:43.715Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4316160&cc=us&l=english",
+  "responseDigest": "sha256:e803c33e873d3f97e0a6cd98d2b6281340346ba0171a79e17750869a106cdfdb",
+  "payload": {
+    "4316160": {
+      "success": true,
+      "data": {
+        "steam_appid": 4316160,
+        "name": "Warframe: Fulmin Battlekit",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 159,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3d024d1755951afa4110cabb6bbf2a91682b78d56b5df39fb696bec9a6cf938d"
+}

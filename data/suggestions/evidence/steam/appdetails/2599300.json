@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2599300,
+  "fetchedAt": "2026-07-31T03:45:46.992Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2599300&cc=us&l=english",
+  "responseDigest": "sha256:b16f3ce0d47b4560e2b81a056542f03eb3fb0f3935fec3957697ba0c42e95832",
+  "payload": {
+    "2599300": {
+      "success": true,
+      "data": {
+        "steam_appid": 2599300,
+        "name": "Dead Signal",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 999
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2e76d9a40a1e81fbdec9798a0f94bd651d58875d2c83c595761680c84f588715"
+}

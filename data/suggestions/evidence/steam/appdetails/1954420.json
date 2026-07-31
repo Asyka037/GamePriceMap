@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1954420,
+  "fetchedAt": "2026-07-31T02:49:24.288Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1954420&cc=us&l=english",
+  "responseDigest": "sha256:5963ab5ce21770a1408fd57255aa251a9c9b211d2f0502042ed5f25d00be34a9",
+  "payload": {
+    "1954420": {
+      "success": true,
+      "data": {
+        "steam_appid": 1954420,
+        "name": "Riichi City - Japanese Mahjong",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 8, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:158c8936e4df6940c51ff911bfe0abbbb259ddaff83e197f1e3e81410c3ead2c"
+}

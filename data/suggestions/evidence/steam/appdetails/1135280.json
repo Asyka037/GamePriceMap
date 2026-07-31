@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1135280,
+  "fetchedAt": "2026-07-31T02:57:55.593Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1135280&cc=us&l=english",
+  "responseDigest": "sha256:afb1534278542103e174f71495996b8024b30c97e777a158a2726b8bbdd6a367",
+  "payload": {
+    "1135280": {
+      "success": true,
+      "data": {
+        "steam_appid": 1135280,
+        "name": "Dead by Daylight - Stranger Things Chapter",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 17, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3289
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3a5733f1822e9e188cf55b2e583b0289b7501cb95a9734ad620408680704bb9b"
+}

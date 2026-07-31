@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2891710,
+  "fetchedAt": "2026-07-31T03:30:27.066Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2891710&cc=us&l=english",
+  "responseDigest": "sha256:7c24b91260cf5471c27b652db8e1d694ac74e6f8d10dc971b066ec1fcea9ede4",
+  "payload": {
+    "2891710": {
+      "success": true,
+      "data": {
+        "steam_appid": 2891710,
+        "name": "Total War: WARHAMMER III - Malakai – Thrones of Decay",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1062
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c1b2da45c75038710984860bcb2f0162292608726ad59d8ac2d6cecc3a3cfa20"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1745440,
+  "fetchedAt": "2026-07-31T02:46:25.372Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1745440&cc=us&l=english",
+  "responseDigest": "sha256:5f4ccaf5719a111e3f65135de72aa65dba257a0ed6b3254c0497e360a3ddeae7",
+  "payload": {
+    "1745440": {
+      "success": true,
+      "data": {
+        "steam_appid": 1745440,
+        "name": "Destiny 2: Triumphant Silver Bundle",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 194
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2baf85813fa38a7da85bb976931a33dac43d1503ab0b91013124ee2ad73af382"
+}

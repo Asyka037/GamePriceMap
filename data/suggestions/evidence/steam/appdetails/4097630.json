@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4097630,
+  "fetchedAt": "2026-07-31T03:19:12.993Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4097630&cc=us&l=english",
+  "responseDigest": "sha256:3e8e62c18315318187577d8cbac2258efa05296ff88549fbbaa18317e8cc71a4",
+  "payload": {
+    "4097630": {
+      "success": true,
+      "data": {
+        "steam_appid": 4097630,
+        "name": "HITMAN WOA - The Eminem vs. Slim Shady Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 126
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:897b8d2ba15de23c0fbeb1a7b3206d668b90d97b81bef52283c4aa68c1d5b226"
+}

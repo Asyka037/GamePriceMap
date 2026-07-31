@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 287290,
+  "fetchedAt": "2026-07-31T02:56:17.278Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=287290&cc=us&l=english",
+  "responseDigest": "sha256:036037f0656acbd6d0ef44269b6945b069c19aff88fea00ad10e8975753897a4",
+  "payload": {
+    "287290": {
+      "success": true,
+      "data": {
+        "steam_appid": 287290,
+        "name": "Resident Evil Revelations 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 24, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 25238
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ee2d9e1dcd79eecd2c92d4373bd8e6aee1d8f35486306e8113a9bc6469b0ae8b"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4286120,
+  "fetchedAt": "2026-07-31T02:58:08.798Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4286120&cc=us&l=english",
+  "responseDigest": "sha256:868e22b73ca34f50718df1fc2749767fea11ee77ae3b06bb96716b52ef30b588",
+  "payload": {
+    "4286120": {
+      "success": true,
+      "data": {
+        "steam_appid": 4286120,
+        "name": "Photomaly",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 559,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 815
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1235a18479b9fafc8fcdba6b341c0302ac87b33edbfc9e8abe19faae12551fab"
+}

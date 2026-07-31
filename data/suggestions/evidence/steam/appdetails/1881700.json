@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1881700,
+  "fetchedAt": "2026-07-31T03:07:01.903Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1881700&cc=us&l=english",
+  "responseDigest": "sha256:eb054f7babc77a0543d44bc74a432987f41fa6cf69a86a2f73576efd4bd5f11c",
+  "payload": {
+    "1881700": {
+      "success": true,
+      "data": {
+        "steam_appid": 1881700,
+        "name": "Undawn",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 13, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0be0726e6e000886c6d91eec9b96025d77506b8d52b72150014d9b34072abdce"
+}

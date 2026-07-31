@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 436780,
+  "fetchedAt": "2026-07-31T02:42:54.325Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=436780&cc=us&l=english",
+  "responseDigest": "sha256:b7d3d2fee9a45f4564f3083afcec9e945a12c9c1fd5aec8cde240ae44ff21898",
+  "payload": {
+    "436780": {
+      "success": true,
+      "data": {
+        "steam_appid": 436780,
+        "name": "Tavern Keeper 🍻",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4484
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:996441bab720e816ca1e9baf5ea4bbc20d3ac6fdb5627fb4c38e9993f637fdba"
+}

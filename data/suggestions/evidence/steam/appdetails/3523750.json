@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3523750,
+  "fetchedAt": "2026-07-31T02:54:51.937Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3523750&cc=us&l=english",
+  "responseDigest": "sha256:f268ccca05128205991631c634c6148ea6ba664f5b424754baf4fc6204c0ac70",
+  "payload": {
+    "3523750": {
+      "success": true,
+      "data": {
+        "steam_appid": 3523750,
+        "name": "Down with the Ship",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 754
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:07ac247247b6979ae94ac4f22152f6606f5a001c25172d96a38dbcf3f04084b5"
+}

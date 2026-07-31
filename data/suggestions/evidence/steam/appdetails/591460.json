@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 591460,
+  "fetchedAt": "2026-07-31T03:05:35.474Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=591460&cc=us&l=english",
+  "responseDigest": "sha256:05d91b5aea705bd3cb1a7c16ebabacf04daddaff70da984f89ff293da265fccb",
+  "payload": {
+    "591460": {
+      "success": true,
+      "data": {
+        "steam_appid": 591460,
+        "name": "Parkasaurus",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2691
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:01399bc90b38c75799651cc7d2be027077fa1c7f420a784c3f323b7933238223"
+}

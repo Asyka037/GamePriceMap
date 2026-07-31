@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1911520,
+  "fetchedAt": "2026-07-31T03:15:18.833Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1911520&cc=us&l=english",
+  "responseDigest": "sha256:53c26b0794823d449ac2443c337f548e85ed12989acc9979c8f22b6bd2a69ff2",
+  "payload": {
+    "1911520": {
+      "success": true,
+      "data": {
+        "steam_appid": 1911520,
+        "name": "Call to Arms - Gates of Hell: Talvisota",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 8, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 621
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:03e85ec05e6a833e733ffb492c7fcff395e8965dd333d2d86dadc9d712edc238"
+}

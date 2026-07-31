@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4018550,
+  "fetchedAt": "2026-07-31T02:55:58.143Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4018550&cc=us&l=english",
+  "responseDigest": "sha256:32e9704cc71c4cf721cdaeaab3859846a634c74463f60333d0222f86523cdc3d",
+  "payload": {
+    "4018550": {
+      "success": true,
+      "data": {
+        "steam_appid": 4018550,
+        "name": "Cat Isle",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 509,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f7bc46551d7a6ff414feadd89b68c73e929a8ef9208313bc2041f45f89dc9ee6"
+}

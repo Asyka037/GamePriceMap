@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3181500,
+  "fetchedAt": "2026-07-31T03:23:54.378Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3181500&cc=us&l=english",
+  "responseDigest": "sha256:0410a87068abc92bf75489adcfd9eb910523493c201db42cb151151d484a1677",
+  "payload": {
+    "3181500": {
+      "success": true,
+      "data": {
+        "steam_appid": 3181500,
+        "name": "Age of Wonders 4: Giant Kings",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 1, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 232
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0ddc9c919f36ce614721eaaa730c511ea8b92dae3a59cf00acb1ad89b492656d"
+}

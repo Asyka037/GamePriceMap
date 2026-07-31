@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4366330,
+  "fetchedAt": "2026-07-31T02:51:41.810Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4366330&cc=us&l=english",
+  "responseDigest": "sha256:04fd67202bf1678dbd202d096a9db6013bc398860fdcf0cac4508cdaf0197b97",
+  "payload": {
+    "4366330": {
+      "success": true,
+      "data": {
+        "steam_appid": 4366330,
+        "name": "Rift Wizard 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 221
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ec3a703c0f28df993aaa8774e13fb9a768ef74cbb23e6274f03a55d9145c547a"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3594780,
+  "fetchedAt": "2026-07-31T03:55:55.861Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3594780&cc=us&l=english",
+  "responseDigest": "sha256:17130542519257b85a23cdb596b89c590a1ac67155a287d08d57a31c98a8e422",
+  "payload": {
+    "3594780": {
+      "success": true,
+      "data": {
+        "steam_appid": 3594780,
+        "name": "Blackjack 21: Blackjackist",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 29, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9bd13f0e1b455a70d1d9dc2526458bfc49b399aab4d0cfcfb8a1c6a5fba8eb1"
+}

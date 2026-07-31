@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1268590,
+  "fetchedAt": "2026-07-31T04:16:36.038Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1268590&cc=us&l=english",
+  "responseDigest": "sha256:1e7d83fb736f055dcb5fff5996fb23269c5b6364a40c4af0c5ce9be2a836f959",
+  "payload": {
+    "1268590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1268590,
+        "name": "Millennia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2972
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4d9f74cd4591c373f8cb43a709b2b7ae8b22dd23f98db52a6118ec798257e99d"
+}

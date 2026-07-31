@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4742640,
+  "fetchedAt": "2026-07-31T03:00:32.099Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4742640&cc=us&l=english",
+  "responseDigest": "sha256:d621f61c84ebde5f09999c362c152edbfaf3b9ce5f89407baab7f1f48a5bdd43",
+  "payload": {
+    "4742640": {
+      "success": true,
+      "data": {
+        "steam_appid": 4742640,
+        "name": "DragonSword Awakening - Deluxe Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7a7e512848453ea48321aec41d37f52b19e5895689465bea3374e37ccdc975bd"
+}

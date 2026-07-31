@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 242050,
+  "fetchedAt": "2026-07-31T02:48:35.372Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=242050&cc=us&l=english",
+  "responseDigest": "sha256:ddd9e353740585e85439d22a1448c3c95906f54e14d19990e329b33d26d355e0",
+  "payload": {
+    "242050": {
+      "success": true,
+      "data": {
+        "steam_appid": 242050,
+        "name": "Assassin’s Creed® IV Black Flag™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": ""
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 71937
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5879671f3cf47c7cdb784b1dc6abd7aba38fa5f27e0751b2ce22a6a7fa4e54a0"
+}

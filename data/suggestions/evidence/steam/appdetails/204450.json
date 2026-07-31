@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 204450,
+  "fetchedAt": "2026-07-31T03:47:12.663Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=204450&cc=us&l=english",
+  "responseDigest": "sha256:217b1d6e052034a7d3aeeea2658e99d9cf83d959e525096886d95cdeea39aef2",
+  "payload": {
+    "204450": {
+      "success": true,
+      "data": {
+        "steam_appid": 204450,
+        "name": "Call of Juarez: Gunslinger",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 22, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 149,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 20634
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:50195e75c684e869111ab6517f89e01ccc3f299233598543b6f622ef8a4b0af1"
+}

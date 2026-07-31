@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 413420,
+  "fetchedAt": "2026-07-31T03:07:58.357Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=413420&cc=us&l=english",
+  "responseDigest": "sha256:4ae2aef70699438a45815aab330b74d7d50bbe3e7f3ab4aafd8c3cfcdcfc417a",
+  "payload": {
+    "413420": {
+      "success": true,
+      "data": {
+        "steam_appid": 413420,
+        "name": "Danganronpa 2: Goodbye Despair",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 18, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 30434
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:046d4a5da39499e5c0235a4c8410eafca91b02bcac2410d46a31eb7041db1ad6"
+}

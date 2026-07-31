@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 246900,
+  "fetchedAt": "2026-07-31T02:50:14.704Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=246900&cc=us&l=english",
+  "responseDigest": "sha256:dd87566a7ed451f13f69791d998f81c3c4ccbc5505a846249680ddfafd118e7f",
+  "payload": {
+    "246900": {
+      "success": true,
+      "data": {
+        "steam_appid": 246900,
+        "name": "Viscera Cleanup Detail",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17992
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9fc2b083c62b34673dbdad7c97b6dbf046446308e4dded28e43f104fa759d14"
+}

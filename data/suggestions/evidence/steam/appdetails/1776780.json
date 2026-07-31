@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1776780,
+  "fetchedAt": "2026-07-31T03:47:39.013Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1776780&cc=us&l=english",
+  "responseDigest": "sha256:667b1759a4e2befbd839f1faf712132946eeda20562e788ca27781c7601e07cf",
+  "payload": {
+    "1776780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1776780,
+        "name": "The Sims™ 4 Werewolves Game Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 220
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f87040c087a08a9f8afd01396aafa2f9de15514f2bcfd75c1035c70c87b61744"
+}

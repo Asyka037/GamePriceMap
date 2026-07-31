@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 323190,
+  "fetchedAt": "2026-07-31T02:48:11.528Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=323190&cc=us&l=english",
+  "responseDigest": "sha256:eef70b0604645dbab92044d66f596343288f1fed1ace72167037eabbb98e4863",
+  "payload": {
+    "323190": {
+      "success": true,
+      "data": {
+        "steam_appid": 323190,
+        "name": "Frostpunk",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 24, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 449,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 113690
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e058c09c9afd88629ba7575b050c2e21660bee04e99a350aead00b4ba2121b1e"
+}

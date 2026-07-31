@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3116700,
+  "fetchedAt": "2026-07-31T03:20:32.862Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3116700&cc=us&l=english",
+  "responseDigest": "sha256:af8afe5f1b60ca72c037c29f5a8692db26fc95ade59780272a1b2d7decf14540",
+  "payload": {
+    "3116700": {
+      "success": true,
+      "data": {
+        "steam_appid": 3116700,
+        "name": "Reap and Rush",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 488
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:81cb0f4da0b543a1e7251086cb2b981e791acea613a9137425b03df37520f4ea"
+}

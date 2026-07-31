@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 947510,
+  "fetchedAt": "2026-07-31T02:45:30.840Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=947510&cc=us&l=english",
+  "responseDigest": "sha256:7aca765d250fb0d37ac9ce3a708583457967619d0b010ae28f0d84e8c896eadf",
+  "payload": {
+    "947510": {
+      "success": true,
+      "data": {
+        "steam_appid": 947510,
+        "name": "Sid Meier's Civilization® VI: Gathering Storm",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 13, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 2474
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fce61ce6b0395b95e7d461b274b1a6baa7594694e75e8a1fb978ea0e669ff5b0"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1263240,
+  "fetchedAt": "2026-07-31T03:09:40.609Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1263240&cc=us&l=english",
+  "responseDigest": "sha256:99e93d71a4b83e9b583b10442cf9c39d0966c45f1d2a1159665f2e3773a24475",
+  "payload": {
+    "1263240": {
+      "success": true,
+      "data": {
+        "steam_appid": 1263240,
+        "name": "Skate Story",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2626
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fa29834a45d78bf278ade1cb16621ca19b87a3956d843ac2f08b23f33768818a"
+}

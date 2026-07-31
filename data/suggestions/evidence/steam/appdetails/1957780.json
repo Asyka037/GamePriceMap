@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1957780,
+  "fetchedAt": "2026-07-31T03:10:21.099Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1957780&cc=us&l=english",
+  "responseDigest": "sha256:94783e036b6f690426c4d173a625f123a337aafb307fef4691ede7ed784555df",
+  "payload": {
+    "1957780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1957780,
+        "name": "Ghosts of Tabor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9085
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e1cb5e5cb63c92a4473dc2d87bae7a59712b0eaebef7b887b3cae247edc78a1e"
+}

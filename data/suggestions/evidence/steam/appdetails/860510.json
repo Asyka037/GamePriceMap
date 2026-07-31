@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 860510,
+  "fetchedAt": "2026-07-31T02:56:31.935Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=860510&cc=us&l=english",
+  "responseDigest": "sha256:fa628673b8001c3118558a249144d9b4e9441e9fd4f39ba444257fd29d7e6764",
+  "payload": {
+    "860510": {
+      "success": true,
+      "data": {
+        "steam_appid": 860510,
+        "name": "Little Nightmares II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 10, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 49877
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b1807889362ff43308c69b582205982da430c2070dd8edff94928d3d09f27077"
+}

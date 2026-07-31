@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 813630,
+  "fetchedAt": "2026-07-31T04:12:55.400Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=813630&cc=us&l=english",
+  "responseDigest": "sha256:33414aab6fc90038685b680b342fb6995452a7f12a6dce1065bf2b3eafdf3a05",
+  "payload": {
+    "813630": {
+      "success": true,
+      "data": {
+        "steam_appid": 813630,
+        "name": "Supraland",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 5, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12204
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:604fb8747571ff4de26ef5f1a1e149443e9c34425f5c5019bdb12462762216ff"
+}

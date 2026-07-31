@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4651220,
+  "fetchedAt": "2026-07-31T03:03:39.230Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4651220&cc=us&l=english",
+  "responseDigest": "sha256:0d08370cd7ce9c15921b9ef0ed6351eaa32f9942bc4003ed8c5fdc62c3877613",
+  "payload": {
+    "4651220": {
+      "success": true,
+      "data": {
+        "steam_appid": 4651220,
+        "name": "Conqueror's Blade: Three Kingdoms",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:75ef8ceac81fed565983052bd996886453543741a8b239e96a3313f5c212a415"
+}

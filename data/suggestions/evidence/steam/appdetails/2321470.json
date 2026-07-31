@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2321470,
+  "fetchedAt": "2026-07-31T02:43:57.775Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2321470&cc=us&l=english",
+  "responseDigest": "sha256:c49cc7a52a4145bdf9e976158e0b858a688f9ae394035b69c9a53600883c5479",
+  "payload": {
+    "2321470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2321470,
+        "name": "Deep Rock Galactic: Survivor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 46048
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:acd532df5f9530edd80e1081195d87b83b6f53368472216fb73e3bd3274ffdd5"
+}

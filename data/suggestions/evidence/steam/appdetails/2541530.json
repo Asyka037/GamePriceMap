@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2541530,
+  "fetchedAt": "2026-07-31T03:21:50.384Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2541530&cc=us&l=english",
+  "responseDigest": "sha256:e6e6ae29e03aaac42d52e74582a989a879129ae88f04d533dc10b8ed833e5ec6",
+  "payload": {
+    "2541530": {
+      "success": true,
+      "data": {
+        "steam_appid": 2541530,
+        "name": "AETHUS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 1936
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5a4d69b3115b9b56bf55916e2091630822d1ea51c97a035f0bc50973056cb378"
+}

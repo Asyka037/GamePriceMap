@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 726840,
+  "fetchedAt": "2026-07-31T03:08:44.315Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=726840&cc=us&l=english",
+  "responseDigest": "sha256:c249989371fea15eee4745613ba7fa6ac402847bd81906f3b5f1481f1eb910b9",
+  "payload": {
+    "726840": {
+      "success": true,
+      "data": {
+        "steam_appid": 726840,
+        "name": "City Game Studio: Your Game Dev Adventure Begins",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 24, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1748
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d10dd7e494e8b362dcaf2a68be2033dc4e999431bb8e054c9a20541601cc8efc"
+}

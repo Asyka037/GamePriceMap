@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2361770,
+  "fetchedAt": "2026-07-31T03:11:28.815Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2361770&cc=us&l=english",
+  "responseDigest": "sha256:2e18205c62d0466f592557a7777cf67d688d6c6f370bedb9a07175286cf20233",
+  "payload": {
+    "2361770": {
+      "success": true,
+      "data": {
+        "steam_appid": 2361770,
+        "name": "SHINOBI: Art of Vengeance",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3418
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e6d729b0923df67781cfa1446faecb303069a8ca651df2451c3139ec4004d17e"
+}

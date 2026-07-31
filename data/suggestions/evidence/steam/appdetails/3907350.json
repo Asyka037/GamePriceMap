@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3907350,
+  "fetchedAt": "2026-07-31T03:32:39.812Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3907350&cc=us&l=english",
+  "responseDigest": "sha256:be58c1d52b991216a1920203e19ba1c29fea6d320e3b5f0cf8996231d59bc309",
+  "payload": {
+    "3907350": {
+      "success": true,
+      "data": {
+        "steam_appid": 3907350,
+        "name": "The Prince of Tennis Sweet School Festival ~♡-40 and more...~",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a190d64fd78e84508d17bededeb5a7268d47d9078c13b109e18c2996e4dc6bc6"
+}

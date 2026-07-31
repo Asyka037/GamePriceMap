@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2378500,
+  "fetchedAt": "2026-07-31T02:42:55.843Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2378500&cc=us&l=english",
+  "responseDigest": "sha256:f66a7e6462dc2e7a4060be141bb0edd5ae4f8b0113f62b61e1d0cb792f8bf205",
+  "payload": {
+    "2378500": {
+      "success": true,
+      "data": {
+        "steam_appid": 2378500,
+        "name": "Baldur's Gate 3 - Digital Deluxe Edition DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 3, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 699,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 4375
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7e763e8d15404c4b4b2cf548dc3698d7b2937446a54e048e69f736531ab64ac2"
+}

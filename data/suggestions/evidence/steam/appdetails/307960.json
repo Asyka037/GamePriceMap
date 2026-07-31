@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 307960,
+  "fetchedAt": "2026-07-31T02:48:19.158Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=307960&cc=us&l=english",
+  "responseDigest": "sha256:1b04eb2c2e5506509624f5da69c170ac323e161d5347c5c4bc92d7e44cc7a7b0",
+  "payload": {
+    "307960": {
+      "success": true,
+      "data": {
+        "steam_appid": 307960,
+        "name": "IL-2 Sturmovik: Battle of Stalingrad",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1249,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 8663
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e3375b7235aa817f52477f4e124f41b89205b846698a9b30f8fd7c194bed8df7"
+}

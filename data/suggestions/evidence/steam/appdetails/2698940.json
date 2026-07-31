@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2698940,
+  "fetchedAt": "2026-07-31T02:56:47.923Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2698940&cc=us&l=english",
+  "responseDigest": "sha256:14c514388d01d208d4183d36607a7e3839034047923c740902833ab5ea43e6e4",
+  "payload": {
+    "2698940": {
+      "success": true,
+      "data": {
+        "steam_appid": 2698940,
+        "name": "The Crew Motorfest",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 18, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23624
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c9941bd008d7f13d6ff43ec47fc2d4b23fd833d1ad9d0be1148cddc7adc23cc7"
+}

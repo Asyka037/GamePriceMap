@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1910150,
+  "fetchedAt": "2026-07-31T03:09:24.393Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1910150&cc=us&l=english",
+  "responseDigest": "sha256:042ad4d55037d19f445e724f43735e8f9906eb1c50343db722c92ceca284a84a",
+  "payload": {
+    "1910150": {
+      "success": true,
+      "data": {
+        "steam_appid": 1910150,
+        "name": "Walk of Life",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 745
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a447c6cd49a54e6bed704c0417450bec74b31b8e6b1f5f2f5e6c45e0fb66c900"
+}

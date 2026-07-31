@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2001340,
+  "fetchedAt": "2026-07-31T03:52:48.892Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2001340&cc=us&l=english",
+  "responseDigest": "sha256:84f7d890b4df136efbf73991f984ea6d7e94353625695198fd354fcdb320c620",
+  "payload": {
+    "2001340": {
+      "success": true,
+      "data": {
+        "steam_appid": 2001340,
+        "name": "Fuga: Melodies of Steel 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 10, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 353
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5f422f4e70c39a8df3045df3cff22fb71a370ccca54fc0bdd77b07d68ebdbb04"
+}

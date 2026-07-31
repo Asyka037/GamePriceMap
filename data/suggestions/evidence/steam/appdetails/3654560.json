@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3654560,
+  "fetchedAt": "2026-07-31T02:45:05.237Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3654560&cc=us&l=english",
+  "responseDigest": "sha256:9f077392c6affce5023492df73283d84d0d095f852ae273f8b00e01ef7c8b615",
+  "payload": {
+    "3654560": {
+      "success": true,
+      "data": {
+        "steam_appid": 3654560,
+        "name": "Plants vs. Zombies™: Replanted",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1299,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 6599
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e2cff7bc861b9a0c387faca0e0cd64e787818219be8b6c6de0aea51623a03ca7"
+}

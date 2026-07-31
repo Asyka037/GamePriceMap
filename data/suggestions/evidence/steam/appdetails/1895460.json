@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1895460,
+  "fetchedAt": "2026-07-31T02:52:13.602Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1895460&cc=us&l=english",
+  "responseDigest": "sha256:223e04fae118dca9a440828b923f7a3d706ca27b52b9f498b067116e6f8cb9a0",
+  "payload": {
+    "1895460": {
+      "success": true,
+      "data": {
+        "steam_appid": 1895460,
+        "name": "D-topia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2fa3a511e6286977a2b2524df5e7e58b2cda7f368e5232b64585f3287b02f7b7"
+}

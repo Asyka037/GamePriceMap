@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3180240,
+  "fetchedAt": "2026-07-31T04:08:38.270Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3180240&cc=us&l=english",
+  "responseDigest": "sha256:edb3fabbaa828942f420cd33d24e86a87779bb79d81b193fc2f6496df3c8d1b9",
+  "payload": {
+    "3180240": {
+      "success": true,
+      "data": {
+        "steam_appid": 3180240,
+        "name": "Tetris® Forever",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 294
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dae9a6b8b46ffb101b5ee65e878da43dbb340af0b360b2d0e352610e5e305f28"
+}

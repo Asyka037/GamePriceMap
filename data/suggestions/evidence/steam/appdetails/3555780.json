@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3555780,
+  "fetchedAt": "2026-07-31T03:08:13.101Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3555780&cc=us&l=english",
+  "responseDigest": "sha256:6484e811bde623efc5d288327e4cd4b7fd43ed45dc3ab6ba54cf75db286116f7",
+  "payload": {
+    "3555780": {
+      "success": true,
+      "data": {
+        "steam_appid": 3555780,
+        "name": "Bookbinding – Dark Cozy Sim",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 974,
+          "discount_percent": 25
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:623c9166cb3f5a04d2eb43beebb4c1a3b9debd8022cbd4c5c42de8a9a5041224"
+}

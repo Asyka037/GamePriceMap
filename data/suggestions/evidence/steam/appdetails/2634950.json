@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2634950,
+  "fetchedAt": "2026-07-31T03:21:51.834Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2634950&cc=us&l=english",
+  "responseDigest": "sha256:0fe743461fc902259c70685c19219001a9b84267d5e7f04e70d4f42557695066",
+  "payload": {
+    "2634950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2634950,
+        "name": "Tokyo Xtreme Racer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15099
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:78ed78647ffcaecd7c26254e2a75e4626b4543e79ad61d317f860eacdbe7cb72"
+}

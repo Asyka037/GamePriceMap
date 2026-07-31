@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2692990,
+  "fetchedAt": "2026-07-31T03:14:46.455Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2692990&cc=us&l=english",
+  "responseDigest": "sha256:f9580d4805b2ca6009baa05f3d17eea5e1ce3262661cbbe472fec649c456291f",
+  "payload": {
+    "2692990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2692990,
+        "name": "DON'T SCREAM TOGETHER",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2269
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d5111148dc92747fb6d373c2ca2dcb8922c692179b2dfa6c4bbaf2b39520966c"
+}

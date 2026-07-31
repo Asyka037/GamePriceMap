@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2272250,
+  "fetchedAt": "2026-07-31T03:19:20.358Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2272250&cc=us&l=english",
+  "responseDigest": "sha256:d793a35d84c567861da2dfd8b1b2e5161a0ecb9434f00cd51cf2a0f846eef5ed",
+  "payload": {
+    "2272250": {
+      "success": true,
+      "data": {
+        "steam_appid": 2272250,
+        "name": "Forgive Me Father 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 999,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 1449
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3554bb813fed13e2223d252964ce6a998fd582b40d09c57c19d25c354cf28e87"
+}

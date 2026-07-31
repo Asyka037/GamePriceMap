@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 871980,
+  "fetchedAt": "2026-07-31T03:06:37.926Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=871980&cc=us&l=english",
+  "responseDigest": "sha256:66736c154c6fbf330114f105c76c2a8f5a804b334e78fef913356a33f77cc334",
+  "payload": {
+    "871980": {
+      "success": true,
+      "data": {
+        "steam_appid": 871980,
+        "name": "Digimon Survive",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3093
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:33db93f982b2d7ff18bbdbd2c2af9a336cfce56c646e6e58c843c1be6877737b"
+}

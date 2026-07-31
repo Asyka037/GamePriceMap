@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 464060,
+  "fetchedAt": "2026-07-31T03:22:58.625Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=464060&cc=us&l=english",
+  "responseDigest": "sha256:e8640a484878a9941ea4050d56934f3c0cf3dca4f5c80bc0bb325a83e5bdaa93",
+  "payload": {
+    "464060": {
+      "success": true,
+      "data": {
+        "steam_appid": 464060,
+        "name": "RUINER",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 199,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 10211
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:21e07121351d330fb240e3991dc0ccdd60bd55563c745f2fb94b1b28197c378a"
+}

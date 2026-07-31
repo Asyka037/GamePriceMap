@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2417470,
+  "fetchedAt": "2026-07-31T03:15:05.529Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2417470&cc=us&l=english",
+  "responseDigest": "sha256:794ce53cb9125b6460fccaf17d92881ed63ee52620a7116812ac37399df4b3b2",
+  "payload": {
+    "2417470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2417470,
+        "name": "Beastro",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1499,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 525
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ba43f8e280215fb2d0ee263cdb2fc539912d6c1ed26ecfef52529f89344ea2ff"
+}

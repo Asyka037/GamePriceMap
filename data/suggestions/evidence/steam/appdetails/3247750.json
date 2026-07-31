@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3247750,
+  "fetchedAt": "2026-07-31T03:17:27.363Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3247750&cc=us&l=english",
+  "responseDigest": "sha256:a6ead5e031899b8545546707eb936455fd1d427cefae25491b21366b3088a15c",
+  "payload": {
+    "3247750": {
+      "success": true,
+      "data": {
+        "steam_appid": 3247750,
+        "name": "Mycopunk",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3999
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eeaca7da1698162086f1c38c8938c368674f3969a015b5e73aca4dcd385da8fe"
+}

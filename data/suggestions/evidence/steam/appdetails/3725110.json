@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3725110,
+  "fetchedAt": "2026-07-31T03:04:57.495Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3725110&cc=us&l=english",
+  "responseDigest": "sha256:243f19eafe21791c0480b3bce31a15d80ba30235c851999a65542e3c4b023050",
+  "payload": {
+    "3725110": {
+      "success": true,
+      "data": {
+        "steam_appid": 3725110,
+        "name": "Against the Storm - Nightwatchers",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 31, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 203
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e4f1145ec5d66fa46fbb3427516a0ed09207dc41e8a1b7b1d35565274ae4f5df"
+}

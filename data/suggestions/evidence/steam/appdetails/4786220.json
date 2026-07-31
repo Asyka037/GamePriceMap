@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4786220,
+  "fetchedAt": "2026-07-31T03:01:05.013Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4786220&cc=us&l=english",
+  "responseDigest": "sha256:f9010d8251be062728d72d1859deccb17ea0c602d24b804a26e6ae3fe22560ca",
+  "payload": {
+    "4786220": {
+      "success": true,
+      "data": {
+        "steam_appid": 4786220,
+        "name": "DragonSword : Awakening - Costume : Ophelia's Oath",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2c956933561d3c853d480b2ffbd41d21235983efd98ceacdcb5ae48ee2c6f1ae"
+}

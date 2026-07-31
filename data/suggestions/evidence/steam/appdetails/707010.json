@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 707010,
+  "fetchedAt": "2026-07-31T03:43:13.282Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=707010&cc=us&l=english",
+  "responseDigest": "sha256:afc9b3acf7afa6cf75495f0db9f8378f3b77190d975995b5a357ced981b6eaf2",
+  "payload": {
+    "707010": {
+      "success": true,
+      "data": {
+        "steam_appid": 707010,
+        "name": "Will To Live Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 5, 2018"
+        },
+        "recommendations": {
+          "total": 1970
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48520d502b66e3377e027250b4f7460a6caa8d9b388e5d8d52c7e40dfcf0e0b3"
+}

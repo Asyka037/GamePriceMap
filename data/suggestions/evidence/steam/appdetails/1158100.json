@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1158100,
+  "fetchedAt": "2026-07-31T04:07:35.710Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1158100&cc=us&l=english",
+  "responseDigest": "sha256:71929ed8c518b8753668dedf54ce5d22b1727a0dd359956e6078361eea9fabca",
+  "payload": {
+    "1158100": {
+      "success": true,
+      "data": {
+        "steam_appid": 1158100,
+        "name": "Expansion - Hearts of Iron IV: La Résistance",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 25, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2216
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4c6739c422f6ac9ec7860eb24e272fd78cfba32b91d7935dc91b8841fab20673"
+}

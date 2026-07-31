@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2400430,
+  "fetchedAt": "2026-07-31T02:53:37.486Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2400430&cc=us&l=english",
+  "responseDigest": "sha256:bcebf5f3d4848f05ee746e97e7a21cecd7b1939556eef2ed6f0b184ee53780bb",
+  "payload": {
+    "2400430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2400430,
+        "name": "Capcom Fighting Collection 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2599,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 720
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6e76fac94f6acb6913d1faf5ef8082f9c8617a5b048d8274e7a96d932c9d4941"
+}

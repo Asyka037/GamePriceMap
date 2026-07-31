@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3315510,
+  "fetchedAt": "2026-07-31T02:50:48.484Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3315510&cc=us&l=english",
+  "responseDigest": "sha256:354b9e12337351983a589a643a03149613d9ab674c2fed905661649bdcfc494e",
+  "payload": {
+    "3315510": {
+      "success": true,
+      "data": {
+        "steam_appid": 3315510,
+        "name": "Crusader Kings III: Khans of the Steppe",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 698
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:67abb9b2c38151e0d1883dd0d705ce8ed5518219ea01fd2d804614818fa85f91"
+}

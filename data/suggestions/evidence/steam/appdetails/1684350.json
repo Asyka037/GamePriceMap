@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1684350,
+  "fetchedAt": "2026-07-31T02:54:14.781Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1684350&cc=us&l=english",
+  "responseDigest": "sha256:1572f4ec8418672c71af1efc3cfdd7f20a7906c2ab9ede2c6e7fe58efc801cc0",
+  "payload": {
+    "1684350": {
+      "success": true,
+      "data": {
+        "steam_appid": 1684350,
+        "name": "The Thaumaturge",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 4, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3809
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1a523072e1fab81e50c086358d6a49f53aff39f4715ddf95ce6f794eaaf40ab7"
+}

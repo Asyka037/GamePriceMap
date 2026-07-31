@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2205850,
+  "fetchedAt": "2026-07-31T03:31:33.437Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2205850&cc=us&l=english",
+  "responseDigest": "sha256:48ac9db214459f8804fc8b4e77fbd6c908949dcfbfb099835874e7eef359781b",
+  "payload": {
+    "2205850": {
+      "success": true,
+      "data": {
+        "steam_appid": 2205850,
+        "name": "Dwarves: Glory, Death and Loot",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 974,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 2510
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:28bd2ccf4965b31398a7542eca9979fca28524ff78fbf68fa04c7e41da39f1aa"
+}

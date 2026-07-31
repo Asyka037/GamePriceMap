@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1346020,
+  "fetchedAt": "2026-07-31T03:36:03.559Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1346020&cc=us&l=english",
+  "responseDigest": "sha256:a247e4380a5373bb18ca11abce1b5e5f9a206594da2b9c388760e4a88632f7d9",
+  "payload": {
+    "1346020": {
+      "success": true,
+      "data": {
+        "steam_appid": 1346020,
+        "name": "Wargroove 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 5, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1199,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 399
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:096f402368bff7d68d4bee966839860ab9bcf185ad577c84beae34aa44f47669"
+}

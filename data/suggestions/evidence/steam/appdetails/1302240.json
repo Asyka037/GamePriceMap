@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1302240,
+  "fetchedAt": "2026-07-31T03:13:28.040Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1302240&cc=us&l=english",
+  "responseDigest": "sha256:5c8c7d3e81d285ba5bc99ddd91148df4ebdccbfe69fe5a3ea6440346594ba629",
+  "payload": {
+    "1302240": {
+      "success": true,
+      "data": {
+        "steam_appid": 1302240,
+        "name": "Labyrinthine",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 18, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13742
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9ebcc43dc9aec09e9041fcddfbe79fe33798c0dad92c0381dd0f635aa9119ab7"
+}

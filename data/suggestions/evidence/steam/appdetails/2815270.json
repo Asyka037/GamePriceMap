@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2815270,
+  "fetchedAt": "2026-07-31T03:02:56.711Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2815270&cc=us&l=english",
+  "responseDigest": "sha256:145c95709e56a379a7c3e83041bf091f66d41a41afa8b21ac47bacaeaab7da8d",
+  "payload": {
+    "2815270": {
+      "success": true,
+      "data": {
+        "steam_appid": 2815270,
+        "name": "The Sims™ 4 Lovestruck Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 114
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9055666105774851c051d93003e6b4a664935260668923984cd887bc0fb30396"
+}

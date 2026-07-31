@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 450540,
+  "fetchedAt": "2026-07-31T02:43:26.785Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=450540&cc=us&l=english",
+  "responseDigest": "sha256:04eb6a14d3fb4b2c9dc30112097939a0e1873ff28591df208dc6cd78a845caf0",
+  "payload": {
+    "450540": {
+      "success": true,
+      "data": {
+        "steam_appid": 450540,
+        "name": "Hot Dogs, Horseshoes & Hand Grenades",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 4, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 22650
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:90c4df9fb65d0580bc500c726a17c113788cbd5313f5fd2e1662e45308228d9b"
+}

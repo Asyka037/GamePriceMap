@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1400660,
+  "fetchedAt": "2026-07-31T03:15:09.946Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1400660&cc=us&l=english",
+  "responseDigest": "sha256:0dd8d4706dc153b9acc746d0afc4ce4bc3571fb1a409e47efc07c94e1f0c4aa5",
+  "payload": {
+    "1400660": {
+      "success": true,
+      "data": {
+        "steam_appid": 1400660,
+        "name": "Rise of Piracy",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 483
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d0a397d9986de08e3a5a8aa7f5c573ba17b26cc6e53bff18983690cdedb51d16"
+}

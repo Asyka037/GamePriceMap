@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1549250,
+  "fetchedAt": "2026-07-31T03:56:22.243Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1549250&cc=us&l=english",
+  "responseDigest": "sha256:c77848fc8fb4d0eed563a40af31dbc6988ca7f7054397591540c899335b70bc6",
+  "payload": {
+    "1549250": {
+      "success": true,
+      "data": {
+        "steam_appid": 1549250,
+        "name": "UNDECEMBER: The Forge",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 11, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aff201dbcb101b8045e9b0316547e619140c8f4452a0edfd9e96ab815bcd5aa6"
+}

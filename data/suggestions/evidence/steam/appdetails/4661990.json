@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4661990,
+  "fetchedAt": "2026-07-31T02:52:41.668Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4661990&cc=us&l=english",
+  "responseDigest": "sha256:b7f6047dc32435361ab25fa256e6626d7f983bc31308abb6ec9e5faed2f443b2",
+  "payload": {
+    "4661990": {
+      "success": true,
+      "data": {
+        "steam_appid": 4661990,
+        "name": "Tom Clancy’s The Division 2 – Into the Dark Bundle",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a617ba95c66e086c2c0228bb2081d3b63b7e3a4315f0563d3b6993cdd0395eda"
+}

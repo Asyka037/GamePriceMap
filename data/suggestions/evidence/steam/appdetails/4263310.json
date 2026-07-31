@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4263310,
+  "fetchedAt": "2026-07-31T03:02:02.793Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4263310&cc=us&l=english",
+  "responseDigest": "sha256:a1c4a568c36c67982f9c1eae8507e02b97eaa967e690606a7db7023764ad0c5b",
+  "payload": {
+    "4263310": {
+      "success": true,
+      "data": {
+        "steam_appid": 4263310,
+        "name": "Brawlhalla - Summer Esports 2026 Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8dbff10bfa762b20d3735198ca44f7f037a344dc708db2734c2e1ec236832ffb"
+}

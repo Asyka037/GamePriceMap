@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 956030,
+  "fetchedAt": "2026-07-31T03:19:57.274Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=956030&cc=us&l=english",
+  "responseDigest": "sha256:a69b386c6f953f435973e6b8e674b24fa607cc31bc7fc020573e4ce58317caca",
+  "payload": {
+    "956030": {
+      "success": true,
+      "data": {
+        "steam_appid": 956030,
+        "name": "Creaks",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5190
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5ee698c730266c57777838eb0c6a89a849357f3fb001a6395b7e3c450ae3bd6d"
+}

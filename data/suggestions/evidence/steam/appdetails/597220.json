@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 597220,
+  "fetchedAt": "2026-07-31T02:59:38.216Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=597220&cc=us&l=english",
+  "responseDigest": "sha256:740478e0c654bbaa0b09209f3405d196760e6b35d1d4384addbb932b1576e4c2",
+  "payload": {
+    "597220": {
+      "success": true,
+      "data": {
+        "steam_appid": 597220,
+        "name": "West of Loathing",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 10, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1099,
+          "final": 1099,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9654
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2ffc4bc558d100398ad4ad428751138dce9c56841f4fe85c3baf9e1ba95c4306"
+}

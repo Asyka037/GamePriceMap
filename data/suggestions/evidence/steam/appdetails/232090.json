@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 232090,
+  "fetchedAt": "2026-07-31T02:46:01.640Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=232090&cc=us&l=english",
+  "responseDigest": "sha256:fa7da6da385a416f7923b3fca3a286e00e7b91e31c43352481bad4d3b2ed61fb",
+  "payload": {
+    "232090": {
+      "success": true,
+      "data": {
+        "steam_appid": 232090,
+        "name": "Killing Floor 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 18, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 87790
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:642dba459b0ad2fc523446afed39e6724d22042739f0bad2db63470007930ade"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 874390,
+  "fetchedAt": "2026-07-31T03:01:41.918Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=874390&cc=us&l=english",
+  "responseDigest": "sha256:feefbf90fc0c41497a2a1ee296be8cc572fa45abb3c973f5854dad4e1e05904a",
+  "payload": {
+    "874390": {
+      "success": true,
+      "data": {
+        "steam_appid": 874390,
+        "name": "The Battle of Polytopia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 4, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4688
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:24674ca36d2d5eef3a83ed1e24eefd63d33529fbd46e935d39ee9de013b9f504"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3868400,
+  "fetchedAt": "2026-07-31T04:04:19.931Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3868400&cc=us&l=english",
+  "responseDigest": "sha256:ca893da27d818306a21c81d8facdbb9b91ec6b2993bd4ff712bb235c1af7d280",
+  "payload": {
+    "3868400": {
+      "success": true,
+      "data": {
+        "steam_appid": 3868400,
+        "name": "FUMES - Supporter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d9c533a9afc96217071614d6a436dc929d256374569bceaeb0fe370d0ed29e8a"
+}

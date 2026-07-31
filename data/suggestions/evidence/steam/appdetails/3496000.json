@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3496000,
+  "fetchedAt": "2026-07-31T03:21:30.894Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3496000&cc=us&l=english",
+  "responseDigest": "sha256:32b67f00a0480877b4e6ba06964d4bd07038d883293499d14a589a33aeccf1ae",
+  "payload": {
+    "3496000": {
+      "success": true,
+      "data": {
+        "steam_appid": 3496000,
+        "name": "Ship, Inc.",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 2087
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0cb0749bb347925547bbefc1189c17d1d0bd57d26310af24a20ffd463069ca2e"
+}

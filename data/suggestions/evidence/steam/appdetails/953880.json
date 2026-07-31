@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 953880,
+  "fetchedAt": "2026-07-31T03:21:56.295Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=953880&cc=us&l=english",
+  "responseDigest": "sha256:64b1b8d2437063849ec99300efdcf1cfc387d81f0c7e6e9a0e786fb0641bf3d9",
+  "payload": {
+    "953880": {
+      "success": true,
+      "data": {
+        "steam_appid": 953880,
+        "name": "First Class Trouble",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3074
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8153eed452d6cedbddf6d397d68b1d8ddca8db97711b7ec7b27eed7389bdc14f"
+}

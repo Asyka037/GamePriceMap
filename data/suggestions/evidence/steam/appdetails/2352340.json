@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2352340,
+  "fetchedAt": "2026-07-31T03:16:18.285Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2352340&cc=us&l=english",
+  "responseDigest": "sha256:2ef1531f5f22085883f181a5ae10f3e6a299767c1bc49c585fa51927b3503863",
+  "payload": {
+    "2352340": {
+      "success": true,
+      "data": {
+        "steam_appid": 2352340,
+        "name": "Suzerain: Kingdom of Rizia",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 846
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:23544892611f77514ed5cb59a8767ed41dbbb49ae2cb7bb3fe7f4833ab430887"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1480560,
+  "fetchedAt": "2026-07-31T03:40:55.606Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1480560&cc=us&l=english",
+  "responseDigest": "sha256:020cd3ad451565c842434dad3bba3998e2124da34c247e3b903b5a0e42d1449a",
+  "payload": {
+    "1480560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1480560,
+        "name": "Lawn Mowing Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 10, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 2115
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1e2318ebe995c210181d2aa060e63dc4225d0ee3c766baba2c8ed138391465dd"
+}

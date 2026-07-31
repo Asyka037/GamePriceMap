@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4864000,
+  "fetchedAt": "2026-07-31T04:01:21.974Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4864000&cc=us&l=english",
+  "responseDigest": "sha256:6c197dfbacc3cc66155ac62f627ae6fc9a90a32f92586c51b372f4a57d61b1ca",
+  "payload": {
+    "4864000": {
+      "success": true,
+      "data": {
+        "steam_appid": 4864000,
+        "name": "Terraforming Titans",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 500,
+          "final": 500,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5f5c7d99fd31126da071118d966d68ea833d6c78d6796873572a57593fbd50c1"
+}

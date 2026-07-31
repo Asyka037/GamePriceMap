@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2961530,
+  "fetchedAt": "2026-07-31T02:59:55.979Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2961530&cc=us&l=english",
+  "responseDigest": "sha256:a5ef1ff880fcc81dd13489c1222ccb19c9123cbdbacb79174d06bf26a777c3bb",
+  "payload": {
+    "2961530": {
+      "success": true,
+      "data": {
+        "steam_appid": 2961530,
+        "name": "Fears to Fathom - Woodbury Getaway",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3373
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3b403fae2732b409ce5c9ae5bf366b21c99268e6f02ea1cc93eed4f9be7dad1d"
+}

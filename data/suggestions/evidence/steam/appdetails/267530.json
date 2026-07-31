@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 267530,
+  "fetchedAt": "2026-07-31T03:37:31.921Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=267530&cc=us&l=english",
+  "responseDigest": "sha256:616997c39efc8da5e88edbefd356e78fd33d1a5741e67156ae2d53a4a7968437",
+  "payload": {
+    "267530": {
+      "success": true,
+      "data": {
+        "steam_appid": 267530,
+        "name": "The LEGO® Movie - Videogame",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 7, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 3575
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fa2821b36bba0a58999dcfb1a3e01284875438d9be3a85f68b6e80df15591a5b"
+}

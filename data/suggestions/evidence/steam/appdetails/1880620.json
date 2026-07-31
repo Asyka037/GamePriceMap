@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1880620,
+  "fetchedAt": "2026-07-31T03:04:08.833Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1880620&cc=us&l=english",
+  "responseDigest": "sha256:72a13d941bf44c31902833df2d7d20b1f43b0e03d81ed8cf17543b27a8f8dc81",
+  "payload": {
+    "1880620": {
+      "success": true,
+      "data": {
+        "steam_appid": 1880620,
+        "name": "Once Upon A KATAMARI",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1330
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4400054716a58b686e271cf1be242f10369f4281b2f36000052bcb09a927927d"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1491000,
+  "fetchedAt": "2026-07-31T03:06:54.254Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1491000&cc=us&l=english",
+  "responseDigest": "sha256:a26e8c7746d98a77750bc58a74380bd38047c53e1b467c71f14c5f9053b6d3ae",
+  "payload": {
+    "1491000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1491000,
+        "name": "War Robots: Frontiers",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 4, 2025"
+        },
+        "recommendations": {
+          "total": 739
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:03f39d368ad899edc9190199585fbd1ef5f2d714ead632c5826595a57cab5908"
+}

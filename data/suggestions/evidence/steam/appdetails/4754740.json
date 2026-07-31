@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4754740,
+  "fetchedAt": "2026-07-31T04:02:01.495Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4754740&cc=us&l=english",
+  "responseDigest": "sha256:3001a7a0eaa0405c6329f666c07c2c47571f4291122772fad5db897de53b3fb8",
+  "payload": {
+    "4754740": {
+      "success": true,
+      "data": {
+        "steam_appid": 4754740,
+        "name": "Market Chain 98",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 594,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d370f0ee3de2fdffcd147608864f599bf45620c2ccf37c56dd7818d957f4625e"
+}

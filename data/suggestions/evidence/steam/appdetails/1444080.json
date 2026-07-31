@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1444080,
+  "fetchedAt": "2026-07-31T03:08:45.742Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1444080&cc=us&l=english",
+  "responseDigest": "sha256:432bca25021f61e6b701d653c116d9a050161c62b496ca059049ff2762e8125c",
+  "payload": {
+    "1444080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1444080,
+        "name": "Dewdrop Dynasty",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 155
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b509bd41dff1d26bd7851db4e733d9db4504a1b2ea9ea378a5c61e1f203b7a92"
+}

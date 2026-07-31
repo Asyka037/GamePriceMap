@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3468650,
+  "fetchedAt": "2026-07-31T04:13:28.293Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3468650&cc=us&l=english",
+  "responseDigest": "sha256:b287ae8c034b22734f2cab5a3287d48d193d81b0ec2c13ad72744c9847bf5f95",
+  "payload": {
+    "3468650": {
+      "success": true,
+      "data": {
+        "steam_appid": 3468650,
+        "name": "Cricket 26 - The Official Game of the Ashes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 593
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:47220f49955e565e2cde49a9e2a77566e33da642bb16f997c5f1469a9b208f16"
+}

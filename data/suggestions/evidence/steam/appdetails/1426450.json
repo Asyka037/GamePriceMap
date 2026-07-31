@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1426450,
+  "fetchedAt": "2026-07-31T03:56:48.510Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1426450&cc=us&l=english",
+  "responseDigest": "sha256:4b3ac5d3209bd19638076688ac314ff0ff4044ef2b11dc6975eb49706735f4a5",
+  "payload": {
+    "1426450": {
+      "success": true,
+      "data": {
+        "steam_appid": 1426450,
+        "name": "Age of Darkness: Final Stand",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2799,
+          "final": 1399,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 9433
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:330c3b7bc475061b7e7997c983d1f95ffa616182ddc681e25a307ee6cd2cd8de"
+}

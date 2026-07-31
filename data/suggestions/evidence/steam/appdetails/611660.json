@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 611660,
+  "fetchedAt": "2026-07-31T04:02:34.630Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=611660&cc=us&l=english",
+  "responseDigest": "sha256:048762a59a04f080b2c26e7193e378524c9d31b1d5826a6653c09c1495b07d69",
+  "payload": {
+    "611660": {
+      "success": true,
+      "data": {
+        "steam_appid": 611660,
+        "name": "Fallout 4 VR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1979,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 5597
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:60583408bd37ce4b4b5b65512c535f18f9576e8c6c85c4dd597af53867f6fd4a"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3799610,
+  "fetchedAt": "2026-07-31T02:45:44.205Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3799610&cc=us&l=english",
+  "responseDigest": "sha256:c9218db6c14a1547b349854fcf447cdb81fc8f7b85fddaafb664a7e84744a725",
+  "payload": {
+    "3799610": {
+      "success": true,
+      "data": {
+        "steam_appid": 3799610,
+        "name": "MechWarrior 5: Mercenaries - Shadow of Kerensky",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 410
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0e7e6ab50a3596449fcc27a45c870dc648df05a3122a83c65278d95355aab4a1"
+}

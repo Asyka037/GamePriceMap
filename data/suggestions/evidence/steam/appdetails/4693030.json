@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4693030,
+  "fetchedAt": "2026-07-31T03:53:01.976Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4693030&cc=us&l=english",
+  "responseDigest": "sha256:259996d361a6a3eaf9d37c9e5aeb5c90fcea1ae4c2f81f503f4b9de9d83be917",
+  "payload": {
+    "4693030": {
+      "success": true,
+      "data": {
+        "steam_appid": 4693030,
+        "name": "Congratulations On Your Purchase",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99999,
+          "final": 99999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b710fc5bbf783350d0377d8830f2df00c18c95e70880f01388aef80dfeb673b6"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1669980,
+  "fetchedAt": "2026-07-31T03:51:49.351Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1669980&cc=us&l=english",
+  "responseDigest": "sha256:8cd8b91e62a5e0c1b14a909a55e7de82fa4e8926d49852019af38a584374227f",
+  "payload": {
+    "1669980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1669980,
+        "name": "Volcano Princess",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1099,
+          "final": 714,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 44652
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c8c7ded2a8aded057141f6d9098789ef9373c1e5ba73053bb48280ba678919e5"
+}

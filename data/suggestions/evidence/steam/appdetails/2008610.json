@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2008610,
+  "fetchedAt": "2026-07-31T02:46:03.119Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2008610&cc=us&l=english",
+  "responseDigest": "sha256:e67e48e708a61f285dc7fa432e0872d86d0bfa3a0050280108f2c14c1286a69d",
+  "payload": {
+    "2008610": {
+      "success": true,
+      "data": {
+        "steam_appid": 2008610,
+        "name": "Guild Wars 2® End of Dragons® Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 23, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 116
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a978360fd103345fa79faa3fc9a70d5b5ead28a9e6f1cbf3726b23a0c705ead3"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2450010,
+  "fetchedAt": "2026-07-31T02:55:07.997Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2450010&cc=us&l=english",
+  "responseDigest": "sha256:d526a239c28e492c63a8b8369273f3ebf22034f472c0f95184d79f9a58e39d48",
+  "payload": {
+    "2450010": {
+      "success": true,
+      "data": {
+        "steam_appid": 2450010,
+        "name": "Guild Wars 2® Secrets of the Obscure™ Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 22, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 156
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eb1680b7c894ec0f16db9ab6b5bb8b8c125bc586f4ae4e87e1d0761e64e6900f"
+}

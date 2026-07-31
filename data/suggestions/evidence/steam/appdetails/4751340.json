@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4751340,
+  "fetchedAt": "2026-07-31T03:15:33.555Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4751340&cc=us&l=english",
+  "responseDigest": "sha256:8367ce18a4d593bfe2e2dd636e2674afb040c0c9e7c6bf80b675af65d13443b0",
+  "payload": {
+    "4751340": {
+      "success": true,
+      "data": {
+        "steam_appid": 4751340,
+        "name": "Organize my Shop",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 399,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a08933ad9f57c34b7e71741dcf6f75f5232887ce184223d4bc4eb33619dfbfb1"
+}

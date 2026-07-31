@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1388770,
+  "fetchedAt": "2026-07-31T04:14:30.950Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1388770&cc=us&l=english",
+  "responseDigest": "sha256:91b21db8fdded34f55af4bb9e91632ea4cbd99e6dac8a3778fba69cf656c6611",
+  "payload": {
+    "1388770": {
+      "success": true,
+      "data": {
+        "steam_appid": 1388770,
+        "name": "Cruelty Squad",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 15, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 22812
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8320f911e2288aa33ff19bf84e23fc444af46ae5bb3cee91fb0b83616fc23fa3"
+}

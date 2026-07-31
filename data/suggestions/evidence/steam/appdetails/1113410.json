@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1113410,
+  "fetchedAt": "2026-07-31T02:51:44.773Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1113410&cc=us&l=english",
+  "responseDigest": "sha256:1374911e296bce7c65de3d1a1872ce55664c7acb971bdf5e6dbc696e08b069e8",
+  "payload": {
+    "1113410": {
+      "success": true,
+      "data": {
+        "steam_appid": 1113410,
+        "name": "ARK: Genesis Season Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 8, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5316
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9916f4042831182fffa92351790c9503f003a8b105cc3b6582f0bdd83dc049c0"
+}

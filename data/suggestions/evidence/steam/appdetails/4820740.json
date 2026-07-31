@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4820740,
+  "fetchedAt": "2026-07-31T03:21:42.961Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4820740&cc=us&l=english",
+  "responseDigest": "sha256:e26cacf9a20acecbe15c205f02e1b1a50765d7ab38b68f46c59ef8c1629f4e3a",
+  "payload": {
+    "4820740": {
+      "success": true,
+      "data": {
+        "steam_appid": 4820740,
+        "name": "Crush Crush - Lumi Bundle",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6ad5acb31d32d5e718ec2a7a4f3065dc1ad291aa59deb9d24f6eab9ed36633b9"
+}

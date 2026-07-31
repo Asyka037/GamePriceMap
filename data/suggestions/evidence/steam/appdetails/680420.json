@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 680420,
+  "fetchedAt": "2026-07-31T04:01:48.320Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=680420&cc=us&l=english",
+  "responseDigest": "sha256:f422bb516fefeb90710aad95170ec0a397d276a28d37c86cde1cf1e90daa0e77",
+  "payload": {
+    "680420": {
+      "success": true,
+      "data": {
+        "steam_appid": 680420,
+        "name": "OUTRIDERS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 1, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 46097
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ceff34662e1502cb6dbc9f7825bd03aaf9eb271bd2e7327cc5d3cd98b134ce76"
+}

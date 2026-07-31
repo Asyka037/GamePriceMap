@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 291650,
+  "fetchedAt": "2026-07-31T03:23:29.514Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=291650&cc=us&l=english",
+  "responseDigest": "sha256:5a7cb3fa5317ac7dd3f4c861ea6da6c7a6b5efdbb1df7039b8149c374274d6a2",
+  "payload": {
+    "291650": {
+      "success": true,
+      "data": {
+        "steam_appid": 291650,
+        "name": "Pillars of Eternity",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16905
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c32346aa96771d1340f7c5f8ed5b337ecf05576e68bcdd3848927f8a2ea05d8a"
+}

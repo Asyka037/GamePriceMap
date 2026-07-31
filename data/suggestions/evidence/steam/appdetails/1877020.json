@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1877020,
+  "fetchedAt": "2026-07-31T03:17:33.231Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1877020&cc=us&l=english",
+  "responseDigest": "sha256:cad58f5ff23b3c0202df7147d21dd9fa9d256bcbcdcdb485e3d0bf27c741a152",
+  "payload": {
+    "1877020": {
+      "success": true,
+      "data": {
+        "steam_appid": 1877020,
+        "name": "Jujutsu Kaisen Cursed Clash",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 1, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 7999,
+          "final": 1999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 3013
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:12e5e15c8f488c42b1c5c2b56436513541e19fdfcc55539967ba035ebbf4c85d"
+}

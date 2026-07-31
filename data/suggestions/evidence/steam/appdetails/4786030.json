@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4786030,
+  "fetchedAt": "2026-07-31T03:08:53.203Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4786030&cc=us&l=english",
+  "responseDigest": "sha256:b751c578b3a40ac976f2bd090e345fffbedd03305f803116efac2a96cf1cf1ae",
+  "payload": {
+    "4786030": {
+      "success": true,
+      "data": {
+        "steam_appid": 4786030,
+        "name": "DragonSword : Awakening - Familiar : Frost Sky Wolf",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1a9a79787ca2d6f2ec35afb9d1523fe5a0ba6cf412c0bfba26e5e1045274ff7f"
+}

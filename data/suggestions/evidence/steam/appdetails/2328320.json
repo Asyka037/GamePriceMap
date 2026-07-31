@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2328320,
+  "fetchedAt": "2026-07-31T03:11:45.196Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2328320&cc=us&l=english",
+  "responseDigest": "sha256:25877edf40a3c153e4f1939acab1729f4eb8410bc9afc712f13e4540533dc356",
+  "payload": {
+    "2328320": {
+      "success": true,
+      "data": {
+        "steam_appid": 2328320,
+        "name": "The Outlast Trials - Reagent Starter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 356
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4168dd2d995d74efc2e1e6e713abb91703dda1002d3dd90343f7564d9c1afc33"
+}

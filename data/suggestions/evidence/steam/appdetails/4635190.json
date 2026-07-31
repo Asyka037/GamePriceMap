@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4635190,
+  "fetchedAt": "2026-07-31T04:10:53.685Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4635190&cc=us&l=english",
+  "responseDigest": "sha256:a46b192aef228526a48c948c27f347cc7bc2aeccc7a0507332b20d8d5bfd4528",
+  "payload": {
+    "4635190": {
+      "success": true,
+      "data": {
+        "steam_appid": 4635190,
+        "name": "SCUM Woodland Furniture Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:20023740db440bbb50f644c5487c7f4209a53125747ad3492208f3f3bfb56ead"
+}

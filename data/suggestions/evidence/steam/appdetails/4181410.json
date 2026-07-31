@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4181410,
+  "fetchedAt": "2026-07-31T03:59:27.062Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4181410&cc=us&l=english",
+  "responseDigest": "sha256:d9f7bd1f6bf3bdcad428e9f6961f2651295a0814314463c90cd0b8515dadd1e6",
+  "payload": {
+    "4181410": {
+      "success": true,
+      "data": {
+        "steam_appid": 4181410,
+        "name": "The Alley",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 809,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1d193e0e66582d587c4fd7b387100439e58ff792f85fc854a4b5c5a05ac268fa"
+}

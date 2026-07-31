@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4180990,
+  "fetchedAt": "2026-07-31T03:32:56.833Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4180990&cc=us&l=english",
+  "responseDigest": "sha256:488cc8192861c6dd654bd8f618b7c09478f54c284bc9b5dcfb2a7e10b54a74fc",
+  "payload": {
+    "4180990": {
+      "success": true,
+      "data": {
+        "steam_appid": 4180990,
+        "name": "Jenny the Witch",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8cf2a4146c10e47e7d4d9182e768610378ea1eff6a19eda1bf951fb4a212379f"
+}

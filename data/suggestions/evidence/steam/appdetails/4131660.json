@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4131660,
+  "fetchedAt": "2026-07-31T03:03:20.111Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4131660&cc=us&l=english",
+  "responseDigest": "sha256:2a20306ec9d9228250e46483f1bd261a5ea7f84ba285f624c4ec9c5b03b6fda3",
+  "payload": {
+    "4131660": {
+      "success": true,
+      "data": {
+        "steam_appid": 4131660,
+        "name": "Jurassic World Evolution 3: Wetlands ",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:625c9f9742263045a3719b21bf8ccd1021c187d7edf52976906a43f6bb7b5dff"
+}

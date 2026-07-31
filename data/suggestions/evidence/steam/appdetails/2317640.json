@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2317640,
+  "fetchedAt": "2026-07-31T03:55:23.990Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2317640&cc=us&l=english",
+  "responseDigest": "sha256:db105ebe781dc7412cadd0305b1172060466ddba3793c0f9039bd09e999f1c77",
+  "payload": {
+    "2317640": {
+      "success": true,
+      "data": {
+        "steam_appid": 2317640,
+        "name": "JUMP KING QUEST",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1004,
+          "discount_percent": 33
+        },
+        "recommendations": {
+          "total": 1146
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0638d09436be5a439140cd050a96626885c6b2607d98528ecfdf4adb38f03825"
+}

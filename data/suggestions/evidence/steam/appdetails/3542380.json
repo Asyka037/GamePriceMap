@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3542380,
+  "fetchedAt": "2026-07-31T02:43:41.302Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3542380&cc=us&l=english",
+  "responseDigest": "sha256:b7ac044603b5afed2153dcea133554f7255a5495d8bdf5fd9670c890a04e23cd",
+  "payload": {
+    "3542380": {
+      "success": true,
+      "data": {
+        "steam_appid": 3542380,
+        "name": "Rune Dice",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 19, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1132
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9cad5bc05d2523f04c7ca8c10cbfeec0b423980c9573d66481ad41555ec7eccd"
+}

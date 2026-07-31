@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3722330,
+  "fetchedAt": "2026-07-31T03:00:24.768Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3722330&cc=us&l=english",
+  "responseDigest": "sha256:ff4f49446592c1f05abc56fbc84dd9880416e5157d7345be37620e0dd12be4e5",
+  "payload": {
+    "3722330": {
+      "success": true,
+      "data": {
+        "steam_appid": 3722330,
+        "name": "Shift At Midnight",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4499
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f20b661a28f1738944b870048c0c7de76478c305f73abdbd9ef9c0ac51bf73d0"
+}

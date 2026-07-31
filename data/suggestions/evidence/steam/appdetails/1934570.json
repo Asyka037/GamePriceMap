@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1934570,
+  "fetchedAt": "2026-07-31T03:14:39.032Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1934570&cc=us&l=english",
+  "responseDigest": "sha256:bea4ad5b03c288b1e98a11cb92e2e0e0361b867ce159900e0d7284f5297d4606",
+  "payload": {
+    "1934570": {
+      "success": true,
+      "data": {
+        "steam_appid": 1934570,
+        "name": "South of Midnight",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4301
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f39d9f66214ed47a4b25e1cea5bbd9865c57d7ceb226e226e729650d2d41dc10"
+}

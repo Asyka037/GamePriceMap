@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1454970,
+  "fetchedAt": "2026-07-31T03:20:19.444Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1454970&cc=us&l=english",
+  "responseDigest": "sha256:3bbc8464561863ba7464cfb90eb636101819c81ba0bba1c2b03846eee95053b3",
+  "payload": {
+    "1454970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1454970,
+        "name": "New Tales from the Borderlands",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1710
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:640ba5f4e8ebfaa74b4b07678608cfc4a932ee853f0a8d4f4d7d0c95c1a2c0c0"
+}

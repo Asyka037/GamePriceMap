@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2221980,
+  "fetchedAt": "2026-07-31T04:11:10.083Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2221980&cc=us&l=english",
+  "responseDigest": "sha256:811b92b30383ecc17568359afcb51098b8578a1992c1c45617d8837614e51d9b",
+  "payload": {
+    "2221980": {
+      "success": true,
+      "data": {
+        "steam_appid": 2221980,
+        "name": "Budget Cuts Ultimate",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 104
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:94bfe6e4273aea7972bf00942fbef9843cf2933a5ae6f28bee564e51371af678"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4883590,
+  "fetchedAt": "2026-07-31T03:48:08.497Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4883590&cc=us&l=english",
+  "responseDigest": "sha256:c82a17b5f15571ec15a13280a273b9e21a716aeb0cb9b689c7f90b606dad9ddf",
+  "payload": {
+    "4883590": {
+      "success": true,
+      "data": {
+        "steam_appid": 4883590,
+        "name": "iRacing® Studios NASCAR 26",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:22f8489ef17af354ec27f3c482876bd0b22d142dae51cd2b57eb92f5713b8409"
+}

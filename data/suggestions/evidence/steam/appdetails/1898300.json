@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1898300,
+  "fetchedAt": "2026-07-31T02:57:02.709Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1898300&cc=us&l=english",
+  "responseDigest": "sha256:6bd77a5527f169e2dce10b9b7adb8348ef296bac584d021a78bccf7fa95347b2",
+  "payload": {
+    "1898300": {
+      "success": true,
+      "data": {
+        "steam_appid": 1898300,
+        "name": "ASKA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1999,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 10265
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ec7e6c8c622c2491f620418251db3f82f4e384d412e9b67b2fea9cea9cbb047a"
+}

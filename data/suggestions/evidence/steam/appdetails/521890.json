@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 521890,
+  "fetchedAt": "2026-07-31T02:57:35.080Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=521890&cc=us&l=english",
+  "responseDigest": "sha256:eefe9873b5c2302d4f4af2ac54034ca8148d417f53b477d7c6c2013641da1622",
+  "payload": {
+    "521890": {
+      "success": true,
+      "data": {
+        "steam_appid": 521890,
+        "name": "Hello Neighbor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 8, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 25491
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:541b981cf2bfc6b36814e497b6c8a6bf1ead0918d6382ce9629876734727db35"
+}

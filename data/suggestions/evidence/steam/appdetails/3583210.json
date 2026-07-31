@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3583210,
+  "fetchedAt": "2026-07-31T02:48:54.462Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3583210&cc=us&l=english",
+  "responseDigest": "sha256:ced397ea4283caad81ea7e82b4c77e171d9b933e20ba9fda7787264aef2eca15",
+  "payload": {
+    "3583210": {
+      "success": true,
+      "data": {
+        "steam_appid": 3583210,
+        "name": "Crashout Crew",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 942
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b769570e9d603c84779e1642595b008235ecb1082b13e6cfced03438a5f9e959"
+}

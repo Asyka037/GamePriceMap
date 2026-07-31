@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4128580,
+  "fetchedAt": "2026-07-31T04:12:02.727Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4128580&cc=us&l=english",
+  "responseDigest": "sha256:b1f8f4a2f95c8e4bf5a6563318b2bd17e19b4a851b091762157db23d7fda218a",
+  "payload": {
+    "4128580": {
+      "success": true,
+      "data": {
+        "steam_appid": 4128580,
+        "name": "BidKing",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 21844
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3ffc1dc9eec6661826307c59d134b0b10530ccdd1d185facb317d9aa784edd98"
+}

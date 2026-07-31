@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4119420,
+  "fetchedAt": "2026-07-31T03:09:03.569Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4119420&cc=us&l=english",
+  "responseDigest": "sha256:4e96e69c6fd11fb46b1a884f9c3b99b96db9ebd44d6e020ac3f14d1bd7e45a6d",
+  "payload": {
+    "4119420": {
+      "success": true,
+      "data": {
+        "steam_appid": 4119420,
+        "name": "Evitania Online - Idle RPG",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 7, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:243d33c3164198f6aa038242787cc6786d9a450a72690d791d4f4f392d871cd7"
+}

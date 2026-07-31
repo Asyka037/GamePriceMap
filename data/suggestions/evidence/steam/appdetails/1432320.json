@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1432320,
+  "fetchedAt": "2026-07-31T02:50:57.388Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1432320&cc=us&l=english",
+  "responseDigest": "sha256:99332aba8e9e20231d453778354a88a6553d98bcf2c98d32de75168005b0a887",
+  "payload": {
+    "1432320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1432320,
+        "name": "Liftoff®: Micro Drones",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1342
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3d60c77482a7fdbebb9b068df9f983718a2de69528aec3b71b8b3058417f97c2"
+}

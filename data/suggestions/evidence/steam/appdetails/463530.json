@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 463530,
+  "fetchedAt": "2026-07-31T02:48:51.588Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=463530&cc=us&l=english",
+  "responseDigest": "sha256:19768dd86160c3522876d5b5833568603f64abc8f5fd83735f3878f2b9ad2822",
+  "payload": {
+    "463530": {
+      "success": true,
+      "data": {
+        "steam_appid": 463530,
+        "name": "Empires of the Undergrowth",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17158
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c0e9d6d3e84c4977430c55d7fbdd8b5c01c1b278304a19b1c15e89c4a798ca5"
+}

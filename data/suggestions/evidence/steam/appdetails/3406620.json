@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3406620,
+  "fetchedAt": "2026-07-31T03:54:37.621Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3406620&cc=us&l=english",
+  "responseDigest": "sha256:6dcb36e961101209acbb6c983a4c00f09fd3fa07e91fabba5c7526e12c5974b1",
+  "payload": {
+    "3406620": {
+      "success": true,
+      "data": {
+        "steam_appid": 3406620,
+        "name": "VARLET",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 2399,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 115
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2111a853389070816ffe87e784d18800e28e12f614a5edabdfaf4ed58be2d95e"
+}

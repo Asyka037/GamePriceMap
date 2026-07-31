@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2479090,
+  "fetchedAt": "2026-07-31T03:18:56.422Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2479090&cc=us&l=english",
+  "responseDigest": "sha256:51a5aa1c4091010e21803dee690d2802897a8ef36907cd0882275af3250428ba",
+  "payload": {
+    "2479090": {
+      "success": true,
+      "data": {
+        "steam_appid": 2479090,
+        "name": "Prelude Dark Pain",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1799,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 189
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f0eda92710e7a80406522cd517a32918b3f990031a1f20f345996571f1c1843c"
+}

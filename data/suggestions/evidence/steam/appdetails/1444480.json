@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1444480,
+  "fetchedAt": "2026-07-31T02:59:26.455Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1444480&cc=us&l=english",
+  "responseDigest": "sha256:59d49e7b7056b53f56621cae920c23eebdafe3d4a9e0b9ea2fdaba4e65ab86da",
+  "payload": {
+    "1444480": {
+      "success": true,
+      "data": {
+        "steam_appid": 1444480,
+        "name": "Turing Complete",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 2, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5295
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:22d3b3a55c3a5ea4af7f1eb711497fd4f09c9eac6e50ca94cb24a8255d2d2170"
+}

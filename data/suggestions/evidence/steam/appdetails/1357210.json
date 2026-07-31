@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1357210,
+  "fetchedAt": "2026-07-31T03:05:10.304Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1357210&cc=us&l=english",
+  "responseDigest": "sha256:27756c0516b4b6362f4862924cfc4e05ad631c16a730cb1baaa3508ccbf44746",
+  "payload": {
+    "1357210": {
+      "success": true,
+      "data": {
+        "steam_appid": 1357210,
+        "name": "Galactic Civilizations IV",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 19, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1319,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 2139
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9aa2ddcfaf41ffdb21a20f5476acb70a91b6712cc37aee92f5495e7bf3e3501d"
+}

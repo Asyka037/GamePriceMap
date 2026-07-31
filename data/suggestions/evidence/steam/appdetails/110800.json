@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 110800,
+  "fetchedAt": "2026-07-31T03:01:01.946Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=110800&cc=us&l=english",
+  "responseDigest": "sha256:a9ed72bd87219ffdd587490a860adedd872bfb0abb24059d768b9a481dbfac37",
+  "payload": {
+    "110800": {
+      "success": true,
+      "data": {
+        "steam_appid": 110800,
+        "name": "L.A. Noire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 8, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 30902
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6f6dd606ceaf53bfe720a0ad8176af1715dbaefc8c5ef1405ca55019b85cf9c8"
+}

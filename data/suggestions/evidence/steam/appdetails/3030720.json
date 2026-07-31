@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3030720,
+  "fetchedAt": "2026-07-31T03:24:12.047Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3030720&cc=us&l=english",
+  "responseDigest": "sha256:1c4c79c0c5e85c675fd2c5ec143f8ae59cca46315cee5610901dd50d184b089d",
+  "payload": {
+    "3030720": {
+      "success": true,
+      "data": {
+        "steam_appid": 3030720,
+        "name": "FATE: Reawakened",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 751
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4c394910d69273e0fc7d1335fb680f9ca7f579f7fa90f2de7f625f3c2b0b239c"
+}

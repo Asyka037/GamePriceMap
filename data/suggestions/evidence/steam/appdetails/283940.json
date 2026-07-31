@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 283940,
+  "fetchedAt": "2026-07-31T03:55:30.641Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=283940&cc=us&l=english",
+  "responseDigest": "sha256:ac50deb6430a15dba7bf214dc49a59ddd5068f45837fe3a61002c4cc266dab2c",
+  "payload": {
+    "283940": {
+      "success": true,
+      "data": {
+        "steam_appid": 283940,
+        "name": "Freddi Fish and the Case of the Missing Kelp Seeds",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 17, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 553
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ce3a4384fe5bfbff585458e21a7d3effab4427110bce2cbe7042a3c9e37ce9cc"
+}

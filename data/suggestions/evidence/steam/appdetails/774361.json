@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 774361,
+  "fetchedAt": "2026-07-31T03:14:03.441Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=774361&cc=us&l=english",
+  "responseDigest": "sha256:3d82deb548215f66684439829043f714a342c53e090337c3b0b4c7d6e34b97f0",
+  "payload": {
+    "774361": {
+      "success": true,
+      "data": {
+        "steam_appid": 774361,
+        "name": "Blasphemous",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 10, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 53744
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:db655fd0d62aa7334a3f3284229bb9d4a94b8246ed17b0a852ccecda817da7bf"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3174070,
+  "fetchedAt": "2026-07-31T03:22:00.675Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3174070&cc=us&l=english",
+  "responseDigest": "sha256:d2139d26b4320c19bb12401a4adca461c5bea3035570cb0271e34421899bd702",
+  "payload": {
+    "3174070": {
+      "success": true,
+      "data": {
+        "steam_appid": 3174070,
+        "name": "Texas Hold'em Poker: Pokerist",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 18, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:04a6995298ab9c7876cef68dcf8070065bc7ec82f48a9c729bc36e007e31703a"
+}

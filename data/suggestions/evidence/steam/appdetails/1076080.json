@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1076080,
+  "fetchedAt": "2026-07-31T03:43:23.050Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1076080&cc=us&l=english",
+  "responseDigest": "sha256:80010925cb6e0c2460a0e88e0a4b17c981ec6c58ba2f3c057683eb410dc97656",
+  "payload": {
+    "1076080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1076080,
+        "name": "American Truck Simulator - Forest Machinery",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 332
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1a425f1ec83b22cd702c3440b0b5b4cead0081a7ec854593047f80c15ae26729"
+}

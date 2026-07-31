@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1235743,
+  "fetchedAt": "2026-07-31T02:55:25.692Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1235743&cc=us&l=english",
+  "responseDigest": "sha256:94ab9650fbaad6cce2ab9a6f4f7caa2e576a8f2ead38a084e3f8daae0ca78d0d",
+  "payload": {
+    "1235743": {
+      "success": true,
+      "data": {
+        "steam_appid": 1235743,
+        "name": "The Sims™ 4 Vampires",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 298
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5f1ad08152aca7dc93d8a864264e9a1eb66c20cbd7ff622dee16c09dd64b0caf"
+}

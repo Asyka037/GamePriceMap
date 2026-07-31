@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2386720,
+  "fetchedAt": "2026-07-31T02:47:21.946Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2386720&cc=us&l=english",
+  "responseDigest": "sha256:f01689c40b9cda0335936eced2d10ae236ca8c5400a3044a0650d2205d61e771",
+  "payload": {
+    "2386720": {
+      "success": true,
+      "data": {
+        "steam_appid": 2386720,
+        "name": "STRAFTAT",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aec8d13195f5ce1d277502499b4deef1e134954f3e01e691a2c4ffd72edace2f"
+}

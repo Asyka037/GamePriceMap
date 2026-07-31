@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2585150,
+  "fetchedAt": "2026-07-31T02:45:41.297Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2585150&cc=us&l=english",
+  "responseDigest": "sha256:30c2676ed3d113c98a1dfcaf0803f4f6ad3f04bc0c164879cbabeb59531f4052",
+  "payload": {
+    "2585150": {
+      "success": true,
+      "data": {
+        "steam_appid": 2585150,
+        "name": "American Truck Simulator - Arkansas",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 16, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 294
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8b3810d6f712a37596795b9e5dd56d69c2880fff7bc18b846be29365c6e0c0c0"
+}

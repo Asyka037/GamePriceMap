@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 67370,
+  "fetchedAt": "2026-07-31T04:09:50.683Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=67370&cc=us&l=english",
+  "responseDigest": "sha256:5ca6e42be6f305743d940241785a05ad157d7f32ff61519788a8048842b0c1be",
+  "payload": {
+    "67370": {
+      "success": true,
+      "data": {
+        "steam_appid": 67370,
+        "name": "The Darkness II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 9, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 299,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 8109
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:35a25d7b176ea7f68a6fc865b3950aaad01860dab83ee002eb46b2c183d23d3f"
+}

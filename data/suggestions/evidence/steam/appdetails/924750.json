@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 924750,
+  "fetchedAt": "2026-07-31T03:38:21.081Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=924750&cc=us&l=english",
+  "responseDigest": "sha256:be14fab0d4c4e7c777a6cf1e196277b7927cd0dd8959e65c8643bb137eab5686",
+  "payload": {
+    "924750": {
+      "success": true,
+      "data": {
+        "steam_appid": 924750,
+        "name": "Harold Halibut",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1161
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3bf7265e7bb61211b3eb0dd8f0d91f37fd270702b9edd1c197425123a8a61d10"
+}

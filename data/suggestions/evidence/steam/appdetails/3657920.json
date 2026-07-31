@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3657920,
+  "fetchedAt": "2026-07-31T04:11:33.088Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3657920&cc=us&l=english",
+  "responseDigest": "sha256:5124af305e7a8604a18a02b11a12ed1ff6448f619dc9d48b4694ac139951b7ad",
+  "payload": {
+    "3657920": {
+      "success": true,
+      "data": {
+        "steam_appid": 3657920,
+        "name": "NBA 2K26 Pro Pass: Season 8",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:efc3dbcf50353cfb94dc14564de2529a20d81e333823bb67e90f75da010c530b"
+}

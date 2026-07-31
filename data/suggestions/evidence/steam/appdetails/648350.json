@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 648350,
+  "fetchedAt": "2026-07-31T03:13:22.133Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=648350&cc=us&l=english",
+  "responseDigest": "sha256:ae98c8b2d9cba984dd3b79f5a2fa37a4ba7512d2b144cc373ff46de708d87086",
+  "payload": {
+    "648350": {
+      "success": true,
+      "data": {
+        "steam_appid": 648350,
+        "name": "Jurassic World Evolution",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 48265
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:beaa40f0c1c8d300da309be8dc3a0998df11d38608efc271362cded86771b167"
+}

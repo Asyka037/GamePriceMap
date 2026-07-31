@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3590,
+  "fetchedAt": "2026-07-31T02:44:08.226Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3590&cc=us&l=english",
+  "responseDigest": "sha256:45d50acfe946d4d6afc0588cf8d63984437e65c964d11e3ea693a7ab7b88c27f",
+  "payload": {
+    "3590": {
+      "success": true,
+      "data": {
+        "steam_appid": 3590,
+        "name": "Plants vs. Zombies GOTY Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 5, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 142158
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df11c6de52386612591daa1031048022605b4ecd45f9f134999ca695cb53e648"
+}

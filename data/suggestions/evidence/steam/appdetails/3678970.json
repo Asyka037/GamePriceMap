@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3678970,
+  "fetchedAt": "2026-07-31T02:45:39.806Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3678970&cc=us&l=english",
+  "responseDigest": "sha256:bd515915e74fde8e168e65a64dc8dee71736bb40a85ff1cefb2ac2982841dcc0",
+  "payload": {
+    "3678970": {
+      "success": true,
+      "data": {
+        "steam_appid": 3678970,
+        "name": "TBH: Task Bar Hero",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 27, 2026"
+        },
+        "recommendations": {
+          "total": 271
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:76903093b6785afeefd3653112f892b2bcc6f05261d3fbf0383ed15e025d2f44"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 238320,
+  "fetchedAt": "2026-07-31T02:42:58.792Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=238320&cc=us&l=english",
+  "responseDigest": "sha256:700bbbcacef8f6bc509e19737582f573b915b3556cea98db564ce8cb7784e061",
+  "payload": {
+    "238320": {
+      "success": true,
+      "data": {
+        "steam_appid": 238320,
+        "name": "Outlast",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 4, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 103465
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:977cb5dc2ef01ae50c7c8ef617c64cb75dafb4d57395bc99ebb3ed160434742c"
+}

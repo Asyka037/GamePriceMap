@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2972680,
+  "fetchedAt": "2026-07-31T03:03:24.540Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2972680&cc=us&l=english",
+  "responseDigest": "sha256:7a5e5a0fd1ec4b4052221b83f943a4cacdc39fef4245790eac52c85f441314cb",
+  "payload": {
+    "2972680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2972680,
+        "name": "ARK Fantastic Tames - Pyromane",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 919
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:29f04d29c224a9b20a3feb0ba2751b4e06919212ca4497dade1d80fe3880a1aa"
+}

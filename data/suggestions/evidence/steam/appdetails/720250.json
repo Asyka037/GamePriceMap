@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 720250,
+  "fetchedAt": "2026-07-31T02:54:44.355Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=720250&cc=us&l=english",
+  "responseDigest": "sha256:bdc585f11cb0e211813a013c04091ca5a585757ad1e34cf540a0bbb0caefb982",
+  "payload": {
+    "720250": {
+      "success": true,
+      "data": {
+        "steam_appid": 720250,
+        "name": "Welcome to the Game II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 3, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3157
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:618eb6cf89fc20a33b00c700ca4e79401d9f15d34468aeec21be325a1f8013ee"
+}

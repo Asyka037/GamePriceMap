@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2015270,
+  "fetchedAt": "2026-07-31T03:43:36.159Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2015270&cc=us&l=english",
+  "responseDigest": "sha256:e9f0e6ba0b647a169eaf8440e3b4397ae45f2e058b51fcfc13fc0aa452ee36bf",
+  "payload": {
+    "2015270": {
+      "success": true,
+      "data": {
+        "steam_appid": 2015270,
+        "name": "Rotwood",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7436
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e1ee0bb5c85a021db9212c559c7530344f9c71deb49d7a5aec527079c9913f05"
+}

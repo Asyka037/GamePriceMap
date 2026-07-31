@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 600480,
+  "fetchedAt": "2026-07-31T02:58:49.456Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=600480&cc=us&l=english",
+  "responseDigest": "sha256:cfa80ff25b83f683c7cff0efd05957e85e74191be45c9b80f0c437c392a04b45",
+  "payload": {
+    "600480": {
+      "success": true,
+      "data": {
+        "steam_appid": 600480,
+        "name": "Megaquarium",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 13, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3411
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dbfa7e55fbc91cdecc93bc6115a9a804847602e500c5aa426933c80e0a16bc31"
+}

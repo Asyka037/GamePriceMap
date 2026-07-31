@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4570720,
+  "fetchedAt": "2026-07-31T03:00:26.210Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4570720&cc=us&l=english",
+  "responseDigest": "sha256:57ef54e79126c9e34643258b6ab6525a7de0653d99cf823f81e31f18e7fae02b",
+  "payload": {
+    "4570720": {
+      "success": true,
+      "data": {
+        "steam_appid": 4570720,
+        "name": "DragonSword : Awakening",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5472
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6910ae32cb41dd683adebf7dcee707db30d56974ab832bd74f430e300adbe0b1"
+}

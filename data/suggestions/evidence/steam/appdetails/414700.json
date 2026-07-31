@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 414700,
+  "fetchedAt": "2026-07-31T03:08:16.038Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=414700&cc=us&l=english",
+  "responseDigest": "sha256:673c197efc6338593717e58c89915242232bb4b6d928b9cbf499caa10dd438cb",
+  "payload": {
+    "414700": {
+      "success": true,
+      "data": {
+        "steam_appid": 414700,
+        "name": "Outlast 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 24, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 53745
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:58543289f5d9978f55dfe1848f787c67b33ad4751beb232ef4efcdb538cb0e3e"
+}

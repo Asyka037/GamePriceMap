@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2819520,
+  "fetchedAt": "2026-07-31T02:53:00.247Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2819520&cc=us&l=english",
+  "responseDigest": "sha256:2cfe4c3b7908536df52bb26e523768c32920f63b3102c5249757686bce0722d2",
+  "payload": {
+    "2819520": {
+      "success": true,
+      "data": {
+        "steam_appid": 2819520,
+        "name": "Viking Rise",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1ef7d22de1f81f7db5cd4f4109f7785949deb55850be2588b346bc1fe92ee7a7"
+}

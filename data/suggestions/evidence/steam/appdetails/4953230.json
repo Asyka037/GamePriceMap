@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4953230,
+  "fetchedAt": "2026-07-31T03:38:01.415Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4953230&cc=us&l=english",
+  "responseDigest": "sha256:bec8a8688f7ad1230e53226327e252480d1753965af774bbd0897334476a4019",
+  "payload": {
+    "4953230": {
+      "success": true,
+      "data": {
+        "steam_appid": 4953230,
+        "name": "Hand of Fate: Hordes - Supporter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:34b5376644ec95ff90e8d1e783e68c5a70b698645ea28dedf0bbb4654103828b"
+}

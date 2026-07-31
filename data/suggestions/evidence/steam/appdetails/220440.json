@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 220440,
+  "fetchedAt": "2026-07-31T03:03:55.586Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=220440&cc=us&l=english",
+  "responseDigest": "sha256:8d5c0f5a644b31aac863af300d965825d69b87e91d459830f56a90dd153efab8",
+  "payload": {
+    "220440": {
+      "success": true,
+      "data": {
+        "steam_appid": 220440,
+        "name": "DmC: Devil May Cry",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 24, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20699
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7f8ef22586445b6c2dca338eb833b6462c76eada8b99545983885d96c602baf7"
+}

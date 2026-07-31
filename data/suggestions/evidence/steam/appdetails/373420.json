@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 373420,
+  "fetchedAt": "2026-07-31T03:23:41.208Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=373420&cc=us&l=english",
+  "responseDigest": "sha256:5028dcf60ef0f57455c0f01cb4d114d47f96bb0aa8b4fb1eeb6da736cffb9e75",
+  "payload": {
+    "373420": {
+      "success": true,
+      "data": {
+        "steam_appid": 373420,
+        "name": "Divinity: Original Sin - Enhanced Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 27136
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:784045a68bb8322f669143bdf85f41442fdb70c969b0c045c58aa9f248f69ab8"
+}

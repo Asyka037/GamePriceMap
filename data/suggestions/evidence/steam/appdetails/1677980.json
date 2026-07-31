@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1677980,
+  "fetchedAt": "2026-07-31T03:57:08.404Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1677980&cc=us&l=english",
+  "responseDigest": "sha256:740aaf66497ac78d9038a7170702b27920c643bd9689d48281ef5a6637addb66",
+  "payload": {
+    "1677980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1677980,
+        "name": "Unmatched: Digital Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 28, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 2299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 252
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:542e14b4b0cae67557ddeb9caf8bb6270fa328d85a9524654cfcfe86169cff80"
+}

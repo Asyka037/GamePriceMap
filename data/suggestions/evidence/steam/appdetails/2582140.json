@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2582140,
+  "fetchedAt": "2026-07-31T03:02:31.178Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2582140&cc=us&l=english",
+  "responseDigest": "sha256:444592aa7a5ee0d0ec09f6f50910c5df5df5636ae74aae555d597717387ef134",
+  "payload": {
+    "2582140": {
+      "success": true,
+      "data": {
+        "steam_appid": 2582140,
+        "name": "Seafarer: The Ship Sim",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 7, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 1749,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1833
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:442a332087e053134d4fea4c83714efda881364a8b2c1a01314ee110642d3add"
+}

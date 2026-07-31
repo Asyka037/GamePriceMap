@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2447590,
+  "fetchedAt": "2026-07-31T02:49:15.369Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2447590&cc=us&l=english",
+  "responseDigest": "sha256:97854cf6e720ee9b50509b419646575fbe436a0230e27970f16344c890be0dbb",
+  "payload": {
+    "2447590": {
+      "success": true,
+      "data": {
+        "steam_appid": 2447590,
+        "name": "Call to Arms - Gates of Hell: Liberation",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 29, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1087
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:21cfb983916d5c5b5efc8d9046b1302d9e91b9d34651a78443b1a11c2fab05b2"
+}

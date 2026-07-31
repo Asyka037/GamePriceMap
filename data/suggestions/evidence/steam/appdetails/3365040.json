@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3365040,
+  "fetchedAt": "2026-07-31T03:22:18.441Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3365040&cc=us&l=english",
+  "responseDigest": "sha256:3ad615c0366c93136557aa7a7680674f9221ea55c47eabb820a60259d1106d5c",
+  "payload": {
+    "3365040": {
+      "success": true,
+      "data": {
+        "steam_appid": 3365040,
+        "name": "Atelier Ryza 2: Lost Legends & the Secret Fairy DX",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2799,
+          "discount_percent": 30
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8fab918fcef6a3536b082914e039606835573f5da0497fff672ce5dd5d05d81e"
+}

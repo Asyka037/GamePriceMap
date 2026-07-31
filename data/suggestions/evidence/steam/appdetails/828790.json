@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 828790,
+  "fetchedAt": "2026-07-31T03:29:47.032Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=828790&cc=us&l=english",
+  "responseDigest": "sha256:0dc19ca135ece8b7a0f9bb626147344184171858e8ab233628838e179215bb66",
+  "payload": {
+    "828790": {
+      "success": true,
+      "data": {
+        "steam_appid": 828790,
+        "name": "Warhammer: Vermintide 2 - Shadows Over Bögenhafen",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 28, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 784
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5829fc87a67a7085bc2799281807a9cb1d430f2bbbe558ccff6f113ec800527d"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 405310,
+  "fetchedAt": "2026-07-31T03:19:09.703Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=405310&cc=us&l=english",
+  "responseDigest": "sha256:a1f9634bedfd19103dbb172f2a8939e9672cd6aca73eae6a52460b1251c537ce",
+  "payload": {
+    "405310": {
+      "success": true,
+      "data": {
+        "steam_appid": 405310,
+        "name": "LEGO® MARVEL's Avengers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 26, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 5825
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e47cdd1181903af024fab7803741f0b233fbc87b9e8710998f325687b900df75"
+}

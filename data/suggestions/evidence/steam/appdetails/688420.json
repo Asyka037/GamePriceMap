@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 688420,
+  "fetchedAt": "2026-07-31T03:16:51.370Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=688420&cc=us&l=english",
+  "responseDigest": "sha256:89dce5038eb19893d98d448d9dc3984cb0d70d3fbf3802461ff2c711b0cbea5d",
+  "payload": {
+    "688420": {
+      "success": true,
+      "data": {
+        "steam_appid": 688420,
+        "name": "Bad North: Jotunn Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12154
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:717994755b255def1baaf5d7e5a960e1b40c7b6e6d7d7450c0e2c29946019aa5"
+}

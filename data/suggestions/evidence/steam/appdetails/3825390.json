@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3825390,
+  "fetchedAt": "2026-07-31T02:51:09.137Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3825390&cc=us&l=english",
+  "responseDigest": "sha256:500949b0c5d5258e90c81882b26f4cebbe12dd3884cfe34c76eba8a2a10b2aa1",
+  "payload": {
+    "3825390": {
+      "success": true,
+      "data": {
+        "steam_appid": 3825390,
+        "name": "BLUE REFLECTION Quartet",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6d2b767b61c893bcd68e519ebe1d796dda5917fbe01a974a32f74929ed3ceefa"
+}

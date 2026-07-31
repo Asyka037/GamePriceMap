@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 225260,
+  "fetchedAt": "2026-07-31T03:31:46.746Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=225260&cc=us&l=english",
+  "responseDigest": "sha256:c5b2f0ec2c9048849dece5e2bbb7c87d7d2eb8e0703fbeb018ca8d78d4325054",
+  "payload": {
+    "225260": {
+      "success": true,
+      "data": {
+        "steam_appid": 225260,
+        "name": "Brutal Legend",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 26, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 299,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 11236
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1142be642bd7bd89d8914fa9922b2e893a73b6c0f69fb6bbdc571e8168b1bda9"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 636480,
+  "fetchedAt": "2026-07-31T02:45:18.633Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=636480&cc=us&l=english",
+  "responseDigest": "sha256:4114a269b0e2e6f44714138d4df17c9a660d627780f67ea95b5d32b68be78f3b",
+  "payload": {
+    "636480": {
+      "success": true,
+      "data": {
+        "steam_appid": 636480,
+        "name": "Ravenfield",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 18, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 76082
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c185a2507c78466e23ab9c0d60836a5970c58ae77179c1ce3ebfe544ef6258c8"
+}

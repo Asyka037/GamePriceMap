@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 973230,
+  "fetchedAt": "2026-07-31T03:24:06.147Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=973230&cc=us&l=english",
+  "responseDigest": "sha256:44b2300b9342d7e92d9899bed83cf403537865a1969b2458ae66e6fe30d924be",
+  "payload": {
+    "973230": {
+      "success": true,
+      "data": {
+        "steam_appid": 973230,
+        "name": "We Who Are About To Die",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2199,
+          "final": 2199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8087
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:64558a0e9eb0ef334bb3be45328350728f9f1a66e94612532ab35631f79d3949"
+}

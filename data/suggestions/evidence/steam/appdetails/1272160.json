@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1272160,
+  "fetchedAt": "2026-07-31T04:12:12.605Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1272160&cc=us&l=english",
+  "responseDigest": "sha256:b01340902efd8d9d546f798cb7da1663dfc70efea02e0e19afb42ac185fa80cb",
+  "payload": {
+    "1272160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1272160,
+        "name": "The Life and Suffering of Sir Brante",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 4, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8060
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f106b55cb56269e1eb082a2ae60483250c7e0ef1a8c5d54436aa7a523d48b100"
+}

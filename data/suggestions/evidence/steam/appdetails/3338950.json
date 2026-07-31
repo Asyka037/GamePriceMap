@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3338950,
+  "fetchedAt": "2026-07-31T03:58:04.551Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3338950&cc=us&l=english",
+  "responseDigest": "sha256:1b60d55f2be2996ac3da4d9f6e6fb3e146fc9a52d4fe0e7af12e4054e2e52247",
+  "payload": {
+    "3338950": {
+      "success": true,
+      "data": {
+        "steam_appid": 3338950,
+        "name": "The Scouring",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1749,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1102
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8c40b2102752bfb23ade6f8d310779da5534a43c5a737607cff80d5504225285"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2757330,
+  "fetchedAt": "2026-07-31T03:18:20.611Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2757330&cc=us&l=english",
+  "responseDigest": "sha256:50f26039dafe89e54fea98be545772654c3079881c2b5ab517628982a610543c",
+  "payload": {
+    "2757330": {
+      "success": true,
+      "data": {
+        "steam_appid": 2757330,
+        "name": "Class of '09: The Flip Side",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3307
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cf7111f254c61ac03804d8025e0b648f30851fb0878055290d9e7d87da74ba23"
+}

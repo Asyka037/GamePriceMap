@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 331670,
+  "fetchedAt": "2026-07-31T03:42:01.406Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=331670&cc=us&l=english",
+  "responseDigest": "sha256:316fe6c9492af593f71501a41e12170a4324168c3dbd01d7354b22d67e22410e",
+  "payload": {
+    "331670": {
+      "success": true,
+      "data": {
+        "steam_appid": 331670,
+        "name": "The Jackbox Party Pack",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 26, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1464
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e8c582227b179e2f9d861ae11935ed6473f040d94fc9ba0b31bc0c1f30f4c664"
+}

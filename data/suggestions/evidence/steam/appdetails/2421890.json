@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2421890,
+  "fetchedAt": "2026-07-31T04:11:16.653Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2421890&cc=us&l=english",
+  "responseDigest": "sha256:3316f11fe0a0807fe88e688cde5df6eff968fadb2e171ca49340b6c2b267fd10",
+  "payload": {
+    "2421890": {
+      "success": true,
+      "data": {
+        "steam_appid": 2421890,
+        "name": "Warhammer 40,000: Chaos Gate - Daemonhunters - Execution Force",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 25, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 749,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 134
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:292de4c8c88c8456d0c46e012bda5d5abbc9949fd4572a48d460604626f8bd45"
+}

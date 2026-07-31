@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3863760,
+  "fetchedAt": "2026-07-31T03:20:41.837Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3863760&cc=us&l=english",
+  "responseDigest": "sha256:dbb0a8801375097af0c5e731831b3f23a471490d8566445ca65cd93dacbf8606",
+  "payload": {
+    "3863760": {
+      "success": true,
+      "data": {
+        "steam_appid": 3863760,
+        "name": "侠影录",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1349,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 708
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f2a336ba75c51709577b0823e308a9b69603007b4d2e4dba58581e5c5c0be9bc"
+}

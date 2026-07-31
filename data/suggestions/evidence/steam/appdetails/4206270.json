@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4206270,
+  "fetchedAt": "2026-07-31T03:19:24.740Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4206270&cc=us&l=english",
+  "responseDigest": "sha256:1a1ccece6abaf99f97aebf53a597291b40bbd42ef0864bc9122b8580acaa1b24",
+  "payload": {
+    "4206270": {
+      "success": true,
+      "data": {
+        "steam_appid": 4206270,
+        "name": "Wireworks",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 489,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 492
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3914178d7a5db995435c718613867a34a082debf5ac85c2fc50188eed2251d15"
+}

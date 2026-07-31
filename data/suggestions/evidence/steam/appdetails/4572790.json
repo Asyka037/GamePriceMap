@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4572790,
+  "fetchedAt": "2026-07-31T03:52:25.639Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4572790&cc=us&l=english",
+  "responseDigest": "sha256:f290fbbe18ad354a1cb5212622457dde8c7c838b8a509188433a2bd5a7d1e25f",
+  "payload": {
+    "4572790": {
+      "success": true,
+      "data": {
+        "steam_appid": 4572790,
+        "name": "Suika Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f0e9664af1fef1d8706b935d4875f1f140edc895c293934ddebbf874a3e4cbb4"
+}

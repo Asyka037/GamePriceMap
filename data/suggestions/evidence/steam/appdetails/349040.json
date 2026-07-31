@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 349040,
+  "fetchedAt": "2026-07-31T02:49:09.349Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=349040&cc=us&l=english",
+  "responseDigest": "sha256:0f97693ba95c4f50f16fc048f790710c7bc9cb0343d00d0f72ab91fdc16502d4",
+  "payload": {
+    "349040": {
+      "success": true,
+      "data": {
+        "steam_appid": 349040,
+        "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 4, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 72296
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c17d612b74968ba1a73cffa9384fb16947a9182f7643551da586f4617997f9d4"
+}

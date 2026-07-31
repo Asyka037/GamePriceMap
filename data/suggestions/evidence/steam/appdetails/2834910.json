@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2834910,
+  "fetchedAt": "2026-07-31T02:48:47.101Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2834910&cc=us&l=english",
+  "responseDigest": "sha256:ee2b8723f3a9ffe5cd56114491123d3c72ea359522f564f429937134ecf8702b",
+  "payload": {
+    "2834910": {
+      "success": true,
+      "data": {
+        "steam_appid": 2834910,
+        "name": "Rocksmith+",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 6, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b5ddb83b926a3b7d5ae84b95c2af1ba25c568a08f2fe4d8c1a90a350132105e1"
+}

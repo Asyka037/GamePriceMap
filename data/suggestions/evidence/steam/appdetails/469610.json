@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 469610,
+  "fetchedAt": "2026-07-31T02:59:36.736Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=469610&cc=us&l=english",
+  "responseDigest": "sha256:8d176af549d34db5c2073899c1a7b24c3643c853a07ae4a070b5d3d7d0fbcd9c",
+  "payload": {
+    "469610": {
+      "success": true,
+      "data": {
+        "steam_appid": 469610,
+        "name": "Rick and Morty: Virtual Rick-ality",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 20, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2247
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8f369befc6f4347f260c7478015a8a686b8f0bb6c440451c03ff07658eb2f8b2"
+}

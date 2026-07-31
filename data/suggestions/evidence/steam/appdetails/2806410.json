@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2806410,
+  "fetchedAt": "2026-07-31T03:56:18.972Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2806410&cc=us&l=english",
+  "responseDigest": "sha256:037047c60922501a6a2c50258f03788e047d9988cb448b2ec7a7c07a49b30f18",
+  "payload": {
+    "2806410": {
+      "success": true,
+      "data": {
+        "steam_appid": 2806410,
+        "name": "Project Entropy",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bdb72ae358eb7644a2ab6f479bed99ad9c860d7ea8cb7f25ee585489fba42451"
+}

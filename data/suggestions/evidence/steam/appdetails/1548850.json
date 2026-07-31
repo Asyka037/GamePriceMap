@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1548850,
+  "fetchedAt": "2026-07-31T02:51:19.664Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1548850&cc=us&l=english",
+  "responseDigest": "sha256:ecae3da75629c7b0f432a3a20a28233c6a0813a4f96201a2d1f665db7151e6bb",
+  "payload": {
+    "1548850": {
+      "success": true,
+      "data": {
+        "steam_appid": 1548850,
+        "name": "Six Days in Fallujah",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 22, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12888
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c8db3b574f45e8b51f62c388421a61946ada1559fd1366c34ff7f16ae35e390f"
+}

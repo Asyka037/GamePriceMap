@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3889960,
+  "fetchedAt": "2026-07-31T03:22:51.051Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3889960&cc=us&l=english",
+  "responseDigest": "sha256:7ba0803ac3d817d06b8f8f01d6fce7b6657951dbe938a4ae9d31f065789aa43d",
+  "payload": {
+    "3889960": {
+      "success": true,
+      "data": {
+        "steam_appid": 3889960,
+        "name": "Warface",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ad37859422e77e95e9e05e6ba687d1f3d0e168be8f5db87cfce9f9ffa3817303"
+}

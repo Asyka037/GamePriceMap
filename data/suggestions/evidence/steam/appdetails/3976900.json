@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3976900,
+  "fetchedAt": "2026-07-31T02:50:45.583Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3976900&cc=us&l=english",
+  "responseDigest": "sha256:80e37e733b4810fe6a0c523fd5b2887d836f49c965a60d393c6bde8039e18559",
+  "payload": {
+    "3976900": {
+      "success": true,
+      "data": {
+        "steam_appid": 3976900,
+        "name": "Age of Wonders 4: Rise from Ruin",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 106
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:74abd46d756cecdcd7bc179e97a20e16879f3dde807c6bc9391ef623b17ca135"
+}

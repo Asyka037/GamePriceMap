@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 550320,
+  "fetchedAt": "2026-07-31T03:07:20.107Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=550320&cc=us&l=english",
+  "responseDigest": "sha256:a000c52be6c0a4e34278dc09b103d5527254c3cde0e03172ef3f3c8347f1a122",
+  "payload": {
+    "550320": {
+      "success": true,
+      "data": {
+        "steam_appid": 550320,
+        "name": "art of rally",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5519
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6a91d854686d695853669ff55fb0bed94d4684d977109dc638d95686deb821d3"
+}

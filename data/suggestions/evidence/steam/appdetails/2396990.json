@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2396990,
+  "fetchedAt": "2026-07-31T03:16:57.384Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2396990&cc=us&l=english",
+  "responseDigest": "sha256:4f09fdc960d1eee6dd4f3815bd29fd4de2466e34da69b3589a2ec99db5a512a1",
+  "payload": {
+    "2396990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2396990,
+        "name": "Fate/hollow ataraxia REMASTERED",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 903
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:989a991707e9e8cb90d0a0a3456a21f7db22609092a0f7178ea23a78a742453b"
+}

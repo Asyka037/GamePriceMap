@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3795900,
+  "fetchedAt": "2026-07-31T03:15:54.296Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3795900&cc=us&l=english",
+  "responseDigest": "sha256:38a8b7a2de3d6ad19f8367951b0e0c191d7a1ee14f92db426a257cb28ae68c0f",
+  "payload": {
+    "3795900": {
+      "success": true,
+      "data": {
+        "steam_appid": 3795900,
+        "name": "FRONT MISSION 3: Remake",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 409
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ff8911bc7201f45e883fc50de6f21d5676f875c62b11d332a8bfa8e3ad29d0db"
+}

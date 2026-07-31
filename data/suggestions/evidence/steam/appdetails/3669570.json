@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3669570,
+  "fetchedAt": "2026-07-31T02:51:21.173Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3669570&cc=us&l=english",
+  "responseDigest": "sha256:af0c9ff6f64144e6faf3b0c182a677810c579258bc780c97cc5a4959cf531922",
+  "payload": {
+    "3669570": {
+      "success": true,
+      "data": {
+        "steam_appid": 3669570,
+        "name": "Alchemy Factory",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2248
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aaf03d5ed2572b5086742222af2c7c83f491934edae6167f3ac2285f99c45b6d"
+}

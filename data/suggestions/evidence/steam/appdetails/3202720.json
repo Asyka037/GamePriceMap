@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3202720,
+  "fetchedAt": "2026-07-31T03:22:15.444Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3202720&cc=us&l=english",
+  "responseDigest": "sha256:ce9c08d9646447d604ef144cb7a6e44e837c29905a283edb0fe0cff7875be59c",
+  "payload": {
+    "3202720": {
+      "success": true,
+      "data": {
+        "steam_appid": 3202720,
+        "name": "Warhammer 40,000: Battlesector - Astra Militarum",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 135
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:11587bd63b7149b4c927fc4dc058558fd5b8442a8e4aa905310ff18702b2adc8"
+}

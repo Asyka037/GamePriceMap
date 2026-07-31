@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2585830,
+  "fetchedAt": "2026-07-31T03:35:37.188Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2585830&cc=us&l=english",
+  "responseDigest": "sha256:8ec8f03aef2f48fe0eb3e6908bd856b4a4319c4e6bb3db2c84f565deb2ba5ce9",
+  "payload": {
+    "2585830": {
+      "success": true,
+      "data": {
+        "steam_appid": 2585830,
+        "name": "Promise Mascot Agency",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1574,
+          "discount_percent": 37
+        },
+        "recommendations": {
+          "total": 2504
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:35962620f43d5e6198080c202ec72b2cca1d7f6f9b27454890230b60ddbf3b23"
+}

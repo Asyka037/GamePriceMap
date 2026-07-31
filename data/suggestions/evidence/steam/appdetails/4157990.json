@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4157990,
+  "fetchedAt": "2026-07-31T03:15:06.978Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4157990&cc=us&l=english",
+  "responseDigest": "sha256:aba01aeeee4d5e6474158e2f8821ba219e7de0530a0fbfec106d032316c5a8ae",
+  "payload": {
+    "4157990": {
+      "success": true,
+      "data": {
+        "steam_appid": 4157990,
+        "name": "Warframe: The Old Peace Complete Collection",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 3599,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:20d1014dfaa74c79de5ca6c3667a774573a0492fd62cd7e70d2b23a34bff6b1d"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3673150,
+  "fetchedAt": "2026-07-31T03:00:05.382Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3673150&cc=us&l=english",
+  "responseDigest": "sha256:3170d9a0cc4ce65a15059153ef3d58e42c9987fda4637d4cd44c88796d5833bf",
+  "payload": {
+    "3673150": {
+      "success": true,
+      "data": {
+        "steam_appid": 3673150,
+        "name": "Vegas Casino & Slots: Slottist",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 5, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4286498655bb262b7b5cc795f53d4dd64ce03a99f96f83038f9a9b61ca64a3a5"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1202200,
+  "fetchedAt": "2026-07-31T03:04:26.586Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1202200&cc=us&l=english",
+  "responseDigest": "sha256:7d35ce0f9b443091933bb860e0877ac885f9ad445158b5f4e9aee836e8c0aefe",
+  "payload": {
+    "1202200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1202200,
+        "name": "Paleo Pines",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2072
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5ac5dc9c09e8594f9e4c414eeb4a08db6114444a43bef5d6a9ab093d7bd7b5f5"
+}

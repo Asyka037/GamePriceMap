@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2902740,
+  "fetchedAt": "2026-07-31T03:03:07.067Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2902740&cc=us&l=english",
+  "responseDigest": "sha256:8ff4183da32913bdc6168c37ffc811a415905a306ff7de81e38c8ffbfef99618",
+  "payload": {
+    "2902740": {
+      "success": true,
+      "data": {
+        "steam_appid": 2902740,
+        "name": "Draw Steel",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7558b9100ff7b783e69c3f1fb609a2f4cf3ec61d5d797933ec76a020de83709c"
+}

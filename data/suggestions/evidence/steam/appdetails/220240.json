@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 220240,
+  "fetchedAt": "2026-07-31T03:19:17.383Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=220240&cc=us&l=english",
+  "responseDigest": "sha256:d872196163992bc39b98c1c1245426c8c5cd50a63e1529e9e0d576e61a79d77a",
+  "payload": {
+    "220240": {
+      "success": true,
+      "data": {
+        "steam_appid": 220240,
+        "name": "Far Cry 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 121212
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a7a5f2d0a4dd32234ae1e412630d7af02599e061d8c4e69e9df12e5cb4fb45b"
+}

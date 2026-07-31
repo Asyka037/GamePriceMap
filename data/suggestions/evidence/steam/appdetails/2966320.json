@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2966320,
+  "fetchedAt": "2026-07-31T03:02:44.490Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2966320&cc=us&l=english",
+  "responseDigest": "sha256:9abc5d99597dd5553dced94cf87f3f2b0c8984c8f53d7d75ec4ea415513d5430",
+  "payload": {
+    "2966320": {
+      "success": true,
+      "data": {
+        "steam_appid": 2966320,
+        "name": "Starsand Island",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5309
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cb32ffa52da3af42fb120880654d953eaa1ad63a5cc7d49b780e81c9c8cae651"
+}

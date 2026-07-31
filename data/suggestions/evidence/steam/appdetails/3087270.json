@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3087270,
+  "fetchedAt": "2026-07-31T03:18:33.951Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3087270&cc=us&l=english",
+  "responseDigest": "sha256:8e3bdde01a1eae25501f931ceb2a90c0bfedd5dcf81f471934ee08cffd0c7b49",
+  "payload": {
+    "3087270": {
+      "success": true,
+      "data": {
+        "steam_appid": 3087270,
+        "name": "Sid Meier's Civilization® VII: Ashoka (World Conqueror) Persona",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e26eef510b640a500380d69a9c24ce7c02eac03da53cb8f9d324dc5ef045e787"
+}

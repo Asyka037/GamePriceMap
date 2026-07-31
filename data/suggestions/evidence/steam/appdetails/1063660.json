@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1063660,
+  "fetchedAt": "2026-07-31T03:04:55.684Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1063660&cc=us&l=english",
+  "responseDigest": "sha256:140adfe8c2a7f0ad97584fbeccf053e474b514d9a16dea6914176c430113fad3",
+  "payload": {
+    "1063660": {
+      "success": true,
+      "data": {
+        "steam_appid": 1063660,
+        "name": "Bendy and the Dark Revival",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 15, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14170
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ca5a826dab020ab3440da026574b8cc05aef8de864a36a798e71d923741c0312"
+}

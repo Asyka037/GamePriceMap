@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1927720,
+  "fetchedAt": "2026-07-31T04:03:37.142Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1927720&cc=us&l=english",
+  "responseDigest": "sha256:62f775778a5cb6030c4e5488f7ed927d77efda6faa70fe3919aff46b80e8d115",
+  "payload": {
+    "1927720": {
+      "success": true,
+      "data": {
+        "steam_appid": 1927720,
+        "name": "Monument Valley",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 12, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7402
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f6009ea033d9e1ed4edbb0da94bc1d20ae8debca64536bac9663cf1aeb438042"
+}

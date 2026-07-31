@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 826630,
+  "fetchedAt": "2026-07-31T03:36:39.508Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=826630&cc=us&l=english",
+  "responseDigest": "sha256:fa6378420bdd7a6ea14d5ab1e8440a70fe0d330dd84116d7572edeee9b86322f",
+  "payload": {
+    "826630": {
+      "success": true,
+      "data": {
+        "steam_appid": 826630,
+        "name": "Iron Harvest",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 31, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 449,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 11627
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:02b7249cdcaff8af147103925a1dd76491c7ee66b60656c26b589cd2b7f6702a"
+}

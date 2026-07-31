@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1176470,
+  "fetchedAt": "2026-07-31T02:56:06.987Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1176470&cc=us&l=english",
+  "responseDigest": "sha256:9d19bf4b3a22bb1d22e93c55f65cc52b07ece35d80581d601fa141ecf9cf4a7a",
+  "payload": {
+    "1176470": {
+      "success": true,
+      "data": {
+        "steam_appid": 1176470,
+        "name": "Terra Invicta",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 8776
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:337a3db5376a5f13981cbfe04ea99c50fdaaba98bcea86d8d3eb84fcaf8bf134"
+}

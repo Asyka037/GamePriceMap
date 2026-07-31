@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2370570,
+  "fetchedAt": "2026-07-31T02:44:25.310Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2370570&cc=us&l=english",
+  "responseDigest": "sha256:3a54ea8d33fd4cd8a17999b9b5484d775a6fe46129b34304fa795a6f7b1260c8",
+  "payload": {
+    "2370570": {
+      "success": true,
+      "data": {
+        "steam_appid": 2370570,
+        "name": "Standable: Full Body Estimation",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1585
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1bb6d6a6caac8f635ac7d51197384355f5e318fe753253913e357598a42fbe10"
+}

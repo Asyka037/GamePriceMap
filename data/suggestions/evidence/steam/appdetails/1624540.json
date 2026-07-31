@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1624540,
+  "fetchedAt": "2026-07-31T04:02:24.812Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1624540&cc=us&l=english",
+  "responseDigest": "sha256:6e8887d09cb1961abdabf30e8fdc9a04149a83945dc863b0913aefcc647e6dcc",
+  "payload": {
+    "1624540": {
+      "success": true,
+      "data": {
+        "steam_appid": 1624540,
+        "name": "Storyteller",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8020
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2be60ae7016dd32f5834e2d3f92107a6cedac75b20b5264cd630be8705fd4d3e"
+}

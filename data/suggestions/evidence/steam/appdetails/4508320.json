@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4508320,
+  "fetchedAt": "2026-07-31T03:04:52.337Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4508320&cc=us&l=english",
+  "responseDigest": "sha256:3fe618d4923f9a71bad98fe58ac09fbd8638a87f38f82f5c3c2e4d36dd4b09a7",
+  "payload": {
+    "4508320": {
+      "success": true,
+      "data": {
+        "steam_appid": 4508320,
+        "name": "Plague Inc: Aliens & Anti-Vaxxers",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 296
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bbf3cf96a9b1d78817379d627f1baf90065039ce80e35965c2f991cb3aac0c71"
+}

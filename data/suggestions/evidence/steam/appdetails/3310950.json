@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3310950,
+  "fetchedAt": "2026-07-31T03:33:16.611Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3310950&cc=us&l=english",
+  "responseDigest": "sha256:e020423a9cf57eff9c558fa4da91653f2e6e427c439e899f8fdab47402448bfe",
+  "payload": {
+    "3310950": {
+      "success": true,
+      "data": {
+        "steam_appid": 3310950,
+        "name": "Nightmare Frontier",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 173
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8a78d6db814d2750567a6903ba45ea72763e0d3e43cdabb6477fa4f42fef4b48"
+}

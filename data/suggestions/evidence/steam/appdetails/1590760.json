@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1590760,
+  "fetchedAt": "2026-07-31T03:53:45.147Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1590760&cc=us&l=english",
+  "responseDigest": "sha256:d20d467514ee20cfcab7e9318111288903620c1d5ce1b3416ec00084f7543086",
+  "payload": {
+    "1590760": {
+      "success": true,
+      "data": {
+        "steam_appid": 1590760,
+        "name": "Metal Slug Tactics",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1138
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:39e012315953ff616fdfe416288c92a9d1edab4d50c50bace05f712bea90003c"
+}

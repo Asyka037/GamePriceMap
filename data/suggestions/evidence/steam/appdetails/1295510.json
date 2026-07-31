@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1295510,
+  "fetchedAt": "2026-07-31T03:18:01.420Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1295510&cc=us&l=english",
+  "responseDigest": "sha256:f7e42d3ff658ff093864ac540a0fd0bbd64d438cbb78a172da00f8de4e60934b",
+  "payload": {
+    "1295510": {
+      "success": true,
+      "data": {
+        "steam_appid": 1295510,
+        "name": "DRAGON QUEST® XI S: Echoes of an Elusive Age™ - Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10318
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3ed62640ff4011834b7321e6028ea2b414b62aaa40015e9c5ebdb100b8789903"
+}

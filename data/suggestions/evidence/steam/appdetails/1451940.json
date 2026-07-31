@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1451940,
+  "fetchedAt": "2026-07-31T02:45:08.263Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1451940&cc=us&l=english",
+  "responseDigest": "sha256:b9be85e99552556291498c4341080db1b7c29bda95b424edd88a36e44889813d",
+  "payload": {
+    "1451940": {
+      "success": true,
+      "data": {
+        "steam_appid": 1451940,
+        "name": "NEEDY STREAMER OVERLOAD",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 21, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 53325
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7b24bebb6e201e29592d89a081f9c8ffc50167115bc176d131a56125664f0143"
+}

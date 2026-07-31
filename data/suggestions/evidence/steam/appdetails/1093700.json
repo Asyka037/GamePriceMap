@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1093700,
+  "fetchedAt": "2026-07-31T03:13:42.645Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1093700&cc=us&l=english",
+  "responseDigest": "sha256:5e36c9e73b104928c7920483eeb3a531832fcb0f829aa8077a7c828c2bf1dde6",
+  "payload": {
+    "1093700": {
+      "success": true,
+      "data": {
+        "steam_appid": 1093700,
+        "name": "theHunter: Call of the Wild™ - Yukon Valley",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 399,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 729
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6c9fd79ac3bac210f057db1e38050f32ac43093cc34106ee0a9c09290217e55b"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1522090,
+  "fetchedAt": "2026-07-31T04:08:28.309Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1522090&cc=us&l=english",
+  "responseDigest": "sha256:407422cbb31614097cf3246781596db1f2e277c7c3ffa5f6e1b224053a6e3815",
+  "payload": {
+    "1522090": {
+      "success": true,
+      "data": {
+        "steam_appid": 1522090,
+        "name": "Stellaris: Nemesis",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 15, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1546
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ccc667e15357be833870ac1326f40f23c8a2cf22de361f0cf67725fe45fd4126"
+}

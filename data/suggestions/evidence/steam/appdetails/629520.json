@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 629520,
+  "fetchedAt": "2026-07-31T04:17:12.328Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=629520&cc=us&l=english",
+  "responseDigest": "sha256:49b6f3a779317ceef2758abf92e839583985ce1d53398a88aef0d933e4ffc4b5",
+  "payload": {
+    "629520": {
+      "success": true,
+      "data": {
+        "steam_appid": 629520,
+        "name": "Soundpad",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 30, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 95251
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d7a98af642bf0b7d7befeebf99abdda72c08b1c5d214bf33e7dae07939d22f58"
+}

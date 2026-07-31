@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3265250,
+  "fetchedAt": "2026-07-31T03:56:35.422Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3265250&cc=us&l=english",
+  "responseDigest": "sha256:4295f7dbea8850b9db664c5c332b87fa70e76217b1d58673204563ab18b7def8",
+  "payload": {
+    "3265250": {
+      "success": true,
+      "data": {
+        "steam_appid": 3265250,
+        "name": "MindsEye",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 1749,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 2757
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ee74d808837667a07cd8222230154ff3ea65bc394b7f6b2f364c9229cb69b0da"
+}

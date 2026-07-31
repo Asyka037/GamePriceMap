@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2384550,
+  "fetchedAt": "2026-07-31T03:29:33.783Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2384550&cc=us&l=english",
+  "responseDigest": "sha256:a53f4ff2a86da42db7514553433b63fcbcb06f457db3aee532e5086eb5548973",
+  "payload": {
+    "2384550": {
+      "success": true,
+      "data": {
+        "steam_appid": 2384550,
+        "name": "VTube Studio - VNet Multiplayer Collab",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 24, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ceed1ec0a897d1675155805b12fbe3b38e1017198d4724917e17c26776568825"
+}

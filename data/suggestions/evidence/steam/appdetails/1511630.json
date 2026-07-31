@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1511630,
+  "fetchedAt": "2026-07-31T03:07:59.864Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1511630&cc=us&l=english",
+  "responseDigest": "sha256:e2f1c01cea6edeec3a6a1f63c8cdeb2a814d0feca3786467d5ddc67c13c8313d",
+  "payload": {
+    "1511630": {
+      "success": true,
+      "data": {
+        "steam_appid": 1511630,
+        "name": "TrackDayR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 17, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2135
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1ff87288822193b5cf305ea0d37adbaae9c29375308697050a1e152b69b263cb"
+}

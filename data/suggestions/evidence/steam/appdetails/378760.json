@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 378760,
+  "fetchedAt": "2026-07-31T03:32:53.339Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=378760&cc=us&l=english",
+  "responseDigest": "sha256:50e9b6fe3571510c2b9c6044dffd78076dc8117ff8b0caf3ba003f3bb4f2863a",
+  "payload": {
+    "378760": {
+      "success": true,
+      "data": {
+        "steam_appid": 378760,
+        "name": "Pixel Starships",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 23, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:830dc52318b6856cc4e917189f86aa5ae4c616abb14435f7829daa8c8160a258"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1670430,
+  "fetchedAt": "2026-07-31T02:54:57.775Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1670430&cc=us&l=english",
+  "responseDigest": "sha256:434f3214b0cbe465d9a1de58f50288f2527d22a86e150baac3563f434993f047",
+  "payload": {
+    "1670430": {
+      "success": true,
+      "data": {
+        "steam_appid": 1670430,
+        "name": "Rust - Voice Props Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 1, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 649,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1933
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d0ef273b149f55aa724eeea0c0fc97189fed8d7a96a62bebfb7accc1483fac61"
+}

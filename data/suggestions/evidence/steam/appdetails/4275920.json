@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4275920,
+  "fetchedAt": "2026-07-31T03:51:23.191Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4275920&cc=us&l=english",
+  "responseDigest": "sha256:f0e2564da9b9e9017648f8fe6c95688f2b6d39e16608a89a1960d9ecb3456fa6",
+  "payload": {
+    "4275920": {
+      "success": true,
+      "data": {
+        "steam_appid": 4275920,
+        "name": "Pickochet",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 419,
+          "discount_percent": 30
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1916306e82d940f5ed1ae6eb15c4cafe0897d4278b1335a73550b6655bce06e3"
+}

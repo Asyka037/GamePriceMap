@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1012880,
+  "fetchedAt": "2026-07-31T02:59:57.695Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1012880&cc=us&l=english",
+  "responseDigest": "sha256:99c0c776ff396ab1c46d5b3ceabda3face99aade276d40b66d86bf3da49a48bb",
+  "payload": {
+    "1012880": {
+      "success": true,
+      "data": {
+        "steam_appid": 1012880,
+        "name": "60 Seconds! Reatomized",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 25, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 18137
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7b0993668c3f24df923e29abc90361611d75d76cf13b153c126c1212abf496bb"
+}

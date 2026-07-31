@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4507620,
+  "fetchedAt": "2026-07-31T02:54:33.898Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4507620&cc=us&l=english",
+  "responseDigest": "sha256:151855ee0b01d8c8a1ed97b29683160fed8a077ee9f17bd4a23a32245dc03722",
+  "payload": {
+    "4507620": {
+      "success": true,
+      "data": {
+        "steam_appid": 4507620,
+        "name": "Crazy Oddballs: Idle RPG",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 18, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:33835f9766fa48cb85e14494d70d9c5465aa12a8b42ffe953d9e1c9b086d4ca7"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 239250,
+  "fetchedAt": "2026-07-31T02:54:22.133Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=239250&cc=us&l=english",
+  "responseDigest": "sha256:3e9787117b612a34596af47b7d3dac12b20ed08365a158ce31298da12891e6b5",
+  "payload": {
+    "239250": {
+      "success": true,
+      "data": {
+        "steam_appid": 239250,
+        "name": "Castlevania: Lords of Shadow 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 25, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4844
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fb371fef5c7945543ef8776b7b831576f39cd89a358a49b7b6d04cf21d209678"
+}

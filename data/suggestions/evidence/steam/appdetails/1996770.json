@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1996770,
+  "fetchedAt": "2026-07-31T03:17:13.788Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1996770&cc=us&l=english",
+  "responseDigest": "sha256:e8554cd2354ca086eb2c9be671d2271484ad6c28a7dfbbca80968cdc75864f5d",
+  "payload": {
+    "1996770": {
+      "success": true,
+      "data": {
+        "steam_appid": 1996770,
+        "name": "Turok 3: Shadow of Oblivion Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 558
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dd34d04213a7672d9a7f3eedc6b04603fab2ba6399f17b9b481f278b13b3bd35"
+}

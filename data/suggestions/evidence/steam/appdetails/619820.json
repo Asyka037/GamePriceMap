@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 619820,
+  "fetchedAt": "2026-07-31T03:04:32.461Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=619820&cc=us&l=english",
+  "responseDigest": "sha256:0710dd30cfe711444082544bdba50d3c1ac66c8941e2653c4a0aaddc0d77f982",
+  "payload": {
+    "619820": {
+      "success": true,
+      "data": {
+        "steam_appid": 619820,
+        "name": "Heroes of Hammerwatch II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 14, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 799,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 5687
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c61335b97e12119d116a85210b4f2a784d0bf2ce7dab2dfa5c0c57f2d0c116b1"
+}

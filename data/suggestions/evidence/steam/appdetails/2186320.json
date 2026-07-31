@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2186320,
+  "fetchedAt": "2026-07-31T02:59:33.808Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2186320&cc=us&l=english",
+  "responseDigest": "sha256:2a628597062287524ea737576955000c59e0b6ca194ab04a0af912aa9a5609d7",
+  "payload": {
+    "2186320": {
+      "success": true,
+      "data": {
+        "steam_appid": 2186320,
+        "name": "Ages of Conflict: World War Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 17, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8370
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d35eedff59493c353cb00b1097706b81d41e13e4c1adf84640d3bfaf6112e2c4"
+}

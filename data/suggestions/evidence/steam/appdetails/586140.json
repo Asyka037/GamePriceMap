@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 586140,
+  "fetchedAt": "2026-07-31T03:41:44.999Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=586140&cc=us&l=english",
+  "responseDigest": "sha256:87997dae71adbbb352e4012e2482a81e1b13a46e290a8f0134f088f00f89ab47",
+  "payload": {
+    "586140": {
+      "success": true,
+      "data": {
+        "steam_appid": 586140,
+        "name": "BlazBlue Centralfiction",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 25, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9415
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:856807ca3fee72dafe2aeb24a175762b8749ebe341ec9e4d2845bf4fc35e03e4"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3104970,
+  "fetchedAt": "2026-07-31T02:45:09.746Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3104970&cc=us&l=english",
+  "responseDigest": "sha256:ea3d9f7a6f0e75c49e7cb5a279c319ba0686329974e23c6600f67faca3cb2f2c",
+  "payload": {
+    "3104970": {
+      "success": true,
+      "data": {
+        "steam_appid": 3104970,
+        "name": "Backyard Baseball '01",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 618
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3ee700a48bfee397f5719beb3b607f4e54508a1e61c89a478f15143baa34500a"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3358170,
+  "fetchedAt": "2026-07-31T03:37:28.570Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3358170&cc=us&l=english",
+  "responseDigest": "sha256:023c331f919559cd711ca00084c3087b3a667e9bae0cab1fa1af4e650e90bb6e",
+  "payload": {
+    "3358170": {
+      "success": true,
+      "data": {
+        "steam_appid": 3358170,
+        "name": "Dodo Duckie",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 959,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b7b1a7840360acf559e24519f6031b9846fedd376438759aac0c1a9d29d2c1dd"
+}

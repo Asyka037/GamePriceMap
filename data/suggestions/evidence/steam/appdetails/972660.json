@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 972660,
+  "fetchedAt": "2026-07-31T03:04:17.649Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=972660&cc=us&l=english",
+  "responseDigest": "sha256:e7247f63a222763bd83210dc2ef9e6d5fbc0755f7a36589eaea9a6f41af21850",
+  "payload": {
+    "972660": {
+      "success": true,
+      "data": {
+        "steam_appid": 972660,
+        "name": "Spiritfarer®: Farewell Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 46840
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2ff0069b52d9cad2acdf5ac3f1dea7acf93d8b3014e784faff8864cc95e537f4"
+}

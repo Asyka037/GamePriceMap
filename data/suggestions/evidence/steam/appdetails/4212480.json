@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4212480,
+  "fetchedAt": "2026-07-31T03:14:50.915Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4212480&cc=us&l=english",
+  "responseDigest": "sha256:983a924ab3b9e59dc6eec32a74241a1a6d8922559b647dc938132903ed89540d",
+  "payload": {
+    "4212480": {
+      "success": true,
+      "data": {
+        "steam_appid": 4212480,
+        "name": "Ragnarok: The New World",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 26, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f714b2b3d20df040360aaccefc6a46721c7caa11cb7a4e2b03ac7c6911435727"
+}

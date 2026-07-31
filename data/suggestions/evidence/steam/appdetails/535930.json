@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 535930,
+  "fetchedAt": "2026-07-31T03:30:23.741Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=535930&cc=us&l=english",
+  "responseDigest": "sha256:98023329c6ba136f8b9b9225f43b25506f8893f61f679c8aac32ea114609b03b",
+  "payload": {
+    "535930": {
+      "success": true,
+      "data": {
+        "steam_appid": 535930,
+        "name": "Two Point Hospital",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 29, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 26525
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:edcbb4ec03502a6a235bb25efde060cfafb45c1b3bc9a1ec0c11e5764d5b1954"
+}

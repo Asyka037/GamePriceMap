@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 7940,
+  "fetchedAt": "2026-07-31T03:17:18.440Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=7940&cc=us&l=english",
+  "responseDigest": "sha256:cd176fe4c614213515206699d24c4a6aededce14d7db088217cfefe692bbecb3",
+  "payload": {
+    "7940": {
+      "success": true,
+      "data": {
+        "steam_appid": 7940,
+        "name": "Call of Duty® 4: Modern Warfare® (2007)",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2007"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 21940
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b1e324ed652924b9f456739e654709919090517d7cb19fde7a5af4d80473a58c"
+}

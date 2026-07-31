@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4124920,
+  "fetchedAt": "2026-07-31T03:08:30.965Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4124920&cc=us&l=english",
+  "responseDigest": "sha256:1f0a9048e9219f1b2ea4cc91f77f5ab0f36eeb8ab867f9a0631b95500db6165c",
+  "payload": {
+    "4124920": {
+      "success": true,
+      "data": {
+        "steam_appid": 4124920,
+        "name": "Some of You May Die",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1274,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:11b28a58ac40739871a5239b135631a28a6695b2a4f9e7a85ae2e0397e503491"
+}

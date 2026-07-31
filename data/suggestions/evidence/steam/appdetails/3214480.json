@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3214480,
+  "fetchedAt": "2026-07-31T03:46:16.537Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3214480&cc=us&l=english",
+  "responseDigest": "sha256:a0779a1b49289eb19ade8683f1c752758c24d911b9a50533d7ef260ec4634fa0",
+  "payload": {
+    "3214480": {
+      "success": true,
+      "data": {
+        "steam_appid": 3214480,
+        "name": "Prime Monster",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 4, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 292
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:45e981717d29866c31c354b2c984b6660d5876b828fe9810da7d77f8bac8bb23"
+}

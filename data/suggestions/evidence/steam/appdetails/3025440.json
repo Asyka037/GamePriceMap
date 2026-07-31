@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3025440,
+  "fetchedAt": "2026-07-31T02:43:31.133Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3025440&cc=us&l=english",
+  "responseDigest": "sha256:cc30f9a1d52864a9c4d14315a7e2bcad07394431b8b0f870eccd1819dc3c8f83",
+  "payload": {
+    "3025440": {
+      "success": true,
+      "data": {
+        "steam_appid": 3025440,
+        "name": "American Truck Simulator - Iowa",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 246
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:965262db2b8430fa16801aa96619a0ccd207049557faa3dea566a178765482c6"
+}

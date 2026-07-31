@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2706020,
+  "fetchedAt": "2026-07-31T02:59:44.126Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2706020&cc=us&l=english",
+  "responseDigest": "sha256:9fa170f0d5579536793efae7c2880262f8afa8b414c2c8d5e467167aad28ce5b",
+  "payload": {
+    "2706020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2706020,
+        "name": "ALL WILL FALL",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1139
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:468baaf3b3b4b726e2d703059eb7635c590e1d163866dbd77a2a6d461f12ccac"
+}

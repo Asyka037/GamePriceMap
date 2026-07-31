@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2792170,
+  "fetchedAt": "2026-07-31T02:47:19.042Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2792170&cc=us&l=english",
+  "responseDigest": "sha256:fc9ad267b06790683fb85c022e5cb13179dcffe0a259196688f0a9241b4f4aef",
+  "payload": {
+    "2792170": {
+      "success": true,
+      "data": {
+        "steam_appid": 2792170,
+        "name": "Warhammer 40,000: Space Marine 2 - Dark Angels Chapter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 428
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a619e5f0d4bce43db9a583dc8d37f6649b3353a7d39077eacc4dd3ded966242a"
+}

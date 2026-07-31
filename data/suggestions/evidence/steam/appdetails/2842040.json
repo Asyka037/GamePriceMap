@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2842040,
+  "fetchedAt": "2026-07-31T03:02:13.244Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2842040&cc=us&l=english",
+  "responseDigest": "sha256:67ce8c0a219fcd742875d546981b332174926f09805a079204e1d59ad0ca7942",
+  "payload": {
+    "2842040": {
+      "success": true,
+      "data": {
+        "steam_appid": 2842040,
+        "name": "Star Wars Outlaws",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 21, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11703
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c071dea3494ab3e6dee9624e7055798a2a6d38bd377439c9255905454dd1a86c"
+}

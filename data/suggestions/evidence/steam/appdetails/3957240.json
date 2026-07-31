@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3957240,
+  "fetchedAt": "2026-07-31T03:12:05.883Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3957240&cc=us&l=english",
+  "responseDigest": "sha256:68147bfc51ad7f4c6e49fba51d7d653f42ce65bbf312935954a02d41b3120fea",
+  "payload": {
+    "3957240": {
+      "success": true,
+      "data": {
+        "steam_appid": 3957240,
+        "name": "Sail Girl",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e5b0aa333e489983b14da6606b676fe81e0d4e682f9902b563ad2230dd79f557"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4055790,
+  "fetchedAt": "2026-07-31T03:59:43.470Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4055790&cc=us&l=english",
+  "responseDigest": "sha256:79348c44d40928996d9801e4e9514d64e96452070a3c8746c0415db76a977882",
+  "payload": {
+    "4055790": {
+      "success": true,
+      "data": {
+        "steam_appid": 4055790,
+        "name": "House Party - Nocturnal Temptations Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c8e2a2d71a3d1f87ba4bb342c7d96371c5ecadc8e5953c8f5060c27cf7eee407"
+}

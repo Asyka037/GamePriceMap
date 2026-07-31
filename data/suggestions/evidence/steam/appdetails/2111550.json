@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2111550,
+  "fetchedAt": "2026-07-31T04:12:25.881Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2111550&cc=us&l=english",
+  "responseDigest": "sha256:abbfa27cfdf4d8b21ec916d72779e192b3653fa27d262ffdbe04871fe1b243bb",
+  "payload": {
+    "2111550": {
+      "success": true,
+      "data": {
+        "steam_appid": 2111550,
+        "name": "Schrodinger's Cat Burglar",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 563
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fb7bc80446fa5f5acfdd1661efd4560cd724925c7efc707afa16b0dba49bbd53"
+}

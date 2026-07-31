@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2780810,
+  "fetchedAt": "2026-07-31T03:16:28.994Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2780810&cc=us&l=english",
+  "responseDigest": "sha256:ae0ad515267b1d80cb2416eeb70c16f8d3bc0e3c219917adca24fd1c6c819761",
+  "payload": {
+    "2780810": {
+      "success": true,
+      "data": {
+        "steam_appid": 2780810,
+        "name": "Euro Truck Simulator 2 - Nordic Horizons",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1226
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:31b75c74d6f8e6252ae3f9ae80c2fc81c9f0b6b1a7a94b800ad3a59039369b55"
+}

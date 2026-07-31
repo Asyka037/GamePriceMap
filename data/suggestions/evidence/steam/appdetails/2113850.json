@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2113850,
+  "fetchedAt": "2026-07-31T02:48:48.583Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2113850&cc=us&l=english",
+  "responseDigest": "sha256:81347dd3c395a601f229bffb29b36f93cd0f1dd43f839d6b5bb623be534e336d",
+  "payload": {
+    "2113850": {
+      "success": true,
+      "data": {
+        "steam_appid": 2113850,
+        "name": "Spirit City: Lofi Sessions",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14899
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7a4d8ab6a75202b7092e43c63a7da868c4bb49592ef2a70b28e25cca857efad7"
+}

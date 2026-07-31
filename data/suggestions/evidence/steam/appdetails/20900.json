@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 20900,
+  "fetchedAt": "2026-07-31T03:20:04.613Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=20900&cc=us&l=english",
+  "responseDigest": "sha256:ee699315fa038401dfe028cb7702cf0d108ba1e8a480f115de437c87eb99b1f4",
+  "payload": {
+    "20900": {
+      "success": true,
+      "data": {
+        "steam_appid": 20900,
+        "name": "The Witcher: Enhanced Edition Director's Cut",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 19, 2008"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 149,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 82081
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cd9cc49e136a4a8a1fcea5547e667d4044249397e685f9ab38293202fc570769"
+}

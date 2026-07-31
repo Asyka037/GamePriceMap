@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2582320,
+  "fetchedAt": "2026-07-31T03:09:55.371Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2582320&cc=us&l=english",
+  "responseDigest": "sha256:ae2d9c7cbd9a9f00ea44fa8eaeccb3ba564f0799b37f826bf4bc601f7e0e904a",
+  "payload": {
+    "2582320": {
+      "success": true,
+      "data": {
+        "steam_appid": 2582320,
+        "name": "Mixtape",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7092
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6ecd84181500ae58d6fa0b63196ab65710fa26ce1aebff8920e38fc9107fb648"
+}

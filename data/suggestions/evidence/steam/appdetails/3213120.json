@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3213120,
+  "fetchedAt": "2026-07-31T03:16:36.300Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3213120&cc=us&l=english",
+  "responseDigest": "sha256:ffeeaa84c066ab16fc8b5dc3bca2b1867b4f46ca1cbd7dbf9b16901cd4462d68",
+  "payload": {
+    "3213120": {
+      "success": true,
+      "data": {
+        "steam_appid": 3213120,
+        "name": "Machinefall",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3b16a067c34486ab3d33b702fd67cd4a77c5e4750948d0bb54b6d8808160e7b6"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4210150,
+  "fetchedAt": "2026-07-31T04:17:02.529Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4210150&cc=us&l=english",
+  "responseDigest": "sha256:15e6d6a4020cfe1d890c1bf5cf237d0c9c08c9b24548156c51b143cc8d5876f4",
+  "payload": {
+    "4210150": {
+      "success": true,
+      "data": {
+        "steam_appid": 4210150,
+        "name": "ARC Raiders - The Bonecrown Set",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2000,
+          "final": 2000,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 161
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5487939f204444132f70f001678e42f07c27f7682c969d3cb9579a973f69a338"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2146170,
+  "fetchedAt": "2026-07-31T03:08:42.814Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2146170&cc=us&l=english",
+  "responseDigest": "sha256:46069b57e666d169cefde0ae723928f26b7932059a526570d82cca9c996872c2",
+  "payload": {
+    "2146170": {
+      "success": true,
+      "data": {
+        "steam_appid": 2146170,
+        "name": "Baten Kaitos I & II HD Remaster",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1499,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 237
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:52e68a5929d63bed6a4b65df1b71e19e495de65619ebf4c7026d4989e850008c"
+}

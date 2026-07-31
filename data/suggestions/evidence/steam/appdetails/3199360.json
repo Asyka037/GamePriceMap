@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3199360,
+  "fetchedAt": "2026-07-31T03:05:45.893Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3199360&cc=us&l=english",
+  "responseDigest": "sha256:feeb5266f4be405434b69e1d1d4d0cf5b4c342492bc110003b5468a6744cbadc",
+  "payload": {
+    "3199360": {
+      "success": true,
+      "data": {
+        "steam_appid": 3199360,
+        "name": "Skull Horde",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1032
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:af3cebe18cea6e42876041a0a361f1a69206242ef80736a07c80252043f78abb"
+}

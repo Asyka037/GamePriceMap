@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2598510,
+  "fetchedAt": "2026-07-31T03:22:42.086Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2598510&cc=us&l=english",
+  "responseDigest": "sha256:c01f599a969f091484a503271bfb0428cecb1eb4ac2eaa6b68bf5f6b514a9e3c",
+  "payload": {
+    "2598510": {
+      "success": true,
+      "data": {
+        "steam_appid": 2598510,
+        "name": "Darkest Dungeon® II: The Binding Blade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 477
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:59a7838b2847f6a1c838519001f8b80237ce1f5c0f452a821ecfddfbc1f9b968"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3577600,
+  "fetchedAt": "2026-07-31T03:46:09.976Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3577600&cc=us&l=english",
+  "responseDigest": "sha256:9dd0703ab9df6f95eb1d1e71c53f05ed710993f96ce1f58ca47c49219a95d165",
+  "payload": {
+    "3577600": {
+      "success": true,
+      "data": {
+        "steam_appid": 3577600,
+        "name": "Warhammer 40,000: Battlesector - Deeds of the Fallen",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 117
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c8469fc944b8b6b571eb758be6dbc9d074b3aafd62cc642ee33c02be97076ea5"
+}

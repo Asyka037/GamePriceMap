@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1137300,
+  "fetchedAt": "2026-07-31T03:41:28.426Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1137300&cc=us&l=english",
+  "responseDigest": "sha256:d198b0236d36fc1bb7e4c537c584392ffe2d2a02baed7c0aa17590f78547a3a5",
+  "payload": {
+    "1137300": {
+      "success": true,
+      "data": {
+        "steam_appid": 1137300,
+        "name": "Sherlock Holmes Chapter One",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 15, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4104
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:898a473a5a642aba6535852aa2956132dd396f70b1a2920ba4f3db97a802637e"
+}

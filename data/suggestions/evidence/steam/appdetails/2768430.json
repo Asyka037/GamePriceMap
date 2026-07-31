@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2768430,
+  "fetchedAt": "2026-07-31T02:51:01.790Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2768430&cc=us&l=english",
+  "responseDigest": "sha256:2eef1fdd835f3a96ead4c517e02757fc5232460c15c0bf523fdfe58f794a93a2",
+  "payload": {
+    "2768430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2768430,
+        "name": "ATLYSS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 22, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19064
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0cb6b21626e1964f035404dfbf4e3dbfd8b927f94cfa0f87a3a0cb0c92d1d44c"
+}

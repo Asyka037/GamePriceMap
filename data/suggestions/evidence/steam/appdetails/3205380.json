@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3205380,
+  "fetchedAt": "2026-07-31T04:08:44.829Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3205380&cc=us&l=english",
+  "responseDigest": "sha256:7cb0e58cc276422a86312ae2b95780fd63c3d92b694e4bb223717609d8e89231",
+  "payload": {
+    "3205380": {
+      "success": true,
+      "data": {
+        "steam_appid": 3205380,
+        "name": "Omelet You Cook",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 1496
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:106442eea6b0700fab30ee61a4b468af8824f33be8eefc2836db7842d0c51ec9"
+}

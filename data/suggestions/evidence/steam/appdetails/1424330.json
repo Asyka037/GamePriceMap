@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1424330,
+  "fetchedAt": "2026-07-31T03:07:49.588Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1424330&cc=us&l=english",
+  "responseDigest": "sha256:81b97262d4bdb18db4da30d1f2d67164d4b09b57054695e9f89c10f66b1cfc1b",
+  "payload": {
+    "1424330": {
+      "success": true,
+      "data": {
+        "steam_appid": 1424330,
+        "name": "Wobbledogs",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 15, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13542
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1c79a9c4e12e06f987f65380cd811c17123eb1135946fb76f1662aeaa49a9b6e"
+}

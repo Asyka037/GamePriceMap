@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1135230,
+  "fetchedAt": "2026-07-31T03:05:59.214Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1135230&cc=us&l=english",
+  "responseDigest": "sha256:2a793e3fc2042be5ed8d95da16882ea9945793b6fd6d3a1a7aaf1c48cbd400a8",
+  "payload": {
+    "1135230": {
+      "success": true,
+      "data": {
+        "steam_appid": 1135230,
+        "name": "Ember Knights",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 18, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5989
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0133f8a4f6e827fcba9f65d78dad74bafdef7aed997afa5123d821224aaf5fa2"
+}

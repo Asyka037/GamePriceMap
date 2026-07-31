@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4144680,
+  "fetchedAt": "2026-07-31T03:06:01.011Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4144680&cc=us&l=english",
+  "responseDigest": "sha256:42e3c481fb166996fa244c256a2df3e1816027d582b9af3972ced27816caa6cc",
+  "payload": {
+    "4144680": {
+      "success": true,
+      "data": {
+        "steam_appid": 4144680,
+        "name": "DEAD OR ALIVE 6 Last Round",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 502
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0c766ea7277db36917614ceef10643bca07b42bf4a885a80e4e4f39eb7b1ca5c"
+}

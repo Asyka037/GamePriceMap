@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2634890,
+  "fetchedAt": "2026-07-31T02:55:40.405Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2634890&cc=us&l=english",
+  "responseDigest": "sha256:61b4100f3f51f0d6869bf3b6e982f71392e4622adcda30f9b07b8a7e05a103b3",
+  "payload": {
+    "2634890": {
+      "success": true,
+      "data": {
+        "steam_appid": 2634890,
+        "name": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 11, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1999,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 1949
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dd143d3b3068dd0a6dad279ac5dd62dd4ca53e51195ca5810a4f10853c79f73e"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4200770,
+  "fetchedAt": "2026-07-31T03:03:28.947Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4200770&cc=us&l=english",
+  "responseDigest": "sha256:881514de106dc2916c1e9ffd4a96a7bd6732a6db23716d3d0522f831467314fb",
+  "payload": {
+    "4200770": {
+      "success": true,
+      "data": {
+        "steam_appid": 4200770,
+        "name": "Call of Duty®: Black Ops 7 - BlackCell (Season 05)",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:298829f82fa96aafa80447f2273c5c2bd0217f96f71ae0089256d93b4e22522b"
+}

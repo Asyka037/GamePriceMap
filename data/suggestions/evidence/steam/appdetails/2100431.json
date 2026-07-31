@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2100431,
+  "fetchedAt": "2026-07-31T03:37:41.747Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2100431&cc=us&l=english",
+  "responseDigest": "sha256:1c4fe20f70cf5d40e656f387ec0c895fdc60542a05f26a1825fa58273fcd0f07",
+  "payload": {
+    "2100431": {
+      "success": true,
+      "data": {
+        "steam_appid": 2100431,
+        "name": "Solasta: Crown of the Magister - Palace of Ice",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 899,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 242
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:22c9504d72c811bf41d05318787d19b447186381809afdce0e7f6bda790c4c2a"
+}

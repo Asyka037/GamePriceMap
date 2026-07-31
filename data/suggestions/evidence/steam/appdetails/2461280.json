@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2461280,
+  "fetchedAt": "2026-07-31T03:21:27.970Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2461280&cc=us&l=english",
+  "responseDigest": "sha256:6c1260e3893ebcb86c75b6672077dd53b59324dfe849e58650ad3853cda79630",
+  "payload": {
+    "2461280": {
+      "success": true,
+      "data": {
+        "steam_appid": 2461280,
+        "name": "Lessaria: Fantasy Kingdom Sim",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2490,
+          "final": 1618,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 2891
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d38a863b4113dcce29bd8696f9a47880bb5ea237f093c37116d09edfff115b33"
+}

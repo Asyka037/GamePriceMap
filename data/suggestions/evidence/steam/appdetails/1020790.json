@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1020790,
+  "fetchedAt": "2026-07-31T02:44:06.736Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1020790&cc=us&l=english",
+  "responseDigest": "sha256:9b35fb5e3b3ae4886ca3b60d5d1e5bf162e97b3baeea413a114da346452fb351",
+  "payload": {
+    "1020790": {
+      "success": true,
+      "data": {
+        "steam_appid": 1020790,
+        "name": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 8499,
+          "final": 3399,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 3714
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cdade0ea3d08bb299decc5b6be96b4ea82c4957c19cdf68fdd2e6e2d8bc1c66d"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 502280,
+  "fetchedAt": "2026-07-31T03:19:23.279Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=502280&cc=us&l=english",
+  "responseDigest": "sha256:70059320be53c73f4f08ba4eb8da1ebffb1ab437be998c4e85b97aaabcec8119",
+  "payload": {
+    "502280": {
+      "success": true,
+      "data": {
+        "steam_appid": 502280,
+        "name": "BERSERK and the Band of the Hawk",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 21, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 2399,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 3691
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7981c0bc861d1a363c911a5c2f4334ad9e9eecf2fa240f2b1cb420c5f8622463"
+}

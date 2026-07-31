@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1509960,
+  "fetchedAt": "2026-07-31T03:14:13.909Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1509960&cc=us&l=english",
+  "responseDigest": "sha256:b232eafdabb101ee94a3f61697749df17aaafe5767f7b11c6978289d367f0a7c",
+  "payload": {
+    "1509960": {
+      "success": true,
+      "data": {
+        "steam_appid": 1509960,
+        "name": "PICO PARK",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23674
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9b36a761e9c9b8961a784bc85a9dd4363b62129cb35519c277bdf14ebe2f9cf"
+}

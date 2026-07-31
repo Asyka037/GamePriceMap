@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4413140,
+  "fetchedAt": "2026-07-31T04:16:12.887Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4413140&cc=us&l=english",
+  "responseDigest": "sha256:679e907235b25daf2aea0afc45b72898c48b5e6528c56d5cc910f68adc4ca077",
+  "payload": {
+    "4413140": {
+      "success": true,
+      "data": {
+        "steam_appid": 4413140,
+        "name": "GGST Additional Character 19 - Robo-Ky",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9a63eff656b76702f567d4f38d9742e96bb1f67663826d86fc2d347d133705d9"
+}

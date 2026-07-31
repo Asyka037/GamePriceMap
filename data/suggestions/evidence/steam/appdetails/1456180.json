@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1456180,
+  "fetchedAt": "2026-07-31T03:14:33.177Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1456180&cc=us&l=english",
+  "responseDigest": "sha256:45f8af303edc7e3977cdb4005a9d74e8d860cf5563bfc964a366790d4c74c4a3",
+  "payload": {
+    "1456180": {
+      "success": true,
+      "data": {
+        "steam_appid": 1456180,
+        "name": "MechWarrior 5: Mercenaries - Heroes of the Inner Sphere",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 175
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:375069abecdd8e21d32b535d034d4c0566adc0fbbc2f1196c6451156fa779329"
+}

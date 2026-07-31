@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2609610,
+  "fetchedAt": "2026-07-31T03:33:58.536Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2609610&cc=us&l=english",
+  "responseDigest": "sha256:9781bcf88ce451c46d2a218ba661763a33a6e2b118680b5a18447aa225849bca",
+  "payload": {
+    "2609610": {
+      "success": true,
+      "data": {
+        "steam_appid": 2609610,
+        "name": "CONVRGENCE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 22, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1484
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63276ee8254b82735e6d2b0e120841aa4abb826efe79aaae3ee720e69c75a709"
+}

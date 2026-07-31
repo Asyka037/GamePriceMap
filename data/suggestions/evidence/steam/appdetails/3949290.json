@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3949290,
+  "fetchedAt": "2026-07-31T03:55:27.345Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3949290&cc=us&l=english",
+  "responseDigest": "sha256:880b77c4d68b87205d3af6e75adfd140bbb8aed2dd5f595705e9b40b88f477e2",
+  "payload": {
+    "3949290": {
+      "success": true,
+      "data": {
+        "steam_appid": 3949290,
+        "name": "Ys X: Proud Nordics",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 154
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a791786f7968541ef12b5e2da62fedb3cb50dd5c697b3df0461445a3695f0542"
+}

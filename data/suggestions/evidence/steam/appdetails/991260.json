@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 991260,
+  "fetchedAt": "2026-07-31T04:01:15.346Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=991260&cc=us&l=english",
+  "responseDigest": "sha256:b59a1f0a7d31ff8e39c8bb756f8ae9e70bbe3819ae49cd75b48b22481cdf742b",
+  "payload": {
+    "991260": {
+      "success": true,
+      "data": {
+        "steam_appid": 991260,
+        "name": "Borderlands 2 VR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1249,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 1035
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1461533a78f31c2b28f342d269f09bc6f49bcbadba9e4e7f1b51fb9f04bd40d5"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3576070,
+  "fetchedAt": "2026-07-31T04:12:35.666Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3576070&cc=us&l=english",
+  "responseDigest": "sha256:70b38844d4273239c00e709fc780fa8026d3e864ab017b61c41b8bbaaf7f67f8",
+  "payload": {
+    "3576070": {
+      "success": true,
+      "data": {
+        "steam_appid": 3576070,
+        "name": "Sudden Attack Zero Point",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2bd9ae9666c0a77f5237037ec5a28a182f222d6c776d206e5e1df86a929a7a7d"
+}

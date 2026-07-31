@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2090390,
+  "fetchedAt": "2026-07-31T03:11:53.996Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2090390&cc=us&l=english",
+  "responseDigest": "sha256:8267d66109990af8b435de27b61ca9f323089d2f9895bfc807f67c1d3be7acc5",
+  "payload": {
+    "2090390": {
+      "success": true,
+      "data": {
+        "steam_appid": 2090390,
+        "name": "Schrödinger's Call",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1439,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 959
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dc6e4a9b57a1b921d8c15a66cdec20eda5a264405def1c1cd86e86eb70492b77"
+}

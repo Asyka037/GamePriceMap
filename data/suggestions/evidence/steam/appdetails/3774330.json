@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3774330,
+  "fetchedAt": "2026-07-31T04:09:14.580Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3774330&cc=us&l=english",
+  "responseDigest": "sha256:e8e745604258265325787742546b2d3b81a5dfacab9248fb51a852a8e0be979c",
+  "payload": {
+    "3774330": {
+      "success": true,
+      "data": {
+        "steam_appid": 3774330,
+        "name": "Medieval Dynasty - Echoes of Nature",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 26, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cb6ebc3b354e2122db2115b3470469bd8732018e678ada8d52159e12747ce6fa"
+}

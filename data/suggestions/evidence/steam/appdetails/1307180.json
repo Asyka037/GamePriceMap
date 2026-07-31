@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1307180,
+  "fetchedAt": "2026-07-31T04:01:12.101Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1307180&cc=us&l=english",
+  "responseDigest": "sha256:1f0e3e23ef751308b9ab74c4cf1e4605fdf1bcf60080d2b678078b59e8997ad5",
+  "payload": {
+    "1307180": {
+      "success": true,
+      "data": {
+        "steam_appid": 1307180,
+        "name": "Operation: Harsh Doorstop \"Closed Beta\"",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 29, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:db5e81a1969e03700d5b6ea9a050e56c67ef5b9eb428e40382539d51b4a74fb4"
+}

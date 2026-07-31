@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3283220,
+  "fetchedAt": "2026-07-31T03:18:07.307Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3283220&cc=us&l=english",
+  "responseDigest": "sha256:e0aa35977c30c1b30086238007164a7c033b0da7c61aba931a3c7da59f796a5b",
+  "payload": {
+    "3283220": {
+      "success": true,
+      "data": {
+        "steam_appid": 3283220,
+        "name": "Stellaris: Infernals Species Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 25, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 226
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3b56bac20ec404f41f803486170a04115e8db6e2517e2e10edfa34bc131b3c33"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4218170,
+  "fetchedAt": "2026-07-31T02:43:09.137Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4218170&cc=us&l=english",
+  "responseDigest": "sha256:a238d84aa843d7ad4146b78c0c607d195b8b958cfa454c26ae7c8cb8d17698e6",
+  "payload": {
+    "4218170": {
+      "success": true,
+      "data": {
+        "steam_appid": 4218170,
+        "name": "Fishing Planet: Valkyrie Saga Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0798f17c9ea9f8a09e76a7e4b8cd37f19daa47feb7fa81172c3f7e9865a1028a"
+}

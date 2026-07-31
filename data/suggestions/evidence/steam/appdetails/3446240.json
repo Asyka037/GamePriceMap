@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3446240,
+  "fetchedAt": "2026-07-31T03:24:10.565Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3446240&cc=us&l=english",
+  "responseDigest": "sha256:95869428a99f9c930a032c3fc1b862f77e0fe17fe0e4b63e56427bae557673e8",
+  "payload": {
+    "3446240": {
+      "success": true,
+      "data": {
+        "steam_appid": 3446240,
+        "name": "Eastern Era",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2249,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 2729
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e3d69036e3e70aa5842ba57f971dc39660c87c749fa4d307429520311cd42c6"
+}

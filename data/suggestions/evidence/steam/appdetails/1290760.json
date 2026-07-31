@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1290760,
+  "fetchedAt": "2026-07-31T03:02:17.654Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1290760&cc=us&l=english",
+  "responseDigest": "sha256:cd3ce735b45e19dd6a83e3b2a48c6d74b6fbdf6896361594ffcef294a69a3b26",
+  "payload": {
+    "1290760": {
+      "success": true,
+      "data": {
+        "steam_appid": 1290760,
+        "name": "Gecko Gods",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 578
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f5b671b3aa7ed65ee33f696ca67a9e47e573756780ae8063756f36c4b86c2a8b"
+}

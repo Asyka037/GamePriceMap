@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 622650,
+  "fetchedAt": "2026-07-31T03:05:25.155Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=622650&cc=us&l=english",
+  "responseDigest": "sha256:825fe6b0a82f395a1d93395532a24d4792c2df738f7ad46f9a9f5287a6905a1d",
+  "payload": {
+    "622650": {
+      "success": true,
+      "data": {
+        "steam_appid": 622650,
+        "name": "Bendy and the Ink Machine",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 25698
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ef25e0199316f20f9e509c79640d13c48459d7ce9aa0e876119a7dcd07c3fc6"
+}

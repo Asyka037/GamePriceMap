@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2878980,
+  "fetchedAt": "2026-07-31T03:23:45.584Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2878980&cc=us&l=english",
+  "responseDigest": "sha256:98d5d864e609d68c85bf0cfad55bb989112d061a4cf9ba27f64c10a3c56abafb",
+  "payload": {
+    "2878980": {
+      "success": true,
+      "data": {
+        "steam_appid": 2878980,
+        "name": "NBA 2K25",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 28, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 30906
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:96368c053d9168e34e6796cd544d635dda440029353d14dc035d424f60a46e42"
+}

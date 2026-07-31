@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 259680,
+  "fetchedAt": "2026-07-31T04:07:09.482Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=259680&cc=us&l=english",
+  "responseDigest": "sha256:4b65f6b669c68e46d72abd5f0d6d2b84b7c9218843a62d66bce68192cf17029c",
+  "payload": {
+    "259680": {
+      "success": true,
+      "data": {
+        "steam_appid": 259680,
+        "name": "Tales of Maj'Eyal",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6278
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0da07bdd5dc01cb03f3eb71f39abbe2bf195505a4d55fc7e1f453e379a4c2061"
+}

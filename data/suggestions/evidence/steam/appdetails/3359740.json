@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3359740,
+  "fetchedAt": "2026-07-31T03:16:06.295Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3359740&cc=us&l=english",
+  "responseDigest": "sha256:89a119fef1c16ef5cdf6f41aad56a26c4888a0318adf88c27742d603b8d1f231",
+  "payload": {
+    "3359740": {
+      "success": true,
+      "data": {
+        "steam_appid": 3359740,
+        "name": "Hello Kitty Island Adventure - Deluxe Edition",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2025"
+        },
+        "recommendations": {
+          "total": 104
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ac67835ff25669d4434caabffc08d2effadd63a34f3764f4cc3b652fb72f1ce0"
+}

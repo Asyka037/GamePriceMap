@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4216280,
+  "fetchedAt": "2026-07-31T03:48:41.743Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4216280&cc=us&l=english",
+  "responseDigest": "sha256:3d14acca095dd9573c4a03bc5212d396718c55c9dcd9c406c7cad3ccd1f755f0",
+  "payload": {
+    "4216280": {
+      "success": true,
+      "data": {
+        "steam_appid": 4216280,
+        "name": "Dverghold",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1444,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6fa81609308e967760e23f2f265c84b43a8a7951a949faf8240ff8fd09369ae8"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 440650,
+  "fetchedAt": "2026-07-31T04:15:40.017Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=440650&cc=us&l=english",
+  "responseDigest": "sha256:2d63e38db369ddfaa061788043d29805348d5a9f43fe8572cf32d2d37cf21e17",
+  "payload": {
+    "440650": {
+      "success": true,
+      "data": {
+        "steam_appid": 440650,
+        "name": "Niche - a genetics survival game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 21, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4336
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:10b2fe3ef069b76a0fe7fd50fb855d2f7ed7207b658a3120bf17b72098831aa1"
+}

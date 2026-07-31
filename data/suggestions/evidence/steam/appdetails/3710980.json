@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3710980,
+  "fetchedAt": "2026-07-31T02:56:24.724Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3710980&cc=us&l=english",
+  "responseDigest": "sha256:68281780236df6959a66fb28c4a0878f893db7b82ad16c99e4f8377cf50f7119",
+  "payload": {
+    "3710980": {
+      "success": true,
+      "data": {
+        "steam_appid": 3710980,
+        "name": "Warhammer 40,000: Darktide - Arbites Class Cosmetic Upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 147
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0372101f9695454d68644c3ff6a3e84b905d7359381a29c4e8e8e1ee8d746b7d"
+}

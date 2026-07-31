@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3595230,
+  "fetchedAt": "2026-07-31T02:51:18.096Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3595230&cc=us&l=english",
+  "responseDigest": "sha256:6b53aa678eb627d90b8965a4d7bb205acd6ad7293d330703aaf10d77e52d192d",
+  "payload": {
+    "3595230": {
+      "success": true,
+      "data": {
+        "steam_appid": 3595230,
+        "name": "Call of Duty®: Modern Warfare® II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23971
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:01060e02f012b58d0156ebc9fc58cac962ffbffa2c516f875d3d7eb6ebb735ca"
+}

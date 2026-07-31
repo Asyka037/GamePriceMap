@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2314160,
+  "fetchedAt": "2026-07-31T04:16:49.315Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2314160&cc=us&l=english",
+  "responseDigest": "sha256:609babe89ddb6805bcc269f1af90fde3ce070d3f81f61d27d6c3565860818d6d",
+  "payload": {
+    "2314160": {
+      "success": true,
+      "data": {
+        "steam_appid": 2314160,
+        "name": "Tactical Assault VR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3342
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d8f7d44e9fc25464a658ec859f6c5ee2877322f12ca2cd514b1e939b721c958f"
+}

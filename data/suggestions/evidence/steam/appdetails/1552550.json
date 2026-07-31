@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1552550,
+  "fetchedAt": "2026-07-31T02:53:57.158Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1552550&cc=us&l=english",
+  "responseDigest": "sha256:13dc08a3db96767299beb5a7a3e42c58936fe081f350fab6797a5dd786a8ea71",
+  "payload": {
+    "1552550": {
+      "success": true,
+      "data": {
+        "steam_appid": 1552550,
+        "name": "Castlevania Advance Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2120
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3438337fd4a7fabe45628002b670d5cddd0005b114aba5074016e6bc0ab148c4"
+}

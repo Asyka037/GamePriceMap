@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 528740,
+  "fetchedAt": "2026-07-31T02:53:47.958Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=528740&cc=us&l=english",
+  "responseDigest": "sha256:4d6297e408563fd0f2846b3fbfb5abb31bacdb2063354c22a25060aa8861b96e",
+  "payload": {
+    "528740": {
+      "success": true,
+      "data": {
+        "steam_appid": 528740,
+        "name": "Operation: New Earth",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 14, 2016"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e6a83a80a3d1f9ef6e0d1db364905788766062117c0282c3a9e47eea1e602f38"
+}

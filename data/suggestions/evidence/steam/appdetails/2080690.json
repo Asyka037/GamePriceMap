@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2080690,
+  "fetchedAt": "2026-07-31T03:07:36.306Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2080690&cc=us&l=english",
+  "responseDigest": "sha256:94e2d8256735a9c9cb77e1769a8c69fc0a758a9cabb136699860ce16b75bafd4",
+  "payload": {
+    "2080690": {
+      "success": true,
+      "data": {
+        "steam_appid": 2080690,
+        "name": "Sunkenland",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 25, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20278
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6ccfd242c6247c84207e6b4cbb40272e8c529fa309ad96baf1dcdb078f13f26e"
+}

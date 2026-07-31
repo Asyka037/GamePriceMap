@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3690490,
+  "fetchedAt": "2026-07-31T03:23:58.807Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3690490&cc=us&l=english",
+  "responseDigest": "sha256:b5d16035e5fc406de309ae1a08a076660a66ba09ee679b8cfb374f662832562e",
+  "payload": {
+    "3690490": {
+      "success": true,
+      "data": {
+        "steam_appid": 3690490,
+        "name": "Frostrain 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1099,
+          "final": 1099,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 321
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2e2884b123c17c17a6ba108496cf188f3a09da89971328b8a8c13b1bd0dc4520"
+}

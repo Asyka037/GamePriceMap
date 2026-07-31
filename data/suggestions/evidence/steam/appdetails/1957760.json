@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1957760,
+  "fetchedAt": "2026-07-31T04:13:21.747Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1957760&cc=us&l=english",
+  "responseDigest": "sha256:d15d4a27fb08ab9ecadf97e03781c5b297a7420c83ebc458d9b73f8fd22d4897",
+  "payload": {
+    "1957760": {
+      "success": true,
+      "data": {
+        "steam_appid": 1957760,
+        "name": "Islands & Trains",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 543
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5be37346cd29d94a5e92e27f5a02438eca1e6ecc32b21a724003a8abb2cbd79e"
+}

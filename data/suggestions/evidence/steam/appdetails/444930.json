@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 444930,
+  "fetchedAt": "2026-07-31T03:51:59.475Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=444930&cc=us&l=english",
+  "responseDigest": "sha256:d02e1685704aa7702548611f8fe8175c53659e844babd943d3dd85c2366c2a32",
+  "payload": {
+    "444930": {
+      "success": true,
+      "data": {
+        "steam_appid": 444930,
+        "name": "Zaccaria Pinball",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2025"
+        },
+        "recommendations": {
+          "total": 211
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:425aca3e29fe8a02a30bf42a4133bb9d4735f0d76db25c051f6bd427b2bc5665"
+}

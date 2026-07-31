@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1202130,
+  "fetchedAt": "2026-07-31T02:48:58.951Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1202130&cc=us&l=english",
+  "responseDigest": "sha256:b54a4fe2f44675ba080ea499b86eec6f4a92ca084d3febcb91424587c21b22c5",
+  "payload": {
+    "1202130": {
+      "success": true,
+      "data": {
+        "steam_appid": 1202130,
+        "name": "Starship Troopers: Terran Command",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9165
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:075e98dc557bb3eef4dc3588a758173157fb47b8dc8b707acef4dba9747905a8"
+}

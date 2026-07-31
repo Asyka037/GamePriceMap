@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4935090,
+  "fetchedAt": "2026-07-31T03:21:10.109Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4935090&cc=us&l=english",
+  "responseDigest": "sha256:b9a8f2acba013bbff426c7e0137fbbedd9bbfcb8a2670608486ef28f12903545",
+  "payload": {
+    "4935090": {
+      "success": true,
+      "data": {
+        "steam_appid": 4935090,
+        "name": "OFFBEAT - Producer's Handbook",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c2877b503429d67d6dfebaa351d32fa44ba00851e17fdb9a0c81a170059fdc23"
+}

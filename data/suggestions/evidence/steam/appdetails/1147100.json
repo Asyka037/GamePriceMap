@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1147100,
+  "fetchedAt": "2026-07-31T03:09:58.250Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1147100&cc=us&l=english",
+  "responseDigest": "sha256:18016c31ab2025e8a9a623098faad495550c3472ff033f3a48c87b426dcd5dbc",
+  "payload": {
+    "1147100": {
+      "success": true,
+      "data": {
+        "steam_appid": 1147100,
+        "name": "Conan Exiles Enhanced - Debaucheries of Derketo Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 181
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:36800ac16e873a5d0ce39724a2de2cbf6b2862af428cacd5656a3e68298e7517"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 48190,
+  "fetchedAt": "2026-07-31T02:57:26.365Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=48190&cc=us&l=english",
+  "responseDigest": "sha256:ff9cdfbf6920e64ff6e389bee3de462e8f23d5831dd7194d1dfdec459db0fa6d",
+  "payload": {
+    "48190": {
+      "success": true,
+      "data": {
+        "steam_appid": 48190,
+        "name": "Assassin’s Creed® Brotherhood",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 22, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 24709
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8323b07df94d1df2b22a2804eec251ba051d1a4fa9f5b16207c99a3379cc6208"
+}

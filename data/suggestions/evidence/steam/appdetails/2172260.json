@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2172260,
+  "fetchedAt": "2026-07-31T02:53:17.840Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2172260&cc=us&l=english",
+  "responseDigest": "sha256:bb5968285d263e06e22ea02103aada91e91a141cdce9527b04998754b0afc4ab",
+  "payload": {
+    "2172260": {
+      "success": true,
+      "data": {
+        "steam_appid": 2172260,
+        "name": "The Complex: Expedition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2540
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5be48da336849a553513e8241877060e5004d9015329f83d8463be0231fb0729"
+}

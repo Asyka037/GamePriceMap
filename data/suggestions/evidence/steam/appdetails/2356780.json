@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2356780,
+  "fetchedAt": "2026-07-31T03:08:59.194Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2356780&cc=us&l=english",
+  "responseDigest": "sha256:f02491a5f50d3d9c55709ccbd1c65dfb8cc0b2d5952455d62f78e6b6a6655b84",
+  "payload": {
+    "2356780": {
+      "success": true,
+      "data": {
+        "steam_appid": 2356780,
+        "name": "Dungeon Clawler",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 974,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 3626
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:214440b3e9e04f9df5f8fac67441192218813c8818bd2cfce6f93b74d67162e2"
+}

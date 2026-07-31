@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2276770,
+  "fetchedAt": "2026-07-31T04:00:25.986Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2276770&cc=us&l=english",
+  "responseDigest": "sha256:eb2b0a735b38f85ba3a1fa5fed59c708fe3f154960449d471dc119136ef2ed3f",
+  "payload": {
+    "2276770": {
+      "success": true,
+      "data": {
+        "steam_appid": 2276770,
+        "name": "Possible One: Lunar Industries",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1874,
+          "discount_percent": 25
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d552781c00cb9c25dd6c4a3bf538a43f74317f8f8f806923f2335b369da4d5f5"
+}

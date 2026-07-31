@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 637650,
+  "fetchedAt": "2026-07-31T03:07:07.920Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=637650&cc=us&l=english",
+  "responseDigest": "sha256:290be4c4e50ce93b6ba68e32d5779eab12bc41a00406d697b43e3284bbd296f3",
+  "payload": {
+    "637650": {
+      "success": true,
+      "data": {
+        "steam_appid": 637650,
+        "name": "FINAL FANTASY XV WINDOWS EDITION",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 44664
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7fd9a79c084af3cb3149fba8b870cfd1e3f7781f85c10e9780d85de8a871a68b"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 774241,
+  "fetchedAt": "2026-07-31T03:11:42.291Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=774241&cc=us&l=english",
+  "responseDigest": "sha256:cc4cf46ecd4feeea0783126f431405b972ff56766f60774c81dca415a04fcff5",
+  "payload": {
+    "774241": {
+      "success": true,
+      "data": {
+        "steam_appid": 774241,
+        "name": "Warhammer: Chaosbane",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 31, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 149,
+          "discount_percent": 95
+        },
+        "recommendations": {
+          "total": 3198
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c6a0d1513aff8a29b07647e122a19f6d5737fde51e6c07ca884cfb20cf38019f"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2477660,
+  "fetchedAt": "2026-07-31T03:06:43.834Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2477660&cc=us&l=english",
+  "responseDigest": "sha256:b1521dadbd7baa70b4cb4e70ba9bd381902bdf3d2ecbf7a6430ccf6657bb4dd7",
+  "payload": {
+    "2477660": {
+      "success": true,
+      "data": {
+        "steam_appid": 2477660,
+        "name": "Age of Empires III: Definitive Edition (Base Game)",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 369
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b8f9c45680d9affd2ec7db9b77a7cbe64c54f4973cf90642493e46cd043cbb45"
+}

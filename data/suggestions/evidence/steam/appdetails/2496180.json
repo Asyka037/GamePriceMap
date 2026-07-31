@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2496180,
+  "fetchedAt": "2026-07-31T03:20:59.634Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2496180&cc=us&l=english",
+  "responseDigest": "sha256:d4ca4454fe09de1cd39bab2685c128f0b9c0e03b2a1efd9c8d061563aee56b15",
+  "payload": {
+    "2496180": {
+      "success": true,
+      "data": {
+        "steam_appid": 2496180,
+        "name": "Ghost Town",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 543
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3c7b14b785e4387a6026141f0fe48447efc7c08993f344ff519283aa53d9bcf9"
+}

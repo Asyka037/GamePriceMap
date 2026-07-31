@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1169040,
+  "fetchedAt": "2026-07-31T02:46:13.515Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1169040&cc=us&l=english",
+  "responseDigest": "sha256:481a6782fc8c5a0097ccef64c17a079b576d5328c01a89d614cbf185eb353638",
+  "payload": {
+    "1169040": {
+      "success": true,
+      "data": {
+        "steam_appid": 1169040,
+        "name": "Necesse",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 749,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 23419
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:406a0864e5607cfa0c23f5a41edaafdc1d537c80494133e3ca7319f7883cb792"
+}

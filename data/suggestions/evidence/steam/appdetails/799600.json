@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 799600,
+  "fetchedAt": "2026-07-31T03:08:02.815Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=799600&cc=us&l=english",
+  "responseDigest": "sha256:2237397f90643eaf64057cc902cf8cf6a923f87be5f70949d0e2f54f2b29aa11",
+  "payload": {
+    "799600": {
+      "success": true,
+      "data": {
+        "steam_appid": 799600,
+        "name": "Cosmoteer: Starship Architect & Commander",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11905
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3132d455fb84a8882d5274a64e6e41641fe07fd5b5591eefc77f28e59ebeb5ff"
+}

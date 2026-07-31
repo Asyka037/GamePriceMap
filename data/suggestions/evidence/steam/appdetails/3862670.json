@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3862670,
+  "fetchedAt": "2026-07-31T03:13:30.970Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3862670&cc=us&l=english",
+  "responseDigest": "sha256:50313b93f0c38d1984e8852423b9039d31444286011bf6fd743551effe32f49b",
+  "payload": {
+    "3862670": {
+      "success": true,
+      "data": {
+        "steam_appid": 3862670,
+        "name": "Shelldiver",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 299,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 15558
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:83c22351551d6e6ce6725aa94d88a8b202e68bbdff621321c52129e387e90596"
+}

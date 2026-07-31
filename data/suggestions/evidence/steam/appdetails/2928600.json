@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2928600,
+  "fetchedAt": "2026-07-31T02:57:17.614Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2928600&cc=us&l=english",
+  "responseDigest": "sha256:f05a8918c3667ef59c757e35cad6bd2de5b0cac524c4b1474f508a8a24792b7a",
+  "payload": {
+    "2928600": {
+      "success": true,
+      "data": {
+        "steam_appid": 2928600,
+        "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 5, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2764
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cd0787232109448c781f9e141712e0ef63e5e507671bf0d556ff52b2244e4319"
+}

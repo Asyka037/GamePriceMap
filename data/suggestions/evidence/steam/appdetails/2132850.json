@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2132850,
+  "fetchedAt": "2026-07-31T02:50:16.166Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2132850&cc=us&l=english",
+  "responseDigest": "sha256:7d55e70d83497752dcbd499ed0d40efe7874a2b4c229258e9fc2a6eb312d463a",
+  "payload": {
+    "2132850": {
+      "success": true,
+      "data": {
+        "steam_appid": 2132850,
+        "name": "Rabbit and Steel",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 9, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10021
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f6b34477908bb00daafef97e6b69a86b51bbd8816edb7dd7a85aee2b14b05067"
+}

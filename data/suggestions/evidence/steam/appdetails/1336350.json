@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1336350,
+  "fetchedAt": "2026-07-31T03:00:11.507Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1336350&cc=us&l=english",
+  "responseDigest": "sha256:61ee0f561665d657909b39f5737debf4d06fed432aaaeaf223b062085d2a47ad",
+  "payload": {
+    "1336350": {
+      "success": true,
+      "data": {
+        "steam_appid": 1336350,
+        "name": "Elite Dangerous: Odyssey",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 19, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7848
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3c8329bef7bcbf344548bfbedd9208c53262fd371041e2318c9d48a6cdd459cd"
+}

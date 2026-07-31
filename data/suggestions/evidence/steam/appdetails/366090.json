@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 366090,
+  "fetchedAt": "2026-07-31T03:08:33.892Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=366090&cc=us&l=english",
+  "responseDigest": "sha256:31aac8f7440f426d5fc8b3148bdc9214d3e26393e1079bb63ad13ac6cac8abb8",
+  "payload": {
+    "366090": {
+      "success": true,
+      "data": {
+        "steam_appid": 366090,
+        "name": "Colony Survival",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2495,
+          "final": 2495,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8211
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6fb80b7a0de3be4a62af816dfb82cfd17bf221032bfe328c597864bdfe826b01"
+}

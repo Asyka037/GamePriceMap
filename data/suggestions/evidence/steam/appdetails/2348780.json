@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2348780,
+  "fetchedAt": "2026-07-31T03:28:50.664Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2348780&cc=us&l=english",
+  "responseDigest": "sha256:6432b36b8101211b0190c3210879919cd15c475f18af206166a66e4236d2706b",
+  "payload": {
+    "2348780": {
+      "success": true,
+      "data": {
+        "steam_appid": 2348780,
+        "name": "Voidtrain - Supporter Upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 9, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 899,
+          "discount_percent": 40
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:29fc7e196a3f2ceb7c3bfd883a8546f0a2124168fbcf07e5ba6e092f74b18eff"
+}

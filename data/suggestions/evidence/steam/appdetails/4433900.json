@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4433900,
+  "fetchedAt": "2026-07-31T03:47:45.583Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4433900&cc=us&l=english",
+  "responseDigest": "sha256:436a4c695b8c066e985baa6b22239db6795cf4a997de7b2f1e5a5a0826f7bc36",
+  "payload": {
+    "4433900": {
+      "success": true,
+      "data": {
+        "steam_appid": 4433900,
+        "name": "DRAGON BALL: Sparking! ZERO - Super Limit-Breaking NEO",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 160
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:784a3bf5d4076f8e579579772602cb8a901eb98566a26285c5a041a131c84285"
+}

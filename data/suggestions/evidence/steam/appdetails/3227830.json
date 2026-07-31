@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3227830,
+  "fetchedAt": "2026-07-31T03:58:44.145Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3227830&cc=us&l=english",
+  "responseDigest": "sha256:3d3544cc027c2d1cd52633544d1c46bf73131570e4e3527c0cadff6ac77a6751",
+  "payload": {
+    "3227830": {
+      "success": true,
+      "data": {
+        "steam_appid": 3227830,
+        "name": "Terminator: Dark Fate - Defiance: We are Legion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 294
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ec931544b69e21ad9e6ca5ba44b19d704321d22e2a6fc7a79de6dcda213a0935"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1238840,
+  "fetchedAt": "2026-07-31T02:44:11.131Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1238840&cc=us&l=english",
+  "responseDigest": "sha256:e36d7c5c067e3fbc72bf456da711f250db44e5199c7eb568ef00123306f1da55",
+  "payload": {
+    "1238840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1238840,
+        "name": "Battlefield™ 1",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 399,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 198033
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b50652ab9a482749d80b2d6303ea4bc23f54393ff841957ded4b05945e9a9682"
+}

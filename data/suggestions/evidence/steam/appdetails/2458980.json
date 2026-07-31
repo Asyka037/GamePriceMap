@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2458980,
+  "fetchedAt": "2026-07-31T02:44:37.170Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2458980&cc=us&l=english",
+  "responseDigest": "sha256:e61ed7ce835a254a70ee48fc898860d777c9735299b6d90a0c7423e7898a3cfa",
+  "payload": {
+    "2458980": {
+      "success": true,
+      "data": {
+        "steam_appid": 2458980,
+        "name": "Dimhaven - The Lost Source",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2599,
+          "final": 2599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 800
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9341febe41fcccece78ed5c402990378ad787584cb9b3af5e0866448ba83b24e"
+}

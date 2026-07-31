@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2944850,
+  "fetchedAt": "2026-07-31T03:29:07.142Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2944850&cc=us&l=english",
+  "responseDigest": "sha256:6f7a028e7db02ba9f72f27cd501d86ee663c8bf50cdefef137cccb815812caf1",
+  "payload": {
+    "2944850": {
+      "success": true,
+      "data": {
+        "steam_appid": 2944850,
+        "name": "Granblue Fantasy: Relink - Color Pack 5",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6f77c63a254bf363778378d833e6baf122be3fa727b308c4fbf99327e841d738"
+}

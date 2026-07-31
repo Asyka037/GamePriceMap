@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3123410,
+  "fetchedAt": "2026-07-31T03:19:52.847Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3123410&cc=us&l=english",
+  "responseDigest": "sha256:f314e961a2c768cef785b737a30ee6686874ccb4634e973110e04881c5bc338a",
+  "payload": {
+    "3123410": {
+      "success": true,
+      "data": {
+        "steam_appid": 3123410,
+        "name": "Atelier Yumia: The Alchemist of Memories & the Envisioned Land",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 3989,
+          "discount_percent": 43
+        },
+        "recommendations": {
+          "total": 2507
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df5206db1a210d2f1216a90da3f5725c87564f0a564b3bcdb1367d59d945f3b6"
+}

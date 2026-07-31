@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 352400,
+  "fetchedAt": "2026-07-31T03:19:42.516Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=352400&cc=us&l=english",
+  "responseDigest": "sha256:8d5b0fd4a7c35418196fb5712622f03a70582a8d4e4b79dd6e5cedc04693b6db",
+  "payload": {
+    "352400": {
+      "success": true,
+      "data": {
+        "steam_appid": 352400,
+        "name": "LEGO® Jurassic World",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 7657
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dad0ba209db8fb8f8434b53a25f0d48e9b3cf111ee6805741e5a8adc06291926"
+}

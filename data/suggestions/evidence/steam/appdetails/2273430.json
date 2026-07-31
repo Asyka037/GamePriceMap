@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2273430,
+  "fetchedAt": "2026-07-31T02:47:14.672Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2273430&cc=us&l=english",
+  "responseDigest": "sha256:9731d11bec3694fe83128f9f031ab5f7c3fb010244764ef424ab461a7e56fd70",
+  "payload": {
+    "2273430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2273430,
+        "name": "BlazBlue Entropy Effect",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 14, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29811
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eb9ecf15cad18070c04ed1303d940b680abd77d0ff086e0e46ce02c19933a4d2"
+}

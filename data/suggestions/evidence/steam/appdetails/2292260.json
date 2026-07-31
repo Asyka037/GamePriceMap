@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2292260,
+  "fetchedAt": "2026-07-31T03:17:01.868Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2292260&cc=us&l=english",
+  "responseDigest": "sha256:34afa4c8675c9fe36d773f00845cca7bc9cd61757b1e5e0a291916ab7afc6ee2",
+  "payload": {
+    "2292260": {
+      "success": true,
+      "data": {
+        "steam_appid": 2292260,
+        "name": "STAR WARS™: Dark Forces Remaster",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 28, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1212
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:95d1aed0e4d0908ae919f112376fda0980479a4d0f20ac0ee623f4ff9e48bb34"
+}

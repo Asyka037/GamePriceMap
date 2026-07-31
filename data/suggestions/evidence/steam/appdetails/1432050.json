@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1432050,
+  "fetchedAt": "2026-07-31T03:57:57.946Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1432050&cc=us&l=english",
+  "responseDigest": "sha256:0b0bccf6ceb3edfe56b5b94bb69a2520250302e220f536628b76bbabf075508f",
+  "payload": {
+    "1432050": {
+      "success": true,
+      "data": {
+        "steam_appid": 1432050,
+        "name": "Nobody Saves the World",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 18, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5751
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:edf8a458665201ebc1c302d56ed989ede1d86519a59c35aab0bf15150cc07468"
+}

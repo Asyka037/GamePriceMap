@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2436940,
+  "fetchedAt": "2026-07-31T02:43:38.385Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2436940&cc=us&l=english",
+  "responseDigest": "sha256:9da388ec2775fec997a4d0602e2ea55ab4c080e1aef8b4376ab1b4b1c31ea92c",
+  "payload": {
+    "2436940": {
+      "success": true,
+      "data": {
+        "steam_appid": 2436940,
+        "name": "Sephiria",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5709
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aee5bcd4ebc5c9a520019f01f36fb6394a7c5f9021e76f5f7c1f52e409c4f19c"
+}

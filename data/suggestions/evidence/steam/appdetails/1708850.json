@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1708850,
+  "fetchedAt": "2026-07-31T03:32:06.584Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1708850&cc=us&l=english",
+  "responseDigest": "sha256:ae1e3a908e0a178e7d9413e5fd4e653f44059129988a810f07bf3f22ce34aba3",
+  "payload": {
+    "1708850": {
+      "success": true,
+      "data": {
+        "steam_appid": 1708850,
+        "name": "Drug Dealer Simulator 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1224,
+          "discount_percent": 51
+        },
+        "recommendations": {
+          "total": 7103
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1fae4dd44e129990534f3dac260fab1731ee7dd46d1a121ce094038293f52476"
+}

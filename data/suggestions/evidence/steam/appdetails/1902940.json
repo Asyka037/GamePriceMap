@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1902940,
+  "fetchedAt": "2026-07-31T03:55:04.031Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1902940&cc=us&l=english",
+  "responseDigest": "sha256:df6f899b7b990b45b438c5a89e23b52c2c44f748f6cec0372344c2a9f1e05b9d",
+  "payload": {
+    "1902940": {
+      "success": true,
+      "data": {
+        "steam_appid": 1902940,
+        "name": "Snacktorio",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 639,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 198
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:99ecba076690ba30c4309ff1ce3af5b3f8c20b1a114b59188d0604afb814c20e"
+}

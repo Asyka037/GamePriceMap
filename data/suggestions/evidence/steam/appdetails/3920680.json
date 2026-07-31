@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3920680,
+  "fetchedAt": "2026-07-31T02:57:13.232Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3920680&cc=us&l=english",
+  "responseDigest": "sha256:3a9f970fff7e5b9134afc76fc089e1621baf5c4f308e2323a0ec08ee79e84b8f",
+  "payload": {
+    "3920680": {
+      "success": true,
+      "data": {
+        "steam_appid": 3920680,
+        "name": "Gunfire Reborn - Echoes From Primal Grove",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 629,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 247
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:68d98ac375b624faa5776ffac613aaa518930f093f59e1906d126b692025790e"
+}

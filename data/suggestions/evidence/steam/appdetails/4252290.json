@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4252290,
+  "fetchedAt": "2026-07-31T02:55:37.471Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4252290&cc=us&l=english",
+  "responseDigest": "sha256:db006e0134155e5d9a46e8b879a58a741b985a2828ab68eef3141a0695de0ca0",
+  "payload": {
+    "4252290": {
+      "success": true,
+      "data": {
+        "steam_appid": 4252290,
+        "name": "Meowgic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 362
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:37d883278c6c2d2cbd0dfbccf3c39efd05e3698b3f2b687c93f0065947f1d1a1"
+}

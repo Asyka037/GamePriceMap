@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1641960,
+  "fetchedAt": "2026-07-31T03:01:07.982Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1641960&cc=us&l=english",
+  "responseDigest": "sha256:66420bba71190023709f7044e714fa04c3f40762f7a02ad9234ea05a700574c2",
+  "payload": {
+    "1641960": {
+      "success": true,
+      "data": {
+        "steam_appid": 1641960,
+        "name": "Forever Skies",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1199,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 7774
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e6953e56c1562a2a99441bd075b41bef695d617caa9c0a81e4633ff57606f0f0"
+}

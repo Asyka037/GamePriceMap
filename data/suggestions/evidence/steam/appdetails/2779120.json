@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2779120,
+  "fetchedAt": "2026-07-31T02:57:05.715Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2779120&cc=us&l=english",
+  "responseDigest": "sha256:6a045d8647e8193c5f98c0aca53e77d5906b28975ec76cb1adfb6a563e9d823f",
+  "payload": {
+    "2779120": {
+      "success": true,
+      "data": {
+        "steam_appid": 2779120,
+        "name": "Modulus: Factory Automation",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 779
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:84ec302cacd635138fe94eb97a54292115035f5538d2d7d62ac5d1f2a8877439"
+}

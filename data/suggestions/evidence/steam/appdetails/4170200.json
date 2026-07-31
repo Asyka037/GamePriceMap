@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4170200,
+  "fetchedAt": "2026-07-31T03:09:07.955Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4170200&cc=us&l=english",
+  "responseDigest": "sha256:a78e67c761e8fd019435bc0d0ec3aa3cd530fa0695d62671f1251682870cd466",
+  "payload": {
+    "4170200": {
+      "success": true,
+      "data": {
+        "steam_appid": 4170200,
+        "name": "Data Center",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 31, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 843
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e6e187e53515080f86a3b10e34f57a475b2235dce87cbfa614ddb3d986ee6f28"
+}

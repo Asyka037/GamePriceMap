@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1244460,
+  "fetchedAt": "2026-07-31T02:56:12.844Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1244460&cc=us&l=english",
+  "responseDigest": "sha256:a95c17f36faf705a505e20c9dcf9efb1f6024699326dcebb90abdcec7e7ca0d0",
+  "payload": {
+    "1244460": {
+      "success": true,
+      "data": {
+        "steam_appid": 1244460,
+        "name": "Jurassic World Evolution 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 9, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 39368
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9930bfdb0f687c2620f37eb2ef1511f9e78377593d53f0f73ca840fa4782aebb"
+}

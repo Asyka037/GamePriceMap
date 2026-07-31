@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1494420,
+  "fetchedAt": "2026-07-31T03:32:23.119Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1494420&cc=us&l=english",
+  "responseDigest": "sha256:8e02257e44c6782205a11491aa4336df8c43e14620e03a47edfe14cbb1b78ef7",
+  "payload": {
+    "1494420": {
+      "success": true,
+      "data": {
+        "steam_appid": 1494420,
+        "name": "Silica",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 3, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4419
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e7c95193470f696b5cea7756d109ef1886e3b1ec3e47dfd550a1df4d2e799f6a"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1496790,
+  "fetchedAt": "2026-07-31T03:14:55.308Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1496790&cc=us&l=english",
+  "responseDigest": "sha256:993c9614e0b4919e2407ad2346a55e8a0123557d99cfed447bf4a469e7f4ed2b",
+  "payload": {
+    "1496790": {
+      "success": true,
+      "data": {
+        "steam_appid": 1496790,
+        "name": "Gotham Knights",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 899,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 15600
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a9f603a1d3cf79ed8998398aed506586f40ae5f7c5ca7c063ddfcb7e2842b33c"
+}

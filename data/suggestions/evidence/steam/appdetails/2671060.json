@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2671060,
+  "fetchedAt": "2026-07-31T03:42:53.775Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2671060&cc=us&l=english",
+  "responseDigest": "sha256:5059edfb51afe09983ebf6c822f7b98b7a22b851c53c1dc6aacca0fd6d227cb1",
+  "payload": {
+    "2671060": {
+      "success": true,
+      "data": {
+        "steam_appid": 2671060,
+        "name": "Crusader Kings III: Legends of the Dead",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 4, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1642
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:21262df5f34945e0b9b4f0def61a7751cf354e79cf9115c51bee52ca25927402"
+}

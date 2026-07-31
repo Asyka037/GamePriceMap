@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2840100,
+  "fetchedAt": "2026-07-31T02:50:38.101Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2840100&cc=us&l=english",
+  "responseDigest": "sha256:d5d72cc35fc120b8a843d9e0d9019c428044cc82d5c6fab27b685c759cd614b5",
+  "payload": {
+    "2840100": {
+      "success": true,
+      "data": {
+        "steam_appid": 2840100,
+        "name": "Stellaris: The Machine Age",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 840
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e8e82f07d9a26c4364c14a3eb8b355cf600e41d9e1b0696e54721acdca20635d"
+}

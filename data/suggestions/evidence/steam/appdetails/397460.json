@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 397460,
+  "fetchedAt": "2026-07-31T03:24:16.525Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=397460&cc=us&l=english",
+  "responseDigest": "sha256:fa4974fdf8724827474c490a0f51104761832e60c6d1d6f41b0eb5d9f2f8d29a",
+  "payload": {
+    "397460": {
+      "success": true,
+      "data": {
+        "steam_appid": 397460,
+        "name": "The Jackbox Party Pack 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 13, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1439
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a1b0a935c6df73c4c1320aa73ec5ae7dbb2eca1e2b75cbaa3bc28f70a70e2973"
+}

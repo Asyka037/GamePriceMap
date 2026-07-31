@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4234800,
+  "fetchedAt": "2026-07-31T04:10:10.603Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4234800&cc=us&l=english",
+  "responseDigest": "sha256:3d3e1b849c6c44f16d10b4dd867cba08f1e0a744735414a712b58bc29814331c",
+  "payload": {
+    "4234800": {
+      "success": true,
+      "data": {
+        "steam_appid": 4234800,
+        "name": "Vampires: Bloodlord Rising - Official Companion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 559,
+          "discount_percent": 30
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a5c50ab7fcfee46e3cb1bfc7526bc80f5d464ff065ddb2964de7749d120e2eb0"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2331020,
+  "fetchedAt": "2026-07-31T03:15:08.488Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2331020&cc=us&l=english",
+  "responseDigest": "sha256:8887396db9ea57dcc713c5ee17d04cb5d9cc9f779a39f7ed65f290c6d744cd08",
+  "payload": {
+    "2331020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2331020,
+        "name": "Tales of Berseria Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2999,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 161
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f308489612283ea062e109e25f1658693b7beff3f0b9f77ce426a3ef82273219"
+}

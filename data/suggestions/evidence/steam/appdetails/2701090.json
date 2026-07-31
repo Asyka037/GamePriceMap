@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2701090,
+  "fetchedAt": "2026-07-31T03:08:32.429Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2701090&cc=us&l=english",
+  "responseDigest": "sha256:4353c498be1d043672e1f261aecc2ddf03688e874cb513f3fd00a9b531439796",
+  "payload": {
+    "2701090": {
+      "success": true,
+      "data": {
+        "steam_appid": 2701090,
+        "name": "Grim Dawn - Steam Loyalist Items Pack 3",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 27, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 248
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b40f3f9ce05de83996964101a1df456b9dbba99e42969963a606dfc338be4522"
+}

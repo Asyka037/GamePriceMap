@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3400960,
+  "fetchedAt": "2026-07-31T03:13:07.372Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3400960&cc=us&l=english",
+  "responseDigest": "sha256:d4e33203412c51e61fde729b763b7db17d83ed1cc6cfa7a14390c5a742239d6b",
+  "payload": {
+    "3400960": {
+      "success": true,
+      "data": {
+        "steam_appid": 3400960,
+        "name": "Oaken Tower",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 749,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 2497
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:22b3f93402f6f530608cd88497012f76bae554a2622904b0ae2d3bea7983308d"
+}

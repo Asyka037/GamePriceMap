@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4695140,
+  "fetchedAt": "2026-07-31T03:01:37.465Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4695140&cc=us&l=english",
+  "responseDigest": "sha256:35c934025994f8a52fb2bf7ce106c6ce5824a437c7d8c63a4a0743b20f0fa366",
+  "payload": {
+    "4695140": {
+      "success": true,
+      "data": {
+        "steam_appid": 4695140,
+        "name": "Witchspire - Founder's Edition",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3454d7f3c79d5672b550b59db3db9ffd6e2b2468f4025725f2974a2fdea7da42"
+}

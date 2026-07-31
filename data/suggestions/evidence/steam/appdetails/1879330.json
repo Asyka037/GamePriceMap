@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1879330,
+  "fetchedAt": "2026-07-31T03:42:50.492Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1879330&cc=us&l=english",
+  "responseDigest": "sha256:fb03fdcffd82840bb40d8211504ec42a4743f8fc469243ea30a96e46f25b9f1e",
+  "payload": {
+    "1879330": {
+      "success": true,
+      "data": {
+        "steam_appid": 1879330,
+        "name": "WARRIORS OROCHI 3 Ultimate Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 12, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2799,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 2105
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c4d7f443a1351e77139c3fab3e62772f8bec6f9c8663191a65a0acff96e0507"
+}

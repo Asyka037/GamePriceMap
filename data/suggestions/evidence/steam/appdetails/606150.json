@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 606150,
+  "fetchedAt": "2026-07-31T03:23:49.962Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=606150&cc=us&l=english",
+  "responseDigest": "sha256:30d9219b74e51a5c476e62b2389036acee89d43d48716b7e0c8c26c77facac88",
+  "payload": {
+    "606150": {
+      "success": true,
+      "data": {
+        "steam_appid": 606150,
+        "name": "Moonlighter",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 29, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 299,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 17106
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fa260570a12ad437eed4159860ca34944c4ea7c785b2103be5f02ad30e9933b3"
+}

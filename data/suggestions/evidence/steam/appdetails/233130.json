@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 233130,
+  "fetchedAt": "2026-07-31T04:13:34.936Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=233130&cc=us&l=english",
+  "responseDigest": "sha256:59faf38409aeb6b1ab52dff527aee7a510f2eb31b7ca3ecc087b4b0dff04b53b",
+  "payload": {
+    "233130": {
+      "success": true,
+      "data": {
+        "steam_appid": 233130,
+        "name": "Shadow Warrior",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15918
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1c998166d332ca257c2f62801aa3763c05c16a9da46cca194034887689f6a236"
+}

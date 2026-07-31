@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 481510,
+  "fetchedAt": "2026-07-31T03:14:28.739Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=481510&cc=us&l=english",
+  "responseDigest": "sha256:cc8d505cae3e72e9f32e25ee03e8e6e136deda6cd116b2e61c803bfeb9c7f23d",
+  "payload": {
+    "481510": {
+      "success": true,
+      "data": {
+        "steam_appid": 481510,
+        "name": "Night in the Woods",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 21, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17894
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:11716eccb95c645dcd2888fc7c19001a8cabc4308ad480c033247b99367518af"
+}

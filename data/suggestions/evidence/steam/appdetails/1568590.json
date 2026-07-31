@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1568590,
+  "fetchedAt": "2026-07-31T03:54:11.335Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1568590&cc=us&l=english",
+  "responseDigest": "sha256:5e9d2f6da2cd5ff74181ad74d47af13d4526b780cad997781bb19c3b5d165b77",
+  "payload": {
+    "1568590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1568590,
+        "name": "Goose Goose Duck",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 3, 2021"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cb3b535767562677a2a94a13234111f499853f68471fc8d3374b5c167e5333ce"
+}

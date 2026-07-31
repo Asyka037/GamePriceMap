@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2313700,
+  "fetchedAt": "2026-07-31T03:31:16.788Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2313700&cc=us&l=english",
+  "responseDigest": "sha256:d5f3c0a77944b7ea1894a3354e393075c67b183b964a2cdc3cb4cd655fb1cc40",
+  "payload": {
+    "2313700": {
+      "success": true,
+      "data": {
+        "steam_appid": 2313700,
+        "name": "Constance",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1339,
+          "discount_percent": 33
+        },
+        "recommendations": {
+          "total": 2591
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:023bf486a6563626754fad0a790ec91100d60f529bdbab710103cb3ca9bd9d6e"
+}

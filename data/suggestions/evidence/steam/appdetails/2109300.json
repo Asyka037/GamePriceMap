@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2109300,
+  "fetchedAt": "2026-07-31T02:46:37.351Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2109300&cc=us&l=english",
+  "responseDigest": "sha256:65d2c5663a4739c51c68ceebf65be63d1879fc5f19dfba673d20eb89ef8caeda",
+  "payload": {
+    "2109300": {
+      "success": true,
+      "data": {
+        "steam_appid": 2109300,
+        "name": "Resident Evil 4 - Separate Ways",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7356
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5027d95e7479eadd111303ddcb6fc72405d22e543fbceb93caeb114d1e370cd2"
+}

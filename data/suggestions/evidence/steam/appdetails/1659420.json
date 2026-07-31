@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1659420,
+  "fetchedAt": "2026-07-31T02:52:16.556Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1659420&cc=us&l=english",
+  "responseDigest": "sha256:edd006627380fe616eaa0c5affe3906d6ae470e044bcabaa45dfad488ae2c599",
+  "payload": {
+    "1659420": {
+      "success": true,
+      "data": {
+        "steam_appid": 1659420,
+        "name": "UNCHARTED™: Legacy of Thieves Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 19, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 28739
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c132a484c7aa171054cdd36f250d9cbe950915ede0995039e6219fde582663ff"
+}

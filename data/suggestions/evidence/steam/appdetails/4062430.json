@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4062430,
+  "fetchedAt": "2026-07-31T02:44:57.839Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4062430&cc=us&l=english",
+  "responseDigest": "sha256:e142beef3b2454eb6af1bec539960c374deae684762687729cbf25d1363953ab",
+  "payload": {
+    "4062430": {
+      "success": true,
+      "data": {
+        "steam_appid": 4062430,
+        "name": "THE FINALS - The Apothecarion Set",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d01a90f66163f96668c29f47963bfc73c4966067c0911b1fe8863fd66365ac3b"
+}

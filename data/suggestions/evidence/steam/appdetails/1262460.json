@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1262460,
+  "fetchedAt": "2026-07-31T03:04:44.155Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1262460&cc=us&l=english",
+  "responseDigest": "sha256:20ca7e4948393c685206c5a114269a60b11d8d3cc34de9c523681a0ce8976540",
+  "payload": {
+    "1262460": {
+      "success": true,
+      "data": {
+        "steam_appid": 1262460,
+        "name": "Zompiercer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 3, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4410
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6bdaa8a522c53e092027724d29ce816540847faba73519b3be951943ca5ae77f"
+}

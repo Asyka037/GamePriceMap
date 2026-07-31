@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3057670,
+  "fetchedAt": "2026-07-31T03:36:46.107Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3057670&cc=us&l=english",
+  "responseDigest": "sha256:ab669f225ec2cb1768670e02ed532480580ffdddd07f01b060a2b05f1736073b",
+  "payload": {
+    "3057670": {
+      "success": true,
+      "data": {
+        "steam_appid": 3057670,
+        "name": "Pluto",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 489
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fe3c3fbfb8c4b066233e3a24ce9c469f7d7474e51af00c9f1a652ea5f9867ee8"
+}

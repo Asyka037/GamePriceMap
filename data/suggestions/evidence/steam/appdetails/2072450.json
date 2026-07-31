@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2072450,
+  "fetchedAt": "2026-07-31T03:13:23.634Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2072450&cc=us&l=english",
+  "responseDigest": "sha256:f4e25d518bd39698b39829e3e356e3ca33bba9a49d8f9ed5803670c9944a2002",
+  "payload": {
+    "2072450": {
+      "success": true,
+      "data": {
+        "steam_appid": 2072450,
+        "name": "Like a Dragon: Infinite Wealth",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16132
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:842ad46de97bbb89ab8eea5434231978e1809ca5e962484757bd16f024ac44e6"
+}

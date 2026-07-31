@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2743460,
+  "fetchedAt": "2026-07-31T02:51:37.279Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2743460&cc=us&l=english",
+  "responseDigest": "sha256:2e7148eec229bef1c914d1c1d134ede95af674e91b220b4470928e67b9c6bde2",
+  "payload": {
+    "2743460": {
+      "success": true,
+      "data": {
+        "steam_appid": 2743460,
+        "name": "Granvir",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 754
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b72a5e5d6ac256928a6ab6fd9e00ad82961e34dc0740c6df6e9ebb302cccdaba"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1700270,
+  "fetchedAt": "2026-07-31T03:06:55.777Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1700270&cc=us&l=english",
+  "responseDigest": "sha256:a6e7f482ad2cd61e03057734ff28fdde1bde3a16ded8359431f3b3d4fdd66ad4",
+  "payload": {
+    "1700270": {
+      "success": true,
+      "data": {
+        "steam_appid": 1700270,
+        "name": "Lucky Tower Ultimate",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2174
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d9086c790ec1c85ee0c70ab63a6a29070b039e7f0214ad32131a81a143987544"
+}

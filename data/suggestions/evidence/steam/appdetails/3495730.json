@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3495730,
+  "fetchedAt": "2026-07-31T02:46:26.890Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3495730&cc=us&l=english",
+  "responseDigest": "sha256:40fcede725bf4c54bfad9a5a73832382d211917324a648cad4804c316a9df36d",
+  "payload": {
+    "3495730": {
+      "success": true,
+      "data": {
+        "steam_appid": 3495730,
+        "name": "Lucid Blocks",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4357
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bf75e255fb89adf9fd05ff3c19524dbf03604eb30aea4ddac8dbb57865c9f02a"
+}

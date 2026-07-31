@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2619650,
+  "fetchedAt": "2026-07-31T03:53:51.631Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2619650&cc=us&l=english",
+  "responseDigest": "sha256:207749497eff44e85169abc70b4d7ac5f54654ce0d0b8d01eb6f006c894f503d",
+  "payload": {
+    "2619650": {
+      "success": true,
+      "data": {
+        "steam_appid": 2619650,
+        "name": "Cauldron",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 749,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1624
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4c3da4ac3d68411eb6d4fccc2c3af47022c701833612ebb6b021b06e3e2a6dd2"
+}

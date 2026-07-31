@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 718670,
+  "fetchedAt": "2026-07-31T04:07:42.286Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=718670&cc=us&l=english",
+  "responseDigest": "sha256:f81a769fefab9d167c17cfb732d5e7bf64e1e21b40b653c89efb8f6184e55790",
+  "payload": {
+    "718670": {
+      "success": true,
+      "data": {
+        "steam_appid": 718670,
+        "name": "Cultist Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 31, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10630
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6c424e388610260f51c8ed1a4cd275ef4ee6a81739e9e913fbb27cbc4d414bc2"
+}

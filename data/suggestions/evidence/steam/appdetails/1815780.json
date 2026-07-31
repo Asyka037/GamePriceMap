@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1815780,
+  "fetchedAt": "2026-07-31T02:56:40.672Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1815780&cc=us&l=english",
+  "responseDigest": "sha256:03a506d5bf7f777a17209dcab0514636d1e539911f521eace643017a5f5bf54b",
+  "payload": {
+    "1815780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1815780,
+        "name": "Asphalt Legends ",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 2, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7bcd98d3251f157920f900928b9977a07a0214c59aa0953bcc1716304a4993ff"
+}

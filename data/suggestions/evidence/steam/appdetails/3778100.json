@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3778100,
+  "fetchedAt": "2026-07-31T03:40:22.214Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3778100&cc=us&l=english",
+  "responseDigest": "sha256:7cffb8a728155717e63499683544978a931e86ba316b1a5d4c93ad3fbf0ce583",
+  "payload": {
+    "3778100": {
+      "success": true,
+      "data": {
+        "steam_appid": 3778100,
+        "name": "X4: Envoy Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 286
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7f8906624e5e54427f86696154024ab1b7b65496d446feb18e75d3e2eb07c4ea"
+}

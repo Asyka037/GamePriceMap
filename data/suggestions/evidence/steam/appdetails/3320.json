@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3320,
+  "fetchedAt": "2026-07-31T03:11:05.190Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3320&cc=us&l=english",
+  "responseDigest": "sha256:27b3be6b5bf5f61029018d7df1c3b7afec74d6d59d4b702594953bd62e2d69aa",
+  "payload": {
+    "3320": {
+      "success": true,
+      "data": {
+        "steam_appid": 3320,
+        "name": "Insaniquarium Deluxe",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 30, 2006"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6335
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9d2c2cd1bdca57c9c45f0464e59946f9d01a393b90a5c558a07034fe20170013"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2996040,
+  "fetchedAt": "2026-07-31T03:01:30.160Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2996040&cc=us&l=english",
+  "responseDigest": "sha256:e1aeff65e0d9981ace4fc2c76dc631abff364a545ceb9ffaee8601814afab98b",
+  "payload": {
+    "2996040": {
+      "success": true,
+      "data": {
+        "steam_appid": 2996040,
+        "name": "Teenage Mutant Ninja Turtles: Splintered Fate",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3946
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cbf415824d2f55829f5a60267761f40f56c7fefc79aa9acafe846f601e661b18"
+}

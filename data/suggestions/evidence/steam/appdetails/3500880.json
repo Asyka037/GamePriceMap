@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3500880,
+  "fetchedAt": "2026-07-31T04:10:20.695Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3500880&cc=us&l=english",
+  "responseDigest": "sha256:60c85db00191016965f86ca10140588fac2e9ee88266c43863d12e92f8a3b409",
+  "payload": {
+    "3500880": {
+      "success": true,
+      "data": {
+        "steam_appid": 3500880,
+        "name": "Tavern Talk 2: Dreamwalker",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e18c1dfb295fe24521aa1a86399cc1e400507169a88eb2dbd2c79cbe7df4be62"
+}

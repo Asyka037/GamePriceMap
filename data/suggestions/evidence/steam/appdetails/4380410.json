@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4380410,
+  "fetchedAt": "2026-07-31T03:23:16.306Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4380410&cc=us&l=english",
+  "responseDigest": "sha256:ec94480e4d86d92684122cdda1671d4a685e78880fad1c142f9e69b194ea4b38",
+  "payload": {
+    "4380410": {
+      "success": true,
+      "data": {
+        "steam_appid": 4380410,
+        "name": "Trailmakers - Mech Amok",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 669,
+          "discount_percent": 33
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f40e7e7845efcc45d207ee35058d127d9810639d0b767b8a47c9d4a3c0f62442"
+}

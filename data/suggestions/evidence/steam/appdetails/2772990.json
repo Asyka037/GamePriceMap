@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2772990,
+  "fetchedAt": "2026-07-31T02:45:14.231Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2772990&cc=us&l=english",
+  "responseDigest": "sha256:5abd2ded88da87d11d0707d03a351287e3b78030a3a78b3bebffc49a67c552af",
+  "payload": {
+    "2772990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2772990,
+        "name": "Ghost Janitors",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 629,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 860
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:54bab70df59a485e2050751fb6821daf6335aeedbf4731c42b3e65acacc27e84"
+}

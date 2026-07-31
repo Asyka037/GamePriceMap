@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4049910,
+  "fetchedAt": "2026-07-31T02:51:56.778Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4049910&cc=us&l=english",
+  "responseDigest": "sha256:0bc27c3e32c8f68071a23f4593ddb40211294a0d2a72776e686676b49380ec88",
+  "payload": {
+    "4049910": {
+      "success": true,
+      "data": {
+        "steam_appid": 4049910,
+        "name": "Nuclear Epoch",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 412
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:483e3a608dc01a7dc4f69f327cf4ed3f612871be2133fba96bfdabffd81eb74a"
+}

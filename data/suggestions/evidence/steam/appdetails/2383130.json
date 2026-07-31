@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2383130,
+  "fetchedAt": "2026-07-31T03:55:17.378Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2383130&cc=us&l=english",
+  "responseDigest": "sha256:2afd0f756c8732139ea201083775d3e6a7661d5f296d857df4105b8d731e975c",
+  "payload": {
+    "2383130": {
+      "success": true,
+      "data": {
+        "steam_appid": 2383130,
+        "name": "Project: Mist",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 19, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1749,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 194
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f05ef77dfb1867b44be421388dd798deb34c34de3d30e88f65a8007a3a37f54b"
+}

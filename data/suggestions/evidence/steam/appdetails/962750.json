@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 962750,
+  "fetchedAt": "2026-07-31T03:17:59.880Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=962750&cc=us&l=english",
+  "responseDigest": "sha256:b5d6e4a9f35f987d1073d758ee029b72134c968337e8e4a010a9005e8ba8d44c",
+  "payload": {
+    "962750": {
+      "success": true,
+      "data": {
+        "steam_appid": 962750,
+        "name": "American Truck Simulator - Special Transport",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 857
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:116a06d662d6eb6948459dc147699f3cf9e6373b8215b1f1859f120730576208"
+}

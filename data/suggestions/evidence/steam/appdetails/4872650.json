@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4872650,
+  "fetchedAt": "2026-07-31T03:01:46.378Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4872650&cc=us&l=english",
+  "responseDigest": "sha256:b284afac5e0efb42d97e6c1bc683820762c8acef388d8b135163329eb4507bec",
+  "payload": {
+    "4872650": {
+      "success": true,
+      "data": {
+        "steam_appid": 4872650,
+        "name": "DragonSword : Awakening - Familiar : War Direwolf",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3187ea90c4c0758dfeb2bcd9b34c5bae419ae04282f3b6432ca0496bfadbd3a2"
+}

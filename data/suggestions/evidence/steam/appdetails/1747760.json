@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1747760,
+  "fetchedAt": "2026-07-31T03:35:56.964Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1747760&cc=us&l=english",
+  "responseDigest": "sha256:fc67015a5852008b8371fc218550ce1bd8f4ac70626398834a75549e695fa96d",
+  "payload": {
+    "1747760": {
+      "success": true,
+      "data": {
+        "steam_appid": 1747760,
+        "name": "Momodora: Moonlit Farewell",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 11, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1019,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 2989
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:44f535f61db3cbed5c09d2aef9755caed352231acdab32aa128b58a249d163e3"
+}

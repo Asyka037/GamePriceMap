@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 214510,
+  "fetchedAt": "2026-07-31T03:19:39.585Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=214510&cc=us&l=english",
+  "responseDigest": "sha256:91425f58ba463fd07f45e9f501249672ae85ea82b0bf168f5dce02b38d80a9c5",
+  "payload": {
+    "214510": {
+      "success": true,
+      "data": {
+        "steam_appid": 214510,
+        "name": "LEGO® The Lord of the Rings™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 27, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 9442
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aeaa3ad6765acac7f587f1e76737cc1e1f039c365d06f7599cff989edb417e7d"
+}

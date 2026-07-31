@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 324080,
+  "fetchedAt": "2026-07-31T03:19:14.461Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=324080&cc=us&l=english",
+  "responseDigest": "sha256:3216a11a2a441ba3b5e8e8aa1bfbd5b32944b808ec1c507dd8dc130c8dbf4b90",
+  "payload": {
+    "324080": {
+      "success": true,
+      "data": {
+        "steam_appid": 324080,
+        "name": "Rising World",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1004,
+          "discount_percent": 33
+        },
+        "recommendations": {
+          "total": 5265
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:95244d3ee503db523c0aaf3bf1df95e90aa1c24ddc12e515fc02e1dc4149c89a"
+}

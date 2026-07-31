@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2214823,
+  "fetchedAt": "2026-07-31T04:03:10.820Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2214823&cc=us&l=english",
+  "responseDigest": "sha256:8cde6b8277904c09f661e91550b048fc094a9adef8fab8a8b91d6eec65dc64eb",
+  "payload": {
+    "2214823": {
+      "success": true,
+      "data": {
+        "steam_appid": 2214823,
+        "name": "Atomic Heart - Enchantment Under the Sea",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1288
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:825bbabef67561da5ce7450edd648430e94b074754f16a59b975b5754e91db24"
+}

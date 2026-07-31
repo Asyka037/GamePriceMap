@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2709570,
+  "fetchedAt": "2026-07-31T02:57:58.488Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2709570&cc=us&l=english",
+  "responseDigest": "sha256:032729d2cce08a56aad548879a26285a90717b7e41f1676757d1d4a71d3f5734",
+  "payload": {
+    "2709570": {
+      "success": true,
+      "data": {
+        "steam_appid": 2709570,
+        "name": "Supermarket Together",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 9, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9517c43821f6e53597a88bbe8de0ac15aad0d4f62b35a959c2d1e38a9bf4a586"
+}

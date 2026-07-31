@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4013300,
+  "fetchedAt": "2026-07-31T02:53:51.292Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4013300&cc=us&l=english",
+  "responseDigest": "sha256:3dd68945da61d3ce69054da84f53628a2a8ed243359993690ff848c91c91f786",
+  "payload": {
+    "4013300": {
+      "success": true,
+      "data": {
+        "steam_appid": 4013300,
+        "name": "Warhammer 40,000: Darktide - Hive Scum Class Cosmetic Upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 2, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c26d642a7cb1799d17d02cc9dca1ed0d8ab0f165ce13bed65981e7f7ac41db4"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4116960,
+  "fetchedAt": "2026-07-31T03:35:00.931Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4116960&cc=us&l=english",
+  "responseDigest": "sha256:37049015964fb48603bf15b50a4e885517dddac0e2b9545c440227fb6c580844",
+  "payload": {
+    "4116960": {
+      "success": true,
+      "data": {
+        "steam_appid": 4116960,
+        "name": "Space Engineers - Core Systems Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:45b93ae50ef08dcb986ec77330c0a9feca01e8a0856af01df399ffe1b5138f8c"
+}

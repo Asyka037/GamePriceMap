@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4414590,
+  "fetchedAt": "2026-07-31T03:53:28.381Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4414590&cc=us&l=english",
+  "responseDigest": "sha256:519fdbe71e36f596b0dfc1c2202333994861e7518af100cc8a31cbbc6bafc09b",
+  "payload": {
+    "4414590": {
+      "success": true,
+      "data": {
+        "steam_appid": 4414590,
+        "name": "Car Sales Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9af60439d593dfb1970e2c0632c78d881935eea22ede40d8eb3851de82d382df"
+}

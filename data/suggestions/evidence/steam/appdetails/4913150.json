@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4913150,
+  "fetchedAt": "2026-07-31T03:08:39.900Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4913150&cc=us&l=english",
+  "responseDigest": "sha256:2484a76e6d2957dc8af64444ecc9af0db9ef854f725335d5ecab6dab8b1ec405",
+  "payload": {
+    "4913150": {
+      "success": true,
+      "data": {
+        "steam_appid": 4913150,
+        "name": "Meowgic - Supporter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1c9f10869df1f18696f3cbf6cac8ab9712128f70fe03072470ac250b008087bd"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 575720,
+  "fetchedAt": "2026-07-31T03:51:42.839Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=575720&cc=us&l=english",
+  "responseDigest": "sha256:0cfd775f8e87fa03ebc46655ca37f47b4bcb3dd48087d4d7a82e2c05a06f1946",
+  "payload": {
+    "575720": {
+      "success": true,
+      "data": {
+        "steam_appid": 575720,
+        "name": "Mighty Party",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 30, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6c3b02aac854b28b1aae6fdc59089a1d73a6e98407873eb79c90a9786b30c520"
+}

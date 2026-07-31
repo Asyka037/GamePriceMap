@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 350310,
+  "fetchedAt": "2026-07-31T03:36:55.904Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=350310&cc=us&l=english",
+  "responseDigest": "sha256:b4e60a5ee4684fdefade6e79425e55d705288e8fcb8cbacbeb4edd579cfb6dee",
+  "payload": {
+    "350310": {
+      "success": true,
+      "data": {
+        "steam_appid": 350310,
+        "name": "BLADESTORM: Nightmare",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 450
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63f88a259d7336ddeb4554c0ebefc6008d882765a21cbfdb31795cd80f01e384"
+}

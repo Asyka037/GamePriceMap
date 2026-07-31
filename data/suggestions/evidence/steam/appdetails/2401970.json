@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2401970,
+  "fetchedAt": "2026-07-31T02:55:55.232Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2401970&cc=us&l=english",
+  "responseDigest": "sha256:4ee03c7e9ee7cb61aee4a688ab92048c8dae859b80c60a9869c626095e4003ba",
+  "payload": {
+    "2401970": {
+      "success": true,
+      "data": {
+        "steam_appid": 2401970,
+        "name": "Ace Attorney Investigations Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2399,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 3303
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fbfd57c8577cc4c5bca458cc54715005d952fc6709fe077a1a4bf15485f68a55"
+}

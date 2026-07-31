@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4786240,
+  "fetchedAt": "2026-07-31T03:01:00.488Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4786240&cc=us&l=english",
+  "responseDigest": "sha256:bae4eea8fab29b52b2d5c368d2d779fe2dc70b931c973f8989dd73bee27faebb",
+  "payload": {
+    "4786240": {
+      "success": true,
+      "data": {
+        "steam_appid": 4786240,
+        "name": "DragonSword : Awakening - Costume : Phantom Thief of Dawn",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:061c6a348c39e4e13978284f78cab435aa64988ffc26348707f880ce51136c7d"
+}

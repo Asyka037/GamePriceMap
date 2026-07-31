@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 456750,
+  "fetchedAt": "2026-07-31T03:21:01.074Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=456750&cc=us&l=english",
+  "responseDigest": "sha256:782a1fcecf575cc5e5868e7a8ccc09551229ec197dd406934032bcb32a843fd0",
+  "payload": {
+    "456750": {
+      "success": true,
+      "data": {
+        "steam_appid": 456750,
+        "name": "The Room Three",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 13, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 149,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 12878
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:086f342ea30ef5b08aab57667a9340c1a9a6753cd01c87d5d4030f228570d2da"
+}

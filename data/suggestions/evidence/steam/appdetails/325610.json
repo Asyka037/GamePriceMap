@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 325610,
+  "fetchedAt": "2026-07-31T02:54:25.073Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=325610&cc=us&l=english",
+  "responseDigest": "sha256:59a686a83344c35743108eb36dc416fa9f5c16084c6209420a78ab6d6f2d47d4",
+  "payload": {
+    "325610": {
+      "success": true,
+      "data": {
+        "steam_appid": 325610,
+        "name": "Total War: ATTILA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 17, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 26765
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6025db5700c7b1ac2d62dd50e64ff9f420fca7f70c0c6ad9b29a2fb3014ae15a"
+}

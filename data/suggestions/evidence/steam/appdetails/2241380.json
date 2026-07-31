@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2241380,
+  "fetchedAt": "2026-07-31T03:38:11.276Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2241380&cc=us&l=english",
+  "responseDigest": "sha256:6b49effd25e3d2d13669d0be004560f07147dd5945f30c659d7e1dee04081154",
+  "payload": {
+    "2241380": {
+      "success": true,
+      "data": {
+        "steam_appid": 2241380,
+        "name": "Ancient Kingdoms",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 447
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:23708ab149555797a6c4a7f0997ecab970c8e8965e91c0a6539721a71372f7bd"
+}

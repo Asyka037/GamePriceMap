@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 600130,
+  "fetchedAt": "2026-07-31T03:32:13.235Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=600130&cc=us&l=english",
+  "responseDigest": "sha256:c18c28dfab869e61377b5d64f3d3682e92123fa536d2a8a3df35888162169775",
+  "payload": {
+    "600130": {
+      "success": true,
+      "data": {
+        "steam_appid": 600130,
+        "name": "Valfaris",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 249,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 1720
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:59003e4b584819aa49c5ec94d549db2cdd56dbd6620872f992e62d928ab8a685"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 386070,
+  "fetchedAt": "2026-07-31T03:39:13.649Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=386070&cc=us&l=english",
+  "responseDigest": "sha256:f43fa1f7f4c3a88b902efe551f730bce34403f2e0e0a9bcbd9197815609119b7",
+  "payload": {
+    "386070": {
+      "success": true,
+      "data": {
+        "steam_appid": 386070,
+        "name": "Planetary Annihilation: TITANS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 18, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11361
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d04a3b5b36a51c7bf5545fc5040f7b7406eb8ba09691c441088f9313f274bd2b"
+}

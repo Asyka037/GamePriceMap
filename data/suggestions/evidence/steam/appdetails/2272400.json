@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2272400,
+  "fetchedAt": "2026-07-31T03:05:47.434Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2272400&cc=us&l=english",
+  "responseDigest": "sha256:0d979142e3507f000b7e8d3a54b936be0294ce4b26f743d56deff80986b919a1",
+  "payload": {
+    "2272400": {
+      "success": true,
+      "data": {
+        "steam_appid": 2272400,
+        "name": "Station to Station",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 3, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1222
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:660d89c65eecdc1904df5990b4a79f3347263c9978ab276b398b80ecc7364cb6"
+}

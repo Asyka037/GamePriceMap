@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4632530,
+  "fetchedAt": "2026-07-31T03:38:30.954Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4632530&cc=us&l=english",
+  "responseDigest": "sha256:6602751974d19657660bc831fb96b4d46f9f887a5e22f8f211afcd742c24869a",
+  "payload": {
+    "4632530": {
+      "success": true,
+      "data": {
+        "steam_appid": 4632530,
+        "name": "Dog of Wisdom",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 299,
+          "discount_percent": 25
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ef5511da2cbdc9afbc4a4b8bf5260f1c6167860b9883799b81e964ba9d26cb3"
+}

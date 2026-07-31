@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 289130,
+  "fetchedAt": "2026-07-31T03:31:23.467Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=289130&cc=us&l=english",
+  "responseDigest": "sha256:3de5664d8aa351452b7be5ede606c55714315f5624ee01a333e2adebb26ff51c",
+  "payload": {
+    "289130": {
+      "success": true,
+      "data": {
+        "steam_appid": 289130,
+        "name": "ENDLESS Legend™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 299,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 14382
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d3a03496bca0f0a976788af561cd2b47e7c32286000ed0f02e1384c78e300af"
+}

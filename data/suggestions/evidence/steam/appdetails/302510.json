@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 302510,
+  "fetchedAt": "2026-07-31T04:04:49.661Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=302510&cc=us&l=english",
+  "responseDigest": "sha256:30c6bed97283f560db6281a7081fb2a1fa83027e84e79be59d02ec67e1156b1b",
+  "payload": {
+    "302510": {
+      "success": true,
+      "data": {
+        "steam_appid": 302510,
+        "name": "Ryse: Son of Rome",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 37795
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1facd70f19d128c182bd907f7365136fbd1cdd1a47bc5ba768a3e2199f2cec3a"
+}

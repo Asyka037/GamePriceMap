@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2095420,
+  "fetchedAt": "2026-07-31T03:54:44.358Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2095420&cc=us&l=english",
+  "responseDigest": "sha256:804d7d7888025e40dc08ffa74f5d2a5b62f1bfd68c9be814c6774644f1a92351",
+  "payload": {
+    "2095420": {
+      "success": true,
+      "data": {
+        "steam_appid": 2095420,
+        "name": "Bus Bound",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 812
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a8e9f75ead24eb288edaa1e5b69c2e89e42ccdddb452d8a947c222a0babb2f91"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1066110,
+  "fetchedAt": "2026-07-31T03:54:31.025Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1066110&cc=us&l=english",
+  "responseDigest": "sha256:a683a968ed35316f4273934367a236cceb570cc19b19d36f74faa472c8a44c4e",
+  "payload": {
+    "1066110": {
+      "success": true,
+      "data": {
+        "steam_appid": 1066110,
+        "name": "Home Planner - Design Room 3D - Pro",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2019"
+        },
+        "recommendations": {
+          "total": 274
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:11efb83d52d2cfe0d3735801ebdb774fbc41ca9ffcdaa013eb45d6122f6514a8"
+}

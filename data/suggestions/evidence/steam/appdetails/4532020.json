@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4532020,
+  "fetchedAt": "2026-07-31T04:09:27.766Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4532020&cc=us&l=english",
+  "responseDigest": "sha256:08f828677c75971813455fc4cc718872c02b1ebd8437b3db071237ed38b6d226",
+  "payload": {
+    "4532020": {
+      "success": true,
+      "data": {
+        "steam_appid": 4532020,
+        "name": "Agro Life",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bebeb9ae50fa02a8755090e6c6f258552161a1922c376b533b2a1a0d10e26112"
+}

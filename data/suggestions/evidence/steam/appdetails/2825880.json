@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2825880,
+  "fetchedAt": "2026-07-31T03:23:23.612Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2825880&cc=us&l=english",
+  "responseDigest": "sha256:3013ee349d456a4d8f1204070a6f2d59baf7b02a8eb12b24db19c6d6437a5c92",
+  "payload": {
+    "2825880": {
+      "success": true,
+      "data": {
+        "steam_appid": 2825880,
+        "name": "Death Howl",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1244
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:699fc47c9cf453672caff972eb8362ad20867f0067eea39e4c400a3e86dec667"
+}

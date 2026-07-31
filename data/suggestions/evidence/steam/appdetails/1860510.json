@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1860510,
+  "fetchedAt": "2026-07-31T03:06:30.527Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1860510&cc=us&l=english",
+  "responseDigest": "sha256:62271f88c6b5acfc7e01d1c68cad3869143cfb901d5f9fd9e947aaeb65f07656",
+  "payload": {
+    "1860510": {
+      "success": true,
+      "data": {
+        "steam_appid": 1860510,
+        "name": "Total Conflict: Resistance",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 21, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2249,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 5020
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1dd40f32af8a95ed030593145312a2aedea2c495530808a6d413e53f0ff39a45"
+}

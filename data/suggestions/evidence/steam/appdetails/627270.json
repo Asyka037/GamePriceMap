@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 627270,
+  "fetchedAt": "2026-07-31T03:11:33.192Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=627270&cc=us&l=english",
+  "responseDigest": "sha256:ca269c84e37930e129542274e5d6494c8a7608979ae690f9b32a4eca7d79f90f",
+  "payload": {
+    "627270": {
+      "success": true,
+      "data": {
+        "steam_appid": 627270,
+        "name": "Injustice™ 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 499,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 17365
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a5462f5ac557923bd1e508b3e170f8685359e0b3747464bb1df665caaf30912"
+}

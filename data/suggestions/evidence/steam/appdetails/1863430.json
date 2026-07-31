@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1863430,
+  "fetchedAt": "2026-07-31T03:40:42.109Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1863430&cc=us&l=english",
+  "responseDigest": "sha256:0f4557d4b5804500c79916703293f35d41198b483f3dd165197870e07b06b384",
+  "payload": {
+    "1863430": {
+      "success": true,
+      "data": {
+        "steam_appid": 1863430,
+        "name": "Dragonkin: The Banished",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2145
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eb50b487398a0e08a369b128679ac83cd61e189991527bc65efa43c8f1394b6c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 962400,
+  "fetchedAt": "2026-07-31T02:46:35.851Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=962400&cc=us&l=english",
+  "responseDigest": "sha256:ff22c0667aedb9b599d7c9d823ffe8eb738484567c283a02e54fd7cd077a4c6f",
+  "payload": {
+    "962400": {
+      "success": true,
+      "data": {
+        "steam_appid": 962400,
+        "name": "Granny",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10406
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e8b9aa46d37825a753857cf72f8a94ff61f79681b8ce3686308a08129005972d"
+}

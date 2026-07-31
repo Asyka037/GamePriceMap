@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3549910,
+  "fetchedAt": "2026-07-31T04:15:49.927Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3549910&cc=us&l=english",
+  "responseDigest": "sha256:63b8d9440f14ccaae86c4d48956e659c42d9d5bcf545c0ccdf16d719339890b9",
+  "payload": {
+    "3549910": {
+      "success": true,
+      "data": {
+        "steam_appid": 3549910,
+        "name": "Caribbean Legend - Ships Pack: Part 4",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 26, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 699,
+          "discount_percent": 30
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0daddd5aea4f4c77fbdf8e4451c8399f6585d0de1f056fa3ccd6a73c8f255e73"
+}

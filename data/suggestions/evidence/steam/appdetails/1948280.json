@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1948280,
+  "fetchedAt": "2026-07-31T03:05:13.463Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1948280&cc=us&l=english",
+  "responseDigest": "sha256:bdae616324c517ff00819d5cc221a4b2bf96f7ea7cfc9b4fd28d5fdae93fdf98",
+  "payload": {
+    "1948280": {
+      "success": true,
+      "data": {
+        "steam_appid": 1948280,
+        "name": "Stacklands",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 8, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 28959
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48ae91de826d9391afff03d7474aa77cff9d7c4a1bf777bd2f0c4cb5810efc0a"
+}

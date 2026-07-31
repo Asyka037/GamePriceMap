@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3210350,
+  "fetchedAt": "2026-07-31T02:50:35.173Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3210350&cc=us&l=english",
+  "responseDigest": "sha256:94011089b3c0045118d23908a01a0205af67c5697f0635a88989dfd2cdb1ebfb",
+  "payload": {
+    "3210350": {
+      "success": true,
+      "data": {
+        "steam_appid": 3210350,
+        "name": "Vampire Survivors: Ode to Castlevania",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 31, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1864
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4c9e1c1e736a68e56be7f70f451f9cec81ff8ac7ee5d7989b5fcbde7d740b28f"
+}

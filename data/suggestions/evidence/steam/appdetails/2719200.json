@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2719200,
+  "fetchedAt": "2026-07-31T03:33:42.122Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2719200&cc=us&l=english",
+  "responseDigest": "sha256:c081479b8d6e48d0d6c78c54d00e13e192a042cbb06dfd0a59b355bec4963b68",
+  "payload": {
+    "2719200": {
+      "success": true,
+      "data": {
+        "steam_appid": 2719200,
+        "name": "SAMURAI WARRIORS 4 DX",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 13, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 2999,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 463
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ea03c9cdb0f951876261c76501cdd7dc179a0c9b708f96c050bf8a53864a8d08"
+}

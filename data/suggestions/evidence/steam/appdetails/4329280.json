@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4329280,
+  "fetchedAt": "2026-07-31T04:00:35.828Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4329280&cc=us&l=english",
+  "responseDigest": "sha256:f26cfcce1f0eedd9935d15838e6d40a72e704efecb46ad2324fd84da4a71fd91",
+  "payload": {
+    "4329280": {
+      "success": true,
+      "data": {
+        "steam_appid": 4329280,
+        "name": "Substance 3D Designer 2026",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 19999,
+          "final": 19999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:710fb6c03ba401fabf291c182c004e5b4f236bdb7c4ecd98fc54d4347af56cc9"
+}

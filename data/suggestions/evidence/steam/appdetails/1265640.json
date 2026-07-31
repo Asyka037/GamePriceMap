@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1265640,
+  "fetchedAt": "2026-07-31T03:17:46.469Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1265640&cc=us&l=english",
+  "responseDigest": "sha256:1c55885983d598fa841c87c82cd7537d90f746b107ebbc3543172154831afc59",
+  "payload": {
+    "1265640": {
+      "success": true,
+      "data": {
+        "steam_appid": 1265640,
+        "name": "Conan Exiles Enhanced - Architects of Argos Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:97b527fc44b9fbca9195a8873bde5bbdd4d8a7e8257a2585bfac1f439e1c2067"
+}

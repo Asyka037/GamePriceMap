@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2686540,
+  "fetchedAt": "2026-07-31T03:05:08.469Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2686540&cc=us&l=english",
+  "responseDigest": "sha256:b32116a9d950b79f96c9625b043156390afdac7c35325ae64d139e0d13e5866a",
+  "payload": {
+    "2686540": {
+      "success": true,
+      "data": {
+        "steam_appid": 2686540,
+        "name": "Icarus: Art Deco Furniture Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:510e766aad478c4a86f792f671a4102b085db2acd3b6e41aac5ac2fcd1dcd515"
+}

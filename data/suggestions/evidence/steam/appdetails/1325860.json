@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1325860,
+  "fetchedAt": "2026-07-31T02:44:20.906Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1325860&cc=us&l=english",
+  "responseDigest": "sha256:e4a144871a4fc2e0cac70d5edb06ddcaf253ab787710cf03c31e7fab523bbc4e",
+  "payload": {
+    "1325860": {
+      "success": true,
+      "data": {
+        "steam_appid": 1325860,
+        "name": "VTube Studio",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2021"
+        },
+        "recommendations": {
+          "total": 106
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:76e8209de9f6eb37e7dc5bc8674de8b0a0763317e4e1be3cc06be83ca6ccbd7b"
+}

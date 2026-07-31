@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3002850,
+  "fetchedAt": "2026-07-31T03:20:35.940Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3002850&cc=us&l=english",
+  "responseDigest": "sha256:bb3bacabc58e340c33eecf502cdfad90623b74e4c42d8ef9347fdedcceeda02b",
+  "payload": {
+    "3002850": {
+      "success": true,
+      "data": {
+        "steam_appid": 3002850,
+        "name": "FAIRY TAIL 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 2999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 157
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9a25c3d2d943fa01ff5977e06e28ec01b9fec2f6812eeeaab79e0c634e2271e"
+}

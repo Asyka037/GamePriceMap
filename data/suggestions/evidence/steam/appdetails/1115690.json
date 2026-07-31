@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1115690,
+  "fetchedAt": "2026-07-31T03:20:44.794Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1115690&cc=us&l=english",
+  "responseDigest": "sha256:3cf5269547964a9329802cd22bc5b49d536067e201738fdef78b659433e47941",
+  "payload": {
+    "1115690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1115690,
+        "name": "Yes, Your Grace",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12463
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7d3404202ce2628bedcd7332e40b2e2bf9f7ee8eb0fef572b28901a60e8f55bb"
+}

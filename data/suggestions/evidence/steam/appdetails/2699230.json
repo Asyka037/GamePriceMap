@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2699230,
+  "fetchedAt": "2026-07-31T03:03:27.468Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2699230&cc=us&l=english",
+  "responseDigest": "sha256:59ba4bc3c61f535b78412b3a25334bba620cbdfccdb8850a53d2712fa456e279",
+  "payload": {
+    "2699230": {
+      "success": true,
+      "data": {
+        "steam_appid": 2699230,
+        "name": "Grim Dawn - Fangs of Asterkarn",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1899,
+          "final": 1899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 917
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2c4598391e142dd46990e4537791082594cfc292e4f9e23b2514ac790d45c5d8"
+}

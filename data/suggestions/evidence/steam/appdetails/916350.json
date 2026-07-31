@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 916350,
+  "fetchedAt": "2026-07-31T03:19:54.312Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=916350&cc=us&l=english",
+  "responseDigest": "sha256:0355d9aae7f1ab121ccb83e22e33055d76afee29911930d072630682c4469aaa",
+  "payload": {
+    "916350": {
+      "success": true,
+      "data": {
+        "steam_appid": 916350,
+        "name": "Saturnalia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 8, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 299,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 111
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:da159d19e7c347f3ce1811a51f071af1fc7492dfedeac2d88a39a1fea62b8100"
+}

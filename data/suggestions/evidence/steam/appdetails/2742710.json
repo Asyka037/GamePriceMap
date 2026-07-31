@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2742710,
+  "fetchedAt": "2026-07-31T02:45:54.415Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2742710&cc=us&l=english",
+  "responseDigest": "sha256:5facb15bd9be22719219d3dee2b34c53923a38024e49f6a150280f6505af0da1",
+  "payload": {
+    "2742710": {
+      "success": true,
+      "data": {
+        "steam_appid": 2742710,
+        "name": "Cozy Cleaner",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 799
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:419e5435c9c8a789aa5d2fd04dd0688c00097ab1dacc6666ca3f87c0f2f12161"
+}

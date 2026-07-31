@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4579020,
+  "fetchedAt": "2026-07-31T04:04:23.188Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4579020&cc=us&l=english",
+  "responseDigest": "sha256:9b9cc30fb64b362591ec83f9c041e7fb0e8cbce64c3d551ec85240b76df1ce11",
+  "payload": {
+    "4579020": {
+      "success": true,
+      "data": {
+        "steam_appid": 4579020,
+        "name": "Granblue Fantasy: Relink - Endless Ragnarok Character Expansion Set: Fediel",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9ceafb7f5950b138e98bb9abc07b37d8bd0fdbf390b793a6848993a1c8166ff5"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1687670,
+  "fetchedAt": "2026-07-31T03:12:19.202Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1687670&cc=us&l=english",
+  "responseDigest": "sha256:b952c5aa613f2f8a8101640f856240eb5109d48d0622ac6b3fa80eaa122fead3",
+  "payload": {
+    "1687670": {
+      "success": true,
+      "data": {
+        "steam_appid": 1687670,
+        "name": "LAST CLOUDIA",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 30, 2021"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8f07a1643566b74109e7d623ad9b3ae5e519a64a5aaf3fe16e564bf2144366d1"
+}

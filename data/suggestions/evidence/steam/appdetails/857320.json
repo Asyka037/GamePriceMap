@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 857320,
+  "fetchedAt": "2026-07-31T04:04:06.778Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=857320&cc=us&l=english",
+  "responseDigest": "sha256:a3b622cc1dedf1a9b5e887ea2999b33b2df83f79cb0de0bbe5436d1aad1fb489",
+  "payload": {
+    "857320": {
+      "success": true,
+      "data": {
+        "steam_appid": 857320,
+        "name": "SRPG Studio",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 20, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 899,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 268
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:752d83c05a99c99712aa91ca7ea5976751b29204f8fad91f352ab3782d351532"
+}

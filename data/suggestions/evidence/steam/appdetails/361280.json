@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 361280,
+  "fetchedAt": "2026-07-31T03:01:21.299Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=361280&cc=us&l=english",
+  "responseDigest": "sha256:8f94aee7624656f64154405ea0d5970bb104b5caa9c2f9746b62cefbfb5b4c86",
+  "payload": {
+    "361280": {
+      "success": true,
+      "data": {
+        "steam_appid": 361280,
+        "name": "Turmoil",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 2, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 454,
+          "discount_percent": 65
+        },
+        "recommendations": {
+          "total": 13087
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f89c649df49b9b408b184c92cfe38173eb08442d4ec1257c73c9e7e1b6e6fca3"
+}

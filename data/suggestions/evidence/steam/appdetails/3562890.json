@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3562890,
+  "fetchedAt": "2026-07-31T03:29:57.034Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3562890&cc=us&l=english",
+  "responseDigest": "sha256:0de98eedcee79ea1eaea20f1fdf204648e4f3d78aefb679814b8dc60a0434723",
+  "payload": {
+    "3562890": {
+      "success": true,
+      "data": {
+        "steam_appid": 3562890,
+        "name": "Victoria 3: Iberian Twilight - Immersion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 141
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:18d0b0d3ddb3b2d37bbae4029b0f8c55edea17ce20c88207f3b49132b7f885af"
+}

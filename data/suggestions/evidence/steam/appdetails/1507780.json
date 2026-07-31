@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1507780,
+  "fetchedAt": "2026-07-31T04:06:21.680Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1507780&cc=us&l=english",
+  "responseDigest": "sha256:3318053e4c4917f40e2d50006a14ceaf686ca42fd917815d692ad92dabe60ecc",
+  "payload": {
+    "1507780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1507780,
+        "name": "Space Warlord Organ Trading Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 820
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:caa96d5e5ac5608c1c1ad665e5b0210401c3a03d07327c091bff51275ca8f971"
+}

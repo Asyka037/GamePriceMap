@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1762930,
+  "fetchedAt": "2026-07-31T03:14:01.895Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1762930&cc=us&l=english",
+  "responseDigest": "sha256:730f275ca2f10fc6f95a8e65998be7d62106e224185a5acf476d5155c0c258d4",
+  "payload": {
+    "1762930": {
+      "success": true,
+      "data": {
+        "steam_appid": 1762930,
+        "name": "Goat Simulator: Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1107
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f0f0bcc69c7c57e1f3719adc000132c8c7972c096a0373590064623415b3abd1"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1040930,
+  "fetchedAt": "2026-07-31T03:45:56.807Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1040930&cc=us&l=english",
+  "responseDigest": "sha256:5d28e6e4c9be929d43b50fc3bf1e58583e11327a8945e36b9c5ae14d2783ac09",
+  "payload": {
+    "1040930": {
+      "success": true,
+      "data": {
+        "steam_appid": 1040930,
+        "name": "Conan Exiles Enhanced - Treasures of Turan Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 15, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 113
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2dc597407b89c70a7ad034edbf24a8a77e6c58da66ed63b99767fe282260be11"
+}

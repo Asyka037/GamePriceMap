@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 234330,
+  "fetchedAt": "2026-07-31T03:10:54.912Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=234330&cc=us&l=english",
+  "responseDigest": "sha256:59ffc8e8d1efc1c6a718ef75c8af346f8e7f7c0dd289982dbbb70196ebf9b5c0",
+  "payload": {
+    "234330": {
+      "success": true,
+      "data": {
+        "steam_appid": 234330,
+        "name": "MARVEL Puzzle Quest",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2013"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f60dc32cd2334d5ec60ba8ab902d5c5ec8bab294720bb25885cc5d6f1cb87a9e"
+}

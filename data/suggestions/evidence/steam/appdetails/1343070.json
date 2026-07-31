@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1343070,
+  "fetchedAt": "2026-07-31T03:05:44.399Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1343070&cc=us&l=english",
+  "responseDigest": "sha256:3652e51c34c41359a877ef62cf23f7d46dd86ef2d9dd6f2b124e81a2441a0af1",
+  "payload": {
+    "1343070": {
+      "success": true,
+      "data": {
+        "steam_appid": 1343070,
+        "name": "Call to Arms: Panzer Elite",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1776
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:477030a094aff1ebbf72a50648eebe735330af6194350485659aa9f523b64491"
+}

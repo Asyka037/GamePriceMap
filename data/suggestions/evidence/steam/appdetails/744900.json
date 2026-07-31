@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 744900,
+  "fetchedAt": "2026-07-31T02:58:34.586Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=744900&cc=us&l=english",
+  "responseDigest": "sha256:abbd1502aff8b27791aeaf8d62486c25669e1725c4dddb2848ec36b43f430798",
+  "payload": {
+    "744900": {
+      "success": true,
+      "data": {
+        "steam_appid": 744900,
+        "name": "Dead Frontier 2",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2019"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9440e54c40b939acf194f5ea04855a096286c29398bcd61cadb8aaf94aa66dee"
+}

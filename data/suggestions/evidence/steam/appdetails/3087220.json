@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3087220,
+  "fetchedAt": "2026-07-31T04:10:47.120Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3087220&cc=us&l=english",
+  "responseDigest": "sha256:370f61a3f5c4a40126838d7cee5092b62b8cb9bd4ea3c6b615eed21fb3a3514a",
+  "payload": {
+    "3087220": {
+      "success": true,
+      "data": {
+        "steam_appid": 3087220,
+        "name": "Sid Meier's Civilization® VII: Xerxes (The Achaemenid) Persona",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:78a4b5d81a46aad51dc878576c0796ef3acad17621532641686761f6aa8ca7bc"
+}

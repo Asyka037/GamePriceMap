@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3362550,
+  "fetchedAt": "2026-07-31T03:16:13.718Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3362550&cc=us&l=english",
+  "responseDigest": "sha256:11fd6d2bf680b10893279dc9f8c0543cdc18c3937b157d9a3e21a9c948059742",
+  "payload": {
+    "3362550": {
+      "success": true,
+      "data": {
+        "steam_appid": 3362550,
+        "name": "Assassin's Creed Shadows - Claws of Awaji",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 627
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e01c72ad96078ce8f91f0f83764838430bbb4c6253b5edd2c625d22bf5ab4b1"
+}

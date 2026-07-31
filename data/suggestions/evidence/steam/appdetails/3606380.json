@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3606380,
+  "fetchedAt": "2026-07-31T03:46:59.386Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3606380&cc=us&l=english",
+  "responseDigest": "sha256:3a2c16a8e186a03086a82b185557ec332772efa324d80228242d1626f219eb54",
+  "payload": {
+    "3606380": {
+      "success": true,
+      "data": {
+        "steam_appid": 3606380,
+        "name": "Summer Days in the Joyful Countryside",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:52a65c4d6f3e3d5f3b9a7bf01834364be8eaf805c8dc9215206e666050b04994"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1580790,
+  "fetchedAt": "2026-07-31T03:20:31.326Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1580790&cc=us&l=english",
+  "responseDigest": "sha256:47cd2e616665254637aef6a9ceffb50b53aec7baab1cde8236e098511b3f3b7f",
+  "payload": {
+    "1580790": {
+      "success": true,
+      "data": {
+        "steam_appid": 1580790,
+        "name": "NINJA GAIDEN Σ2 [NINJA GAIDEN: Master Collection]",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 9, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1626
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:03b20f75c46fcf7d5ebc4bc29d03f2eb7fe300a41c69bf297d5fe612e1b80c4a"
+}

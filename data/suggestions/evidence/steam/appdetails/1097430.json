@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1097430,
+  "fetchedAt": "2026-07-31T03:19:32.244Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1097430&cc=us&l=english",
+  "responseDigest": "sha256:2ccc601e717ea0b0ab3ac78b5531ca63221d16f2f91c6ae313268f3ac44e2852",
+  "payload": {
+    "1097430": {
+      "success": true,
+      "data": {
+        "steam_appid": 1097430,
+        "name": "Book of Yog Idle RPG",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ca8cb5d91e383391025861e9cac34111b53e1a97f21c78c8f8c89e0ea7cef3f8"
+}

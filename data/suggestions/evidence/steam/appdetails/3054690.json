@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3054690,
+  "fetchedAt": "2026-07-31T03:48:51.623Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3054690&cc=us&l=english",
+  "responseDigest": "sha256:e71eedb26ac877ed22c955b61178614f95c53eb80f4b0ff521fc3c56d2ee797a",
+  "payload": {
+    "3054690": {
+      "success": true,
+      "data": {
+        "steam_appid": 3054690,
+        "name": "NORSE: Oath of Blood",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2344,
+          "discount_percent": 33
+        },
+        "recommendations": {
+          "total": 2409
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:97e97e70d6b269ec33c5aeb325942c40b1fd412df77cc3b027149af27c9794a1"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3050900,
+  "fetchedAt": "2026-07-31T04:09:11.307Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3050900&cc=us&l=english",
+  "responseDigest": "sha256:96986fe312edbb8d4e9429d947349ed398dc6fbf0690c4a7ec2cd5eb0b3f0014",
+  "payload": {
+    "3050900": {
+      "success": true,
+      "data": {
+        "steam_appid": 3050900,
+        "name": "ROMEO IS A DEAD MAN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2008
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a56cad215f5e39a6f552809a5c40751e2f0c4744821c225b744b5c7ec94f47d2"
+}

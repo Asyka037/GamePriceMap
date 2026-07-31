@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 780310,
+  "fetchedAt": "2026-07-31T02:54:05.991Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=780310&cc=us&l=english",
+  "responseDigest": "sha256:fff733d31f5f3af5668d8a31f03d639044be8f3652530d9aee4b0a314079c8df",
+  "payload": {
+    "780310": {
+      "success": true,
+      "data": {
+        "steam_appid": 780310,
+        "name": "The Riftbreaker",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 14, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 21830
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0cbb1b8619493860268feb8650aa062096c07b1fc611e6fb40b1fdcdd689710e"
+}

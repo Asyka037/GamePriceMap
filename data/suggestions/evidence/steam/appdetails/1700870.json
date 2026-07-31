@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1700870,
+  "fetchedAt": "2026-07-31T03:10:05.859Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1700870&cc=us&l=english",
+  "responseDigest": "sha256:e41b9a3f7ad21a9870daf9aad7f1da23db1a40265cf82d6fe27f56b91372adc5",
+  "payload": {
+    "1700870": {
+      "success": true,
+      "data": {
+        "steam_appid": 1700870,
+        "name": "Clanfolk",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3728
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:56f720cd5c50324fd22bee00a16b357c6448dfa72ece1b02ce6fdf5218ac22fc"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1874000,
+  "fetchedAt": "2026-07-31T03:56:51.801Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1874000&cc=us&l=english",
+  "responseDigest": "sha256:b7c8c4475dd1a348da8266239a71b079259dd01412f887a2898e18a56389f2aa",
+  "payload": {
+    "1874000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1874000,
+        "name": "Life is Strange: Double Exposure",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 29, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7727
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:93694dfc96f1070a7dd99a73788dc93d8f58fc5f91ce9399f3bd64a49921db9e"
+}

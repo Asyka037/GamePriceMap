@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1928980,
+  "fetchedAt": "2026-07-31T04:11:46.279Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1928980&cc=us&l=english",
+  "responseDigest": "sha256:0b23196f1f45b4106490651bf7aded3fd2ed4487cef992e0a69f0e0509eb6a93",
+  "payload": {
+    "1928980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1928980,
+        "name": "Nightingale",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15270
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0dfa924775cd2b7ad06853819b938ab69545179ebb1b799be76601dbdd0c3163"
+}

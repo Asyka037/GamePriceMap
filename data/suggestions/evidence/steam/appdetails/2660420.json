@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2660420,
+  "fetchedAt": "2026-07-31T03:38:17.822Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2660420&cc=us&l=english",
+  "responseDigest": "sha256:d2064910da3a7ecb755cc8ab4edfb0c297557ecbd9c6a73de8499fa21e9f0a6d",
+  "payload": {
+    "2660420": {
+      "success": true,
+      "data": {
+        "steam_appid": 2660420,
+        "name": "Stratego® Online",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1019,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:71f933376d0ebd54dbb5f331e14af3ebd724df483a74b38c3e7a81366ed004be"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3985950,
+  "fetchedAt": "2026-07-31T02:59:05.726Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3985950&cc=us&l=english",
+  "responseDigest": "sha256:8945e4dd430d3f9c2df6dab450b7a14763f4f1868a61fc85bac58c0e47a47c9e",
+  "payload": {
+    "3985950": {
+      "success": true,
+      "data": {
+        "steam_appid": 3985950,
+        "name": "R.I.P. - Reincarnation Insurance Program",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2565
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:daf30cc16d83da11def9765f02e5ca11798aa9657f39f3fc6b310cbf05dca127"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3846120,
+  "fetchedAt": "2026-07-31T02:44:32.711Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3846120&cc=us&l=english",
+  "responseDigest": "sha256:3ce38ec9dcedf922963cc26cc4d4fc3a993a2ef8d77103c32bcbd50021d7a49c",
+  "payload": {
+    "3846120": {
+      "success": true,
+      "data": {
+        "steam_appid": 3846120,
+        "name": "MineMogul",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4062
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4f4ff35d67cb94bd0ebd1c9a6ac363863ccf8c68ee06e547cf7c07c02562b07d"
+}

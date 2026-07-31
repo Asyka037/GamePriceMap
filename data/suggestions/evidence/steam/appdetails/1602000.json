@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1602000,
+  "fetchedAt": "2026-07-31T02:57:04.231Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1602000&cc=us&l=english",
+  "responseDigest": "sha256:1c40c5dc9d74be879eea7b84952aa7be12580b0a1ab5fc5432eb72eecb71aa0f",
+  "payload": {
+    "1602000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1602000,
+        "name": "Hotel Architect",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1752
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a40aa39b93d3f9e03d1f38b2b8fbb74034b21d2c50ecfb8a704f3fc3430c1078"
+}

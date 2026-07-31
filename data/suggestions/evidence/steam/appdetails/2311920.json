@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2311920,
+  "fetchedAt": "2026-07-31T02:44:35.700Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2311920&cc=us&l=english",
+  "responseDigest": "sha256:f4f2d988820334b929c8d04d1e309d96def9c7f40054582619a46c4babc2d260",
+  "payload": {
+    "2311920": {
+      "success": true,
+      "data": {
+        "steam_appid": 2311920,
+        "name": "Crusader Kings III: Tours & Tournaments",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 11, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1432
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2fbd3653df5fd84a8bd53f8637426bc87925bd4d1070afa01a2f5efadd9cde3d"
+}

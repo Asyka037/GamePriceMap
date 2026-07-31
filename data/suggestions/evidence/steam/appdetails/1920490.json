@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1920490,
+  "fetchedAt": "2026-07-31T04:12:29.110Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1920490&cc=us&l=english",
+  "responseDigest": "sha256:53d3742fdd5afcacc885b7c9358937d1c288bdedb112d4aee6cbaeca9d68e967",
+  "payload": {
+    "1920490": {
+      "success": true,
+      "data": {
+        "steam_appid": 1920490,
+        "name": "The Outer Worlds: Spacer's Choice Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 7, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2757
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b0e370535f2d79839887b3b1e36739348c70c509c77c8561af2d1b9736ab1879"
+}

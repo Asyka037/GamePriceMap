@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2869860,
+  "fetchedAt": "2026-07-31T03:44:53.711Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2869860&cc=us&l=english",
+  "responseDigest": "sha256:43887c15630875ae5f18a5e2578dca09b67f3adf8c751f8171a84648f749c45b",
+  "payload": {
+    "2869860": {
+      "success": true,
+      "data": {
+        "steam_appid": 2869860,
+        "name": "Monster Prom 4: Monster Con",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1870
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b5b82c6fab0456dbd7b4a98f63b5ec10a24e94916b98a1f9d5be944b847513a9"
+}

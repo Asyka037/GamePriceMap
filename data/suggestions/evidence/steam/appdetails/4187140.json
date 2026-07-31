@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4187140,
+  "fetchedAt": "2026-07-31T03:02:40.120Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4187140&cc=us&l=english",
+  "responseDigest": "sha256:3277eae05d61f03e41565ef908f6c148c8397bab07dd31e641b2a51f32ebdefa",
+  "payload": {
+    "4187140": {
+      "success": true,
+      "data": {
+        "steam_appid": 4187140,
+        "name": "Don't Panic! It is Just Turbulence",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 337
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:968f403eb9b589e1b0e9edaee1b69e00b3f28b1fec5a6c9bca946e1c5320100c"
+}

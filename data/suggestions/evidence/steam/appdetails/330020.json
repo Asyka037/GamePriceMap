@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 330020,
+  "fetchedAt": "2026-07-31T03:02:32.694Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=330020&cc=us&l=english",
+  "responseDigest": "sha256:b27847b96fc4c600ca88ce00680fbacb79212174f6cf3c3d9cd2088fe0d24a86",
+  "payload": {
+    "330020": {
+      "success": true,
+      "data": {
+        "steam_appid": 330020,
+        "name": "Children of Morta",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 3, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2199,
+          "final": 329,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 18029
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d77ce191f6364c84183ab8d1f2c99466bbf4e4e06ac5d0d9d7336e87fb61ec2b"
+}

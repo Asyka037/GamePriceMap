@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3215050,
+  "fetchedAt": "2026-07-31T02:59:17.606Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3215050&cc=us&l=english",
+  "responseDigest": "sha256:915150fdeb57da304d955abbf6462feff0c63bc623d1a3fc4108e6e9640fff23",
+  "payload": {
+    "3215050": {
+      "success": true,
+      "data": {
+        "steam_appid": 3215050,
+        "name": "Surviving Mars: Relaunched",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2052
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8ef3801594b6341b42f6276094093ef4eeb7533ba7cb25436fc0776c7cc7a241"
+}

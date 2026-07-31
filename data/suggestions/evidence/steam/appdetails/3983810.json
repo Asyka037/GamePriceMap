@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3983810,
+  "fetchedAt": "2026-07-31T03:59:13.826Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3983810&cc=us&l=english",
+  "responseDigest": "sha256:201c75e155e97405a2b04b1084b6eb025f51777818f113dc3aed58b3f3966ffe",
+  "payload": {
+    "3983810": {
+      "success": true,
+      "data": {
+        "steam_appid": 3983810,
+        "name": "The Spike Cross",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 19, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f26d35b065ff4605274c6cebacc4c72b4a1cf2b0285548e7337edf1603e36ee2"
+}

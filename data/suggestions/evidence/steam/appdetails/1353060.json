@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1353060,
+  "fetchedAt": "2026-07-31T03:00:02.383Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1353060&cc=us&l=english",
+  "responseDigest": "sha256:8cc9941d0fd6ce29c166e1dd1e25f6e504d3b2e1e4e6b74e030e73cdaf008517",
+  "payload": {
+    "1353060": {
+      "success": true,
+      "data": {
+        "steam_appid": 1353060,
+        "name": "Rust - Sunburn Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 2102
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d04694ba1c3b652d3f5fa01d1f9cdf2ebf592ca7a4a98989c828425f1a95daa1"
+}

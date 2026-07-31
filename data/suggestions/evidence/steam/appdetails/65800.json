@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 65800,
+  "fetchedAt": "2026-07-31T02:45:35.494Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=65800&cc=us&l=english",
+  "responseDigest": "sha256:05534d553d00fa6986deb42e4716bb1c017fc9ba479f0c1dd141cd19b04b750c",
+  "payload": {
+    "65800": {
+      "success": true,
+      "data": {
+        "steam_appid": 65800,
+        "name": "Dungeon Defenders",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 18, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12105
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:938cf7ee26ecdd964676341427224dba12b9d40f1094dc307139295b7c54611e"
+}

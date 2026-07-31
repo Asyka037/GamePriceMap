@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1280930,
+  "fetchedAt": "2026-07-31T03:04:53.807Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1280930&cc=us&l=english",
+  "responseDigest": "sha256:711622d897788b500a7464a389b6c44ff1d45a45580e6ca401c9087f347b245e",
+  "payload": {
+    "1280930": {
+      "success": true,
+      "data": {
+        "steam_appid": 1280930,
+        "name": "Astral Ascent",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5350
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4e6133be82fbb65c1c623dfac53f4faac9f17d67af98c5c9615838fa9053be7c"
+}

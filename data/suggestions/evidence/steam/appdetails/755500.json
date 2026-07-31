@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 755500,
+  "fetchedAt": "2026-07-31T04:11:39.654Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=755500&cc=us&l=english",
+  "responseDigest": "sha256:8ee1ffb7edaca8f4d8b9dc25afe153cfd9aaea5d5ae14bb7bcf9359053a855fa",
+  "payload": {
+    "755500": {
+      "success": true,
+      "data": {
+        "steam_appid": 755500,
+        "name": "ONE PIECE World Seeker",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 14, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 8999,
+          "final": 899,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 4919
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:32a5ac1319d3a45e3b681929ae7d7a5490e79f382d3b082c9a0a53656f9b529b"
+}

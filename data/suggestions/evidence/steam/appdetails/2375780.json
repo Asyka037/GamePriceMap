@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2375780,
+  "fetchedAt": "2026-07-31T03:00:14.421Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2375780&cc=us&l=english",
+  "responseDigest": "sha256:c6c46d5dcfbe44edfeea1003d1f18244e66b55674af32d62a1342805255aace6",
+  "payload": {
+    "2375780": {
+      "success": true,
+      "data": {
+        "steam_appid": 2375780,
+        "name": "Beam Eye Tracker",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 937
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4aebd24a3d7f1f821fa31b85f34417192d04dfa94eb6738d100bbbc531da11e1"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1316840,
+  "fetchedAt": "2026-07-31T03:12:20.664Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1316840&cc=us&l=english",
+  "responseDigest": "sha256:b12a80ad4e5fdbbaeea2aab6c5e1df0de60fc69752f44c5972117bc1aa6ecc26",
+  "payload": {
+    "1316840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1316840,
+        "name": "theHunter: Call of the Wild™ - Silver Ridge Peaks",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 399,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 826
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0f9bff4a2dfe1f1783328674b15201659901156d2af579808a4f1c93deaec1c8"
+}

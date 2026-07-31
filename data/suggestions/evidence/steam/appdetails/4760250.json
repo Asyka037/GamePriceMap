@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4760250,
+  "fetchedAt": "2026-07-31T02:49:40.506Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4760250&cc=us&l=english",
+  "responseDigest": "sha256:e88495ee7ac809a2608d067e2f33786db0d492b2d7805ece68036ea07b04deef",
+  "payload": {
+    "4760250": {
+      "success": true,
+      "data": {
+        "steam_appid": 4760250,
+        "name": "Warframe: Styanax Prime Access - Prime Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:81997200f4f8edb9bade52fbea98c500cc3bd993c45a4ab4da0ae0f168c65ebe"
+}

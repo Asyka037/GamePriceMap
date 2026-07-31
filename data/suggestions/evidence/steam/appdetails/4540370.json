@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4540370,
+  "fetchedAt": "2026-07-31T03:50:56.906Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4540370&cc=us&l=english",
+  "responseDigest": "sha256:7ac280082f031e0b67ed596e6a7b9b3ac9cf403845ca422d7545c95c3ac9e474",
+  "payload": {
+    "4540370": {
+      "success": true,
+      "data": {
+        "steam_appid": 4540370,
+        "name": "Rail Route - Expect Delays",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:81682cf3a8deb6135ee3ae2b899784211185f9694ff7b8b3c361a3b170c92f92"
+}

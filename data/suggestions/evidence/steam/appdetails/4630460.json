@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4630460,
+  "fetchedAt": "2026-07-31T02:51:43.305Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4630460&cc=us&l=english",
+  "responseDigest": "sha256:bee8d02b54a7506780ee84d0d6ab31b091ecefbe8f3c09fe823d7de62575a998",
+  "payload": {
+    "4630460": {
+      "success": true,
+      "data": {
+        "steam_appid": 4630460,
+        "name": "The Mound: Omen of Cthulhu - Characters & Items Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:38f4a58c34e742962a3ef33236398ec0879d0384632e6007a5941a24ee872ba1"
+}

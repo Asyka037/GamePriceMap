@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1114150,
+  "fetchedAt": "2026-07-31T02:45:12.719Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1114150&cc=us&l=english",
+  "responseDigest": "sha256:177d411ee5f09cc33108bcb2b6b5328e254b4e80ca2634b1b34ee51567d3a994",
+  "payload": {
+    "1114150": {
+      "success": true,
+      "data": {
+        "steam_appid": 1114150,
+        "name": "CarX Street",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 29, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17229
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5f4c83d2f8617c2ff21a17c49e6c067ffb0a7f22013c40f879cbe39488fc4f7c"
+}

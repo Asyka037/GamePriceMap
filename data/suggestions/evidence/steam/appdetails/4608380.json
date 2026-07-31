@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4608380,
+  "fetchedAt": "2026-07-31T03:51:19.935Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4608380&cc=us&l=english",
+  "responseDigest": "sha256:d425abd4a91b2e8961550fea79aa08025c7d74c2ad1fa88d7e57a5c98a380e19",
+  "payload": {
+    "4608380": {
+      "success": true,
+      "data": {
+        "steam_appid": 4608380,
+        "name": "Joy Malignant",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 764,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:be40d03848e60d09c7c921337ff211fec3f104a77e4ed616295710b0ae3d6b1a"
+}

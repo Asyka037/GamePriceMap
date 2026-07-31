@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1793051,
+  "fetchedAt": "2026-07-31T03:45:29.796Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1793051&cc=us&l=english",
+  "responseDigest": "sha256:2a869b114e52b0c775ac1cb18c2cac6b1e33ae436a006a8ea0af351e0e097615",
+  "payload": {
+    "1793051": {
+      "success": true,
+      "data": {
+        "steam_appid": 1793051,
+        "name": "Warhammer 40,000: Battlesector - Necrons",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 21, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 140
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6c23475341901d2db883136ea7bb62fd06008240a32112d8307a0a56ec214897"
+}

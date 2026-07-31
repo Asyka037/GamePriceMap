@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 242700,
+  "fetchedAt": "2026-07-31T03:59:46.697Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=242700&cc=us&l=english",
+  "responseDigest": "sha256:33052a1b241b9656717ae2d69ba60b8cf320f3bc4d2885bf505fabb59d4e8448",
+  "payload": {
+    "242700": {
+      "success": true,
+      "data": {
+        "steam_appid": 242700,
+        "name": "Injustice: Gods Among Us Ultimate Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 299,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 9828
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f855ee31060f8826915517398567ed17aa3ae2418c9acc6aa1cf96a3eb9edd41"
+}

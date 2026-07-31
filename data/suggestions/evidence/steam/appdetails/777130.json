@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 777130,
+  "fetchedAt": "2026-07-31T02:51:34.263Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=777130&cc=us&l=english",
+  "responseDigest": "sha256:3707a15cc3183514414b1155c0a4f34f691d87f1a2ec09a53596bb3a7769c942",
+  "payload": {
+    "777130": {
+      "success": true,
+      "data": {
+        "steam_appid": 777130,
+        "name": "Blush Blush",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 22, 2020"
+        },
+        "recommendations": {
+          "total": 111
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:42cd6bb3a66574b774b69233a0a54fafe61899907b5b03c3ec40c1d137e4d371"
+}

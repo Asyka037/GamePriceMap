@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1824060,
+  "fetchedAt": "2026-07-31T03:06:36.507Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1824060&cc=us&l=english",
+  "responseDigest": "sha256:e7bf95060d8b5a6171d0c47ce023dabb361bb61893d37e1017baa21df1b88a90",
+  "payload": {
+    "1824060": {
+      "success": true,
+      "data": {
+        "steam_appid": 1824060,
+        "name": "Total War: WARHAMMER III - Champions of Chaos",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 23, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1284
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:32690840709714cbc8ab259185bc923f007bf68d7ff0b7299adbec64d2a39678"
+}

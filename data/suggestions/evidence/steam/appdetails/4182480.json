@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4182480,
+  "fetchedAt": "2026-07-31T03:22:48.112Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4182480&cc=us&l=english",
+  "responseDigest": "sha256:57ffd302db6f9d7400aafe7e4fbbb027145e405c8a8b0ed18c0ecd3e438b3aac",
+  "payload": {
+    "4182480": {
+      "success": true,
+      "data": {
+        "steam_appid": 4182480,
+        "name": "Smash Hit Museum",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 422
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d6c48d9618a4acec5ecf8f781a12e9aa96f1595aa20b66862b7ae408585165f"
+}

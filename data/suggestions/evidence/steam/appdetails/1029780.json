@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1029780,
+  "fetchedAt": "2026-07-31T02:49:36.061Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1029780&cc=us&l=english",
+  "responseDigest": "sha256:aed7d0fd5aff34979bd1fa89c2064546f63e210364526043fe341a8cf2dae02f",
+  "payload": {
+    "1029780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1029780,
+        "name": "Going Medieval",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16857
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4c9384d696ec753bc102b0ea05f3abbf9e98ac321b5fb4bc0157d10333a8a4e0"
+}

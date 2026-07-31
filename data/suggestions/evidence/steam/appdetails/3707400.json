@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3707400,
+  "fetchedAt": "2026-07-31T03:22:31.822Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3707400&cc=us&l=english",
+  "responseDigest": "sha256:4815692de1ddd836178a8464384c5b62ec28f7bf4e36d7a8a4d350eefc0524cb",
+  "payload": {
+    "3707400": {
+      "success": true,
+      "data": {
+        "steam_appid": 3707400,
+        "name": "On-Together: Virtual Co-Working",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 19, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 699,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1247
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c328f2a3288fae8576e59fbd67c4211e8cbf38009bb5e4bc9fec3ac22929c3b8"
+}

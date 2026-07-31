@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2140610,
+  "fetchedAt": "2026-07-31T02:59:42.646Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2140610&cc=us&l=english",
+  "responseDigest": "sha256:354060809a642a73ff3399dc816bf7b135514501327b3296703f83ad44ce6a60",
+  "payload": {
+    "2140610": {
+      "success": true,
+      "data": {
+        "steam_appid": 2140610,
+        "name": "The Sims™ 4 For Rent Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 256
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e1b18060db936fee53fe64134e87801d6b855a177198a0796aa8a72c76d6a3f1"
+}

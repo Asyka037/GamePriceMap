@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2138710,
+  "fetchedAt": "2026-07-31T02:53:23.779Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2138710&cc=us&l=english",
+  "responseDigest": "sha256:721d6e21b0b3314eb991af48ddad56eb2b8eac8f701a55f74be1b931c3e5615e",
+  "payload": {
+    "2138710": {
+      "success": true,
+      "data": {
+        "steam_appid": 2138710,
+        "name": "Sifu",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 28, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 21115
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3be7dde506c3616c11e864a9b71552fc77c191026679b77445d7df7c9e0952bd"
+}

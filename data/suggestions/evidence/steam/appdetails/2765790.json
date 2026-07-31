@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2765790,
+  "fetchedAt": "2026-07-31T03:37:35.212Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2765790&cc=us&l=english",
+  "responseDigest": "sha256:1e22721dade8c10b2726e76f284b751e022266a28aaa7b1eb9f6d0569627329e",
+  "payload": {
+    "2765790": {
+      "success": true,
+      "data": {
+        "steam_appid": 2765790,
+        "name": "Dreadweave",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 899,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df1b9329f53478b8bb3d80b9da062fd90ae717338583b2f634c214fadcbe7f06"
+}

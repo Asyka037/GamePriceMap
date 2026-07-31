@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 307110,
+  "fetchedAt": "2026-07-31T03:47:06.013Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=307110&cc=us&l=english",
+  "responseDigest": "sha256:de7ce805bdaa9081845f0a7fd7cd9b1cdc20012d0bf2f4997f2de2713c45441d",
+  "payload": {
+    "307110": {
+      "success": true,
+      "data": {
+        "steam_appid": 307110,
+        "name": "We Need To Go Deeper",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 1, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4650
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ddd2a4118fbebd1e7bab984d991bcc5429e02922373970c1e9ac4aef686755f6"
+}

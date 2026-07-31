@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1342260,
+  "fetchedAt": "2026-07-31T03:49:14.701Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1342260&cc=us&l=english",
+  "responseDigest": "sha256:75a91aa1b513e345e7c27c3778df02ae450063bdffbea8deeea1d13940b0dae5",
+  "payload": {
+    "1342260": {
+      "success": true,
+      "data": {
+        "steam_appid": 1342260,
+        "name": "SAMURAI SHODOWN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 14, 2021"
+        },
+        "recommendations": {
+          "total": 1668
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c8a71bb83cc11817715cba7a3912c9b922c59c6228463fab61a94c9d678a37b8"
+}

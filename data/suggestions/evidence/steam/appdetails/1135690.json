@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1135690,
+  "fetchedAt": "2026-07-31T02:43:48.704Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1135690&cc=us&l=english",
+  "responseDigest": "sha256:6fcd3d11cd4cef6b3bb85ada211b6e635313f24ad90d5925cc3bf897fc77f5f0",
+  "payload": {
+    "1135690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1135690,
+        "name": "Unpacking",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 34877
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:82a7e66731af50d442f116692de83eb450096fd8c6003c06772b4c3c98292cb9"
+}

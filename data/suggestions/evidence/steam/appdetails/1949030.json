@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1949030,
+  "fetchedAt": "2026-07-31T03:16:58.934Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1949030&cc=us&l=english",
+  "responseDigest": "sha256:ac9467ce418241602c43188560490654af5b916e853fb6830a97b25314eee561",
+  "payload": {
+    "1949030": {
+      "success": true,
+      "data": {
+        "steam_appid": 1949030,
+        "name": "Sherlock Holmes The Awakened",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 11, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2520
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9dbddb5caa44cce3239199bbd0405aadba2ca787cf3ad784220e95101ec2d449"
+}

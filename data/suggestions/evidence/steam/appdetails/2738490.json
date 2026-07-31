@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2738490,
+  "fetchedAt": "2026-07-31T02:52:06.293Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2738490&cc=us&l=english",
+  "responseDigest": "sha256:8af168a77fd87a759d53dc511a2519bde9189e9d029d7a01aca88aac43db6f78",
+  "payload": {
+    "2738490": {
+      "success": true,
+      "data": {
+        "steam_appid": 2738490,
+        "name": "Sol Cesto",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4617
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aff6e5f0b12969e4522c0f9ba1b4430aa0879b09fee2993789cef2b3a904fa79"
+}

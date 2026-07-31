@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3454650,
+  "fetchedAt": "2026-07-31T03:21:23.437Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3454650&cc=us&l=english",
+  "responseDigest": "sha256:0c3638e953d4876e1943f4b8adf66e754e39e4d323b53c4d23373ba9fdd0cf94",
+  "payload": {
+    "3454650": {
+      "success": true,
+      "data": {
+        "steam_appid": 3454650,
+        "name": "BitCraft Online",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3250
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cd8a59814c2e76d8aa8cd80de1f5b9b484d88e5b149c090525664f7533de13b7"
+}

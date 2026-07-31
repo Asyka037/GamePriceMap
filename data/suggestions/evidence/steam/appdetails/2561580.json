@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2561580,
+  "fetchedAt": "2026-07-31T02:49:44.858Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2561580&cc=us&l=english",
+  "responseDigest": "sha256:e33914cb54bb74025e6d320d6bcba410e9eb24df34be6453f607ecdcb1350c7a",
+  "payload": {
+    "2561580": {
+      "success": true,
+      "data": {
+        "steam_appid": 2561580,
+        "name": "Horizon Zero Dawn™ Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 31, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6598
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1544fdb1c177ea534ce2f90908cd37c5bdc287c14e778fbdfd18dd32b79e04e9"
+}

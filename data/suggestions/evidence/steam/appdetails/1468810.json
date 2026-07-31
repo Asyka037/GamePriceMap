@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1468810,
+  "fetchedAt": "2026-07-31T03:04:29.495Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1468810&cc=us&l=english",
+  "responseDigest": "sha256:d2d72aa7c4bb3e3fbeeb77ca9c84bb1d7f12ddbd2a48ab72900bf7f0f88af38f",
+  "payload": {
+    "1468810": {
+      "success": true,
+      "data": {
+        "steam_appid": 1468810,
+        "name": "鬼谷八荒 Tale of Immortal",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 189989
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b5ed1ff18cdbf345ecc1f13917c0062c323de2936a4ac5640e45d71843e41261"
+}

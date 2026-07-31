@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4317900,
+  "fetchedAt": "2026-07-31T03:20:37.437Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4317900&cc=us&l=english",
+  "responseDigest": "sha256:403f5b60298b475381b8cb63a702541813ff53ba8cb08e095ec136ee4813848a",
+  "payload": {
+    "4317900": {
+      "success": true,
+      "data": {
+        "steam_appid": 4317900,
+        "name": "Infinite Ruins",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 539,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dbae216e3cd5c90b46a0e5ff1715e0827eba16e4af921908817775d262bb784e"
+}

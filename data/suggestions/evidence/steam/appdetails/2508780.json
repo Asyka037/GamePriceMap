@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2508780,
+  "fetchedAt": "2026-07-31T02:57:16.189Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2508780&cc=us&l=english",
+  "responseDigest": "sha256:ae4a5a0a818404a5d9d20c8aac66fde72ae2e0a4f5ba9378d7c3c2e5217d648c",
+  "payload": {
+    "2508780": {
+      "success": true,
+      "data": {
+        "steam_appid": 2508780,
+        "name": "STORY OF SEASONS: Grand Bazaar",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3080
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:765a06cd16c7925eafd670cde7624e47c15c77a1c43aed37a27a43a41b252028"
+}

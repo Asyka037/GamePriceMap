@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4018950,
+  "fetchedAt": "2026-07-31T03:05:50.408Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4018950&cc=us&l=english",
+  "responseDigest": "sha256:65f603cc505cbe51b9e9420ff5bbed0ddbebbaa3f8ba1d9447f20155fefc8948",
+  "payload": {
+    "4018950": {
+      "success": true,
+      "data": {
+        "steam_appid": 4018950,
+        "name": "Lost Wiki: Kozlovka",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 1461
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c6bae2fcb332052cadd33f3402dca1a8fa4a8e8b3717376f4a2e0a45f7f68ed4"
+}

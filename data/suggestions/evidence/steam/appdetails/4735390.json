@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4735390,
+  "fetchedAt": "2026-07-31T03:16:19.772Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4735390&cc=us&l=english",
+  "responseDigest": "sha256:82619729acd558e4448b716c3bf6e3948e181ee5c516efe9c94c830686d342cf",
+  "payload": {
+    "4735390": {
+      "success": true,
+      "data": {
+        "steam_appid": 4735390,
+        "name": "Warframe: Constellations Complete Collection",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e74f16729a5710e907a2bfbf2d3ca324d4d661226fa0a8112ded1dd49476019b"
+}

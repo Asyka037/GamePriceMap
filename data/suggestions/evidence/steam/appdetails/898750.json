@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 898750,
+  "fetchedAt": "2026-07-31T03:23:07.474Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=898750&cc=us&l=english",
+  "responseDigest": "sha256:e714c9521deaf2cf1c726b65c779bd12c51d1568d97e7dce771320588b4482d3",
+  "payload": {
+    "898750": {
+      "success": true,
+      "data": {
+        "steam_appid": 898750,
+        "name": "Super Robot Wars 30",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 5578
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c6df525a9f54c0957c6fa69cdabbcd0ce6d7b46c62f889f3c49cbc44c2509600"
+}

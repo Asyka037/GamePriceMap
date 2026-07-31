@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 818320,
+  "fetchedAt": "2026-07-31T03:21:26.433Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=818320&cc=us&l=english",
+  "responseDigest": "sha256:d256a4bc5f323180b4f0eaed7e54faa46cc0e89e0f12c9f04e23a1355bbc4248",
+  "payload": {
+    "818320": {
+      "success": true,
+      "data": {
+        "steam_appid": 818320,
+        "name": "LEGO® The Incredibles",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 15, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 399,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 1542
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:39354c77a7f09fd52f4235c4c3b59df8a8979a271b980223e45188950779ad85"
+}

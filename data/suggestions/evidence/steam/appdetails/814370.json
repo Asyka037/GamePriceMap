@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 814370,
+  "fetchedAt": "2026-07-31T04:14:40.857Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=814370&cc=us&l=english",
+  "responseDigest": "sha256:b3cf655dd554cc867fef145aae4516872b097c3664e9ad6c49c588d1a6656c27",
+  "payload": {
+    "814370": {
+      "success": true,
+      "data": {
+        "steam_appid": 814370,
+        "name": "Monster Sanctuary",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 8, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 10333
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1a930b0a63117215d09bcc2725ba39cc94d8a8212e497eaf3c08943fab029acc"
+}

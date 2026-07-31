@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1325890,
+  "fetchedAt": "2026-07-31T03:36:19.878Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1325890&cc=us&l=english",
+  "responseDigest": "sha256:18c6453d2f3b01deb7c14695a961a8f3360190083e92a42df6ce3855c6efe1b6",
+  "payload": {
+    "1325890": {
+      "success": true,
+      "data": {
+        "steam_appid": 1325890,
+        "name": "SILT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 224,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 766
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:05e4368f49e4af154fcfe1a66e71dadddb58931ade611172a247517f86e83d07"
+}

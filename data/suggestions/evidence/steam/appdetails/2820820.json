@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2820820,
+  "fetchedAt": "2026-07-31T04:07:16.007Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2820820&cc=us&l=english",
+  "responseDigest": "sha256:49c6a98bff99e736b7f00790824d4fa296f2dae3c3da0ab1eb7011e483c177b9",
+  "payload": {
+    "2820820": {
+      "success": true,
+      "data": {
+        "steam_appid": 2820820,
+        "name": "Jotunnslayer: Hordes of Hel",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7201
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1f42f6fced8b0c047e454b135ea49b35dd344a2e7e90916d749ffdf8e61e069d"
+}

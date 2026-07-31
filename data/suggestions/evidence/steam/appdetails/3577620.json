@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3577620,
+  "fetchedAt": "2026-07-31T03:17:15.400Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3577620&cc=us&l=english",
+  "responseDigest": "sha256:5e4910eb2661060e14b9a3d69c794b819a276f7ccc0dfeb1c4a14b9c7d7bdc5d",
+  "payload": {
+    "3577620": {
+      "success": true,
+      "data": {
+        "steam_appid": 3577620,
+        "name": "Warhammer 40,000: Battlesector - Black Legion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:25e7467b3513a25e1b896b1a87de634faf65bb6b1becb6ca8fc022d28d196360"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2604420,
+  "fetchedAt": "2026-07-31T04:06:56.335Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2604420&cc=us&l=english",
+  "responseDigest": "sha256:3c5fdcef79e29b9c1fefb3dd09d8dd0352c6a73beb8795199a5a0e4f45826499",
+  "payload": {
+    "2604420": {
+      "success": true,
+      "data": {
+        "steam_appid": 2604420,
+        "name": "Euro Truck Simulator 2 - Greece",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1288
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5c99ddb67fa7ce9fc1535303e60ae30f4759390a2701d380c21406f1b47b09d2"
+}

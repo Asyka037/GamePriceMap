@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1588530,
+  "fetchedAt": "2026-07-31T02:52:20.954Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1588530&cc=us&l=english",
+  "responseDigest": "sha256:005f43231b8d59472439267ae85fe29ec111bfab881671f246714b12f715f4ac",
+  "payload": {
+    "1588530": {
+      "success": true,
+      "data": {
+        "steam_appid": 1588530,
+        "name": "Dungeon Alchemist",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 31, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2625
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:577c06c278d6202bbd7187bb89ece82e67ee3c38b78f9ac6ac9e5188c4887f84"
+}

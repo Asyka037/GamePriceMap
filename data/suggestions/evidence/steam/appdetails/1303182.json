@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1303182,
+  "fetchedAt": "2026-07-31T02:47:11.698Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1303182&cc=us&l=english",
+  "responseDigest": "sha256:6d1bc1ebea6f411327e4ee9eab6e46638e293eec37730f38312484a37cc1f3f8",
+  "payload": {
+    "1303182": {
+      "success": true,
+      "data": {
+        "steam_appid": 1303182,
+        "name": "Crusader Kings III: Royal Court",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 8, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3196
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7bd92d4b7e3eca7895027f65b1aeb83b241f4a5138490e8be62f0073bc42d0ba"
+}

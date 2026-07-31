@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2114740,
+  "fetchedAt": "2026-07-31T03:04:50.878Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2114740&cc=us&l=english",
+  "responseDigest": "sha256:fad10fa000396f92afbc7e982d2677bd6d1ad335d0b7e3b586f85cf586a7700f",
+  "payload": {
+    "2114740": {
+      "success": true,
+      "data": {
+        "steam_appid": 2114740,
+        "name": "Blasphemous 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 24, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 1124,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 15944
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e90b990ab4471c2aedad840e476b99947071af3e6ecf23021299f866e635fbf2"
+}

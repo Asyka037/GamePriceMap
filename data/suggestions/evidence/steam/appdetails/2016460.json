@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2016460,
+  "fetchedAt": "2026-07-31T03:46:36.270Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2016460&cc=us&l=english",
+  "responseDigest": "sha256:6682072a807ab9a367749e560f0fada0b80142133b5adabca80c62b243e0bd9f",
+  "payload": {
+    "2016460": {
+      "success": true,
+      "data": {
+        "steam_appid": 2016460,
+        "name": "Tales of the Shire: A The Lord of The Rings™ Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2099,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 3192
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:345d4a9273445cb50865482e08b62ce5524c35a1c2e180764381dcc2728e3e97"
+}

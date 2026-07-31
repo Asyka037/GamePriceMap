@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2716400,
+  "fetchedAt": "2026-07-31T03:24:13.566Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2716400&cc=us&l=english",
+  "responseDigest": "sha256:7dd4d3cc2d748673a5eddeb4b0b75ad6cce93aa804c94f5e14cdac2316dd9134",
+  "payload": {
+    "2716400": {
+      "success": true,
+      "data": {
+        "steam_appid": 2716400,
+        "name": "The Rise of the Golden Idol",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3729
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6425ed6df515cab0a322c3b9625d8190e87ab09a60a3c4aa479be571351452ef"
+}

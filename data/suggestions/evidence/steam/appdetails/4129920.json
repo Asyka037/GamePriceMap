@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4129920,
+  "fetchedAt": "2026-07-31T04:00:12.924Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4129920&cc=us&l=english",
+  "responseDigest": "sha256:75056fe8bdb0d550f15c378dad40e0bb7292c2c0bd90932fc7fabf4d965d1f37",
+  "payload": {
+    "4129920": {
+      "success": true,
+      "data": {
+        "steam_appid": 4129920,
+        "name": "Planet Coaster 2: Toybox Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3dd4df8eef404935ea3801451c09d4ec3ebc55f56916ba3c81d163757b62d088"
+}

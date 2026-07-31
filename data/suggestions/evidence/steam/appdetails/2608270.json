@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2608270,
+  "fetchedAt": "2026-07-31T03:09:12.419Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2608270&cc=us&l=english",
+  "responseDigest": "sha256:7900e3bf129ca6e358661840a91e09d6abc53b8ccdb714b86dbff66b3523c628",
+  "payload": {
+    "2608270": {
+      "success": true,
+      "data": {
+        "steam_appid": 2608270,
+        "name": "Intravenous 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 15, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3992
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a11256588d65afd2e13ef4f9c4ffbe7f1122831e48b80e1795e4f72705ac3205"
+}

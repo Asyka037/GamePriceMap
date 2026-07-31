@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 787480,
+  "fetchedAt": "2026-07-31T02:51:07.673Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=787480&cc=us&l=english",
+  "responseDigest": "sha256:132c16d4402548960be17edec521c94f99ec0f2811da4869ddf1103216a1bab2",
+  "payload": {
+    "787480": {
+      "success": true,
+      "data": {
+        "steam_appid": 787480,
+        "name": "Phoenix Wright: Ace Attorney Trilogy",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 989,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 35172
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:358e78625af8cd9d90ad7ea15a18f786a35b83d9cebd75585347bf68f8a8abd8"
+}

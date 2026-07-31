@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3362570,
+  "fetchedAt": "2026-07-31T02:52:12.141Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3362570&cc=us&l=english",
+  "responseDigest": "sha256:8329f8fa00ffa5325d0117f618d458c2094d07abf87ee634c09b05b7cca2dedb",
+  "payload": {
+    "3362570": {
+      "success": true,
+      "data": {
+        "steam_appid": 3362570,
+        "name": "Assassin's Creed Shadows - Premium Starter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed3ca3bc344ecb6f768dad65dd8d56dd5a17fbc1b46b69aca5328b59c0947c82"
+}

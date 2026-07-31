@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2698420,
+  "fetchedAt": "2026-07-31T02:50:29.328Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2698420&cc=us&l=english",
+  "responseDigest": "sha256:7b49fbbc62abbc339130d839098754dec719e891a869fbd16624d0673bbf9d91",
+  "payload": {
+    "2698420": {
+      "success": true,
+      "data": {
+        "steam_appid": 2698420,
+        "name": "Restore Your Island",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 974,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 1538
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:509445252e734dfadbef64907c5cdf76b963f069f9d8cdf2d7a6d79d2ea83ec2"
+}

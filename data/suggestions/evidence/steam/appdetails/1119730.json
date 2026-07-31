@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1119730,
+  "fetchedAt": "2026-07-31T02:45:47.117Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1119730&cc=us&l=english",
+  "responseDigest": "sha256:e79acba0eb5e8b8f68668812ac216cb95dabf638b35ccd0cf518b85d0747bf2e",
+  "payload": {
+    "1119730": {
+      "success": true,
+      "data": {
+        "steam_appid": 1119730,
+        "name": "Ranch Simulator: Build, Hunt, Farm",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 3, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 39963
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1442a5f29c7ebab6b2de1f052551422c29f69e7529eb267bd55a77e394ee0677"
+}

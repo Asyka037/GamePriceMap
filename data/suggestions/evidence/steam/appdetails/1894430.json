@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1894430,
+  "fetchedAt": "2026-07-31T03:37:51.536Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1894430&cc=us&l=english",
+  "responseDigest": "sha256:10e4d67b214bcc3e2838a0bcebd23fdc0d3c38911119ab476ffb035ead67effc",
+  "payload": {
+    "1894430": {
+      "success": true,
+      "data": {
+        "steam_appid": 1894430,
+        "name": "Plan B: Terraform",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3469
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1e58b025e123d77d58cb8b5f98b90ffde8df1ee81b3728fa83eead00b38afa7b"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2695260,
+  "fetchedAt": "2026-07-31T03:17:21.365Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2695260&cc=us&l=english",
+  "responseDigest": "sha256:8070405708deadb37dc8311a71721d09b7aaeb05a518a9c855c96367879b7fc5",
+  "payload": {
+    "2695260": {
+      "success": true,
+      "data": {
+        "steam_appid": 2695260,
+        "name": "The Crimson Maid",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c9879b9c7cf82c106acc5a8b991b0ed1d94fadaa77b97fe4f6d99dfbda423ff6"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4037760,
+  "fetchedAt": "2026-07-31T03:20:34.367Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4037760&cc=us&l=english",
+  "responseDigest": "sha256:41f9b7bd48364a2c2f1419c75c2b4d8c2d215ecda95a890501f851b6b81ebb64",
+  "payload": {
+    "4037760": {
+      "success": true,
+      "data": {
+        "steam_appid": 4037760,
+        "name": "Warframe: Wukong Qitian Collection",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1049,
+          "discount_percent": 30
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4ee3093357c9a19c96902fd3fa9a6cfbbce292f8e2886cf097b0af20613f6f39"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3181650,
+  "fetchedAt": "2026-07-31T03:37:18.789Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3181650&cc=us&l=english",
+  "responseDigest": "sha256:a2c36ae45aa03e7a4dd15fad0b6c3c8a87f102f2b135bb09bf548c0e02a029e3",
+  "payload": {
+    "3181650": {
+      "success": true,
+      "data": {
+        "steam_appid": 3181650,
+        "name": "MINOS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1439,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 509
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48ae4c33a235a85acd083ad417ccfad209f438e985ad120bf31e467fa42674c6"
+}

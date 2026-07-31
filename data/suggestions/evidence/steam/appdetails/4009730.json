@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4009730,
+  "fetchedAt": "2026-07-31T03:20:03.176Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4009730&cc=us&l=english",
+  "responseDigest": "sha256:d47b63055500f342bdf3dd48aa12f94113365a33a0c7d522126e392656053b41",
+  "payload": {
+    "4009730": {
+      "success": true,
+      "data": {
+        "steam_appid": 4009730,
+        "name": "Feed the Reactor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 617
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7d04073d2fe4cf759def24f74786fc481048dabbccd9945482287a0299eea6ff"
+}

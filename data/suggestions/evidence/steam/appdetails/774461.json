@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 774461,
+  "fetchedAt": "2026-07-31T02:50:54.369Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=774461&cc=us&l=english",
+  "responseDigest": "sha256:2cae376c193b596646ffc351561b99044d1ffd7519279b9570b126200c727f05",
+  "payload": {
+    "774461": {
+      "success": true,
+      "data": {
+        "steam_appid": 774461,
+        "name": "The Jackbox Party Pack 5",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2175
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6b79da92fcf31927fc64fe77d2e1566c71fae26f12aa0e111cca04514802bcc7"
+}

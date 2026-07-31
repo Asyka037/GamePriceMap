@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1521580,
+  "fetchedAt": "2026-07-31T03:54:57.504Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1521580&cc=us&l=english",
+  "responseDigest": "sha256:f98dd9b5ac044dc70a6f6407687d6f213e8132e601caa6b5a6f49b1808ea87c1",
+  "payload": {
+    "1521580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1521580,
+        "name": "Perfect Heist 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3666
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6bf777351b7f9ee1ffbf5a07033a05b1f6fd518e3785b0d05a6ca63567546268"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1942110,
+  "fetchedAt": "2026-07-31T02:42:24.496Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1942110&cc=us&l=english",
+  "responseDigest": "sha256:d73fb8b09080862f35eb6e030bdda1a0dfaf6fa5e6ce52725641d9804ebe50f8",
+  "payload": {
+    "1942110": {
+      "success": true,
+      "data": {
+        "steam_appid": 1942110,
+        "name": "Bootstrap Island",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1298
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2677ef543265ae93184861d924c3b9d49383eefa63b9a7cfcbd0a0e129f25293"
+}

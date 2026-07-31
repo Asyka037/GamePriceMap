@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2827230,
+  "fetchedAt": "2026-07-31T03:21:14.586Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2827230&cc=us&l=english",
+  "responseDigest": "sha256:ddd562e06e3772f30f7b7a336e32d18f2bac9815fc7f07bb2a2d033e463c717e",
+  "payload": {
+    "2827230": {
+      "success": true,
+      "data": {
+        "steam_appid": 2827230,
+        "name": "Wild Assault",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 674,
+          "discount_percent": 55
+        },
+        "recommendations": {
+          "total": 3811
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c191d028c53439432e8b22f449ed7323982cb4ac5e1abe9cec3a65b8152e3b04"
+}

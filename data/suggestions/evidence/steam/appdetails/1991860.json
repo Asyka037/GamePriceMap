@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1991860,
+  "fetchedAt": "2026-07-31T04:08:54.661Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1991860&cc=us&l=english",
+  "responseDigest": "sha256:0bb4c07da1982382b23e68f50c7f3bb303045aa820fb7e337929c6c8bcfadd85",
+  "payload": {
+    "1991860": {
+      "success": true,
+      "data": {
+        "steam_appid": 1991860,
+        "name": "Force of Warships: Battleship Games",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 9, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:663f6fa16a51d8dbe66abf945a71a8207d6192e9283c4b526aff1ac21092486d"
+}

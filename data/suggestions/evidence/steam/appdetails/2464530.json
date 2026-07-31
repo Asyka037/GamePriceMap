@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2464530,
+  "fetchedAt": "2026-07-31T02:55:00.770Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2464530&cc=us&l=english",
+  "responseDigest": "sha256:61a2dc9ab27270779e89952a70434db3b51ac3f4adc1ce55d50094c00b675b73",
+  "payload": {
+    "2464530": {
+      "success": true,
+      "data": {
+        "steam_appid": 2464530,
+        "name": "VOIN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3138
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:67a3db64dd1a8838e9fd32cff3098c457250c4ccc34bcec6ea6940ad14ad99a5"
+}

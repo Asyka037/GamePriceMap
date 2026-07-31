@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1582650,
+  "fetchedAt": "2026-07-31T04:10:50.416Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1582650&cc=us&l=english",
+  "responseDigest": "sha256:fc090062e4a06e431e0bb1b557f727f76c874fabeeac37cb951b77329e65a584",
+  "payload": {
+    "1582650": {
+      "success": true,
+      "data": {
+        "steam_appid": 1582650,
+        "name": "Caravan SandWitch",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2696
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8238ed6785696ed8f2a99c31cc5a36f8992ba659e5a85d17f8c9aeea9b0021fa"
+}

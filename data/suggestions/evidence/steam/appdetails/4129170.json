@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4129170,
+  "fetchedAt": "2026-07-31T03:45:00.216Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4129170&cc=us&l=english",
+  "responseDigest": "sha256:4f4ec1db0f6e7d736780bd9a90df20b81a39f5a6ab06fe4931bcc8932b69200d",
+  "payload": {
+    "4129170": {
+      "success": true,
+      "data": {
+        "steam_appid": 4129170,
+        "name": "PAYDAY 3: Shopping Spree Heist",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 163
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a91ed9ab8805aa410c58bad770cea9dff628a904b5dbe4d2c4b36de2ca8ae2f1"
+}

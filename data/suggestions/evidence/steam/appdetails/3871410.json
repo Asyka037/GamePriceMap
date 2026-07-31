@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3871410,
+  "fetchedAt": "2026-07-31T03:18:54.958Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3871410&cc=us&l=english",
+  "responseDigest": "sha256:ec9709a6894f0115b6ed58d7b9c6158bb3501d6d7e9cf5dbaa9ccfd4ccafd36b",
+  "payload": {
+    "3871410": {
+      "success": true,
+      "data": {
+        "steam_appid": 3871410,
+        "name": "Warhammer 40,000: Space Marine 2 - Raptors Cosmetic Pack ",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a699d405da133704c1cb8e97fa7ba8e7867f5ec20752db77cda39e7346431883"
+}

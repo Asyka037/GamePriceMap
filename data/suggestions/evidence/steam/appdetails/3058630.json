@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3058630,
+  "fetchedAt": "2026-07-31T02:48:29.491Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3058630&cc=us&l=english",
+  "responseDigest": "sha256:f63a2779a62bfb93480149d6e2f85a0582dbc1226283dd5320a4b08b401420c3",
+  "payload": {
+    "3058630": {
+      "success": true,
+      "data": {
+        "steam_appid": 3058630,
+        "name": "Assetto Corsa EVO",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16168
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:43cf1eb23d260ac97ad45ecc50762fd15a3ee2d840bd8e76ea5eb012459024a5"
+}

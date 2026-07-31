@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2593340,
+  "fetchedAt": "2026-07-31T03:01:31.589Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2593340&cc=us&l=english",
+  "responseDigest": "sha256:daf53844863e5af6622a6a9495ee0c3fd1dea586efb928efa7dcbeda1682d76e",
+  "payload": {
+    "2593340": {
+      "success": true,
+      "data": {
+        "steam_appid": 2593340,
+        "name": "Wonderia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1259,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 151
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d815303efa7144e2aba45a45cdeebf342e8fe027239a0a8abc0189650c8d92a5"
+}

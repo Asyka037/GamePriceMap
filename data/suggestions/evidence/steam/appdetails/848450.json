@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 848450,
+  "fetchedAt": "2026-07-31T02:45:11.262Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=848450&cc=us&l=english",
+  "responseDigest": "sha256:6d8958707fb412cc86d339a8e3148f2dba1d3bb89be4c462a67959a7f2907871",
+  "payload": {
+    "848450": {
+      "success": true,
+      "data": {
+        "steam_appid": 848450,
+        "name": "Subnautica: Below Zero",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 13, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 98934
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1692e1a49c851a9bf981a0294b20cbf920f8eaf43166ee43af26a29518ea6c22"
+}

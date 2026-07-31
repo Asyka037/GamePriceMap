@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2463690,
+  "fetchedAt": "2026-07-31T04:02:54.375Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2463690&cc=us&l=english",
+  "responseDigest": "sha256:8692f9382e2b38286a14626fb1cd8698a03e44fecb7311067d1587f2c8a61f38",
+  "payload": {
+    "2463690": {
+      "success": true,
+      "data": {
+        "steam_appid": 2463690,
+        "name": "Strange Seed",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 5, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1049,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 412
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3a96c03b6788b9e1c890f2b4a01423138fa3779b7d733a6430deb69466f9ec7e"
+}

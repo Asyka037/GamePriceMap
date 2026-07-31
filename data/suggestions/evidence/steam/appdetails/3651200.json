@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3651200,
+  "fetchedAt": "2026-07-31T02:54:45.831Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3651200&cc=us&l=english",
+  "responseDigest": "sha256:ad21ac268dc571309530bc09ee8441f2b2549c6c66712ee404b9100958f2231b",
+  "payload": {
+    "3651200": {
+      "success": true,
+      "data": {
+        "steam_appid": 3651200,
+        "name": "Jurassic World Evolution 3: Deluxe Upgrade Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1699,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b7a3ad2308b8d736f310f4714dcf88c9a32d610bc59140a983250c43481cc2d8"
+}

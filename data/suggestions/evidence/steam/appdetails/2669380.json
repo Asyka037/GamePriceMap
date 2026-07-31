@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2669380,
+  "fetchedAt": "2026-07-31T02:49:07.864Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2669380&cc=us&l=english",
+  "responseDigest": "sha256:e5362fbcc0ec08fda95e8a35d738631fd48b5e45f7267b7cfee0557c012d4c07",
+  "payload": {
+    "2669380": {
+      "success": true,
+      "data": {
+        "steam_appid": 2669380,
+        "name": "BRUTALISTICK VR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 31, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1548
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f1792d8ae5c7226ec7c7511f5cb09afd024ee7ce0f1b9d6ea875ee53391a092a"
+}

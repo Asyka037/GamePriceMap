@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1608230,
+  "fetchedAt": "2026-07-31T04:10:07.312Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1608230&cc=us&l=english",
+  "responseDigest": "sha256:0a318a0a31257e1a1fb0286c62905b20330cb9b7e7ee01e777630cbcf1b828b3",
+  "payload": {
+    "1608230": {
+      "success": true,
+      "data": {
+        "steam_appid": 1608230,
+        "name": "Planet of Lana",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 9346
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5014473484c57f37fc1c0754c8912ad689b156b91cec7e279ba287f55db420bc"
+}

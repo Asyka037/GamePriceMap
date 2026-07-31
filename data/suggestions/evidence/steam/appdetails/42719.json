@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 42719,
+  "fetchedAt": "2026-07-31T02:47:07.171Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=42719&cc=us&l=english",
+  "responseDigest": "sha256:4318a873e4b2468e5b686f4cfc10726fa41578619dd757dab349adb0ef01838c",
+  "payload": {
+    "42719": {
+      "success": true,
+      "data": {
+        "steam_appid": 42719,
+        "name": "Call of Duty®: Black Ops - Rezurrection Content Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 22, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 441
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3e922de26cb8b857681929c84036d3a91852297e0b06868dba4b3d0d3d0550f1"
+}

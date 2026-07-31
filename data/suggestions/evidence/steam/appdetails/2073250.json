@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2073250,
+  "fetchedAt": "2026-07-31T02:52:23.946Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2073250&cc=us&l=english",
+  "responseDigest": "sha256:8dcf0fc1162b01ab3dabb863f010608f951868fb697ed12400ad04f9c398b368",
+  "payload": {
+    "2073250": {
+      "success": true,
+      "data": {
+        "steam_appid": 2073250,
+        "name": "Rift of the NecroDancer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 5, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 799,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 5645
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:385958388d8123052af60d39dab7ea931db87eaa797d9e708b441a347ffbb6ba"
+}

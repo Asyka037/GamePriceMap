@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 647830,
+  "fetchedAt": "2026-07-31T03:19:05.178Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=647830&cc=us&l=english",
+  "responseDigest": "sha256:5692571c026f1d48070e0bc3275e9cf9a488d9b9a0e4b89f157b9c4c08ceb9f7",
+  "payload": {
+    "647830": {
+      "success": true,
+      "data": {
+        "steam_appid": 647830,
+        "name": "LEGO® Marvel Super Heroes 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 7336
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:786d8b9064ffeabdb65c9201f5ff385de75b56405cf1d9f08d68662c26c25737"
+}

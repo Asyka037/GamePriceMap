@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 977880,
+  "fetchedAt": "2026-07-31T03:02:05.851Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=977880&cc=us&l=english",
+  "responseDigest": "sha256:75d5f85f49b8eefc6fa34dee968daee7d7d35c2bd317a9eff163a38534ef398e",
+  "payload": {
+    "977880": {
+      "success": true,
+      "data": {
+        "steam_appid": 977880,
+        "name": "Eastward",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 16, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 14384
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:02028ece756d7b2ec4c1b3dc9712c3ccfe2eac0edec2f361ec478610cb725a9a"
+}

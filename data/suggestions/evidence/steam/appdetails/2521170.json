@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2521170,
+  "fetchedAt": "2026-07-31T03:05:11.993Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2521170&cc=us&l=english",
+  "responseDigest": "sha256:1cd5e0d677496b20c88b366b900a6e647fc2af694fb7cd18a05f0c23a4b7399a",
+  "payload": {
+    "2521170": {
+      "success": true,
+      "data": {
+        "steam_appid": 2521170,
+        "name": "Looking For Fael",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:92450ff579c06a61589375e8446f8d336fc3fc5a4b23553476985a76f9152794"
+}

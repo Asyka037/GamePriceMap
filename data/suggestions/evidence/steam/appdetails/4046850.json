@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4046850,
+  "fetchedAt": "2026-07-31T04:15:20.209Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4046850&cc=us&l=english",
+  "responseDigest": "sha256:cb1fc93d720ef5d2af61b33480e5111dd2fd2124e6049e71556aca5155edfa94",
+  "payload": {
+    "4046850": {
+      "success": true,
+      "data": {
+        "steam_appid": 4046850,
+        "name": "ZEPHON - The Platinum & The Infinite",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:15efaab25e7654112d9055f3b8e5b9d5a02951fc9f58d579917f5030cddb3807"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1253990,
+  "fetchedAt": "2026-07-31T04:14:44.110Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1253990&cc=us&l=english",
+  "responseDigest": "sha256:17c9fc165c67b634226ec8f852591541641daf8b6291709ba542492fde0c53d1",
+  "payload": {
+    "1253990": {
+      "success": true,
+      "data": {
+        "steam_appid": 1253990,
+        "name": "Sid Meier's Civilization® VI: Maya & Gran Colombia Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 20, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 270
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b906dc4b1bac60dffc55a47a7189926f1376555103c0180174d3e1192083342d"
+}

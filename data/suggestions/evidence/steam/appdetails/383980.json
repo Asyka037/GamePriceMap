@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 383980,
+  "fetchedAt": "2026-07-31T02:45:24.868Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=383980&cc=us&l=english",
+  "responseDigest": "sha256:ea181bb1b6de8a76adabede8b2465d17c3bd606cbb968d104cb1537cef529c8c",
+  "payload": {
+    "383980": {
+      "success": true,
+      "data": {
+        "steam_appid": 383980,
+        "name": "Rivals of Aether",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 28, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 33117
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fc5a0af46b24ab68ce6a14cba2c4e48a5750ef45c9f1c1c2bd3cbeccaf242acb"
+}

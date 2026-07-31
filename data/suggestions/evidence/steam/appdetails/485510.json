@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 485510,
+  "fetchedAt": "2026-07-31T03:20:52.198Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=485510&cc=us&l=english",
+  "responseDigest": "sha256:f46e821983f870c50ed15b16e1992c8ed325925303226ab02e09abea8d40c12b",
+  "payload": {
+    "485510": {
+      "success": true,
+      "data": {
+        "steam_appid": 485510,
+        "name": "Nioh: Complete Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 749,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 29384
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d75e964cd7e87d78576a2a3d3ec7e1438ee3d6138b8a5e049fda617756a7ec1f"
+}

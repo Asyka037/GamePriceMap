@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4391870,
+  "fetchedAt": "2026-07-31T03:28:07.544Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4391870&cc=us&l=english",
+  "responseDigest": "sha256:cee2addfd9893402e8b5b972988826b657b0805d55402a06230e61acb59f3a52",
+  "payload": {
+    "4391870": {
+      "success": true,
+      "data": {
+        "steam_appid": 4391870,
+        "name": "Bounty Pro Pulling",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:896e75ae67da297e5cbeeac700228809e4f9908ace6115ad18557fa1cf7c1441"
+}

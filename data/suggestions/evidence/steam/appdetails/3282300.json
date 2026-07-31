@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3282300,
+  "fetchedAt": "2026-07-31T03:47:48.823Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3282300&cc=us&l=english",
+  "responseDigest": "sha256:8ca779e1236b32dae1a3f920eb347babef68931dff099bf6281331a67a66849f",
+  "payload": {
+    "3282300": {
+      "success": true,
+      "data": {
+        "steam_appid": 3282300,
+        "name": "Mistfall Hunter",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2249,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 2098
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d2c7beee376ee57acfba45a4ff6e3d51befd11ebe5715678d94df4221a4e760c"
+}

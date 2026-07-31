@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 411893,
+  "fetchedAt": "2026-07-31T03:16:27.532Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=411893&cc=us&l=english",
+  "responseDigest": "sha256:e3f57d536095773aec9e6aeb040f0ff45b57e3ae731b4b6de5b21c8c8ba3519b",
+  "payload": {
+    "411893": {
+      "success": true,
+      "data": {
+        "steam_appid": 411893,
+        "name": "DCS: F-14A/B Tomcat by Heatblur Simulations",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 7999,
+          "final": 7999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 781
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:03a9a9f87e25879a9d7203aa6776ef894a0619513d3e05701e09591b209b2861"
+}

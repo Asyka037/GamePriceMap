@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1651560,
+  "fetchedAt": "2026-07-31T02:52:18.052Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1651560&cc=us&l=english",
+  "responseDigest": "sha256:b705de4b4c521434985e73dba2d4cef1909fdfff1638d7cde671197e3ee8886d",
+  "payload": {
+    "1651560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1651560,
+        "name": "Fabledom",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 13, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2099,
+          "final": 2099,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6647
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:06e7599275c5cbd4c72d6f8f58701ad2cd95049605335817cd32c3f15c75be0a"
+}

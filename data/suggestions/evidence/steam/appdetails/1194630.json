@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1194630,
+  "fetchedAt": "2026-07-31T03:51:10.013Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1194630&cc=us&l=english",
+  "responseDigest": "sha256:2efcddb54fcbdaebef4d8b4fc375724b89b5df7f5717de31bb368da8f64e62e0",
+  "payload": {
+    "1194630": {
+      "success": true,
+      "data": {
+        "steam_appid": 1194630,
+        "name": "The Dark Pictures Anthology: Little Hope",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 29, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 7124
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0734285a3c8721dc079e97646702b7e9492887736f7c9ae5fb50053edda91989"
+}

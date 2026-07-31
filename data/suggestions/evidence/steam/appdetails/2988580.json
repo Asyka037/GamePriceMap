@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2988580,
+  "fetchedAt": "2026-07-31T02:54:03.069Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2988580&cc=us&l=english",
+  "responseDigest": "sha256:68f0ab26eb81018e9b97d7503d515ec6ad788eb0ac2936496ec85ce2a5aa2953",
+  "payload": {
+    "2988580": {
+      "success": true,
+      "data": {
+        "steam_appid": 2988580,
+        "name": "Yakuza 0 Director's Cut",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1434
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:532983c4ca0055b3febfbe33e89b4f5905ca5cfbc8e92fd8e2c2cc4ab1e44eb5"
+}

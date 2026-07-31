@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 223470,
+  "fetchedAt": "2026-07-31T03:10:46.065Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=223470&cc=us&l=english",
+  "responseDigest": "sha256:12013dac3c8994f4669a5e2d4dd1e756808bf5d9baf9a0f1c4fcb6e58a6598be",
+  "payload": {
+    "223470": {
+      "success": true,
+      "data": {
+        "steam_appid": 223470,
+        "name": "POSTAL 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 2, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 116315
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:355de25a2d6711151034ec606e4b06cd618311a4284e0a273a21016051ebdd8c"
+}

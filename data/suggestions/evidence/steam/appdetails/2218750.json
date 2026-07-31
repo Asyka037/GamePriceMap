@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2218750,
+  "fetchedAt": "2026-07-31T02:55:03.620Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2218750&cc=us&l=english",
+  "responseDigest": "sha256:ad8bad64e42a298f909d603b7d179fef79b30d90d7ef867356a04a029a274b04",
+  "payload": {
+    "2218750": {
+      "success": true,
+      "data": {
+        "steam_appid": 2218750,
+        "name": "Halls of Torment",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 666,
+          "final": 499,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 30583
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1111ff52b8b5d8f940d9895840e985e2f0f0e4127128ecc82382d1cf04f38a2c"
+}

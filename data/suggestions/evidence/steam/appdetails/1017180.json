@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1017180,
+  "fetchedAt": "2026-07-31T02:57:57.044Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1017180&cc=us&l=english",
+  "responseDigest": "sha256:cb890b77e928319aa5829477c586da180913832dd5d93e8e554dc7ce07e32c5f",
+  "payload": {
+    "1017180": {
+      "success": true,
+      "data": {
+        "steam_appid": 1017180,
+        "name": "The Long Drive",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 49802
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:700213a05ad66d698edce957bf265545338d4e8d6ecbdcd8168a19d3009fb25e"
+}

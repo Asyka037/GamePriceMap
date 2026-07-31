@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1314000,
+  "fetchedAt": "2026-07-31T03:15:17.386Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1314000&cc=us&l=english",
+  "responseDigest": "sha256:7fd1f995d3970ff12e26b5c970e4f2c45f044e45be70e5c7833ee60b42e0e8df",
+  "payload": {
+    "1314000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1314000,
+        "name": "Achilles: Legends Untold",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2086
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e245033bcf67d4af091709fdc2df5d60dff3b3befa08866dd15367ec684c1750"
+}

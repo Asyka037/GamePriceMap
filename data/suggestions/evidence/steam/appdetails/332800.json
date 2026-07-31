@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 332800,
+  "fetchedAt": "2026-07-31T02:44:51.894Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=332800&cc=us&l=english",
+  "responseDigest": "sha256:388f7c0b0de59621a279e8cf10a997b38b46137b9ffa8002b34e6056c7a73ac5",
+  "payload": {
+    "332800": {
+      "success": true,
+      "data": {
+        "steam_appid": 332800,
+        "name": "Five Nights at Freddy's 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23657
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0826866922748bf26ec763368354f79e9f2fc1de72d10c78bc3cedfb47aeb273"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3414580,
+  "fetchedAt": "2026-07-31T02:48:53.044Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3414580&cc=us&l=english",
+  "responseDigest": "sha256:5b9baaa63dd0aabb46c3f7030f39d4ec62763118566c7665cfe17fb3d6c80200",
+  "payload": {
+    "3414580": {
+      "success": true,
+      "data": {
+        "steam_appid": 3414580,
+        "name": "Forbidden Solitaire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1199,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 1942
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b45436dbcc556805fd16d2846db5805ec3861a6ae2d3dba3b3ea7888b0cb8a86"
+}

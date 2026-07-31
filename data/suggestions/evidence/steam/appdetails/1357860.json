@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1357860,
+  "fetchedAt": "2026-07-31T03:35:07.480Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1357860&cc=us&l=english",
+  "responseDigest": "sha256:096854b3911b09ddf14dbd2e6a19fe9f5db6002c7a386d7b9cfa159cc2da2d40",
+  "payload": {
+    "1357860": {
+      "success": true,
+      "data": {
+        "steam_appid": 1357860,
+        "name": "Fuga: Melodies of Steel",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1163
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:125e24dc76c7f33d283e3d83dd6bcda9626483af07304ad9a09109fa288761f8"
+}

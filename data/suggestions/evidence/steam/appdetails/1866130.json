@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1866130,
+  "fetchedAt": "2026-07-31T02:49:43.421Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1866130&cc=us&l=english",
+  "responseDigest": "sha256:036bfe46954a8a587df1f79e324fb93491b87d3a7b070cc4519949201ca50f45",
+  "payload": {
+    "1866130": {
+      "success": true,
+      "data": {
+        "steam_appid": 1866130,
+        "name": "Morbid Metal",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1349,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 1397
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:03d9ed35629b1a4d51fc7a2c9e74751bb95fe023ce9c19d5a1922b7c4914f5af"
+}

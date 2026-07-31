@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 389730,
+  "fetchedAt": "2026-07-31T03:03:52.642Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=389730&cc=us&l=english",
+  "responseDigest": "sha256:372cc105ffeca41854e3abb6cfda7fccd5b573be268988573c8fc0ec7c6a9b2b",
+  "payload": {
+    "389730": {
+      "success": true,
+      "data": {
+        "steam_appid": 389730,
+        "name": "TEKKEN 7",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 67845
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fba9cff18ff0b3c3b57683115c7a6428741d779c8c8ad875436ee4ae3fc6b0d6"
+}

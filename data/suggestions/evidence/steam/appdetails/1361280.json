@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1361280,
+  "fetchedAt": "2026-07-31T03:06:39.407Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1361280&cc=us&l=english",
+  "responseDigest": "sha256:1c9bceea5a113368f88404d75db63b68a056c87e3694cfa94351460242e19867",
+  "payload": {
+    "1361280": {
+      "success": true,
+      "data": {
+        "steam_appid": 1361280,
+        "name": "Battle Brothers - Blazing Deserts",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 13, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 298
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:73e3d1ef500183bf532cf0740b4d031ad49e2776689c70649d6275d2072d0f96"
+}

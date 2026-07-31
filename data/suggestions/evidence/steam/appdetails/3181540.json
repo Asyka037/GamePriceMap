@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3181540,
+  "fetchedAt": "2026-07-31T03:07:33.367Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3181540&cc=us&l=english",
+  "responseDigest": "sha256:b9d6ae252f90de8d559a2f958d123186b60069397946dad9ba505e6d344d777c",
+  "payload": {
+    "3181540": {
+      "success": true,
+      "data": {
+        "steam_appid": 3181540,
+        "name": "Age of Wonders 4: Archon Prophecy",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 136
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cdce346d4025f0c5a203c0ff40fee9a0dedf56c1797367d28dbcb43472fdd371"
+}

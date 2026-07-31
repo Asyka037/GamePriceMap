@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4120310,
+  "fetchedAt": "2026-07-31T03:20:56.688Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4120310&cc=us&l=english",
+  "responseDigest": "sha256:ba87d1f1e57bf5242408aca802440647fdf197c8dcb3730f4475e49b6d1e9e23",
+  "payload": {
+    "4120310": {
+      "success": true,
+      "data": {
+        "steam_appid": 4120310,
+        "name": "70s-style Robot Anime Geppy-X",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:28100c2622c50c6ba944a7e37348ca6573a2bc6d2c67893092dee9a08509af7a"
+}

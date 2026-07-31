@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2239710,
+  "fetchedAt": "2026-07-31T02:42:28.944Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2239710&cc=us&l=english",
+  "responseDigest": "sha256:1f9515f8d3dfd74ad4f064388f626928db538cfcdaf54290bf65d1e0766d3393",
+  "payload": {
+    "2239710": {
+      "success": true,
+      "data": {
+        "steam_appid": 2239710,
+        "name": "Into the Dead: Our Darkest Days",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8584
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4445851dde7a76909b208a5f509cf5bfb38c75e97ac2e00d2ad7466bbafdd247"
+}

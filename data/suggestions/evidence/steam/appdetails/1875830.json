@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1875830,
+  "fetchedAt": "2026-07-31T03:10:28.466Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1875830&cc=us&l=english",
+  "responseDigest": "sha256:851b265b01215f1e6c24859cc087138dc1bcfaad3ce9390805b247d80da8bc09",
+  "payload": {
+    "1875830": {
+      "success": true,
+      "data": {
+        "steam_appid": 1875830,
+        "name": "Shin Megami Tensei V: Vengeance",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 13, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7640
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:80d158fdcd6cff349f9f03120b9c5a2bb035fbda75511984504373f0de28c6b7"
+}

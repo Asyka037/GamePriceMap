@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2869680,
+  "fetchedAt": "2026-07-31T03:12:26.453Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2869680&cc=us&l=english",
+  "responseDigest": "sha256:bc4ee26d24c6e0e0c86b96d86e2416fead7166f08551f88764bc88e2216f78a7",
+  "payload": {
+    "2869680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2869680,
+        "name": "theHunter: Call of the Wild™ - Sundarpatan Nepal Hunting Reserve",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 599,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 477
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6123faf7620f58b9057622c1b8bb8d3daed8fdeb544628dd30b6819a9823995f"
+}

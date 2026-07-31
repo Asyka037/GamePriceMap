@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4517460,
+  "fetchedAt": "2026-07-31T03:04:49.337Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4517460&cc=us&l=english",
+  "responseDigest": "sha256:411e1c2553ced1e71ec501ea5a329248d7386996ad15c7accdcf7a11add07043",
+  "payload": {
+    "4517460": {
+      "success": true,
+      "data": {
+        "steam_appid": 4517460,
+        "name": "Total Football Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:804fcc2babd5ae59ae0efcd5b75a37a3b64a6f538706826beaf7a155b1e6cf2e"
+}

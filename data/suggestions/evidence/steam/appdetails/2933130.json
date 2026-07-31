@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2933130,
+  "fetchedAt": "2026-07-31T02:43:16.628Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2933130&cc=us&l=english",
+  "responseDigest": "sha256:6f3fb1c8b23691240172996e304715436fefbd315ec42f87d5919ff31fa45ef0",
+  "payload": {
+    "2933130": {
+      "success": true,
+      "data": {
+        "steam_appid": 2933130,
+        "name": "The Lord of the Rings: Return to Moria™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10119
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:22ddef026fe144a7a25d2f80be04b218a536ac834ac7b8de4602aff5f9ca6adf"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3701190,
+  "fetchedAt": "2026-07-31T03:34:05.058Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3701190&cc=us&l=english",
+  "responseDigest": "sha256:5855db90438aa80d74a2ea4668326f2450670c11faae73f7501de40ac3f9c7eb",
+  "payload": {
+    "3701190": {
+      "success": true,
+      "data": {
+        "steam_appid": 3701190,
+        "name": "Mycofall",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 679,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:db7fe014be50097995735cf4be2acca61708e66c91d9fa3e29f4d499952fc1ac"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1088790,
+  "fetchedAt": "2026-07-31T04:16:16.171Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1088790&cc=us&l=english",
+  "responseDigest": "sha256:2b1ff40dfdb4126b515dc99470b88849d1b33dd901f79e8213aa37a2225de055",
+  "payload": {
+    "1088790": {
+      "success": true,
+      "data": {
+        "steam_appid": 1088790,
+        "name": "Rebel Inc: Escalation",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 13, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6832
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ea484cf9c698e09152c1435aad58bfb58fc7b543c3af125190488b1efb1e4de2"
+}

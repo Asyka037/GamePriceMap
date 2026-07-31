@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3626760,
+  "fetchedAt": "2026-07-31T03:30:07.003Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3626760&cc=us&l=english",
+  "responseDigest": "sha256:157fabc154c49dd5bdfe5d2da1fba2c0cc4eddd8f851cb476e582be986347dc5",
+  "payload": {
+    "3626760": {
+      "success": true,
+      "data": {
+        "steam_appid": 3626760,
+        "name": "No Man's Home",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 226
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:61639d3ba6d1a166574d2ed48fafc1b888ac2aa2add758384336555c49b698f9"
+}

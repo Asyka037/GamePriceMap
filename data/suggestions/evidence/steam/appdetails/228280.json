@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 228280,
+  "fetchedAt": "2026-07-31T03:06:48.329Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=228280&cc=us&l=english",
+  "responseDigest": "sha256:14f79116877953bae05412101d6e5d907043917490f9386b867ea3a980595b63",
+  "payload": {
+    "228280": {
+      "success": true,
+      "data": {
+        "steam_appid": 228280,
+        "name": "Baldur's Gate: Enhanced Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 16, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15250
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c65132935e5c2e5b2326efd369589afafcafa434e679a2008c9d71350df0b855"
+}

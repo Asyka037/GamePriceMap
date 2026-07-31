@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4764930,
+  "fetchedAt": "2026-07-31T04:09:57.489Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4764930&cc=us&l=english",
+  "responseDigest": "sha256:defb476bb001d2efb97701e2734757b00d5bcf6c8e7c258722b233e7e62c528a",
+  "payload": {
+    "4764930": {
+      "success": true,
+      "data": {
+        "steam_appid": 4764930,
+        "name": "Master of Command - The Lion & Eagle",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1274,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a921b4f5324e80439ba8444807662ad9f10c954594193107d89e60b5043ee407"
+}

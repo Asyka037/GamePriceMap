@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3237520,
+  "fetchedAt": "2026-07-31T02:51:58.241Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3237520&cc=us&l=english",
+  "responseDigest": "sha256:6ef5e64b10016fddaa815bbfb50a67e1ff869098f46c5a57e6f71c2720232e73",
+  "payload": {
+    "3237520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3237520,
+        "name": "The Alters: Last Variable",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 411
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:54f32648dc443b37d4ba397a26634e044eca89683a1476fafa145bd2b00e57ca"
+}

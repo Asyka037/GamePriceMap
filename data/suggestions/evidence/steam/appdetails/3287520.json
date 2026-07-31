@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3287520,
+  "fetchedAt": "2026-07-31T03:19:38.153Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3287520&cc=us&l=english",
+  "responseDigest": "sha256:7a94749939f12aaceb82f3994b388e7f27ba9c2e4acd1c833766f76f761f5164",
+  "payload": {
+    "3287520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3287520,
+        "name": "NINJA GAIDEN 2 Black",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 2499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 3217
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6cba8e3c4a1fa80c869017ba410218d195abd4d5747a893edf1320a0aac6ea71"
+}

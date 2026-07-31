@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 312660,
+  "fetchedAt": "2026-07-31T04:05:55.461Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=312660&cc=us&l=english",
+  "responseDigest": "sha256:3f92972b861658459aed0d743c04442e7a1620b798dc35440718f4e6b6921052",
+  "payload": {
+    "312660": {
+      "success": true,
+      "data": {
+        "steam_appid": 312660,
+        "name": "Sniper Elite 4",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 13, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 53973
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:664aeae30891bd8c588368571257fb4580c1391be85cab55ad69e04463abbe36"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2926900,
+  "fetchedAt": "2026-07-31T03:12:27.880Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2926900&cc=us&l=english",
+  "responseDigest": "sha256:7585fc29cb95c8368093790191a3ff240fbc9cbd9df5146f661edae5d7902089",
+  "payload": {
+    "2926900": {
+      "success": true,
+      "data": {
+        "steam_appid": 2926900,
+        "name": "MAVRIX by Matt Jones",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 896
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1f43b98527e99266099f4679d7c9e0a52e7f770b628f2f34d10be8d301982c24"
+}

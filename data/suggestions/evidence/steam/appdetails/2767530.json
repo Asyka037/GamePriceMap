@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2767530,
+  "fetchedAt": "2026-07-31T03:54:47.632Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2767530&cc=us&l=english",
+  "responseDigest": "sha256:500ff3a94baa74be5135db00562764d63e23395d9bdd28cabe7bd89c87752f83",
+  "payload": {
+    "2767530": {
+      "success": true,
+      "data": {
+        "steam_appid": 2767530,
+        "name": "Wicked Seed",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1118
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ce1521a8098208f73477f562801ec892402d59e4ed43a2952516ab1cd940ddb9"
+}

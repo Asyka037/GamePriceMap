@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2878420,
+  "fetchedAt": "2026-07-31T03:17:17.001Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2878420&cc=us&l=english",
+  "responseDigest": "sha256:83e672f9ddebec3b0110c7a47a20c7bcb2d41fa2e056336a07b8b97aba4dd1d5",
+  "payload": {
+    "2878420": {
+      "success": true,
+      "data": {
+        "steam_appid": 2878420,
+        "name": "Old Market Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 3, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 599,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 4226
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d531da7ba209827cb270035542877e5042fae1e66f368f9890729e8e7de02d89"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2021910,
+  "fetchedAt": "2026-07-31T04:14:01.218Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2021910&cc=us&l=english",
+  "responseDigest": "sha256:18cd4e57fe17d1451706a39fcde3a66d6f2f263312fb6b9a9c790dcd14d7a611",
+  "payload": {
+    "2021910": {
+      "success": true,
+      "data": {
+        "steam_appid": 2021910,
+        "name": "FPS Chess",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c9c3439c7d0015e359d933c90e38fac14ff9ecaf9351ea9f7e12aec64eeb4481"
+}

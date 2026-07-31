@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1468720,
+  "fetchedAt": "2026-07-31T02:57:36.524Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1468720&cc=us&l=english",
+  "responseDigest": "sha256:8c22fdf72500a70f26eb44eeff6faad2b08e7433cea102c076cd09fbabbfca18",
+  "payload": {
+    "1468720": {
+      "success": true,
+      "data": {
+        "steam_appid": 1468720,
+        "name": "Ultimate Epic Battle Simulator 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7134
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:92893999b8046e2b2dd86fb9b8e8a7ac63e136d5b666f6fa950d9ce401af593c"
+}

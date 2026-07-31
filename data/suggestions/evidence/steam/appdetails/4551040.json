@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4551040,
+  "fetchedAt": "2026-07-31T02:44:12.653Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4551040&cc=us&l=english",
+  "responseDigest": "sha256:c7dbfe7864f171b0597bfe8214ecab6b8834744d16007aa60477a78b9800b74e",
+  "payload": {
+    "4551040": {
+      "success": true,
+      "data": {
+        "steam_appid": 4551040,
+        "name": "Animal Company",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 589
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:49f85a79bd40150dee8876037043b29a56dfe9922ef16990581082268da49903"
+}

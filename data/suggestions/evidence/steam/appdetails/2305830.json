@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2305830,
+  "fetchedAt": "2026-07-31T03:42:30.930Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2305830&cc=us&l=english",
+  "responseDigest": "sha256:4ff8e44d5719bb42c8521f50c4faa37b41413ac406537ab99e21b8132db2a1d5",
+  "payload": {
+    "2305830": {
+      "success": true,
+      "data": {
+        "steam_appid": 2305830,
+        "name": "Warhammer 40,000: Battlesector - Orks",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:44aaa973a7b80ecdb46673f8479ecf0c491240e818fff41c4c4fe98c4ef954c9"
+}

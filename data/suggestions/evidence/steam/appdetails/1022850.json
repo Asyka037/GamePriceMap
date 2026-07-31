@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1022850,
+  "fetchedAt": "2026-07-31T03:22:27.406Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1022850&cc=us&l=english",
+  "responseDigest": "sha256:238675306c40c772b4debcb2ef043a75353aea4bdae6be241cea443a92497c3c",
+  "payload": {
+    "1022850": {
+      "success": true,
+      "data": {
+        "steam_appid": 1022850,
+        "name": "Dark Deception Complete",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 29, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1560
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:95318c829090c3c4137cc0d0bd4437694dbcfad98f545bdb88bed5c0772ad595"
+}

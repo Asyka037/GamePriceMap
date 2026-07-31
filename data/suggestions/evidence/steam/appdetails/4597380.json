@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4597380,
+  "fetchedAt": "2026-07-31T03:16:24.482Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4597380&cc=us&l=english",
+  "responseDigest": "sha256:467ba7bced2660cf63f99a21f472e370030b11e6afa02ba706a8a3e15b6c2b98",
+  "payload": {
+    "4597380": {
+      "success": true,
+      "data": {
+        "steam_appid": 4597380,
+        "name": "Angel Essence",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 108
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8f01fe41513394843a99bd625b82045f80181c906bfbbe20c0f4e87e138ec7f4"
+}

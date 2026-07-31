@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3046600,
+  "fetchedAt": "2026-07-31T03:06:02.496Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3046600&cc=us&l=english",
+  "responseDigest": "sha256:09d246f5d737495468e6c86f0f80a4deb45b85e3e84ec8a2ba99d064b30cbd0f",
+  "payload": {
+    "3046600": {
+      "success": true,
+      "data": {
+        "steam_appid": 3046600,
+        "name": "Onimusha 2: Samurai's Destiny",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 607
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bbb4e813469667e830dc745079a3c2a644b8edd3e057a8cafd97c8cad40c5577"
+}

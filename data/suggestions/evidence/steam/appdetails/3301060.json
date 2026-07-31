@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3301060,
+  "fetchedAt": "2026-07-31T02:54:41.400Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3301060&cc=us&l=english",
+  "responseDigest": "sha256:a9b2c71f05d8dffc18f2f8b1fb20ba45e7686621fd181492d53bda9e07890b54",
+  "payload": {
+    "3301060": {
+      "success": true,
+      "data": {
+        "steam_appid": 3301060,
+        "name": "Desktop Mate",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 7, 2025"
+        },
+        "recommendations": {
+          "total": 162
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ecb1edd4a72404b2183fdd576218d21cd588a65ea12479dd3a3fa7a5cbc38096"
+}

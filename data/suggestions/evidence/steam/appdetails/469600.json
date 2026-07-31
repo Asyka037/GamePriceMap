@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 469600,
+  "fetchedAt": "2026-07-31T04:06:11.867Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=469600&cc=us&l=english",
+  "responseDigest": "sha256:fddb29ad5a8a6f5ba51047e624cc31b7f1d57ba503eb6af913e402b7ca3e6bc3",
+  "payload": {
+    "469600": {
+      "success": true,
+      "data": {
+        "steam_appid": 469600,
+        "name": "Legion TD 2 - Multiplayer Tower Defense",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 1, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12535
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8955ed2d12e1d93d711a4c020f636c6a8cb0a9bb26083db9d27847a1301837e7"
+}

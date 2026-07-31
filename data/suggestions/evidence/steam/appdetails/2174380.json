@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2174380,
+  "fetchedAt": "2026-07-31T04:06:24.974Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2174380&cc=us&l=english",
+  "responseDigest": "sha256:cf2109b4e4e299e6a3037cfaa9ff81aa7985c8f66bd1eaf8427f2bb8a7e48662",
+  "payload": {
+    "2174380": {
+      "success": true,
+      "data": {
+        "steam_appid": 2174380,
+        "name": "Call of the Elder Gods",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 273
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:556dbc042f275b6731164602cbaddfecfd32dd31c0bb0f124a1d8d8797bb3d3e"
+}

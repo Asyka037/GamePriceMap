@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4713340,
+  "fetchedAt": "2026-07-31T03:18:45.922Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4713340&cc=us&l=english",
+  "responseDigest": "sha256:f2c565b13acc2005c6f9c33d285b11006ccb5f21445ecbca08bcc17fadfff5e0",
+  "payload": {
+    "4713340": {
+      "success": true,
+      "data": {
+        "steam_appid": 4713340,
+        "name": "Terra Invicta - Dark Skies",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 899,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0fdece9006e39b74384bac6d0194a4f5dbc940ee2dbcc56326a5f4c7f7b19052"
+}

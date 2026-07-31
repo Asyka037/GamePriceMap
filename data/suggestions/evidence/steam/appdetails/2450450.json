@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2450450,
+  "fetchedAt": "2026-07-31T02:58:47.958Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2450450&cc=us&l=english",
+  "responseDigest": "sha256:bc36b481418a0800952b70f28e5386e5e902215defd1bd99f74bf7efdff8c917",
+  "payload": {
+    "2450450": {
+      "success": true,
+      "data": {
+        "steam_appid": 2450450,
+        "name": "MEGATON MUSASHI W: WIRED",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 682
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b2e5b486b13a3e5dc0252554999bb6ed4c8ee20a6814e05aa1ba14578c400594"
+}

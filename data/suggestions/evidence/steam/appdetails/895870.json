@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 895870,
+  "fetchedAt": "2026-07-31T02:52:40.191Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=895870&cc=us&l=english",
+  "responseDigest": "sha256:07861823d0afaa4ad7a6bfbd8eb5a8f4f72e3b751a75b0451a9ca0e9b8b9a5ea",
+  "payload": {
+    "895870": {
+      "success": true,
+      "data": {
+        "steam_appid": 895870,
+        "name": "Project Wingman",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 18203
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:508b33ed3d1b97a12912feebe75b85ac5fbb076e7e98efc0b8129e53d5e2f513"
+}

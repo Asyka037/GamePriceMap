@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1605220,
+  "fetchedAt": "2026-07-31T03:04:30.991Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1605220&cc=us&l=english",
+  "responseDigest": "sha256:13bc9bd52c74b93d80e42d24d515e1e8142bb947a40f82b4875c718c19c5052f",
+  "payload": {
+    "1605220": {
+      "success": true,
+      "data": {
+        "steam_appid": 1605220,
+        "name": "Dune: Spice Wars",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 14, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11504
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4c285032caa9ad65f97a9a7c81380c6d8230fc797d2dea10728ff22dfa82f263"
+}

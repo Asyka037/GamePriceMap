@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2760560,
+  "fetchedAt": "2026-07-31T03:42:14.537Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2760560&cc=us&l=english",
+  "responseDigest": "sha256:c88dac42fa488dbaa120b9b81992c627bc02de5f7c3598615c789feb54bbd394",
+  "payload": {
+    "2760560": {
+      "success": true,
+      "data": {
+        "steam_appid": 2760560,
+        "name": "Cthulhu: The Cosmic Abyss",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 3499,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 241
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:91aa0dc302723da47a6945ec32719e40451974430af8d004b2e034990d74b7c2"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3101040,
+  "fetchedAt": "2026-07-31T03:09:59.706Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3101040&cc=us&l=english",
+  "responseDigest": "sha256:f87fd301ffc8dc0f46fb35eb5970eaaa9361cf3b1ae2d2e6c12aaf48bab09767",
+  "payload": {
+    "3101040": {
+      "success": true,
+      "data": {
+        "steam_appid": 3101040,
+        "name": "Magical Girl Witch Trials",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 28944
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:714f9e32543ec97b387f6d34d8e33191c792187bfa56661f7fd609c32f0ba72e"
+}

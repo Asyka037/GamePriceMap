@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2138090,
+  "fetchedAt": "2026-07-31T04:00:22.708Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2138090&cc=us&l=english",
+  "responseDigest": "sha256:62ed00eac2f078e8b867d8a3e566c58d08d7a0cbf9ff8ed15a677bb781a64e7a",
+  "payload": {
+    "2138090": {
+      "success": true,
+      "data": {
+        "steam_appid": 2138090,
+        "name": "Atelier Marie Remake: The Alchemist of Salburg",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 12, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1999,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 314
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:daf8dffcb71b32a3d5617c64eb0dd9ed15276a0bd57f40748fb6f5318d40cf97"
+}

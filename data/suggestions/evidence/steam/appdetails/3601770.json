@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3601770,
+  "fetchedAt": "2026-07-31T04:09:07.986Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3601770&cc=us&l=english",
+  "responseDigest": "sha256:c51defbb4a8c3a62e3d0c74e1c9e15ce0957fb9aa39246d83a5e860520b71aa2",
+  "payload": {
+    "3601770": {
+      "success": true,
+      "data": {
+        "steam_appid": 3601770,
+        "name": "Space Engineers - Fieldwork Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:657b96159721b429d08148452c8f40207380efa09309ec15be8df7ea4348e719"
+}

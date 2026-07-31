@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1594940,
+  "fetchedAt": "2026-07-31T03:18:19.129Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1594940&cc=us&l=english",
+  "responseDigest": "sha256:659e0dc022302ef589081e60620488485513bd8ac8ed2a10d1e574b5ceee0f70",
+  "payload": {
+    "1594940": {
+      "success": true,
+      "data": {
+        "steam_appid": 1594940,
+        "name": "Little Witch in the Woods",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 14, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11473
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f59ec9888f13632cc7738453fbf18ffdb54dd3822a7768ed6078dec32c534607"
+}

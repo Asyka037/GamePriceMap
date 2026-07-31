@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3219180,
+  "fetchedAt": "2026-07-31T03:01:59.792Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3219180&cc=us&l=english",
+  "responseDigest": "sha256:8c0abbf428a51a6fc4f1f0e47e66c257b7c7ed0b5c6f8f97d268848907230381",
+  "payload": {
+    "3219180": {
+      "success": true,
+      "data": {
+        "steam_appid": 3219180,
+        "name": "Cursemark",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 519
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4e066be4649803e8893b0b5b1e63943d16c91d1d8fbbb883f04e8383ef95b8db"
+}

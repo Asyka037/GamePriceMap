@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 412020,
+  "fetchedAt": "2026-07-31T03:02:23.751Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=412020&cc=us&l=english",
+  "responseDigest": "sha256:2befc32a973f7b8d9e4d2afdbb42e932fc9da55678720256c8a2554ca021eeef",
+  "payload": {
+    "412020": {
+      "success": true,
+      "data": {
+        "steam_appid": 412020,
+        "name": "Metro Exodus",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 14, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 116231
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:abfa0798ffedaadb722a93682dcc21bd81ad916708c040b6284875dbf0c64e50"
+}

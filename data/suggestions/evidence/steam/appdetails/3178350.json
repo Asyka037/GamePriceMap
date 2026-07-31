@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3178350,
+  "fetchedAt": "2026-07-31T03:19:35.208Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3178350&cc=us&l=english",
+  "responseDigest": "sha256:9021a10dabf7d672fb8d2402c9d9eb3c4d4de90a5b63f64fc72337a3703bb02f",
+  "payload": {
+    "3178350": {
+      "success": true,
+      "data": {
+        "steam_appid": 3178350,
+        "name": "WARRIORS: Abyss",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 999,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 1961
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ee25b15d086ff7cb0e5235636f0e3e747157ef08b909f833124b5465f1d859c"
+}

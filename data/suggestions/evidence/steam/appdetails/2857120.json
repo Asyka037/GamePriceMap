@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2857120,
+  "fetchedAt": "2026-07-31T02:54:04.526Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2857120&cc=us&l=english",
+  "responseDigest": "sha256:2ea1a181e0a39b6da0f5a9a9bf25b44c17dcbe6e3662921ccc928dc83c8e38e3",
+  "payload": {
+    "2857120": {
+      "success": true,
+      "data": {
+        "steam_appid": 2857120,
+        "name": "Rain World: The Watcher",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3623
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:40103a453619046873833e69a5b406e1475673070a141734a6d9895511db5ff2"
+}

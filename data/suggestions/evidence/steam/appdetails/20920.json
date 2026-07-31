@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 20920,
+  "fetchedAt": "2026-07-31T03:19:06.674Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=20920&cc=us&l=english",
+  "responseDigest": "sha256:625f12e95538f2b66e3374c5dcd22fdb78efa0b7e3b0546ee2ea1d8fa6b412f8",
+  "payload": {
+    "20920": {
+      "success": true,
+      "data": {
+        "steam_appid": 20920,
+        "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 16, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 299,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 81304
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f7790daf678780bd04d924b04128eee94fcf4b19a7af805fdac1fc5a8002d85f"
+}

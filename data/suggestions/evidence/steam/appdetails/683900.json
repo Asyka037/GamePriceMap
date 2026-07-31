@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 683900,
+  "fetchedAt": "2026-07-31T03:12:36.661Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=683900&cc=us&l=english",
+  "responseDigest": "sha256:8ef58532a1e593c5eaa0e3c4272cc3bd625f0183cee336f90dbdb0f80f3010cc",
+  "payload": {
+    "683900": {
+      "success": true,
+      "data": {
+        "steam_appid": 683900,
+        "name": "RollerCoaster Tycoon® Classic",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 28, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2622
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e954ec9dd9e58469670a20a5edd872a82ffe830e37af94cb3aff3dce564f9a03"
+}

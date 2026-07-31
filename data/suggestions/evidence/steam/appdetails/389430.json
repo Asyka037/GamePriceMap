@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 389430,
+  "fetchedAt": "2026-07-31T03:52:09.222Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=389430&cc=us&l=english",
+  "responseDigest": "sha256:80938ba2ef8299f526e18bffef59e85f1ed1ac0081302c2e0d6ff5ff50550bf7",
+  "payload": {
+    "389430": {
+      "success": true,
+      "data": {
+        "steam_appid": 389430,
+        "name": "Knight Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 25, 2016"
+        },
+        "recommendations": {
+          "total": 110
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f3e369c137226fc4af1a4d953c38e1a9ff4a0991ee757f55e713aaaf791a7708"
+}

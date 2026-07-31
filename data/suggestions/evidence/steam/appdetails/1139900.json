@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1139900,
+  "fetchedAt": "2026-07-31T03:21:36.812Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1139900&cc=us&l=english",
+  "responseDigest": "sha256:b62f2770e22337e0d3a488fc0d7480e70c866e887f7e6a2c61b2f6093c662999",
+  "payload": {
+    "1139900": {
+      "success": true,
+      "data": {
+        "steam_appid": 1139900,
+        "name": "Ghostrunner",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 46582
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fd2080a91c62e06517ed0b728be65d380426054e0322697f544f335805bd0a43"
+}

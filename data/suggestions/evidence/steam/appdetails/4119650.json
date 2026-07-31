@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4119650,
+  "fetchedAt": "2026-07-31T03:15:29.132Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4119650&cc=us&l=english",
+  "responseDigest": "sha256:13e2f8d925f74ad97802c137868fe4fda95394d55e9551393c8fe847856e3f2c",
+  "payload": {
+    "4119650": {
+      "success": true,
+      "data": {
+        "steam_appid": 4119650,
+        "name": "Animal Shelter 2 - Little Friends DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 575,
+          "discount_percent": 28
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1467985046a79db412a0e04448b2710050b23f7cda3a9ec0a017c8fd4e35594d"
+}

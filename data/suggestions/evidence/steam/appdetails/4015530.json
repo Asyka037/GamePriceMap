@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4015530,
+  "fetchedAt": "2026-07-31T03:09:30.292Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4015530&cc=us&l=english",
+  "responseDigest": "sha256:83b4f16700c118e994ffa8c018526f819bfb902a53bc9602ab2c47b2a299b384",
+  "payload": {
+    "4015530": {
+      "success": true,
+      "data": {
+        "steam_appid": 4015530,
+        "name": "MyVoiceZoo",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3206
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c30d0c07b91eaa0368b30ffea306edd3212fbfa2380a318dd99c37f68dd14b4e"
+}

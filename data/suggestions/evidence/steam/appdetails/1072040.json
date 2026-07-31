@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1072040,
+  "fetchedAt": "2026-07-31T03:04:05.891Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1072040&cc=us&l=english",
+  "responseDigest": "sha256:da068ed30e7c6a1e634820d3ec705e5f2571ba251dac76aab66610d3b20079b8",
+  "payload": {
+    "1072040": {
+      "success": true,
+      "data": {
+        "steam_appid": 1072040,
+        "name": "Panzer Corps 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 19, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3492
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8d7d25245308a2d11c51014326420c0ca438c780e1ac88712d467edb1f5b3908"
+}

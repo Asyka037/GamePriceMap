@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3830,
+  "fetchedAt": "2026-07-31T03:31:20.077Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3830&cc=us&l=english",
+  "responseDigest": "sha256:f25960981e379e978ce3969e9421022bb0c0830e1e90b4203863ea5130ffe462",
+  "payload": {
+    "3830": {
+      "success": true,
+      "data": {
+        "steam_appid": 3830,
+        "name": "Psychonauts",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 11, 2006"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 99,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 12184
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:42cae7bbeb47c445866d2ae43408325f9bd4a7f4a595d388e6d11498060311f6"
+}

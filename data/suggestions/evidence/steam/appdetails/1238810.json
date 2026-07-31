@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1238810,
+  "fetchedAt": "2026-07-31T04:01:25.295Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1238810&cc=us&l=english",
+  "responseDigest": "sha256:3581594bc26868f70743b890c46ec193294fdbcf79517028f43b410a66a5ecaa",
+  "payload": {
+    "1238810": {
+      "success": true,
+      "data": {
+        "steam_appid": 1238810,
+        "name": "Battlefield™ V",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 499,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 235397
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a0ff5ac599ee49fd357d248bace7148d33dc26437c10f9c805540bcf9308d74a"
+}

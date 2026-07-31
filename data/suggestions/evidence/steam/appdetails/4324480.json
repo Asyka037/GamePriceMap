@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4324480,
+  "fetchedAt": "2026-07-31T03:00:33.683Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4324480&cc=us&l=english",
+  "responseDigest": "sha256:29d8691bc38549cc14511bf15e9dfdc0ba2acd0d472f84ebf59c604bcceaae05",
+  "payload": {
+    "4324480": {
+      "success": true,
+      "data": {
+        "steam_appid": 4324480,
+        "name": "Dirty Business",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 524
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:efd85a4e84217ea953d48d9e1a63629fc5eb230066a14400ada696237fb3ab80"
+}

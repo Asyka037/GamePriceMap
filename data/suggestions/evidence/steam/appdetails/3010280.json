@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3010280,
+  "fetchedAt": "2026-07-31T03:48:58.118Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3010280&cc=us&l=english",
+  "responseDigest": "sha256:bfe1f59dbb20a41b53de64c0393282b6c7af300887d6ace18cba7e3a6ea29506",
+  "payload": {
+    "3010280": {
+      "success": true,
+      "data": {
+        "steam_appid": 3010280,
+        "name": "Powerplay",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1899,
+          "final": 1614,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:754235c01a119461d50d6932d9c4d285b3beae55ef63b7a51ef69bba06aaea2f"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 544730,
+  "fetchedAt": "2026-07-31T03:40:58.864Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=544730&cc=us&l=english",
+  "responseDigest": "sha256:de5fea552438f2f63ac13656ba5a977ceceb9e1aa5e084b649ccb42b39aec3ad",
+  "payload": {
+    "544730": {
+      "success": true,
+      "data": {
+        "steam_appid": 544730,
+        "name": "Catan Universe",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 25, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dc5da474eae835a3583cf062932e2928b2c7ad7dc66be0aeab430c051dd76d45"
+}

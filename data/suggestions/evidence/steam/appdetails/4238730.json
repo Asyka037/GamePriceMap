@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4238730,
+  "fetchedAt": "2026-07-31T03:54:40.907Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4238730&cc=us&l=english",
+  "responseDigest": "sha256:2fd114a02f351644225d5208d05534bc90e2825cfbc854dbf1e84336ca186fec",
+  "payload": {
+    "4238730": {
+      "success": true,
+      "data": {
+        "steam_appid": 4238730,
+        "name": "Caribbean Legend: Age of Pirates - Supporter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5259dd816503f1c6a9653a0ec87bed9d08dcac6e5df090225a57d27c83e50d11"
+}

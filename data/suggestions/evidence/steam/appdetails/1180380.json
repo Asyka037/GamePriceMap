@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1180380,
+  "fetchedAt": "2026-07-31T04:06:52.908Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1180380&cc=us&l=english",
+  "responseDigest": "sha256:b0961995ad0d4e86b855a30a8d891b0f238f41be95c4a264221a90912d76910c",
+  "payload": {
+    "1180380": {
+      "success": true,
+      "data": {
+        "steam_appid": 1180380,
+        "name": "Stay Out",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 27, 2019"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8a6adff7d4df99597c0c4ee641a7ac6daaa2a2df51574092ed78b9620352bf4c"
+}

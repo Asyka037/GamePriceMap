@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2201940,
+  "fetchedAt": "2026-07-31T04:16:06.320Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2201940&cc=us&l=english",
+  "responseDigest": "sha256:bfe73d78ea04d0da34b0d5210a589d4353790cb1220aa5eef632cdba50a79355",
+  "payload": {
+    "2201940": {
+      "success": true,
+      "data": {
+        "steam_appid": 2201940,
+        "name": "Ship Graveyard Simulator 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 16, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3564
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:acc73e6ffbb224cc0ccd5380350b9cdc59ee762f5d1762f0c34f7caebe603ca0"
+}

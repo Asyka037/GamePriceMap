@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1235732,
+  "fetchedAt": "2026-07-31T02:57:54.019Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1235732&cc=us&l=english",
+  "responseDigest": "sha256:3db7f397c2345397e81c430743ee564a1b308d70cc338543a28c7c9bf217e0a5",
+  "payload": {
+    "1235732": {
+      "success": true,
+      "data": {
+        "steam_appid": 1235732,
+        "name": "The Sims™ 4 Get Together",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 139
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c436f3d94a2519163dd04ae8bec7f699833f8c4c57d785e9ff26dc02f9eab337"
+}

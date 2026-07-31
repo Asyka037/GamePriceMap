@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2495450,
+  "fetchedAt": "2026-07-31T04:03:04.217Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2495450&cc=us&l=english",
+  "responseDigest": "sha256:9cb2eb2eecd91107f2ff33cd0aae45f80c85150c714f03c6ae2c33262180a3ac",
+  "payload": {
+    "2495450": {
+      "success": true,
+      "data": {
+        "steam_appid": 2495450,
+        "name": "Winter Memories",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10250
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:828ab90c1ea46fa1853032f0c336a346a10edaf75243fdb5ab787e18f6b51ebf"
+}

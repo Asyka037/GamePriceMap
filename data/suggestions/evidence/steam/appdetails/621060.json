@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 621060,
+  "fetchedAt": "2026-07-31T03:10:38.680Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=621060&cc=us&l=english",
+  "responseDigest": "sha256:09b7183968021682fc45cab332f7374eae4dfdf9b8cc8136022f597d17cd119b",
+  "payload": {
+    "621060": {
+      "success": true,
+      "data": {
+        "steam_appid": 621060,
+        "name": "PC Building Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 29, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 42097
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a04927e5b19b5d49ddd44f062020c4649bfb1c59c2f3f07487ba430e8419a047"
+}

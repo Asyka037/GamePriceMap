@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2913610,
+  "fetchedAt": "2026-07-31T03:38:47.358Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2913610&cc=us&l=english",
+  "responseDigest": "sha256:5fb9747d99b4d66b8997bf088f6fad73e7fa984529abadb744e02df0cb605c20",
+  "payload": {
+    "2913610": {
+      "success": true,
+      "data": {
+        "steam_appid": 2913610,
+        "name": "What Awaits, Aleksey?",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:43e6f7b49971eeec233d38df9ea335ca449ac9e6354f24d3481752c62a9bb1f4"
+}

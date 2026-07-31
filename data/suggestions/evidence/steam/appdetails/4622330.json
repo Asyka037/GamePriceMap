@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4622330,
+  "fetchedAt": "2026-07-31T03:09:05.035Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4622330&cc=us&l=english",
+  "responseDigest": "sha256:0ecfbf4518f4ac2136ee4f44158c494d050d08263bf7e2815b6bada1e1711b0a",
+  "payload": {
+    "4622330": {
+      "success": true,
+      "data": {
+        "steam_appid": 4622330,
+        "name": "CD Market - Music Label Sim",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1499,
+          "discount_percent": 25
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:be6c3f439a10240fb4823e7ced2fee71e4143250178dfdf3bf3161c377b57f92"
+}

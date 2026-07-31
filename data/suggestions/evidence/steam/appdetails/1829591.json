@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1829591,
+  "fetchedAt": "2026-07-31T03:09:49.472Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1829591&cc=us&l=english",
+  "responseDigest": "sha256:2eeb254f7397f7bb95dac662511355d3a4d16e95dbf4335694020adee2b11a02",
+  "payload": {
+    "1829591": {
+      "success": true,
+      "data": {
+        "steam_appid": 1829591,
+        "name": "HITMAN 3 - Deluxe Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 423
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9f96843160bf243170736a7076de0bf709beb226b1536580ad83c3987ebc11db"
+}

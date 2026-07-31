@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2951690,
+  "fetchedAt": "2026-07-31T02:51:47.831Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2951690&cc=us&l=english",
+  "responseDigest": "sha256:9dc5bbc72e7bebd05f07ba4fc9b71da73535131f3d00a57670372c8d0b217d2f",
+  "payload": {
+    "2951690": {
+      "success": true,
+      "data": {
+        "steam_appid": 2951690,
+        "name": "Sonic Rumble Party",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 5, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b768c04228e8e8a6f445f8da10740d590435d38ae7496f28ea44fb811936b2d4"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1208170,
+  "fetchedAt": "2026-07-31T03:33:45.395Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1208170&cc=us&l=english",
+  "responseDigest": "sha256:c2cc6589a81219eb5079fd01f6998fff0cf392f7182af4f3605c925f54def227",
+  "payload": {
+    "1208170": {
+      "success": true,
+      "data": {
+        "steam_appid": 1208170,
+        "name": "Samurai: Ronin's Path",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 449,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f95013fc45f82fe5744fb0aa2c084a9b986d42bb73fd94a8cfdc2fb4a5831f9a"
+}

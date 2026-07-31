@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 12140,
+  "fetchedAt": "2026-07-31T03:28:00.886Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=12140&cc=us&l=english",
+  "responseDigest": "sha256:0071be78d202aac009180616b508487d7ad9f5c9915b4de02e8df4c2e20c85a8",
+  "payload": {
+    "12140": {
+      "success": true,
+      "data": {
+        "steam_appid": 12140,
+        "name": "Max Payne",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 6, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12647
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:882e7a896e118df82560d5f5b558646a8b1ab805c87e0a9929fd80f2fc0a8509"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 527430,
+  "fetchedAt": "2026-07-31T04:15:16.929Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=527430&cc=us&l=english",
+  "responseDigest": "sha256:bdc53891f561961f639372ef70f53632d85fab04ce58b20721bd314efb435513",
+  "payload": {
+    "527430": {
+      "success": true,
+      "data": {
+        "steam_appid": 527430,
+        "name": "Warhammer 40,000: Inquisitor - Martyr",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 5, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19456
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:868e8178304f90fae3d01f8d5e4d77a034fa440b50edef6eb42117a56835a48c"
+}

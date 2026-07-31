@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3549020,
+  "fetchedAt": "2026-07-31T03:11:11.259Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3549020&cc=us&l=english",
+  "responseDigest": "sha256:17767b6f8fce2c361436d1e2cc6036872894a4e3ff78122d92ca09b22604e173",
+  "payload": {
+    "3549020": {
+      "success": true,
+      "data": {
+        "steam_appid": 3549020,
+        "name": "Caribbean Legend: Age of Pirates",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1339,
+          "discount_percent": 33
+        },
+        "recommendations": {
+          "total": 616
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:db8d3d4993384a146c326ade27001f8d9a18cc5f0f60e217434aadeb09fc0d7d"
+}

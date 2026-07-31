@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1606340,
+  "fetchedAt": "2026-07-31T03:16:48.321Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1606340&cc=us&l=english",
+  "responseDigest": "sha256:30f33959baa2c470eebf53b6adbba72ee6e46af9786ebcdbcd00db7ea5d95954",
+  "payload": {
+    "1606340": {
+      "success": true,
+      "data": {
+        "steam_appid": 1606340,
+        "name": "Conquest of Elysium 5",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 17, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1768
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7164b4a521fca31589af83adea8d5016d129916cc2716ceba594457df44a9fc3"
+}

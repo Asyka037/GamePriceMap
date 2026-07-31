@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1476200,
+  "fetchedAt": "2026-07-31T02:58:25.737Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1476200&cc=us&l=english",
+  "responseDigest": "sha256:f947cf26ddb5557109c2839c1cdfd83449adcf88c4840ef493ac9ebae2ee4c19",
+  "payload": {
+    "1476200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1476200,
+        "name": "Project: Gorgon VIP Membership",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ee963e0670d7f1723f59e54749248ac893ec0c38d9576af9df453f568bf0f245"
+}

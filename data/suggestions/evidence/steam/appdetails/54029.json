@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 54029,
+  "fetchedAt": "2026-07-31T04:17:18.855Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=54029&cc=us&l=english",
+  "responseDigest": "sha256:01593567fb3ad70128f6fe914e699643e2b98e150b7c22788c537ccda9dd5ac8",
+  "payload": {
+    "54029": {
+      "success": false
+    }
+  },
+  "documentDigest": "sha256:3667d7bdb1018eb062e219887777a7f4f17e5fb2e63f257943a309729eb8e97a"
+}

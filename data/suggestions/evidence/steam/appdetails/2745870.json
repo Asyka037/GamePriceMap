@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2745870,
+  "fetchedAt": "2026-07-31T03:39:20.242Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2745870&cc=us&l=english",
+  "responseDigest": "sha256:fb1c77b1dacb8bc2a720e1653fa28a1f71d2ed442c3008154addfae3cb772e3e",
+  "payload": {
+    "2745870": {
+      "success": true,
+      "data": {
+        "steam_appid": 2745870,
+        "name": "Warfare Legacy Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1016
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fd82f01e472fd79e202e20cc048f0616f333ab2d9067cc6b78a1067702c633eb"
+}

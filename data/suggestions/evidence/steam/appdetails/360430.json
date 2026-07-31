@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 360430,
+  "fetchedAt": "2026-07-31T04:04:03.496Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=360430&cc=us&l=english",
+  "responseDigest": "sha256:274336a69d873cf4f2eb5427c4066ac2499aaea691376d1bb1d394f9107c0703",
+  "payload": {
+    "360430": {
+      "success": true,
+      "data": {
+        "steam_appid": 360430,
+        "name": "Mafia III: Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 19, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 41025
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f52c1f50e8836e254a58c63c1d362d7c2f150aa31937c7bfcac7d1c64afe3c92"
+}

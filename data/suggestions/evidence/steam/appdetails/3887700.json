@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3887700,
+  "fetchedAt": "2026-07-31T03:46:03.387Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3887700&cc=us&l=english",
+  "responseDigest": "sha256:2a24f6b42c0bae203890842458e82b47c89547c0c70298dbaf6697f11edcb55d",
+  "payload": {
+    "3887700": {
+      "success": true,
+      "data": {
+        "steam_appid": 3887700,
+        "name": "Girls' Frontline",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 18, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7bb379f42a647322c59a73ec1a5e43e37e09fb7093f03915fa1f51a80e34cbeb"
+}

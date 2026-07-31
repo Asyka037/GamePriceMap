@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2396200,
+  "fetchedAt": "2026-07-31T03:37:58.057Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2396200&cc=us&l=english",
+  "responseDigest": "sha256:aa24a3226c8096df06e25155c2b4684d77587d1c0143ec1c58275f35fd4c632e",
+  "payload": {
+    "2396200": {
+      "success": true,
+      "data": {
+        "steam_appid": 2396200,
+        "name": "Letalis",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:815c5e6e6eeb3a634c810bb0151b515006a4587e4f1532c63c16de9ea6a2c8eb"
+}

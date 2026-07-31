@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1042550,
+  "fetchedAt": "2026-07-31T03:01:18.359Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1042550&cc=us&l=english",
+  "responseDigest": "sha256:9c6cdabd149d17c90323f7130a9cfaf9d822e67fefe74ad2224b85be3b28a170",
+  "payload": {
+    "1042550": {
+      "success": true,
+      "data": {
+        "steam_appid": 1042550,
+        "name": "Digimon Story Cyber Sleuth: Complete Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10662
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e3403370f1c56c2f4a59b2c5c5b3038caf8266c50d8d5c56259d56e0d512d2b"
+}

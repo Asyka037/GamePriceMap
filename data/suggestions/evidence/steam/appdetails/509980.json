@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 509980,
+  "fetchedAt": "2026-07-31T02:42:34.918Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=509980&cc=us&l=english",
+  "responseDigest": "sha256:3f1a43d628400a2855e0ecdc773b14d1e67563966bc9deca2d32a83378e50e34",
+  "payload": {
+    "509980": {
+      "success": true,
+      "data": {
+        "steam_appid": 509980,
+        "name": "BIGFOOT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 31, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17711
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5bdddd5248f2a5ca35994a9025c171872f87c6bd3624e6d027056bac99b1082e"
+}

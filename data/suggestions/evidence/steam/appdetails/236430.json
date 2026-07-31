@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 236430,
+  "fetchedAt": "2026-07-31T03:47:42.338Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=236430&cc=us&l=english",
+  "responseDigest": "sha256:2de49499c48b80429f5ee1d5e8cb0912157399acfd5c375014000a1fbf83a309",
+  "payload": {
+    "236430": {
+      "success": true,
+      "data": {
+        "steam_appid": 236430,
+        "name": "DARK SOULS™ II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 25, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 33157
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7e08d8e71a933ea386562330d3fda1d7f9ac66ff983d6a7abbcdd51062ec93f6"
+}

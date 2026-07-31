@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 503940,
+  "fetchedAt": "2026-07-31T03:10:16.656Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=503940&cc=us&l=english",
+  "responseDigest": "sha256:efdeed2ecee254d6674111d0d494f7053f994070aa9a757024c8c01fbfcd5de1",
+  "payload": {
+    "503940": {
+      "success": true,
+      "data": {
+        "steam_appid": 503940,
+        "name": "Railway Empire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 26, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7201
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c13ce616696ea787ca44e1af18f5be3684f9144e64561ea39d065b4c56b5de04"
+}

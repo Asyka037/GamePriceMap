@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2272900,
+  "fetchedAt": "2026-07-31T03:15:46.793Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2272900&cc=us&l=english",
+  "responseDigest": "sha256:845060cb72319cf9f9f91f71e94c64dde9ac981ed36e2fb9bc295b21855b4308",
+  "payload": {
+    "2272900": {
+      "success": true,
+      "data": {
+        "steam_appid": 2272900,
+        "name": "Mirthwood",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1749,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 2219
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:863886e90acb3c47d00800a21f49bde92c5d224e6b395274cdadb7b29147e669"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3276050,
+  "fetchedAt": "2026-07-31T02:43:10.613Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3276050&cc=us&l=english",
+  "responseDigest": "sha256:b98a9f7ff1b361a1cf71c96f37202468b42fd7f677426d16b0dc77c5c6712c0c",
+  "payload": {
+    "3276050": {
+      "success": true,
+      "data": {
+        "steam_appid": 3276050,
+        "name": "SpaceCraft",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2420
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f19198ccee8da9b177ae41b27961bb0c16ab6034ff9e638538f7fa652e67abe7"
+}

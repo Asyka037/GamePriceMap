@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3966020,
+  "fetchedAt": "2026-07-31T03:06:24.597Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3966020&cc=us&l=english",
+  "responseDigest": "sha256:00f03654b4b851232f6eb7e7e610f7a2a7521af11d4ac81f85b10ffd3b15c527",
+  "payload": {
+    "3966020": {
+      "success": true,
+      "data": {
+        "steam_appid": 3966020,
+        "name": "Soulmask: Shifting Sands",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1799,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 359
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:07c5b4db53d4151eac6da553885dfa5cdb7d5391dae48de0e61832a2708f0ceb"
+}

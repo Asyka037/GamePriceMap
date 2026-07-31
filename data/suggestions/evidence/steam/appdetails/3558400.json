@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3558400,
+  "fetchedAt": "2026-07-31T03:39:52.946Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3558400&cc=us&l=english",
+  "responseDigest": "sha256:214d515c19fc75c9bda31065a4dbd6be3a4838870097e338e16dbbab3c6d9ca3",
+  "payload": {
+    "3558400": {
+      "success": true,
+      "data": {
+        "steam_appid": 3558400,
+        "name": "Backseat Drivers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 664
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:af7c5fd0b1bc5d921d704d8546d8bad196115d3e293f635e3b2306f45e9dfb34"
+}

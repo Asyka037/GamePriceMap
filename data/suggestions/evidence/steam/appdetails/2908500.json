@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2908500,
+  "fetchedAt": "2026-07-31T03:17:49.481Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2908500&cc=us&l=english",
+  "responseDigest": "sha256:d1470ad52646ee421388fbc4fe1a6950b9c4fef235ee37f59aaeab3f5fcb6128",
+  "payload": {
+    "2908500": {
+      "success": true,
+      "data": {
+        "steam_appid": 2908500,
+        "name": "Buggos 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 658
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed5b31f3985d2ac35bc1936925cfd6c3e4d325e70315ab15862b6654e4273228"
+}

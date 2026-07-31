@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3915680,
+  "fetchedAt": "2026-07-31T03:46:39.578Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3915680&cc=us&l=english",
+  "responseDigest": "sha256:c7b60b0b11eb89808d61abbc22386d80890e5b170f0574e8c3e5a00e566b1cca",
+  "payload": {
+    "3915680": {
+      "success": true,
+      "data": {
+        "steam_appid": 3915680,
+        "name": "Trailmakers - Frozen Tracks",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1004,
+          "discount_percent": 33
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8b47195d857a8c7d1bd08da6eb052223b7c97ef3ebd5663a6215d36612dc2360"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1150640,
+  "fetchedAt": "2026-07-31T03:02:45.982Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1150640&cc=us&l=english",
+  "responseDigest": "sha256:74a96cc2ba81af61ab5ad39532faf97b1fd2e4613418e76125e905c4e0834ce7",
+  "payload": {
+    "1150640": {
+      "success": true,
+      "data": {
+        "steam_appid": 1150640,
+        "name": "Yu-Gi-Oh! Legacy of the Duelist : Link Evolution",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 24, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3852
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:568dfb577141b41fba2ed1667589de372b388534d2755d1808502341403063fa"
+}

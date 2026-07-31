@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2281730,
+  "fetchedAt": "2026-07-31T02:57:43.839Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2281730&cc=us&l=english",
+  "responseDigest": "sha256:48df90326a7d589cb208791871d5d7a619484adcc31f349e7143a91f658e11cd",
+  "payload": {
+    "2281730": {
+      "success": true,
+      "data": {
+        "steam_appid": 2281730,
+        "name": "Combat Master: Season 5",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 21, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f68bd38fa1abd5f719ee059e0939f5319a75ec3b2502f3337bcb3a57a859cad5"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1454370,
+  "fetchedAt": "2026-07-31T03:46:52.738Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1454370&cc=us&l=english",
+  "responseDigest": "sha256:2cce04af599d63027f1f5d7c7fbaa0771bd93a7a629deea74b27cb5086831102",
+  "payload": {
+    "1454370": {
+      "success": true,
+      "data": {
+        "steam_appid": 1454370,
+        "name": "STARSEEKER: Astroneer Expeditions",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 751
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2952467fa9f2f87f5c551a6e106c65faac60d9ad4599848d5712252007132f51"
+}

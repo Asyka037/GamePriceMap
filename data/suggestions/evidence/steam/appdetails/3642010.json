@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3642010,
+  "fetchedAt": "2026-07-31T03:31:43.408Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3642010&cc=us&l=english",
+  "responseDigest": "sha256:4d0b89fe2bae6becda7ebdc6b97b951c77fe865f19284eafe5c9e2a4fe0a04db",
+  "payload": {
+    "3642010": {
+      "success": true,
+      "data": {
+        "steam_appid": 3642010,
+        "name": "Truck-kun is Supporting Me from Another World?!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:88267818cb142105918f9412e70a36e28584f9009f479c2f2199588baa3dc865"
+}

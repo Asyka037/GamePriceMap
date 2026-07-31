@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4266040,
+  "fetchedAt": "2026-07-31T04:05:22.682Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4266040&cc=us&l=english",
+  "responseDigest": "sha256:4921a214905066f763bdfc945689d104c792c2cdbe9d8798dd6ca59b6a2ab664",
+  "payload": {
+    "4266040": {
+      "success": true,
+      "data": {
+        "steam_appid": 4266040,
+        "name": "Pack my LunchBox",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:77672bccedb19adc0804424409f087ba8c2cc56345f867d4bd06621971d06f1d"
+}

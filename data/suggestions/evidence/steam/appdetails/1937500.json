@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1937500,
+  "fetchedAt": "2026-07-31T03:59:59.817Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1937500&cc=us&l=english",
+  "responseDigest": "sha256:546b687cb83085a08c111fc1046cfeb18c6e394e00df5f76286e3eaa3a6fed27",
+  "payload": {
+    "1937500": {
+      "success": true,
+      "data": {
+        "steam_appid": 1937500,
+        "name": "Let's School",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 26, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5822
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b7f868464808242ff1345d24ae216aed49cc38277593c4a11227fbc2f0e38132"
+}

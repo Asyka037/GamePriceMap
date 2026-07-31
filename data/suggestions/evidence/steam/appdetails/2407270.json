@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2407270,
+  "fetchedAt": "2026-07-31T02:58:33.088Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2407270&cc=us&l=english",
+  "responseDigest": "sha256:f08768fc1a1dc928f2d70ca92c56b62b7771eec891899cfb89e6917c2c60275e",
+  "payload": {
+    "2407270": {
+      "success": true,
+      "data": {
+        "steam_appid": 2407270,
+        "name": "AI LIMIT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2449,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 22455
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ae86824fa728d04525aae645e40608ffa0fb6c950fea256736d9f45bd18947fe"
+}

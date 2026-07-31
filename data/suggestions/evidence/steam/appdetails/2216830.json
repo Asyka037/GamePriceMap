@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2216830,
+  "fetchedAt": "2026-07-31T03:10:50.475Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2216830&cc=us&l=english",
+  "responseDigest": "sha256:93e6b6a85d88e45d7f99e7bc478cb2818f4d83c8d2f7c4fe29390878fea3d99d",
+  "payload": {
+    "2216830": {
+      "success": true,
+      "data": {
+        "steam_appid": 2216830,
+        "name": "The Jackbox Party Pack 10",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 18, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 495
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:adcda84cf68e6068236669280d4aa027bd02b70052e6bcef5552bdbcd74a21a6"
+}

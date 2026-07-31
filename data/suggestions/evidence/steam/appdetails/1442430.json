@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1442430,
+  "fetchedAt": "2026-07-31T02:49:16.845Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1442430&cc=us&l=english",
+  "responseDigest": "sha256:1f257299bab63f3e3277dd14f481067bb2781b6a5afaf8a5eb920614ebfafbb1",
+  "payload": {
+    "1442430": {
+      "success": true,
+      "data": {
+        "steam_appid": 1442430,
+        "name": "Storage Hunter Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3799
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:31b1b80ef44a4edac9ea5d3843c599161888ffa5566b7aabfe5c6028242b47e6"
+}

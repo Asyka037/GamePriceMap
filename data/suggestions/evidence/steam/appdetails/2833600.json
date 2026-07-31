@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2833600,
+  "fetchedAt": "2026-07-31T02:56:53.857Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2833600&cc=us&l=english",
+  "responseDigest": "sha256:aa7ae4f77dd1f04c001d14ffe1ae661b842244197927caa2d2e5b034efecb2bf",
+  "payload": {
+    "2833600": {
+      "success": true,
+      "data": {
+        "steam_appid": 2833600,
+        "name": "V Rising - Legacy of Castlevania Premium Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 312
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c75ec7a20bdd368cd75db624773476eb93e426553d2186da80dc2497448a7a24"
+}

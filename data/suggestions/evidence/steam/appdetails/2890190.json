@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2890190,
+  "fetchedAt": "2026-07-31T04:05:29.193Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2890190&cc=us&l=english",
+  "responseDigest": "sha256:201457a9188bdd370514b8484c201e70d9203c6abd85f544354df05bf682011b",
+  "payload": {
+    "2890190": {
+      "success": true,
+      "data": {
+        "steam_appid": 2890190,
+        "name": "Cult of the Lamb: Pilgrim Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 212
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d7917ce0b6070f1cb96edfa25c203872a7ca58bd72e68930bdac9f83232d192"
+}

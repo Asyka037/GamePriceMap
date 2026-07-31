@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 292120,
+  "fetchedAt": "2026-07-31T04:15:26.779Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=292120&cc=us&l=english",
+  "responseDigest": "sha256:d5716c6c7c416af24e1d4d290fb1e8d0f2a68d8f9d5c424a4258695136df5454",
+  "payload": {
+    "292120": {
+      "success": true,
+      "data": {
+        "steam_appid": 292120,
+        "name": "FINAL FANTASY® XIII",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 9, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16135
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7a806ade23263fec91add2ee509ff868a4c28480414d7cdd98ba3a88b070b590"
+}

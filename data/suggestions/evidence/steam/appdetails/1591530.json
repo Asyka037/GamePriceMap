@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1591530,
+  "fetchedAt": "2026-07-31T04:10:17.308Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1591530&cc=us&l=english",
+  "responseDigest": "sha256:6ea0a2863ae3866bf03653b6d016f7c5bff3269dff99de7fc11d6db29d48257e",
+  "payload": {
+    "1591530": {
+      "success": true,
+      "data": {
+        "steam_appid": 1591530,
+        "name": "SAMURAI WARRIORS 5",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 26, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 2999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1312
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4b829a1592f8f80b1329a1557f4b55d4d527b338991757807fd0b867ea8fe988"
+}

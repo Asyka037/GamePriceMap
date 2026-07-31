@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 814000,
+  "fetchedAt": "2026-07-31T03:04:04.474Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=814000&cc=us&l=english",
+  "responseDigest": "sha256:28c00062d7b110cfb9f9a894fb73d06b1399af35cc4047b537d3373e70a959e0",
+  "payload": {
+    "814000": {
+      "success": true,
+      "data": {
+        "steam_appid": 814000,
+        "name": "ONE PIECE ODYSSEY",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 12, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2487
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:20cfe22a642ad9c101766f51e2072e14d88606bc1429a8bf2d1d87702f4bb39b"
+}

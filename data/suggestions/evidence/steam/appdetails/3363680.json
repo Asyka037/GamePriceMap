@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3363680,
+  "fetchedAt": "2026-07-31T04:11:36.377Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3363680&cc=us&l=english",
+  "responseDigest": "sha256:b1f2de0793a5f5b11f992bcf9e7783fb7e6db68cf5f511ddd3e61fd5982c331b",
+  "payload": {
+    "3363680": {
+      "success": true,
+      "data": {
+        "steam_appid": 3363680,
+        "name": "EverSiege: Untold Ages",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1796
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0a1b1abc7604bce464c2c281d649cae2914eb9fc084743890dc4a9864e14a536"
+}

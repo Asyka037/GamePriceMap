@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1161580,
+  "fetchedAt": "2026-07-31T02:56:09.970Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1161580&cc=us&l=english",
+  "responseDigest": "sha256:a1ced4245a0516375833618053c5e9a248fc57b23e17f3e5e0d6edfece01f5ab",
+  "payload": {
+    "1161580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1161580,
+        "name": "Hardspace: Shipbreaker",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 24, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 1049,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 19291
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:49d920f50eb223567b8adff146af6faba303efafb468a79d10376c8af9421506"
+}

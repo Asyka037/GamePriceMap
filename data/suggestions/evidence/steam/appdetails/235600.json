@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 235600,
+  "fetchedAt": "2026-07-31T04:04:39.773Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=235600&cc=us&l=english",
+  "responseDigest": "sha256:9ab21f5b1a2b2fe9e4afabb0b67438985b4533cdbb9c775d4b998d13304fa3a5",
+  "payload": {
+    "235600": {
+      "success": true,
+      "data": {
+        "steam_appid": 235600,
+        "name": "Tom Clancy’s Splinter Cell Blacklist",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 20, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19187
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d90b52e4727bf51abece70702734c2add9348d36f53b07490c3415de8a1e6f70"
+}

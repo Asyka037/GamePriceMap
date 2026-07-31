@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3562120,
+  "fetchedAt": "2026-07-31T03:11:36.181Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3562120&cc=us&l=english",
+  "responseDigest": "sha256:a77833550caeb789b672135a099b37e3f355674c43d952d66f39bd1e327f3f05",
+  "payload": {
+    "3562120": {
+      "success": true,
+      "data": {
+        "steam_appid": 3562120,
+        "name": "Magical Princess",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 7184
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f220ce9ffdd77995744d03a8ddba31a5db32c1e8a6f3b1ad1ed84cd0393f8ecc"
+}

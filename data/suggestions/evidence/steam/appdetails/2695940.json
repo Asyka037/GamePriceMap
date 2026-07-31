@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2695940,
+  "fetchedAt": "2026-07-31T04:00:19.439Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2695940&cc=us&l=english",
+  "responseDigest": "sha256:f35ab1b4e3ac1a51e498b2195a257c6a320a863004da2d4f837c1c9bc2af1d99",
+  "payload": {
+    "2695940": {
+      "success": true,
+      "data": {
+        "steam_appid": 2695940,
+        "name": "PANICORE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 31, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10617
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:90be6fc7d51bf679ad5ac8b856cb2f1c74c12ae8a597a06f541efdf745e07695"
+}

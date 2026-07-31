@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 506610,
+  "fetchedAt": "2026-07-31T03:17:55.309Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=506610&cc=us&l=english",
+  "responseDigest": "sha256:9bc24909d2fa3125d6522eb4ed4046ad8382501a0739cb83978621adf026d4ad",
+  "payload": {
+    "506610": {
+      "success": true,
+      "data": {
+        "steam_appid": 506610,
+        "name": "Five Nights at Freddy's: Sister Location",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 7, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11399
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:74cdc3da8b1971ced93998aad6195615017c65213c3bc8f3e1c4e20546b32f7f"
+}

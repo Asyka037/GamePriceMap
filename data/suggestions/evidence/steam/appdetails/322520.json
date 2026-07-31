@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 322520,
+  "fetchedAt": "2026-07-31T04:04:00.242Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=322520&cc=us&l=english",
+  "responseDigest": "sha256:acafe5f1fe89b0b1b3962397aafae877ddec05447fa503d0b60437ec2927ca94",
+  "payload": {
+    "322520": {
+      "success": true,
+      "data": {
+        "steam_appid": 322520,
+        "name": "DYNASTY WARRIORS 8 Empires",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 26, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1499,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 1444
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7cddfe3c86caa027afb6191537703906ece3eba515d2f1638b6135e7a6c74557"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2513280,
+  "fetchedAt": "2026-07-31T03:10:35.759Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2513280&cc=us&l=english",
+  "responseDigest": "sha256:3a744254d2d61e6ded5f9a5f6e160ca4d21e79448e96d89a6ada13b2f6a55126",
+  "payload": {
+    "2513280": {
+      "success": true,
+      "data": {
+        "steam_appid": 2513280,
+        "name": "SONIC X SHADOW GENERATIONS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11929
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:005fccbfa0ad9b63324e8772b556a61d47af6c195fe531fced5cac41bcbfafc1"
+}

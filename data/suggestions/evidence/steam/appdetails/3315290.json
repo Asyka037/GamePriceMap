@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3315290,
+  "fetchedAt": "2026-07-31T02:51:06.239Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3315290&cc=us&l=english",
+  "responseDigest": "sha256:0c1db6e31c6dd74606b86932621592cfbd68c3ec7f4d5df0867a90b7e76d0f7c",
+  "payload": {
+    "3315290": {
+      "success": true,
+      "data": {
+        "steam_appid": 3315290,
+        "name": "Icarus: Great Hunts Campaigns",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 148
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c933e4a43dcd92ac3fa87009e0697990a256422944bc9d8af58e5039325dae45"
+}

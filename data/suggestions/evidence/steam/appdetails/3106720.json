@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3106720,
+  "fetchedAt": "2026-07-31T04:09:40.820Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3106720&cc=us&l=english",
+  "responseDigest": "sha256:ede941f5608a318858e7e7897d640259507df42e649cdde9a9a25341a8964ecd",
+  "payload": {
+    "3106720": {
+      "success": true,
+      "data": {
+        "steam_appid": 3106720,
+        "name": "theHunter: Call of the Wild™ - Scopes and Crosshairs Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 128
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d38c4508afa7184bbf463caf8be4c38a544dfa03735946c3212a050284a3361a"
+}

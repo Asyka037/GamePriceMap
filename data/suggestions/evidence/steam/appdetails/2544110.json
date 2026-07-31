@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2544110,
+  "fetchedAt": "2026-07-31T04:06:02.030Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2544110&cc=us&l=english",
+  "responseDigest": "sha256:31c0bf3eab907e80441e950f7f206ceef54c0e530109c7895fafadedfb05f4c1",
+  "payload": {
+    "2544110": {
+      "success": true,
+      "data": {
+        "steam_appid": 2544110,
+        "name": "Broken Sword - Shadow of the Templars: Reforged",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 19, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1799,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 931
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b66bbfbaee3fc13b23bdf8b43e30b95801f6cf1e2cab7ae90fbf18960c7011d9"
+}

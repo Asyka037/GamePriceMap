@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4786010,
+  "fetchedAt": "2026-07-31T03:05:48.936Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4786010&cc=us&l=english",
+  "responseDigest": "sha256:4484d20dd63351255ec12f9ef99d530409ee1c1e4970d1e93be89162135fba99",
+  "payload": {
+    "4786010": {
+      "success": true,
+      "data": {
+        "steam_appid": 4786010,
+        "name": "DragonSword : Awakening - Familiar : Timid Hummingbird",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9ec4c43d247773befd2d16d274430fe591113dc0dd5c7d3dcbf9835d58124fd"
+}

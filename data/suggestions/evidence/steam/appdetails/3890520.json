@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3890520,
+  "fetchedAt": "2026-07-31T03:42:43.941Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3890520&cc=us&l=english",
+  "responseDigest": "sha256:8cd5577f7700179317977be3da8b69abf93a935224fb631cba3989900983cc63",
+  "payload": {
+    "3890520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3890520,
+        "name": "Hello Kitty Island Adventure - Wheatflour Wonderland",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 110
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:12c958cf5e9654744684b771fa7d5fc0a1d96b8375b239a2d91e1ffebe0c127c"
+}

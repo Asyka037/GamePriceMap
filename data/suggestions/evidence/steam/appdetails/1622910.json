@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1622910,
+  "fetchedAt": "2026-07-31T02:58:28.671Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1622910&cc=us&l=english",
+  "responseDigest": "sha256:f37a30b1e7e1052f19c5633b399ad53133888e73d92ba540652af2a7f85424c2",
+  "payload": {
+    "1622910": {
+      "success": true,
+      "data": {
+        "steam_appid": 1622910,
+        "name": "Still Wakes the Deep",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10794
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:08644ff44a849b892f710493463a59760c130c2ff9fca7ce64606665786161c0"
+}

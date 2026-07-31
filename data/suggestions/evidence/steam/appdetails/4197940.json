@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4197940,
+  "fetchedAt": "2026-07-31T03:40:35.580Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4197940&cc=us&l=english",
+  "responseDigest": "sha256:a73411923c7e944a9378017a790d0b1fdadb769b5902236f4a0b9a3097b5fb7a",
+  "payload": {
+    "4197940": {
+      "success": true,
+      "data": {
+        "steam_appid": 4197940,
+        "name": "Age of Mythology: Retold - Obsidian Mirror",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 325
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:263e602b1535fe0f984aed8007371378c046a2e7d922407fc0bb988346bbdf00"
+}

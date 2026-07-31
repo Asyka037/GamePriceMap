@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1901910,
+  "fetchedAt": "2026-07-31T04:03:33.824Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1901910&cc=us&l=english",
+  "responseDigest": "sha256:104e1d66d376b44df64e73d3f6b7c9ffacccba9800ae9d040bf060b5aead08ac",
+  "payload": {
+    "1901910": {
+      "success": true,
+      "data": {
+        "steam_appid": 1901910,
+        "name": "Ultimate General: American Revolution",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 3749,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 909
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:64ae0393c1957e1cf787cdad65c240f22a2f082610ae4c3545efcf2d0585b35a"
+}

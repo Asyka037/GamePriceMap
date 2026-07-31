@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 606880,
+  "fetchedAt": "2026-07-31T03:12:46.966Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=606880&cc=us&l=english",
+  "responseDigest": "sha256:889e27ef41135c4831473a7bde8371d94b335dc9da6afede5fe3d59981a4a30e",
+  "payload": {
+    "606880": {
+      "success": true,
+      "data": {
+        "steam_appid": 606880,
+        "name": "GreedFall",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 9, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 18358
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:404be3689c01890f82a5d16fb05a176176d115c4289ff8a398c665b9bfc867f8"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1004919,
+  "fetchedAt": "2026-07-31T03:52:32.453Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1004919&cc=us&l=english",
+  "responseDigest": "sha256:d5f8263cc32dd31d2448032ee59d5787e3370dc89e6bd894baf671b747730a70",
+  "payload": {
+    "1004919": {
+      "success": true,
+      "data": {
+        "steam_appid": 1004919,
+        "name": "Warhammer: Chaosbane - Tomb Kings",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 16, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 399,
+          "discount_percent": 60
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:74ddabd9259dc677112d956e0ca1b53dfcb37c69dfd293e9960a0b08d6d11e8c"
+}

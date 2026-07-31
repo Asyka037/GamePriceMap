@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2607060,
+  "fetchedAt": "2026-07-31T03:57:28.353Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2607060&cc=us&l=english",
+  "responseDigest": "sha256:901ff2174af5fc4ce03e5ea80deba815d313fe3ac868e05fa35211731bcb71f5",
+  "payload": {
+    "2607060": {
+      "success": true,
+      "data": {
+        "steam_appid": 2607060,
+        "name": "From Glory To Goo",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 2, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 839,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1713
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d2b7a1d8b381475b96a11888b68397bcae558df5fdfbbc48cdd65aa21f981524"
+}

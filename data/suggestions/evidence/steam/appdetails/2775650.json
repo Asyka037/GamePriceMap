@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2775650,
+  "fetchedAt": "2026-07-31T03:55:39.279Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2775650&cc=us&l=english",
+  "responseDigest": "sha256:692864202fdd19ae1441ad45ea144ab86126069a712ab4b1e4d8b705f7a68fd7",
+  "payload": {
+    "2775650": {
+      "success": true,
+      "data": {
+        "steam_appid": 2775650,
+        "name": "Atari 50: The Wider World of Atari",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e3a918e697cfea4b7700309b9f575664d5f0f4556cd255acede66a704ad5d2b4"
+}

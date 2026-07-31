@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4598200,
+  "fetchedAt": "2026-07-31T03:13:10.313Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4598200&cc=us&l=english",
+  "responseDigest": "sha256:399e981aa10747ef566109e5cc65e2e9cf846f028d6457a2067c203c21aa31ea",
+  "payload": {
+    "4598200": {
+      "success": true,
+      "data": {
+        "steam_appid": 4598200,
+        "name": "Dune: Imperium - Uprising",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2810997aa40e4c4b244eb2d65cc8ba61e28b8a60a17d68d9c5a7d6627df4e72b"
+}

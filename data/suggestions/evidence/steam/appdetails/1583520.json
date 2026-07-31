@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1583520,
+  "fetchedAt": "2026-07-31T04:03:14.091Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1583520&cc=us&l=english",
+  "responseDigest": "sha256:e39fb61ae93f322bb6b5a0ada6ac11f54e87696e74aa174f90a29000ef1787f1",
+  "payload": {
+    "1583520": {
+      "success": true,
+      "data": {
+        "steam_appid": 1583520,
+        "name": "Under The Island",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 427
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7c2fe985316714c68788b84c28bb08013e8ff9f3b07e2bff49b1c980a627ea75"
+}

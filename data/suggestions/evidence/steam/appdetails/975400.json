@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 975400,
+  "fetchedAt": "2026-07-31T03:28:47.397Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=975400&cc=us&l=english",
+  "responseDigest": "sha256:ab24e9cb14c238f42d2f2cf286e34abcb4bb91caad9b28526f191c6f8cc4c2f7",
+  "payload": {
+    "975400": {
+      "success": true,
+      "data": {
+        "steam_appid": 975400,
+        "name": "Warhammer: Vermintide 2 - Back to Ubersreik",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 610
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d31d3f573d47ba00407ebcea45227af8791475711045e0bf23bd2c093620b573"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2219390,
+  "fetchedAt": "2026-07-31T03:09:00.682Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2219390&cc=us&l=english",
+  "responseDigest": "sha256:c7cd584aa1a3796193e313fd96ea5d8aa26ec4a57147e61c13adf53caddce1f3",
+  "payload": {
+    "2219390": {
+      "success": true,
+      "data": {
+        "steam_appid": 2219390,
+        "name": "Imperial Ambitions",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:740c7fe6641fde45fc609cc90dbfed3647f1c52d55a8802583ae9af4367ca9cb"
+}

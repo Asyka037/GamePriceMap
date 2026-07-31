@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3986670,
+  "fetchedAt": "2026-07-31T03:02:07.325Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3986670&cc=us&l=english",
+  "responseDigest": "sha256:35312070330b748d26a415f0b00a5e62be8656137bbde29c745de8442cfe542d",
+  "payload": {
+    "3986670": {
+      "success": true,
+      "data": {
+        "steam_appid": 3986670,
+        "name": "YOU ARE THE MONSTER",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 440
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:22e7b677adfa651608782948b3ee7e3871b17d2a4de690989bfa21bb4679a38a"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 280680,
+  "fetchedAt": "2026-07-31T02:59:48.539Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=280680&cc=us&l=english",
+  "responseDigest": "sha256:1132381bf92a8b3de7c26e19ee3ea3117c46c57dd34e63efa97875ccd56c9372",
+  "payload": {
+    "280680": {
+      "success": true,
+      "data": {
+        "steam_appid": 280680,
+        "name": "Krita",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7276
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c92efe2292473fdf7f24dbfec10f2406afc74ed4ef000490030a0d48d2e7197b"
+}

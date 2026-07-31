@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3994790,
+  "fetchedAt": "2026-07-31T03:22:34.735Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3994790&cc=us&l=english",
+  "responseDigest": "sha256:5005031767ec2089a392ebe84b21f99756ed1bd257a7acb607b6389117b5fe79",
+  "payload": {
+    "3994790": {
+      "success": true,
+      "data": {
+        "steam_appid": 3994790,
+        "name": "DJ Life Simulator: Learn to DJ for Real",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bc1b30e83110023acf31c63b141c3f71d9230659a6a63618d2752dd47ad6c30a"
+}

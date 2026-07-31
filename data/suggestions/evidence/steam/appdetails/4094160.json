@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4094160,
+  "fetchedAt": "2026-07-31T03:46:32.973Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4094160&cc=us&l=english",
+  "responseDigest": "sha256:a8455f2804f385e93ad11051bc27ec518039303ab1b527f36e5d7b58241fe6b3",
+  "payload": {
+    "4094160": {
+      "success": true,
+      "data": {
+        "steam_appid": 4094160,
+        "name": "Fishing Planet: Pro Fishing Starter Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cb7adcd62233872c319e0d2349cdbeac63a2947c3bd323b93184c72b9c6b28d1"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 368500,
+  "fetchedAt": "2026-07-31T02:46:12.074Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=368500&cc=us&l=english",
+  "responseDigest": "sha256:e780a2f290bbb0f695df15c297d6ec226685995b392b48bdf94d16c8a1570111",
+  "payload": {
+    "368500": {
+      "success": true,
+      "data": {
+        "steam_appid": 368500,
+        "name": "Assassin's Creed® Syndicate",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 18, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 30853
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a64d6d140c8402a9aefb2c1a49e91a06294bddb028ece6f1d8d3af5fa163c495"
+}

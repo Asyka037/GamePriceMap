@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2684630,
+  "fetchedAt": "2026-07-31T03:18:42.999Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2684630&cc=us&l=english",
+  "responseDigest": "sha256:09f6856ab835e0c0fdcd538e792c6fa086dccb503ee125c251bf94c07ca0784b",
+  "payload": {
+    "2684630": {
+      "success": true,
+      "data": {
+        "steam_appid": 2684630,
+        "name": "Endacopia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1650,
+          "final": 1485,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 1279
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8b64dad781160a4524067ae6788b69191ea94d6dcefb5dbc5ed07bede13b3105"
+}

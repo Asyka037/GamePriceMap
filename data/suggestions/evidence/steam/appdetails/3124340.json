@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3124340,
+  "fetchedAt": "2026-07-31T03:06:34.963Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3124340&cc=us&l=english",
+  "responseDigest": "sha256:603a1ad929132dd0b3521795e69635f160869d1c3c7bb0527a825653fda2379a",
+  "payload": {
+    "3124340": {
+      "success": true,
+      "data": {
+        "steam_appid": 3124340,
+        "name": "Demeo x Dungeons & Dragons: Battlemarked",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1201
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4edc69b2f05566e8cd50afdc006d6886cd4315230c83e2d48d40ad246c9551c5"
+}

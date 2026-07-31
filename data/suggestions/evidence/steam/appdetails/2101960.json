@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2101960,
+  "fetchedAt": "2026-07-31T02:58:36.003Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2101960&cc=us&l=english",
+  "responseDigest": "sha256:4aec140404bd3600dfaff90361c9c4c8b813174067ba8a6fedbabef6069f4345",
+  "payload": {
+    "2101960": {
+      "success": true,
+      "data": {
+        "steam_appid": 2101960,
+        "name": "Cronos: The New Dawn",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 3599,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 7423
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:634ff8ffbfe4e604ed20bc39c46480d4fb824561c995ec0a9b0f5abd69b7ecac"
+}

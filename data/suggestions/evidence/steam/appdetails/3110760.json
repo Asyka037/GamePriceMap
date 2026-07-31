@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3110760,
+  "fetchedAt": "2026-07-31T02:49:10.867Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3110760&cc=us&l=english",
+  "responseDigest": "sha256:ea675acdfdfa5504f1fdca5a6348bc2f45942a47b79fe14c488a3bb6ae26027f",
+  "payload": {
+    "3110760": {
+      "success": true,
+      "data": {
+        "steam_appid": 3110760,
+        "name": "Alabaster Dawn",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2086
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5fb784ca895dd5598caf45d8259fa9e3a3ef59c756cf224d51f6438093d286ab"
+}

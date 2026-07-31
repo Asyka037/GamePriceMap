@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 383120,
+  "fetchedAt": "2026-07-31T03:15:20.307Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=383120&cc=us&l=english",
+  "responseDigest": "sha256:cbce02566c96b04c21e7808bd76268070dbaee6bba7b3124e68f199f76886a94",
+  "payload": {
+    "383120": {
+      "success": true,
+      "data": {
+        "steam_appid": 383120,
+        "name": "Empyrion - Galactic Survival",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 5, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29136
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:22579f775f8e3b598769efdfbd40d8661b2112135bfa51ef6b075cf4f45d7ea8"
+}

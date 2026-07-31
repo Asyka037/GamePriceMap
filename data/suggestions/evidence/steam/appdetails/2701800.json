@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2701800,
+  "fetchedAt": "2026-07-31T03:58:01.307Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2701800&cc=us&l=english",
+  "responseDigest": "sha256:b26ac53443fd99aa42f0ec1dbbd8016d689489115058acd1fa0dacce071e7382",
+  "payload": {
+    "2701800": {
+      "success": true,
+      "data": {
+        "steam_appid": 2701800,
+        "name": "No Players Online",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 606
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:386abc51a26e05f0e993fe34041f4bf85e486bb2c8d6dc75c9d7c320e752982f"
+}

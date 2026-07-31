@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4216130,
+  "fetchedAt": "2026-07-31T03:42:04.645Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4216130&cc=us&l=english",
+  "responseDigest": "sha256:1aa40550b1b4fb2402617c827051c2ec064c35a5dd442803fdf47b0fbc389e46",
+  "payload": {
+    "4216130": {
+      "success": true,
+      "data": {
+        "steam_appid": 4216130,
+        "name": "Deep Rock Galactic: Rogue Core - Supporter Upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0d1736e928a94bf72001e6521b88e6c83cb871ece1a4c1f4e604acc9cda3ac02"
+}

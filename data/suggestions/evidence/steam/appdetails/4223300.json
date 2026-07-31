@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4223300,
+  "fetchedAt": "2026-07-31T03:00:46.952Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4223300&cc=us&l=english",
+  "responseDigest": "sha256:7c555d7085ee56133447d3ad3c2cbfeb5832c7b85579cb85886cc64dd7a43c7c",
+  "payload": {
+    "4223300": {
+      "success": true,
+      "data": {
+        "steam_appid": 4223300,
+        "name": "Birds of War",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 202
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:943c16e888458fabebd6c85760141ef734ab2c1567440e3406993fafac74458a"
+}

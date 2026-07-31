@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1341290,
+  "fetchedAt": "2026-07-31T02:45:06.787Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1341290&cc=us&l=english",
+  "responseDigest": "sha256:c24267d8c4a9ed95a01137e404c66f3c8c2f0267cc96e245c61a3c7ebfccb075",
+  "payload": {
+    "1341290": {
+      "success": true,
+      "data": {
+        "steam_appid": 1341290,
+        "name": "We Were Here Forever",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 10, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 719,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 16033
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9b11327fcc46da01cefc913c4781ce2af9602ed4645e4b00ef82700e330c5ba4"
+}

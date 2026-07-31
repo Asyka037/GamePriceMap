@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1712110,
+  "fetchedAt": "2026-07-31T03:09:16.898Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1712110&cc=us&l=english",
+  "responseDigest": "sha256:7665bedc3205dbabdee62e5376760de0ca6415535cd1ad656868cf6ead8d0fce",
+  "payload": {
+    "1712110": {
+      "success": true,
+      "data": {
+        "steam_appid": 1712110,
+        "name": "Deep Space Outpost",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:20493ffa3106c26d898a9a10df37026c93116fa8c22ddbb61c526c94c9478c68"
+}

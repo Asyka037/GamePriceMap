@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4203270,
+  "fetchedAt": "2026-07-31T03:53:31.694Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4203270&cc=us&l=english",
+  "responseDigest": "sha256:e3a83fd532fc4628b5e6dc1da0e70bed012ba1ae25d2adac62a591f08226cedc",
+  "payload": {
+    "4203270": {
+      "success": true,
+      "data": {
+        "steam_appid": 4203270,
+        "name": "Moon Crashers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 479,
+          "discount_percent": 40
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d21652d7586c38e8fa589444b9c12f63192f7b2d7df092d6563462296b90eac0"
+}

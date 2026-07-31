@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2155180,
+  "fetchedAt": "2026-07-31T04:06:05.333Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2155180&cc=us&l=english",
+  "responseDigest": "sha256:54829a42ad04a556cc78c22ea818b649c1e2fffa8767aa26ae1fdc26cb6f8631",
+  "payload": {
+    "2155180": {
+      "success": true,
+      "data": {
+        "steam_appid": 2155180,
+        "name": "Pioneers of Pagonia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4757
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4bb5e0e0d128573e30b113566ebfee3fa951e45048d58d912e3da5ee4ad9d728"
+}

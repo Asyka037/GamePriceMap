@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 411950,
+  "fetchedAt": "2026-07-31T03:37:02.439Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=411950&cc=us&l=english",
+  "responseDigest": "sha256:3d397cf93ab201fb773c6bc41e3bb4d0183a1981e8a45cdf6427a9e06b576375",
+  "payload": {
+    "411950": {
+      "success": true,
+      "data": {
+        "steam_appid": 411950,
+        "name": "DCS: F/A-18C",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 1, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 7999,
+          "final": 7999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 988
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4bc46570896d9efa62c7ee2359bb18580e237c08cfa3a94911b8bb5e82fef934"
+}

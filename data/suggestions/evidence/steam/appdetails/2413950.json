@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2413950,
+  "fetchedAt": "2026-07-31T03:00:09.962Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2413950&cc=us&l=english",
+  "responseDigest": "sha256:40a0815dfe2152d440b47fdc5e5df1ecec75a439d1d191b73e673ffa55e608ee",
+  "payload": {
+    "2413950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2413950,
+        "name": "Final Sentence",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1021
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c877c6aa40751202c23e0935cb8261d7ae7c62d1c1337e5a60b16ff8fd84bc22"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3650450,
+  "fetchedAt": "2026-07-31T04:13:54.637Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3650450&cc=us&l=english",
+  "responseDigest": "sha256:2ba5b1e9a46e8e6b2e47913b9dfe29f0fbc57f6464548622a0b86cd3c789ddcc",
+  "payload": {
+    "3650450": {
+      "success": true,
+      "data": {
+        "steam_appid": 3650450,
+        "name": "Terminator: Dark Fate - Defiance: Uprising",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 363
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:12e81cb6e8e51109602266a2a9ef29fe9b259739c8ad012856cb7d03c0aa8956"
+}

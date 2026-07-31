@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2288630,
+  "fetchedAt": "2026-07-31T02:54:47.456Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2288630&cc=us&l=english",
+  "responseDigest": "sha256:5b8b8d0369c93a75fb58853ac49203201cb3e6d319890070202e59b86dfe7d9a",
+  "payload": {
+    "2288630": {
+      "success": true,
+      "data": {
+        "steam_appid": 2288630,
+        "name": "Taiko no Tatsujin: Rhythm Festival",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1221
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4881c994ea0064dcb14969f54ac5dc0396db8d7317c592a574fdb73f50949775"
+}

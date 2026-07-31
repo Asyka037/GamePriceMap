@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2378900,
+  "fetchedAt": "2026-07-31T03:14:06.345Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2378900&cc=us&l=english",
+  "responseDigest": "sha256:c2e137294f62736b7b882c5c2c76ef25841e55203f6a20c58726f6229555469d",
+  "payload": {
+    "2378900": {
+      "success": true,
+      "data": {
+        "steam_appid": 2378900,
+        "name": "The Coffin of Andy and Leyley",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 13, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 35956
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:825ca27d0ddc971965925614f53c4f61c6d8036f99e76e50b1f537b68c45c6d6"
+}

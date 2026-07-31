@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2415010,
+  "fetchedAt": "2026-07-31T02:46:10.618Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2415010&cc=us&l=english",
+  "responseDigest": "sha256:564e67c402a2af38ce20c9c236dbbe305a85e8881dacb9221e38f8d994e779cf",
+  "payload": {
+    "2415010": {
+      "success": true,
+      "data": {
+        "steam_appid": 2415010,
+        "name": "A Date with Death",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2023"
+        },
+        "recommendations": {
+          "total": 433
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b9de5985fa5524f72e35d313f63e2a1af74c447d8e587fe3da3d064b753f3a8f"
+}

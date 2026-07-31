@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1683150,
+  "fetchedAt": "2026-07-31T02:51:04.763Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1683150&cc=us&l=english",
+  "responseDigest": "sha256:41396e8e8e7dde28568651b67b51f80a0a742a4f7b4fdf15d53fe3b6a5249fa7",
+  "payload": {
+    "1683150": {
+      "success": true,
+      "data": {
+        "steam_appid": 1683150,
+        "name": "Railroader",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2249,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 3258
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:43adb004c76318effaa2bf959c1018199feb0c4e5f7c3077b6a93c2d00ef16e9"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 394690,
+  "fetchedAt": "2026-07-31T03:23:47.041Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=394690&cc=us&l=english",
+  "responseDigest": "sha256:7575f7ccc22f0388a2a2cd3be9e420b099855cfc589acf634243aa92a9a4270f",
+  "payload": {
+    "394690": {
+      "success": true,
+      "data": {
+        "steam_appid": 394690,
+        "name": "Tower Unite",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16205
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a16e70d71675665df2f54c2a7ba959e91b832da0455a2db237b740338d128c65"
+}

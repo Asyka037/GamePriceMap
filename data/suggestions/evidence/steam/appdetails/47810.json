@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 47810,
+  "fetchedAt": "2026-07-31T03:10:47.551Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=47810&cc=us&l=english",
+  "responseDigest": "sha256:b3afb9f5e26b36b84575b7b32fb2ecb41b5033f59d63cdb9371c526da6a8bbab",
+  "payload": {
+    "47810": {
+      "success": true,
+      "data": {
+        "steam_appid": 47810,
+        "name": "Dragon Age: Origins - Ultimate Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 26, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 749,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 28436
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:35720f5e28c952f8fba99f200e1844fde044d057ba68ca401418d58e61788dc6"
+}

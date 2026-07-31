@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4192650,
+  "fetchedAt": "2026-07-31T03:20:40.374Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4192650&cc=us&l=english",
+  "responseDigest": "sha256:5b2c9a7185ca2fbf86ba5f33c598c9a6e4d45f89a43198db993f835ab38e712a",
+  "payload": {
+    "4192650": {
+      "success": true,
+      "data": {
+        "steam_appid": 4192650,
+        "name": "王于兴师/Order of Kings",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8e4ae605f84e9564a1c50370ac83b6e88e6e7950a906edfe947ef427fcc666b8"
+}

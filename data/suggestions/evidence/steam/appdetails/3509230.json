@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3509230,
+  "fetchedAt": "2026-07-31T02:58:55.342Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3509230&cc=us&l=english",
+  "responseDigest": "sha256:4d5d26ed43446543cb3816dd1a3bdfb88b19be398da8112aaf36c5bbe2a36245",
+  "payload": {
+    "3509230": {
+      "success": true,
+      "data": {
+        "steam_appid": 3509230,
+        "name": "Gambonanza",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 1, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1483
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:22c70250629f2e6eb93f98a7808dc27586973e9707ef34074d8efde82ecbf2de"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 209160,
+  "fetchedAt": "2026-07-31T02:59:16.090Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=209160&cc=us&l=english",
+  "responseDigest": "sha256:1727406533fa1a8e60bb8793be7636f8b4ecba22ae795b1c5d35467be2d8b1fd",
+  "payload": {
+    "209160": {
+      "success": true,
+      "data": {
+        "steam_appid": 209160,
+        "name": "Call of Duty®: Ghosts",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12851
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d3dd4a73e5c4c916e7a244f23fed1fbe273d10823a9f0563c879cad683560d35"
+}

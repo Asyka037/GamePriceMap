@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2712380,
+  "fetchedAt": "2026-07-31T03:19:46.970Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2712380&cc=us&l=english",
+  "responseDigest": "sha256:d72b98a290b7758271b10262ce2620f5782af19a66b1db2916ed40a9891fa3e7",
+  "payload": {
+    "2712380": {
+      "success": true,
+      "data": {
+        "steam_appid": 2712380,
+        "name": "Legends of Dragaea: Idle Dungeons",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 938
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:beaf3491221a04563a29bd1bb7ed80bc821bf5eb20f9e7a1f65e1b2f8fdc9915"
+}

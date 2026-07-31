@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 330830,
+  "fetchedAt": "2026-07-31T04:01:28.700Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=330830&cc=us&l=english",
+  "responseDigest": "sha256:456bbd68afa98262d5edd49ac5fc2d2ae728f79838bb71690403cfd7f700f4af",
+  "payload": {
+    "330830": {
+      "success": true,
+      "data": {
+        "steam_appid": 330830,
+        "name": "Tales from the Borderlands",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 16, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15059
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df35128d736d96b0d8a49e6a679b071ea18d1dbe52472177ec2250c655fb2fa2"
+}

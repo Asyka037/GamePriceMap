@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2870340,
+  "fetchedAt": "2026-07-31T03:18:35.438Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2870340&cc=us&l=english",
+  "responseDigest": "sha256:d2f54020c3095f634835230c66fb8a6e937fff9b0c8c0483aa0374c32ac4417b",
+  "payload": {
+    "2870340": {
+      "success": true,
+      "data": {
+        "steam_appid": 2870340,
+        "name": "Decktamer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1939
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:41bff1c101c8028a48e4857db9a54814f9aa669e132fa20eec6bd53738dcdb1a"
+}

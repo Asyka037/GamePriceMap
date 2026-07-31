@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1977170,
+  "fetchedAt": "2026-07-31T04:06:36.565Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1977170&cc=us&l=english",
+  "responseDigest": "sha256:1d797ac3ab5d1d8ec740a22f8e2a34d68bdf77ded8071821723153813801dc11",
+  "payload": {
+    "1977170": {
+      "success": true,
+      "data": {
+        "steam_appid": 1977170,
+        "name": "Jusant",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 31, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4043
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:88af879582ac15913e9f61e7320c63f6003dbc4a34fe47b919593ef1ca60f245"
+}

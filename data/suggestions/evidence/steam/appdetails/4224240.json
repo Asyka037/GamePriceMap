@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4224240,
+  "fetchedAt": "2026-07-31T03:56:02.400Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4224240&cc=us&l=english",
+  "responseDigest": "sha256:1991801f8ae4ceaabb01a5aaa57b8d5aaee02812bb96f302dc5afb509410523d",
+  "payload": {
+    "4224240": {
+      "success": true,
+      "data": {
+        "steam_appid": 4224240,
+        "name": "Jujutsu Kaisen Phantom Parade",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 27, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1facf32abba48c5c5129ddd4f39fb1ab4cbc858bca74d9d2dcce35a4e4cb450a"
+}

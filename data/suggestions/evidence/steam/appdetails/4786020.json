@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4786020,
+  "fetchedAt": "2026-07-31T03:08:57.706Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4786020&cc=us&l=english",
+  "responseDigest": "sha256:aec24b371d990dbc9a1b03318fef31aea6f7b97162b0ef80495ab7dab417457c",
+  "payload": {
+    "4786020": {
+      "success": true,
+      "data": {
+        "steam_appid": 4786020,
+        "name": "DragonSword : Awakening - Familiar : Gale Sky Wolf",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:58b3b89c192cc21acaae72ae5bdf868932430e03eebb7c93df118ea6ce1af790"
+}

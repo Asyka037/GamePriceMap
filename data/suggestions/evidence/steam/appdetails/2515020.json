@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2515020,
+  "fetchedAt": "2026-07-31T02:42:43.842Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2515020&cc=us&l=english",
+  "responseDigest": "sha256:608d6d1b9a9a38c1acbb8e5c08236052732c319cffe44a5574a4af4268974f6d",
+  "payload": {
+    "2515020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2515020,
+        "name": "FINAL FANTASY XVI",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23389
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d4b72025e33c1bdd6d7488577f554c611033ce35ac1523003431049b2bea3b71"
+}

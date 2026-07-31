@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1465070,
+  "fetchedAt": "2026-07-31T03:29:03.839Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1465070&cc=us&l=english",
+  "responseDigest": "sha256:08acc47df06cff2b6ed986fabb405195c559c9196c251fab4d106c5f651ee653",
+  "payload": {
+    "1465070": {
+      "success": true,
+      "data": {
+        "steam_appid": 1465070,
+        "name": "Legendary Tales",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2712
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5d7df69765b9e7583a2d7cda7751a1191b9c82ca97e539b0835a291da05467e8"
+}

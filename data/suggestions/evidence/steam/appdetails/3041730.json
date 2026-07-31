@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3041730,
+  "fetchedAt": "2026-07-31T04:06:43.072Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3041730&cc=us&l=english",
+  "responseDigest": "sha256:00572dcc117d826893ae9c7b22e0c00672e65505ca7a2eaf8495c55b0a1a8f62",
+  "payload": {
+    "3041730": {
+      "success": true,
+      "data": {
+        "steam_appid": 3041730,
+        "name": "Go North",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1349,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7acd0a0616dd4508f4300bea56762715ac5d871cfb1134e4e0647a30b3f8a6aa"
+}

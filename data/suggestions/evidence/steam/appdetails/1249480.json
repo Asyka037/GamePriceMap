@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1249480,
+  "fetchedAt": "2026-07-31T04:08:57.948Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1249480&cc=us&l=english",
+  "responseDigest": "sha256:ceeb2dbf2e3137441397b7fd379b181cac4db84845d4c8ffb92ffc9ce6c227fd",
+  "payload": {
+    "1249480": {
+      "success": true,
+      "data": {
+        "steam_appid": 1249480,
+        "name": "Ex-Zodiac",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 599,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 941
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7299b42d2f922d4d3629d06a1e2573dba83a115a95916fda89f9d275aceaf8f1"
+}

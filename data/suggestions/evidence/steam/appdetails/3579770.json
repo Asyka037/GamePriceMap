@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3579770,
+  "fetchedAt": "2026-07-31T02:58:01.430Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3579770&cc=us&l=english",
+  "responseDigest": "sha256:0d7888fd7f938eb9876c1c85b627bceaada460dca75f2f17563aaf0862daa54b",
+  "payload": {
+    "3579770": {
+      "success": true,
+      "data": {
+        "steam_appid": 3579770,
+        "name": "Cities: Skylines II - Creator Pack: City Stations",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 189
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b229580064069ffe6e3279166611a607e75f3c1ad77492cae12ca288ea1d94b9"
+}

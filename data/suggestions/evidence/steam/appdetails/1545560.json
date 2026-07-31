@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1545560,
+  "fetchedAt": "2026-07-31T02:59:29.354Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1545560&cc=us&l=english",
+  "responseDigest": "sha256:c957eeb022712a9d64c5675819759f1163bad213a8af7979238d0d5aea2e3dd9",
+  "payload": {
+    "1545560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1545560,
+        "name": "Shadow Gambit: The Cursed Crew",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 17, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5112
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fdf624dfeaecd8af91b0c6ae344ee7e1010c681b85ac08845233bc1f581e44e3"
+}

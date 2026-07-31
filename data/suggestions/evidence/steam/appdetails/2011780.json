@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2011780,
+  "fetchedAt": "2026-07-31T04:01:18.675Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2011780&cc=us&l=english",
+  "responseDigest": "sha256:0d676d972c548760e75d227fe2702940c9276818a7918f8de92f5c4acdc3fe3e",
+  "payload": {
+    "2011780": {
+      "success": true,
+      "data": {
+        "steam_appid": 2011780,
+        "name": "Yellow Taxi Goes Vroom",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 679,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 1594
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f7565fac64cdc6dbe50148f6aef74c4aa84d2038db3fccb3dabee2902094100e"
+}

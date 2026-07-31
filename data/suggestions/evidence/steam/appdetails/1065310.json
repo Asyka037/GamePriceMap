@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1065310,
+  "fetchedAt": "2026-07-31T02:44:28.260Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1065310&cc=us&l=english",
+  "responseDigest": "sha256:1a7b26ee8f369fa6feb6d32b8c59ad2957346738852bcae039c954aa1b801aba",
+  "payload": {
+    "1065310": {
+      "success": true,
+      "data": {
+        "steam_appid": 1065310,
+        "name": "Evil West",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 21, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10028
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:614446651d48ada2e7cad1f10064079d516e4166bdc9ee1fa45c438b8272dc02"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2506480,
+  "fetchedAt": "2026-07-31T02:53:31.658Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2506480&cc=us&l=english",
+  "responseDigest": "sha256:17ec4bfef589b34fb4c6ff5bc2efaa9f04385556f4cd36ffd369370fd4bc2ae9",
+  "payload": {
+    "2506480": {
+      "success": true,
+      "data": {
+        "steam_appid": 2506480,
+        "name": "Clue/Cluedo",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 470
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bb9bdedae182240f2acbe2f6c72db3772599ee950942acd44d17901b5d64f4e9"
+}

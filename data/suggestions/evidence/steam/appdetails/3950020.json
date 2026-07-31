@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3950020,
+  "fetchedAt": "2026-07-31T02:53:22.275Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3950020&cc=us&l=english",
+  "responseDigest": "sha256:c4a0798be8721d0a0f7a148db6b4df823ae18159be133b1b7dd81fae52de8f83",
+  "payload": {
+    "3950020": {
+      "success": true,
+      "data": {
+        "steam_appid": 3950020,
+        "name": "Duet Night Abyss",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 19, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:efddb6eecd40d132e1afadd241d8954e1a7cb5d790f88543edcf049e3479e77b"
+}

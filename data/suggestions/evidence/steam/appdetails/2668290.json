@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2668290,
+  "fetchedAt": "2026-07-31T03:06:57.241Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2668290&cc=us&l=english",
+  "responseDigest": "sha256:f6d991b7718881ad3d44234a0e681fd5043edd844923ceb16528b2b42cd13c41",
+  "payload": {
+    "2668290": {
+      "success": true,
+      "data": {
+        "steam_appid": 2668290,
+        "name": "Warhammer 40,000: Boltgun - Forges of Corruption Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 394
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63a48d1f69cc9438ceb193e7ffacaa540d17f26c21d06c3917b6c0abcd6fab89"
+}

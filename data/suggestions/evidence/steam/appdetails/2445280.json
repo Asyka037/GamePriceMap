@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2445280,
+  "fetchedAt": "2026-07-31T03:10:56.405Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2445280&cc=us&l=english",
+  "responseDigest": "sha256:80c7dbaf589f52e6735125f238a6e478036236e2e915451913897244d9227a6f",
+  "payload": {
+    "2445280": {
+      "success": true,
+      "data": {
+        "steam_appid": 2445280,
+        "name": "Icarus: Interior Decorations Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:68471236b3d7d5aa2cf0af5b16fe4cf94c7cc03e1ad6475c75342985ae1ffd82"
+}

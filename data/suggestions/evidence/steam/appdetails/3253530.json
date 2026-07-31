@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3253530,
+  "fetchedAt": "2026-07-31T03:22:25.933Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3253530&cc=us&l=english",
+  "responseDigest": "sha256:9ef3179de8f8551bc7a8cca5af0ae94398753cd1654896103861ec3b5eae237e",
+  "payload": {
+    "3253530": {
+      "success": true,
+      "data": {
+        "steam_appid": 3253530,
+        "name": "PIT OF GOBLIN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 887
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:da105c66af4781e676a0829e3ac5db2650fa01b590613102fe1c24b09129ef39"
+}

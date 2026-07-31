@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4196070,
+  "fetchedAt": "2026-07-31T03:00:23.318Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4196070&cc=us&l=english",
+  "responseDigest": "sha256:05c017d20035caf530b512c91984f42b8da673f64a628cea71a2c511ee865675",
+  "payload": {
+    "4196070": {
+      "success": true,
+      "data": {
+        "steam_appid": 4196070,
+        "name": "Supermarket Simulator - Ice Cream DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5ac25765b666605dc76dd079ec382897b7e09f7fd4f3ffdb6428ac67d1a4d3a6"
+}

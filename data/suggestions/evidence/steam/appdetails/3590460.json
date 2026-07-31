@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3590460,
+  "fetchedAt": "2026-07-31T03:21:54.779Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3590460&cc=us&l=english",
+  "responseDigest": "sha256:d522047297b80b6cb200006c70af285c1f046da4d36a315fb10b379f06e97e54",
+  "payload": {
+    "3590460": {
+      "success": true,
+      "data": {
+        "steam_appid": 3590460,
+        "name": "Strikers Club Pro",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:606583014ced629086d99c1ed0b3ccd4628399b1718967ac3f075b59559331dc"
+}

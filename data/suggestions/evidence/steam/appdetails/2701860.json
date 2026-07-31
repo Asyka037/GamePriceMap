@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2701860,
+  "fetchedAt": "2026-07-31T03:18:25.147Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2701860&cc=us&l=english",
+  "responseDigest": "sha256:366048165365ffee3fa704c58095299f54673e9e27f55946a2f757eff3c2d939",
+  "payload": {
+    "2701860": {
+      "success": true,
+      "data": {
+        "steam_appid": 2701860,
+        "name": "theHunter: Call of the Wild™ - High Caliber Weapon Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 233
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:275e37f00f985f015a0b2f1032edcc951fb986a3e81a51e22e52e501b8f7aab3"
+}

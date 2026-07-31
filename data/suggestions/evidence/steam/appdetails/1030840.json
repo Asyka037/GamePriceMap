@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1030840,
+  "fetchedAt": "2026-07-31T03:18:31.034Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1030840&cc=us&l=english",
+  "responseDigest": "sha256:8ba1fbee64c04903a01afb8efee6126aa145a48d757f2bfd8b70acc0537083c6",
+  "payload": {
+    "1030840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1030840,
+        "name": "Mafia: Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 87449
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d8743f5281f42cdda6bc9cca4ab343613d26717f15a93634322d796cabbb05d3"
+}

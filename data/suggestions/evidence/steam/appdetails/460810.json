@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 460810,
+  "fetchedAt": "2026-07-31T03:17:22.900Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=460810&cc=us&l=english",
+  "responseDigest": "sha256:58e50855b35c0e50c232347f0a388b34ee9f59a027b6a88d90fcfb18b5866f78",
+  "payload": {
+    "460810": {
+      "success": true,
+      "data": {
+        "steam_appid": 460810,
+        "name": "Vanquish",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6908
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:71a8be65a51ca780ba2c992ae1cb03620109f99b033804487a4784d6a48bfa64"
+}

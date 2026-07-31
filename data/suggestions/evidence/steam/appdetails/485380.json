@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 485380,
+  "fetchedAt": "2026-07-31T03:02:37.173Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=485380&cc=us&l=english",
+  "responseDigest": "sha256:6daf4d7dc56cbe4e7945b08f0623b0ce7ec0280b31d81d0b455c17266e87e336",
+  "payload": {
+    "485380": {
+      "success": true,
+      "data": {
+        "steam_appid": 485380,
+        "name": "Welcome to the Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 15, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2316
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c9dc4f2beae19c2e5ed55849d7cbe43969dcb0612a17389e687c8f5e40ecc88b"
+}

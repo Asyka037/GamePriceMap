@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1373090,
+  "fetchedAt": "2026-07-31T03:04:14.735Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1373090&cc=us&l=english",
+  "responseDigest": "sha256:c5ea93f6075a38a71402123760b12fed93916d2d0729b53e4223f13f26a92bce",
+  "payload": {
+    "1373090": {
+      "success": true,
+      "data": {
+        "steam_appid": 1373090,
+        "name": "Yes, Your Grace 2: Snowfall",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1424
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e9864a64fd9d2229cc9e04662dc75ed11cc7a99e9380b7a2d79b8475b9fa7fdd"
+}

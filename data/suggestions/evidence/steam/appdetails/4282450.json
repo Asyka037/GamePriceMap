@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4282450,
+  "fetchedAt": "2026-07-31T03:55:32.720Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4282450&cc=us&l=english",
+  "responseDigest": "sha256:e775539479b09c9ef93bae564cb16eec28531a0427178939de7f0e50a5129e78",
+  "payload": {
+    "4282450": {
+      "success": true,
+      "data": {
+        "steam_appid": 4282450,
+        "name": "Gunvolt Chronicles: Luminous Avenger iX 1+2 Dual Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:06b673b802114741fac5263b77ea1d7d797ca8289e218312c11aaab6e47939df"
+}

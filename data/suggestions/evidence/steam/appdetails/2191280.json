@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2191280,
+  "fetchedAt": "2026-07-31T03:11:22.995Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2191280&cc=us&l=english",
+  "responseDigest": "sha256:8f3a88af1da082e1705974a5d0eb3331ecf96faf9165d8dc0545af082a10b81b",
+  "payload": {
+    "2191280": {
+      "success": true,
+      "data": {
+        "steam_appid": 2191280,
+        "name": "Gurei",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1439,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 187
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:252c3218f42d012f5d90740d48513ce2cd04c79c7856cef41534d387b2a8ec93"
+}

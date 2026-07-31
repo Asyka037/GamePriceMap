@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 251110,
+  "fetchedAt": "2026-07-31T03:50:13.881Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=251110&cc=us&l=english",
+  "responseDigest": "sha256:a268fbb87e6a1e34034fb8d886c946b0e3533abccef52b4df4f16e473f1280f6",
+  "payload": {
+    "251110": {
+      "success": true,
+      "data": {
+        "steam_appid": 251110,
+        "name": "INFRA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 15, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 699,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 3414
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3178188ffe92a0e87f9e5585fa4ffcf6c05f1f2772bf0ef2e58d246867cea996"
+}

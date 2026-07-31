@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1016920,
+  "fetchedAt": "2026-07-31T02:56:02.539Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1016920&cc=us&l=english",
+  "responseDigest": "sha256:36fb8598e533e3c025677091cc704e33f9c2b20d68baf16a6952fdd122ff0329",
+  "payload": {
+    "1016920": {
+      "success": true,
+      "data": {
+        "steam_appid": 1016920,
+        "name": "Unrailed!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13714
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dae91cc57938b93976c68eba4165a0931720df60e5f8693cd927c7a751bf5991"
+}

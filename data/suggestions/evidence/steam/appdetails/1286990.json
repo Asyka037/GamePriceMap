@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1286990,
+  "fetchedAt": "2026-07-31T04:01:08.824Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1286990&cc=us&l=english",
+  "responseDigest": "sha256:36c71215c285e95f79b9fca7ac6cb0e33c9fa52bd1027877208443fb6f41ee06",
+  "payload": {
+    "1286990": {
+      "success": true,
+      "data": {
+        "steam_appid": 1286990,
+        "name": "CONSCRIPT: Director’s Cut",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2699,
+          "final": 917,
+          "discount_percent": 66
+        },
+        "recommendations": {
+          "total": 1930
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:92cd67db99368f3949535312e782014ea7149639ad4dd18471cf28a3112c6033"
+}

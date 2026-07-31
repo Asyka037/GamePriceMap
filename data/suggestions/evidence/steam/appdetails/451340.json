@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 451340,
+  "fetchedAt": "2026-07-31T02:56:55.360Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=451340&cc=us&l=english",
+  "responseDigest": "sha256:07f8018cf1e70943a1141c67adf446b6f99b4828b7ccb4fb4e17bd6e2310b55d",
+  "payload": {
+    "451340": {
+      "success": true,
+      "data": {
+        "steam_appid": 451340,
+        "name": "Gold Mining Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 13, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15018
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3072d34dee8e540d8bfbc3f5c12f51f0a9aa6e06259182645ca34e2640ccb60a"
+}

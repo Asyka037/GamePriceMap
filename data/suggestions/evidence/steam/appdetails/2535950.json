@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2535950,
+  "fetchedAt": "2026-07-31T03:22:54.201Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2535950&cc=us&l=english",
+  "responseDigest": "sha256:6e3892a840d95203c0d26e0b82425f6a613524a216bfd89dc65d5250ef3c2ad1",
+  "payload": {
+    "2535950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2535950,
+        "name": "Battlestar Galactica: Scattered Hopes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 974
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8342bbee5b191ea33d8e81d5ab99608f74957f23f54812f5afaa95cdd86ca522"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 200260,
+  "fetchedAt": "2026-07-31T03:15:34.984Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=200260&cc=us&l=english",
+  "responseDigest": "sha256:9503e88f168b77e09da3acc250d1a7a6e251380dccc0b60e64ce1b1e2ef76e79",
+  "payload": {
+    "200260": {
+      "success": true,
+      "data": {
+        "steam_appid": 200260,
+        "name": "Batman: Arkham City - Game of the Year Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 7, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 55301
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4aa6800a4c5e3e2ce6e42abf34cae6e01733b4092952cf0f9ad7ca8666d0cc94"
+}

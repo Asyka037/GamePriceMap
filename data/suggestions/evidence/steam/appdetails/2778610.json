@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2778610,
+  "fetchedAt": "2026-07-31T02:53:14.911Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2778610&cc=us&l=english",
+  "responseDigest": "sha256:3982fd35b5a6ae84d081d19a7656436176067f6a3e5e632c3d38334c8735bce6",
+  "payload": {
+    "2778610": {
+      "success": true,
+      "data": {
+        "steam_appid": 2778610,
+        "name": "Over The Top: WWI",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1914,
+          "final": 1914,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6330
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:89fca1c4fd5036efc1b144a508c63b7a70eb73cca32124d8b2cde7ea18c3f683"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1281220,
+  "fetchedAt": "2026-07-31T03:07:00.318Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1281220&cc=us&l=english",
+  "responseDigest": "sha256:b54fb6923183bfe09e69855c6561dc979b2ee245a8080a09fb1bf85f552184aa",
+  "payload": {
+    "1281220": {
+      "success": true,
+      "data": {
+        "steam_appid": 1281220,
+        "name": "Task Force Admiral - Vol.1: American Carrier Battles",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 582
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4037f599c23e76b0c6550f17f7b60f92a380b17231dffcb2ab1d8cf64d79a135"
+}

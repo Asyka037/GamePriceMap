@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2246670,
+  "fetchedAt": "2026-07-31T03:21:04.105Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2246670&cc=us&l=english",
+  "responseDigest": "sha256:b7e5385bab83632222658c1f8dcbcecdf29c1d8a37b1c249c2afb720d28044d3",
+  "payload": {
+    "2246670": {
+      "success": true,
+      "data": {
+        "steam_appid": 2246670,
+        "name": "Tales of Xillia Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2999,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 380
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aeade15ee1f8261de5a510976e6a623e0d6f005fd7c34368222695ba581111f5"
+}

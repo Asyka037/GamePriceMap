@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 285190,
+  "fetchedAt": "2026-07-31T03:15:49.778Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=285190&cc=us&l=english",
+  "responseDigest": "sha256:b286efd1ab1909a2d8ddf27d17eab12730938e998dfadef83a8dad1582886662",
+  "payload": {
+    "285190": {
+      "success": true,
+      "data": {
+        "steam_appid": 285190,
+        "name": "Warhammer 40,000: Dawn of War III",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 799,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 14329
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:86605773dcc16b14ed3cf2ec92bbfb0c8b41e026748a12b4868eb5da9dcf82cc"
+}

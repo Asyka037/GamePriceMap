@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 230190,
+  "fetchedAt": "2026-07-31T04:02:31.286Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=230190&cc=us&l=english",
+  "responseDigest": "sha256:be761cb23204b868b916d6e33be459508c13b5a5a04feb0337d3883e82caf66d",
+  "payload": {
+    "230190": {
+      "success": true,
+      "data": {
+        "steam_appid": 230190,
+        "name": "War for the Overworld",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 2, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6465
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:19f469b101de8809b0f1cd065b350e9ff0e575a2562086ad2abbac9bc03c44e4"
+}

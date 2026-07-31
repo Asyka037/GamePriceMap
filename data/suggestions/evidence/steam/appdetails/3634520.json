@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3634520,
+  "fetchedAt": "2026-07-31T02:56:29.077Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3634520&cc=us&l=english",
+  "responseDigest": "sha256:41edb74e20d5a2a68992c2046aea53ca20e3f9414e1800be289c9fd1a7fca900",
+  "payload": {
+    "3634520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3634520,
+        "name": "Samson",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2838
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:43d27b607577528766588b9b347d47c2fd1dfac70ddb55373658e9229963a545"
+}

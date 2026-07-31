@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3841510,
+  "fetchedAt": "2026-07-31T03:09:31.770Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3841510&cc=us&l=english",
+  "responseDigest": "sha256:cf836ce44b8a2fd4dd6730ea0f5e33309503b9e3a577e7bd94afcf5215964aa4",
+  "payload": {
+    "3841510": {
+      "success": true,
+      "data": {
+        "steam_appid": 3841510,
+        "name": "DYNASTY WARRIORS 3: Complete Edition Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e6096ea6f0a941d2b960077cb19488c70bd74594c1ba851cc621b3defdd85beb"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4261870,
+  "fetchedAt": "2026-07-31T03:53:58.220Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4261870&cc=us&l=english",
+  "responseDigest": "sha256:a1ee4171c783369d69c0b8ac27583bd752640fb3f8047edd105caaabdb146e57",
+  "payload": {
+    "4261870": {
+      "success": true,
+      "data": {
+        "steam_appid": 4261870,
+        "name": "Pixel Orbit",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:21c75ba87d6c1a6afc88bbf4cc2f502b3643b7337fe7b5a05b84333c4b374424"
+}

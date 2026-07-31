@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1016950,
+  "fetchedAt": "2026-07-31T03:01:38.965Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1016950&cc=us&l=english",
+  "responseDigest": "sha256:d838e646b37581a496ed7b207f2004f93665223d7c65e4845b7e02f241cfa574",
+  "payload": {
+    "1016950": {
+      "success": true,
+      "data": {
+        "steam_appid": 1016950,
+        "name": "Blood Bowl 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3917
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3032ab4d957d80578a69b3ac35a1b1d805a77b355bcea094714c04a2965e78fb"
+}

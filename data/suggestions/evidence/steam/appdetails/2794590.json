@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2794590,
+  "fetchedAt": "2026-07-31T02:59:04.246Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2794590&cc=us&l=english",
+  "responseDigest": "sha256:fd68cf7d197221f31ed95f2308f7c8ce96c31abe3901fdc946a31457a153f55e",
+  "payload": {
+    "2794590": {
+      "success": true,
+      "data": {
+        "steam_appid": 2794590,
+        "name": "Scam Line",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1008
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4798dde88f8abb5114ec8de0d318e776fb3c83ab042e95cc6231615a6232e63c"
+}

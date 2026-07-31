@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3604340,
+  "fetchedAt": "2026-07-31T02:56:44.991Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3604340&cc=us&l=english",
+  "responseDigest": "sha256:d4174f63bc61849f9555043cf69eb22907335418767b34872d78b10a35276b05",
+  "payload": {
+    "3604340": {
+      "success": true,
+      "data": {
+        "steam_appid": 3604340,
+        "name": "V Rising - Eternal Dominance Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 171
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c4599611d64f1af1f8d93c5a2ba5802ab003de5e62e545714228015e5231f63b"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4600490,
+  "fetchedAt": "2026-07-31T02:58:52.388Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4600490&cc=us&l=english",
+  "responseDigest": "sha256:504105a187374ca7c59f637fbb1352023f298b2eb4c7c91995a1d2778fa9b2c2",
+  "payload": {
+    "4600490": {
+      "success": true,
+      "data": {
+        "steam_appid": 4600490,
+        "name": "Tsunami Clash Pack - Battlefield™ 6 and REDSEC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:481adeb8fe75fba0d8408d058dfccee5793a28809129e5cecba4a04246cb66cd"
+}

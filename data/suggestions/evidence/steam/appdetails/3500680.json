@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3500680,
+  "fetchedAt": "2026-07-31T03:45:10.106Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3500680&cc=us&l=english",
+  "responseDigest": "sha256:e6ce6de5f991c45a5f763743c5f645e24f8b2c370dc339ad0b479f5263607427",
+  "payload": {
+    "3500680": {
+      "success": true,
+      "data": {
+        "steam_appid": 3500680,
+        "name": "Cropdeck",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1039,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 399
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b8aa853313a0f21724d63a56e7d7ef8ce07f67acca44acabd672282b663169e5"
+}

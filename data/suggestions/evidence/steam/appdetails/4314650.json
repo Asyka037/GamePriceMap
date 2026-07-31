@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4314650,
+  "fetchedAt": "2026-07-31T03:14:24.276Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4314650&cc=us&l=english",
+  "responseDigest": "sha256:e0f43484dad49347c9ec6070be005a905aaaa89df2ee17041132002d3f56e070",
+  "payload": {
+    "4314650": {
+      "success": true,
+      "data": {
+        "steam_appid": 4314650,
+        "name": "Victoria 3: The Great Wave - Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 552
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:858e54b255c813543d36ab68191376e74d57737c37529f6df8cd12c85b9347c2"
+}

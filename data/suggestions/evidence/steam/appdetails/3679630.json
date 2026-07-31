@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3679630,
+  "fetchedAt": "2026-07-31T03:35:33.814Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3679630&cc=us&l=english",
+  "responseDigest": "sha256:6066316e70dd3c465f2d274fd1dfeea86acd5d313059cbb3751748f23d86858d",
+  "payload": {
+    "3679630": {
+      "success": true,
+      "data": {
+        "steam_appid": 3679630,
+        "name": "PAYDAY 3: Party Powder Heist",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 243
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e8c8ca28bbb65e94f3bb81d6966bb1e7b542d63699b68714f0412c9b76f9da49"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 203140,
+  "fetchedAt": "2026-07-31T03:23:55.838Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=203140&cc=us&l=english",
+  "responseDigest": "sha256:f1af60eec02e4d5d065eadcfabe3bbde123b0aa6d532ca1824879b88b8a003ed",
+  "payload": {
+    "203140": {
+      "success": true,
+      "data": {
+        "steam_appid": 203140,
+        "name": "Hitman: Absolution™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 19, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 199,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 49144
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2330738ac69360aaa5adbeb34986728ddf7e59d77c3273649b4d1f3bac987c54"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1876590,
+  "fetchedAt": "2026-07-31T02:50:07.116Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1876590&cc=us&l=english",
+  "responseDigest": "sha256:7371c9255de6c603031a138df04ca1c3c6828d6d268ee894c340d1fc50ba7dfd",
+  "payload": {
+    "1876590": {
+      "success": true,
+      "data": {
+        "steam_appid": 1876590,
+        "name": "I Am Your Beast",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5167
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:203b1e53b73be9fec5de1c5b399ac9b7bbe9c72fa4c552881b3965584c7186b8"
+}

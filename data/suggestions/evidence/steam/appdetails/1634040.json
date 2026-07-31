@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1634040,
+  "fetchedAt": "2026-07-31T02:46:42.083Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1634040&cc=us&l=english",
+  "responseDigest": "sha256:2b34368c5b9e0db8ebfac489d7204f8440e3a8313def82c60c50a875bf183ff7",
+  "payload": {
+    "1634040": {
+      "success": true,
+      "data": {
+        "steam_appid": 1634040,
+        "name": "Dead by Daylight - Resident Evil Chapter",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 15, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2214
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ccbaaae0f9993623bb3dbc6fa7d6457df9fa006e89547a78d5e126b110949edb"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2996080,
+  "fetchedAt": "2026-07-31T03:39:10.308Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2996080&cc=us&l=english",
+  "responseDigest": "sha256:6fc0ad20d3ad627f08f6adbbef875b91fe2e63a5985bb669eb754ec1644f2dae",
+  "payload": {
+    "2996080": {
+      "success": true,
+      "data": {
+        "steam_appid": 2996080,
+        "name": "TAMASHIKA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 285
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4cf35a0d7a5a1812ef23ef0cc2abfd0e96b4f8ef428623a9f35a641aeaf9d276"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3595530,
+  "fetchedAt": "2026-07-31T03:51:46.096Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3595530&cc=us&l=english",
+  "responseDigest": "sha256:f61e48323e2f2630e26ccacabe59f715bf687881e38a044bd7fd95fc210c05d1",
+  "payload": {
+    "3595530": {
+      "success": true,
+      "data": {
+        "steam_appid": 3595530,
+        "name": "Dune: Imperium - Immortality",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 899,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a15b065c05a60553caa439b77af52b2b1d42428423cfcbe5439a19ceb9f13ce2"
+}

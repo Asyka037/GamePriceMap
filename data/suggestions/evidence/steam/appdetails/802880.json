@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 802880,
+  "fetchedAt": "2026-07-31T04:00:29.289Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=802880&cc=us&l=english",
+  "responseDigest": "sha256:04add1879577c148d408e31542771a04834844264bf3ff0067d6c014c7001a00",
+  "payload": {
+    "802880": {
+      "success": true,
+      "data": {
+        "steam_appid": 802880,
+        "name": "Muv-Luv",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 28, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1808
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4aec2800f0e32614b8a3401437f25aac61d85b7734a1236b02bdbe5c9527908d"
+}

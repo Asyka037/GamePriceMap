@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1359980,
+  "fetchedAt": "2026-07-31T03:09:47.997Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1359980&cc=us&l=english",
+  "responseDigest": "sha256:8a1852ca4db6b90aa8920831931fd262cfbadcd840d89f66198d6ee47f7e1440",
+  "payload": {
+    "1359980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1359980,
+        "name": "POSTAL: Brain Damaged",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 9, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9490
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9382241de7bf6fd296c913f6cee3d42fb0a365fe0f15639a0d8ec0409f475a99"
+}

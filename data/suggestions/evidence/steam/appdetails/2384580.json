@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2384580,
+  "fetchedAt": "2026-07-31T02:51:15.147Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2384580&cc=us&l=english",
+  "responseDigest": "sha256:4a55af70fee851dca81ed19517f11c007f807f9f181df9dba53caacac9b4b2c0",
+  "payload": {
+    "2384580": {
+      "success": true,
+      "data": {
+        "steam_appid": 2384580,
+        "name": "DYNASTY WARRIORS: ORIGINS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 4899,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 19339
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f80186f4770e491ec005cdc3c9b165a9fa5bb031050fb27fd00d788f1b3fb459"
+}

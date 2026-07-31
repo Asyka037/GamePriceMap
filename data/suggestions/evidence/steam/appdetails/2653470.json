@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2653470,
+  "fetchedAt": "2026-07-31T03:31:59.965Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2653470&cc=us&l=english",
+  "responseDigest": "sha256:e76a0ace6c8766fc5feee499e81e0f00c9e6b1d84cd53c3ef0f9f4f0dd0df0c4",
+  "payload": {
+    "2653470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2653470,
+        "name": "Little Problems: A Cozy Detective Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 599,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 427
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a862000db19bf8d3daacaa7a658d87bc9927041f866183ca891395801e1127bf"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 867210,
+  "fetchedAt": "2026-07-31T02:48:55.960Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=867210&cc=us&l=english",
+  "responseDigest": "sha256:7c2bd7c5103d3c52071004d4b465aa0c300d062f2e11ec5397cbc831484bc71d",
+  "payload": {
+    "867210": {
+      "success": true,
+      "data": {
+        "steam_appid": 867210,
+        "name": "Songs of Conquest",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 749,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 12070
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:86302f37f6f8422edcf2364a5d6fb5c74d7ffa66adc56cab8936e8da29834b69"
+}

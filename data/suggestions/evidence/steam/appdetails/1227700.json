@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1227700,
+  "fetchedAt": "2026-07-31T03:35:53.674Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1227700&cc=us&l=english",
+  "responseDigest": "sha256:112bf22ea82f95b2d51a8d62b04f683b24aa80ce92501581d9f3eff04c17f4ab",
+  "payload": {
+    "1227700": {
+      "success": true,
+      "data": {
+        "steam_appid": 1227700,
+        "name": "Arma 3 Creator DLC: S.O.G. Prairie Fire",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 6, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 2299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2150
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bf0719e537b1f8fd249d150a800f6b9cfa922fce24770257291506df7704bdcd"
+}

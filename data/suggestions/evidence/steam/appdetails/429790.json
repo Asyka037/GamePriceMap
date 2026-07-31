@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 429790,
+  "fetchedAt": "2026-07-31T03:14:21.317Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=429790&cc=us&l=english",
+  "responseDigest": "sha256:7cf882169014b9219e40251bccd06b60c5eeb6c872d3a0e75ddd31685ba93df8",
+  "payload": {
+    "429790": {
+      "success": true,
+      "data": {
+        "steam_appid": 429790,
+        "name": "AdventureQuest 3D",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 28, 2022"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:309ce47f030dc67f0a4471e1f5bf773098482fb7d845a0ae34aab1a325b6376c"
+}

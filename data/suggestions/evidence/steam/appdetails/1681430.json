@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1681430,
+  "fetchedAt": "2026-07-31T03:19:02.249Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1681430&cc=us&l=english",
+  "responseDigest": "sha256:ae5121cbb7890d30af0d0f90896ea59e7bb704124eadd82fac7d1b04cb59b61d",
+  "payload": {
+    "1681430": {
+      "success": true,
+      "data": {
+        "steam_appid": 1681430,
+        "name": "RoboCop: Rogue City",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 399,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 27046
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:03e973131d22290a66bfbbec911cf6f03b2d8a5498dd0a00dde312e3f63e0ee3"
+}

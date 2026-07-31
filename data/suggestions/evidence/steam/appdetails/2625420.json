@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2625420,
+  "fetchedAt": "2026-07-31T02:47:58.180Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2625420&cc=us&l=english",
+  "responseDigest": "sha256:77c86979c3a2e155c9480ce1d92efe61a9977ff736a6cbb8ff8c057e280d3495",
+  "payload": {
+    "2625420": {
+      "success": true,
+      "data": {
+        "steam_appid": 2625420,
+        "name": "Drive Beyond Horizons",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17566
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:09b5c9129266b08b4fd8ba29ae874a213d82e40a2361412c9db296f5b8dc15a7"
+}

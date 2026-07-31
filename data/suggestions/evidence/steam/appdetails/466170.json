@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 466170,
+  "fetchedAt": "2026-07-31T04:15:43.294Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=466170&cc=us&l=english",
+  "responseDigest": "sha256:588ba12f99608e016d8a9ea367c99aafbd4e012eaf4c736c41fe5c4977193856",
+  "payload": {
+    "466170": {
+      "success": true,
+      "data": {
+        "steam_appid": 466170,
+        "name": "Idling to Rule the Gods",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 27, 2016"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a39faaba67269b8fee685c2a0938a0c03bb82958f92381348af9e342e238eccb"
+}

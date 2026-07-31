@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 712100,
+  "fetchedAt": "2026-07-31T04:13:57.933Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=712100&cc=us&l=english",
+  "responseDigest": "sha256:82b0edecc8eeb95fba4a6a8737523e6c5a26efcaa6fc97a394bdb12c5ab239a8",
+  "payload": {
+    "712100": {
+      "success": true,
+      "data": {
+        "steam_appid": 712100,
+        "name": "A Total War Saga: THRONES OF BRITANNIA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 2, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12276
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d98467a2a48841d70db11fda324fe9f2c14d48facaa382d56ca145d49a803666"
+}

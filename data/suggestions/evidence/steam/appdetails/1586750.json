@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1586750,
+  "fetchedAt": "2026-07-31T04:17:05.807Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1586750&cc=us&l=english",
+  "responseDigest": "sha256:cc37831f4340fa361d5211f4c64edb22ff1095ae9cc3dab0a85d669997b396a0",
+  "payload": {
+    "1586750": {
+      "success": true,
+      "data": {
+        "steam_appid": 1586750,
+        "name": "Two Strikes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 249
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f2885108a09601e768b6e37894806dcb536b7bcb3cc3fd38d5047e0a3275e865"
+}

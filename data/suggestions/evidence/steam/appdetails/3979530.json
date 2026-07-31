@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3979530,
+  "fetchedAt": "2026-07-31T03:14:16.948Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3979530&cc=us&l=english",
+  "responseDigest": "sha256:5ed2a2b577736c7db5803f377e00afcf24341c7f5e5f26b298a7b7b756bd7257",
+  "payload": {
+    "3979530": {
+      "success": true,
+      "data": {
+        "steam_appid": 3979530,
+        "name": "Disney Dreamlight Valley: Wishblossom Ranch — Deluxe Edition",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 19, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9aa27b09f29f6e1e27b7287335780f71661bb92c24a5ec5ff777cb0e9d55ee9d"
+}

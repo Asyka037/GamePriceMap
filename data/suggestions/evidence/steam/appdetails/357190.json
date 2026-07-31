@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 357190,
+  "fetchedAt": "2026-07-31T02:55:46.425Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=357190&cc=us&l=english",
+  "responseDigest": "sha256:830e5e7c48e2c76f885ec67b836b68b88961366263e26948a4d779d0e3c92ac9",
+  "payload": {
+    "357190": {
+      "success": true,
+      "data": {
+        "steam_appid": 357190,
+        "name": "ULTIMATE MARVEL VS. CAPCOM 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 499,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 6437
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d92c05477fcd2ac937ad214cd0d9bbc431b787487612308dc2d84c5ebbf3f9ce"
+}

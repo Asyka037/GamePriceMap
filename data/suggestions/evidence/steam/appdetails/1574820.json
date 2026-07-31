@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1574820,
+  "fetchedAt": "2026-07-31T03:03:08.484Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1574820&cc=us&l=english",
+  "responseDigest": "sha256:c9076f6e7a05b07ce5a7a4cf2e6104023a5baa49d3dbff1300eb6bc59f074d14",
+  "payload": {
+    "1574820": {
+      "success": true,
+      "data": {
+        "steam_appid": 1574820,
+        "name": "Until Then",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15095
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bbafa89018ef919858f868526918573c7534b5ebbe0ecbb56dd0c0e1643ce839"
+}

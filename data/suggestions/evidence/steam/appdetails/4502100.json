@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4502100,
+  "fetchedAt": "2026-07-31T03:15:43.796Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4502100&cc=us&l=english",
+  "responseDigest": "sha256:db4f8070890d2cea5b9c7e36a6e2d00986009ef2f6495990abe22ba2cb9537dc",
+  "payload": {
+    "4502100": {
+      "success": true,
+      "data": {
+        "steam_appid": 4502100,
+        "name": "Space Engineers - Economy 2 Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 4, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e58bf12dc1bdb5b29271ade6dc95a346a8a6631a9ffd34075ae30a36fd29838"
+}

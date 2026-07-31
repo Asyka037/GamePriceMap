@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4453300,
+  "fetchedAt": "2026-07-31T03:22:40.598Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4453300&cc=us&l=english",
+  "responseDigest": "sha256:1a7fb890c3b8b7916cb793de34410ca39baf67a97a2b204ac27eebb4d307cdd1",
+  "payload": {
+    "4453300": {
+      "success": true,
+      "data": {
+        "steam_appid": 4453300,
+        "name": "Cup and Counter: Coffee Shop Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1274,
+          "discount_percent": 15
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48b92e8b57900b04f319057e934a032f31b1ebc3e46d70462462de4d7ca9faea"
+}

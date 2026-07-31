@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 674940,
+  "fetchedAt": "2026-07-31T02:46:06.109Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=674940&cc=us&l=english",
+  "responseDigest": "sha256:2d3a7ce4c1b520b0fc146c5aceaa0486d3e51c42ecb35a0a3d5275d7ee3c7ebd",
+  "payload": {
+    "674940": {
+      "success": true,
+      "data": {
+        "steam_appid": 674940,
+        "name": "Stick Fight: The Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 28, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 99832
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e90246a07180775f5b88090902f5f556156763e5f3191aa61876567f8f72a527"
+}

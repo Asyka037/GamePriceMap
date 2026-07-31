@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3752270,
+  "fetchedAt": "2026-07-31T02:59:32.353Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3752270&cc=us&l=english",
+  "responseDigest": "sha256:15072eb593102d841d1948021dae6419908c1743ebc39f15f150e9bc8634caf2",
+  "payload": {
+    "3752270": {
+      "success": true,
+      "data": {
+        "steam_appid": 3752270,
+        "name": "DELTARUNE Soundtrack",
+        "type": "music",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 477
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e550c376f4df73d3df832b90e7a906068a194d60e3af331918b3c7aa867b715e"
+}

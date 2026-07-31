@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2285550,
+  "fetchedAt": "2026-07-31T03:53:48.394Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2285550&cc=us&l=english",
+  "responseDigest": "sha256:09070907e59e8b95223f9cad33cf7cbb55d097ced792225f3a22aeaef51fe69b",
+  "payload": {
+    "2285550": {
+      "success": true,
+      "data": {
+        "steam_appid": 2285550,
+        "name": "Doloc Town",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1905
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:30d9fd1641b271ead113720535d3012339a109dbdf2e3335e368457cf608499c"
+}

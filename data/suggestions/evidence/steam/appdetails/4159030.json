@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4159030,
+  "fetchedAt": "2026-07-31T04:03:24.014Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4159030&cc=us&l=english",
+  "responseDigest": "sha256:f2b52e15cd31935eee058f2c32215d3d508dcb70e888f65ef2b01e03e0d6e2f0",
+  "payload": {
+    "4159030": {
+      "success": true,
+      "data": {
+        "steam_appid": 4159030,
+        "name": "Medieval Dynasty - Exquisite Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0fa01fdb60d5f56a2b14c8d57c2922d0d0c9846ea4d6e62c1a4f6fb58038a99f"
+}

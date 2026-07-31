@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1587130,
+  "fetchedAt": "2026-07-31T03:06:33.491Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1587130&cc=us&l=english",
+  "responseDigest": "sha256:91fe11eab1010e0d33571540d9b380d59a84ea7bf4b5f8997e3706469b6273aa",
+  "payload": {
+    "1587130": {
+      "success": true,
+      "data": {
+        "steam_appid": 1587130,
+        "name": "Blood West",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1874,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 6055
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d79cbc37888f09567ca4ebf67da72e9796bcdb879c0beca313908761f867bcfa"
+}

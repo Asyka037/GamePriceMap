@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1553260,
+  "fetchedAt": "2026-07-31T02:58:07.322Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1553260&cc=us&l=english",
+  "responseDigest": "sha256:01e0afe3f8d0deefd08ef08129ff074b938181c62f2a5f5262d591ec2c7f3cae",
+  "payload": {
+    "1553260": {
+      "success": true,
+      "data": {
+        "steam_appid": 1553260,
+        "name": "Scarlet Deer Inn",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 220
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e37ca1a251ecc0709e963d2df850bf5ea530c079fcdac16f857fdc5a5bebb11"
+}

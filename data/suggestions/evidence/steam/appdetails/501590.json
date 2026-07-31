@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 501590,
+  "fetchedAt": "2026-07-31T03:15:52.793Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=501590&cc=us&l=english",
+  "responseDigest": "sha256:6c42fb346cb87923fd82f4c5a0b4fe37c26915d1f68dd4d45d024ae85e518072",
+  "payload": {
+    "501590": {
+      "success": true,
+      "data": {
+        "steam_appid": 501590,
+        "name": "Bulletstorm: Full Clip Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 7, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 399,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 7767
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a4aa4680fd2251260d62b7e6b0a428f1a3dc315b09b4cd0a11b2b7503f572259"
+}

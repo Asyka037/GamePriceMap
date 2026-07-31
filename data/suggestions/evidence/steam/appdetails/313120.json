@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 313120,
+  "fetchedAt": "2026-07-31T02:57:33.639Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=313120&cc=us&l=english",
+  "responseDigest": "sha256:b086502c446509ae31abc845fd3eaa6dbeee1358cec50aa3215e33f2957d2cdc",
+  "payload": {
+    "313120": {
+      "success": true,
+      "data": {
+        "steam_appid": 313120,
+        "name": "Stranded Deep",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 10, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 43468
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a5fd0019773a6246f4c1e9395dee13c64de42a97a61acf434a9721176b062f9d"
+}

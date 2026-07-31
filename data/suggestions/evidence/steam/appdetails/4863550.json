@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4863550,
+  "fetchedAt": "2026-07-31T02:47:53.721Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4863550&cc=us&l=english",
+  "responseDigest": "sha256:3b07e85f90cb92c93a73310ddf4b0751f2bb37a2d0214823670cb5a57421de94",
+  "payload": {
+    "4863550": {
+      "success": true,
+      "data": {
+        "steam_appid": 4863550,
+        "name": "Dark and Darker - EAS10 Seasonal Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2b398fdf684b1a6ffa181ba20195af1b6f6cb767434aabf8ac4d6bea1b801c27"
+}

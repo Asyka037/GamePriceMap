@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4251710,
+  "fetchedAt": "2026-07-31T03:48:25.112Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4251710&cc=us&l=english",
+  "responseDigest": "sha256:b5a861fece28c75d8fd30df600b89ed0913bec2d77dfaad74438ad3543c23800",
+  "payload": {
+    "4251710": {
+      "success": true,
+      "data": {
+        "steam_appid": 4251710,
+        "name": "EXSTETRA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1999,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f58e620bb7828a4a931f049a5da3469ef11b11368cf13428421e8ef98098bd2e"
+}

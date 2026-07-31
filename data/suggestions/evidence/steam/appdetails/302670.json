@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 302670,
+  "fetchedAt": "2026-07-31T03:41:12.015Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=302670&cc=us&l=english",
+  "responseDigest": "sha256:176267d3f72436a888c5972dd7c8e7f2609f952399d1ea26258a9b0e6b7435be",
+  "payload": {
+    "302670": {
+      "success": true,
+      "data": {
+        "steam_appid": 302670,
+        "name": "Call to Arms",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 27, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 374,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 17372
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:58d8b95c6119717cdf8407a33f6c09126376c04613e27d888c6d379aee07a5df"
+}

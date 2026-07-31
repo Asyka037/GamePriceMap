@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 872280,
+  "fetchedAt": "2026-07-31T03:22:08.018Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=872280&cc=us&l=english",
+  "responseDigest": "sha256:adc371cafb3fd076f417bc1167b94f95bd9e968280657dc3a7167af775b1fc4a",
+  "payload": {
+    "872280": {
+      "success": true,
+      "data": {
+        "steam_appid": 872280,
+        "name": "Borderlands 2: Commander Lilith & the Fight for Sanctuary",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 9, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 494,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 551
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:69f2b12e7590a8f5900e1a26ec9791162ace5ea228d7a433cac79618f4986cca"
+}

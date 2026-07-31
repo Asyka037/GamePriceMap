@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3825600,
+  "fetchedAt": "2026-07-31T03:48:05.226Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3825600&cc=us&l=english",
+  "responseDigest": "sha256:af5b35d1d466d9c89ea88d50480e48ef173561d9e3c573597b85baaad49e4027",
+  "payload": {
+    "3825600": {
+      "success": true,
+      "data": {
+        "steam_appid": 3825600,
+        "name": "Culdcept The First",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2699,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b8921b946008bdd61a8b9d5b201990760ffebf624e2db16a58db9df59dcc5e40"
+}

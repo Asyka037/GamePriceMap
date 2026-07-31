@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1445790,
+  "fetchedAt": "2026-07-31T02:59:35.294Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1445790&cc=us&l=english",
+  "responseDigest": "sha256:acfac8abcdd13fe87fd60d3464f8d44656420b38f1e8477bcc893d39b47a7313",
+  "payload": {
+    "1445790": {
+      "success": true,
+      "data": {
+        "steam_appid": 1445790,
+        "name": "Make Way",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1557
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0c18d4af9da3eb767cbf6b010e4a201d23834a9a1c2743776ea881dbc0fb4920"
+}

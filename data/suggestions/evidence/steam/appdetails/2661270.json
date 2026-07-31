@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2661270,
+  "fetchedAt": "2026-07-31T03:03:17.217Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2661270&cc=us&l=english",
+  "responseDigest": "sha256:6026dfb92916dd4b75dd76c97c00a76731ec6cc35f5876e1110fd793ba123249",
+  "payload": {
+    "2661270": {
+      "success": true,
+      "data": {
+        "steam_appid": 2661270,
+        "name": "Dead by Daylight - All Things Wicked Chapter",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 790
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:55fc7dfe23cd80ffd9068aab86108275dfa6e63ec42f55b9c1b5a300a5cefb5b"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2790990,
+  "fetchedAt": "2026-07-31T03:03:46.729Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2790990&cc=us&l=english",
+  "responseDigest": "sha256:6a87296a300ea15d966d1e38d6c64cecb0492928bd42a7bbef0abfb7fc87b368",
+  "payload": {
+    "2790990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2790990,
+        "name": "Icarus: Creature Comforts Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:87812e83663b91290841f1fc5be72a2549d2af29ed157a429be6525002e4d6b6"
+}

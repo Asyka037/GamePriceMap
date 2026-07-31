@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 654890,
+  "fetchedAt": "2026-07-31T03:56:25.519Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=654890&cc=us&l=english",
+  "responseDigest": "sha256:7073d35d3590074e16f773a294105267f954e3547ec283dd434d6c2aa6b83aff",
+  "payload": {
+    "654890": {
+      "success": true,
+      "data": {
+        "steam_appid": 654890,
+        "name": "Grand Tactician: The Civil War (1861-1865)",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 24, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2293
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2db2ec7cfdee300aad62fefd54890a17beeee976ced14d8f43067009c29dd591"
+}

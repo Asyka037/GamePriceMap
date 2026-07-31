@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4181970,
+  "fetchedAt": "2026-07-31T03:38:04.633Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4181970&cc=us&l=english",
+  "responseDigest": "sha256:ff3e6631451c7fc0297d4233ac5d38adbb6bad48edbf7a56c99d4aa2c324d91e",
+  "payload": {
+    "4181970": {
+      "success": true,
+      "data": {
+        "steam_appid": 4181970,
+        "name": "Full Stride",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 181
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2d4023c00f3012a73cd09a4b986169c4090fbeb777f18f43d423b825c28777bd"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 475550,
+  "fetchedAt": "2026-07-31T03:01:16.864Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=475550&cc=us&l=english",
+  "responseDigest": "sha256:011af28062e2353f4bbe9dd742ecb8382dce49a63fb4a1511ef56b3991cef81e",
+  "payload": {
+    "475550": {
+      "success": true,
+      "data": {
+        "steam_appid": 475550,
+        "name": "Beholder",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 9, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 139,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 23020
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:50c5c5c8ab5347e04b54b4c03ffc0b68d8b2b7c8bc51dbac5037772f31782721"
+}

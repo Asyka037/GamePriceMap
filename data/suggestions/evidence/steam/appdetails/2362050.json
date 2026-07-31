@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2362050,
+  "fetchedAt": "2026-07-31T03:01:49.388Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2362050&cc=us&l=english",
+  "responseDigest": "sha256:c412980ba6bc5539196c3204d6b28fe6b87213903c48356b71376c88222fe575",
+  "payload": {
+    "2362050": {
+      "success": true,
+      "data": {
+        "steam_appid": 2362050,
+        "name": "MY HERO ACADEMIA: All’s Justice",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 737
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ae3203cb89d5b67ed6e5f80d2c8c826df3787ba908ad25c2a12fdcfb195340a"
+}

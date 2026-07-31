@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1207650,
+  "fetchedAt": "2026-07-31T02:49:13.913Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1207650&cc=us&l=english",
+  "responseDigest": "sha256:706bc411e179088569fdcad0f17a6be17ba76e051c2b72196d75b42a4fab65ef",
+  "payload": {
+    "1207650": {
+      "success": true,
+      "data": {
+        "steam_appid": 1207650,
+        "name": "Suzerain",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10396
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1f9d7d847b95dc9538c7353a08c4cc9d0d4062d5851e6c6484f5ac0803f19944"
+}

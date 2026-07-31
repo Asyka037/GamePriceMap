@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2386310,
+  "fetchedAt": "2026-07-31T03:31:40.088Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2386310&cc=us&l=english",
+  "responseDigest": "sha256:22d36204c2b0f0e509929165992e2a6a44520abe69fec1067f95dcf8ceceb1fd",
+  "payload": {
+    "2386310": {
+      "success": true,
+      "data": {
+        "steam_appid": 2386310,
+        "name": "Ultros",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 13, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 624,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 754
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9aacce54d000b00db6762358450bf64a4fa2e08bc2b4752a1d4f2276d861a09d"
+}

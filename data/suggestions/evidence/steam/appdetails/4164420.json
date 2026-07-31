@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4164420,
+  "fetchedAt": "2026-07-31T02:45:29.384Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4164420&cc=us&l=english",
+  "responseDigest": "sha256:4a6f4fff5c73a0d976fafbd301920d1c83521c9a98b0c815942c0194503135ec",
+  "payload": {
+    "4164420": {
+      "success": true,
+      "data": {
+        "steam_appid": 4164420,
+        "name": "My Winter Car",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 18129
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6db1199ee2b9ff2739c3e1db85250b407809c84fea507b40284e408513c1e7d0"
+}

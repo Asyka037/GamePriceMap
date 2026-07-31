@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1677310,
+  "fetchedAt": "2026-07-31T03:07:23.047Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1677310&cc=us&l=english",
+  "responseDigest": "sha256:7a24c8d286c3beead3de1d4796edf4ece1bbf1213649d666c4d2fcd1435fbce9",
+  "payload": {
+    "1677310": {
+      "success": true,
+      "data": {
+        "steam_appid": 1677310,
+        "name": "In Stars And Time",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7627
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2bf3030e74c2c0849643cd3adcc1e2344be61c64c60a2dd407c5c5e02c948dc6"
+}

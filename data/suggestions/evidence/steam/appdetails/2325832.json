@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2325832,
+  "fetchedAt": "2026-07-31T03:08:01.347Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2325832&cc=us&l=english",
+  "responseDigest": "sha256:6a3ee68c9fdaaeebf694ee90e34585850f0d127491233a3e0023c80cfd5ee240",
+  "payload": {
+    "2325832": {
+      "success": true,
+      "data": {
+        "steam_appid": 2325832,
+        "name": "Total War: WARHAMMER III - Elspeth – Thrones of Decay",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1212
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8e803cc0d07a33b01184db8ba45be88a4e1e928ef03a0cc136e97f7774495614"
+}

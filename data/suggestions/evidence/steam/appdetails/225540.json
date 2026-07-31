@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 225540,
+  "fetchedAt": "2026-07-31T03:13:32.408Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=225540&cc=us&l=english",
+  "responseDigest": "sha256:5dacf0d764e549ad6a9f3defd7908b9484ca30f68d5952bdad2453beeb4016eb",
+  "payload": {
+    "225540": {
+      "success": true,
+      "data": {
+        "steam_appid": 225540,
+        "name": "Just Cause™ 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 103744
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e4eb87749d4b50fced957db1fc99eac179fea909760f0ad46cc38e37c9ddaf37"
+}

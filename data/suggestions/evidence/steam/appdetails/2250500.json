@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2250500,
+  "fetchedAt": "2026-07-31T02:42:45.281Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2250500&cc=us&l=english",
+  "responseDigest": "sha256:24f84ac240d1a8ef23d34233a0c6eecf2fcea238341e66da5f3418164b32b431",
+  "payload": {
+    "2250500": {
+      "success": true,
+      "data": {
+        "steam_appid": 2250500,
+        "name": "Rhythia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1522
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:29b2ce4df260c4a9dd1d208daac16e050f0f6ef48a2fa47b7ce6ac088468c7b6"
+}

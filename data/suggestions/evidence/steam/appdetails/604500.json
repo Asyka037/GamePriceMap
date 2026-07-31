@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 604500,
+  "fetchedAt": "2026-07-31T03:22:49.560Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=604500&cc=us&l=english",
+  "responseDigest": "sha256:bd43b4060252f3c47633fe85b0e6aed454722358de118caa486af528f0d48972",
+  "payload": {
+    "604500": {
+      "success": true,
+      "data": {
+        "steam_appid": 604500,
+        "name": "Tank Force: Online Shooter Game",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b529c170eed2584316c094295fcd8a3222d1473132e433fb3231999150258948"
+}

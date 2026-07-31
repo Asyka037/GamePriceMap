@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2013360,
+  "fetchedAt": "2026-07-31T02:59:01.345Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2013360&cc=us&l=english",
+  "responseDigest": "sha256:8ac924c8764930c46db6dbe7fa328d111a3b49fee6a4f39dd5c4605c875add41",
+  "payload": {
+    "2013360": {
+      "success": true,
+      "data": {
+        "steam_appid": 2013360,
+        "name": "The Oregon Trail",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 989,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 1186
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:60f6af5729d258614c5d4523642546e6e5a5400c8884fcb06b4b06e1601c5d9c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3450980,
+  "fetchedAt": "2026-07-31T02:47:17.580Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3450980&cc=us&l=english",
+  "responseDigest": "sha256:069f8c8a619e9f9df072f328783e7d6917176f61136a04ff6011c08a696706a9",
+  "payload": {
+    "3450980": {
+      "success": true,
+      "data": {
+        "steam_appid": 3450980,
+        "name": "Total War: WARHAMMER III - Dechala – Tides of Torment",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 402
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0c37a92f9f5607f01223d97a5c02fd103fb6af6fda29175ee7e6774b3f15d8ab"
+}

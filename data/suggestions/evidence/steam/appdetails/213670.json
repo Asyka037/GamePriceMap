@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 213670,
+  "fetchedAt": "2026-07-31T02:54:11.781Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=213670&cc=us&l=english",
+  "responseDigest": "sha256:5c2ea65f5ff1d8cca1a682df54b39763e1d0f3f3fb4b1d26e58738fc6f787c32",
+  "payload": {
+    "213670": {
+      "success": true,
+      "data": {
+        "steam_appid": 213670,
+        "name": "South Park™: The Stick of Truth™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 3, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 599,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 60480
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:18612bdab2045ee5ce8d58b98e7d61b04a163c244419f423dcb6fee30c7d9455"
+}

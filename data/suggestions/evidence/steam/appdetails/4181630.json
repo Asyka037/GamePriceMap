@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4181630,
+  "fetchedAt": "2026-07-31T03:15:14.430Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4181630&cc=us&l=english",
+  "responseDigest": "sha256:81ba956ecd231561ee87fad3714e372a53ebf63541499055e6b37e00c6532fd2",
+  "payload": {
+    "4181630": {
+      "success": true,
+      "data": {
+        "steam_appid": 4181630,
+        "name": "WWE 2K26 Ringside Pass Premium Season 4",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9ca0f24009367b18c6df0d18983815ba181457df070dee6164c3f7f3d1db944a"
+}

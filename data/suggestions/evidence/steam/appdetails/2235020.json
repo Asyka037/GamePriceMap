@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2235020,
+  "fetchedAt": "2026-07-31T03:13:54.468Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2235020&cc=us&l=english",
+  "responseDigest": "sha256:dc219d2e7d865249cc6098222f8accf9baf0f227eeaccfb62e64b6b21bf39368",
+  "payload": {
+    "2235020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2235020,
+        "name": "Contra: Operation Galuga",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 796
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d67f23ef18be0484ec517f46cad8accff027c40b69257214fb389f7ae8881ca1"
+}

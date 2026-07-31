@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1933390,
+  "fetchedAt": "2026-07-31T02:54:01.565Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1933390&cc=us&l=english",
+  "responseDigest": "sha256:79b2f0cb3245b5f933cd0d199a28ff248feca30d333d86507454122f7fbd2fb4",
+  "payload": {
+    "1933390": {
+      "success": true,
+      "data": {
+        "steam_appid": 1933390,
+        "name": "Rain World: Downpour",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 19, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2270
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c28b43da578c05a46849549f16f1a1ad6c29bf4cf30e6b6b848d49f114c7d97d"
+}

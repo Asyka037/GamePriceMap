@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 228380,
+  "fetchedAt": "2026-07-31T02:54:53.413Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=228380&cc=us&l=english",
+  "responseDigest": "sha256:cadf8de95484a67db403292187d6733c6d0f2f126e54a806009fe6fa0f89fabb",
+  "payload": {
+    "228380": {
+      "success": true,
+      "data": {
+        "steam_appid": 228380,
+        "name": "Wreckfest",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 14, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 31093
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4720d56eb3df2b7c4e37f626d82be54615fedced97cf3e6b4b9ff8a75c4349d5"
+}

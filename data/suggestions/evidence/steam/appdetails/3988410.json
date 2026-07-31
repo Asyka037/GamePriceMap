@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3988410,
+  "fetchedAt": "2026-07-31T03:44:40.433Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3988410&cc=us&l=english",
+  "responseDigest": "sha256:12cc137aa6253112d9040c3d2ae89214dcac3dca0b98aee24d519b085a7f6567",
+  "payload": {
+    "3988410": {
+      "success": true,
+      "data": {
+        "steam_appid": 3988410,
+        "name": "Phantom Tower",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:77557d03b5af92f7896374c68695d7c4f33a7da7130936a23fec1cc8d36674c6"
+}

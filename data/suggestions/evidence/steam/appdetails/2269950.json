@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2269950,
+  "fetchedAt": "2026-07-31T03:41:25.134Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2269950&cc=us&l=english",
+  "responseDigest": "sha256:d1c9f3e86b8f729ab62dc8f8d086b162d1c9bc0a6de2e2760f363bb6df6fc37d",
+  "payload": {
+    "2269950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2269950,
+        "name": "The Karters 2: Turbo Charged",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1018
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ba311ba5d7f4ee4ff9644efd2749e3cd7ef50ff6ffd2af9d7d58dcf701a44f98"
+}

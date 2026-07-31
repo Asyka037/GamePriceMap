@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1790930,
+  "fetchedAt": "2026-07-31T03:45:23.250Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1790930&cc=us&l=english",
+  "responseDigest": "sha256:1e0a79f811c5d3337ea499fecbd288e27c684258591a2200021503992c745ab5",
+  "payload": {
+    "1790930": {
+      "success": true,
+      "data": {
+        "steam_appid": 1790930,
+        "name": "Crisol: Theater of Idols",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3924
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:613bbbad3e6b6581b639d482c4db83c7117e6d66fc6e54bd34767a4b34c2be4e"
+}

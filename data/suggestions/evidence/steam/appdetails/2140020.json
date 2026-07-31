@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2140020,
+  "fetchedAt": "2026-07-31T03:23:26.565Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2140020&cc=us&l=english",
+  "responseDigest": "sha256:3b3d28a844a80b1867c9223e15faeb66ae9dfb902c5eb82a19d30b497f3d9797",
+  "payload": {
+    "2140020": {
+      "success": true,
+      "data": {
+        "steam_appid": 2140020,
+        "name": "Stronghold: Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9681
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8bde106cec31096a635679c21ef2c6a60feaa36ae91a9bfb864a18c6a8e9073b"
+}

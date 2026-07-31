@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3478050,
+  "fetchedAt": "2026-07-31T02:55:21.313Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3478050&cc=us&l=english",
+  "responseDigest": "sha256:9650cba45bc11462ea4e18c4f27df8693ee5ca3463d31df68890c5cc15c85723",
+  "payload": {
+    "3478050": {
+      "success": true,
+      "data": {
+        "steam_appid": 3478050,
+        "name": "Road to Empress I",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 8, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 849,
+          "final": 849,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11522
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:83a757534db68ab4b84d1038a63019c7757768ed2bd5bba76eb8d5dfde9d3949"
+}

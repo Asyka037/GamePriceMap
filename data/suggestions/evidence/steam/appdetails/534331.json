@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 534331,
+  "fetchedAt": "2026-07-31T04:06:08.593Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=534331&cc=us&l=english",
+  "responseDigest": "sha256:651f38bb3f3641048ecb7c2264b955fcbd5c65e5ac830c0d6446cfacc66c4ffe",
+  "payload": {
+    "534331": {
+      "success": true,
+      "data": {
+        "steam_appid": 534331,
+        "name": "Total War: WARHAMMER - Realm of The Wood Elves",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 8, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1899,
+          "final": 1899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1128
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:099f6c07d0a31f6f5c3f9fec8a1a37673f06bead626b3d62dd01340ea0b02f31"
+}

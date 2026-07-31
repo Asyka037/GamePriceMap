@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 591960,
+  "fetchedAt": "2026-07-31T03:43:16.508Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=591960&cc=us&l=english",
+  "responseDigest": "sha256:b38824cb3dfe9cb3629d3285cd2403f8208a69b406e9cc721f86cef81cd01459",
+  "payload": {
+    "591960": {
+      "success": true,
+      "data": {
+        "steam_appid": 591960,
+        "name": "Animation Throwdown: The Quest for Cards",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 5, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b5997a32103422cf2a7bb5a4192c8e847701f89146f38379f331a4dbbc325be9"
+}

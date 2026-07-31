@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1737870,
+  "fetchedAt": "2026-07-31T03:56:32.058Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1737870&cc=us&l=english",
+  "responseDigest": "sha256:a167366c1dbe05945eccb86a6df3f4bd11217e6d598902bc73d993c0cf5e63a9",
+  "payload": {
+    "1737870": {
+      "success": true,
+      "data": {
+        "steam_appid": 1737870,
+        "name": "REKA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2945
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cd74e62f4b581db032f99f0c7702227673f2e062ff53f86534c83a5d5c1707d3"
+}

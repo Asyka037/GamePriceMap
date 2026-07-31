@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4867330,
+  "fetchedAt": "2026-07-31T03:16:00.432Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4867330&cc=us&l=english",
+  "responseDigest": "sha256:d129c8cb109b5b23abc2b3e3c80ec42531a0bd29ed201f9084b7d39f7570c475",
+  "payload": {
+    "4867330": {
+      "success": true,
+      "data": {
+        "steam_appid": 4867330,
+        "name": "Toy Keeper",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 160
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:964a0f3213d873045a63fe1d7298aee94ec7a189e32eec73b0cf90993de6b86d"
+}

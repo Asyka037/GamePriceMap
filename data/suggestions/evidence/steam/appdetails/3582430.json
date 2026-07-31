@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3582430,
+  "fetchedAt": "2026-07-31T03:38:44.086Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3582430&cc=us&l=english",
+  "responseDigest": "sha256:ac69e0af0016fa1d9a76fc33b287219cb2d735c9d474ec3446614be60f7a2e5e",
+  "payload": {
+    "3582430": {
+      "success": true,
+      "data": {
+        "steam_appid": 3582430,
+        "name": "Uh Oh Airlines",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b53d520309a21f7b3815f671e7fd09ca6e1627a8dd1024fe43feb32594f9b737"
+}

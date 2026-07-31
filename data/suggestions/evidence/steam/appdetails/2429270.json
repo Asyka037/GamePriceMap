@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2429270,
+  "fetchedAt": "2026-07-31T04:10:56.952Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2429270&cc=us&l=english",
+  "responseDigest": "sha256:3dee76e381389f13772e73e629fda668d9bff59988f1e00181c30a53aa5ad5d2",
+  "payload": {
+    "2429270": {
+      "success": true,
+      "data": {
+        "steam_appid": 2429270,
+        "name": "The RPG",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 7, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 750
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:db23767b91b6c4c73cf50cb41e24fd8582a430350e14546a3f200ed6238374eb"
+}

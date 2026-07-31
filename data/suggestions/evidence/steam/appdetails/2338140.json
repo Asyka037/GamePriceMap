@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2338140,
+  "fetchedAt": "2026-07-31T03:59:30.344Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2338140&cc=us&l=english",
+  "responseDigest": "sha256:b1307ef3a601737e5889fd2ff6065f0db59bddb76cae321c2253558257aae2f0",
+  "payload": {
+    "2338140": {
+      "success": true,
+      "data": {
+        "steam_appid": 2338140,
+        "name": "Dokapon Kingdom: Connect",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 7, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 775
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:06d737511bd5ecf9b126799d83fe0efaa207518f84cab32eb23dde8bd56819b9"
+}

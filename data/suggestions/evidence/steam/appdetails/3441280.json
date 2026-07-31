@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3441280,
+  "fetchedAt": "2026-07-31T04:13:44.787Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3441280&cc=us&l=english",
+  "responseDigest": "sha256:a9674f9fb0e775fe1f07792ae276913062436f7b1d8236f348fc9364106bb049",
+  "payload": {
+    "3441280": {
+      "success": true,
+      "data": {
+        "steam_appid": 3441280,
+        "name": "The Greenening",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 424
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8e05bdad825855500ba04879fe8b75b383c908360d4a599da75a383da58eb4b2"
+}

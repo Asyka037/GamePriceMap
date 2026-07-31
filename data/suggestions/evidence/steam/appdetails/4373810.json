@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4373810,
+  "fetchedAt": "2026-07-31T03:15:26.190Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4373810&cc=us&l=english",
+  "responseDigest": "sha256:567512e085275728f8e732d195b63af208cf6458543591af558dc035b4c62841",
+  "payload": {
+    "4373810": {
+      "success": true,
+      "data": {
+        "steam_appid": 4373810,
+        "name": "Season 3 Advanced Pack - Battlefield™ 6 and REDSEC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 12, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1d591264ed3cb35e0f5c5ecdb9e26129e1dad24bbd49c44610cdf0f458c3e40b"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3837350,
+  "fetchedAt": "2026-07-31T03:11:48.089Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3837350&cc=us&l=english",
+  "responseDigest": "sha256:5ea1b4116117839a2a127acf0a083c6b19093006a1b03ccd82a1d03ac2c98818",
+  "payload": {
+    "3837350": {
+      "success": true,
+      "data": {
+        "steam_appid": 3837350,
+        "name": "Staffer Retro : A Supernatural Mystery Quest",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2249,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 527
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8c638646c8d8c7f9a1b78751673698efb30131a53d3903f74c94d6bac5dd53c6"
+}

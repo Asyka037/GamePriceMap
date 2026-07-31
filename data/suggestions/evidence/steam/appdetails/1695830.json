@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1695830,
+  "fetchedAt": "2026-07-31T04:00:39.125Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1695830&cc=us&l=english",
+  "responseDigest": "sha256:5b2ca3672a4c890f44c6c532b46573c009747cbaa354f5c7ac458a5095c8aba1",
+  "payload": {
+    "1695830": {
+      "success": true,
+      "data": {
+        "steam_appid": 1695830,
+        "name": "Baldur's Gate: Dark Alliance",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 17, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 945
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:590056dd8ed86fd3fc8b8a542b7332d20f7ae924232438c2ac75d0ab5d60e526"
+}

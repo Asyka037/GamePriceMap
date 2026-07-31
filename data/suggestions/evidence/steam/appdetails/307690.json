@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 307690,
+  "fetchedAt": "2026-07-31T02:57:39.413Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=307690&cc=us&l=english",
+  "responseDigest": "sha256:25ed3cd068e601e953f25d3ff1740a6a66b54f7ec4a7aa4d8a0f648438c4ea79",
+  "payload": {
+    "307690": {
+      "success": true,
+      "data": {
+        "steam_appid": 307690,
+        "name": "Sleeping Dogs: Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 69559
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63ad31646f7e41779bdb1f792505a319efb61db125d3465ba670e3d20fdfc4e1"
+}

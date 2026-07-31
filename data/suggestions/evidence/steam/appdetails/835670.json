@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 835670,
+  "fetchedAt": "2026-07-31T03:43:52.425Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=835670&cc=us&l=english",
+  "responseDigest": "sha256:fb095c06b24be2981e9b60c770af187a567a8e19313f5488b87a374181a6d32a",
+  "payload": {
+    "835670": {
+      "success": true,
+      "data": {
+        "steam_appid": 835670,
+        "name": "Total War: WARHAMMER II - Curse of the Vampire Coast",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 8, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1899,
+          "final": 1899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1382
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b24019df88aa257cd13b7eae2738a0a6dc9ab29848165fb5e8fa88eaaf728911"
+}

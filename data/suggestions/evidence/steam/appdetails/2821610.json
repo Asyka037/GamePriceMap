@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2821610,
+  "fetchedAt": "2026-07-31T03:19:08.266Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2821610&cc=us&l=english",
+  "responseDigest": "sha256:6735ef89556c14475ff3f002f4a074dbf5890d0a9cd6dcc256314958dc5c186e",
+  "payload": {
+    "2821610": {
+      "success": true,
+      "data": {
+        "steam_appid": 2821610,
+        "name": "Echoes of the End: Enhanced Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1199,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 1362
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:820548b3c8c1b2c1659dd822c34cd355c9e22433711ce67eed20a1156a0b5546"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3354220,
+  "fetchedAt": "2026-07-31T03:32:26.425Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3354220&cc=us&l=english",
+  "responseDigest": "sha256:c20da875bdd6e5e9b8b49ca6f33d634fd8cbf303a3ca2a9e4ae70c5e19767f21",
+  "payload": {
+    "3354220": {
+      "success": true,
+      "data": {
+        "steam_appid": 3354220,
+        "name": "Comic Book Store Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 719,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 162
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:19e38dbe58109405eb54f942517b2436ba29ea93f2ed13cd0e4b3b499b856bbd"
+}

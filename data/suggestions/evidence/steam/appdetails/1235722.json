@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1235722,
+  "fetchedAt": "2026-07-31T03:06:42.341Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1235722&cc=us&l=english",
+  "responseDigest": "sha256:fc42bee7cadf5eac942512d2d4c8d6fdcc81dbbe1c153f2a139c2ca5e7c7e524",
+  "payload": {
+    "1235722": {
+      "success": true,
+      "data": {
+        "steam_appid": 1235722,
+        "name": "The Sims™ 4 Discover University",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 198
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2118e8fbd76ee91a9ceb8b7ade46235285265e49567109b65065d684a326c35e"
+}

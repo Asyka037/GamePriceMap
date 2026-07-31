@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1693980,
+  "fetchedAt": "2026-07-31T02:52:19.475Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1693980&cc=us&l=english",
+  "responseDigest": "sha256:39c03b289301e24be4f4e96741961ae76cf32b3f37aa2504bef32eb7fff9e691",
+  "payload": {
+    "1693980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1693980,
+        "name": "Dead Space",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 27, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 61407
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9514b93de3c9b5931072e570517266494e20843fe8b057d8a14cd94fa401e707"
+}

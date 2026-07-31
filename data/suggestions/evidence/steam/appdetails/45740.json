@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 45740,
+  "fetchedAt": "2026-07-31T03:06:45.388Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=45740&cc=us&l=english",
+  "responseDigest": "sha256:42ff5a51f713b85a44bf251416a3537c13832831c1b16fc2e294371cbaee2e3e",
+  "payload": {
+    "45740": {
+      "success": true,
+      "data": {
+        "steam_appid": 45740,
+        "name": "Dead Rising® 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 27, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6194
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a1fd8ef539c1a8f2488fd652fb4224ed63b5a56737d991bd71274d6e57c88a1e"
+}

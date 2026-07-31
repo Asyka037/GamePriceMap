@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1174370,
+  "fetchedAt": "2026-07-31T04:09:37.558Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1174370&cc=us&l=english",
+  "responseDigest": "sha256:116121a9064d62dd563bdde39ac729d762bb7e79df61968f7e38d0ab7bc57faf",
+  "payload": {
+    "1174370": {
+      "success": true,
+      "data": {
+        "steam_appid": 1174370,
+        "name": "Rust - Instruments Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 888
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8b8f2bed2a0078a3d9a50437828e52a6aa982f5b08a633ffc88be9f051db136a"
+}

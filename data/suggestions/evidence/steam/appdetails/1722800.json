@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1722800,
+  "fetchedAt": "2026-07-31T03:20:09.102Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1722800&cc=us&l=english",
+  "responseDigest": "sha256:459ee8820a038b6b70c8c7e49ef8a7ce65787b47930eb4e2de1936e35cfcc53a",
+  "payload": {
+    "1722800": {
+      "success": true,
+      "data": {
+        "steam_appid": 1722800,
+        "name": "Colossus - Eternal Blight",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1279,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b2009d91617add3cb8a845a55979055ad02f83a0306fb4e0506a741edbdf5431"
+}

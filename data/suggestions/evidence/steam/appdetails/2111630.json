@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2111630,
+  "fetchedAt": "2026-07-31T03:02:11.786Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2111630&cc=us&l=english",
+  "responseDigest": "sha256:af03399c48d8380be0a65abc248205a55c5274ad7aace6df71e491c68e028cae",
+  "payload": {
+    "2111630": {
+      "success": true,
+      "data": {
+        "steam_appid": 2111630,
+        "name": "JR EAST Train Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 2299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1206
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2dabb1cd270ed062efbb69bbbb8133ebe535d0eb66a1df416d348bc992f86358"
+}

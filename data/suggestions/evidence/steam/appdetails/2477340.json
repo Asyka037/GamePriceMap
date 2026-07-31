@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2477340,
+  "fetchedAt": "2026-07-31T02:52:22.418Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2477340&cc=us&l=english",
+  "responseDigest": "sha256:0dc29725409167068c2e574f37ad187f5a3aa8111cd4a22e9cd2c128329c4e30",
+  "payload": {
+    "2477340": {
+      "success": true,
+      "data": {
+        "steam_appid": 2477340,
+        "name": "Expeditions: A MudRunner Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2955
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a46dc0f17481a302ef5a339ff6ffd2a4ace389af2858f1e54f461e40581876a2"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1677770,
+  "fetchedAt": "2026-07-31T03:17:47.955Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1677770&cc=us&l=english",
+  "responseDigest": "sha256:0283b91991f322781ba96832a6c51c02cf2bdfd979b33daaebad608620730ff9",
+  "payload": {
+    "1677770": {
+      "success": true,
+      "data": {
+        "steam_appid": 1677770,
+        "name": "The Case of the Golden Idol",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 13, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9652
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c3e71e11f6e6facf3cf6ac1e0d9b24924b2f847d3363dec7db7a39501c5bc486"
+}

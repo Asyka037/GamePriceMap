@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4210010,
+  "fetchedAt": "2026-07-31T02:58:27.202Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4210010&cc=us&l=english",
+  "responseDigest": "sha256:fbebd1b8287e8f5cc10cbc4bb7b39c6d80de3d86b590bb46e6dd1920a59d2cd8",
+  "payload": {
+    "4210010": {
+      "success": true,
+      "data": {
+        "steam_appid": 4210010,
+        "name": "Incremental Infinity",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 128
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2a27cfe30b34cc2805dc4680cd86d38a3112405f8f18683639d07e7310564910"
+}

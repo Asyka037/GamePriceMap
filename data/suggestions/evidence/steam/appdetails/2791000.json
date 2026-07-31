@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2791000,
+  "fetchedAt": "2026-07-31T02:53:40.480Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2791000&cc=us&l=english",
+  "responseDigest": "sha256:45629c093116932f2eeabf752d2eff4b6b75e1b4b0ce8f564412a87d3d380bc3",
+  "payload": {
+    "2791000": {
+      "success": true,
+      "data": {
+        "steam_appid": 2791000,
+        "name": "Icarus: Homestead Content Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 19, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:500a3e600376eb775317423d43ffeee019086d015a2e1f91399a157c5516c05e"
+}

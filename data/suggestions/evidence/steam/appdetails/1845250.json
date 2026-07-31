@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1845250,
+  "fetchedAt": "2026-07-31T03:00:35.103Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1845250&cc=us&l=english",
+  "responseDigest": "sha256:6957cadae2602b61a73a5ff76fac8f82282a2e306e4a0dadf330269efb170d56",
+  "payload": {
+    "1845250": {
+      "success": true,
+      "data": {
+        "steam_appid": 1845250,
+        "name": "Rubinite",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1799,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 1683
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c9fc7e8a58638718d487428acfd72985cd55c8f207515427849f442ebfa73d10"
+}

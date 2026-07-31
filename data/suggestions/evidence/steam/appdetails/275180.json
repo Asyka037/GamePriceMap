@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 275180,
+  "fetchedAt": "2026-07-31T03:39:56.190Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=275180&cc=us&l=english",
+  "responseDigest": "sha256:5a2cbeb10214572aad71adf3f9518236ee7e485413bed6c6ab0c3bf436283160",
+  "payload": {
+    "275180": {
+      "success": true,
+      "data": {
+        "steam_appid": 275180,
+        "name": "Costume Quest 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 7, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 773
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:623d55b95b87db0f8ddaaddf661891e36fe5c4fc1c4dc1b4c14c6cb6423be626"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1411910,
+  "fetchedAt": "2026-07-31T03:11:15.668Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1411910&cc=us&l=english",
+  "responseDigest": "sha256:f4fe5271b12f7b1a663ca451e536f7c02c59b03be2f6c7af5bb2bb1a82ab53da",
+  "payload": {
+    "1411910": {
+      "success": true,
+      "data": {
+        "steam_appid": 1411910,
+        "name": "Fallen Aces",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 14, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1124,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 6434
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c707a11e4295928f85315b8108ba9025235cc01bf78c11d8f07c809ee9e45c48"
+}

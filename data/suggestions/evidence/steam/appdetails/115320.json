@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 115320,
+  "fetchedAt": "2026-07-31T03:22:33.262Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=115320&cc=us&l=english",
+  "responseDigest": "sha256:49cf1f24dcda3fcfb2ee7446d5274fdd3f76237a06727ecb39d9baf3c58e11a0",
+  "payload": {
+    "115320": {
+      "success": true,
+      "data": {
+        "steam_appid": 115320,
+        "name": "Prototype 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2012"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10337
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5ec8cfb81603a9697f8f112d8d1ff4eae7768c3b4efb98e2b2f826e8fba6a454"
+}

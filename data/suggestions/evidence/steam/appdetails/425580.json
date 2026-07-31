@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 425580,
+  "fetchedAt": "2026-07-31T03:34:44.473Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=425580&cc=us&l=english",
+  "responseDigest": "sha256:9dec0507a7a0f6640df2c870090441971130777f4821184f0520353f0f664620",
+  "payload": {
+    "425580": {
+      "success": true,
+      "data": {
+        "steam_appid": 425580,
+        "name": "The Room Two",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 5, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 99,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 20910
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5ea852c5652ede6941ef02565a2918230e5771e57add731eb32f88656a2c38ec"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 569860,
+  "fetchedAt": "2026-07-31T03:49:54.106Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=569860&cc=us&l=english",
+  "responseDigest": "sha256:44e11024149d2c6d96192733a696df5e0b4917bd7dc3954d93b1b2a959617af3",
+  "payload": {
+    "569860": {
+      "success": true,
+      "data": {
+        "steam_appid": 569860,
+        "name": "Thimbleweed Park™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 30, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 3578
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:35ffbaab6b2b1ee52755b12dbdffcde31d6fa7249fe09a38adf6100ec6828851"
+}

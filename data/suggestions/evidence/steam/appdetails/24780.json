@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 24780,
+  "fetchedAt": "2026-07-31T04:00:49.011Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=24780&cc=us&l=english",
+  "responseDigest": "sha256:ffb5dc1e1b018f0342f2c8a440657c93ed2129614a199145afa8c6735e170148",
+  "payload": {
+    "24780": {
+      "success": true,
+      "data": {
+        "steam_appid": 24780,
+        "name": "SimCity™ 4 Deluxe Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8431
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c74e3c69f6050f7739348eb4c48b0da764ab6f9fee3eb5a1af5fb013bb48b34e"
+}

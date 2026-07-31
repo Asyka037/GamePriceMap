@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 368260,
+  "fetchedAt": "2026-07-31T02:59:23.387Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=368260&cc=us&l=english",
+  "responseDigest": "sha256:1a304ffe54b6019093f29a23ca35297de23e05daa61aa9309d161903d98ce2e1",
+  "payload": {
+    "368260": {
+      "success": true,
+      "data": {
+        "steam_appid": 368260,
+        "name": "Marvel's Midnight Suns",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16828
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:12e111a751326a0e7d07bc1cf570a793b9150d2ff68f53fe5cf1f55664dde6f5"
+}

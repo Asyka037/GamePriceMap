@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 42718,
+  "fetchedAt": "2026-07-31T03:14:43.487Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=42718&cc=us&l=english",
+  "responseDigest": "sha256:01fe3ca67f70568b6ee8931930aa0945afd865410afee8386a796fcca4073fc1",
+  "payload": {
+    "42718": {
+      "success": true,
+      "data": {
+        "steam_appid": 42718,
+        "name": "Call of Duty®: Black Ops Escalation Content Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 2, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 178
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:98c46f94002d34824ca0fcb455fbf3851df275cba89baac2220d577000576891"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3484640,
+  "fetchedAt": "2026-07-31T04:17:09.075Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3484640&cc=us&l=english",
+  "responseDigest": "sha256:88e6bad641f22f887e014790ac1fd86ffaa5b11f91fe6832ec1df8fb20d577d5",
+  "payload": {
+    "3484640": {
+      "success": true,
+      "data": {
+        "steam_appid": 3484640,
+        "name": "ReCharge RC: High Voltage",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 365
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fc1559867e01d40673cc2b067d63e9263784c592097fbb193566fc5b945987b8"
+}

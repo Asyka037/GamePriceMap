@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 451050,
+  "fetchedAt": "2026-07-31T03:53:18.388Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=451050&cc=us&l=english",
+  "responseDigest": "sha256:a290b0cfd5c69c05da1907bc8072924eb90784a011810910efe135d22306f451",
+  "payload": {
+    "451050": {
+      "success": true,
+      "data": {
+        "steam_appid": 451050,
+        "name": "ENDLESS Legend™ - Shifters",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 7, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 324,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 102
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3927e19b5cf232ffc6b46a29cbe60d2df9160b83611fa3c6e903e442c6bff438"
+}

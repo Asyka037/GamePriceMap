@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3062740,
+  "fetchedAt": "2026-07-31T03:56:09.059Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3062740&cc=us&l=english",
+  "responseDigest": "sha256:159c8c2de618e122d1f766303804f8a7a02315ef93127baa47f3b40a68b8994c",
+  "payload": {
+    "3062740": {
+      "success": true,
+      "data": {
+        "steam_appid": 3062740,
+        "name": "Once Upon a Galaxy",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eb4cd5aeaf2e9386439baa1c18c3853e15b293e6af0ce83783cd2f45e8cfa0d9"
+}

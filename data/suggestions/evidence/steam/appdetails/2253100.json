@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2253100,
+  "fetchedAt": "2026-07-31T02:48:15.975Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2253100&cc=us&l=english",
+  "responseDigest": "sha256:c6e49d23143824d6e48a2743f1e9bcf4421d114da647fd76be7800691727a7dc",
+  "payload": {
+    "2253100": {
+      "success": true,
+      "data": {
+        "steam_appid": 2253100,
+        "name": "Everwind",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3291
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1ff95e33b3221aab13a1bfafee2dda4c77192fb9ea5e1d59d959daf2bcf53395"
+}

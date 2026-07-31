@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1116050,
+  "fetchedAt": "2026-07-31T02:50:17.624Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1116050&cc=us&l=english",
+  "responseDigest": "sha256:57acf7c4b9ecfd8848b5d75f96beb98cc098d4c9ca41f9333d489d8a8c6fb086",
+  "payload": {
+    "1116050": {
+      "success": true,
+      "data": {
+        "steam_appid": 1116050,
+        "name": "Starminer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 27, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1756
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8aad2280dbf4f2eed109e2d8085e3984444275997fbda999707d55f76d0586c6"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 342940,
+  "fetchedAt": "2026-07-31T02:56:01.072Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=342940&cc=us&l=english",
+  "responseDigest": "sha256:e3dd9fd24d15656642c8a98cdd242cdbf2e096d5223273699e99615c736f82dd",
+  "payload": {
+    "342940": {
+      "success": true,
+      "data": {
+        "steam_appid": 342940,
+        "name": "Project: Gorgon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4644
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fb910090307b4cacbed4763a446ad6b3c232b420942f58ac1fd2fc3f95b7fb0e"
+}

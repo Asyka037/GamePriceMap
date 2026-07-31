@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1437760,
+  "fetchedAt": "2026-07-31T03:23:51.424Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1437760&cc=us&l=english",
+  "responseDigest": "sha256:06f61467a7074de016f2f450d883b91198700aa9944ca1bc471466ca65535c8c",
+  "payload": {
+    "1437760": {
+      "success": true,
+      "data": {
+        "steam_appid": 1437760,
+        "name": "Peripeteia",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2947
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:823c96a665b59e128f02c213398c8c05de9aad148f6237193bd76b1dc48ba213"
+}

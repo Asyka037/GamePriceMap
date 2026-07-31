@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 34030,
+  "fetchedAt": "2026-07-31T03:13:44.116Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=34030&cc=us&l=english",
+  "responseDigest": "sha256:04a780212f3c4e3c282df784b87a0fbc5392983141bb549088b665923f1efd61",
+  "payload": {
+    "34030": {
+      "success": true,
+      "data": {
+        "steam_appid": 34030,
+        "name": "Total War: NAPOLEON – Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 25, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17837
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2fab8ee7105af7ac93b3d00f541f3762ef51b3f3d944edd6f9429fd01ec9ab87"
+}

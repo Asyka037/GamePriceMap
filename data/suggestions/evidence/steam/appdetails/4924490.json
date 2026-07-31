@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4924490,
+  "fetchedAt": "2026-07-31T03:48:31.664Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4924490&cc=us&l=english",
+  "responseDigest": "sha256:549163fc9e9552a073aaadb9e04a0b77265aeed5a3b552bf3ea054e1ded7e69b",
+  "payload": {
+    "4924490": {
+      "success": true,
+      "data": {
+        "steam_appid": 4924490,
+        "name": "The Big Beak Armor Set ",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cb13fd185987d81af8748b9872ddeef6f4a9161bbdd4e6dfba91ab4d62c05c8c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3375780,
+  "fetchedAt": "2026-07-31T02:48:20.732Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3375780&cc=us&l=english",
+  "responseDigest": "sha256:18e0105f7c58c6a8b50a7903a56ab7790c2e67fe172ca289b994db59f8898cae",
+  "payload": {
+    "3375780": {
+      "success": true,
+      "data": {
+        "steam_appid": 3375780,
+        "name": "Trails in the Sky 1st Chapter",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4221
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:60c09ef21c58af5c0717e6770223d65379edc8b32ff274fe3ba19509cfc625f0"
+}

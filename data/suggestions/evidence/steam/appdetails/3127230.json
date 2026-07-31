@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3127230,
+  "fetchedAt": "2026-07-31T03:22:46.628Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3127230&cc=us&l=english",
+  "responseDigest": "sha256:6ab14175341f52885e25215e02057b22ef5e239589286dcfbd43b7cca143d58a",
+  "payload": {
+    "3127230": {
+      "success": true,
+      "data": {
+        "steam_appid": 3127230,
+        "name": "PBA Pro Bowling 2026",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 364
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:52ad700a138d53db5b02793a01a40fb130ccd555396ca284d749460c1cef29e2"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2679990,
+  "fetchedAt": "2026-07-31T03:05:16.391Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2679990&cc=us&l=english",
+  "responseDigest": "sha256:409f4b696453938cd6e5691d891bc5f4b9b1426e40ca793144a7b785e80e7325",
+  "payload": {
+    "2679990": {
+      "success": true,
+      "data": {
+        "steam_appid": 2679990,
+        "name": "Icarus: Industrial Furniture Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c55fd05e2b0ff06f9df6b51866c2b21cfbde00102ed8da4db51bf2cd624470c2"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1222680,
+  "fetchedAt": "2026-07-31T03:24:00.240Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1222680&cc=us&l=english",
+  "responseDigest": "sha256:3791adb3eab814d9d55289f52427cd36cb1394ee9af938a16369757275b8ea20",
+  "payload": {
+    "1222680": {
+      "success": true,
+      "data": {
+        "steam_appid": 1222680,
+        "name": "Need for Speed™ Heat",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 349,
+          "discount_percent": 95
+        },
+        "recommendations": {
+          "total": 125778
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fec6a43478d9d0ef32b5e909ae25688ae0f953586aa6aebd504c91faaf58e55c"
+}

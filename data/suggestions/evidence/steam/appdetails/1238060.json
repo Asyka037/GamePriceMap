@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1238060,
+  "fetchedAt": "2026-07-31T03:10:15.028Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1238060&cc=us&l=english",
+  "responseDigest": "sha256:f79f9eedd53a1867a680242ec699f0c07912d8bffb05e0df17a9d0ed502b8261",
+  "payload": {
+    "1238060": {
+      "success": true,
+      "data": {
+        "steam_appid": 1238060,
+        "name": "Dead Space™ 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 12032
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:949bc656e6b3691a1975052b0a73fc506a1b644e1e091f8651a6182783bd05a7"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3907380,
+  "fetchedAt": "2026-07-31T03:32:49.995Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3907380&cc=us&l=english",
+  "responseDigest": "sha256:7e3a44d01ad4a98b997503a1867b41e61b49f0f0c796472b3f2a15517bacd54c",
+  "payload": {
+    "3907380": {
+      "success": true,
+      "data": {
+        "steam_appid": 3907380,
+        "name": "The Prince of Tennis Doki Doki Survival ~eternal passion! Tie break ♡ game~",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a05b984fa77009824602818ef98e7cb10d01b32d3acbb5b44a8dbbb0bb81dd6c"
+}

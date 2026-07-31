@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1062810,
+  "fetchedAt": "2026-07-31T03:44:25.444Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1062810&cc=us&l=english",
+  "responseDigest": "sha256:97f9a7e037deabaa1c8303218b515f40d9166a60a6ec35b9e31b4f25bc89cfe9",
+  "payload": {
+    "1062810": {
+      "success": true,
+      "data": {
+        "steam_appid": 1062810,
+        "name": "Inkbound",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 899,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 3582
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:482ad90b48294e06acefd9490d830a0202c83771c122d000ce91db4c29b217f9"
+}

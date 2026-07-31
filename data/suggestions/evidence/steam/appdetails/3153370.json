@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3153370,
+  "fetchedAt": "2026-07-31T03:17:34.734Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3153370&cc=us&l=english",
+  "responseDigest": "sha256:30e8cf18d6e99d271ad2f91262452a2aa55645aece465a1dc57d145cc8d65cb9",
+  "payload": {
+    "3153370": {
+      "success": true,
+      "data": {
+        "steam_appid": 3153370,
+        "name": "STRAFTAT: Maps, Weapons and Hats",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 440
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a21c203ed782060b05acdf3d4c05dea6685cd5f6bb5b93d5c99d89f59b77d9d3"
+}

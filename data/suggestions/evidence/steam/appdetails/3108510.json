@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3108510,
+  "fetchedAt": "2026-07-31T03:55:52.557Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3108510&cc=us&l=english",
+  "responseDigest": "sha256:a14f0aa80cd0506bd44878a1dc489557d846571c6de426a29d800f2c95a8d349",
+  "payload": {
+    "3108510": {
+      "success": true,
+      "data": {
+        "steam_appid": 3108510,
+        "name": "FlyKnight",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 31, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10338
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8cfd6bc74a1d99b53bc7b6ea0c9e00f37524ffcf5cb8095ac97f82048914cd00"
+}

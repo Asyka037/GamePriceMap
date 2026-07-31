@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 675010,
+  "fetchedAt": "2026-07-31T02:59:41.189Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=675010&cc=us&l=english",
+  "responseDigest": "sha256:df0b67390a8fb508e74c462919076a8babb1b75ee2865bcef2b641ee735f018c",
+  "payload": {
+    "675010": {
+      "success": true,
+      "data": {
+        "steam_appid": 675010,
+        "name": "MudRunner",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 30, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 37320
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9920786657e6b023713bc15bb0137c2a178148b33e15c99e5ddf3088b223286d"
+}

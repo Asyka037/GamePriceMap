@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2526380,
+  "fetchedAt": "2026-07-31T02:51:28.424Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2526380&cc=us&l=english",
+  "responseDigest": "sha256:6095ac28ef20e6c43269f39d6014a31cd86350cba595c8c7594a52031311ef82",
+  "payload": {
+    "2526380": {
+      "success": true,
+      "data": {
+        "steam_appid": 2526380,
+        "name": "Sword of Convallaria",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 31, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f91c8e671f63ef1ad23c96661bfb1045785cfdfcce8260c9e3b602277be5d0e3"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3136320,
+  "fetchedAt": "2026-07-31T03:30:53.473Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3136320&cc=us&l=english",
+  "responseDigest": "sha256:60f0b101b34238df47310703797cd91d209e0c418e2ccf2fc4807ce87a88e933",
+  "payload": {
+    "3136320": {
+      "success": true,
+      "data": {
+        "steam_appid": 3136320,
+        "name": "My Infamous Dungeon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3741f278483f48180421aed6f47faf6c96c21e70e872e5bc5678149888e73052"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 324332,
+  "fetchedAt": "2026-07-31T03:40:38.820Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=324332&cc=us&l=english",
+  "responseDigest": "sha256:ae47b91614a81e7284933ec953b9592b63fb474b83fbb71e2c9cb49eb22d2ff4",
+  "payload": {
+    "324332": {
+      "success": true,
+      "data": {
+        "steam_appid": 324332,
+        "name": "Secrets of the Revolution",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 20, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 146
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d1e4b4244baf0cba282fb4b6c56d16be96139c01f104ddf8596fbe5e5dec6b6e"
+}

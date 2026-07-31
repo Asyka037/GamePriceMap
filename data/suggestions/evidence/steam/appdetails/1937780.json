@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1937780,
+  "fetchedAt": "2026-07-31T02:59:07.249Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1937780&cc=us&l=english",
+  "responseDigest": "sha256:75ffb1d44a24dc0e899a6f74f4d7c5ecc14bc8e056e78cc3e5e6b65aaaacdb70",
+  "payload": {
+    "1937780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1937780,
+        "name": "Total War: PHARAOH",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 11, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3608
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:094c588609f60a214258c265d10c9e30afbc7037938ff2c69135ba978da96b5d"
+}

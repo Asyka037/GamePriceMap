@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4247800,
+  "fetchedAt": "2026-07-31T03:20:22.372Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4247800&cc=us&l=english",
+  "responseDigest": "sha256:37323ec5886046d5314c81f15b4ef469294b4c61a21a4ccd0ed26ae727e9ab3e",
+  "payload": {
+    "4247800": {
+      "success": true,
+      "data": {
+        "steam_appid": 4247800,
+        "name": "Animal Shelter 2 - Vet Clinic DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 449,
+          "discount_percent": 25
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:38d7b37e82645b6135fe60cdf45838018263233261609819da41b5b3c37a3941"
+}

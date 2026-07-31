@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2653790,
+  "fetchedAt": "2026-07-31T03:13:20.628Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2653790&cc=us&l=english",
+  "responseDigest": "sha256:d21c4124cb2caa7472fa3ba761e19bd022f6fa4817d397c17e096b5d1a4bf615",
+  "payload": {
+    "2653790": {
+      "success": true,
+      "data": {
+        "steam_appid": 2653790,
+        "name": "The Exit 8",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 29, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10725
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e1ea6761ce0da782e7358f27924aafd99edf9a98c87fff66e43b39b9aa579117"
+}

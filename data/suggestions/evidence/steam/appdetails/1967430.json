@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1967430,
+  "fetchedAt": "2026-07-31T03:13:19.164Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1967430&cc=us&l=english",
+  "responseDigest": "sha256:a2b5b9d1ec2c4a05e8ef56adc859e386793bc4c229a2e2c21e522bc8ffd2b99f",
+  "payload": {
+    "1967430": {
+      "success": true,
+      "data": {
+        "steam_appid": 1967430,
+        "name": "Ghost Trick: Phantom Detective",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 29, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 989,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 6303
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7720c3897bd8d937d79c21f7e4c424ee38537a5dc7aead56706f8ac5e8fa3a86"
+}

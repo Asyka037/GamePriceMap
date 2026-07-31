@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 641990,
+  "fetchedAt": "2026-07-31T02:56:49.334Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=641990&cc=us&l=english",
+  "responseDigest": "sha256:a3b79d583e4460e16fc6d7173beb74c840bb00f5b1650d83d63a537e00a00c6b",
+  "payload": {
+    "641990": {
+      "success": true,
+      "data": {
+        "steam_appid": 641990,
+        "name": "The Escapists 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 21, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 26319
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0b7822d62caa3c65a2202d3be61198021686ce04cc6572ef276d6bf4b6f5ab1f"
+}

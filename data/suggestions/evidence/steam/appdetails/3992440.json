@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3992440,
+  "fetchedAt": "2026-07-31T03:49:37.635Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3992440&cc=us&l=english",
+  "responseDigest": "sha256:cbcfa2c9781fc0396a9fa9808b15f47947771794fd7b8fa4b9a4d7813338f341",
+  "payload": {
+    "3992440": {
+      "success": true,
+      "data": {
+        "steam_appid": 3992440,
+        "name": "ExoTrain",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2c16257b7eb3a54968db2b02b28f4adadade2ced02ac3830775f502d9303a6fd"
+}

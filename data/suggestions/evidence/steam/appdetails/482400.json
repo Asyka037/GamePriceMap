@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 482400,
+  "fetchedAt": "2026-07-31T03:14:56.762Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=482400&cc=us&l=english",
+  "responseDigest": "sha256:245d57d3941f375f764b601231deca416701bd5ff9d7f9e67145487c698f3fdd",
+  "payload": {
+    "482400": {
+      "success": true,
+      "data": {
+        "steam_appid": 482400,
+        "name": "System Shock",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9689
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5812f08c20dae2f80653d137ada408f31728a490cce4135bc27d13bf941b4673"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 581450,
+  "fetchedAt": "2026-07-31T03:02:58.172Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=581450&cc=us&l=english",
+  "responseDigest": "sha256:f8b8652250f9ab925ae176845fbccebfe8d6d8bb451043b600d3777386a1b4b7",
+  "payload": {
+    "581450": {
+      "success": true,
+      "data": {
+        "steam_appid": 581450,
+        "name": "Call of Duty®: Black Ops III - Zombies Chronicles",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 15, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1866
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:410d4cf0f4e574584b70ccf1c2994ee4d5229e25e1f91e679f0d6222d4d4b6bc"
+}

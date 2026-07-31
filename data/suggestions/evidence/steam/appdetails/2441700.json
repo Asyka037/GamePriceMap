@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2441700,
+  "fetchedAt": "2026-07-31T02:49:28.786Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2441700&cc=us&l=english",
+  "responseDigest": "sha256:1c5d470d99e7f5f3edf76c8b758873ae3d0f5cc343ea1edaf1e1760174cbd942",
+  "payload": {
+    "2441700": {
+      "success": true,
+      "data": {
+        "steam_appid": 2441700,
+        "name": "UNDERDOGS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2741
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:57b4c4f2286e81b9c808181e137f243b624f5e3b942644e650476a07c03cb505"
+}

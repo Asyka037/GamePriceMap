@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2644470,
+  "fetchedAt": "2026-07-31T02:59:24.854Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2644470&cc=us&l=english",
+  "responseDigest": "sha256:e3bc532341e9298113e1b0cabd7572fb98eee8d08126a484856bf0fc1055ed9c",
+  "payload": {
+    "2644470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2644470,
+        "name": "PICO PARK 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3976
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:97ac2a3497b4124883eb04044f5b8f1ff2fcad6ace369598ee72e1cbe0001ef0"
+}

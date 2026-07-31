@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1784570,
+  "fetchedAt": "2026-07-31T02:58:24.263Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1784570&cc=us&l=english",
+  "responseDigest": "sha256:ce89dda6d63c59da932efc583785cdcd5e48ce47058cfaa6932f9c868bbb1ed1",
+  "payload": {
+    "1784570": {
+      "success": true,
+      "data": {
+        "steam_appid": 1784570,
+        "name": "Trainz Railroad Simulator 2022",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1168
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6ff5eb7eb75fbe710ba15234e9d8ed9e766527b17fb641419db70cb55e41e427"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2424010,
+  "fetchedAt": "2026-07-31T02:51:10.638Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2424010&cc=us&l=english",
+  "responseDigest": "sha256:ed0844f6b906d9ae373b717e312d2d29a444bb181c1727a812681cb6525c6681",
+  "payload": {
+    "2424010": {
+      "success": true,
+      "data": {
+        "steam_appid": 2424010,
+        "name": "Parcel Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2668
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f8ef0274b094ed6f93205a90517a40e44835c75a29625b665bfd5a08f6b9341b"
+}

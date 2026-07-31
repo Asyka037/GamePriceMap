@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4609680,
+  "fetchedAt": "2026-07-31T03:12:08.835Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4609680&cc=us&l=english",
+  "responseDigest": "sha256:69a0fa5e26d11f8d51767224cd107dc58ac7928f92bfaec033761b4d5c669dd5",
+  "payload": {
+    "4609680": {
+      "success": true,
+      "data": {
+        "steam_appid": 4609680,
+        "name": "Denshattack! Seasonal Skin Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c44e3db050b6e6f9ddee538bdd55175ff401f13c21a8945af95968066352656b"
+}

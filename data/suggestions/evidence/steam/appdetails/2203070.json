@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2203070,
+  "fetchedAt": "2026-07-31T02:56:52.312Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2203070&cc=us&l=english",
+  "responseDigest": "sha256:a9feea63b2c5cd8e4242cd2e40f7db9564719ee306f586dbddc00e209f7f101e",
+  "payload": {
+    "2203070": {
+      "success": true,
+      "data": {
+        "steam_appid": 2203070,
+        "name": "Dragonheir: Silent Gods",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 26, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c3b3dee352ec77200bfaf68e99d92b5eddb241060640ec08af6977a3fa331dde"
+}

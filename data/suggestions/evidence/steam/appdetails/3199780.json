@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3199780,
+  "fetchedAt": "2026-07-31T02:44:48.946Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3199780&cc=us&l=english",
+  "responseDigest": "sha256:6e71f1afda22c2a5a79e986c9f593a1f1d630999c26815fd0d32f3c2fe9898f2",
+  "payload": {
+    "3199780": {
+      "success": true,
+      "data": {
+        "steam_appid": 3199780,
+        "name": "The Sims™ 4 Enchanted by Nature Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2399,
+          "discount_percent": 40
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e361a74d27fdb9955167d4c2001444eb571a681da7645eaf7d757b0a9687481"
+}

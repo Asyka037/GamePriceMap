@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 774181,
+  "fetchedAt": "2026-07-31T02:52:57.336Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=774181&cc=us&l=english",
+  "responseDigest": "sha256:d5ff003e3739dd1375bd1eadf457180549f03f00434500d8cc62c2ad13c8da7c",
+  "payload": {
+    "774181": {
+      "success": true,
+      "data": {
+        "steam_appid": 774181,
+        "name": "Rhythm Doctor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 24783
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5884d890d7c1dfcdd629f20693c222fb0c64ff6f22d0fd1014ce3b15ee940181"
+}

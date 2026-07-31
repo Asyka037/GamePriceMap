@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3387210,
+  "fetchedAt": "2026-07-31T02:57:20.551Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3387210&cc=us&l=english",
+  "responseDigest": "sha256:f4e0811e1dbfe65dccaaadeaec45ee8ead42885bab3eb93ed68b7d85d6428bd2",
+  "payload": {
+    "3387210": {
+      "success": true,
+      "data": {
+        "steam_appid": 3387210,
+        "name": "DRAGON BALL XENOVERSE 2 - Dragon Ball DAIMA Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 559,
+          "discount_percent": 30
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:693d05bb1f91271d6c13ab751e0be8fb8a03d5f0a5d8ca3c6af588b2bcd66302"
+}

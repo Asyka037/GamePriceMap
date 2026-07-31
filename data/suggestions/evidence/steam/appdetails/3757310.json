@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3757310,
+  "fetchedAt": "2026-07-31T04:16:52.641Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3757310&cc=us&l=english",
+  "responseDigest": "sha256:5ee80abd462f84e1934d7368e11ef7e4c051ca63dc8100a663efcf352d5707a6",
+  "payload": {
+    "3757310": {
+      "success": true,
+      "data": {
+        "steam_appid": 3757310,
+        "name": "Focus Pack - Hearts of Iron IV: Peace For Our Time",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 751
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e11fa745ba1239115d0ac47ab3040b31b06f11a3f843ea5e9ea9077b3b0ed0f1"
+}

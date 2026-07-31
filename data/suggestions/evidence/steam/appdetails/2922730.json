@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2922730,
+  "fetchedAt": "2026-07-31T04:12:45.499Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2922730&cc=us&l=english",
+  "responseDigest": "sha256:95d62b5df2982e2346832af3649468b5e9c31bf732614b95bc518af7a3e86c51",
+  "payload": {
+    "2922730": {
+      "success": true,
+      "data": {
+        "steam_appid": 2922730,
+        "name": "Dead by Daylight - Endless Hunt Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 14, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dcde42fc608bfbd858dc481297a92f9457861979d5cd896ad72001bb1fbcaa93"
+}

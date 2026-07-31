@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 625960,
+  "fetchedAt": "2026-07-31T02:53:42.025Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=625960&cc=us&l=english",
+  "responseDigest": "sha256:51276d8da5c1a83dacd4c584740227f0ad60f64640148ebacfeb59081020c302",
+  "payload": {
+    "625960": {
+      "success": true,
+      "data": {
+        "steam_appid": 625960,
+        "name": "Stoneshard",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 6, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1624,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 33669
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9bd6c335e0664f031e6b83a7b5eb792696be846ca1ea89e56ef4c864f1d82a33"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2070270,
+  "fetchedAt": "2026-07-31T02:48:45.601Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2070270&cc=us&l=english",
+  "responseDigest": "sha256:c3eb16c23493c1fac69e27fb7aa24d66cb893d8903339da36519433602023629",
+  "payload": {
+    "2070270": {
+      "success": true,
+      "data": {
+        "steam_appid": 2070270,
+        "name": "Cloudheim",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1732
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:78f1c6034514b3b23b4329b4b99f975e45fe5e89b7da71d801c66fed3275704f"
+}

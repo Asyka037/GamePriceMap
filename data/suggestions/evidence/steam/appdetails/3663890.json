@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3663890,
+  "fetchedAt": "2026-07-31T04:11:49.552Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3663890&cc=us&l=english",
+  "responseDigest": "sha256:57f49de2439d06eec330f186d0f0915e2122ff4108cd4fe20236a95901cf3cac",
+  "payload": {
+    "3663890": {
+      "success": true,
+      "data": {
+        "steam_appid": 3663890,
+        "name": "Train Sim World® 6: Liberec - Stará Paka Route Add-On ",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 3374,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 132
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:97cc01383aca08ccc1375582bb30d5eb51d7c5a15335c4a9fbc9623ac9b8efc4"
+}

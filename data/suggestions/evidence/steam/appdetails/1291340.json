@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1291340,
+  "fetchedAt": "2026-07-31T04:07:58.644Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1291340&cc=us&l=english",
+  "responseDigest": "sha256:abd4bf06d5e9d11ad82899b800d0722a481ebec41b527f61b0576facbe14b395",
+  "payload": {
+    "1291340": {
+      "success": true,
+      "data": {
+        "steam_appid": 1291340,
+        "name": "Townscaper",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 26, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20036
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a564b7c6cc0bc9da8ebee32593d284f62fb65fecaa49712eb413e58e042e4a25"
+}

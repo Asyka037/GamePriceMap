@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2672470,
+  "fetchedAt": "2026-07-31T03:06:27.530Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2672470&cc=us&l=english",
+  "responseDigest": "sha256:7b6a21ce5a2468381d416cd96e3ed682efde941a0c68a37306eb04aec0d08edf",
+  "payload": {
+    "2672470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2672470,
+        "name": "UnLoop",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 13, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 144
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:116234c1312c6ddb514d551103abe378b58cc99d0eab54c8c02cfb53bc1745ee"
+}

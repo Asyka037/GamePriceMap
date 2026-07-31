@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4402250,
+  "fetchedAt": "2026-07-31T03:08:14.527Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4402250&cc=us&l=english",
+  "responseDigest": "sha256:4801f1945d5d4a3f715f616c5f2a1709e0517ef47125890519ab4be219654f17",
+  "payload": {
+    "4402250": {
+      "success": true,
+      "data": {
+        "steam_appid": 4402250,
+        "name": "Disgaea Mayhem",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:217772951bbc1a1f13af154bf95ae2e33eeec14fa7cb480bd6809270348f80c1"
+}

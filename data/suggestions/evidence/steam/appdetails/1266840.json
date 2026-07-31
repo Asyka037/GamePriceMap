@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1266840,
+  "fetchedAt": "2026-07-31T03:22:52.518Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1266840&cc=us&l=english",
+  "responseDigest": "sha256:cf33b7a9a03a33e5c12e04092b7f00aac8c14bbbd0009b7ab03c27269c56954d",
+  "payload": {
+    "1266840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1266840,
+        "name": "The Last Stand: Aftermath",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 699,
+          "discount_percent": 72
+        },
+        "recommendations": {
+          "total": 6010
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cf20b5a6a6b7765b63012b593f8dd0c36acc771f7849b9730849ca8655137c91"
+}

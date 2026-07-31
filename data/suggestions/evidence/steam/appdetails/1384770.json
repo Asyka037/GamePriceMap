@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1384770,
+  "fetchedAt": "2026-07-31T03:03:23.059Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1384770&cc=us&l=english",
+  "responseDigest": "sha256:a31ec619bf017aa9e6bb9db8160d01c3cd53dcb6e54988a903a71b554d9223b9",
+  "payload": {
+    "1384770": {
+      "success": true,
+      "data": {
+        "steam_appid": 1384770,
+        "name": "Scrutinized",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 5, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1295
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c3f8ea437f5fa7f5eacc17c36679d0281d39b49fa85502048047ebc97c81fd2d"
+}

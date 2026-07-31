@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3561220,
+  "fetchedAt": "2026-07-31T03:00:30.539Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3561220&cc=us&l=english",
+  "responseDigest": "sha256:a7b28315b76acbdb36ce405f2a5bb8e3070d353b82adc55df28cd8a38d04b4da",
+  "payload": {
+    "3561220": {
+      "success": true,
+      "data": {
+        "steam_appid": 3561220,
+        "name": "Pass the Fear",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1899,
+          "final": 1709,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 1642
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7905ec9e366b8617dee0b097ced436533cc38644359756db302196640714f35f"
+}

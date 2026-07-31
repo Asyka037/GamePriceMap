@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2357910,
+  "fetchedAt": "2026-07-31T03:24:01.730Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2357910&cc=us&l=english",
+  "responseDigest": "sha256:dfbae8a14a6911c4e70294b020dc63435a8342dddd3ccaa4e9b34a1296092d8c",
+  "payload": {
+    "2357910": {
+      "success": true,
+      "data": {
+        "steam_appid": 2357910,
+        "name": "Home Safety Hotline",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 16, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2710
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:78f957310c70c45ded40b187cdf4aa862cc77e5d5e2e247cbdd52da8e2e129d2"
+}

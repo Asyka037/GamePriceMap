@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4496510,
+  "fetchedAt": "2026-07-31T03:12:17.755Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4496510&cc=us&l=english",
+  "responseDigest": "sha256:3227c7f75ed08698215636ca243b7f74ed0c94bf92ae85145cac082518672f46",
+  "payload": {
+    "4496510": {
+      "success": true,
+      "data": {
+        "steam_appid": 4496510,
+        "name": "Assassin's Creed Black Flag Resynced - Master Assassin Naval Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2f559d22a9256648b85cdb5225c2df9e6828b18d8ab3a3c80e5d041b461aab1e"
+}

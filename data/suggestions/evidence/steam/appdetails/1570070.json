@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1570070,
+  "fetchedAt": "2026-07-31T03:11:46.640Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1570070&cc=us&l=english",
+  "responseDigest": "sha256:3ee0ad29bf373096d983b6b850ae89d6bd10d97c5ad9e45ea2545414ad71de47",
+  "payload": {
+    "1570070": {
+      "success": true,
+      "data": {
+        "steam_appid": 1570070,
+        "name": "Beholder 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 3, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 269,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 2239
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8682db5dc2994f914fdd609ebff7717a27eb7db6112e9578f727164c226a9194"
+}

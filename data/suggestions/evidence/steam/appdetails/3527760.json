@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3527760,
+  "fetchedAt": "2026-07-31T03:19:03.732Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3527760&cc=us&l=english",
+  "responseDigest": "sha256:ea0467fc6bd2c4eb652d521f0759078365cd1500d36df699afc8156f9f972d23",
+  "payload": {
+    "3527760": {
+      "success": true,
+      "data": {
+        "steam_appid": 3527760,
+        "name": "RoboCop: Rogue City - Unfinished Business",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1199,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 3705
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:366f8dea6d57327ad2dd28325f3feba0918c4aadb51da858c56e7f3bd18731bb"
+}

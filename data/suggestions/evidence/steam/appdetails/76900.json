@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 76900,
+  "fetchedAt": "2026-07-31T04:17:25.369Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=76900&cc=us&l=english",
+  "responseDigest": "sha256:2bb9cebdd621cc7966713be42517b8b8c1920c0176c56ec74c2dc4c97d0e7e9e",
+  "payload": {
+    "76900": {
+      "success": false
+    }
+  },
+  "documentDigest": "sha256:125acc5a042271c6e0b94da2f17e539899d4604cf4b1c808dfda9c0f0436275a"
+}

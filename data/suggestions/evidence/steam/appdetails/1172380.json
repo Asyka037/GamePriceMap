@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1172380,
+  "fetchedAt": "2026-07-31T02:50:55.913Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1172380&cc=us&l=english",
+  "responseDigest": "sha256:5072910c621bb72ea05cfe1e19bc94c0e6b346efe3549b8b2c9d8b1cfff0167f",
+  "payload": {
+    "1172380": {
+      "success": true,
+      "data": {
+        "steam_appid": 1172380,
+        "name": "STAR WARS Jedi: Fallen Order™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 799,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 152874
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a2ac863812c85e2f43ce5ae71acdfd28f5ff0bd9858f1fdcf7a7108a9f84fb5"
+}

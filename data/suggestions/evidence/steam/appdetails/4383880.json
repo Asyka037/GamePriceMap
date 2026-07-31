@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4383880,
+  "fetchedAt": "2026-07-31T03:08:51.749Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4383880&cc=us&l=english",
+  "responseDigest": "sha256:2724d79d8d0c530d0d0d23c6854a85c728fb0996e74ebdcd5a25e5b4f65029d5",
+  "payload": {
+    "4383880": {
+      "success": true,
+      "data": {
+        "steam_appid": 4383880,
+        "name": "Huntin' Buddies",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 639,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:18c00682c1fdb3433005c890c2577385b6b1c24f5a8a58e31944fbdd8c92812e"
+}

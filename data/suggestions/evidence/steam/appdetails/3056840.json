@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3056840,
+  "fetchedAt": "2026-07-31T03:04:07.376Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3056840&cc=us&l=english",
+  "responseDigest": "sha256:b7ae1767655de3597b93b070ae19921b62aa911799bb69068c47af01fa2bd9fa",
+  "payload": {
+    "3056840": {
+      "success": true,
+      "data": {
+        "steam_appid": 3056840,
+        "name": "A Bumpy Ride",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 1, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 521
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8902588cf0c776efa306729c9a67d007b855f5a2a8167ae057a9dad0339eb366"
+}

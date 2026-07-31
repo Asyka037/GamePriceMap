@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1488200,
+  "fetchedAt": "2026-07-31T03:41:48.271Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1488200&cc=us&l=english",
+  "responseDigest": "sha256:a237ebaea9a1178e6a06a5f59be079f869a550380a4f5c72efa9982f3170c21b",
+  "payload": {
+    "1488200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1488200,
+        "name": "Symphony of War: The Nephilim Saga",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12747
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d69ff17213ff8ab82bdc1f10b935dfb7d1c42fc55939707c91bf765000188a0a"
+}

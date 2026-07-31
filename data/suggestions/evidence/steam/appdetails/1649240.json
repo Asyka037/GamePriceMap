@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1649240,
+  "fetchedAt": "2026-07-31T03:13:50.141Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1649240&cc=us&l=english",
+  "responseDigest": "sha256:ae0ba452371de892e2e3ba589ae9bb50c77ac605f9b4fad15ce5921c7eb74391",
+  "payload": {
+    "1649240": {
+      "success": true,
+      "data": {
+        "steam_appid": 1649240,
+        "name": "Returnal™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 15, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6495
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:69e1237928692923ebf5bedf02252cf3456b096dfa37cb019b180830e5ea1d1e"
+}

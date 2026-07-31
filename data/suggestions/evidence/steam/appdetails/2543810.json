@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2543810,
+  "fetchedAt": "2026-07-31T02:56:50.859Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2543810&cc=us&l=english",
+  "responseDigest": "sha256:cb209fd6990e27c9c9c62650b8fcd236fa619038c18ef7c1c78cdb65264a1b5c",
+  "payload": {
+    "2543810": {
+      "success": true,
+      "data": {
+        "steam_appid": 2543810,
+        "name": "American Truck Simulator - Nebraska",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 16, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 283
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:700a09feeb3aef4c204e1c2977c08468a28c53c87798be36cad4d283a833df41"
+}

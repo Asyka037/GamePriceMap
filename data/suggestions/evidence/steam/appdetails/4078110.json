@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4078110,
+  "fetchedAt": "2026-07-31T03:31:00.173Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4078110&cc=us&l=english",
+  "responseDigest": "sha256:47cb214b63b5e0fd0faee773cd2187e22d68616d6c3b79bc9758ed219758a0a3",
+  "payload": {
+    "4078110": {
+      "success": true,
+      "data": {
+        "steam_appid": 4078110,
+        "name": "Suncraft",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 28, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 594,
+          "discount_percent": 15
+        },
+        "recommendations": {
+          "total": 145
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:142b9153c69bce4c465a1761e04ed2b7f1053c953e564d819fe3484f95c5adfd"
+}

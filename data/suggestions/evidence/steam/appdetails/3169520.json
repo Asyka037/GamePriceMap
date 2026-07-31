@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3169520,
+  "fetchedAt": "2026-07-31T03:16:46.781Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3169520&cc=us&l=english",
+  "responseDigest": "sha256:601d8debc15df3e868dce14af7310a2c626b8a2566607a2eb75976ae65a3f06f",
+  "payload": {
+    "3169520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3169520,
+        "name": "Warhammer 40,000: Space Marine - Master Crafted Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 316
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3f2ae476171a79b2d81dcc4c292c301f90348f6347ed60c6bed69b2f464943a0"
+}

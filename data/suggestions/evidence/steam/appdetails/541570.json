@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 541570,
+  "fetchedAt": "2026-07-31T02:50:44.113Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=541570&cc=us&l=english",
+  "responseDigest": "sha256:604b3eadd816633526a4d3c305c7d3e5a41fe980952587f2eced3fd16acc919b",
+  "payload": {
+    "541570": {
+      "success": true,
+      "data": {
+        "steam_appid": 541570,
+        "name": "Sally Face - Episode One",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 14, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 25289
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:75ea29d3de436a02477b7f117229300b3cc091e3b942430adf05bbe0f15685e4"
+}

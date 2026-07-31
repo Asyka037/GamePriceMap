@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4241690,
+  "fetchedAt": "2026-07-31T03:49:57.504Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4241690&cc=us&l=english",
+  "responseDigest": "sha256:28d505a4ae400aee8723e9e97808a0b2d1998fa4a95f60e481773046f6844393",
+  "payload": {
+    "4241690": {
+      "success": true,
+      "data": {
+        "steam_appid": 4241690,
+        "name": "Hydra Heli 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 629,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0cc69bbebeec0fa6afc77940d160bd97a43fb51d1eb5a8d27ba7b5bd770bea30"
+}

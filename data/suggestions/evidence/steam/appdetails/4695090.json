@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4695090,
+  "fetchedAt": "2026-07-31T04:15:53.205Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4695090&cc=us&l=english",
+  "responseDigest": "sha256:0c10b2c11889fc0982f11eebfd566ed0e82c9b3d89d7495f9344ea3891e6951e",
+  "payload": {
+    "4695090": {
+      "success": true,
+      "data": {
+        "steam_appid": 4695090,
+        "name": "FPS Chess: Ignition",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:89e8a962a405e55f28be8de65f4ec20ea07a5c7d0e1dc764084ffdba703a7039"
+}

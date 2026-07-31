@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1769830,
+  "fetchedAt": "2026-07-31T03:09:45.072Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1769830&cc=us&l=english",
+  "responseDigest": "sha256:ab052169ba3bc698c5df76dfc9a178f2c9c71a579cdfde3beaa793e9a0698e02",
+  "payload": {
+    "1769830": {
+      "success": true,
+      "data": {
+        "steam_appid": 1769830,
+        "name": "As We Descend",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1285
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:46cdc9c33bb8f72fbdd294a093854478d8efec2509a056bc439dc551e62a75c4"
+}

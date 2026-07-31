@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3219700,
+  "fetchedAt": "2026-07-31T03:13:59.002Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3219700&cc=us&l=english",
+  "responseDigest": "sha256:1dd62c0beb923c2afa3eb05e13bbcd6a6651a4786b4be43a731ea4d54ed0e60f",
+  "payload": {
+    "3219700": {
+      "success": true,
+      "data": {
+        "steam_appid": 3219700,
+        "name": "Age of Empires II: DE – The Last Chieftains",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 499
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:23f80bfb54d04951cacf280dfb0370893048dcdc3c071f354a555ebe8ba36cec"
+}

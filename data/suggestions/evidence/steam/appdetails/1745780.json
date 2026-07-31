@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1745780,
+  "fetchedAt": "2026-07-31T02:53:38.964Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1745780&cc=us&l=english",
+  "responseDigest": "sha256:8c165f38bd1e0dd6f792573acb27884454a59f282f2264c3d5511e78fa14dfb1",
+  "payload": {
+    "1745780": {
+      "success": true,
+      "data": {
+        "steam_appid": 1745780,
+        "name": "Substance 3D Modeler 2025",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 15, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 14999,
+          "final": 14999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:799725efba40cd663ae59f8ebc1f87d37194612ad12728951f3664785c5f7402"
+}

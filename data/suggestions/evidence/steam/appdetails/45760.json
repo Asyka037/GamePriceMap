@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 45760,
+  "fetchedAt": "2026-07-31T03:18:04.359Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=45760&cc=us&l=english",
+  "responseDigest": "sha256:f56e853c7becb6172f9c6048a9f3f8f1cbe2c88c2df928f91cdd4e580e8e67f0",
+  "payload": {
+    "45760": {
+      "success": true,
+      "data": {
+        "steam_appid": 45760,
+        "name": "Ultra Street Fighter® IV",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 7, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 389,
+          "discount_percent": 87
+        },
+        "recommendations": {
+          "total": 10979
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f9bfc89119d5c2d23c55750e144a6f7588dbd4a47f71b7055804a5f58f90face"
+}

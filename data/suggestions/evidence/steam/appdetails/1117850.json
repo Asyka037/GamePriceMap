@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1117850,
+  "fetchedAt": "2026-07-31T03:28:24.177Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1117850&cc=us&l=english",
+  "responseDigest": "sha256:534514dd5d78bd54278129f714fe4d8ad671af152deac38de3f04a20aadaec8b",
+  "payload": {
+    "1117850": {
+      "success": true,
+      "data": {
+        "steam_appid": 1117850,
+        "name": "Cuphead - The Delicious Last Course",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 30, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4729
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6162ce5157e40500bd89bde9d37603f12d27e536fcdbef9b12958f0c312abf2e"
+}

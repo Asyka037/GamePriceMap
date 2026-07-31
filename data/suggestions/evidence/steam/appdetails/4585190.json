@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4585190,
+  "fetchedAt": "2026-07-31T03:13:14.667Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4585190&cc=us&l=english",
+  "responseDigest": "sha256:2ae8c473c97fcb576022d9a06e799286ce714ed519a446ad93a779ddfeea0f68",
+  "payload": {
+    "4585190": {
+      "success": true,
+      "data": {
+        "steam_appid": 4585190,
+        "name": "The Oni's Hunt Deluxe – Hero Skin Bundle – FOR HONOR",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9d06e0c2db15ec05ac23a35c5a49470afe5c23e27a738c543848740ed8e177b0"
+}

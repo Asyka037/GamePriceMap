@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2442460,
+  "fetchedAt": "2026-07-31T03:11:27.388Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2442460&cc=us&l=english",
+  "responseDigest": "sha256:7041bc815b8cdc8c1836570dead5f5fb5363a7c3169e23a20261f2f545d01657",
+  "payload": {
+    "2442460": {
+      "success": true,
+      "data": {
+        "steam_appid": 2442460,
+        "name": "Citizen Sleeper 2: Starward Vector",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 31, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2286
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a291a2e48b22c3105cb78edd0b452a33608850266104077e533d0751ae641669"
+}

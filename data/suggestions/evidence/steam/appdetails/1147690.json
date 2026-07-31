@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1147690,
+  "fetchedAt": "2026-07-31T02:55:13.835Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1147690&cc=us&l=english",
+  "responseDigest": "sha256:f295827ea294f1efb84c3d9ffa940654505606584db960fc2d277108f974bc8c",
+  "payload": {
+    "1147690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1147690,
+        "name": "NGU IDLE",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 1, 2019"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fabb058560e69f9055fd8c57e0655ed492d1d9d133481358d196d70798660e4e"
+}

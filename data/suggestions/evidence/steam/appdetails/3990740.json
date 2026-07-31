@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3990740,
+  "fetchedAt": "2026-07-31T03:57:44.731Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3990740&cc=us&l=english",
+  "responseDigest": "sha256:24ca7b156c30337b15bd1568cc07a782bebb618a5a05054bbeb975d6d92cd4b0",
+  "payload": {
+    "3990740": {
+      "success": true,
+      "data": {
+        "steam_appid": 3990740,
+        "name": "MITHOS: Game Master's TTRPG Toolkit",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3900,
+          "final": 3900,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 136
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1736f1d745a9b4c8a788f79f7bd864984c8034636822ad579484d9d39ce2417f"
+}

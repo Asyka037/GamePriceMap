@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4071070,
+  "fetchedAt": "2026-07-31T03:00:49.933Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4071070&cc=us&l=english",
+  "responseDigest": "sha256:35451d90a0852abea4a74bcd621cf1f1110dcaea1cda92d3a4f9af7c1119e90e",
+  "payload": {
+    "4071070": {
+      "success": true,
+      "data": {
+        "steam_appid": 4071070,
+        "name": "FATAL FURY: CotW - Season Pass 3",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7c005c5e8a170187d64aba4ef1aa669f122598e05c05e4afef6fa71533e9ea01"
+}

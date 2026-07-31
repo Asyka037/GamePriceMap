@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1995690,
+  "fetchedAt": "2026-07-31T02:58:14.654Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1995690&cc=us&l=english",
+  "responseDigest": "sha256:673f186fba2828e536b0b1113de460fa3750e55e87bf063d6b2aa06ab310e655",
+  "payload": {
+    "1995690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1995690,
+        "name": "Icarus: Styx Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 27, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 180
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8ee06218d0b01404c8ecb89b7c5b680b7d07a6a53e5fa216415680ad04605f6a"
+}

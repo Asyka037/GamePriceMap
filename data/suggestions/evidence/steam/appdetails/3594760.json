@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3594760,
+  "fetchedAt": "2026-07-31T03:40:48.733Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3594760&cc=us&l=english",
+  "responseDigest": "sha256:600cf30c917c994d9611e608e7d520a8b90ede115b68fbc7974980ad4fd7059f",
+  "payload": {
+    "3594760": {
+      "success": true,
+      "data": {
+        "steam_appid": 3594760,
+        "name": "Pacific Drive: Whispers in the Woods",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 325
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:36e47466983b55deb5c1ab20e96ae6a59b2bb6affa7493a9547dcf3ce517e356"
+}

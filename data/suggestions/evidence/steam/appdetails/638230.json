@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 638230,
+  "fetchedAt": "2026-07-31T03:14:49.464Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=638230&cc=us&l=english",
+  "responseDigest": "sha256:1608141542ecc1f5676c516e2294792c46d78cb74a54551bdf86ba51ecb75628",
+  "payload": {
+    "638230": {
+      "success": true,
+      "data": {
+        "steam_appid": 638230,
+        "name": "Journey",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 34496
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4ded7751df3187b6411dd37af692c902c7a643a3a76cc44ece608af3c1fc8aae"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 247080,
+  "fetchedAt": "2026-07-31T03:50:36.958Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=247080&cc=us&l=english",
+  "responseDigest": "sha256:c732538b503bd116e86ccdcb32724578cbb37ea294c43b656d233f6690be0feb",
+  "payload": {
+    "247080": {
+      "success": true,
+      "data": {
+        "steam_appid": 247080,
+        "name": "Crypt of the NecroDancer",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 23, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 299,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 23531
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b707448bf6b062cabe227bff2bf75ffbf13814c4015f03b649e2be9589cabae4"
+}

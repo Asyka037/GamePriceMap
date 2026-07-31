@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3946110,
+  "fetchedAt": "2026-07-31T03:54:04.778Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3946110&cc=us&l=english",
+  "responseDigest": "sha256:5a5d4362f8f728430f7167de658022ada5dda962dc6c6d642030f9b30b221421",
+  "payload": {
+    "3946110": {
+      "success": true,
+      "data": {
+        "steam_appid": 3946110,
+        "name": "Fracture Field",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 419,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 1064
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d5bf4a970eee3f33f8d4e5aa47d0c0c0fe74ba6cfebbe4a4a9064b95c83567ae"
+}

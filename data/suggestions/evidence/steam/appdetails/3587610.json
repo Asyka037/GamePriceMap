@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3587610,
+  "fetchedAt": "2026-07-31T04:07:12.757Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3587610&cc=us&l=english",
+  "responseDigest": "sha256:61ca2398ce68d586c70068d924b442eea11f36e3e37efb81fe14e2be79dd383a",
+  "payload": {
+    "3587610": {
+      "success": true,
+      "data": {
+        "steam_appid": 3587610,
+        "name": "The Dark Queen of Mortholme",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3906
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fd12db7d459e1cbc2de0561957665fcb8091716d36ddd966c7e68e8ecc6134be"
+}

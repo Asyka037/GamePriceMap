@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2123890,
+  "fetchedAt": "2026-07-31T03:20:26.800Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2123890&cc=us&l=english",
+  "responseDigest": "sha256:752d533dee42fff85d14aca408af1ced20fb5682ddcbd6eb0de4c9da2efe03bf",
+  "payload": {
+    "2123890": {
+      "success": true,
+      "data": {
+        "steam_appid": 2123890,
+        "name": "Call to Arms - Gates of Hell: Scorched Earth",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 18, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 749,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 453
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1dca276d404b1134d4d2239994c4ecf9c29dfe6835ecefc18679a8fe6baa7143"
+}

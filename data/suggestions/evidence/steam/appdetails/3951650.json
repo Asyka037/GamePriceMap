@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3951650,
+  "fetchedAt": "2026-07-31T03:18:59.335Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3951650&cc=us&l=english",
+  "responseDigest": "sha256:d12f66e3a1f4cf48176ead7fbfc13eb4e4e2320822db244e313adc88b685e035",
+  "payload": {
+    "3951650": {
+      "success": true,
+      "data": {
+        "steam_appid": 3951650,
+        "name": "UNBEATABLE - Breakout Edition Upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c614cc16dc6c5f7b43b8d8651fb738dda063edfdce4296fe432c1d18f89549fd"
+}

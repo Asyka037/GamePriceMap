@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1609230,
+  "fetchedAt": "2026-07-31T03:13:25.115Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1609230&cc=us&l=english",
+  "responseDigest": "sha256:f6d0cedce8e9cd835616e4654b8416069abb8e829f50767b4c2d82b3eefcc48e",
+  "payload": {
+    "1609230": {
+      "success": true,
+      "data": {
+        "steam_appid": 1609230,
+        "name": "Scarlet Hollow",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1874,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 4609
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e9046b44e91c448599991aeb73b8cc95eadac9c60cdf0190a94f652e0197ca37"
+}

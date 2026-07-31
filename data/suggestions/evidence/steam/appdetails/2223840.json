@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2223840,
+  "fetchedAt": "2026-07-31T03:41:18.626Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2223840&cc=us&l=english",
+  "responseDigest": "sha256:6117b74fa2c624b463db98f211368507b44daf4b46cdf4fc7cb80d34b717ea81",
+  "payload": {
+    "2223840": {
+      "success": true,
+      "data": {
+        "steam_appid": 2223840,
+        "name": "The Casting of Frank Stone™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 3, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 989,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 5497
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:96153c2689757e7b6a7f6b2d9e7cc318ff31dc0f0efd7ac8e11891c5febba735"
+}

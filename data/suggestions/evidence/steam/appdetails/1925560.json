@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1925560,
+  "fetchedAt": "2026-07-31T04:05:19.409Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1925560&cc=us&l=english",
+  "responseDigest": "sha256:f10400bc3209e7c6d4a175f040cd8d5b4c9afb544665522b3f139e53669da043",
+  "payload": {
+    "1925560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1925560,
+        "name": "Tricking 0",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 31, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:505ceb80e088bb50ffb8968d9da9d0e44c7fbc4e364a6180dcf54deac34ff757"
+}

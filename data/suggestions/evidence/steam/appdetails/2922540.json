@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2922540,
+  "fetchedAt": "2026-07-31T03:58:17.828Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2922540&cc=us&l=english",
+  "responseDigest": "sha256:ad3e48d2a4555cf70222dbc4ce1a3e1af9b48a4d05a5be9589631ae6259c0965",
+  "payload": {
+    "2922540": {
+      "success": true,
+      "data": {
+        "steam_appid": 2922540,
+        "name": "Fishing Planet: Japan Odyssey Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ad1cb6142c9b52762e23cf47292256a6a1fdd03afd12109616c004b7f1adbb19"
+}

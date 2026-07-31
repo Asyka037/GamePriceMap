@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1811080,
+  "fetchedAt": "2026-07-31T02:54:39.812Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1811080&cc=us&l=english",
+  "responseDigest": "sha256:ab2f99efc3508057d104f444a62d328ebc85c80b7d758f133d605ffda58c5801",
+  "payload": {
+    "1811080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1811080,
+        "name": "American Truck Simulator - Montana",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 4, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 476
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c1f7d71f6fe82e2630fda88ac7e6be66269214448bea9bc27458662d2c33334c"
+}

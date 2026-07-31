@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 219740,
+  "fetchedAt": "2026-07-31T03:45:13.383Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=219740&cc=us&l=english",
+  "responseDigest": "sha256:d24574a600f2b4853c92b79aea636c5009b87a4276b4db36c4f8e3fc771dbfc6",
+  "payload": {
+    "219740": {
+      "success": true,
+      "data": {
+        "steam_appid": 219740,
+        "name": "Don't Starve",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 23, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 96780
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2ac7fc44cd8412b18dd102dacb7458c37110bb6f399afb6b7c2e6b540e55517c"
+}

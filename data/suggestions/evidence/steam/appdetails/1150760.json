@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1150760,
+  "fetchedAt": "2026-07-31T03:11:58.457Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1150760&cc=us&l=english",
+  "responseDigest": "sha256:18d3c2c6bf94e8e86362243330f080e466b56047bb2c0764584806392b996f4c",
+  "payload": {
+    "1150760": {
+      "success": true,
+      "data": {
+        "steam_appid": 1150760,
+        "name": "Gloomwood",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1499,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 7378
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:661f1c49057c94d7e089f54e901cbd60ba64961862d2511a4d893d34f50f92d1"
+}

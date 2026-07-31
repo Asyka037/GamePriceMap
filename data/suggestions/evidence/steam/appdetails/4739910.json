@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4739910,
+  "fetchedAt": "2026-07-31T03:03:34.834Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4739910&cc=us&l=english",
+  "responseDigest": "sha256:bad6a6986a52d3575e8129ec221473a838fc95c83be7ed55188cb54c83eeaf75",
+  "payload": {
+    "4739910": {
+      "success": true,
+      "data": {
+        "steam_appid": 4739910,
+        "name": "Arakure – Hero – FOR HONOR",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e7ece8add978bb3c3ed58595e317243f820e8f1823a890994f9d30b93bee54c5"
+}

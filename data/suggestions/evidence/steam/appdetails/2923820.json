@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2923820,
+  "fetchedAt": "2026-07-31T03:03:42.144Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2923820&cc=us&l=english",
+  "responseDigest": "sha256:052659a9a97b9b6b18bb8685e12108b1e6b93f15afc50b902947d463d4e2c350",
+  "payload": {
+    "2923820": {
+      "success": true,
+      "data": {
+        "steam_appid": 2923820,
+        "name": "Icarus: Pet Companions Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1599,
+          "final": 1599,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0ffad007c764d1eb4ef93a7a4dea4c951ed8be2475c3da6aec6eb3d0dfbc1cea"
+}

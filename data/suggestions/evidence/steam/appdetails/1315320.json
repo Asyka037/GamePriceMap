@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1315320,
+  "fetchedAt": "2026-07-31T03:12:11.858Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1315320&cc=us&l=english",
+  "responseDigest": "sha256:f62e795f367fe4c87edd0ec575db841f82d2843afd2ec7bc1112e38346dd6533",
+  "payload": {
+    "1315320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1315320,
+        "name": "The Necromancer's Tale",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1624,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 845
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:04f8abc129c1ee2a4918c6f19b3eb09dc0cba9b9cd2c603d2e05478d3fa0fea5"
+}

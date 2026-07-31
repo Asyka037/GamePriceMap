@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3334790,
+  "fetchedAt": "2026-07-31T03:10:27.007Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3334790&cc=us&l=english",
+  "responseDigest": "sha256:f91adede203b586e8a1dd30390e0a65777adc6578f583169614c317bec4c609b",
+  "payload": {
+    "3334790": {
+      "success": true,
+      "data": {
+        "steam_appid": 3334790,
+        "name": "Workers & Resources: Soviet Republic - Early Start",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 383
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:54afcacdf0795a8484c8840b57925ea18e4e84cd2fa6bf6a01c7c9ed27eb8386"
+}

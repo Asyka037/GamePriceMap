@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 850260,
+  "fetchedAt": "2026-07-31T03:58:37.603Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=850260&cc=us&l=english",
+  "responseDigest": "sha256:e5af3fe339483726602ec9a3f960659db3b3f1e515185d8f34f122c1b7869a10",
+  "payload": {
+    "850260": {
+      "success": true,
+      "data": {
+        "steam_appid": 850260,
+        "name": "Clue/Cluedo: Classic Edition - The Ultimate Detective’s Package",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 17, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3399,
+          "final": 3399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bf9762745166f68205508ce1eafcbb1d16c1d87a075741a76ca4f03e25ca5068"
+}

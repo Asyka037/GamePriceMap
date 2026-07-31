@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2101390,
+  "fetchedAt": "2026-07-31T03:56:15.670Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2101390&cc=us&l=english",
+  "responseDigest": "sha256:852956146016bf3d57a53b3e24ef3d26bf606fa6225a83fbc5c431e926fe73c7",
+  "payload": {
+    "2101390": {
+      "success": true,
+      "data": {
+        "steam_appid": 2101390,
+        "name": "Lost and Found Co.",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2475
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:02507d5d2290025a86736ae092109b896281be73c7577b9e93936ed876b9c036"
+}

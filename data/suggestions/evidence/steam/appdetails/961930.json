@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 961930,
+  "fetchedAt": "2026-07-31T03:29:10.441Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=961930&cc=us&l=english",
+  "responseDigest": "sha256:4ec89ce866dc387175aa231e5c8e68007b518cacb448470ad7ec59dcd4276455",
+  "payload": {
+    "961930": {
+      "success": true,
+      "data": {
+        "steam_appid": 961930,
+        "name": "Battle Brothers - Beasts & Exploration",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 29, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 360
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a64b009170e8f73da0a57e99515d48e5174826893763f2620a68b708de2f52f2"
+}

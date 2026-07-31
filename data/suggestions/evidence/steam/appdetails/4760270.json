@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4760270,
+  "fetchedAt": "2026-07-31T02:48:33.911Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4760270&cc=us&l=english",
+  "responseDigest": "sha256:b21beba5724473c03462b87b30bad42426ac481812da19036298629bcd5706b9",
+  "payload": {
+    "4760270": {
+      "success": true,
+      "data": {
+        "steam_appid": 4760270,
+        "name": "Warframe: Styanax Prime Access - Accessories Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cc4de8c2f229ae0dd2f77538a828267d7f4d261263605f1cd45d05c73f5e2913"
+}

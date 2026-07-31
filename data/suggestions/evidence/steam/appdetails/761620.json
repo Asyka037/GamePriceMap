@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 761620,
+  "fetchedAt": "2026-07-31T03:05:39.949Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=761620&cc=us&l=english",
+  "responseDigest": "sha256:e352db03821d3603eab70f977650a59176ba6c622ee008b3bded9e784d607c81",
+  "payload": {
+    "761620": {
+      "success": true,
+      "data": {
+        "steam_appid": 761620,
+        "name": "Beholder 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 269,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 6797
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cbb6d31808c2633bbcca0cae493ebd9ec244d3c1f0307733e52e80469d7cb33d"
+}

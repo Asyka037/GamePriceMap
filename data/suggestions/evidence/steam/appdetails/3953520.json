@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3953520,
+  "fetchedAt": "2026-07-31T02:56:14.299Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3953520&cc=us&l=english",
+  "responseDigest": "sha256:280b46620b0c11011a83fb281b262ab6ea71b5b4ff178ad2b7728419806d1ad0",
+  "payload": {
+    "3953520": {
+      "success": true,
+      "data": {
+        "steam_appid": 3953520,
+        "name": "MU: Dark Epoch",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b5af2a0fb338cbccc4eacac89bb40bc2beb0bb5dcbdbd4532c0ffe21590e0f93"
+}

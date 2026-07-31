@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 241930,
+  "fetchedAt": "2026-07-31T03:47:09.334Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=241930&cc=us&l=english",
+  "responseDigest": "sha256:cec5dc9ddd761b0f7cc6f9650f63ce0d745dbc95a36f40aed3715347c51b04e2",
+  "payload": {
+    "241930": {
+      "success": true,
+      "data": {
+        "steam_appid": 241930,
+        "name": "Middle-earth™: Shadow of Mordor™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 30, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 63372
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:82da71ca334bb062e0004e443bb8cf2c6eb80290846a581c1e05dd3f9ca4093a"
+}

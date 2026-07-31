@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1812620,
+  "fetchedAt": "2026-07-31T03:46:19.850Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1812620&cc=us&l=english",
+  "responseDigest": "sha256:0058b2f322e7d48e6528348a4ff9eb541e00b59422317629f67a02a04a277d74",
+  "payload": {
+    "1812620": {
+      "success": true,
+      "data": {
+        "steam_appid": 1812620,
+        "name": "DSX",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 24, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8297
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:97d0aec98449a2aceb5f4682fe74bb0457234498bc58600763babb8177d7f750"
+}

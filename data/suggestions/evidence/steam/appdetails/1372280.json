@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1372280,
+  "fetchedAt": "2026-07-31T03:43:29.665Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1372280&cc=us&l=english",
+  "responseDigest": "sha256:6c413d50e618f3f7d78d248d7466513835050544710ecf58e43fb4bc0f44d796",
+  "payload": {
+    "1372280": {
+      "success": true,
+      "data": {
+        "steam_appid": 1372280,
+        "name": "MELTY BLOOD: TYPE LUMINA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 29, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9046
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3e6825c55ae6159ec927cad4012becd7abcf68d791ac81e73ef254dc1b7c3f3d"
+}

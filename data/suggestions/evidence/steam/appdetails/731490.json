@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 731490,
+  "fetchedAt": "2026-07-31T04:11:13.330Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=731490&cc=us&l=english",
+  "responseDigest": "sha256:da24f7e9a1e40215880654a08f1c3fd4a0c672f81a18d75b9f659e020f133148",
+  "payload": {
+    "731490": {
+      "success": true,
+      "data": {
+        "steam_appid": 731490,
+        "name": "Crash Bandicoot™ N. Sane Trilogy",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 29, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16372
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6e3f610aba3ce9109c050e54b7c6ec6f4b084692401f1d79d7c24e8bb0c209fa"
+}

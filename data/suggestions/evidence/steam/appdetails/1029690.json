@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1029690,
+  "fetchedAt": "2026-07-31T02:49:53.679Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1029690&cc=us&l=english",
+  "responseDigest": "sha256:d0c0da15924e3e37a5cacc7e8565786de6baf67e38aaf79768a7f7bff8f8a5d7",
+  "payload": {
+    "1029690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1029690,
+        "name": "Sniper Elite 5",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 24323
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:af30fd0ac8684ab9b70a2242e2d536020a0cf20503d8507a2fb8e5dcc27857f6"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3333670,
+  "fetchedAt": "2026-07-31T03:17:06.311Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3333670&cc=us&l=english",
+  "responseDigest": "sha256:be342cc04a7ea16c0fb483f945bb52a60bf19e112227d5daf1b423dcf586e7b1",
+  "payload": {
+    "3333670": {
+      "success": true,
+      "data": {
+        "steam_appid": 3333670,
+        "name": "Mr. President",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 115
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:98b0a3fea9849f1cc159107310338b46e53847f43a4acabee5a37bd4ba53b076"
+}

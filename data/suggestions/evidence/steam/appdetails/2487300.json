@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2487300,
+  "fetchedAt": "2026-07-31T03:12:39.565Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2487300&cc=us&l=english",
+  "responseDigest": "sha256:33118d6c1736c73ba74a334d793acf16c853b67a58ccccb6c290fb267ff9fbff",
+  "payload": {
+    "2487300": {
+      "success": true,
+      "data": {
+        "steam_appid": 2487300,
+        "name": "Docked",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1139
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fbfb514f5357f962874ee9c836e7a4530f436b4938a47763b1c940fe10f45593"
+}

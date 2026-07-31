@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1201240,
+  "fetchedAt": "2026-07-31T03:05:32.483Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1201240&cc=us&l=english",
+  "responseDigest": "sha256:260586a1be9c4c80d532a9556333ecef2b9dfe00436c1914b44979ea7f572c19",
+  "payload": {
+    "1201240": {
+      "success": true,
+      "data": {
+        "steam_appid": 1201240,
+        "name": "BLEACH Brave Souls",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 17, 2020"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b7baeeaf1e745a81cb25b573faf1aa119cd3fd69d85d8762600cd61e5a9e4279"
+}

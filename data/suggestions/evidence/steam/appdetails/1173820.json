@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1173820,
+  "fetchedAt": "2026-07-31T03:00:20.364Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1173820&cc=us&l=english",
+  "responseDigest": "sha256:4d694551f675c81bf5365836288e1f8ef6701b01f61e3b1ae9323b44fe532fe3",
+  "payload": {
+    "1173820": {
+      "success": true,
+      "data": {
+        "steam_appid": 1173820,
+        "name": "FINAL FANTASY VI",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 23, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4495
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ded7463bf79342b50d1f45e03ae94a8494e18adf259641b711c6e271885e98b3"
+}

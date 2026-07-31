@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1299460,
+  "fetchedAt": "2026-07-31T03:13:08.840Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1299460&cc=us&l=english",
+  "responseDigest": "sha256:754365f57c0dfc8d2b433c0edaa90f08f344cc0f16c5a30387d36205d5cf72cd",
+  "payload": {
+    "1299460": {
+      "success": true,
+      "data": {
+        "steam_appid": 1299460,
+        "name": "Wanderstop",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2869
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dbfc3a3b447e0587eafd734d2de34e33e1c6fe768dd823a407d00bf8b111cd26"
+}

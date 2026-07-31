@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4242820,
+  "fetchedAt": "2026-07-31T03:11:52.511Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4242820&cc=us&l=english",
+  "responseDigest": "sha256:c6e24c77e03b1fb11348e48340c638aca544cb2f7ff776614abf3f89487263ce",
+  "payload": {
+    "4242820": {
+      "success": true,
+      "data": {
+        "steam_appid": 4242820,
+        "name": "Farthest Frontier - Cats and Dogs",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 559,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 112
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fa2562ba5ca983f080a3e80c56a648e9097a3011b6832033709491ee12deaae1"
+}

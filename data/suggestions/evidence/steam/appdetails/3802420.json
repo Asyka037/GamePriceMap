@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3802420,
+  "fetchedAt": "2026-07-31T03:38:34.215Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3802420&cc=us&l=english",
+  "responseDigest": "sha256:77bc39b2a0bbe5990233a67fd7002a9546bdaf2e3f2e7d870e10cd032eb6defb",
+  "payload": {
+    "3802420": {
+      "success": true,
+      "data": {
+        "steam_appid": 3802420,
+        "name": "Borderlands®4 - Bounty Pack 2: Legend of the Stone Demon",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 251
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:576725d9da46e4c00e2ba73478b903527011e20a57211752f2f0b5f0a3fa38fe"
+}

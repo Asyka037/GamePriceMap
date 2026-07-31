@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2874030,
+  "fetchedAt": "2026-07-31T03:28:04.194Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2874030&cc=us&l=english",
+  "responseDigest": "sha256:7b20c0b0342c99c7ad2588f3db246a051367430ae0a3debbe72ee4f0c5d67461",
+  "payload": {
+    "2874030": {
+      "success": true,
+      "data": {
+        "steam_appid": 2874030,
+        "name": "WolfQuest Anniversary - Hellroaring Mountain",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 11, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:530e4a9dbba036fad6cbc4ccb5604ac450f85d813fae2f3a8099ce2b13812f9b"
+}

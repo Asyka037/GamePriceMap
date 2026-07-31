@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2840470,
+  "fetchedAt": "2026-07-31T02:49:34.628Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2840470&cc=us&l=english",
+  "responseDigest": "sha256:a2af3d6cdcb27c5d05c23d5b880ee16f37cb942565ada307a521fea643989356",
+  "payload": {
+    "2840470": {
+      "success": true,
+      "data": {
+        "steam_appid": 2840470,
+        "name": "SimplePlanes 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1156
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5eebfc1c88e6d476c0660a429f056f83d0b975215cba18bfad80dc48872d6920"
+}

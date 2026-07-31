@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1385380,
+  "fetchedAt": "2026-07-31T02:49:00.475Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1385380&cc=us&l=english",
+  "responseDigest": "sha256:4c5a41e5d112f5db681c4c2c111fb5b0224ad0267c04b1da7e97091c1a8352d0",
+  "payload": {
+    "1385380": {
+      "success": true,
+      "data": {
+        "steam_appid": 1385380,
+        "name": "Across the Obelisk",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 16, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10643
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:da6a2d2c8b504311f061c43922e818ed48b19f81269ae5ef6a1787e62d7b4b99"
+}

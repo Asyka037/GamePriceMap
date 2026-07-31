@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1325200,
+  "fetchedAt": "2026-07-31T03:14:58.210Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1325200&cc=us&l=english",
+  "responseDigest": "sha256:e21d71c4ed7663e77566ad680af36bfea133801f6ab6bcf29c8acc5a024fad10",
+  "payload": {
+    "1325200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1325200,
+        "name": "Nioh 2 – The Complete Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 5, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1999,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 33710
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:976df7e20ad459f8bd336e48569f9a7f5307d360b03c1020972948ed74bbe6b9"
+}

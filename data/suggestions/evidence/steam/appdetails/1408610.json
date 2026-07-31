@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1408610,
+  "fetchedAt": "2026-07-31T02:51:32.780Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1408610&cc=us&l=english",
+  "responseDigest": "sha256:bfd10123fa5b6c8921ec3fc4b6adc1738f19765cbb0df4ae138dfaf3854bfe84",
+  "payload": {
+    "1408610": {
+      "success": true,
+      "data": {
+        "steam_appid": 1408610,
+        "name": "Call of the Wild: The Angler™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 31, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 899,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 6093
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:227021d9bc27b411b0e814824ffb0b8eff44b0a6b97782adfa0d93a12714ccb5"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 443110,
+  "fetchedAt": "2026-07-31T03:33:19.945Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=443110&cc=us&l=english",
+  "responseDigest": "sha256:d3ef0689e83f271edf2f27b7951b83cf618babb389592d4dc257660452c095c0",
+  "payload": {
+    "443110": {
+      "success": true,
+      "data": {
+        "steam_appid": 443110,
+        "name": "Armored Warfare",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 17, 2017"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1bf95d58b38b3e37f4285d31dd6a4ac6c6d483779cf91c94ce922ea8492d4c6d"
+}

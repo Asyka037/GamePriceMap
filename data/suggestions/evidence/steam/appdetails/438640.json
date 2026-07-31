@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 438640,
+  "fetchedAt": "2026-07-31T03:21:17.545Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=438640&cc=us&l=english",
+  "responseDigest": "sha256:f961b185e8d0a6ba1f0d879cbbcfd59d78f83b585a5461c67f6b036c1223f63c",
+  "payload": {
+    "438640": {
+      "success": true,
+      "data": {
+        "steam_appid": 438640,
+        "name": "LEGO® STAR WARS™: The Force Awakens",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 27, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 4127
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:152174718467925af1b094f4be68a272884dd7561df7d3f7bc2e535e7c24ec62"
+}

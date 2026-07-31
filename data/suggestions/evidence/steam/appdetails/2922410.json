@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2922410,
+  "fetchedAt": "2026-07-31T03:34:11.615Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2922410&cc=us&l=english",
+  "responseDigest": "sha256:93395cb1d8eb541a8dff45c72204380338c2b49639e88a90d21ed0a05b486df2",
+  "payload": {
+    "2922410": {
+      "success": true,
+      "data": {
+        "steam_appid": 2922410,
+        "name": "Achilles: Survivor",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1388
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:238ddd4b5754837b613198b4d30c50637fc664aa06e756e77970db16f8194bfb"
+}

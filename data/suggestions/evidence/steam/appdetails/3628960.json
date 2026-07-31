@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3628960,
+  "fetchedAt": "2026-07-31T03:59:56.555Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3628960&cc=us&l=english",
+  "responseDigest": "sha256:36611dd7ee5b4e32801c28a07d8a44172a77ea9f1f6914120562e146fd8b2127",
+  "payload": {
+    "3628960": {
+      "success": true,
+      "data": {
+        "steam_appid": 3628960,
+        "name": "Miscrits: World of Creatures",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9d7ee5945ea655207ec7b05e5eac3061904e493a5698d873c4b67bd6a45efbd4"
+}

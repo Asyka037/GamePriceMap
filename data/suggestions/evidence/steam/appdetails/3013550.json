@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3013550,
+  "fetchedAt": "2026-07-31T02:53:34.504Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3013550&cc=us&l=english",
+  "responseDigest": "sha256:2a5f93637f5f289a07680a06b2de45e288ec832e669fd05b91486765a7bcc9c5",
+  "payload": {
+    "3013550": {
+      "success": true,
+      "data": {
+        "steam_appid": 3013550,
+        "name": "Yu-Gi-Oh! EARLY DAYS COLLECTION",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 425
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:237f2c1b76b04413c2f0ad148c4e4612331f8569ea4c3766a1c538a5ca479c7b"
+}

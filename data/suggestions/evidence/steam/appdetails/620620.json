@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 620620,
+  "fetchedAt": "2026-07-31T02:59:45.578Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=620620&cc=us&l=english",
+  "responseDigest": "sha256:3c809677aa0dd4ae9758c38addb778b0f5b14f81c34e15fc7dcf7c4b52bb12c5",
+  "payload": {
+    "620620": {
+      "success": true,
+      "data": {
+        "steam_appid": 620620,
+        "name": "Pirate101",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 31, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0d8c074f9720a859b09c3bd333bcbdb706fa7b0695f4c1ceb90a3d6d0a553b37"
+}

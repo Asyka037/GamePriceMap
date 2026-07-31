@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2803490,
+  "fetchedAt": "2026-07-31T03:00:42.526Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2803490&cc=us&l=english",
+  "responseDigest": "sha256:6a58347e3c3455e90d6c98d818196b561d440a7525701a91ae12ab97eab27e8a",
+  "payload": {
+    "2803490": {
+      "success": true,
+      "data": {
+        "steam_appid": 2803490,
+        "name": "Atomcraft",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 173
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7c4b25d56a991f4c1a1762e48574b9774ff86ca663d67647099c0ee71bd75063"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1608290,
+  "fetchedAt": "2026-07-31T04:03:27.302Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1608290&cc=us&l=english",
+  "responseDigest": "sha256:c70e9e8e6faaa5415ec8a4e4e74ede947ff3adaf3d8a5cb50014177dfcbbcac4",
+  "payload": {
+    "1608290": {
+      "success": true,
+      "data": {
+        "steam_appid": 1608290,
+        "name": "GNOSIA",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 23, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4749
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9e048f9b7955c635f86b2ebaa7f955d02396c204b0bd111fe9b116a638e82e0b"
+}

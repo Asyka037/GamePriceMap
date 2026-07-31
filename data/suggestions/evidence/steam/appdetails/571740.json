@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 571740,
+  "fetchedAt": "2026-07-31T03:14:09.288Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=571740&cc=us&l=english",
+  "responseDigest": "sha256:664f48c84a532c297b54c6f3aa1b8e0cb10717ab49aeac1c10839e4f91636643",
+  "payload": {
+    "571740": {
+      "success": true,
+      "data": {
+        "steam_appid": 571740,
+        "name": "Golf It!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 18, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 449,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 24605
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ee6496bf9c6c3a154e884d1a94e0188b30ca3da9bb460707e4960d48416fed34"
+}

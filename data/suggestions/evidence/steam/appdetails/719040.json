@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 719040,
+  "fetchedAt": "2026-07-31T03:36:42.790Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=719040&cc=us&l=english",
+  "responseDigest": "sha256:9cd20b82942bf004de4c931513ed9dcb8b4b403ea7b8a0dfc202775d7fc4f81b",
+  "payload": {
+    "719040": {
+      "success": true,
+      "data": {
+        "steam_appid": 719040,
+        "name": "Wasteland 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17176
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:848a1f6a52ffe1ef7fe5a1464e6118adc4da1efb22c41ca0b45977ceb8e8baef"
+}

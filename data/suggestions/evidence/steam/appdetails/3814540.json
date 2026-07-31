@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3814540,
+  "fetchedAt": "2026-07-31T03:50:10.611Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3814540&cc=us&l=english",
+  "responseDigest": "sha256:9507afdb9aaf75937aaa7d2f38f261384c8224befba810cd5ecc753f0672e18a",
+  "payload": {
+    "3814540": {
+      "success": true,
+      "data": {
+        "steam_appid": 3814540,
+        "name": "Catio Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 479,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:44ba539baea2f4772d01903332486f9fc9be1c86f153b87022cad0879a892ecc"
+}

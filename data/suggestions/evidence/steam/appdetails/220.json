@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 220,
+  "fetchedAt": "2026-07-31T02:45:57.323Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=220&cc=us&l=english",
+  "responseDigest": "sha256:74565d85d61c6dde103eaa0020ade859a22a66dd159e3e4ac17d6cd710377fab",
+  "payload": {
+    "220": {
+      "success": true,
+      "data": {
+        "steam_appid": 220,
+        "name": "Half-Life 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2004"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 201085
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:295032f3166aba9b659b94c87c261e72384f64250167756af014a1c9141bedb3"
+}

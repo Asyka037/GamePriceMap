@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2589500,
+  "fetchedAt": "2026-07-31T02:58:46.313Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2589500&cc=us&l=english",
+  "responseDigest": "sha256:6cbcb5185432d25f689839d9eaa357b2c474f8a9fe137f61fe288243136dc1c1",
+  "payload": {
+    "2589500": {
+      "success": true,
+      "data": {
+        "steam_appid": 2589500,
+        "name": "Whisper of the House",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5026
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:af76c1e2453dac9a55bf02df2236ce6a88d69cb19acad68ebdd077c89e7d8570"
+}

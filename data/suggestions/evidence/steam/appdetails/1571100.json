@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1571100,
+  "fetchedAt": "2026-07-31T03:20:23.856Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1571100&cc=us&l=english",
+  "responseDigest": "sha256:fc6de758ff6ffaca079082143a79cc791f2b8b22cf9a0751e8ac0fcd5dfbd2e6",
+  "payload": {
+    "1571100": {
+      "success": true,
+      "data": {
+        "steam_appid": 1571100,
+        "name": "Passpartout 2: The Lost Artist",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 4, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1220
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b88493f00cc9a702ee7334efb16cc899ca6ef9ae89aa762899af49b1e0b2a1e6"
+}

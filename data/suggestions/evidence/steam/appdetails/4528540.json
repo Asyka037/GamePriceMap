@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4528540,
+  "fetchedAt": "2026-07-31T03:43:10.041Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4528540&cc=us&l=english",
+  "responseDigest": "sha256:384d6a584fb8a29c438bda6b8f5f464c99c23576875aa43289e46bb2c49c68cd",
+  "payload": {
+    "4528540": {
+      "success": true,
+      "data": {
+        "steam_appid": 4528540,
+        "name": "Granblue Fantasy: Relink - Endless Ragnarok Special Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:db84ae49d5b555cacced0633aa9f016353b587d430431f44219fef2f6e6362f2"
+}

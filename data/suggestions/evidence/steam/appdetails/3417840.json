@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3417840,
+  "fetchedAt": "2026-07-31T02:44:43.037Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3417840&cc=us&l=english",
+  "responseDigest": "sha256:408954ce2b2b0a2eb56a3ae92dd6ac2447e68a4f55d07f4a3d6223f31d30dece",
+  "payload": {
+    "3417840": {
+      "success": true,
+      "data": {
+        "steam_appid": 3417840,
+        "name": "Stellaris: BioGenesis",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 5, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 959
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:955cfad9d19e90d74a47891f604f8b7d9ca8f8fe9b2211d9113714dcf091395d"
+}

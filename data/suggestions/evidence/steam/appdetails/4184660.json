@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4184660,
+  "fetchedAt": "2026-07-31T03:57:24.884Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4184660&cc=us&l=english",
+  "responseDigest": "sha256:f3043d1186f0989a1e267adf628896240a3d7cbfd6e2c7f13299cc9f8eae177f",
+  "payload": {
+    "4184660": {
+      "success": true,
+      "data": {
+        "steam_appid": 4184660,
+        "name": "War Thunder - Su-30MKK Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 7999,
+          "final": 7999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:33f46e24138e0cd4b10f5aa94b267d1db36ec47c711014ebaf9c7d02b4d3b64f"
+}

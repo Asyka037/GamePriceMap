@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2963870,
+  "fetchedAt": "2026-07-31T03:14:07.805Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2963870&cc=us&l=english",
+  "responseDigest": "sha256:3b0b5493063faa4436380f532abfffaa8e0b40af7a087410d4cdaec02c58ab7e",
+  "payload": {
+    "2963870": {
+      "success": true,
+      "data": {
+        "steam_appid": 2963870,
+        "name": "Metal Slug: Awakening",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 19, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3b485d9ca2913262f2a4af942f6922914b93e90bd6e4a94bda76d7f71b4053f7"
+}

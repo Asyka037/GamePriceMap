@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 578330,
+  "fetchedAt": "2026-07-31T03:22:13.900Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=578330&cc=us&l=english",
+  "responseDigest": "sha256:020c5bbbc139e8e9c2fb2241f0efc46758a1b229d44543380f0c935e61e01ed9",
+  "payload": {
+    "578330": {
+      "success": true,
+      "data": {
+        "steam_appid": 578330,
+        "name": "LEGO® City Undercover",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 4, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 299,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 7278
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:62ad35c6f89f03a22b4f0a686fb170f4d8203fb9c6936324c12b419cd867218e"
+}

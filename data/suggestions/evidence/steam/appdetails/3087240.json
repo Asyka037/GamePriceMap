@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3087240,
+  "fetchedAt": "2026-07-31T04:09:31.027Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3087240&cc=us&l=english",
+  "responseDigest": "sha256:1e77ce0f1796a2c19441e4a2f1f9133a314da9a5ed15d6275314965e08ef4bdc",
+  "payload": {
+    "3087240": {
+      "success": true,
+      "data": {
+        "steam_appid": 3087240,
+        "name": "Sid Meier's Civilization® VII: Friedrich (Baroque) Persona",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b7fac7792f58740a927da35ad598ccd7a31f478d5fad4dba48211203dd8f7180"
+}

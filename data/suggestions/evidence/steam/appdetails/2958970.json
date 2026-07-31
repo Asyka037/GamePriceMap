@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2958970,
+  "fetchedAt": "2026-07-31T03:15:48.266Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2958970&cc=us&l=english",
+  "responseDigest": "sha256:44fa268d6939b842eeddd942a0a84055f2987b8357e31b5e0cf4398f582e66cf",
+  "payload": {
+    "2958970": {
+      "success": true,
+      "data": {
+        "steam_appid": 2958970,
+        "name": "The Thing: Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1181
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e57d6bf571ba4233cb3dd6a6c366f54bd56c357d4a67f47a80f76e66962f5c46"
+}

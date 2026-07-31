@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1330000,
+  "fetchedAt": "2026-07-31T03:11:49.532Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1330000&cc=us&l=english",
+  "responseDigest": "sha256:1161082b6a028821cd83913b7c87b6c2c5195b993d48a0d368ce1ed0499dbe15",
+  "payload": {
+    "1330000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1330000,
+        "name": "Stolen Realm",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3439
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8801b9bb890e21751f91b213b06549fee00731e04156abc9b30f4f833787af3f"
+}

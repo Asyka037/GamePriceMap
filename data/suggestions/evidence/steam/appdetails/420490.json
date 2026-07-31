@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 420490,
+  "fetchedAt": "2026-07-31T04:00:58.933Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=420490&cc=us&l=english",
+  "responseDigest": "sha256:62a8ea734e78c55abdc04d3eb38670b59fa1415c0385fee7c30cf88ca6c82500",
+  "payload": {
+    "420490": {
+      "success": true,
+      "data": {
+        "steam_appid": 420490,
+        "name": "Call of Duty®: Infinite Warfare - Season Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 4, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 132
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e35c2c3ae316e783b5538cbb2d04921441346d68894e914e81e0d3604c0e5a95"
+}

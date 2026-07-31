@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3793940,
+  "fetchedAt": "2026-07-31T03:36:29.671Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3793940&cc=us&l=english",
+  "responseDigest": "sha256:fdb6ef83692376f28ae6118192a74fe0d8101ec32d269e05f0e7c1a73a2a8d6a",
+  "payload": {
+    "3793940": {
+      "success": true,
+      "data": {
+        "steam_appid": 3793940,
+        "name": "Atari 50: THE NAMCO LEGENDARY PACK",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 13, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e7ee45f2cd5e9e6ee8ec6f6e95679be19f2ceebd833ca5eb12d0dabf7b92eba1"
+}

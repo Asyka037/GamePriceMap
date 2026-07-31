@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1586350,
+  "fetchedAt": "2026-07-31T04:03:43.683Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1586350&cc=us&l=english",
+  "responseDigest": "sha256:efc56db318d9c00609c11e13d08fd5eb5ab89d269e044e6554214c6222c1e711",
+  "payload": {
+    "1586350": {
+      "success": true,
+      "data": {
+        "steam_appid": 1586350,
+        "name": "NEOGEO POCKET COLOR SELECTION Vol. 1 Steam Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 29, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 599,
+          "discount_percent": 85
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3fd43414c755fa7f8b4a8703138f4cca0888a80474bb79d7e1c81a61c983e85e"
+}

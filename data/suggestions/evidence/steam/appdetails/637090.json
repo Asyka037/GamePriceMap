@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 637090,
+  "fetchedAt": "2026-07-31T02:54:32.440Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=637090&cc=us&l=english",
+  "responseDigest": "sha256:78ed0434b7c582b083293eb7733ea79766a7f48ef52698d5edb6e1495094f6a6",
+  "payload": {
+    "637090": {
+      "success": true,
+      "data": {
+        "steam_appid": 637090,
+        "name": "BATTLETECH",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 24, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 22913
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:be3b2ae3871c28ed43f815d49a84cb0cc25bba4bc1d4458b0a8b22e5248a2373"
+}

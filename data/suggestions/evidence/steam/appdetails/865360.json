@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 865360,
+  "fetchedAt": "2026-07-31T02:57:30.755Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=865360&cc=us&l=english",
+  "responseDigest": "sha256:6eff2d0670dff9a7781cf734d011a1e448b675129a020e4a56363fa02653f01a",
+  "payload": {
+    "865360": {
+      "success": true,
+      "data": {
+        "steam_appid": 865360,
+        "name": "We Were Here Together",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14366
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1e7cefb91c5eed89eb5e1de4b95c7b7dcec1d3bc38ab19dc06c847168104f631"
+}

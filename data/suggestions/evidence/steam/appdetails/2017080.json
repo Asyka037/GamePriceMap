@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2017080,
+  "fetchedAt": "2026-07-31T03:47:35.727Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2017080&cc=us&l=english",
+  "responseDigest": "sha256:00a4b86f52648b450b4d8ddf2b46c179de47571f38160e54dda5a6e694f68a8a",
+  "payload": {
+    "2017080": {
+      "success": true,
+      "data": {
+        "steam_appid": 2017080,
+        "name": "Nickelodeon All-Star Brawl 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 983
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed2a703aed7894ea621f955e25ff13f0c891c64f35597d42abe597cc24bfb7cb"
+}

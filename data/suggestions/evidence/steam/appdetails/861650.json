@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 861650,
+  "fetchedAt": "2026-07-31T02:54:23.607Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=861650&cc=us&l=english",
+  "responseDigest": "sha256:c25ae0a8ffe5ae980ea78abf2687604efdc0c231ffb7e727bd5fab96fd8d3c99",
+  "payload": {
+    "861650": {
+      "success": true,
+      "data": {
+        "steam_appid": 861650,
+        "name": "Session: Skate Sim",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 22, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 999,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 13401
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7d89f2e889a8bb9032a2918f7c2f713ce97e8a802e803349eb1ee556472eecf5"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1839950,
+  "fetchedAt": "2026-07-31T03:00:54.614Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1839950&cc=us&l=english",
+  "responseDigest": "sha256:e46b6c27c65a17fb1c3fbdf1f2159065f3cfccff694ff37863c63c20ef49f612",
+  "payload": {
+    "1839950": {
+      "success": true,
+      "data": {
+        "steam_appid": 1839950,
+        "name": "Terminator: Dark Fate - Defiance",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 21, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3353
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a251d5bf49ffa1421ace96002112172a032d73a8615fcd7bb77e7d876a7de36"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 573160,
+  "fetchedAt": "2026-07-31T03:37:22.064Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=573160&cc=us&l=english",
+  "responseDigest": "sha256:cf698c1e6160a674149b5c1826cc6abddc7896b7edeb3289ad0be063bd939c77",
+  "payload": {
+    "573160": {
+      "success": true,
+      "data": {
+        "steam_appid": 573160,
+        "name": "Space Engineers Deluxe",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 4, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 399,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 225
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:15a9788988661dc847607ec85803501a96b5dda897c32dd4e23d21a79cc12851"
+}

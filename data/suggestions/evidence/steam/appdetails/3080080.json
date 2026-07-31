@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3080080,
+  "fetchedAt": "2026-07-31T03:23:28.025Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3080080&cc=us&l=english",
+  "responseDigest": "sha256:a408aa4aea742988b7c6f015dd7c9a894299c3520ad927576c618ed947dd5fe9",
+  "payload": {
+    "3080080": {
+      "success": true,
+      "data": {
+        "steam_appid": 3080080,
+        "name": "Age of Empires II: DE - The Three Kingdoms ",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1010
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d1a764276cf419de23477dac6404c1a7c2d72cb157bcd658479748d74569dc7e"
+}

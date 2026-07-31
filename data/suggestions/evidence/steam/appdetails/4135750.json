@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4135750,
+  "fetchedAt": "2026-07-31T03:29:20.612Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4135750&cc=us&l=english",
+  "responseDigest": "sha256:f6ef5455e1b874352faafaa4ce362b63fe01fdc8ee5fa78d3dbfdf3799e4cb1b",
+  "payload": {
+    "4135750": {
+      "success": true,
+      "data": {
+        "steam_appid": 4135750,
+        "name": "FEED THE QUEEN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 558
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f27a0b460a15973bd18c8be29c4697d5fbded9ed957f642cc3aa31e616e7f777"
+}

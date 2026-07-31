@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1222700,
+  "fetchedAt": "2026-07-31T02:43:15.098Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1222700&cc=us&l=english",
+  "responseDigest": "sha256:5c03e8da06ad60b1c2eabc7cd5538dd8084589aa2129286c6d0f5cd0adf95eba",
+  "payload": {
+    "1222700": {
+      "success": true,
+      "data": {
+        "steam_appid": 1222700,
+        "name": "A Way Out",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 899,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 77318
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bf6756e7f6006ec2ca36358f2c6adb25be5044f09e768cef0b7ae1b5a2128ab4"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 524220,
+  "fetchedAt": "2026-07-31T02:47:04.082Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=524220&cc=us&l=english",
+  "responseDigest": "sha256:cec5fad7f57f71ac2927faadd2dc92035f6dd4b76b640e973212878514f6b96c",
+  "payload": {
+    "524220": {
+      "success": true,
+      "data": {
+        "steam_appid": 524220,
+        "name": "NieR:Automata™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 17, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 114266
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:59143821b5dba0931ef68a9fbe4c6ee116ec2a6cc3a1472334f7cf3c29a1a876"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2350790,
+  "fetchedAt": "2026-07-31T02:51:13.636Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2350790&cc=us&l=english",
+  "responseDigest": "sha256:64a1bcc19e687807c1280233e9602b3a2e43d61668df4f6d6109a0f3b49df22b",
+  "payload": {
+    "2350790": {
+      "success": true,
+      "data": {
+        "steam_appid": 2350790,
+        "name": "Moonlighter 2: The Endless Vault",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 2415
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1e6ed763680c0eec0319656b6192ed5133fc8aa2125e9f841b0676b2256c16c7"
+}

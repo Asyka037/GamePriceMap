@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 979640,
+  "fetchedAt": "2026-07-31T03:17:56.917Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=979640&cc=us&l=english",
+  "responseDigest": "sha256:4deda6e8809ed03b7d83b1ac0dcdcb00d4299941d23653773ee8665c9f505a75",
+  "payload": {
+    "979640": {
+      "success": true,
+      "data": {
+        "steam_appid": 979640,
+        "name": "Cepheus Protocol",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 15, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2920
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:01d0db63cc260655d6d3b22a7477a01deb90ba2a78a2482d23d343e45e0e5a33"
+}

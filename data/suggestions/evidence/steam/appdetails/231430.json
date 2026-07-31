@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 231430,
+  "fetchedAt": "2026-07-31T02:56:26.180Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=231430&cc=us&l=english",
+  "responseDigest": "sha256:0cefc2d3caf1ae5d69a6433a05a248e1ec580e0f08112d0b9293eb036d9be61c",
+  "payload": {
+    "231430": {
+      "success": true,
+      "data": {
+        "steam_appid": 231430,
+        "name": "Company of Heroes 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 68721
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4bb2f486ee631bf56427f6111a9fee3b30fcf22b48338fa2734ee884bc87ad7c"
+}

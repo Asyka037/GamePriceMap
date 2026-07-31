@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4449410,
+  "fetchedAt": "2026-07-31T03:00:53.107Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4449410&cc=us&l=english",
+  "responseDigest": "sha256:9fe1744b6e139b2f18f000a5d1e20ec4dccffd526af285a9c48fa659d6a0a744",
+  "payload": {
+    "4449410": {
+      "success": true,
+      "data": {
+        "steam_appid": 4449410,
+        "name": "KYOTO XANADU -the Blooming Phantom-",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5499,
+          "final": 5499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 274
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:535f8c489fdb87593c6e35ccdf3a172fdd2b66c94361a8be72066d677b127b81"
+}

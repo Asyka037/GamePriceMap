@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2825190,
+  "fetchedAt": "2026-07-31T02:56:27.606Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2825190&cc=us&l=english",
+  "responseDigest": "sha256:cd3f54b96d3c5f2299436ba1ec34e236dd3a8c311e95e68753a058ef57b5190b",
+  "payload": {
+    "2825190": {
+      "success": true,
+      "data": {
+        "steam_appid": 2825190,
+        "name": "Street Fighter™ 6 - Year 2 Character Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1949,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 185
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7e33b0ee6670a8c98bd2b39f3a4ec09ade9c74efd500ab372b75df489fafa4f5"
+}

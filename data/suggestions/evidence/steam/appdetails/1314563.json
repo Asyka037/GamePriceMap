@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1314563,
+  "fetchedAt": "2026-07-31T02:46:19.425Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1314563&cc=us&l=english",
+  "responseDigest": "sha256:950ec490b5ea23bfe38ea3ff7eb0e485be753f9189c603eb69312b51a9549923",
+  "payload": {
+    "1314563": {
+      "success": true,
+      "data": {
+        "steam_appid": 1314563,
+        "name": "Destiny 2: Beyond Light Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 99,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 4508
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:59cd65df2baa68db13fbbd774db1d7bc7c126d78dd0fabbcc46ff5574e71642e"
+}

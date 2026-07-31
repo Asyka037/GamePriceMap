@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2427743,
+  "fetchedAt": "2026-07-31T02:43:07.690Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2427743&cc=us&l=english",
+  "responseDigest": "sha256:ba0a032dfc4b9d46272eefcb918b5f195c16b8b8a1f41fd39dce1c63b7865e74",
+  "payload": {
+    "2427743": {
+      "success": true,
+      "data": {
+        "steam_appid": 2427743,
+        "name": "Cities: Skylines II - Bridges & Ports",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 468
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b1794803d7663eee34fa96e19d5428e7b08b6c1169fa15f6d2cb12ac91c53df8"
+}

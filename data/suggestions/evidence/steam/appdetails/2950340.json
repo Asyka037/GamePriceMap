@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2950340,
+  "fetchedAt": "2026-07-31T02:58:59.766Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2950340&cc=us&l=english",
+  "responseDigest": "sha256:4fb0e4969c98089ad31c16ca6b097cabe51350de2e2666728c8cf393b3bb92b6",
+  "payload": {
+    "2950340": {
+      "success": true,
+      "data": {
+        "steam_appid": 2950340,
+        "name": "LEGO® Harry Potter™ Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 599,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 1380
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5b2502d42bcf4ff847717ebec95300802dbfee9dd93f7cd98a48ae829a553649"
+}

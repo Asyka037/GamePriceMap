@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1254120,
+  "fetchedAt": "2026-07-31T03:11:09.727Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1254120&cc=us&l=english",
+  "responseDigest": "sha256:44fdc61eba07752fe494dcca268f227d0b9730ebb8b7a57c6289e687f961b05d",
+  "payload": {
+    "1254120": {
+      "success": true,
+      "data": {
+        "steam_appid": 1254120,
+        "name": "Bless Unleashed",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 6, 2021"
+        },
+        "recommendations": {
+          "total": 209
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2b3682a17b175673582395bbeb51e00078579c2d7e71860f292f2e43f34aef82"
+}

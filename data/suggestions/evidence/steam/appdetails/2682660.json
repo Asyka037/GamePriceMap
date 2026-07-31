@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2682660,
+  "fetchedAt": "2026-07-31T03:59:23.712Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2682660&cc=us&l=english",
+  "responseDigest": "sha256:cc877234a40a87707aa6b7734072c51eb2746355eb3a949b45c024f0d5b796d4",
+  "payload": {
+    "2682660": {
+      "success": true,
+      "data": {
+        "steam_appid": 2682660,
+        "name": "Warhammer 40,000: Rogue Trader - Deluxe Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e1a59cb3b24983bd058bf9423848f5aa30f0c557793feada8be757479c9cd6e7"
+}

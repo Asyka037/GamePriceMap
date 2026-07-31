@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4525920,
+  "fetchedAt": "2026-07-31T03:49:21.195Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4525920&cc=us&l=english",
+  "responseDigest": "sha256:70b4b0346cf3a206673c1becc60bd68b8fef964f7247cea9b2ea46dc35e6db66",
+  "payload": {
+    "4525920": {
+      "success": true,
+      "data": {
+        "steam_appid": 4525920,
+        "name": "Gem Crush Match-3",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 4, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4fcc1aa1828751bf7df5be07aa14c014411c6073c0949ae4afd352ebab5bc75f"
+}

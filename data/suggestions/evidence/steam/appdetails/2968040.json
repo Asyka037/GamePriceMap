@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2968040,
+  "fetchedAt": "2026-07-31T02:52:32.875Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2968040&cc=us&l=english",
+  "responseDigest": "sha256:a98b77ff80000f59eacc2a5bc63692c65052b9d63a766afa43fb353a63e6ad1c",
+  "payload": {
+    "2968040": {
+      "success": true,
+      "data": {
+        "steam_appid": 2968040,
+        "name": "DayZ Frostline",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2699,
+          "final": 2699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2749
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3c1c55fe33814d4cba3325b112ca4905f5038ab3c80773268a5809a42a87ee11"
+}

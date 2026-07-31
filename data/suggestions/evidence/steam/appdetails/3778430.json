@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3778430,
+  "fetchedAt": "2026-07-31T03:15:04.056Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3778430&cc=us&l=english",
+  "responseDigest": "sha256:2551f3a2bb6044d5c86443daaaf147db9ef95c1cd2ecc0a8c738d30d6c30b5e0",
+  "payload": {
+    "3778430": {
+      "success": true,
+      "data": {
+        "steam_appid": 3778430,
+        "name": "Warframe: Oraxia Bundle",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2099,
+          "discount_percent": 30
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8e5ce5f3361d51f782cf82b82c765f78de9cd9166c546dd3886bafd89f905665"
+}

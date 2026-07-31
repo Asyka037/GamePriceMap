@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3259120,
+  "fetchedAt": "2026-07-31T03:07:12.496Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3259120&cc=us&l=english",
+  "responseDigest": "sha256:d5c272f2a820971409206f197e2b45139ff77637d61a7f55bb2ba77386aebf67",
+  "payload": {
+    "3259120": {
+      "success": true,
+      "data": {
+        "steam_appid": 3259120,
+        "name": "Disney Dreamlight Valley: The Storybook Vale",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 186
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1bc76b3f75df472ef3bb2e7646d00ce536c9cce4764e339b81be27a79dd5a05c"
+}

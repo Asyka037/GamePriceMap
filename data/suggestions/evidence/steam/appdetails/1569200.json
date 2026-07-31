@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1569200,
+  "fetchedAt": "2026-07-31T04:16:26.011Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1569200&cc=us&l=english",
+  "responseDigest": "sha256:3bc4e40323fffc3a16d5e9bad9da56aa0654d89d6c0048b3b0c3dcabd153c9cc",
+  "payload": {
+    "1569200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1569200,
+        "name": "Brewmaster: Beer Brewing Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 29, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1037
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a5219fb2b7f232b9db1ec713e159a184c0dcbd2fab27e92ae725b7c386fe2c63"
+}

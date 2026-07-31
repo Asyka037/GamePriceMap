@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3012220,
+  "fetchedAt": "2026-07-31T03:40:52.159Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3012220&cc=us&l=english",
+  "responseDigest": "sha256:f50d3d423f510ce6bcca7a80cc497effcb44851a0b5a7a34744ec9f1032d4d5e",
+  "payload": {
+    "3012220": {
+      "success": true,
+      "data": {
+        "steam_appid": 3012220,
+        "name": "Double Dragon Revive",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 153
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fac73b35bc46555b4bcf4bca59876ae1d6b041d7b10cd345d0bf00419a352189"
+}

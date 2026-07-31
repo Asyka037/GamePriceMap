@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2834350,
+  "fetchedAt": "2026-07-31T03:15:57.483Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2834350&cc=us&l=english",
+  "responseDigest": "sha256:42c7487d772e879d24f4d422223b880966cfcba159af0a1ff017a33d9fe741a7",
+  "payload": {
+    "2834350": {
+      "success": true,
+      "data": {
+        "steam_appid": 2834350,
+        "name": "BOOK OF HOURS: HOUSE OF LIGHT",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 195
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e59ae613b057d0f5bf0ef669ba33e8d70c6fa1a7c9a495a4c0c31a825d62f67d"
+}

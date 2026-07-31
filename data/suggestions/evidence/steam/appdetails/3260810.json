@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3260810,
+  "fetchedAt": "2026-07-31T03:24:04.670Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3260810&cc=us&l=english",
+  "responseDigest": "sha256:c4ea173cfc7b955ea4f499d90d1d97debf0602616826b866dbaf98a06d3863ef",
+  "payload": {
+    "3260810": {
+      "success": true,
+      "data": {
+        "steam_appid": 3260810,
+        "name": "Le Mans Ultimate - 2024 Pack 3",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eac12b296154845889d37fdc34bc86528dc4809485dc5dc90c3547d29561b81f"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2789810,
+  "fetchedAt": "2026-07-31T03:18:16.169Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2789810&cc=us&l=english",
+  "responseDigest": "sha256:054fde2373f1f0c2e5ca88d4d7b7cab811c7ca431e831891d56e0290d1b98469",
+  "payload": {
+    "2789810": {
+      "success": true,
+      "data": {
+        "steam_appid": 2789810,
+        "name": "Bingle Bingle",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 638
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:13ba018c0cbac2aec11b3d72067fa095fa1f34b44b417cafa1e2aa4057ed1002"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2377280,
+  "fetchedAt": "2026-07-31T03:08:19.073Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2377280&cc=us&l=english",
+  "responseDigest": "sha256:d914c72d1c4f2ea41d6528f958f4ec0d9bab0483ec085fda5275c2f90354c0d4",
+  "payload": {
+    "2377280": {
+      "success": true,
+      "data": {
+        "steam_appid": 2377280,
+        "name": "Eriksholm: The Stolen Dream",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2302
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1d46c7c52bc4f13fd5bcb9cd9dca110682c416df4d676d4188634ac9a4033e0f"
+}

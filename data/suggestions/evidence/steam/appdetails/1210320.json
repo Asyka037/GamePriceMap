@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1210320,
+  "fetchedAt": "2026-07-31T02:55:16.901Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1210320&cc=us&l=english",
+  "responseDigest": "sha256:91ef05e59c5c6bae2dddd943396a83f35c22531b6d160cfa9a9c1311088ee732",
+  "payload": {
+    "1210320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1210320,
+        "name": "Potion Craft: Alchemist Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 13, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 37464
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:71d66cdc116d7fe74164b2dc8a6dbedf239142f4fe63d4d4ee59ad7aff57296c"
+}

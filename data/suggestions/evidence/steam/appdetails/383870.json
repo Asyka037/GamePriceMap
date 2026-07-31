@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 383870,
+  "fetchedAt": "2026-07-31T02:57:08.704Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=383870&cc=us&l=english",
+  "responseDigest": "sha256:2a7f883cee0d5e9339447f81fcb0815dae8b81ad862e5e507eb395ef98f5d8ca",
+  "payload": {
+    "383870": {
+      "success": true,
+      "data": {
+        "steam_appid": 383870,
+        "name": "Firewatch",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 9, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 93186
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:686413778b3f688475b74686762486d03709354a7b6802d272dd1f2a2c98a65e"
+}

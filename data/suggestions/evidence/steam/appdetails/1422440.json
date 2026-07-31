@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1422440,
+  "fetchedAt": "2026-07-31T03:17:10.768Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1422440&cc=us&l=english",
+  "responseDigest": "sha256:f310f77d8bb689b51482e72efcf871a589c7827c0ce065b44949fdedd998d6c0",
+  "payload": {
+    "1422440": {
+      "success": true,
+      "data": {
+        "steam_appid": 1422440,
+        "name": "Cataclismo",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3814
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3624c38adbe7ede0af83f16ac65bd27156ba23c8aa2172eedd5f8886d298b76d"
+}

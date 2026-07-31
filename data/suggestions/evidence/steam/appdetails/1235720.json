@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1235720,
+  "fetchedAt": "2026-07-31T02:55:24.236Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1235720&cc=us&l=english",
+  "responseDigest": "sha256:2bb7dc106f7ca5609a781146f0c60cef0777381c58e99d5b5db5686aa381af09",
+  "payload": {
+    "1235720": {
+      "success": true,
+      "data": {
+        "steam_appid": 1235720,
+        "name": "The Sims™ 4 Get Famous",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 180
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:848ee8e787385052925d579bf2d607b3f4af9b0e747930729c2bb1f8d416a13c"
+}

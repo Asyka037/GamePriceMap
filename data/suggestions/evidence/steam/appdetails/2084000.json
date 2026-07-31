@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2084000,
+  "fetchedAt": "2026-07-31T03:14:22.814Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2084000&cc=us&l=english",
+  "responseDigest": "sha256:8461512425ac24de7fe3c8c50c3ae395423bcb4dafae1a59c51d3437cd687651",
+  "payload": {
+    "2084000": {
+      "success": true,
+      "data": {
+        "steam_appid": 2084000,
+        "name": "Shogun Showdown",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6103
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0e5d8f9f6a8b730188a451efc4cca15cb52a1d37da3946a71aedbc9e75f9a0ed"
+}

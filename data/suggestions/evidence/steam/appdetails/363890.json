@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 363890,
+  "fetchedAt": "2026-07-31T02:52:01.845Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=363890&cc=us&l=english",
+  "responseDigest": "sha256:10df7139a150555cb5014d0eca9ec8ec110785ec3732775d7d9a6bf1aab0dc75",
+  "payload": {
+    "363890": {
+      "success": true,
+      "data": {
+        "steam_appid": 363890,
+        "name": "RPG Maker MV",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 7999,
+          "final": 7999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7413
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2e5e39b54943ceb6b652f246e9c402381fbf273cb9599308853de940d49b4a80"
+}

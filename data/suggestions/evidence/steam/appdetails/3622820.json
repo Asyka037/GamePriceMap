@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3622820,
+  "fetchedAt": "2026-07-31T03:17:52.422Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3622820&cc=us&l=english",
+  "responseDigest": "sha256:57db091edcf9e95ed322439dc2bfde5e54effe72e81bb1c0a662119cfb50b624",
+  "payload": {
+    "3622820": {
+      "success": true,
+      "data": {
+        "steam_appid": 3622820,
+        "name": "Warhammer 40,000: Rogue Trader - Lex Imperialis",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 24, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 862
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:240503f9a770372a7e2cf43252f5f0ffba15ac429eb948f698d5a05d4d1e1b17"
+}

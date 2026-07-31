@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2872600,
+  "fetchedAt": "2026-07-31T03:50:43.690Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2872600&cc=us&l=english",
+  "responseDigest": "sha256:1e7e3a8a13a530c4220664045971d15d04d41a2c5719e06fb0682e7756a21199",
+  "payload": {
+    "2872600": {
+      "success": true,
+      "data": {
+        "steam_appid": 2872600,
+        "name": "Colonies of The Remnant",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1119,
+          "discount_percent": 20
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c7342f34f4754e7e1fee86ca9abb5580614c7fb64590adb6d605301a27ec4870"
+}

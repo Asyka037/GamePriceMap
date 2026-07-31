@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3976500,
+  "fetchedAt": "2026-07-31T03:16:12.273Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3976500&cc=us&l=english",
+  "responseDigest": "sha256:4bc9ed8d83893b2e01a22171d7b23ecdc0bf70423f97ec0e6cd28aa27facde6e",
+  "payload": {
+    "3976500": {
+      "success": true,
+      "data": {
+        "steam_appid": 3976500,
+        "name": "The Spotter: Dig or Die",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 7, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 974,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 1712
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7dbba57beabb870a126d98b4e30b2d33f568efc24edc9a67fc52fbef93181132"
+}

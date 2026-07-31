@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2407830,
+  "fetchedAt": "2026-07-31T03:40:15.728Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2407830&cc=us&l=english",
+  "responseDigest": "sha256:5163c636a3a774bb2b98b57e5c55893133c0c75942172bfd46068d6b122b77dd",
+  "payload": {
+    "2407830": {
+      "success": true,
+      "data": {
+        "steam_appid": 2407830,
+        "name": "Trash Goblin",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1339,
+          "discount_percent": 33
+        },
+        "recommendations": {
+          "total": 1543
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4f7f0ce251fa464582982d64af868d2e6bac5745493e46ee93919def516f82cf"
+}

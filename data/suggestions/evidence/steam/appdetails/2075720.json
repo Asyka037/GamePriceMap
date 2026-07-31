@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2075720,
+  "fetchedAt": "2026-07-31T04:10:00.785Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2075720&cc=us&l=english",
+  "responseDigest": "sha256:e8d0c65740788a894b6ea29381e75683ce764b8ff2c6b18b4e980d11f43d1206",
+  "payload": {
+    "2075720": {
+      "success": true,
+      "data": {
+        "steam_appid": 2075720,
+        "name": "9 Days",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 8, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2154
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:65229568d4026857428b4fed91e1828d48ca33996e9fd73ab2a31f6edc4c7ac3"
+}

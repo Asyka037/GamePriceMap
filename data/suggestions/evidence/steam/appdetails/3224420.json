@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3224420,
+  "fetchedAt": "2026-07-31T03:19:30.744Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3224420&cc=us&l=english",
+  "responseDigest": "sha256:f3166c34927a35238292507163160c552e7d815b316685a6e4a291aace7676d2",
+  "payload": {
+    "3224420": {
+      "success": true,
+      "data": {
+        "steam_appid": 3224420,
+        "name": "Milky Way Idle",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48be4049f7402b62797fa383b6f23dee3d9bd9ceabd667d97a63e165b0701676"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1771980,
+  "fetchedAt": "2026-07-31T02:54:16.272Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1771980&cc=us&l=english",
+  "responseDigest": "sha256:dccd551c7184bbfb6e694523b9e56d2d63f42a45748aaf06741b363b0c13c63b",
+  "payload": {
+    "1771980": {
+      "success": true,
+      "data": {
+        "steam_appid": 1771980,
+        "name": "The Operator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 22, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 839,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 8345
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:506121f0f60a709b04d677f598a791e3b3ae66194ef7a6819557e9865f6c6f4b"
+}

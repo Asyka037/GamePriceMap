@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1245560,
+  "fetchedAt": "2026-07-31T03:07:31.876Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1245560&cc=us&l=english",
+  "responseDigest": "sha256:8edebeb9e1f70976da9b05d70ca373bace95a5d1d23a7101f14b239c8f2ae2f0",
+  "payload": {
+    "1245560": {
+      "success": true,
+      "data": {
+        "steam_appid": 1245560,
+        "name": "Roots of Pacha",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 25, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3752
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0480c1e3852c74a660b54265c79a587224c42428393a190a981335b048ea3e50"
+}

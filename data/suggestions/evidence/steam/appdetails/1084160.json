@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1084160,
+  "fetchedAt": "2026-07-31T04:07:25.826Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1084160&cc=us&l=english",
+  "responseDigest": "sha256:72021f449c9428b325fc6a75e80f90d5e74d321640ec70a8e1827387c11eab87",
+  "payload": {
+    "1084160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1084160,
+        "name": "Jagged Alliance 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 10743
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:78102518e883cee2b1b387bc172f5e1c3ba46a0fbcf4532931f3e94ca688489b"
+}

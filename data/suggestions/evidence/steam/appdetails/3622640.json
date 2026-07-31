@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3622640,
+  "fetchedAt": "2026-07-31T03:09:15.418Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3622640&cc=us&l=english",
+  "responseDigest": "sha256:e0264fdc8709525b585a7d68a7fefb882a0770ae099a792bacaa90b645d99935",
+  "payload": {
+    "3622640": {
+      "success": true,
+      "data": {
+        "steam_appid": 3622640,
+        "name": "Vending Machine Co.",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 899,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 394
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7fb19941a41f6c409b2c7913d963757c695f1d7ce0e2153bd1449a1bf4ffb6c3"
+}
