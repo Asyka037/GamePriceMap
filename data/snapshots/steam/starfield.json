@@ -1,0 +1,150 @@
+{
+  "slug": "starfield",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 27.99,
+      "list": 34.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 63.96,
+      "list": 79.95,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 199.92,
+      "list": 249.9,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 53.59,
+      "list": 66.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 39.12,
+      "list": 48.9,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 167.2,
+      "list": 209,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 39.99,
+      "list": 49.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 35.99,
+      "list": 44.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 27.99,
+      "list": 34.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 2799,
+      "list": 3499,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 4840,
+      "list": 6050,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 43440,
+      "list": 54300,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 15999,
+      "list": 19999,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 799.2,
+      "list": 999,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 27.99,
+      "list": 34.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 27.99,
+      "list": 34.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 1199,
+      "list": 1499,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 39.99,
+      "list": 49.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    }
+  ]
+}

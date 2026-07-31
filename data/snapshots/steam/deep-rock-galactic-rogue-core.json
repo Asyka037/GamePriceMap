@@ -1,0 +1,150 @@
+{
+  "slug": "deep-rock-galactic-rogue-core",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 11.99,
+      "list": 14.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 35.16,
+      "list": 43.95,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 59.19,
+      "list": 73.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 31.19,
+      "list": 38.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 26.8,
+      "list": 33.5,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 68.8,
+      "list": 86,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 23.99,
+      "list": 29.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 19.99,
+      "list": 24.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 11.59,
+      "list": 14.49,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 751,
+      "list": 939,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2720,
+      "list": 3400,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 25600,
+      "list": 32000,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 4239,
+      "list": 5299,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 267.99,
+      "list": 334.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 8.39,
+      "list": 10.49,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 11.99,
+      "list": 14.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 407,
+      "list": 509,
+      "discountPct": 20,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 23.99,
+      "list": 29.99,
+      "discountPct": 20,
+      "saleEndsAt": null
+    }
+  ]
+}

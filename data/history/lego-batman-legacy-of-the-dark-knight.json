@@ -1,0 +1,20 @@
+{
+  "slug": "lego-batman-legacy-of-the-dark-knight",
+  "cheapsharkGameId": null,
+  "atl": {
+    "pc": {
+      "usd": 55.99,
+      "date": "2026-07-31",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-31",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 55.99,
+      "pct": 20
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "fallout-new-vegas",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 2.99,
+      "list": 5.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 7.47,
+      "list": 14.95,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 19.5,
+      "list": 39,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 6.74,
+      "list": 13.49,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 5.22,
+      "list": 20.9,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 20.5,
+      "list": 41,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 4.99,
+      "list": 9.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 3.99,
+      "list": 15.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 224,
+      "list": 449,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 549,
+      "list": 2199,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 5500,
+      "list": 11000,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 89.5,
+      "list": 179,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 3.24,
+      "list": 12.99,
+      "discountPct": 75,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 2.99,
+      "list": 5.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 4.99,
+      "list": 9.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    }
+  ]
+}

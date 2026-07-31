@@ -1,0 +1,913 @@
+{
+  "schemaVersion": 1,
+  "batchId": "steam-final-20260731-001-v3",
+  "batchDigest": "sha256:8284ae77b426b5f14f4da936714a27df44f2180402afbb10f12f1970a5987ad1",
+  "baseCommit": "88fefce22df80e0c11638c6da5904a90bdc5a552",
+  "approvalPolicy": "v2-auto-approve",
+  "appliedAt": "2026-07-31T05:04:45.533Z",
+  "items": [
+    {
+      "key": "steam:4032350",
+      "slug": "ea-sports-college-football-27",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:43e196378529df86fdbd57ad14b790ea689e95b5101237c73a973642dbbe70b1"
+    },
+    {
+      "key": "steam:2569760",
+      "slug": "the-mound-omen-of-cthulhu",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:c9b6d4457cf971fef89ff5d4663c3b45d49a27a7e0e83719511d9b98278c6c36"
+    },
+    {
+      "key": "steam:1149460",
+      "slug": "icarus",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:cefca83d8638d16e4888c79ade512ce90b2674a3c8ae1700814c0c706676936e"
+    },
+    {
+      "key": "steam:2050650",
+      "slug": "resident-evil-4",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:b409ec039379742dfca3f4dc217643d76efcc639f661804af76c61bd7d7b9daf"
+    },
+    {
+      "key": "steam:266410",
+      "slug": "iracing",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:674dcacc0ba71c4076672f82282ddc2a85a096bccc317952e1ff5158dcad043c"
+    },
+    {
+      "key": "steam:377160",
+      "slug": "fallout-4",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:df622e105d031774de310951c95196d49ece975289876220fd95c806d1f2ad98"
+    },
+    {
+      "key": "steam:3712080",
+      "slug": "funnel-runners",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:9c9e0f11c45df25a8df17d15fcb018fc5813a46888aeecc30a080debac85c5dd"
+    },
+    {
+      "key": "steam:4380490",
+      "slug": "cat-mail-co",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:66bedb3b54a566f657832f03f84eba480c8245883c0d95bd7cb521781c063d89"
+    },
+    {
+      "key": "steam:550",
+      "slug": "left-4-dead-2",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:76b76c2b99910b0997e3ea1e7c99810e5bde70b8486f7ba04a174ef267a21273"
+    },
+    {
+      "key": "steam:812140",
+      "slug": "assassins-creed-odyssey",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:b7e5d368e95b410aba7008bdd7f8dd1da41da0aba79c1ff0776efffc86d8ee85"
+    },
+    {
+      "key": "steam:3844970",
+      "slug": "burglin-gnomes",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:5985c50f0933f028b2829125770e4694b5105eba91c0e25ce5509f61841babe8"
+    },
+    {
+      "key": "steam:1284190",
+      "slug": "the-planet-crafter",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:a3e53723edb255c30cef8e32d4752286208960dc1248e6ab331fa040290a3ca4"
+    },
+    {
+      "key": "steam:2215200",
+      "slug": "lego-batman-legacy-of-the-dark-knight",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:273dc64e32ea667f5ac83dbeb9ce5cfbd65fabc5f6cdab7171d054e28847be35"
+    },
+    {
+      "key": "steam:1716740",
+      "slug": "starfield",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:90fb813f982ee1e5a03d8863575c58c46c3216f5789f5f62e89d5e983bb19a13"
+    },
+    {
+      "key": "steam:1913370",
+      "slug": "operator",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:55a46094f3c030a05b5cb62f5cccfa35a5359c78fdd89a83939b4e4b385edd25"
+    },
+    {
+      "key": "steam:219990",
+      "slug": "grim-dawn",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:ecaa9928c9e3b06ac29d2a9e64739885590c8d42967224dafe27580f71ef39b1"
+    },
+    {
+      "key": "steam:4069520",
+      "slug": "super-battle-golf",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:ed55f5ad89ddd43f2b20dcc9547bfe389c5b3c29b855f1111ab5262702fa0f65"
+    },
+    {
+      "key": "steam:3935020",
+      "slug": "backyard-baseball",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:650aa3b8198d971dbbf0c5f2dcf66d1ab8d41e8417f758c2a4e670d75b4b5656"
+    },
+    {
+      "key": "steam:2221490",
+      "slug": "tom-clancys-the-division-2",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:c389d124dd06dced9a7f32542e1a1da1c54ae5d4bbe16893872cb85d0308bdc9"
+    },
+    {
+      "key": "steam:1431300",
+      "slug": "sand-raiders-of-sophie",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:184dfd4be8991f2278e6484f1d30c421f203c3a0b2e8af1714b244ae28a708ae"
+    },
+    {
+      "key": "steam:2524850",
+      "slug": "denshattack",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:ed319f685a66275c959a4d1959719c46244df4d17cb49aea76b1687fd325222d"
+    },
+    {
+      "key": "steam:1966720",
+      "slug": "lethal-company",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:b38ff909588d316a3431e382ae3b5b327969e84cd860e3f44b6f84537a76e555"
+    },
+    {
+      "key": "steam:1466060",
+      "slug": "tainted-grail-the-fall-of-avalon",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:b9907fe1c4e72a21612c27ce676879b29a7357c350797814241c4726c86814f3"
+    },
+    {
+      "key": "steam:2244210",
+      "slug": "echoes-of-aincrad",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:74c4a9e432d3f90ed40e42a214a8525abc624a92b4b675eb98824b9a65b65cce"
+    },
+    {
+      "key": "steam:3606480",
+      "slug": "call-of-duty-black-ops-7",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:e959d028ea828895221ee8170cb59ec300d2114f7da1356bf4616280a4a2a0f4"
+    },
+    {
+      "key": "steam:387990",
+      "slug": "scrap-mechanic",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:a2d30782bfec229f1f152dbbefdd5738a7f15d659ed509046ab451d4ab0ff485"
+    },
+    {
+      "key": "steam:3808690",
+      "slug": "pathogenic",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:fd2372c8ddcd0d48b313673e27e805bdec8e7e0479bc26988304eeea7700932f"
+    },
+    {
+      "key": "steam:2840770",
+      "slug": "avatar-frontiers-of-pandora",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:d9e596b2c5664432bc0c9d457833d4362d6dac7a036ad9a71c94ac0fea83508c"
+    },
+    {
+      "key": "steam:393380",
+      "slug": "squad",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:105e3696a034e479fcd0cb0b1acade3c1cc33340b8825efdfcdf6902b620a480"
+    },
+    {
+      "key": "steam:2456740",
+      "slug": "inzoi",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:6a9afaec56a98625116b531f8d3dd827804d44a42e9e88730df09716b5d2754b"
+    },
+    {
+      "key": "steam:1313140",
+      "slug": "cult-of-the-lamb",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:c91835cbe107f8b878a9fe463e3538081d4e40ec1fbafa510541e06ac5c92dfc"
+    },
+    {
+      "key": "steam:813780",
+      "slug": "age-of-empires-ii-definitive-edition",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:b4ffcc152e5195dc980e135d1cf50916f34a2fd321046d0b1a891cf4ebb1e738"
+    },
+    {
+      "key": "steam:1805110",
+      "slug": "solarpunk",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:45e194d0a93d41da7db4792969d9945272ea8056e3a5fb526970f417fd90aa67"
+    },
+    {
+      "key": "steam:1229490",
+      "slug": "ultrakill",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:c2d0a7510afdc97521c3f2d86d356489e52a90bb72b127b9199ed0d235160971"
+    },
+    {
+      "key": "steam:1384160",
+      "slug": "guilty-gear-strive",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:a37e3ed8467835cd36fc40b6083ba022df0f1868990e377444faad9e05362463"
+    },
+    {
+      "key": "steam:2688950",
+      "slug": "planet-coaster-2",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:9724c1b622f982db076387cb6295eb1281cdf294429c015def8ef7f5c9c04973"
+    },
+    {
+      "key": "steam:2195120",
+      "slug": "go-go-town",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:559c42b9e57f34bef141d2316ec08329e91f68e08b74abfdedaf5f2de8156d3a"
+    },
+    {
+      "key": "steam:346110",
+      "slug": "ark-survival-evolved",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:7b3e39fdb1a04f1dd0beecee6f84db6273d91dcea921eecfaed8be8c67a920cd"
+    },
+    {
+      "key": "steam:2385530",
+      "slug": "pga-tour-2k25",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:ec3c1d7ee7b081a20a5421a8f99c91d5e05521a6ef09eb6227ee3e0227e0932d"
+    },
+    {
+      "key": "steam:1817070",
+      "slug": "marvels-spider-man-remastered",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:21e57323b540b5cc843822cdd356431d1364ad848d701de010e0739a96fa5d1c"
+    },
+    {
+      "key": "steam:289070",
+      "slug": "sid-meiers-civilization-vi",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:debc4ec56c71b22bfdf00357d53ca642184528f321c3c68acd428687f03e4dce"
+    },
+    {
+      "key": "steam:367270",
+      "slug": "angels-fall-first",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:974234f8252270234aec893e095c5b2cb127d90f846584b78d6f2ba3fc8c37b2"
+    },
+    {
+      "key": "steam:374320",
+      "slug": "dark-souls-iii",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:3cbe50eb9e3011f8de42c136bde5e337caca018af94278e727c61a1fbcfd1fa4"
+    },
+    {
+      "key": "steam:686810",
+      "slug": "hell-let-loose",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:ada39f6a9765a213c3de890378333f8978a4a48cc22f183a3ba2b38ed1d52fdf"
+    },
+    {
+      "key": "steam:2054970",
+      "slug": "dragons-dogma-2",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:2dd706b2370a1636e725b09814c78be317b935a8e7031b1af230052647e00ec9"
+    },
+    {
+      "key": "steam:255710",
+      "slug": "cities-skylines",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:dde73167879f37760cea48fc44adfae5696c384e751d49a5e36abbc68bc88c0b"
+    },
+    {
+      "key": "steam:244210",
+      "slug": "assetto-corsa",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:be4cad8051c971006638ff13ef6f1e22d554fd563901e95920c5ddbb61591e48"
+    },
+    {
+      "key": "steam:220200",
+      "slug": "kerbal-space-program",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:b01321a9da5200949172f79698fe56b2fee80714ef818ba1d0425ff75e8f4166"
+    },
+    {
+      "key": "steam:2670630",
+      "slug": "supermarket-simulator",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:b73c0418a9133fdff0e07c7b01ef9cb48118c12880a0a78852469ac4be1e5047"
+    },
+    {
+      "key": "steam:3641000",
+      "slug": "the-incident-at-galley-house",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:607f0f5c0a814e895369a909fda2f4cc0210c4c3c92f896aa8b432f8250cc46b"
+    },
+    {
+      "key": "steam:3834090",
+      "slug": "yapyap",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:7e2573d6c7b6383d08bcb3fbd635f2d84080ef9de91d696e86adccf9cb29a5f4"
+    },
+    {
+      "key": "steam:1167630",
+      "slug": "teardown",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:9845916dddf2863d8d23862e71772bb759a6c42ac29c8f64dc5d98c1681d51ae"
+    },
+    {
+      "key": "steam:1778820",
+      "slug": "tekken-8",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:dd9d043ba2fa67884a2756233045201132b241b9cd46c0b63f9327bd7b9606c8"
+    },
+    {
+      "key": "steam:589290",
+      "slug": "holdfast-nations-at-war",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:2c93c804e6024764303f1c7fbc137c7559c8d16c9b450521922665b677bb177a"
+    },
+    {
+      "key": "steam:3981100",
+      "slug": "leaf-it-alone",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:cfe54cc8d7759acafb8fa569826ff36ce22d11ba6aa060a12001ba91677073af"
+    },
+    {
+      "key": "steam:3948120",
+      "slug": "scritchy-scratchy",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:d4a4700dfd09988ab1b4ed8ad26aeafdf471654a48bc55e6e0945996c62acdb4"
+    },
+    {
+      "key": "steam:2215430",
+      "slug": "ghost-of-tsushima-directors-cut",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:e94882223aad1581cbc1ab15f58d4a1ff7fbdbdd4e9b3438abee6a677da6d8f9"
+    },
+    {
+      "key": "steam:529340",
+      "slug": "victoria-3",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:d4bdaab1c1f92fc40a2f7b48321adc0cc073d65cd1062e4dff2c8730e88d98c9"
+    },
+    {
+      "key": "steam:962130",
+      "slug": "grounded",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:90a07f2603df32e16cec334431af167a3dc58d5ff5d14888aa310e656c3c4f78"
+    },
+    {
+      "key": "steam:1062090",
+      "slug": "timberborn",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:18385a59eef9c9f6b41a65baa9d35a8aceaac075188c480267305f8d21c22eb8"
+    },
+    {
+      "key": "steam:2131680",
+      "slug": "metal-gear-and-metal-gear-2-solid-snake",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:3486366c394d1d268a925e05de08a125540f4968d764b101339c350eecc36596"
+    },
+    {
+      "key": "steam:3552140",
+      "slug": "retro-rewind-video-store-simulator",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:644b544504ce81499f4c2ffbf50873fc342987ba2619d5417cae00e82dfcdc8d"
+    },
+    {
+      "key": "steam:287700",
+      "slug": "metal-gear-solid-v-the-phantom-pain",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:be500127d665760c56d667536a0f85bdf24da74eb3d7847c44158650ba89c910"
+    },
+    {
+      "key": "steam:22380",
+      "slug": "fallout-new-vegas",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:d37897597bae0ef0cfa35bd2c20f6bd42b6640e2d13ceb7e0db154e0a79cf893"
+    },
+    {
+      "key": "steam:1371980",
+      "slug": "no-rest-for-the-wicked",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:d91e58fa89a49b670b68d6c708d8dfe41a0894b4b55de95eed4cceea98b61403"
+    },
+    {
+      "key": "steam:686060",
+      "slug": "mewgenics",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:5de662668d385247930d1924055912b248735e31347c44bcb9807738ec0beca4"
+    },
+    {
+      "key": "steam:1669000",
+      "slug": "age-of-wonders-4",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:408ab9faf56045605254e4489fffa71bacfa35ff2b5fc9929b287e35beb6748a"
+    },
+    {
+      "key": "steam:2406770",
+      "slug": "bodycam",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:c21730fa726b0641ba1d48c7b14d73ab666b4f4979b5e741a8ffb0eee4f5c406"
+    },
+    {
+      "key": "steam:784080",
+      "slug": "mechwarrior-5-mercenaries",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:0a834a68cd07dc0d0264595825f444e3a11e4fb350a23a027f4f83f448858f78"
+    },
+    {
+      "key": "steam:585420",
+      "slug": "trailmakers",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:0890be63f80b54b6ac94a879d7767b0562bc0fc6e538507c6cbff3d6c21fdd90"
+    },
+    {
+      "key": "steam:400750",
+      "slug": "call-to-arms-gates-of-hell-ostfront",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:ba7b7c9994adf6567de3487783f012c97dce854218394c924d69e6f21595a519"
+    },
+    {
+      "key": "steam:1172710",
+      "slug": "dune-awakening",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:bbc133e1a45dda5012ea2520267cf6c25f12c00f12f2f792eac6f7f66829c9e4"
+    },
+    {
+      "key": "steam:1857950",
+      "slug": "vein",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:b55d831e09384ecb537462bd7531a363fba252984c2d3e8312768cfc1f92c95c"
+    },
+    {
+      "key": "steam:107410",
+      "slug": "arma-3",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:380ca932a95acd96ec4f9c46b498e1db8a858700a0b91b791afc8ac917a4c457"
+    },
+    {
+      "key": "steam:2679100",
+      "slug": "witchspire",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:58c4c6620caada543a0319b4751822f7b3769a7eeb70f77eba6712af9e4b57cf"
+    },
+    {
+      "key": "steam:2643390",
+      "slug": "star-trek-voyager-across-the-unknown",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:b20a830cbe88cc931229452e07f1d67d5e665a1da82865395ff1057bc1f27de2"
+    },
+    {
+      "key": "steam:1888930",
+      "slug": "the-last-of-us-part-i",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:c8720dbdf8969e5cf4e976c0f5240dd3066ab70432216b410229ed998ef0e174"
+    },
+    {
+      "key": "steam:3008130",
+      "slug": "dying-light-the-beast",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:06b7ef40199b83d19eac46753a666efe9002ccfccaefe689ac1cf7859fcd7a96"
+    },
+    {
+      "key": "steam:2623190",
+      "slug": "the-elder-scrolls-iv-oblivion-remastered",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:b8e4af6d81c1aaae47aedfb650440052fda41a4bf406560a48583f6f327b364a"
+    },
+    {
+      "key": "steam:513710",
+      "slug": "scum",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:60fb7b9ab7b58f0897634aaadc3dad0921fcc899f2567c7f0a232d9c5871d3eb"
+    },
+    {
+      "key": "steam:3717070",
+      "slug": "wwe-2k26",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:69b3f6de4637d2fc0d57976c3a7b618496a0d56362b1c34241ead6d09838d0e1"
+    },
+    {
+      "key": "steam:292030",
+      "slug": "the-witcher-3-wild-hunt",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:0f0ba85119ccdd02522044583e11c74e573a668f5a3a4a22c8b46212c9673804"
+    },
+    {
+      "key": "steam:4121170",
+      "slug": "fears-to-fathom-scratch-creek",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:549b23e622819448905864bbe026c12c87cfd5a4c68810eaecbf816d31a5d1d3"
+    },
+    {
+      "key": "steam:1466860",
+      "slug": "age-of-empires-iv-anniversary-edition",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:e9a1937fa6a7bb05aa6f371bc9a73b54a91504eb8367e9879f8a5801c69df578"
+    },
+    {
+      "key": "steam:233860",
+      "slug": "kenshi",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:52c2e3b3296e52ea73540001a998491ae6c68fbe87932d604071a6215b4c297a"
+    },
+    {
+      "key": "steam:2668510",
+      "slug": "red-dead-redemption",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:0ed4bb288c801aae80138e1eec89cdbb6115ca2e2ed6e194515d53454b4c89e5"
+    },
+    {
+      "key": "steam:2605790",
+      "slug": "deep-rock-galactic-rogue-core",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:082b02e83051aad86aa3d7c4b216abcedc71d8d750b5fbd9c3dcdc6e385861ae"
+    },
+    {
+      "key": "steam:1426210",
+      "slug": "it-takes-two",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:8464ac9992bd53ef44ed9f322ee0595dea1d1cfdb73d6301ff32ca3a47474366"
+    },
+    {
+      "key": "steam:322170",
+      "slug": "geometry-dash",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:4efe54c30f7f972847b34752a6f92c359f7e887ea3c7d78314551e6d6f9d434e"
+    },
+    {
+      "key": "steam:2399420",
+      "slug": "le-mans-ultimate",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:f1338dd7a53d355fd52c8062540b415f3436146d2bd73182fc4941c4fbafb7b8"
+    },
+    {
+      "key": "steam:926990",
+      "slug": "wolfquest-anniversary-edition",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:9e1e56229e49e791ad382ce972d427a95b6ee53d715031f1be101a4b8fa3bfca"
+    },
+    {
+      "key": "steam:3105440",
+      "slug": "heroes-of-might-and-magic-olden-era",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:6268afda6ac32c831a3ce42f293f492053e2594a5eba7b953eee49467defc4ee"
+    },
+    {
+      "key": "steam:1206560",
+      "slug": "worldbox-god-simulator",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:5c12907833e9d62a156b6d4ace74b660eabc7689670ac3104329efc4465ecd6c"
+    },
+    {
+      "key": "steam:1783560",
+      "slug": "the-last-caretaker",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:43c4eee3f8383ab3f03b5a42f5bb159ef4f9108e633357ac487ba97341c4e1c4"
+    },
+    {
+      "key": "steam:1721110",
+      "slug": "abyssus",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:c3d1aa32261372a992262949da5f2c7f8712cd7b5722e0c80a7434bff5dc6dad"
+    },
+    {
+      "key": "steam:4244510",
+      "slug": "pratfall",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:077af16c06762cdb38b0f2ee70d00cd6d0fc96559049088ab054176c9a9a30df"
+    },
+    {
+      "key": "steam:1794680",
+      "slug": "vampire-survivors",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:4fcd1c72c1c5507f4d2521da44863fd562bb96e99a083d944b3f4e48aba0532d"
+    },
+    {
+      "key": "steam:2071280",
+      "slug": "ravenswatch",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:087b84d1873d39e9e50ca5a08762ff9c432ad30b7fbcd4ae68fa76e93e7382c6"
+    },
+    {
+      "key": "steam:602960",
+      "slug": "barotrauma",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:010861406572c376a2ce1a0ce19102dd16586769cd5c9daa19c40093251a2b6f"
+    },
+    {
+      "key": "steam:4210580",
+      "slug": "ore-factory-squad",
+      "catalogAction": "new_game",
+      "evidenceDigest": "sha256:c6f7242e060ff1fecb436d6b173d5c3459e4a0d95336037df09ce28b07aa0ac8"
+    }
+  ],
+  "artifacts": {
+    "data/catalog.json": "sha256:fd91622f8473ad16a3d93599c014e0a7a95a70e9ada9eea05107ec5376c61f8b",
+    "data/history/abyssus.json": "sha256:62d0f2efa63da72c2b55fa295b0f6bc4cd51554a9866e9c26cccc727426006d6",
+    "data/history/age-of-empires-ii-definitive-edition.json": "sha256:f4a97fff1d83f805809c61030df512fac7ae1f85f2d655d552e07288661cf600",
+    "data/history/age-of-empires-iv-anniversary-edition.json": "sha256:d80c34274ac48b087090eca0815a586ae99272bddf4d8b3046c17fd8d837f922",
+    "data/history/age-of-wonders-4.json": "sha256:d6eba36e3f353bc266b2280cf9091196805067b802e9bafbab19b70fa42b6632",
+    "data/history/angels-fall-first.json": "sha256:df8cdce286968ec2ef488cd2884058f47d749589964a011ab5d51896fdf48360",
+    "data/history/ark-survival-evolved.json": "sha256:46170d5db819d2ccd3b126799e4af30e0252086ea8fced3e3b8ed9fcb4183039",
+    "data/history/arma-3.json": "sha256:c594c3349ce1a9efbd002c2bce7a24b8e61a3dc6bf2455bfcb762fa309dbcb1f",
+    "data/history/assassins-creed-odyssey.json": "sha256:ddd5c187f0e2dc82848efffc15ee7ef2d2fe05776f17f3917653a1fc69c3f31a",
+    "data/history/assetto-corsa.json": "sha256:97fb5190e35e03c6cfa81b083d3297bd6824dd3a0408e702511df0f2f46ebafe",
+    "data/history/avatar-frontiers-of-pandora.json": "sha256:915edade9416b9801c473bbc2a1648f452f20eb62bdd7987239e21f195a2aafe",
+    "data/history/backyard-baseball.json": "sha256:c68f60cf4c631276eaa014ee5e81e810b4f6e4e22dd229fc4a48e8e2d69437a7",
+    "data/history/barotrauma.json": "sha256:9c4534db73fa2b10715d454581f8184e73b36c89518cad5e51db9cc3efd5e760",
+    "data/history/bodycam.json": "sha256:cbefe42995820066ec4b055fc75e2eec2ee122dc321afce509e5ac43fea3e871",
+    "data/history/burglin-gnomes.json": "sha256:314c8dc1f528423c67e98ea37670a869833f0a942336b0e4dc2311d604ac0850",
+    "data/history/call-of-duty-black-ops-7.json": "sha256:381730ed4637528f197432d81fcec8c786c9e41669cbc67f4fdaa75097c69140",
+    "data/history/call-to-arms-gates-of-hell-ostfront.json": "sha256:2c6ac854b9144a7266c4c5b95356e67a71ef2d158bb48d9dcecc6a0c172b8850",
+    "data/history/cat-mail-co.json": "sha256:f0184d1806d4d53f0082a8844df6229ad9b65d1bd9d30048df26a66273f696ca",
+    "data/history/cities-skylines.json": "sha256:523c7144696814e27a8f335dfd5234375fd4662d83eb54a9328bdd9eb8dea48b",
+    "data/history/cult-of-the-lamb.json": "sha256:e56029b25c592758cca5fd1414447c65df0522e4235bac7e49ef731c0f904065",
+    "data/history/dark-souls-iii.json": "sha256:cb83326464d301ce4dc54c6908524b3906475ce9e794bf58ffe5b0c3674b6fbd",
+    "data/history/deep-rock-galactic-rogue-core.json": "sha256:5d0bfb2abf05c07112f90b776b76dc42179ee16cf313158903683f09a93e33b5",
+    "data/history/denshattack.json": "sha256:47666170003782d1e3612f21b39708703bf91313318ab5f6dfe548b5509f61bc",
+    "data/history/dragons-dogma-2.json": "sha256:e3238547b064050e79a541bda1f6e81b59e67d5ad11b13a10450d783270e846f",
+    "data/history/dune-awakening.json": "sha256:9c6fae01355e45018b12bb26d170893b29f61a83f69f88cec82725a2ff24cf54",
+    "data/history/dying-light-the-beast.json": "sha256:56372755cea8d3e160cba65fa0b188fb1380f29989d3bbe6f14fae84ce425e43",
+    "data/history/ea-sports-college-football-27.json": "sha256:1c6faf9df9d3f38af553ebf023f4fca0f94111f7ad34a9b9c4286734bb1cb24e",
+    "data/history/echoes-of-aincrad.json": "sha256:191bd5248a6b8cc7c04f6452b7c0b0675a382fd235834750020327e641f3679d",
+    "data/history/fallout-4.json": "sha256:26f9c8db5bbcd2471d36aac9f23bf2bd4ea25bde79dd5caa7afd6b8426978c01",
+    "data/history/fallout-new-vegas.json": "sha256:06e570642072d80fde214668ec05e0570199f4db4211b91a7c15354d9291f0ae",
+    "data/history/fears-to-fathom-scratch-creek.json": "sha256:6aeb4ad82d10d6f3d0083ef2b4567386bc6909775bb0f97751e7a2378eb05540",
+    "data/history/funnel-runners.json": "sha256:f921a26690b004d972feac15787dcd7c54ada8090ccf0943edd3adb14cf7c697",
+    "data/history/geometry-dash.json": "sha256:8fe1ab6a5f1b0df5de270ff2905d344001579864df4b624eee6d6199997a4fc8",
+    "data/history/ghost-of-tsushima-directors-cut.json": "sha256:5953a15b07f36466e52a14b1c6d865207f70c3292a088e83a6704cdb8eda11fe",
+    "data/history/go-go-town.json": "sha256:cd0dedbfdfd81c6a54fabe8e1a40054fb209b8cf5526f275f720920a2493b638",
+    "data/history/grim-dawn.json": "sha256:bbcbb7a180b825df5498e8dad01de2e578367edbe9391794e61dd9b2988902c7",
+    "data/history/grounded.json": "sha256:b0e980bd0f0d14875fb34a8a18cf872425b380e0c531a63c9c207771c191c704",
+    "data/history/guilty-gear-strive.json": "sha256:4846a99b1969d3f8cefbe1f71da02394d737e6482871d7860af64930e02c6beb",
+    "data/history/hell-let-loose.json": "sha256:9885d17b695731776cd252dae4b0b317ddc9e3c5841d9eec55287534cedeee69",
+    "data/history/heroes-of-might-and-magic-olden-era.json": "sha256:132145d6a9f59f82c2bc0dcc81b305dbbc2d613bd41f0df2959d6d411e6c1c3f",
+    "data/history/holdfast-nations-at-war.json": "sha256:1e50f676a86da699220cbfa625b414923c4810ff4b42a50bc0a01c37fcfe524a",
+    "data/history/icarus.json": "sha256:0029bea8a4027ba3cab7fdbe0178783aeba6b38992a5501479ff4d51c7d31620",
+    "data/history/inzoi.json": "sha256:94610be4c6d7d13cfd1cab7544d1deda6be0e1c4693bcdb73d34bf96ce7f5a69",
+    "data/history/iracing.json": "sha256:1b79434edd886f0a7b747247cf288745a87498a29574c7ffbbfe33bf76ab060d",
+    "data/history/it-takes-two.json": "sha256:c681f7a07637644f434360e4594771c0ff5589033b80f8bfdc7bc4b1f7e7f636",
+    "data/history/kenshi.json": "sha256:b9197e78ba5ea1da6c32f4b58f732d7fd13fadc04c028afacaef8cf622469231",
+    "data/history/kerbal-space-program.json": "sha256:cebebe27e1efa74447a5a3db39397a29a13a1e73e7b4d3d8e40b7ec6de9b572a",
+    "data/history/le-mans-ultimate.json": "sha256:ee0607299878c48ba43b57e173ce0af11742b66405564cb324b0538dde10ee19",
+    "data/history/leaf-it-alone.json": "sha256:925619eafb561e7ea2dfbfb59445869410507bf655b56d9b92aba4340eb5e6f7",
+    "data/history/left-4-dead-2.json": "sha256:86df86e97e691d9526cbfb57b57e189243d0925bdccea70274e320ce0f52f68d",
+    "data/history/lego-batman-legacy-of-the-dark-knight.json": "sha256:fa4a35851eb383fed733bc141641deac7605d397fde88a82922faca557fabbc8",
+    "data/history/lethal-company.json": "sha256:a69d5302f5501c842d7e5eec2ce52ab531f991a28b8948b2363c4730fe3b4ff0",
+    "data/history/marvels-spider-man-remastered.json": "sha256:598f7e4fb5d69aa528c2f30ba5b4cb32981d9b35f499697bfc893bba49e9f381",
+    "data/history/mechwarrior-5-mercenaries.json": "sha256:801c2dd728f8e2f8f6e802883f43f532b65ac67d06518d74169bb21041db7a64",
+    "data/history/metal-gear-and-metal-gear-2-solid-snake.json": "sha256:ef1ef5804eef21a406be343d7f12db7d54e886dc87a2cd82b18875115bcda5fb",
+    "data/history/metal-gear-solid-v-the-phantom-pain.json": "sha256:d89ff5b65840ad5eed67bc489a6c97e7b04a6bc619e0da4cffeabf64d544cd02",
+    "data/history/mewgenics.json": "sha256:3ea9e4da1312c05258ea23de8cde1d0908914dc09022250b35434ad8bfd9d5bc",
+    "data/history/no-rest-for-the-wicked.json": "sha256:e72cf2289b8fb615765f8680b27aadaeaa4cf25b1ab028b73401960d38d23716",
+    "data/history/operator.json": "sha256:a2452e6cee53d33bd779e1ecb728192e1dda17c2a045d3e7c262295132f8382b",
+    "data/history/ore-factory-squad.json": "sha256:c15c268089d362029ed3a03b9354f6aff0ec6b4356a325a7fb02bd920e305dcc",
+    "data/history/pathogenic.json": "sha256:bfa31bece2746b380121a16c6b9e3b07b3093476de2a8c576fd1a28695b15d4e",
+    "data/history/pga-tour-2k25.json": "sha256:e0feba06d47955f8260c56ee59673e4f8bfba170cf2a54f2481834663c7db940",
+    "data/history/planet-coaster-2.json": "sha256:9decc3c680a0c545453b2c0d352c0101a21c4d7cc7240797874108234bf3c737",
+    "data/history/pratfall.json": "sha256:2cc7ecd2c21a85ba50f9a2a17a8a859eaa69658588ce53eac6965ee66f3c7cfb",
+    "data/history/ravenswatch.json": "sha256:426a8dba3d34fdff331282fb392c73556c49f4b60728ae10fae519c80d4ee6ab",
+    "data/history/red-dead-redemption.json": "sha256:96a77ac32070c478405aa8904fa72c9e16dce113ec80ea8ad37acdf4f6edc672",
+    "data/history/resident-evil-4.json": "sha256:1690e8ba10335c63c961d2d39c42784a1da5eeb2d5138a101bb9c6deeb784fe5",
+    "data/history/retro-rewind-video-store-simulator.json": "sha256:5ee38ba5283d7cebc5dc602c886e942839e7f8dae3ae6c80d8587dfc772dd557",
+    "data/history/sand-raiders-of-sophie.json": "sha256:c152b2397f393a155967aa985e0c67563056b6a1f7f26aaf7accf2ce1880fecb",
+    "data/history/scrap-mechanic.json": "sha256:9f24a587055c5dd229603d483454c9799c0df220232b29479d4d6315337426ad",
+    "data/history/scritchy-scratchy.json": "sha256:ded6f0c7ac8bd3124aef5ca483150afaaafbd015e90f8dd20f03067f115e4a66",
+    "data/history/scum.json": "sha256:529e6d59e2f99d4b9655826317ea586d2593b098d9eeba27cc8f8b22ab725da3",
+    "data/history/sid-meiers-civilization-vi.json": "sha256:045a7c0d9e5c2f428d5cf050449fd33c0195d6d6b3b517bccf9d69d01f8032f2",
+    "data/history/solarpunk.json": "sha256:0f33a895b6e81cadd4642cf82e5cd1192ab79a86f69487957879ee9ae03c9b42",
+    "data/history/squad.json": "sha256:cf3803d0fd8b92634a941945e696e20f981637b85d6618d56818366ba863fd88",
+    "data/history/star-trek-voyager-across-the-unknown.json": "sha256:17878c8ed4180fd2b00c9dd216560996dcc8c123617c10b209c472b571cd8f4a",
+    "data/history/starfield.json": "sha256:f07fe4d5bf8b06620b29966530948a221cd93756d75758933331980a950269ba",
+    "data/history/super-battle-golf.json": "sha256:3ce0a5760ac16d43790e1c0cd0ccb8b741ef64f805c9a12701ada762d9fdc37b",
+    "data/history/supermarket-simulator.json": "sha256:cd688f3be11488d40168a5781de7bd6eb8157010d32eda8ac109c1601d7b39de",
+    "data/history/tainted-grail-the-fall-of-avalon.json": "sha256:e1451424caee4d09f25458887fe13a9829aa544258065df6c8de4550acd476a7",
+    "data/history/teardown.json": "sha256:30368836a93597ddf3423d1519ac8147f8d1563229841cad8d9d9e78e3c40a08",
+    "data/history/tekken-8.json": "sha256:cc3621cdb72535b3dc41165bab21a183fb1cb5c727b741ee84acdbe919fabe6f",
+    "data/history/the-elder-scrolls-iv-oblivion-remastered.json": "sha256:f2fb4cc87891443048c769a524b23449d14913c925895b2cbf17847e20181025",
+    "data/history/the-incident-at-galley-house.json": "sha256:cc9bd338e3ac059da2a07b0314117f6b299334134a97f97f670b456c22957cc1",
+    "data/history/the-last-caretaker.json": "sha256:fbb11a66fa12d4a63bb3ecf82ae7d8a2d24966b5755c774e83a8c6821c09c7f1",
+    "data/history/the-last-of-us-part-i.json": "sha256:61e62e75d3455bec2c1d2d7bff42a56dd6ab43ef4da8f9a83c016806bb1721a6",
+    "data/history/the-mound-omen-of-cthulhu.json": "sha256:10ef7fab96b8f9b0a3c9fbc2b7e2920939f71146d124d6b027b3716827e4b0ed",
+    "data/history/the-planet-crafter.json": "sha256:5c31094ed275bbe5ec7a7b770f31891d0480877ae18fbdf66946d8038477445f",
+    "data/history/the-witcher-3-wild-hunt.json": "sha256:eea94454561082ec3de6b4cd24d6e7b3c663131fe7302a2584ab2d0ee7eb45a9",
+    "data/history/timberborn.json": "sha256:07a218e25eb205ad58f7df151b6e5e987b099eeb14755b826f01efb1363c5267",
+    "data/history/tom-clancys-the-division-2.json": "sha256:0c0106481634183b742d0a20d5a7111a9a678bcadc6a295d779f5fb8d48f6b00",
+    "data/history/trailmakers.json": "sha256:a23e63c26dbb97b6f9197a3fa58b998e3c6d37232f26a0ec1ccc23548f3e8dc6",
+    "data/history/ultrakill.json": "sha256:7bd424bc402a2a41bf91f82fc1f17b50b98f02f3939ef984d1b0ee2f7128a27a",
+    "data/history/vampire-survivors.json": "sha256:e6aeba0eb5b46342f85e292382851c884a9d98eb09cb5ee4092143cfcd49834b",
+    "data/history/vein.json": "sha256:8341f0ec8a3c31777b9a57073d75385de70e16cb6bb1061d2d4fb8f4a6e65e09",
+    "data/history/victoria-3.json": "sha256:22831a378a8501932a4989c399742ba792b9f011b326a3d52fd531e46b59f544",
+    "data/history/witchspire.json": "sha256:a17089551ea4e5953f455e4a7692b25d6a39c7f0270d126570e02c03b12c9f0e",
+    "data/history/wolfquest-anniversary-edition.json": "sha256:30bc8714556d3f736e4561dbe3844130cf5c595e7675779234e4735f03ce0d63",
+    "data/history/worldbox-god-simulator.json": "sha256:ab075e53d3d1907a15995b330fd7a172cbd5ca8b06860dce19eb73730b34c410",
+    "data/history/wwe-2k26.json": "sha256:fb16c3a043c9209e57290c094bc485aaa88e572f12b722aef3a2f5fa5bd13940",
+    "data/history/yapyap.json": "sha256:353e2759ab7ff5eec93fe7d21cd208eff29a2a705ec1df87a2b06b76bd6e2c51",
+    "data/meta/abyssus.json": "sha256:cececda4592c98633f020b7ddc24800f95d5af8b26bf239879684dcf466f3f3b",
+    "data/meta/age-of-empires-ii-definitive-edition.json": "sha256:c6ad4bad6b34621c5349bc1a2ad72b58efbb136e536578cad87d54d0c77864c2",
+    "data/meta/age-of-empires-iv-anniversary-edition.json": "sha256:1a8d580b19c688c10a77bfcde22ed513812a1b07a939b60c70da9ffd2f1e4f42",
+    "data/meta/age-of-wonders-4.json": "sha256:13b078fd7530ea8ce527430501f3fc84e16258e78d46ac71c82fef752f18805e",
+    "data/meta/angels-fall-first.json": "sha256:3b48c41ddc56158ada279cd465d61fa812cba7661ab56ed140be979fc3f25139",
+    "data/meta/ark-survival-evolved.json": "sha256:89830d966e53a946e1ec1c5b3282a323146ba68c54909b06206600e9a411b277",
+    "data/meta/arma-3.json": "sha256:7e47a466c2845f35923644296a4eaeb8be1086d98b17b2fed874d0b049ab7215",
+    "data/meta/assassins-creed-odyssey.json": "sha256:1ed184593a686fedea751e0dbc358e798c9c31d3b78cfefc1e89443e75d75382",
+    "data/meta/assetto-corsa.json": "sha256:0b86337fbdb34e26d20f0d33be2a11508c15b2f2f5e52c83a7c03e9200c44ceb",
+    "data/meta/avatar-frontiers-of-pandora.json": "sha256:fa583739781628af4a6d86a63eca197c780f0946294dc2ec8ce09195030cd564",
+    "data/meta/backyard-baseball.json": "sha256:b9d5ab6691f98c8bd9b5d59714ba8286b55cc5517c940ebea2442dea123ef007",
+    "data/meta/barotrauma.json": "sha256:38a7a8a4662d8a5494aaac5e3a48fa91cd5501bca119356d8595d5609da4a850",
+    "data/meta/bodycam.json": "sha256:6b9d8725955409b56a62d4d9680b6da672ff92b7e62e52bd1ecded7b26111be9",
+    "data/meta/burglin-gnomes.json": "sha256:8646a96157dd961e52c028264ab40e5c657972b4f2e844b425fc78a1379b63bc",
+    "data/meta/call-of-duty-black-ops-7.json": "sha256:bbe7777815bb027831841de6c26ab7ad19b95e0c71431869ffaf195f485d9eda",
+    "data/meta/call-to-arms-gates-of-hell-ostfront.json": "sha256:29b639fab4f21fbd77acecb728afd5af320fba31e131f9b2c623d4e6d99e2375",
+    "data/meta/cat-mail-co.json": "sha256:f8adfbc1d7d0e34f0cf4242630bdba33cda8c22d8d5269de7f253010d8d0f796",
+    "data/meta/cities-skylines.json": "sha256:61de16b6235e89506050512f677cbbb3280a0215aaa3895091e23645de949bea",
+    "data/meta/cult-of-the-lamb.json": "sha256:04e03f92f49aa7c5a51aa012cac65a00eeaa468e6efe1ae02990693c53b17b97",
+    "data/meta/dark-souls-iii.json": "sha256:eba0d0c362e93c474d8744e7d812e5bbd0f61118cd8b3b6951e9dcf1da264576",
+    "data/meta/deep-rock-galactic-rogue-core.json": "sha256:5cebd7409b359e198f070c82ab16e0a0ab1c1ac005b0a98a58a0e23fada84341",
+    "data/meta/denshattack.json": "sha256:e68f52a8f2928f488c7385ad29f345e5bd052e53678e17308e51763bb5bf34b3",
+    "data/meta/dragons-dogma-2.json": "sha256:8a613b6df183a3d664bb50de7009742d8fddee80c1dd714dfc27d5a4361da2f9",
+    "data/meta/dune-awakening.json": "sha256:8d246a8ad39b0f1d08ce49d9aaa509bcd55c5ed708e39a680e6a8052516fade6",
+    "data/meta/dying-light-the-beast.json": "sha256:51a63334e3418b00e84d6bbfdf24b91a89840d84f5cfbea39e22712f3f8fa89c",
+    "data/meta/ea-sports-college-football-27.json": "sha256:c395a318a6160295972db73a7c4e7eb3bc9104f7dc3b20e3723c23135a0a0753",
+    "data/meta/echoes-of-aincrad.json": "sha256:a288f7330b1ccc618b10f974875a9b8a9606a490acd724e6e6ebd5b674a5e355",
+    "data/meta/fallout-4.json": "sha256:9a0fe2a05e92989684a1ce7f8a9f7dffb13d9096f066357784b898854034add3",
+    "data/meta/fallout-new-vegas.json": "sha256:6f0981c4130d14d07a72fd39f51bde555ae2b08c3ac10c051bfb5387ae5ec545",
+    "data/meta/fears-to-fathom-scratch-creek.json": "sha256:d32b0f0072d79b2d67cff71382af36a7fba2bf6b35f678b8e2eac84a4e551d06",
+    "data/meta/funnel-runners.json": "sha256:430074ceb01e934756302652e24a74ab01e6882668770ba1534ae7306d593c77",
+    "data/meta/geometry-dash.json": "sha256:1581f427e59f9c10efb431ae39c7df1ce168620d7166287c724eed99b5c497a6",
+    "data/meta/ghost-of-tsushima-directors-cut.json": "sha256:a7d97cf97d377f8a380ae08b914691ac1d26702a693edac24bdd11f26a30979e",
+    "data/meta/go-go-town.json": "sha256:d4bd32621d294fac615c61c48661795387abc20c6178b7fa631db8fd08e6b298",
+    "data/meta/grim-dawn.json": "sha256:eaedaf180dfd7e10581c01f983ea3ee004c6cbbca764300518618bc98f8600f8",
+    "data/meta/grounded.json": "sha256:c4e8a435802133972e507bc3a8fc50a1af7ca38272ed7d021fd2bb2925fe2252",
+    "data/meta/guilty-gear-strive.json": "sha256:2f0d29a2676487c7f7067e129f19f758281ffb132013c8d4c3b41de8419692a8",
+    "data/meta/hell-let-loose.json": "sha256:ada0db82eaa2919a6f9e58d364d7b60570332802c90e308aecf0683a06816afa",
+    "data/meta/heroes-of-might-and-magic-olden-era.json": "sha256:dc82bdc88e7661aac6f7047cd6f2efc910c654c7fd7e9c259c01bad4430b5af7",
+    "data/meta/holdfast-nations-at-war.json": "sha256:86eaba1c44f2ff27ae941a7edbc9715c2db2aeb12d9cf83af0b5a92bbfc9216f",
+    "data/meta/icarus.json": "sha256:2461dcd2445965aa422e8d75d05481ac385161f53eca94c7919d4402b8a2f392",
+    "data/meta/inzoi.json": "sha256:c39a5717779a1b3362ac308a80625f9612fb86823a265f2cb6900069e4d730e5",
+    "data/meta/iracing.json": "sha256:2fb27552681865bdf3e31afd422ba417bd085e5bcdb4e39d51d93097f2061007",
+    "data/meta/it-takes-two.json": "sha256:8d8d3cc27a22bf4555ac7d0d5795e30fb2838bc5deb3698b1627dcb25a696209",
+    "data/meta/kenshi.json": "sha256:e928a41b78890494f50f9b0841acb7e92e62b3ee8a1666049072285339896043",
+    "data/meta/kerbal-space-program.json": "sha256:dc8a6a88aa001dad05ac5d3011accb07da5b4dbedf1b5f77f9c2821558643f92",
+    "data/meta/le-mans-ultimate.json": "sha256:dddedd173ae02971fd3b3c18bdc2e10c3bc1ae22ad50d95f87ffeaf1d39276b3",
+    "data/meta/leaf-it-alone.json": "sha256:ea220e3848c4fce3ec446e845b1dfe072e163e092e0aa441f663aa7339b62a89",
+    "data/meta/left-4-dead-2.json": "sha256:479d5094e7de5a995b227600d3f3ef25c58c533dcc7821f9d4d60f0058c45a26",
+    "data/meta/lego-batman-legacy-of-the-dark-knight.json": "sha256:fbcf0b3c38d5ce298475d47516fa7fcd1bc7f4538fc2b85684ff85fc440190c9",
+    "data/meta/lethal-company.json": "sha256:83f29c16bf3b26fac59dd14169c971d32429094cc8118eb1282ef7c4a4286ebb",
+    "data/meta/marvels-spider-man-remastered.json": "sha256:252859344b53be6fd8d1c7a5f9ea04ca964bc8ef32a0548cf659bf9bf08d399f",
+    "data/meta/mechwarrior-5-mercenaries.json": "sha256:66b0af6c2f17659da3ab8d9c9e9fd281324b2fdf2f2e4d3c2fd5f8b82446723d",
+    "data/meta/metal-gear-and-metal-gear-2-solid-snake.json": "sha256:4de8b8a5cfe858b96ffb98eb5a06245165fa1ea764dc327708c124f09ef3ed31",
+    "data/meta/metal-gear-solid-v-the-phantom-pain.json": "sha256:fec87ab3cb1d448e7754c926528f85cfa43e6ce7fc9b7f4e18faecfa9c862fd8",
+    "data/meta/mewgenics.json": "sha256:c90468e38eb768dbe56cfa7bbfa1b554125b6a28a4fef1dfd8c1576343b9affd",
+    "data/meta/no-rest-for-the-wicked.json": "sha256:9e176a71d648b0cb9b8d1c7f0a088ee165826418125a4b16abab7acd88f1cd78",
+    "data/meta/operator.json": "sha256:0a0a467b82df9f8180b3f43f881d517baa790b6d226aa16e7cdd3bcd10e1e2ac",
+    "data/meta/ore-factory-squad.json": "sha256:0a7686e11e34adf7faf9cae272ec7870ec12de9e959c4622f49027c6ec2f52dc",
+    "data/meta/pathogenic.json": "sha256:52a41f7747e5ce203289e248c0d9b7e1a7c9d74a63511107dc3c0acace212e37",
+    "data/meta/pga-tour-2k25.json": "sha256:b3bd29c75f6f43a6ea76000670ad243471f134ecaa6fccafe005d16b786acb49",
+    "data/meta/planet-coaster-2.json": "sha256:c81129e412adf076289801603ce4012697395397c49953eb5e44633da537688b",
+    "data/meta/pratfall.json": "sha256:d30807a5a4ef2aa524eb770a6bfd2d2cc88ddc307b282c7e9a850c9baedc45f4",
+    "data/meta/ravenswatch.json": "sha256:cb0407ad77d5167d5f31caae9acdd4e14d0f45889dbb71b321471db714fc269b",
+    "data/meta/red-dead-redemption.json": "sha256:6b41118b847abfd434dadea3cacda56ff96e35abdc4dc368d0d57ff37c42c50e",
+    "data/meta/resident-evil-4.json": "sha256:fa6bafdfa04648aa1a416b996e42a2c45a1b4f1e124fa17782a7b5cd189bcd63",
+    "data/meta/retro-rewind-video-store-simulator.json": "sha256:44e8d69d23bf60a3879181e799e2c1506fc37fb9680718553d49dbc244ed4d0d",
+    "data/meta/sand-raiders-of-sophie.json": "sha256:cbd6b5096130cf25dbcbef7d47259b6a9b5c1addf96d9e20f6291230657a0b01",
+    "data/meta/scrap-mechanic.json": "sha256:95aa7d9683fe4731b298c564a922c46f5515adfafccb729fe3e0119655489491",
+    "data/meta/scritchy-scratchy.json": "sha256:93a7e01952e6bb0e1e239f8f951ba1220c75818a27306ba8e8857268750404cd",
+    "data/meta/scum.json": "sha256:593412d4620130b793203dbcb2a985b9106c07a320efcafa1055b75398a34510",
+    "data/meta/sid-meiers-civilization-vi.json": "sha256:5281cf81ff904438b93df26b8181c114a84f02a1ba8342a820df96b36e406128",
+    "data/meta/solarpunk.json": "sha256:ec5b975b70ba82ef66d566312fd07b3a3abb618d27c52fb248c26ca0812951cf",
+    "data/meta/squad.json": "sha256:c2da9c341ec3c49b65a0bdcf82779c7406e421b600fbdc464473029136156b0f",
+    "data/meta/star-trek-voyager-across-the-unknown.json": "sha256:03e4c4e21b6262a2cfac8b2e862b32b6a90bece9d383ee15cc93e32e6f36c328",
+    "data/meta/starfield.json": "sha256:5d6e933d8824614b05fd999d05e7c2d6763c37ece8efcb1f91cc832ef26ffd64",
+    "data/meta/super-battle-golf.json": "sha256:47e07ec741728c7616a92249f4b41fff797ee53a85b9a8c01c1cbc97d5d73553",
+    "data/meta/supermarket-simulator.json": "sha256:83cd56269b111bd051b03189b8da25eec774bd997cf3bca654fefca24156ebcf",
+    "data/meta/tainted-grail-the-fall-of-avalon.json": "sha256:d89c53e42be05052f514fa5ebf59da8fa94adc3f846ebf7f5ad718a12dcd7b4b",
+    "data/meta/teardown.json": "sha256:146147b0ce2b2843cb7a78581f9faef0af5d9eaba99e7825b1a107ba164c1b8e",
+    "data/meta/tekken-8.json": "sha256:81681ab0de588b893c54070483250977ae0d49659b189c8afee4d6c73e80144d",
+    "data/meta/the-elder-scrolls-iv-oblivion-remastered.json": "sha256:a5b7bfa7cd1cb3606f039bed0fafd80738d8c59fb2124d79f3d54c495a5290ad",
+    "data/meta/the-incident-at-galley-house.json": "sha256:72f75f9055b5d4710ac269322408e8c18ae2a8cb7bbdb462be99d0d9d279acd9",
+    "data/meta/the-last-caretaker.json": "sha256:4ba05f30f3bbfa6653b6aed118fd80b837766b20e740c56c5f200fdd14422d37",
+    "data/meta/the-last-of-us-part-i.json": "sha256:9c44b2b7592eb18076ce28045ef1113ae2dab1a4ea817df706d5d9e157993c19",
+    "data/meta/the-mound-omen-of-cthulhu.json": "sha256:363e31ba135cd0d412751c6065729aeef79a9ed4ea56d1852f92695321a99c65",
+    "data/meta/the-planet-crafter.json": "sha256:6a690da0210c85a662ed40b7577ae9f0c59f0e3099522cbb3092c7f11e4b084d",
+    "data/meta/the-witcher-3-wild-hunt.json": "sha256:255f45598632e2bd28e6555e091788adef7dc777de569caefe8e7bd2d85bd94b",
+    "data/meta/timberborn.json": "sha256:8915ad0ce569b8e624607b7e775d0aaad02d57fe48485e3bef259a7ebbe5a6e6",
+    "data/meta/tom-clancys-the-division-2.json": "sha256:b8b39f3f8c0937f038487a8be05e5ead6b1fdd5557177fdba9f9926602f3eba5",
+    "data/meta/trailmakers.json": "sha256:972d8ce8c3637b4f195b8317b1e5846b31227167b20404f026d67e7da7225b1a",
+    "data/meta/ultrakill.json": "sha256:5bba95e411a03d9aca5facd27490f0d59fececd2fb709fbe82051c516c2e0828",
+    "data/meta/vampire-survivors.json": "sha256:edd5f353144ae59776bfbeed69fad919fb0504156178cb7fa3227d9dd1c275bb",
+    "data/meta/vein.json": "sha256:f106e0f939e70733e0af05478af623d6af1a217e5709a967bbed3c603697f954",
+    "data/meta/victoria-3.json": "sha256:bdd09c0775f07dddb6ba47ed7447e9166b019d126350a53103298c6182049646",
+    "data/meta/witchspire.json": "sha256:e571fd29d7f9806aab3bea4a844b58239c3eb8f65bf8b3a78d73cd1affe683ee",
+    "data/meta/wolfquest-anniversary-edition.json": "sha256:8269e93f9a378f26d47be9e1f8e553bae50a488e4c8edeee4beee0a699438702",
+    "data/meta/worldbox-god-simulator.json": "sha256:9a0c32ddb72c8b7eb1ec64fc650f204834f3150c193b7097167b07c610251d07",
+    "data/meta/wwe-2k26.json": "sha256:d5e135a021c44d1105d82500143ac0b3db8a8da3c501700a553b785656b1f7fb",
+    "data/meta/yapyap.json": "sha256:47c296d92a6d1d348a32faf7a5b07dab8e30202ec5e90d987c13c8025eee3865",
+    "data/snapshots/steam/abyssus.json": "sha256:d06a526d72d95463d1b34c5f8a8faef0fd4bc535bee08b3646ba790dbd39ae23",
+    "data/snapshots/steam/age-of-empires-ii-definitive-edition.json": "sha256:53901c5197c669e89c95710e7f53fba2cf246952cd10a9caec366af2258a639e",
+    "data/snapshots/steam/age-of-empires-iv-anniversary-edition.json": "sha256:a19c4abf924801ec501bde193da19456225d38c37c1b04142c86401d05324bc3",
+    "data/snapshots/steam/age-of-wonders-4.json": "sha256:b281ec5e439d968e91fc8c8a2b6307e6019ebf2579840097d3e0a3c3edb3a8b9",
+    "data/snapshots/steam/angels-fall-first.json": "sha256:8d96d1a95fb2cbe858cd74e9788aab89db988f03851310cec9a8a512745be41b",
+    "data/snapshots/steam/ark-survival-evolved.json": "sha256:55dddc75f79cd8cb76736670a41c8b5aa23c1ae70b825de1cde1dfdcc43a069f",
+    "data/snapshots/steam/arma-3.json": "sha256:15e6279c7419e31ac7be3420aa23312091509124a2d45ead5fd03b808b88bb32",
+    "data/snapshots/steam/assassins-creed-odyssey.json": "sha256:5837fec8bdc1939fea74b961564e3acfbdfce7088a50a056193dac660fa99080",
+    "data/snapshots/steam/assetto-corsa.json": "sha256:194427d6b793e75243fb323e0e11cbc9dd38d58bb3f5dcd1b9c2e9c9ab211651",
+    "data/snapshots/steam/avatar-frontiers-of-pandora.json": "sha256:8fbb503a6b38cf0251695456d6cdfb8697c1177719abf42b5039c3952ef4a1eb",
+    "data/snapshots/steam/backyard-baseball.json": "sha256:64ab1e678f0681a6fd4430eba47dabac8d8875fd3f1b768acbaf636731e1d912",
+    "data/snapshots/steam/barotrauma.json": "sha256:44f18d35838b9cb2f77f49a99f361b244ad231b065fd33563ff1e9b26dc246fa",
+    "data/snapshots/steam/bodycam.json": "sha256:8367520ed1e550afff28eb705111fdf1dd30f734969f73cdbfdc9e2562013d72",
+    "data/snapshots/steam/burglin-gnomes.json": "sha256:6fc6a9171a32017ff32c61f36479aac34c3f6e58f9e3c9d3c06734411ba6d236",
+    "data/snapshots/steam/call-of-duty-black-ops-7.json": "sha256:39f293a22397ddf0a8fa50d2f16a2d3fd234e9907e733b77c48238d993c8d9d6",
+    "data/snapshots/steam/call-to-arms-gates-of-hell-ostfront.json": "sha256:19441d569083b9c0e874e2238c813e5b8ad67521fe5f85168397f58f056f6ad7",
+    "data/snapshots/steam/cat-mail-co.json": "sha256:0e3ba5f061957c5425f46c1531bf8821affd9d42acd48d171db02e366d894fde",
+    "data/snapshots/steam/cities-skylines.json": "sha256:1e52ef77e18efa9ff9803c5fc963418f90fb46185a35b0d7a263c3373cffa323",
+    "data/snapshots/steam/cult-of-the-lamb.json": "sha256:fcff891b69f43228ca263c31dd5d7940108d8efc864db7374758fec212c69c67",
+    "data/snapshots/steam/dark-souls-iii.json": "sha256:313d7460b8bf880bc8bf957bcdd1eaff524ea8dbb051af453f692d821a2aba41",
+    "data/snapshots/steam/deep-rock-galactic-rogue-core.json": "sha256:986de1d1a0c315705f5998fbdc8ddbecfa4a139ee6d33328dfb97ee6bae37e46",
+    "data/snapshots/steam/denshattack.json": "sha256:1f73ad60e8a01087b40bbc866e360a049c5a0f9e9569cafda0bb070623315a33",
+    "data/snapshots/steam/dragons-dogma-2.json": "sha256:ab063e7b47b34ee1146826887a813f22e7627a7113fb99d8e70e8a1d0fe9a0fe",
+    "data/snapshots/steam/dune-awakening.json": "sha256:854003f3b8424f2d377eaee754dab40dd314b5d91b112cfa88d0f052c3a61bb1",
+    "data/snapshots/steam/dying-light-the-beast.json": "sha256:b0e86f8942d479ebdce77801bdeb82ca9e5ce9a9f4d66f19ca7e873027aee784",
+    "data/snapshots/steam/ea-sports-college-football-27.json": "sha256:3734179d2d7f51589db86ec076d76d380c829c3236381b387b754deddd0fbc7c",
+    "data/snapshots/steam/echoes-of-aincrad.json": "sha256:d494b12e560e2767ef3b200247011ccd6ddeec0e5f690f748c45e6f404d6e134",
+    "data/snapshots/steam/fallout-4.json": "sha256:fa8e9f31e40cd23aa5f9afce51e62fc48034f66e7cb87de55b03cd9095570290",
+    "data/snapshots/steam/fallout-new-vegas.json": "sha256:111506636057f1c360daf757afb67d149a15634689dddd2fa7ce7c2f004c96fa",
+    "data/snapshots/steam/fears-to-fathom-scratch-creek.json": "sha256:f518959b2b3b393c361db1faf62c71fbcf7a42ac13763791cdd061bdc4de8eb6",
+    "data/snapshots/steam/funnel-runners.json": "sha256:027d58c1f86c358385edf1d08de2c8a96c5aea9885acb2e7ca22562e525dcec3",
+    "data/snapshots/steam/geometry-dash.json": "sha256:935595838c15a96ca974648dccbd574751957fa66b25d8c4c9f09548fb8d434b",
+    "data/snapshots/steam/ghost-of-tsushima-directors-cut.json": "sha256:69ed827aaf4703a58df49275bc81698d48b3207dfe134b0feae4a2979bc840d4",
+    "data/snapshots/steam/go-go-town.json": "sha256:aef9af3276a7fa96dbf5564a578d5d6ffdccbb881c1a5399b47c28e1a43651b3",
+    "data/snapshots/steam/grim-dawn.json": "sha256:3f0f0da446e8fed18dfb425b0f1eb4ca330a78b6ccb2f96c28eff9be908243c3",
+    "data/snapshots/steam/grounded.json": "sha256:138770027732715a0e4f86342378bb0fbc3a7b27ee82658b663b8bb4e896abcc",
+    "data/snapshots/steam/guilty-gear-strive.json": "sha256:dbbe36ad7e5e5583327bf0d39fdc969311ee55ad9464a0314b96084a8d158be6",
+    "data/snapshots/steam/hell-let-loose.json": "sha256:d22932f4415cabdfedf63fc4dd5999802a6ac2a8fb458fb6a3c368c15328e2de",
+    "data/snapshots/steam/heroes-of-might-and-magic-olden-era.json": "sha256:85c6ff534d2527242250f5c8e05f9a53b12139e067aa1810173350ca0f1f1e22",
+    "data/snapshots/steam/holdfast-nations-at-war.json": "sha256:efaef834c9883840395b7feb4d221d7b72c338168bda8ec198230a7ab97a0d8d",
+    "data/snapshots/steam/icarus.json": "sha256:a5e8399e7358e4e3bc1155cae097c69c29eca0ce479a114a1de9889ddc5f602b",
+    "data/snapshots/steam/inzoi.json": "sha256:52e191df3523c527c1f111ffe228e37670c8b43ed24eaf37d70158c9df7b9529",
+    "data/snapshots/steam/iracing.json": "sha256:655d5466307fea54e052e6bb068721760c47ee98c27ecade3ab130eb19ddaad0",
+    "data/snapshots/steam/it-takes-two.json": "sha256:c61978c2acc75a260b4fd60aa606bb9628357b5d104c2867b8e1da00e9ba6f0f",
+    "data/snapshots/steam/kenshi.json": "sha256:d273309638b604686f2546c439bcd85fef00c5f544bbd98db8d4c5c2f6815f7f",
+    "data/snapshots/steam/kerbal-space-program.json": "sha256:61c24f7364d8408185cd61e3866930389b368b6fc903dba9dd32052eab9f615a",
+    "data/snapshots/steam/le-mans-ultimate.json": "sha256:516339b33583676f1cdefbd2dc6f953e389a8c25fa474efe5a8f0e61a7e4dcaa",
+    "data/snapshots/steam/leaf-it-alone.json": "sha256:bd2e55daa89fd704926c775b3cb441c68ad4d8f3c5fae68b51a6763420e06a51",
+    "data/snapshots/steam/left-4-dead-2.json": "sha256:77a63e59bfeb1b00365afac49300502c6cbf0c67f81b5ff7a52cb4d576201e8a",
+    "data/snapshots/steam/lego-batman-legacy-of-the-dark-knight.json": "sha256:df37c1a14fe2e4649386493d277300da02bde1fa2ea18ab6038bafb9b79ee5dc",
+    "data/snapshots/steam/lethal-company.json": "sha256:259dc619d366b8a42128caa47fac67ea2c887870b04196a3a7d4efea1532ba52",
+    "data/snapshots/steam/marvels-spider-man-remastered.json": "sha256:04c1d703028edbc8af29b0b9a3adf24914555fbadb6de4c7f51de042930ab49e",
+    "data/snapshots/steam/mechwarrior-5-mercenaries.json": "sha256:d61f4d4cf03d517e3e7bad4d95d6df1d2fa27ed9909c89d88b65db4e9fbd9a36",
+    "data/snapshots/steam/metal-gear-and-metal-gear-2-solid-snake.json": "sha256:4a73ca09dad079f78f80980f2d65e58cd3ab22a8e737410b57afc7eda344f089",
+    "data/snapshots/steam/metal-gear-solid-v-the-phantom-pain.json": "sha256:7fbd1602a1d128801c9e54daca43e5237c122739e09df57ee5a59cbb74a62f7b",
+    "data/snapshots/steam/mewgenics.json": "sha256:bb565ebf2c082ebb5cfe8e78425060f7351fd3349969d92c411ebde3dcb4f45c",
+    "data/snapshots/steam/no-rest-for-the-wicked.json": "sha256:96fcf816595bca8a8435a59c0ff1808ba5354f040c58ecad7dc6f82961be89bb",
+    "data/snapshots/steam/operator.json": "sha256:9df9e4a7cb2969d9560355881da942ab19ed47f4a56698358269bea39a24da80",
+    "data/snapshots/steam/ore-factory-squad.json": "sha256:f1086c0f56a0562af43c6c55a05e82526e728abfad6426f2a28ded8eac6b4edd",
+    "data/snapshots/steam/pathogenic.json": "sha256:81f385db39c682674374456e37fb21a9a823178fc0f1930157af1152f3a67fcf",
+    "data/snapshots/steam/pga-tour-2k25.json": "sha256:9869a0a863ac455b019a25512b3b3dcdaa21c9104a8a63d30d129eafa305f67d",
+    "data/snapshots/steam/planet-coaster-2.json": "sha256:89ca16bc20d63bdb27e8b012316ce8bb2041eedb23f35e267f57b20248533d73",
+    "data/snapshots/steam/pratfall.json": "sha256:8b73a8956238f7a2468c59af472fcfd36607087b6a541ed9d6a7603fbffcd5bf",
+    "data/snapshots/steam/ravenswatch.json": "sha256:9880fb30b2fb5576d9ac183722a0b10b27527c53a4da18252c816649cc2ba918",
+    "data/snapshots/steam/red-dead-redemption.json": "sha256:8eab839c19efccd6d6dae94621b3e90bcc33a6cab6854c6b30ba0956c6b1b03a",
+    "data/snapshots/steam/resident-evil-4.json": "sha256:382e63c4493a9989f65459dad711af6b419e265e3e52952b020fd054934eea38",
+    "data/snapshots/steam/retro-rewind-video-store-simulator.json": "sha256:89f00f2d6efbaedd8204ff088cd955ff9585bcd459e6fbdc78d6644a3c87a9fa",
+    "data/snapshots/steam/sand-raiders-of-sophie.json": "sha256:f972787881b6fa5df88d8e7d3e27588ca801f00e9c6de8f9d767260e03266242",
+    "data/snapshots/steam/scrap-mechanic.json": "sha256:d75defcaaa749ca1177f79ea6fbdec8269c64b59df6058d68445638c2b8d6cb1",
+    "data/snapshots/steam/scritchy-scratchy.json": "sha256:60dd6d24d5c22af585fc650587b334307349dfdb5ed9780a1edee13ff38888c7",
+    "data/snapshots/steam/scum.json": "sha256:d5fb72eb1b703d81f494add3cbb68bd03a72b99732401efb58d3ed9802a0b95c",
+    "data/snapshots/steam/sid-meiers-civilization-vi.json": "sha256:1b58bc825f123c90fe884df56672066aafdf9fc2450f5d55079887687a5d8432",
+    "data/snapshots/steam/solarpunk.json": "sha256:4b2d8da97f5ce57d3792bfb21480c137e5793dc97daf38b3e6d48fe46bb52f26",
+    "data/snapshots/steam/squad.json": "sha256:09935ec540634c414dbdda80623ddf7681faf023f6088377c89a4e10800f3176",
+    "data/snapshots/steam/star-trek-voyager-across-the-unknown.json": "sha256:cd28aaa53b897cc63a80777ff73d9f3796ce906b05a5746140cfdd7e43e6d610",
+    "data/snapshots/steam/starfield.json": "sha256:a85a562d38f8498f2e627b779499d07eba6eaf887c3cdaf05a36e981e703e0f9",
+    "data/snapshots/steam/super-battle-golf.json": "sha256:79a7a80442e3259eb05e0343d60b633204b84d9c4018ecd3d698a9564bb71df3",
+    "data/snapshots/steam/supermarket-simulator.json": "sha256:5719b0715bfc2597e2638efc22539250eb4bfa8b72f7dd3ef780a3acd3ad903b",
+    "data/snapshots/steam/tainted-grail-the-fall-of-avalon.json": "sha256:65975d8d2a35451d4f643cb0709fa2dc3e4eb36e8822128eeade54aa51a29353",
+    "data/snapshots/steam/teardown.json": "sha256:c997b343a4ba69942df945b3a7670876539c1d9889362152b88c4ac7b2d6f529",
+    "data/snapshots/steam/tekken-8.json": "sha256:e67f0694b6338590054309cb04346fa9109e0b54d752acc43c0cb4cdd1adad0a",
+    "data/snapshots/steam/the-elder-scrolls-iv-oblivion-remastered.json": "sha256:b8bb91963df09e3b3655ded5883832538d3546bcec2eecb277db86f772199535",
+    "data/snapshots/steam/the-incident-at-galley-house.json": "sha256:bf7bec464c9150063158bb77295e4eb1d69ce96fa33c47d36f8f2fa115755c0d",
+    "data/snapshots/steam/the-last-caretaker.json": "sha256:1dad03a95077744d72042b671c1c88a63830327917c277fb9779152ed6035992",
+    "data/snapshots/steam/the-last-of-us-part-i.json": "sha256:3eb787ad7a6666c1a92c55164f207516c737732d40d9db058bd746072c22c598",
+    "data/snapshots/steam/the-mound-omen-of-cthulhu.json": "sha256:ec5ffbbf3b7a5fa453c91619088b79249bb958129f16706b6b4ddd077e12936b",
+    "data/snapshots/steam/the-planet-crafter.json": "sha256:89623015cd07a3f56b951d19266a021d970b91db8be819851bedc876bb0a2e82",
+    "data/snapshots/steam/the-witcher-3-wild-hunt.json": "sha256:e09b30ae695df943a1e9d8228cc3e24fb19c5fde3b8582e4d8970ccf652aa5f8",
+    "data/snapshots/steam/timberborn.json": "sha256:3ec6af6097cbff3a36d491f214ecf7dec244210e93747615e0dfb2e1e0e077f7",
+    "data/snapshots/steam/tom-clancys-the-division-2.json": "sha256:7f695bb458a77ac5b458266221513ed7f2133cc5164fb100b1462fd35e5d74da",
+    "data/snapshots/steam/trailmakers.json": "sha256:311feefc6b7bc41587576548c14fdedc9a70b3d416388a3c392d77a519c22b81",
+    "data/snapshots/steam/ultrakill.json": "sha256:f83b29963272aeeed8c6d9dbf01104cb96d435a7bf6644de9fb6b5f6c01950d3",
+    "data/snapshots/steam/vampire-survivors.json": "sha256:04ee8dd43a96288ab4846d3c68ba5bb11696a0faec959bc39880e347079f5259",
+    "data/snapshots/steam/vein.json": "sha256:9aba0e12f0f1ec4e20cfcf72226c5b91095a5b4e6ee70045e068e6aa45edce7e",
+    "data/snapshots/steam/victoria-3.json": "sha256:4a2dd28c825545fb8653d1a794233852442c94bb5c350e9f01aa8c175d08b1b6",
+    "data/snapshots/steam/witchspire.json": "sha256:eb8c816f90602243d4ca078da14479e366604d867a1a16959dd79d67ff0ee18d",
+    "data/snapshots/steam/wolfquest-anniversary-edition.json": "sha256:4acafe918f4efc5af8ba8017f1959d4ca7e12762b30689a5e457b4df520174ce",
+    "data/snapshots/steam/worldbox-god-simulator.json": "sha256:28412cb057e0c6ea46d430780b496b86f35934ce2e963b206ad468c0a4ac243f",
+    "data/snapshots/steam/wwe-2k26.json": "sha256:6e1a263e0a1612b17ad5962a3a049ea5e7fc54d886cadfbd15071e54915f0d36",
+    "data/snapshots/steam/yapyap.json": "sha256:0c9877cf6350897aed146436b0b3649a0ae9ae343df82f3223110fa33160022a"
+  }
+}
