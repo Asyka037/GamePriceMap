@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1557740,
+  "fetchedAt": "2026-07-28T13:03:29.438Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1557740&cc=us&l=english",
+  "responseDigest": "sha256:848377c261d417d907708ab6e714d6c1ab2be09a7b58bec3a69033e4262536ed",
+  "payload": {
+    "1557740": {
+      "success": true,
+      "data": {
+        "steam_appid": 1557740,
+        "name": "ROUNDS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 1, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 35220
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0b0a3972b5f98cc780656f3bf051c483401c5657171c4b4652285eb845c2e83a"
+}

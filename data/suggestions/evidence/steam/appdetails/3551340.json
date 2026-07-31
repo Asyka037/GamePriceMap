@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3551340,
+  "fetchedAt": "2026-07-21T12:44:57.263Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3551340&cc=us&l=english",
+  "responseDigest": "sha256:a7c0d624b5ce7f1f1d9c60c6e0ea840c735a86b183f44e8a01b64fc8aa064b1b",
+  "payload": {
+    "3551340": {
+      "success": true,
+      "data": {
+        "steam_appid": 3551340,
+        "name": "Football Manager 26",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 4, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20471
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bf044cbfbfabc9c20277dd45feda8653945bebe1ed6a190d17d5f7c1c73b5600"
+}

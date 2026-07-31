@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3354750,
+  "fetchedAt": "2026-07-24T12:47:21.348Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3354750&cc=us&l=english",
+  "responseDigest": "sha256:64833fbf41879d87792539746a3b55d35443367c52fd4029632b73075456a821",
+  "payload": {
+    "3354750": {
+      "success": true,
+      "data": {
+        "steam_appid": 3354750,
+        "name": "skate.",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 16, 2025"
+        },
+        "recommendations": {
+          "total": 285
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed8bf8573e32a57471f72223a6c5be617cf41acbe2d439a6956e686961ae3d8f"
+}

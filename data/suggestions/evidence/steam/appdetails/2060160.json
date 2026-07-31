@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2060160,
+  "fetchedAt": "2026-07-30T12:56:40.495Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2060160&cc=us&l=english",
+  "responseDigest": "sha256:9303efc24a57fb432742d1c23c8807a59d5072119f6ea220fbe1be3616a539c7",
+  "payload": {
+    "2060160": {
+      "success": true,
+      "data": {
+        "steam_appid": 2060160,
+        "name": "The Farmer Was Replaced",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 799,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 8609
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aa1fbc1f5c0656fbc9e9bde7c60fe2e3395ea7d7e24f8c60affd4e2c7000ecba"
+}

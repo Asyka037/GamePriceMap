@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2212330,
+  "fetchedAt": "2026-07-29T13:08:40.022Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2212330&cc=us&l=english",
+  "responseDigest": "sha256:8d37504200a3a0996c5a921cd53ed6f72d922b3f1ee410186e195d1dc1f19296",
+  "payload": {
+    "2212330": {
+      "success": true,
+      "data": {
+        "steam_appid": 2212330,
+        "name": "Your Only Move Is HUSTLE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 2, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 37728
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:20830fb2371cd1456be10fd7222e5e4f56dd0c9bffccc3ae9dcc29516efee923"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3219630,
+  "fetchedAt": "2026-07-19T12:07:42.282Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3219630&cc=us&l=english",
+  "responseDigest": "sha256:8b4a56ab5ca13529556648e21f7004539690f24b3a1f914eb39eea6d02e8564c",
+  "payload": {
+    "3219630": {
+      "success": true,
+      "data": {
+        "steam_appid": 3219630,
+        "name": "Halloween: The Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6011ed1bdb937a4a5cd22d14e3ae68cc54ea3ababa2b15d24eb942e3dc61480a"
+}

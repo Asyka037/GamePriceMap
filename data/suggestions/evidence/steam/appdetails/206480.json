@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 206480,
+  "fetchedAt": "2026-07-25T12:10:24.063Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=206480&cc=us&l=english",
+  "responseDigest": "sha256:7f29cdc26a6a13bdfd43abe18093cbd19e29fb047292af7448c38f66431e2a70",
+  "payload": {
+    "206480": {
+      "success": true,
+      "data": {
+        "steam_appid": 206480,
+        "name": "Dungeons & Dragons Online®",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2012"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:83ca2471edb479f2e3f7e7b8f856fabfb2f06d7e3982331dc20cfdec76a3876a"
+}

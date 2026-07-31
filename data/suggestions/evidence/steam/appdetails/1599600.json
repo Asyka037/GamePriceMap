@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1599600,
+  "fetchedAt": "2026-07-27T13:46:16.776Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1599600&cc=us&l=english",
+  "responseDigest": "sha256:22e6b30276c848252ba07bc3974bfd7ab8eae8d8f20d8deb75b3686d9e177d59",
+  "payload": {
+    "1599600": {
+      "success": true,
+      "data": {
+        "steam_appid": 1599600,
+        "name": "PlateUp!",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 4, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 18220
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e5784efa927e0d3dcc69f5591f7044dbc040fca75157851f957777d0d0ca7d32"
+}

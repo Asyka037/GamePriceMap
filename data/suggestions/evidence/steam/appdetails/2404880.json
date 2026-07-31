@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2404880,
+  "fetchedAt": "2026-07-25T12:10:56.155Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2404880&cc=us&l=english",
+  "responseDigest": "sha256:1db43fb724e3e002c78a542e8055a7188ec360c73e324ed299bf3c7db6a96302",
+  "payload": {
+    "2404880": {
+      "success": true,
+      "data": {
+        "steam_appid": 2404880,
+        "name": "Car Dealer Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 29, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1459,
+          "discount_percent": 27
+        },
+        "recommendations": {
+          "total": 9386
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:71ebb80bf01ce7b2f9c430a3fee410794e28574b1cff3edbb8b22b9e77d582a7"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4100940,
+  "fetchedAt": "2026-07-30T12:56:06.917Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4100940&cc=us&l=english",
+  "responseDigest": "sha256:eca4f56218aad864851c8c7f8401cec1dc7e5842c0a1a3a78ca994635d314974",
+  "payload": {
+    "4100940": {
+      "success": true,
+      "data": {
+        "steam_appid": 4100940,
+        "name": "Poppy Playtime - Chapter 5",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 18, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8052
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:77bd0daf26ddaf9b6d551efd699670f1447ef2aa561fd7df334556382bf211eb"
+}

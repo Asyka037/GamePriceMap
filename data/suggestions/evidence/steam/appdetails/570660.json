@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 570660,
+  "fetchedAt": "2026-07-22T12:48:08.579Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=570660&cc=us&l=english",
+  "responseDigest": "sha256:a5cdb6ae2b38cece2b41c4e5d51a545f7e13ddc88d7ab243f708b468f9743fa3",
+  "payload": {
+    "570660": {
+      "success": true,
+      "data": {
+        "steam_appid": 570660,
+        "name": "The Binding of Isaac: Afterbirth+",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 3, 2017"
+        },
+        "recommendations": {
+          "total": 6967
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:34143039174e0e909445a3126e7e015e730121db172507e4fec84e08e02985cd"
+}

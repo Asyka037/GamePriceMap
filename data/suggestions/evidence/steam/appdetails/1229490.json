@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1229490,
+  "fetchedAt": "2026-07-19T12:07:25.692Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1229490&cc=us&l=english",
+  "responseDigest": "sha256:4e2adb8cb68cb70e31814a4f575282e081067e0390a4eab66b065e621437635b",
+  "payload": {
+    "1229490": {
+      "success": true,
+      "data": {
+        "steam_appid": 1229490,
+        "name": "ULTRAKILL",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 3, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 208150
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b04fec267438b67faa829d726f5b7986ce81c8faded6c1e9204834e03e120c3d"
+}

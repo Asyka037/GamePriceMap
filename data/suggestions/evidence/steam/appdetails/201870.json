@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 201870,
+  "fetchedAt": "2026-07-26T12:18:18.026Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=201870&cc=us&l=english",
+  "responseDigest": "sha256:82725cfc718cc30985f571f8f6fe2b98459aefb0b716e5de387639362becdb1b",
+  "payload": {
+    "201870": {
+      "success": true,
+      "data": {
+        "steam_appid": 201870,
+        "name": "Assassin's Creed® Revelations",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 29, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 599,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 18974
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1a771978a84a263651c1f52f9945cfafd28c4febc84543a05d20405cfe8c6f09"
+}

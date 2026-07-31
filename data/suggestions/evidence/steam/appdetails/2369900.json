@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2369900,
+  "fetchedAt": "2026-07-25T12:10:45.833Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2369900&cc=us&l=english",
+  "responseDigest": "sha256:12728adac07f7cb56badd26524bbc06aed0f97f6e5905de2d7688dede7603cc5",
+  "payload": {
+    "2369900": {
+      "success": true,
+      "data": {
+        "steam_appid": 2369900,
+        "name": "Castlevania Dominus Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1749,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 2322
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fae6718cf54e7cf4861c1ad22bf0991dba04aa0d1a0686aa5027b9322bc828cf"
+}

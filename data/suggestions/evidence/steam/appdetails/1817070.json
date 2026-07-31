@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1817070,
+  "fetchedAt": "2026-07-19T12:07:44.830Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1817070&cc=us&l=english",
+  "responseDigest": "sha256:2ac1bf47eebb0c86220a2e68fadf08c37284cfcad9d7b6b72590bd79153f47ba",
+  "payload": {
+    "1817070": {
+      "success": true,
+      "data": {
+        "steam_appid": 1817070,
+        "name": "Marvel’s Spider-Man Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 96038
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1d0dfd353b215d206273c2f67dbe8d0c39418ba8a8564dad93d49fdc12139cfa"
+}

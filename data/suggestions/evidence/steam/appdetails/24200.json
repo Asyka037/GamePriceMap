@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 24200,
+  "fetchedAt": "2026-07-24T12:46:56.154Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=24200&cc=us&l=english",
+  "responseDigest": "sha256:b724478eb1a51bb331dc4fe53fbfad9a8567ffe82cb6ea16f0ff6ffdf88185e0",
+  "payload": {
+    "24200": {
+      "success": true,
+      "data": {
+        "steam_appid": 24200,
+        "name": "DC Universe™ Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 2, 2011"
+        },
+        "recommendations": {
+          "total": 215
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2451291c5e6af35b899f66f6bf2a8a58000312b4a569cbdf5837a2a79c7f589e"
+}

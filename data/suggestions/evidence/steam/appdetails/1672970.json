@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1672970,
+  "fetchedAt": "2026-07-26T12:18:28.279Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1672970&cc=us&l=english",
+  "responseDigest": "sha256:84b9248072635e711cab33e4f077b332e65d87ea8fe8351eb45afad5e35b2521",
+  "payload": {
+    "1672970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1672970,
+        "name": "Minecraft Dungeons",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 22, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16948
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d81edb916645d01e5a233403c67cb46b682a0aef37373f07d51351d94e419678"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2763740,
+  "fetchedAt": "2026-07-19T12:07:53.805Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2763740&cc=us&l=english",
+  "responseDigest": "sha256:ba82665642b96213325e94decd2f2a292a5892bf68ab11157b047a6199cfd432",
+  "payload": {
+    "2763740": {
+      "success": true,
+      "data": {
+        "steam_appid": 2763740,
+        "name": "Revolution Idle",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 1, 2025"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:79592c3a4b18cec5242ca2a71c6b40de1a15f56e272bf5af4587495f329128e2"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3314790,
+  "fetchedAt": "2026-07-24T12:47:04.047Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3314790&cc=us&l=english",
+  "responseDigest": "sha256:ead00757ca3903cb5efb1f4cc1ee9d0b4ae406c129a2abad1299f887b3332d39",
+  "payload": {
+    "3314790": {
+      "success": true,
+      "data": {
+        "steam_appid": 3314790,
+        "name": "CloverPit",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23953
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5bb81bb69c98804ff1b190083a136b2d0ed2f8ab52b6c0e1f18c816a5662c0e4"
+}

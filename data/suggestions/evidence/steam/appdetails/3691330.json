@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3691330,
+  "fetchedAt": "2026-07-30T12:55:51.567Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3691330&cc=us&l=english",
+  "responseDigest": "sha256:80d74bc4338fe1abd5ddc9779f61d34a3e493b9a68de4c57537d60b1918d3c90",
+  "payload": {
+    "3691330": {
+      "success": true,
+      "data": {
+        "steam_appid": 3691330,
+        "name": "Call to Arms - Gates of Hell: Finest Hour",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 2, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2249,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 745
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:de8bac0dc7668b856374021ab67a71ffc333515909de2451f1e0573209e85522"
+}

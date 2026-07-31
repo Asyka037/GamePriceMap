@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3156770,
+  "fetchedAt": "2026-07-20T13:18:18.644Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3156770&cc=us&l=english",
+  "responseDigest": "sha256:5ce62d07913a82305da604d5d444cb907962942728cd5d67d3e890cbb4954682",
+  "payload": {
+    "3156770": {
+      "success": true,
+      "data": {
+        "steam_appid": 3156770,
+        "name": "Witchfire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15884
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:876fe8b45c370c77a9702af200ac265021d1479b5d0111bbdebf4d8f49afa58b"
+}

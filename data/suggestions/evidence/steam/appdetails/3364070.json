@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3364070,
+  "fetchedAt": "2026-07-23T12:50:13.327Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3364070&cc=us&l=english",
+  "responseDigest": "sha256:d9564449d9e29446c73197c0c819f9b5314fceeb2a224c1f895226ee8c178a19",
+  "payload": {
+    "3364070": {
+      "success": true,
+      "data": {
+        "steam_appid": 3364070,
+        "name": "The Jackbox Party Pack 11",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 408
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0294abd1c44d98f509ef96fbe68687a75090b87bb79080e27371255989c0248a"
+}

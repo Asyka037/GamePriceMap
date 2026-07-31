@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1066890,
+  "fetchedAt": "2026-07-22T12:48:03.529Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1066890&cc=us&l=english",
+  "responseDigest": "sha256:d901f1ebf2a17b0ad759bdf0cda53f91704fe1501f8de876a6f67202101bda3c",
+  "payload": {
+    "1066890": {
+      "success": true,
+      "data": {
+        "steam_appid": 1066890,
+        "name": "Automobilista 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 30, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11782
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e60b8f8b2aa08e9298fa81fb354fc6bd561c0c518a5eb21f28b5db5776b2bc02"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3784030,
+  "fetchedAt": "2026-07-21T12:45:20.637Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3784030&cc=us&l=english",
+  "responseDigest": "sha256:5bb8ace049f1bdabecaeefb22013fd06490e74c403ed16f3d16533ed0feca975",
+  "payload": {
+    "3784030": {
+      "success": true,
+      "data": {
+        "steam_appid": 3784030,
+        "name": "RACCOIN: Coin Pusher Roguelike",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 31, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3969
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e6d3f8ae37cd9a9fea889acc4f518e9a89ff039d6f2e1dc0b537c8687df86549"
+}

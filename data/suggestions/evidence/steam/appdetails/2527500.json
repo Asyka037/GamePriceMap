@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2527500,
+  "fetchedAt": "2026-07-30T12:56:05.573Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2527500&cc=us&l=english",
+  "responseDigest": "sha256:4fb39e20c9f9dc6669cb7e1aaeb28e3f75eac03b84c4c028267fc1eb8da5ad0b",
+  "payload": {
+    "2527500": {
+      "success": true,
+      "data": {
+        "steam_appid": 2527500,
+        "name": "MiSide",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 120598
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:867cfb15ef047cfbddf0be8c6b058b5904d9e9985b09bbe112733c6b629a92df"
+}

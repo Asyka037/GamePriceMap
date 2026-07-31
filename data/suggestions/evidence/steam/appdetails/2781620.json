@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2781620,
+  "fetchedAt": "2026-07-20T13:19:00.480Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2781620&cc=us&l=english",
+  "responseDigest": "sha256:17297fda549d8f50c12b322a5bbd7e276c781fefade9bed6596f7a730414f236",
+  "payload": {
+    "2781620": {
+      "success": true,
+      "data": {
+        "steam_appid": 2781620,
+        "name": "Risk of Rain 2: Alloyed Collective",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3405
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:da37748cc4fca2db70995a385395a4721bf6dd82b4c910dcaf26e1084e0bc43c"
+}

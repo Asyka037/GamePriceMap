@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1190000,
+  "fetchedAt": "2026-07-22T12:48:09.861Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1190000&cc=us&l=english",
+  "responseDigest": "sha256:7ca613642506cd9b240f4d6cddc178dba1b2507c60ca375a93e17310fe7dd379",
+  "payload": {
+    "1190000": {
+      "success": true,
+      "data": {
+        "steam_appid": 1190000,
+        "name": "Car Mechanic Simulator 2021",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 11, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 36203
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d592476d4c4849cd9c41584aaee8d25b5cecb79f62de2e2ea2db6c34f9fd889b"
+}

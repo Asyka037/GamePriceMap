@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 386940,
+  "fetchedAt": "2026-07-28T13:03:08.051Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=386940&cc=us&l=english",
+  "responseDigest": "sha256:9c0ec97b1a7cf901627587816872f3842d840df025ac390da77cc47a11f552ab",
+  "payload": {
+    "386940": {
+      "success": true,
+      "data": {
+        "steam_appid": 386940,
+        "name": "Ultimate Chicken Horse",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 4, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 40597
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4659b9858a086f52379f7f6c713f56ee1105b05c187ddac477ab894e5788023f"
+}

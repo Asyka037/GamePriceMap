@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4200760,
+  "fetchedAt": "2026-07-21T12:44:26.391Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4200760&cc=us&l=english",
+  "responseDigest": "sha256:e4c7e90e290842759e7616f39850ca0dbc00c228074414723f899c90b56845ae",
+  "payload": {
+    "4200760": {
+      "success": true,
+      "data": {
+        "steam_appid": 4200760,
+        "name": "Call of Duty®: Black Ops 7 - BlackCell (Season 04)",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 4, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2f5d8c6b3ed14bf80c24a8e75ca1644c597cd3e7561467a1e1efd21eeae7212c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1575940,
+  "fetchedAt": "2026-07-20T13:19:04.438Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1575940&cc=us&l=english",
+  "responseDigest": "sha256:59bf0b5613d1f173c99df5ea6bd7c5bdd171df13e85bda371c8bcb0fa8360013",
+  "payload": {
+    "1575940": {
+      "success": true,
+      "data": {
+        "steam_appid": 1575940,
+        "name": "Sins of a Solar Empire II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 15, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 2499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 6963
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8b9c98f3521ee6c6a6c55d6e863f782660643d50584702a59ed9293b99e1a51f"
+}

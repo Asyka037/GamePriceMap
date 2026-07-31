@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3211120,
+  "fetchedAt": "2026-07-23T12:50:59.695Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3211120&cc=us&l=english",
+  "responseDigest": "sha256:36c61e0d1641d96317ab6d1e3e259e934a2955c55ec563924f7edf83a38ee805",
+  "payload": {
+    "3211120": {
+      "success": true,
+      "data": {
+        "steam_appid": 3211120,
+        "name": "Dark and Darker - Legendary Status",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3000,
+          "final": 2100,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 293
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ac4579ec985eaa8302ba7c8e8ab5d6735a96bc546c259854edb1d4cba478791"
+}

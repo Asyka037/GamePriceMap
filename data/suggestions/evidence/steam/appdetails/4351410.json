@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4351410,
+  "fetchedAt": "2026-07-24T12:47:56.016Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4351410&cc=us&l=english",
+  "responseDigest": "sha256:60eed0677ca5c134eba104dc85c0b647eaede31e76a63a364d3c25f1ff1ab0d7",
+  "payload": {
+    "4351410": {
+      "success": true,
+      "data": {
+        "steam_appid": 4351410,
+        "name": "House Flipper 2 - Sakura DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 121
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:36220dede9a9630984aea85556e9689ad54cbe3a9486b62f6d2634df7665f42b"
+}

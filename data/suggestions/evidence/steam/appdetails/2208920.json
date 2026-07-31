@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2208920,
+  "fetchedAt": "2026-07-23T12:50:15.926Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2208920&cc=us&l=english",
+  "responseDigest": "sha256:56b5a4848e7ca4c2a80ec581acc9f1eb16a07300d0a795b3b21820262c2c74ab",
+  "payload": {
+    "2208920": {
+      "success": true,
+      "data": {
+        "steam_appid": 2208920,
+        "name": "Assassin's Creed Valhalla",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 6, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 40160
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2e11e427d92b5ad06815029a9695f9eac0dff4e072055c0f231429c9007abc75"
+}

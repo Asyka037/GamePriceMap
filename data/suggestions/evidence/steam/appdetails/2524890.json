@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2524890,
+  "fetchedAt": "2026-07-26T12:17:44.777Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2524890&cc=us&l=english",
+  "responseDigest": "sha256:ad68b1f4c282430ae7cc5f916d107d805389db6d71a7330cb0a84239ac1cf3b5",
+  "payload": {
+    "2524890": {
+      "success": true,
+      "data": {
+        "steam_appid": 2524890,
+        "name": "Pixel Gun 3D: PC Edition",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 2, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:17e87f5a936dce008cf02e284102b7ba8963f35f386ed403a5a8008f44acea74"
+}

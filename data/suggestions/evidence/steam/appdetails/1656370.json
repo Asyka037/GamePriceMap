@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1656370,
+  "fetchedAt": "2026-07-28T13:03:06.777Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1656370&cc=us&l=english",
+  "responseDigest": "sha256:e2605957c097ffe47a85c4238978f246acc5b108f4211b709f861aa6e1e6e6cc",
+  "payload": {
+    "1656370": {
+      "success": true,
+      "data": {
+        "steam_appid": 1656370,
+        "name": "Destiny 2: Bungie 30th Anniversary Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 7, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 149,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 1677
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:39ca058ab2b5e5dc41431fd6cee9bdcf52d235be2d4d25ebe78bb4929dc660c4"
+}

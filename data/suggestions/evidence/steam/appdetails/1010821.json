@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1010821,
+  "fetchedAt": "2026-07-26T12:18:25.727Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1010821&cc=us&l=english",
+  "responseDigest": "sha256:5abb29ed0a62d6c6fdeacd62153fb5f6406c1ae9e93d6f066823413fb2ef08d2",
+  "payload": {
+    "1010821": {
+      "success": true,
+      "data": {
+        "steam_appid": 1010821,
+        "name": "Barony: Legends & Pariahs",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 27, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 120
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:cdc60130edc27d76c55f8848213bd4e4c5bdf0702897187c8c928ab0469bdc27"
+}

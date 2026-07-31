@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 262060,
+  "fetchedAt": "2026-07-29T13:09:12.748Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=262060&cc=us&l=english",
+  "responseDigest": "sha256:8573bf4356b1e336cce8e076c48b372d7301690fa9cd56954e9cad78507e52b5",
+  "payload": {
+    "262060": {
+      "success": true,
+      "data": {
+        "steam_appid": 262060,
+        "name": "Darkest Dungeon®",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 19, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 139403
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:507f6b0e911c96ad9f6fde7426fedce82ba0256395fa7c60d6561e910d00ec96"
+}

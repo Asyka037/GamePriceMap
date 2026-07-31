@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 815370,
+  "fetchedAt": "2026-07-28T13:02:52.933Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=815370&cc=us&l=english",
+  "responseDigest": "sha256:138cf382f314f245d122bb7f767d0f4cec915adfde3066568f79669ad43cc39f",
+  "payload": {
+    "815370": {
+      "success": true,
+      "data": {
+        "steam_appid": 815370,
+        "name": "Green Hell",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 374,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 77540
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:152e30012419d68a222cd89c05c9e6d0c09bc38c4f62fbbb10f37627dcf68292"
+}

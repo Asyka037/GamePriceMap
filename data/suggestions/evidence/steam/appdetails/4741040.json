@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4741040,
+  "fetchedAt": "2026-07-24T12:47:28.022Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4741040&cc=us&l=english",
+  "responseDigest": "sha256:2039a7fd4ed52b5cab728302b18da705efce69ccf1b77fc6b81d19c87715ed6a",
+  "payload": {
+    "4741040": {
+      "success": true,
+      "data": {
+        "steam_appid": 4741040,
+        "name": "ARC Raiders - The Reaver Set",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2000,
+          "final": 2000,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9174f772a9a3ab5db24ce31a62971a6cf4e11f3011049152d5cd7e34b87a4a67"
+}

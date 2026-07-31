@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 242760,
+  "fetchedAt": "2026-07-21T12:44:53.464Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=242760&cc=us&l=english",
+  "responseDigest": "sha256:a5dc257d3cbc0e2838dd557fb4bd1172bc5fa63ae47b114e3f963bc10692ae3a",
+  "payload": {
+    "242760": {
+      "success": true,
+      "data": {
+        "steam_appid": 242760,
+        "name": "The Forest",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 577790
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aa855dd3ff8dcff494a76b9a42dfbb07aefeac6d9c1fcd6fe5b162f3d96230e7"
+}

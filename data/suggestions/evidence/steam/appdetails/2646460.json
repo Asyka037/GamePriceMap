@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2646460,
+  "fetchedAt": "2026-07-26T12:17:25.756Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2646460&cc=us&l=english",
+  "responseDigest": "sha256:e782b888e1f4b7e17be963a050770dc32b88e336dabf5102bff99450f5a79c27",
+  "payload": {
+    "2646460": {
+      "success": true,
+      "data": {
+        "steam_appid": 2646460,
+        "name": "Soulmask",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 18163
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5ba66dce2cb21a535dbb9eafae53c143f75140f0cd196ac9ceb8fa9459662f14"
+}

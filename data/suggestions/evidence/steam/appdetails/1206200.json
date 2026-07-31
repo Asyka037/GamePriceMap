@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1206200,
+  "fetchedAt": "2026-07-27T13:45:47.411Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1206200&cc=us&l=english",
+  "responseDigest": "sha256:419bad2bb6e7295cc62dec7c388939eda9d08c834c5475ec9872e34c1a3a70b7",
+  "payload": {
+    "1206200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1206200,
+        "name": "Conan Exiles Enhanced: Isle of Siptah",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 27, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 1422
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:34f79a1c6bff5b6a4b02a2df620ec2f00fbf9a3e3b7e72564acf47a533c57d25"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 10180,
+  "fetchedAt": "2026-07-25T12:10:26.627Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=10180&cc=us&l=english",
+  "responseDigest": "sha256:c5011ea97f528f05b4738fff06224c3ee9e3eefc5934e5ebc0a0678969222afc",
+  "payload": {
+    "10180": {
+      "success": true,
+      "data": {
+        "steam_appid": 10180,
+        "name": "Call of Duty®: Modern Warfare® 2 (2009)",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 11, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 35486
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a3a3fcf6f6ef669aa05937e4f9575423256da9a48ea2930990d5cdcf900cca92"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 293760,
+  "fetchedAt": "2026-07-26T12:17:46.021Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=293760&cc=us&l=english",
+  "responseDigest": "sha256:c88204796c07a0469a1de3c75ade547bd4ab26495d6b09063aeb6aba9d1a5097",
+  "payload": {
+    "293760": {
+      "success": true,
+      "data": {
+        "steam_appid": 293760,
+        "name": "Automation - The Car Company Tycoon Game",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16536
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a4a3dba126c8deab5a23309693a058778389f1c5e507ff1d4ad02debcf191908"
+}

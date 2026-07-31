@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1796470,
+  "fetchedAt": "2026-07-19T12:07:49.949Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1796470&cc=us&l=english",
+  "responseDigest": "sha256:201ae243c78af39c9774add4d61099111b06cadbfda2bcb2735cee79b68abc16",
+  "payload": {
+    "1796470": {
+      "success": true,
+      "data": {
+        "steam_appid": 1796470,
+        "name": "Haste",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 1, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1199,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 12209
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c316cdf622052603c43fc2c56b54512bfa555f2e9261ab3bbab9a39cb43c62a2"
+}

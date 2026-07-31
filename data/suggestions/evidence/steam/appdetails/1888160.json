@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1888160,
+  "fetchedAt": "2026-07-22T12:47:39.639Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1888160&cc=us&l=english",
+  "responseDigest": "sha256:a00049525e7783311917de0d43ac47032f42ccd394e2f4050f220eac7e4ebe38",
+  "payload": {
+    "1888160": {
+      "success": true,
+      "data": {
+        "steam_appid": 1888160,
+        "name": "ARMORED CORE™ VI FIRES OF RUBICON™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 24, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 66284
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fa6bb235b8f69c0d84a486f89a1f883d1480cad346e438328646962c5bfd8424"
+}

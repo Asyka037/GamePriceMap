@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 8930,
+  "fetchedAt": "2026-07-27T13:45:35.612Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=8930&cc=us&l=english",
+  "responseDigest": "sha256:0784f833c61136e61c9c1ba4206c34c8f3e30db8b62787c9c48214ded8bc4863",
+  "payload": {
+    "8930": {
+      "success": true,
+      "data": {
+        "steam_appid": 8930,
+        "name": "Sid Meier's Civilization® V",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 21, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 749,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 127824
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7e818c58ba2bec4aa69221cfbdef37a5a39b0beac9ef624c4410bb67b7b37f98"
+}

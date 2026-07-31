@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1501750,
+  "fetchedAt": "2026-07-27T13:45:56.355Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1501750&cc=us&l=english",
+  "responseDigest": "sha256:17a2d31120b47b961b1fb98a6cd2ba97a69a04d0ce78bd13f99815ee511a5fbc",
+  "payload": {
+    "1501750": {
+      "success": true,
+      "data": {
+        "steam_appid": 1501750,
+        "name": "Lords of the Fallen",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 13, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 36740
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a993e437f6f6a1deb93d6cd8fe1b6288506d389aad99eea246b6e8248ed3a984"
+}

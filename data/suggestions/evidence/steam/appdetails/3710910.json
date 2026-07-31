@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3710910,
+  "fetchedAt": "2026-07-18T12:06:45.350Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3710910&cc=us&l=english",
+  "responseDigest": "sha256:f23b8fad3f07074f2a128d3668d4af2a3e809e64993de54bc6591e21e9cdb9a5",
+  "payload": {
+    "3710910": {
+      "success": true,
+      "data": {
+        "steam_appid": 3710910,
+        "name": "Warhammer 40,000: Darktide - Arbites Class",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 779,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 1345
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ef8d7fafb5e131f603c1462755a5ad2fb6ce5f0a3f23ce9aa5342703562bc58d"
+}

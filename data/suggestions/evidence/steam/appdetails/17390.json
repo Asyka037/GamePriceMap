@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 17390,
+  "fetchedAt": "2026-07-27T13:45:32.974Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=17390&cc=us&l=english",
+  "responseDigest": "sha256:b84fd94d962e0b9c1188c2a4f2918822316dfb0a368ba67f0aa27867e19956a7",
+  "payload": {
+    "17390": {
+      "success": true,
+      "data": {
+        "steam_appid": 17390,
+        "name": "SPORE™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 19, 2008"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 66413
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e9741c049969c2d60ff7aca9ce80999d3c325756f4a707b2f10bffb73f059a67"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2799860,
+  "fetchedAt": "2026-07-20T13:18:54.002Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2799860&cc=us&l=english",
+  "responseDigest": "sha256:e1346a7bfdaec446ecd9cda908d2dd4869dc02aa035bfb27604c402fa4a3dd11",
+  "payload": {
+    "2799860": {
+      "success": true,
+      "data": {
+        "steam_appid": 2799860,
+        "name": "INAZUMA ELEVEN: Victory Road",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 13, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 4899,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 10931
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:83ce5eaa38a3618169cf7332919ad58e8aafaad03b3f5f8c3adf84b29fd7f8b8"
+}

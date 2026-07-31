@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2964090,
+  "fetchedAt": "2026-07-28T13:02:51.652Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2964090&cc=us&l=english",
+  "responseDigest": "sha256:b5a8071e95517bff661f3a67cfc8dda7e8d15b4636f8821de15afaf8ed683155",
+  "payload": {
+    "2964090": {
+      "success": true,
+      "data": {
+        "steam_appid": 2964090,
+        "name": "World of Warships: Legends",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 4, 2026"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8ed7f6735038f26a513d0dca46d000e84392506a065973f4b347c995d4f8134a"
+}

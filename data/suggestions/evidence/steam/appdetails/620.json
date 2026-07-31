@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 620,
+  "fetchedAt": "2026-07-23T12:50:33.353Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=620&cc=us&l=english",
+  "responseDigest": "sha256:243af60d955a6a24101b5c7037c30b8538dcaa33626100eebd273f8814512368",
+  "payload": {
+    "620": {
+      "success": true,
+      "data": {
+        "steam_appid": 620,
+        "name": "Portal 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 18, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 387932
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:566bcbca8eca1506e8dc0d79c93fdf5038270a24f2c471d3f9a828cc9139bab0"
+}

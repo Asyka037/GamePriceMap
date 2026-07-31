@@ -1,14 +1,14 @@
 {
   "slug": "monster-hunter-rise",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-07-29",
   "regions": [
     {
       "cc": "AR",
       "currency": "ARS",
-      "amount": 11767,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 2799.99,
+      "list": 11767,
+      "discountPct": 76,
+      "saleEndsAt": "2026-08-18T06:59:59Z"
     },
     {
       "cc": "AU",
@@ -21,18 +21,18 @@
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 184,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 36.8,
+      "list": 184,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-18T06:59:59Z"
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 49.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 9.99,
+      "list": 49.99,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-18T06:59:59Z"
     },
     {
       "cc": "CH",
@@ -45,10 +45,10 @@
     {
       "cc": "CO",
       "currency": "COP",
-      "amount": 173870,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 34774,
+      "list": 173870,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-18T06:59:59Z"
     },
     {
       "cc": "DE",
@@ -77,18 +77,18 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 3990,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 798,
+      "list": 3990,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-11T14:59:59Z"
     },
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 805,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 161,
+      "list": 805,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-18T06:59:59Z"
     },
     {
       "cc": "NO",
@@ -117,10 +117,10 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 39.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 7.99,
+      "list": 39.99,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-18T06:59:59Z"
     },
     {
       "cc": "ZA",

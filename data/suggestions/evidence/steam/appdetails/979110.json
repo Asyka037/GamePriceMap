@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 979110,
+  "fetchedAt": "2026-07-24T12:47:40.081Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=979110&cc=us&l=english",
+  "responseDigest": "sha256:9e5ccf5717d395a0e9e45833dfe1fb5177ec6ab3aebe11194ced90e230cc1e4c",
+  "payload": {
+    "979110": {
+      "success": true,
+      "data": {
+        "steam_appid": 979110,
+        "name": "Space Haven",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1499,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 10134
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:17d306fa638bb83dc3f81bc49b47cd381e6574aa5ae9a65c2088f8675145ff80"
+}

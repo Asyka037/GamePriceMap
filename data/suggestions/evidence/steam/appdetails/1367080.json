@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1367080,
+  "fetchedAt": "2026-07-28T13:03:35.807Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1367080&cc=us&l=english",
+  "responseDigest": "sha256:53c73f1c1456e6e50013a6fbd91d226379f6e6f11ad5ac53157ff47d05f781a0",
+  "payload": {
+    "1367080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1367080,
+        "name": "MOBILE SUIT GUNDAM BATTLE OPERATION 2",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 30, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dc69a3a055166e7aeb3f5bfdcb800618b93f8b00946f1952781ff4a8689a5868"
+}

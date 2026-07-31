@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3022790,
+  "fetchedAt": "2026-07-19T12:08:07.831Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3022790&cc=us&l=english",
+  "responseDigest": "sha256:51b1409dbc1d6a3fb642081efc1506f0c75fead55d583ca0af0da08cd6d6589b",
+  "payload": {
+    "3022790": {
+      "success": true,
+      "data": {
+        "steam_appid": 3022790,
+        "name": "RimWorld - Odyssey",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3103
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2163fd21a76e0c3a0899ee56d393c5d27c17b7136221e5b1314a6eb01ee24d7c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1888350,
+  "fetchedAt": "2026-07-29T13:08:50.484Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1888350&cc=us&l=english",
+  "responseDigest": "sha256:206e4eec928cde96a614e01d802dd23d4ee71e77933a75990ce680c4532cff7b",
+  "payload": {
+    "1888350": {
+      "success": true,
+      "data": {
+        "steam_appid": 1888350,
+        "name": "Easy Red 2: Stalingrad",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 9, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 479,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 271
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:eb2cc021f00b294e7aafd6aa5c3ce0899bde02e084804471ee9eb0fde7a492e0"
+}

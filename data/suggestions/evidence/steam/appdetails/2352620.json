@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2352620,
+  "fetchedAt": "2026-07-24T12:47:05.348Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2352620&cc=us&l=english",
+  "responseDigest": "sha256:88d15cea3f4fa6c0b48365d18688d69ffb5e014044640cfcae340767d196521b",
+  "payload": {
+    "2352620": {
+      "success": true,
+      "data": {
+        "steam_appid": 2352620,
+        "name": "Fellowship",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15195
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:97b60f47a1b9fff585ba213a8d4a96f60e2766fa42e6d2a4c802ec75ec8d8d75"
+}

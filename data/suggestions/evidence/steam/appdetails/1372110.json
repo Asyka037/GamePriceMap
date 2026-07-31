@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1372110,
+  "fetchedAt": "2026-07-23T12:50:26.647Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1372110&cc=us&l=english",
+  "responseDigest": "sha256:1cea15209bab69ab3f3e28f6787febe42eba0eec66d3a81a6964764c691138e1",
+  "payload": {
+    "1372110": {
+      "success": true,
+      "data": {
+        "steam_appid": 1372110,
+        "name": "JoJo's Bizarre Adventure: All-Star Battle R",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 1, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 999,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 14023
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3ab7c895244a311e4dbeae2af96f9360da9809f94b6aee5690e64657d4d8549c"
+}

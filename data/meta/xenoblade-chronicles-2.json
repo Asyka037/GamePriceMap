@@ -1,22 +1,21 @@
 {
   "slug": "xenoblade-chronicles-2",
-  "updatedAt": "2026-07-16T07:35:46.202Z",
-  "name": "Xenoblade Chronicles™ 2",
-  "headerImage": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000000707/4cd12c9f2233dc671d0ac2bc208f8551d1d0b62c956d6d477585bb42c1ef09ea",
+  "updatedAt": "2026-07-20T10:28:50.042Z",
+  "name": "Xenoblade Chronicles 2",
+  "headerImage": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_XenobladeChronicles2_image500w.jpg",
   "genres": [
-    "Action",
-    "Role playing"
+    "RPG"
   ],
-  "releaseDate": "2017-12-01T00:00:00.000Z",
+  "releaseDate": "2017-12-01T00:00:00Z",
   "comingSoon": false,
   "metacritic": null,
   "recommendations": null,
   "reviewDesc": null,
   "reviewCount": 0,
   "reviewPercent": null,
-  "description": "Lost in a sea of clouds, entire civilizations rest on the backs of Titans. As the giant beasts march toward death, the last hope is a scavenger named Rex—and Pyra, a living weapon known as a Blade. Can you find the fabled paradise she calls home? Command a group of Blades and lead them to countless strategic victories before the world ends. Each Titan hosts its own distinct cultures, wildlife, and diverse regions to explore. Search the vast open areas and labyrinthine corridors for treasure, secret paths, and creatures to battle and index.\n\nDuring these escapades you’ll get to know a large cast of eclectic characters, including the weaponized life forms known as Blades. Gather these allies, bond with them to increase their power, and utilize their special ARTS to devastate enemies. But to save the world of Alrest, you must first demystify its cloudy past.",
+  "description": "Search for the ultimate paradise, Elysium, with your companion, Pyra, in Xenoblade Chronicles 2 for Nintendo Switch.",
   "publisher": "Nintendo",
   "developer": null,
-  "storeUrl": "https://www.nintendo.com/us/store/products/xenoblade-chronicles-2-switch/",
-  "metaSource": "nintendo-us"
+  "storeUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Xenoblade-Chronicles-2-1233955.html",
+  "metaSource": "nintendo-eu-solr"
 }

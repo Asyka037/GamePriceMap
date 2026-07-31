@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 602960,
+  "fetchedAt": "2026-07-19T12:08:18.057Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=602960&cc=us&l=english",
+  "responseDigest": "sha256:3f9b1f6bae763314c642bc9bc9ab2a698e615eb52f92b3f9dfa7507c56ccb8c5",
+  "payload": {
+    "602960": {
+      "success": true,
+      "data": {
+        "steam_appid": 602960,
+        "name": "Barotrauma",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 60828
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a63b479ae62679613629f305d199f4c5b7da5ee00f5d6de2aea090a1c63d141d"
+}

@@ -1,117 +1,117 @@
 {
   "slug": "mortal-kombat-11",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-07-26",
   "regions": [
     {
       "cc": "AR",
       "currency": "USD",
-      "amount": 35,
-      "list": null,
-      "discountPct": null,
+      "amount": 3.5,
+      "list": 35,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 74.95,
-      "list": null,
-      "discountPct": null,
+      "amount": 7.49,
+      "list": 74.95,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 229.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 22.99,
+      "list": 229.99,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 69.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 6.99,
+      "list": 69.99,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 54.9,
-      "list": null,
-      "discountPct": null,
+      "amount": 5.49,
+      "list": 54.9,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "CN",
       "currency": "CNY",
-      "amount": 138,
-      "list": null,
-      "discountPct": null,
+      "amount": 13.8,
+      "list": 138,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 49.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 4.99,
+      "list": 49.99,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 39.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 3.99,
+      "list": 39.99,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "IN",
       "currency": "INR",
-      "amount": 2699,
-      "list": null,
-      "discountPct": null,
+      "amount": 269,
+      "list": 2699,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "KZ",
       "currency": "KZT",
-      "amount": 16600,
-      "list": null,
-      "discountPct": null,
+      "amount": 1660,
+      "list": 16600,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 799,
-      "list": null,
-      "discountPct": null,
+      "amount": 79.9,
+      "list": 799,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "PK",
       "currency": "USD",
-      "amount": 49.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 4.99,
+      "list": 49.99,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "TR",
       "currency": "USD",
-      "amount": 49.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 4.99,
+      "list": 49.99,
+      "discountPct": 90,
       "saleEndsAt": null
     },
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 49.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 4.99,
+      "list": 49.99,
+      "discountPct": 90,
       "saleEndsAt": null
     }
   ]

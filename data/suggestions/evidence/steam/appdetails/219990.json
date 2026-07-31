@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 219990,
+  "fetchedAt": "2026-07-20T13:19:15.321Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=219990&cc=us&l=english",
+  "responseDigest": "sha256:5f5e3ba244291409b76c6d6ae94014c4877d05f21a35532e6ef8feb2be0347bb",
+  "payload": {
+    "219990": {
+      "success": true,
+      "data": {
+        "steam_appid": 219990,
+        "name": "Grim Dawn",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 25, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 90517
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:393f7a841bfcb7a0c8a1d82de08d24712d9e9248f8ef9a98d1657113fa7d17a0"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 631510,
+  "fetchedAt": "2026-07-23T12:50:09.393Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=631510&cc=us&l=english",
+  "responseDigest": "sha256:b272f1cf12a42889b610c688226a70699c54e84ab8b78a5b4e5374e5734d8137",
+  "payload": {
+    "631510": {
+      "success": true,
+      "data": {
+        "steam_appid": 631510,
+        "name": "Devil May Cry HD Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 449,
+          "discount_percent": 85
+        },
+        "recommendations": {
+          "total": 18688
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:87708c9212a0e74bc08b7ce196d23cef74f1d00ba53c7d6ead60b9426087b034"
+}

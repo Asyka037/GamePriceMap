@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3265700,
+  "fetchedAt": "2026-07-23T12:50:17.244Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3265700&cc=us&l=english",
+  "responseDigest": "sha256:0c6044b470e5f7ac5dfc8ad94d985d6a362d22141cc0ac9c869882f8859c600a",
+  "payload": {
+    "3265700": {
+      "success": true,
+      "data": {
+        "steam_appid": 3265700,
+        "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 899,
+          "discount_percent": 10
+        },
+        "recommendations": {
+          "total": 17857
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:00320912066a150fd2f9072587ab36042e174af4f1e75022e8a7a4f3b6713e0e"
+}

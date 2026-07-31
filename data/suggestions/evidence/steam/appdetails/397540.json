@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 397540,
+  "fetchedAt": "2026-07-29T13:08:22.845Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=397540&cc=us&l=english",
+  "responseDigest": "sha256:41874959a8f4b7fd23915069a5ded2c0377c7a74b0a97ad5d365e6b753073830",
+  "payload": {
+    "397540": {
+      "success": true,
+      "data": {
+        "steam_appid": 397540,
+        "name": "Borderlands 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 599,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 127447
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:31687b1ca9b415d5592e643e31ab0f68cadc81782ca8304650eb23264d8adb6e"
+}

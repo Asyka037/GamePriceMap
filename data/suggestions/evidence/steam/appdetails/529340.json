@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 529340,
+  "fetchedAt": "2026-07-21T12:44:23.751Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=529340&cc=us&l=english",
+  "responseDigest": "sha256:81db334f65c6ad831165312def6c93dde12b4d763f9c64a8ab543b40116c3683",
+  "payload": {
+    "529340": {
+      "success": true,
+      "data": {
+        "steam_appid": 529340,
+        "name": "Victoria 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 25, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 1499,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 41721
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2ededb9b728c360c95e2ee22911b8794a25951f0dfcbf3868df325373159dc39"
+}

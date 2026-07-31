@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 233450,
+  "fetchedAt": "2026-07-29T13:09:23.261Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=233450&cc=us&l=english",
+  "responseDigest": "sha256:b61d994491b7f4898d401500b0e81ca150c2e6d9f8e8e29083083423de23cae3",
+  "payload": {
+    "233450": {
+      "success": true,
+      "data": {
+        "steam_appid": 233450,
+        "name": "Prison Architect",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 6, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 59980
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2da6f5995f2f49a877f94d49d6a8a1c4155063c93b807da3725ed9e1ce52b44e"
+}

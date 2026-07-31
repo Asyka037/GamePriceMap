@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 850190,
+  "fetchedAt": "2026-07-21T12:44:54.727Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=850190&cc=us&l=english",
+  "responseDigest": "sha256:78f8b797829646d0792f3381fdce8cfada3ce76ac626ab99a5cb94c667fd5650",
+  "payload": {
+    "850190": {
+      "success": true,
+      "data": {
+        "steam_appid": 850190,
+        "name": "Goat Simulator 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 15, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1199,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 13473
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b9b2e0ccabd2ec531afe94c7b71611747bf769af91c8dbb07e22c29e65b76db7"
+}

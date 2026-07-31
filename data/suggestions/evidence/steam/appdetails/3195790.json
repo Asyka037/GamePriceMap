@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3195790,
+  "fetchedAt": "2026-07-24T12:47:36.169Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3195790&cc=us&l=english",
+  "responseDigest": "sha256:26fcc164856cad920769c72521eaf15d950a7e89fcb7d01c0920c2731cb1e5a8",
+  "payload": {
+    "3195790": {
+      "success": true,
+      "data": {
+        "steam_appid": 3195790,
+        "name": "White Knuckle",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1699,
+          "final": 1699,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12193
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0efe390b43ce502f0d96f14e5bc3af641ceb2a04bd3a23f803eb909a7fcb18dd"
+}

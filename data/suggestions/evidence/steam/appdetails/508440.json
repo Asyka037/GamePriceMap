@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 508440,
+  "fetchedAt": "2026-07-19T12:07:37.156Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=508440&cc=us&l=english",
+  "responseDigest": "sha256:72bfd2caf5a2b8d5d5d1b2f2b9d82cd66c506dfe377512bf2b58dc9b35e622e1",
+  "payload": {
+    "508440": {
+      "success": true,
+      "data": {
+        "steam_appid": 508440,
+        "name": "Totally Accurate Battle Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 1, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 142066
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:56c0840aa6d72dcc22961d38e2e0ee7c0a6934076d0e809e60ff1295b94c7757"
+}

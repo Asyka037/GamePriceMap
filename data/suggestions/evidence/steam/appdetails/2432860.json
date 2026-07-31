@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2432860,
+  "fetchedAt": "2026-07-18T12:06:55.569Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2432860&cc=us&l=english",
+  "responseDigest": "sha256:ebfa955ad30b4ae041e9662d2398cd9eb785f4fa6d150c63a9888d0aae7ffbf8",
+  "payload": {
+    "2432860": {
+      "success": true,
+      "data": {
+        "steam_appid": 2432860,
+        "name": "MENACE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2999,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 11293
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bb979071d87d871303eccaee1303f69af8d2fd14bfa047c9dd8b3a8c900c993b"
+}

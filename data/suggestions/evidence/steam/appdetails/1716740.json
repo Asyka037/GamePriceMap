@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1716740,
+  "fetchedAt": "2026-07-18T12:06:04.258Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1716740&cc=us&l=english",
+  "responseDigest": "sha256:c765b5c8044dc1991970f54daca39133460ec987d3fdfb87f126cc39cbb36642",
+  "payload": {
+    "1716740": {
+      "success": true,
+      "data": {
+        "steam_appid": 1716740,
+        "name": "Starfield",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 114489
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:79f4fbd0f764025e2b8ee385b708f5e87e819fa7075f3198e4a1f57eafad1192"
+}

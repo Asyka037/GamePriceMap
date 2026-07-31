@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1995520,
+  "fetchedAt": "2026-07-24T12:47:54.739Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1995520&cc=us&l=english",
+  "responseDigest": "sha256:bc50ed946ad32cd9744a44300ef483d3dfc73bc2d12ee2e875fe87f4e96717ad",
+  "payload": {
+    "1995520": {
+      "success": true,
+      "data": {
+        "steam_appid": 1995520,
+        "name": "Pax Dei",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 7042
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:88fd5c5f564ee9a24075f9c869f0bbd7a467ebb0ae689d4c15204ddaedae6e1e"
+}

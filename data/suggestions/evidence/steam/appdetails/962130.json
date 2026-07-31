@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 962130,
+  "fetchedAt": "2026-07-19T12:07:32.025Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=962130&cc=us&l=english",
+  "responseDigest": "sha256:445545eb55d9270f6f8947386e61f510cffa90553d97af95b74fe47c9b76183d",
+  "payload": {
+    "962130": {
+      "success": true,
+      "data": {
+        "steam_appid": 962130,
+        "name": "Grounded",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 27, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 75016
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:43f2a16fe38ed3a9ba13ff08e95b27b8bfeee899b042deceba5544d3d104d043"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1004640,
+  "fetchedAt": "2026-07-28T13:02:56.701Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1004640&cc=us&l=english",
+  "responseDigest": "sha256:34cd7da3d33a5846b058603eae253f36368b1b5e39061c542cfce190b858ed30",
+  "payload": {
+    "1004640": {
+      "success": true,
+      "data": {
+        "steam_appid": 1004640,
+        "name": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 30, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5510
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a8faa7746c4efe26aca2e9288a22382b0a67a953b49dcddf64ed9d6ebd411a1d"
+}

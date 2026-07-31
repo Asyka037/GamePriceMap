@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2852190,
+  "fetchedAt": "2026-07-20T13:18:59.171Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2852190&cc=us&l=english",
+  "responseDigest": "sha256:7aa7ddd2b94132d58b89d02463d9895e1f9117616a3e7f291ef724c4dd20dda8",
+  "payload": {
+    "2852190": {
+      "success": true,
+      "data": {
+        "steam_appid": 2852190,
+        "name": "Monster Hunter Stories 3: Twisted Reflection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 5599,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 5400
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a2eb835fb5742bff71975a6de31e8b44fbb6b56f718ce22b1a8bb608d61d2793"
+}

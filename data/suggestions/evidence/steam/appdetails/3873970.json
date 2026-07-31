@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3873970,
+  "fetchedAt": "2026-07-26T12:18:00.115Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3873970&cc=us&l=english",
+  "responseDigest": "sha256:06a1450d20af7218e59b5c86f11f68534ebaed7a927f958307e80e64e5d6a20f",
+  "payload": {
+    "3873970": {
+      "success": true,
+      "data": {
+        "steam_appid": 3873970,
+        "name": "NASCAR 25",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1707
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7cf13b42648143c38a3fa9857f06ce3fad15aef90a467687466a18afff80273a"
+}

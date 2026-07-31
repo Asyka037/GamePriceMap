@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1611600,
+  "fetchedAt": "2026-07-24T12:47:50.716Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1611600&cc=us&l=english",
+  "responseDigest": "sha256:fc813a49a045c769d8a58c6cfe7f2e241fb79836c7ffd0450dfec99526892695",
+  "payload": {
+    "1611600": {
+      "success": true,
+      "data": {
+        "steam_appid": 1611600,
+        "name": "WARNO",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14245
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:aae1530f0a41c1bbe973accc9bf954f4827cf3f90b014e5302f846156bde1c3a"
+}

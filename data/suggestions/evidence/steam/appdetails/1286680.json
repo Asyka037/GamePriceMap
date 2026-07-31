@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1286680,
+  "fetchedAt": "2026-07-23T12:51:09.051Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1286680&cc=us&l=english",
+  "responseDigest": "sha256:da7e48b15fcec3f11a35429860d38165b72cd659dd8323137becb05c14a9656e",
+  "payload": {
+    "1286680": {
+      "success": true,
+      "data": {
+        "steam_appid": 1286680,
+        "name": "Tiny Tina's Wonderlands",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1199,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 17663
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2fbc235fa37955e70b89a67ff3d0eaf6ba6e76cf04c16c5dfb359cd5a71b1eee"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1129580,
+  "fetchedAt": "2026-07-22T12:47:59.699Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1129580&cc=us&l=english",
+  "responseDigest": "sha256:ac4eaaf80c113340146241dd7a48e990111c09da82d5c3aa8c6fc8ae0ed09618",
+  "payload": {
+    "1129580": {
+      "success": true,
+      "data": {
+        "steam_appid": 1129580,
+        "name": "Medieval Dynasty",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 42515
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63cb136e0f5d2038702f5c79788ec8bd33e9d0a6d7e85bbca45c335ea8050c02"
+}

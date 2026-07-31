@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2943650,
+  "fetchedAt": "2026-07-22T12:48:06.054Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2943650&cc=us&l=english",
+  "responseDigest": "sha256:d3f1e11abe6c0e6a4cfcc92bac3042c2a41459000fd6af3fdd09feec5981e3d4",
+  "payload": {
+    "2943650": {
+      "success": true,
+      "data": {
+        "steam_appid": 2943650,
+        "name": "FragPunk",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2025"
+        },
+        "recommendations": {
+          "total": 1622
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:48d00998a5165060fb343ca7eabfaa64a97021cbbbf81fc5d1a80453cad84a23"
+}

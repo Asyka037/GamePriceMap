@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3274580,
+  "fetchedAt": "2026-07-22T12:47:25.596Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3274580&cc=us&l=english",
+  "responseDigest": "sha256:9be6eb29737e2dc8d3d36818abbdc0bdcc6a49f7d26a6831241a4c039930c799",
+  "payload": {
+    "3274580": {
+      "success": true,
+      "data": {
+        "steam_appid": 3274580,
+        "name": "Anno 117: Pax Romana",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 4199,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 11815
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:983dd25af76b2ad7a429520202dd05b145989bc97d31a40d160beb6b3284d367"
+}

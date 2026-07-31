@@ -1,148 +1,148 @@
 {
   "slug": "sid-meier-s-civilization-vii",
-  "lastPriceChangeAt": "2026-07-18",
+  "lastPriceChangeAt": "2026-07-23",
   "regions": [
     {
       "cc": "AR",
       "currency": "USD",
-      "amount": 49.99,
-      "list": 99.99,
+      "amount": 34.99,
+      "list": 69.99,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 79.97,
-      "list": 159.95,
+      "amount": 59.97,
+      "list": 119.95,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 249.75,
-      "list": 499.5,
+      "amount": 174.95,
+      "list": 349.9,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 64.99,
-      "list": 129.99,
-      "discountPct": 50,
-      "saleEndsAt": null
-    },
-    {
-      "cc": "CH",
-      "currency": "CHF",
-      "amount": 49.95,
-      "list": 99.9,
-      "discountPct": 50,
-      "saleEndsAt": null
-    },
-    {
-      "cc": "CN",
-      "currency": "CNY",
-      "amount": 214,
-      "list": 428,
-      "discountPct": 50,
-      "saleEndsAt": null
-    },
-    {
-      "cc": "DE",
-      "currency": "EUR",
-      "amount": 49.99,
-      "list": 99.99,
-      "discountPct": 50,
-      "saleEndsAt": null
-    },
-    {
-      "cc": "GB",
-      "currency": "GBP",
       "amount": 44.99,
       "list": 89.99,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 34.95,
+      "list": 69.9,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 149,
+      "list": 298,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 34.99,
+      "list": 69.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 29.99,
+      "list": 59.99,
+      "discountPct": 50,
+      "saleEndsAt": null
+    },
+    {
       "cc": "GE",
       "currency": "USD",
-      "amount": 49.99,
-      "list": 99.99,
+      "amount": 34.99,
+      "list": 69.99,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "IN",
       "currency": "INR",
-      "amount": 2849,
-      "list": 5699,
+      "amount": 1999,
+      "list": 3999,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 6325,
-      "list": 12650,
+      "amount": 4400,
+      "list": 8800,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "KR",
       "currency": "KRW",
-      "amount": 59450,
-      "list": 118900,
+      "amount": 41500,
+      "list": 83000,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "KZ",
       "currency": "KZT",
-      "amount": 16999,
-      "list": 33999,
+      "amount": 12499,
+      "list": 24999,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 849.5,
-      "list": 1699,
+      "amount": 595,
+      "list": 1190,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "PK",
       "currency": "USD",
-      "amount": 37.49,
-      "list": 74.99,
+      "amount": 26.24,
+      "list": 52.49,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "TR",
       "currency": "USD",
-      "amount": 49.99,
-      "list": 99.99,
+      "amount": 34.99,
+      "list": 69.99,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "UA",
       "currency": "UAH",
-      "amount": 2149,
-      "list": 4299,
+      "amount": 1499,
+      "list": 2999,
       "discountPct": 50,
       "saleEndsAt": null
     },
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 49.99,
-      "list": 99.99,
+      "amount": 34.99,
+      "list": 69.99,
       "discountPct": 50,
       "saleEndsAt": null
     }

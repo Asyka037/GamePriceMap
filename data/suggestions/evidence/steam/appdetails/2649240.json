@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2649240,
+  "fetchedAt": "2026-07-26T12:17:32.124Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2649240&cc=us&l=english",
+  "responseDigest": "sha256:2f03d47189abf8b7610bb369aa7cb21f12abf1425980ffe9c95dea0db498819e",
+  "payload": {
+    "2649240": {
+      "success": true,
+      "data": {
+        "steam_appid": 2649240,
+        "name": "FINAL FANTASY XIV: Dawntrail",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 2, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5179
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:379b0101ebed0b98b57142e54ff8a76ba4b019961c59ea1d9b91ec0168ed7aed"
+}

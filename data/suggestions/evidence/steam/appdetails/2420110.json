@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2420110,
+  "fetchedAt": "2026-07-30T12:56:02.773Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2420110&cc=us&l=english",
+  "responseDigest": "sha256:5d1ad4822861cf328f989e3904dc9675b47eabb9e8d813e9585d8a4a9ae74ee5",
+  "payload": {
+    "2420110": {
+      "success": true,
+      "data": {
+        "steam_appid": 2420110,
+        "name": "Horizon Forbidden West™ Complete Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 21, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 20038
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fdbd00c6201728f041b859f62d90f3db69e4935349a259c9ae191dc047568176"
+}

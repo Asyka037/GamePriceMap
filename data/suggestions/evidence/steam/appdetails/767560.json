@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 767560,
+  "fetchedAt": "2026-07-18T12:06:23.581Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=767560&cc=us&l=english",
+  "responseDigest": "sha256:1b7cde58a61758cf2b547980521fe65bccb394f2c5710f709473b107e649ca5c",
+  "payload": {
+    "767560": {
+      "success": true,
+      "data": {
+        "steam_appid": 767560,
+        "name": "War Robots",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 4, 2018"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3f1739ba8ba14c083217d0298614a5d235d80c5a10ea69cc15920be9825699ab"
+}

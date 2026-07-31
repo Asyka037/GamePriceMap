@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2198150,
+  "fetchedAt": "2026-07-26T12:17:53.658Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2198150&cc=us&l=english",
+  "responseDigest": "sha256:e91c92a1839e411ec1a5743a227c2c0c236845aae4fee2d0fa1d4dd1275afebf",
+  "payload": {
+    "2198150": {
+      "success": true,
+      "data": {
+        "steam_appid": 2198150,
+        "name": "Tiny Glade",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 22262
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d575b9cacc805c50c07f74260b6416d60a0c69d322eaede8862445ebcbfde0b8"
+}

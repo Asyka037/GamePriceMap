@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2780980,
+  "fetchedAt": "2026-07-23T12:50:43.878Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2780980&cc=us&l=english",
+  "responseDigest": "sha256:61f7ebe9e5f2eda62b6f3d317a83370d726cff2203cc112ba7e96e861fa36473",
+  "payload": {
+    "2780980": {
+      "success": true,
+      "data": {
+        "steam_appid": 2780980,
+        "name": "LOCKDOWN Protocol",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 16362
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6ceafb72f4b13ef22866543335a4f1c4f9f998095302668b3acbdde62096d491"
+}

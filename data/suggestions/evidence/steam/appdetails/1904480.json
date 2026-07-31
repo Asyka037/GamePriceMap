@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1904480,
+  "fetchedAt": "2026-07-25T12:11:23.505Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1904480&cc=us&l=english",
+  "responseDigest": "sha256:d4abdd344a1fc841300bdf883721f994365aef0c1ed6c469a5e281144a71e86b",
+  "payload": {
+    "1904480": {
+      "success": true,
+      "data": {
+        "steam_appid": 1904480,
+        "name": "Absolum",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 9, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1874,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 9042
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3a9c9ded58e2f26606a0f857604c9e426c9bae455c9ff0d5d990531be819d5f7"
+}

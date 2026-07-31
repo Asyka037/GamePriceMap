@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1989270,
+  "fetchedAt": "2026-07-27T13:45:49.971Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1989270&cc=us&l=english",
+  "responseDigest": "sha256:00b41bb38c514736e04f552e06e147d7bf8e77bc053ec555ca1cd12c060800ba",
+  "payload": {
+    "1989270": {
+      "success": true,
+      "data": {
+        "steam_appid": 1989270,
+        "name": "Slay the Princess — The Pristine Cut",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 30942
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:598df6dfede294cfa8eebebcaf40de397721049f496cbbb512f6f67dfb9795ab"
+}

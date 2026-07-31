@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 492720,
+  "fetchedAt": "2026-07-24T12:47:53.415Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=492720&cc=us&l=english",
+  "responseDigest": "sha256:cbfb62b8de2a5be8d7d1b6b0ad479494d4c1f8fabfe62684305bcc9141267a1e",
+  "payload": {
+    "492720": {
+      "success": true,
+      "data": {
+        "steam_appid": 492720,
+        "name": "Tropico 6",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 29, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1199,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 19644
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b0a1e0ac27a2608eaae5a1b1ad8862107bf058f1557c1fe173014e9a39cb34b0"
+}

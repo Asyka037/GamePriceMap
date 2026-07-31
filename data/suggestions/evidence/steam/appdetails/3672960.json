@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3672960,
+  "fetchedAt": "2026-07-28T13:03:04.242Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3672960&cc=us&l=english",
+  "responseDigest": "sha256:fc8f45638db7902506148e49750def9b7637c6e51f9596178a6548ceb3c8640e",
+  "payload": {
+    "3672960": {
+      "success": true,
+      "data": {
+        "steam_appid": 3672960,
+        "name": "House Flipper 2 - Scooby-Doo DLC",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1199,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 190
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:44bb47cd79bbe462169356c0e7d89dc06320a800ec43473053ce4563c7d5957e"
+}

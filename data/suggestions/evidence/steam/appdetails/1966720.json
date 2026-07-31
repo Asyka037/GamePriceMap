@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1966720,
+  "fetchedAt": "2026-07-18T12:06:10.549Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1966720&cc=us&l=english",
+  "responseDigest": "sha256:7e5e219204db61dc4f116728eca53858e5d3e1f2f431f3608bab52e861caaca8",
+  "payload": {
+    "1966720": {
+      "success": true,
+      "data": {
+        "steam_appid": 1966720,
+        "name": "Lethal Company",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 410683
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2f53f1e3c0725596ae3f0891ca33438403dc4abb5c7656bbe806b0cb11ebf2c1"
+}

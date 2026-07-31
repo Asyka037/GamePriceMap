@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1150690,
+  "fetchedAt": "2026-07-26T12:17:57.538Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1150690&cc=us&l=english",
+  "responseDigest": "sha256:a757824c3e9ea1add8bf1ec1a5f6602be1da0469a381f9bd50ccd9f9e5c24752",
+  "payload": {
+    "1150690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1150690,
+        "name": "OMORI",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 25, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 78999
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:93741733cf775f2d892d9fd68cace35ef07ca0b9002bbe4bdff8a529801213f6"
+}

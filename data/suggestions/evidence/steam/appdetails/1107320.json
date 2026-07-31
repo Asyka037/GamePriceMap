@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1107320,
+  "fetchedAt": "2026-07-24T12:47:18.674Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1107320&cc=us&l=english",
+  "responseDigest": "sha256:fa569e6da3b935f09e9c395b3eecd25c73924c39cdf4ccab7842e187b7f5ccc6",
+  "payload": {
+    "1107320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1107320,
+        "name": "OUTBRK",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 28, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3093
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:645bcd1131a62f2207bf27cb95fa63c06c0e6d34694dbe0e0dbb5ef2331e51a6"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3595270,
+  "fetchedAt": "2026-07-27T13:45:44.871Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3595270&cc=us&l=english",
+  "responseDigest": "sha256:8b729cb56e24945e29ab9214230ccdc51cd06db9ee1ba7ad08a7b6ccbfe58e32",
+  "payload": {
+    "3595270": {
+      "success": true,
+      "data": {
+        "steam_appid": 3595270,
+        "name": "Call of Duty®: Modern Warfare® III",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17739
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:18a0d7306861dedc8618f6af4ef7247e05a0d89494f9aa8d2f611c3b6b145de6"
+}

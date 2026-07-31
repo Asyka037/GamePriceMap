@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 327070,
+  "fetchedAt": "2026-07-26T12:17:35.890Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=327070&cc=us&l=english",
+  "responseDigest": "sha256:876a65f5960f404eb340d5839dfc8a69fafdf54246f66ff0c1a365aded45e550",
+  "payload": {
+    "327070": {
+      "success": true,
+      "data": {
+        "steam_appid": 327070,
+        "name": "Gloria Victis: Medieval MMORPG",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2026"
+        },
+        "recommendations": {
+          "total": 8004
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4869d289ce01b5f9df5c99a8afa1f5305eef21d64df1c9f859da18f85d24b0ba"
+}

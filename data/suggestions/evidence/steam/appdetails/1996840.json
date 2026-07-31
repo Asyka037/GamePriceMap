@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1996840,
+  "fetchedAt": "2026-07-24T12:47:19.986Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1996840&cc=us&l=english",
+  "responseDigest": "sha256:06d6f3081499d8a79ff148286475aa2d9d1d5cebdbf89c1e3548a07df722506e",
+  "payload": {
+    "1996840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1996840,
+        "name": "Guild Wars 2® Heart of Thorns® and Path of Fire™ Expansions",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 23, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 319
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c2cedb113fe7c819ddf883d76eda76be83d1831b0ac9884be289f38ca2fdbef"
+}

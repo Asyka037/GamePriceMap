@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3483400,
+  "fetchedAt": "2026-07-23T12:51:10.403Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3483400&cc=us&l=english",
+  "responseDigest": "sha256:ba94f2b2ac1511b892aabf3c1d420122aedd1468a84013c460c27ee2ca39362c",
+  "payload": {
+    "3483400": {
+      "success": true,
+      "data": {
+        "steam_appid": 3483400,
+        "name": "ARK: Astraeos",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 13, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 494,
+          "discount_percent": 67
+        },
+        "recommendations": {
+          "total": 774
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fa07c285b025bd6d50b17296b220a04475e5915668791aa299cc6e1b75514f56"
+}

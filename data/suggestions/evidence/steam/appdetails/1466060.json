@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1466060,
+  "fetchedAt": "2026-07-21T12:44:17.028Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1466060&cc=us&l=english",
+  "responseDigest": "sha256:cd4d05de6b9939aed4a95cbea60791ce07734c5bd43215d2088ff3ca15622588",
+  "payload": {
+    "1466060": {
+      "success": true,
+      "data": {
+        "steam_appid": 1466060,
+        "name": "Tainted Grail: The Fall of Avalon",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 2249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 31806
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e71339b07e7a5e43f9b54c88f4813f0a918be9089456bba0d52faef0e350a7aa"
+}

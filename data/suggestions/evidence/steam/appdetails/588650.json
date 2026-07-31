@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 588650,
+  "fetchedAt": "2026-07-25T12:11:02.723Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=588650&cc=us&l=english",
+  "responseDigest": "sha256:34e3d45e80a30ac6047e1ab4f606a04c557ddd3171ff80c6e7e8425cfb098ac8",
+  "payload": {
+    "588650": {
+      "success": true,
+      "data": {
+        "steam_appid": 588650,
+        "name": "Dead Cells",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 6, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 155051
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6fd657f4d44897352a0e3c89461add2c8e98681ca5434a867d5758b712a20743"
+}

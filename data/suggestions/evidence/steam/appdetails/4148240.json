@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4148240,
+  "fetchedAt": "2026-07-30T12:55:48.792Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4148240&cc=us&l=english",
+  "responseDigest": "sha256:8c50cf4f09ce01850f7f676d3a93c3d0e133507fae0d0ce61ca595913c25a43e",
+  "payload": {
+    "4148240": {
+      "success": true,
+      "data": {
+        "steam_appid": 4148240,
+        "name": "Road to Empress Ⅱ",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1800,
+          "final": 1800,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7692
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:570ea6cc6a473b725397738fa021849baa800e83dad33a04d34087d545fefc11"
+}

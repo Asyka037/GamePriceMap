@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 581320,
+  "fetchedAt": "2026-07-20T13:19:16.699Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=581320&cc=us&l=english",
+  "responseDigest": "sha256:4125b4389d86bb4f70baf592ac81f6d550d8cf5738a3262a826767f83fe3e82a",
+  "payload": {
+    "581320": {
+      "success": true,
+      "data": {
+        "steam_appid": 581320,
+        "name": "Insurgency: Sandstorm",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 749,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 103671
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:80e0c0bbf866acb6f48f093dd814fd3913990ce01c95ecc8611c90b6749de322"
+}

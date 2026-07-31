@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2325290,
+  "fetchedAt": "2026-07-18T12:05:57.764Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2325290&cc=us&l=english",
+  "responseDigest": "sha256:c989a73765de1604e3820d882e8f23861c46b997876cc47a003afac5e423e258",
+  "payload": {
+    "2325290": {
+      "success": true,
+      "data": {
+        "steam_appid": 2325290,
+        "name": "Sky: Children of the Light",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 10, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:73d3e98247765290df8eb55f8f1877736c8db1d6df0d95c563138e917e935984"
+}

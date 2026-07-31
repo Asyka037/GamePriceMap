@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 209000,
+  "fetchedAt": "2026-07-30T12:56:34.873Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=209000&cc=us&l=english",
+  "responseDigest": "sha256:63945f01fc6a35f314e453ceaaa69f4b17238dcfef4b3612bc7dd5c0a5e1b78e",
+  "payload": {
+    "209000": {
+      "success": true,
+      "data": {
+        "steam_appid": 209000,
+        "name": "Batman™: Arkham Origins",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 399,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 45067
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:335dd7bdece8f9d04a7c9b2a25387b81cf184865bcac6a165d8b3180c3b0c1ff"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4148930,
+  "fetchedAt": "2026-07-29T13:08:41.353Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4148930&cc=us&l=english",
+  "responseDigest": "sha256:b9f193348fbebde9a849222c601b0ba38817d161338b8c0ccdc2fca54400f534",
+  "payload": {
+    "4148930": {
+      "success": true,
+      "data": {
+        "steam_appid": 4148930,
+        "name": "F1® 25: 2026 Season Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 3, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 542
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5680da98d5f16f096a8c46e21c34fab0e80f7a0616b410ac4a14a3e04fcc7ef0"
+}

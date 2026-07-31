@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4323990,
+  "fetchedAt": "2026-07-27T13:45:30.403Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4323990&cc=us&l=english",
+  "responseDigest": "sha256:0d7cf735999bd18022d817109a18095e3531985400a6d9711a2937fd22cb0ced",
+  "payload": {
+    "4323990": {
+      "success": true,
+      "data": {
+        "steam_appid": 4323990,
+        "name": "EMPULSE",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1456
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0a82382984bd820e4fa9c50b0d4162bbe21b3f9b74a9d78b91e6c731e90f6df7"
+}

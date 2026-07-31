@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2918150,
+  "fetchedAt": "2026-07-25T12:11:14.437Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2918150&cc=us&l=english",
+  "responseDigest": "sha256:eaf23954c06aae0e1e90dc40f044ac47b7556b41d14711602098ae9a308d87db",
+  "payload": {
+    "2918150": {
+      "success": true,
+      "data": {
+        "steam_appid": 2918150,
+        "name": "ONE PIECE Bounty Rush",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9f43ecb1e04f671b2e5544f3fa72cf0f4827da07445170818d0ea6e46707ea58"
+}

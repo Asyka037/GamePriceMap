@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2000950,
+  "fetchedAt": "2026-07-27T13:46:10.278Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2000950&cc=us&l=english",
+  "responseDigest": "sha256:c9b42c970d5db2077a2caeb6b85e5e91d84861ee10fc467446847c17c7ccb14a",
+  "payload": {
+    "2000950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2000950,
+        "name": "Call of Duty®: Modern Warfare®",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 8, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 41878
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b139fa7842c3429d1dd5549387824ad221446980367fbce923d54c4f913cb153"
+}

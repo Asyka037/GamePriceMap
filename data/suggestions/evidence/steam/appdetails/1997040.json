@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1997040,
+  "fetchedAt": "2026-07-24T12:47:07.975Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1997040&cc=us&l=english",
+  "responseDigest": "sha256:85806282582aa61136dc9057c7942f0c9bd6d36e33d5a20ecea8f16dea78ee84",
+  "payload": {
+    "1997040": {
+      "success": true,
+      "data": {
+        "steam_appid": 1997040,
+        "name": "MARVEL SNAP",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 22, 2023"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f996bb8662412c538e46d5e2fe8db3cb5f4bd59fc0fa35984c28fbde38964530"
+}

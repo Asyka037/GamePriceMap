@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2683150,
+  "fetchedAt": "2026-07-27T13:45:29.044Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2683150&cc=us&l=english",
+  "responseDigest": "sha256:fe01b573186f49faca55bfe105615a406fc6892e4660618e7a50b39eea19afcf",
+  "payload": {
+    "2683150": {
+      "success": true,
+      "data": {
+        "steam_appid": 2683150,
+        "name": "Ale & Tale Tavern",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 599,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 8512
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1caff619eda99f5573bbbb98e098333b18aa887b13c4e4c57241ac85ef842f16"
+}

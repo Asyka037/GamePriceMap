@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 435150,
+  "fetchedAt": "2026-07-23T12:50:25.306Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=435150&cc=us&l=english",
+  "responseDigest": "sha256:32cf927279c86da4cee8f1fcd307d54985060cd1d6003ff0f433555dcd0f18e6",
+  "payload": {
+    "435150": {
+      "success": true,
+      "data": {
+        "steam_appid": 435150,
+        "name": "Divinity: Original Sin 2 - Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 14, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4499,
+          "final": 4499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 179405
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:225e6f7d4e51b0eec9020bee0a778accc054bc24e3ef9202830c23b1054219c2"
+}

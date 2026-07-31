@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2062430,
+  "fetchedAt": "2026-07-25T12:11:10.529Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2062430&cc=us&l=english",
+  "responseDigest": "sha256:8ab9ffc8cf8a14d3f38d2605cb57fdb12ff1955fac398cd118f529020dabb76d",
+  "payload": {
+    "2062430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2062430,
+        "name": "BALL x PIT",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23666
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:376575344a6b351e64c547b89e19a229c5cbdf6d6950bc35fcc234122b4ba94d"
+}

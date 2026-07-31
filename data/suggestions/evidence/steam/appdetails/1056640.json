@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1056640,
+  "fetchedAt": "2026-07-24T12:47:09.324Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1056640&cc=us&l=english",
+  "responseDigest": "sha256:0bd623744d9facc50aac75a1c7c61b764211b6d30d979d8b2061b5c97cd6f825",
+  "payload": {
+    "1056640": {
+      "success": true,
+      "data": {
+        "steam_appid": 1056640,
+        "name": "Phantasy Star Online 2 New Genesis",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 5, 2020"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e253148bfc8088677b14b70ecb630691ba0d2055fa8096c058313fcaff2d931a"
+}

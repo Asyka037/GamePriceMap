@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 534380,
+  "fetchedAt": "2026-07-29T13:08:47.851Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=534380&cc=us&l=english",
+  "responseDigest": "sha256:ea0d60117870569723f4285bee9df1d89cf2e01fb0ea0bf991b2548bfe3d8c18",
+  "payload": {
+    "534380": {
+      "success": true,
+      "data": {
+        "steam_appid": 534380,
+        "name": "Dying Light 2 Stay Human: Reloaded Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 3, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1199,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 163205
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e504c3bf83cb3da7f5fa5113ac0050e47303f7c7c51831cec0941d615a938800"
+}

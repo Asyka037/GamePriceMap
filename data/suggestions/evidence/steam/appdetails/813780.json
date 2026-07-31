@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 813780,
+  "fetchedAt": "2026-07-18T12:06:15.702Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=813780&cc=us&l=english",
+  "responseDigest": "sha256:f3a661e96a7aefe21a06c97961ec80afc23fe3672be1927178e0bc6b16bdd29a",
+  "payload": {
+    "813780": {
+      "success": true,
+      "data": {
+        "steam_appid": 813780,
+        "name": "Age of Empires II: Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 157427
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9cfd20b7cdf59a4a397003f144911d36ee67a606e55d466cc67db8e63ebfa436"
+}

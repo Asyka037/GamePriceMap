@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3133920,
+  "fetchedAt": "2026-07-30T12:56:26.538Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3133920&cc=us&l=english",
+  "responseDigest": "sha256:b086cb162e726cd97ef82482b68025ae91419674c44884415e9fceb678fdffda",
+  "payload": {
+    "3133920": {
+      "success": true,
+      "data": {
+        "steam_appid": 3133920,
+        "name": "Castle Crashers - Painter Boss Paradise",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 963
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6e5ca536a332df6fcecfc651f25f9e2d4670567bc3dd13ac09803d013b8b5cbd"
+}

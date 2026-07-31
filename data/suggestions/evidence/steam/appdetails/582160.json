@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 582160,
+  "fetchedAt": "2026-07-29T13:09:08.828Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=582160&cc=us&l=english",
+  "responseDigest": "sha256:4a0644046b1b31efd7606dda086f1a24a53e0305ad087631a757a58e102267e6",
+  "payload": {
+    "582160": {
+      "success": true,
+      "data": {
+        "steam_appid": 582160,
+        "name": "Assassin's Creed® Origins",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 26, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 118740
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6657c39b4984b70610140b4a536497adfa10dee91f6650779cce4e85531f9944"
+}

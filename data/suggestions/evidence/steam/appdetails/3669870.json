@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3669870,
+  "fetchedAt": "2026-07-24T12:47:14.527Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3669870&cc=us&l=english",
+  "responseDigest": "sha256:367e1e0d6747c91f0a9f60b8426911d8ed4a77c2b4307a81a28afba1ea435afb",
+  "payload": {
+    "3669870": {
+      "success": true,
+      "data": {
+        "steam_appid": 3669870,
+        "name": "CONTROL Resonant",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Sep 24, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:35dd91f9b07c2543b2a214f5c43ee684d1429c8e7cad9ffb67babfdaa5178d04"
+}

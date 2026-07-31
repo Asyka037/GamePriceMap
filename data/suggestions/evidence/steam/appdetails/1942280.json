@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1942280,
+  "fetchedAt": "2026-07-27T13:45:57.591Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1942280&cc=us&l=english",
+  "responseDigest": "sha256:7b6a074fdc38509864c4030248f4f8d422d945e9d4c0af46749755f8cb01cfef",
+  "payload": {
+    "1942280": {
+      "success": true,
+      "data": {
+        "steam_appid": 1942280,
+        "name": "Brotato",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 299,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 109703
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:42a67ea39da1556308a19974ec8302625bd027e46091d97f4e2f58fc399168c0"
+}

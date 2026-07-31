@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1205970,
+  "fetchedAt": "2026-07-25T12:10:52.286Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1205970&cc=us&l=english",
+  "responseDigest": "sha256:cf813a89774bb6de3d67499ecfa59283e07cf2288dde12933adeb3200d418571",
+  "payload": {
+    "1205970": {
+      "success": true,
+      "data": {
+        "steam_appid": 1205970,
+        "name": "MX vs ATV Legends",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 28, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4311
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a34436e7e9dc7eba9e997a74949a9491108df6e00938a4d09265ba1d34332974"
+}

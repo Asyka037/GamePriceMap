@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1533390,
+  "fetchedAt": "2026-07-22T12:47:54.719Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1533390&cc=us&l=english",
+  "responseDigest": "sha256:b16cd75055803106fd3dd8f256c9ab1cd3b2c30e8010f12fb1ff89613bdf300f",
+  "payload": {
+    "1533390": {
+      "success": true,
+      "data": {
+        "steam_appid": 1533390,
+        "name": "Gorilla Tag",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 1, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 51451
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f0a70a36036ecee7e488d154fcd31169787819dca8c4931f671078dc11477210"
+}

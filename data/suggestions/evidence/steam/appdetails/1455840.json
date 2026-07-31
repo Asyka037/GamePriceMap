@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1455840,
+  "fetchedAt": "2026-07-30T12:55:52.955Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1455840&cc=us&l=english",
+  "responseDigest": "sha256:96717e4cbf185a938b942456f2af233113af8567c807a7599ebb225ad77d4086",
+  "payload": {
+    "1455840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1455840,
+        "name": "Dorfromantik",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 28, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 909,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 27312
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ed6fc0369e77e2ed3dce6e5e7564127491f1043314e8d78de3d24c32486be033"
+}

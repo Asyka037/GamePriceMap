@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4634560,
+  "fetchedAt": "2026-07-26T12:18:03.891Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4634560&cc=us&l=english",
+  "responseDigest": "sha256:a523875ed923765db23a1c778e3164bf034b58b5605ec14bc0b5d4fc6b4994e1",
+  "payload": {
+    "4634560": {
+      "success": true,
+      "data": {
+        "steam_appid": 4634560,
+        "name": "Carpet Cleaning Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 559,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 327
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:09ba4117b9ab6f43be1d7e3a6176375b1c3f663028ff350e4c6d3cf90942f346"
+}

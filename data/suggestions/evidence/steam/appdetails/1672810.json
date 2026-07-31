@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1672810,
+  "fetchedAt": "2026-07-29T13:09:20.564Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1672810&cc=us&l=english",
+  "responseDigest": "sha256:d045cbb20d3b739e69a81e33031e076112f49633f9d9eee238d5f3ca2e42e574",
+  "payload": {
+    "1672810": {
+      "success": true,
+      "data": {
+        "steam_appid": 1672810,
+        "name": "MIO: Memories in Orbit",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1499,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 3863
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3b853bd8a243b20d8d356703412e308603c7b7c2ccfa32dc7567dc4762b1885c"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 29720,
+  "fetchedAt": "2026-07-18T12:06:49.120Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=29720&cc=us&l=english",
+  "responseDigest": "sha256:2a9ae59fe60aa05f7e656a7e68a44564bf3f7b226fa4f8c5133ae5eab94b1392",
+  "payload": {
+    "29720": {
+      "success": true,
+      "data": {
+        "steam_appid": 29720,
+        "name": "Guild Wars® Reforged",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1399,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 3140
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e2ae78c7632c30382d0a68eee1837597dc7653866352c82c7e3ce5309fefb71e"
+}

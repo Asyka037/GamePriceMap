@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4538540,
+  "fetchedAt": "2026-07-30T12:56:04.170Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4538540&cc=us&l=english",
+  "responseDigest": "sha256:e60bd7997eaaef7771be13d05eca9f680bde49250239c3ffaafc0fd02d19359d",
+  "payload": {
+    "4538540": {
+      "success": true,
+      "data": {
+        "steam_appid": 4538540,
+        "name": "Throne and Liberty Nix Celebration Pack: Silver",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dcdeced3188f3dd9505b2054055870e99cc3affc1fba1166faf439621f20507a"
+}

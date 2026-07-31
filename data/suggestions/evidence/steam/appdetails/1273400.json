@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1273400,
+  "fetchedAt": "2026-07-23T12:50:31.979Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1273400&cc=us&l=english",
+  "responseDigest": "sha256:a5bc6b9c49f29e2a8fabdecf8e5043787cdee372bdaa877420136a6c82755b70",
+  "payload": {
+    "1273400": {
+      "success": true,
+      "data": {
+        "steam_appid": 1273400,
+        "name": "Construction Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 749,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 10285
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5eae6e52c4c4b8886615702193f271ab8c73a39251a96abbc8349be1fa23f5b6"
+}

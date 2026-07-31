@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 214950,
+  "fetchedAt": "2026-07-25T12:11:13.148Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=214950&cc=us&l=english",
+  "responseDigest": "sha256:3667a020c2c193bb04a843d061a067110e4a41de6bfa3191d50d5a0f906a52ec",
+  "payload": {
+    "214950": {
+      "success": true,
+      "data": {
+        "steam_appid": 214950,
+        "name": "Total War: ROME II - Emperor Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 2, 2013"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 57787
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bff1707f9378fcc6d468b9ece2086a77ede6b36621c871996744dc007bc70d52"
+}

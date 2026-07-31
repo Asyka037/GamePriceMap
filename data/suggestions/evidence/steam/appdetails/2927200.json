@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2927200,
+  "fetchedAt": "2026-07-20T13:18:34.323Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2927200&cc=us&l=english",
+  "responseDigest": "sha256:c3c182807542341deb6c4c135a4aa2f482e8a11c3de1a461395f058c7a062fc0",
+  "payload": {
+    "2927200": {
+      "success": true,
+      "data": {
+        "steam_appid": 2927200,
+        "name": "Mount & Blade II: Bannerlord - War Sails",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 26, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4587
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:49894011ae4e3e0b172427210e8cbe66aacf344acc2df5e14901ea49062e3fde"
+}

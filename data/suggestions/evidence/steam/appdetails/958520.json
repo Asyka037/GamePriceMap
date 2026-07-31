@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 958520,
+  "fetchedAt": "2026-07-27T13:46:01.424Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=958520&cc=us&l=english",
+  "responseDigest": "sha256:11c9c66194a987dd5c1c90fee7dda51e8ead97bb16c2fd931e9c9540f1cead6d",
+  "payload": {
+    "958520": {
+      "success": true,
+      "data": {
+        "steam_appid": 958520,
+        "name": "33 Immortals",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1489,
+          "final": 997,
+          "discount_percent": 33
+        },
+        "recommendations": {
+          "total": 1991
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1f59fb4db01a28afd36b89909ec7841e3a9ad634864cfefadd3d283df7a35ee7"
+}

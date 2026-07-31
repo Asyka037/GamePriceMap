@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1121640,
+  "fetchedAt": "2026-07-26T12:18:05.171Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1121640&cc=us&l=english",
+  "responseDigest": "sha256:589ccb0e406d14d1fe80923131552c07968a6973b8896daaa462508da6c239f6",
+  "payload": {
+    "1121640": {
+      "success": true,
+      "data": {
+        "steam_appid": 1121640,
+        "name": "The Wandering Village",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 7617
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:84f53ade10832a7cce37a98377f5322aac4a6f605bd2c08576de4506f2779c80"
+}

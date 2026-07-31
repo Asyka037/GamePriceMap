@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2477010,
+  "fetchedAt": "2026-07-27T13:45:53.832Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2477010&cc=us&l=english",
+  "responseDigest": "sha256:5c120cc47ea26ce62672f437270772b0a1280817fa3ca8a2898fd58df1233fe4",
+  "payload": {
+    "2477010": {
+      "success": true,
+      "data": {
+        "steam_appid": 2477010,
+        "name": "Ticket to Ride®",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 599,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 1016
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8904e359cfec5df055bb756e49ae67ae8a52d4f18c62f44fea0834b65320ec45"
+}

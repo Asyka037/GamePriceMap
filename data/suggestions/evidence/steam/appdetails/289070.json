@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 289070,
+  "fetchedAt": "2026-07-19T12:08:16.774Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=289070&cc=us&l=english",
+  "responseDigest": "sha256:2e4cbaa2b825bdcbe9dfbaea0e19a15a8f6d165feeb245027c388f371d23bebf",
+  "payload": {
+    "289070": {
+      "success": true,
+      "data": {
+        "steam_appid": 289070,
+        "name": "Sid Meier’s Civilization® VI",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 274159
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:51c27f856609a6f712216cb4ab3b96fdde7b73013f1d81db0bb96730bb1b0fef"
+}

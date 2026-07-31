@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2866670,
+  "fetchedAt": "2026-07-26T12:18:15.459Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2866670&cc=us&l=english",
+  "responseDigest": "sha256:599341bc3a19e198082042421ad641799af0563702693d82ccf05de0448a1556",
+  "payload": {
+    "2866670": {
+      "success": true,
+      "data": {
+        "steam_appid": 2866670,
+        "name": "NBA THE RUN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1979,
+          "discount_percent": 34
+        },
+        "recommendations": {
+          "total": 843
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:63d1363e39c613995d6a2b117f675ebf399278aca40652a15a6862907f280c27"
+}

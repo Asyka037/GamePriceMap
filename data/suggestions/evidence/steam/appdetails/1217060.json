@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1217060,
+  "fetchedAt": "2026-07-22T12:48:20.543Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1217060&cc=us&l=english",
+  "responseDigest": "sha256:f57eddcf82d17f2f515f4aee032765c4fb9be42c579fde77d10c43a2085928b5",
+  "payload": {
+    "1217060": {
+      "success": true,
+      "data": {
+        "steam_appid": 1217060,
+        "name": "Gunfire Reborn",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 17, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 88326
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bf88797c0c8c07b99e5e3c185bffdd6a57934faeff0fd7603e3d103d2acb2e5e"
+}

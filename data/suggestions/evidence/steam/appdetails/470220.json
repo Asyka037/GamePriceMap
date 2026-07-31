@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 470220,
+  "fetchedAt": "2026-07-29T13:08:37.415Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=470220&cc=us&l=english",
+  "responseDigest": "sha256:32660a1febdc674c77792d9106c6d538cc08e4ce879986fcba57fbe348472c43",
+  "payload": {
+    "470220": {
+      "success": true,
+      "data": {
+        "steam_appid": 470220,
+        "name": "UNO",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 3, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 41960
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6a7a6bce1441bd675da96b9641223bd4e0c52c1b46bb8d4502af1a69b48fee3d"
+}

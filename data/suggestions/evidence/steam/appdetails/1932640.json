@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1932640,
+  "fetchedAt": "2026-07-20T13:18:36.913Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1932640&cc=us&l=english",
+  "responseDigest": "sha256:4a28bbb289375fea0305759984e37f882056603bfe288b227db97df352f43a99",
+  "payload": {
+    "1932640": {
+      "success": true,
+      "data": {
+        "steam_appid": 1932640,
+        "name": "Suikoden I&II HD Remaster Gate Rune and Dunan Unification Wars",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 2499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1952
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d89b18b6ff8e8a1dece335625847e5a9b79c8ecd1b1373c7d835bb88d249f586"
+}

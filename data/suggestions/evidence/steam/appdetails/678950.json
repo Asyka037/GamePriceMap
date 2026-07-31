@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 678950,
+  "fetchedAt": "2026-07-22T12:47:28.255Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=678950&cc=us&l=english",
+  "responseDigest": "sha256:3e36380f1c1f0215dc1098c60020d943f3637888ed96acad3f82a32a6c8e27e6",
+  "payload": {
+    "678950": {
+      "success": true,
+      "data": {
+        "steam_appid": 678950,
+        "name": "DRAGON BALL FighterZ",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 26, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 8999,
+          "final": 1439,
+          "discount_percent": 84
+        },
+        "recommendations": {
+          "total": 54793
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ca9b4cd3e312d3768da6b9103b88c80a3194b059dacdbd184adf361304a4b944"
+}

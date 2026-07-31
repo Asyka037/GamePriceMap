@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 460930,
+  "fetchedAt": "2026-07-24T12:47:22.777Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=460930&cc=us&l=english",
+  "responseDigest": "sha256:ccbb95d472a3f99c5697cfca741ca72ebd0cea096d0282bc4c798de1a55e3efd",
+  "payload": {
+    "460930": {
+      "success": true,
+      "data": {
+        "steam_appid": 460930,
+        "name": "Tom Clancy's Ghost Recon® Wildlands",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 6, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 91106
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e369c9757e69aa6cee0955070d5a576ed80100a42705f997c157c96680bc3489"
+}

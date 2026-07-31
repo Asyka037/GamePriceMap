@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2688950,
+  "fetchedAt": "2026-07-18T12:06:29.975Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2688950&cc=us&l=english",
+  "responseDigest": "sha256:45abe85a0328f3ea4f4c767acdc1c80faca02e093507107757471a5757afcd41",
+  "payload": {
+    "2688950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2688950,
+        "name": "Planet Coaster 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 12419
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e1af67c65293fcdfad683385a1b66b456257330f9c71fa0caa18a459aeabeb0c"
+}

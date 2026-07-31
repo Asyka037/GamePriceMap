@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 361420,
+  "fetchedAt": "2026-07-25T12:10:54.857Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=361420&cc=us&l=english",
+  "responseDigest": "sha256:7749b48c77693b99bdd92fb01b90717bfdf6ec0cd2ebb2a571151aac65223892",
+  "payload": {
+    "361420": {
+      "success": true,
+      "data": {
+        "steam_appid": 361420,
+        "name": "ASTRONEER",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 5, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 118367
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4a4e03e261963b530e53fc8b45634d0475329280ef10a876b1a3b362c9a0486e"
+}

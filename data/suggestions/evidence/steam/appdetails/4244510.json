@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4244510,
+  "fetchedAt": "2026-07-18T12:06:17.058Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4244510&cc=us&l=english",
+  "responseDigest": "sha256:22f2a1c23c379d739bf74915292f4c707a107f84eb4c134e8ce503dbcb6ab01e",
+  "payload": {
+    "4244510": {
+      "success": true,
+      "data": {
+        "steam_appid": 4244510,
+        "name": "Pratfall",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 20, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 639,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 2112
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5ae6cf526001ddb5a1d63b864dd292d5db85f02d2a845293697cd382f7fe642b"
+}

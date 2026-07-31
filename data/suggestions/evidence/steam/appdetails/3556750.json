@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3556750,
+  "fetchedAt": "2026-07-22T12:48:02.212Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3556750&cc=us&l=english",
+  "responseDigest": "sha256:5c6545d18f5a2fbb1accd28625c51db4f4e2bb4b3a95ddc18c838653e0706806",
+  "payload": {
+    "3556750": {
+      "success": true,
+      "data": {
+        "steam_appid": 3556750,
+        "name": "Warhammer 40,000: Dawn of War - Definitive Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 14, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 11722
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:805a7f5484b23eb21e25806c43a20686aad834c45b2626efebc9f3be26512d77"
+}

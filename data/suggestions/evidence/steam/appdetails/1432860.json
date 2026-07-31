@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1432860,
+  "fetchedAt": "2026-07-29T13:08:25.550Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1432860&cc=us&l=english",
+  "responseDigest": "sha256:9acb3a61237f13e013f1c619076e51223512bd88b3ddacd53f5ef403fe7cac25",
+  "payload": {
+    "1432860": {
+      "success": true,
+      "data": {
+        "steam_appid": 1432860,
+        "name": "Sun Haven",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 10, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 874,
+          "discount_percent": 65
+        },
+        "recommendations": {
+          "total": 21898
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a88b73064a538580f4e387e3b20382cb797f19f5381782d4e7d8d97ba96269e0"
+}

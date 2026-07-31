@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2305640,
+  "fetchedAt": "2026-07-28T13:03:33.245Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2305640&cc=us&l=english",
+  "responseDigest": "sha256:aea440bbd5186e1ba8a20558373eab1f8190f0784972957ac07a64a1b25b4c11",
+  "payload": {
+    "2305640": {
+      "success": true,
+      "data": {
+        "steam_appid": 2305640,
+        "name": "Bladesong",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 22, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 1334
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2a041124421888bce4dc4a419319a6d5bf1eeaa1e0df2e2bbe90f327de468010"
+}

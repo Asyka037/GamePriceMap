@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3079210,
+  "fetchedAt": "2026-07-18T12:06:06.804Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3079210&cc=us&l=english",
+  "responseDigest": "sha256:54aefcee535ce7288de1c502f34453faa26097e352a460b797007064b89db376",
+  "payload": {
+    "3079210": {
+      "success": true,
+      "data": {
+        "steam_appid": 3079210,
+        "name": "Hell Let Loose: Vietnam",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Aug 13, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3599,
+          "discount_percent": 10
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ecd65cc9e8e1ff4ac36675a8552cfb1c7350eabfa3c08c3947bdbfda26299808"
+}

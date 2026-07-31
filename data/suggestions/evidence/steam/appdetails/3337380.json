@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3337380,
+  "fetchedAt": "2026-07-24T12:47:33.548Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3337380&cc=us&l=english",
+  "responseDigest": "sha256:5577745ac24d878040203b5110994867cea2ec2364f88f8be6c197eb004d8621",
+  "payload": {
+    "3337380": {
+      "success": true,
+      "data": {
+        "steam_appid": 3337380,
+        "name": "Tabletop Tavern",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1740
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9ebde899554d2ebbbde8a5f3b61bae74cc36c5f04fd26b1c8d19b6281dd7f814"
+}

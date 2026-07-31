@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1631270,
+  "fetchedAt": "2026-07-21T12:44:40.486Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1631270&cc=us&l=english",
+  "responseDigest": "sha256:0374c463740d57683041c8bb79f1f925613a20e9c1cf1b000ae96a7005eef52a",
+  "payload": {
+    "1631270": {
+      "success": true,
+      "data": {
+        "steam_appid": 1631270,
+        "name": "StarRupture",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1599,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 11863
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9c7b5a499f9e3386ee7850e699d06b36a9a8aaa622e7d1c8d578490529385aba"
+}

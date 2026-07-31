@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 568220,
+  "fetchedAt": "2026-07-28T13:03:09.335Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=568220&cc=us&l=english",
+  "responseDigest": "sha256:0f63f6ade1166a029854505228f4ae1b5d7e5624eb4ee44b6255f4efa73df315",
+  "payload": {
+    "568220": {
+      "success": true,
+      "data": {
+        "steam_appid": 568220,
+        "name": "Lobotomy Corporation | Monster Management Simulation",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 51424
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:bd6b8e14637be90a23976708a7d7b2e80a5681a9d659b27ba724e75ac60849e6"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1443200,
+  "fetchedAt": "2026-07-29T13:09:02.286Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1443200&cc=us&l=english",
+  "responseDigest": "sha256:d49f26bd0edbb4fb1b4be748953c38aa5af881e0726f612cd8311075dd2a2a11",
+  "payload": {
+    "1443200": {
+      "success": true,
+      "data": {
+        "steam_appid": 1443200,
+        "name": "Class of '09",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8391
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0cb757f19442d9a533e7a575dd18839127bc434f2ac2dadbe4091f0841f2818f"
+}

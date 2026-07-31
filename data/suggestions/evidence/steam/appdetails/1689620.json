@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1689620,
+  "fetchedAt": "2026-07-21T12:44:35.385Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1689620&cc=us&l=english",
+  "responseDigest": "sha256:94958745ca1d3b69300cd42738f811615edb76ad03c44e2df2bbc2c1fc541d97",
+  "payload": {
+    "1689620": {
+      "success": true,
+      "data": {
+        "steam_appid": 1689620,
+        "name": "BLEACH Rebirth of Souls",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 2399,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 4669
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6601df2843dd4ac331e48f67370ace44d1ac0f61e0145ee5de246ba8bdb1fd7d"
+}

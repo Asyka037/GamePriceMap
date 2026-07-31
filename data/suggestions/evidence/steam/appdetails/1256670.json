@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1256670,
+  "fetchedAt": "2026-07-30T12:55:50.182Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1256670&cc=us&l=english",
+  "responseDigest": "sha256:55cd8690293e28c77a6e68a786b85f31371d38f3d2eeb705929c62bf35f53143",
+  "payload": {
+    "1256670": {
+      "success": true,
+      "data": {
+        "steam_appid": 1256670,
+        "name": "Library Of Ruina",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 10, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 39664
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:de918308a781f1261d313809a00ddcaa7f5dbddeca3c63b5c9831e59a7408ed5"
+}

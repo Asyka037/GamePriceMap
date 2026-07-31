@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1594320,
+  "fetchedAt": "2026-07-24T12:47:25.353Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1594320&cc=us&l=english",
+  "responseDigest": "sha256:7468f8249323da95d655a4598367579f512e145ba89da84f3c32da5af5883c23",
+  "payload": {
+    "1594320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1594320,
+        "name": "Captain of Industry",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 31, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 2449,
+          "discount_percent": 30
+        },
+        "recommendations": {
+          "total": 10687
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5bba4f4be4825508b1587a1a25a07c65e8ff3f2b57aad5a6aa23ccd757b14f8c"
+}

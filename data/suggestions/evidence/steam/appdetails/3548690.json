@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3548690,
+  "fetchedAt": "2026-07-27T13:45:41.111Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3548690&cc=us&l=english",
+  "responseDigest": "sha256:42bb63d4e101416cc96d2b72e05bc833d905c5f80cd7d95217a73a387d8b933c",
+  "payload": {
+    "3548690": {
+      "success": true,
+      "data": {
+        "steam_appid": 3548690,
+        "name": "The Sims™ 4 Royalty & Legacy Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 12, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:13c9caf2eee9c1bff17cc5709e2ee0e1c0fbbf44e7040c8ece86599381b9b396"
+}

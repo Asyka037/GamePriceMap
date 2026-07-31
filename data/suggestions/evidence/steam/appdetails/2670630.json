@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2670630,
+  "fetchedAt": "2026-07-19T12:07:20.654Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2670630&cc=us&l=english",
+  "responseDigest": "sha256:59ee814a8c61ee7e8028240b3416ccfffb49c5d507998fb4988217b4bc7f0a65",
+  "payload": {
+    "2670630": {
+      "success": true,
+      "data": {
+        "steam_appid": 2670630,
+        "name": "Supermarket Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 19, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 78441
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1dba2f7195a99afaa201af9c1468312b540ed100c6284460e92d485909b7d6a5"
+}

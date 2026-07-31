@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 341800,
+  "fetchedAt": "2026-07-29T13:08:51.781Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=341800&cc=us&l=english",
+  "responseDigest": "sha256:f67e551ff149069d42412b5b69184401d3caf28639e8ab163b76374f984e7000",
+  "payload": {
+    "341800": {
+      "success": true,
+      "data": {
+        "steam_appid": 341800,
+        "name": "Keep Talking and Nobody Explodes",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14249
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d17b78f54d179efec694dfb58b617122617da78cae53d68a2ac68c40f33c775c"
+}

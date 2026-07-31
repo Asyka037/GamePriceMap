@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1260320,
+  "fetchedAt": "2026-07-21T12:45:19.287Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1260320&cc=us&l=english",
+  "responseDigest": "sha256:1c1e8cc2cbf992530038516e2a60217a3a00a8a1a88620c17f8fcc8e43e74079",
+  "payload": {
+    "1260320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1260320,
+        "name": "Party Animals",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 20, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 57219
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c3a6743221fb97c14c6533b33dc6bf551f9ddeed3c65064b3903d6ed133b9922"
+}

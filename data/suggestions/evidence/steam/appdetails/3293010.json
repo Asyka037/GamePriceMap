@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3293010,
+  "fetchedAt": "2026-07-30T12:56:29.312Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3293010&cc=us&l=english",
+  "responseDigest": "sha256:e63a8f6a4f6e1dbf3e205e24bd4cbd91fab1f60c281b6e468802ff59d425fd14",
+  "payload": {
+    "3293010": {
+      "success": true,
+      "data": {
+        "steam_appid": 3293010,
+        "name": "Easy Delivery Co.",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9175
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0dde933bba123a5a18b35b529d620c22e285273f1df55c43f250941879be862f"
+}

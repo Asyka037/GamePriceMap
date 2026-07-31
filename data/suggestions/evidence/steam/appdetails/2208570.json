@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2208570,
+  "fetchedAt": "2026-07-26T12:18:12.848Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2208570&cc=us&l=english",
+  "responseDigest": "sha256:656057de4e756378a02bc444ad0e3b111eeaf81aad00079b4c0f090cbc6f82a3",
+  "payload": {
+    "2208570": {
+      "success": true,
+      "data": {
+        "steam_appid": 2208570,
+        "name": "Dark Hours",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 899,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 3368
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:716091d953d10f3c36ac372c84c3716a79121ebc82704db4f3dbea117c3b324d"
+}

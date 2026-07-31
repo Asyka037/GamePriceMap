@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2749950,
+  "fetchedAt": "2026-07-21T12:45:16.664Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2749950&cc=us&l=english",
+  "responseDigest": "sha256:8b7de69915ae737342ce79099b797f2efec39233935139ae37309b44cdb02b77",
+  "payload": {
+    "2749950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2749950,
+        "name": "Esports Manager 2026",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 6, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2491
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:544ec726b32631747812f8cf9064bf0d8dd8c485c4082f6567146481a53c0ee5"
+}

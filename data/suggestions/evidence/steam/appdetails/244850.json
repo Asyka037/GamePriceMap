@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 244850,
+  "fetchedAt": "2026-07-22T12:47:40.914Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=244850&cc=us&l=english",
+  "responseDigest": "sha256:9200298b3e4ecd3560f791411492d51c0180ca5ea22fc3a5cd841ad24e8e1a1a",
+  "payload": {
+    "244850": {
+      "success": true,
+      "data": {
+        "steam_appid": 244850,
+        "name": "Space Engineers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 28, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 102303
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:69dc416a561f6da8080b1f4cbe9beb9aaafbbff60927461425ba62cb9a8cae81"
+}

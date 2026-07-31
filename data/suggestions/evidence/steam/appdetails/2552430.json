@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2552430,
+  "fetchedAt": "2026-07-19T12:08:14.242Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2552430&cc=us&l=english",
+  "responseDigest": "sha256:58fa70e8ccd691dedb94318886878481421f217fcc0ed88e1533858f57112624",
+  "payload": {
+    "2552430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2552430,
+        "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 13, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 9279
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:76edc3ff736d5db119ddb4fa62ac5e94846cec0b934f119497652599534dd338"
+}

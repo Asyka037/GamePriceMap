@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1945340,
+  "fetchedAt": "2026-07-24T12:47:49.344Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1945340&cc=us&l=english",
+  "responseDigest": "sha256:c165c41952b5a51b5fefdd9948dbe3fe7d5f945ea7f7631d11029ae69e4587dd",
+  "payload": {
+    "1945340": {
+      "success": true,
+      "data": {
+        "steam_appid": 1945340,
+        "name": "Destiny 2: Lightfall",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 28, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 199,
+          "discount_percent": 90
+        },
+        "recommendations": {
+          "total": 8264
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b57268bfb578bf627d78b3b9b1a9011c45bdde088ed3eca348e804cfbef2a243"
+}

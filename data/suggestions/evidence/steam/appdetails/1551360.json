@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1551360,
+  "fetchedAt": "2026-07-28T13:03:01.701Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1551360&cc=us&l=english",
+  "responseDigest": "sha256:d04d53ba25163ea0e708229faa88082f19675ffe8f8be3b3f399bb117dae86fb",
+  "payload": {
+    "1551360": {
+      "success": true,
+      "data": {
+        "steam_appid": 1551360,
+        "name": "Forza Horizon 5",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 8, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 257242
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:298e443553e6015bcf3c4284c9ad4224ad82b412b35246e126291012b8863116"
+}

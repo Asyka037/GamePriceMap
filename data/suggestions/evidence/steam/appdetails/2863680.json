@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2863680,
+  "fetchedAt": "2026-07-20T13:18:33.031Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2863680&cc=us&l=english",
+  "responseDigest": "sha256:8a2b85ddfda56f6aa40d3bd929ea4f845414f0c44ad43dcaf2858e294fe072f8",
+  "payload": {
+    "2863680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2863680,
+        "name": "ZERO PARADES: For Dead Spies",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 21, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2433
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8f86e79621ca3344dbaba5c092a000c717db8b732accbccaca9aacd15d6f1c8a"
+}

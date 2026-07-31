@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2916430,
+  "fetchedAt": "2026-07-28T13:02:55.468Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2916430&cc=us&l=english",
+  "responseDigest": "sha256:f6b6ba26013174c6be92a086dee77c58754cbf9a33de8e5cdea22bb02001e9c5",
+  "payload": {
+    "2916430": {
+      "success": true,
+      "data": {
+        "steam_appid": 2916430,
+        "name": "Fast Food Simulator",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8414
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:76b54f136e0e7c9456411d729cb4acfd0e23df305540ecb1a12da53bf24282ce"
+}

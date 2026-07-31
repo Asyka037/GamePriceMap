@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 22380,
+  "fetchedAt": "2026-07-20T13:18:21.210Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=22380&cc=us&l=english",
+  "responseDigest": "sha256:bea348bc812704679365e53db70a68cbe1643f6c69227290b0469864ee143ca4",
+  "payload": {
+    "22380": {
+      "success": true,
+      "data": {
+        "steam_appid": 22380,
+        "name": "Fallout: New Vegas",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 19, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 209808
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e31a5ff9fbd197e2a21f4bbaf3ed43bfc19c64a994240844178ad997b7678634"
+}

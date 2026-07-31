@@ -1,118 +1,118 @@
 {
   "slug": "mortal-kombat-11",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-07-22",
   "regions": [
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 69.95,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 6.99,
+      "list": 69.95,
+      "discountPct": 90,
+      "saleEndsAt": "2026-08-09T13:59:59Z"
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 39.99,
-      "list": 199.99,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
-    },
-    {
-      "cc": "CA",
-      "currency": "CAD",
-      "amount": 13.99,
-      "list": 69.99,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
-    },
-    {
-      "cc": "CH",
-      "currency": "CHF",
-      "amount": 57.9,
+      "amount": 199.99,
       "list": null,
       "discountPct": null,
       "saleEndsAt": null
     },
     {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 5.79,
+      "list": 57.9,
+      "discountPct": 90,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
+    },
+    {
       "cc": "CO",
       "currency": "COP",
-      "amount": 39999,
-      "list": 199999,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
+      "amount": 199999,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "DE",
       "currency": "EUR",
+      "amount": 4.99,
+      "list": 49.99,
+      "discountPct": 90,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
+    },
+    {
+      "cc": "DK",
+      "currency": "DKK",
+      "amount": 36.75,
+      "list": 369,
+      "discountPct": 90,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 3.99,
+      "list": 39.99,
+      "discountPct": 90,
+      "saleEndsAt": "2026-08-09T22:59:59Z"
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 1428,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "NO",
+      "currency": "NOK",
+      "amount": 48,
+      "list": 480,
+      "discountPct": 90,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
+    },
+    {
+      "cc": "NZ",
+      "currency": "NZD",
+      "amount": 7.99,
+      "list": 79.95,
+      "discountPct": 90,
+      "saleEndsAt": "2026-08-09T11:59:59Z"
+    },
+    {
+      "cc": "PL",
+      "currency": "PLN",
+      "amount": 20.9,
+      "list": 209,
+      "discountPct": 90,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
       "amount": 49.99,
       "list": null,
       "discountPct": null,
       "saleEndsAt": null
     },
     {
-      "cc": "DK",
-      "currency": "DKK",
-      "amount": 369,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
-    },
-    {
-      "cc": "GB",
-      "currency": "GBP",
-      "amount": 39.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
-    },
-    {
-      "cc": "MX",
-      "currency": "MXN",
-      "amount": 285.6,
-      "list": 1428,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
-    },
-    {
-      "cc": "NO",
-      "currency": "NOK",
-      "amount": 480,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
-    },
-    {
-      "cc": "NZ",
-      "currency": "NZD",
-      "amount": 79.95,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
-    },
-    {
-      "cc": "PL",
-      "currency": "PLN",
-      "amount": 209,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
-    },
-    {
-      "cc": "US",
-      "currency": "USD",
-      "amount": 9.99,
-      "list": 49.99,
-      "discountPct": 80,
-      "saleEndsAt": "2026-07-21T06:59:59Z"
-    },
-    {
       "cc": "ZA",
       "currency": "ZAR",
-      "amount": 799,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 79.9,
+      "list": 799,
+      "discountPct": 90,
+      "saleEndsAt": "2026-08-09T21:59:59Z"
     }
   ]
 }

@@ -1,141 +1,141 @@
 {
   "slug": "disney-dreamlight-valley",
-  "lastPriceChangeAt": "2026-07-14",
+  "lastPriceChangeAt": "2026-07-30",
   "regions": [
     {
       "cc": "AR",
       "currency": "USD",
-      "amount": 20.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 14.69,
+      "list": 20.99,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 59.95,
-      "list": null,
-      "discountPct": null,
+      "amount": 41.96,
+      "list": 59.95,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 147.45,
-      "list": null,
-      "discountPct": null,
+      "amount": 103.21,
+      "list": 147.45,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 51.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 36.39,
+      "list": 51.99,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 41,
-      "list": null,
-      "discountPct": null,
+      "amount": 28.7,
+      "list": 41,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 39.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 27.99,
+      "list": 39.99,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 33.49,
-      "list": null,
-      "discountPct": null,
+      "amount": 23.44,
+      "list": 33.49,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "GE",
       "currency": "USD",
-      "amount": 20.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 14.69,
+      "list": 20.99,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "IN",
       "currency": "INR",
-      "amount": 2174,
-      "list": null,
-      "discountPct": null,
+      "amount": 1521,
+      "list": 2174,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 4650,
-      "list": null,
-      "discountPct": null,
+      "amount": 3255,
+      "list": 4650,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "KR",
       "currency": "KRW",
-      "amount": 50400,
-      "list": null,
-      "discountPct": null,
+      "amount": 35280,
+      "list": 50400,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "KZ",
       "currency": "KZT",
-      "amount": 13500,
-      "list": null,
-      "discountPct": null,
+      "amount": 9450,
+      "list": 13500,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 709,
-      "list": null,
-      "discountPct": null,
+      "amount": 496.3,
+      "list": 709,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "PK",
       "currency": "USD",
-      "amount": 20.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 14.69,
+      "list": 20.99,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "TR",
       "currency": "USD",
-      "amount": 29,
-      "list": null,
-      "discountPct": null,
+      "amount": 20.3,
+      "list": 29,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "UA",
       "currency": "UAH",
-      "amount": 1030,
-      "list": null,
-      "discountPct": null,
+      "amount": 721,
+      "list": 1030,
+      "discountPct": 30,
       "saleEndsAt": null
     },
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 39.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 27.99,
+      "list": 39.99,
+      "discountPct": 30,
       "saleEndsAt": null
     }
   ]

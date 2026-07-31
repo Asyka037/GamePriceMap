@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 434170,
+  "fetchedAt": "2026-07-24T12:47:38.805Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=434170&cc=us&l=english",
+  "responseDigest": "sha256:062b9a03c262a3bebe4cab01e8e62223c65f47a3aae5fbea6dcef0a23034affe",
+  "payload": {
+    "434170": {
+      "success": true,
+      "data": {
+        "steam_appid": 434170,
+        "name": "The Jackbox Party Pack 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5120
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5013e4b2d13434c1cdc19a9e4a78f9be8b5fde134f48429a126ffef1918164f0"
+}

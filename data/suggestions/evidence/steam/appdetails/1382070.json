@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1382070,
+  "fetchedAt": "2026-07-26T12:17:33.360Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1382070&cc=us&l=english",
+  "responseDigest": "sha256:47474a3467984a70bdfabc118138bb76fbbe87106e1608771a135f407db92cc4",
+  "payload": {
+    "1382070": {
+      "success": true,
+      "data": {
+        "steam_appid": 1382070,
+        "name": "Viewfinder",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 18, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 874,
+          "discount_percent": 65
+        },
+        "recommendations": {
+          "total": 11594
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:01d4c4728f26c9fe62a4da664d3a538012e2ea33b1d3bdbd49f306fdd0dca911"
+}

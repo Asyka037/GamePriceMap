@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1449690,
+  "fetchedAt": "2026-07-30T12:56:22.471Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1449690&cc=us&l=english",
+  "responseDigest": "sha256:b587ce8c66d8aede943a327d918fecd472c35e2356fedf65938f5a0c7af01143",
+  "payload": {
+    "1449690": {
+      "success": true,
+      "data": {
+        "steam_appid": 1449690,
+        "name": "The Walking Dead: The Telltale Definitive Series",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 29, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 35717
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:4ca9c0726029a455415af7aa46fa9b31f1809af7b7283c3ea558cfb04f97714c"
+}

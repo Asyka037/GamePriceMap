@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4173830,
+  "fetchedAt": "2026-07-18T12:06:35.130Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4173830&cc=us&l=english",
+  "responseDigest": "sha256:26b79cb0d00574e6978f6cd59ed95c7913f3acf609fc7e2b9a12b725ce8de960",
+  "payload": {
+    "4173830": {
+      "success": true,
+      "data": {
+        "steam_appid": 4173830,
+        "name": "PowerWash Simulator 2 - Adventure Time Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 679,
+          "discount_percent": 15
+        },
+        "recommendations": {
+          "total": 327
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c080bfc4a3f82109b736471d9a0f7ca846d7d6a7a859ec8bab6c00c9fe424397"
+}

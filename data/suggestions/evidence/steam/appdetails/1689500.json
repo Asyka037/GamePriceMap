@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1689500,
+  "fetchedAt": "2026-07-27T13:46:12.993Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1689500&cc=us&l=english",
+  "responseDigest": "sha256:1f8644e810b022f4843b6e9d0bc6d8905b39379423bf765d47bff0350f3c4cac",
+  "payload": {
+    "1689500": {
+      "success": true,
+      "data": {
+        "steam_appid": 1689500,
+        "name": "Dune: Imperium",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 1494,
+          "discount_percent": 35
+        },
+        "recommendations": {
+          "total": 3699
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e8f48913d8cd0e15cf1a2189b942aa03fbf43a2ad288b210f052572aa41b77af"
+}

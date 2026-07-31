@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2840770,
+  "fetchedAt": "2026-07-18T12:06:44.085Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2840770&cc=us&l=english",
+  "responseDigest": "sha256:da3062c85e978c121fd306e5494136b2eef291d824112a6361b31884be7b3530",
+  "payload": {
+    "2840770": {
+      "success": true,
+      "data": {
+        "steam_appid": 2840770,
+        "name": "Avatar: Frontiers of Pandora™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 13979
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0358162fb610b6bff2562938bb984047783742f10c46c441a2ed0c683bb60e9e"
+}

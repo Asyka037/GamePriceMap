@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 495420,
+  "fetchedAt": "2026-07-27T13:46:02.675Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=495420&cc=us&l=english",
+  "responseDigest": "sha256:45f15726f75ecd7e6ed0eeb5d6d99d4e071e26039a3776cd3675b67dd57f4404",
+  "payload": {
+    "495420": {
+      "success": true,
+      "data": {
+        "steam_appid": 495420,
+        "name": "State of Decay 2: Juggernaut Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 58605
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:344c1b34204e183bc4651f39640bebdd9738e631d063df7a8a98a6c089e9abe3"
+}

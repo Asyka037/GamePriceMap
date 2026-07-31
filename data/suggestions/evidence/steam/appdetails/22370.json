@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 22370,
+  "fetchedAt": "2026-07-28T13:03:38.300Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=22370&cc=us&l=english",
+  "responseDigest": "sha256:361d6c8e34f11a9f968a95c091ada8000d1d8ca9b196de22158b2f931b60471b",
+  "payload": {
+    "22370": {
+      "success": true,
+      "data": {
+        "steam_appid": 22370,
+        "name": "Fallout 3: Game of the Year Edition",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 17, 2009"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 43748
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ae2a702a2d681abda20d452e7877deedd02429b2d47b43fd52df31a9942fb61"
+}

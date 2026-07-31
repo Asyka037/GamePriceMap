@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1455630,
+  "fetchedAt": "2026-07-28T13:03:42.036Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1455630&cc=us&l=english",
+  "responseDigest": "sha256:1a1178ca960969b2af639c2603c9ef0c0fe40c5667cbca8b0d0ba2e937aac77d",
+  "payload": {
+    "1455630": {
+      "success": true,
+      "data": {
+        "steam_appid": 1455630,
+        "name": "THE GAME OF LIFE 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1249,
+          "final": 1249,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3653
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9181e5c8d391673daa8b4fb186e138e8727c7bb64adad1a03cbeeeee9e75af29"
+}

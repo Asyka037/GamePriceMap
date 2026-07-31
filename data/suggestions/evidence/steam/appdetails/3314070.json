@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3314070,
+  "fetchedAt": "2026-07-29T13:08:43.969Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3314070&cc=us&l=english",
+  "responseDigest": "sha256:21a66d1853853a0544348eb6247ea4ff0026cb0b72bc9aa34bc55e561509ae7f",
+  "payload": {
+    "3314070": {
+      "success": true,
+      "data": {
+        "steam_appid": 3314070,
+        "name": "The Sims™ 2 Legacy Collection",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 31, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4576
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:74fb4e66ecda3018de4fbcb4afc64fb5ebaa9f381624ebb51d686363ba40632f"
+}

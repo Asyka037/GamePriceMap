@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3700980,
+  "fetchedAt": "2026-07-28T13:03:26.971Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3700980&cc=us&l=english",
+  "responseDigest": "sha256:5e114577818d8072fb17f68fecedc3b7b9193c0305514171139f642695a1c987",
+  "payload": {
+    "3700980": {
+      "success": true,
+      "data": {
+        "steam_appid": 3700980,
+        "name": "How to Make an Atomic Bomb in Your Garden",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1169,
+          "final": 993,
+          "discount_percent": 15
+        },
+        "recommendations": {
+          "total": 1620
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a7c8274559adc115505f70020e948da2702c82d8267186218e8d626ecf6f21e1"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 9900,
+  "fetchedAt": "2026-07-18T12:06:56.879Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=9900&cc=us&l=english",
+  "responseDigest": "sha256:4bfd0edade4e980230893bd66060969ceed3b2e1ec6a1db7838cc23998fef90c",
+  "payload": {
+    "9900": {
+      "success": true,
+      "data": {
+        "steam_appid": 9900,
+        "name": "Star Trek Online",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 31, 2012"
+        },
+        "recommendations": {
+          "total": 946
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:e5817c119ec90350a2ba62d2f146b394d6e9a974105a43c58707d0e4fcaaac57"
+}

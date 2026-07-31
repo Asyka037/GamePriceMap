@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3526710,
+  "fetchedAt": "2026-07-22T12:47:53.464Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3526710&cc=us&l=english",
+  "responseDigest": "sha256:65bc5815e50b3b95f16fbb90e0b09bcc175492699337ad44ace0d1f45005adae",
+  "payload": {
+    "3526710": {
+      "success": true,
+      "data": {
+        "steam_appid": 3526710,
+        "name": "Everything is Crab: The Animal Evolution Roguelite",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6278
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8ae7b31ff823ba4f1a0b88a46fec42515553ca98c507821110633ba13c23222b"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2668510,
+  "fetchedAt": "2026-07-19T12:07:19.398Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2668510&cc=us&l=english",
+  "responseDigest": "sha256:e19e78cc64e2922ed811f182a5fdfacb827a8919bf730a8a17db996995299ad9",
+  "payload": {
+    "2668510": {
+      "success": true,
+      "data": {
+        "steam_appid": 2668510,
+        "name": "Red Dead Redemption",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 29, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19171
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:42d35b9c23e40cf13dea0e7e7e17f7c51c36965cef82cec625ac0e120de78f85"
+}

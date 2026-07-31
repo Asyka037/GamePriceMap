@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2963950,
+  "fetchedAt": "2026-07-23T12:50:14.634Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2963950&cc=us&l=english",
+  "responseDigest": "sha256:995294a9aaabed7204063cd6bfe1b14461bec65d32de99675f1ee481474efc48",
+  "payload": {
+    "2963950": {
+      "success": true,
+      "data": {
+        "steam_appid": 2963950,
+        "name": "Persona 4 Revival ",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": true,
+          "date": "Feb 17, 2027"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f6fd9fd39f8e8edf1958e4293c7b364969aaf17bfd3a4992369637823413e24d"
+}

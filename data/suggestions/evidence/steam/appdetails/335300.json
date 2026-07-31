@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 335300,
+  "fetchedAt": "2026-07-25T12:10:53.544Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=335300&cc=us&l=english",
+  "responseDigest": "sha256:efaa98a5b2e5f9c0798cb114dd6e39a065f3bb5add13b61ed59759b38c1f748a",
+  "payload": {
+    "335300": {
+      "success": true,
+      "data": {
+        "steam_appid": 335300,
+        "name": "DARK SOULS™ II: Scholar of the First Sin",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 1, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 83006
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a6133fb6b8ef5b3a6d20c10812e3d2505cc52378de8ff4f307a59d3a06758be5"
+}

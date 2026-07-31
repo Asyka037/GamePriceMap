@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1426210,
+  "fetchedAt": "2026-07-20T13:18:57.898Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1426210&cc=us&l=english",
+  "responseDigest": "sha256:f4643df43809e837ec45adefcf9603ca8bd020d5840dd69034ce087c444623bd",
+  "payload": {
+    "1426210": {
+      "success": true,
+      "data": {
+        "steam_appid": 1426210,
+        "name": "It Takes Two",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 215387
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8f5ef8e19855b6e3f1bce5eb7095182f910007b8b721cc2e6f476cd9a9d0f342"
+}

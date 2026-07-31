@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2827200,
+  "fetchedAt": "2026-07-29T13:08:36.068Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2827200&cc=us&l=english",
+  "responseDigest": "sha256:c7ea7edf2e99ce7b7abd69521f9cd27cd790ed87e9e895d4bacb69af8e310534",
+  "payload": {
+    "2827200": {
+      "success": true,
+      "data": {
+        "steam_appid": 2827200,
+        "name": "MIMESIS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8171
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ca8aed23746255ff5dbd193758b8b5423b995812fcf740275f0cde1e2781f5b"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1392840,
+  "fetchedAt": "2026-07-25T12:11:06.621Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1392840&cc=us&l=english",
+  "responseDigest": "sha256:4d1321f6b01f095dc2c0409dcdd47a1d4833a93d0f03c9eaaefbef5f4b53f64f",
+  "payload": {
+    "1392840": {
+      "success": true,
+      "data": {
+        "steam_appid": 1392840,
+        "name": "RimWorld - Ideology",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 20, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3274
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ea2797448d97de9e4cec66edc48548718466add9acbb41dc9f1ae55c5b8bed5"
+}

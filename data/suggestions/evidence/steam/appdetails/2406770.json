@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2406770,
+  "fetchedAt": "2026-07-18T12:06:46.621Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2406770&cc=us&l=english",
+  "responseDigest": "sha256:b8c747b2e9e73606184d450ae29adf6cba86752eedf7dd3fe09f4f7b35015bc7",
+  "payload": {
+    "2406770": {
+      "success": true,
+      "data": {
+        "steam_appid": 2406770,
+        "name": "Bodycam",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 7, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3332,
+          "final": 3332,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 41751
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8be392313f927dab56d821b38b9f7fdc2f3c37315f3049c83cf474e9d185f3a3"
+}

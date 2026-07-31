@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T09:30:02.320Z",
+  "updatedAt": "2026-07-30T10:01:46.013Z",
   "items": [
     {
       "title": "Foretales",
@@ -11,34 +11,47 @@
       "pct": 100,
       "steamAppId": null,
       "slugIfTracked": null,
-      "status": "upcoming",
+      "status": "free-now",
       "endsAt": "2026-07-30T15:00:00.000Z"
     },
     {
-      "title": "Luto",
+      "title": "Beacon Pines",
       "storeId": "epic",
-      "url": "https://store.epicgames.com/en-US/p/luto-0a4ab3",
+      "url": "https://store.epicgames.com/en-US/p/beacon-pines-629fc3",
       "currency": "USD",
       "price": 0,
       "list": 19.99,
       "pct": 100,
       "steamAppId": null,
       "slugIfTracked": null,
-      "status": "free-now",
-      "endsAt": "2026-07-23T15:00:00.000Z"
+      "status": "upcoming",
+      "endsAt": "2026-08-13T15:00:00.000Z"
     },
     {
-      "title": "Echo Generation: Midnight Edition",
+      "title": "OTXO",
       "storeId": "epic",
-      "url": "https://store.epicgames.com/en-US/p/echo-generation-midnight-edition-069026",
+      "url": "https://store.epicgames.com/en-US/p/otxo-396b8b",
       "currency": "USD",
       "price": 0,
-      "list": 24.99,
+      "list": 14.99,
       "pct": 100,
       "steamAppId": null,
       "slugIfTracked": null,
-      "status": "free-now",
-      "endsAt": "2026-07-23T15:00:00.000Z"
+      "status": "upcoming",
+      "endsAt": "2026-08-06T15:00:00.000Z"
+    },
+    {
+      "title": "Sol Cesto",
+      "storeId": "epic",
+      "url": "https://store.epicgames.com/en-US/p/sol-cesto-e9b803",
+      "currency": "USD",
+      "price": 0,
+      "list": 13.99,
+      "pct": 100,
+      "steamAppId": null,
+      "slugIfTracked": null,
+      "status": "upcoming",
+      "endsAt": "2026-08-06T15:00:00.000Z"
     }
   ]
 }

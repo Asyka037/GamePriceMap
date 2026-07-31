@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3720100,
+  "fetchedAt": "2026-07-18T12:06:50.409Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3720100&cc=us&l=english",
+  "responseDigest": "sha256:6d9329cd0379bbb108e710d91d4778b259e5c6ae2c9d892a528d8f3be50fff73",
+  "payload": {
+    "3720100": {
+      "success": true,
+      "data": {
+        "steam_appid": 3720100,
+        "name": "ARK: Lost Colony Expansion Pass",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1499,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 1076
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:df1cb1a580b05cf81dabbf179e33c1c0c313164fef3e1cbf4d941fa9f0153554"
+}

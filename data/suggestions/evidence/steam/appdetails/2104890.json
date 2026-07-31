@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2104890,
+  "fetchedAt": "2026-07-20T13:19:14.047Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2104890&cc=us&l=english",
+  "responseDigest": "sha256:f7ac5d8f5a9bf026ae9ff579f06a98474578f17c2ed694d47726f7ce0aaba58a",
+  "payload": {
+    "2104890": {
+      "success": true,
+      "data": {
+        "steam_appid": 2104890,
+        "name": "RoadCraft",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 20, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 2399,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 13227
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:79912faeaef0846ea18614824445ea1fc8e6249014feaf8ccead073b1c140143"
+}

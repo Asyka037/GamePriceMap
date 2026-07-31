@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 911400,
+  "fetchedAt": "2026-07-26T12:18:06.476Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=911400&cc=us&l=english",
+  "responseDigest": "sha256:4bb845fb2ede5d8b910e3867f298275777a6bda0d0f620cdb406976a579641e1",
+  "payload": {
+    "911400": {
+      "success": true,
+      "data": {
+        "steam_appid": 911400,
+        "name": "Assassin's Creed® III Remastered",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 29, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 14320
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b236a57b255999120e9f7ac614f5a980a7a3be8bd959d154336bae37634a6e51"
+}

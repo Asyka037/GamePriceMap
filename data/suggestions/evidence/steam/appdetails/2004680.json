@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2004680,
+  "fetchedAt": "2026-07-18T12:06:18.352Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2004680&cc=us&l=english",
+  "responseDigest": "sha256:7497f14e0ae3acc0775b62d53351f8b7189253b771076221eb4877010b16bb59",
+  "payload": {
+    "2004680": {
+      "success": true,
+      "data": {
+        "steam_appid": 2004680,
+        "name": "Voidling Bound",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 2783
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f794745cd1cb3f088e658e2241393ee902c6ec3067745422b3d4a7fbcb8d1432"
+}

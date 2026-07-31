@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 459820,
+  "fetchedAt": "2026-07-21T12:45:05.081Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=459820&cc=us&l=english",
+  "responseDigest": "sha256:2dd3b0efe5a159553012d1802f30605a33252b4eb6f2bd1b0f4749aeadc86bc0",
+  "payload": {
+    "459820": {
+      "success": true,
+      "data": {
+        "steam_appid": 459820,
+        "name": "Crush Crush",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 18, 2016"
+        },
+        "recommendations": {
+          "total": 566
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ca1ef93a8e5143631ec4bad31ce55e18025a18c1d7c74af3264c077c29b15667"
+}

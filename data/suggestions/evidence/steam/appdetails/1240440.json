@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1240440,
+  "fetchedAt": "2026-07-21T12:45:03.752Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1240440&cc=us&l=english",
+  "responseDigest": "sha256:0f95526f280ca1afced63ea4ee1fcfbac589ec42aaee8c26698893e70cf7cad8",
+  "payload": {
+    "1240440": {
+      "success": true,
+      "data": {
+        "steam_appid": 1240440,
+        "name": "Halo Infinite",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 15, 2021"
+        },
+        "recommendations": {
+          "total": 34612
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:16a1afe09203d07a96163db568d17128b48fd9e27abc3398d076a7a956f25a16"
+}

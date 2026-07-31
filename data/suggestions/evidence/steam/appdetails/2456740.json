@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2456740,
+  "fetchedAt": "2026-07-18T12:06:08.043Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2456740&cc=us&l=english",
+  "responseDigest": "sha256:ea4fdd8d4f4b304825a704d5c02c18a3a3fda21b151001ed9f430e21a4d5f666",
+  "payload": {
+    "2456740": {
+      "success": true,
+      "data": {
+        "steam_appid": 2456740,
+        "name": "inZOI",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 29091
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1f2719d7f837ee97b500be8cc1ba686598f0306ab6e979ef9e15430952b9b423"
+}

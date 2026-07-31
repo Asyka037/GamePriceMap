@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 704270,
+  "fetchedAt": "2026-07-28T13:03:21.918Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=704270&cc=us&l=english",
+  "responseDigest": "sha256:eb93a9f15fbfbe2e2d282c5a58f66d36df8fff78966152ebf73903602b6054d7",
+  "payload": {
+    "704270": {
+      "success": true,
+      "data": {
+        "steam_appid": 704270,
+        "name": "Generation Zero®",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 26, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 499,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 28973
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:71c928973cbce665547044767ab0f8e96aab1e458a31cbda4ffa552d9a51b593"
+}

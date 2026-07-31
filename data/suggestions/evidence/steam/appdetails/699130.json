@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 699130,
+  "fetchedAt": "2026-07-29T13:08:30.778Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=699130&cc=us&l=english",
+  "responseDigest": "sha256:4a457f352d6c11f42eaf72c560362aabda4e58a0cd7caf3f69cf6c1bae6185ae",
+  "payload": {
+    "699130": {
+      "success": true,
+      "data": {
+        "steam_appid": 699130,
+        "name": "World War Z",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 21, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 24173
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:140d1c868f1f1f9efc56f95dc1bdce2d0f9de8694dc2ce9c11d48f4cdc6b8192"
+}

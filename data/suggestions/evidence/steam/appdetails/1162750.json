@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1162750,
+  "fetchedAt": "2026-07-22T12:47:38.374Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1162750&cc=us&l=english",
+  "responseDigest": "sha256:54cfa07efd243c6bf6459e66379b1d4fdfecc23a2a2a016b928f2d6beb9592f1",
+  "payload": {
+    "1162750": {
+      "success": true,
+      "data": {
+        "steam_appid": 1162750,
+        "name": "Songs of Syx",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 21, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 8531
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:53633059e9249694608bde5c0da72a860fc95519f55991388c6083046fb2486f"
+}

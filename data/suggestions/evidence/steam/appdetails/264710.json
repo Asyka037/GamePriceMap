@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 264710,
+  "fetchedAt": "2026-07-22T12:48:23.059Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=264710&cc=us&l=english",
+  "responseDigest": "sha256:888b8ea1b5558b0e94e3d80c50853f2565336a7d27db3b1d47b944ac1d71d9a4",
+  "payload": {
+    "264710": {
+      "success": true,
+      "data": {
+        "steam_appid": 264710,
+        "name": "Subnautica",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 23, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 338520
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:430c3b88a7af1c2292fdcdd366a422336c5b960f36085c8f9e1d73e00f830a73"
+}

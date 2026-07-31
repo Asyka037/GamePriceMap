@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3115220,
+  "fetchedAt": "2026-07-20T13:18:14.765Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3115220&cc=us&l=english",
+  "responseDigest": "sha256:72b58e189aede3cd752948839210ce7db9f9fcbbeff135b81dc12e60b3f34e1c",
+  "payload": {
+    "3115220": {
+      "success": true,
+      "data": {
+        "steam_appid": 3115220,
+        "name": "Town to City",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 26, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2249,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 5897
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:babef0a7fff361da1a70faa9d3fbe2e0158a00bd05c625442567f7b4b7906e83"
+}

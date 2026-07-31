@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1677280,
+  "fetchedAt": "2026-07-23T12:50:49.204Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1677280&cc=us&l=english",
+  "responseDigest": "sha256:d5f407854a0ceb0910a8d628a2514912c7d89768f8618930f77782473b498ad2",
+  "payload": {
+    "1677280": {
+      "success": true,
+      "data": {
+        "steam_appid": 1677280,
+        "name": "Company of Heroes 3",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 23, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 23942
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5f6f8af4d1ca0001c6b13a58d4849d6a67fb94d30d79a45062e3a5e1c3e0be8b"
+}

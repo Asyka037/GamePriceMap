@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4090980,
+  "fetchedAt": "2026-07-19T12:07:29.521Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4090980&cc=us&l=english",
+  "responseDigest": "sha256:f9b818dddc459c33db73e7fc97c76ce37505bd9acee03ec6a541f4e1d9b8b98a",
+  "payload": {
+    "4090980": {
+      "success": true,
+      "data": {
+        "steam_appid": 4090980,
+        "name": "Escape from Tarkov - The Unheard Steam Edition Expansion Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 20, 2026"
+        },
+        "recommendations": {
+          "total": 106
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9b595c8cba049fc978f06c42cde06057e0b2ed46f4e13ddc4d80bd3832d62cd1"
+}

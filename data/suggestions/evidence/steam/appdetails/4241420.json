@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4241420,
+  "fetchedAt": "2026-07-23T12:51:03.640Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4241420&cc=us&l=english",
+  "responseDigest": "sha256:67776e1a4a672f6813d5a32ee590f9eeea853d9625a0a06635c345e04cada01c",
+  "payload": {
+    "4241420": {
+      "success": true,
+      "data": {
+        "steam_appid": 4241420,
+        "name": "Stellaris: Nomads",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 15, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 413
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1b5a77263e45613c0f3999f5c8a3781e40e315f07de40fc3069ba430a9a309bc"
+}

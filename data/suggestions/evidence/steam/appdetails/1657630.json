@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1657630,
+  "fetchedAt": "2026-07-24T12:46:50.908Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1657630&cc=us&l=english",
+  "responseDigest": "sha256:ea1ab3b09da7f06e658491af9018887fa3ac742d15716978eaeb60116f1adb03",
+  "payload": {
+    "1657630": {
+      "success": true,
+      "data": {
+        "steam_appid": 1657630,
+        "name": "Slime Rancher 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1799,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 42865
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:99d6450dfb8169e4a712ea38cea75f73b6cddbd99ce8da5663ef018d54a1caf1"
+}

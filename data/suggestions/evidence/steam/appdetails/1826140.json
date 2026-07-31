@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1826140,
+  "fetchedAt": "2026-07-20T13:18:46.054Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1826140&cc=us&l=english",
+  "responseDigest": "sha256:4e23b2d6c01666e2a76d9337e29d7eb9a54ec69927940a28358fd7113ec31e8a",
+  "payload": {
+    "1826140": {
+      "success": true,
+      "data": {
+        "steam_appid": 1826140,
+        "name": "RimWorld - Biotech",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3076
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f374ce84c79516272c2531b24b8d28c1d823080cfdb807e0a7998da33ec894f3"
+}

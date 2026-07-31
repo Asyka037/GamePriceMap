@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 287700,
+  "fetchedAt": "2026-07-18T12:06:26.091Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=287700&cc=us&l=english",
+  "responseDigest": "sha256:be478f5303ef06537ee045d65666ecfe043a963c7711cadcab83d3faa0967107",
+  "payload": {
+    "287700": {
+      "success": true,
+      "data": {
+        "steam_appid": 287700,
+        "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 1, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1799,
+          "discount_percent": 40
+        },
+        "recommendations": {
+          "total": 72357
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ff8e8e7ead90e5913b055ea0c6aa0f1f5e66616b6badfa0c847a553bac8eebaf"
+}

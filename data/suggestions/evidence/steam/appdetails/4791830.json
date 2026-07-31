@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4791830,
+  "fetchedAt": "2026-07-27T13:46:03.934Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4791830&cc=us&l=english",
+  "responseDigest": "sha256:ebe2a545d4939b44f4752b675a53d50df0769891a1063a5090cbcd7bad8ed98c",
+  "payload": {
+    "4791830": {
+      "success": true,
+      "data": {
+        "steam_appid": 4791830,
+        "name": "Dead by Daylight: Jason",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1211
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ecdf3ae2320bb3ca2151b86f29da1e9492bf67ace1d7d0d73730e1085eb67fe9"
+}

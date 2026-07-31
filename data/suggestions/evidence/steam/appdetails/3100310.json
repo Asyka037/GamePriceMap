@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3100310,
+  "fetchedAt": "2026-07-26T12:18:24.442Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3100310&cc=us&l=english",
+  "responseDigest": "sha256:97af7f4c16f43eb9adb229c74c07ae95b5db0e26a8910db945232fe92e96be89",
+  "payload": {
+    "3100310": {
+      "success": true,
+      "data": {
+        "steam_appid": 3100310,
+        "name": "Arms of God",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 8, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1150,
+          "final": 1150,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1554
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3dd7a883ea67fbef7a76fd3e6f21f556549603de3834bc666daf9c3d6653e756"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3486960,
+  "fetchedAt": "2026-07-20T13:18:42.104Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3486960&cc=us&l=english",
+  "responseDigest": "sha256:74eac57c5a04216882d5ffaf1ac62a331f7340aac49945a01b55fad241ecef32",
+  "payload": {
+    "3486960": {
+      "success": true,
+      "data": {
+        "steam_appid": 3486960,
+        "name": "American Truck Simulator - Illinois",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 14, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 203
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:3d042e696300ee67d0f8061205c7da8a74d4c316fca8d7cc2f5817e281d686de"
+}

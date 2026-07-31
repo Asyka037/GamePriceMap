@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2016590,
+  "fetchedAt": "2026-07-18T12:06:20.909Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2016590&cc=us&l=english",
+  "responseDigest": "sha256:387747ce603ce0e7d2586437b9ce41329df2ea18efc584157de15e868e11db67",
+  "payload": {
+    "2016590": {
+      "success": true,
+      "data": {
+        "steam_appid": 2016590,
+        "name": "Dark and Darker",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 7, 2024"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f957cf6acc51bcc53e2481ef582f681df3b7c462a9fc892c09c8204930a117be"
+}

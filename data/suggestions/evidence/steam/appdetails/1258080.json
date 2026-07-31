@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1258080,
+  "fetchedAt": "2026-07-28T13:02:59.203Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1258080&cc=us&l=english",
+  "responseDigest": "sha256:a9f3ed1e9e6d5236b8fc3027118213555556c515d0327220ab5b39b44e6495ee",
+  "payload": {
+    "1258080": {
+      "success": true,
+      "data": {
+        "steam_appid": 1258080,
+        "name": "Shop Titans",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 5, 2020"
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f5fe9d0f421fd24ba4630aa40df002e25b33eea631aa78b47d30682c2fbf2048"
+}

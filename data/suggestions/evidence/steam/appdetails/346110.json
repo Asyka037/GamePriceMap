@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 346110,
+  "fetchedAt": "2026-07-18T12:06:24.824Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=346110&cc=us&l=english",
+  "responseDigest": "sha256:5559cc814b51391a1591e82aef07e4d3b21d9b09c5f1698de8705690f14026b9",
+  "payload": {
+    "346110": {
+      "success": true,
+      "data": {
+        "steam_appid": 346110,
+        "name": "ARK: Survival Evolved",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 989,
+          "discount_percent": 34
+        },
+        "recommendations": {
+          "total": 582582
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:796bc230ed8536baad87c8b5bb80082d56171682dbcbbdf2f85c15612c499109"
+}

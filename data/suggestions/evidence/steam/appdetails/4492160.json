@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4492160,
+  "fetchedAt": "2026-07-29T13:09:11.417Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4492160&cc=us&l=english",
+  "responseDigest": "sha256:f90c705c3cf5fa55a199f3112d69cd999dcdfa02934b36ded8cc1f3c51abd8af",
+  "payload": {
+    "4492160": {
+      "success": true,
+      "data": {
+        "steam_appid": 4492160,
+        "name": "Planet Coaster 2: Parades Pack",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 25, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1899,
+          "final": 1899,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:762240647fca4b4191a2c306408e88406315d19ec9d2da38600eaf73b231232a"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1465750,
+  "fetchedAt": "2026-07-28T13:03:24.450Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1465750&cc=us&l=english",
+  "responseDigest": "sha256:9e2b9165f45e02c243dcfb8d0f278be67856224f5f693cf85a3a0cccdca09950",
+  "payload": {
+    "1465750": {
+      "success": true,
+      "data": {
+        "steam_appid": 1465750,
+        "name": "American Truck Simulator - Texas",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 15, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 1799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 707
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ef53029124dd297f100a3042234b59a316040b7fe8485d82ed037f9f9c561115"
+}

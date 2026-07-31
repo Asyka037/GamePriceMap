@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 99900,
+  "fetchedAt": "2026-07-30T12:56:23.819Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=99900&cc=us&l=english",
+  "responseDigest": "sha256:b3ba0ac4c534e9a4a5f9677e02663ff99e17a64f0f5f524a898fc2d30b4072fb",
+  "payload": {
+    "99900": {
+      "success": true,
+      "data": {
+        "steam_appid": 99900,
+        "name": "Spiral Knights",
+        "type": "game",
+        "is_free": true,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 14, 2011"
+        },
+        "recommendations": {
+          "total": 181
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8e89d7ea23f42a22e4ad9c10b1f81fe709c5e293d78d460861cbb60537065fe7"
+}

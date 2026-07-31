@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2353060,
+  "fetchedAt": "2026-07-22T12:48:16.835Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2353060&cc=us&l=english",
+  "responseDigest": "sha256:1f69992a8e4c94a74adb1e004b6a9741e9a3a3f0bfe5f17ef24f069df1624f24",
+  "payload": {
+    "2353060": {
+      "success": true,
+      "data": {
+        "steam_appid": 2353060,
+        "name": "Invincible VS",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 3999,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 2972
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:8cb0ceea4ce6b6004536076695a2522c4d2ec149f955ba2ba38387e4cd1cd1a3"
+}

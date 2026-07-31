@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2157560,
+  "fetchedAt": "2026-07-30T12:56:14.043Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2157560&cc=us&l=english",
+  "responseDigest": "sha256:f3532f0bbfc68659105ef10437879c321feea5d1ba079f30dc767d92dcf163fb",
+  "payload": {
+    "2157560": {
+      "success": true,
+      "data": {
+        "steam_appid": 2157560,
+        "name": "Granblue Fantasy Versus: Rising",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 13, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 5904
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:631f14f6251044fd39ddd95073ade8309c87bded93666df4ba1804c2a8c8bfac"
+}

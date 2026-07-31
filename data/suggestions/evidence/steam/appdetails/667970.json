@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 667970,
+  "fetchedAt": "2026-07-28T13:03:31.981Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=667970&cc=us&l=english",
+  "responseDigest": "sha256:3b8a5c0110e62903b409be0aaef0ad81c4cd9a35a64dec1107a4475f618c6898",
+  "payload": {
+    "667970": {
+      "success": true,
+      "data": {
+        "steam_appid": 667970,
+        "name": "VTOL VR",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 3, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 19746
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1e5e0715d42ae13c630780e2df5f4dadeab6685acad1cb2c463b4341ac288605"
+}

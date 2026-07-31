@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2119830,
+  "fetchedAt": "2026-07-19T12:08:00.176Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2119830&cc=us&l=english",
+  "responseDigest": "sha256:3ba842bf95e3db2b62631f6c5a827896ee426134a4520f46aed1d9790c2e1508",
+  "payload": {
+    "2119830": {
+      "success": true,
+      "data": {
+        "steam_appid": 2119830,
+        "name": "MISERY",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 974,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 18911
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:264f899bf1ad0db3bcb8f561df5ca6bc139ba9a348591c5b7f56e8da4d053b9b"
+}

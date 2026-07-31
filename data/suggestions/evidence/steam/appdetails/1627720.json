@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1627720,
+  "fetchedAt": "2026-07-22T12:47:30.793Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1627720&cc=us&l=english",
+  "responseDigest": "sha256:b06d9ca4d63daaf6649dd5acf9c38160aaca9041608c2a6d7e4c2e5434792f46",
+  "payload": {
+    "1627720": {
+      "success": true,
+      "data": {
+        "steam_appid": 1627720,
+        "name": "Lies of P",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 57080
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:395548542036852927450340c13a1afb19eaa3ed9057945a88ce11e70c93bacf"
+}

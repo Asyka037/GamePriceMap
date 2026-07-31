@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1648533,
+  "fetchedAt": "2026-07-25T12:10:38.099Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1648533&cc=us&l=english",
+  "responseDigest": "sha256:d17e2b491e461782b3ba7008b04703d380f1a74feda31645ca9030b7e01dd989",
+  "payload": {
+    "1648533": {
+      "success": true,
+      "data": {
+        "steam_appid": 1648533,
+        "name": "Icarus: Dangerous Horizons Expansion",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 5, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2399,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 234
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2295e4e6c9585c21acf2371a996357566d35ce8acdf375e70c67e7379a6047a4"
+}

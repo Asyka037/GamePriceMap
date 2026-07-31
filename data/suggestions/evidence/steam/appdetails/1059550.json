@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1059550,
+  "fetchedAt": "2026-07-23T12:50:47.872Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1059550&cc=us&l=english",
+  "responseDigest": "sha256:e36aa2e53eacfaad97dfa2375b674e55208ac455513b4de1a0aebedc486003d1",
+  "payload": {
+    "1059550": {
+      "success": true,
+      "data": {
+        "steam_appid": 1059550,
+        "name": "Valve Index® Controllers",
+        "type": "hardware",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 28, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 27900,
+          "final": 27900,
+          "discount_percent": 0
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b72c156de55692490d031bf560cacb30d1609d18c953c7aa25e6c35032897685"
+}

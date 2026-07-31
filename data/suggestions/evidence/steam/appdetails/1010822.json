@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1010822,
+  "fetchedAt": "2026-07-19T12:08:11.699Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1010822&cc=us&l=english",
+  "responseDigest": "sha256:5a6d4e1b805cff70849ad4aed28cebdddcf21b879e0a57610344ae3d953af1d4",
+  "payload": {
+    "1010822": {
+      "success": true,
+      "data": {
+        "steam_appid": 1010822,
+        "name": "Barony: Deserters & Disciples",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 188
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:0dba2585a010a8babf35205bf589879bb3b336504f050003a193a3084fbbb15d"
+}

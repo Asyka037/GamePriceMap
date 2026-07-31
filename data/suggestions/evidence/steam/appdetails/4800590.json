@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4800590,
+  "fetchedAt": "2026-07-20T13:19:10.164Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4800590&cc=us&l=english",
+  "responseDigest": "sha256:9e1c1fb9fb9f61ba716cb045ef0b80f958d922f5299faeb7cd203c2fccb27a64",
+  "payload": {
+    "4800590": {
+      "success": true,
+      "data": {
+        "steam_appid": 4800590,
+        "name": "Supermarket Chaos",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1570
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:64de04faf2299c884ae42ac23b96523c2dafe719e1fb44282d04f07fc6dfc3be"
+}

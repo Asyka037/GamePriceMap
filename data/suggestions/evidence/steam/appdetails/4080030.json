@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4080030,
+  "fetchedAt": "2026-07-30T12:56:37.696Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4080030&cc=us&l=english",
+  "responseDigest": "sha256:ba1cb8d6baa3886e3102c054bc174ff556cd7a602f427134f67fced5aa0a00a6",
+  "payload": {
+    "4080030": {
+      "success": true,
+      "data": {
+        "steam_appid": 4080030,
+        "name": "The Message from Deep Space",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 29, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 718
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a6dd54c601947691d119fd6c922c814454642e6f34806cb278907203e713f3e3"
+}

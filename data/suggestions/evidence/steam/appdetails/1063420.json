@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1063420,
+  "fetchedAt": "2026-07-27T13:45:42.372Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1063420&cc=us&l=english",
+  "responseDigest": "sha256:6ca6d30d4240d168caa7664cc62d4553241b30e753e07ba0062d7fb0177e640b",
+  "payload": {
+    "1063420": {
+      "success": true,
+      "data": {
+        "steam_appid": 1063420,
+        "name": "Void Crew",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 25, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 6519
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:644b0c5030506ecca8b9ed168d827a9355f653611de3b6bf5ad563c8c74f3e09"
+}

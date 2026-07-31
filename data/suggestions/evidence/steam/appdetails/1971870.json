@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1971870,
+  "fetchedAt": "2026-07-27T13:45:21.488Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1971870&cc=us&l=english",
+  "responseDigest": "sha256:f2a95beaf7e1ae22452c5b33546bf77470b38f5778efd4038e11a231c82f1c00",
+  "payload": {
+    "1971870": {
+      "success": true,
+      "data": {
+        "steam_appid": 1971870,
+        "name": "Mortal Kombat 1",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 19, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 999,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 33525
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:5e548b874511213f3b4a557539dd872ccd971460f9f235c71dbef6ced8f848ad"
+}

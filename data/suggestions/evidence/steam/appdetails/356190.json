@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 356190,
+  "fetchedAt": "2026-07-29T13:08:53.091Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=356190&cc=us&l=english",
+  "responseDigest": "sha256:6a8f16b4e7c8e8602fefa0452d43d0631bf7ddaba2da407ec3245b6a959aade0",
+  "payload": {
+    "356190": {
+      "success": true,
+      "data": {
+        "steam_appid": 356190,
+        "name": "Middle-earth™: Shadow of War™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 9, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 87140
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:2f95337b978e03b4c6534758eee6f41acb1bc744252cc045cddaedbbefede94a"
+}

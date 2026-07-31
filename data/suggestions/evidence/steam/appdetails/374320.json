@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 374320,
+  "fetchedAt": "2026-07-19T12:07:28.239Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=374320&cc=us&l=english",
+  "responseDigest": "sha256:c1c786c89244ed43a95fedbacdf7e611594a9cca4f77ba46beb78bd34803a042",
+  "payload": {
+    "374320": {
+      "success": true,
+      "data": {
+        "steam_appid": 374320,
+        "name": "DARK SOULS™ III",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 11, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 276917
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d98f660e55b56caad0b0aad83df2323f5318047c0da501456e52647975692cb5"
+}

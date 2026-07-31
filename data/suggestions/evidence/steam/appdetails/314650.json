@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 314650,
+  "fetchedAt": "2026-07-29T13:08:45.251Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=314650&cc=us&l=english",
+  "responseDigest": "sha256:f6a4dd7313d8fc90487bf2a5b020886557b9947ee6622f54c09574eb94a3f733",
+  "payload": {
+    "314650": {
+      "success": true,
+      "data": {
+        "steam_appid": 314650,
+        "name": "SpaceEngine",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 11, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 15411
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6b916afb1e016983801b63a8461a5b75d3f9f9a4b9b90b872afc0c0f8a37e718"
+}

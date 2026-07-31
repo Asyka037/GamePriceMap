@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1985810,
+  "fetchedAt": "2026-07-23T12:50:57.058Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1985810&cc=us&l=english",
+  "responseDigest": "sha256:696ec36549bb31a74d075c5d53d0b8fa23efcb95d9bb682b5ca64c8b672e7838",
+  "payload": {
+    "1985810": {
+      "success": true,
+      "data": {
+        "steam_appid": 1985810,
+        "name": "Call of Duty®: Black Ops Cold War",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 8, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 21341
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:6298b3a0611e12051bd2ffb99d20e693454628357e701324d414749554003038"
+}

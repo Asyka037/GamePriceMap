@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2142790,
+  "fetchedAt": "2026-07-21T12:45:10.214Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2142790&cc=us&l=english",
+  "responseDigest": "sha256:0e690d74cd17943adffc861ebedaeffa05e2334827fbdab120e5d40b28582fec",
+  "payload": {
+    "2142790": {
+      "success": true,
+      "data": {
+        "steam_appid": 2142790,
+        "name": "Fields of Mistria",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 5, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1399,
+          "final": 1399,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 26313
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:fc44935b0e802e73196c066b5800c5f583a930d88060e0be659c8a352c70d925"
+}

@@ -1,22 +1,21 @@
 {
   "slug": "xenoblade-chronicles-definitive-edition",
-  "updatedAt": "2026-07-16T07:35:42.747Z",
-  "name": "Xenoblade Chronicles™ Definitive Edition",
-  "headerImage": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000029711/d55f4d73ad88beed1ea061aaaacbe772e40f46b598db513f3f85369d3455aa82",
+  "updatedAt": "2026-07-18T09:12:06.419Z",
+  "name": "Xenoblade Chronicles: Definitive Edition",
+  "headerImage": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_XenobladeChroniclesDefinitiveEdition_image500w.jpg",
   "genres": [
-    "Action",
-    "Role playing"
+    "RPG"
   ],
-  "releaseDate": "2020-05-29T00:00:00.000Z",
+  "releaseDate": "2020-05-29T00:00:00Z",
   "comingSoon": false,
   "metacritic": null,
   "recommendations": null,
   "reviewDesc": null,
   "reviewCount": 0,
   "reviewPercent": null,
-  "description": "Discover the origins of Shulk as he and his companions clash against a seemingly-unstoppable mechanical menace. Wield a future-seeing blade, chain together attacks, and carefully position your party members in strategic, real-time combat as you journey across a massive world.\n\nDuring an attack from the mechanical invaders known as the Mechon, Shulk discovers that he can tap into the full power of a mysterious blade known as the Monado. With the mighty Monado in hand, Shulk sets out to defeat the Mechon once and for all.\n\nIn addition to the Mechon, you’ll run into wildlife that ranges from docile to deadly. Keep an eye on what attracts monsters’ attention to avoid unwanted conflict…or try your hand at bringing down an ultra-powerful Unique Monster.\n\nUpgrade your party as you progress through the adventure by selecting equipment, enhancing weapon skills, and using benefit-granting gems. Put your dependable companions to work by filling the party gauge to trigger a Chain Attack and attack enemies in quick succession!",
+  "description": "Uncover the secrets of the Monado and save the world in Xenoblade Chronicles: Definitive Edition on Nintendo Switch.",
   "publisher": "Nintendo",
   "developer": null,
-  "storeUrl": "https://www.nintendo.com/us/store/products/xenoblade-chronicles-definitive-edition-switch/",
-  "metaSource": "nintendo-us"
+  "storeUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Xenoblade-Chronicles-Definitive-Edition-1633054.html",
+  "metaSource": "nintendo-eu-solr"
 }

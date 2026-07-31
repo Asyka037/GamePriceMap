@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4078590,
+  "fetchedAt": "2026-07-27T13:45:34.238Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4078590&cc=us&l=english",
+  "responseDigest": "sha256:5675a9a63dcf2be46e206c7cf9c3a9297f121306ea0ef41802313b5bc7c7254c",
+  "payload": {
+    "4078590": {
+      "success": true,
+      "data": {
+        "steam_appid": 4078590,
+        "name": "The Planet Crafter - Toxicity",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 17, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 749,
+          "discount_percent": 25
+        },
+        "recommendations": {
+          "total": 464
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c1c1413e549f09fe0f5e1e64dd96cf1d890009d71aceb5231875569164436d6c"
+}

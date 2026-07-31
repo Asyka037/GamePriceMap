@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1235734,
+  "fetchedAt": "2026-07-30T12:55:55.753Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1235734&cc=us&l=english",
+  "responseDigest": "sha256:ad66409632a94394b067e380752ba8ed9cfbba01b0444ded1d69a514a42e907c",
+  "payload": {
+    "1235734": {
+      "success": true,
+      "data": {
+        "steam_appid": 1235734,
+        "name": "The Sims™ 4 Get To Work",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 284
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:41ec9385b29e939da4b7f5d59d0a331e2eb7b61e82bac23bf6e1b7227f390463"
+}

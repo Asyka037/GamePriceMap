@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1746860,
+  "fetchedAt": "2026-07-21T12:44:36.675Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1746860&cc=us&l=english",
+  "responseDigest": "sha256:0751720d8ea891db5577f559331802f1f0032957de63814c8fc235a75f9221ae",
+  "payload": {
+    "1746860": {
+      "success": true,
+      "data": {
+        "steam_appid": 1746860,
+        "name": "The Elder Scrolls V: Skyrim Anniversary Upgrade",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 7016
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9369defc170136989efe31d4e9e8f077befda3e28f05c77cca02d40e88d34f79"
+}

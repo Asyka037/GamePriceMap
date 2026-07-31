@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3228590,
+  "fetchedAt": "2026-07-21T12:44:47.000Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3228590&cc=us&l=english",
+  "responseDigest": "sha256:62c98b3beed7513cf4d4f95b1d27bd3086579ed451bba9cafc449f378d81eb1d",
+  "payload": {
+    "3228590": {
+      "success": true,
+      "data": {
+        "steam_appid": 3228590,
+        "name": "Deadzone: Rogue",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 11, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 1249,
+          "discount_percent": 50
+        },
+        "recommendations": {
+          "total": 14482
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:a3ca592ca6d63a0b01099fe64900801731ecb9d7444a78e39b0cfbc074c3cee0"
+}

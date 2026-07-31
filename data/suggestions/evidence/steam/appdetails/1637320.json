@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1637320,
+  "fetchedAt": "2026-07-21T12:44:20.941Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1637320&cc=us&l=english",
+  "responseDigest": "sha256:36adecf88604f6cf9f1bbbf0929b644ff0374bb8d54a2233278fef1782242f14",
+  "payload": {
+    "1637320": {
+      "success": true,
+      "data": {
+        "steam_appid": 1637320,
+        "name": "Dome Keeper",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 27, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1799,
+          "final": 539,
+          "discount_percent": 70
+        },
+        "recommendations": {
+          "total": 18445
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:d9bb2c23e0711c5075bff60b2181cf54daeee26ae8b7aefe9ef563b336aa06dd"
+}

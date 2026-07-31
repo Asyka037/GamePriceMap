@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2679100,
+  "fetchedAt": "2026-07-18T12:06:11.788Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2679100&cc=us&l=english",
+  "responseDigest": "sha256:c8a38f5534ea1828331a89f4a1e192fcf6129e547e45ff5bae9f31c10a258ca6",
+  "payload": {
+    "2679100": {
+      "success": true,
+      "data": {
+        "steam_appid": 2679100,
+        "name": "Witchspire",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 10, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2299,
+          "final": 1954,
+          "discount_percent": 15
+        },
+        "recommendations": {
+          "total": 1568
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:74512631d48b719227020bb128549250b51a845e450c73ea320c9d09b560be15"
+}

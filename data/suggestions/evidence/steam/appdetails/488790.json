@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 488790,
+  "fetchedAt": "2026-07-29T13:08:32.132Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=488790&cc=us&l=english",
+  "responseDigest": "sha256:f707f63ae40d578f8dedb4dba368ce7f656b86bde6b4e26533515e0c350a359e",
+  "payload": {
+    "488790": {
+      "success": true,
+      "data": {
+        "steam_appid": 488790,
+        "name": "South Park™: The Fractured But Whole™",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 16, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 31777
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:95afcfd24d91ac266a4b4fc788805988a2fb3ccb52e0d911ae521e1bfc192fd2"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1498570,
+  "fetchedAt": "2026-07-25T12:10:48.424Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1498570&cc=us&l=english",
+  "responseDigest": "sha256:8922e4e30f2b0ac805111b2086bf13a2545b19f324af6dc1ccf81359720e8d5b",
+  "payload": {
+    "1498570": {
+      "success": true,
+      "data": {
+        "steam_appid": 1498570,
+        "name": "THE KING OF FIGHTERS XV",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 749,
+          "discount_percent": 75
+        },
+        "recommendations": {
+          "total": 8244
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:19d800fc34663afd075e377c1598260d21ab10db56d32876e6bdbc98c55763cb"
+}

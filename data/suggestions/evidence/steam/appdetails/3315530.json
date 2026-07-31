@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3315530,
+  "fetchedAt": "2026-07-28T13:03:44.586Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3315530&cc=us&l=english",
+  "responseDigest": "sha256:20bfbfc6cf7b0d0ccd8f787536c6bbbf5e47d570c21caa5ce55baff23506ac73",
+  "payload": {
+    "3315530": {
+      "success": true,
+      "data": {
+        "steam_appid": 3315530,
+        "name": "Crusader Kings III: All Under Heaven",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 28, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1956
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b5c060d466b00c9962afe5d818d744679a8346b836868006a44823963d57fe41"
+}

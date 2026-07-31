@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2217000,
+  "fetchedAt": "2026-07-27T13:46:21.826Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2217000&cc=us&l=english",
+  "responseDigest": "sha256:720d55c10899c240f4c1237a8697e35a1abc27f3e4a38661c43bb02905180948",
+  "payload": {
+    "2217000": {
+      "success": true,
+      "data": {
+        "steam_appid": 2217000,
+        "name": "Rivals of Aether II",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 6778
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:502ca1d0df872f47efddbd32fcbccb8b02df6c0de7adf1f124d7b794bad517cc"
+}

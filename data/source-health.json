@@ -1,35 +1,29 @@
 {
-  "updatedAt": "2026-07-22T04:44:35.886Z",
+  "updatedAt": "2026-07-30T10:02:56.216Z",
   "sources": {
     "steam-regional": {
-      "lastAttemptAt": "2026-07-17T09:28:34.536Z",
-      "lastSuccessAt": "2026-07-17T09:28:34.536Z",
+      "lastAttemptAt": "2026-07-30T10:00:15.765Z",
+      "lastSuccessAt": "2026-07-30T10:00:15.765Z",
       "consecutiveFailures": 0,
-      "note": "changed 5, unchanged 86, skipped 0, failed region requests 0, expected 91"
+      "note": "changed 4, unchanged 87, skipped 0, failed region requests 0, expected 91"
     },
     "eshop-regional": {
-      "lastAttemptAt": "2026-07-17T09:29:47.331Z",
-      "lastSuccessAt": "2026-07-17T09:29:47.331Z",
+      "lastAttemptAt": "2026-07-30T10:01:29.884Z",
+      "lastSuccessAt": "2026-07-30T10:01:29.884Z",
       "consecutiveFailures": 0,
-      "note": "changed 7, unchanged 86, skipped 0, failed region requests 0, expected 93"
+      "note": "changed 3, unchanged 94, skipped 0, failed region requests 0, expected 97"
     },
     "xbox-us": {
-      "lastAttemptAt": "2026-07-22T04:44:35.886Z",
-      "lastSuccessAt": "2026-07-22T04:44:35.886Z",
+      "lastAttemptAt": "2026-07-27T12:23:09.817Z",
+      "lastSuccessAt": "2026-07-27T12:23:09.817Z",
       "consecutiveFailures": 0,
-      "note": "changed 0, unchanged 26, failed products 0, failed requests 0, expected 26"
-    },
-    "psn-us": {
-      "lastAttemptAt": null,
-      "lastSuccessAt": null,
-      "consecutiveFailures": 0,
-      "note": "POC registered; awaiting first authorized full weekly run"
+      "note": "changed 0, unchanged 14, failed products 0, failed requests 0, expected 14"
     },
     "steam-offers": {
-      "lastAttemptAt": "2026-07-15T06:02:09.176Z",
-      "lastSuccessAt": "2026-07-15T06:02:09.176Z",
+      "lastAttemptAt": "2026-07-27T12:25:17.525Z",
+      "lastSuccessAt": "2026-07-27T12:25:17.525Z",
       "consecutiveFailures": 0,
-      "note": "changed 0, unchanged 9, files written 0, failed requests 0, expected 9"
+      "note": "changed 5, unchanged 4, files written 2, failed requests 0, expected 9"
     },
     "meta": {
       "lastAttemptAt": "2026-07-16T15:57:35.996Z",
@@ -44,88 +38,130 @@
       "note": "changed 7, unchanged 0, failed games 0, expected 7"
     },
     "meta:shard-1": {
-      "lastAttemptAt": "2026-07-16T15:57:35.997Z",
-      "lastSuccessAt": "2026-07-16T15:57:35.997Z",
+      "lastAttemptAt": "2026-07-18T09:12:36.687Z",
+      "lastSuccessAt": "2026-07-18T09:12:36.687Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 19, unchanged 0, failed games 0, expected 19"
     },
     "meta:shard-2": {
-      "lastAttemptAt": "2026-07-16T15:57:35.997Z",
-      "lastSuccessAt": "2026-07-16T15:57:35.997Z",
+      "lastAttemptAt": "2026-07-19T09:31:34.333Z",
+      "lastSuccessAt": "2026-07-19T09:31:34.333Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 25, unchanged 1, failed games 0, expected 26"
     },
     "meta:shard-3": {
-      "lastAttemptAt": "2026-07-16T15:57:35.997Z",
-      "lastSuccessAt": "2026-07-16T15:57:35.997Z",
+      "lastAttemptAt": "2026-07-20T10:28:54.565Z",
+      "lastSuccessAt": "2026-07-20T10:28:54.565Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 9, unchanged 0, failed games 0, expected 9"
     },
     "meta:shard-4": {
-      "lastAttemptAt": "2026-07-16T15:57:35.998Z",
-      "lastSuccessAt": "2026-07-16T15:57:35.998Z",
+      "lastAttemptAt": "2026-07-21T10:06:21.865Z",
+      "lastSuccessAt": "2026-07-21T10:06:21.865Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 16, unchanged 0, failed games 0, expected 16"
     },
     "meta:shard-5": {
-      "lastAttemptAt": "2026-07-16T15:57:35.998Z",
-      "lastSuccessAt": "2026-07-16T15:57:35.998Z",
+      "lastAttemptAt": "2026-07-22T10:03:31.688Z",
+      "lastSuccessAt": "2026-07-22T10:03:31.688Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 10, unchanged 0, failed games 0, expected 10"
     },
     "meta:shard-6": {
-      "lastAttemptAt": "2026-07-16T15:57:35.998Z",
-      "lastSuccessAt": "2026-07-16T15:57:35.998Z",
+      "lastAttemptAt": "2026-07-23T10:02:43.974Z",
+      "lastSuccessAt": "2026-07-23T10:02:43.974Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 20, unchanged 0, failed games 0, expected 20"
     },
     "meta:shard-7": {
-      "lastAttemptAt": "2026-07-16T15:57:35.998Z",
-      "lastSuccessAt": "2026-07-16T15:57:35.998Z",
+      "lastAttemptAt": "2026-07-24T09:59:31.305Z",
+      "lastSuccessAt": "2026-07-24T09:59:31.305Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 14, unchanged 0, failed games 0, expected 14"
     },
     "meta:shard-8": {
-      "lastAttemptAt": "2026-07-16T15:57:35.999Z",
-      "lastSuccessAt": "2026-07-16T15:57:35.999Z",
+      "lastAttemptAt": "2026-07-25T09:22:02.900Z",
+      "lastSuccessAt": "2026-07-25T09:22:02.900Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 17, unchanged 0, failed games 0, expected 17"
     },
     "meta:shard-9": {
-      "lastAttemptAt": "2026-07-16T15:57:36.000Z",
-      "lastSuccessAt": "2026-07-16T15:57:36.000Z",
+      "lastAttemptAt": "2026-07-26T09:37:29.972Z",
+      "lastSuccessAt": "2026-07-26T09:37:29.972Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 16, unchanged 1, failed games 0, expected 17"
     },
     "meta:shard-10": {
-      "lastAttemptAt": "2026-07-16T15:57:36.000Z",
-      "lastSuccessAt": "2026-07-16T15:57:36.000Z",
+      "lastAttemptAt": "2026-07-27T10:57:39.693Z",
+      "lastSuccessAt": "2026-07-27T10:57:39.693Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 15, unchanged 0, failed games 0, expected 15"
     },
     "meta:shard-11": {
-      "lastAttemptAt": "2026-07-16T15:57:36.000Z",
-      "lastSuccessAt": "2026-07-16T15:57:36.000Z",
+      "lastAttemptAt": "2026-07-28T10:11:46.797Z",
+      "lastSuccessAt": "2026-07-28T10:11:46.797Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 16, unchanged 2, failed games 0, expected 18"
     },
     "meta:shard-12": {
-      "lastAttemptAt": "2026-07-16T15:57:36.000Z",
-      "lastSuccessAt": "2026-07-16T15:57:36.000Z",
+      "lastAttemptAt": "2026-07-29T10:12:21.366Z",
+      "lastSuccessAt": "2026-07-29T10:12:21.366Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 17, unchanged 1, failed games 0, expected 18"
     },
     "meta:shard-13": {
-      "lastAttemptAt": "2026-07-16T15:57:36.001Z",
-      "lastSuccessAt": "2026-07-16T15:57:36.001Z",
+      "lastAttemptAt": "2026-07-30T10:02:56.216Z",
+      "lastSuccessAt": "2026-07-30T10:02:56.216Z",
       "consecutiveFailures": 0,
-      "note": "changed 90, unchanged 41, failed games 0, expected 131"
+      "note": "changed 20, unchanged 0, failed games 0, expected 20"
     },
     "steam-regional:extended-2": {
-      "lastAttemptAt": "2026-07-17T09:29:03.486Z",
-      "lastSuccessAt": "2026-07-17T09:29:03.486Z",
+      "lastAttemptAt": "2026-07-24T09:57:34.720Z",
+      "lastSuccessAt": "2026-07-24T09:57:34.720Z",
       "consecutiveFailures": 0,
-      "note": "changed 0, unchanged 1, skipped 0, failed region requests 0, expected 1"
+      "note": "changed 2, unchanged 15, skipped 0, failed region requests 0, expected 17"
+    },
+    "steam-regional:extended-0": {
+      "lastAttemptAt": "2026-07-25T09:19:55.167Z",
+      "lastSuccessAt": "2026-07-25T09:19:55.167Z",
+      "consecutiveFailures": 0,
+      "note": "changed 4, unchanged 13, skipped 0, failed region requests 0, expected 17"
+    },
+    "steam-regional:extended-1": {
+      "lastAttemptAt": "2026-07-26T09:35:21.658Z",
+      "lastSuccessAt": "2026-07-26T09:35:21.658Z",
+      "consecutiveFailures": 0,
+      "note": "changed 9, unchanged 9, skipped 0, failed region requests 0, expected 18"
+    },
+    "steam-regional:extended-3": {
+      "lastAttemptAt": "2026-07-27T10:55:39.435Z",
+      "lastSuccessAt": "2026-07-27T10:55:39.435Z",
+      "consecutiveFailures": 0,
+      "note": "changed 4, unchanged 6, skipped 0, failed region requests 0, expected 10"
+    },
+    "steam-regional:extended-4": {
+      "lastAttemptAt": "2026-07-28T10:09:42.618Z",
+      "lastSuccessAt": "2026-07-28T10:09:42.618Z",
+      "consecutiveFailures": 0,
+      "note": "changed 4, unchanged 7, skipped 0, failed region requests 0, expected 11"
+    },
+    "steam-regional:extended-5": {
+      "lastAttemptAt": "2026-07-29T10:10:16.383Z",
+      "lastSuccessAt": "2026-07-29T10:10:16.383Z",
+      "consecutiveFailures": 0,
+      "note": "changed 2, unchanged 9, skipped 0, failed region requests 0, expected 11"
+    },
+    "steam-regional:extended-6": {
+      "lastAttemptAt": "2026-07-30T10:00:44.342Z",
+      "lastSuccessAt": "2026-07-30T10:00:44.342Z",
+      "consecutiveFailures": 0,
+      "note": "changed 5, unchanged 10, skipped 0, failed region requests 0, expected 15"
+    },
+    "psn-us": {
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "consecutiveFailures": 0,
+      "note": "POC registered; awaiting first authorized full weekly run"
     },
     "calendar-xbox-us": {
       "lastAttemptAt": "2026-07-22T04:43:48.907Z",

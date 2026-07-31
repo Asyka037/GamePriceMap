@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2819400,
+  "fetchedAt": "2026-07-18T12:07:00.765Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2819400&cc=us&l=english",
+  "responseDigest": "sha256:0ea125e089e836458b5f52d3a3f340faf19363aadf349e23ac5ebb0b7d185df0",
+  "payload": {
+    "2819400": {
+      "success": true,
+      "data": {
+        "steam_appid": 2819400,
+        "name": "Disc Golf Masters",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 263
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7ee88c1c7fd5faf7f273e8722fa8bcf7a81144238b45b90a21e88cd11522d862"
+}

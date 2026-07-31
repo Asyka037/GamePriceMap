@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 2879840,
+  "fetchedAt": "2026-07-26T12:17:39.678Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=2879840&cc=us&l=english",
+  "responseDigest": "sha256:92fa6eb8b70b5030d726fa66a279e49d6948c49ab5852885b064b8775b817be1",
+  "payload": {
+    "2879840": {
+      "success": true,
+      "data": {
+        "steam_appid": 2879840,
+        "name": "Escape Simulator 2",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2025"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 4115
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:1d6f7c3d81c126584bff87db8cf12c8a523d8c6c185a3b896c8955740929e77f"
+}

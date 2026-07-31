@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3417410,
+  "fetchedAt": "2026-07-19T12:07:57.639Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3417410&cc=us&l=english",
+  "responseDigest": "sha256:4b55f3f8b26f9a5977c59aec67ca788e88f368f74b88c818a8f4c92ff52c5403",
+  "payload": {
+    "3417410": {
+      "success": true,
+      "data": {
+        "steam_appid": 3417410,
+        "name": "Storebound",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 639,
+          "discount_percent": 20
+        },
+        "recommendations": {
+          "total": 773
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:9303e0fb273b6a09d5acba8e5d88522e79f05ee99d9cf51d6aa3b31080255799"
+}

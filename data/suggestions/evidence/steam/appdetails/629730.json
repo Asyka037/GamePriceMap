@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 629730,
+  "fetchedAt": "2026-07-23T12:50:18.587Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=629730&cc=us&l=english",
+  "responseDigest": "sha256:4ff589788bedb03f39ffdb28c43c09408949716c491be3be029763db4220f430",
+  "payload": {
+    "629730": {
+      "success": true,
+      "data": {
+        "steam_appid": 629730,
+        "name": "Blade and Sorcery",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 17, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 58676
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:952c114b9ff4c5c4fa790559f467712525ee33a4308162c3a50e8d104373e49a"
+}

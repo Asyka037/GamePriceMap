@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 3105440,
+  "fetchedAt": "2026-07-20T13:18:44.749Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=3105440&cc=us&l=english",
+  "responseDigest": "sha256:7018f94f3b8477d33b6def3648c4645da86774f6004763cf00f9a9f94ec26dd3",
+  "payload": {
+    "3105440": {
+      "success": true,
+      "data": {
+        "steam_appid": 3105440,
+        "name": "Heroes of Might and Magic: Olden Era",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 30, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 17730
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:b85ef16ab8ac86bdf51af7d06928958e885ba1a0f1d721ebc673e0a2d9775081"
+}

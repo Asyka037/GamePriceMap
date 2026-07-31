@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4634490,
+  "fetchedAt": "2026-07-23T12:50:22.630Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4634490&cc=us&l=english",
+  "responseDigest": "sha256:7a89edfc8fc89e95cc12e213b4695d08b3724a9bab0a89672856b238b7b4ef56",
+  "payload": {
+    "4634490": {
+      "success": true,
+      "data": {
+        "steam_appid": 4634490,
+        "name": "Master Healer Kale with useless party",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 2, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1358
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:7621923abcde43fa9b67edeed35629568fd956c5917eff539d3189fd8e01e20d"
+}

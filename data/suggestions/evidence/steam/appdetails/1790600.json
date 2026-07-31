@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1790600,
+  "fetchedAt": "2026-07-24T12:47:26.690Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1790600&cc=us&l=english",
+  "responseDigest": "sha256:26cc6e9754934d90cd65861358459d8cfe1bb26c06e878a9ff92716f7236465b",
+  "payload": {
+    "1790600": {
+      "success": true,
+      "data": {
+        "steam_appid": 1790600,
+        "name": "DRAGON BALL: Sparking! ZERO",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 6999,
+          "final": 6999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 49260
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:402aea789d5d9b2ffc1f1068c2bc25f947d063e20b51362a51a391f404cc5f3b"
+}

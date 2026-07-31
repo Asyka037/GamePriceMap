@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 4355570,
+  "fetchedAt": "2026-07-18T12:06:05.566Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=4355570&cc=us&l=english",
+  "responseDigest": "sha256:bf2031213810f4433589fb6a7c08e095d4088086999b982d489763a1b8e233fe",
+  "payload": {
+    "4355570": {
+      "success": true,
+      "data": {
+        "steam_appid": 4355570,
+        "name": "Warhammer 40,000: Darktide - Skitarii Class",
+        "type": "dlc",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 23, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1199,
+          "final": 1199,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 1168
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:19391da136e4b3cfcada6d6f2f68f5b2aac36ab7922ec73caadfefecc98a06e1"
+}

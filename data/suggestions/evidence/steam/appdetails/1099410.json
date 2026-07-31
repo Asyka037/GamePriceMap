@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1099410,
+  "fetchedAt": "2026-07-27T13:45:55.120Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1099410&cc=us&l=english",
+  "responseDigest": "sha256:8ec01f596d66aa340d1b8d62751196a6da93d0f421d399c2d3d0444413bf54fb",
+  "payload": {
+    "1099410": {
+      "success": true,
+      "data": {
+        "steam_appid": 1099410,
+        "name": "A Total War Saga: TROY",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 2, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 3232
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:c17b564237b1b38df319905dd4b6b04ba72e6fe22e73bf273e0a5598cf3d8816"
+}

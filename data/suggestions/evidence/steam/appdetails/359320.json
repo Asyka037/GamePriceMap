@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 359320,
+  "fetchedAt": "2026-07-22T12:47:57.172Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=359320&cc=us&l=english",
+  "responseDigest": "sha256:0016ebbd7380f9f27da69454f85dbe55029b7ea736988cdff49c4fa44f46ecef",
+  "payload": {
+    "359320": {
+      "success": true,
+      "data": {
+        "steam_appid": 359320,
+        "name": "Elite Dangerous",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 2, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0
+        },
+        "recommendations": {
+          "total": 81837
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:f961d531be5da0e989eb6e246d6a5867773445737a78c4d5ebec897685d868cf"
+}

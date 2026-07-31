@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 997010,
+  "fetchedAt": "2026-07-19T12:08:01.432Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=997010&cc=us&l=english",
+  "responseDigest": "sha256:a6d41710edf00e3b8ab420a8ee2c51d255008074640329cc3b3f8dcaeb04734e",
+  "payload": {
+    "997010": {
+      "success": true,
+      "data": {
+        "steam_appid": 997010,
+        "name": "Police Simulator: Patrol Officers",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 599,
+          "discount_percent": 80
+        },
+        "recommendations": {
+          "total": 18409
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:590872a788ed475be6b89fdc0d51371a00159e85755c651f65b6ca22157befbb"
+}

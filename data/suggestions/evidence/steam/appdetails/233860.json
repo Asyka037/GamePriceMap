@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 233860,
+  "fetchedAt": "2026-07-20T13:18:17.344Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=233860&cc=us&l=english",
+  "responseDigest": "sha256:c11d8790831f28ac1e43ff0480c59f2e11b4cb40a69ae7b9d6fc2dd928c7c1e3",
+  "payload": {
+    "233860": {
+      "success": true,
+      "data": {
+        "steam_appid": 233860,
+        "name": "Kenshi",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 6, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 1199,
+          "discount_percent": 60
+        },
+        "recommendations": {
+          "total": 96766
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:dce2ecba95d2cb674e77552796e27d7b5e53353818813cc593ed5c520a012389"
+}

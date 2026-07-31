@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "steam-appdetails-evidence",
+  "appId": 1938090,
+  "fetchedAt": "2026-07-19T12:07:55.055Z",
+  "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=1938090&cc=us&l=english",
+  "responseDigest": "sha256:f4f9cfa7ba7c420068beb64d53836472e0e0a35d2c4de4d0b4c6615165cbfb56",
+  "payload": {
+    "1938090": {
+      "success": true,
+      "data": {
+        "steam_appid": 1938090,
+        "name": "Call of Duty®",
+        "type": "game",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2022"
+        },
+        "recommendations": {
+          "total": 410347
+        }
+      }
+    }
+  },
+  "documentDigest": "sha256:ca57655fb917bd6f00c2124da931273656ff7942292224b4df8700d87964222f"
+}
