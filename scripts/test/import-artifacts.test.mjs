@@ -50,16 +50,22 @@ function setup() {
   return { root, plan: { items: [item] }, item };
 }
 
-test('import artifacts require broad applicable coverage, native US and channel history events', () => {
+test('import artifacts require at least 10 Steam regions, native US and channel history events', () => {
   const { root, plan, item } = setup();
   const report = validateImportArtifacts(root, plan);
   assert.deepEqual(report.items[0].channels, ['steam', 'eshop']);
 
   const steamFile = path.join(root, `data/snapshots/steam/${item.slug}.json`);
   const steam = JSON.parse(fs.readFileSync(steamFile));
-  steam.regions = steam.regions.slice(0, 1);
+  steam.regions = [
+    steam.regions.find((row) => row.cc === 'US'),
+    ...steam.regions.filter((row) => row.cc !== 'US').slice(0, 9),
+  ];
   writeJson(root, `data/snapshots/steam/${item.slug}.json`, steam);
-  assert.throws(() => validateImportArtifacts(root, plan), /coverage 1\/18/);
+  assert.doesNotThrow(() => validateImportArtifacts(root, plan));
+  steam.regions = steam.regions.slice(0, 9);
+  writeJson(root, `data/snapshots/steam/${item.slug}.json`, steam);
+  assert.throws(() => validateImportArtifacts(root, plan), /coverage 9\/18/);
 });
 
 test('import artifacts reject a missing first event even when validate-shaped files exist', () => {

@@ -4,6 +4,7 @@ import { STEAM_REGIONS } from './steam.mjs';
 import { ESHOP_REGIONS } from './eshop.mjs';
 import { fileSha256 } from './import-run.mjs';
 import { normTitle, titleMatches } from './match.mjs';
+import { MIN_STEAM_IMPORT_REGION_COUNT } from './import-limits.mjs';
 
 function readJson(root, rel) {
   const absolute = path.join(root, rel);
@@ -15,26 +16,41 @@ function readJson(root, rel) {
   }
 }
 
-function requiredCoverage(actual, expected, label, minimumRatio) {
-  const minimum = Math.ceil(expected * minimumRatio);
+function requiredCoverage(actual, expected, label, { minimumRatio = null, minimumCount = null } = {}) {
+  const minimum = minimumCount == null
+    ? Math.ceil(expected * minimumRatio)
+    : Math.min(expected, minimumCount);
   if (actual < minimum) throw new Error(`${label}: coverage ${actual}/${expected} below import minimum ${minimum}/${expected}`);
 }
 
-function validateSnapshot(snapshot, { slug, label, expectedCcs, requireUs, minimumRatio }) {
+function validateSnapshot(snapshot, {
+  slug,
+  label,
+  expectedCcs,
+  requireUs,
+  minimumRatio = null,
+  minimumCount = null,
+}) {
   if (snapshot.slug !== slug) throw new Error(`${label}: slug ${snapshot.slug} does not match ${slug}`);
   if (!Array.isArray(snapshot.regions) || snapshot.regions.length === 0) throw new Error(`${label}: no regions`);
   const rows = new Map(snapshot.regions.map((row) => [String(row.cc).toUpperCase(), row]));
   if (rows.size !== snapshot.regions.length) throw new Error(`${label}: duplicate regions`);
   const covered = expectedCcs.filter((cc) => rows.has(cc)).length;
-  requiredCoverage(covered, expectedCcs.length, label, minimumRatio);
+  requiredCoverage(covered, expectedCcs.length, label, { minimumRatio, minimumCount });
   if (requireUs) {
     const us = rows.get('US');
     if (!us || us.currency !== 'USD' || !(us.amount > 0)) throw new Error(`${label}: missing native US/USD paid observation`);
   }
 }
 
-export function validateImportArtifacts(root, plan, { minimumCoverageRatio = 0.8 } = {}) {
+export function validateImportArtifacts(root, plan, {
+  minimumCoverageRatio = 0.8,
+  minimumSteamRegionCount = MIN_STEAM_IMPORT_REGION_COUNT,
+} = {}) {
   if (!(minimumCoverageRatio > 0 && minimumCoverageRatio <= 1)) throw new Error('bad minimumCoverageRatio');
+  if (!(Number.isInteger(minimumSteamRegionCount) && minimumSteamRegionCount > 0 && minimumSteamRegionCount <= STEAM_REGIONS.length)) {
+    throw new Error('bad minimumSteamRegionCount');
+  }
   const catalog = readJson(root, 'data/catalog.json');
   const bySlug = new Map(catalog.games.map((game) => [game.slug, game]));
   const files = new Set(['data/catalog.json']);
@@ -81,7 +97,7 @@ export function validateImportArtifacts(root, plan, { minimumCoverageRatio = 0.8
         label: rel,
         expectedCcs: STEAM_REGIONS.map((cc) => cc.toUpperCase()),
         requireUs: true,
-        minimumRatio: minimumCoverageRatio,
+        minimumCount: minimumSteamRegionCount,
       });
       files.add(rel);
       channels.push('steam');
@@ -164,6 +180,7 @@ export function validateImportArtifacts(root, plan, { minimumCoverageRatio = 0.8
   return {
     checkedAt: new Date().toISOString(),
     minimumCoverageRatio,
+    minimumSteamRegionCount,
     items,
     files: Object.fromEntries([...files].sort().map((rel) => [rel, fileSha256(path.join(root, rel))])),
   };

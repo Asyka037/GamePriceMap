@@ -57,11 +57,12 @@ test('canonical JSON and plan digests ignore object key insertion order but pres
   assert.throws(() => createBatchPlan(planInput({ approvalPolicy: 'silent-bypass' })), /approvalPolicy/u);
 });
 
-test('batch plan rejects unsafe IDs, duplicates, missing evidence and batches over 100', () => {
+test('batch plan rejects unsafe IDs, duplicates, missing evidence and batches over 1000', () => {
   assert.throws(() => createBatchPlan(planInput({ items: [item({ slug: '../escape' })] })), /bad slug/);
   assert.throws(() => createBatchPlan(planInput({ items: [item(), item()] })), /duplicate batch key/);
   assert.throws(() => createBatchPlan(planInput({ items: [item({ evidenceDigest: 'nope' })] })), /evidenceDigest/);
-  assert.throws(() => createBatchPlan(planInput({ items: Array.from({ length: 101 }, (_, i) => item({ key: `steam:${i + 1}`, slug: `game-${i + 1}`, steamAppId: i + 1 })) })), /1\.\.100/);
+  assert.doesNotThrow(() => createBatchPlan(planInput({ items: Array.from({ length: 1_000 }, (_, i) => item({ key: `steam:${i + 1}`, slug: `game-${i + 1}`, steamAppId: i + 1 })) })));
+  assert.throws(() => createBatchPlan(planInput({ items: Array.from({ length: 1_001 }, (_, i) => item({ key: `steam:${i + 1}`, slug: `game-${i + 1}`, steamAppId: i + 1 })) })), /1\.\.1000/);
   assert.throws(() => createBatchPlan(planInput({ items: [item({ key: 'steam:999' })] })), /key does not match steamAppId/);
   assert.throws(() => createBatchPlan(planInput({ items: [item({
     key: 'ns:70010000000001',

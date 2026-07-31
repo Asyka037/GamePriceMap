@@ -18,7 +18,7 @@ test('Americas coverage requires an actual native US/USD observation', () => {
   assert.equal(hasNativeUsObservation(null), false);
 });
 
-test('new snapshots require 80% of the regions applicable to their mappings', () => {
+test('new Steam snapshots require 10 regions while eShop keeps 80% of applicable mappings', () => {
   const config = {
     steamRegions: Array.from({ length: 18 }, (_, i) => `s${i}`),
     eshopRegions: [
@@ -27,7 +27,7 @@ test('new snapshots require 80% of the regions applicable to their mappings', ()
       { cc: 'JP', group: 'japan' },
     ],
   };
-  assert.equal(minimumApplicableRegionCount('steam', {}, config), 15);
+  assert.equal(minimumApplicableRegionCount('steam', {}, config), 10);
   assert.equal(minimumApplicableRegionCount('eshop', { nsuids: { europe: 'id' } }, config), 8);
   assert.equal(minimumApplicableRegionCount('eshop', { nsuids: { americas: 'id', europe: 'id' } }, config), 12);
 });

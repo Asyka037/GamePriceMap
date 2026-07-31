@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { MAX_DAILY_ADMISSION_ITEMS } from './import-limits.mjs';
 
 export const ADMISSION_TIME_ZONE = 'Asia/Tokyo';
 
@@ -15,14 +16,25 @@ function calendarDay(value, timeZone = ADMISSION_TIME_ZONE) {
   return `${parts.year}-${parts.month}-${parts.day}`;
 }
 
-/** Prevent two different catalog admission waves on one project-local day. */
+/**
+ * Bound the aggregate number of catalog admissions on one project-local day.
+ * Multiple immutable receipts are allowed, but their combined item count plus
+ * the new plan may not exceed the user-approved daily ceiling.
+ */
 export function assertAdmissionDayAvailable(root, plan, now = new Date()) {
   const day = calendarDay(now);
   const receiptsDir = path.join(path.resolve(root), 'data', 'imports');
   if (!fs.existsSync(receiptsDir)) return;
+  if (!Array.isArray(plan?.items) || plan.items.length === 0) {
+    throw new Error('admission plan must contain items');
+  }
+  let admittedToday = 0;
   for (const name of fs.readdirSync(receiptsDir).filter((entry) => entry.endsWith('.json')).sort()) {
     const receipt = JSON.parse(fs.readFileSync(path.join(receiptsDir, name), 'utf8'));
-    if (typeof receipt?.batchId !== 'string' || !Number.isFinite(Date.parse(receipt?.appliedAt ?? ''))) {
+    if (typeof receipt?.batchId !== 'string'
+      || !Number.isFinite(Date.parse(receipt?.appliedAt ?? ''))
+      || !Array.isArray(receipt?.items)
+      || receipt.items.length === 0) {
       throw new Error(`invalid import receipt while checking admission day: ${name}`);
     }
     if (receipt.batchId === plan?.batchId) {
@@ -32,14 +44,20 @@ export function assertAdmissionDayAvailable(root, plan, now = new Date()) {
       throw error;
     }
     if (calendarDay(receipt.appliedAt) === day) {
-      const error = new Error(
-        `catalog admission day ${day} is already occupied by ${receipt.batchId}; `
-          + 'run this batch on the next project-local day',
-      );
-      error.code = 'ADMISSION_DAY_OCCUPIED';
-      error.existingBatchId = receipt.batchId;
-      throw error;
+      admittedToday += receipt.items.length;
     }
+  }
+  const requested = plan.items.length;
+  if (admittedToday + requested > MAX_DAILY_ADMISSION_ITEMS) {
+    const error = new Error(
+      `catalog admission day ${day} would exceed ${MAX_DAILY_ADMISSION_ITEMS} items: `
+        + `${admittedToday} already admitted + ${requested} requested`,
+    );
+    error.code = 'ADMISSION_DAY_CAPACITY_EXCEEDED';
+    error.admittedToday = admittedToday;
+    error.requested = requested;
+    error.maximum = MAX_DAILY_ADMISSION_ITEMS;
+    throw error;
   }
 }
 

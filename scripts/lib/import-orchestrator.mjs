@@ -36,15 +36,15 @@ import {
 const STATE_DIR_REL = 'private/game-library/import';
 const NETWORK_STEPS = new Set(['steam', 'eshop', 'xbox', 'psn', 'meta']);
 export const STEP_TIMEOUT_MS = Object.freeze({
-  steam: 15 * 60_000,
+  steam: 30 * 60_000,
   eshop: 15 * 60_000,
   xbox: 15 * 60_000,
   psn: 15 * 60_000,
-  meta: 20 * 60_000,
-  history: 5 * 60_000,
-  test: 5 * 60_000,
-  validate: 5 * 60_000,
-  build: 10 * 60_000,
+  meta: 75 * 60_000,
+  history: 15 * 60_000,
+  test: 15 * 60_000,
+  validate: 15 * 60_000,
+  build: 20 * 60_000,
 });
 const STEP_STATE = Object.freeze({
   catalog: 'catalog_staged',

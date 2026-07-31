@@ -3,6 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { validPsnProductId } from './psn.mjs';
 import { validXboxBigId } from './xbox.mjs';
+import { MAX_IMPORT_BATCH_ITEMS } from './import-limits.mjs';
 
 export const IMPORT_SCHEMA_VERSION = 1;
 export const IMPORT_STEPS = Object.freeze([
@@ -218,8 +219,8 @@ export function validateBatchPlan(plan, { requireDigest = true } = {}) {
   if (plan.approvalPolicy != null && plan.approvalPolicy !== 'v2-auto-approve') {
     throw new Error(`unsupported batch approvalPolicy ${plan.approvalPolicy}`);
   }
-  if (!Array.isArray(plan.items) || plan.items.length === 0 || plan.items.length > 100) {
-    throw new Error('batch items must contain 1..100 entries');
+  if (!Array.isArray(plan.items) || plan.items.length === 0 || plan.items.length > MAX_IMPORT_BATCH_ITEMS) {
+    throw new Error(`batch items must contain 1..${MAX_IMPORT_BATCH_ITEMS} entries`);
   }
   plan.items.forEach(validateItem);
 

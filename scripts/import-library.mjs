@@ -39,6 +39,7 @@ import {
 } from './lib/http.mjs';
 import { exportReviewArtifacts } from './export-candidate-review.mjs';
 import { assertAdmissionDayAvailable, assertAdmissionReceiptDay } from './lib/import-admission.mjs';
+import { MAX_IMPORT_BATCH_ITEMS } from './lib/import-limits.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const RUN_ID_RE = /^[a-z0-9][a-z0-9-]{5,95}$/u;
@@ -141,12 +142,16 @@ export function parseImportArgs(args) {
   if (['verify', 'apply'].includes(mode) && !options.candidateSource) {
     throw new Error(`--${mode} requires --candidate-source FILE`);
   }
-  if (mode === 'apply' && options.batch === undefined) throw new Error('--apply requires --batch 1..100');
+  if (mode === 'apply' && options.batch === undefined) {
+    throw new Error(`--apply requires --batch 1..${MAX_IMPORT_BATCH_ITEMS}`);
+  }
   if (mode === 'verify') {
     options.maxRequests = integerOption(options.maxRequests ?? '50', '--max-requests', { min: 1, max: 200 });
     options.sleepMs = integerOption(options.sleepMs ?? '1200', '--sleep-ms', { min: 0, max: 5000 });
   }
-  if (mode === 'apply') options.batch = integerOption(options.batch, '--batch', { min: 1, max: 100 });
+  if (mode === 'apply') {
+    options.batch = integerOption(options.batch, '--batch', { min: 1, max: MAX_IMPORT_BATCH_ITEMS });
+  }
   options.policy = normalizeImportApprovalPolicy(options.policy);
   if (['resume', 'abort', 'status'].includes(mode) && !options.runId) throw new Error(`--${mode} requires RUN_ID`);
   if (options.runId && !RUN_ID_RE.test(options.runId)) throw new Error('invalid runId');

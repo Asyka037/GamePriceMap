@@ -103,7 +103,9 @@ test('strict parser rejects raw --plan bypass, unknown/missing options, and mixe
   );
   assert.throws(() => parseImportArgs(['--verify', '--candidate-source']), /requires a value/u);
   assert.throws(() => parseImportArgs(['--verify', '--resume', 'run-001']), /exactly one/u);
-  assert.throws(() => parseImportArgs(['--apply', '--batch', '0', '--candidate-source', 'x']), /1..100/u);
+  assert.throws(() => parseImportArgs(['--apply', '--batch', '0', '--candidate-source', 'x']), /1..1000/u);
+  assert.equal(parseImportArgs(['--apply', '--batch', '1000', '--candidate-source', 'x']).batch, 1000);
+  assert.throws(() => parseImportArgs(['--apply', '--batch', '1001', '--candidate-source', 'x']), /1..1000/u);
   assert.throws(() => parseImportArgs(['--status', 'run-001', '--batch', '1']), /not valid/u);
   assert.throws(() => parseImportArgs(['--resume', 'run-001', '--run-id', 'run-002']), /not valid/u);
   assert.equal(
@@ -137,7 +139,7 @@ test('strict parser rejects raw --plan bypass, unknown/missing options, and mixe
   assert.throws(() => validateCandidateSourceDocument(forged), /candidate|slugHint|catalog action/iu);
 });
 
-test('catalog admission guard allows one distinct batch per Tokyo calendar day', () => {
+test('catalog admission guard allows multiple receipts up to 1000 items per Tokyo calendar day', () => {
   const { root } = tempPaths();
   const receipts = path.join(root, 'data', 'imports');
   fs.mkdirSync(receipts, { recursive: true });
@@ -145,25 +147,42 @@ test('catalog admission guard allows one distinct batch per Tokyo calendar day',
     batchId: 'nintendo-wave',
     batchDigest: `sha256:${'a'.repeat(64)}`,
     appliedAt: '2026-07-18T15:03:57.612Z',
+    items: Array.from({ length: 100 }, (_, index) => ({ key: `ns:${index}` })),
   })}\n`);
   try {
-    assert.throws(
-      () => assertAdmissionDayAvailable(root, { batchId: 'psn-wave' }, new Date('2026-07-18T15:30:00.000Z')),
-      { code: 'ADMISSION_DAY_OCCUPIED' },
-    );
     assert.doesNotThrow(
       () => assertAdmissionDayAvailable(root, {
-        batchId: 'nintendo-wave', batchDigest: `sha256:${'a'.repeat(64)}`,
+        batchId: 'psn-wave',
+        items: Array.from({ length: 900 }, (_, index) => ({ key: `psn:${index}` })),
       }, new Date('2026-07-18T15:30:00.000Z')),
     );
     assert.throws(
       () => assertAdmissionDayAvailable(root, {
-        batchId: 'nintendo-wave', batchDigest: `sha256:${'b'.repeat(64)}`,
+        batchId: 'overflow-wave',
+        items: Array.from({ length: 901 }, (_, index) => ({ key: `steam:${index}` })),
+      }, new Date('2026-07-18T15:30:00.000Z')),
+      { code: 'ADMISSION_DAY_CAPACITY_EXCEEDED' },
+    );
+    assert.doesNotThrow(
+      () => assertAdmissionDayAvailable(root, {
+        batchId: 'nintendo-wave',
+        batchDigest: `sha256:${'a'.repeat(64)}`,
+        items: [{ key: 'same-batch' }],
+      }, new Date('2026-07-18T15:30:00.000Z')),
+    );
+    assert.throws(
+      () => assertAdmissionDayAvailable(root, {
+        batchId: 'nintendo-wave',
+        batchDigest: `sha256:${'b'.repeat(64)}`,
+        items: [{ key: 'reused-batch' }],
       }, new Date('2026-07-18T15:30:00.000Z')),
       { code: 'BATCH_ID_REUSED' },
     );
     assert.doesNotThrow(
-      () => assertAdmissionDayAvailable(root, { batchId: 'psn-wave' }, new Date('2026-07-19T15:00:00.000Z')),
+      () => assertAdmissionDayAvailable(root, {
+        batchId: 'psn-wave',
+        items: Array.from({ length: 1_000 }, (_, index) => ({ key: `psn:${index}` })),
+      }, new Date('2026-07-19T15:00:00.000Z')),
     );
   } finally {
     fs.rmSync(root, { recursive: true, force: true });

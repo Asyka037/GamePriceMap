@@ -9,6 +9,7 @@ import {
 } from './library-workbook.mjs';
 import { validPsnProductId } from './psn.mjs';
 import { validXboxBigId } from './xbox.mjs';
+import { MAX_IMPORT_BATCH_ITEMS } from './import-limits.mjs';
 
 export const IMPORT_STATE_SCHEMA_VERSION = 1;
 export const VERIFY_STATUS = Object.freeze({
@@ -348,7 +349,9 @@ export function projectBatchItem(candidate) {
 
 export function projectEligibleBatch(candidates, { limit = 25, ...eligibilityOptions } = {}) {
   if (!Array.isArray(candidates)) throw new TypeError('candidates 必须是数组');
-  if (!(Number.isInteger(limit) && limit >= 1 && limit <= 100)) throw new Error('limit 必须是 1..100 整数');
+  if (!(Number.isInteger(limit) && limit >= 1 && limit <= MAX_IMPORT_BATCH_ITEMS)) {
+    throw new Error(`limit 必须是 1..${MAX_IMPORT_BATCH_ITEMS} 整数`);
+  }
   const seen = new Set();
   const items = [];
   for (const candidate of candidates) {
