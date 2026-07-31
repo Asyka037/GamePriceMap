@@ -1,11 +1,11 @@
 {
   "slug": "kenshi",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "96247",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.39,
+      "date": "2026-05-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

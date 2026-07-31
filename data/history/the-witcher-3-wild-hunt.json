@@ -1,11 +1,11 @@
 {
   "slug": "the-witcher-3-wild-hunt",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "112330",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.99,
+      "date": "2024-06-27",
+      "seed": "cheapshark"
     }
   },
   "events": [

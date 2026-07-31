@@ -1,11 +1,11 @@
 {
   "slug": "abyssus",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "306947",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.95,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

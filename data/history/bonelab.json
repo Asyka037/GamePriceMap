@@ -1,11 +1,11 @@
 {
   "slug": "bonelab",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "251519",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 31.99,
+      "date": "2022-12-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

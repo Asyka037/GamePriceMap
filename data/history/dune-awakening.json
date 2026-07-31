@@ -1,11 +1,11 @@
 {
   "slug": "dune-awakening",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "299440",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 26.39,
+      "date": "2026-05-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

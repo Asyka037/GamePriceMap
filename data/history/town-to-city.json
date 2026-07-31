@@ -1,11 +1,11 @@
 {
   "slug": "town-to-city",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "308402",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 16.24,
+      "date": "2026-03-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

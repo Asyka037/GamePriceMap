@@ -1,11 +1,11 @@
 {
   "slug": "timberborn",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "225369",
   "atl": {
     "pc": {
-      "usd": 24.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.59,
+      "date": "2025-06-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

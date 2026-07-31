@@ -1,11 +1,11 @@
 {
   "slug": "farever",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "321659",
   "atl": {
     "pc": {
-      "usd": 19.99,
+      "usd": 14.65,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

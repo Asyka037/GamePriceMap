@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-30T10:01:31.275Z",
+  "updatedAt": "2026-07-31T10:09:30.775Z",
   "items": [
     {
-      "title": "Cyberpunk 2077",
+      "title": "Marvel’s Spider-Man Remastered",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1091500/",
+      "url": "https://store.steampowered.com/app/1817070/",
       "currency": "USD",
-      "price": 17.99,
+      "price": 23.99,
       "list": 59.99,
-      "pct": 70,
-      "endsAt": "2026-08-10T17:00:00.000Z",
-      "steamAppId": 1091500,
-      "slugIfTracked": "cyberpunk-2077"
+      "pct": 60,
+      "endsAt": "2026-08-06T17:00:00.000Z",
+      "steamAppId": 1817070,
+      "slugIfTracked": "marvels-spider-man-remastered"
     },
     {
       "title": "Baldur's Gate 3",
@@ -26,6 +26,78 @@
       "slugIfTracked": "baldurs-gate-3"
     },
     {
+      "title": "Marvel's Spider-Man 2",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2651280/",
+      "currency": "USD",
+      "price": 40.19,
+      "list": 59.99,
+      "pct": 33,
+      "endsAt": "2026-08-06T17:00:00.000Z",
+      "steamAppId": 2651280,
+      "slugIfTracked": "marvel-s-spider-man-2"
+    },
+    {
+      "title": "Mistfall Hunter",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3282300/",
+      "currency": "USD",
+      "price": 22.49,
+      "list": 24.99,
+      "pct": 10,
+      "endsAt": "2026-08-12T17:00:16.000Z",
+      "steamAppId": 3282300,
+      "slugIfTracked": null
+    },
+    {
+      "title": "How Many Dudes?",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3934270/",
+      "currency": "USD",
+      "price": 9.74,
+      "list": 14.99,
+      "pct": 35,
+      "endsAt": "2026-08-13T17:00:49.000Z",
+      "steamAppId": 3934270,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1091500/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 59.99,
+      "pct": 70,
+      "endsAt": "2026-08-10T17:00:00.000Z",
+      "steamAppId": 1091500,
+      "slugIfTracked": "cyberpunk-2077"
+    },
+    {
+      "title": "Marvel’s Spider-Man: Miles Morales",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1817190/",
+      "currency": "USD",
+      "price": 19.99,
+      "list": 49.99,
+      "pct": 60,
+      "endsAt": "2026-08-06T17:00:00.000Z",
+      "steamAppId": 1817190,
+      "slugIfTracked": "marvels-spider-man-miles-morales"
+    },
+    {
+      "title": "Machine Party",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/4108000/",
+      "currency": "USD",
+      "price": 6.79,
+      "list": 7.99,
+      "pct": 15,
+      "endsAt": "2026-08-13T17:00:20.000Z",
+      "steamAppId": 4108000,
+      "slugIfTracked": null
+    },
+    {
       "title": "Cyberpunk 2077: Phantom Liberty",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/2138330/",
@@ -38,88 +110,16 @@
       "slugIfTracked": null
     },
     {
-      "title": "MECCHA CHAMELEON",
+      "title": "Schedule I",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/4704690/",
+      "url": "https://store.steampowered.com/app/3164500/",
       "currency": "USD",
-      "price": 5.09,
-      "list": 5.99,
-      "pct": 15,
-      "endsAt": "2026-08-02T16:00:00.000Z",
-      "steamAppId": 4704690,
-      "slugIfTracked": "meccha-chameleon"
-    },
-    {
-      "title": "Sir, We Have an Orc Problem",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/4594150/",
-      "currency": "USD",
-      "price": 8.99,
-      "list": 9.99,
-      "pct": 10,
-      "endsAt": "2026-08-11T17:00:17.000Z",
-      "steamAppId": 4594150,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Warhammer 40,000: Space Marine 2",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2183900/",
-      "currency": "USD",
-      "price": 17.99,
-      "list": 59.99,
-      "pct": 70,
-      "endsAt": "2026-07-30T17:00:00.000Z",
-      "steamAppId": 2183900,
-      "slugIfTracked": "warhammer-40000-space-marine-2"
-    },
-    {
-      "title": "Bills Must Be Paid",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/4421010/",
-      "currency": "USD",
-      "price": 4.89,
-      "list": 6.99,
+      "price": 13.99,
+      "list": 19.99,
       "pct": 30,
-      "endsAt": "2026-08-12T17:00:05.000Z",
-      "steamAppId": 4421010,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Rust",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/252490/",
-      "currency": "USD",
-      "price": 19.99,
-      "list": 39.99,
-      "pct": 50,
-      "endsAt": "2026-08-12T17:00:00.000Z",
-      "steamAppId": 252490,
-      "slugIfTracked": "rust"
-    },
-    {
-      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2417610/",
-      "currency": "USD",
-      "price": 27.99,
-      "list": 69.99,
-      "pct": 60,
-      "endsAt": "2026-08-08T17:00:00.000Z",
-      "steamAppId": 2417610,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Tears of Metal",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1913120/",
-      "currency": "USD",
-      "price": 22.49,
-      "list": 24.99,
-      "pct": 10,
-      "endsAt": "2026-08-05T17:00:01.000Z",
-      "steamAppId": 1913120,
-      "slugIfTracked": null
+      "endsAt": "2026-08-06T17:00:00.000Z",
+      "steamAppId": 3164500,
+      "slugIfTracked": "schedule-i"
     }
   ]
 }

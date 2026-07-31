@@ -1,11 +1,11 @@
 {
   "slug": "fumes",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "306332",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2026-07-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

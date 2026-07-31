@@ -1,11 +1,11 @@
 {
   "slug": "supermarket-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "282683",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.14,
+      "date": "2025-05-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

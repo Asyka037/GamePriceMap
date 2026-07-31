@@ -1,11 +1,11 @@
 {
   "slug": "mechwarrior-5-mercenaries",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "227928",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.49,
+      "date": "2026-06-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

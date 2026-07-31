@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T02:36:45.755Z",
+  "updatedAt": "2026-07-31T10:09:58.655Z",
   "months": {
     "2026-07": [
       {
@@ -81,45 +81,6 @@
         "slugIfTracked": null
       },
       {
-        "title": "Cyberpunk Brothel 🤖",
-        "date": "2026-07-30",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4771970/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771970/ee28609d5ed6f9e68051567a2fca9ba0097c0edf/header.jpg?t=1781809365",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Diggy Diggy Mole",
-        "date": "2026-07-30",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4861150/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4861150/97702a5bb2c208138e8812e0c99c24e72ba4e558/header.jpg?t=1784026975",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Elementis TD",
-        "date": "2026-07-30",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4916440/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4916440/41f51e245350b10c80673211eac3a1744563f74d/header.jpg?t=1784197448",
-        "slugIfTracked": null
-      },
-      {
         "title": "Kusan: City of Wolves",
         "date": "2026-07-30",
         "month": "2026-07",
@@ -130,32 +91,6 @@
           "xbox": "https://www.microsoft.com/en-us/p/_/9pn265mpjwxd"
         },
         "image": "https://store-images.s-microsoft.com/image/apps.41353.14353018187377559.8159ab22-1802-42ca-b387-30ed90c81e2b.16b91b01-7bcb-44a4-8965-ac59be638fd8",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Luck of the Draw",
-        "date": "2026-07-30",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4802350/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4802350/343313da997949d24c54d43d8320db75fee5e6e9/header.jpg?t=1785405448",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Ludus: A Gladiator Story",
-        "date": "2026-07-30",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4893350/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4893350/69a6e45e534a68b1c030e45d0fa2fc1873ae9222/header.jpg?t=1784987491",
         "slugIfTracked": null
       },
       {
@@ -172,19 +107,6 @@
         "slugIfTracked": null
       },
       {
-        "title": "Noun Town: Learn & Chill",
-        "date": "2026-07-30",
-        "month": "2026-07",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4809790/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4809790/a15b6e59573ad8e3ebae23b88afdf38a95892fab/header.jpg?t=1784631729",
-        "slugIfTracked": null
-      },
-      {
         "title": "Retrace The Light",
         "date": "2026-07-30",
         "month": "2026-07",
@@ -198,42 +120,42 @@
         "slugIfTracked": null
       },
       {
-        "title": "SURVEILLANCE DUTY: Twisted Sight",
-        "date": "2026-07-30",
+        "title": "ECHOES",
+        "date": "2026-07-31",
         "month": "2026-07",
         "platforms": [
           "pc"
         ],
         "urls": {
-          "pc": "https://store.steampowered.com/app/3771770/"
+          "pc": "https://store.steampowered.com/app/4875860/"
         },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3771770/dd5974ae0c471600082ba0b6dd7f4f30109f0318/header.jpg?t=1785005190",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4875860/effa93c758a03337d0edb195a0a1da4ff3ad3194/header.jpg?t=1785422944",
         "slugIfTracked": null
       },
       {
-        "title": "Bee With Gun",
+        "title": "FPV PVP",
         "date": "2026-07-31",
         "month": "2026-07",
         "platforms": [
-          "switch"
+          "pc"
         ],
         "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Bee-With-Gun-3146860.html"
+          "pc": "https://store.steampowered.com/app/4800620/"
         },
-        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/fjpgv7w7wxbuge2glwna",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800620/b8e183ac19870cb02ad917b2c15c977b3c4c08a9/header.jpg?t=1784596428",
         "slugIfTracked": null
       },
       {
-        "title": "Ocean Shark Survival - Float Home Builder Simulator",
+        "title": "Hearse Hero",
         "date": "2026-07-31",
         "month": "2026-07",
         "platforms": [
-          "switch"
+          "pc"
         ],
         "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Ocean-Shark-Survival-Float-Home-Builder-Simulator-3144149.html"
+          "pc": "https://store.steampowered.com/app/4159710/"
         },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/oceansharksurvivalfloathomebuildersimulator/16x9_OceanSharkSurvivalFloatHomeBuilderSimulator_image500w.jpg",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4159710/d90d22519b803a33f4c1f7a2f7330e17db84e490/header.jpg?t=1785274081",
         "slugIfTracked": null
       },
       {
@@ -241,53 +163,51 @@
         "date": "2026-07-31",
         "month": "2026-07",
         "platforms": [
-          "switch",
           "xbox"
         ],
         "urls": {
-          "xbox": "https://www.microsoft.com/en-us/p/_/9n3p3trjgwv0",
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-games/PAW-Patrol-Dino-World-3113973.html"
+          "xbox": "https://www.microsoft.com/en-us/p/_/9n3p3trjgwv0"
         },
         "image": "https://store-images.s-microsoft.com/image/apps.29964.14003155671712527.e2286374-c296-44cb-8b6c-1bb5b97b583a.78463401-4b70-40c1-8a74-4368f5193a15",
         "slugIfTracked": null
       },
       {
-        "title": "Rain Station Z",
+        "title": "Wild West Poker: Cheat, Bet, or DIE",
         "date": "2026-07-31",
         "month": "2026-07",
         "platforms": [
-          "switch"
+          "pc"
         ],
         "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Rain-Station-Z-3150307.html"
+          "pc": "https://store.steampowered.com/app/4809350/"
         },
-        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/migvlmeb8ism4wur8eei",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4809350/a27dd8da29b6819995e5fdd60cc87c8114eb8225/header.jpg?t=1781202312",
         "slugIfTracked": null
       },
       {
-        "title": "WordHive",
+        "title": "Zero Pixel Dawn",
         "date": "2026-07-31",
         "month": "2026-07",
         "platforms": [
-          "switch"
+          "pc"
         ],
         "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/WordHive-3148324.html"
+          "pc": "https://store.steampowered.com/app/3797770/"
         },
-        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/xondkmld1pzsc1ox3y9o",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3797770/c51cadafc2e7bb956553d4a01ce3302d33db9cf3/header.jpg?t=1785472598",
         "slugIfTracked": null
       },
       {
-        "title": "Xtreme Traffic Racing",
+        "title": "Zhong Kui: Survivor",
         "date": "2026-07-31",
         "month": "2026-07",
         "platforms": [
-          "switch"
+          "pc"
         ],
         "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Xtreme-Traffic-Racing-3149958.html"
+          "pc": "https://store.steampowered.com/app/4971170/"
         },
-        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/zythk4isrgftsufcx0ak",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4971170/3bb664fad4804ed62b15e395269982ff7cc23026/header.jpg?t=1785382311",
         "slugIfTracked": null
       }
     ],
@@ -397,6 +317,19 @@
         "slugIfTracked": null
       },
       {
+        "title": "Ink Splash",
+        "date": "2026-08-05",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Ink-Splash-3150508.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/kunol3brpdu6zx7ut5n9",
+        "slugIfTracked": null
+      },
+      {
         "title": "JALECOlle Famicom Ver. ROD LAND",
         "date": "2026-08-05",
         "month": "2026-08",
@@ -462,6 +395,19 @@
         "slugIfTracked": null
       },
       {
+        "title": "Aery - Surreal World",
+        "date": "2026-08-06",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Aery-Surreal-World-3151744.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/dvfobwck8kw1prexabpg",
+        "slugIfTracked": null
+      },
+      {
         "title": "Apocalypse ? No !",
         "date": "2026-08-06",
         "month": "2026-08",
@@ -472,6 +418,19 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Apocalypse-No--3148336.html"
         },
         "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/fyqh76gnqwlpanpulshr",
+        "slugIfTracked": null
+      },
+      {
+        "title": "EGGCONSOLE ELTHLEAD PC-8801mkIISR",
+        "date": "2026-08-06",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/EGGCONSOLE-ELTHLEAD-PC-8801mkIISR-3151894.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/c8dpcexeoiync2pcfhqs",
         "slugIfTracked": null
       },
       {
@@ -557,14 +516,51 @@
         "date": "2026-08-06",
         "month": "2026-08",
         "platforms": [
-          "switch",
           "xbox"
         ],
         "urls": {
-          "xbox": "https://www.microsoft.com/en-us/p/_/9pmp77plhtx0",
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/Montabi-3137768.html"
+          "xbox": "https://www.microsoft.com/en-us/p/_/9pmp77plhtx0"
         },
         "image": "https://store-images.s-microsoft.com/image/apps.63685.14289738902544275.899eaaf1-2001-4e7b-9eeb-144ee6c775e6.c6b86b92-a88d-4ba1-97ac-050becf844c3",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Montabi",
+        "date": "2026-08-06",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/Montabi-3137768.html"
+        },
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/montabi/16x9_Montabi_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Montabi",
+        "date": "2026-08-06",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Montabi-3137794.html"
+        },
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/montabi/16x9_Montabi_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "OBAKEIDORO 2: Chase & Seek",
+        "date": "2026-08-06",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/OBAKEIDORO-2-Chase-Seek-3141644.html"
+        },
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/obakeidoro2chaseandseek/16x9_Obakeidoro2ChaseAndSeek_image500w.jpg",
         "slugIfTracked": null
       },
       {
@@ -591,6 +587,19 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Pool-Party-Boys-Splash-Guys-3146738.html"
         },
         "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/dsg6qqnc0xgn5g6bcxlw",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Reioku:Ghost house",
+        "date": "2026-08-06",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Reioku-Ghost-house-3152392.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/h0oxxuy7iaxaaikpt7xo",
         "slugIfTracked": null
       },
       {
@@ -643,6 +652,19 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/ROUTE16TURBO-3146043.html"
         },
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/route16turbo/16x9_Route16Turbo_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Solitaire World - Anime Waifus",
+        "date": "2026-08-06",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Solitaire-World-Anime-Waifus-3151718.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/ok5bgxngslz1sbqu0cmu",
         "slugIfTracked": null
       },
       {
@@ -789,6 +811,19 @@
         "slugIfTracked": null
       },
       {
+        "title": "Colorizing: Pleasure",
+        "date": "2026-08-12",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Colorizing-Pleasure-3150518.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/byib5xs99hm5ej9vmnhh",
+        "slugIfTracked": null
+      },
+      {
         "title": "Lamp Clicker",
         "date": "2026-08-12",
         "month": "2026-08",
@@ -895,6 +930,32 @@
         "slugIfTracked": null
       },
       {
+        "title": "Kawaii Anime: Cute Girls Magic World",
+        "date": "2026-08-13",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Kawaii-Anime-Cute-Girls-Magic-World-3151562.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/sjymmqt6u9nmra1vb14n",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Love, Internet, and Murder Magic",
+        "date": "2026-08-13",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Love-Internet-and-Murder-Magic-3151801.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/gvrqdkovrmaxhc2wvypv",
+        "slugIfTracked": null
+      },
+      {
         "title": "Old Coin Pusher Gaiden",
         "date": "2026-08-13",
         "month": "2026-08",
@@ -957,6 +1018,45 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Tower-Dominion-3132666.html"
         },
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/towerdominion/16x9_TowerDominion_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Tyrant's Realm",
+        "date": "2026-08-13",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Tyrant-s-Realm-3151518.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/camj3wgpkoxdapk0q9qr",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Damways",
+        "date": "2026-08-14",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Damways-3150424.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/qdmsafthnnrc98gupzk4",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Handyman Flipper: House Stories",
+        "date": "2026-08-14",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Handyman-Flipper-House-Stories-3148521.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/merdszyi7oicefo4hfd2",
         "slugIfTracked": null
       },
       {
@@ -1027,6 +1127,19 @@
         "slugIfTracked": null
       },
       {
+        "title": "Dark Reflection",
+        "date": "2026-08-20",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Dark-Reflection-3150456.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/k4vq3i9becjqvjvxcyqu",
+        "slugIfTracked": null
+      },
+      {
         "title": "Driving is Hard",
         "date": "2026-08-20",
         "month": "2026-08",
@@ -1044,14 +1157,38 @@
         "date": "2026-08-20",
         "month": "2026-08",
         "platforms": [
-          "switch",
           "xbox"
         ],
         "urls": {
-          "xbox": "https://www.microsoft.com/en-us/p/_/9np25gb92dp5",
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/Grim-Trials-3128637.html"
+          "xbox": "https://www.microsoft.com/en-us/p/_/9np25gb92dp5"
         },
         "image": "https://store-images.s-microsoft.com/image/apps.43385.14031030257282152.d14cf948-4040-4230-8860-df44136fbccf.70f2a991-8f8e-48ef-ad83-4ff14afcc4f2",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Grim Trials",
+        "date": "2026-08-20",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/Grim-Trials-3128637.html"
+        },
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/grimtrials/16x9_GrimTrials_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Grim Trials",
+        "date": "2026-08-20",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Grim-Trials-3147403.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/lgtez4ijxpsfkin4zaww",
         "slugIfTracked": null
       },
       {
@@ -1065,6 +1202,19 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-games/OVER-REQUIEMZ-3141803.html"
         },
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/overrequiemz/16x9_OverRequiemz_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "The Witch's Bakery",
+        "date": "2026-08-20",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/The-Witch-s-Bakery-3128985.html"
+        },
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thewitchsbakery/16x9_TheWitchsBakery_image500w.jpg",
         "slugIfTracked": null
       },
       {
@@ -1091,6 +1241,19 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Mega-City-Force-3145222.html"
         },
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/megacityforce/16x9_MegaCityForce_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Aggelos 2",
+        "date": "2026-08-27",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-games/Aggelos-2-3150566.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/tsomtkrxgzwf32du8foo",
         "slugIfTracked": null
       },
       {
@@ -1135,6 +1298,19 @@
         "slugIfTracked": null
       },
       {
+        "title": "Korean Drone Flying Tour Baekje Military Museum",
+        "date": "2026-08-27",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Korean-Drone-Flying-Tour-Baekje-Military-Museum-3151628.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/r2vwlmpmft043khkjkzg",
+        "slugIfTracked": null
+      },
+      {
         "title": "Lou's Lagoon",
         "date": "2026-08-27",
         "month": "2026-08",
@@ -1145,6 +1321,19 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Lou-s-Lagoon-3141712.html"
         },
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/louslagoon/16x9_LousLagoon_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "METAL GEAR SOLID: MASTER COLLECTION Vol.2",
+        "date": "2026-08-27",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/METAL-GEAR-SOLID-MASTER-COLLECTION-Vol-2-3027918.html"
+        },
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/metalgearsolidmastercollectionvol2/16x9_MetalGearSolidMasterCollectionVol2_image500w.jpg",
         "slugIfTracked": null
       },
       {
@@ -1240,6 +1429,19 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/Orbitals-3017490.html"
         },
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/orbitals/16x9_Orbitals_new_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Shoe It All!",
+        "date": "2026-09-03",
+        "month": "2026-09",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Shoe-It-All--3151699.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/lnu0bvv8ehdr9z44z5nt",
         "slugIfTracked": null
       },
       {
@@ -1386,6 +1588,19 @@
         "slugIfTracked": null
       },
       {
+        "title": "HOT WHEELS™ Infinite Rush",
+        "date": "2026-09-10",
+        "month": "2026-09",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/HOT-WHEELS-Infinite-Rush-3150480.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/yn3wb4khxcm5ilwpi78x",
+        "slugIfTracked": null
+      },
+      {
         "title": "The Legend of Heroes: Trails from Zero",
         "date": "2026-09-10",
         "month": "2026-09",
@@ -1422,6 +1637,19 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/RuneScape-Dragonwilds-3110764.html"
         },
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/runescapedragonwilds/16x9_RuneScapeDragonwilds_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Another Eden Begins",
+        "date": "2026-09-16",
+        "month": "2026-09",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Another-Eden-Begins-3150388.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/wmmps9njdyy3t9n11bzl",
         "slugIfTracked": null
       },
       {
@@ -1594,6 +1822,32 @@
         "slugIfTracked": null
       },
       {
+        "title": "EA SPORTS FC™ 27",
+        "date": "2026-09-25",
+        "month": "2026-09",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-games/EA-SPORTS-FC-27-3147152.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/l8s9hdngkp49gfvg7znu",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Minecraft Dungeons II",
+        "date": "2026-09-29",
+        "month": "2026-09",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/Minecraft-Dungeons-II-3056370.html"
+        },
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/minecraftdungeonsii_1/16x9_MinecraftDungeonsII_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
         "title": "Minecraft Dungeons II",
         "date": "2026-09-29",
         "month": "2026-09",
@@ -1619,45 +1873,6 @@
           "xbox": "https://www.microsoft.com/en-us/p/_/9n7qx8c7nsh2"
         },
         "image": "https://store-images.s-microsoft.com/image/apps.42875.14063970863717875.bbb2ba5e-eca4-4e88-9f98-d129dd24027f.6606fc71-89e2-4a8c-816f-be7870dca00e",
-        "slugIfTracked": null
-      },
-      {
-        "title": "OCTOPATH TRAVELER + OCTOPATH TRAVELER II Bundle",
-        "date": "2026-10-01",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/OCTOPATH-TRAVELER-OCTOPATH-TRAVELER-II-Bundle-3135142.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/octopathtraveleroctopathtraveleriibundle/16x9_OctopathTravelerOctopathTravelerIIBundle_image500w.jpg",
-        "slugIfTracked": null
-      },
-      {
-        "title": "OCTOPATH TRAVELER II",
-        "date": "2026-10-01",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/OCTOPATH-TRAVELER-II-3139249.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/octopathtravelerii/16x9_OctopathTravelerII_image500w.jpg",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Octopath Traveler™ ",
-        "date": "2026-10-01",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/Octopath-Traveler--3139372.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/octopathtraveler/16x9_OctopathTraveler_image500w.jpg",
         "slugIfTracked": null
       },
       {
@@ -1691,79 +1906,12 @@
         "date": "2026-10-08",
         "month": "2026-10",
         "platforms": [
-          "switch",
           "xbox"
         ],
         "urls": {
-          "xbox": "https://www.microsoft.com/en-us/p/_/9phfh70f3zrw",
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/KINGDOM-HEARTS-HD-1-5-2-5-ReMIX-3109725.html"
+          "xbox": "https://www.microsoft.com/en-us/p/_/9phfh70f3zrw"
         },
         "image": "https://store-images.s-microsoft.com/image/apps.37211.14232876488331870.7c4ecb02-0070-4268-959e-7797d2e20193.32928e76-c82d-498a-8614-3b30c54345e0",
-        "slugIfTracked": null
-      },
-      {
-        "title": "KINGDOM HEARTS Collection [I～III]",
-        "date": "2026-10-08",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/KINGDOM-HEARTS-Collection-I-III--3111530.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kingdomheartscollectioni_iii/16x9_KingdomHeartsCollectionI_III_image500w.jpg",
-        "slugIfTracked": null
-      },
-      {
-        "title": "KINGDOM HEARTS HD 2.8 Final Chapter Prologue",
-        "date": "2026-10-08",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/KINGDOM-HEARTS-HD-2-8-Final-Chapter-Prologue-3111357.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kingdomheartshd28finalchapter/16x9_KingdomHeartsHD28FinalChapter_image500w.jpg",
-        "slugIfTracked": null
-      },
-      {
-        "title": "KINGDOM HEARTS III + Re Mind (DLC)",
-        "date": "2026-10-08",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/KINGDOM-HEARTS-III-Re-Mind-DLC--3111446.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kingdomheartsiiireminddlc/16x9_KingdomHeartsIIIReMindDLC_image500w.jpg",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Rainbow Islands CS",
-        "date": "2026-10-08",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Rainbow-Islands-CS-3124742.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/rainbowislandscs/16x9_RainbowIslandsCs_image500w.jpg",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Dragon's Dogma 2: Dark Arisen",
-        "date": "2026-10-09",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/Dragon-s-Dogma-2-Dark-Arisen-3110779.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/dragonsdogma2darkarisen/16x9_DragonsDogma2DarkArisen_image500w.jpg",
         "slugIfTracked": null
       }
     ]

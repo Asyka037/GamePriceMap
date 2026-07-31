@@ -1,11 +1,11 @@
 {
   "slug": "voidling-bound",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324274",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 18.74,
+      "date": "2026-06-10",
+      "seed": "cheapshark"
     }
   },
   "events": [

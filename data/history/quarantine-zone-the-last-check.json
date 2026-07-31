@@ -1,11 +1,11 @@
 {
   "slug": "quarantine-zone-the-last-check",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "314356",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2026-06-11",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "cat-mail-co",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "326597",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.49,
+      "date": "2026-07-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "lethal-company",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "276648",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.49,
+      "date": "2025-01-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

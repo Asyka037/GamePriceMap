@@ -1,11 +1,11 @@
 {
   "slug": "iracing",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "141021",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.49,
+      "date": "2015-06-11",
+      "seed": "cheapshark"
     }
   },
   "events": [

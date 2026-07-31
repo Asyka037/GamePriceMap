@@ -1,11 +1,11 @@
 {
   "slug": "cult-of-the-lamb",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "247680",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.99,
+      "date": "2026-01-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

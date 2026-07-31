@@ -1,11 +1,11 @@
 {
   "slug": "marvels-spider-man-remastered",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "248711",
   "atl": {
     "pc": {
-      "usd": 23.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.64,
+      "date": "2025-12-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

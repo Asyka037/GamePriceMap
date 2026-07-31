@@ -1,11 +1,11 @@
 {
   "slug": "fallout-4",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "144222",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.3,
+      "date": "2026-05-15",
+      "seed": "cheapshark"
     }
   },
   "events": [

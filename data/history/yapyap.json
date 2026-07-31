@@ -1,11 +1,11 @@
 {
   "slug": "yapyap",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "315745",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.49,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

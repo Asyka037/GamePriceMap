@@ -1,11 +1,11 @@
 {
   "slug": "the-planet-crafter",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "242411",
   "atl": {
     "pc": {
-      "usd": 11.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.99,
+      "date": "2025-10-30",
+      "seed": "cheapshark"
     }
   },
   "events": [

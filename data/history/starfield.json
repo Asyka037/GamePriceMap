@@ -1,11 +1,11 @@
 {
   "slug": "starfield",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "263850",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 34.39,
+      "date": "2026-07-30",
+      "seed": "cheapshark"
     }
   },
   "events": [

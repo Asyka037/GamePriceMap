@@ -1,11 +1,11 @@
 {
   "slug": "total-war-warhammer-ii",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "170052",
   "atl": {
     "pc": {
-      "usd": 59.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 12.5,
+      "date": "2020-04-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

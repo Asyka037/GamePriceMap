@@ -1,11 +1,11 @@
 {
   "slug": "fallout-new-vegas",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "80",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 0.99,
+      "date": "2026-03-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

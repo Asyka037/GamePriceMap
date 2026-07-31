@@ -1,11 +1,11 @@
 {
   "slug": "gunfire-reborn",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "216240",
   "atl": {
     "pc": {
-      "usd": 13.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.47,
+      "date": "2020-11-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

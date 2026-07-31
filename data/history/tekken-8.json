@@ -1,11 +1,11 @@
 {
   "slug": "tekken-8",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "270879",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.9,
+      "date": "2025-12-12",
+      "seed": "cheapshark"
     }
   },
   "events": [

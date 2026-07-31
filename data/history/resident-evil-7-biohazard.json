@@ -1,11 +1,11 @@
 {
   "slug": "resident-evil-7-biohazard",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "158074",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.99,
+      "date": "2023-12-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

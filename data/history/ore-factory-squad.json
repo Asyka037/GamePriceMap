@@ -1,11 +1,11 @@
 {
   "slug": "ore-factory-squad",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "326994",
   "atl": {
     "pc": {
-      "usd": 12.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.74,
+      "date": "2026-07-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

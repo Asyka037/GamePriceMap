@@ -1,11 +1,11 @@
 {
   "slug": "geometry-dash",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "166239",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 0.99,
+      "date": "2017-06-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

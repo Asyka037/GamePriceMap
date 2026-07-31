@@ -1,11 +1,11 @@
 {
   "slug": "trailmakers",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "177605",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.18,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

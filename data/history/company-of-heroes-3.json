@@ -1,11 +1,11 @@
 {
   "slug": "company-of-heroes-3",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "248779",
   "atl": {
     "pc": {
-      "usd": 23.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.82,
+      "date": "2025-11-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

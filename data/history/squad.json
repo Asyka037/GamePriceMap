@@ -1,11 +1,11 @@
 {
   "slug": "squad",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "147482",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.23,
+      "date": "2026-07-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

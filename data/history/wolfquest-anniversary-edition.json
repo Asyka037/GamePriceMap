@@ -1,11 +1,11 @@
 {
   "slug": "wolfquest-anniversary-edition",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "203596",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2019-07-27",
+      "seed": "cheapshark"
     }
   },
   "events": [

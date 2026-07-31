@@ -1,11 +1,11 @@
 {
   "slug": "victoria-3",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "250442",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2024-05-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

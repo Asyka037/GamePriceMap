@@ -1,11 +1,11 @@
 {
   "slug": "solarpunk",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "322710",
   "atl": {
     "pc": {
-      "usd": 22.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 15.08,
+      "date": "2026-07-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

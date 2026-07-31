@@ -1,11 +1,11 @@
 {
   "slug": "scrap-mechanic",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "148028",
   "atl": {
     "pc": {
-      "usd": 28.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2017-06-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

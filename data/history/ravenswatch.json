@@ -1,11 +1,11 @@
 {
   "slug": "ravenswatch",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "258398",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.25,
+      "date": "2025-03-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

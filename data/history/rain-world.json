@@ -1,11 +1,11 @@
 {
   "slug": "rain-world",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "167405",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.49,
+      "date": "2023-12-03",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "call-of-duty-black-ops-7",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "307273",
   "atl": {
     "pc": {
-      "usd": 69.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 34.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

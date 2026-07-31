@@ -1,11 +1,11 @@
 {
   "slug": "barotrauma",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "202211",
   "atl": {
     "pc": {
-      "usd": 17.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.49,
+      "date": "2025-10-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

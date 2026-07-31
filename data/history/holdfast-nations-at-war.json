@@ -1,11 +1,11 @@
 {
   "slug": "holdfast-nations-at-war",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "173422",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.99,
+      "date": "2024-12-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

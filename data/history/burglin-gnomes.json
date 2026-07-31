@@ -1,11 +1,11 @@
 {
   "slug": "burglin-gnomes",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324395",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.99,
+      "date": "2026-07-17",
+      "seed": "cheapshark"
     }
   },
   "events": [

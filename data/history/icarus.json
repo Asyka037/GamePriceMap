@@ -1,11 +1,11 @@
 {
   "slug": "icarus",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "230881",
   "atl": {
     "pc": {
-      "usd": 34.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.49,
+      "date": "2025-12-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

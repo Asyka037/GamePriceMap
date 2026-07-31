@@ -1,11 +1,11 @@
 {
   "slug": "tcg-card-shop-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "291299",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.79,
+      "date": "2025-09-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

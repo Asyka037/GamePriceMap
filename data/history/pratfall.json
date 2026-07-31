@@ -1,11 +1,11 @@
 {
   "slug": "pratfall",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "320391",
   "atl": {
     "pc": {
-      "usd": 6.39,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.43,
+      "date": "2026-07-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

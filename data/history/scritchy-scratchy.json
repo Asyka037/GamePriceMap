@@ -1,11 +1,11 @@
 {
   "slug": "scritchy-scratchy",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "317890",
   "atl": {
     "pc": {
-      "usd": 6.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.59,
+      "date": "2026-03-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

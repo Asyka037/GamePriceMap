@@ -1,11 +1,11 @@
 {
   "slug": "chivalry-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "226210",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.99,
+      "date": "2026-03-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

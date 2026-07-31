@@ -1,11 +1,11 @@
 {
   "slug": "teardown",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "222042",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2024-06-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

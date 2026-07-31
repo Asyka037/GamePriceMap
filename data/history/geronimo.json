@@ -1,11 +1,11 @@
 {
   "slug": "geronimo",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "326703",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.99,
+      "date": "2026-07-10",
+      "seed": "cheapshark"
     }
   },
   "events": [

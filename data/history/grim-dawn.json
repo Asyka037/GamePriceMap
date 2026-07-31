@@ -1,11 +1,11 @@
 {
   "slug": "grim-dawn",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "102642",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.49,
+      "date": "2024-12-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

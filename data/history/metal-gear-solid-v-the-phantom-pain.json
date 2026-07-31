@@ -1,11 +1,11 @@
 {
   "slug": "metal-gear-solid-v-the-phantom-pain",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "144416",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.9,
+      "date": "2022-06-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

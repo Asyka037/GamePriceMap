@@ -1,11 +1,11 @@
 {
   "slug": "dragon-ball-fighterz",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "174454",
   "atl": {
     "pc": {
-      "usd": 9.59,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.19,
+      "date": "2022-09-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "castle-crashers",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "89995",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.49,
+      "date": "2014-06-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

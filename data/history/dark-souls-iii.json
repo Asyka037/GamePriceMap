@@ -1,11 +1,11 @@
 {
   "slug": "dark-souls-iii",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "144565",
   "atl": {
     "pc": {
-      "usd": 59.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2020-04-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

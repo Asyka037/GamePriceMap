@@ -1,11 +1,11 @@
 {
   "slug": "witchspire",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324376",
   "atl": {
     "pc": {
-      "usd": 22.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.54,
+      "date": "2026-06-10",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "planet-coaster-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "291231",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 22.03,
+      "date": "2026-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

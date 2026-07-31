@@ -1,11 +1,11 @@
 {
   "slug": "reanimal",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "311999",
   "atl": {
     "pc": {
-      "usd": 39.99,
+      "usd": 23.89,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

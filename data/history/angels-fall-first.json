@@ -1,11 +1,11 @@
 {
   "slug": "angels-fall-first",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "146312",
   "atl": {
     "pc": {
-      "usd": 17.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2021-06-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

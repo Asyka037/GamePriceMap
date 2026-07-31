@@ -1,11 +1,11 @@
 {
   "slug": "insurgency-sandstorm",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "188210",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.7,
+      "date": "2026-04-15",
+      "seed": "cheapshark"
     }
   },
   "events": [

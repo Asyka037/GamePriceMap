@@ -1,11 +1,11 @@
 {
   "slug": "overcooked-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "188278",
   "atl": {
     "pc": {
-      "usd": 12.12,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.12,
+      "date": "2024-11-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

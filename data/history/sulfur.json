@@ -1,11 +1,11 @@
 {
   "slug": "sulfur",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "293971",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 12.49,
+      "date": "2026-07-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

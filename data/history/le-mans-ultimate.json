@@ -1,11 +1,11 @@
 {
   "slug": "le-mans-ultimate",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "282665",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 21.65,
+      "date": "2025-11-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

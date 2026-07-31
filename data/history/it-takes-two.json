@@ -1,11 +1,11 @@
 {
   "slug": "it-takes-two",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "223989",
   "atl": {
     "pc": {
-      "usd": 11.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.99,
+      "date": "2024-12-11",
+      "seed": "cheapshark"
     }
   },
   "events": [

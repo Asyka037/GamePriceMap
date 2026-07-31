@@ -1,11 +1,11 @@
 {
   "slug": "cities-skylines",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "141534",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.84,
+      "date": "2025-03-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

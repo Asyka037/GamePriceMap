@@ -1,11 +1,11 @@
 {
   "slug": "scum",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "191477",
   "atl": {
     "pc": {
-      "usd": 44.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.39,
+      "date": "2019-04-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

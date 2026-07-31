@@ -1,11 +1,11 @@
 {
   "slug": "lies-of-p",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "264212",
   "atl": {
     "pc": {
-      "usd": 59.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 29.99,
+      "date": "2025-06-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

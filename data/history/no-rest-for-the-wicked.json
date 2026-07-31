@@ -1,11 +1,11 @@
 {
   "slug": "no-rest-for-the-wicked",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "284226",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 23.99,
+      "date": "2026-01-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "borderlands-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "88304",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.54,
+      "date": "2025-11-24",
+      "seed": "cheapshark"
     }
   },
   "events": [
