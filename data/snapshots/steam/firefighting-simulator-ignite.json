@@ -1,0 +1,150 @@
+{
+  "slug": "firefighting-simulator-ignite",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 15.59,
+      "list": 25.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 47.97,
+      "list": 79.95,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 89.39,
+      "list": 148.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 43.19,
+      "list": 71.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 36.59,
+      "list": 60.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 111.6,
+      "list": 186,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 32.99,
+      "list": 54.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 27.59,
+      "list": 45.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 15.29,
+      "list": 25.49,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 1320,
+      "list": 2200,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 3600,
+      "list": 6000,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 33600,
+      "list": 56000,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 7680,
+      "list": 12800,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 338.99,
+      "list": 564.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 10.79,
+      "list": 17.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 15.59,
+      "list": 25.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 615,
+      "list": 1025,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 32.99,
+      "list": 54.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    }
+  ]
+}

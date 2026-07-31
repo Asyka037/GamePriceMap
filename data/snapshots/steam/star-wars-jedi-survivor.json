@@ -1,0 +1,150 @@
+{
+  "slug": "star-wars-jedi-survivor",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 10.49,
+      "list": 69.99,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 14.99,
+      "list": 99.95,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 44.85,
+      "list": 299,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 13.49,
+      "list": 89.99,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 11.98,
+      "list": 79.9,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 44.7,
+      "list": 298,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 10.49,
+      "list": 69.99,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 8.99,
+      "list": 59.99,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 10.49,
+      "list": 69.99,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 524,
+      "list": 3499,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1455,
+      "list": 9700,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 11550,
+      "list": 77000,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 3449,
+      "list": 22999,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 239.85,
+      "list": 1599,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 10.49,
+      "list": 69.99,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 10.49,
+      "list": 69.99,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 254,
+      "list": 1699,
+      "discountPct": 85,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 10.49,
+      "list": 69.99,
+      "discountPct": 85,
+      "saleEndsAt": null
+    }
+  ]
+}

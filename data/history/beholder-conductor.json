@@ -1,0 +1,20 @@
+{
+  "slug": "beholder-conductor",
+  "cheapsharkGameId": null,
+  "atl": {
+    "pc": {
+      "usd": 4.19,
+      "date": "2026-07-31",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-31",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 4.19,
+      "pct": 70
+    }
+  ]
+}

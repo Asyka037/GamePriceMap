@@ -1,0 +1,20 @@
+{
+  "slug": "custom-order-maid-3d2-its-a-night-magic",
+  "cheapsharkGameId": null,
+  "atl": {
+    "pc": {
+      "usd": 31.6,
+      "date": "2026-07-31",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-31",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 31.6,
+      "pct": 21
+    }
+  ]
+}

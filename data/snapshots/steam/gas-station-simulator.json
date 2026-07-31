@@ -1,0 +1,150 @@
+{
+  "slug": "gas-station-simulator",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 2.7,
+      "list": 5.75,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 13.79,
+      "list": 29.35,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 28.19,
+      "list": 59.99,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 12.21,
+      "list": 25.99,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 10.33,
+      "list": 21.99,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 35.72,
+      "list": 76,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 9.16,
+      "list": 19.5,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 7.87,
+      "list": 16.75,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 4.2,
+      "list": 8.95,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 268,
+      "list": 571,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1057,
+      "list": 2250,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 10100,
+      "list": 21500,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 2225,
+      "list": 4735,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 107.15,
+      "list": 227.99,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 3.84,
+      "list": 8.19,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 2.69,
+      "list": 5.73,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 168,
+      "list": 358,
+      "discountPct": 53,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 9.39,
+      "list": 19.99,
+      "discountPct": 53,
+      "saleEndsAt": null
+    }
+  ]
+}

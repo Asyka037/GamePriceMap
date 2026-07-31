@@ -1,0 +1,150 @@
+{
+  "slug": "indiana-jones-and-the-great-circle",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 25.79,
+      "list": 42.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 71.97,
+      "list": 119.95,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 209.4,
+      "list": 349,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 53.99,
+      "list": 89.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 47.94,
+      "list": 79.9,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 209.4,
+      "list": 349,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 41.99,
+      "list": 69.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 35.99,
+      "list": 59.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 25.79,
+      "list": 42.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 2999,
+      "list": 4999,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 5808,
+      "list": 9680,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 47990,
+      "list": 79990,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 14999,
+      "list": 24999,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 839.4,
+      "list": 1399,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 25.79,
+      "list": 42.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 25.79,
+      "list": 42.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 1469,
+      "list": 2449,
+      "discountPct": 40,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 41.99,
+      "list": 69.99,
+      "discountPct": 40,
+      "saleEndsAt": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "raccoin-coin-pusher-roguelike",
+  "cheapsharkGameId": null,
+  "atl": {
+    "pc": {
+      "usd": 9.59,
+      "date": "2026-07-31",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-31",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 9.59,
+      "pct": 20
+    }
+  ]
+}

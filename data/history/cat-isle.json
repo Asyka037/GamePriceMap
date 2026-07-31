@@ -1,0 +1,20 @@
+{
+  "slug": "cat-isle",
+  "cheapsharkGameId": null,
+  "atl": {
+    "pc": {
+      "usd": 5.09,
+      "date": "2026-07-31",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-31",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 5.09,
+      "pct": 15
+    }
+  ]
+}

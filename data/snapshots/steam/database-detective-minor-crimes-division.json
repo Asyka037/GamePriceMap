@@ -1,0 +1,150 @@
+{
+  "slug": "database-detective-minor-crimes-division",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 2.79,
+      "list": 3.29,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 17.42,
+      "list": 20.5,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 32.08,
+      "list": 37.75,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 14.23,
+      "list": 16.75,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 12.11,
+      "list": 14.25,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 46.75,
+      "list": 55,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 9.13,
+      "list": 10.75,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 8.71,
+      "list": 10.25,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 3.64,
+      "list": 4.29,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 259,
+      "list": 305,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1275,
+      "list": 1500,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 10620,
+      "list": 12500,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 1793,
+      "list": 2110,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 123.24,
+      "list": 144.99,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 2.71,
+      "list": 3.19,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 3.05,
+      "list": 3.59,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 136,
+      "list": 160,
+      "discountPct": 15,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 12.74,
+      "list": 14.99,
+      "discountPct": 15,
+      "saleEndsAt": null
+    }
+  ]
+}

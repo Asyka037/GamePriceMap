@@ -1,0 +1,110 @@
+{
+  "slug": "black-desert",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 1.07,
+      "list": 3.59,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 1.29,
+      "list": 12.99,
+      "discountPct": 90,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 5.23,
+      "list": 17.46,
+      "discountPct": 70,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 1.29,
+      "list": 12.99,
+      "discountPct": 90,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 1.1,
+      "list": 11,
+      "discountPct": 90,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 0.99,
+      "list": 9.99,
+      "discountPct": 90,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 0.89,
+      "list": 8.99,
+      "discountPct": 90,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 90,
+      "list": 900,
+      "discountPct": 90,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 190,
+      "list": 1900,
+      "discountPct": 90,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 20.9,
+      "list": 209,
+      "discountPct": 90,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 0.49,
+      "list": 4.99,
+      "discountPct": 90,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 14,
+      "list": 149,
+      "discountPct": 91,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 0.99,
+      "list": 9.99,
+      "discountPct": 90,
+      "saleEndsAt": null
+    }
+  ]
+}

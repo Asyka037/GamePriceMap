@@ -1,0 +1,20 @@
+{
+  "slug": "we-were-here-forever",
+  "cheapsharkGameId": null,
+  "atl": {
+    "pc": {
+      "usd": 7.19,
+      "date": "2026-07-31",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-31",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 7.19,
+      "pct": 60
+    }
+  ]
+}

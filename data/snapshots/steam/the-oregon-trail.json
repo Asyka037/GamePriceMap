@@ -1,0 +1,142 @@
+{
+  "slug": "the-oregon-trail",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 4.94,
+      "list": 14.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 14.84,
+      "list": 44.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 32.99,
+      "list": 99.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 12.2,
+      "list": 36.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 10.72,
+      "list": 32.5,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 9.89,
+      "list": 29.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 8.24,
+      "list": 24.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 4.78,
+      "list": 14.49,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 910,
+      "list": 2760,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1154,
+      "list": 3499,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 14520,
+      "list": 44000,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 2805,
+      "list": 8500,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 174.9,
+      "list": 530,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 9.89,
+      "list": 29.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 4.94,
+      "list": 14.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 181,
+      "list": 549,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 9.89,
+      "list": 29.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "guilty-as-sock",
+  "cheapsharkGameId": null,
+  "atl": {
+    "pc": {
+      "usd": 5.5,
+      "date": "2026-07-31",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-31",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 5.5,
+      "pct": null
+    }
+  ]
+}

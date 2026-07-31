@@ -1,0 +1,150 @@
+{
+  "slug": "wuchang-fallen-feathers",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 25.89,
+      "list": 36.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 49.66,
+      "list": 70.95,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 139.3,
+      "list": 199,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 44.09,
+      "list": 62.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 37.03,
+      "list": 52.9,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 173.6,
+      "list": 248,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 34.99,
+      "list": 49.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 31.49,
+      "list": 44.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 24.49,
+      "list": 34.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 2205,
+      "list": 3150,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 5082,
+      "list": 7260,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 41860,
+      "list": 59800,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 13230,
+      "list": 18900,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 489.99,
+      "list": 699.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 24.49,
+      "list": 34.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 25.89,
+      "list": 36.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 1049,
+      "list": 1499,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 34.99,
+      "list": 49.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "fallout-3-game-of-the-year-edition",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 3.95,
+      "list": 11.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 9.88,
+      "list": 29.95,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 26.07,
+      "list": 79,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 8.9,
+      "list": 26.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 6.89,
+      "list": 20.9,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 27.39,
+      "list": 83,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 6.59,
+      "list": 19.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 5.27,
+      "list": 15.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 4.28,
+      "list": 12.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 296,
+      "list": 899,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 725,
+      "list": 2199,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 7260,
+      "list": 22000,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 2214,
+      "list": 6710,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 118.47,
+      "list": 359,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 4.28,
+      "list": 12.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 3.95,
+      "list": 11.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 171,
+      "list": 520,
+      "discountPct": 67,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 6.59,
+      "list": 19.99,
+      "discountPct": 67,
+      "saleEndsAt": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "gunfire-reborn",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 7.34,
+      "list": 10.49,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 20.26,
+      "list": 28.95,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 38.5,
+      "list": 55,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 15.95,
+      "list": 22.79,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 13.65,
+      "list": 19.5,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 47.6,
+      "list": 68,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 11.75,
+      "list": 16.79,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 10.84,
+      "list": 15.49,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 7.34,
+      "list": 10.49,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 608,
+      "list": 869,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1435,
+      "list": 2050,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 14350,
+      "list": 20500,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 3639,
+      "list": 5199,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 153.3,
+      "list": 219,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 7.34,
+      "list": 10.49,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 7.34,
+      "list": 10.49,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 279,
+      "list": 399,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 13.99,
+      "list": 19.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    }
+  ]
+}

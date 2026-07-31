@@ -1,0 +1,150 @@
+{
+  "slug": "capcom-fighting-collection-2",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 19.49,
+      "list": 29.99,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 35.71,
+      "list": 54.94,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 116.35,
+      "list": 179,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 35.74,
+      "list": 54.99,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 25.93,
+      "list": 39.9,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 128.7,
+      "list": 198,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 25.99,
+      "list": 39.99,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 22.74,
+      "list": 34.99,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 20.79,
+      "list": 31.99,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 1624,
+      "list": 2499,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 3243,
+      "list": 4990,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 29120,
+      "list": 44800,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 10399,
+      "list": 15999,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 408.85,
+      "list": 629,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 25.99,
+      "list": 39.99,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 19.49,
+      "list": 29.99,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 779,
+      "list": 1199,
+      "discountPct": 35,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 25.99,
+      "list": 39.99,
+      "discountPct": 35,
+      "saleEndsAt": null
+    }
+  ]
+}

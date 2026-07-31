@@ -1,0 +1,150 @@
+{
+  "slug": "dynasty-warriors-origins",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 40.8,
+      "list": 58.29,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 72.06,
+      "list": 102.95,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 244.3,
+      "list": 349,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 63.69,
+      "list": 90.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 53.89,
+      "list": 76.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 244.3,
+      "list": 349,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 55.99,
+      "list": 79.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 45.49,
+      "list": 64.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 40.8,
+      "list": 58.29,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 3430,
+      "list": 4900,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 6776,
+      "list": 9680,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 55860,
+      "list": 79800,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 20440,
+      "list": 29200,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 799.4,
+      "list": 1142,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 40.8,
+      "list": 58.29,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 40.8,
+      "list": 58.29,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 1592,
+      "list": 2275,
+      "discountPct": 30,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 48.99,
+      "list": 69.99,
+      "discountPct": 30,
+      "saleEndsAt": null
+    }
+  ]
+}

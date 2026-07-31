@@ -1,0 +1,134 @@
+{
+  "slug": "custom-order-maid-3d2-its-a-night-magic",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 31.6,
+      "list": 40,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 44.99,
+      "list": 56.95,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 59.63,
+      "list": 75.49,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 35.93,
+      "list": 45.49,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 31.2,
+      "list": 39.5,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 91.64,
+      "list": 116,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 24.48,
+      "list": 30.99,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 14.6,
+      "list": 18.49,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 710,
+      "list": 899,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 32390,
+      "list": 41000,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 3713,
+      "list": 4700,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 290.71,
+      "list": 367.99,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 10.26,
+      "list": 12.99,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 31.6,
+      "list": 40,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 378,
+      "list": 479,
+      "discountPct": 21,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 31.6,
+      "list": 40,
+      "discountPct": 21,
+      "saleEndsAt": null
+    }
+  ]
+}

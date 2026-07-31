@@ -1,0 +1,142 @@
+{
+  "slug": "dragon-ball-z-kakarot",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 11.99,
+      "list": 15.99,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 18.71,
+      "list": 24.95,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 74.17,
+      "list": 98.9,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 20.24,
+      "list": 26.99,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 14.92,
+      "list": 19.9,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 66,
+      "list": 88,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 14.99,
+      "list": 19.99,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 11.99,
+      "list": 15.99,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 9.74,
+      "list": 12.99,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 1124,
+      "list": 1499,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 2227,
+      "list": 2970,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 22350,
+      "list": 29800,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 7424,
+      "list": 9899,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 246.75,
+      "list": 329,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 9.74,
+      "list": 12.99,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 486,
+      "list": 649,
+      "discountPct": 25,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 14.99,
+      "list": 19.99,
+      "discountPct": 25,
+      "saleEndsAt": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "slay-the-princess-the-pristine-cut",
+  "lastPriceChangeAt": "2026-07-31",
+  "regions": [
+    {
+      "cc": "AR",
+      "currency": "USD",
+      "amount": 5.1,
+      "list": 9.29,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "AU",
+      "currency": "AUD",
+      "amount": 14.57,
+      "list": 26.5,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "BR",
+      "currency": "BRL",
+      "amount": 30.24,
+      "list": 54.99,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CA",
+      "currency": "CAD",
+      "amount": 12.91,
+      "list": 23.49,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CH",
+      "currency": "CHF",
+      "amount": 10.99,
+      "list": 19.99,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "CN",
+      "currency": "CNY",
+      "amount": 37.4,
+      "list": 68,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "DE",
+      "currency": "EUR",
+      "amount": 9.61,
+      "list": 17.49,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GB",
+      "currency": "GBP",
+      "amount": 8.24,
+      "list": 14.99,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "GE",
+      "currency": "USD",
+      "amount": 5.43,
+      "list": 9.89,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "IN",
+      "currency": "INR",
+      "amount": 445,
+      "list": 810,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "JP",
+      "currency": "JPY",
+      "amount": 1100,
+      "list": 2000,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KR",
+      "currency": "KRW",
+      "amount": 10720,
+      "list": 19500,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "KZ",
+      "currency": "KZT",
+      "amount": 2640,
+      "list": 4800,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "MX",
+      "currency": "MXN",
+      "amount": 114.94,
+      "list": 208.99,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "PK",
+      "currency": "USD",
+      "amount": 4.28,
+      "list": 7.79,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "TR",
+      "currency": "USD",
+      "amount": 5.1,
+      "list": 9.29,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "UA",
+      "currency": "UAH",
+      "amount": 206,
+      "list": 375,
+      "discountPct": 45,
+      "saleEndsAt": null
+    },
+    {
+      "cc": "US",
+      "currency": "USD",
+      "amount": 9.89,
+      "list": 17.99,
+      "discountPct": 45,
+      "saleEndsAt": null
+    }
+  ]
+}

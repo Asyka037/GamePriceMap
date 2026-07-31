@@ -1,0 +1,20 @@
+{
+  "slug": "the-invincible",
+  "cheapsharkGameId": null,
+  "atl": {
+    "pc": {
+      "usd": 10.49,
+      "date": "2026-07-31",
+      "seed": "self"
+    }
+  },
+  "events": [
+    {
+      "d": "2026-07-31",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 10.49,
+      "pct": 65
+    }
+  ]
+}
