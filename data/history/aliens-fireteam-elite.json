@@ -1,11 +1,11 @@
 {
   "slug": "aliens-fireteam-elite",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "231342",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.99,
+      "date": "2025-04-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

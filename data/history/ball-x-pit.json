@@ -1,11 +1,11 @@
 {
   "slug": "ball-x-pit",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "310184",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2025-12-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

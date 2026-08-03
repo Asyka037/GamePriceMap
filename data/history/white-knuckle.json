@@ -1,11 +1,11 @@
 {
   "slug": "white-knuckle",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "301000",
   "atl": {
     "pc": {
-      "usd": 16.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.91,
+      "date": "2025-09-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

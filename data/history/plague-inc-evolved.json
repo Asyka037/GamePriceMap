@@ -1,11 +1,11 @@
 {
   "slug": "plague-inc-evolved",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "107122",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.49,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

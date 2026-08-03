@@ -1,11 +1,11 @@
 {
   "slug": "mx-bikes",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "206041",
   "atl": {
     "pc": {
-      "usd": 34.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 27.99,
+      "date": "2023-06-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

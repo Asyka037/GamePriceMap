@@ -1,11 +1,11 @@
 {
   "slug": "misery",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "310647",
   "atl": {
     "pc": {
-      "usd": 12.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.49,
+      "date": "2025-12-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

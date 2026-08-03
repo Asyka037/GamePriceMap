@@ -1,11 +1,11 @@
 {
   "slug": "space-engineers-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "296093",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 23.99,
+      "date": "2025-06-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

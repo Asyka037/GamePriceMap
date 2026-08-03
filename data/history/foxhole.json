@@ -1,11 +1,11 @@
 {
   "slug": "foxhole",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "171360",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.99,
+      "date": "2019-12-11",
+      "seed": "cheapshark"
     }
   },
   "events": [

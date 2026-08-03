@@ -1,11 +1,11 @@
 {
   "slug": "mortal-kombat-1",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "260921",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.68,
+      "date": "2026-04-27",
+      "seed": "cheapshark"
     }
   },
   "events": [

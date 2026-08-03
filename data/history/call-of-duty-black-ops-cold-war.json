@@ -1,11 +1,11 @@
 {
   "slug": "call-of-duty-black-ops-cold-war",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "219617",
   "atl": {
     "pc": {
-      "usd": 59.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.79,
+      "date": "2023-05-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

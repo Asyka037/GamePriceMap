@@ -1,11 +1,11 @@
 {
   "slug": "road-to-vostok",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "319060",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2026-04-07",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "date-everything",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "303798",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.85,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

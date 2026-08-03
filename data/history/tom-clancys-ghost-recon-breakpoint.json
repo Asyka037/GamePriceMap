@@ -1,11 +1,11 @@
 {
   "slug": "tom-clancys-ghost-recon-breakpoint",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "201291",
   "atl": {
     "pc": {
-      "usd": 59.99,
+      "usd": 2.88,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

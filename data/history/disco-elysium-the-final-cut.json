@@ -1,11 +1,11 @@
 {
   "slug": "disco-elysium-the-final-cut",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "227942",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.59,
+      "date": "2025-10-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

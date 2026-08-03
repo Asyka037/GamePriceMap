@@ -1,11 +1,11 @@
 {
   "slug": "starrupture",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "314163",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.44,
+      "date": "2026-06-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

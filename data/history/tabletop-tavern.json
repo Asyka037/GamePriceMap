@@ -1,11 +1,11 @@
 {
   "slug": "tabletop-tavern",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324466",
   "atl": {
     "pc": {
-      "usd": 15.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2026-06-11",
+      "seed": "cheapshark"
     }
   },
   "events": [

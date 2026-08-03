@@ -1,11 +1,11 @@
 {
   "slug": "resident-evil-village",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "225336",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.91,
+      "date": "2025-11-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "car-dealer-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "303938",
   "atl": {
     "pc": {
-      "usd": 14.59,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.84,
+      "date": "2026-06-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

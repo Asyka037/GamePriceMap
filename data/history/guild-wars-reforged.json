@@ -1,11 +1,11 @@
 {
   "slug": "guild-wars-reforged",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "312822",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2026-03-17",
+      "seed": "cheapshark"
     }
   },
   "events": [

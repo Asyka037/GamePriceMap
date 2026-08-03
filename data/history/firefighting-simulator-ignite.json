@@ -1,11 +1,11 @@
 {
   "slug": "firefighting-simulator-ignite",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "305009",
   "atl": {
     "pc": {
-      "usd": 32.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 16.79,
+      "date": "2026-04-10",
+      "seed": "cheapshark"
     }
   },
   "events": [

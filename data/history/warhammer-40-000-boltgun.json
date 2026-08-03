@@ -1,11 +1,11 @@
 {
   "slug": "warhammer-40-000-boltgun",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "259458",
   "atl": {
     "pc": {
-      "usd": 21.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.19,
+      "date": "2025-11-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

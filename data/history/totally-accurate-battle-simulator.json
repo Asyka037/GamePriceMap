@@ -1,11 +1,11 @@
 {
   "slug": "totally-accurate-battle-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "199910",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2026-03-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

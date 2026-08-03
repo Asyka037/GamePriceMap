@@ -1,11 +1,11 @@
 {
   "slug": "witchfire",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "265126",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 31.99,
+      "date": "2024-08-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

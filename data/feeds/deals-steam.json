@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T10:09:30.775Z",
+  "updatedAt": "2026-08-03T03:38:08.250Z",
   "items": [
     {
       "title": "Marvel’s Spider-Man Remastered",
@@ -14,18 +14,6 @@
       "slugIfTracked": "marvels-spider-man-remastered"
     },
     {
-      "title": "Baldur's Gate 3",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1086940/",
-      "currency": "USD",
-      "price": 41.99,
-      "list": 59.99,
-      "pct": 30,
-      "endsAt": "2026-08-06T08:00:00.000Z",
-      "steamAppId": 1086940,
-      "slugIfTracked": "baldurs-gate-3"
-    },
-    {
       "title": "Marvel's Spider-Man 2",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/2651280/",
@@ -38,28 +26,16 @@
       "slugIfTracked": "marvel-s-spider-man-2"
     },
     {
-      "title": "Mistfall Hunter",
+      "title": "Baldur's Gate 3",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3282300/",
+      "url": "https://store.steampowered.com/app/1086940/",
       "currency": "USD",
-      "price": 22.49,
-      "list": 24.99,
-      "pct": 10,
-      "endsAt": "2026-08-12T17:00:16.000Z",
-      "steamAppId": 3282300,
-      "slugIfTracked": null
-    },
-    {
-      "title": "How Many Dudes?",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3934270/",
-      "currency": "USD",
-      "price": 9.74,
-      "list": 14.99,
-      "pct": 35,
-      "endsAt": "2026-08-13T17:00:49.000Z",
-      "steamAppId": 3934270,
-      "slugIfTracked": null
+      "price": 41.99,
+      "list": 59.99,
+      "pct": 30,
+      "endsAt": "2026-08-06T08:00:00.000Z",
+      "steamAppId": 1086940,
+      "slugIfTracked": "baldurs-gate-3"
     },
     {
       "title": "Cyberpunk 2077",
@@ -74,18 +50,6 @@
       "slugIfTracked": "cyberpunk-2077"
     },
     {
-      "title": "Marvel’s Spider-Man: Miles Morales",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1817190/",
-      "currency": "USD",
-      "price": 19.99,
-      "list": 49.99,
-      "pct": 60,
-      "endsAt": "2026-08-06T17:00:00.000Z",
-      "steamAppId": 1817190,
-      "slugIfTracked": "marvels-spider-man-miles-morales"
-    },
-    {
       "title": "Machine Party",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/4108000/",
@@ -98,16 +62,16 @@
       "slugIfTracked": null
     },
     {
-      "title": "Cyberpunk 2077: Phantom Liberty",
+      "title": "Marvel’s Spider-Man: Miles Morales",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2138330/",
+      "url": "https://store.steampowered.com/app/1817190/",
       "currency": "USD",
-      "price": 17.99,
-      "list": 29.99,
-      "pct": 40,
-      "endsAt": "2026-08-10T17:00:00.000Z",
-      "steamAppId": 2138330,
-      "slugIfTracked": null
+      "price": 19.99,
+      "list": 49.99,
+      "pct": 60,
+      "endsAt": "2026-08-06T17:00:00.000Z",
+      "steamAppId": 1817190,
+      "slugIfTracked": "marvels-spider-man-miles-morales"
     },
     {
       "title": "Schedule I",
@@ -120,6 +84,42 @@
       "endsAt": "2026-08-06T17:00:00.000Z",
       "steamAppId": 3164500,
       "slugIfTracked": "schedule-i"
+    },
+    {
+      "title": "Corsair Cove",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1368140/",
+      "currency": "USD",
+      "price": 29.99,
+      "list": 39.99,
+      "pct": 25,
+      "endsAt": "2026-08-14T17:00:09.000Z",
+      "steamAppId": 1368140,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Waterpark Simulator",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3293260/",
+      "currency": "USD",
+      "price": 10.39,
+      "list": 12.99,
+      "pct": 20,
+      "endsAt": "2026-08-14T17:00:18.000Z",
+      "steamAppId": 3293260,
+      "slugIfTracked": "waterpark-simulator"
+    },
+    {
+      "title": "Cyberpunk 2077: Phantom Liberty",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2138330/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 29.99,
+      "pct": 40,
+      "endsAt": "2026-08-10T17:00:00.000Z",
+      "steamAppId": 2138330,
+      "slugIfTracked": null
     }
   ]
 }

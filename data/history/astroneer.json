@@ -1,11 +1,11 @@
 {
   "slug": "astroneer",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "164182",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.59,
+      "date": "2026-05-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

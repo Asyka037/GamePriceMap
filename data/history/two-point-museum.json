@@ -1,11 +1,11 @@
 {
   "slug": "two-point-museum",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "291560",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.95,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

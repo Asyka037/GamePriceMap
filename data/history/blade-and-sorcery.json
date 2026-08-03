@@ -1,11 +1,11 @@
 {
   "slug": "blade-and-sorcery",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "196229",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.99,
+      "date": "2018-12-11",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "cloverpit",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "308983",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.99,
+      "date": "2026-04-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

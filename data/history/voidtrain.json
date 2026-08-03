@@ -1,11 +1,11 @@
 {
   "slug": "voidtrain",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "232267",
   "atl": {
     "pc": {
-      "usd": 17.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2025-08-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

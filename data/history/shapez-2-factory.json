@@ -1,11 +1,11 @@
 {
   "slug": "shapez-2-factory",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "320319",
   "atl": {
     "pc": {
-      "usd": 17.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.24,
+      "date": "2026-01-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

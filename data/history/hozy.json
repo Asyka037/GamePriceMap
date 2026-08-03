@@ -1,11 +1,11 @@
 {
   "slug": "hozy",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "316819",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.99,
+      "date": "2026-04-01",
+      "seed": "cheapshark"
     }
   },
   "events": [

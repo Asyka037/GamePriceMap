@@ -1,11 +1,11 @@
 {
   "slug": "batman-arkham-knight",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "107598",
   "atl": {
     "pc": {
-      "usd": 3.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2024-06-27",
+      "seed": "cheapshark"
     }
   },
   "events": [

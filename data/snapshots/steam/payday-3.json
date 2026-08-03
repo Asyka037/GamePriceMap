@@ -1,6 +1,6 @@
 {
   "slug": "payday-3",
-  "lastPriceChangeAt": "2026-07-31",
+  "lastPriceChangeAt": "2026-08-03",
   "regions": [
     {
       "cc": "AR",
@@ -85,9 +85,9 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 3450,
-      "list": 6900,
-      "discountPct": 50,
+      "amount": 3500,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
@@ -101,9 +101,9 @@
     {
       "cc": "KZ",
       "currency": "KZT",
-      "amount": 8250,
-      "list": 16500,
-      "discountPct": 50,
+      "amount": 8300,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {

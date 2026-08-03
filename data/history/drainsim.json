@@ -1,11 +1,11 @@
 {
   "slug": "drainsim",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "317101",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2026-04-17",
+      "seed": "cheapshark"
     }
   },
   "events": [

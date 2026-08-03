@@ -1,11 +1,11 @@
 {
   "slug": "noita",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "205465",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.99,
+      "date": "2024-04-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "roadcraft",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "297397",
   "atl": {
     "pc": {
-      "usd": 39.99,
+      "usd": 21.95,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

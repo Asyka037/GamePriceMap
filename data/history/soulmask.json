@@ -1,11 +1,11 @@
 {
   "slug": "soulmask",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "287452",
   "atl": {
     "pc": {
-      "usd": 23.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 20.99,
+      "date": "2025-05-15",
+      "seed": "cheapshark"
     }
   },
   "events": [

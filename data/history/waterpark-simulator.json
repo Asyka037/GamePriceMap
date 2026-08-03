@@ -1,11 +1,11 @@
 {
   "slug": "waterpark-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "307391",
   "atl": {
     "pc": {
-      "usd": 12.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.87,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

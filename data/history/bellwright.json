@@ -1,11 +1,11 @@
 {
   "slug": "bellwright",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "285353",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.79,
+      "date": "2025-12-03",
+      "seed": "cheapshark"
     }
   },
   "events": [

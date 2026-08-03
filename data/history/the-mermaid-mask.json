@@ -1,11 +1,11 @@
 {
   "slug": "the-mermaid-mask",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "326995",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.99,
+      "date": "2026-07-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

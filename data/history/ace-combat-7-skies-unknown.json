@@ -1,11 +1,11 @@
 {
   "slug": "ace-combat-7-skies-unknown",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "192420",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.17,
+      "date": "2025-10-01",
+      "seed": "cheapshark"
     }
   },
   "events": [

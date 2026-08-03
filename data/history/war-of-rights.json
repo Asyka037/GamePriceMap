@@ -1,11 +1,11 @@
 {
   "slug": "war-of-rights",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "195754",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2019-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "subnautica",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "140643",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.39,
+      "date": "2025-08-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

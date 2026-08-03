@@ -1,11 +1,11 @@
 {
   "slug": "happys-humble-burger-cult",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "326693",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.29,
+      "date": "2026-07-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

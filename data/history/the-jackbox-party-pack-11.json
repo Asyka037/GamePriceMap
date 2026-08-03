@@ -1,11 +1,11 @@
 {
   "slug": "the-jackbox-party-pack-11",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "305794",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 20.99,
+      "date": "2026-06-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

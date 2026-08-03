@@ -1,11 +1,11 @@
 {
   "slug": "train-simulator-classic",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "245837",
   "atl": {
     "pc": {
-      "usd": 5.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.98,
+      "date": "2026-01-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

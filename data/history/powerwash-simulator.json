@@ -1,11 +1,11 @@
 {
   "slug": "powerwash-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "229961",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

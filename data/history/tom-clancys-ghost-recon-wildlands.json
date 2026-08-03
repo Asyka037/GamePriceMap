@@ -1,11 +1,11 @@
 {
   "slug": "tom-clancys-ghost-recon-wildlands",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "153195",
   "atl": {
     "pc": {
-      "usd": 49.99,
+      "usd": 2.41,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

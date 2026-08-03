@@ -1,11 +1,11 @@
 {
   "slug": "scale-the-depths",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "323456",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.96,
+      "date": "2026-05-28",
+      "seed": "cheapshark"
     }
   },
   "events": [

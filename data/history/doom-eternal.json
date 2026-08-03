@@ -1,11 +1,11 @@
 {
   "slug": "doom-eternal",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "202356",
   "atl": {
     "pc": {
-      "usd": 9.89,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.99,
+      "date": "2025-09-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

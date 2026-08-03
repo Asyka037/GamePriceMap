@@ -1,11 +1,11 @@
 {
   "slug": "party-animals",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "287558",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.99,
+      "date": "2024-09-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

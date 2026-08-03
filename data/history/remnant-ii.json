@@ -1,11 +1,11 @@
 {
   "slug": "remnant-ii",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "264210",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.95,
+      "date": "2026-07-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

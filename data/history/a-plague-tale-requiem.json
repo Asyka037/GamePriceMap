@@ -1,11 +1,11 @@
 {
   "slug": "a-plague-tale-requiem",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "248165",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8,
+      "date": "2026-04-15",
+      "seed": "cheapshark"
     }
   },
   "events": [

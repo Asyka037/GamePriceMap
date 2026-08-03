@@ -1,11 +1,11 @@
 {
   "slug": "dying-light",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "128804",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.49,
+      "date": "2026-03-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "farthest-frontier",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "249771",
   "atl": {
     "pc": {
-      "usd": 20.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 16.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

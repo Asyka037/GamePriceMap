@@ -1,11 +1,11 @@
 {
   "slug": "house-party",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "170526",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.64,
+      "date": "2018-09-03",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "x4-foundations",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "192939",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4,
+      "date": "2025-12-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

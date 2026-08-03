@@ -1,11 +1,11 @@
 {
   "slug": "supermarket-chaos",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "325836",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.49,
+      "date": "2026-06-30",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "outbrk",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "288745",
   "atl": {
     "pc": {
-      "usd": 34.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.49,
+      "date": "2026-02-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "beat-saber",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "186601",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.99,
+      "date": "2018-05-01",
+      "seed": "cheapshark"
     }
   },
   "events": [
