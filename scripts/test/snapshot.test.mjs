@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   assembleRawSnapshot,
   sameObservations,
+  snapshotReplacementDecision,
   enrichSnapshot,
   usObservation,
   DERIVED_REGION_FIELDS,
@@ -27,6 +28,21 @@ test('lastPriceChangeAt is excluded from the semantic comparison', () => {
   const a = { ...assembleRawSnapshot('g', rows), lastPriceChangeAt: '2026-07-01' };
   const b = { ...assembleRawSnapshot('g', rows), lastPriceChangeAt: '2026-07-11' };
   assert.ok(sameObservations(a, b));
+});
+
+test('coverage guard keeps the previous snapshot only when retention falls below 80%', () => {
+  const snapshotWith = (count) => ({ regions: Array.from({ length: count }, (_, index) => ({ cc: String(index) })) });
+  assert.deepEqual(snapshotReplacementDecision(snapshotWith(14), snapshotWith(5)), {
+    keepPrevious: true,
+    previousCount: 14,
+    candidateCount: 5,
+  });
+  assert.equal(snapshotReplacementDecision(snapshotWith(5), snapshotWith(4)).keepPrevious, false, 'exactly 80% is accepted');
+  assert.equal(snapshotReplacementDecision(null, snapshotWith(1)).keepPrevious, false, 'first snapshots have no previous baseline');
+  assert.throws(
+    () => snapshotReplacementDecision(snapshotWith(1), snapshotWith(1), { minimumRetention: 0 }),
+    /minimumRetention/u,
+  );
 });
 
 test('usObservation returns native-USD amount and rejects non-USD US rows', () => {

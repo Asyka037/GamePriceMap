@@ -19,6 +19,25 @@ export function round2(n) {
 /** Fields derived at build time and forbidden in persisted raw observations. */
 export const DERIVED_REGION_FIELDS = Object.freeze(['usd', 'listUsd', 'rank']);
 
+/**
+ * A single upstream status drift must not replace a previously healthy
+ * regional snapshot with a suddenly sparse one. Keep this threshold shared
+ * by scrapers and the final validation gate so their policies cannot diverge.
+ */
+export const MIN_PREVIOUS_REGION_RETENTION = 0.8;
+
+export function snapshotReplacementDecision(previous, candidate, {
+  minimumRetention = MIN_PREVIOUS_REGION_RETENTION,
+} = {}) {
+  if (!(minimumRetention > 0 && minimumRetention <= 1)) {
+    throw new RangeError('minimumRetention must be in (0, 1]');
+  }
+  const previousCount = Array.isArray(previous?.regions) ? previous.regions.length : 0;
+  const candidateCount = Array.isArray(candidate?.regions) ? candidate.regions.length : 0;
+  const keepPrevious = previousCount > 0 && candidateCount < previousCount * minimumRetention;
+  return { keepPrevious, previousCount, candidateCount };
+}
+
 const SINGLE_MARKET_CHANNELS = new Set(['xbox', 'psn']);
 
 /**

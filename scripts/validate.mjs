@@ -17,7 +17,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { DERIVED_REGION_FIELDS, singleMarketHistoryErrors, singleMarketSnapshotErrors } from './lib/snapshot.mjs';
+import { DERIVED_REGION_FIELDS, singleMarketHistoryErrors, singleMarketSnapshotErrors, snapshotReplacementDecision } from './lib/snapshot.mjs';
 import { DERIVED_STEAM_OFFER_FIELDS } from './lib/steam-offers.mjs';
 import { catalogIndexes } from './lib/catalog.mjs';
 import { ESHOP_REGIONS } from './lib/eshop.mjs';
@@ -200,7 +200,7 @@ if (fs.existsSync(offerDir)) {
       const us = item.regions.find((region) => region.cc === 'US');
       if (!us || us.currency !== 'USD') fail(`${rel} package ${item.packageId}: missing native US/USD observation`);
       const previousItem = previous?.offers?.find((candidate) => candidate.packageId === item.packageId);
-      if (previousItem?.regions?.length && item.regions.length < previousItem.regions.length * 0.8) {
+      if (snapshotReplacementDecision(previousItem, item).keepPrevious) {
         fail(`${rel} package ${item.packageId}: region coverage dropped ${previousItem.regions.length} -> ${item.regions.length} (>20%)`);
       }
     }
@@ -301,7 +301,7 @@ function validateSnapshotDir(dir, channel) {
         fail(`${rel}: first snapshot covers ${snap.regions.length}/${channel === 'steam' ? STEAM_REGIONS.length : ESHOP_REGIONS.filter(({ group }) => game?.nsuids?.[group]).length} applicable regions (minimum ${minimum})`);
       }
     }
-    if (prev?.regions?.length && snap.regions.length < prev.regions.length * 0.8) {
+    if (snapshotReplacementDecision(prev, snap).keepPrevious) {
       fail(`${rel}: region coverage dropped ${prev.regions.length} -> ${snap.regions.length} (>20%)`);
     }
   }

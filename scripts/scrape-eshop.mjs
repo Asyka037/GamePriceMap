@@ -14,7 +14,7 @@ import { fileURLToPath } from 'node:url';
 import { fetchJson, sleep, chunk, requestBudgetFor, setRequestBudget, shouldTripCircuit } from './lib/http.mjs';
 import { fetchRates } from './lib/rates.mjs';
 import { ESHOP_REGIONS, PRICE_BATCH_SIZE, priceUrl, parsePriceEntry, indexPricesById, filterOutlierRegions } from './lib/eshop.mjs';
-import { assembleRawSnapshot, sameObservations } from './lib/snapshot.mjs';
+import { assembleRawSnapshot, sameObservations, snapshotReplacementDecision } from './lib/snapshot.mjs';
 import { recordSourceRun, completeSourceRun, sourceRunExitCode } from './lib/sourcehealth.mjs';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -96,6 +96,7 @@ fs.mkdirSync(SNAP_DIR, { recursive: true });
 let written = 0;
 let unchanged = 0;
 let skipped = 0;
+let guardedCoverageDrops = 0;
 const today = new Date().toISOString().slice(0, 10);
 for (const g of games) {
   const snapPath = path.join(SNAP_DIR, `${g.slug}.json`);
@@ -109,6 +110,13 @@ for (const g of games) {
   }
 
   const snap = filterOutlierRegions(assembleRawSnapshot(g.slug, gameRows), rates);
+  const coverage = snapshotReplacementDecision(old, snap);
+  if (coverage.keepPrevious) {
+    console.warn(`  ${g.slug}: region coverage dropped ${coverage.previousCount} -> ${coverage.candidateCount} (>20%); keeping previous snapshot`);
+    guardedCoverageDrops++;
+    skipped++;
+    continue;
+  }
   if (snap.regions.length === 0) {
     console.warn(`  ${g.slug}: zero priced regions, keeping previous snapshot`);
     skipped++;
@@ -124,8 +132,8 @@ for (const g of games) {
 }
 
 const complete = completeSourceRun({ expected: games.length, changed: written, unchanged, skipped, failedRequests: failedRegionRequests });
-recordSourceRun('eshop-regional', { ok: complete, targeted: onlySlugs.length > 0, note: `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, failed region requests ${failedRegionRequests}, expected ${games.length}` });
-console.log(`eShop snapshots changed: ${written}, unchanged: ${unchanged}, skipped: ${skipped}, failed region requests: ${failedRegionRequests}`);
+recordSourceRun('eshop-regional', { ok: complete, targeted: onlySlugs.length > 0, note: `changed ${written}, unchanged ${unchanged}, skipped ${skipped}, guarded coverage drops ${guardedCoverageDrops}, failed region requests ${failedRegionRequests}, expected ${games.length}` });
+console.log(`eShop snapshots changed: ${written}, unchanged: ${unchanged}, skipped: ${skipped}, guarded coverage drops: ${guardedCoverageDrops}, failed region requests: ${failedRegionRequests}`);
 if (!complete) {
   console.warn('eShop run was incomplete; old observations were retained and lastSuccessAt was not advanced.');
 }
