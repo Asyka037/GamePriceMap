@@ -1,14 +1,14 @@
 {
   "slug": "a-little-to-the-left",
-  "lastPriceChangeAt": "2026-07-31",
+  "lastPriceChangeAt": "2026-08-03",
   "regions": [
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 9.18,
-      "list": 22.95,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-02T13:59:59Z"
+      "amount": 22.95,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "BR",
@@ -29,10 +29,10 @@
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 6.4,
-      "list": 16,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-02T21:59:59Z"
+      "amount": 16,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CO",
@@ -45,26 +45,26 @@
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 5.99,
-      "list": 14.99,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-02T21:59:59Z"
+      "amount": 14.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "DK",
       "currency": "DKK",
-      "amount": 43.5,
-      "list": 109,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-02T21:59:59Z"
+      "amount": 109,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 5.19,
-      "list": 12.99,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-02T22:59:59Z"
+      "amount": 12.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "JP",
@@ -85,26 +85,26 @@
     {
       "cc": "NO",
       "currency": "NOK",
-      "amount": 74,
-      "list": 185,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-02T21:59:59Z"
+      "amount": 185,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NZ",
       "currency": "NZD",
-      "amount": 9.99,
-      "list": 24.99,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-02T11:59:59Z"
+      "amount": 24.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "PL",
       "currency": "PLN",
-      "amount": 27.99,
-      "list": 69.99,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-02T21:59:59Z"
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "US",
@@ -117,10 +117,10 @@
     {
       "cc": "ZA",
       "currency": "ZAR",
-      "amount": 107.6,
-      "list": 269,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-02T21:59:59Z"
+      "amount": 269,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     }
   ]
 }
