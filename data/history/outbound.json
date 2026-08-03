@@ -1,11 +1,11 @@
 {
   "slug": "outbound",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "321919",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

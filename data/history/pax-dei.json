@@ -1,11 +1,11 @@
 {
   "slug": "pax-dei",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "288273",
   "atl": {
     "pc": {
-      "usd": 14.99,
+      "usd": 13.99,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

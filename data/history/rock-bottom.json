@@ -1,11 +1,11 @@
 {
   "slug": "rock-bottom",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "326868",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.19,
+      "date": "2026-07-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

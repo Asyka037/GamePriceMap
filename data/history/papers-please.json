@@ -1,11 +1,11 @@
 {
   "slug": "papers-please",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "100587",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2018-01-15",
+      "seed": "cheapshark"
     }
   },
   "events": [

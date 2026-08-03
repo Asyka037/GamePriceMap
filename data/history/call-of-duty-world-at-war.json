@@ -1,11 +1,11 @@
 {
   "slug": "call-of-duty-world-at-war",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "143",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.79,
+      "date": "2015-06-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

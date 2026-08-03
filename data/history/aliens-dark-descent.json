@@ -1,11 +1,11 @@
 {
   "slug": "aliens-dark-descent",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "260019",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2026-06-12",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "humanitz",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "272628",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.55,
+      "date": "2025-01-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

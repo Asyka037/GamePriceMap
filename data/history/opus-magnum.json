@@ -1,11 +1,11 @@
 {
   "slug": "opus-magnum",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "174337",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.79,
+      "date": "2021-04-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

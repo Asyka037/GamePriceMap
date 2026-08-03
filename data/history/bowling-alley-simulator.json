@@ -1,11 +1,11 @@
 {
   "slug": "bowling-alley-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "326854",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.49,
+      "date": "2026-07-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

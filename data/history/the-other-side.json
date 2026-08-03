@@ -1,11 +1,11 @@
 {
   "slug": "the-other-side",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "299138",
   "atl": {
     "pc": {
-      "usd": 13.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.79,
+      "date": "2026-03-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

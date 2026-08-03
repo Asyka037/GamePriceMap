@@ -1,11 +1,11 @@
 {
   "slug": "dorfromantik",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "226996",
   "atl": {
     "pc": {
-      "usd": 13.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.59,
+      "date": "2025-09-04",
+      "seed": "cheapshark"
     }
   },
   "events": [

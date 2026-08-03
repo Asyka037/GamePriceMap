@@ -1,11 +1,11 @@
 {
   "slug": "solasta-ii",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "317596",
   "atl": {
     "pc": {
-      "usd": 31.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 25.87,
+      "date": "2026-06-12",
+      "seed": "cheapshark"
     }
   },
   "events": [

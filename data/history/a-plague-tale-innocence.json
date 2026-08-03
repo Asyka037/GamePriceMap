@@ -1,11 +1,11 @@
 {
   "slug": "a-plague-tale-innocence",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "198016",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.5,
+      "date": "2026-04-15",
+      "seed": "cheapshark"
     }
   },
   "events": [

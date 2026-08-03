@@ -1,11 +1,11 @@
 {
   "slug": "rounds",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "228080",
   "atl": {
     "pc": {
-      "usd": 5.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.39,
+      "date": "2022-12-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

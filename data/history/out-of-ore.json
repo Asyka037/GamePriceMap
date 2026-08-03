@@ -1,11 +1,11 @@
 {
   "slug": "out-of-ore",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "252795",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.44,
+      "date": "2022-10-31",
+      "seed": "cheapshark"
     }
   },
   "events": [

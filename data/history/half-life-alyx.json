@@ -1,11 +1,11 @@
 {
   "slug": "half-life-alyx",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "207442",
   "atl": {
     "pc": {
-      "usd": 59.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2026-04-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

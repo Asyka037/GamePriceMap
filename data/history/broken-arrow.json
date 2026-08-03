@@ -1,11 +1,11 @@
 {
   "slug": "broken-arrow",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "302128",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 36.99,
+      "date": "2026-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

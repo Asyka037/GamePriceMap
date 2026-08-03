@@ -1,11 +1,11 @@
 {
   "slug": "titanfall-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "153781",
   "atl": {
     "pc": {
-      "usd": 4.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2023-01-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

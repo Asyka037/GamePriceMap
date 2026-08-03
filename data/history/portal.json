@@ -1,11 +1,11 @@
 {
   "slug": "portal",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "82",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 0.99,
+      "date": "2017-06-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

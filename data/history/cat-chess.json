@@ -1,11 +1,11 @@
 {
   "slug": "cat-chess",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "326867",
   "atl": {
     "pc": {
-      "usd": 6.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.94,
+      "date": "2026-07-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

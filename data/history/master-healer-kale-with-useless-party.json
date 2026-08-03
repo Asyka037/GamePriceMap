@@ -1,11 +1,11 @@
 {
   "slug": "master-healer-kale-with-useless-party",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "326055",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.99,
+      "date": "2026-07-03",
+      "seed": "cheapshark"
     }
   },
   "events": [

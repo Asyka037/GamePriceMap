@@ -1,11 +1,11 @@
 {
   "slug": "wingspan",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "220602",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.99,
+      "date": "2024-10-07",
+      "seed": "cheapshark"
     }
   },
   "events": [

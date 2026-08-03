@@ -1,11 +1,11 @@
 {
   "slug": "the-long-dark",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "128805",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.49,
+      "date": "2025-04-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

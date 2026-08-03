@@ -1,11 +1,11 @@
 {
   "slug": "call-of-duty-modern-warfare",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "253036",
   "atl": {
     "pc": {
-      "usd": 59.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.99,
+      "date": "2026-03-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "void-crew",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "272274",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.85,
+      "date": "2026-06-12",
+      "seed": "cheapshark"
     }
   },
   "events": [

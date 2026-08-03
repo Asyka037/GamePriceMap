@@ -1,11 +1,11 @@
 {
   "slug": "storebound",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "311950",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.19,
+      "date": "2026-03-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "fast-food-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "295641",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.74,
+      "date": "2025-09-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

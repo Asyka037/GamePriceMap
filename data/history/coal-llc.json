@@ -1,11 +1,11 @@
 {
   "slug": "coal-llc",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "308267",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2026-04-17",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "nascar-25",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "311669",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 24.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

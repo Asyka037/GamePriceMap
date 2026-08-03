@@ -1,11 +1,11 @@
 {
   "slug": "left-4-dead",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "107",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 0.99,
+      "date": "2019-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

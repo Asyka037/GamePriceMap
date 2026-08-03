@@ -1,11 +1,11 @@
 {
   "slug": "library-of-ruina",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "215474",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.19,
+      "date": "2022-11-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

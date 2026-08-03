@@ -1,11 +1,11 @@
 {
   "slug": "assassins-creed-origins",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "170047",
   "atl": {
     "pc": {
-      "usd": 59.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5,
+      "date": "2024-09-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

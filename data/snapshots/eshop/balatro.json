@@ -5,10 +5,10 @@
     {
       "cc": "AR",
       "currency": "ARS",
-      "amount": 5264,
-      "list": 6580,
-      "discountPct": 20,
-      "saleEndsAt": "2026-08-03T06:59:59Z"
+      "amount": 6580,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "AU",
@@ -21,18 +21,18 @@
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 35.99,
-      "list": 44.99,
-      "discountPct": 20,
-      "saleEndsAt": "2026-08-03T06:59:59Z"
+      "amount": 44.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 15.19,
-      "list": 18.99,
-      "discountPct": 20,
-      "saleEndsAt": "2026-08-03T06:59:59Z"
+      "amount": 18.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CH",
@@ -45,10 +45,10 @@
     {
       "cc": "CO",
       "currency": "COP",
-      "amount": 30000,
-      "list": 37500,
-      "discountPct": 20,
-      "saleEndsAt": "2026-08-03T06:59:59Z"
+      "amount": 37500,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "DE",
@@ -85,10 +85,10 @@
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 143.19,
-      "list": 178.99,
-      "discountPct": 20,
-      "saleEndsAt": "2026-08-03T06:59:59Z"
+      "amount": 178.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NO",
@@ -117,10 +117,10 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 11.99,
-      "list": 14.99,
-      "discountPct": 20,
-      "saleEndsAt": "2026-08-03T06:59:59Z"
+      "amount": 14.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "ZA",

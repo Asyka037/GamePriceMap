@@ -1,11 +1,11 @@
 {
   "slug": "car-service-together",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "315788",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 15.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

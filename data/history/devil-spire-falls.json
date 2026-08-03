@@ -1,11 +1,11 @@
 {
   "slug": "devil-spire-falls",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "305474",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2026-04-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

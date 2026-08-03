@@ -1,11 +1,11 @@
 {
   "slug": "ultimate-chicken-horse",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "150746",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.24,
+      "date": "2024-05-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

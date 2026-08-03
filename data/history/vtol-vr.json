@@ -1,11 +1,11 @@
 {
   "slug": "vtol-vr",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "171629",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

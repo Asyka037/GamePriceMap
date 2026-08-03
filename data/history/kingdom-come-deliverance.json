@@ -1,11 +1,11 @@
 {
   "slug": "kingdom-come-deliverance",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "172131",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2024-08-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

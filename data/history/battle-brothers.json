@@ -1,11 +1,11 @@
 {
   "slug": "battle-brothers",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "143431",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2025-03-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

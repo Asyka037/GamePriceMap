@@ -1,11 +1,11 @@
 {
   "slug": "wartales",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "237845",
   "atl": {
     "pc": {
-      "usd": 34.99,
+      "usd": 8.99,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

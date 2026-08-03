@@ -1,11 +1,11 @@
 {
   "slug": "world-war-z",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "259163",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.74,
+      "date": "2026-07-15",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "look-outside",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "299389",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.99,
+      "date": "2026-06-11",
+      "seed": "cheapshark"
     }
   },
   "events": [

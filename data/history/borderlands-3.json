@@ -1,11 +1,11 @@
 {
   "slug": "borderlands-3",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "200621",
   "atl": {
     "pc": {
-      "usd": 5.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2025-06-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

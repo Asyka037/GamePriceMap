@@ -1,11 +1,11 @@
 {
   "slug": "demonologist",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "258807",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.49,
+      "date": "2024-06-27",
+      "seed": "cheapshark"
     }
   },
   "events": [

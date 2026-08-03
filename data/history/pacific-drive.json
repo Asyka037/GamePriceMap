@@ -1,11 +1,11 @@
 {
   "slug": "pacific-drive",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "270267",
   "atl": {
     "pc": {
-      "usd": 29.99,
+      "usd": 8.87,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

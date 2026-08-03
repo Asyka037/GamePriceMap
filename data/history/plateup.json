@@ -1,11 +1,11 @@
 {
   "slug": "plateup",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "249340",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.09,
+      "date": "2025-09-30",
+      "seed": "cheapshark"
     }
   },
   "events": [

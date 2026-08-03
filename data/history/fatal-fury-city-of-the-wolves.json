@@ -1,11 +1,11 @@
 {
   "slug": "fatal-fury-city-of-the-wolves",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "290415",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.99,
+      "date": "2026-06-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

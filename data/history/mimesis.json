@@ -1,11 +1,11 @@
 {
   "slug": "mimesis",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "310781",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.99,
+      "date": "2026-06-17",
+      "seed": "cheapshark"
     }
   },
   "events": [

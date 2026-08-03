@@ -1,11 +1,11 @@
 {
   "slug": "spaceengine",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "202383",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.99,
+      "date": "2023-12-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

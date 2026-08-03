@@ -1,11 +1,11 @@
 {
   "slug": "carpet-cleaning-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "326802",
   "atl": {
     "pc": {
-      "usd": 6.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.59,
+      "date": "2026-07-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "code-vein",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "170170",
   "atl": {
     "pc": {
-      "usd": 5.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.12,
+      "date": "2026-05-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

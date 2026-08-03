@@ -1,11 +1,11 @@
 {
   "slug": "unbeatable",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "302647",
   "atl": {
     "pc": {
-      "usd": 19.59,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.79,
+      "date": "2026-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

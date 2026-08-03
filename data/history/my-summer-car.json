@@ -1,11 +1,11 @@
 {
   "slug": "my-summer-car",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "160892",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.44,
+      "date": "2025-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

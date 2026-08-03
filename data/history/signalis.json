@@ -1,11 +1,11 @@
 {
   "slug": "signalis",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "252631",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.99,
+      "date": "2023-11-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

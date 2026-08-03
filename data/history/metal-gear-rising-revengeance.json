@@ -1,11 +1,11 @@
 {
   "slug": "metal-gear-rising-revengeance",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "104221",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.19,
+      "date": "2021-02-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

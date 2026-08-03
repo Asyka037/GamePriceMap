@@ -1,11 +1,11 @@
 {
   "slug": "sonic-racing-crossworlds",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "304218",
   "atl": {
     "pc": {
-      "usd": 69.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 31.95,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

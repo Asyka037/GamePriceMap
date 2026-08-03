@@ -1,11 +1,11 @@
 {
   "slug": "dark-hours",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "293802",
   "atl": {
     "pc": {
-      "usd": 8.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.99,
+      "date": "2024-12-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

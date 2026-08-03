@@ -1,11 +1,11 @@
 {
   "slug": "fellowship",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "278123",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.59,
+      "date": "2023-11-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

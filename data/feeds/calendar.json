@@ -1,83 +1,31 @@
 {
-  "updatedAt": "2026-08-03T03:38:35.280Z",
+  "updatedAt": "2026-08-03T10:59:10.714Z",
   "months": {
     "2026-08": [
       {
-        "title": "Cavernreach",
-        "date": "2026-08-02",
+        "title": "Dead Zone Revive",
+        "date": "2026-08-03",
         "month": "2026-08",
         "platforms": [
           "pc"
         ],
         "urls": {
-          "pc": "https://store.steampowered.com/app/3715410/"
+          "pc": "https://store.steampowered.com/app/3919900/"
         },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3715410/5e819dcebf8966c56f6e7f0260ec3d832f811e7d/header.jpg?t=1785692353",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919900/774c0da58c69bb0fecb842dc708d40bd7db22ca1/header.jpg?t=1783095094",
         "slugIfTracked": null
       },
       {
-        "title": "DottyBead闪闪拼豆",
-        "date": "2026-08-02",
+        "title": "Deepcore Mining",
+        "date": "2026-08-03",
         "month": "2026-08",
         "platforms": [
           "pc"
         ],
         "urls": {
-          "pc": "https://store.steampowered.com/app/4599500/"
+          "pc": "https://store.steampowered.com/app/4621540/"
         },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599500/b10eba6eb1d173d980c71a23ac6f48914eb2c148/header.jpg?t=1785560027",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Dungeons & Donuts",
-        "date": "2026-08-02",
-        "month": "2026-08",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4764560/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764560/99525155b7c1a243bdb328de8c6ee9ed3dee362f/header.jpg?t=1785727190",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Fishing：Across china",
-        "date": "2026-08-02",
-        "month": "2026-08",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/3583700/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583700/b3b6aa00f71201c41931a5072c415882e6fbd987/header.jpg?t=1771055758",
-        "slugIfTracked": null
-      },
-      {
-        "title": "GeoPinQuest",
-        "date": "2026-08-02",
-        "month": "2026-08",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4974830/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4974830/3b9f72f01257e6746e52d84c8f99c56a3b365b7e/header.jpg?t=1784938211",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Lilith Waifu",
-        "date": "2026-08-02",
-        "month": "2026-08",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4979790/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4979790/a09f7ef163d75042c7cf3a9ca41b3e34ffa40a01/header.jpg?t=1784588641",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4621540/1a6b6ce9b22601810d49ae75d52b6c0c488140e5/header.jpg?t=1785661965",
         "slugIfTracked": null
       },
       {
@@ -94,29 +42,94 @@
         "slugIfTracked": null
       },
       {
-        "title": "Robin Hood: Sherwood Valley",
+        "title": "Earth’s Last Defense Idle Fleet",
         "date": "2026-08-03",
         "month": "2026-08",
         "platforms": [
           "pc"
         ],
         "urls": {
-          "pc": "https://store.steampowered.com/app/4792610/"
+          "pc": "https://store.steampowered.com/app/4726800/"
         },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4792610/594524e44f0537c636d9a2b6ac8e670dd6f55fe4/header.jpg?t=1782939819",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4726800/b69c5aa85668c11d26ea6640ed545bcd59766cee/header.jpg?t=1783976958",
         "slugIfTracked": null
       },
       {
-        "title": "Soul Siblings",
+        "title": "Green Light District",
         "date": "2026-08-03",
         "month": "2026-08",
         "platforms": [
           "pc"
         ],
         "urls": {
-          "pc": "https://store.steampowered.com/app/4706800/"
+          "pc": "https://store.steampowered.com/app/4482890/"
         },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706800/7643eff852b1265f134c923067fc0fbade0afe9f/header.jpg?t=1785059368",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4482890/a29171c4ce82ab4ec918cb3187987e2833449641/header.jpg?t=1785088732",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Hacklash",
+        "date": "2026-08-03",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/4841280/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4841280/f9e8305401f1525f2eb911859d6fe539d9fa556d/header.jpg?t=1782562390",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Hidden Turtle Puzzle",
+        "date": "2026-08-03",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/4631670/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4631670/38a8cac7ca9a3cf1397ba08dd181501f65ce7d55/header.jpg?t=1784569880",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Shell of the coward",
+        "date": "2026-08-03",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/3964350/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3964350/0b594d6bae0d53d73e474d23f7e3a03e14846466/header.jpg?t=1782895251",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Shibuya 88 StarBurner",
+        "date": "2026-08-03",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/4541700/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4541700/f5ced73d57f554d21c04495eee25a821c04a8f07/header.jpg?t=1784320202",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Upgradia",
+        "date": "2026-08-03",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/4774800/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4774800/72e4ac582dda7c31abadba4d4052e4d1512c9c32/header.jpg?t=1785357723",
         "slugIfTracked": null
       },
       {
@@ -971,12 +984,10 @@
         "date": "2026-08-18",
         "month": "2026-08",
         "platforms": [
-          "switch",
           "xbox"
         ],
         "urls": {
-          "xbox": "https://www.microsoft.com/en-us/p/_/9plnfb7r895s",
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Backyard-Baseball-3147148.html"
+          "xbox": "https://www.microsoft.com/en-us/p/_/9plnfb7r895s"
         },
         "image": "https://store-images.s-microsoft.com/image/apps.52061.14314069199963077.c1cc0306-b3db-4ee3-ad6a-7a292649ed4b.81eb70b3-2b8d-49a7-a914-71082de8dbb8",
         "slugIfTracked": null
@@ -1109,19 +1120,6 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-games/OVER-REQUIEMZ-3141803.html"
         },
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/overrequiemz/16x9_OverRequiemz_image500w.jpg",
-        "slugIfTracked": null
-      },
-      {
-        "title": "The Witch's Bakery",
-        "date": "2026-08-20",
-        "month": "2026-08",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/The-Witch-s-Bakery-3128985.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thewitchsbakery/16x9_TheWitchsBakery_image500w.jpg",
         "slugIfTracked": null
       },
       {
@@ -1765,6 +1763,32 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Tentacle-Tango-3119052.html"
         },
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/tentacletango/16x9_TentacleTango_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "EA SPORTS FC™ 27",
+        "date": "2026-09-25",
+        "month": "2026-09",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/EA-SPORTS-FC-27-3147060.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/ntusw4v1fug2d08uhe9z",
+        "slugIfTracked": null
+      },
+      {
+        "title": "EA SPORTS FC™ 27",
+        "date": "2026-09-25",
+        "month": "2026-09",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-games/EA-SPORTS-FC-27-3147152.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/l8s9hdngkp49gfvg7znu",
         "slugIfTracked": null
       }
     ],

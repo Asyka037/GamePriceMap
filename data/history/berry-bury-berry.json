@@ -1,11 +1,11 @@
 {
   "slug": "berry-bury-berry",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "315559",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.35,
+      "date": "2026-05-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

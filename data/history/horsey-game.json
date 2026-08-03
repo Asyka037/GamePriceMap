@@ -1,11 +1,11 @@
 {
   "slug": "horsey-game",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "316599",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.49,
+      "date": "2026-02-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

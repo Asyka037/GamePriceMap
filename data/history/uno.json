@@ -1,11 +1,11 @@
 {
   "slug": "uno",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "164694",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.5,
+      "date": "2018-08-28",
+      "seed": "cheapshark"
     }
   },
   "events": [

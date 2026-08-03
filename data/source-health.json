@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-03T03:43:23.815Z",
+  "updatedAt": "2026-08-03T11:04:21.140Z",
   "sources": {
     "steam-regional": {
-      "lastAttemptAt": "2026-08-03T03:35:18.286Z",
-      "lastSuccessAt": "2026-08-03T03:35:18.286Z",
+      "lastAttemptAt": "2026-08-03T10:55:49.754Z",
+      "lastSuccessAt": "2026-08-03T10:55:49.754Z",
       "consecutiveFailures": 0,
-      "note": "changed 2, unchanged 89, skipped 0, failed region requests 0, expected 91"
+      "note": "changed 0, unchanged 91, skipped 0, failed region requests 0, expected 91"
     },
     "eshop-regional": {
-      "lastAttemptAt": "2026-08-03T03:38:06.816Z",
+      "lastAttemptAt": "2026-08-03T10:58:39.727Z",
       "lastSuccessAt": "2026-07-31T10:09:29.386Z",
-      "consecutiveFailures": 2,
-      "note": "changed 0, unchanged 96, skipped 1, guarded coverage drops 1, failed region requests 0, expected 97"
+      "consecutiveFailures": 3,
+      "note": "changed 1, unchanged 95, skipped 1, guarded coverage drops 1, failed region requests 0, expected 97"
     },
     "xbox-us": {
       "lastAttemptAt": "2026-07-27T12:23:09.817Z",
@@ -44,10 +44,10 @@
       "note": "changed 86, unchanged 4, failed games 0, expected 90"
     },
     "meta:shard-2": {
-      "lastAttemptAt": "2026-07-19T09:31:34.333Z",
-      "lastSuccessAt": "2026-07-19T09:31:34.333Z",
+      "lastAttemptAt": "2026-08-03T11:04:21.140Z",
+      "lastSuccessAt": "2026-08-03T11:04:21.140Z",
       "consecutiveFailures": 0,
-      "note": "changed 25, unchanged 1, failed games 0, expected 26"
+      "note": "changed 93, unchanged 4, failed games 0, expected 97"
     },
     "meta:shard-3": {
       "lastAttemptAt": "2026-07-20T10:28:54.565Z",
@@ -128,10 +128,10 @@
       "note": "changed 14, unchanged 151, skipped 0, failed region requests 0, expected 165"
     },
     "steam-regional:extended-1": {
-      "lastAttemptAt": "2026-07-26T09:35:21.658Z",
-      "lastSuccessAt": "2026-07-26T09:35:21.658Z",
+      "lastAttemptAt": "2026-08-03T10:57:55.011Z",
+      "lastSuccessAt": "2026-08-03T10:57:55.011Z",
       "consecutiveFailures": 0,
-      "note": "changed 9, unchanged 9, skipped 0, failed region requests 0, expected 18"
+      "note": "changed 9, unchanged 151, skipped 0, failed region requests 0, expected 160"
     },
     "steam-regional:extended-3": {
       "lastAttemptAt": "2026-07-27T10:55:39.435Z",

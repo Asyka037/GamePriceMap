@@ -1,11 +1,11 @@
 {
   "slug": "brick-rigs",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "161981",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.74,
+      "date": "2021-07-04",
+      "seed": "cheapshark"
     }
   },
   "events": [

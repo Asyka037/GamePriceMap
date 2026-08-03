@@ -3,8 +3,8 @@
   "cheapsharkGameId": null,
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
+      "usd": 11.24,
+      "date": "2026-08-03",
       "seed": "self"
     }
   },
@@ -15,6 +15,13 @@
       "cc": "US",
       "usd": 14.99,
       "pct": null
+    },
+    {
+      "d": "2026-08-03",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 11.24,
+      "pct": 25
     }
   ]
 }
