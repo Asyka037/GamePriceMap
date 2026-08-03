@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T11:04:21.140Z",
+  "updatedAt": "2026-08-03T12:27:11.030Z",
   "sources": {
     "steam-regional": {
       "lastAttemptAt": "2026-08-03T10:55:49.754Z",
@@ -14,16 +14,16 @@
       "note": "changed 1, unchanged 95, skipped 1, guarded coverage drops 1, failed region requests 0, expected 97"
     },
     "xbox-us": {
-      "lastAttemptAt": "2026-07-27T12:23:09.817Z",
+      "lastAttemptAt": "2026-08-03T12:22:40.898Z",
       "lastSuccessAt": "2026-07-27T12:23:09.817Z",
-      "consecutiveFailures": 0,
-      "note": "changed 0, unchanged 14, failed products 0, failed requests 0, expected 14"
+      "consecutiveFailures": 1,
+      "note": "changed 8, unchanged 17, failed products 1, failed requests 0, expected 26"
     },
     "steam-offers": {
-      "lastAttemptAt": "2026-07-27T12:25:17.525Z",
-      "lastSuccessAt": "2026-07-27T12:25:17.525Z",
+      "lastAttemptAt": "2026-08-03T12:27:11.030Z",
+      "lastSuccessAt": "2026-08-03T12:27:11.030Z",
       "consecutiveFailures": 0,
-      "note": "changed 5, unchanged 4, files written 2, failed requests 0, expected 9"
+      "note": "changed 1, unchanged 8, files written 1, failed requests 0, expected 9"
     },
     "meta": {
       "lastAttemptAt": "2026-07-16T15:57:35.996Z",
@@ -164,10 +164,10 @@
       "note": "POC registered; awaiting first authorized full weekly run"
     },
     "calendar-xbox-us": {
-      "lastAttemptAt": "2026-07-22T04:43:48.907Z",
+      "lastAttemptAt": "2026-08-03T12:25:03.269Z",
       "lastSuccessAt": "2026-07-22T04:43:48.907Z",
-      "consecutiveFailures": 0,
-      "note": "pages 3, category products 106, verified products 106, published 24, outside window 0, safe exclusions 82 (bundle_requires_manual_resolution=81, non_base_game_title=1)"
+      "consecutiveFailures": 1,
+      "note": "calendar discovery did not start; Command failed: curl --silent --show-error --http1.1 --connect-timeout 15 --max-time 45 --header User-Agent: GamePriceMapBot/0.1 (+https://gamepricemap.com/about; contact: yiyi22331999@gmail.com) --header Accept: text/html,application/xhtml+xml --header Accept-Language: en-US,en;q=0.9 --write-out \n__GPM_CURL_META__%{http_code}\t%{url_effective}\t%header{retry-after} https://www.microsoft.com/en-us/store/coming-soon/games/xbox\ncurl: (28) Operation timed out after 45002 milliseconds with 0 bytes received\n"
     },
     "calendar-psn-us": {
       "lastAttemptAt": "2026-07-22T03:58:23.068Z",

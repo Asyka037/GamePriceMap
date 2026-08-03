@@ -1,14 +1,14 @@
 {
   "slug": "monster-hunter-world",
-  "lastPriceChangeAt": "2026-07-22",
+  "lastPriceChangeAt": "2026-08-03",
   "regions": [
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 19.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 7.99,
+      "list": 19.99,
+      "discountPct": 60,
+      "saleEndsAt": "2026-08-10T09:59:59.000Z"
     }
   ]
 }

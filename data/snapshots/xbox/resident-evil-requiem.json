@@ -1,14 +1,14 @@
 {
   "slug": "resident-evil-requiem",
-  "lastPriceChangeAt": "2026-07-22",
+  "lastPriceChangeAt": "2026-08-03",
   "regions": [
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 55.99,
-      "list": 69.99,
-      "discountPct": 20,
-      "saleEndsAt": "2026-07-30T09:59:59.000Z"
+      "amount": 69.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     }
   ]
 }

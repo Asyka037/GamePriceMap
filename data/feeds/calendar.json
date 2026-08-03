@@ -1,6 +1,125 @@
 {
-  "updatedAt": "2026-08-03T10:59:10.714Z",
+  "updatedAt": "2026-08-03T12:25:03.422Z",
   "months": {
+    "2026-07": [
+      {
+        "title": "Club Soko",
+        "date": "2026-07-23",
+        "month": "2026-07",
+        "platforms": [
+          "xbox"
+        ],
+        "urls": {
+          "xbox": "https://www.microsoft.com/en-us/p/_/9p0hwnx5qfq9"
+        },
+        "image": "https://store-images.s-microsoft.com/image/apps.5959.14530626563550870.71767246-3239-4c3e-957c-44bffb536e52.2a67bcf1-adfa-4ae3-9b95-8998eb73b128",
+        "slugIfTracked": null
+      },
+      {
+        "title": "CULTIC",
+        "date": "2026-07-23",
+        "month": "2026-07",
+        "platforms": [
+          "xbox"
+        ],
+        "urls": {
+          "xbox": "https://www.microsoft.com/en-us/p/_/9nnq1jq1fszl"
+        },
+        "image": "https://store-images.s-microsoft.com/image/apps.24966.13738582401060007.1d5d12a2-c9c0-4ab2-b7cc-3bbaeb730ed2.9e26aa4c-92d6-4a5e-8c6d-c1b278c901e1",
+        "slugIfTracked": null
+      },
+      {
+        "title": "High Times",
+        "date": "2026-07-23",
+        "month": "2026-07",
+        "platforms": [
+          "xbox"
+        ],
+        "urls": {
+          "xbox": "https://www.microsoft.com/en-us/p/_/9p5rtc9g5jvg"
+        },
+        "image": "https://store-images.s-microsoft.com/image/apps.8726.14633686297206485.b7035ba7-cf87-4558-a0ea-5fd5cc0b8d19.c7a7ee0c-839e-4093-98bf-a5d5ae69332a",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Anomaly Hunter: Observation Duty",
+        "date": "2026-07-24",
+        "month": "2026-07",
+        "platforms": [
+          "xbox"
+        ],
+        "urls": {
+          "xbox": "https://www.microsoft.com/en-us/p/_/9pnm0r3k94jx"
+        },
+        "image": "https://store-images.s-microsoft.com/image/apps.34677.14346311088554451.8a1e5b55-4866-490f-8154-a21402ed7acb.c7e085af-3219-42d8-9465-57cab89cec7d",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Terminal Shift",
+        "date": "2026-07-24",
+        "month": "2026-07",
+        "platforms": [
+          "xbox"
+        ],
+        "urls": {
+          "xbox": "https://www.microsoft.com/en-us/p/_/9nm56c3pm3zg"
+        },
+        "image": "https://store-images.s-microsoft.com/image/apps.56529.13698635838885631.9701be61-87cf-4e12-b83a-ad99d7b2d021.4bf83a0e-5997-45d2-8a5f-7a80864dbd1e",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Kusan: City of Wolves",
+        "date": "2026-07-30",
+        "month": "2026-07",
+        "platforms": [
+          "xbox"
+        ],
+        "urls": {
+          "xbox": "https://www.microsoft.com/en-us/p/_/9pn265mpjwxd"
+        },
+        "image": "https://store-images.s-microsoft.com/image/apps.41353.14353018187377559.8159ab22-1802-42ca-b387-30ed90c81e2b.16b91b01-7bcb-44a4-8965-ac59be638fd8",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Nightmare Shift",
+        "date": "2026-07-30",
+        "month": "2026-07",
+        "platforms": [
+          "xbox"
+        ],
+        "urls": {
+          "xbox": "https://www.microsoft.com/en-us/p/_/9nqvph0hh666"
+        },
+        "image": "https://store-images.s-microsoft.com/image/apps.21852.13761885067861357.043d285b-ecae-4a0d-81ef-0b53088bd006.7f0f8fab-f386-4aed-9f0a-d3452dffde98",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Retrace The Light",
+        "date": "2026-07-30",
+        "month": "2026-07",
+        "platforms": [
+          "xbox"
+        ],
+        "urls": {
+          "xbox": "https://www.microsoft.com/en-us/p/_/9pmhtrct02bb"
+        },
+        "image": "https://store-images.s-microsoft.com/image/apps.4144.14297771521115593.b412b922-56b4-4d9d-9cd5-8dc98cf58f43.9fb6713c-dde6-4f0a-951c-5799b022c9ae",
+        "slugIfTracked": null
+      },
+      {
+        "title": "PAW Patrol™: Dino World",
+        "date": "2026-07-31",
+        "month": "2026-07",
+        "platforms": [
+          "xbox"
+        ],
+        "urls": {
+          "xbox": "https://www.microsoft.com/en-us/p/_/9n3p3trjgwv0"
+        },
+        "image": "https://store-images.s-microsoft.com/image/apps.29964.14003155671712527.e2286374-c296-44cb-8b6c-1bb5b97b583a.78463401-4b70-40c1-8a74-4368f5193a15",
+        "slugIfTracked": null
+      }
+    ],
     "2026-08": [
       {
         "title": "Dead Zone Revive",
