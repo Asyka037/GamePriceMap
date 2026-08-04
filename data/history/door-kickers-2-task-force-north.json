@@ -1,11 +1,11 @@
 {
   "slug": "door-kickers-2-task-force-north",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "222411",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 12.49,
+      "date": "2026-08-03",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "tiny-bookshop",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "298260",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

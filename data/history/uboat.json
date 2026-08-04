@@ -1,11 +1,11 @@
 {
   "slug": "uboat",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "201042",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.95,
+      "date": "2026-05-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

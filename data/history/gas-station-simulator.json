@@ -1,11 +1,11 @@
 {
   "slug": "gas-station-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "234662",
   "atl": {
     "pc": {
-      "usd": 9.39,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.38,
+      "date": "2025-12-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

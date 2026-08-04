@@ -1,11 +1,11 @@
 {
   "slug": "the-legend-of-khiimori",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "317100",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 23.99,
+      "date": "2026-06-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

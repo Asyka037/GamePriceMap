@@ -1,11 +1,11 @@
 {
   "slug": "backyard-baseball-01",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "305523",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

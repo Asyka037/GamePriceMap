@@ -1,11 +1,11 @@
 {
   "slug": "last-epoch",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "201053",
   "atl": {
     "pc": {
-      "usd": 34.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 26.24,
+      "date": "2020-03-30",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "battlefield-1",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "152332",
   "atl": {
     "pc": {
-      "usd": 3.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2025-01-27",
+      "seed": "cheapshark"
     }
   },
   "events": [

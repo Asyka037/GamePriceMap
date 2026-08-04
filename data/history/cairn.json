@@ -1,11 +1,11 @@
 {
   "slug": "cairn",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "314354",
   "atl": {
     "pc": {
-      "usd": 29.99,
+      "usd": 18.48,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

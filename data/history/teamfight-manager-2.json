@@ -1,11 +1,11 @@
 {
   "slug": "teamfight-manager-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "323325",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.99,
+      "date": "2026-05-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "bigfoot",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "168393",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.71,
+      "date": "2017-07-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

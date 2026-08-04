@@ -1,11 +1,11 @@
 {
   "slug": "momento",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324111",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 16.99,
+      "date": "2026-06-06",
+      "seed": "cheapshark"
     }
   },
   "events": [

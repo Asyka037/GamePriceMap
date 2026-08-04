@@ -1,11 +1,11 @@
 {
   "slug": "minemogul",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "312909",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2026-03-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

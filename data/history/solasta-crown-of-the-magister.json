@@ -1,11 +1,11 @@
 {
   "slug": "solasta-crown-of-the-magister",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "221671",
   "atl": {
     "pc": {
-      "usd": 7.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.7,
+      "date": "2026-03-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

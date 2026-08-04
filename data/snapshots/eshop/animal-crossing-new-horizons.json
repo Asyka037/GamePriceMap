@@ -1,6 +1,6 @@
 {
   "slug": "animal-crossing-new-horizons",
-  "lastPriceChangeAt": "2026-07-16",
+  "lastPriceChangeAt": "2026-08-04",
   "regions": [
     {
       "cc": "AR",
@@ -77,10 +77,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 6578,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 4604,
+      "list": 6578,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-17T14:59:59Z"
     },
     {
       "cc": "MX",

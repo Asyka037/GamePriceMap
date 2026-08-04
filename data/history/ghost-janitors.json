@@ -1,11 +1,11 @@
 {
   "slug": "ghost-janitors",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "287901",
   "atl": {
     "pc": {
-      "usd": 6.29,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.94,
+      "date": "2026-02-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

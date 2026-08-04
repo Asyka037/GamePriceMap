@@ -1,11 +1,11 @@
 {
   "slug": "bootstrap-island",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "282800",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 16.24,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "five-nights-at-freddys",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "121538",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.24,
+      "date": "2015-06-15",
+      "seed": "cheapshark"
     }
   },
   "events": [

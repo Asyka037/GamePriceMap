@@ -1,11 +1,11 @@
 {
   "slug": "cozy-cleaner",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "325100",
   "atl": {
     "pc": {
-      "usd": 6.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.19,
+      "date": "2026-06-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

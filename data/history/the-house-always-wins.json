@@ -1,11 +1,11 @@
 {
   "slug": "the-house-always-wins",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "323148",
   "atl": {
     "pc": {
-      "usd": 12.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.04,
+      "date": "2026-06-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

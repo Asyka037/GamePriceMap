@@ -1,11 +1,11 @@
 {
   "slug": "mahou-arms",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "214837",
   "atl": {
     "pc": {
-      "usd": 35.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2022-12-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

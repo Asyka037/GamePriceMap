@@ -1,11 +1,11 @@
 {
   "slug": "cast-n-chill",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "304608",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.74,
+      "date": "2026-08-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

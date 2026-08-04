@@ -1,11 +1,11 @@
 {
   "slug": "doom",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "144427",
   "atl": {
     "pc": {
-      "usd": 3.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2025-03-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "lucid-blocks",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "317638",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

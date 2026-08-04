@@ -1,11 +1,11 @@
 {
   "slug": "tavern-keeper",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "311166",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 23.38,
+      "date": "2025-11-03",
+      "seed": "cheapshark"
     }
   },
   "events": [

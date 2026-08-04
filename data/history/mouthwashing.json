@@ -1,11 +1,11 @@
 {
   "slug": "mouthwashing",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "291906",
   "atl": {
     "pc": {
-      "usd": 12.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.79,
+      "date": "2026-06-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

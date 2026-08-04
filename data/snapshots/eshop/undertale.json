@@ -1,6 +1,6 @@
 {
   "slug": "undertale",
-  "lastPriceChangeAt": "2026-07-29",
+  "lastPriceChangeAt": "2026-08-04",
   "regions": [
     {
       "cc": "AU",
@@ -13,18 +13,18 @@
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 52.14,
-      "list": 79,
-      "discountPct": 34,
-      "saleEndsAt": "2026-08-03T15:59:59Z"
+      "amount": 79,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 12.53,
-      "list": 18.99,
-      "discountPct": 34,
-      "saleEndsAt": "2026-08-03T15:59:59Z"
+      "amount": 18.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CH",
@@ -37,10 +37,10 @@
     {
       "cc": "CO",
       "currency": "COP",
-      "amount": 37620,
-      "list": 57000,
-      "discountPct": 34,
-      "saleEndsAt": "2026-08-03T15:59:59Z"
+      "amount": 57000,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "DE",
@@ -77,10 +77,10 @@
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 191.93,
-      "list": 290.81,
-      "discountPct": 34,
-      "saleEndsAt": "2026-08-03T15:59:59Z"
+      "amount": 290.81,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NO",
@@ -109,10 +109,10 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 9.89,
-      "list": 14.99,
-      "discountPct": 34,
-      "saleEndsAt": "2026-08-03T15:59:59Z"
+      "amount": 14.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "ZA",

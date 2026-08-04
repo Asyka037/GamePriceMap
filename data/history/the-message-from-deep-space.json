@@ -1,11 +1,11 @@
 {
   "slug": "the-message-from-deep-space",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "325830",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2026-06-30",
+      "seed": "cheapshark"
     }
   },
   "events": [

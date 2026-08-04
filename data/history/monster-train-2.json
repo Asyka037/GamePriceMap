@@ -1,11 +1,11 @@
 {
   "slug": "monster-train-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "303494",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.39,
+      "date": "2026-07-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "ravenfield",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "169019",
   "atl": {
     "pc": {
-      "usd": 17.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.09,
+      "date": "2021-03-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

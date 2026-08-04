@@ -1,11 +1,11 @@
 {
   "slug": "spacecraft",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324433",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 23.99,
+      "date": "2026-08-04",
+      "seed": "cheapshark"
     }
   },
   "events": [

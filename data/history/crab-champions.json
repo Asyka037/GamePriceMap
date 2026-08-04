@@ -1,11 +1,11 @@
 {
   "slug": "crab-champions",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "259111",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.99,
+      "date": "2025-03-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

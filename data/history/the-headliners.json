@@ -1,11 +1,11 @@
 {
   "slug": "the-headliners",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "297504",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.79,
+      "date": "2026-01-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

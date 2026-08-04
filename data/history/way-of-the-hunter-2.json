@@ -1,11 +1,11 @@
 {
   "slug": "way-of-the-hunter-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "318468",
   "atl": {
     "pc": {
-      "usd": 34.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 23.99,
+      "date": "2026-03-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

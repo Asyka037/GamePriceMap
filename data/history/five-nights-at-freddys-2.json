@@ -1,11 +1,11 @@
 {
   "slug": "five-nights-at-freddys-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "136945",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2017-10-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

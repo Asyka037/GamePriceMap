@@ -1,11 +1,11 @@
 {
   "slug": "super-fantasy-kingdom",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "310689",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.74,
+      "date": "2025-10-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

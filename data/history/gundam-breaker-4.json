@@ -1,11 +1,11 @@
 {
   "slug": "gundam-breaker-4",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "285924",
   "atl": {
     "pc": {
-      "usd": 39.99,
+      "usd": 16.96,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

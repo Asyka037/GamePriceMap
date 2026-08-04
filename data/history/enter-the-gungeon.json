@@ -1,11 +1,11 @@
 {
   "slug": "enter-the-gungeon",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "150689",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.49,
+      "date": "2025-03-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

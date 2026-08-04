@@ -1,11 +1,11 @@
 {
   "slug": "final-fantasy-xvi",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "290379",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.99,
+      "date": "2026-04-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "airport-security-sucks",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324079",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.95,
+      "date": "2026-06-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "call-of-duty-wwii",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "168468",
   "atl": {
     "pc": {
-      "usd": 59.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.79,
+      "date": "2020-05-07",
+      "seed": "cheapshark"
     }
   },
   "events": [

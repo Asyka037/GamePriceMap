@@ -1,11 +1,11 @@
 {
   "slug": "pronoun-palace",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324005",
   "atl": {
     "pc": {
-      "usd": 19.84,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.85,
+      "date": "2026-06-04",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "blood-trail",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "199764",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.99,
+      "date": "2019-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

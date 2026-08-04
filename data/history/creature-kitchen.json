@@ -1,11 +1,11 @@
 {
   "slug": "creature-kitchen",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "315892",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.39,
+      "date": "2026-02-07",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,6 +1,6 @@
 {
   "slug": "monster-hunter-rise",
-  "lastPriceChangeAt": "2026-07-29",
+  "lastPriceChangeAt": "2026-08-04",
   "regions": [
     {
       "cc": "AR",
@@ -13,10 +13,10 @@
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 59.95,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 11.99,
+      "list": 59.95,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-17T13:59:59Z"
     },
     {
       "cc": "BR",
@@ -37,10 +37,10 @@
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 51.9,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 10.38,
+      "list": 51.9,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     },
     {
       "cc": "CO",
@@ -53,26 +53,26 @@
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 39.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 7.99,
+      "list": 39.99,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     },
     {
       "cc": "DK",
       "currency": "DKK",
-      "amount": 299,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 59.75,
+      "list": 299,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 34.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 6.99,
+      "list": 34.99,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-17T22:59:59Z"
     },
     {
       "cc": "JP",
@@ -93,26 +93,26 @@
     {
       "cc": "NO",
       "currency": "NOK",
-      "amount": 399,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 79,
+      "list": 399,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     },
     {
       "cc": "NZ",
       "currency": "NZD",
-      "amount": 69.95,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 13.99,
+      "list": 69.95,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-17T11:59:59Z"
     },
     {
       "cc": "PL",
       "currency": "PLN",
-      "amount": 169.8,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 33.96,
+      "list": 169.8,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     },
     {
       "cc": "US",
@@ -125,10 +125,10 @@
     {
       "cc": "ZA",
       "currency": "ZAR",
-      "amount": 729,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 145.8,
+      "list": 729,
+      "discountPct": 80,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     }
   ]
 }

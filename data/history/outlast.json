@@ -1,11 +1,11 @@
 {
   "slug": "outlast",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "101259",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2024-11-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,6 +1,6 @@
 {
   "slug": "resident-evil-requiem",
-  "lastPriceChangeAt": "2026-07-31",
+  "lastPriceChangeAt": "2026-08-04",
   "regions": [
     {
       "cc": "AR",
@@ -13,10 +13,10 @@
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 107.95,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 75.56,
+      "list": 107.95,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-17T13:59:59Z"
     },
     {
       "cc": "BR",
@@ -37,10 +37,10 @@
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 79.9,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 55.93,
+      "list": 79.9,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     },
     {
       "cc": "CO",
@@ -53,26 +53,26 @@
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 79.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 55.99,
+      "list": 79.99,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     },
     {
       "cc": "DK",
       "currency": "DKK",
-      "amount": 594,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 415.75,
+      "list": 594,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 64.99,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 45.49,
+      "list": 64.99,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-17T22:59:59Z"
     },
     {
       "cc": "MX",
@@ -85,26 +85,26 @@
     {
       "cc": "NO",
       "currency": "NOK",
-      "amount": 899,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 629,
+      "list": 899,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     },
     {
       "cc": "NZ",
       "currency": "NZD",
-      "amount": 119.95,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 83.96,
+      "list": 119.95,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-17T11:59:59Z"
     },
     {
       "cc": "PL",
       "currency": "PLN",
-      "amount": 339,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 237.3,
+      "list": 339,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     },
     {
       "cc": "US",
@@ -117,10 +117,10 @@
     {
       "cc": "ZA",
       "currency": "ZAR",
-      "amount": 1499,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
+      "amount": 1049.3,
+      "list": 1499,
+      "discountPct": 30,
+      "saleEndsAt": "2026-08-17T21:59:59Z"
     }
   ]
 }

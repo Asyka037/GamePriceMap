@@ -1,11 +1,11 @@
 {
   "slug": "cash-cleaner-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "302743",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2025-09-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

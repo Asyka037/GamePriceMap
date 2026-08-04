@@ -1,11 +1,11 @@
 {
   "slug": "the-game-of-life-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "224019",
   "atl": {
     "pc": {
-      "usd": 12.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2,
+      "date": "2026-05-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

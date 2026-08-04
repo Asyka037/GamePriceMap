@@ -1,11 +1,11 @@
 {
   "slug": "x-plane-12",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "251105",
   "atl": {
     "pc": {
-      "usd": 59.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 35.99,
+      "date": "2025-12-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

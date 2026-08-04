@@ -1,11 +1,11 @@
 {
   "slug": "granny",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "265841",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.99,
+      "date": "2023-06-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "doki-doki-literature-club-plus",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "231509",
   "atl": {
     "pc": {
-      "usd": 11.24,
-      "date": "2026-08-03",
-      "seed": "self"
+      "usd": 10.04,
+      "date": "2022-06-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "megastore-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "315716",
   "atl": {
     "pc": {
-      "usd": 11.05,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.79,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

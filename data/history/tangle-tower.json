@@ -1,11 +1,11 @@
 {
   "slug": "tangle-tower",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "206468",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2022-05-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "overcooked-all-you-can-eat",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "227586",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.75,
+      "date": "2026-02-17",
+      "seed": "cheapshark"
     }
   },
   "events": [

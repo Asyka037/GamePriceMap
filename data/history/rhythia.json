@@ -1,11 +1,11 @@
 {
   "slug": "rhythia",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "316556",
   "atl": {
     "pc": {
-      "usd": 3.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.39,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

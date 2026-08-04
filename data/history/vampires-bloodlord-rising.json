@@ -1,11 +1,11 @@
 {
   "slug": "vampires-bloodlord-rising",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "315570",
   "atl": {
     "pc": {
-      "usd": 13.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.18,
+      "date": "2026-05-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

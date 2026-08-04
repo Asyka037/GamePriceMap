@@ -1,11 +1,11 @@
 {
   "slug": "big-ambitions",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "258280",
   "atl": {
     "pc": {
-      "usd": 25.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 15.4,
+      "date": "2026-03-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

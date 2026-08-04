@@ -1,11 +1,11 @@
 {
   "slug": "killing-floor-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "143325",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.49,
+      "date": "2024-05-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

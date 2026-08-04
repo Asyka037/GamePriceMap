@@ -1,11 +1,11 @@
 {
   "slug": "dwarf-fortress",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "254306",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 23.99,
+      "date": "2024-05-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

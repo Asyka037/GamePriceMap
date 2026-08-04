@@ -1,11 +1,11 @@
 {
   "slug": "goblin-cleanup",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "308376",
   "atl": {
     "pc": {
-      "usd": 12.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

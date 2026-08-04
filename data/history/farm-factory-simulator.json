@@ -1,11 +1,11 @@
 {
   "slug": "farm-factory-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "327187",
   "atl": {
     "pc": {
-      "usd": 12.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.39,
+      "date": "2026-07-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

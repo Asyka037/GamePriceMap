@@ -1,11 +1,11 @@
 {
   "slug": "stick-fight-the-game",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "173628",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.49,
+      "date": "2022-12-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

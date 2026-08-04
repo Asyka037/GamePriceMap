@@ -1,11 +1,11 @@
 {
   "slug": "easy-delivery-co",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "308499",
   "atl": {
     "pc": {
-      "usd": 12.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.35,
+      "date": "2026-04-27",
+      "seed": "cheapshark"
     }
   },
   "events": [

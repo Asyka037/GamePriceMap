@@ -1,11 +1,11 @@
 {
   "slug": "whos-your-daddy",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "147687",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 0.99,
+      "date": "2022-06-17",
+      "seed": "cheapshark"
     }
   },
   "events": [

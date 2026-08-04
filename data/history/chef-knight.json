@@ -1,11 +1,11 @@
 {
   "slug": "chef-knight",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "323800",
   "atl": {
     "pc": {
-      "usd": 5.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.39,
+      "date": "2026-06-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "nova-roma",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "318477",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 23.99,
+      "date": "2026-03-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

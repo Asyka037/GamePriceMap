@@ -1,11 +1,11 @@
 {
   "slug": "little-nightmares-iii",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "305017",
   "atl": {
     "pc": {
-      "usd": 19.99,
+      "usd": 16.99,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

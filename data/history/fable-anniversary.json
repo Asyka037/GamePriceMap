@@ -1,11 +1,11 @@
 {
   "slug": "fable-anniversary",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "121788",
   "atl": {
     "pc": {
-      "usd": 34.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.24,
+      "date": "2016-06-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

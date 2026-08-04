@@ -1,11 +1,11 @@
 {
   "slug": "dungeon-defenders",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "31",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.49,
+      "date": "2014-12-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

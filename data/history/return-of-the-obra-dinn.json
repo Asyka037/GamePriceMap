@@ -1,11 +1,11 @@
 {
   "slug": "return-of-the-obra-dinn",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "193410",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.19,
+      "date": "2019-12-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

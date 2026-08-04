@@ -1,11 +1,11 @@
 {
   "slug": "carx-drift-racing-online",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "170684",
   "atl": {
     "pc": {
-      "usd": 16.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2025-11-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

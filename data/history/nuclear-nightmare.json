@@ -1,11 +1,11 @@
 {
   "slug": "nuclear-nightmare",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "293636",
   "atl": {
     "pc": {
-      "usd": 6.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.04,
+      "date": "2025-10-27",
+      "seed": "cheapshark"
     }
   },
   "events": [
