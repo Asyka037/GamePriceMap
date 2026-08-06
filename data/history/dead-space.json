@@ -1,11 +1,11 @@
 {
   "slug": "dead-space",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "272",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.99,
+      "date": "2026-06-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

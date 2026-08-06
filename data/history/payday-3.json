@@ -1,11 +1,11 @@
 {
   "slug": "payday-3",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "264417",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.91,
+      "date": "2025-09-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

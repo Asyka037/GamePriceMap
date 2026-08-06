@@ -1,11 +1,11 @@
 {
   "slug": "killer-bean",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324209",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2026-06-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

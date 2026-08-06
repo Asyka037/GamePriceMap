@@ -1,11 +1,11 @@
 {
   "slug": "indiana-jones-and-the-great-circle",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "281507",
   "atl": {
     "pc": {
-      "usd": 41.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 35.69,
+      "date": "2026-07-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

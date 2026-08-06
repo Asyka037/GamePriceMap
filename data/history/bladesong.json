@@ -1,11 +1,11 @@
 {
   "slug": "bladesong",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "315016",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 12.95,
+      "date": "2026-05-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

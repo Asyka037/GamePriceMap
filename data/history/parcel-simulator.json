@@ -1,11 +1,11 @@
 {
   "slug": "parcel-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "304888",
   "atl": {
     "pc": {
-      "usd": 17.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 12.59,
+      "date": "2026-07-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

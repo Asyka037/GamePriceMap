@@ -1,11 +1,11 @@
 {
   "slug": "granvir",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "308697",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.49,
+      "date": "2026-05-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

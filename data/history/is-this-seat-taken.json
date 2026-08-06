@@ -1,11 +1,11 @@
 {
   "slug": "is-this-seat-taken",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "306773",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.99,
+      "date": "2026-03-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "tales-of-seikyu",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "302973",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.95,
+      "date": "2026-03-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

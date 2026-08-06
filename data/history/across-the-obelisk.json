@@ -1,11 +1,11 @@
 {
   "slug": "across-the-obelisk",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "228274",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.8,
+      "date": "2025-10-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

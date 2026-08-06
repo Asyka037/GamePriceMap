@@ -1,11 +1,11 @@
 {
   "slug": "mafia-the-old-country",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "302751",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 25.74,
+      "date": "2026-08-03",
+      "seed": "cheapshark"
     }
   },
   "events": [
@@ -15,6 +15,13 @@
       "cc": "US",
       "usd": 49.99,
       "pct": null
+    },
+    {
+      "d": "2026-08-06",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 35.99,
+      "pct": 40
     }
   ]
 }

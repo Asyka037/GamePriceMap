@@ -1,11 +1,11 @@
 {
   "slug": "ticket-to-ride",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "87716",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.2,
+      "date": "2026-05-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

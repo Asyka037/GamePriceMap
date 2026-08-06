@@ -1,11 +1,11 @@
 {
   "slug": "animal-shelter-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "306105",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 12.19,
+      "date": "2026-07-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

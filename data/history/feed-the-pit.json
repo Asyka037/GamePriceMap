@@ -1,11 +1,11 @@
 {
   "slug": "feed-the-pit",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "325936",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2026-07-01",
+      "seed": "cheapshark"
     }
   },
   "events": [

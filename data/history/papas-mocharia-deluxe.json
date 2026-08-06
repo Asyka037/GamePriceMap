@@ -1,11 +1,11 @@
 {
   "slug": "papas-mocharia-deluxe",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "323839",
   "atl": {
     "pc": {
-      "usd": 5.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.97,
+      "date": "2026-06-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

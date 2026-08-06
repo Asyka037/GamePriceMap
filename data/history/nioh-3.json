@@ -1,11 +1,11 @@
 {
   "slug": "nioh-3",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "308782",
   "atl": {
     "pc": {
-      "usd": 44.79,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 38.45,
+      "date": "2026-08-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

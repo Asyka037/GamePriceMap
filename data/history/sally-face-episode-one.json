@@ -1,11 +1,11 @@
 {
   "slug": "sally-face-episode-one",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "255064",
   "atl": {
     "pc": {
-      "usd": 2.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.01,
+      "date": "2024-08-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

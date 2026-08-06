@@ -1,11 +1,11 @@
 {
   "slug": "moldwasher",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "325161",
   "atl": {
     "pc": {
-      "usd": 8.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.09,
+      "date": "2026-06-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

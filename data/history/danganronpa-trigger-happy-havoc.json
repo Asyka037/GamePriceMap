@@ -1,11 +1,11 @@
 {
   "slug": "danganronpa-trigger-happy-havoc",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "150053",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.19,
+      "date": "2025-11-28",
+      "seed": "cheapshark"
     }
   },
   "events": [

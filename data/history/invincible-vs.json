@@ -1,11 +1,11 @@
 {
   "slug": "invincible-vs",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "313190",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 39.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

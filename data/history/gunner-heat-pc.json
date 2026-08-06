@@ -1,11 +1,11 @@
 {
   "slug": "gunner-heat-pc",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "250725",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.49,
+      "date": "2025-05-01",
+      "seed": "cheapshark"
     }
   },
   "events": [

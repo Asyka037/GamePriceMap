@@ -1,11 +1,11 @@
 {
   "slug": "starbound",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "103892",
   "atl": {
     "pc": {
-      "usd": 4.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.74,
+      "date": "2022-08-01",
+      "seed": "cheapshark"
     }
   },
   "events": [

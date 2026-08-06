@@ -1,11 +1,11 @@
 {
   "slug": "blazblue-entropy-effect",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "270294",
   "atl": {
     "pc": {
-      "usd": 11.99,
-      "date": "2026-08-04",
-      "seed": "self"
+      "usd": 10.42,
+      "date": "2026-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

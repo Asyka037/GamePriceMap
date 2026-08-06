@@ -1,11 +1,11 @@
 {
   "slug": "the-sinking-city-remastered",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "302961",
   "atl": {
     "pc": {
-      "usd": 39.99,
+      "usd": 4.96,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "the-elder-scrolls-v-skyrim-vr",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "180821",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 12,
+      "date": "2025-02-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

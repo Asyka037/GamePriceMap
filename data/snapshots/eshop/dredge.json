@@ -1,6 +1,6 @@
 {
   "slug": "dredge",
-  "lastPriceChangeAt": "2026-07-31",
+  "lastPriceChangeAt": "2026-08-06",
   "regions": [
     {
       "cc": "AU",
@@ -13,18 +13,18 @@
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 53.56,
-      "list": 133.9,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-05T06:59:59Z"
+      "amount": 133.9,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 11.99,
-      "list": 29.99,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-05T06:59:59Z"
+      "amount": 29.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "CH",
@@ -77,10 +77,10 @@
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 119.99,
-      "list": 299.99,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-05T06:59:59Z"
+      "amount": 299.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "NO",
@@ -109,10 +109,10 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 9.99,
-      "list": 24.99,
-      "discountPct": 60,
-      "saleEndsAt": "2026-08-05T06:59:59Z"
+      "amount": 24.99,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "ZA",

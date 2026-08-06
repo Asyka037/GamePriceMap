@@ -1,141 +1,141 @@
 {
   "slug": "final-fantasy-ix",
-  "lastPriceChangeAt": "2026-07-15",
+  "lastPriceChangeAt": "2026-08-06",
   "regions": [
     {
       "cc": "AR",
       "currency": "USD",
-      "amount": 16.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 5.09,
+      "list": 16.99,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 28.95,
-      "list": null,
-      "discountPct": null,
+      "amount": 8.68,
+      "list": 28.95,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 39.49,
-      "list": null,
-      "discountPct": null,
+      "amount": 11.84,
+      "list": 39.49,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 23.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 7.19,
+      "list": 23.99,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 18.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 5.69,
+      "list": 18.99,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 20.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 6.29,
+      "list": 20.99,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 15.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 4.79,
+      "list": 15.99,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "GE",
       "currency": "USD",
-      "amount": 10.49,
-      "list": null,
-      "discountPct": null,
+      "amount": 3.14,
+      "list": 10.49,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "IN",
       "currency": "INR",
-      "amount": 595,
-      "list": null,
-      "discountPct": null,
+      "amount": 178,
+      "list": 595,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 2547,
-      "list": null,
-      "discountPct": null,
+      "amount": 764,
+      "list": 2547,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "KR",
       "currency": "KRW",
-      "amount": 20500,
-      "list": null,
-      "discountPct": null,
+      "amount": 6150,
+      "list": 20500,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "KZ",
       "currency": "KZT",
-      "amount": 2650,
-      "list": null,
-      "discountPct": null,
+      "amount": 795,
+      "list": 2650,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 204.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 61.49,
+      "list": 204.99,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "PK",
       "currency": "USD",
-      "amount": 8.19,
-      "list": null,
-      "discountPct": null,
+      "amount": 2.45,
+      "list": 8.19,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "TR",
       "currency": "USD",
-      "amount": 16.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 5.09,
+      "list": 16.99,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "UA",
       "currency": "UAH",
-      "amount": 279,
-      "list": null,
-      "discountPct": null,
+      "amount": 83,
+      "list": 279,
+      "discountPct": 70,
       "saleEndsAt": null
     },
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 20.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 6.29,
+      "list": 20.99,
+      "discountPct": 70,
       "saleEndsAt": null
     }
   ]

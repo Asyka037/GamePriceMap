@@ -1,11 +1,11 @@
 {
   "slug": "contraband-police",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "258139",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.69,
+      "date": "2026-07-11",
+      "seed": "cheapshark"
     }
   },
   "events": [

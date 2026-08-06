@@ -1,11 +1,11 @@
 {
   "slug": "devour",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "225560",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.99,
+      "date": "2021-04-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

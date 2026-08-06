@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-04T10:15:18.176Z",
+  "updatedAt": "2026-08-06T10:13:17.430Z",
   "items": [
     {
-      "title": "Marvel’s Spider-Man Remastered",
+      "title": "Big Walk",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1817070/",
+      "url": "https://store.steampowered.com/app/1478500/",
       "currency": "USD",
-      "price": 23.99,
-      "list": 59.99,
-      "pct": 60,
-      "endsAt": "2026-08-06T17:00:00.000Z",
-      "steamAppId": 1817070,
-      "slugIfTracked": "marvels-spider-man-remastered"
+      "price": 14.99,
+      "list": 19.99,
+      "pct": 25,
+      "endsAt": "2026-08-18T17:00:09.000Z",
+      "steamAppId": 1478500,
+      "slugIfTracked": null
     },
     {
       "title": "Marvel's Spider-Man 2",
@@ -26,6 +26,18 @@
       "slugIfTracked": "marvel-s-spider-man-2"
     },
     {
+      "title": "Marvel’s Spider-Man Remastered",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1817070/",
+      "currency": "USD",
+      "price": 23.99,
+      "list": 59.99,
+      "pct": 60,
+      "endsAt": "2026-08-06T17:00:00.000Z",
+      "steamAppId": 1817070,
+      "slugIfTracked": "marvels-spider-man-remastered"
+    },
+    {
       "title": "Cyberpunk 2077",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/1091500/",
@@ -38,28 +50,16 @@
       "slugIfTracked": "cyberpunk-2077"
     },
     {
-      "title": "Baldur's Gate 3",
+      "title": "Fields of Mistria",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1086940/",
+      "url": "https://store.steampowered.com/app/2142790/",
       "currency": "USD",
-      "price": 41.99,
-      "list": 59.99,
-      "pct": 30,
-      "endsAt": "2026-08-06T08:00:00.000Z",
-      "steamAppId": 1086940,
-      "slugIfTracked": "baldurs-gate-3"
-    },
-    {
-      "title": "Cyberpunk 2077: Phantom Liberty",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2138330/",
-      "currency": "USD",
-      "price": 17.99,
-      "list": 29.99,
-      "pct": 40,
-      "endsAt": "2026-08-10T17:00:00.000Z",
-      "steamAppId": 2138330,
-      "slugIfTracked": null
+      "price": 12.59,
+      "list": 13.99,
+      "pct": 10,
+      "endsAt": "2026-08-13T17:00:26.000Z",
+      "steamAppId": 2142790,
+      "slugIfTracked": "fields-of-mistria"
     },
     {
       "title": "Marvel’s Spider-Man: Miles Morales",
@@ -86,6 +86,30 @@
       "slugIfTracked": null
     },
     {
+      "title": "Cyberpunk 2077: Phantom Liberty",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2138330/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 29.99,
+      "pct": 40,
+      "endsAt": "2026-08-10T17:00:00.000Z",
+      "steamAppId": 2138330,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Ready or Not",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/1144200/",
+      "currency": "USD",
+      "price": 24.99,
+      "list": 49.99,
+      "pct": 50,
+      "endsAt": "2026-08-09T17:00:00.000Z",
+      "steamAppId": 1144200,
+      "slugIfTracked": "ready-or-not"
+    },
+    {
       "title": "Schedule I",
       "storeId": "steam",
       "url": "https://store.steampowered.com/app/3164500/",
@@ -96,30 +120,6 @@
       "endsAt": "2026-08-06T17:00:00.000Z",
       "steamAppId": 3164500,
       "slugIfTracked": "schedule-i"
-    },
-    {
-      "title": "Dead as Disco",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3404260/",
-      "currency": "USD",
-      "price": 19.99,
-      "list": 24.99,
-      "pct": 20,
-      "endsAt": "2026-08-17T17:00:00.000Z",
-      "steamAppId": 3404260,
-      "slugIfTracked": "dead-as-disco"
-    },
-    {
-      "title": "Witchfire",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3156770/",
-      "currency": "USD",
-      "price": 31.99,
-      "list": 39.99,
-      "pct": 20,
-      "endsAt": "2026-08-10T17:00:00.000Z",
-      "steamAppId": 3156770,
-      "slugIfTracked": "witchfire"
     }
   ]
 }

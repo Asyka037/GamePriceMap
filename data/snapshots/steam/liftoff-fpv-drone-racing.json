@@ -1,149 +1,149 @@
 {
   "slug": "liftoff-fpv-drone-racing",
-  "lastPriceChangeAt": "2026-07-31",
+  "lastPriceChangeAt": "2026-08-06",
   "regions": [
     {
       "cc": "AR",
       "currency": "USD",
-      "amount": 8.39,
-      "list": 10.49,
-      "discountPct": 20,
+      "amount": 10.49,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 23.99,
-      "list": 29.99,
-      "discountPct": 20,
+      "amount": 29.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 47.99,
-      "list": 59.99,
-      "discountPct": 20,
+      "amount": 59.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 20.79,
-      "list": 25.99,
-      "discountPct": 20,
+      "amount": 25.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 15.99,
-      "list": 19.99,
-      "discountPct": 20,
+      "amount": 19.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "CN",
       "currency": "CNY",
-      "amount": 111.2,
-      "list": 139,
-      "discountPct": 20,
+      "amount": 139,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 15.99,
-      "list": 19.99,
-      "discountPct": 20,
+      "amount": 19.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 13.59,
-      "list": 16.99,
-      "discountPct": 20,
+      "amount": 16.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "GE",
       "currency": "USD",
-      "amount": 8.39,
-      "list": 10.49,
-      "discountPct": 20,
+      "amount": 10.49,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "IN",
       "currency": "INR",
-      "amount": 719,
-      "list": 899,
-      "discountPct": 20,
+      "amount": 899,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 1920,
-      "list": 2400,
-      "discountPct": 20,
+      "amount": 2400,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "KR",
       "currency": "KRW",
-      "amount": 20000,
-      "list": 25000,
-      "discountPct": 20,
+      "amount": 25000,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "KZ",
       "currency": "KZT",
-      "amount": 5599,
-      "list": 6999,
-      "discountPct": 20,
+      "amount": 6999,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 239.99,
-      "list": 299.99,
-      "discountPct": 20,
+      "amount": 299.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "PK",
       "currency": "USD",
-      "amount": 6.55,
-      "list": 8.19,
-      "discountPct": 20,
+      "amount": 8.19,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "TR",
       "currency": "USD",
-      "amount": 8.39,
-      "list": 10.49,
-      "discountPct": 20,
+      "amount": 10.49,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "UA",
       "currency": "UAH",
-      "amount": 479,
-      "list": 599,
-      "discountPct": 20,
+      "amount": 599,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 15.99,
-      "list": 19.99,
-      "discountPct": 20,
+      "amount": 19.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     }
   ]

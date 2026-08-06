@@ -1,11 +1,11 @@
 {
   "slug": "my-time-at-sandrock",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "247003",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.84,
+      "date": "2026-04-27",
+      "seed": "cheapshark"
     }
   },
   "events": [

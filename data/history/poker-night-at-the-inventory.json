@@ -1,11 +1,11 @@
 {
   "slug": "poker-night-at-the-inventory",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "317212",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2026-05-27",
+      "seed": "cheapshark"
     }
   },
   "events": [

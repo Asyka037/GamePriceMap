@@ -1,11 +1,11 @@
 {
   "slug": "dyson-sphere-program",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "225296",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 15.99,
+      "date": "2021-12-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

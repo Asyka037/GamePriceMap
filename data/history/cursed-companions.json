@@ -1,11 +1,11 @@
 {
   "slug": "cursed-companions",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "312229",
   "atl": {
     "pc": {
-      "usd": 8.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.29,
+      "date": "2026-07-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "kingdom-two-crowns",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "196224",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.32,
+      "date": "2026-03-12",
+      "seed": "cheapshark"
     }
   },
   "events": [

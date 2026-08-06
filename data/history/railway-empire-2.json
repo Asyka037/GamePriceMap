@@ -1,11 +1,11 @@
 {
   "slug": "railway-empire-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "250358",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 24.7,
+      "date": "2026-03-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

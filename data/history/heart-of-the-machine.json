@@ -1,11 +1,11 @@
 {
   "slug": "heart-of-the-machine",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "297531",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2026-07-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

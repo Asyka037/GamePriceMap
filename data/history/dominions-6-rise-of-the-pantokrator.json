@@ -1,11 +1,11 @@
 {
   "slug": "dominions-6-rise-of-the-pantokrator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "281296",
   "atl": {
     "pc": {
-      "usd": 44.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 26.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

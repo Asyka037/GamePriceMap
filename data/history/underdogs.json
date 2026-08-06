@@ -1,11 +1,11 @@
 {
   "slug": "underdogs",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "281646",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2024-12-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

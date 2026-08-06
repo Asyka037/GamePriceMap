@@ -1,11 +1,11 @@
 {
   "slug": "the-wandering-village",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "250986",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2025-12-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

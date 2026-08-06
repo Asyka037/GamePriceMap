@@ -1,11 +1,11 @@
 {
   "slug": "thronefall",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "269203",
   "atl": {
     "pc": {
-      "usd": 12.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.24,
+      "date": "2024-02-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

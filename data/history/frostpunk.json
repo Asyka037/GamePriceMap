@@ -1,11 +1,11 @@
 {
   "slug": "frostpunk",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "173596",
   "atl": {
     "pc": {
-      "usd": 4.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.24,
+      "date": "2024-06-28",
+      "seed": "cheapshark"
     }
   },
   "events": [

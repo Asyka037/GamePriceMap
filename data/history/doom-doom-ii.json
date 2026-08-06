@@ -1,11 +1,11 @@
 {
   "slug": "doom-doom-ii",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "290115",
   "atl": {
     "pc": {
-      "usd": 3.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.4,
+      "date": "2025-11-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

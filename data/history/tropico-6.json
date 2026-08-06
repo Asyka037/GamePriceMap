@@ -1,11 +1,11 @@
 {
   "slug": "tropico-6",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "194522",
   "atl": {
     "pc": {
-      "usd": 39.99,
+      "usd": 10.99,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

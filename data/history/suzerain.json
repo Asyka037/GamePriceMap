@@ -1,11 +1,11 @@
 {
   "slug": "suzerain",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "219662",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.49,
+      "date": "2023-05-04",
+      "seed": "cheapshark"
     }
   },
   "events": [

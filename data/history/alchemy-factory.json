@@ -1,11 +1,11 @@
 {
   "slug": "alchemy-factory",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "313212",
   "atl": {
     "pc": {
-      "usd": 17.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 15.29,
+      "date": "2026-01-30",
+      "seed": "cheapshark"
     }
   },
   "events": [

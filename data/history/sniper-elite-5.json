@@ -1,11 +1,11 @@
 {
   "slug": "sniper-elite-5",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "242042",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.49,
+      "date": "2026-04-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

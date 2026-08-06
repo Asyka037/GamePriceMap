@@ -1,11 +1,11 @@
 {
   "slug": "viscera-cleanup-detail",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "108248",
   "atl": {
     "pc": {
-      "usd": 12.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.24,
+      "date": "2024-04-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

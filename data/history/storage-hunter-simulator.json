@@ -1,11 +1,11 @@
 {
   "slug": "storage-hunter-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "292404",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 12.9,
+      "date": "2026-04-10",
+      "seed": "cheapshark"
     }
   },
   "events": [

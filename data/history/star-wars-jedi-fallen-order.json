@@ -1,11 +1,11 @@
 {
   "slug": "star-wars-jedi-fallen-order",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "206034",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.19,
+      "date": "2026-01-27",
+      "seed": "cheapshark"
     }
   },
   "events": [

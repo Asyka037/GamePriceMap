@@ -1,11 +1,11 @@
 {
   "slug": "feed-and-grow-fish",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "147862",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2016-01-08",
+      "seed": "cheapshark"
     }
   },
   "events": [

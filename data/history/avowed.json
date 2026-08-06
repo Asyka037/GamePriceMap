@@ -1,10 +1,10 @@
 {
   "slug": "avowed",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "294729",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
+      "usd": 29.99,
+      "date": "2026-08-06",
       "seed": "self"
     }
   },
@@ -15,6 +15,13 @@
       "cc": "US",
       "usd": 49.99,
       "pct": null
+    },
+    {
+      "d": "2026-08-06",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 29.99,
+      "pct": 40
     }
   ]
 }

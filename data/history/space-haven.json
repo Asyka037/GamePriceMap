@@ -1,11 +1,11 @@
 {
   "slug": "space-haven",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "199559",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.19,
+      "date": "2023-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

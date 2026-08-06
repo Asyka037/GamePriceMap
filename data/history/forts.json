@@ -1,11 +1,11 @@
 {
   "slug": "forts",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "168287",
   "atl": {
     "pc": {
-      "usd": 8.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.42,
+      "date": "2020-04-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

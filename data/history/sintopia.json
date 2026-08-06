@@ -1,11 +1,11 @@
 {
   "slug": "sintopia",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "320213",
   "atl": {
     "pc": {
-      "usd": 27.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 22.24,
+      "date": "2026-04-24",
+      "seed": "cheapshark"
     }
   },
   "events": [
