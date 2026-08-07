@@ -1,11 +1,11 @@
 {
   "slug": "arizona-sunshine-vr-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324272",
   "atl": {
     "pc": {
-      "usd": 17.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

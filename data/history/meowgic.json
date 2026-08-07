@@ -1,11 +1,11 @@
 {
   "slug": "meowgic",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "327328",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.95,
+      "date": "2026-07-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "hardspace-shipbreaker",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "217037",
   "atl": {
     "pc": {
-      "usd": 10.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.49,
+      "date": "2023-11-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

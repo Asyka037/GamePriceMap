@@ -1,11 +1,11 @@
 {
   "slug": "alien-isolation",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "104416",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2020-04-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "battletech",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "168852",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.48,
+      "date": "2021-05-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

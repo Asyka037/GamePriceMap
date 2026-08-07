@@ -1,11 +1,11 @@
 {
   "slug": "mortal-kombat-x",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "129543",
   "atl": {
     "pc": {
-      "usd": 3.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.08,
+      "date": "2025-11-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

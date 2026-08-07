@@ -1,11 +1,11 @@
 {
   "slug": "ultimate-marvel-vs-capcom-3",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "165708",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.73,
+      "date": "2026-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

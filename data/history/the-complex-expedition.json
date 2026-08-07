@@ -1,11 +1,11 @@
 {
   "slug": "the-complex-expedition",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "267740",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.99,
+      "date": "2023-07-17",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "rift-wizard-3",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "325154",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2026-06-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

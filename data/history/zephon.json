@@ -1,11 +1,11 @@
 {
   "slug": "zephon",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "294497",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.99,
+      "date": "2026-07-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

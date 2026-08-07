@@ -1,11 +1,11 @@
 {
   "slug": "gold-mining-simulator",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "284698",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2025-11-17",
+      "seed": "cheapshark"
     }
   },
   "events": [

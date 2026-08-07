@@ -1,11 +1,11 @@
 {
   "slug": "fabledom",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "259540",
   "atl": {
     "pc": {
-      "usd": 20.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.19,
+      "date": "2026-05-06",
+      "seed": "cheapshark"
     }
   },
   "events": [

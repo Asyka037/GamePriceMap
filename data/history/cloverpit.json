@@ -3,9 +3,9 @@
   "cheapsharkGameId": "308983",
   "atl": {
     "pc": {
-      "usd": 6.99,
-      "date": "2026-04-09",
-      "seed": "cheapshark"
+      "usd": 5.99,
+      "date": "2026-08-07",
+      "seed": "self"
     }
   },
   "events": [
@@ -15,6 +15,13 @@
       "cc": "US",
       "usd": 9.99,
       "pct": null
+    },
+    {
+      "d": "2026-08-07",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 5.99,
+      "pct": 40
     }
   ]
 }

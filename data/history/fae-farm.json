@@ -1,11 +1,11 @@
 {
   "slug": "fae-farm",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "264214",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.19,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

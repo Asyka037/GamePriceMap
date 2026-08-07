@@ -1,11 +1,11 @@
 {
   "slug": "resident-evil-4-2005",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "255060",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.91,
+      "date": "2025-11-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

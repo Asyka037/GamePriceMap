@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T10:22:30.475Z",
+  "updatedAt": "2026-08-07T08:45:31.889Z",
   "games": {
     "final-fantasy-vii": {
       "lookupMissUntil": "2026-08-15"
@@ -2820,6 +2820,456 @@
     },
     "rpg-maker-mv": {
       "lookupMissUntil": "2026-09-05"
+    },
+    "stronghold-crusader-definitive-edition": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "better-than-dead": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "uncharted-legacy-of-thieves-collection": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "calyx": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "alien-isolation": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "sol-cesto": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "graveyard-keeper": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "rift-wizard-3": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "fabledom": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "nuclear-epoch": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "octopath-traveler-0": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "rift-of-the-necrodancer": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "besiege": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "dungeon-alchemist": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "expeditions-a-mudrunner-game": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "bmx-streets": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "project-wingman": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "battleblock-theater": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "forza-motorsport": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "heave-ho-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "lay-of-the-land": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "dishonored": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "rhythm-doctor": {
+      "lookupMissUntil": "2026-09-06"
+    },
+    "sineus-arena-survivors": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "five-nights-at-freddys-secret-of-the-mimic": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "melvor-idle": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "roboquest": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "dinkum": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "backyard-baseball-97": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "prehistoric-kingdom": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "death-stranding-directors-cut": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "sonic-adventure-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "wreck-runners": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "over-the-top-wwi": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "backrooms-lost-runners": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "d-topia": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "arizona-sunshine-vr-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-complex-expedition": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "everrail": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "soma": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "assassins-creed-revelations": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "sifu": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "workers-and-resources-soviet-republic": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "lightyear-frontier": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "hatsune-miku-project-diva-mega-mix": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "he-is-coming": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "stoneshard": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "darwins-paradox": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "clue-cluedo": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "lured-in": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "class-of-09-puzzle-showdown": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "undisputed": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "yu-gi-oh-early-days-collection": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "mortal-kombat-x": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "fae-farm": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "capcom-fighting-collection-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "star-wars-jedi-survivor": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "gamblers-table": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "sticky-business": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "sengoku-dynasty": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-riftbreaker": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "south-park-the-stick-of-truth": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "craftopia": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "castlevania-advance-collection": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "clone-drone-in-the-danger-zone": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "tom-clancys-the-division": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "ukrainian-fight-drone-simulator-ufds-fpv-drone-simulator": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "mechwarrior-5-clans": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "yakuza-0-directors-cut": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "diplomacy-is-not-an-option": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "total-war-attila": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-operator": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "session-skate-sim": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-thaumaturge": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "castlevania-lords-of-shadow-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "rollercoaster-tycoon-3-complete-edition": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "substance-3d-modeler-2025": {
+      "lookupMissUntil": "2026-09-06"
+    },
+    "battletech": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "equinox-homecoming": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "news-tower": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "wreckfest": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "paint-the-town-red": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "stationeers": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "halls-of-torment": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "sinisistar-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "welcome-to-the-game-ii": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "vampire-the-masquerade-bloodlines-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "potion-craft-alchemist-simulator": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "taiko-no-tatsujin-rhythm-festival": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "castlevania-lords-of-shadow-ultimate-edition": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "gladio-mori": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "voin": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "down-with-the-ship": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "kletka": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "road-to-empress-i": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "bits-and-bops": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-killing-antidote": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "lego-voyagers": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "hamster-hunter": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "mon-bazou": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "zerospace": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "beholder-conductor": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "drone-sector": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "meowgic": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "killing-floor-3": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "marvel-vs-capcom-fighting-collection-arcade-classics": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "g-rebels": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "wuchang-fallen-feathers": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "moldrise": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "resident-evil-0": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "ultimate-marvel-vs-capcom-3": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "tiny-tinas-wonderlands": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "amnesia-the-bunker": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "zephon": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "ace-attorney-investigations-collection": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "resident-evil": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-invincible": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "apollo-justice-ace-attorney-trilogy": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "unrailed": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "thomas-and-friends-wonders-of-sodor": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "project-gorgon": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "hardspace-shipbreaker": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "jurassic-world-evolution-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "terra-invicta": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "voyagers-of-nera": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "resident-evil-revelations-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "company-of-heroes-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "orb-of-creation": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "resident-evil-revelations": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "warhammer-40-000-chaos-gate-daemonhunters": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "little-nightmares-ii": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-surge-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "resident-evil-4-2005": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "what-remains-of-edith-finch": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "urban-strife": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "resident-evil-3-nemesis-1999": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "samson": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-crew-motorfest": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-escapists-2": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "cozy-grove-camp-spirit": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-seance-of-blake-manor": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "cat-isle": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "resident-evil-2-1998": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "the-midnight-walk": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "super-robot-wars-y": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "firewatch": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "gold-mining-simulator": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "strange-horticulture": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "flashing-lights-police-firefighting-emergency-services-ems-simulator": {
+      "seedCheckedAt": "2026-08-07"
+    },
+    "aska": {
+      "seedCheckedAt": "2026-08-07"
     }
   }
 }

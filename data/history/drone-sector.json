@@ -1,11 +1,11 @@
 {
   "slug": "drone-sector",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "327357",
   "atl": {
     "pc": {
-      "usd": 16.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 15.29,
+      "date": "2026-07-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "stoneshard",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "210744",
   "atl": {
     "pc": {
-      "usd": 16.24,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.49,
+      "date": "2020-09-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

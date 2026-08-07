@@ -1,11 +1,11 @@
 {
   "slug": "lightyear-frontier",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "283907",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2025-06-04",
+      "seed": "cheapshark"
     }
   },
   "events": [

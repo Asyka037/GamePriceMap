@@ -1,11 +1,11 @@
 {
   "slug": "unrailed",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "204790",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2025-09-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

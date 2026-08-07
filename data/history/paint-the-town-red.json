@@ -1,11 +1,11 @@
 {
   "slug": "paint-the-town-red",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "146481",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.99,
+      "date": "2015-11-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

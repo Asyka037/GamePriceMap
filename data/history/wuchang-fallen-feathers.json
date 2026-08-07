@@ -1,11 +1,11 @@
 {
   "slug": "wuchang-fallen-feathers",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "302140",
   "atl": {
     "pc": {
-      "usd": 34.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 27.64,
+      "date": "2026-04-28",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T10:13:32.088Z",
+  "updatedAt": "2026-08-07T08:38:05.552Z",
   "items": [
     {
       "title": "Beacon Pines",
@@ -11,7 +11,7 @@
       "pct": 100,
       "steamAppId": null,
       "slugIfTracked": null,
-      "status": "upcoming",
+      "status": "free-now",
       "endsAt": "2026-08-13T15:00:00.000Z"
     },
     {
@@ -37,34 +37,8 @@
       "pct": 100,
       "steamAppId": null,
       "slugIfTracked": null,
-      "status": "upcoming",
+      "status": "free-now",
       "endsAt": "2026-08-13T15:00:00.000Z"
-    },
-    {
-      "title": "OTXO",
-      "storeId": "epic",
-      "url": "https://store.epicgames.com/en-US/p/otxo-396b8b",
-      "currency": "USD",
-      "price": 0,
-      "list": 14.99,
-      "pct": 100,
-      "steamAppId": null,
-      "slugIfTracked": null,
-      "status": "free-now",
-      "endsAt": "2026-08-06T15:00:00.000Z"
-    },
-    {
-      "title": "Sol Cesto",
-      "storeId": "epic",
-      "url": "https://store.epicgames.com/en-US/p/sol-cesto-e9b803",
-      "currency": "USD",
-      "price": 0,
-      "list": 13.99,
-      "pct": 100,
-      "steamAppId": null,
-      "slugIfTracked": null,
-      "status": "free-now",
-      "endsAt": "2026-08-06T15:00:00.000Z"
     }
   ]
 }

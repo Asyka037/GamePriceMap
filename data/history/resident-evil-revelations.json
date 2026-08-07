@@ -1,11 +1,11 @@
 {
   "slug": "resident-evil-revelations",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "96701",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.59,
+      "date": "2024-04-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

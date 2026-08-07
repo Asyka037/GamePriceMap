@@ -1,11 +1,11 @@
 {
   "slug": "battleblock-theater",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "109498",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.49,
+      "date": "2014-11-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

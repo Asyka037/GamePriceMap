@@ -1,11 +1,11 @@
 {
   "slug": "project-gorgon",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "179119",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.99,
+      "date": "2023-06-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

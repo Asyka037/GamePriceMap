@@ -1,11 +1,11 @@
 {
   "slug": "sinisistar-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "322826",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2026-05-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "darwins-paradox",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "316152",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.99,
+      "date": "2026-07-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

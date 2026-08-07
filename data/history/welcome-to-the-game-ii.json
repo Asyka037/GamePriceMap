@@ -1,11 +1,11 @@
 {
   "slug": "welcome-to-the-game-ii",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "185523",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2022-12-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

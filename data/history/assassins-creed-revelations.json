@@ -1,11 +1,11 @@
 {
   "slug": "assassins-creed-revelations",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "23",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.99,
+      "date": "2013-07-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "project-wingman",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "223590",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 10.62,
+      "date": "2026-03-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "stronghold-crusader-definitive-edition",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "305754",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

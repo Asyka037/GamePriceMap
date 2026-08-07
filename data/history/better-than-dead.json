@@ -1,11 +1,11 @@
 {
   "slug": "better-than-dead",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "321963",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.49,
+      "date": "2026-05-12",
+      "seed": "cheapshark"
     }
   },
   "events": [

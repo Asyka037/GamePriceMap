@@ -1,11 +1,11 @@
 {
   "slug": "d-topia",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "324710",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.15,
+      "date": "2026-07-16",
+      "seed": "cheapshark"
     }
   },
   "events": [

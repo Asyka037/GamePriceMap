@@ -1,11 +1,11 @@
 {
   "slug": "g-rebels",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "327316",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 23.99,
+      "date": "2026-07-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "capcom-fighting-collection-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "297681",
   "atl": {
     "pc": {
-      "usd": 25.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 21.75,
+      "date": "2026-04-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

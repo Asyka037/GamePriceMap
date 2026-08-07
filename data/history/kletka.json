@@ -1,11 +1,11 @@
 {
   "slug": "kletka",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "295917",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.49,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

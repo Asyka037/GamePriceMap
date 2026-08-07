@@ -1,10 +1,10 @@
 {
   "slug": "sineus-arena-survivors",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "325108",
   "atl": {
     "pc": {
-      "usd": 10.99,
-      "date": "2026-07-31",
+      "usd": 8.79,
+      "date": "2026-08-07",
       "seed": "self"
     }
   },
@@ -15,6 +15,13 @@
       "cc": "US",
       "usd": 10.99,
       "pct": null
+    },
+    {
+      "d": "2026-08-07",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 8.79,
+      "pct": 20
     }
   ]
 }

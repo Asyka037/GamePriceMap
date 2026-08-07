@@ -1,11 +1,11 @@
 {
   "slug": "resident-evil-0",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "189632",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.77,
+      "date": "2024-08-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

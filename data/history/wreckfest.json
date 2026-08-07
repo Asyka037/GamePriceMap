@@ -1,11 +1,11 @@
 {
   "slug": "wreckfest",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "188115",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.38,
+      "date": "2026-07-13",
+      "seed": "cheapshark"
     }
   },
   "events": [

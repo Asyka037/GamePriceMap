@@ -1,6 +1,6 @@
 {
   "slug": "outer-wilds",
-  "lastPriceChangeAt": "2026-08-03",
+  "lastPriceChangeAt": "2026-08-07",
   "regions": [
     {
       "cc": "AU",
@@ -53,10 +53,10 @@
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 1890,
-      "list": 3150,
-      "discountPct": 40,
-      "saleEndsAt": "2026-08-06T14:59:59Z"
+      "amount": 3150,
+      "list": null,
+      "discountPct": null,
+      "saleEndsAt": null
     },
     {
       "cc": "MX",

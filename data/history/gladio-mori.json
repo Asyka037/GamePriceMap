@@ -1,11 +1,11 @@
 {
   "slug": "gladio-mori",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "295080",
   "atl": {
     "pc": {
-      "usd": 15.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.99,
+      "date": "2025-09-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

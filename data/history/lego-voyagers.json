@@ -1,11 +1,11 @@
 {
   "slug": "lego-voyagers",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "305571",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.67,
+      "date": "2026-06-03",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "mechwarrior-5-clans",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "293359",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 12.86,
+      "date": "2026-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

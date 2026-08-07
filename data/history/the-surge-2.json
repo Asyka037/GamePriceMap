@@ -1,11 +1,11 @@
 {
   "slug": "the-surge-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "202170",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2025-11-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "news-tower",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "282380",
   "atl": {
     "pc": {
-      "usd": 17.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.49,
+      "date": "2026-06-01",
+      "seed": "cheapshark"
     }
   },
   "events": [

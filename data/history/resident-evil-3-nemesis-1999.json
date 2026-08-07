@@ -1,11 +1,11 @@
 {
   "slug": "resident-evil-3-nemesis-1999",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "318805",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.19,
+      "date": "2026-05-18",
+      "seed": "cheapshark"
     }
   },
   "events": [

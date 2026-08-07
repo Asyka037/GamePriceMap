@@ -1,11 +1,11 @@
 {
   "slug": "urban-strife",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "295613",
   "atl": {
     "pc": {
-      "usd": 34.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 24.49,
+      "date": "2026-07-14",
+      "seed": "cheapshark"
     }
   },
   "events": [

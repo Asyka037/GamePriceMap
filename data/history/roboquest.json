@@ -1,11 +1,11 @@
 {
   "slug": "roboquest",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "219457",
   "atl": {
     "pc": {
-      "usd": 24.99,
+      "usd": 11.25,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "halls-of-torment",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "261094",
   "atl": {
     "pc": {
-      "usd": 4.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.74,
+      "date": "2024-09-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

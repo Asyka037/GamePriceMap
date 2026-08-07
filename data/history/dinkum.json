@@ -1,11 +1,11 @@
 {
   "slug": "dinkum",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "248821",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.99,
+      "date": "2023-12-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

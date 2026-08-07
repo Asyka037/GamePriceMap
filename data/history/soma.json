@@ -1,11 +1,11 @@
 {
   "slug": "soma",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "145410",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.49,
+      "date": "2024-12-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

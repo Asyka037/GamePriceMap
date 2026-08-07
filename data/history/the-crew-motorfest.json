@@ -1,11 +1,11 @@
 {
   "slug": "the-crew-motorfest",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "266375",
   "atl": {
     "pc": {
-      "usd": 13.99,
-      "date": "2026-08-06",
-      "seed": "self"
+      "usd": 6.59,
+      "date": "2026-03-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

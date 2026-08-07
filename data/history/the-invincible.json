@@ -1,11 +1,11 @@
 {
   "slug": "the-invincible",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "248393",
   "atl": {
     "pc": {
-      "usd": 10.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-08-06T10:13:17.430Z",
+  "updatedAt": "2026-08-07T08:37:49.932Z",
   "items": [
+    {
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2950790/",
+      "currency": "USD",
+      "price": 14.99,
+      "list": 19.99,
+      "pct": 25,
+      "endsAt": "2026-08-20T17:00:32.000Z",
+      "steamAppId": 2950790,
+      "slugIfTracked": null
+    },
     {
       "title": "Big Walk",
       "storeId": "steam",
@@ -14,28 +26,16 @@
       "slugIfTracked": null
     },
     {
-      "title": "Marvel's Spider-Man 2",
+      "title": "ReStory: Chill Electronics Repairs",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2651280/",
+      "url": "https://store.steampowered.com/app/3812600/",
       "currency": "USD",
-      "price": 40.19,
-      "list": 59.99,
-      "pct": 33,
-      "endsAt": "2026-08-06T17:00:00.000Z",
-      "steamAppId": 2651280,
-      "slugIfTracked": "marvel-s-spider-man-2"
-    },
-    {
-      "title": "Marvel’s Spider-Man Remastered",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1817070/",
-      "currency": "USD",
-      "price": 23.99,
-      "list": 59.99,
-      "pct": 60,
-      "endsAt": "2026-08-06T17:00:00.000Z",
-      "steamAppId": 1817070,
-      "slugIfTracked": "marvels-spider-man-remastered"
+      "price": 17.99,
+      "list": 19.99,
+      "pct": 10,
+      "endsAt": "2026-08-20T17:00:25.000Z",
+      "steamAppId": 3812600,
+      "slugIfTracked": null
     },
     {
       "title": "Cyberpunk 2077",
@@ -50,28 +50,28 @@
       "slugIfTracked": "cyberpunk-2077"
     },
     {
-      "title": "Fields of Mistria",
+      "title": "Tom Clancy's Ghost Recon® Wildlands",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2142790/",
+      "url": "https://store.steampowered.com/app/460930/",
       "currency": "USD",
-      "price": 12.59,
-      "list": 13.99,
-      "pct": 10,
-      "endsAt": "2026-08-13T17:00:26.000Z",
-      "steamAppId": 2142790,
-      "slugIfTracked": "fields-of-mistria"
+      "price": 2.49,
+      "list": 49.99,
+      "pct": 95,
+      "endsAt": "2026-08-16T17:00:00.000Z",
+      "steamAppId": 460930,
+      "slugIfTracked": "tom-clancys-ghost-recon-wildlands"
     },
     {
-      "title": "Marvel’s Spider-Man: Miles Morales",
+      "title": "Tom Clancy's Ghost Recon® Wildlands",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1817190/",
+      "url": "https://store.steampowered.com/app/460930/",
       "currency": "USD",
-      "price": 19.99,
+      "price": 2.49,
       "list": 49.99,
-      "pct": 60,
-      "endsAt": "2026-08-06T17:00:00.000Z",
-      "steamAppId": 1817190,
-      "slugIfTracked": "marvels-spider-man-miles-morales"
+      "pct": 95,
+      "endsAt": "2026-08-16T17:00:00.000Z",
+      "steamAppId": 460930,
+      "slugIfTracked": "tom-clancys-ghost-recon-wildlands"
     },
     {
       "title": "Machine Party",
@@ -84,6 +84,18 @@
       "endsAt": "2026-08-13T17:00:20.000Z",
       "steamAppId": 4108000,
       "slugIfTracked": null
+    },
+    {
+      "title": "Fields of Mistria",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/2142790/",
+      "currency": "USD",
+      "price": 12.59,
+      "list": 13.99,
+      "pct": 10,
+      "endsAt": "2026-08-13T17:00:26.000Z",
+      "steamAppId": 2142790,
+      "slugIfTracked": "fields-of-mistria"
     },
     {
       "title": "Cyberpunk 2077: Phantom Liberty",
@@ -108,18 +120,6 @@
       "endsAt": "2026-08-09T17:00:00.000Z",
       "steamAppId": 1144200,
       "slugIfTracked": "ready-or-not"
-    },
-    {
-      "title": "Schedule I",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3164500/",
-      "currency": "USD",
-      "price": 13.99,
-      "list": 19.99,
-      "pct": 30,
-      "endsAt": "2026-08-06T17:00:00.000Z",
-      "steamAppId": 3164500,
-      "slugIfTracked": "schedule-i"
     }
   ]
 }

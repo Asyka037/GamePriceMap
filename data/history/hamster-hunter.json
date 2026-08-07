@@ -1,11 +1,11 @@
 {
   "slug": "hamster-hunter",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "280643",
   "atl": {
     "pc": {
-      "usd": 2.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 0.69,
+      "date": "2024-06-04",
+      "seed": "cheapshark"
     }
   },
   "events": [

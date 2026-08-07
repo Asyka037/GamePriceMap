@@ -1,11 +1,11 @@
 {
   "slug": "total-war-attila",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "140130",
   "atl": {
     "pc": {
-      "usd": 44.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.73,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

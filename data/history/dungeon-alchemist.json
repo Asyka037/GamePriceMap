@@ -1,11 +1,11 @@
 {
   "slug": "dungeon-alchemist",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "242718",
   "atl": {
     "pc": {
-      "usd": 44.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 35.99,
+      "date": "2022-06-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "south-park-the-stick-of-truth",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "88166",
   "atl": {
     "pc": {
-      "usd": 5.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1,
+      "date": "2025-01-23",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,6 +1,6 @@
 {
   "slug": "dave-the-diver",
-  "lastPriceChangeAt": "2026-07-10",
+  "lastPriceChangeAt": "2026-08-07",
   "regions": [
     {
       "cc": "AU",
@@ -78,14 +78,6 @@
       "cc": "NO",
       "currency": "NOK",
       "amount": 200,
-      "list": null,
-      "discountPct": null,
-      "saleEndsAt": null
-    },
-    {
-      "cc": "NZ",
-      "currency": "NZD",
-      "amount": 28.99,
       "list": null,
       "discountPct": null,
       "saleEndsAt": null

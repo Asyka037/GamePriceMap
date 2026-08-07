@@ -1,11 +1,11 @@
 {
   "slug": "the-riftbreaker",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "235689",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2026-06-11",
+      "seed": "cheapshark"
     }
   },
   "events": [

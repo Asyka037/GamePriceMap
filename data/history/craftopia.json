@@ -1,11 +1,11 @@
 {
   "slug": "craftopia",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "220125",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2022-09-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

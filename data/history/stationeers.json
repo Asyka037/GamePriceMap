@@ -1,11 +1,11 @@
 {
   "slug": "stationeers",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "176208",
   "atl": {
     "pc": {
-      "usd": 34.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.49,
+      "date": "2020-12-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

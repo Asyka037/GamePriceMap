@@ -1,11 +1,11 @@
 {
   "slug": "samson",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "319098",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 16.74,
+      "date": "2026-07-16",
+      "seed": "cheapshark"
     }
   },
   "events": [
