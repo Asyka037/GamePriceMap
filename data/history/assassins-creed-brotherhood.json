@@ -1,11 +1,11 @@
 {
   "slug": "assassins-creed-brotherhood",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "104",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.87,
+      "date": "2022-09-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

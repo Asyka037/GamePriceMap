@@ -1,11 +1,11 @@
 {
   "slug": "among-us-3d",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "302637",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.99,
+      "date": "2025-12-03",
+      "seed": "cheapshark"
     }
   },
   "events": [

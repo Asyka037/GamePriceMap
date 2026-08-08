@@ -1,141 +1,141 @@
 {
   "slug": "sleeping-dogs-definitive-edition",
-  "lastPriceChangeAt": "2026-07-31",
+  "lastPriceChangeAt": "2026-08-08",
   "regions": [
     {
       "cc": "AR",
       "currency": "USD",
-      "amount": 15.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 2.39,
+      "list": 15.99,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 26.95,
-      "list": null,
-      "discountPct": null,
+      "amount": 4.04,
+      "list": 26.95,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 55.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 8.39,
+      "list": 55.99,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 24.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 3.74,
+      "list": 24.99,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 19.9,
-      "list": null,
-      "discountPct": null,
+      "amount": 2.98,
+      "list": 19.9,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "CN",
       "currency": "CNY",
-      "amount": 88,
-      "list": null,
-      "discountPct": null,
+      "amount": 13.2,
+      "list": 88,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 15.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 2.39,
+      "list": 15.99,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "GE",
       "currency": "USD",
-      "amount": 14.49,
-      "list": null,
-      "discountPct": null,
+      "amount": 2.17,
+      "list": 14.49,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "IN",
       "currency": "INR",
-      "amount": 729,
-      "list": null,
-      "discountPct": null,
+      "amount": 109,
+      "list": 729,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 2023,
-      "list": null,
-      "discountPct": null,
+      "amount": 303,
+      "list": 2023,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "KR",
       "currency": "KRW",
-      "amount": 24600,
-      "list": null,
-      "discountPct": null,
+      "amount": 3690,
+      "list": 24600,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "KZ",
       "currency": "KZT",
-      "amount": 3900,
-      "list": null,
-      "discountPct": null,
+      "amount": 585,
+      "list": 3900,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 269.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 40.49,
+      "list": 269.99,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "PK",
       "currency": "USD",
-      "amount": 10.49,
-      "list": null,
-      "discountPct": null,
+      "amount": 1.57,
+      "list": 10.49,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "TR",
       "currency": "USD",
-      "amount": 15.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 2.39,
+      "list": 15.99,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "UA",
       "currency": "UAH",
-      "amount": 379,
-      "list": null,
-      "discountPct": null,
+      "amount": 56,
+      "list": 379,
+      "discountPct": 85,
       "saleEndsAt": null
     },
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 19.99,
-      "list": null,
-      "discountPct": null,
+      "amount": 2.99,
+      "list": 19.99,
+      "discountPct": 85,
       "saleEndsAt": null
     }
   ]

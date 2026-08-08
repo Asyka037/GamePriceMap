@@ -1,11 +1,11 @@
 {
   "slug": "project-zomboid",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "102722",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.99,
+      "date": "2014-10-05",
+      "seed": "cheapshark"
     }
   },
   "events": [

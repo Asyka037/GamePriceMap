@@ -1,11 +1,11 @@
 {
   "slug": "rick-and-morty-virtual-rick-ality",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "168318",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.99,
+      "date": "2020-03-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "mudrunner",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "199147",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.3,
+      "date": "2025-01-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

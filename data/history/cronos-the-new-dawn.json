@@ -1,11 +1,11 @@
 {
   "slug": "cronos-the-new-dawn",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "306444",
   "atl": {
     "pc": {
-      "usd": 35.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 28.59,
+      "date": "2026-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

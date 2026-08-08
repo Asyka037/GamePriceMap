@@ -1,133 +1,133 @@
 {
   "slug": "ravenswatch",
-  "lastPriceChangeAt": "2026-07-31",
+  "lastPriceChangeAt": "2026-08-08",
   "regions": [
     {
       "cc": "AR",
       "currency": "USD",
-      "amount": 13.99,
-      "list": 34.99,
-      "discountPct": 60,
+      "amount": 14.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "AU",
       "currency": "AUD",
-      "amount": 30.2,
-      "list": 75.5,
-      "discountPct": 60,
+      "amount": 36.5,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "BR",
       "currency": "BRL",
-      "amount": 73.5,
-      "list": 183.75,
-      "discountPct": 60,
+      "amount": 74.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "CA",
       "currency": "CAD",
-      "amount": 26.19,
-      "list": 65.49,
-      "discountPct": 60,
+      "amount": 32.5,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "CH",
       "currency": "CHF",
-      "amount": 22.6,
-      "list": 56.5,
-      "discountPct": 60,
+      "amount": 28.5,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "CN",
       "currency": "CNY",
-      "amount": 84,
-      "list": 210,
-      "discountPct": 60,
+      "amount": 95,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "DE",
       "currency": "EUR",
-      "amount": 19.99,
-      "list": 49.99,
-      "discountPct": 60,
+      "amount": 24.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "GB",
       "currency": "GBP",
-      "amount": 17.99,
-      "list": 44.99,
-      "discountPct": 60,
+      "amount": 20.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "GE",
       "currency": "USD",
-      "amount": 15.99,
-      "list": 39.99,
-      "discountPct": 60,
+      "amount": 19.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "IN",
       "currency": "INR",
-      "amount": 1177,
-      "list": 2943,
-      "discountPct": 60,
+      "amount": 1300,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "JP",
       "currency": "JPY",
-      "amount": 2310,
-      "list": 5775,
-      "discountPct": 60,
+      "amount": 2800,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "KR",
       "currency": "KRW",
-      "amount": 22290,
-      "list": 55720,
-      "discountPct": 60,
+      "amount": 27000,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "KZ",
       "currency": "KZT",
-      "amount": 6688,
-      "list": 16720,
-      "discountPct": 60,
+      "amount": 7600,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "MX",
       "currency": "MXN",
-      "amount": 303.99,
-      "list": 759.99,
-      "discountPct": 60,
+      "amount": 334.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "PK",
       "currency": "USD",
-      "amount": 13.99,
-      "list": 34.99,
-      "discountPct": 60,
+      "amount": 16.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
       "cc": "TR",
       "currency": "USD",
-      "amount": 13.99,
-      "list": 34.99,
-      "discountPct": 60,
+      "amount": 14.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     },
     {
@@ -141,9 +141,9 @@
     {
       "cc": "US",
       "currency": "USD",
-      "amount": 19.99,
-      "list": 49.99,
-      "discountPct": 60,
+      "amount": 24.99,
+      "list": null,
+      "discountPct": null,
       "saleEndsAt": null
     }
   ]

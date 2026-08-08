@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-08-07T08:37:49.932Z",
+  "updatedAt": "2026-08-08T08:10:06.526Z",
   "items": [
-    {
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2950790/",
-      "currency": "USD",
-      "price": 14.99,
-      "list": 19.99,
-      "pct": 25,
-      "endsAt": "2026-08-20T17:00:32.000Z",
-      "steamAppId": 2950790,
-      "slugIfTracked": null
-    },
     {
       "title": "Big Walk",
       "storeId": "steam",
@@ -26,15 +14,15 @@
       "slugIfTracked": null
     },
     {
-      "title": "ReStory: Chill Electronics Repairs",
+      "title": "IRON NEST: Heavy Turret Simulator",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/3812600/",
+      "url": "https://store.steampowered.com/app/2950790/",
       "currency": "USD",
-      "price": 17.99,
+      "price": 14.99,
       "list": 19.99,
-      "pct": 10,
-      "endsAt": "2026-08-20T17:00:25.000Z",
-      "steamAppId": 3812600,
+      "pct": 25,
+      "endsAt": "2026-08-20T17:00:32.000Z",
+      "steamAppId": 2950790,
       "slugIfTracked": null
     },
     {
@@ -48,6 +36,18 @@
       "endsAt": "2026-08-10T17:00:00.000Z",
       "steamAppId": 1091500,
       "slugIfTracked": "cyberpunk-2077"
+    },
+    {
+      "title": "ReStory: Chill Electronics Repairs",
+      "storeId": "steam",
+      "url": "https://store.steampowered.com/app/3812600/",
+      "currency": "USD",
+      "price": 17.99,
+      "list": 19.99,
+      "pct": 10,
+      "endsAt": "2026-08-20T17:00:25.000Z",
+      "steamAppId": 3812600,
+      "slugIfTracked": null
     },
     {
       "title": "Tom Clancy's Ghost Recon® Wildlands",
@@ -86,16 +86,16 @@
       "slugIfTracked": null
     },
     {
-      "title": "Fields of Mistria",
+      "title": "GRAIN ROT",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/2142790/",
+      "url": "https://store.steampowered.com/app/4450620/",
       "currency": "USD",
-      "price": 12.59,
-      "list": 13.99,
+      "price": 8.99,
+      "list": 9.99,
       "pct": 10,
-      "endsAt": "2026-08-13T17:00:26.000Z",
-      "steamAppId": 2142790,
-      "slugIfTracked": "fields-of-mistria"
+      "endsAt": "2026-08-21T17:00:20.000Z",
+      "steamAppId": 4450620,
+      "slugIfTracked": null
     },
     {
       "title": "Cyberpunk 2077: Phantom Liberty",
@@ -110,16 +110,16 @@
       "slugIfTracked": null
     },
     {
-      "title": "Ready or Not",
+      "title": "Fields of Mistria",
       "storeId": "steam",
-      "url": "https://store.steampowered.com/app/1144200/",
+      "url": "https://store.steampowered.com/app/2142790/",
       "currency": "USD",
-      "price": 24.99,
-      "list": 49.99,
-      "pct": 50,
-      "endsAt": "2026-08-09T17:00:00.000Z",
-      "steamAppId": 1144200,
-      "slugIfTracked": "ready-or-not"
+      "price": 12.59,
+      "list": 13.99,
+      "pct": 10,
+      "endsAt": "2026-08-13T17:00:26.000Z",
+      "steamAppId": 2142790,
+      "slugIfTracked": "fields-of-mistria"
     }
   ]
 }

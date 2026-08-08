@@ -1,11 +1,11 @@
 {
   "slug": "muse-dash",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "202589",
   "atl": {
     "pc": {
-      "usd": 2.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 0.44,
+      "date": "2023-06-28",
+      "seed": "cheapshark"
     }
   },
   "events": [

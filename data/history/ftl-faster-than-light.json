@@ -1,11 +1,11 @@
 {
   "slug": "ftl-faster-than-light",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "89174",
   "atl": {
     "pc": {
-      "usd": 3.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2016-05-14",
+      "seed": "cheapshark"
     }
   },
   "events": [
@@ -15,6 +15,13 @@
       "cc": "US",
       "usd": 3.49,
       "pct": 65
+    },
+    {
+      "d": "2026-08-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 9.99,
+      "pct": null
     }
   ]
 }

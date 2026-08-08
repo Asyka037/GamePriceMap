@@ -1,11 +1,11 @@
 {
   "slug": "scarlet-deer-inn",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "327370",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.99,
+      "date": "2026-07-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

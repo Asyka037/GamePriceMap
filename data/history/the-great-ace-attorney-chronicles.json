@@ -1,11 +1,11 @@
 {
   "slug": "the-great-ace-attorney-chronicles",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "229907",
   "atl": {
     "pc": {
-      "usd": 15.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 11.77,
+      "date": "2025-02-02",
+      "seed": "cheapshark"
     }
   },
   "events": [
@@ -15,6 +15,13 @@
       "cc": "US",
       "usd": 15.99,
       "pct": 60
+    },
+    {
+      "d": "2026-08-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 39.99,
+      "pct": null
     }
   ]
 }

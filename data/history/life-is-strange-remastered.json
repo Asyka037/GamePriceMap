@@ -1,11 +1,11 @@
 {
   "slug": "life-is-strange-remastered",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "240195",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 7.99,
+      "date": "2026-03-12",
+      "seed": "cheapshark"
     }
   },
   "events": [

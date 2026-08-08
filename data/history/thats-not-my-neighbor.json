@@ -1,11 +1,11 @@
 {
   "slug": "thats-not-my-neighbor",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "298941",
   "atl": {
     "pc": {
-      "usd": 2.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.79,
+      "date": "2025-03-11",
+      "seed": "cheapshark"
     }
   },
   "events": [

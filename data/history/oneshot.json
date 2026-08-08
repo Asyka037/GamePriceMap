@@ -1,11 +1,11 @@
 {
   "slug": "oneshot",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "163875",
   "atl": {
     "pc": {
-      "usd": 9.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 0.92,
+      "date": "2020-12-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

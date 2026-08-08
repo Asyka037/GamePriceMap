@@ -1,11 +1,11 @@
 {
   "slug": "guilty-as-sock",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "303912",
   "atl": {
     "pc": {
-      "usd": 5.5,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.85,
+      "date": "2026-04-09",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "titan-quest-ii",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "306517",
   "atl": {
     "pc": {
-      "usd": 34.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 23.99,
+      "date": "2025-08-01",
+      "seed": "cheapshark"
     }
   },
   "events": [

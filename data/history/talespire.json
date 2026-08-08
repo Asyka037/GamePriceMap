@@ -1,11 +1,11 @@
 {
   "slug": "talespire",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "228564",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 18.74,
+      "date": "2021-10-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

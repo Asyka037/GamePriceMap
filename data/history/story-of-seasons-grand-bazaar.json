@@ -1,11 +1,11 @@
 {
   "slug": "story-of-seasons-grand-bazaar",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "307579",
   "atl": {
     "pc": {
-      "usd": 49.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 33.49,
+      "date": "2026-03-21",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "project-silverfish",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "305093",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

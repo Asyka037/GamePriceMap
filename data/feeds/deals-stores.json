@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T08:38:02.134Z",
+  "updatedAt": "2026-08-08T08:10:17.282Z",
   "items": [
     {
       "title": "Need for Speed Heat Deluxe Edition",
@@ -21,6 +21,18 @@
       "price": 3.5,
       "list": 69.99,
       "pct": 95,
+      "endsAt": null,
+      "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
+      "title": "The Quarry Deluxe Edition",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=Kb%2BnKWG5d0q31D7pg5D0qPXKbHSfb210HrYKC%2FYe%2Bjw%3D",
+      "currency": "USD",
+      "price": 6.16,
+      "list": 69.99,
+      "pct": 91,
       "endsAt": null,
       "steamAppId": null,
       "slugIfTracked": null
@@ -98,6 +110,30 @@
       "slugIfTracked": null
     },
     {
+      "title": "Borderlands 3 Super Deluxe Edition (EPIC)",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=U9NbKz2Xwv%2FRiVIuG8lF%2BLrtSRpVPqkaoLL0uamoKWg%3D",
+      "currency": "USD",
+      "price": 10.56,
+      "list": 79.99,
+      "pct": 87,
+      "endsAt": null,
+      "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Borderlands 3 Super Deluxe Edition",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=TEntN3h%2FysXDBSIP1upOImxNL5ivn9v79DXhn20N16k%3D",
+      "currency": "USD",
+      "price": 10.56,
+      "list": 79.99,
+      "pct": 87,
+      "endsAt": null,
+      "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
       "title": "Tom Clancys Ghost Recon Breakpoint - Deluxe Edition",
       "storeId": "gamesplanet",
       "url": "https://www.cheapshark.com/redirect?dealID=LiKqx8rJ%2Fid%2F8lKVJWp1vQKcEF3Ux6mefUBpxMPBv40%3D",
@@ -158,6 +194,30 @@
       "slugIfTracked": null
     },
     {
+      "title": "Warhammer Age of Sigmar: Realms of Ruin Ultimate Edition",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=%2BYB%2FKe0HFqEPUmk%2BVUW4Hq1u%2F3y3etyS17KIC4COIrA%3D",
+      "currency": "USD",
+      "price": 12.9,
+      "list": 74.99,
+      "pct": 83,
+      "endsAt": null,
+      "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Sid Meiers Civilization VI Anthology",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=Hz%2BOAW9%2F250%2BOjC1aoftzKgeZfi0%2BKY9Ug43iVy4cvk%3D",
+      "currency": "USD",
+      "price": 25.18,
+      "list": 209.85,
+      "pct": 88,
+      "endsAt": null,
+      "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
       "title": "SYNDUALITY: Echo of Ada Deluxe Edition",
       "storeId": "gamesplanet",
       "url": "https://www.cheapshark.com/redirect?dealID=0u0rE1jh3xf1ZWqOiUtoEHK13TJDDUW%2BheQieqn%2F4Yk%3D",
@@ -170,27 +230,15 @@
       "slugIfTracked": null
     },
     {
-      "title": "Warhammer Age of Sigmar: Realms of Ruin Ultimate Edition",
-      "storeId": "gamebillet",
-      "url": "https://www.cheapshark.com/redirect?dealID=y7ujahjHzWcqASOz7OUxi2qjKEgmf9vbOXOxobV30mE%3D",
+      "title": "Marvels Midnight Suns Digital Edition",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=je67P%2FxzjbovTBSuw1SnffTSE5DFX7RLZ8Caps0EG3c%3D",
       "currency": "USD",
-      "price": 13.46,
-      "list": 74.99,
+      "price": 14.08,
+      "list": 79.99,
       "pct": 82,
       "endsAt": null,
       "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Middle-earth: The Shadow Bundle",
-      "storeId": "gamebillet",
-      "url": "https://www.cheapshark.com/redirect?dealID=GbuwYYGcMsW8hFsmf9xqtSqxJDG2ePqShKtL%2B3hcgdM%3D",
-      "currency": "USD",
-      "price": 6.25,
-      "list": 69.99,
-      "pct": 91,
-      "endsAt": null,
-      "steamAppId": 648168,
       "slugIfTracked": null
     },
     {
@@ -278,15 +326,63 @@
       "slugIfTracked": null
     },
     {
-      "title": "Middle-earth: The Shadow Bundle",
-      "storeId": "wingamestore",
-      "url": "https://www.cheapshark.com/redirect?dealID=5u2%2Brrz%2BTcuDR9HAefNkfN%2BJsj6LIP8YpMQLuI%2F%2B16o%3D",
+      "title": "Metro 2033 Redux",
+      "storeId": "humble-store",
+      "url": "https://www.cheapshark.com/redirect?dealID=4N8lwdp8b3fG3Qg1qY2nABPCJ8rgTczjiXluOg3TPBk%3D",
       "currency": "USD",
-      "price": 6.99,
-      "list": 69.99,
+      "price": 1.99,
+      "list": 19.99,
       "pct": 90,
       "endsAt": null,
-      "steamAppId": 648168,
+      "steamAppId": 286690,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Borderlands 3: Ultimate Edition",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=GonLKSKXgNHtNtvyzI%2F1fSdmSuxlUsJjzKSY9Lzs1Dw%3D",
+      "currency": "USD",
+      "price": 17.5,
+      "list": 99.45,
+      "pct": 82,
+      "endsAt": null,
+      "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Red Dead Redemption 2: Ultimate Edition",
+      "storeId": "gamebillet",
+      "url": "https://www.cheapshark.com/redirect?dealID=AWmATCEdzL37FH5cLgOB84h05E0SRbbG1k7B7IvZnqQ%3D",
+      "currency": "USD",
+      "price": 17.56,
+      "list": 99.99,
+      "pct": 82,
+      "endsAt": null,
+      "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Red Dead Redemption 2: Ultimate Edition",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=e%2Fce8Lip8Dierf4oXniUfl6GnOYsPJT64WFE9ovZjTs%3D",
+      "currency": "USD",
+      "price": 17.6,
+      "list": 99.99,
+      "pct": 82,
+      "endsAt": null,
+      "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Marvels Midnight Suns Legendary Edition",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=TtQ7e%2FsaPwMa4ukJZERlwijo6Spazr3mVVm0J5V4%2F10%3D",
+      "currency": "USD",
+      "price": 17.6,
+      "list": 99.99,
+      "pct": 82,
+      "endsAt": null,
+      "steamAppId": null,
       "slugIfTracked": null
     },
     {
@@ -374,6 +470,18 @@
       "slugIfTracked": null
     },
     {
+      "title": "Sid Meiers Civilization VI",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=IVz1ISLafRz22ShQTBwlcHsYMiqp4CQr1d5LcQXicTo%3D",
+      "currency": "USD",
+      "price": 5.28,
+      "list": 59.99,
+      "pct": 91,
+      "endsAt": null,
+      "steamAppId": 289070,
+      "slugIfTracked": "sid-meiers-civilization-vi"
+    },
+    {
       "title": "Darksiders Blades and Whip Franchise Pack",
       "storeId": "gamesplanet",
       "url": "https://www.cheapshark.com/redirect?dealID=6Hlp8yrsheTVPfkqgfvAJiuWW2z5d92gDlGUGneW2l0%3D",
@@ -419,6 +527,18 @@
       "pct": 80,
       "endsAt": null,
       "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Homeworld Remastered Collection",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=qoBo6t9byCwZRAskh33LdAGQWDSmktVjJUBPf%2FJ%2Fbwc%3D",
+      "currency": "USD",
+      "price": 3.08,
+      "list": 34.99,
+      "pct": 91,
+      "endsAt": null,
+      "steamAppId": 244160,
       "slugIfTracked": null
     },
     {
@@ -518,6 +638,18 @@
       "slugIfTracked": null
     },
     {
+      "title": "Aces and Adventures",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=KJFxFaPvXd%2BHb6odFXX9DmLqy78TWKBmOnnv4uIpZFQ%3D",
+      "currency": "USD",
+      "price": 1.8,
+      "list": 19.99,
+      "pct": 91,
+      "endsAt": null,
+      "steamAppId": 1815570,
+      "slugIfTracked": null
+    },
+    {
       "title": "Watch_Dogs 2 Gold Edition",
       "storeId": "gamesplanet",
       "url": "https://www.cheapshark.com/redirect?dealID=RxxggACqRHgsu0EmJuCXPgQJRla%2FEXe5VOGtDIGQsRs%3D",
@@ -525,18 +657,6 @@
       "price": 10.99,
       "list": 79.99,
       "pct": 86,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Red Dead Redemption 2: Ultimate Edition",
-      "storeId": "gamebillet",
-      "url": "https://www.cheapshark.com/redirect?dealID=AWmATCEdzL37FH5cLgOB84h05E0SRbbG1k7B7IvZnqQ%3D",
-      "currency": "USD",
-      "price": 19.95,
-      "list": 99.99,
-      "pct": 80,
       "endsAt": null,
       "steamAppId": null,
       "slugIfTracked": null
@@ -588,6 +708,18 @@
       "endsAt": null,
       "steamAppId": null,
       "slugIfTracked": null
+    },
+    {
+      "title": "Disco Elysium - The Final Cut",
+      "storeId": "humble-store",
+      "url": "https://www.cheapshark.com/redirect?dealID=nkvWzyFGvil0uAtwrtKRjjBN%2F14UaGVvolBejMaYZsY%3D",
+      "currency": "USD",
+      "price": 9.99,
+      "list": 39.99,
+      "pct": 75,
+      "endsAt": null,
+      "steamAppId": 632470,
+      "slugIfTracked": "disco-elysium-the-final-cut"
     },
     {
       "title": "Assassin's Creed Odyssey - Deluxe Edition",
@@ -662,6 +794,18 @@
       "slugIfTracked": null
     },
     {
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=ELt%2BhnOOENEzf1NPm0%2FqsjGNIF1zAPYQUbM3OnUdgtE%3D",
+      "currency": "USD",
+      "price": 4,
+      "list": 39.99,
+      "pct": 90,
+      "endsAt": null,
+      "steamAppId": 418240,
+      "slugIfTracked": null
+    },
+    {
       "title": "Europa Universalis IV",
       "storeId": "gamesplanet",
       "url": "https://www.cheapshark.com/redirect?dealID=3n5AuHGzuk2%2FTSnMf%2F7lWv9zdH5g%2BuDGUMhlpr68w08%3D",
@@ -722,15 +866,27 @@
       "slugIfTracked": null
     },
     {
-      "title": "Darksiders Blades and Whip Franchise Pack",
+      "title": "BioShock Infinite",
       "storeId": "greenmangaming",
-      "url": "https://www.cheapshark.com/redirect?dealID=yFXXQ9%2FWqqMDEcNkjwXVRj4JS0eoPGmWJMU4uypnt5w%3D",
+      "url": "https://www.cheapshark.com/redirect?dealID=IIokw%2BluKJ5aKPP6t7UTl7mkCLmEWDVhipCOS9FY4D4%3D",
       "currency": "USD",
-      "price": 12,
-      "list": 79.99,
+      "price": 6.6,
+      "list": 29.99,
+      "pct": 78,
+      "endsAt": null,
+      "steamAppId": 8870,
+      "slugIfTracked": "bioshock-infinite"
+    },
+    {
+      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "storeId": "gog",
+      "url": "https://www.cheapshark.com/redirect?dealID=wbwSwOEEf%2FXwtxjY8CVuiEfXM4NXhJq6i8wy%2FJbS5aY%3D",
+      "currency": "USD",
+      "price": 2.99,
+      "list": 19.99,
       "pct": 85,
       "endsAt": null,
-      "steamAppId": null,
+      "steamAppId": 20920,
       "slugIfTracked": null
     },
     {
@@ -743,6 +899,18 @@
       "pct": 85,
       "endsAt": null,
       "steamAppId": 373420,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Anomaly: Warzone Earth",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=av67VKesLH3XzxuoPfd8MJu0aHvhbxvOioXxQCP03P4%3D",
+      "currency": "USD",
+      "price": 0.82,
+      "list": 9.99,
+      "pct": 92,
+      "endsAt": null,
+      "steamAppId": 91200,
       "slugIfTracked": null
     },
     {
@@ -770,6 +938,18 @@
       "slugIfTracked": "disco-elysium-the-final-cut"
     },
     {
+      "title": "Dungeon Siege",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=aaUINTyiwp%2B2O%2FTt7k68w0VJo4oNsCmpqCtCyWmDKpw%3D",
+      "currency": "USD",
+      "price": 0.98,
+      "list": 6.99,
+      "pct": 86,
+      "endsAt": null,
+      "steamAppId": 39190,
+      "slugIfTracked": null
+    },
+    {
       "title": "Train Sim World 6: Special Edition",
       "storeId": "gamersgate",
       "url": "https://www.cheapshark.com/redirect?dealID=OPaHGZZ27kze2Wa4V01lJmNhOXp8DdWzPhwtSiUCVbA%3D",
@@ -780,6 +960,30 @@
       "endsAt": null,
       "steamAppId": null,
       "slugIfTracked": null
+    },
+    {
+      "title": "Windbound",
+      "storeId": "humble-store",
+      "url": "https://www.cheapshark.com/redirect?dealID=c0bNm12gkRUb9rnJXfjE7OKLCtnm3h%2FW28MCqRWyyTI%3D",
+      "currency": "USD",
+      "price": 1.99,
+      "list": 19.99,
+      "pct": 90,
+      "endsAt": null,
+      "steamAppId": 1162130,
+      "slugIfTracked": null
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "storeId": "gog",
+      "url": "https://www.cheapshark.com/redirect?dealID=xU4%2BM7nUC4PAlQ64lVq1yohkA8%2FhDvM3rscityhvcOA%3D",
+      "currency": "USD",
+      "price": 7.99,
+      "list": 39.99,
+      "pct": 80,
+      "endsAt": null,
+      "steamAppId": 292030,
+      "slugIfTracked": "the-witcher-3-wild-hunt"
     },
     {
       "title": "Captain Tsubasa: Rise of New Champions - Ultimate Edition",
@@ -854,6 +1058,18 @@
       "slugIfTracked": null
     },
     {
+      "title": "The Witcher: Enhanced Edition Director's Cut",
+      "storeId": "gog",
+      "url": "https://www.cheapshark.com/redirect?dealID=aZ%2F7TtJLwk3XO9Grnstt0GRZGQamrpM6%2BMdi%2BZIQVe0%3D",
+      "currency": "USD",
+      "price": 1.49,
+      "list": 9.99,
+      "pct": 85,
+      "endsAt": null,
+      "steamAppId": 20900,
+      "slugIfTracked": null
+    },
+    {
       "title": "Roguebook",
       "storeId": "gamebillet",
       "url": "https://www.cheapshark.com/redirect?dealID=MY%2BZHGhrjbfl%2BDK3UeuQs9Hypb1jXr2tkdZDreuaZ%2FI%3D",
@@ -863,6 +1079,18 @@
       "pct": 94,
       "endsAt": null,
       "steamAppId": 1076200,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Tails of Iron",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=GflELbqfy3TgMopKbn4TIC7ntgD%2Fsae8DTJ4kwmjr6c%3D",
+      "currency": "USD",
+      "price": 2.46,
+      "list": 24.99,
+      "pct": 90,
+      "endsAt": null,
+      "steamAppId": 1283410,
       "slugIfTracked": null
     },
     {
@@ -902,18 +1130,6 @@
       "slugIfTracked": "disco-elysium-the-final-cut"
     },
     {
-      "title": "DOOM: The Dark Ages - Revelations -",
-      "storeId": "gamesplanet",
-      "url": "https://www.cheapshark.com/redirect?dealID=UPHJEKxukEb7MYEbL8WKJakwjt3COdqkU9W%2B1%2BaYp6w%3D",
-      "currency": "USD",
-      "price": 9.24,
-      "list": 19.99,
-      "pct": 54,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
       "title": "Ace Combat 7: Skies Unknown - TOP GUN: Maverick Edition",
       "storeId": "gamesplanet",
       "url": "https://www.cheapshark.com/redirect?dealID=yP%2Bq8GGFGWuSnRYzOUU6rceJ5prAHkZbGJOagkjhWJA%3D",
@@ -938,12 +1154,72 @@
       "slugIfTracked": null
     },
     {
+      "title": "DOOM: The Dark Ages - Revelations -",
+      "storeId": "gamesplanet",
+      "url": "https://www.cheapshark.com/redirect?dealID=UPHJEKxukEb7MYEbL8WKJakwjt3COdqkU9W%2B1%2BaYp6w%3D",
+      "currency": "USD",
+      "price": 9.24,
+      "list": 19.99,
+      "pct": 54,
+      "endsAt": null,
+      "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Borderlands 3",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=U%2Bf0VQyiojbRrGJSe6GHdjbUm2GvPq4l7QDv0TMzDak%3D",
+      "currency": "USD",
+      "price": 5.28,
+      "list": 59.99,
+      "pct": 91,
+      "endsAt": null,
+      "steamAppId": 397540,
+      "slugIfTracked": "borderlands-3"
+    },
+    {
+      "title": "Anomaly 2",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=n2rfD%2BgfLpat3EBGnImxd9fAS5oshEB3rEqzYCr3vWA%3D",
+      "currency": "USD",
+      "price": 1.23,
+      "list": 14.99,
+      "pct": 92,
+      "endsAt": null,
+      "steamAppId": 236730,
+      "slugIfTracked": null
+    },
+    {
       "title": "Assassins Creed Odyssey Ultimate Edition",
       "storeId": "greenmangaming",
       "url": "https://www.cheapshark.com/redirect?dealID=vKP%2FWvFmARDALVA2nhwcj6B%2F7r2glBfJ5XnSqT7CqRM%3D",
       "currency": "USD",
       "price": 21.6,
       "list": 119.99,
+      "pct": 82,
+      "endsAt": null,
+      "steamAppId": null,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Roguebook",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=WBioZ8pMNnGvv2sGf1Sh%2BTRuinsj5ViI4su9sXKi%2FdM%3D",
+      "currency": "USD",
+      "price": 2.13,
+      "list": 24.99,
+      "pct": 91,
+      "endsAt": null,
+      "steamAppId": 1076200,
+      "slugIfTracked": null
+    },
+    {
+      "title": "XCOM 2: War of the Chosen",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=Xsj6dwosGui2XnWvq0Kfeu5y6pnGsX0JN3c6TofpjS8%3D",
+      "currency": "USD",
+      "price": 3.52,
+      "list": 19.99,
       "pct": 82,
       "endsAt": null,
       "steamAppId": null,
@@ -971,6 +1247,18 @@
       "pct": 90,
       "endsAt": null,
       "steamAppId": 558420,
+      "slugIfTracked": null
+    },
+    {
+      "title": "Monster Hunter World: Iceborne",
+      "storeId": "humble-store",
+      "url": "https://www.cheapshark.com/redirect?dealID=7S%2Fqnr7mN2CIvUOdUx4gSkgrNUp%2BwBmGAEDj9sYKZIE%3D",
+      "currency": "USD",
+      "price": 5.99,
+      "list": 39.99,
+      "pct": 85,
+      "endsAt": null,
+      "steamAppId": null,
       "slugIfTracked": null
     },
     {
@@ -1058,352 +1346,52 @@
       "slugIfTracked": "limbo"
     },
     {
-      "title": "Tom Clancy's Ghost Recon",
-      "storeId": "uplay",
-      "url": "https://www.cheapshark.com/redirect?dealID=9qh%2F3zKW3gSWfZKSgtfG643N4Kt16k%2FI%2F4ULuBLoFg0%3D",
+      "title": "The Holy Gosh Darn",
+      "storeId": "greenmangaming",
+      "url": "https://www.cheapshark.com/redirect?dealID=paFkRmCNCSf3eukzHP3pAi0DrxmWns5pF5WXO%2B47E5w%3D",
       "currency": "USD",
-      "price": 1,
-      "list": 9.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": 15300,
-      "slugIfTracked": null
-    },
-    {
-      "title": "One Piece: Pirate Warriors 4 - Ultimate Edition",
-      "storeId": "gamesplanet",
-      "url": "https://www.cheapshark.com/redirect?dealID=3jKLaD8NUkoJzWEm9yqA4vWmdNTOYvF0E8%2BV9%2FoSI1o%3D",
-      "currency": "USD",
-      "price": 15.44,
-      "list": 89.99,
-      "pct": 83,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Tumblestone",
-      "storeId": "humble-store",
-      "url": "https://www.cheapshark.com/redirect?dealID=vBcBR5HWelc%2BiepW0ceo1R9oJ%2B9wpjDbDU2s07JCbvk%3D",
-      "currency": "USD",
-      "price": 2.49,
-      "list": 24.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": 269710,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Lacuna  A Sci-Fi Noir Adventure",
-      "storeId": "steam",
-      "url": "https://www.cheapshark.com/redirect?dealID=QynqV9Jil2aK5kn3aCSGIGetSgD8Qzx3RcC1kfC9Rvo%3D",
-      "currency": "USD",
-      "price": 1.59,
-      "list": 15.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": 1364100,
-      "slugIfTracked": null
-    },
-    {
-      "title": "MORDHAU",
-      "storeId": "epic-games-store",
-      "url": "https://www.cheapshark.com/redirect?dealID=JhUomOLFVv7VsfOHH6lbb6EOrD0cYywJBXT3xp8Mrnw%3D",
-      "currency": "USD",
-      "price": 2.99,
-      "list": 29.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": 629760,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Just Cause 2",
-      "storeId": "steam",
-      "url": "https://www.cheapshark.com/redirect?dealID=z4El8C19yCEHrk1%2ByEedebThQVbblI7H0Z%2BAmxgZiS8%3D",
-      "currency": "USD",
-      "price": 1.49,
-      "list": 14.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": 8190,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Bionic Bay",
-      "storeId": "indiegala",
-      "url": "https://www.cheapshark.com/redirect?dealID=qn70WHz46JtiQCIR7YovGiTjoqj8rLPqwxuArijb9Bw%3D",
-      "currency": "USD",
-      "price": 4.08,
-      "list": 19.99,
-      "pct": 80,
-      "endsAt": null,
-      "steamAppId": 1928690,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Warhammer Age of Sigmar: Realms of Ruin Ultimate Edition",
-      "storeId": "gamesplanet",
-      "url": "https://www.cheapshark.com/redirect?dealID=zt29FWQda8E5SsHpdDx7Juu7DwZKqdFbQsF5Kp4L5lI%3D",
-      "currency": "USD",
-      "price": 13.99,
-      "list": 74.99,
-      "pct": 81,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Assassin's Creed Odyssey - Deluxe Edition",
-      "storeId": "gamesplanet",
-      "url": "https://www.cheapshark.com/redirect?dealID=j46CiZP1igYcQ4VBE9PsYhpLCPCNmeQ%2FpH3sbAfUsBs%3D",
-      "currency": "USD",
-      "price": 14.65,
-      "list": 79.99,
-      "pct": 82,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "The Crew Motorfest Deluxe Edition",
-      "storeId": "gamesplanet",
-      "url": "https://www.cheapshark.com/redirect?dealID=JNQDQFegQby4K%2BRz6Wm8iQ7vrA44SVegf7vZXoedke0%3D",
-      "currency": "USD",
-      "price": 14.65,
-      "list": 79.99,
-      "pct": 82,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Ace Combat 7: Skies Unknown - TOP GUN: Maverick Ultimate Edition",
-      "storeId": "gamesplanet",
-      "url": "https://www.cheapshark.com/redirect?dealID=Q7pgecSoHlrbeF1OLe4YsS7q3%2BJTLPQVNZZqnfytfgA%3D",
-      "currency": "USD",
-      "price": 16.99,
-      "list": 99.99,
-      "pct": 83,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Under The Waves",
-      "storeId": "gamebillet",
-      "url": "https://www.cheapshark.com/redirect?dealID=JLjvp9626bGIcpt6tlT5HXCz18Xpc5Wy0l2RoDgC2Bk%3D",
-      "currency": "USD",
-      "price": 2.46,
-      "list": 29.99,
-      "pct": 92,
-      "endsAt": null,
-      "steamAppId": 1975440,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Torchlight II",
-      "storeId": "gamebillet",
-      "url": "https://www.cheapshark.com/redirect?dealID=Jgbh2tGYA120WFXCLSaYH%2BWwqobcFelAFGg5Ejblfok%3D",
-      "currency": "USD",
-      "price": 3.16,
+      "price": 3.2,
       "list": 19.99,
       "pct": 84,
       "endsAt": null,
-      "steamAppId": 200710,
+      "steamAppId": 1466230,
       "slugIfTracked": null
     },
     {
-      "title": "DEATHLOOP - Deluxe Edition",
+      "title": "Warhammer: Chaosbane",
       "storeId": "greenmangaming",
-      "url": "https://www.cheapshark.com/redirect?dealID=e8SfhRjO2KMp5nbPUlN7LExIaw%2BNcidU5x9hRIASnZ8%3D",
+      "url": "https://www.cheapshark.com/redirect?dealID=UDgEdfndlmZjHxePow%2FTNj9j%2B3kdCmcb6FNAzH7ocJY%3D",
       "currency": "USD",
-      "price": 13.76,
-      "list": 79.99,
-      "pct": 83,
+      "price": 1.28,
+      "list": 29.99,
+      "pct": 96,
       "endsAt": null,
-      "steamAppId": null,
+      "steamAppId": 774241,
       "slugIfTracked": null
     },
     {
-      "title": "Dishonored Complete Collection",
+      "title": "Eldest Souls",
       "storeId": "greenmangaming",
-      "url": "https://www.cheapshark.com/redirect?dealID=Y08kGTZjx2mC0Gz6wfvuVo%2FJu6bL4JrPoP3tcExHv48%3D",
+      "url": "https://www.cheapshark.com/redirect?dealID=ounn%2Fomvc1GAdy8MtvyyEiXcKR8DUqQUGxAB3%2BOLB8I%3D",
       "currency": "USD",
-      "price": 13.76,
-      "list": 79.99,
-      "pct": 83,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Assassins Creed Valhalla Deluxe Edition",
-      "storeId": "greenmangaming",
-      "url": "https://www.cheapshark.com/redirect?dealID=TsnIChIEn600PkSebzYkhl7TfPkZ7k3OHEuvdfPFKok%3D",
-      "currency": "USD",
-      "price": 18,
-      "list": 79.99,
-      "pct": 77,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "RoboCop: Rogue City",
-      "storeId": "gamebillet",
-      "url": "https://www.cheapshark.com/redirect?dealID=yWYF%2B7AvgfvHS6Cx4Py%2F%2BCSVlc%2B6ffU7WNyz5tVuqOo%3D",
-      "currency": "USD",
-      "price": 2.91,
-      "list": 39.99,
-      "pct": 93,
-      "endsAt": null,
-      "steamAppId": 1681430,
-      "slugIfTracked": null
-    },
-    {
-      "title": "INSIDE",
-      "storeId": "steam",
-      "url": "https://www.cheapshark.com/redirect?dealID=MNeCPwsOA2Ep3wim%2FLwY4C0rcPZGEkwjwOSlzBwXs8c%3D",
-      "currency": "USD",
-      "price": 2.49,
-      "list": 24.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": 304430,
-      "slugIfTracked": "inside"
-    },
-    {
-      "title": "Beyond: Two Souls",
-      "storeId": "indiegala",
-      "url": "https://www.cheapshark.com/redirect?dealID=cbRuESVm78zg2qw2tbumEPigXvJ20ISm443oiBerFqo%3D",
-      "currency": "USD",
-      "price": 1.68,
+      "price": 1.64,
       "list": 19.99,
       "pct": 92,
       "endsAt": null,
-      "steamAppId": 960990,
+      "steamAppId": 1108590,
       "slugIfTracked": null
     },
     {
-      "title": "Fly'N",
+      "title": "Train Sim World 6",
       "storeId": "wingamestore",
-      "url": "https://www.cheapshark.com/redirect?dealID=CygdT1AXmlrr%2BHbzYkDGm%2Fhy7JRITQa0nOjPyI0Yafs%3D",
+      "url": "https://www.cheapshark.com/redirect?dealID=PMHqHWGOfhgjGyklz4GAEOYhsBkWV08TOsI6yxQQguM%3D",
       "currency": "USD",
-      "price": 0.99,
-      "list": 9.99,
-      "pct": 90,
+      "price": 9.39,
+      "list": 49.99,
+      "pct": 81,
       "endsAt": null,
-      "steamAppId": 223730,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Dungeon Siege",
-      "storeId": "steam",
-      "url": "https://www.cheapshark.com/redirect?dealID=Hli8KbDatTjYjj%2BjpnfUuVKjxPwQPmblW1llCXyMMmU%3D",
-      "currency": "USD",
-      "price": 0.97,
-      "list": 6.99,
-      "pct": 86,
-      "endsAt": null,
-      "steamAppId": 39190,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Frozen Synapse",
-      "storeId": "steam",
-      "url": "https://www.cheapshark.com/redirect?dealID=%2B%2FgYqhqp1U7sr4lEI%2BhY%2BGHGfUya5xHtnXiIEZ9xrvU%3D",
-      "currency": "USD",
-      "price": 2.49,
-      "list": 24.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": 98200,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Tom Clancys Ghost Recon Wildlands Definitive Edition",
-      "storeId": "epic-games-store",
-      "url": "https://www.cheapshark.com/redirect?dealID=oKmdyGLSmcNqFxVmBwSdK3JbpnROixMyhJIHDo%2Be06A%3D",
-      "currency": "USD",
-      "price": 24.99,
-      "list": 99.99,
-      "pct": 75,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Tom Clancys Ghost Recon Wildlands Definitive Edition",
-      "storeId": "uplay",
-      "url": "https://www.cheapshark.com/redirect?dealID=TEFxcW5iyHmlSAGpzlyZqfiDEhkN3ca1GJFCiUVIJ4c%3D",
-      "currency": "USD",
-      "price": 25,
-      "list": 99.99,
-      "pct": 75,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Golf With Your Friends - Complete the Set",
-      "storeId": "gog",
-      "url": "https://www.cheapshark.com/redirect?dealID=%2BrHIxXrBkRZrZD5%2F7i0d%2BTDCEt%2BITRS6i%2BM7Muf0NQk%3D",
-      "currency": "USD",
-      "price": 8.25,
-      "list": 82.65,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Need for Speed Most Wanted",
-      "storeId": "epic-games-store",
-      "url": "https://www.cheapshark.com/redirect?dealID=XJufk%2FmqLg9pmDNs9h0T%2F5jdiuB%2B3CGyG8tUu18Ri%2FE%3D",
-      "currency": "USD",
-      "price": 1.99,
-      "list": 19.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": 1262560,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Monster Hunter World: Iceborne",
-      "storeId": "greenmangaming",
-      "url": "https://www.cheapshark.com/redirect?dealID=A%2BfKyJouVdvJWYD0EXBq4KEWqvRrnz60wNkT4PryN4Q%3D",
-      "currency": "USD",
-      "price": 5.1,
-      "list": 39.99,
-      "pct": 87,
-      "endsAt": null,
-      "steamAppId": null,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Men of War: Assault Squad",
-      "storeId": "gog",
-      "url": "https://www.cheapshark.com/redirect?dealID=fqXHYfcVqJjCUaTeg9ay0S4W%2FuLfTjg3HB2L2OiS0U4%3D",
-      "currency": "USD",
-      "price": 0.99,
-      "list": 9.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": 64000,
-      "slugIfTracked": null
-    },
-    {
-      "title": "Shadowgrounds Survivor",
-      "storeId": "gog",
-      "url": "https://www.cheapshark.com/redirect?dealID=OU0dA96U72vX3%2Bpr%2Bs3wrljbqBUYae9P%2BK8YcTO0OzU%3D",
-      "currency": "USD",
-      "price": 0.59,
-      "list": 5.99,
-      "pct": 90,
-      "endsAt": null,
-      "steamAppId": 11200,
-      "slugIfTracked": null
+      "steamAppId": 3656800,
+      "slugIfTracked": "train-sim-world-6"
     }
   ]
 }

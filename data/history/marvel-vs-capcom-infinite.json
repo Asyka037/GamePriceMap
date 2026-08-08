@@ -1,11 +1,11 @@
 {
   "slug": "marvel-vs-capcom-infinite",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "168444",
   "atl": {
     "pc": {
-      "usd": 4.79,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.28,
+      "date": "2026-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

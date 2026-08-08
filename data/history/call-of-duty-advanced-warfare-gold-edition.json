@@ -1,11 +1,11 @@
 {
   "slug": "call-of-duty-advanced-warfare-gold-edition",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "143131",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2019-11-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

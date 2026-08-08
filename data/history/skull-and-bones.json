@@ -1,11 +1,11 @@
 {
   "slug": "skull-and-bones",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "266409",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2026-05-12",
+      "seed": "cheapshark"
     }
   },
   "events": [

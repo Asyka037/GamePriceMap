@@ -1,11 +1,11 @@
 {
   "slug": "diggin",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "327021",
   "atl": {
     "pc": {
-      "usd": 6.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.89,
+      "date": "2026-07-17",
+      "seed": "cheapshark"
     }
   },
   "events": [

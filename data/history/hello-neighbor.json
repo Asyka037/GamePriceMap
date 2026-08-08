@@ -1,11 +1,11 @@
 {
   "slug": "hello-neighbor",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "161438",
   "atl": {
     "pc": {
-      "usd": 29.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2026-03-19",
+      "seed": "cheapshark"
     }
   },
   "events": [

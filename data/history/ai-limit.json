@@ -1,11 +1,11 @@
 {
   "slug": "ai-limit",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "296659",
   "atl": {
     "pc": {
-      "usd": 24.49,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 19.89,
+      "date": "2026-06-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

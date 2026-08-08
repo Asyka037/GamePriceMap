@@ -1,11 +1,11 @@
 {
   "slug": "into-the-breach",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "172155",
   "atl": {
     "pc": {
-      "usd": 5.24,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 2.99,
+      "date": "2025-08-30",
+      "seed": "cheapshark"
     }
   },
   "events": [

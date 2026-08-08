@@ -1,11 +1,11 @@
 {
   "slug": "ufo-50",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "291523",
   "atl": {
     "pc": {
-      "usd": 24.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 17.49,
+      "date": "2026-06-25",
+      "seed": "cheapshark"
     }
   },
   "events": [

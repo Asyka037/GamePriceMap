@@ -1,11 +1,11 @@
 {
   "slug": "surviving-mars-relaunched",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "311566",
   "atl": {
     "pc": {
-      "usd": 39.99,
+      "usd": 28.11,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

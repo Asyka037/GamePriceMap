@@ -1,11 +1,11 @@
 {
   "slug": "incrempire",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "327405",
   "atl": {
     "pc": {
-      "usd": 7.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.99,
+      "date": "2026-07-22",
+      "seed": "cheapshark"
     }
   },
   "events": [

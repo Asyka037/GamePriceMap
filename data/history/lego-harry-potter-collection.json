@@ -1,11 +1,11 @@
 {
   "slug": "lego-harry-potter-collection",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "292301",
   "atl": {
     "pc": {
-      "usd": 5.99,
+      "usd": 4.76,
       "date": "2026-07-31",
-      "seed": "self"
+      "seed": "cheapshark"
     }
   },
   "events": [

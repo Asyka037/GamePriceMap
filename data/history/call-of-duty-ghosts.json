@@ -1,11 +1,11 @@
 {
   "slug": "call-of-duty-ghosts",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "97378",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 14.99,
+      "date": "2014-11-29",
+      "seed": "cheapshark"
     }
   },
   "events": [

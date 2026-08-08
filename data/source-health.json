@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-07T08:42:32.819Z",
+  "updatedAt": "2026-08-08T08:14:45.039Z",
   "sources": {
     "steam-regional": {
-      "lastAttemptAt": "2026-08-07T08:35:31.731Z",
-      "lastSuccessAt": "2026-08-07T08:35:31.731Z",
+      "lastAttemptAt": "2026-08-08T08:07:48.546Z",
+      "lastSuccessAt": "2026-08-08T08:07:48.546Z",
       "consecutiveFailures": 0,
-      "note": "changed 3, unchanged 88, skipped 0, failed region requests 0, expected 91"
+      "note": "changed 1, unchanged 90, skipped 0, failed region requests 0, expected 91"
     },
     "eshop-regional": {
-      "lastAttemptAt": "2026-08-07T08:37:48.266Z",
-      "lastSuccessAt": "2026-08-07T08:37:48.266Z",
+      "lastAttemptAt": "2026-08-08T08:10:04.999Z",
+      "lastSuccessAt": "2026-08-08T08:10:04.999Z",
       "consecutiveFailures": 0,
-      "note": "changed 2, unchanged 95, skipped 0, guarded coverage drops 0, failed region requests 0, expected 97"
+      "note": "changed 0, unchanged 97, skipped 0, guarded coverage drops 0, failed region requests 0, expected 97"
     },
     "xbox-us": {
       "lastAttemptAt": "2026-08-03T12:22:40.898Z",
@@ -68,10 +68,10 @@
       "note": "changed 77, unchanged 0, failed games 0, expected 77"
     },
     "meta:shard-6": {
-      "lastAttemptAt": "2026-07-23T10:02:43.974Z",
-      "lastSuccessAt": "2026-07-23T10:02:43.974Z",
+      "lastAttemptAt": "2026-08-08T08:14:45.039Z",
+      "lastSuccessAt": "2026-08-08T08:14:45.039Z",
       "consecutiveFailures": 0,
-      "note": "changed 20, unchanged 0, failed games 0, expected 20"
+      "note": "changed 75, unchanged 5, failed games 0, expected 80"
     },
     "meta:shard-7": {
       "lastAttemptAt": "2026-07-24T09:59:31.305Z",
@@ -152,10 +152,10 @@
       "note": "changed 32, unchanged 109, skipped 0, failed region requests 0, expected 141"
     },
     "steam-regional:extended-6": {
-      "lastAttemptAt": "2026-07-30T10:00:44.342Z",
-      "lastSuccessAt": "2026-07-30T10:00:44.342Z",
+      "lastAttemptAt": "2026-08-08T08:09:20.777Z",
+      "lastSuccessAt": "2026-08-08T08:09:20.777Z",
       "consecutiveFailures": 0,
-      "note": "changed 5, unchanged 10, skipped 0, failed region requests 0, expected 15"
+      "note": "changed 39, unchanged 97, skipped 0, failed region requests 0, expected 136"
     },
     "psn-us": {
       "lastAttemptAt": null,

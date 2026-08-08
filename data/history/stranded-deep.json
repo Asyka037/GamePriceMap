@@ -1,11 +1,11 @@
 {
   "slug": "stranded-deep",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "141220",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.38,
+      "date": "2026-05-20",
+      "seed": "cheapshark"
     }
   },
   "events": [

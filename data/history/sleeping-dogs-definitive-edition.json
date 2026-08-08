@@ -1,11 +1,11 @@
 {
   "slug": "sleeping-dogs-definitive-edition",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "127426",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 1.99,
+      "date": "2019-06-21",
+      "seed": "cheapshark"
     }
   },
   "events": [
@@ -15,6 +15,13 @@
       "cc": "US",
       "usd": 19.99,
       "pct": null
+    },
+    {
+      "d": "2026-08-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 2.99,
+      "pct": 85
     }
   ]
 }

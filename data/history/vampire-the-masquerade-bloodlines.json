@@ -1,11 +1,11 @@
 {
   "slug": "vampire-the-masquerade-bloodlines",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "449",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 4.39,
+      "date": "2018-10-03",
+      "seed": "cheapshark"
     }
   },
   "events": [

@@ -1,11 +1,11 @@
 {
   "slug": "turing-complete",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "235354",
   "atl": {
     "pc": {
-      "usd": 19.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 13.99,
+      "date": "2021-10-02",
+      "seed": "cheapshark"
     }
   },
   "events": [

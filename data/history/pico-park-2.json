@@ -1,11 +1,11 @@
 {
   "slug": "pico-park-2",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "291220",
   "atl": {
     "pc": {
-      "usd": 8.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 5.39,
+      "date": "2025-08-19",
+      "seed": "cheapshark"
     }
   },
   "events": [
@@ -15,6 +15,13 @@
       "cc": "US",
       "usd": 8.99,
       "pct": null
+    },
+    {
+      "d": "2026-08-08",
+      "ch": "steam",
+      "cc": "US",
+      "usd": 6.29,
+      "pct": 30
     }
   ]
 }

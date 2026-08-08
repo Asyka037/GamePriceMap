@@ -1,11 +1,11 @@
 {
   "slug": "gambonanza",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "321404",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 8.69,
+      "date": "2026-07-06",
+      "seed": "cheapshark"
     }
   },
   "events": [

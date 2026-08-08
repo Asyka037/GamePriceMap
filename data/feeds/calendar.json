@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T08:38:19.689Z",
+  "updatedAt": "2026-08-08T08:10:33.630Z",
   "months": {
     "2026-08": [
       {
@@ -29,58 +29,6 @@
         "slugIfTracked": null
       },
       {
-        "title": "Life of a Thug",
-        "date": "2026-08-07",
-        "month": "2026-08",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/2948130/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2948130/58bc6f051747cc5c1d4efe7f2be7b4dfd1ea439e/header.jpg?t=1781589549",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Minky",
-        "date": "2026-08-07",
-        "month": "2026-08",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4992400/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992400/9aa7a417322181438ebb5c43f631f745a73f2b05/header.jpg?t=1786044482",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Molluscarium",
-        "date": "2026-08-07",
-        "month": "2026-08",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4424470/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4424470/104c79586f78c77871ac3ec7fc19eef735c98e49/header.jpg?t=1785096205",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Smelly Bubbles",
-        "date": "2026-08-07",
-        "month": "2026-08",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4955890/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4955890/f3239ab8b17f928dff38e2d569f81b6c55e0220c/header.jpg?t=1785333932",
-        "slugIfTracked": null
-      },
-      {
         "title": "Tailbreak",
         "date": "2026-08-07",
         "month": "2026-08",
@@ -94,42 +42,107 @@
         "slugIfTracked": null
       },
       {
-        "title": "Tower Defence: Back to the roots 2",
-        "date": "2026-08-07",
-        "month": "2026-08",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4741830/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4741830/45926686c4cd2311ef69e66730a909aa4fc3d423/header.jpg?t=1784564121",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Ultimate Dengon Game : A 3D Telephone Game",
-        "date": "2026-08-07",
-        "month": "2026-08",
-        "platforms": [
-          "pc"
-        ],
-        "urls": {
-          "pc": "https://store.steampowered.com/app/4991530/"
-        },
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4991530/53c6961d29a4409ebc18760cc56fc23c4e509a68/header.jpg?t=1786079615",
-        "slugIfTracked": null
-      },
-      {
-        "title": "SuperDog",
+        "title": "Pight",
         "date": "2026-08-08",
         "month": "2026-08",
         "platforms": [
-          "switch"
+          "pc"
         ],
         "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/SuperDog-3148311.html"
+          "pc": "https://store.steampowered.com/app/2682270/"
         },
-        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/n4hbnj2gnm23luwltbqv",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2682270/67b6b98a7fd5e249c033139a0dc9dcac4200f550/header.jpg?t=1783724453",
+        "slugIfTracked": null
+      },
+      {
+        "title": "100 Mystic Cats",
+        "date": "2026-08-09",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/4326430/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4326430/0c0e6e5b84edb312f801210c2082170ef04aaeae/header.jpg?t=1786118912",
+        "slugIfTracked": null
+      },
+      {
+        "title": "ASCEND.exe",
+        "date": "2026-08-09",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/4875270/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4875270/6261d0166e35a0ae490c6e25a84b41ac307de607/header.jpg?t=1784289511",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Chicken_Run",
+        "date": "2026-08-09",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/4901590/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4901590/d3acdea553838574dd9e3a13bb57b7aadbf172b1/header.jpg?t=1785162511",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Paper2Galgame",
+        "date": "2026-08-09",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/4537400/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4537400/8cf4e7603011784d6ebcb23e64b2ca8db06321ca/header.jpg?t=1785963249",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Playworlds",
+        "date": "2026-08-09",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/4911480/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911480/549b741a174608da1aef6a2c05e84f3146c827be/header.jpg?t=1785725532",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Samurai beat demons",
+        "date": "2026-08-09",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/3791630/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791630/119270308a15e8c977faff7481d310612a0a49e5/header.jpg?t=1785222478",
+        "slugIfTracked": null
+      },
+      {
+        "title": "The Money Pit",
+        "date": "2026-08-09",
+        "month": "2026-08",
+        "platforms": [
+          "pc"
+        ],
+        "urls": {
+          "pc": "https://store.steampowered.com/app/3971290/"
+        },
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971290/f1d84d5d1d8971d9aa3188fc2bc20d139b8c43b0/header.jpg?t=1785932783",
         "slugIfTracked": null
       },
       {
@@ -603,6 +616,32 @@
         "slugIfTracked": null
       },
       {
+        "title": "Beach Volleyball Boys: Hot Spike",
+        "date": "2026-08-20",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Beach-Volleyball-Boys-Hot-Spike-3157393.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/qjtqf62y5cjnhsr6xelg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Build My Arcade",
+        "date": "2026-08-20",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Build-My-Arcade-3157268.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/wp5vp0mazbvnxp9yppjr",
+        "slugIfTracked": null
+      },
+      {
         "title": "Dark Reflection",
         "date": "2026-08-20",
         "month": "2026-08",
@@ -704,6 +743,32 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-games/OVER-REQUIEMZ-3141803.html"
         },
         "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/overrequiemz/16x9_OverRequiemz_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Puppergeist",
+        "date": "2026-08-20",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Puppergeist-3157562.html"
+        },
+        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/nadjyrjfakx6o6sofhjf",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Hearthwater",
+        "date": "2026-08-21",
+        "month": "2026-08",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Hearthwater-3158193.html"
+        },
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/hearthwater/16x9_Hearthwater_image500w.jpg",
         "slugIfTracked": null
       },
       {
@@ -971,6 +1036,19 @@
         "slugIfTracked": null
       },
       {
+        "title": "AereA",
+        "date": "2026-09-03",
+        "month": "2026-09",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/AereA-3157164.html"
+        },
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/aerea/16x9_Aerea_image500w.jpg",
+        "slugIfTracked": null
+      },
+      {
         "title": "Marsupilami 2 – Salsa Palombia",
         "date": "2026-09-03",
         "month": "2026-09",
@@ -1142,19 +1220,6 @@
         "slugIfTracked": null
       },
       {
-        "title": "Welcome To Mars 9: The Tale Of River",
-        "date": "2026-09-09",
-        "month": "2026-09",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Welcome-To-Mars-9-The-Tale-Of-River-3039726.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/welcometomars9thetaleofriver/16x9_WelcomeToMars9TheTaleOfRiver_image500w.jpg",
-        "slugIfTracked": null
-      },
-      {
         "title": "FOUNTAINS",
         "date": "2026-09-10",
         "month": "2026-09",
@@ -1243,6 +1308,19 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Roman-Sands-RE-Build-3147016.html"
         },
         "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/yjktlzkft2iiwqkoasm2",
+        "slugIfTracked": null
+      },
+      {
+        "title": "Welcome To Mars 9: The Tale Of River",
+        "date": "2026-09-16",
+        "month": "2026-09",
+        "platforms": [
+          "switch"
+        ],
+        "urls": {
+          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Welcome-To-Mars-9-The-Tale-Of-River-3039726.html"
+        },
+        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/welcometomars9thetaleofriver/16x9_WelcomeToMars9TheTaleOfRiver_image500w.jpg",
         "slugIfTracked": null
       },
       {
@@ -1739,58 +1817,6 @@
           "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-games/Sesame-Street-Friends-Fun-3147246.html"
         },
         "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/pvfbdc1gx57p31bbktro",
-        "slugIfTracked": null
-      },
-      {
-        "title": "The Witch's Bakery",
-        "date": "2026-10-14",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-2-games/The-Witch-s-Bakery-3128985.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thewitchsbakery/16x9_TheWitchsBakery_image500w.jpg",
-        "slugIfTracked": null
-      },
-      {
-        "title": "The Witch's Bakery",
-        "date": "2026-10-14",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-games/The-Witch-s-Bakery-3128981.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/thewitchsbakery/16x9_TheWitchsBakery_image500w.jpg",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Castlevania: Belmont's Curse",
-        "date": "2026-10-15",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Castlevania-Belmont-s-Curse-3147431.html"
-        },
-        "image": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/bt0sclfzgtc9k3nwuk79",
-        "slugIfTracked": null
-      },
-      {
-        "title": "Pardon My French Toast",
-        "date": "2026-10-15",
-        "month": "2026-10",
-        "platforms": [
-          "switch"
-        ],
-        "urls": {
-          "switch": "https://www.nintendo.co.uk/en-gb/Games/Nintendo-Switch-download-software/Pardon-My-French-Toast-2840377.html"
-        },
-        "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/pardonmyfrenchtoast/2x1_PardonMyFrenchToast_banner_image_wishlist_640w.jpg",
         "slugIfTracked": null
       }
     ]

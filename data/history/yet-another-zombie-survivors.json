@@ -1,11 +1,11 @@
 {
   "slug": "yet-another-zombie-survivors",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "267385",
   "atl": {
     "pc": {
-      "usd": 14.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 6.99,
+      "date": "2024-08-24",
+      "seed": "cheapshark"
     }
   },
   "events": [

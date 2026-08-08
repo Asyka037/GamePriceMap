@@ -1,11 +1,11 @@
 {
   "slug": "shadow-gambit-the-cursed-crew",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "270469",
   "atl": {
     "pc": {
-      "usd": 39.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 9.99,
+      "date": "2025-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

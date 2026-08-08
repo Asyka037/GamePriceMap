@@ -1,11 +1,11 @@
 {
   "slug": "west-of-loathing",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "171870",
   "atl": {
     "pc": {
-      "usd": 10.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 3.4,
+      "date": "2025-06-26",
+      "seed": "cheapshark"
     }
   },
   "events": [

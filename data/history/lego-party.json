@@ -1,11 +1,11 @@
 {
   "slug": "lego-party",
-  "cheapsharkGameId": null,
+  "cheapsharkGameId": "306763",
   "atl": {
     "pc": {
-      "usd": 27.99,
-      "date": "2026-07-31",
-      "seed": "self"
+      "usd": 24.68,
+      "date": "2026-06-28",
+      "seed": "cheapshark"
     }
   },
   "events": [
